@@ -112,3 +112,26 @@
 /service-areas/sutton-ma/storm-damage-restoration /services/storm-damage-restoration/ 301
 /service-areas/sutton-ma/water-damage-restoration/ /services/water-damage-restoration/ 301
 /service-areas/sutton-ma/water-damage-restoration /services/water-damage-restoration/ 301
+# home-city consolidation 2026-08-18 — home-city pages folded into home + main service pages (scripts/home_city_migrate.py)
+/service-areas/auburn-ma / 301
+/service-areas/auburn-ma/ / 301
+/service-areas/auburn-ma/air-duct-cleaning /services/air-duct-cleaning/ 301
+/service-areas/auburn-ma/air-duct-cleaning/ /services/air-duct-cleaning/ 301
+/service-areas/auburn-ma/biohazard-cleanup /services/biohazard-cleanup/ 301
+/service-areas/auburn-ma/biohazard-cleanup/ /services/biohazard-cleanup/ 301
+/service-areas/auburn-ma/contents-restoration /services/contents-restoration/ 301
+/service-areas/auburn-ma/contents-restoration/ /services/contents-restoration/ 301
+/service-areas/auburn-ma/crawl-space-encapsulation /services/crawl-space-encapsulation/ 301
+/service-areas/auburn-ma/crawl-space-encapsulation/ /services/crawl-space-encapsulation/ 301
+/service-areas/auburn-ma/emergency-board-up-tarping /services/emergency-board-up-tarping/ 301
+/service-areas/auburn-ma/emergency-board-up-tarping/ /services/emergency-board-up-tarping/ 301
+/service-areas/auburn-ma/fire-damage-restoration /services/fire-damage-restoration/ 301
+/service-areas/auburn-ma/fire-damage-restoration/ /services/fire-damage-restoration/ 301
+/service-areas/auburn-ma/mold-remediation /services/mold-remediation/ 301
+/service-areas/auburn-ma/mold-remediation/ /services/mold-remediation/ 301
+/service-areas/auburn-ma/sewage-cleanup /services/sewage-cleanup/ 301
+/service-areas/auburn-ma/sewage-cleanup/ /services/sewage-cleanup/ 301
+/service-areas/auburn-ma/storm-damage-restoration /services/storm-damage-restoration/ 301
+/service-areas/auburn-ma/storm-damage-restoration/ /services/storm-damage-restoration/ 301
+/service-areas/auburn-ma/water-damage-restoration /services/water-damage-restoration/ 301
+/service-areas/auburn-ma/water-damage-restoration/ /services/water-damage-restoration/ 301

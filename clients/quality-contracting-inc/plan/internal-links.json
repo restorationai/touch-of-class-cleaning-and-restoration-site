@@ -14,7 +14,6 @@
     "/services/air-duct-cleaning/",
     "/services/contents-restoration/",
     "/services/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/",
     "/service-areas/natick-ma/",
@@ -42,7 +41,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/",
     "/service-areas/natick-ma/",
@@ -79,7 +77,6 @@
   "/services/water-damage-restoration/": [
     "/services/",
     "/contact/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/service-areas/hopkinton-ma/water-damage-restoration/",
     "/service-areas/natick-ma/water-damage-restoration/",
@@ -98,7 +95,6 @@
   "/services/storm-damage-restoration/": [
     "/services/",
     "/contact/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/service-areas/hopkinton-ma/storm-damage-restoration/",
     "/service-areas/natick-ma/storm-damage-restoration/",
@@ -114,7 +110,6 @@
   "/services/fire-damage-restoration/": [
     "/services/",
     "/contact/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/fire-damage-restoration/",
@@ -132,7 +127,6 @@
   "/services/mold-remediation/": [
     "/services/",
     "/contact/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/service-areas/hopkinton-ma/mold-remediation/",
     "/service-areas/natick-ma/mold-remediation/",
@@ -151,7 +145,6 @@
   "/services/sewage-cleanup/": [
     "/services/",
     "/contact/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/service-areas/hopkinton-ma/sewage-cleanup/",
     "/service-areas/natick-ma/sewage-cleanup/",
@@ -167,7 +160,6 @@
   "/services/biohazard-cleanup/": [
     "/services/",
     "/contact/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/service-areas/hopkinton-ma/biohazard-cleanup/",
     "/service-areas/natick-ma/biohazard-cleanup/",
@@ -183,7 +175,6 @@
   "/services/emergency-board-up-tarping/": [
     "/services/",
     "/contact/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/service-areas/hopkinton-ma/emergency-board-up-tarping/",
     "/service-areas/natick-ma/emergency-board-up-tarping/",
@@ -199,7 +190,6 @@
   "/services/contents-restoration/": [
     "/services/",
     "/contact/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/service-areas/hopkinton-ma/contents-restoration/",
     "/service-areas/natick-ma/contents-restoration/",
@@ -215,7 +205,6 @@
   "/services/air-duct-cleaning/": [
     "/services/",
     "/contact/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/service-areas/hopkinton-ma/air-duct-cleaning/",
     "/service-areas/natick-ma/air-duct-cleaning/",
@@ -231,7 +220,6 @@
   "/services/crawl-space-encapsulation/": [
     "/services/",
     "/contact/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/service-areas/hopkinton-ma/crawl-space-encapsulation/",
     "/service-areas/natick-ma/crawl-space-encapsulation/",
@@ -243,23 +231,6 @@
     "/service-areas/westborough-ma/crawl-space-encapsulation/",
     "/service-areas/weston-ma/crawl-space-encapsulation/",
     "/service-areas/worcester-ma/crawl-space-encapsulation/"
-  ],
-  "/service-areas/auburn-ma/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
-    "/service-areas/auburn-ma/contents-restoration/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
-    "/service-areas/framingham-ma/",
-    "/service-areas/hopkinton-ma/",
-    "/service-areas/natick-ma/"
   ],
   "/service-areas/worcester-ma/": [
     "/service-areas/",
@@ -274,7 +245,6 @@
     "/service-areas/worcester-ma/air-duct-cleaning/",
     "/service-areas/worcester-ma/contents-restoration/",
     "/service-areas/worcester-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/"
   ],
@@ -291,7 +261,6 @@
     "/service-areas/shrewsbury-ma/air-duct-cleaning/",
     "/service-areas/shrewsbury-ma/contents-restoration/",
     "/service-areas/shrewsbury-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/"
   ],
@@ -308,7 +277,6 @@
     "/service-areas/westborough-ma/air-duct-cleaning/",
     "/service-areas/westborough-ma/contents-restoration/",
     "/service-areas/westborough-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/"
   ],
@@ -325,7 +293,6 @@
     "/service-areas/southborough-ma/air-duct-cleaning/",
     "/service-areas/southborough-ma/contents-restoration/",
     "/service-areas/southborough-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/"
   ],
@@ -342,7 +309,6 @@
     "/service-areas/hopkinton-ma/air-duct-cleaning/",
     "/service-areas/hopkinton-ma/contents-restoration/",
     "/service-areas/hopkinton-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/natick-ma/"
   ],
@@ -359,7 +325,6 @@
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/hopkinton-ma/",
     "/service-areas/natick-ma/"
   ],
@@ -376,7 +341,6 @@
     "/service-areas/natick-ma/air-duct-cleaning/",
     "/service-areas/natick-ma/contents-restoration/",
     "/service-areas/natick-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/"
   ],
@@ -393,7 +357,6 @@
     "/service-areas/wellesley-ma/air-duct-cleaning/",
     "/service-areas/wellesley-ma/contents-restoration/",
     "/service-areas/wellesley-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/"
   ],
@@ -410,7 +373,6 @@
     "/service-areas/needham-ma/air-duct-cleaning/",
     "/service-areas/needham-ma/contents-restoration/",
     "/service-areas/needham-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/"
   ],
@@ -427,7 +389,6 @@
     "/service-areas/newton-ma/air-duct-cleaning/",
     "/service-areas/newton-ma/contents-restoration/",
     "/service-areas/newton-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/"
   ],
@@ -444,106 +405,14 @@
     "/service-areas/weston-ma/air-duct-cleaning/",
     "/service-areas/weston-ma/contents-restoration/",
     "/service-areas/weston-ma/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/"
-  ],
-  "/service-areas/auburn-ma/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/auburn-ma/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
-    "/service-areas/framingham-ma/water-damage-restoration/",
-    "/service-areas/hopkinton-ma/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-ma/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/auburn-ma/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
-    "/service-areas/framingham-ma/storm-damage-restoration/",
-    "/service-areas/hopkinton-ma/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-ma/fire-damage-restoration/": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/auburn-ma/",
-    "/service-areas/auburn-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
-    "/service-areas/framingham-ma/fire-damage-restoration/",
-    "/service-areas/hopkinton-ma/fire-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-ma/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/auburn-ma/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
-    "/service-areas/framingham-ma/mold-remediation/",
-    "/service-areas/hopkinton-ma/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-ma/sewage-cleanup/": [
-    "/services/sewage-cleanup/",
-    "/service-areas/auburn-ma/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
-    "/service-areas/framingham-ma/sewage-cleanup/",
-    "/service-areas/hopkinton-ma/sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-ma/biohazard-cleanup/": [
-    "/services/biohazard-cleanup/",
-    "/service-areas/auburn-ma/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
-    "/service-areas/framingham-ma/biohazard-cleanup/",
-    "/service-areas/hopkinton-ma/biohazard-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-ma/emergency-board-up-tarping/": [
-    "/services/emergency-board-up-tarping/",
-    "/service-areas/auburn-ma/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
-    "/service-areas/framingham-ma/emergency-board-up-tarping/",
-    "/service-areas/hopkinton-ma/emergency-board-up-tarping/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-ma/contents-restoration/": [
-    "/services/contents-restoration/",
-    "/service-areas/auburn-ma/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
-    "/service-areas/framingham-ma/contents-restoration/",
-    "/service-areas/hopkinton-ma/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-ma/air-duct-cleaning/": [
-    "/services/air-duct-cleaning/",
-    "/service-areas/auburn-ma/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
-    "/service-areas/framingham-ma/air-duct-cleaning/",
-    "/service-areas/hopkinton-ma/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-ma/crawl-space-encapsulation/": [
-    "/services/crawl-space-encapsulation/",
-    "/service-areas/auburn-ma/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
-    "/service-areas/framingham-ma/crawl-space-encapsulation/",
-    "/service-areas/hopkinton-ma/crawl-space-encapsulation/",
-    "/contact/"
   ],
   "/service-areas/worcester-ma/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/worcester-ma/",
     "/service-areas/worcester-ma/fire-damage-restoration/",
     "/service-areas/worcester-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -552,7 +421,6 @@
     "/service-areas/worcester-ma/",
     "/service-areas/worcester-ma/fire-damage-restoration/",
     "/service-areas/worcester-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -561,7 +429,6 @@
     "/service-areas/worcester-ma/",
     "/service-areas/worcester-ma/mold-remediation/",
     "/service-areas/worcester-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -570,7 +437,6 @@
     "/service-areas/worcester-ma/",
     "/service-areas/worcester-ma/fire-damage-restoration/",
     "/service-areas/worcester-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/contact/"
   ],
@@ -579,7 +445,6 @@
     "/service-areas/worcester-ma/",
     "/service-areas/worcester-ma/fire-damage-restoration/",
     "/service-areas/worcester-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -588,7 +453,6 @@
     "/service-areas/worcester-ma/",
     "/service-areas/worcester-ma/fire-damage-restoration/",
     "/service-areas/worcester-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -597,7 +461,6 @@
     "/service-areas/worcester-ma/",
     "/service-areas/worcester-ma/fire-damage-restoration/",
     "/service-areas/worcester-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -606,7 +469,6 @@
     "/service-areas/worcester-ma/",
     "/service-areas/worcester-ma/fire-damage-restoration/",
     "/service-areas/worcester-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/contact/"
   ],
@@ -615,7 +477,6 @@
     "/service-areas/worcester-ma/",
     "/service-areas/worcester-ma/fire-damage-restoration/",
     "/service-areas/worcester-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -624,7 +485,6 @@
     "/service-areas/worcester-ma/",
     "/service-areas/worcester-ma/fire-damage-restoration/",
     "/service-areas/worcester-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/contact/"
   ],
@@ -633,7 +493,6 @@
     "/service-areas/shrewsbury-ma/",
     "/service-areas/shrewsbury-ma/fire-damage-restoration/",
     "/service-areas/shrewsbury-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -642,7 +501,6 @@
     "/service-areas/shrewsbury-ma/",
     "/service-areas/shrewsbury-ma/fire-damage-restoration/",
     "/service-areas/shrewsbury-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -651,7 +509,6 @@
     "/service-areas/shrewsbury-ma/",
     "/service-areas/shrewsbury-ma/mold-remediation/",
     "/service-areas/shrewsbury-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -660,7 +517,6 @@
     "/service-areas/shrewsbury-ma/",
     "/service-areas/shrewsbury-ma/fire-damage-restoration/",
     "/service-areas/shrewsbury-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/contact/"
   ],
@@ -669,7 +525,6 @@
     "/service-areas/shrewsbury-ma/",
     "/service-areas/shrewsbury-ma/fire-damage-restoration/",
     "/service-areas/shrewsbury-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -678,7 +533,6 @@
     "/service-areas/shrewsbury-ma/",
     "/service-areas/shrewsbury-ma/fire-damage-restoration/",
     "/service-areas/shrewsbury-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -687,7 +541,6 @@
     "/service-areas/shrewsbury-ma/",
     "/service-areas/shrewsbury-ma/fire-damage-restoration/",
     "/service-areas/shrewsbury-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -696,7 +549,6 @@
     "/service-areas/shrewsbury-ma/",
     "/service-areas/shrewsbury-ma/fire-damage-restoration/",
     "/service-areas/shrewsbury-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/contact/"
   ],
@@ -705,7 +557,6 @@
     "/service-areas/shrewsbury-ma/",
     "/service-areas/shrewsbury-ma/fire-damage-restoration/",
     "/service-areas/shrewsbury-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -714,7 +565,6 @@
     "/service-areas/shrewsbury-ma/",
     "/service-areas/shrewsbury-ma/fire-damage-restoration/",
     "/service-areas/shrewsbury-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/contact/"
   ],
@@ -723,7 +573,6 @@
     "/service-areas/westborough-ma/",
     "/service-areas/westborough-ma/fire-damage-restoration/",
     "/service-areas/westborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -732,7 +581,6 @@
     "/service-areas/westborough-ma/",
     "/service-areas/westborough-ma/fire-damage-restoration/",
     "/service-areas/westborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -741,7 +589,6 @@
     "/service-areas/westborough-ma/",
     "/service-areas/westborough-ma/mold-remediation/",
     "/service-areas/westborough-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -750,7 +597,6 @@
     "/service-areas/westborough-ma/",
     "/service-areas/westborough-ma/fire-damage-restoration/",
     "/service-areas/westborough-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/contact/"
   ],
@@ -759,7 +605,6 @@
     "/service-areas/westborough-ma/",
     "/service-areas/westborough-ma/fire-damage-restoration/",
     "/service-areas/westborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -768,7 +613,6 @@
     "/service-areas/westborough-ma/",
     "/service-areas/westborough-ma/fire-damage-restoration/",
     "/service-areas/westborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -777,7 +621,6 @@
     "/service-areas/westborough-ma/",
     "/service-areas/westborough-ma/fire-damage-restoration/",
     "/service-areas/westborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -786,7 +629,6 @@
     "/service-areas/westborough-ma/",
     "/service-areas/westborough-ma/fire-damage-restoration/",
     "/service-areas/westborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/contact/"
   ],
@@ -795,7 +637,6 @@
     "/service-areas/westborough-ma/",
     "/service-areas/westborough-ma/fire-damage-restoration/",
     "/service-areas/westborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -804,7 +645,6 @@
     "/service-areas/westborough-ma/",
     "/service-areas/westborough-ma/fire-damage-restoration/",
     "/service-areas/westborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/contact/"
   ],
@@ -813,7 +653,6 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southborough-ma/fire-damage-restoration/",
     "/service-areas/southborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -822,7 +661,6 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southborough-ma/fire-damage-restoration/",
     "/service-areas/southborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -831,7 +669,6 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southborough-ma/mold-remediation/",
     "/service-areas/southborough-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -840,7 +677,6 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southborough-ma/fire-damage-restoration/",
     "/service-areas/southborough-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/contact/"
   ],
@@ -849,7 +685,6 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southborough-ma/fire-damage-restoration/",
     "/service-areas/southborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -858,7 +693,6 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southborough-ma/fire-damage-restoration/",
     "/service-areas/southborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -867,7 +701,6 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southborough-ma/fire-damage-restoration/",
     "/service-areas/southborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -876,7 +709,6 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southborough-ma/fire-damage-restoration/",
     "/service-areas/southborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/contact/"
   ],
@@ -885,7 +717,6 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southborough-ma/fire-damage-restoration/",
     "/service-areas/southborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -894,7 +725,6 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southborough-ma/fire-damage-restoration/",
     "/service-areas/southborough-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/contact/"
   ],
@@ -903,7 +733,6 @@
     "/service-areas/hopkinton-ma/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -912,7 +741,6 @@
     "/service-areas/hopkinton-ma/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -921,7 +749,6 @@
     "/service-areas/hopkinton-ma/",
     "/service-areas/hopkinton-ma/mold-remediation/",
     "/service-areas/hopkinton-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -930,7 +757,6 @@
     "/service-areas/hopkinton-ma/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/contact/"
   ],
@@ -939,7 +765,6 @@
     "/service-areas/hopkinton-ma/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -948,7 +773,6 @@
     "/service-areas/hopkinton-ma/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -957,7 +781,6 @@
     "/service-areas/hopkinton-ma/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -966,7 +789,6 @@
     "/service-areas/hopkinton-ma/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/contact/"
   ],
@@ -975,7 +797,6 @@
     "/service-areas/hopkinton-ma/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -984,7 +805,6 @@
     "/service-areas/hopkinton-ma/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/contact/"
   ],
@@ -993,7 +813,6 @@
     "/service-areas/framingham-ma/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/hopkinton-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -1002,7 +821,6 @@
     "/service-areas/framingham-ma/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/hopkinton-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -1011,7 +829,6 @@
     "/service-areas/framingham-ma/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/service-areas/framingham-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -1020,7 +837,6 @@
     "/service-areas/framingham-ma/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/hopkinton-ma/mold-remediation/",
     "/contact/"
   ],
@@ -1029,7 +845,6 @@
     "/service-areas/framingham-ma/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/hopkinton-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -1038,7 +853,6 @@
     "/service-areas/framingham-ma/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/hopkinton-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -1047,7 +861,6 @@
     "/service-areas/framingham-ma/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/hopkinton-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -1056,7 +869,6 @@
     "/service-areas/framingham-ma/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/hopkinton-ma/contents-restoration/",
     "/contact/"
   ],
@@ -1065,7 +877,6 @@
     "/service-areas/framingham-ma/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/hopkinton-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -1074,7 +885,6 @@
     "/service-areas/framingham-ma/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/hopkinton-ma/crawl-space-encapsulation/",
     "/contact/"
   ],
@@ -1083,7 +893,6 @@
     "/service-areas/natick-ma/",
     "/service-areas/natick-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -1092,7 +901,6 @@
     "/service-areas/natick-ma/",
     "/service-areas/natick-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -1101,7 +909,6 @@
     "/service-areas/natick-ma/",
     "/service-areas/natick-ma/mold-remediation/",
     "/service-areas/natick-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -1110,7 +917,6 @@
     "/service-areas/natick-ma/",
     "/service-areas/natick-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/contact/"
   ],
@@ -1119,7 +925,6 @@
     "/service-areas/natick-ma/",
     "/service-areas/natick-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -1128,7 +933,6 @@
     "/service-areas/natick-ma/",
     "/service-areas/natick-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -1137,7 +941,6 @@
     "/service-areas/natick-ma/",
     "/service-areas/natick-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -1146,7 +949,6 @@
     "/service-areas/natick-ma/",
     "/service-areas/natick-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/contact/"
   ],
@@ -1155,7 +957,6 @@
     "/service-areas/natick-ma/",
     "/service-areas/natick-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -1164,7 +965,6 @@
     "/service-areas/natick-ma/",
     "/service-areas/natick-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/contact/"
   ],
@@ -1173,7 +973,6 @@
     "/service-areas/wellesley-ma/",
     "/service-areas/wellesley-ma/fire-damage-restoration/",
     "/service-areas/wellesley-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -1182,7 +981,6 @@
     "/service-areas/wellesley-ma/",
     "/service-areas/wellesley-ma/fire-damage-restoration/",
     "/service-areas/wellesley-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -1191,7 +989,6 @@
     "/service-areas/wellesley-ma/",
     "/service-areas/wellesley-ma/mold-remediation/",
     "/service-areas/wellesley-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -1200,7 +997,6 @@
     "/service-areas/wellesley-ma/",
     "/service-areas/wellesley-ma/fire-damage-restoration/",
     "/service-areas/wellesley-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/contact/"
   ],
@@ -1209,7 +1005,6 @@
     "/service-areas/wellesley-ma/",
     "/service-areas/wellesley-ma/fire-damage-restoration/",
     "/service-areas/wellesley-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -1218,7 +1013,6 @@
     "/service-areas/wellesley-ma/",
     "/service-areas/wellesley-ma/fire-damage-restoration/",
     "/service-areas/wellesley-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -1227,7 +1021,6 @@
     "/service-areas/wellesley-ma/",
     "/service-areas/wellesley-ma/fire-damage-restoration/",
     "/service-areas/wellesley-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -1236,7 +1029,6 @@
     "/service-areas/wellesley-ma/",
     "/service-areas/wellesley-ma/fire-damage-restoration/",
     "/service-areas/wellesley-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/contact/"
   ],
@@ -1245,7 +1037,6 @@
     "/service-areas/wellesley-ma/",
     "/service-areas/wellesley-ma/fire-damage-restoration/",
     "/service-areas/wellesley-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -1254,7 +1045,6 @@
     "/service-areas/wellesley-ma/",
     "/service-areas/wellesley-ma/fire-damage-restoration/",
     "/service-areas/wellesley-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/contact/"
   ],
@@ -1263,7 +1053,6 @@
     "/service-areas/needham-ma/",
     "/service-areas/needham-ma/fire-damage-restoration/",
     "/service-areas/needham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -1272,7 +1061,6 @@
     "/service-areas/needham-ma/",
     "/service-areas/needham-ma/fire-damage-restoration/",
     "/service-areas/needham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -1281,7 +1069,6 @@
     "/service-areas/needham-ma/",
     "/service-areas/needham-ma/mold-remediation/",
     "/service-areas/needham-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -1290,7 +1077,6 @@
     "/service-areas/needham-ma/",
     "/service-areas/needham-ma/fire-damage-restoration/",
     "/service-areas/needham-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/contact/"
   ],
@@ -1299,7 +1085,6 @@
     "/service-areas/needham-ma/",
     "/service-areas/needham-ma/fire-damage-restoration/",
     "/service-areas/needham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -1308,7 +1093,6 @@
     "/service-areas/needham-ma/",
     "/service-areas/needham-ma/fire-damage-restoration/",
     "/service-areas/needham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -1317,7 +1101,6 @@
     "/service-areas/needham-ma/",
     "/service-areas/needham-ma/fire-damage-restoration/",
     "/service-areas/needham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -1326,7 +1109,6 @@
     "/service-areas/needham-ma/",
     "/service-areas/needham-ma/fire-damage-restoration/",
     "/service-areas/needham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/contact/"
   ],
@@ -1335,7 +1117,6 @@
     "/service-areas/needham-ma/",
     "/service-areas/needham-ma/fire-damage-restoration/",
     "/service-areas/needham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -1344,7 +1125,6 @@
     "/service-areas/needham-ma/",
     "/service-areas/needham-ma/fire-damage-restoration/",
     "/service-areas/needham-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/contact/"
   ],
@@ -1353,7 +1133,6 @@
     "/service-areas/newton-ma/",
     "/service-areas/newton-ma/fire-damage-restoration/",
     "/service-areas/newton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -1362,7 +1141,6 @@
     "/service-areas/newton-ma/",
     "/service-areas/newton-ma/fire-damage-restoration/",
     "/service-areas/newton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -1371,7 +1149,6 @@
     "/service-areas/newton-ma/",
     "/service-areas/newton-ma/mold-remediation/",
     "/service-areas/newton-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -1380,7 +1157,6 @@
     "/service-areas/newton-ma/",
     "/service-areas/newton-ma/fire-damage-restoration/",
     "/service-areas/newton-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/contact/"
   ],
@@ -1389,7 +1165,6 @@
     "/service-areas/newton-ma/",
     "/service-areas/newton-ma/fire-damage-restoration/",
     "/service-areas/newton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -1398,7 +1173,6 @@
     "/service-areas/newton-ma/",
     "/service-areas/newton-ma/fire-damage-restoration/",
     "/service-areas/newton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -1407,7 +1181,6 @@
     "/service-areas/newton-ma/",
     "/service-areas/newton-ma/fire-damage-restoration/",
     "/service-areas/newton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -1416,7 +1189,6 @@
     "/service-areas/newton-ma/",
     "/service-areas/newton-ma/fire-damage-restoration/",
     "/service-areas/newton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/contact/"
   ],
@@ -1425,7 +1197,6 @@
     "/service-areas/newton-ma/",
     "/service-areas/newton-ma/fire-damage-restoration/",
     "/service-areas/newton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -1434,7 +1205,6 @@
     "/service-areas/newton-ma/",
     "/service-areas/newton-ma/fire-damage-restoration/",
     "/service-areas/newton-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/contact/"
   ],
@@ -1443,7 +1213,6 @@
     "/service-areas/weston-ma/",
     "/service-areas/weston-ma/fire-damage-restoration/",
     "/service-areas/weston-ma/mold-remediation/",
-    "/service-areas/auburn-ma/water-damage-restoration/",
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/contact/"
   ],
@@ -1452,7 +1221,6 @@
     "/service-areas/weston-ma/",
     "/service-areas/weston-ma/fire-damage-restoration/",
     "/service-areas/weston-ma/mold-remediation/",
-    "/service-areas/auburn-ma/storm-damage-restoration/",
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/contact/"
   ],
@@ -1461,7 +1229,6 @@
     "/service-areas/weston-ma/",
     "/service-areas/weston-ma/mold-remediation/",
     "/service-areas/weston-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/fire-damage-restoration/",
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/contact/"
   ],
@@ -1470,7 +1237,6 @@
     "/service-areas/weston-ma/",
     "/service-areas/weston-ma/fire-damage-restoration/",
     "/service-areas/weston-ma/water-damage-restoration/",
-    "/service-areas/auburn-ma/mold-remediation/",
     "/service-areas/framingham-ma/mold-remediation/",
     "/contact/"
   ],
@@ -1479,7 +1245,6 @@
     "/service-areas/weston-ma/",
     "/service-areas/weston-ma/fire-damage-restoration/",
     "/service-areas/weston-ma/mold-remediation/",
-    "/service-areas/auburn-ma/sewage-cleanup/",
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/contact/"
   ],
@@ -1488,7 +1253,6 @@
     "/service-areas/weston-ma/",
     "/service-areas/weston-ma/fire-damage-restoration/",
     "/service-areas/weston-ma/mold-remediation/",
-    "/service-areas/auburn-ma/biohazard-cleanup/",
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/contact/"
   ],
@@ -1497,7 +1261,6 @@
     "/service-areas/weston-ma/",
     "/service-areas/weston-ma/fire-damage-restoration/",
     "/service-areas/weston-ma/mold-remediation/",
-    "/service-areas/auburn-ma/emergency-board-up-tarping/",
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/contact/"
   ],
@@ -1506,7 +1269,6 @@
     "/service-areas/weston-ma/",
     "/service-areas/weston-ma/fire-damage-restoration/",
     "/service-areas/weston-ma/mold-remediation/",
-    "/service-areas/auburn-ma/contents-restoration/",
     "/service-areas/framingham-ma/contents-restoration/",
     "/contact/"
   ],
@@ -1515,7 +1277,6 @@
     "/service-areas/weston-ma/",
     "/service-areas/weston-ma/fire-damage-restoration/",
     "/service-areas/weston-ma/mold-remediation/",
-    "/service-areas/auburn-ma/air-duct-cleaning/",
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/contact/"
   ],
@@ -1524,7 +1285,6 @@
     "/service-areas/weston-ma/",
     "/service-areas/weston-ma/fire-damage-restoration/",
     "/service-areas/weston-ma/mold-remediation/",
-    "/service-areas/auburn-ma/crawl-space-encapsulation/",
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/contact/"
   ],

@@ -10,7 +10,6 @@
     "/services/mold-inspection-testing/",
     "/services/attic-mold-removal/",
     "/services/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/",
     "/service-areas/anaheim-ca/",
     "/service-areas/corona-ca/",
     "/service-areas/fullerton-ca/",
@@ -30,7 +29,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/cerritos-ca/",
     "/service-areas/anaheim-ca/",
     "/service-areas/corona-ca/",
     "/service-areas/fullerton-ca/",
@@ -63,7 +61,6 @@
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/mold-remediation/",
     "/service-areas/corona-ca/mold-remediation/",
     "/service-areas/fullerton-ca/mold-remediation/",
     "/service-areas/long-beach-ca/mold-remediation/",
@@ -79,7 +76,6 @@
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/black-mold-removal/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
     "/service-areas/corona-ca/black-mold-removal/",
     "/service-areas/fullerton-ca/black-mold-removal/",
     "/service-areas/long-beach-ca/black-mold-removal/",
@@ -92,7 +88,6 @@
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/mold-inspection-testing/",
-    "/service-areas/cerritos-ca/mold-inspection-testing/",
     "/service-areas/corona-ca/mold-inspection-testing/",
     "/service-areas/fullerton-ca/mold-inspection-testing/",
     "/service-areas/long-beach-ca/mold-inspection-testing/",
@@ -105,7 +100,6 @@
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/attic-mold-removal/",
-    "/service-areas/cerritos-ca/attic-mold-removal/",
     "/service-areas/corona-ca/attic-mold-removal/",
     "/service-areas/fullerton-ca/attic-mold-removal/",
     "/service-areas/long-beach-ca/attic-mold-removal/",
@@ -117,7 +111,6 @@
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/crawl-space-mold-removal/",
     "/service-areas/corona-ca/crawl-space-mold-removal/",
     "/service-areas/fullerton-ca/crawl-space-mold-removal/",
     "/service-areas/long-beach-ca/crawl-space-mold-removal/",
@@ -129,7 +122,6 @@
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
     "/service-areas/corona-ca/sewage-cleanup/",
     "/service-areas/fullerton-ca/sewage-cleanup/",
     "/service-areas/long-beach-ca/sewage-cleanup/",
@@ -137,19 +129,6 @@
     "/service-areas/riverside-ca/sewage-cleanup/",
     "/service-areas/whittier-ca/sewage-cleanup/",
     "/blog/sewage-backup-health-risks/"
-  ],
-  "/service-areas/cerritos-ca/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/cerritos-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
-    "/service-areas/cerritos-ca/mold-inspection-testing/",
-    "/service-areas/cerritos-ca/attic-mold-removal/",
-    "/service-areas/cerritos-ca/crawl-space-mold-removal/",
-    "/service-areas/anaheim-ca/",
-    "/service-areas/corona-ca/",
-    "/service-areas/fullerton-ca/"
   ],
   "/service-areas/long-beach-ca/": [
     "/service-areas/",
@@ -160,7 +139,6 @@
     "/service-areas/long-beach-ca/mold-inspection-testing/",
     "/service-areas/long-beach-ca/attic-mold-removal/",
     "/service-areas/long-beach-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/",
     "/service-areas/anaheim-ca/",
     "/service-areas/corona-ca/"
   ],
@@ -173,7 +151,6 @@
     "/service-areas/anaheim-ca/mold-inspection-testing/",
     "/service-areas/anaheim-ca/attic-mold-removal/",
     "/service-areas/anaheim-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/",
     "/service-areas/corona-ca/",
     "/service-areas/fullerton-ca/"
   ],
@@ -186,7 +163,6 @@
     "/service-areas/whittier-ca/mold-inspection-testing/",
     "/service-areas/whittier-ca/attic-mold-removal/",
     "/service-areas/whittier-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/",
     "/service-areas/anaheim-ca/",
     "/service-areas/corona-ca/"
   ],
@@ -199,7 +175,6 @@
     "/service-areas/fullerton-ca/mold-inspection-testing/",
     "/service-areas/fullerton-ca/attic-mold-removal/",
     "/service-areas/fullerton-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/",
     "/service-areas/anaheim-ca/",
     "/service-areas/corona-ca/"
   ],
@@ -212,7 +187,6 @@
     "/service-areas/norwalk-ca/mold-inspection-testing/",
     "/service-areas/norwalk-ca/attic-mold-removal/",
     "/service-areas/norwalk-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/",
     "/service-areas/anaheim-ca/",
     "/service-areas/corona-ca/"
   ],
@@ -225,7 +199,6 @@
     "/service-areas/corona-ca/mold-inspection-testing/",
     "/service-areas/corona-ca/attic-mold-removal/",
     "/service-areas/corona-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/",
     "/service-areas/anaheim-ca/",
     "/service-areas/fullerton-ca/"
   ],
@@ -238,63 +211,8 @@
     "/service-areas/riverside-ca/mold-inspection-testing/",
     "/service-areas/riverside-ca/attic-mold-removal/",
     "/service-areas/riverside-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/",
     "/service-areas/anaheim-ca/",
     "/service-areas/corona-ca/"
-  ],
-  "/service-areas/cerritos-ca/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/cerritos-ca/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
-    "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/corona-ca/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/cerritos-ca/black-mold-removal/": [
-    "/services/black-mold-removal/",
-    "/service-areas/cerritos-ca/",
-    "/service-areas/cerritos-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
-    "/service-areas/anaheim-ca/black-mold-removal/",
-    "/service-areas/corona-ca/black-mold-removal/",
-    "/contact/"
-  ],
-  "/service-areas/cerritos-ca/mold-inspection-testing/": [
-    "/services/mold-inspection-testing/",
-    "/service-areas/cerritos-ca/",
-    "/service-areas/cerritos-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
-    "/service-areas/anaheim-ca/mold-inspection-testing/",
-    "/service-areas/corona-ca/mold-inspection-testing/",
-    "/contact/"
-  ],
-  "/service-areas/cerritos-ca/attic-mold-removal/": [
-    "/services/attic-mold-removal/",
-    "/service-areas/cerritos-ca/",
-    "/service-areas/cerritos-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
-    "/service-areas/anaheim-ca/attic-mold-removal/",
-    "/service-areas/corona-ca/attic-mold-removal/",
-    "/contact/"
-  ],
-  "/service-areas/cerritos-ca/crawl-space-mold-removal/": [
-    "/services/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/",
-    "/service-areas/cerritos-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
-    "/service-areas/anaheim-ca/crawl-space-mold-removal/",
-    "/service-areas/corona-ca/crawl-space-mold-removal/",
-    "/contact/"
-  ],
-  "/service-areas/cerritos-ca/sewage-cleanup/": [
-    "/services/sewage-cleanup/",
-    "/service-areas/cerritos-ca/",
-    "/service-areas/cerritos-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
-    "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/corona-ca/sewage-cleanup/",
-    "/contact/"
   ],
   "/service-areas/long-beach-ca/mold-remediation/": [
     "/services/mold-remediation/",
@@ -302,7 +220,6 @@
     "/service-areas/long-beach-ca/sewage-cleanup/",
     "/service-areas/long-beach-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/long-beach-ca/black-mold-removal/": [
@@ -311,7 +228,6 @@
     "/service-areas/long-beach-ca/mold-remediation/",
     "/service-areas/long-beach-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/black-mold-removal/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
     "/contact/"
   ],
   "/service-areas/long-beach-ca/mold-inspection-testing/": [
@@ -320,7 +236,6 @@
     "/service-areas/long-beach-ca/mold-remediation/",
     "/service-areas/long-beach-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/mold-inspection-testing/",
-    "/service-areas/cerritos-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/long-beach-ca/attic-mold-removal/": [
@@ -329,7 +244,6 @@
     "/service-areas/long-beach-ca/mold-remediation/",
     "/service-areas/long-beach-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/attic-mold-removal/",
-    "/service-areas/cerritos-ca/attic-mold-removal/",
     "/contact/"
   ],
   "/service-areas/long-beach-ca/crawl-space-mold-removal/": [
@@ -338,7 +252,6 @@
     "/service-areas/long-beach-ca/mold-remediation/",
     "/service-areas/long-beach-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/crawl-space-mold-removal/",
     "/contact/"
   ],
   "/service-areas/long-beach-ca/sewage-cleanup/": [
@@ -347,7 +260,6 @@
     "/service-areas/long-beach-ca/mold-remediation/",
     "/service-areas/long-beach-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/mold-remediation/": [
@@ -355,7 +267,6 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/black-mold-removal/",
-    "/service-areas/cerritos-ca/mold-remediation/",
     "/service-areas/corona-ca/mold-remediation/",
     "/contact/"
   ],
@@ -364,7 +275,6 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/mold-remediation/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
     "/service-areas/corona-ca/black-mold-removal/",
     "/contact/"
   ],
@@ -373,7 +283,6 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/mold-remediation/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/mold-inspection-testing/",
     "/service-areas/corona-ca/mold-inspection-testing/",
     "/contact/"
   ],
@@ -382,7 +291,6 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/mold-remediation/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/attic-mold-removal/",
     "/service-areas/corona-ca/attic-mold-removal/",
     "/contact/"
   ],
@@ -391,7 +299,6 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/mold-remediation/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/crawl-space-mold-removal/",
     "/service-areas/corona-ca/crawl-space-mold-removal/",
     "/contact/"
   ],
@@ -400,7 +307,6 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/mold-remediation/",
     "/service-areas/anaheim-ca/black-mold-removal/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
     "/service-areas/corona-ca/sewage-cleanup/",
     "/contact/"
   ],
@@ -410,7 +316,6 @@
     "/service-areas/whittier-ca/sewage-cleanup/",
     "/service-areas/whittier-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/whittier-ca/black-mold-removal/": [
@@ -419,7 +324,6 @@
     "/service-areas/whittier-ca/mold-remediation/",
     "/service-areas/whittier-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/black-mold-removal/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
     "/contact/"
   ],
   "/service-areas/whittier-ca/mold-inspection-testing/": [
@@ -428,7 +332,6 @@
     "/service-areas/whittier-ca/mold-remediation/",
     "/service-areas/whittier-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/mold-inspection-testing/",
-    "/service-areas/cerritos-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/whittier-ca/attic-mold-removal/": [
@@ -437,7 +340,6 @@
     "/service-areas/whittier-ca/mold-remediation/",
     "/service-areas/whittier-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/attic-mold-removal/",
-    "/service-areas/cerritos-ca/attic-mold-removal/",
     "/contact/"
   ],
   "/service-areas/whittier-ca/crawl-space-mold-removal/": [
@@ -446,7 +348,6 @@
     "/service-areas/whittier-ca/mold-remediation/",
     "/service-areas/whittier-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/crawl-space-mold-removal/",
     "/contact/"
   ],
   "/service-areas/whittier-ca/sewage-cleanup/": [
@@ -455,7 +356,6 @@
     "/service-areas/whittier-ca/mold-remediation/",
     "/service-areas/whittier-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/mold-remediation/": [
@@ -464,7 +364,6 @@
     "/service-areas/fullerton-ca/sewage-cleanup/",
     "/service-areas/fullerton-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/black-mold-removal/": [
@@ -473,7 +372,6 @@
     "/service-areas/fullerton-ca/mold-remediation/",
     "/service-areas/fullerton-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/black-mold-removal/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/mold-inspection-testing/": [
@@ -482,7 +380,6 @@
     "/service-areas/fullerton-ca/mold-remediation/",
     "/service-areas/fullerton-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/mold-inspection-testing/",
-    "/service-areas/cerritos-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/attic-mold-removal/": [
@@ -491,7 +388,6 @@
     "/service-areas/fullerton-ca/mold-remediation/",
     "/service-areas/fullerton-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/attic-mold-removal/",
-    "/service-areas/cerritos-ca/attic-mold-removal/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/crawl-space-mold-removal/": [
@@ -500,7 +396,6 @@
     "/service-areas/fullerton-ca/mold-remediation/",
     "/service-areas/fullerton-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/crawl-space-mold-removal/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/sewage-cleanup/": [
@@ -509,7 +404,6 @@
     "/service-areas/fullerton-ca/mold-remediation/",
     "/service-areas/fullerton-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/norwalk-ca/mold-remediation/": [
@@ -518,7 +412,6 @@
     "/service-areas/norwalk-ca/sewage-cleanup/",
     "/service-areas/norwalk-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/norwalk-ca/black-mold-removal/": [
@@ -527,7 +420,6 @@
     "/service-areas/norwalk-ca/mold-remediation/",
     "/service-areas/norwalk-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/black-mold-removal/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
     "/contact/"
   ],
   "/service-areas/norwalk-ca/mold-inspection-testing/": [
@@ -536,7 +428,6 @@
     "/service-areas/norwalk-ca/mold-remediation/",
     "/service-areas/norwalk-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/mold-inspection-testing/",
-    "/service-areas/cerritos-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/norwalk-ca/attic-mold-removal/": [
@@ -545,7 +436,6 @@
     "/service-areas/norwalk-ca/mold-remediation/",
     "/service-areas/norwalk-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/attic-mold-removal/",
-    "/service-areas/cerritos-ca/attic-mold-removal/",
     "/contact/"
   ],
   "/service-areas/norwalk-ca/crawl-space-mold-removal/": [
@@ -554,7 +444,6 @@
     "/service-areas/norwalk-ca/mold-remediation/",
     "/service-areas/norwalk-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/crawl-space-mold-removal/",
     "/contact/"
   ],
   "/service-areas/norwalk-ca/sewage-cleanup/": [
@@ -563,7 +452,6 @@
     "/service-areas/norwalk-ca/mold-remediation/",
     "/service-areas/norwalk-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/corona-ca/mold-remediation/": [
@@ -572,7 +460,6 @@
     "/service-areas/corona-ca/sewage-cleanup/",
     "/service-areas/corona-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/corona-ca/black-mold-removal/": [
@@ -581,7 +468,6 @@
     "/service-areas/corona-ca/mold-remediation/",
     "/service-areas/corona-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/black-mold-removal/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
     "/contact/"
   ],
   "/service-areas/corona-ca/mold-inspection-testing/": [
@@ -590,7 +476,6 @@
     "/service-areas/corona-ca/mold-remediation/",
     "/service-areas/corona-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/mold-inspection-testing/",
-    "/service-areas/cerritos-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/corona-ca/attic-mold-removal/": [
@@ -599,7 +484,6 @@
     "/service-areas/corona-ca/mold-remediation/",
     "/service-areas/corona-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/attic-mold-removal/",
-    "/service-areas/cerritos-ca/attic-mold-removal/",
     "/contact/"
   ],
   "/service-areas/corona-ca/crawl-space-mold-removal/": [
@@ -608,7 +492,6 @@
     "/service-areas/corona-ca/mold-remediation/",
     "/service-areas/corona-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/crawl-space-mold-removal/",
     "/contact/"
   ],
   "/service-areas/corona-ca/sewage-cleanup/": [
@@ -617,7 +500,6 @@
     "/service-areas/corona-ca/mold-remediation/",
     "/service-areas/corona-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/mold-remediation/": [
@@ -626,7 +508,6 @@
     "/service-areas/riverside-ca/sewage-cleanup/",
     "/service-areas/riverside-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/cerritos-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/black-mold-removal/": [
@@ -635,7 +516,6 @@
     "/service-areas/riverside-ca/mold-remediation/",
     "/service-areas/riverside-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/black-mold-removal/",
-    "/service-areas/cerritos-ca/black-mold-removal/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/mold-inspection-testing/": [
@@ -644,7 +524,6 @@
     "/service-areas/riverside-ca/mold-remediation/",
     "/service-areas/riverside-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/mold-inspection-testing/",
-    "/service-areas/cerritos-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/attic-mold-removal/": [
@@ -653,7 +532,6 @@
     "/service-areas/riverside-ca/mold-remediation/",
     "/service-areas/riverside-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/attic-mold-removal/",
-    "/service-areas/cerritos-ca/attic-mold-removal/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/crawl-space-mold-removal/": [
@@ -662,7 +540,6 @@
     "/service-areas/riverside-ca/mold-remediation/",
     "/service-areas/riverside-ca/sewage-cleanup/",
     "/service-areas/anaheim-ca/crawl-space-mold-removal/",
-    "/service-areas/cerritos-ca/crawl-space-mold-removal/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/sewage-cleanup/": [
@@ -671,7 +548,6 @@
     "/service-areas/riverside-ca/mold-remediation/",
     "/service-areas/riverside-ca/black-mold-removal/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
-    "/service-areas/cerritos-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/blog/signs-of-hidden-mold/": [

@@ -1,0 +1,23 @@
+# home-city consolidation 2026-08-18 — home-city pages folded into home + main service pages (scripts/home_city_migrate.py)
+/service-areas/honolulu-hi / 301
+/service-areas/honolulu-hi/ / 301
+/service-areas/honolulu-hi/burst-pipe-repair /services/burst-pipe-repair/ 301
+/service-areas/honolulu-hi/burst-pipe-repair/ /services/burst-pipe-repair/ 301
+/service-areas/honolulu-hi/carpet-cleaning /services/carpet-cleaning/ 301
+/service-areas/honolulu-hi/carpet-cleaning/ /services/carpet-cleaning/ 301
+/service-areas/honolulu-hi/commercial-restoration /services/commercial-restoration/ 301
+/service-areas/honolulu-hi/commercial-restoration/ /services/commercial-restoration/ 301
+/service-areas/honolulu-hi/flood-damage-restoration /services/flood-damage-restoration/ 301
+/service-areas/honolulu-hi/flood-damage-restoration/ /services/flood-damage-restoration/ 301
+/service-areas/honolulu-hi/flood-equipment-rental /services/flood-equipment-rental/ 301
+/service-areas/honolulu-hi/flood-equipment-rental/ /services/flood-equipment-rental/ 301
+/service-areas/honolulu-hi/mold-inspection-testing /services/mold-inspection-testing/ 301
+/service-areas/honolulu-hi/mold-inspection-testing/ /services/mold-inspection-testing/ 301
+/service-areas/honolulu-hi/mold-remediation /services/mold-remediation/ 301
+/service-areas/honolulu-hi/mold-remediation/ /services/mold-remediation/ 301
+/service-areas/honolulu-hi/sewage-cleanup /services/sewage-cleanup/ 301
+/service-areas/honolulu-hi/sewage-cleanup/ /services/sewage-cleanup/ 301
+/service-areas/honolulu-hi/upholstery-cleaning /services/upholstery-cleaning/ 301
+/service-areas/honolulu-hi/upholstery-cleaning/ /services/upholstery-cleaning/ 301
+/service-areas/honolulu-hi/water-damage-restoration /services/water-damage-restoration/ 301
+/service-areas/honolulu-hi/water-damage-restoration/ /services/water-damage-restoration/ 301

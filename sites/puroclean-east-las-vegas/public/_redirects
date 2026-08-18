@@ -1,0 +1,13 @@
+# home-city consolidation 2026-08-18 — home-city pages folded into home + main service pages (scripts/home_city_migrate.py)
+/service-areas/las-vegas-nv / 301
+/service-areas/las-vegas-nv/ / 301
+/service-areas/las-vegas-nv/biohazard-cleanup /services/biohazard-cleanup/ 301
+/service-areas/las-vegas-nv/biohazard-cleanup/ /services/biohazard-cleanup/ 301
+/service-areas/las-vegas-nv/fire-damage-restoration /services/fire-damage-restoration/ 301
+/service-areas/las-vegas-nv/fire-damage-restoration/ /services/fire-damage-restoration/ 301
+/service-areas/las-vegas-nv/mold-remediation /services/mold-remediation/ 301
+/service-areas/las-vegas-nv/mold-remediation/ /services/mold-remediation/ 301
+/service-areas/las-vegas-nv/sewage-cleanup /services/sewage-cleanup/ 301
+/service-areas/las-vegas-nv/sewage-cleanup/ /services/sewage-cleanup/ 301
+/service-areas/las-vegas-nv/water-damage-restoration /services/water-damage-restoration/ 301
+/service-areas/las-vegas-nv/water-damage-restoration/ /services/water-damage-restoration/ 301

@@ -1,0 +1,17 @@
+# home-city consolidation 2026-08-18 — home-city pages folded into home + main service pages (scripts/home_city_migrate.py)
+/service-areas/henderson-nv / 301
+/service-areas/henderson-nv/ / 301
+/service-areas/henderson-nv/biohazard-cleanup /services/biohazard-cleanup/ 301
+/service-areas/henderson-nv/biohazard-cleanup/ /services/biohazard-cleanup/ 301
+/service-areas/henderson-nv/contents-restoration /services/contents-restoration/ 301
+/service-areas/henderson-nv/contents-restoration/ /services/contents-restoration/ 301
+/service-areas/henderson-nv/fire-damage-restoration /services/fire-damage-restoration/ 301
+/service-areas/henderson-nv/fire-damage-restoration/ /services/fire-damage-restoration/ 301
+/service-areas/henderson-nv/mold-remediation /services/mold-remediation/ 301
+/service-areas/henderson-nv/mold-remediation/ /services/mold-remediation/ 301
+/service-areas/henderson-nv/sewage-cleanup /services/sewage-cleanup/ 301
+/service-areas/henderson-nv/sewage-cleanup/ /services/sewage-cleanup/ 301
+/service-areas/henderson-nv/storm-damage-restoration /services/storm-damage-restoration/ 301
+/service-areas/henderson-nv/storm-damage-restoration/ /services/storm-damage-restoration/ 301
+/service-areas/henderson-nv/water-damage-restoration /services/water-damage-restoration/ 301
+/service-areas/henderson-nv/water-damage-restoration/ /services/water-damage-restoration/ 301

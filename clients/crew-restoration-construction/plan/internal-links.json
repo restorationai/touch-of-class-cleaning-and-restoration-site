@@ -17,7 +17,6 @@
     "/services/asbestos-abatement/",
     "/services/contents-restoration/",
     "/services/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/adrian-mn/",
     "/service-areas/akron-ia/",
     "/service-areas/alton-ia/",
@@ -81,7 +80,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/adrian-mn/",
     "/service-areas/akron-ia/",
     "/service-areas/alton-ia/",
@@ -370,26 +368,6 @@
     "/service-areas/dell-rapids-sd/post-construction-cleaning/",
     "/service-areas/edgerton-mn/post-construction-cleaning/"
   ],
-  "/service-areas/sioux-falls-sd/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/sioux-falls-sd/roofing/",
-    "/service-areas/sioux-falls-sd/water-damage-restoration/",
-    "/service-areas/sioux-falls-sd/sewage-cleanup/",
-    "/service-areas/sioux-falls-sd/storm-damage-restoration/",
-    "/service-areas/sioux-falls-sd/biohazard-cleanup/",
-    "/service-areas/sioux-falls-sd/general-contracting/",
-    "/service-areas/sioux-falls-sd/siding-gutters/",
-    "/service-areas/sioux-falls-sd/emergency-board-up-tarping/",
-    "/service-areas/sioux-falls-sd/asbestos-abatement/",
-    "/service-areas/sioux-falls-sd/contents-restoration/",
-    "/service-areas/sioux-falls-sd/post-construction-cleaning/",
-    "/service-areas/baltic-sd/",
-    "/service-areas/beresford-sd/",
-    "/service-areas/brandon-sd/"
-  ],
   "/service-areas/brookings-sd/": [
     "/service-areas/",
     "/contact/",
@@ -406,7 +384,6 @@
     "/service-areas/brookings-sd/asbestos-abatement/",
     "/service-areas/brookings-sd/contents-restoration/",
     "/service-areas/brookings-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -426,7 +403,6 @@
     "/service-areas/yankton-sd/asbestos-abatement/",
     "/service-areas/yankton-sd/contents-restoration/",
     "/service-areas/yankton-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -466,7 +442,6 @@
     "/service-areas/brandon-sd/asbestos-abatement/",
     "/service-areas/brandon-sd/contents-restoration/",
     "/service-areas/brandon-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -526,7 +501,6 @@
     "/service-areas/harrisburg-sd/asbestos-abatement/",
     "/service-areas/harrisburg-sd/contents-restoration/",
     "/service-areas/harrisburg-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -546,7 +520,6 @@
     "/service-areas/madison-sd/asbestos-abatement/",
     "/service-areas/madison-sd/contents-restoration/",
     "/service-areas/madison-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -566,7 +539,6 @@
     "/service-areas/tea-sd/asbestos-abatement/",
     "/service-areas/tea-sd/contents-restoration/",
     "/service-areas/tea-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -666,7 +638,6 @@
     "/service-areas/dell-rapids-sd/asbestos-abatement/",
     "/service-areas/dell-rapids-sd/contents-restoration/",
     "/service-areas/dell-rapids-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -686,7 +657,6 @@
     "/service-areas/hartford-sd/asbestos-abatement/",
     "/service-areas/hartford-sd/contents-restoration/",
     "/service-areas/hartford-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -706,7 +676,6 @@
     "/service-areas/canton-sd/asbestos-abatement/",
     "/service-areas/canton-sd/contents-restoration/",
     "/service-areas/canton-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -726,7 +695,6 @@
     "/service-areas/north-sioux-city-sd/asbestos-abatement/",
     "/service-areas/north-sioux-city-sd/contents-restoration/",
     "/service-areas/north-sioux-city-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -786,7 +754,6 @@
     "/service-areas/lennox-sd/asbestos-abatement/",
     "/service-areas/lennox-sd/contents-restoration/",
     "/service-areas/lennox-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -806,7 +773,6 @@
     "/service-areas/flandreau-sd/asbestos-abatement/",
     "/service-areas/flandreau-sd/contents-restoration/",
     "/service-areas/flandreau-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -826,7 +792,6 @@
     "/service-areas/parker-sd/asbestos-abatement/",
     "/service-areas/parker-sd/contents-restoration/",
     "/service-areas/parker-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -846,7 +811,6 @@
     "/service-areas/salem-sd/asbestos-abatement/",
     "/service-areas/salem-sd/contents-restoration/",
     "/service-areas/salem-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -886,7 +850,6 @@
     "/service-areas/crooks-sd/asbestos-abatement/",
     "/service-areas/crooks-sd/contents-restoration/",
     "/service-areas/crooks-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -906,7 +869,6 @@
     "/service-areas/baltic-sd/asbestos-abatement/",
     "/service-areas/baltic-sd/contents-restoration/",
     "/service-areas/baltic-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/beresford-sd/",
     "/service-areas/brandon-sd/"
   ],
@@ -926,7 +888,6 @@
     "/service-areas/garretson-sd/asbestos-abatement/",
     "/service-areas/garretson-sd/contents-restoration/",
     "/service-areas/garretson-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -946,7 +907,6 @@
     "/service-areas/worthing-sd/asbestos-abatement/",
     "/service-areas/worthing-sd/contents-restoration/",
     "/service-areas/worthing-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -966,7 +926,6 @@
     "/service-areas/volga-sd/asbestos-abatement/",
     "/service-areas/volga-sd/contents-restoration/",
     "/service-areas/volga-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -986,7 +945,6 @@
     "/service-areas/beresford-sd/asbestos-abatement/",
     "/service-areas/beresford-sd/contents-restoration/",
     "/service-areas/beresford-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/brandon-sd/"
   ],
@@ -1006,7 +964,6 @@
     "/service-areas/dakota-dunes-sd/asbestos-abatement/",
     "/service-areas/dakota-dunes-sd/contents-restoration/",
     "/service-areas/dakota-dunes-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -1026,7 +983,6 @@
     "/service-areas/elk-point-sd/asbestos-abatement/",
     "/service-areas/elk-point-sd/contents-restoration/",
     "/service-areas/elk-point-sd/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
     "/service-areas/baltic-sd/",
     "/service-areas/beresford-sd/"
   ],
@@ -1269,123 +1225,6 @@
     "/service-areas/akron-ia/",
     "/service-areas/alton-ia/",
     "/service-areas/george-ia/"
-  ],
-  "/service-areas/sioux-falls-sd/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-damage-restoration/",
-    "/service-areas/akron-ia/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/fire-damage-restoration/": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/sioux-falls-sd/roofing/",
-    "/service-areas/adrian-mn/fire-damage-restoration/",
-    "/service-areas/akron-ia/fire-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/roofing/",
-    "/service-areas/adrian-mn/mold-remediation/",
-    "/service-areas/akron-ia/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/storm-damage-restoration/",
-    "/service-areas/akron-ia/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/general-contracting/": [
-    "/services/general-contracting/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/general-contracting/",
-    "/service-areas/akron-ia/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/roofing/": [
-    "/services/roofing/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/roofing/",
-    "/service-areas/akron-ia/roofing/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/sewage-cleanup/": [
-    "/services/sewage-cleanup/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/sewage-cleanup/",
-    "/service-areas/akron-ia/sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/biohazard-cleanup/": [
-    "/services/biohazard-cleanup/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/biohazard-cleanup/",
-    "/service-areas/akron-ia/biohazard-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/asbestos-abatement/": [
-    "/services/asbestos-abatement/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/asbestos-abatement/",
-    "/service-areas/akron-ia/asbestos-abatement/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/emergency-board-up-tarping/": [
-    "/services/emergency-board-up-tarping/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-board-up-tarping/",
-    "/service-areas/akron-ia/emergency-board-up-tarping/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/siding-gutters/": [
-    "/services/siding-gutters/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/siding-gutters/",
-    "/service-areas/akron-ia/siding-gutters/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/contents-restoration/": [
-    "/services/contents-restoration/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration/",
-    "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-falls-sd/post-construction-cleaning/": [
-    "/services/post-construction-cleaning/",
-    "/service-areas/sioux-falls-sd/",
-    "/service-areas/sioux-falls-sd/fire-damage-restoration/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/service-areas/adrian-mn/post-construction-cleaning/",
-    "/service-areas/akron-ia/post-construction-cleaning/",
-    "/contact/"
   ],
   "/service-areas/brookings-sd/water-damage-restoration/": [
     "/services/water-damage-restoration/",

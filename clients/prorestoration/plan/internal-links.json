@@ -20,7 +20,6 @@
     "/services/soot-removal/",
     "/services/appliance-leak-cleanup/",
     "/services/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/lake-isabella-ca/",
@@ -53,7 +52,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/lake-isabella-ca/",
@@ -94,7 +92,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/service-areas/delano-ca/water-damage-restoration/",
     "/service-areas/lake-isabella-ca/water-damage-restoration/",
     "/service-areas/lamont-ca/water-damage-restoration/",
@@ -112,7 +109,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/service-areas/delano-ca/flood-damage-restoration/",
     "/service-areas/lake-isabella-ca/flood-damage-restoration/",
     "/service-areas/lamont-ca/flood-damage-restoration/",
@@ -127,7 +123,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/service-areas/lake-isabella-ca/burst-pipe-repair/",
     "/service-areas/lamont-ca/burst-pipe-repair/",
@@ -142,7 +137,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/service-areas/delano-ca/appliance-leak-cleanup/",
     "/service-areas/lake-isabella-ca/appliance-leak-cleanup/",
     "/service-areas/lamont-ca/appliance-leak-cleanup/",
@@ -158,7 +152,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/service-areas/delano-ca/sewage-cleanup/",
     "/service-areas/lake-isabella-ca/sewage-cleanup/",
     "/service-areas/lamont-ca/sewage-cleanup/",
@@ -173,7 +166,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/fire-damage-restoration/",
@@ -191,7 +183,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/service-areas/delano-ca/smoke-damage-restoration/",
     "/service-areas/lake-isabella-ca/smoke-damage-restoration/",
     "/service-areas/lamont-ca/smoke-damage-restoration/",
@@ -208,7 +199,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/service-areas/delano-ca/soot-removal/",
     "/service-areas/lake-isabella-ca/soot-removal/",
     "/service-areas/lamont-ca/soot-removal/",
@@ -223,7 +213,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/service-areas/delano-ca/odor-removal/",
     "/service-areas/lake-isabella-ca/odor-removal/",
     "/service-areas/lamont-ca/odor-removal/",
@@ -238,7 +227,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/service-areas/delano-ca/mold-remediation/",
     "/service-areas/lake-isabella-ca/mold-remediation/",
     "/service-areas/lamont-ca/mold-remediation/",
@@ -256,7 +244,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/service-areas/delano-ca/mold-inspection-testing/",
     "/service-areas/lake-isabella-ca/mold-inspection-testing/",
     "/service-areas/lamont-ca/mold-inspection-testing/",
@@ -272,7 +259,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/service-areas/delano-ca/storm-damage-restoration/",
     "/service-areas/lake-isabella-ca/storm-damage-restoration/",
     "/service-areas/lamont-ca/storm-damage-restoration/",
@@ -288,7 +274,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/service-areas/delano-ca/carpet-cleaning/",
     "/service-areas/lake-isabella-ca/carpet-cleaning/",
     "/service-areas/lamont-ca/carpet-cleaning/",
@@ -303,7 +288,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/service-areas/delano-ca/reconstruction/",
     "/service-areas/lake-isabella-ca/reconstruction/",
     "/service-areas/lamont-ca/reconstruction/",
@@ -318,7 +302,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/lamont-ca/home-remodeling/",
@@ -334,7 +317,6 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/service-areas/delano-ca/general-contracting/",
     "/service-areas/lake-isabella-ca/general-contracting/",
     "/service-areas/lamont-ca/general-contracting/",
@@ -345,29 +327,6 @@
     "/service-areas/tehachapi-ca/general-contracting/",
     "/service-areas/wasco-ca/general-contracting/",
     "/services/home-remodeling/"
-  ],
-  "/service-areas/bakersfield-ca/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
-    "/service-areas/arvin-ca/",
-    "/service-areas/delano-ca/",
-    "/service-areas/lake-isabella-ca/"
   ],
   "/service-areas/oildale-ca/": [
     "/service-areas/",
@@ -388,7 +347,6 @@
     "/service-areas/oildale-ca/soot-removal/",
     "/service-areas/oildale-ca/appliance-leak-cleanup/",
     "/service-areas/oildale-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/delano-ca/"
   ],
@@ -411,7 +369,6 @@
     "/service-areas/rosedale-ca/soot-removal/",
     "/service-areas/rosedale-ca/appliance-leak-cleanup/",
     "/service-areas/rosedale-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/delano-ca/"
   ],
@@ -434,7 +391,6 @@
     "/service-areas/delano-ca/soot-removal/",
     "/service-areas/delano-ca/appliance-leak-cleanup/",
     "/service-areas/delano-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/lake-isabella-ca/"
   ],
@@ -457,7 +413,6 @@
     "/service-areas/shafter-ca/soot-removal/",
     "/service-areas/shafter-ca/appliance-leak-cleanup/",
     "/service-areas/shafter-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/delano-ca/"
   ],
@@ -480,7 +435,6 @@
     "/service-areas/wasco-ca/soot-removal/",
     "/service-areas/wasco-ca/appliance-leak-cleanup/",
     "/service-areas/wasco-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/delano-ca/"
   ],
@@ -503,7 +457,6 @@
     "/service-areas/taft-ca/soot-removal/",
     "/service-areas/taft-ca/appliance-leak-cleanup/",
     "/service-areas/taft-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/delano-ca/"
   ],
@@ -526,7 +479,6 @@
     "/service-areas/tehachapi-ca/soot-removal/",
     "/service-areas/tehachapi-ca/appliance-leak-cleanup/",
     "/service-areas/tehachapi-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/delano-ca/"
   ],
@@ -549,7 +501,6 @@
     "/service-areas/arvin-ca/soot-removal/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/lake-isabella-ca/"
   ],
@@ -572,7 +523,6 @@
     "/service-areas/lamont-ca/soot-removal/",
     "/service-areas/lamont-ca/appliance-leak-cleanup/",
     "/service-areas/lamont-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/delano-ca/"
   ],
@@ -595,153 +545,8 @@
     "/service-areas/lake-isabella-ca/soot-removal/",
     "/service-areas/lake-isabella-ca/appliance-leak-cleanup/",
     "/service-areas/lake-isabella-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/delano-ca/"
-  ],
-  "/service-areas/bakersfield-ca/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/delano-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/flood-damage-restoration/": [
-    "/services/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/delano-ca/flood-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/burst-pipe-repair/": [
-    "/services/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/delano-ca/burst-pipe-repair/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/appliance-leak-cleanup/": [
-    "/services/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/delano-ca/appliance-leak-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/sewage-cleanup/": [
-    "/services/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/delano-ca/sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/fire-damage-restoration/": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
-    "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/delano-ca/fire-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/smoke-damage-restoration/": [
-    "/services/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/delano-ca/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/delano-ca/soot-removal/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/odor-removal/": [
-    "/services/odor-removal/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/delano-ca/odor-removal/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/delano-ca/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/mold-inspection-testing/": [
-    "/services/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/delano-ca/mold-inspection-testing/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/delano-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/carpet-cleaning/": [
-    "/services/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/delano-ca/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/reconstruction/": [
-    "/services/reconstruction/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/delano-ca/reconstruction/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/home-remodeling/": [
-    "/services/home-remodeling/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
-    "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/delano-ca/home-remodeling/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/general-contracting/": [
-    "/services/general-contracting/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
-    "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/delano-ca/general-contracting/",
-    "/contact/"
   ],
   "/service-areas/oildale-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -749,7 +554,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/flood-damage-restoration/": [
@@ -758,7 +562,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/burst-pipe-repair/": [
@@ -767,7 +570,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/appliance-leak-cleanup/": [
@@ -776,7 +578,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/sewage-cleanup/": [
@@ -785,7 +586,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/fire-damage-restoration/": [
@@ -794,7 +594,6 @@
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/oildale-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/smoke-damage-restoration/": [
@@ -803,7 +602,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/soot-removal/": [
@@ -812,7 +610,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/odor-removal/": [
@@ -821,7 +618,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/mold-remediation/": [
@@ -830,7 +626,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/mold-inspection-testing/": [
@@ -839,7 +634,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/storm-damage-restoration/": [
@@ -848,7 +642,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/carpet-cleaning/": [
@@ -857,7 +650,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/reconstruction/": [
@@ -866,7 +658,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/home-remodeling/": [
@@ -875,7 +666,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/general-contracting/": [
@@ -884,7 +674,6 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/water-damage-restoration/": [
@@ -893,7 +682,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/flood-damage-restoration/": [
@@ -902,7 +690,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/burst-pipe-repair/": [
@@ -911,7 +698,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/appliance-leak-cleanup/": [
@@ -920,7 +706,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/sewage-cleanup/": [
@@ -929,7 +714,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/fire-damage-restoration/": [
@@ -938,7 +722,6 @@
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/rosedale-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/smoke-damage-restoration/": [
@@ -947,7 +730,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/soot-removal/": [
@@ -956,7 +738,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/odor-removal/": [
@@ -965,7 +746,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/mold-remediation/": [
@@ -974,7 +754,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/mold-inspection-testing/": [
@@ -983,7 +762,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/storm-damage-restoration/": [
@@ -992,7 +770,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/carpet-cleaning/": [
@@ -1001,7 +778,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/reconstruction/": [
@@ -1010,7 +786,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/home-remodeling/": [
@@ -1019,7 +794,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/general-contracting/": [
@@ -1028,7 +802,6 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/delano-ca/water-damage-restoration/": [
@@ -1037,7 +810,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/delano-ca/flood-damage-restoration/": [
@@ -1046,7 +818,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/delano-ca/burst-pipe-repair/": [
@@ -1055,7 +826,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/delano-ca/appliance-leak-cleanup/": [
@@ -1064,7 +834,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/delano-ca/sewage-cleanup/": [
@@ -1073,7 +842,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/delano-ca/fire-damage-restoration/": [
@@ -1082,7 +850,6 @@
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/delano-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/delano-ca/smoke-damage-restoration/": [
@@ -1091,7 +858,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/delano-ca/soot-removal/": [
@@ -1100,7 +866,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/delano-ca/odor-removal/": [
@@ -1109,7 +874,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/delano-ca/mold-remediation/": [
@@ -1118,7 +882,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/delano-ca/mold-inspection-testing/": [
@@ -1127,7 +890,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/delano-ca/storm-damage-restoration/": [
@@ -1136,7 +898,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/delano-ca/carpet-cleaning/": [
@@ -1145,7 +906,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/delano-ca/reconstruction/": [
@@ -1154,7 +914,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/delano-ca/home-remodeling/": [
@@ -1163,7 +922,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/delano-ca/general-contracting/": [
@@ -1172,7 +930,6 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/water-damage-restoration/": [
@@ -1181,7 +938,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/flood-damage-restoration/": [
@@ -1190,7 +946,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/burst-pipe-repair/": [
@@ -1199,7 +954,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/appliance-leak-cleanup/": [
@@ -1208,7 +962,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/sewage-cleanup/": [
@@ -1217,7 +970,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/fire-damage-restoration/": [
@@ -1226,7 +978,6 @@
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/shafter-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/smoke-damage-restoration/": [
@@ -1235,7 +986,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/soot-removal/": [
@@ -1244,7 +994,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/odor-removal/": [
@@ -1253,7 +1002,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/mold-remediation/": [
@@ -1262,7 +1010,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/mold-inspection-testing/": [
@@ -1271,7 +1018,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/storm-damage-restoration/": [
@@ -1280,7 +1026,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/carpet-cleaning/": [
@@ -1289,7 +1034,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/reconstruction/": [
@@ -1298,7 +1042,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/home-remodeling/": [
@@ -1307,7 +1050,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/general-contracting/": [
@@ -1316,7 +1058,6 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/water-damage-restoration/": [
@@ -1325,7 +1066,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/flood-damage-restoration/": [
@@ -1334,7 +1074,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/burst-pipe-repair/": [
@@ -1343,7 +1082,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/appliance-leak-cleanup/": [
@@ -1352,7 +1090,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/sewage-cleanup/": [
@@ -1361,7 +1098,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/fire-damage-restoration/": [
@@ -1370,7 +1106,6 @@
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/wasco-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/smoke-damage-restoration/": [
@@ -1379,7 +1114,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/soot-removal/": [
@@ -1388,7 +1122,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/odor-removal/": [
@@ -1397,7 +1130,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/mold-remediation/": [
@@ -1406,7 +1138,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/mold-inspection-testing/": [
@@ -1415,7 +1146,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/storm-damage-restoration/": [
@@ -1424,7 +1154,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/carpet-cleaning/": [
@@ -1433,7 +1162,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/reconstruction/": [
@@ -1442,7 +1170,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/home-remodeling/": [
@@ -1451,7 +1178,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/general-contracting/": [
@@ -1460,7 +1186,6 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/taft-ca/water-damage-restoration/": [
@@ -1469,7 +1194,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/taft-ca/flood-damage-restoration/": [
@@ -1478,7 +1202,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/taft-ca/burst-pipe-repair/": [
@@ -1487,7 +1210,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/taft-ca/appliance-leak-cleanup/": [
@@ -1496,7 +1218,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/taft-ca/sewage-cleanup/": [
@@ -1505,7 +1226,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/taft-ca/fire-damage-restoration/": [
@@ -1514,7 +1234,6 @@
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/taft-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/taft-ca/smoke-damage-restoration/": [
@@ -1523,7 +1242,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/taft-ca/soot-removal/": [
@@ -1532,7 +1250,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/taft-ca/odor-removal/": [
@@ -1541,7 +1258,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/taft-ca/mold-remediation/": [
@@ -1550,7 +1266,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/taft-ca/mold-inspection-testing/": [
@@ -1559,7 +1274,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/taft-ca/storm-damage-restoration/": [
@@ -1568,7 +1282,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/taft-ca/carpet-cleaning/": [
@@ -1577,7 +1290,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/taft-ca/reconstruction/": [
@@ -1586,7 +1298,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/taft-ca/home-remodeling/": [
@@ -1595,7 +1306,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/taft-ca/general-contracting/": [
@@ -1604,7 +1314,6 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/water-damage-restoration/": [
@@ -1613,7 +1322,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/flood-damage-restoration/": [
@@ -1622,7 +1330,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/burst-pipe-repair/": [
@@ -1631,7 +1338,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/appliance-leak-cleanup/": [
@@ -1640,7 +1346,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/sewage-cleanup/": [
@@ -1649,7 +1354,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/fire-damage-restoration/": [
@@ -1658,7 +1362,6 @@
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/tehachapi-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/smoke-damage-restoration/": [
@@ -1667,7 +1370,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/soot-removal/": [
@@ -1676,7 +1378,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/odor-removal/": [
@@ -1685,7 +1386,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/mold-remediation/": [
@@ -1694,7 +1394,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/mold-inspection-testing/": [
@@ -1703,7 +1402,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/storm-damage-restoration/": [
@@ -1712,7 +1410,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/carpet-cleaning/": [
@@ -1721,7 +1418,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/reconstruction/": [
@@ -1730,7 +1426,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/home-remodeling/": [
@@ -1739,7 +1434,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/general-contracting/": [
@@ -1748,7 +1442,6 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/water-damage-restoration/": [
@@ -1756,7 +1449,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/service-areas/delano-ca/water-damage-restoration/",
     "/contact/"
   ],
@@ -1765,7 +1457,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/service-areas/delano-ca/flood-damage-restoration/",
     "/contact/"
   ],
@@ -1774,7 +1465,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/contact/"
   ],
@@ -1783,7 +1473,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/service-areas/delano-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
@@ -1792,7 +1481,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/service-areas/delano-ca/sewage-cleanup/",
     "/contact/"
   ],
@@ -1801,7 +1489,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/contact/"
   ],
@@ -1810,7 +1497,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/service-areas/delano-ca/smoke-damage-restoration/",
     "/contact/"
   ],
@@ -1819,7 +1505,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/service-areas/delano-ca/soot-removal/",
     "/contact/"
   ],
@@ -1828,7 +1513,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/service-areas/delano-ca/odor-removal/",
     "/contact/"
   ],
@@ -1837,7 +1521,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/service-areas/delano-ca/mold-remediation/",
     "/contact/"
   ],
@@ -1846,7 +1529,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/service-areas/delano-ca/mold-inspection-testing/",
     "/contact/"
   ],
@@ -1855,7 +1537,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/service-areas/delano-ca/storm-damage-restoration/",
     "/contact/"
   ],
@@ -1864,7 +1545,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/service-areas/delano-ca/carpet-cleaning/",
     "/contact/"
   ],
@@ -1873,7 +1553,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/service-areas/delano-ca/reconstruction/",
     "/contact/"
   ],
@@ -1882,7 +1561,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/service-areas/delano-ca/home-remodeling/",
     "/contact/"
   ],
@@ -1891,7 +1569,6 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/service-areas/delano-ca/general-contracting/",
     "/contact/"
   ],
@@ -1901,7 +1578,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/flood-damage-restoration/": [
@@ -1910,7 +1586,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/burst-pipe-repair/": [
@@ -1919,7 +1594,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/appliance-leak-cleanup/": [
@@ -1928,7 +1602,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/sewage-cleanup/": [
@@ -1937,7 +1610,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/fire-damage-restoration/": [
@@ -1946,7 +1618,6 @@
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/lamont-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/smoke-damage-restoration/": [
@@ -1955,7 +1626,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/soot-removal/": [
@@ -1964,7 +1634,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/odor-removal/": [
@@ -1973,7 +1642,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/mold-remediation/": [
@@ -1982,7 +1650,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/mold-inspection-testing/": [
@@ -1991,7 +1658,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/storm-damage-restoration/": [
@@ -2000,7 +1666,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/carpet-cleaning/": [
@@ -2009,7 +1674,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/reconstruction/": [
@@ -2018,7 +1682,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/home-remodeling/": [
@@ -2027,7 +1690,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/general-contracting/": [
@@ -2036,7 +1698,6 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/water-damage-restoration/": [
@@ -2045,7 +1706,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bakersfield-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/flood-damage-restoration/": [
@@ -2054,7 +1714,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
-    "/service-areas/bakersfield-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/burst-pipe-repair/": [
@@ -2063,7 +1722,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/appliance-leak-cleanup/": [
@@ -2072,7 +1730,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
-    "/service-areas/bakersfield-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/sewage-cleanup/": [
@@ -2081,7 +1738,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
-    "/service-areas/bakersfield-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/fire-damage-restoration/": [
@@ -2090,7 +1746,6 @@
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/lake-isabella-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/bakersfield-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/smoke-damage-restoration/": [
@@ -2099,7 +1754,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
-    "/service-areas/bakersfield-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/soot-removal/": [
@@ -2108,7 +1762,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bakersfield-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/odor-removal/": [
@@ -2117,7 +1770,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/bakersfield-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/mold-remediation/": [
@@ -2126,7 +1778,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
-    "/service-areas/bakersfield-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/mold-inspection-testing/": [
@@ -2135,7 +1786,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
-    "/service-areas/bakersfield-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/storm-damage-restoration/": [
@@ -2144,7 +1794,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/bakersfield-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/carpet-cleaning/": [
@@ -2153,7 +1802,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
-    "/service-areas/bakersfield-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/reconstruction/": [
@@ -2162,7 +1810,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
-    "/service-areas/bakersfield-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/home-remodeling/": [
@@ -2171,7 +1818,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bakersfield-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/general-contracting/": [
@@ -2180,7 +1826,6 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
-    "/service-areas/bakersfield-ca/general-contracting/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

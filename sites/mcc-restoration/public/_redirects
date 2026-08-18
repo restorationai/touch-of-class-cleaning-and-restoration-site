@@ -1,0 +1,25 @@
+# home-city consolidation 2026-08-18 — home-city pages folded into home + main service pages (scripts/home_city_migrate.py)
+/service-areas/duncanville-tx / 301
+/service-areas/duncanville-tx/ / 301
+/service-areas/duncanville-tx/burst-pipe-repair /services/burst-pipe-repair/ 301
+/service-areas/duncanville-tx/burst-pipe-repair/ /services/burst-pipe-repair/ 301
+/service-areas/duncanville-tx/fire-damage-restoration /services/fire-damage-restoration/ 301
+/service-areas/duncanville-tx/fire-damage-restoration/ /services/fire-damage-restoration/ 301
+/service-areas/duncanville-tx/flood-damage-restoration /services/flood-damage-restoration/ 301
+/service-areas/duncanville-tx/flood-damage-restoration/ /services/flood-damage-restoration/ 301
+/service-areas/duncanville-tx/general-contracting /services/general-contracting/ 301
+/service-areas/duncanville-tx/general-contracting/ /services/general-contracting/ 301
+/service-areas/duncanville-tx/home-remodeling /services/home-remodeling/ 301
+/service-areas/duncanville-tx/home-remodeling/ /services/home-remodeling/ 301
+/service-areas/duncanville-tx/mold-remediation /services/mold-remediation/ 301
+/service-areas/duncanville-tx/mold-remediation/ /services/mold-remediation/ 301
+/service-areas/duncanville-tx/reconstruction /services/reconstruction/ 301
+/service-areas/duncanville-tx/reconstruction/ /services/reconstruction/ 301
+/service-areas/duncanville-tx/sewage-cleanup /services/sewage-cleanup/ 301
+/service-areas/duncanville-tx/sewage-cleanup/ /services/sewage-cleanup/ 301
+/service-areas/duncanville-tx/smoke-damage-restoration /services/smoke-damage-restoration/ 301
+/service-areas/duncanville-tx/smoke-damage-restoration/ /services/smoke-damage-restoration/ 301
+/service-areas/duncanville-tx/storm-damage-restoration /services/storm-damage-restoration/ 301
+/service-areas/duncanville-tx/storm-damage-restoration/ /services/storm-damage-restoration/ 301
+/service-areas/duncanville-tx/water-damage-restoration /services/water-damage-restoration/ 301
+/service-areas/duncanville-tx/water-damage-restoration/ /services/water-damage-restoration/ 301

@@ -17,7 +17,6 @@
     "/services/crawl-space-encapsulation/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/",
@@ -84,7 +83,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/",
@@ -386,7 +384,6 @@
     "/service-areas/eastabuchie-ms/crawl-space-encapsulation/",
     "/service-areas/eastabuchie-ms/carpet-cleaning/",
     "/service-areas/eastabuchie-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -406,7 +403,6 @@
     "/service-areas/hattiesburg-ms/crawl-space-encapsulation/",
     "/service-areas/hattiesburg-ms/carpet-cleaning/",
     "/service-areas/hattiesburg-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -426,7 +422,6 @@
     "/service-areas/petal-ms/crawl-space-encapsulation/",
     "/service-areas/petal-ms/carpet-cleaning/",
     "/service-areas/petal-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -446,7 +441,6 @@
     "/service-areas/rawls-springs-ms/crawl-space-encapsulation/",
     "/service-areas/rawls-springs-ms/carpet-cleaning/",
     "/service-areas/rawls-springs-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -466,7 +460,6 @@
     "/service-areas/leakesville-ms/crawl-space-encapsulation/",
     "/service-areas/leakesville-ms/carpet-cleaning/",
     "/service-areas/leakesville-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -486,7 +479,6 @@
     "/service-areas/mclain-ms/crawl-space-encapsulation/",
     "/service-areas/mclain-ms/carpet-cleaning/",
     "/service-areas/mclain-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -506,7 +498,6 @@
     "/service-areas/state-line-ms/crawl-space-encapsulation/",
     "/service-areas/state-line-ms/carpet-cleaning/",
     "/service-areas/state-line-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -526,7 +517,6 @@
     "/service-areas/biloxi-ms/crawl-space-encapsulation/",
     "/service-areas/biloxi-ms/carpet-cleaning/",
     "/service-areas/biloxi-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -546,7 +536,6 @@
     "/service-areas/d-iberville-ms/crawl-space-encapsulation/",
     "/service-areas/d-iberville-ms/carpet-cleaning/",
     "/service-areas/d-iberville-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -566,7 +555,6 @@
     "/service-areas/delisle-ms/crawl-space-encapsulation/",
     "/service-areas/delisle-ms/carpet-cleaning/",
     "/service-areas/delisle-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -586,29 +574,8 @@
     "/service-areas/diamondhead-ms/crawl-space-encapsulation/",
     "/service-areas/diamondhead-ms/carpet-cleaning/",
     "/service-areas/diamondhead-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
-  ],
-  "/service-areas/gulfport-ms/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/gulfport-ms/water-damage-restoration/",
-    "/service-areas/gulfport-ms/sewage-cleanup/",
-    "/service-areas/gulfport-ms/storm-damage-restoration/",
-    "/service-areas/gulfport-ms/biohazard-cleanup/",
-    "/service-areas/gulfport-ms/general-contracting/",
-    "/service-areas/gulfport-ms/emergency-board-up-tarping/",
-    "/service-areas/gulfport-ms/asbestos-abatement/",
-    "/service-areas/gulfport-ms/contents-restoration/",
-    "/service-areas/gulfport-ms/crawl-space-encapsulation/",
-    "/service-areas/gulfport-ms/carpet-cleaning/",
-    "/service-areas/gulfport-ms/post-construction-cleaning/",
-    "/service-areas/agricola-ms/",
-    "/service-areas/bay-st-louis-ms/",
-    "/service-areas/benndale-ms/"
   ],
   "/service-areas/henderson-point-ms/": [
     "/service-areas/",
@@ -626,7 +593,6 @@
     "/service-areas/henderson-point-ms/crawl-space-encapsulation/",
     "/service-areas/henderson-point-ms/carpet-cleaning/",
     "/service-areas/henderson-point-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -646,7 +612,6 @@
     "/service-areas/latimer-ms/crawl-space-encapsulation/",
     "/service-areas/latimer-ms/carpet-cleaning/",
     "/service-areas/latimer-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -666,7 +631,6 @@
     "/service-areas/long-beach-ms/crawl-space-encapsulation/",
     "/service-areas/long-beach-ms/carpet-cleaning/",
     "/service-areas/long-beach-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -686,7 +650,6 @@
     "/service-areas/lyman-ms/crawl-space-encapsulation/",
     "/service-areas/lyman-ms/carpet-cleaning/",
     "/service-areas/lyman-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -706,7 +669,6 @@
     "/service-areas/pass-christian-ms/crawl-space-encapsulation/",
     "/service-areas/pass-christian-ms/carpet-cleaning/",
     "/service-areas/pass-christian-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -726,7 +688,6 @@
     "/service-areas/saucier-ms/crawl-space-encapsulation/",
     "/service-areas/saucier-ms/carpet-cleaning/",
     "/service-areas/saucier-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -746,7 +707,6 @@
     "/service-areas/st-martin-ms/crawl-space-encapsulation/",
     "/service-areas/st-martin-ms/carpet-cleaning/",
     "/service-areas/st-martin-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -766,7 +726,6 @@
     "/service-areas/bay-st-louis-ms/crawl-space-encapsulation/",
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/service-areas/bay-st-louis-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/benndale-ms/"
   ],
@@ -786,7 +745,6 @@
     "/service-areas/kiln-ms/crawl-space-encapsulation/",
     "/service-areas/kiln-ms/carpet-cleaning/",
     "/service-areas/kiln-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -806,7 +764,6 @@
     "/service-areas/pearlington-ms/crawl-space-encapsulation/",
     "/service-areas/pearlington-ms/carpet-cleaning/",
     "/service-areas/pearlington-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -826,7 +783,6 @@
     "/service-areas/picayune-ms/crawl-space-encapsulation/",
     "/service-areas/picayune-ms/carpet-cleaning/",
     "/service-areas/picayune-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -846,7 +802,6 @@
     "/service-areas/waveland-ms/crawl-space-encapsulation/",
     "/service-areas/waveland-ms/carpet-cleaning/",
     "/service-areas/waveland-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -866,7 +821,6 @@
     "/service-areas/wiggins-ms/crawl-space-encapsulation/",
     "/service-areas/wiggins-ms/carpet-cleaning/",
     "/service-areas/wiggins-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -886,7 +840,6 @@
     "/service-areas/hide-a-way-lake-ms/crawl-space-encapsulation/",
     "/service-areas/hide-a-way-lake-ms/carpet-cleaning/",
     "/service-areas/hide-a-way-lake-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -906,7 +859,6 @@
     "/service-areas/lumberton-ms/crawl-space-encapsulation/",
     "/service-areas/lumberton-ms/carpet-cleaning/",
     "/service-areas/lumberton-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -926,7 +878,6 @@
     "/service-areas/poplarville-ms/crawl-space-encapsulation/",
     "/service-areas/poplarville-ms/carpet-cleaning/",
     "/service-areas/poplarville-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -946,7 +897,6 @@
     "/service-areas/big-point-ms/crawl-space-encapsulation/",
     "/service-areas/big-point-ms/carpet-cleaning/",
     "/service-areas/big-point-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -966,7 +916,6 @@
     "/service-areas/escatawpa-ms/crawl-space-encapsulation/",
     "/service-areas/escatawpa-ms/carpet-cleaning/",
     "/service-areas/escatawpa-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -986,7 +935,6 @@
     "/service-areas/gautier-ms/crawl-space-encapsulation/",
     "/service-areas/gautier-ms/carpet-cleaning/",
     "/service-areas/gautier-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1006,7 +954,6 @@
     "/service-areas/gulf-hills-ms/crawl-space-encapsulation/",
     "/service-areas/gulf-hills-ms/carpet-cleaning/",
     "/service-areas/gulf-hills-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1026,7 +973,6 @@
     "/service-areas/gulf-park-estates-ms/crawl-space-encapsulation/",
     "/service-areas/gulf-park-estates-ms/carpet-cleaning/",
     "/service-areas/gulf-park-estates-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1046,7 +992,6 @@
     "/service-areas/helena-ms/crawl-space-encapsulation/",
     "/service-areas/helena-ms/carpet-cleaning/",
     "/service-areas/helena-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1066,7 +1011,6 @@
     "/service-areas/hurley-ms/crawl-space-encapsulation/",
     "/service-areas/hurley-ms/carpet-cleaning/",
     "/service-areas/hurley-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1086,7 +1030,6 @@
     "/service-areas/moss-point-ms/crawl-space-encapsulation/",
     "/service-areas/moss-point-ms/carpet-cleaning/",
     "/service-areas/moss-point-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1106,7 +1049,6 @@
     "/service-areas/ocean-springs-ms/crawl-space-encapsulation/",
     "/service-areas/ocean-springs-ms/carpet-cleaning/",
     "/service-areas/ocean-springs-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1126,7 +1068,6 @@
     "/service-areas/pascagoula-ms/crawl-space-encapsulation/",
     "/service-areas/pascagoula-ms/carpet-cleaning/",
     "/service-areas/pascagoula-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1146,7 +1087,6 @@
     "/service-areas/vancleave-ms/crawl-space-encapsulation/",
     "/service-areas/vancleave-ms/carpet-cleaning/",
     "/service-areas/vancleave-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1166,7 +1106,6 @@
     "/service-areas/wade-ms/crawl-space-encapsulation/",
     "/service-areas/wade-ms/carpet-cleaning/",
     "/service-areas/wade-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1186,7 +1125,6 @@
     "/service-areas/agricola-ms/crawl-space-encapsulation/",
     "/service-areas/agricola-ms/carpet-cleaning/",
     "/service-areas/agricola-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
   ],
@@ -1206,7 +1144,6 @@
     "/service-areas/benndale-ms/crawl-space-encapsulation/",
     "/service-areas/benndale-ms/carpet-cleaning/",
     "/service-areas/benndale-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1226,7 +1163,6 @@
     "/service-areas/lucedale-ms/crawl-space-encapsulation/",
     "/service-areas/lucedale-ms/carpet-cleaning/",
     "/service-areas/lucedale-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1246,7 +1182,6 @@
     "/service-areas/ellisville-ms/crawl-space-encapsulation/",
     "/service-areas/ellisville-ms/carpet-cleaning/",
     "/service-areas/ellisville-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1266,7 +1201,6 @@
     "/service-areas/laurel-ms/crawl-space-encapsulation/",
     "/service-areas/laurel-ms/carpet-cleaning/",
     "/service-areas/laurel-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1286,7 +1220,6 @@
     "/service-areas/moselle-ms/crawl-space-encapsulation/",
     "/service-areas/moselle-ms/carpet-cleaning/",
     "/service-areas/moselle-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1306,7 +1239,6 @@
     "/service-areas/ovett-ms/crawl-space-encapsulation/",
     "/service-areas/ovett-ms/carpet-cleaning/",
     "/service-areas/ovett-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -1326,7 +1258,6 @@
     "/service-areas/sandersville-ms/crawl-space-encapsulation/",
     "/service-areas/sandersville-ms/carpet-cleaning/",
     "/service-areas/sandersville-ms/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/"
   ],
@@ -2613,123 +2544,6 @@
     "/service-areas/diamondhead-ms/",
     "/service-areas/diamondhead-ms/fire-damage-restoration/",
     "/service-areas/diamondhead-ms/mold-remediation/",
-    "/service-areas/agricola-ms/post-construction-cleaning/",
-    "/service-areas/bay-st-louis-ms/post-construction-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-damage-restoration/",
-    "/service-areas/bay-st-louis-ms/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/fire-damage-restoration/": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/gulfport-ms/water-damage-restoration/",
-    "/service-areas/agricola-ms/fire-damage-restoration/",
-    "/service-areas/bay-st-louis-ms/fire-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/water-damage-restoration/",
-    "/service-areas/agricola-ms/mold-remediation/",
-    "/service-areas/bay-st-louis-ms/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/agricola-ms/storm-damage-restoration/",
-    "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/sewage-cleanup/": [
-    "/services/sewage-cleanup/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/agricola-ms/sewage-cleanup/",
-    "/service-areas/bay-st-louis-ms/sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/general-contracting/": [
-    "/services/general-contracting/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/agricola-ms/general-contracting/",
-    "/service-areas/bay-st-louis-ms/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/biohazard-cleanup/": [
-    "/services/biohazard-cleanup/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/agricola-ms/biohazard-cleanup/",
-    "/service-areas/bay-st-louis-ms/biohazard-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/asbestos-abatement/": [
-    "/services/asbestos-abatement/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/agricola-ms/asbestos-abatement/",
-    "/service-areas/bay-st-louis-ms/asbestos-abatement/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/emergency-board-up-tarping/": [
-    "/services/emergency-board-up-tarping/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-board-up-tarping/",
-    "/service-areas/bay-st-louis-ms/emergency-board-up-tarping/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/contents-restoration/": [
-    "/services/contents-restoration/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration/",
-    "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/crawl-space-encapsulation/": [
-    "/services/crawl-space-encapsulation/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/agricola-ms/crawl-space-encapsulation/",
-    "/service-areas/bay-st-louis-ms/crawl-space-encapsulation/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/carpet-cleaning/": [
-    "/services/carpet-cleaning/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/gulfport-ms/post-construction-cleaning/": [
-    "/services/post-construction-cleaning/",
-    "/service-areas/gulfport-ms/",
-    "/service-areas/gulfport-ms/fire-damage-restoration/",
-    "/service-areas/gulfport-ms/mold-remediation/",
     "/service-areas/agricola-ms/post-construction-cleaning/",
     "/service-areas/bay-st-louis-ms/post-construction-cleaning/",
     "/contact/"

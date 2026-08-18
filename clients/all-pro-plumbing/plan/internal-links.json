@@ -26,7 +26,6 @@
     "/services/sump-pumps/",
     "/services/water-softeners-filtration/",
     "/services/garbage-disposal/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/oildale-ca/",
     "/service-areas/rosedale-ca/",
@@ -61,7 +60,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/oildale-ca/",
     "/service-areas/rosedale-ca/",
@@ -97,7 +95,6 @@
   "/services/emergency-plumbing/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/emergency-plumbing/",
     "/service-areas/delano-ca/emergency-plumbing/",
     "/service-areas/oildale-ca/emergency-plumbing/",
     "/service-areas/rosedale-ca/emergency-plumbing/",
@@ -109,7 +106,6 @@
   "/services/burst-pipe-repair/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/service-areas/oildale-ca/burst-pipe-repair/",
     "/service-areas/rosedale-ca/burst-pipe-repair/",
@@ -121,7 +117,6 @@
   "/services/drain-cleaning/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
     "/service-areas/delano-ca/drain-cleaning/",
     "/service-areas/oildale-ca/drain-cleaning/",
     "/service-areas/rosedale-ca/drain-cleaning/",
@@ -134,7 +129,6 @@
   "/services/sewer-line-repair/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/sewer-line-repair/",
     "/service-areas/delano-ca/sewer-line-repair/",
     "/service-areas/oildale-ca/sewer-line-repair/",
     "/service-areas/rosedale-ca/sewer-line-repair/",
@@ -147,7 +141,6 @@
   "/services/water-heater-repair/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/water-heater-repair/",
     "/service-areas/delano-ca/water-heater-repair/",
     "/service-areas/oildale-ca/water-heater-repair/",
     "/service-areas/rosedale-ca/water-heater-repair/",
@@ -159,7 +152,6 @@
   "/services/water-heater-installation/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/water-heater-installation/",
     "/service-areas/delano-ca/water-heater-installation/",
     "/service-areas/oildale-ca/water-heater-installation/",
     "/service-areas/rosedale-ca/water-heater-installation/",
@@ -172,7 +164,6 @@
   "/services/leak-detection/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/leak-detection/",
     "/service-areas/delano-ca/leak-detection/",
     "/service-areas/oildale-ca/leak-detection/",
     "/service-areas/rosedale-ca/leak-detection/",
@@ -185,7 +176,6 @@
   "/services/slab-leak-repair/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/slab-leak-repair/",
     "/service-areas/delano-ca/slab-leak-repair/",
     "/service-areas/oildale-ca/slab-leak-repair/",
     "/service-areas/rosedale-ca/slab-leak-repair/",
@@ -197,7 +187,6 @@
   "/services/repiping/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/repiping/",
     "/service-areas/delano-ca/repiping/",
     "/service-areas/oildale-ca/repiping/",
     "/service-areas/rosedale-ca/repiping/",
@@ -209,7 +198,6 @@
   "/services/gas-line-services/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/gas-line-services/",
     "/service-areas/delano-ca/gas-line-services/",
     "/service-areas/oildale-ca/gas-line-services/",
     "/service-areas/rosedale-ca/gas-line-services/",
@@ -221,7 +209,6 @@
   "/services/sump-pumps/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/sump-pumps/",
     "/service-areas/delano-ca/sump-pumps/",
     "/service-areas/oildale-ca/sump-pumps/",
     "/service-areas/rosedale-ca/sump-pumps/",
@@ -232,7 +219,6 @@
   "/services/water-softeners-filtration/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/water-softeners-filtration/",
     "/service-areas/delano-ca/water-softeners-filtration/",
     "/service-areas/oildale-ca/water-softeners-filtration/",
     "/service-areas/rosedale-ca/water-softeners-filtration/",
@@ -243,7 +229,6 @@
   "/services/toilet-faucet-repair/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/toilet-faucet-repair/",
     "/service-areas/delano-ca/toilet-faucet-repair/",
     "/service-areas/oildale-ca/toilet-faucet-repair/",
     "/service-areas/rosedale-ca/toilet-faucet-repair/",
@@ -254,7 +239,6 @@
   "/services/garbage-disposal/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/garbage-disposal/",
     "/service-areas/delano-ca/garbage-disposal/",
     "/service-areas/oildale-ca/garbage-disposal/",
     "/service-areas/rosedale-ca/garbage-disposal/",
@@ -265,7 +249,6 @@
   "/services/furnace-repair/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/furnace-repair/",
     "/service-areas/delano-ca/furnace-repair/",
     "/service-areas/oildale-ca/furnace-repair/",
     "/service-areas/rosedale-ca/furnace-repair/",
@@ -277,7 +260,6 @@
   "/services/furnace-installation/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/furnace-installation/",
     "/service-areas/delano-ca/furnace-installation/",
     "/service-areas/oildale-ca/furnace-installation/",
     "/service-areas/rosedale-ca/furnace-installation/",
@@ -290,7 +272,6 @@
   "/services/heat-pump-services/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/heat-pump-services/",
     "/service-areas/delano-ca/heat-pump-services/",
     "/service-areas/oildale-ca/heat-pump-services/",
     "/service-areas/rosedale-ca/heat-pump-services/",
@@ -302,7 +283,6 @@
   "/services/ac-repair/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/ac-repair/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/rosedale-ca/ac-repair/",
@@ -313,7 +293,6 @@
   "/services/ac-installation/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/ac-installation/",
     "/service-areas/delano-ca/ac-installation/",
     "/service-areas/oildale-ca/ac-installation/",
     "/service-areas/rosedale-ca/ac-installation/",
@@ -325,7 +304,6 @@
   "/services/ductless-mini-splits/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/ductless-mini-splits/",
     "/service-areas/delano-ca/ductless-mini-splits/",
     "/service-areas/oildale-ca/ductless-mini-splits/",
     "/service-areas/rosedale-ca/ductless-mini-splits/",
@@ -336,7 +314,6 @@
   "/services/ductwork/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/ductwork/",
     "/service-areas/delano-ca/ductwork/",
     "/service-areas/oildale-ca/ductwork/",
     "/service-areas/rosedale-ca/ductwork/",
@@ -347,42 +324,12 @@
   "/services/indoor-air-quality/": [
     "/services/",
     "/contact/",
-    "/service-areas/bakersfield-ca/indoor-air-quality/",
     "/service-areas/delano-ca/indoor-air-quality/",
     "/service-areas/oildale-ca/indoor-air-quality/",
     "/service-areas/rosedale-ca/indoor-air-quality/",
     "/service-areas/shafter-ca/indoor-air-quality/",
     "/service-areas/taft-ca/indoor-air-quality/",
     "/service-areas/tehachapi-ca/indoor-air-quality/"
-  ],
-  "/service-areas/bakersfield-ca/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/water-heater-repair/",
-    "/service-areas/bakersfield-ca/ac-installation/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/furnace-repair/",
-    "/service-areas/bakersfield-ca/sewer-line-repair/",
-    "/service-areas/bakersfield-ca/water-heater-installation/",
-    "/service-areas/bakersfield-ca/furnace-installation/",
-    "/service-areas/bakersfield-ca/gas-line-services/",
-    "/service-areas/bakersfield-ca/ductless-mini-splits/",
-    "/service-areas/bakersfield-ca/heat-pump-services/",
-    "/service-areas/bakersfield-ca/leak-detection/",
-    "/service-areas/bakersfield-ca/repiping/",
-    "/service-areas/bakersfield-ca/slab-leak-repair/",
-    "/service-areas/bakersfield-ca/toilet-faucet-repair/",
-    "/service-areas/bakersfield-ca/ductwork/",
-    "/service-areas/bakersfield-ca/indoor-air-quality/",
-    "/service-areas/bakersfield-ca/sump-pumps/",
-    "/service-areas/bakersfield-ca/water-softeners-filtration/",
-    "/service-areas/bakersfield-ca/garbage-disposal/",
-    "/service-areas/delano-ca/",
-    "/service-areas/oildale-ca/",
-    "/service-areas/rosedale-ca/"
   ],
   "/service-areas/oildale-ca/": [
     "/service-areas/",
@@ -409,7 +356,6 @@
     "/service-areas/oildale-ca/sump-pumps/",
     "/service-areas/oildale-ca/water-softeners-filtration/",
     "/service-areas/oildale-ca/garbage-disposal/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/rosedale-ca/"
   ],
@@ -438,7 +384,6 @@
     "/service-areas/rosedale-ca/sump-pumps/",
     "/service-areas/rosedale-ca/water-softeners-filtration/",
     "/service-areas/rosedale-ca/garbage-disposal/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/oildale-ca/"
   ],
@@ -467,7 +412,6 @@
     "/service-areas/shafter-ca/sump-pumps/",
     "/service-areas/shafter-ca/water-softeners-filtration/",
     "/service-areas/shafter-ca/garbage-disposal/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/oildale-ca/"
   ],
@@ -496,7 +440,6 @@
     "/service-areas/delano-ca/sump-pumps/",
     "/service-areas/delano-ca/water-softeners-filtration/",
     "/service-areas/delano-ca/garbage-disposal/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/oildale-ca/",
     "/service-areas/rosedale-ca/"
   ],
@@ -525,7 +468,6 @@
     "/service-areas/taft-ca/sump-pumps/",
     "/service-areas/taft-ca/water-softeners-filtration/",
     "/service-areas/taft-ca/garbage-disposal/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/oildale-ca/"
   ],
@@ -554,214 +496,14 @@
     "/service-areas/tehachapi-ca/sump-pumps/",
     "/service-areas/tehachapi-ca/water-softeners-filtration/",
     "/service-areas/tehachapi-ca/garbage-disposal/",
-    "/service-areas/bakersfield-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/oildale-ca/"
-  ],
-  "/service-areas/bakersfield-ca/emergency-plumbing/": [
-    "/services/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/emergency-plumbing/",
-    "/service-areas/oildale-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/burst-pipe-repair/": [
-    "/services/burst-pipe-repair/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/burst-pipe-repair/",
-    "/service-areas/oildale-ca/burst-pipe-repair/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/drain-cleaning/": [
-    "/services/drain-cleaning/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/emergency-plumbing/",
-    "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/oildale-ca/drain-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/sewer-line-repair/": [
-    "/services/sewer-line-repair/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/sewer-line-repair/",
-    "/service-areas/oildale-ca/sewer-line-repair/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/water-heater-repair/": [
-    "/services/water-heater-repair/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/water-heater-repair/",
-    "/service-areas/oildale-ca/water-heater-repair/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/water-heater-installation/": [
-    "/services/water-heater-installation/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/water-heater-installation/",
-    "/service-areas/oildale-ca/water-heater-installation/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/leak-detection/": [
-    "/services/leak-detection/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/leak-detection/",
-    "/service-areas/oildale-ca/leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/slab-leak-repair/": [
-    "/services/slab-leak-repair/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/slab-leak-repair/",
-    "/service-areas/oildale-ca/slab-leak-repair/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/repiping/": [
-    "/services/repiping/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/repiping/",
-    "/service-areas/oildale-ca/repiping/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/gas-line-services/": [
-    "/services/gas-line-services/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/gas-line-services/",
-    "/service-areas/oildale-ca/gas-line-services/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/sump-pumps/": [
-    "/services/sump-pumps/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/sump-pumps/",
-    "/service-areas/oildale-ca/sump-pumps/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/water-softeners-filtration/": [
-    "/services/water-softeners-filtration/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/water-softeners-filtration/",
-    "/service-areas/oildale-ca/water-softeners-filtration/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/toilet-faucet-repair/": [
-    "/services/toilet-faucet-repair/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/toilet-faucet-repair/",
-    "/service-areas/oildale-ca/toilet-faucet-repair/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/garbage-disposal/": [
-    "/services/garbage-disposal/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/garbage-disposal/",
-    "/service-areas/oildale-ca/garbage-disposal/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/furnace-repair/": [
-    "/services/furnace-repair/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/furnace-repair/",
-    "/service-areas/oildale-ca/furnace-repair/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/furnace-installation/": [
-    "/services/furnace-installation/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/furnace-installation/",
-    "/service-areas/oildale-ca/furnace-installation/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/heat-pump-services/": [
-    "/services/heat-pump-services/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/heat-pump-services/",
-    "/service-areas/oildale-ca/heat-pump-services/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/ac-repair/": [
-    "/services/ac-repair/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/emergency-plumbing/",
-    "/service-areas/delano-ca/ac-repair/",
-    "/service-areas/oildale-ca/ac-repair/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/ac-installation/": [
-    "/services/ac-installation/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/ac-installation/",
-    "/service-areas/oildale-ca/ac-installation/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/ductless-mini-splits/": [
-    "/services/ductless-mini-splits/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/ductless-mini-splits/",
-    "/service-areas/oildale-ca/ductless-mini-splits/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/ductwork/": [
-    "/services/ductwork/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/ductwork/",
-    "/service-areas/oildale-ca/ductwork/",
-    "/contact/"
-  ],
-  "/service-areas/bakersfield-ca/indoor-air-quality/": [
-    "/services/indoor-air-quality/",
-    "/service-areas/bakersfield-ca/",
-    "/service-areas/bakersfield-ca/ac-repair/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
-    "/service-areas/delano-ca/indoor-air-quality/",
-    "/service-areas/oildale-ca/indoor-air-quality/",
-    "/contact/"
   ],
   "/service-areas/oildale-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/emergency-plumbing/",
     "/service-areas/delano-ca/emergency-plumbing/",
     "/contact/"
   ],
@@ -770,7 +512,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/contact/"
   ],
@@ -779,7 +520,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
     "/service-areas/delano-ca/drain-cleaning/",
     "/contact/"
   ],
@@ -788,7 +528,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sewer-line-repair/",
     "/service-areas/delano-ca/sewer-line-repair/",
     "/contact/"
   ],
@@ -797,7 +536,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-repair/",
     "/service-areas/delano-ca/water-heater-repair/",
     "/contact/"
   ],
@@ -806,7 +544,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-installation/",
     "/service-areas/delano-ca/water-heater-installation/",
     "/contact/"
   ],
@@ -815,7 +552,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/leak-detection/",
     "/service-areas/delano-ca/leak-detection/",
     "/contact/"
   ],
@@ -824,7 +560,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/slab-leak-repair/",
     "/service-areas/delano-ca/slab-leak-repair/",
     "/contact/"
   ],
@@ -833,7 +568,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/repiping/",
     "/service-areas/delano-ca/repiping/",
     "/contact/"
   ],
@@ -842,7 +576,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/gas-line-services/",
     "/service-areas/delano-ca/gas-line-services/",
     "/contact/"
   ],
@@ -851,7 +584,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sump-pumps/",
     "/service-areas/delano-ca/sump-pumps/",
     "/contact/"
   ],
@@ -860,7 +592,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-softeners-filtration/",
     "/service-areas/delano-ca/water-softeners-filtration/",
     "/contact/"
   ],
@@ -869,7 +600,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/toilet-faucet-repair/",
     "/service-areas/delano-ca/toilet-faucet-repair/",
     "/contact/"
   ],
@@ -878,7 +608,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/garbage-disposal/",
     "/service-areas/delano-ca/garbage-disposal/",
     "/contact/"
   ],
@@ -887,7 +616,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-repair/",
     "/service-areas/delano-ca/furnace-repair/",
     "/contact/"
   ],
@@ -896,7 +624,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-installation/",
     "/service-areas/delano-ca/furnace-installation/",
     "/contact/"
   ],
@@ -905,7 +632,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/heat-pump-services/",
     "/service-areas/delano-ca/heat-pump-services/",
     "/contact/"
   ],
@@ -914,7 +640,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/drain-cleaning/",
     "/service-areas/oildale-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/ac-repair/",
     "/service-areas/delano-ca/ac-repair/",
     "/contact/"
   ],
@@ -923,7 +648,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ac-installation/",
     "/service-areas/delano-ca/ac-installation/",
     "/contact/"
   ],
@@ -932,7 +656,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductless-mini-splits/",
     "/service-areas/delano-ca/ductless-mini-splits/",
     "/contact/"
   ],
@@ -941,7 +664,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductwork/",
     "/service-areas/delano-ca/ductwork/",
     "/contact/"
   ],
@@ -950,7 +672,6 @@
     "/service-areas/oildale-ca/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/oildale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/indoor-air-quality/",
     "/service-areas/delano-ca/indoor-air-quality/",
     "/contact/"
   ],
@@ -959,7 +680,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/emergency-plumbing/",
     "/service-areas/delano-ca/emergency-plumbing/",
     "/contact/"
   ],
@@ -968,7 +688,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/contact/"
   ],
@@ -977,7 +696,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
     "/service-areas/delano-ca/drain-cleaning/",
     "/contact/"
   ],
@@ -986,7 +704,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sewer-line-repair/",
     "/service-areas/delano-ca/sewer-line-repair/",
     "/contact/"
   ],
@@ -995,7 +712,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-repair/",
     "/service-areas/delano-ca/water-heater-repair/",
     "/contact/"
   ],
@@ -1004,7 +720,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-installation/",
     "/service-areas/delano-ca/water-heater-installation/",
     "/contact/"
   ],
@@ -1013,7 +728,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/leak-detection/",
     "/service-areas/delano-ca/leak-detection/",
     "/contact/"
   ],
@@ -1022,7 +736,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/slab-leak-repair/",
     "/service-areas/delano-ca/slab-leak-repair/",
     "/contact/"
   ],
@@ -1031,7 +744,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/repiping/",
     "/service-areas/delano-ca/repiping/",
     "/contact/"
   ],
@@ -1040,7 +752,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/gas-line-services/",
     "/service-areas/delano-ca/gas-line-services/",
     "/contact/"
   ],
@@ -1049,7 +760,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sump-pumps/",
     "/service-areas/delano-ca/sump-pumps/",
     "/contact/"
   ],
@@ -1058,7 +768,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-softeners-filtration/",
     "/service-areas/delano-ca/water-softeners-filtration/",
     "/contact/"
   ],
@@ -1067,7 +776,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/toilet-faucet-repair/",
     "/service-areas/delano-ca/toilet-faucet-repair/",
     "/contact/"
   ],
@@ -1076,7 +784,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/garbage-disposal/",
     "/service-areas/delano-ca/garbage-disposal/",
     "/contact/"
   ],
@@ -1085,7 +792,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-repair/",
     "/service-areas/delano-ca/furnace-repair/",
     "/contact/"
   ],
@@ -1094,7 +800,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-installation/",
     "/service-areas/delano-ca/furnace-installation/",
     "/contact/"
   ],
@@ -1103,7 +808,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/heat-pump-services/",
     "/service-areas/delano-ca/heat-pump-services/",
     "/contact/"
   ],
@@ -1112,7 +816,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/drain-cleaning/",
     "/service-areas/rosedale-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/ac-repair/",
     "/service-areas/delano-ca/ac-repair/",
     "/contact/"
   ],
@@ -1121,7 +824,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ac-installation/",
     "/service-areas/delano-ca/ac-installation/",
     "/contact/"
   ],
@@ -1130,7 +832,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductless-mini-splits/",
     "/service-areas/delano-ca/ductless-mini-splits/",
     "/contact/"
   ],
@@ -1139,7 +840,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductwork/",
     "/service-areas/delano-ca/ductwork/",
     "/contact/"
   ],
@@ -1148,7 +848,6 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/rosedale-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/indoor-air-quality/",
     "/service-areas/delano-ca/indoor-air-quality/",
     "/contact/"
   ],
@@ -1157,7 +856,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/emergency-plumbing/",
     "/service-areas/delano-ca/emergency-plumbing/",
     "/contact/"
   ],
@@ -1166,7 +864,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/contact/"
   ],
@@ -1175,7 +872,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
     "/service-areas/delano-ca/drain-cleaning/",
     "/contact/"
   ],
@@ -1184,7 +880,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sewer-line-repair/",
     "/service-areas/delano-ca/sewer-line-repair/",
     "/contact/"
   ],
@@ -1193,7 +888,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-repair/",
     "/service-areas/delano-ca/water-heater-repair/",
     "/contact/"
   ],
@@ -1202,7 +896,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-installation/",
     "/service-areas/delano-ca/water-heater-installation/",
     "/contact/"
   ],
@@ -1211,7 +904,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/leak-detection/",
     "/service-areas/delano-ca/leak-detection/",
     "/contact/"
   ],
@@ -1220,7 +912,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/slab-leak-repair/",
     "/service-areas/delano-ca/slab-leak-repair/",
     "/contact/"
   ],
@@ -1229,7 +920,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/repiping/",
     "/service-areas/delano-ca/repiping/",
     "/contact/"
   ],
@@ -1238,7 +928,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/gas-line-services/",
     "/service-areas/delano-ca/gas-line-services/",
     "/contact/"
   ],
@@ -1247,7 +936,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sump-pumps/",
     "/service-areas/delano-ca/sump-pumps/",
     "/contact/"
   ],
@@ -1256,7 +944,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-softeners-filtration/",
     "/service-areas/delano-ca/water-softeners-filtration/",
     "/contact/"
   ],
@@ -1265,7 +952,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/toilet-faucet-repair/",
     "/service-areas/delano-ca/toilet-faucet-repair/",
     "/contact/"
   ],
@@ -1274,7 +960,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/garbage-disposal/",
     "/service-areas/delano-ca/garbage-disposal/",
     "/contact/"
   ],
@@ -1283,7 +968,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-repair/",
     "/service-areas/delano-ca/furnace-repair/",
     "/contact/"
   ],
@@ -1292,7 +976,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-installation/",
     "/service-areas/delano-ca/furnace-installation/",
     "/contact/"
   ],
@@ -1301,7 +984,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/heat-pump-services/",
     "/service-areas/delano-ca/heat-pump-services/",
     "/contact/"
   ],
@@ -1310,7 +992,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/drain-cleaning/",
     "/service-areas/shafter-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/ac-repair/",
     "/service-areas/delano-ca/ac-repair/",
     "/contact/"
   ],
@@ -1319,7 +1000,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ac-installation/",
     "/service-areas/delano-ca/ac-installation/",
     "/contact/"
   ],
@@ -1328,7 +1008,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductless-mini-splits/",
     "/service-areas/delano-ca/ductless-mini-splits/",
     "/contact/"
   ],
@@ -1337,7 +1016,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductwork/",
     "/service-areas/delano-ca/ductwork/",
     "/contact/"
   ],
@@ -1346,7 +1024,6 @@
     "/service-areas/shafter-ca/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/shafter-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/indoor-air-quality/",
     "/service-areas/delano-ca/indoor-air-quality/",
     "/contact/"
   ],
@@ -1355,7 +1032,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/emergency-plumbing/",
     "/service-areas/oildale-ca/emergency-plumbing/",
     "/contact/"
   ],
@@ -1364,7 +1040,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/service-areas/oildale-ca/burst-pipe-repair/",
     "/contact/"
   ],
@@ -1373,7 +1048,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
     "/service-areas/oildale-ca/drain-cleaning/",
     "/contact/"
   ],
@@ -1382,7 +1056,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sewer-line-repair/",
     "/service-areas/oildale-ca/sewer-line-repair/",
     "/contact/"
   ],
@@ -1391,7 +1064,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-repair/",
     "/service-areas/oildale-ca/water-heater-repair/",
     "/contact/"
   ],
@@ -1400,7 +1072,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-installation/",
     "/service-areas/oildale-ca/water-heater-installation/",
     "/contact/"
   ],
@@ -1409,7 +1080,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/leak-detection/",
     "/service-areas/oildale-ca/leak-detection/",
     "/contact/"
   ],
@@ -1418,7 +1088,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/slab-leak-repair/",
     "/service-areas/oildale-ca/slab-leak-repair/",
     "/contact/"
   ],
@@ -1427,7 +1096,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/repiping/",
     "/service-areas/oildale-ca/repiping/",
     "/contact/"
   ],
@@ -1436,7 +1104,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/gas-line-services/",
     "/service-areas/oildale-ca/gas-line-services/",
     "/contact/"
   ],
@@ -1445,7 +1112,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sump-pumps/",
     "/service-areas/oildale-ca/sump-pumps/",
     "/contact/"
   ],
@@ -1454,7 +1120,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-softeners-filtration/",
     "/service-areas/oildale-ca/water-softeners-filtration/",
     "/contact/"
   ],
@@ -1463,7 +1128,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/toilet-faucet-repair/",
     "/service-areas/oildale-ca/toilet-faucet-repair/",
     "/contact/"
   ],
@@ -1472,7 +1136,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/garbage-disposal/",
     "/service-areas/oildale-ca/garbage-disposal/",
     "/contact/"
   ],
@@ -1481,7 +1144,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-repair/",
     "/service-areas/oildale-ca/furnace-repair/",
     "/contact/"
   ],
@@ -1490,7 +1152,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-installation/",
     "/service-areas/oildale-ca/furnace-installation/",
     "/contact/"
   ],
@@ -1499,7 +1160,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/heat-pump-services/",
     "/service-areas/oildale-ca/heat-pump-services/",
     "/contact/"
   ],
@@ -1508,7 +1168,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/drain-cleaning/",
     "/service-areas/delano-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/ac-repair/",
     "/service-areas/oildale-ca/ac-repair/",
     "/contact/"
   ],
@@ -1517,7 +1176,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ac-installation/",
     "/service-areas/oildale-ca/ac-installation/",
     "/contact/"
   ],
@@ -1526,7 +1184,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductless-mini-splits/",
     "/service-areas/oildale-ca/ductless-mini-splits/",
     "/contact/"
   ],
@@ -1535,7 +1192,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductwork/",
     "/service-areas/oildale-ca/ductwork/",
     "/contact/"
   ],
@@ -1544,7 +1200,6 @@
     "/service-areas/delano-ca/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/delano-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/indoor-air-quality/",
     "/service-areas/oildale-ca/indoor-air-quality/",
     "/contact/"
   ],
@@ -1553,7 +1208,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/emergency-plumbing/",
     "/service-areas/delano-ca/emergency-plumbing/",
     "/contact/"
   ],
@@ -1562,7 +1216,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/contact/"
   ],
@@ -1571,7 +1224,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
     "/service-areas/delano-ca/drain-cleaning/",
     "/contact/"
   ],
@@ -1580,7 +1232,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sewer-line-repair/",
     "/service-areas/delano-ca/sewer-line-repair/",
     "/contact/"
   ],
@@ -1589,7 +1240,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-repair/",
     "/service-areas/delano-ca/water-heater-repair/",
     "/contact/"
   ],
@@ -1598,7 +1248,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-installation/",
     "/service-areas/delano-ca/water-heater-installation/",
     "/contact/"
   ],
@@ -1607,7 +1256,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/leak-detection/",
     "/service-areas/delano-ca/leak-detection/",
     "/contact/"
   ],
@@ -1616,7 +1264,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/slab-leak-repair/",
     "/service-areas/delano-ca/slab-leak-repair/",
     "/contact/"
   ],
@@ -1625,7 +1272,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/repiping/",
     "/service-areas/delano-ca/repiping/",
     "/contact/"
   ],
@@ -1634,7 +1280,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/gas-line-services/",
     "/service-areas/delano-ca/gas-line-services/",
     "/contact/"
   ],
@@ -1643,7 +1288,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sump-pumps/",
     "/service-areas/delano-ca/sump-pumps/",
     "/contact/"
   ],
@@ -1652,7 +1296,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-softeners-filtration/",
     "/service-areas/delano-ca/water-softeners-filtration/",
     "/contact/"
   ],
@@ -1661,7 +1304,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/toilet-faucet-repair/",
     "/service-areas/delano-ca/toilet-faucet-repair/",
     "/contact/"
   ],
@@ -1670,7 +1312,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/garbage-disposal/",
     "/service-areas/delano-ca/garbage-disposal/",
     "/contact/"
   ],
@@ -1679,7 +1320,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-repair/",
     "/service-areas/delano-ca/furnace-repair/",
     "/contact/"
   ],
@@ -1688,7 +1328,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-installation/",
     "/service-areas/delano-ca/furnace-installation/",
     "/contact/"
   ],
@@ -1697,7 +1336,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/heat-pump-services/",
     "/service-areas/delano-ca/heat-pump-services/",
     "/contact/"
   ],
@@ -1706,7 +1344,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/drain-cleaning/",
     "/service-areas/taft-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/ac-repair/",
     "/service-areas/delano-ca/ac-repair/",
     "/contact/"
   ],
@@ -1715,7 +1352,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ac-installation/",
     "/service-areas/delano-ca/ac-installation/",
     "/contact/"
   ],
@@ -1724,7 +1360,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductless-mini-splits/",
     "/service-areas/delano-ca/ductless-mini-splits/",
     "/contact/"
   ],
@@ -1733,7 +1368,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductwork/",
     "/service-areas/delano-ca/ductwork/",
     "/contact/"
   ],
@@ -1742,7 +1376,6 @@
     "/service-areas/taft-ca/",
     "/service-areas/taft-ca/ac-repair/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/indoor-air-quality/",
     "/service-areas/delano-ca/indoor-air-quality/",
     "/contact/"
   ],
@@ -1751,7 +1384,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/emergency-plumbing/",
     "/service-areas/delano-ca/emergency-plumbing/",
     "/contact/"
   ],
@@ -1760,7 +1392,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/contact/"
   ],
@@ -1769,7 +1400,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/drain-cleaning/",
     "/service-areas/delano-ca/drain-cleaning/",
     "/contact/"
   ],
@@ -1778,7 +1408,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sewer-line-repair/",
     "/service-areas/delano-ca/sewer-line-repair/",
     "/contact/"
   ],
@@ -1787,7 +1416,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-repair/",
     "/service-areas/delano-ca/water-heater-repair/",
     "/contact/"
   ],
@@ -1796,7 +1424,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-heater-installation/",
     "/service-areas/delano-ca/water-heater-installation/",
     "/contact/"
   ],
@@ -1805,7 +1432,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/leak-detection/",
     "/service-areas/delano-ca/leak-detection/",
     "/contact/"
   ],
@@ -1814,7 +1440,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/slab-leak-repair/",
     "/service-areas/delano-ca/slab-leak-repair/",
     "/contact/"
   ],
@@ -1823,7 +1448,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/repiping/",
     "/service-areas/delano-ca/repiping/",
     "/contact/"
   ],
@@ -1832,7 +1456,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/gas-line-services/",
     "/service-areas/delano-ca/gas-line-services/",
     "/contact/"
   ],
@@ -1841,7 +1464,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/sump-pumps/",
     "/service-areas/delano-ca/sump-pumps/",
     "/contact/"
   ],
@@ -1850,7 +1472,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/water-softeners-filtration/",
     "/service-areas/delano-ca/water-softeners-filtration/",
     "/contact/"
   ],
@@ -1859,7 +1480,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/toilet-faucet-repair/",
     "/service-areas/delano-ca/toilet-faucet-repair/",
     "/contact/"
   ],
@@ -1868,7 +1488,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/garbage-disposal/",
     "/service-areas/delano-ca/garbage-disposal/",
     "/contact/"
   ],
@@ -1877,7 +1496,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-repair/",
     "/service-areas/delano-ca/furnace-repair/",
     "/contact/"
   ],
@@ -1886,7 +1504,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/furnace-installation/",
     "/service-areas/delano-ca/furnace-installation/",
     "/contact/"
   ],
@@ -1895,7 +1512,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/heat-pump-services/",
     "/service-areas/delano-ca/heat-pump-services/",
     "/contact/"
   ],
@@ -1904,7 +1520,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
     "/service-areas/tehachapi-ca/emergency-plumbing/",
-    "/service-areas/bakersfield-ca/ac-repair/",
     "/service-areas/delano-ca/ac-repair/",
     "/contact/"
   ],
@@ -1913,7 +1528,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ac-installation/",
     "/service-areas/delano-ca/ac-installation/",
     "/contact/"
   ],
@@ -1922,7 +1536,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductless-mini-splits/",
     "/service-areas/delano-ca/ductless-mini-splits/",
     "/contact/"
   ],
@@ -1931,7 +1544,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/ductwork/",
     "/service-areas/delano-ca/ductwork/",
     "/contact/"
   ],
@@ -1940,7 +1552,6 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/tehachapi-ca/ac-repair/",
     "/service-areas/tehachapi-ca/drain-cleaning/",
-    "/service-areas/bakersfield-ca/indoor-air-quality/",
     "/service-areas/delano-ca/indoor-air-quality/",
     "/contact/"
   ],

@@ -21,7 +21,6 @@
     "/services/frozen-pipe-restoration/",
     "/services/odor-removal/",
     "/services/soot-removal/",
-    "/service-areas/cranberry-township-pa/",
     "/service-areas/beaver-falls-pa/",
     "/service-areas/butler-pa/",
     "/service-areas/evans-city-pa/",
@@ -53,7 +52,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/cranberry-township-pa/",
     "/service-areas/beaver-falls-pa/",
     "/service-areas/butler-pa/",
     "/service-areas/evans-city-pa/",
@@ -93,7 +91,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/water-damage-restoration/",
     "/service-areas/butler-pa/water-damage-restoration/",
-    "/service-areas/cranberry-township-pa/water-damage-restoration/",
     "/service-areas/evans-city-pa/water-damage-restoration/",
     "/service-areas/gibsonia-pa/water-damage-restoration/",
     "/service-areas/mars-pa/water-damage-restoration/",
@@ -109,7 +106,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/flood-damage-restoration/",
     "/service-areas/butler-pa/flood-damage-restoration/",
-    "/service-areas/cranberry-township-pa/flood-damage-restoration/",
     "/service-areas/evans-city-pa/flood-damage-restoration/",
     "/service-areas/gibsonia-pa/flood-damage-restoration/",
     "/service-areas/mars-pa/flood-damage-restoration/",
@@ -122,7 +118,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/basement-flooding-cleanup/",
     "/service-areas/butler-pa/basement-flooding-cleanup/",
-    "/service-areas/cranberry-township-pa/basement-flooding-cleanup/",
     "/service-areas/evans-city-pa/basement-flooding-cleanup/",
     "/service-areas/gibsonia-pa/basement-flooding-cleanup/",
     "/service-areas/mars-pa/basement-flooding-cleanup/",
@@ -135,7 +130,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/sewage-cleanup/",
     "/service-areas/butler-pa/sewage-cleanup/",
-    "/service-areas/cranberry-township-pa/sewage-cleanup/",
     "/service-areas/evans-city-pa/sewage-cleanup/",
     "/service-areas/gibsonia-pa/sewage-cleanup/",
     "/service-areas/mars-pa/sewage-cleanup/",
@@ -148,7 +142,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/burst-pipe-repair/",
     "/service-areas/butler-pa/burst-pipe-repair/",
-    "/service-areas/cranberry-township-pa/burst-pipe-repair/",
     "/service-areas/evans-city-pa/burst-pipe-repair/",
     "/service-areas/gibsonia-pa/burst-pipe-repair/",
     "/service-areas/mars-pa/burst-pipe-repair/",
@@ -161,7 +154,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/frozen-pipe-restoration/",
     "/service-areas/butler-pa/frozen-pipe-restoration/",
-    "/service-areas/cranberry-township-pa/frozen-pipe-restoration/",
     "/service-areas/evans-city-pa/frozen-pipe-restoration/",
     "/service-areas/gibsonia-pa/frozen-pipe-restoration/",
     "/service-areas/mars-pa/frozen-pipe-restoration/",
@@ -174,7 +166,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/storm-damage-restoration/",
     "/service-areas/butler-pa/storm-damage-restoration/",
-    "/service-areas/cranberry-township-pa/storm-damage-restoration/",
     "/service-areas/evans-city-pa/storm-damage-restoration/",
     "/service-areas/gibsonia-pa/storm-damage-restoration/",
     "/service-areas/mars-pa/storm-damage-restoration/",
@@ -188,7 +179,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
     "/service-areas/evans-city-pa/fire-damage-restoration/",
     "/service-areas/gibsonia-pa/fire-damage-restoration/",
     "/service-areas/mars-pa/fire-damage-restoration/",
@@ -204,7 +194,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/smoke-damage-restoration/",
     "/service-areas/butler-pa/smoke-damage-restoration/",
-    "/service-areas/cranberry-township-pa/smoke-damage-restoration/",
     "/service-areas/evans-city-pa/smoke-damage-restoration/",
     "/service-areas/gibsonia-pa/smoke-damage-restoration/",
     "/service-areas/mars-pa/smoke-damage-restoration/",
@@ -219,7 +208,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/soot-removal/",
     "/service-areas/butler-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/soot-removal/",
     "/service-areas/evans-city-pa/soot-removal/",
     "/service-areas/gibsonia-pa/soot-removal/",
     "/service-areas/mars-pa/soot-removal/",
@@ -232,7 +220,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/odor-removal/",
     "/service-areas/butler-pa/odor-removal/",
-    "/service-areas/cranberry-township-pa/odor-removal/",
     "/service-areas/evans-city-pa/odor-removal/",
     "/service-areas/gibsonia-pa/odor-removal/",
     "/service-areas/mars-pa/odor-removal/",
@@ -245,7 +232,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/mold-remediation/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
     "/service-areas/evans-city-pa/mold-remediation/",
     "/service-areas/gibsonia-pa/mold-remediation/",
     "/service-areas/mars-pa/mold-remediation/",
@@ -261,7 +247,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/mold-inspection-testing/",
     "/service-areas/butler-pa/mold-inspection-testing/",
-    "/service-areas/cranberry-township-pa/mold-inspection-testing/",
     "/service-areas/evans-city-pa/mold-inspection-testing/",
     "/service-areas/gibsonia-pa/mold-inspection-testing/",
     "/service-areas/mars-pa/mold-inspection-testing/",
@@ -275,7 +260,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/biohazard-cleanup/",
     "/service-areas/butler-pa/biohazard-cleanup/",
-    "/service-areas/cranberry-township-pa/biohazard-cleanup/",
     "/service-areas/evans-city-pa/biohazard-cleanup/",
     "/service-areas/gibsonia-pa/biohazard-cleanup/",
     "/service-areas/mars-pa/biohazard-cleanup/",
@@ -288,7 +272,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/commercial-restoration/",
     "/service-areas/butler-pa/commercial-restoration/",
-    "/service-areas/cranberry-township-pa/commercial-restoration/",
     "/service-areas/evans-city-pa/commercial-restoration/",
     "/service-areas/gibsonia-pa/commercial-restoration/",
     "/service-areas/mars-pa/commercial-restoration/",
@@ -301,7 +284,6 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/reconstruction/",
     "/service-areas/butler-pa/reconstruction/",
-    "/service-areas/cranberry-township-pa/reconstruction/",
     "/service-areas/evans-city-pa/reconstruction/",
     "/service-areas/gibsonia-pa/reconstruction/",
     "/service-areas/mars-pa/reconstruction/",
@@ -314,37 +296,12 @@
     "/contact/",
     "/service-areas/beaver-falls-pa/general-contracting/",
     "/service-areas/butler-pa/general-contracting/",
-    "/service-areas/cranberry-township-pa/general-contracting/",
     "/service-areas/evans-city-pa/general-contracting/",
     "/service-areas/gibsonia-pa/general-contracting/",
     "/service-areas/mars-pa/general-contracting/",
     "/service-areas/seven-fields-pa/general-contracting/",
     "/service-areas/wexford-pa/general-contracting/",
     "/service-areas/zelienople-pa/general-contracting/"
-  ],
-  "/service-areas/cranberry-township-pa/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/cranberry-township-pa/water-damage-restoration/",
-    "/service-areas/cranberry-township-pa/commercial-restoration/",
-    "/service-areas/cranberry-township-pa/flood-damage-restoration/",
-    "/service-areas/cranberry-township-pa/reconstruction/",
-    "/service-areas/cranberry-township-pa/sewage-cleanup/",
-    "/service-areas/cranberry-township-pa/smoke-damage-restoration/",
-    "/service-areas/cranberry-township-pa/storm-damage-restoration/",
-    "/service-areas/cranberry-township-pa/basement-flooding-cleanup/",
-    "/service-areas/cranberry-township-pa/biohazard-cleanup/",
-    "/service-areas/cranberry-township-pa/burst-pipe-repair/",
-    "/service-areas/cranberry-township-pa/general-contracting/",
-    "/service-areas/cranberry-township-pa/mold-inspection-testing/",
-    "/service-areas/cranberry-township-pa/frozen-pipe-restoration/",
-    "/service-areas/cranberry-township-pa/odor-removal/",
-    "/service-areas/cranberry-township-pa/soot-removal/",
-    "/service-areas/beaver-falls-pa/",
-    "/service-areas/butler-pa/",
-    "/service-areas/evans-city-pa/"
   ],
   "/service-areas/wexford-pa/": [
     "/service-areas/",
@@ -366,7 +323,6 @@
     "/service-areas/wexford-pa/frozen-pipe-restoration/",
     "/service-areas/wexford-pa/odor-removal/",
     "/service-areas/wexford-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/",
     "/service-areas/beaver-falls-pa/",
     "/service-areas/butler-pa/"
   ],
@@ -390,7 +346,6 @@
     "/service-areas/mars-pa/frozen-pipe-restoration/",
     "/service-areas/mars-pa/odor-removal/",
     "/service-areas/mars-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/",
     "/service-areas/beaver-falls-pa/",
     "/service-areas/butler-pa/"
   ],
@@ -414,7 +369,6 @@
     "/service-areas/zelienople-pa/frozen-pipe-restoration/",
     "/service-areas/zelienople-pa/odor-removal/",
     "/service-areas/zelienople-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/",
     "/service-areas/beaver-falls-pa/",
     "/service-areas/butler-pa/"
   ],
@@ -438,7 +392,6 @@
     "/service-areas/evans-city-pa/frozen-pipe-restoration/",
     "/service-areas/evans-city-pa/odor-removal/",
     "/service-areas/evans-city-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/",
     "/service-areas/beaver-falls-pa/",
     "/service-areas/butler-pa/"
   ],
@@ -462,7 +415,6 @@
     "/service-areas/seven-fields-pa/frozen-pipe-restoration/",
     "/service-areas/seven-fields-pa/odor-removal/",
     "/service-areas/seven-fields-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/",
     "/service-areas/beaver-falls-pa/",
     "/service-areas/butler-pa/"
   ],
@@ -486,7 +438,6 @@
     "/service-areas/butler-pa/frozen-pipe-restoration/",
     "/service-areas/butler-pa/odor-removal/",
     "/service-areas/butler-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/",
     "/service-areas/beaver-falls-pa/",
     "/service-areas/evans-city-pa/"
   ],
@@ -510,7 +461,6 @@
     "/service-areas/gibsonia-pa/frozen-pipe-restoration/",
     "/service-areas/gibsonia-pa/odor-removal/",
     "/service-areas/gibsonia-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/",
     "/service-areas/beaver-falls-pa/",
     "/service-areas/butler-pa/"
   ],
@@ -534,162 +484,8 @@
     "/service-areas/beaver-falls-pa/frozen-pipe-restoration/",
     "/service-areas/beaver-falls-pa/odor-removal/",
     "/service-areas/beaver-falls-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/",
     "/service-areas/butler-pa/",
     "/service-areas/evans-city-pa/"
-  ],
-  "/service-areas/cranberry-township-pa/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/water-damage-restoration/",
-    "/service-areas/butler-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/flood-damage-restoration/": [
-    "/services/flood-damage-restoration/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/flood-damage-restoration/",
-    "/service-areas/butler-pa/flood-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/basement-flooding-cleanup/": [
-    "/services/basement-flooding-cleanup/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/basement-flooding-cleanup/",
-    "/service-areas/butler-pa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/sewage-cleanup/": [
-    "/services/sewage-cleanup/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/sewage-cleanup/",
-    "/service-areas/butler-pa/sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/burst-pipe-repair/": [
-    "/services/burst-pipe-repair/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/burst-pipe-repair/",
-    "/service-areas/butler-pa/burst-pipe-repair/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/frozen-pipe-restoration/": [
-    "/services/frozen-pipe-restoration/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/frozen-pipe-restoration/",
-    "/service-areas/butler-pa/frozen-pipe-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/storm-damage-restoration/",
-    "/service-areas/butler-pa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/fire-damage-restoration/": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/cranberry-township-pa/water-damage-restoration/",
-    "/service-areas/beaver-falls-pa/fire-damage-restoration/",
-    "/service-areas/butler-pa/fire-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/smoke-damage-restoration/": [
-    "/services/smoke-damage-restoration/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/smoke-damage-restoration/",
-    "/service-areas/butler-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/soot-removal/",
-    "/service-areas/butler-pa/soot-removal/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/odor-removal/": [
-    "/services/odor-removal/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/odor-removal/",
-    "/service-areas/butler-pa/odor-removal/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/water-damage-restoration/",
-    "/service-areas/beaver-falls-pa/mold-remediation/",
-    "/service-areas/butler-pa/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/mold-inspection-testing/": [
-    "/services/mold-inspection-testing/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/mold-inspection-testing/",
-    "/service-areas/butler-pa/mold-inspection-testing/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/biohazard-cleanup/": [
-    "/services/biohazard-cleanup/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/biohazard-cleanup/",
-    "/service-areas/butler-pa/biohazard-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/commercial-restoration/": [
-    "/services/commercial-restoration/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/commercial-restoration/",
-    "/service-areas/butler-pa/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/reconstruction/": [
-    "/services/reconstruction/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/reconstruction/",
-    "/service-areas/butler-pa/reconstruction/",
-    "/contact/"
-  ],
-  "/service-areas/cranberry-township-pa/general-contracting/": [
-    "/services/general-contracting/",
-    "/service-areas/cranberry-township-pa/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
-    "/service-areas/beaver-falls-pa/general-contracting/",
-    "/service-areas/butler-pa/general-contracting/",
-    "/contact/"
   ],
   "/service-areas/wexford-pa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -1462,7 +1258,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/water-damage-restoration/",
-    "/service-areas/cranberry-township-pa/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/butler-pa/flood-damage-restoration/": [
@@ -1471,7 +1266,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/flood-damage-restoration/",
-    "/service-areas/cranberry-township-pa/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/butler-pa/basement-flooding-cleanup/": [
@@ -1480,7 +1274,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/basement-flooding-cleanup/",
-    "/service-areas/cranberry-township-pa/basement-flooding-cleanup/",
     "/contact/"
   ],
   "/service-areas/butler-pa/sewage-cleanup/": [
@@ -1489,7 +1282,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/sewage-cleanup/",
-    "/service-areas/cranberry-township-pa/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/butler-pa/burst-pipe-repair/": [
@@ -1498,7 +1290,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/burst-pipe-repair/",
-    "/service-areas/cranberry-township-pa/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/butler-pa/frozen-pipe-restoration/": [
@@ -1507,7 +1298,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/frozen-pipe-restoration/",
-    "/service-areas/cranberry-township-pa/frozen-pipe-restoration/",
     "/contact/"
   ],
   "/service-areas/butler-pa/storm-damage-restoration/": [
@@ -1516,7 +1306,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/storm-damage-restoration/",
-    "/service-areas/cranberry-township-pa/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/butler-pa/fire-damage-restoration/": [
@@ -1525,7 +1314,6 @@
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/butler-pa/water-damage-restoration/",
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/butler-pa/smoke-damage-restoration/": [
@@ -1534,7 +1322,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/smoke-damage-restoration/",
-    "/service-areas/cranberry-township-pa/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/butler-pa/soot-removal/": [
@@ -1543,7 +1330,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/butler-pa/odor-removal/": [
@@ -1552,7 +1338,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/odor-removal/",
-    "/service-areas/cranberry-township-pa/odor-removal/",
     "/contact/"
   ],
   "/service-areas/butler-pa/mold-remediation/": [
@@ -1561,7 +1346,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/water-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/butler-pa/mold-inspection-testing/": [
@@ -1570,7 +1354,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/mold-inspection-testing/",
-    "/service-areas/cranberry-township-pa/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/butler-pa/biohazard-cleanup/": [
@@ -1579,7 +1362,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/biohazard-cleanup/",
-    "/service-areas/cranberry-township-pa/biohazard-cleanup/",
     "/contact/"
   ],
   "/service-areas/butler-pa/commercial-restoration/": [
@@ -1588,7 +1370,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/commercial-restoration/",
-    "/service-areas/cranberry-township-pa/commercial-restoration/",
     "/contact/"
   ],
   "/service-areas/butler-pa/reconstruction/": [
@@ -1597,7 +1378,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/reconstruction/",
-    "/service-areas/cranberry-township-pa/reconstruction/",
     "/contact/"
   ],
   "/service-areas/butler-pa/general-contracting/": [
@@ -1606,7 +1386,6 @@
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/general-contracting/",
-    "/service-areas/cranberry-township-pa/general-contracting/",
     "/contact/"
   ],
   "/service-areas/gibsonia-pa/water-damage-restoration/": [
@@ -1768,7 +1547,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/water-damage-restoration/",
-    "/service-areas/cranberry-township-pa/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/flood-damage-restoration/": [
@@ -1777,7 +1555,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/flood-damage-restoration/",
-    "/service-areas/cranberry-township-pa/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/basement-flooding-cleanup/": [
@@ -1786,7 +1563,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/basement-flooding-cleanup/",
-    "/service-areas/cranberry-township-pa/basement-flooding-cleanup/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/sewage-cleanup/": [
@@ -1795,7 +1571,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/sewage-cleanup/",
-    "/service-areas/cranberry-township-pa/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/burst-pipe-repair/": [
@@ -1804,7 +1579,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/burst-pipe-repair/",
-    "/service-areas/cranberry-township-pa/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/frozen-pipe-restoration/": [
@@ -1813,7 +1587,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/frozen-pipe-restoration/",
-    "/service-areas/cranberry-township-pa/frozen-pipe-restoration/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/storm-damage-restoration/": [
@@ -1822,7 +1595,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/storm-damage-restoration/",
-    "/service-areas/cranberry-township-pa/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/fire-damage-restoration/": [
@@ -1831,7 +1603,6 @@
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/beaver-falls-pa/water-damage-restoration/",
     "/service-areas/butler-pa/fire-damage-restoration/",
-    "/service-areas/cranberry-township-pa/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/smoke-damage-restoration/": [
@@ -1840,7 +1611,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/smoke-damage-restoration/",
-    "/service-areas/cranberry-township-pa/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/soot-removal/": [
@@ -1849,7 +1619,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/soot-removal/",
-    "/service-areas/cranberry-township-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/odor-removal/": [
@@ -1858,7 +1627,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/odor-removal/",
-    "/service-areas/cranberry-township-pa/odor-removal/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/mold-remediation/": [
@@ -1867,7 +1635,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/water-damage-restoration/",
     "/service-areas/butler-pa/mold-remediation/",
-    "/service-areas/cranberry-township-pa/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/mold-inspection-testing/": [
@@ -1876,7 +1643,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/mold-inspection-testing/",
-    "/service-areas/cranberry-township-pa/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/biohazard-cleanup/": [
@@ -1885,7 +1651,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/biohazard-cleanup/",
-    "/service-areas/cranberry-township-pa/biohazard-cleanup/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/commercial-restoration/": [
@@ -1894,7 +1659,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/commercial-restoration/",
-    "/service-areas/cranberry-township-pa/commercial-restoration/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/reconstruction/": [
@@ -1903,7 +1667,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/reconstruction/",
-    "/service-areas/cranberry-township-pa/reconstruction/",
     "/contact/"
   ],
   "/service-areas/beaver-falls-pa/general-contracting/": [
@@ -1912,7 +1675,6 @@
     "/service-areas/beaver-falls-pa/fire-damage-restoration/",
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/butler-pa/general-contracting/",
-    "/service-areas/cranberry-township-pa/general-contracting/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

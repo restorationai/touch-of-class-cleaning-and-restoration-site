@@ -13,7 +13,6 @@
     "/services/storm-damage-restoration/",
     "/services/siding-gutters/",
     "/services/painting-trim/",
-    "/service-areas/madison-al/",
     "/service-areas/athens-al/",
     "/service-areas/huntsville-al/"
   ],
@@ -31,7 +30,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/madison-al/",
     "/service-areas/athens-al/",
     "/service-areas/huntsville-al/"
   ],
@@ -64,50 +62,43 @@
     "/services/",
     "/contact/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/madison-al/home-remodeling/"
+    "/service-areas/huntsville-al/home-remodeling/"
   ],
   "/services/new-construction/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/new-construction/",
-    "/service-areas/huntsville-al/new-construction/",
-    "/service-areas/madison-al/new-construction/"
+    "/service-areas/huntsville-al/new-construction/"
   ],
   "/services/decks-pergolas-fences/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/decks-pergolas-fences/",
-    "/service-areas/huntsville-al/decks-pergolas-fences/",
-    "/service-areas/madison-al/decks-pergolas-fences/"
+    "/service-areas/huntsville-al/decks-pergolas-fences/"
   ],
   "/services/roofing/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/roofing/",
-    "/service-areas/huntsville-al/roofing/",
-    "/service-areas/madison-al/roofing/"
+    "/service-areas/huntsville-al/roofing/"
   ],
   "/services/siding-gutters/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/siding-gutters/",
-    "/service-areas/huntsville-al/siding-gutters/",
-    "/service-areas/madison-al/siding-gutters/"
+    "/service-areas/huntsville-al/siding-gutters/"
   ],
   "/services/painting-trim/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/painting-trim/",
-    "/service-areas/huntsville-al/painting-trim/",
-    "/service-areas/madison-al/painting-trim/"
+    "/service-areas/huntsville-al/painting-trim/"
   ],
   "/services/water-damage-restoration/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/water-damage-restoration/",
     "/service-areas/huntsville-al/water-damage-restoration/",
-    "/service-areas/madison-al/water-damage-restoration/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -117,7 +108,6 @@
     "/contact/",
     "/service-areas/athens-al/storm-damage-restoration/",
     "/service-areas/huntsville-al/storm-damage-restoration/",
-    "/service-areas/madison-al/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/mold-remediation/": [
@@ -125,25 +115,9 @@
     "/contact/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/huntsville-al/mold-remediation/",
-    "/service-areas/madison-al/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/signs-of-hidden-mold/",
     "/blog/black-mold-vs-regular-mold/"
-  ],
-  "/service-areas/madison-al/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/madison-al/home-remodeling/",
-    "/service-areas/madison-al/mold-remediation/",
-    "/service-areas/madison-al/roofing/",
-    "/service-areas/madison-al/water-damage-restoration/",
-    "/service-areas/madison-al/decks-pergolas-fences/",
-    "/service-areas/madison-al/new-construction/",
-    "/service-areas/madison-al/storm-damage-restoration/",
-    "/service-areas/madison-al/siding-gutters/",
-    "/service-areas/madison-al/painting-trim/",
-    "/service-areas/athens-al/",
-    "/service-areas/huntsville-al/"
   ],
   "/service-areas/huntsville-al/": [
     "/service-areas/",
@@ -157,7 +131,6 @@
     "/service-areas/huntsville-al/storm-damage-restoration/",
     "/service-areas/huntsville-al/siding-gutters/",
     "/service-areas/huntsville-al/painting-trim/",
-    "/service-areas/madison-al/",
     "/service-areas/athens-al/"
   ],
   "/service-areas/athens-al/": [
@@ -172,89 +145,7 @@
     "/service-areas/athens-al/storm-damage-restoration/",
     "/service-areas/athens-al/siding-gutters/",
     "/service-areas/athens-al/painting-trim/",
-    "/service-areas/madison-al/",
     "/service-areas/huntsville-al/"
-  ],
-  "/service-areas/madison-al/home-remodeling/": [
-    "/services/home-remodeling/",
-    "/service-areas/madison-al/",
-    "/service-areas/madison-al/mold-remediation/",
-    "/service-areas/madison-al/roofing/",
-    "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/huntsville-al/home-remodeling/",
-    "/contact/"
-  ],
-  "/service-areas/madison-al/new-construction/": [
-    "/services/new-construction/",
-    "/service-areas/madison-al/",
-    "/service-areas/madison-al/home-remodeling/",
-    "/service-areas/madison-al/mold-remediation/",
-    "/service-areas/athens-al/new-construction/",
-    "/service-areas/huntsville-al/new-construction/",
-    "/contact/"
-  ],
-  "/service-areas/madison-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
-    "/service-areas/madison-al/",
-    "/service-areas/madison-al/home-remodeling/",
-    "/service-areas/madison-al/mold-remediation/",
-    "/service-areas/athens-al/decks-pergolas-fences/",
-    "/service-areas/huntsville-al/decks-pergolas-fences/",
-    "/contact/"
-  ],
-  "/service-areas/madison-al/roofing/": [
-    "/services/roofing/",
-    "/service-areas/madison-al/",
-    "/service-areas/madison-al/home-remodeling/",
-    "/service-areas/madison-al/mold-remediation/",
-    "/service-areas/athens-al/roofing/",
-    "/service-areas/huntsville-al/roofing/",
-    "/contact/"
-  ],
-  "/service-areas/madison-al/siding-gutters/": [
-    "/services/siding-gutters/",
-    "/service-areas/madison-al/",
-    "/service-areas/madison-al/home-remodeling/",
-    "/service-areas/madison-al/mold-remediation/",
-    "/service-areas/athens-al/siding-gutters/",
-    "/service-areas/huntsville-al/siding-gutters/",
-    "/contact/"
-  ],
-  "/service-areas/madison-al/painting-trim/": [
-    "/services/painting-trim/",
-    "/service-areas/madison-al/",
-    "/service-areas/madison-al/home-remodeling/",
-    "/service-areas/madison-al/mold-remediation/",
-    "/service-areas/athens-al/painting-trim/",
-    "/service-areas/huntsville-al/painting-trim/",
-    "/contact/"
-  ],
-  "/service-areas/madison-al/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/madison-al/",
-    "/service-areas/madison-al/home-remodeling/",
-    "/service-areas/madison-al/mold-remediation/",
-    "/service-areas/athens-al/water-damage-restoration/",
-    "/service-areas/huntsville-al/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/madison-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/madison-al/",
-    "/service-areas/madison-al/home-remodeling/",
-    "/service-areas/madison-al/mold-remediation/",
-    "/service-areas/athens-al/storm-damage-restoration/",
-    "/service-areas/huntsville-al/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/madison-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/madison-al/",
-    "/service-areas/madison-al/home-remodeling/",
-    "/service-areas/madison-al/roofing/",
-    "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/huntsville-al/mold-remediation/",
-    "/contact/"
   ],
   "/service-areas/huntsville-al/home-remodeling/": [
     "/services/home-remodeling/",
@@ -262,7 +153,6 @@
     "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/huntsville-al/roofing/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/madison-al/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/new-construction/": [
@@ -271,7 +161,6 @@
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/athens-al/new-construction/",
-    "/service-areas/madison-al/new-construction/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/decks-pergolas-fences/": [
@@ -280,7 +169,6 @@
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/athens-al/decks-pergolas-fences/",
-    "/service-areas/madison-al/decks-pergolas-fences/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/roofing/": [
@@ -289,7 +177,6 @@
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/athens-al/roofing/",
-    "/service-areas/madison-al/roofing/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/siding-gutters/": [
@@ -298,7 +185,6 @@
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/athens-al/siding-gutters/",
-    "/service-areas/madison-al/siding-gutters/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/painting-trim/": [
@@ -307,7 +193,6 @@
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/athens-al/painting-trim/",
-    "/service-areas/madison-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/water-damage-restoration/": [
@@ -316,7 +201,6 @@
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/athens-al/water-damage-restoration/",
-    "/service-areas/madison-al/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/storm-damage-restoration/": [
@@ -325,7 +209,6 @@
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/athens-al/storm-damage-restoration/",
-    "/service-areas/madison-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/mold-remediation/": [
@@ -334,7 +217,6 @@
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/roofing/",
     "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/madison-al/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/athens-al/home-remodeling/": [
@@ -343,7 +225,6 @@
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/athens-al/roofing/",
     "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/madison-al/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/athens-al/new-construction/": [
@@ -352,7 +233,6 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/huntsville-al/new-construction/",
-    "/service-areas/madison-al/new-construction/",
     "/contact/"
   ],
   "/service-areas/athens-al/decks-pergolas-fences/": [
@@ -361,7 +241,6 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/huntsville-al/decks-pergolas-fences/",
-    "/service-areas/madison-al/decks-pergolas-fences/",
     "/contact/"
   ],
   "/service-areas/athens-al/roofing/": [
@@ -370,7 +249,6 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/huntsville-al/roofing/",
-    "/service-areas/madison-al/roofing/",
     "/contact/"
   ],
   "/service-areas/athens-al/siding-gutters/": [
@@ -379,7 +257,6 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/huntsville-al/siding-gutters/",
-    "/service-areas/madison-al/siding-gutters/",
     "/contact/"
   ],
   "/service-areas/athens-al/painting-trim/": [
@@ -388,7 +265,6 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/huntsville-al/painting-trim/",
-    "/service-areas/madison-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/athens-al/water-damage-restoration/": [
@@ -397,7 +273,6 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/huntsville-al/water-damage-restoration/",
-    "/service-areas/madison-al/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/athens-al/storm-damage-restoration/": [
@@ -406,7 +281,6 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/huntsville-al/storm-damage-restoration/",
-    "/service-areas/madison-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/athens-al/mold-remediation/": [
@@ -415,7 +289,6 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
     "/service-areas/huntsville-al/mold-remediation/",
-    "/service-areas/madison-al/mold-remediation/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

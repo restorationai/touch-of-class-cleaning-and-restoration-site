@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "2b32eebbdff57616"
 generated_at: "2026-07-28T15:03:05.462215+00:00"
 manual_override: false
-internal_links: ["/", "/service-areas/auburn-ma/"]
+internal_links: ["/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas"}]
 faq: [{"question": "How far will Quality Contracting travel for a job?", "answer": "The core service area covers Auburn and the surrounding Worcester County communities, but the team will consider projects beyond that range depending on the size and scope of the work. Call (508) 756-8800 during business hours and describe your situation \u2014 if it's outside the typical footprint, you'll get an honest answer rather than a vague maybe."}, {"question": "If I'm farther away, will my project take longer to get started?", "answer": "Proximity does affect scheduling. Locations close to Auburn are generally easier to fit into the earliest available slot, while jobs at the outer edge of the coverage area may be scheduled a day or two later. When you call, the team will give you a realistic start date based on your location and current workload \u2014 not a best-case estimate."}, {"question": "Is there a travel or mileage charge for locations outside Auburn?", "answer": "Any travel-related costs will be discussed transparently when you call and before any work is scheduled. There are no surprise fees added after the fact. If distance affects the project estimate, that will be explained upfront so you can make an informed decision."}]
 rendered: true

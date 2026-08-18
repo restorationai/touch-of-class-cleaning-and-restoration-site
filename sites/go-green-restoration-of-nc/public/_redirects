@@ -1,0 +1,17 @@
+# home-city consolidation 2026-08-18 — home-city pages folded into home + main service pages (scripts/home_city_migrate.py)
+/service-areas/middlesex-nc / 301
+/service-areas/middlesex-nc/ / 301
+/service-areas/middlesex-nc/air-duct-cleaning /services/air-duct-cleaning/ 301
+/service-areas/middlesex-nc/air-duct-cleaning/ /services/air-duct-cleaning/ 301
+/service-areas/middlesex-nc/carpet-cleaning /services/carpet-cleaning/ 301
+/service-areas/middlesex-nc/carpet-cleaning/ /services/carpet-cleaning/ 301
+/service-areas/middlesex-nc/crawl-space-encapsulation /services/crawl-space-encapsulation/ 301
+/service-areas/middlesex-nc/crawl-space-encapsulation/ /services/crawl-space-encapsulation/ 301
+/service-areas/middlesex-nc/fire-damage-restoration /services/fire-damage-restoration/ 301
+/service-areas/middlesex-nc/fire-damage-restoration/ /services/fire-damage-restoration/ 301
+/service-areas/middlesex-nc/insulation-removal-installation /services/insulation-removal-installation/ 301
+/service-areas/middlesex-nc/insulation-removal-installation/ /services/insulation-removal-installation/ 301
+/service-areas/middlesex-nc/mold-remediation /services/mold-remediation/ 301
+/service-areas/middlesex-nc/mold-remediation/ /services/mold-remediation/ 301
+/service-areas/middlesex-nc/water-damage-restoration /services/water-damage-restoration/ 301
+/service-areas/middlesex-nc/water-damage-restoration/ /services/water-damage-restoration/ 301

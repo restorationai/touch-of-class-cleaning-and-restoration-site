@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "6ecd7833488bcd3e"
 generated_at: "2026-07-28T04:58:26.275339+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/whittier-ca/mold-remediation/", "/service-areas/whittier-ca/sewage-cleanup/", "/service-areas/whittier-ca/mold-inspection-testing/", "/service-areas/cerritos-ca/", "/service-areas/anaheim-ca/", "/service-areas/corona-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/whittier-ca/mold-remediation/", "/service-areas/whittier-ca/sewage-cleanup/", "/service-areas/whittier-ca/mold-inspection-testing/", "/service-areas/anaheim-ca/", "/service-areas/corona-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whittier"}]
 faq: []
 area_slug: "whittier-ca"

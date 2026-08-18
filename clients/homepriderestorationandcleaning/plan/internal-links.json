@@ -23,7 +23,6 @@
     "/services/carpet-cleaning/",
     "/services/tile-grout-cleaning/",
     "/services/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/",
     "/service-areas/heber-city-ut/",
@@ -60,7 +59,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/",
     "/service-areas/heber-city-ut/",
@@ -111,7 +109,6 @@
     "/service-areas/pleasant-grove-ut/water-damage-restoration/",
     "/service-areas/provo-ut/water-damage-restoration/",
     "/service-areas/riverton-ut/water-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/water-damage-restoration/",
     "/service-areas/south-jordan-ut/water-damage-restoration/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -130,7 +127,6 @@
     "/service-areas/pleasant-grove-ut/burst-pipe-repair/",
     "/service-areas/provo-ut/burst-pipe-repair/",
     "/service-areas/riverton-ut/burst-pipe-repair/",
-    "/service-areas/saratoga-springs-ut/burst-pipe-repair/",
     "/service-areas/south-jordan-ut/burst-pipe-repair/"
   ],
   "/services/frozen-pipe-restoration/": [
@@ -146,7 +142,6 @@
     "/service-areas/pleasant-grove-ut/frozen-pipe-restoration/",
     "/service-areas/provo-ut/frozen-pipe-restoration/",
     "/service-areas/riverton-ut/frozen-pipe-restoration/",
-    "/service-areas/saratoga-springs-ut/frozen-pipe-restoration/",
     "/service-areas/south-jordan-ut/frozen-pipe-restoration/"
   ],
   "/services/appliance-leak-cleanup/": [
@@ -162,7 +157,6 @@
     "/service-areas/pleasant-grove-ut/appliance-leak-cleanup/",
     "/service-areas/provo-ut/appliance-leak-cleanup/",
     "/service-areas/riverton-ut/appliance-leak-cleanup/",
-    "/service-areas/saratoga-springs-ut/appliance-leak-cleanup/",
     "/service-areas/south-jordan-ut/appliance-leak-cleanup/",
     "/blog/burst-pipe-emergency-checklist/"
   ],
@@ -179,7 +173,6 @@
     "/service-areas/pleasant-grove-ut/basement-flooding-cleanup/",
     "/service-areas/provo-ut/basement-flooding-cleanup/",
     "/service-areas/riverton-ut/basement-flooding-cleanup/",
-    "/service-areas/saratoga-springs-ut/basement-flooding-cleanup/",
     "/service-areas/south-jordan-ut/basement-flooding-cleanup/"
   ],
   "/services/roof-leak-repair/": [
@@ -195,7 +188,6 @@
     "/service-areas/pleasant-grove-ut/roof-leak-repair/",
     "/service-areas/provo-ut/roof-leak-repair/",
     "/service-areas/riverton-ut/roof-leak-repair/",
-    "/service-areas/saratoga-springs-ut/roof-leak-repair/",
     "/service-areas/south-jordan-ut/roof-leak-repair/"
   ],
   "/services/sewage-cleanup/": [
@@ -211,7 +203,6 @@
     "/service-areas/pleasant-grove-ut/sewage-cleanup/",
     "/service-areas/provo-ut/sewage-cleanup/",
     "/service-areas/riverton-ut/sewage-cleanup/",
-    "/service-areas/saratoga-springs-ut/sewage-cleanup/",
     "/service-areas/south-jordan-ut/sewage-cleanup/"
   ],
   "/services/storm-damage-restoration/": [
@@ -227,7 +218,6 @@
     "/service-areas/pleasant-grove-ut/storm-damage-restoration/",
     "/service-areas/provo-ut/storm-damage-restoration/",
     "/service-areas/riverton-ut/storm-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/storm-damage-restoration/",
     "/service-areas/south-jordan-ut/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
@@ -244,7 +234,6 @@
     "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
     "/service-areas/provo-ut/fire-damage-restoration/",
     "/service-areas/riverton-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
     "/service-areas/south-jordan-ut/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
@@ -263,7 +252,6 @@
     "/service-areas/pleasant-grove-ut/smoke-damage-restoration/",
     "/service-areas/provo-ut/smoke-damage-restoration/",
     "/service-areas/riverton-ut/smoke-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/smoke-damage-restoration/",
     "/service-areas/south-jordan-ut/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -281,7 +269,6 @@
     "/service-areas/pleasant-grove-ut/mold-remediation/",
     "/service-areas/provo-ut/mold-remediation/",
     "/service-areas/riverton-ut/mold-remediation/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
     "/service-areas/south-jordan-ut/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
@@ -300,7 +287,6 @@
     "/service-areas/pleasant-grove-ut/mold-inspection-testing/",
     "/service-areas/provo-ut/mold-inspection-testing/",
     "/service-areas/riverton-ut/mold-inspection-testing/",
-    "/service-areas/saratoga-springs-ut/mold-inspection-testing/",
     "/service-areas/south-jordan-ut/mold-inspection-testing/",
     "/blog/how-to-test-for-mold/"
   ],
@@ -317,7 +303,6 @@
     "/service-areas/pleasant-grove-ut/carpet-cleaning/",
     "/service-areas/provo-ut/carpet-cleaning/",
     "/service-areas/riverton-ut/carpet-cleaning/",
-    "/service-areas/saratoga-springs-ut/carpet-cleaning/",
     "/service-areas/south-jordan-ut/carpet-cleaning/"
   ],
   "/services/odor-removal/": [
@@ -333,7 +318,6 @@
     "/service-areas/pleasant-grove-ut/odor-removal/",
     "/service-areas/provo-ut/odor-removal/",
     "/service-areas/riverton-ut/odor-removal/",
-    "/service-areas/saratoga-springs-ut/odor-removal/",
     "/service-areas/south-jordan-ut/odor-removal/"
   ],
   "/services/upholstery-cleaning/": [
@@ -349,7 +333,6 @@
     "/service-areas/pleasant-grove-ut/upholstery-cleaning/",
     "/service-areas/provo-ut/upholstery-cleaning/",
     "/service-areas/riverton-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/upholstery-cleaning/",
     "/service-areas/south-jordan-ut/upholstery-cleaning/"
   ],
   "/services/tile-grout-cleaning/": [
@@ -365,7 +348,6 @@
     "/service-areas/pleasant-grove-ut/tile-grout-cleaning/",
     "/service-areas/provo-ut/tile-grout-cleaning/",
     "/service-areas/riverton-ut/tile-grout-cleaning/",
-    "/service-areas/saratoga-springs-ut/tile-grout-cleaning/",
     "/service-areas/south-jordan-ut/tile-grout-cleaning/"
   ],
   "/services/fabric-protection/": [
@@ -381,7 +363,6 @@
     "/service-areas/pleasant-grove-ut/fabric-protection/",
     "/service-areas/provo-ut/fabric-protection/",
     "/service-areas/riverton-ut/fabric-protection/",
-    "/service-areas/saratoga-springs-ut/fabric-protection/",
     "/service-areas/south-jordan-ut/fabric-protection/"
   ],
   "/services/junk-debris-removal/": [
@@ -397,7 +378,6 @@
     "/service-areas/pleasant-grove-ut/junk-debris-removal/",
     "/service-areas/provo-ut/junk-debris-removal/",
     "/service-areas/riverton-ut/junk-debris-removal/",
-    "/service-areas/saratoga-springs-ut/junk-debris-removal/",
     "/service-areas/south-jordan-ut/junk-debris-removal/"
   ],
   "/services/crawl-space-encapsulation/": [
@@ -413,34 +393,7 @@
     "/service-areas/pleasant-grove-ut/crawl-space-encapsulation/",
     "/service-areas/provo-ut/crawl-space-encapsulation/",
     "/service-areas/riverton-ut/crawl-space-encapsulation/",
-    "/service-areas/saratoga-springs-ut/crawl-space-encapsulation/",
     "/service-areas/south-jordan-ut/crawl-space-encapsulation/"
-  ],
-  "/service-areas/saratoga-springs-ut/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/saratoga-springs-ut/water-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/sewage-cleanup/",
-    "/service-areas/saratoga-springs-ut/smoke-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/storm-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/basement-flooding-cleanup/",
-    "/service-areas/saratoga-springs-ut/burst-pipe-repair/",
-    "/service-areas/saratoga-springs-ut/mold-inspection-testing/",
-    "/service-areas/saratoga-springs-ut/frozen-pipe-restoration/",
-    "/service-areas/saratoga-springs-ut/odor-removal/",
-    "/service-areas/saratoga-springs-ut/roof-leak-repair/",
-    "/service-areas/saratoga-springs-ut/appliance-leak-cleanup/",
-    "/service-areas/saratoga-springs-ut/crawl-space-encapsulation/",
-    "/service-areas/saratoga-springs-ut/fabric-protection/",
-    "/service-areas/saratoga-springs-ut/junk-debris-removal/",
-    "/service-areas/saratoga-springs-ut/carpet-cleaning/",
-    "/service-areas/saratoga-springs-ut/tile-grout-cleaning/",
-    "/service-areas/saratoga-springs-ut/upholstery-cleaning/",
-    "/service-areas/american-fork-ut/",
-    "/service-areas/eagle-mountain-ut/",
-    "/service-areas/heber-city-ut/"
   ],
   "/service-areas/lehi-ut/": [
     "/service-areas/",
@@ -464,7 +417,6 @@
     "/service-areas/lehi-ut/carpet-cleaning/",
     "/service-areas/lehi-ut/tile-grout-cleaning/",
     "/service-areas/lehi-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/"
   ],
@@ -490,7 +442,6 @@
     "/service-areas/eagle-mountain-ut/carpet-cleaning/",
     "/service-areas/eagle-mountain-ut/tile-grout-cleaning/",
     "/service-areas/eagle-mountain-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/heber-city-ut/"
   ],
@@ -516,7 +467,6 @@
     "/service-areas/american-fork-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/tile-grout-cleaning/",
     "/service-areas/american-fork-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/eagle-mountain-ut/",
     "/service-areas/heber-city-ut/"
   ],
@@ -542,7 +492,6 @@
     "/service-areas/pleasant-grove-ut/carpet-cleaning/",
     "/service-areas/pleasant-grove-ut/tile-grout-cleaning/",
     "/service-areas/pleasant-grove-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/"
   ],
@@ -568,7 +517,6 @@
     "/service-areas/orem-ut/carpet-cleaning/",
     "/service-areas/orem-ut/tile-grout-cleaning/",
     "/service-areas/orem-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/"
   ],
@@ -594,7 +542,6 @@
     "/service-areas/provo-ut/carpet-cleaning/",
     "/service-areas/provo-ut/tile-grout-cleaning/",
     "/service-areas/provo-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/"
   ],
@@ -620,7 +567,6 @@
     "/service-areas/herriman-ut/carpet-cleaning/",
     "/service-areas/herriman-ut/tile-grout-cleaning/",
     "/service-areas/herriman-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/"
   ],
@@ -646,7 +592,6 @@
     "/service-areas/south-jordan-ut/carpet-cleaning/",
     "/service-areas/south-jordan-ut/tile-grout-cleaning/",
     "/service-areas/south-jordan-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/"
   ],
@@ -672,7 +617,6 @@
     "/service-areas/riverton-ut/carpet-cleaning/",
     "/service-areas/riverton-ut/tile-grout-cleaning/",
     "/service-areas/riverton-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/"
   ],
@@ -698,7 +642,6 @@
     "/service-areas/heber-city-ut/carpet-cleaning/",
     "/service-areas/heber-city-ut/tile-grout-cleaning/",
     "/service-areas/heber-city-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/"
   ],
@@ -724,180 +667,8 @@
     "/service-areas/park-city-ut/carpet-cleaning/",
     "/service-areas/park-city-ut/tile-grout-cleaning/",
     "/service-areas/park-city-ut/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/eagle-mountain-ut/"
-  ],
-  "/service-areas/saratoga-springs-ut/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/water-damage-restoration/",
-    "/service-areas/eagle-mountain-ut/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/burst-pipe-repair/": [
-    "/services/burst-pipe-repair/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/burst-pipe-repair/",
-    "/service-areas/eagle-mountain-ut/burst-pipe-repair/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/frozen-pipe-restoration/": [
-    "/services/frozen-pipe-restoration/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/frozen-pipe-restoration/",
-    "/service-areas/eagle-mountain-ut/frozen-pipe-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/appliance-leak-cleanup/": [
-    "/services/appliance-leak-cleanup/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/appliance-leak-cleanup/",
-    "/service-areas/eagle-mountain-ut/appliance-leak-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/basement-flooding-cleanup/": [
-    "/services/basement-flooding-cleanup/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/basement-flooding-cleanup/",
-    "/service-areas/eagle-mountain-ut/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/roof-leak-repair/": [
-    "/services/roof-leak-repair/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/roof-leak-repair/",
-    "/service-areas/eagle-mountain-ut/roof-leak-repair/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/sewage-cleanup/": [
-    "/services/sewage-cleanup/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/sewage-cleanup/",
-    "/service-areas/eagle-mountain-ut/sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/storm-damage-restoration/",
-    "/service-areas/eagle-mountain-ut/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/fire-damage-restoration/": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/saratoga-springs-ut/water-damage-restoration/",
-    "/service-areas/american-fork-ut/fire-damage-restoration/",
-    "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/smoke-damage-restoration/": [
-    "/services/smoke-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/smoke-damage-restoration/",
-    "/service-areas/eagle-mountain-ut/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/water-damage-restoration/",
-    "/service-areas/american-fork-ut/mold-remediation/",
-    "/service-areas/eagle-mountain-ut/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/mold-inspection-testing/": [
-    "/services/mold-inspection-testing/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/mold-inspection-testing/",
-    "/service-areas/eagle-mountain-ut/mold-inspection-testing/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/carpet-cleaning/": [
-    "/services/carpet-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/service-areas/eagle-mountain-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/odor-removal/": [
-    "/services/odor-removal/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/odor-removal/",
-    "/service-areas/eagle-mountain-ut/odor-removal/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/upholstery-cleaning/": [
-    "/services/upholstery-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/upholstery-cleaning/",
-    "/service-areas/eagle-mountain-ut/upholstery-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/tile-grout-cleaning/": [
-    "/services/tile-grout-cleaning/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/tile-grout-cleaning/",
-    "/service-areas/eagle-mountain-ut/tile-grout-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/fabric-protection/": [
-    "/services/fabric-protection/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/fabric-protection/",
-    "/service-areas/eagle-mountain-ut/fabric-protection/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/junk-debris-removal/": [
-    "/services/junk-debris-removal/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/junk-debris-removal/",
-    "/service-areas/eagle-mountain-ut/junk-debris-removal/",
-    "/contact/"
-  ],
-  "/service-areas/saratoga-springs-ut/crawl-space-encapsulation/": [
-    "/services/crawl-space-encapsulation/",
-    "/service-areas/saratoga-springs-ut/",
-    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-    "/service-areas/saratoga-springs-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/crawl-space-encapsulation/",
-    "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
-    "/contact/"
   ],
   "/service-areas/lehi-ut/water-damage-restoration/": [
     "/services/water-damage-restoration/",

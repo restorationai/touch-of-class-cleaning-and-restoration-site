@@ -7,3 +7,18 @@
 /contact-2/ /contact/ 301
 /%3Futm_source%3Domg-gbp%26utm_medium%3Dwebclick / 301
 /%3Futm_source%3Domg-gbp%26utm_medium%3Dwebclick/ / 301
+# home-city consolidation 2026-08-18 — home-city pages folded into home + main service pages (scripts/home_city_migrate.py)
+/service-areas/davie-fl / 301
+/service-areas/davie-fl/ / 301
+/service-areas/davie-fl/fire-damage-restoration /services/fire-damage-restoration/ 301
+/service-areas/davie-fl/fire-damage-restoration/ /services/fire-damage-restoration/ 301
+/service-areas/davie-fl/flood-damage-restoration /services/flood-damage-restoration/ 301
+/service-areas/davie-fl/flood-damage-restoration/ /services/flood-damage-restoration/ 301
+/service-areas/davie-fl/mold-remediation /services/mold-remediation/ 301
+/service-areas/davie-fl/mold-remediation/ /services/mold-remediation/ 301
+/service-areas/davie-fl/smoke-damage-restoration /services/smoke-damage-restoration/ 301
+/service-areas/davie-fl/smoke-damage-restoration/ /services/smoke-damage-restoration/ 301
+/service-areas/davie-fl/storm-damage-restoration /services/storm-damage-restoration/ 301
+/service-areas/davie-fl/storm-damage-restoration/ /services/storm-damage-restoration/ 301
+/service-areas/davie-fl/water-damage-restoration /services/water-damage-restoration/ 301
+/service-areas/davie-fl/water-damage-restoration/ /services/water-damage-restoration/ 301

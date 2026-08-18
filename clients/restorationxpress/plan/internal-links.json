@@ -10,7 +10,6 @@
     "/services/flood-damage-restoration/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/service-areas/davie-fl/",
     "/service-areas/cooper-city-fl/",
     "/service-areas/fort-lauderdale-fl/",
     "/service-areas/hollywood-fl/",
@@ -31,7 +30,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/davie-fl/",
     "/service-areas/cooper-city-fl/",
     "/service-areas/fort-lauderdale-fl/",
     "/service-areas/hollywood-fl/",
@@ -70,7 +68,6 @@
     "/services/",
     "/contact/",
     "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/water-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
     "/service-areas/hollywood-fl/water-damage-restoration/",
     "/service-areas/miramar-fl/water-damage-restoration/",
@@ -86,7 +83,6 @@
     "/services/",
     "/contact/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
     "/service-areas/hollywood-fl/fire-damage-restoration/",
     "/service-areas/miramar-fl/fire-damage-restoration/",
@@ -102,7 +98,6 @@
     "/services/",
     "/contact/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/mold-remediation/",
     "/service-areas/fort-lauderdale-fl/mold-remediation/",
     "/service-areas/hollywood-fl/mold-remediation/",
     "/service-areas/miramar-fl/mold-remediation/",
@@ -118,7 +113,6 @@
     "/services/",
     "/contact/",
     "/service-areas/cooper-city-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/storm-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
     "/service-areas/hollywood-fl/storm-damage-restoration/",
     "/service-areas/miramar-fl/storm-damage-restoration/",
@@ -132,7 +126,6 @@
     "/services/",
     "/contact/",
     "/service-areas/cooper-city-fl/flood-damage-restoration/",
-    "/service-areas/davie-fl/flood-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
     "/service-areas/hollywood-fl/flood-damage-restoration/",
     "/service-areas/miramar-fl/flood-damage-restoration/",
@@ -145,7 +138,6 @@
     "/services/",
     "/contact/",
     "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-    "/service-areas/davie-fl/smoke-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
     "/service-areas/hollywood-fl/smoke-damage-restoration/",
     "/service-areas/miramar-fl/smoke-damage-restoration/",
@@ -156,19 +148,6 @@
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
-  "/service-areas/davie-fl/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/mold-remediation/",
-    "/service-areas/davie-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/flood-damage-restoration/",
-    "/service-areas/davie-fl/smoke-damage-restoration/",
-    "/service-areas/davie-fl/storm-damage-restoration/",
-    "/service-areas/cooper-city-fl/",
-    "/service-areas/fort-lauderdale-fl/",
-    "/service-areas/hollywood-fl/"
-  ],
   "/service-areas/fort-lauderdale-fl/": [
     "/service-areas/",
     "/contact/",
@@ -178,7 +157,6 @@
     "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/",
     "/service-areas/cooper-city-fl/",
     "/service-areas/hollywood-fl/"
   ],
@@ -191,7 +169,6 @@
     "/service-areas/hollywood-fl/flood-damage-restoration/",
     "/service-areas/hollywood-fl/smoke-damage-restoration/",
     "/service-areas/hollywood-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/",
     "/service-areas/cooper-city-fl/",
     "/service-areas/fort-lauderdale-fl/"
   ],
@@ -204,7 +181,6 @@
     "/service-areas/plantation-fl/flood-damage-restoration/",
     "/service-areas/plantation-fl/smoke-damage-restoration/",
     "/service-areas/plantation-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/",
     "/service-areas/cooper-city-fl/",
     "/service-areas/fort-lauderdale-fl/"
   ],
@@ -217,7 +193,6 @@
     "/service-areas/sunrise-fl/flood-damage-restoration/",
     "/service-areas/sunrise-fl/smoke-damage-restoration/",
     "/service-areas/sunrise-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/",
     "/service-areas/cooper-city-fl/",
     "/service-areas/fort-lauderdale-fl/"
   ],
@@ -230,7 +205,6 @@
     "/service-areas/cooper-city-fl/flood-damage-restoration/",
     "/service-areas/cooper-city-fl/smoke-damage-restoration/",
     "/service-areas/cooper-city-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/",
     "/service-areas/fort-lauderdale-fl/",
     "/service-areas/hollywood-fl/"
   ],
@@ -243,7 +217,6 @@
     "/service-areas/weston-fl/flood-damage-restoration/",
     "/service-areas/weston-fl/smoke-damage-restoration/",
     "/service-areas/weston-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/",
     "/service-areas/cooper-city-fl/",
     "/service-areas/fort-lauderdale-fl/"
   ],
@@ -256,7 +229,6 @@
     "/service-areas/pembroke-pines-fl/flood-damage-restoration/",
     "/service-areas/pembroke-pines-fl/smoke-damage-restoration/",
     "/service-areas/pembroke-pines-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/",
     "/service-areas/cooper-city-fl/",
     "/service-areas/fort-lauderdale-fl/"
   ],
@@ -269,63 +241,8 @@
     "/service-areas/miramar-fl/flood-damage-restoration/",
     "/service-areas/miramar-fl/smoke-damage-restoration/",
     "/service-areas/miramar-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/",
     "/service-areas/cooper-city-fl/",
     "/service-areas/fort-lauderdale-fl/"
-  ],
-  "/service-areas/davie-fl/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/davie-fl/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/mold-remediation/",
-    "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/davie-fl/fire-damage-restoration/": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/davie-fl/",
-    "/service-areas/davie-fl/mold-remediation/",
-    "/service-areas/davie-fl/water-damage-restoration/",
-    "/service-areas/cooper-city-fl/fire-damage-restoration/",
-    "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/davie-fl/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/davie-fl/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/water-damage-restoration/",
-    "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/fort-lauderdale-fl/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/davie-fl/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/davie-fl/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/mold-remediation/",
-    "/service-areas/cooper-city-fl/storm-damage-restoration/",
-    "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/davie-fl/flood-damage-restoration/": [
-    "/services/flood-damage-restoration/",
-    "/service-areas/davie-fl/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/mold-remediation/",
-    "/service-areas/cooper-city-fl/flood-damage-restoration/",
-    "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/davie-fl/smoke-damage-restoration/": [
-    "/services/smoke-damage-restoration/",
-    "/service-areas/davie-fl/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/mold-remediation/",
-    "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-    "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
-    "/contact/"
   ],
   "/service-areas/fort-lauderdale-fl/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -333,7 +250,6 @@
     "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/fort-lauderdale-fl/fire-damage-restoration/": [
@@ -342,7 +258,6 @@
     "/service-areas/fort-lauderdale-fl/mold-remediation/",
     "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/fort-lauderdale-fl/mold-remediation/": [
@@ -351,7 +266,6 @@
     "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/fort-lauderdale-fl/storm-damage-restoration/": [
@@ -360,7 +274,6 @@
     "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/fort-lauderdale-fl/flood-damage-restoration/": [
@@ -369,7 +282,6 @@
     "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/flood-damage-restoration/",
-    "/service-areas/davie-fl/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/": [
@@ -378,7 +290,6 @@
     "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-    "/service-areas/davie-fl/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hollywood-fl/water-damage-restoration/": [
@@ -387,7 +298,6 @@
     "/service-areas/hollywood-fl/fire-damage-restoration/",
     "/service-areas/hollywood-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hollywood-fl/fire-damage-restoration/": [
@@ -396,7 +306,6 @@
     "/service-areas/hollywood-fl/mold-remediation/",
     "/service-areas/hollywood-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hollywood-fl/mold-remediation/": [
@@ -405,7 +314,6 @@
     "/service-areas/hollywood-fl/fire-damage-restoration/",
     "/service-areas/hollywood-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/hollywood-fl/storm-damage-restoration/": [
@@ -414,7 +322,6 @@
     "/service-areas/hollywood-fl/fire-damage-restoration/",
     "/service-areas/hollywood-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hollywood-fl/flood-damage-restoration/": [
@@ -423,7 +330,6 @@
     "/service-areas/hollywood-fl/fire-damage-restoration/",
     "/service-areas/hollywood-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/flood-damage-restoration/",
-    "/service-areas/davie-fl/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hollywood-fl/smoke-damage-restoration/": [
@@ -432,7 +338,6 @@
     "/service-areas/hollywood-fl/fire-damage-restoration/",
     "/service-areas/hollywood-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-    "/service-areas/davie-fl/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/plantation-fl/water-damage-restoration/": [
@@ -441,7 +346,6 @@
     "/service-areas/plantation-fl/fire-damage-restoration/",
     "/service-areas/plantation-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/plantation-fl/fire-damage-restoration/": [
@@ -450,7 +354,6 @@
     "/service-areas/plantation-fl/mold-remediation/",
     "/service-areas/plantation-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/plantation-fl/mold-remediation/": [
@@ -459,7 +362,6 @@
     "/service-areas/plantation-fl/fire-damage-restoration/",
     "/service-areas/plantation-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/plantation-fl/storm-damage-restoration/": [
@@ -468,7 +370,6 @@
     "/service-areas/plantation-fl/fire-damage-restoration/",
     "/service-areas/plantation-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/plantation-fl/flood-damage-restoration/": [
@@ -477,7 +378,6 @@
     "/service-areas/plantation-fl/fire-damage-restoration/",
     "/service-areas/plantation-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/flood-damage-restoration/",
-    "/service-areas/davie-fl/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/plantation-fl/smoke-damage-restoration/": [
@@ -486,7 +386,6 @@
     "/service-areas/plantation-fl/fire-damage-restoration/",
     "/service-areas/plantation-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-    "/service-areas/davie-fl/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/sunrise-fl/water-damage-restoration/": [
@@ -495,7 +394,6 @@
     "/service-areas/sunrise-fl/fire-damage-restoration/",
     "/service-areas/sunrise-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/sunrise-fl/fire-damage-restoration/": [
@@ -504,7 +402,6 @@
     "/service-areas/sunrise-fl/mold-remediation/",
     "/service-areas/sunrise-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/sunrise-fl/mold-remediation/": [
@@ -513,7 +410,6 @@
     "/service-areas/sunrise-fl/fire-damage-restoration/",
     "/service-areas/sunrise-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/sunrise-fl/storm-damage-restoration/": [
@@ -522,7 +418,6 @@
     "/service-areas/sunrise-fl/fire-damage-restoration/",
     "/service-areas/sunrise-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/sunrise-fl/flood-damage-restoration/": [
@@ -531,7 +426,6 @@
     "/service-areas/sunrise-fl/fire-damage-restoration/",
     "/service-areas/sunrise-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/flood-damage-restoration/",
-    "/service-areas/davie-fl/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/sunrise-fl/smoke-damage-restoration/": [
@@ -540,7 +434,6 @@
     "/service-areas/sunrise-fl/fire-damage-restoration/",
     "/service-areas/sunrise-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-    "/service-areas/davie-fl/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/cooper-city-fl/water-damage-restoration/": [
@@ -548,7 +441,6 @@
     "/service-areas/cooper-city-fl/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/water-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
     "/contact/"
   ],
@@ -557,7 +449,6 @@
     "/service-areas/cooper-city-fl/",
     "/service-areas/cooper-city-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
     "/contact/"
   ],
@@ -566,7 +457,6 @@
     "/service-areas/cooper-city-fl/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
     "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/mold-remediation/",
     "/service-areas/fort-lauderdale-fl/mold-remediation/",
     "/contact/"
   ],
@@ -575,7 +465,6 @@
     "/service-areas/cooper-city-fl/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/storm-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
     "/contact/"
   ],
@@ -584,7 +473,6 @@
     "/service-areas/cooper-city-fl/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/flood-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
     "/contact/"
   ],
@@ -593,7 +481,6 @@
     "/service-areas/cooper-city-fl/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/smoke-damage-restoration/",
     "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
     "/contact/"
   ],
@@ -603,7 +490,6 @@
     "/service-areas/weston-fl/fire-damage-restoration/",
     "/service-areas/weston-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/weston-fl/fire-damage-restoration/": [
@@ -612,7 +498,6 @@
     "/service-areas/weston-fl/mold-remediation/",
     "/service-areas/weston-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/weston-fl/mold-remediation/": [
@@ -621,7 +506,6 @@
     "/service-areas/weston-fl/fire-damage-restoration/",
     "/service-areas/weston-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/weston-fl/storm-damage-restoration/": [
@@ -630,7 +514,6 @@
     "/service-areas/weston-fl/fire-damage-restoration/",
     "/service-areas/weston-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/weston-fl/flood-damage-restoration/": [
@@ -639,7 +522,6 @@
     "/service-areas/weston-fl/fire-damage-restoration/",
     "/service-areas/weston-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/flood-damage-restoration/",
-    "/service-areas/davie-fl/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/weston-fl/smoke-damage-restoration/": [
@@ -648,7 +530,6 @@
     "/service-areas/weston-fl/fire-damage-restoration/",
     "/service-areas/weston-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-    "/service-areas/davie-fl/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/pembroke-pines-fl/water-damage-restoration/": [
@@ -657,7 +538,6 @@
     "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
     "/service-areas/pembroke-pines-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/pembroke-pines-fl/fire-damage-restoration/": [
@@ -666,7 +546,6 @@
     "/service-areas/pembroke-pines-fl/mold-remediation/",
     "/service-areas/pembroke-pines-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/pembroke-pines-fl/mold-remediation/": [
@@ -675,7 +554,6 @@
     "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
     "/service-areas/pembroke-pines-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/pembroke-pines-fl/storm-damage-restoration/": [
@@ -684,7 +562,6 @@
     "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
     "/service-areas/pembroke-pines-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/pembroke-pines-fl/flood-damage-restoration/": [
@@ -693,7 +570,6 @@
     "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
     "/service-areas/pembroke-pines-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/flood-damage-restoration/",
-    "/service-areas/davie-fl/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/pembroke-pines-fl/smoke-damage-restoration/": [
@@ -702,7 +578,6 @@
     "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
     "/service-areas/pembroke-pines-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-    "/service-areas/davie-fl/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/miramar-fl/water-damage-restoration/": [
@@ -711,7 +586,6 @@
     "/service-areas/miramar-fl/fire-damage-restoration/",
     "/service-areas/miramar-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/water-damage-restoration/",
-    "/service-areas/davie-fl/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/miramar-fl/fire-damage-restoration/": [
@@ -720,7 +594,6 @@
     "/service-areas/miramar-fl/mold-remediation/",
     "/service-areas/miramar-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/fire-damage-restoration/",
-    "/service-areas/davie-fl/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/miramar-fl/mold-remediation/": [
@@ -729,7 +602,6 @@
     "/service-areas/miramar-fl/fire-damage-restoration/",
     "/service-areas/miramar-fl/water-damage-restoration/",
     "/service-areas/cooper-city-fl/mold-remediation/",
-    "/service-areas/davie-fl/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/miramar-fl/storm-damage-restoration/": [
@@ -738,7 +610,6 @@
     "/service-areas/miramar-fl/fire-damage-restoration/",
     "/service-areas/miramar-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/storm-damage-restoration/",
-    "/service-areas/davie-fl/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/miramar-fl/flood-damage-restoration/": [
@@ -747,7 +618,6 @@
     "/service-areas/miramar-fl/fire-damage-restoration/",
     "/service-areas/miramar-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/flood-damage-restoration/",
-    "/service-areas/davie-fl/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/miramar-fl/smoke-damage-restoration/": [
@@ -756,7 +626,6 @@
     "/service-areas/miramar-fl/fire-damage-restoration/",
     "/service-areas/miramar-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-    "/service-areas/davie-fl/smoke-damage-restoration/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

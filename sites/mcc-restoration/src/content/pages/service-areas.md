@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "870ee96dd85d8451"
 generated_at: "2026-07-09T05:34:31.742239+00:00"
 manual_override: false
-internal_links: ["/", "/service-areas/duncanville-tx/", "/service-areas/cedar-hill-tx/", "/service-areas/dallas-tx/", "/service-areas/desoto-tx/", "/service-areas/grand-prairie-tx/"]
+internal_links: ["/", "/service-areas/cedar-hill-tx/", "/service-areas/dallas-tx/", "/service-areas/desoto-tx/", "/service-areas/grand-prairie-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas"}]
 faq: [{"question": "How far will MCC Restoration travel for a job?", "answer": "Our primary coverage covers the southern DFW metro and surrounding counties, but we do take on jobs outside that footprint when the scope warrants it \u2014 larger water losses, fire-damaged structures, or commercial properties, for example. Call us with your address and a description of the damage and we'll give you a direct answer."}, {"question": "Will response time be slower if I'm farther from Duncanville?", "answer": "Generally, yes \u2014 properties closer to our Duncanville base get earlier arrival slots because drive time is shorter and routing is simpler. For locations at the edge of our coverage area, we schedule with realistic travel time built in so you're not left waiting with an open-ended window. You'll have a confirmed arrival window before our crew departs."}, {"question": "Do you charge extra for mileage or travel to distant locations?", "answer": "Mileage and travel factors are discussed up front during your initial call \u2014 there are no surprise line items added after the fact. For jobs well outside our core service area, any travel-related costs are disclosed before you commit to scheduling."}]
 rendered: true

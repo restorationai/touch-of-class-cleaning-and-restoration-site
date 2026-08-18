@@ -16,7 +16,6 @@
     "/services/crawl-space-encapsulation/",
     "/services/vandalism-cleanup/",
     "/services/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/",
     "/service-areas/avila-beach-ca/",
@@ -65,7 +64,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/",
     "/service-areas/avila-beach-ca/",
@@ -333,28 +331,8 @@
     "/service-areas/vandenberg-village-ca/crawl-space-encapsulation/",
     "/service-areas/vandenberg-village-ca/vandalism-cleanup/",
     "/service-areas/vandenberg-village-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
-  ],
-  "/service-areas/santa-maria-ca/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/santa-maria-ca/water-damage-restoration/",
-    "/service-areas/santa-maria-ca/sewage-cleanup/",
-    "/service-areas/santa-maria-ca/storm-damage-restoration/",
-    "/service-areas/santa-maria-ca/biohazard-cleanup/",
-    "/service-areas/santa-maria-ca/emergency-board-up-tarping/",
-    "/service-areas/santa-maria-ca/odor-removal/",
-    "/service-areas/santa-maria-ca/contents-restoration/",
-    "/service-areas/santa-maria-ca/crawl-space-encapsulation/",
-    "/service-areas/santa-maria-ca/vandalism-cleanup/",
-    "/service-areas/santa-maria-ca/post-construction-cleaning/",
-    "/service-areas/arroyo-grande-ca/",
-    "/service-areas/atascadero-ca/",
-    "/service-areas/avila-beach-ca/"
   ],
   "/service-areas/orcutt-ca/": [
     "/service-areas/",
@@ -371,7 +349,6 @@
     "/service-areas/orcutt-ca/crawl-space-encapsulation/",
     "/service-areas/orcutt-ca/vandalism-cleanup/",
     "/service-areas/orcutt-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -390,7 +367,6 @@
     "/service-areas/los-alamos-ca/crawl-space-encapsulation/",
     "/service-areas/los-alamos-ca/vandalism-cleanup/",
     "/service-areas/los-alamos-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -409,7 +385,6 @@
     "/service-areas/lompoc-ca/crawl-space-encapsulation/",
     "/service-areas/lompoc-ca/vandalism-cleanup/",
     "/service-areas/lompoc-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -428,7 +403,6 @@
     "/service-areas/los-olivos-ca/crawl-space-encapsulation/",
     "/service-areas/los-olivos-ca/vandalism-cleanup/",
     "/service-areas/los-olivos-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -447,7 +421,6 @@
     "/service-areas/mission-hills-ca/crawl-space-encapsulation/",
     "/service-areas/mission-hills-ca/vandalism-cleanup/",
     "/service-areas/mission-hills-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -466,7 +439,6 @@
     "/service-areas/santa-ynez-ca/crawl-space-encapsulation/",
     "/service-areas/santa-ynez-ca/vandalism-cleanup/",
     "/service-areas/santa-ynez-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -485,7 +457,6 @@
     "/service-areas/solvang-ca/crawl-space-encapsulation/",
     "/service-areas/solvang-ca/vandalism-cleanup/",
     "/service-areas/solvang-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -504,7 +475,6 @@
     "/service-areas/vandenberg-afb-ca/crawl-space-encapsulation/",
     "/service-areas/vandenberg-afb-ca/vandalism-cleanup/",
     "/service-areas/vandenberg-afb-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -523,7 +493,6 @@
     "/service-areas/guadalupe-ca/crawl-space-encapsulation/",
     "/service-areas/guadalupe-ca/vandalism-cleanup/",
     "/service-areas/guadalupe-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -542,7 +511,6 @@
     "/service-areas/buellton-ca/crawl-space-encapsulation/",
     "/service-areas/buellton-ca/vandalism-cleanup/",
     "/service-areas/buellton-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -561,7 +529,6 @@
     "/service-areas/ballard-ca/crawl-space-encapsulation/",
     "/service-areas/ballard-ca/vandalism-cleanup/",
     "/service-areas/ballard-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -580,7 +547,6 @@
     "/service-areas/arroyo-grande-ca/crawl-space-encapsulation/",
     "/service-areas/arroyo-grande-ca/vandalism-cleanup/",
     "/service-areas/arroyo-grande-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/atascadero-ca/",
     "/service-areas/avila-beach-ca/"
   ],
@@ -599,7 +565,6 @@
     "/service-areas/avila-beach-ca/crawl-space-encapsulation/",
     "/service-areas/avila-beach-ca/vandalism-cleanup/",
     "/service-areas/avila-beach-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -618,7 +583,6 @@
     "/service-areas/cambria-ca/crawl-space-encapsulation/",
     "/service-areas/cambria-ca/vandalism-cleanup/",
     "/service-areas/cambria-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -637,7 +601,6 @@
     "/service-areas/el-paso-de-robles-ca/crawl-space-encapsulation/",
     "/service-areas/el-paso-de-robles-ca/vandalism-cleanup/",
     "/service-areas/el-paso-de-robles-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -656,7 +619,6 @@
     "/service-areas/grover-beach-ca/crawl-space-encapsulation/",
     "/service-areas/grover-beach-ca/vandalism-cleanup/",
     "/service-areas/grover-beach-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -675,7 +637,6 @@
     "/service-areas/los-berros-ca/crawl-space-encapsulation/",
     "/service-areas/los-berros-ca/vandalism-cleanup/",
     "/service-areas/los-berros-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -694,7 +655,6 @@
     "/service-areas/nipomo-ca/crawl-space-encapsulation/",
     "/service-areas/nipomo-ca/vandalism-cleanup/",
     "/service-areas/nipomo-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -713,7 +673,6 @@
     "/service-areas/oceano-ca/crawl-space-encapsulation/",
     "/service-areas/oceano-ca/vandalism-cleanup/",
     "/service-areas/oceano-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -732,7 +691,6 @@
     "/service-areas/san-luis-obispo-ca/crawl-space-encapsulation/",
     "/service-areas/san-luis-obispo-ca/vandalism-cleanup/",
     "/service-areas/san-luis-obispo-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -751,7 +709,6 @@
     "/service-areas/templeton-ca/crawl-space-encapsulation/",
     "/service-areas/templeton-ca/vandalism-cleanup/",
     "/service-areas/templeton-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -770,7 +727,6 @@
     "/service-areas/santa-margarita-ca/crawl-space-encapsulation/",
     "/service-areas/santa-margarita-ca/vandalism-cleanup/",
     "/service-areas/santa-margarita-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -789,7 +745,6 @@
     "/service-areas/pismo-beach-ca/crawl-space-encapsulation/",
     "/service-areas/pismo-beach-ca/vandalism-cleanup/",
     "/service-areas/pismo-beach-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -808,7 +763,6 @@
     "/service-areas/morro-bay-ca/crawl-space-encapsulation/",
     "/service-areas/morro-bay-ca/vandalism-cleanup/",
     "/service-areas/morro-bay-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -827,7 +781,6 @@
     "/service-areas/los-osos-ca/crawl-space-encapsulation/",
     "/service-areas/los-osos-ca/vandalism-cleanup/",
     "/service-areas/los-osos-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -846,7 +799,6 @@
     "/service-areas/edna-ca/crawl-space-encapsulation/",
     "/service-areas/edna-ca/vandalism-cleanup/",
     "/service-areas/edna-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -865,7 +817,6 @@
     "/service-areas/callender-ca/crawl-space-encapsulation/",
     "/service-areas/callender-ca/vandalism-cleanup/",
     "/service-areas/callender-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -884,7 +835,6 @@
     "/service-areas/blacklake-ca/crawl-space-encapsulation/",
     "/service-areas/blacklake-ca/vandalism-cleanup/",
     "/service-areas/blacklake-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/atascadero-ca/"
   ],
@@ -903,7 +853,6 @@
     "/service-areas/atascadero-ca/crawl-space-encapsulation/",
     "/service-areas/atascadero-ca/vandalism-cleanup/",
     "/service-areas/atascadero-ca/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
     "/service-areas/arroyo-grande-ca/",
     "/service-areas/avila-beach-ca/"
   ],
@@ -1011,114 +960,6 @@
     "/service-areas/vandenberg-village-ca/",
     "/service-areas/vandenberg-village-ca/fire-damage-restoration/",
     "/service-areas/vandenberg-village-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/vandalism-cleanup/",
-    "/service-areas/atascadero-ca/vandalism-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-damage-restoration/",
-    "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/storm-damage-restoration/",
-    "/service-areas/atascadero-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/fire-damage-restoration/": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/santa-maria-ca/water-damage-restoration/",
-    "/service-areas/arroyo-grande-ca/fire-damage-restoration/",
-    "/service-areas/atascadero-ca/fire-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/sewage-cleanup/": [
-    "/services/sewage-cleanup/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/sewage-cleanup/",
-    "/service-areas/atascadero-ca/sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/emergency-board-up-tarping/": [
-    "/services/emergency-board-up-tarping/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/emergency-board-up-tarping/",
-    "/service-areas/atascadero-ca/emergency-board-up-tarping/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/water-damage-restoration/",
-    "/service-areas/arroyo-grande-ca/mold-remediation/",
-    "/service-areas/atascadero-ca/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/biohazard-cleanup/": [
-    "/services/biohazard-cleanup/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/biohazard-cleanup/",
-    "/service-areas/atascadero-ca/biohazard-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/contents-restoration/": [
-    "/services/contents-restoration/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration/",
-    "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/crawl-space-encapsulation/": [
-    "/services/crawl-space-encapsulation/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/crawl-space-encapsulation/",
-    "/service-areas/atascadero-ca/crawl-space-encapsulation/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/post-construction-cleaning/": [
-    "/services/post-construction-cleaning/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/post-construction-cleaning/",
-    "/service-areas/atascadero-ca/post-construction-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/odor-removal/": [
-    "/services/odor-removal/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/odor-removal/",
-    "/service-areas/atascadero-ca/odor-removal/",
-    "/contact/"
-  ],
-  "/service-areas/santa-maria-ca/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/santa-maria-ca/",
-    "/service-areas/santa-maria-ca/fire-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/vandalism-cleanup/",
     "/service-areas/atascadero-ca/vandalism-cleanup/",
     "/contact/"

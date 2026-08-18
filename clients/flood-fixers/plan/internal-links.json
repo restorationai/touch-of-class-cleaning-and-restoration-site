@@ -10,7 +10,6 @@
     "/services/basement-flooding-cleanup/",
     "/services/burst-pipe-repair/",
     "/services/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/",
     "/service-areas/el-cajon-ca/",
@@ -37,7 +36,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/",
     "/service-areas/el-cajon-ca/",
@@ -87,7 +85,6 @@
     "/service-areas/national-city-ca/water-damage-restoration/",
     "/service-areas/oceanside-ca/water-damage-restoration/",
     "/service-areas/poway-ca/water-damage-restoration/",
-    "/service-areas/san-diego-ca/water-damage-restoration/",
     "/service-areas/san-marcos-ca/water-damage-restoration/",
     "/service-areas/santee-ca/water-damage-restoration/",
     "/blog/burst-pipe-emergency-checklist/",
@@ -106,7 +103,6 @@
     "/service-areas/national-city-ca/flood-damage-restoration/",
     "/service-areas/oceanside-ca/flood-damage-restoration/",
     "/service-areas/poway-ca/flood-damage-restoration/",
-    "/service-areas/san-diego-ca/flood-damage-restoration/",
     "/service-areas/san-marcos-ca/flood-damage-restoration/",
     "/service-areas/santee-ca/flood-damage-restoration/"
   ],
@@ -122,7 +118,6 @@
     "/service-areas/national-city-ca/burst-pipe-repair/",
     "/service-areas/oceanside-ca/burst-pipe-repair/",
     "/service-areas/poway-ca/burst-pipe-repair/",
-    "/service-areas/san-diego-ca/burst-pipe-repair/",
     "/service-areas/san-marcos-ca/burst-pipe-repair/",
     "/service-areas/santee-ca/burst-pipe-repair/"
   ],
@@ -138,7 +133,6 @@
     "/service-areas/national-city-ca/basement-flooding-cleanup/",
     "/service-areas/oceanside-ca/basement-flooding-cleanup/",
     "/service-areas/poway-ca/basement-flooding-cleanup/",
-    "/service-areas/san-diego-ca/basement-flooding-cleanup/",
     "/service-areas/san-marcos-ca/basement-flooding-cleanup/",
     "/service-areas/santee-ca/basement-flooding-cleanup/"
   ],
@@ -154,7 +148,6 @@
     "/service-areas/national-city-ca/reconstruction/",
     "/service-areas/oceanside-ca/reconstruction/",
     "/service-areas/poway-ca/reconstruction/",
-    "/service-areas/san-diego-ca/reconstruction/",
     "/service-areas/san-marcos-ca/reconstruction/",
     "/service-areas/santee-ca/reconstruction/"
   ],
@@ -170,22 +163,8 @@
     "/service-areas/national-city-ca/general-contracting/",
     "/service-areas/oceanside-ca/general-contracting/",
     "/service-areas/poway-ca/general-contracting/",
-    "/service-areas/san-diego-ca/general-contracting/",
     "/service-areas/san-marcos-ca/general-contracting/",
     "/service-areas/santee-ca/general-contracting/"
-  ],
-  "/service-areas/san-diego-ca/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/san-diego-ca/water-damage-restoration/",
-    "/service-areas/san-diego-ca/flood-damage-restoration/",
-    "/service-areas/san-diego-ca/reconstruction/",
-    "/service-areas/san-diego-ca/basement-flooding-cleanup/",
-    "/service-areas/san-diego-ca/burst-pipe-repair/",
-    "/service-areas/san-diego-ca/general-contracting/",
-    "/service-areas/carlsbad-ca/",
-    "/service-areas/chula-vista-ca/",
-    "/service-areas/el-cajon-ca/"
   ],
   "/service-areas/chula-vista-ca/": [
     "/service-areas/",
@@ -196,7 +175,6 @@
     "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
     "/service-areas/chula-vista-ca/burst-pipe-repair/",
     "/service-areas/chula-vista-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/el-cajon-ca/"
   ],
@@ -209,7 +187,6 @@
     "/service-areas/oceanside-ca/basement-flooding-cleanup/",
     "/service-areas/oceanside-ca/burst-pipe-repair/",
     "/service-areas/oceanside-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -222,7 +199,6 @@
     "/service-areas/escondido-ca/basement-flooding-cleanup/",
     "/service-areas/escondido-ca/burst-pipe-repair/",
     "/service-areas/escondido-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -235,7 +211,6 @@
     "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
     "/service-areas/carlsbad-ca/burst-pipe-repair/",
     "/service-areas/carlsbad-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/chula-vista-ca/",
     "/service-areas/el-cajon-ca/"
   ],
@@ -248,7 +223,6 @@
     "/service-areas/el-cajon-ca/basement-flooding-cleanup/",
     "/service-areas/el-cajon-ca/burst-pipe-repair/",
     "/service-areas/el-cajon-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -261,7 +235,6 @@
     "/service-areas/vista-ca/basement-flooding-cleanup/",
     "/service-areas/vista-ca/burst-pipe-repair/",
     "/service-areas/vista-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -274,7 +247,6 @@
     "/service-areas/san-marcos-ca/basement-flooding-cleanup/",
     "/service-areas/san-marcos-ca/burst-pipe-repair/",
     "/service-areas/san-marcos-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -287,7 +259,6 @@
     "/service-areas/encinitas-ca/basement-flooding-cleanup/",
     "/service-areas/encinitas-ca/burst-pipe-repair/",
     "/service-areas/encinitas-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -300,7 +271,6 @@
     "/service-areas/la-mesa-ca/basement-flooding-cleanup/",
     "/service-areas/la-mesa-ca/burst-pipe-repair/",
     "/service-areas/la-mesa-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -313,7 +283,6 @@
     "/service-areas/santee-ca/basement-flooding-cleanup/",
     "/service-areas/santee-ca/burst-pipe-repair/",
     "/service-areas/santee-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -326,7 +295,6 @@
     "/service-areas/poway-ca/basement-flooding-cleanup/",
     "/service-areas/poway-ca/burst-pipe-repair/",
     "/service-areas/poway-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -339,7 +307,6 @@
     "/service-areas/national-city-ca/basement-flooding-cleanup/",
     "/service-areas/national-city-ca/burst-pipe-repair/",
     "/service-areas/national-city-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -352,7 +319,6 @@
     "/service-areas/spring-valley-ca/basement-flooding-cleanup/",
     "/service-areas/spring-valley-ca/burst-pipe-repair/",
     "/service-areas/spring-valley-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
   ],
@@ -365,63 +331,8 @@
     "/service-areas/temecula-ca/basement-flooding-cleanup/",
     "/service-areas/temecula-ca/burst-pipe-repair/",
     "/service-areas/temecula-ca/general-contracting/",
-    "/service-areas/san-diego-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
-  ],
-  "/service-areas/san-diego-ca/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/san-diego-ca/",
-    "/service-areas/san-diego-ca/flood-damage-restoration/",
-    "/service-areas/san-diego-ca/reconstruction/",
-    "/service-areas/carlsbad-ca/water-damage-restoration/",
-    "/service-areas/chula-vista-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/san-diego-ca/flood-damage-restoration/": [
-    "/services/flood-damage-restoration/",
-    "/service-areas/san-diego-ca/",
-    "/service-areas/san-diego-ca/water-damage-restoration/",
-    "/service-areas/san-diego-ca/reconstruction/",
-    "/service-areas/carlsbad-ca/flood-damage-restoration/",
-    "/service-areas/chula-vista-ca/flood-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/san-diego-ca/burst-pipe-repair/": [
-    "/services/burst-pipe-repair/",
-    "/service-areas/san-diego-ca/",
-    "/service-areas/san-diego-ca/water-damage-restoration/",
-    "/service-areas/san-diego-ca/flood-damage-restoration/",
-    "/service-areas/carlsbad-ca/burst-pipe-repair/",
-    "/service-areas/chula-vista-ca/burst-pipe-repair/",
-    "/contact/"
-  ],
-  "/service-areas/san-diego-ca/basement-flooding-cleanup/": [
-    "/services/basement-flooding-cleanup/",
-    "/service-areas/san-diego-ca/",
-    "/service-areas/san-diego-ca/water-damage-restoration/",
-    "/service-areas/san-diego-ca/flood-damage-restoration/",
-    "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
-    "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/san-diego-ca/reconstruction/": [
-    "/services/reconstruction/",
-    "/service-areas/san-diego-ca/",
-    "/service-areas/san-diego-ca/water-damage-restoration/",
-    "/service-areas/san-diego-ca/flood-damage-restoration/",
-    "/service-areas/carlsbad-ca/reconstruction/",
-    "/service-areas/chula-vista-ca/reconstruction/",
-    "/contact/"
-  ],
-  "/service-areas/san-diego-ca/general-contracting/": [
-    "/services/general-contracting/",
-    "/service-areas/san-diego-ca/",
-    "/service-areas/san-diego-ca/water-damage-restoration/",
-    "/service-areas/san-diego-ca/flood-damage-restoration/",
-    "/service-areas/carlsbad-ca/general-contracting/",
-    "/service-areas/chula-vista-ca/general-contracting/",
-    "/contact/"
   ],
   "/service-areas/chula-vista-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",

@@ -108,15 +108,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/las-vegas-nv/": {
-    "archetype": "service-area",
-    "stubs": [
-      "local-business",
-      "service",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/henderson-nv/": {
     "archetype": "service-area",
     "stubs": [
@@ -176,56 +167,6 @@
     "stubs": [
       "local-business",
       "service",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/las-vegas-nv/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/las-vegas-nv/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/las-vegas-nv/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/las-vegas-nv/sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/las-vegas-nv/biohazard-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
       "breadcrumb-list"
     ],
     "missing_stubs": []

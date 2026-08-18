@@ -15,7 +15,6 @@
     "/services/storm-damage-restoration/",
     "/services/burst-pipe-repair/",
     "/services/general-contracting/",
-    "/service-areas/duncanville-tx/",
     "/service-areas/cedar-hill-tx/",
     "/service-areas/dallas-tx/",
     "/service-areas/desoto-tx/",
@@ -37,7 +36,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/duncanville-tx/",
     "/service-areas/cedar-hill-tx/",
     "/service-areas/dallas-tx/",
     "/service-areas/desoto-tx/",
@@ -74,7 +72,6 @@
     "/service-areas/cedar-hill-tx/water-damage-restoration/",
     "/service-areas/dallas-tx/water-damage-restoration/",
     "/service-areas/desoto-tx/water-damage-restoration/",
-    "/service-areas/duncanville-tx/water-damage-restoration/",
     "/service-areas/grand-prairie-tx/water-damage-restoration/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -86,7 +83,6 @@
     "/service-areas/cedar-hill-tx/flood-damage-restoration/",
     "/service-areas/dallas-tx/flood-damage-restoration/",
     "/service-areas/desoto-tx/flood-damage-restoration/",
-    "/service-areas/duncanville-tx/flood-damage-restoration/",
     "/service-areas/grand-prairie-tx/flood-damage-restoration/"
   ],
   "/services/burst-pipe-repair/": [
@@ -95,7 +91,6 @@
     "/service-areas/cedar-hill-tx/burst-pipe-repair/",
     "/service-areas/dallas-tx/burst-pipe-repair/",
     "/service-areas/desoto-tx/burst-pipe-repair/",
-    "/service-areas/duncanville-tx/burst-pipe-repair/",
     "/service-areas/grand-prairie-tx/burst-pipe-repair/"
   ],
   "/services/sewage-cleanup/": [
@@ -104,7 +99,6 @@
     "/service-areas/cedar-hill-tx/sewage-cleanup/",
     "/service-areas/dallas-tx/sewage-cleanup/",
     "/service-areas/desoto-tx/sewage-cleanup/",
-    "/service-areas/duncanville-tx/sewage-cleanup/",
     "/service-areas/grand-prairie-tx/sewage-cleanup/"
   ],
   "/services/fire-damage-restoration/": [
@@ -113,7 +107,6 @@
     "/service-areas/cedar-hill-tx/fire-damage-restoration/",
     "/service-areas/dallas-tx/fire-damage-restoration/",
     "/service-areas/desoto-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
     "/service-areas/grand-prairie-tx/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
@@ -125,7 +118,6 @@
     "/service-areas/cedar-hill-tx/smoke-damage-restoration/",
     "/service-areas/dallas-tx/smoke-damage-restoration/",
     "/service-areas/desoto-tx/smoke-damage-restoration/",
-    "/service-areas/duncanville-tx/smoke-damage-restoration/",
     "/service-areas/grand-prairie-tx/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -136,7 +128,6 @@
     "/service-areas/cedar-hill-tx/mold-remediation/",
     "/service-areas/dallas-tx/mold-remediation/",
     "/service-areas/desoto-tx/mold-remediation/",
-    "/service-areas/duncanville-tx/mold-remediation/",
     "/service-areas/grand-prairie-tx/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
@@ -148,7 +139,6 @@
     "/service-areas/cedar-hill-tx/storm-damage-restoration/",
     "/service-areas/dallas-tx/storm-damage-restoration/",
     "/service-areas/desoto-tx/storm-damage-restoration/",
-    "/service-areas/duncanville-tx/storm-damage-restoration/",
     "/service-areas/grand-prairie-tx/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
@@ -158,7 +148,6 @@
     "/service-areas/cedar-hill-tx/reconstruction/",
     "/service-areas/dallas-tx/reconstruction/",
     "/service-areas/desoto-tx/reconstruction/",
-    "/service-areas/duncanville-tx/reconstruction/",
     "/service-areas/grand-prairie-tx/reconstruction/"
   ],
   "/services/home-remodeling/": [
@@ -167,7 +156,6 @@
     "/service-areas/cedar-hill-tx/home-remodeling/",
     "/service-areas/dallas-tx/home-remodeling/",
     "/service-areas/desoto-tx/home-remodeling/",
-    "/service-areas/duncanville-tx/home-remodeling/",
     "/service-areas/grand-prairie-tx/home-remodeling/",
     "/services/general-contracting/"
   ],
@@ -177,27 +165,8 @@
     "/service-areas/cedar-hill-tx/general-contracting/",
     "/service-areas/dallas-tx/general-contracting/",
     "/service-areas/desoto-tx/general-contracting/",
-    "/service-areas/duncanville-tx/general-contracting/",
     "/service-areas/grand-prairie-tx/general-contracting/",
     "/services/home-remodeling/"
-  ],
-  "/service-areas/duncanville-tx/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/duncanville-tx/mold-remediation/",
-    "/service-areas/duncanville-tx/water-damage-restoration/",
-    "/service-areas/duncanville-tx/flood-damage-restoration/",
-    "/service-areas/duncanville-tx/reconstruction/",
-    "/service-areas/duncanville-tx/sewage-cleanup/",
-    "/service-areas/duncanville-tx/smoke-damage-restoration/",
-    "/service-areas/duncanville-tx/storm-damage-restoration/",
-    "/service-areas/duncanville-tx/burst-pipe-repair/",
-    "/service-areas/duncanville-tx/general-contracting/",
-    "/service-areas/cedar-hill-tx/",
-    "/service-areas/dallas-tx/",
-    "/service-areas/desoto-tx/"
   ],
   "/service-areas/dallas-tx/": [
     "/service-areas/",
@@ -213,7 +182,6 @@
     "/service-areas/dallas-tx/storm-damage-restoration/",
     "/service-areas/dallas-tx/burst-pipe-repair/",
     "/service-areas/dallas-tx/general-contracting/",
-    "/service-areas/duncanville-tx/",
     "/service-areas/cedar-hill-tx/",
     "/service-areas/desoto-tx/"
   ],
@@ -231,7 +199,6 @@
     "/service-areas/grand-prairie-tx/storm-damage-restoration/",
     "/service-areas/grand-prairie-tx/burst-pipe-repair/",
     "/service-areas/grand-prairie-tx/general-contracting/",
-    "/service-areas/duncanville-tx/",
     "/service-areas/cedar-hill-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -249,7 +216,6 @@
     "/service-areas/desoto-tx/storm-damage-restoration/",
     "/service-areas/desoto-tx/burst-pipe-repair/",
     "/service-areas/desoto-tx/general-contracting/",
-    "/service-areas/duncanville-tx/",
     "/service-areas/cedar-hill-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -267,108 +233,8 @@
     "/service-areas/cedar-hill-tx/storm-damage-restoration/",
     "/service-areas/cedar-hill-tx/burst-pipe-repair/",
     "/service-areas/cedar-hill-tx/general-contracting/",
-    "/service-areas/duncanville-tx/",
     "/service-areas/dallas-tx/",
     "/service-areas/desoto-tx/"
-  ],
-  "/service-areas/duncanville-tx/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/cedar-hill-tx/water-damage-restoration/",
-    "/service-areas/dallas-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/duncanville-tx/flood-damage-restoration/": [
-    "/services/flood-damage-restoration/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/cedar-hill-tx/flood-damage-restoration/",
-    "/service-areas/dallas-tx/flood-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/duncanville-tx/burst-pipe-repair/": [
-    "/services/burst-pipe-repair/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/cedar-hill-tx/burst-pipe-repair/",
-    "/service-areas/dallas-tx/burst-pipe-repair/",
-    "/contact/"
-  ],
-  "/service-areas/duncanville-tx/sewage-cleanup/": [
-    "/services/sewage-cleanup/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/cedar-hill-tx/sewage-cleanup/",
-    "/service-areas/dallas-tx/sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/duncanville-tx/fire-damage-restoration/": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/duncanville-tx/mold-remediation/",
-    "/service-areas/cedar-hill-tx/fire-damage-restoration/",
-    "/service-areas/dallas-tx/fire-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/duncanville-tx/smoke-damage-restoration/": [
-    "/services/smoke-damage-restoration/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/cedar-hill-tx/smoke-damage-restoration/",
-    "/service-areas/dallas-tx/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/duncanville-tx/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/cedar-hill-tx/mold-remediation/",
-    "/service-areas/dallas-tx/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/duncanville-tx/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/cedar-hill-tx/storm-damage-restoration/",
-    "/service-areas/dallas-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/duncanville-tx/reconstruction/": [
-    "/services/reconstruction/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/cedar-hill-tx/reconstruction/",
-    "/service-areas/dallas-tx/reconstruction/",
-    "/contact/"
-  ],
-  "/service-areas/duncanville-tx/home-remodeling/": [
-    "/services/home-remodeling/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/mold-remediation/",
-    "/service-areas/cedar-hill-tx/home-remodeling/",
-    "/service-areas/dallas-tx/home-remodeling/",
-    "/contact/"
-  ],
-  "/service-areas/duncanville-tx/general-contracting/": [
-    "/services/general-contracting/",
-    "/service-areas/duncanville-tx/",
-    "/service-areas/duncanville-tx/fire-damage-restoration/",
-    "/service-areas/duncanville-tx/home-remodeling/",
-    "/service-areas/cedar-hill-tx/general-contracting/",
-    "/service-areas/dallas-tx/general-contracting/",
-    "/contact/"
   ],
   "/service-areas/dallas-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
