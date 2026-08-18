@@ -11,8 +11,6 @@ This file is intended for AI assistants and language models to efficiently inges
 ### Core service pages
 - [Emergency Plumbing](https://rtolsonplumbing.com/services/emergency-plumbing/)
 - [Leak Detection](https://rtolsonplumbing.com/services/leak-detection/)
-<<<<<<< HEAD
-=======
 - [Drain Cleaning](https://rtolsonplumbing.com/services/drain-cleaning/)
 - [Water Heater Repair](https://rtolsonplumbing.com/services/water-heater-repair/)
 - [Water Heater Installation and Replacement](https://rtolsonplumbing.com/services/water-heater-installation/)
@@ -22,7 +20,6 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Air Conditioning Repair](https://rtolsonplumbing.com/services/ac-repair/)
 - [Furnace Repair](https://rtolsonplumbing.com/services/furnace-repair/)
 - [Indoor Air Quality Services](https://rtolsonplumbing.com/services/indoor-air-quality/)
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
 
 ### Service area pages
 - [Corona, CA](https://rtolsonplumbing.com/service-areas/corona-ca/)

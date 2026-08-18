@@ -1033,9 +1033,16 @@ def apply_real_photos(slug: str, *, dry_run: bool = False,
         fname, ratio = targets[slot]
         dest = img_dir / fname
         prev = m["slots"].get(slot) or {}
-        if prev.get("asset") and not force:
+        if prev.get("asset") and not force and dest.exists():
+            # "already applied" counts ONLY when the file is really on disk
+            # (2026-08-19, rt-olson: the manifest said hero/team/services were
+            # filled while public/images/ had none of them — every later run
+            # skipped on the manifest's word and the site shipped a 404 hero).
             skipped.append(f"{slot}=real:{prev['asset']} (already)")
             continue
+        if prev.get("asset") and not dest.exists():
+            print(f"    {slot}: manifest says applied but {fname} is missing "
+                  "on disk — re-applying")
         got = pick(m, slot, used=used)
         if only_missing and dest.exists():
             if got:

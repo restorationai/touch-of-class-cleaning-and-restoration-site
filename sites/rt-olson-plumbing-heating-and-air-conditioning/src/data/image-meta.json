@@ -1,7 +1,22 @@
-<<<<<<< HEAD
-{}
-=======
 {
+  "/images/hero-bg.webp": {
+    "width": 2000,
+    "height": 1125,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services.webp": {
+    "width": 1512,
+    "height": 1008,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/ac-repair.webp": {
     "width": 1376,
     "height": 768,
@@ -100,6 +115,14 @@
       768,
       1200
     ]
+  },
+  "/images/team.webp": {
+    "width": 2000,
+    "height": 1333,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
   }
 }
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
