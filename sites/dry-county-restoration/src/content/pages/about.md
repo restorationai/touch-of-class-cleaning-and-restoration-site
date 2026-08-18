@@ -1,5 +1,6 @@
 ---
 archetype: "about"
+hero: "/images/about.webp"
 title: "About Dry County Restoration | Corona Restoration Company"
 h1: "About Dry County Restoration"
 meta_description: "Dry County Restoration has served Corona since 2020. Meet our IICRC-certified restoration team. Licensed, insured, locally owned."
