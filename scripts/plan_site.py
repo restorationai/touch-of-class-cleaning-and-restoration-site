@@ -402,10 +402,20 @@ def expand_ia(template: Template, inputs: dict) -> list[Page]:
                 vars={"service": service},
             ))
 
-    # Service area pages
+    # Service area pages — NEVER for the primary (home) city. The home page
+    # already targets "restoration services in {primary_city}" and every main
+    # service page targets "{service} in {primary_city}", so a home-city area
+    # page and its cross-product children compete with our own money pages
+    # for identical searches (found fleet-wide 2026-08-18; live sites were
+    # migrated with 301s the same day). Area pages are for the OTHER towns.
+    # The primary area stays in service_areas — schema areaServed, prose and
+    # brand fields still use it — it just never gets pages of its own.
+    def _ring(areas):
+        return [a for a in areas if not a.get("primary")]
+
     arc = template.archetypes.get("service-area")
     if arc:
-        for area in inputs["service_areas"]:
+        for area in _ring(inputs["service_areas"]):
             ctx = _resolved_ctx(inputs, area=area)
             pages.append(Page(
                 url_path=render(arc["path_pattern"], ctx),
@@ -413,11 +423,11 @@ def expand_ia(template: Template, inputs: dict) -> list[Page]:
                 vars={"area": area},
             ))
 
-    # Cross-product service-area-service pages
+    # Cross-product service-area-service pages (home city skipped, same rule)
     if inputs.get("cross_product"):
         arc = template.archetypes.get("service-area-service")
         if arc:
-            for area in inputs["service_areas"]:
+            for area in _ring(inputs["service_areas"]):
                 for service in inputs["services"]:
                     ctx = _resolved_ctx(inputs, area=area, service=service)
                     pages.append(Page(

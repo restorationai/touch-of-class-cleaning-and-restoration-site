@@ -10,7 +10,6 @@
     "/services/storm-damage-restoration/",
     "/services/general-contracting/",
     "/services/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/",
     "/service-areas/fate-tx/",
@@ -39,7 +38,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/",
     "/service-areas/fate-tx/",
@@ -182,19 +180,6 @@
     "/service-areas/richardson-tx/contents-restoration/",
     "/service-areas/rockwall-tx/contents-restoration/"
   ],
-  "/service-areas/royse-city-tx/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/royse-city-tx/fire-damage-restoration/",
-    "/service-areas/royse-city-tx/mold-remediation/",
-    "/service-areas/royse-city-tx/water-damage-restoration/",
-    "/service-areas/royse-city-tx/storm-damage-restoration/",
-    "/service-areas/royse-city-tx/general-contracting/",
-    "/service-areas/royse-city-tx/contents-restoration/",
-    "/service-areas/allen-tx/",
-    "/service-areas/dallas-tx/",
-    "/service-areas/fate-tx/"
-  ],
   "/service-areas/rockwall-tx/": [
     "/service-areas/",
     "/contact/",
@@ -204,7 +189,6 @@
     "/service-areas/rockwall-tx/storm-damage-restoration/",
     "/service-areas/rockwall-tx/general-contracting/",
     "/service-areas/rockwall-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -217,7 +201,6 @@
     "/service-areas/fate-tx/storm-damage-restoration/",
     "/service-areas/fate-tx/general-contracting/",
     "/service-areas/fate-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -230,7 +213,6 @@
     "/service-areas/rowlett-tx/storm-damage-restoration/",
     "/service-areas/rowlett-tx/general-contracting/",
     "/service-areas/rowlett-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -243,7 +225,6 @@
     "/service-areas/wylie-tx/storm-damage-restoration/",
     "/service-areas/wylie-tx/general-contracting/",
     "/service-areas/wylie-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -256,7 +237,6 @@
     "/service-areas/garland-tx/storm-damage-restoration/",
     "/service-areas/garland-tx/general-contracting/",
     "/service-areas/garland-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -269,7 +249,6 @@
     "/service-areas/mesquite-tx/storm-damage-restoration/",
     "/service-areas/mesquite-tx/general-contracting/",
     "/service-areas/mesquite-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -282,7 +261,6 @@
     "/service-areas/dallas-tx/storm-damage-restoration/",
     "/service-areas/dallas-tx/general-contracting/",
     "/service-areas/dallas-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/fate-tx/"
   ],
@@ -295,7 +273,6 @@
     "/service-areas/richardson-tx/storm-damage-restoration/",
     "/service-areas/richardson-tx/general-contracting/",
     "/service-areas/richardson-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -308,7 +285,6 @@
     "/service-areas/plano-tx/storm-damage-restoration/",
     "/service-areas/plano-tx/general-contracting/",
     "/service-areas/plano-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -321,7 +297,6 @@
     "/service-areas/allen-tx/storm-damage-restoration/",
     "/service-areas/allen-tx/general-contracting/",
     "/service-areas/allen-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/dallas-tx/",
     "/service-areas/fate-tx/"
   ],
@@ -334,7 +309,6 @@
     "/service-areas/mckinney-tx/storm-damage-restoration/",
     "/service-areas/mckinney-tx/general-contracting/",
     "/service-areas/mckinney-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -347,7 +321,6 @@
     "/service-areas/frisco-tx/storm-damage-restoration/",
     "/service-areas/frisco-tx/general-contracting/",
     "/service-areas/frisco-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -360,7 +333,6 @@
     "/service-areas/highland-park-tx/storm-damage-restoration/",
     "/service-areas/highland-park-tx/general-contracting/",
     "/service-areas/highland-park-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -373,7 +345,6 @@
     "/service-areas/university-park-tx/storm-damage-restoration/",
     "/service-areas/university-park-tx/general-contracting/",
     "/service-areas/university-park-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -386,7 +357,6 @@
     "/service-areas/greenville-tx/storm-damage-restoration/",
     "/service-areas/greenville-tx/general-contracting/",
     "/service-areas/greenville-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
   ],
@@ -399,63 +369,8 @@
     "/service-areas/terrell-tx/storm-damage-restoration/",
     "/service-areas/terrell-tx/general-contracting/",
     "/service-areas/terrell-tx/contents-restoration/",
-    "/service-areas/royse-city-tx/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/"
-  ],
-  "/service-areas/royse-city-tx/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/royse-city-tx/",
-    "/service-areas/royse-city-tx/fire-damage-restoration/",
-    "/service-areas/royse-city-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-damage-restoration/",
-    "/service-areas/dallas-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/royse-city-tx/fire-damage-restoration/": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/royse-city-tx/",
-    "/service-areas/royse-city-tx/mold-remediation/",
-    "/service-areas/royse-city-tx/water-damage-restoration/",
-    "/service-areas/allen-tx/fire-damage-restoration/",
-    "/service-areas/dallas-tx/fire-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/royse-city-tx/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/royse-city-tx/",
-    "/service-areas/royse-city-tx/fire-damage-restoration/",
-    "/service-areas/royse-city-tx/water-damage-restoration/",
-    "/service-areas/allen-tx/mold-remediation/",
-    "/service-areas/dallas-tx/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/royse-city-tx/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/royse-city-tx/",
-    "/service-areas/royse-city-tx/fire-damage-restoration/",
-    "/service-areas/royse-city-tx/mold-remediation/",
-    "/service-areas/allen-tx/storm-damage-restoration/",
-    "/service-areas/dallas-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/royse-city-tx/general-contracting/": [
-    "/services/general-contracting/",
-    "/service-areas/royse-city-tx/",
-    "/service-areas/royse-city-tx/fire-damage-restoration/",
-    "/service-areas/royse-city-tx/mold-remediation/",
-    "/service-areas/allen-tx/general-contracting/",
-    "/service-areas/dallas-tx/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/royse-city-tx/contents-restoration/": [
-    "/services/contents-restoration/",
-    "/service-areas/royse-city-tx/",
-    "/service-areas/royse-city-tx/fire-damage-restoration/",
-    "/service-areas/royse-city-tx/mold-remediation/",
-    "/service-areas/allen-tx/contents-restoration/",
-    "/service-areas/dallas-tx/contents-restoration/",
-    "/contact/"
   ],
   "/service-areas/rockwall-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
