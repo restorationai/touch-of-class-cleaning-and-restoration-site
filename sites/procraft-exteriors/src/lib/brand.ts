@@ -45,7 +45,7 @@ export const brand = {
   certifications: [] as string[],
   trustBadges: ["Licensed & Insured", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://www.yelp.com/biz/procraft-exteriors-chesterfield-2", "https://www.bbb.org/us/mo/chesterfield/profile/construction-services/procraft-exteriors-inc-0734-310353511", "https://nextdoor.com/pages/procraft-exteriors-chesterfield-mo/", "https://pro.porch.com/chesterfield-mo/roofers/procraft-exteriors-164614069/pp"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",
