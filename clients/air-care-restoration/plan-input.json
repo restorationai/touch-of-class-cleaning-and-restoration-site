@@ -20,6 +20,9 @@
   ],
   "hours": "24/7",
   "licensed_insured_attested": true,
+  "license_numbers": ["MRC2262"],
+  "license_type": "Texas Mold Remediation Contractor License",
+  "license_authority": "Texas Department of Licensing and Regulation",
   "founded_year": "2026",
   "trust_badges": [
    "IICRC Certified Firm",

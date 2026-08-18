@@ -33,6 +33,8 @@ The **EPA Lead-Safe Certification** is a federal requirement, not a marketing ba
 
 We are also **OSHA trained**, which governs how our crews handle hazardous materials, confined spaces, and jobsite safety — relevant on any biohazard or structural loss.
 
+Air Care Restoration is a **Texas Licensed Mold Company**, holding a Texas Mold Remediation Contractor License (MRC2262) issued by the Texas Department of Licensing and Regulation. Mold remediation in Texas is a state-regulated activity, and that license is one you can verify directly with the state.
+
 ## Where we work
 
 Our home base is Abilene, and we serve the surrounding West Texas region — including communities across Taylor, Jones, Callahan, and Nolan counties. The area's climate runs hot and dry most of the year, which can mask moisture problems until they've had time to develop, and the periodic severe storms that move through the Permian Basin and Rolling Plains can cause sudden, significant water intrusion. We know the construction patterns, the soil conditions, and the permitting landscape here — which matters when a job involves structural assessment or reconstruction alongside remediation.

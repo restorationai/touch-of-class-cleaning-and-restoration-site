@@ -34,11 +34,11 @@ export const brand = {
   ga4MeasurementId: "",
   clarityProjectId: "",
   logoUrl: "/images/logo.png",
-  licenseNumbers: [] as string[],
-  licenseAuthority: "",
+  licenseNumbers: ["MRC2262"] as string[],
+  licenseAuthority: "Texas Department of Licensing and Regulation",
   // State license-verification page — the footer links the license number here.
-  licenseLookupUrl: "",
-  licenseType: "",
+  licenseLookupUrl: "https://www.tdlr.texas.gov/LicenseSearch/",
+  licenseType: "Texas Mold Remediation Contractor License",
   // Operator-confirmed "licensed & insured" attestation from plan-input.json —
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: true as boolean,
