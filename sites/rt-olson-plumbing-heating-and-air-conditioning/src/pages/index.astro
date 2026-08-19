@@ -12,6 +12,7 @@ import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
 import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
 import RecentWork from "~/components/RecentWork.astro";
+import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import ProudlyServing from "~/components/ui/ProudlyServing.astro";
 import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
@@ -46,6 +47,11 @@ const services = (allServices as CollectionEntry<"services">[])
       R2 at brand/hero-fleet.webp and referenced via brand.imagesBase — or
       dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
   <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" />
+
+  {/* Top-of-page lead form (Bobby Olson, 2026-08-18 call): "missing top-of-page
+      lead form … needs completion and conversion optimization." Reuses the
+      site's tested FreeEstimateForm as the first content section under the hero. */}
+  <FreeEstimateForm heading="Request Your Free Estimate" />
 
   <TrustStrip />
 
