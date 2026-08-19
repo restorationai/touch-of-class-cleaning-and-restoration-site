@@ -784,6 +784,18 @@ def close_satisfied_intake_items(cid: str, slug: str, dry_run: bool) -> list[str
     if not items:
         return out
 
+    # Branded-site check (Kyle/Crew 2026-08-16: Monica asked for a brand kit
+    # while the client's fully branded site was already live on staging — a
+    # rendered site IS the answer to brand-preference questions).
+    site_rows = _sb("GET", "/rest/v1/marketing_sites"
+                    f"?rank_ai_slug=eq.{slug}"
+                    "&select=build_status,apex_live",
+                    prefer="return=representation") or []
+    site_branded = bool(site_rows and (
+        site_rows[0].get("apex_live")
+        or str(site_rows[0].get("build_status") or "") in
+        ("content_rendered", "pushed_staging", "pushed_main")))
+
     photos = _branding_files(cid, "job-photos") + _branding_files(cid, "job-photos/posted")
     gbp_photos = len([f for f in photos if re.sub(r"^r\d+_", "", f["name"]).startswith("gbp-")])
     logos = [f for f in _branding_files(cid, "brand") if "logo" in f["name"].lower()]
@@ -795,6 +807,12 @@ def close_satisfied_intake_items(cid: str, slug: str, dry_run: bool) -> list[str
         why = None
         if "logo" in q and logos:
             why = f"we already hold {len(logos)} logo file(s) in storage"
+        elif (site_branded and logos and re.search(
+                r"brand (guide|kit|book|colors|colour|preference)"
+                r"|brand identity|font", q)):
+            why = ("their branded site is already built from the logo and "
+                   "brand assets on file — the site answers the question; "
+                   "specific tweaks arrive as feedback, not intake")
         elif "job photos" in q and gbp_photos >= MIN_GBP_PHOTOS:
             why = (f"their Google profile already has {gbp_photos} photos "
                    f"(threshold {MIN_GBP_PHOTOS})")
