@@ -720,15 +720,25 @@ def _blockers(co: dict, slug: str | None, site: dict | None, stage: str,
         # build_status still is not a finished state. Repeats in every
         # digest until a human or a dispatched site-build clears it.
         _bs = (site or {}).get("build_status") or "pending"
-        if dwell >= 2 and _bs not in ("content_rendered", "pushed_staging",
-                                      "pushed_main"):
+        _started = False
+        if slug:
+            try:
+                _started = bool((json.loads(
+                    (CLIENTS_DIR / f"{slug}.json").read_text())
+                    .get("build") or {}).get("scaffolded_at"))
+            except (OSError, json.JSONDecodeError):
+                _started = False
+        # started-but-unfinished only: a client merely QUEUED behind the
+        # auto-build cap has no scaffolded_at and must not nag as a stall
+        if _started and dwell >= 2 and _bs not in (
+                "content_rendered", "pushed_staging", "pushed_main"):
             out.append((
-                f"MID-BUILD STALL: {dwell}d in 'building' and build_status "
-                f"is still '{_bs}' — a build looping or dead (rt-olson "
-                "class: nightly re-scaffolds refresh every client-record "
-                "timestamp, but this dwell clock only resets on a real "
-                "stage change); dispatch site-build or investigate",
-                "needs-human"))
+                f"MID-BUILD STALL: build started, {dwell}d in 'building', "
+                f"build_status still '{_bs}' — a build looping or dead "
+                "(rt-olson class: nightly re-scaffolds refresh every "
+                "client-record timestamp, but this dwell clock only resets "
+                "on a real stage change); dispatch site-build or "
+                "investigate", "Santino"))
 
     elif stage in ("preview", "staging"):
         ask_exists, signed = _preview_ask(cid)

@@ -49,6 +49,19 @@ def repo_busy(root) -> str | None:
 def safe_sync(root, actor: str = "automation") -> bool:
     """Pull-rebase-push the monorepo ONLY when it is safe. Returns True when
     the push happened. Never raises; never leaves conflict state behind."""
+    try:
+        return _safe_sync(root, actor)
+    except Exception as e:  # noqa: BLE001 — a guard must never crash a caller
+        try:
+            _run(["git", "rebase", "--abort"], root)
+        except Exception:  # noqa: BLE001
+            pass
+        print(f"  [{actor}] repo sync errored (non-fatal, next run retries): "
+              f"{str(e)[:160]}")
+        return False
+
+
+def _safe_sync(root, actor: str) -> bool:
     busy = repo_busy(root)
     if busy:
         print(f"  [{actor}] repo sync SKIPPED: {busy} — not touching it")
