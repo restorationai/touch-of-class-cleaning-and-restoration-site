@@ -1756,6 +1756,22 @@ def cmd_scaffold(args) -> int:
         n = apply_light_overlay(site_dir)
         print(f"      light theme: {n} overlay file(s) applied")
 
+    # VERTICAL RENDER PROMPTS (2026-08-19, the rt-olson lesson: a plumbing
+    # site scaffolded with restoration prompts — the model wrote 124 clean
+    # plumbing pages anyway but refused the services hub outright). When
+    # templates/{vertical}/prompts/render/ exists, its briefs OVERLAY the
+    # starter's restoration set. The vertical dir is canonical: it also
+    # overwrites per-site copies on re-scaffold, so prompt fixes graduate
+    # into the template instead of living as site-local patches.
+    vertical = str(client.get("vertical") or "restoration").lower()
+    vdir = TEMPLATES_DIR / vertical / "prompts" / "render"
+    if vdir.is_dir():
+        vn = 0
+        for f in vdir.glob("*.md"):
+            shutil.copy2(f, site_dir / "prompts" / f.name)
+            vn += 1
+        print(f"      vertical prompts ({vertical}): {vn} brief(s) overlaid")
+
     # Client's uploaded logo from the branding bucket (Air Care 2026-08-14:
     # the ledger's nightly pass pulls these, the scaffold did not — every
     # build whose client had already uploaded a logo got hand-fixed). Same
