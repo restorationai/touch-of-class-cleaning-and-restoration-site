@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-08-19T14:01:20Z",
+  "cursor": "2026-08-19T14:33:04Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -131,7 +131,11 @@
     "4ebf5d8c-aee7-4d76-8cef-d989e2de04a7:approved",
     "41c88a04-e75e-4fb5-b97c-431226a47c59:approved",
     "d9b1727c-844f-43e9-8a72-9b38969f2eab:approved",
-    "4f9d2274-e945-473b-9e08-30fba4281851:resolved"
+    "4f9d2274-e945-473b-9e08-30fba4281851:resolved",
+    "4702954c-bcc0-430e-a564-ca0e047f670f:approved",
+    "d0bcf407-5bc0-48d5-bfe4-5b8599c146cd:approved",
+    "8acdd50b-f4cf-40df-82d4-fbde1de87c12:approved",
+    "b5ca006b-29bb-4444-bf8b-1a11022135dd:approved"
   ],
-  "last_run_at": "2026-08-19T14:01:20.359855+00:00"
+  "last_run_at": "2026-08-19T14:33:04.103829+00:00"
 }
