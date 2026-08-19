@@ -187,7 +187,20 @@ TOPICS = {
 }
 
 
-def ai_draft(slug, topic="services"):
+def _live_base(slug):
+    """https://{domain} when the site is LIVE on its apex, else None.
+    Deep links must never point at a parked/legacy domain (pre-cutover the
+    GBP websiteUri is the safe default)."""
+    try:
+        rows = gbp._sb(f"marketing_sites?rank_ai_slug=eq.{slug}"
+                       "&apex_live=eq.true&select=domain") or []
+        dom = (rows[0].get("domain") or "").strip() if rows else ""
+        return f"https://{dom}" if dom else None
+    except Exception:
+        return None
+
+
+def ai_draft(slug, topic="services", service=None):
     rec = json.loads((ROOT / "clients" / f"{slug}.json").read_text())
     brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
     city = rec.get("plan", {}).get("primary_city") or brand.get("primary_city", "")
@@ -201,7 +214,10 @@ def ai_draft(slug, topic="services"):
               f"It is currently {month}. The company is in {city}, {state} - any seasonal or regional "
               "framing MUST match that month and that region (no winter/freeze content in July, no "
               "wrong-region weather like 'Mid-Atlantic' for a Pacific Northwest company).")
-    user = (f"Company: {name} ({city}, {state}). {TOPICS.get(topic, TOPICS['services'])} "
+    focus = (f"Spotlight this ONE service and why local homeowners call them "
+             f"for it: {service}." if service
+             else TOPICS.get(topic, TOPICS['services']))
+    user = (f"Company: {name} ({city}, {state}). {focus} "
             f"Services: {', '.join((rec.get('plan',{}) or {}).get('services', [])[:8]) or 'water/fire/mold restoration'}.")
     r = requests.post(ANTHROPIC_API, headers={
         "x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
@@ -246,9 +262,40 @@ def main():
         for slug in slugs:
             try:
                 topic = random.choice(list(TOPICS))
-                s = ai_draft(slug, topic)
-                print(f"== {slug} ({topic}) ==")
-                create_local_post(slug, s, dry_run=a.dry_run,
+                service = None
+                cta_url = None
+                if topic == "services":
+                    # DEEP LINK (2026-08-19, video-adoption batch): a post that
+                    # spotlights a service links THAT service's page, never the
+                    # homepage — but only once the site is live on its apex,
+                    # and only after the URL answers 200 (FireDEX dead-link
+                    # lesson: nothing of ours ships unfetched).
+                    svcs = []
+                    for cand in (ROOT / "clients" / slug / "plan" / "plan-input.json",
+                                 ROOT / "clients" / slug / "plan-input.json"):
+                        try:
+                            raw = json.loads(cand.read_text()).get("services") or []
+                            svcs = [x.get("slug") if isinstance(x, dict) else str(x)
+                                    for x in raw]
+                            if svcs:
+                                break
+                        except (OSError, json.JSONDecodeError):
+                            continue
+                    base = _live_base(slug)
+                    if svcs and base:
+                        svc_slug = random.choice(svcs)
+                        candidate = f"{base}/services/{svc_slug}/"
+                        try:
+                            ok = requests.get(candidate, timeout=15).status_code == 200
+                        except requests.RequestException:
+                            ok = False
+                        if ok:
+                            service = svc_slug.replace("-", " ")
+                            cta_url = candidate
+                s = ai_draft(slug, topic, service=service)
+                print(f"== {slug} ({topic}"
+                      + (f" -> {cta_url}" if cta_url else "") + ") ==")
+                create_local_post(slug, s, cta_url=cta_url, dry_run=a.dry_run,
                                   topic=topic, source="rank-ai-cron")
             except SystemExit as e:
                 print(f"  {slug}: skip — {e}")
