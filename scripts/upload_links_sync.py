@@ -84,6 +84,44 @@ def main() -> int:
         bulk.append({"key": slug, "value": json.dumps(v)})
     d = cf("PUT", f"/accounts/{ACCT}/storage/kv/namespaces/{ns}/bulk", bulk)
     print(f"synced {len(bulk)} upload links to KV | success: {d.get('success')}")
+
+    # SELF-HOSTED REVIEW QR (2026-08-19, build queue #11): pre-generate each
+    # client's QR PNG into the public branding bucket; the hub serves it with
+    # the third-party generator only as an onerror fallback. Idempotent:
+    # skips clients whose PNG already exists.
+    try:
+        import io
+        import segno
+        import requests as _rq
+        sb = (os.environ.get("SUPABASE_URL") or "").rstrip("/")
+        sk = (os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+              or os.environ.get("SUPABASE_SERVICE_KEY"))
+        if sb and sk:
+            hdr = {"apikey": sk, "Authorization": f"Bearer {sk}"}
+            made = 0
+            for slug, cid in m.items():
+                ru = review_url(slug)
+                if not ru:
+                    continue
+                path = f"{cid}/brand/review-qr.png"
+                head = _rq.get(f"{sb}/storage/v1/object/public/branding/{path}",
+                               timeout=15)
+                if head.status_code == 200:
+                    continue
+                buf = io.BytesIO()
+                segno.make(ru, error="m").save(buf, kind="png", scale=14,
+                                               border=2)
+                up = _rq.post(f"{sb}/storage/v1/object/branding/{path}",
+                              headers={**hdr, "Content-Type": "image/png",
+                                       "x-upsert": "true"},
+                              data=buf.getvalue(), timeout=30)
+                if up.ok:
+                    made += 1
+            if made:
+                print(f"generated {made} self-hosted review QR code(s)")
+    except ImportError:
+        print("segno not installed — QR pre-generation skipped (hub falls "
+              "back to qrserver)")
     for slug in m:
         print(f"  hub: https://restorationai.io/hub/{slug}/{hub_token(slug)}")
     return 0

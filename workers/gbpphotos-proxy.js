@@ -35,9 +35,16 @@ const esc = (s) => String(s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&
 function hubPage(slug, token, client) {
   const name = esc(client.name);
   const reviewUrl = client.review_url || "";
-  const qrImg = reviewUrl
+  // SELF-HOSTED QR (2026-08-19, build queue #11): pre-generated per client
+  // into the public branding bucket (scripts in upload_links_sync + one-time
+  // fleet run). The third-party qrserver stays ONLY as an onerror fallback
+  // for clients whose PNG has not been generated yet.
+  const qrFallback = reviewUrl
     ? `https://api.qrserver.com/v1/create-qr-code/?size=560x560&margin=2&data=${encodeURIComponent(reviewUrl)}`
     : "";
+  const qrImg = reviewUrl && client.cid
+    ? `${SB_URL}/storage/v1/object/public/branding/${client.cid}/brand/review-qr.png`
+    : qrFallback;
   return `<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
 <title>${name} — Crew Hub</title>
@@ -73,7 +80,7 @@ ${reviewUrl ? `<button class="tile" onclick="document.getElementById('qr').class
 <button class="tile" onclick="document.getElementById('js').classList.add('open')"><span class="ic">📝</span>Add a Job Story<small>Tell us about a job you just finished, we turn it into a website story</small></button>
 <div id="qr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Scan to leave us a review</div>
-${qrImg ? `<img src="${qrImg}" alt="Review QR code">` : ""}
+${qrImg ? `<img src="${qrImg}" alt="Review QR code" onerror="this.onerror=null;this.src='${qrFallback}'">` : ""}
 <div class="qrsub">Opens our Google review page — takes about 20 seconds</div>
 <div class="qrsub" style="margin-top:6px;font-weight:600;color:#334155">If you can, mention the service we did and your city. It helps another neighbor find us.</div></div>
 <div id="rr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
