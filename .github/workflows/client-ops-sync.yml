@@ -262,3 +262,9 @@ jobs:
           python3 scripts/notify_failure.py \
             --subject "[Rank AI] CI failure: Client Ops Sync run #${{ github.run_number }}" \
             --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
+
+      - name: Cron heartbeat (pg_cron pulse + latest-run status)
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scripts/cron_heartbeat.py || echo "heartbeat errored (non-fatal)"
