@@ -68,6 +68,21 @@ jobs:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: python3 scripts/client_report.py portfolio --send
 
+      - name: Wrong-page ranks check (queries stuck on home/blog + unserved-area demand)
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GSC_AGENCY_TOKEN:          ${{ secrets.GSC_AGENCY_TOKEN }}
+        run: |
+          # token-on-disk contract shared with client-ops-sync's GSC steps
+          if [ -n "$GSC_AGENCY_TOKEN" ]; then
+            printf '%s' "$GSC_AGENCY_TOKEN" > .gsc-agency-token.json
+            python3 scripts/wrong_page_ranks.py --all --notes || echo "wrong-page-ranks errored (non-fatal)"
+            rm -f .gsc-agency-token.json
+          else
+            echo "GSC_AGENCY_TOKEN secret missing — skipped"
+          fi
+
       - name: Send per-client reports (only for clients with report_email_enabled=true)
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
