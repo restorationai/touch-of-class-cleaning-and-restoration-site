@@ -15,17 +15,17 @@ lives in docs/seo-videos-gap-analysis-2026-08.md; current position in docs/WORKI
    real photos before generating; auto-redact text/phone from livery references.
 4. **Billing-alert escalation** — vendor "payment failed/suspended" emails ping Santino
    same-hour (pending his yes; born from the Twilio suspension).
-5. **Scheduler heartbeat** — silence-watchdog checks the pg_cron pulse directly.
+5. ~~Scheduler heartbeat~~ DONE 08-19 (found+retired a zombie billing job) — silence-watchdog checks the pg_cron pulse directly.
 6. **SMS exact-cost billing** — Twilio true per-text prices onto invoices (no n8n).
 7. **Reviews tab editor** — view/edit each client's four campaign messages in-app.
 8. **Services as Products** — browser agent adds product tiles to GBPs (no API exists);
    supervised runs.
 9. **Post-meeting recap messenger** — auto recaps after sales/kickoff calls.
-10. **Citations record cleanup** — purge wrong-business audit entries.
-11. **Self-hosted QR codes** — replace the api.qrserver.com dependency.
+10. ~~Citations record cleanup~~ DONE 08-19 (1 flagged wrong_business) — purge wrong-business audit entries.
+11. ~~Self-hosted QR codes~~ DONE 08-19 — replace the api.qrserver.com dependency.
 12. **Access verification pass** — verify client-claimed domain access before green chips
     (Life Savers "ns_live" is stale/wrong) + same-day GoDaddy invite-acceptance alerts.
-13. **Intake auto-satisfy rule** — live branded site closes brand-kit intake questions
+13. ~~Intake auto-satisfy rule~~ DONE 08-19 (brand-kit rule; 5 closed) — live branded site closes brand-kit intake questions
     (the Kyle case).
 14. **Multi-location profile creator** — Sioux City listing (waits on Iowa DBA approval +
     Kyle's name decision; registry watcher runs nightly).
@@ -36,14 +36,14 @@ lives in docs/seo-videos-gap-analysis-2026-08.md; current position in docs/WORKI
 
 ## Added during the Bobby Olson arc (08-18/19)
 
-18. **Job Stories before/after photo fields** on the hub form (promised to Bobby).
+18. ~~Job Stories before/after photo fields~~ DONE 08-19 on the hub form (promised to Bobby).
 19. **Bing/citations creation for post-08-09 clients** (RT Olson + Dry County missed by
     the nightly sweep — find out why, then run them).
 20. **Repo lock** — local crons must not run git operations while a session is working
     (the orphaned-commits/merge-marker incident).
 21. **Scaffold guard** — never overwrite rendered:true content files (long-standing
     NaRestCo gotcha, hit again on RT Olson).
-22. **Plumbing template completion** — port proper render prompts (_system + archetype
+22. ~~Plumbing template completion~~ DONE 08-19 (render prompts + overlay) — port proper render prompts (_system + archetype
     briefs) into templates/plumbing/ instead of restoration hand-me-downs.
 23. **Review-photo truck composite** for Bobby (awaiting his selfie).
 

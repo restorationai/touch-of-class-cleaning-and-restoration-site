@@ -5,7 +5,39 @@ Deeper context: docs/seo-videos-gap-analysis-2026-08.md (SEO queue),
 docs/bobby-olson-call-plan-2026-08-18.md (Bobby items + statuses),
 docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
 
-## Latest (2026-08-19): safety trilogy SHIPPED, Yelp ON ICE
+## Latest (2026-08-19 second pass): big-two + small batch + paired items SHIPPED
+
+- **Area-page FAQs**: content already existed fleet-wide (1 unrendered page fixed);
+  the real gap was schema wiring — FAQPage now emitted on area pages + areas hubs
+  across 27 template trees, deployed fleet-wide (52 syncs), live-verified (edge-cache
+  purge needed on live zones; narestco needed a second pass — patcher anchor bug).
+- **Wrong-page-ranks monthly check**: scripts/wrong_page_ranks.py on GSC 28d data;
+  WRONG_PAGE / BUILD_GAP / AREA_DEMAND classes (home-city + research-intent aware —
+  first-run classifier flaws fixed by hand-review); 12 clients scanned, 91 findings,
+  reports in clients/{slug}/seo/, deduped ops cards, wired into monthly-reports.yml.
+  Home Pride: 52 area-demand queries = ring-expansion map (Marion/Kamas/Hoytsville UT).
+- **Small batch**: hub QR screen asks reviews to mention service+city (SMS drip
+  untouched per Santino); GBP services-topic posts deep-link the spotlighted service
+  page (live-apex + 200-probe gated); 3rd weekly slot = gbp-posts-midweek.yml (Wed;
+  posts + review responder only; verified via dry-run dispatch); GSC social = UI-only
+  feature -> docs/gsc-social-connections.md click worksheet (18 clients mapped).
+- **Job Stories before/after fields**: live on the hub (verified on Dry County's hub).
+- **Plumbing prompts**: templates/plumbing/prompts/render/ (system + services-hub +
+  service-landing) + vertical-aware scaffold overlay (tested on rt-olson).
+- **Scheduler heartbeat**: public.cron_heartbeat() RPC + scripts/cron_heartbeat.py in
+  client-ops-sync; FIRST RUN CAUGHT billing_monthly_reset failing daily since Jun 10
+  (71 fails, renamed column) — investigated: Stripe webhook owns resets since the June
+  migration, job was a dead duplicate -> UNSCHEDULED, note resolved.
+- **Intake auto-satisfy**: rendered branded site closes brand-kit intake items (Kyle
+  class); 5 stale items closed fleet-wide.
+- **Self-hosted QR**: 21 per-client PNGs in branding bucket; hub serves them
+  (qrserver = onerror fallback only); auto-generation on upload_links_sync.
+- **Citations cleanup**: conservative rule (listing-match false AND no phone match);
+  1 wrong-business entry flagged (flood-fixers houzz), HomeLyft's two kept (phone match).
+- **Bing/Olson**: sweep run early; rt-olson queued for HomeGuide creation; results in
+  the sweep log + browser_agent_actions.
+
+## Previous (2026-08-19): safety trilogy SHIPPED, Yelp ON ICE
 
 - **Pipeline safety trilogy done + reviewed**: (1) scripts/repo_git_guard.py — every
   automation git sync (cutover_execute, content_writer, ads_provision,
