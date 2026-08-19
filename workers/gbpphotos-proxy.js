@@ -74,7 +74,8 @@ ${reviewUrl ? `<button class="tile" onclick="document.getElementById('qr').class
 <div id="qr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Scan to leave us a review</div>
 ${qrImg ? `<img src="${qrImg}" alt="Review QR code">` : ""}
-<div class="qrsub">Opens our Google review page — takes about 20 seconds</div></div>
+<div class="qrsub">Opens our Google review page — takes about 20 seconds</div>
+<div class="qrsub" style="margin-top:6px;font-weight:600;color:#334155">If you can, mention the service we did and your city. It helps another neighbor find us.</div></div>
 <div id="rr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Request a review</div>
 <div class="qrsub">Enter the customer's name and cell — our system takes it from there.</div>
@@ -90,7 +91,8 @@ ${qrImg ? `<img src="${qrImg}" alt="Review QR code">` : ""}
 <input name="city" placeholder="City or neighborhood" required maxlength="120" autocomplete="off">
 <input name="customer" placeholder="Customer first name (optional)" maxlength="60" autocomplete="off">
 <label class="lbl">Rough date of the job<input name="performed_on" type="date"></label>
-<label class="pick">＋ Add photos (optional)<span id="jscount">Job shots from your camera roll</span><input id="jsphotos" type="file" accept="image/*" multiple></label>
+<label class="pick">＋ Before photos (optional)<span id="jscountb">When you arrived, the damage</span><input id="jsbefore" type="file" accept="image/*" multiple></label>
+<label class="pick">＋ After photos (optional)<span id="jscounta">The finished result</span><input id="jsafter" type="file" accept="image/*" multiple></label>
 <button class="btn" type="submit" id="jsbtn">Send job story</button><div class="msg" id="jsmsg"></div></form></div>
 <script>
 document.getElementById('rrf').addEventListener('submit', async (e) => {
@@ -106,13 +108,17 @@ document.getElementById('rrf').addEventListener('submit', async (e) => {
   } catch (err) { m.className='msg err'; m.textContent='Network error, try again.'; }
 });
 // --- Add a Job Story ---
-var jsPhotos = [];
-var jsHint = 'Job shots from your camera roll';
-document.getElementById('jsphotos').addEventListener('change', function (e) {
-  jsPhotos = Array.from(e.target.files || []).filter(function (f) { return f.type.indexOf('image/') === 0; }).slice(0, 8);
-  document.getElementById('jscount').textContent =
-    jsPhotos.length ? jsPhotos.length + ' photo' + (jsPhotos.length > 1 ? 's' : '') + ' ready' : jsHint;
-});
+var jsBefore = [], jsAfter = [];
+function jsPick(inputId, countId, hint, sink) {
+  document.getElementById(inputId).addEventListener('change', function (e) {
+    var got = Array.from(e.target.files || []).filter(function (f) { return f.type.indexOf('image/') === 0; }).slice(0, 8);
+    sink.length = 0; got.forEach(function (f) { sink.push(f); });
+    document.getElementById(countId).textContent =
+      got.length ? got.length + ' photo' + (got.length > 1 ? 's' : '') + ' ready' : hint;
+  });
+}
+jsPick('jsbefore', 'jscountb', 'When you arrived, the damage', jsBefore);
+jsPick('jsafter', 'jscounta', 'The finished result', jsAfter);
 var jsDate = document.querySelector('#jsf [name=performed_on]');
 function jsToday() { return new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10); }
 if (jsDate) jsDate.value = jsToday();
@@ -135,25 +141,35 @@ document.getElementById('jsf').addEventListener('submit', async (e) => {
   e.preventDefault();
   var f = e.target, m = document.getElementById('jsmsg'), b = document.getElementById('jsbtn');
   b.disabled = true; m.className = 'msg';
-  var names = [];
+  var namesBefore = [], namesAfter = [];
   try {
-    for (var i = 0; i < jsPhotos.length; i++) {
-      m.textContent = 'Uploading photo ' + (i + 1) + ' of ' + jsPhotos.length + '...';
-      try {
-        var clean = await jsStrip(jsPhotos[i]);
-        var up = await fetch('/gbpphotos/${slug}?cat=job&note=' + encodeURIComponent('job story: ' + f.city.value.slice(0, 80)),
-          { method: 'POST', headers: { 'Content-Type': 'image/jpeg' }, body: clean });
-        if (up.ok) { var ud = await up.json(); if (ud && ud.path) names.push(String(ud.path).split('/').pop()); }
-      } catch (perr) {}
+    var groups = [[jsBefore, namesBefore, 'before'], [jsAfter, namesAfter, 'after']];
+    var totalN = jsBefore.length + jsAfter.length, doneN = 0;
+    for (var g = 0; g < groups.length; g++) {
+      var files = groups[g][0], sink = groups[g][1], tag = groups[g][2];
+      for (var i = 0; i < files.length; i++) {
+        doneN++;
+        m.textContent = 'Uploading photo ' + doneN + ' of ' + totalN + '...';
+        try {
+          var clean = await jsStrip(files[i]);
+          var up = await fetch('/gbpphotos/${slug}?cat=job&note=' + encodeURIComponent('job story ' + tag + ': ' + f.city.value.slice(0, 80)),
+            { method: 'POST', headers: { 'Content-Type': 'image/jpeg' }, body: clean });
+          if (up.ok) { var ud = await up.json(); if (ud && ud.path) sink.push(String(ud.path).split('/').pop()); }
+        } catch (perr) {}
+      }
     }
     m.textContent = 'Sending your story...';
     var r = await fetch(location.pathname, { method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ action: 'job-story', what: f.what.value, how: f.how.value, city: f.city.value,
-        customer: f.customer.value, performed_on: f.performed_on.value, photos: names }) });
+        customer: f.customer.value, performed_on: f.performed_on.value,
+        photos: namesBefore.concat(namesAfter),
+        photos_before: namesBefore, photos_after: namesAfter }) });
     var d = await r.json();
     if (d.ok) {
       m.className = 'msg ok'; m.textContent = 'Got it! ' + (d.note || 'Story received.');
-      f.reset(); jsPhotos = []; document.getElementById('jscount').textContent = jsHint;
+      f.reset(); jsBefore.length = 0; jsAfter.length = 0;
+      document.getElementById('jscountb').textContent = 'When you arrived, the damage';
+      document.getElementById('jscounta').textContent = 'The finished result';
       if (jsDate) jsDate.value = jsToday();
     } else { m.className = 'msg err'; m.textContent = d.error || 'Something went wrong.'; }
   } catch (err) { m.className = 'msg err'; m.textContent = 'Network error, try again.'; }
@@ -223,12 +239,18 @@ async function handleJobStory(client, slug, body, env) {
   let performedOn = clip(body.performed_on, 10);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(performedOn)) performedOn = new Date().toISOString().slice(0, 10);
   // photo filenames as returned by the /gbpphotos upload path (branding/{cid}/job-photos/)
-  const photos = (Array.isArray(body.photos) ? body.photos : []).slice(0, 12)
+  const cleanNames = (arr) => (Array.isArray(arr) ? arr : []).slice(0, 12)
     .map((p) => String(p).split("/").pop().replace(/[^\w.-]/g, "")).filter(Boolean);
+  const photos = cleanNames(body.photos);
+  // before/after split (2026-08-19, promised to Bobby on the 08-18 call):
+  // site case-study pages + GBP posts can render the two groups separately.
+  const photosBefore = cleanNames(body.photos_before);
+  const photosAfter = cleanNames(body.photos_after);
   const story = {
     what_happened: what, how_fixed: how, city,
     customer_first_name: customer, performed_on: performedOn,
-    photos, submitted_at: new Date().toISOString(),
+    photos, photos_before: photosBefore, photos_after: photosAfter,
+    submitted_at: new Date().toISOString(),
   };
   const note = "[JOB STORY] " + slug + " submitted from the crew hub:\n" +
     JSON.stringify(story, null, 2);
