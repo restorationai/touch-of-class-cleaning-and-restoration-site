@@ -790,13 +790,20 @@ def format_history(history: list[dict]) -> str:
 def human_conversation_deferral(history: list[dict], state: dict) -> str | None:
     """Reason to skip this cycle's nudge, or None.
 
-    If the newest OUTBOUND message in the thread was not sent by the
-    concierge (its id is not in state.sent_message_ids — so a human wrote it
-    or made the call) and it is < HUMAN_DEFER_HOURS old, the concierge stays
-    quiet: never talk over Santino mid-conversation."""
-    ours = sent_message_ids(state)
+    If the newest OUTBOUND message in the thread was written by a REAL HUMAN
+    and it is < HUMAN_DEFER_HOURS old, the concierge stays quiet: never talk
+    over Santino mid-conversation.
+
+    Human detection is the GHL userId (2026-08-19, the Fran incident): every
+    send a person makes from the app carries their user id; Monica's API
+    sends and other automations carry none. The old signal — "id not in
+    state.sent_message_ids" — deferred Monica against HERSELF whenever the
+    ledger missed a send (a state-save race on the kv blob lost her 14:06
+    webhook reply's id, and she then ignored Fran's "How's the website
+    coming" through both afternoon passes while believing a human had the
+    thread). userId cannot have that failure mode."""
     last_out = next((m for m in history if m["direction"] == "out"), None)
-    if not last_out or (last_out["id"] and last_out["id"] in ours):
+    if not last_out or not last_out.get("user_id"):
         return None
     age = datetime.now(timezone.utc) - last_out["when"]
     if age < timedelta(hours=HUMAN_DEFER_HOURS):
@@ -896,7 +903,6 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
       - kind "question": only a newer HUMAN outbound (not one of ours) voids
         it — Santino answered it himself; our own holding ack does not."""
     now = datetime.now(timezone.utc)
-    ours = sent_message_ids(state)
 
     def outbound_after(after: datetime, human_only: bool) -> bool:
         for m in history:
@@ -904,8 +910,9 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
                 continue
             if not human_only:
                 return True
-            if not (m["id"] and m["id"] in ours):
-                return True   # a human (not the concierge) wrote it
+            if m.get("user_id"):
+                return True   # a real human wrote it (GHL userId; Monica's
+                              # API sends carry none — 2026-08-19, Fran)
         return False
 
     def substantive_inbound_after(after: datetime) -> dict | None:
