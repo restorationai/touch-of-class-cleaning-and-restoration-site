@@ -37,8 +37,11 @@ lives in docs/seo-videos-gap-analysis-2026-08.md; current position in docs/WORKI
 ## Added during the Bobby Olson arc (08-18/19)
 
 18. ~~Job Stories before/after photo fields~~ DONE 08-19 on the hub form (promised to Bobby).
-19. **Bing/citations creation for post-08-09 clients** (RT Olson + Dry County missed by
-    the nightly sweep — find out why, then run them).
+19. **Bing/citations for post-08-09 clients** — ROOT CAUSE FOUND 08-19: nightly
+    bing-sync failing since >=08-17 (Bing session expired, "not signed in after sso");
+    BLOCKED on Santino's 2-min re-login (ops card filed). RT Olson HomeGuide profile
+    CREATED 08-19 (review_needed = normal search-index lag, fleet-wide pattern).
+    NEW: browser-agent failure-streak watchdog (3 consecutive playbook failures page).
 20. ~~Repo lock~~ DONE 08-19 (repo_git_guard in all 4 automation sync sites).
 21. ~~Scaffold guard~~ DONE 08-19 (copy_starter preserves product; live-tested).
 22. ~~Plumbing template completion~~ DONE 08-19 (render prompts + overlay) — port proper render prompts (_system + archetype
