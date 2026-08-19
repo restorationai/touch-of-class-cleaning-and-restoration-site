@@ -239,7 +239,7 @@ def main():
     pp.add_argument("--cta-type", default="LEARN_MORE")
     pp.add_argument("--cta-url", default=None)
     pp.add_argument("--dry-run", action="store_true")
-    pd = sub.add_parser("due", help="scheduler: post for due clients (2x/week cadence)")
+    pd = sub.add_parser("due", help="scheduler: post for due clients (3x/week cadence: Mon/Wed/Thu)")
     pd.add_argument("--all", action="store_true")
     pd.add_argument("--slug")
     pd.add_argument("--dry-run", action="store_true")
@@ -258,7 +258,7 @@ def main():
     elif a.cmd == "due":
         slugs = ([a.slug] if a.slug else
                  list(json.loads((ROOT / "clients" / "company_map.json").read_text()).keys()))
-        # twice a week: only post on Mon/Thu (the weekly-maintenance cron days)
+        # 3x/week: Mon + Thu (weekly-maintenance) + Wed (gbp-posts-midweek)
         for slug in slugs:
             try:
                 topic = random.choice(list(TOPICS))

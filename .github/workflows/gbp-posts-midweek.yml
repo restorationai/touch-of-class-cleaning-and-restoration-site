@@ -1,0 +1,61 @@
+# Third weekly GBP post slot (video-adoption batch, Santino 2026-08-19:
+# cadence 2x -> 3x/week). Deliberately a SEPARATE tiny workflow instead of a
+# third cron on weekly-maintenance.yml: that workflow carries Monday-gated
+# monthly/weekly steps (NAP audit, AI-visibility scans, S1-S4) that must not
+# gain a third run day. This one does exactly two things the extra day
+# benefits: the post itself and review replies (reply latency halves).
+name: GBP Posts Midweek
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'true = draft only, post nothing (verification runs)'
+        required: false
+        default: 'false'
+  schedule:
+    - cron: '0 16 * * 3'   # Wednesday, 9 am PDT / 8 am PST
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: GBP posts (midweek slot)
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python3 scripts/gbp_post.py due --all --dry-run
+          else
+            python3 scripts/gbp_post.py due --all
+          fi
+
+      - name: Review responder (midweek pass — halves reply latency)
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            echo "dry-run: responder skipped"
+          else
+            python3 scripts/review_responder.py --all || echo "review responder errored (non-fatal)"
+          fi
