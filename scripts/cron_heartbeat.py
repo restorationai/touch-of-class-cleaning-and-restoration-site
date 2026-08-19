@@ -20,6 +20,7 @@ Runs from client-ops-sync.yml every pass. CLI: python3 scripts/cron_heartbeat.py
 from __future__ import annotations
 
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -83,8 +84,14 @@ def main() -> int:
         job = row["jobname"]
         seen.add(job)
         last = row.get("last_run")
-        age_min = ((now - datetime.fromisoformat(last)).total_seconds() / 60
-                   if last else float("inf"))
+        if last:
+            # pg timestamps carry variable fractional digits; py3.9's
+            # fromisoformat needs exactly 3 or 6 — normalize to 6
+            norm = re.sub(r"\.(\d+)",
+                          lambda m: "." + m.group(1)[:6].ljust(6, "0"), last)
+            age_min = (now - datetime.fromisoformat(norm)).total_seconds() / 60
+        else:
+            age_min = float("inf")
         limit = THRESHOLDS.get(job)
         if limit is None:
             print(f"  info: unlisted cron job '{job}' (schedule "
