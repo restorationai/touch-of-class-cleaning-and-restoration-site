@@ -4180,6 +4180,33 @@
       "triaged_at": "2026-08-05T06:07:01Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPNx_zEwqZJYwa8teiVSp2XQB4cP28aMZWolGzj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPNx_zEwqZJYwa8teiVSp2XQB4cP28aMZWolGzj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipPNx_zEwqZJYwa8teiVSp2XQB4cP28aMZWolGzj.jpg",
+      "width": 810,
+      "height": 1080,
+      "bytes": 841111,
+      "sha1": "fbb5485aec88e2bc",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Beige suede armchair sectional in living room, slightly soiled",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "upholstery-cleaning"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Decent before shot of upholstery; no crew, tight crop, mediocre lighting.",
+      "triaged_at": "2026-08-19T14:06:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPOHL7Aq-1NUNLns24RFADJBbHdZt8mfq0y6BBN": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPOHL7Aq-1NUNLns24RFADJBbHdZt8mfq0y6BBN.jpg",
@@ -4717,5 +4744,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-16T14:12:20Z"
+  "triaged_at": "2026-08-19T14:06:41Z"
 }

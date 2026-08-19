@@ -45,7 +45,7 @@ export const brand = {
   certifications: [] as string[],
   trustBadges: ["Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://www.yelp.com/biz/rt-olson-plumbing-heating-and-air-conditioning-corona-4", "https://www.bbb.org/us/ca/corona/profile/plumber/rt-olson-plumbing-heating-and-air-conditioning-1126-850038253", "https://www.angi.com/companylist/us/ca/corona/rt-olson-plumbing%2C-heating-and-air-conditioning-reviews-8562287.htm", "https://www.facebook.com/rtolsonplumbing/", "https://nextdoor.com/page/rt-olson-plumbing-corona-ca-1", "https://www.yellowpages.com/corona-ca/mip/rt-olson-plumbing-heating-and-air-conditioning-573197261"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",
