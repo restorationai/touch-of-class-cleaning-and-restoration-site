@@ -5,6 +5,26 @@ Deeper context: docs/seo-videos-gap-analysis-2026-08.md (SEO queue),
 docs/bobby-olson-call-plan-2026-08-18.md (Bobby items + statuses),
 docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
 
+## Latest (2026-08-19): safety trilogy SHIPPED, Yelp ON ICE
+
+- **Pipeline safety trilogy done + reviewed**: (1) scripts/repo_git_guard.py — every
+  automation git sync (cutover_execute, content_writer, ads_provision,
+  case_study_intake) skips active sessions, aborts stranded rebases, never raises;
+  (2) scaffold product guard — copy_starter merges code but preserves rendered
+  content .md, public/images, image-meta.json, prompts/ (plus a rendered:true guard
+  in write_content_md); (3) stage_checker MID-BUILD STALL alarm — 2d+ in building
+  with a started-but-unfinished build alarms as Santino-owned (dwell-anchored, loop-proof).
+  Review pass fixed: timeout leak in the guard, queued-behind-cap false alarms, and a
+  test-inflicted empty image registry (restored, staging redeployed + verified).
+- **Yelp playbook ON ICE (Santino + my recommendation agreed)**: needs a live
+  code-relay loop + scheduled verification windows; runs LOCAL (Yelp bot defenses
+  make cloud browsers impractical). When un-iced: phase 0 = Monica collects existing
+  Yelp logins via secure share (skips the claim dance entirely for already-claimed
+  pages); phase 1 = unattended audit + email-verifiable claims; phase 2 = phone-code
+  windows. Fran incident fixed on the way: Monica's human-defer now keys on GHL
+  userId everywhere (she was deferring to her own unrecorded webhook reply).
+- Uploads gallery MERGED to app production.
+
 ## Where we were before the Bobby Olson sidetrack
 
 Working the SEO gap-analysis queue, one item per Santino "go":
