@@ -22,10 +22,10 @@ This page is the deep dive on {service.display_name} specifically. It must be im
 1. **Unique opening paragraph** that names a specific problem THIS service solves. Bad: *"We handle [service] for homeowners."* Good: opens with a specific symptom, timeline, or scenario that only matches this service.
 
 2. **SERVICE-SPECIFIC PROCESS STEPS**. The body must include 3-4 concrete steps that are UNIQUE to {service.display_name}. Examples for different services:
-   - Water damage: extraction → drying → moisture monitoring → containment for Category 2/3
-   - Mold remediation: containment → air sampling → HEPA filtration → clearance testing
-   - Fire damage: soot characterization → thermal fogging → ozone treatment → contents pack-out
-   - Biohazard: PPE staging → bio-contaminant removal → enzymatic treatment → waste manifest
+   - Drain cleaning: camera inspection → augering or hydro jetting → flow verification
+   - Water heaters: diagnosis → repair-or-replace assessment → code-compliant install → pressure/temperature test
+   - Leak detection: acoustic/thermal location → access planning → repair → pressure test
+   - AC/furnace repair: system diagnostic → component repair → refrigerant/combustion check → performance verification
    - Reconstruction: scope of work → permits → framing → finishing
 
 3. **SERVICE-SPECIFIC COMMON PROBLEMS** — what goes wrong, what gets missed by less-experienced operators, what insurance adjusters look for. Be technical where it matters.
@@ -33,10 +33,10 @@ This page is the deep dive on {service.display_name} specifically. It must be im
 4. **SERVICE-SPECIFIC FAQs**. Every FAQ on this page must be ABOUT THIS SERVICE. Do not write generic restoration FAQs that would fit on any service page.
 
    GOOD examples for {service.display_name}: (write FAQs that are this specific)
-   - Water damage: "How long does structural drying typically take in different categories of water?"
-   - Mold: "What level of mold remediation requires IICRC S520-compliant containment?"
+   - Drains: "When does a recurring clog mean the sewer line itself is the problem?"
+   - Water heaters: "How do I know whether repair or replacement is the smarter spend?"
    - Fire: "What's the difference between protein soot and synthetic soot, and why does cleanup vary?"
-   - Biohazard: "What licenses are required to transport biohazard waste in this state?"
+   - HVAC: "What does a refrigerant leak actually cost to fix versus recharge?"
 
    BAD examples (DO NOT USE these on every service page):
    - "How much does it cost?" (use ONCE per site, on the about/contact page, not on every service)
@@ -44,10 +44,10 @@ This page is the deep dive on {service.display_name} specifically. It must be im
    - "How fast can you respond?" (use ONCE per site, on the home or contact page)
 
 5. **SERVICE-SPECIFIC CTAs**. Bad: "Contact us today." Good: a CTA that names what the visitor is actually trying to do —
-   - Water damage: "Schedule your moisture assessment"
-   - Mold: "Request an air quality test"
+   - Drains: "Book a camera inspection"
+   - Water heaters: "Get a repair-or-replace assessment"
    - Fire: "Begin smoke and soot removal"
-   - Biohazard: "Begin discreet biohazard cleanup"
+   - HVAC: "Schedule a system diagnostic"
    - Reconstruction: "Get a reconstruction scope of work"
 
 # Brand context (use naturally, do not list)
@@ -66,7 +66,7 @@ This page is the deep dive on {service.display_name} specifically. It must be im
 - `## Our process` — 4-5 numbered steps SPECIFIC to {service.display_name}. Not a generic "we assess, we work, we clean up" template.
 - `## What separates a good [service] response from a bad one` — common technical mistakes, what good operators do differently, what insurance adjusters look for.
 - `## What does {service.display_name} cost?` — REQUIRED. Two to three sentences plus a markdown table (4-6 rows, "Scenario | Typical range") of INDUSTRY-TYPICAL cost ranges for this service, scenario-specific ("Single room, clean water | $1,200 - $3,500"). Framing rules (hard): ranges are typical industry figures, always phrased that way ("typical costs run...", "most homeowners pay..."); NEVER present a number as {brand.display_name}'s own price or quote; include one sentence that every loss is different and {brand.display_name} provides a written scope before work begins; one sentence on what homeowners insurance typically covers here.
-- `## Seasonal & regional considerations` — only if relevant for this service (e.g., for water damage: freeze-thaw cycles; for storm damage: peak season; for mold: humidity windows).
+- `## Seasonal & regional considerations` — only if relevant for this service (e.g., pipe freeze risk in cold snaps; AC load in heat waves; water heater failures clustering in winter).
 - `## Service area` — brief mention of {brand.primary_city} and surrounding cities (the planner links service-area-service pages).
 - Closing CTA paragraph (no heading) — service-specific CTA.
 
