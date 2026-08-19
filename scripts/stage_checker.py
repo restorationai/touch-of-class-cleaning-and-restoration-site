@@ -673,7 +673,7 @@ def _fetch_fleet() -> dict:
 
 # ---------------------------------------------------------------- checklists
 def _blockers(co: dict, slug: str | None, site: dict | None, stage: str,
-              dry_run: bool) -> list[tuple[str, str]]:
+              dry_run: bool, dwell: int = 0) -> list[tuple[str, str]]:
     """WEBSITE exit checklist (unchanged phase-1 logic): unmet exit items for
     this stage, ordered most-blocking first. Each is (what/action, owner).
     Filing side effects (the [DEV] task) happen here; everything else is
@@ -710,6 +710,25 @@ def _blockers(co: dict, slug: str | None, site: dict | None, stage: str,
             bs = (site or {}).get("build_status") or "pending"
             out.append((f"site rendered locally but build_status={bs} — "
                         "deploy/supabase_sync owns the status", "auto-build"))
+
+        # MID-BUILD STALL TEETH (2026-08-19, the rt-olson lesson: a broken
+        # gitlink made the nightly bootstrap re-scaffold the same site for 8
+        # nights; every night refreshed the timestamps, so nothing here ever
+        # read as stale, and the calm auto-build hand-off lines above carry
+        # no escalation). The signal that DOES catch a loop: the build
+        # STARTED long ago (first scaffold / plan generation) yet
+        # build_status still is not a finished state. Repeats in every
+        # digest until a human or a dispatched site-build clears it.
+        _bs = (site or {}).get("build_status") or "pending"
+        if dwell >= 2 and _bs not in ("content_rendered", "pushed_staging",
+                                      "pushed_main"):
+            out.append((
+                f"MID-BUILD STALL: {dwell}d in 'building' and build_status "
+                f"is still '{_bs}' — a build looping or dead (rt-olson "
+                "class: nightly re-scaffolds refresh every client-record "
+                "timestamp, but this dwell clock only resets on a real "
+                "stage change); dispatch site-build or investigate",
+                "needs-human"))
 
     elif stage in ("preview", "staging"):
         ask_exists, signed = _preview_ask(cid)
@@ -1003,7 +1022,7 @@ def check_stages(dry_run: bool, cid_to_slug: dict | None = None,
 
             # ---- website keeps its phase-1 checklist + line formats -------
             if board == BOARD:
-                blockers = _blockers(co, slug, site, stage, dry_run)
+                blockers = _blockers(co, slug, site, stage, dry_run, dwell)
                 website_summary = "; ".join(b[0] for b in blockers) or "-"
                 if stage == "live":
                     continue   # terminal — no exit checklist, no dwell alarm
