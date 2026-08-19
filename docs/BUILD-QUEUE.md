@@ -39,10 +39,8 @@ lives in docs/seo-videos-gap-analysis-2026-08.md; current position in docs/WORKI
 18. ~~Job Stories before/after photo fields~~ DONE 08-19 on the hub form (promised to Bobby).
 19. **Bing/citations creation for post-08-09 clients** (RT Olson + Dry County missed by
     the nightly sweep — find out why, then run them).
-20. **Repo lock** — local crons must not run git operations while a session is working
-    (the orphaned-commits/merge-marker incident).
-21. **Scaffold guard** — never overwrite rendered:true content files (long-standing
-    NaRestCo gotcha, hit again on RT Olson).
+20. ~~Repo lock~~ DONE 08-19 (repo_git_guard in all 4 automation sync sites).
+21. ~~Scaffold guard~~ DONE 08-19 (copy_starter preserves product; live-tested).
 22. ~~Plumbing template completion~~ DONE 08-19 (render prompts + overlay) — port proper render prompts (_system + archetype
     briefs) into templates/plumbing/ instead of restoration hand-me-downs.
 23. **Review-photo truck composite** for Bobby (awaiting his selfie).
