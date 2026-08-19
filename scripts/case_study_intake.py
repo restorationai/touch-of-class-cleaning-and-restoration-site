@@ -525,13 +525,11 @@ def commit_and_deploy(slug: str, paths: list[Path], branch: str, lane: str) -> N
     except RuntimeError as e:
         if "nothing to commit" not in str(e).lower():
             raise
-    _run(["git", "pull", "--rebase", "--autostash", "origin", "main"], REPO_ROOT)
-    try:
-        _run(["git", "push", "origin", "main"], REPO_ROOT)
-    except RuntimeError:
-        # push rejected (concurrent CI push): rebase once more and retry
-        _run(["git", "pull", "--rebase", "--autostash", "origin", "main"], REPO_ROOT)
-        _run(["git", "push", "origin", "main"], REPO_ROOT)
+    # guarded sync: skips when a session is active, aborts cleanly on
+    # conflicts (2026-08-18 incident, see scripts/repo_git_guard.py)
+    from repo_git_guard import safe_sync
+    if not safe_sync(REPO_ROOT, actor="case_study_intake"):
+        safe_sync(REPO_ROOT, actor="case_study_intake")  # one retry (CI race)
     print(f"    sync-deploying sites/{slug}/ (branch={branch})...")
     _run(["python3", str(SCRIPT_DIR / "build_site.py"), "sync-deploy",
           "--slug", slug, "--branch", branch, "--allow-dirty"], REPO_ROOT)

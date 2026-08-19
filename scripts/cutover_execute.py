@@ -922,12 +922,9 @@ def commit_artifacts(slug: str) -> None:
                 return
             print(f"  commit failed (non-fatal): {(r.stdout + r.stderr)[-200:]}")
             return
-        subprocess.run(["git", "pull", "--rebase", "--autostash", "origin", "main"],
-                       cwd=ROOT, capture_output=True, text=True, timeout=120)
-        p = subprocess.run(["git", "push", "origin", "main"], cwd=ROOT,
-                           capture_output=True, text=True, timeout=120)
-        print("  committed + pushed" if p.returncode == 0
-              else f"  pushed FAILED (non-fatal): {p.stderr[-200:]}")
+        from repo_git_guard import safe_sync
+        print("  committed + pushed" if safe_sync(ROOT, actor="cutover_execute")
+              else "  committed locally (sync deferred — see guard message)")
     except Exception as e:
         print(f"  commit/push failed (non-fatal): {str(e)[:160]}")
 

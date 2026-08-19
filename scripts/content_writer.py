@@ -658,10 +658,11 @@ def commit_and_sync(slug: str, item: dict, post_path: Path, branch: str) -> None
         else:
             raise
 
-    print(f"      Pulling latest monorepo state before push...")
-    run(["git", "pull", "--rebase", "--autostash", "origin", "main"], REPO_ROOT)
-    print(f"      Pushing monorepo to origin...")
-    run(["git", "push", "origin", "main"], REPO_ROOT)
+    print(f"      Syncing monorepo with origin (guarded)...")
+    # guard skips when a session is active and aborts cleanly on conflicts
+    # (2026-08-18 incident, see scripts/repo_git_guard.py)
+    from repo_git_guard import safe_sync
+    safe_sync(REPO_ROOT, actor="content_writer")
 
     print(f"      Sync-deploying sites/{slug}/ to per-client repo (branch={branch})...")
     sync = subprocess.run(

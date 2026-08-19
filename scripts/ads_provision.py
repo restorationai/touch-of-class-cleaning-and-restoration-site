@@ -400,9 +400,11 @@ def git_deploy(ctx, message):
     # commit returns non-zero if nothing changed — that's fine
     subprocess.run(["git", "commit", "-q", "-m", message], cwd=root, check=False)
     if cloud_mode():
-        # sync with origin, then persist the generated source upstream
-        subprocess.run(["git", "pull", "--rebase", "--autostash", "origin", "main"], cwd=root, check=True)
-        subprocess.run(["git", "push", "origin", "main"], cwd=root, check=True)
+        # sync with origin, then persist the generated source upstream —
+        # via the guard so a conflicted pull can never strand a rebase
+        # (2026-08-18 incident, see scripts/repo_git_guard.py)
+        from repo_git_guard import safe_sync
+        safe_sync(root, actor="ads_provision")
     # subtree-split + force-push sites/{slug} → the per-client deploy repo (Cloudflare builds it)
     run_cmd([str(SCRIPTS / "build_site.py"), "sync-deploy", "--slug", slug,
              "--branch", "main", "--allow-dirty"])

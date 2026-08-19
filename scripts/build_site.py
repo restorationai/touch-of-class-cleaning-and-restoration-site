@@ -584,22 +584,51 @@ def substitute_text(text: str, tokens: dict) -> tuple[str, set]:
 # ----------------------------------------------------------------------------
 
 
+def _starter_protected(rel: str) -> bool:
+    """Site PRODUCT files a re-scaffold must never flatten (2026-08-19; a
+    re-scaffold after a plan change rmtree'd src/ and public/ wholesale and
+    wiped 124 rendered RT Olson pages + the real-photo set back to starter
+    state, twice). Code refreshes from the starter; product survives:
+      - src/content/**/*.md   rendered page bodies (config.ts still updates)
+      - public/images/**      real photos + generated imagery + variants
+      - src/data/image-meta.json  the resize/serviceImage registry
+      - prompts/**            per-site prompt patches (interim until every
+                              vertical ships its own render prompts)"""
+    return (
+        (rel.startswith("src/content/") and rel.endswith(".md"))
+        or rel.startswith("public/images/")
+        or rel == "src/data/image-meta.json"
+        or rel.startswith("prompts/")
+    )
+
+
 def copy_starter(site_dir: Path) -> None:
-    if site_dir.exists():
-        # Preserve node_modules / .astro between scaffolds
-        for child in STARTER_DIR.iterdir():
-            target = site_dir / child.name
-            if target.exists() and target.is_dir():
-                shutil.rmtree(target)
-            elif target.exists():
-                target.unlink()
-            if child.is_dir():
-                shutil.copytree(child, target)
-            else:
-                shutil.copy2(child, target)
-    else:
+    if not site_dir.exists():
         site_dir.mkdir(parents=True, exist_ok=True)
         shutil.copytree(STARTER_DIR, site_dir, dirs_exist_ok=True)
+        return
+    # Existing site: refresh CODE from the starter, preserve PRODUCT.
+    # (node_modules / .astro survive too — never part of the starter.)
+    kept = 0
+    for child in STARTER_DIR.iterdir():
+        target = site_dir / child.name
+        if child.is_file():
+            shutil.copy2(child, target)
+            continue
+        # Directory: merge file-by-file so protected product survives.
+        for f in child.rglob("*"):
+            if not f.is_file():
+                continue
+            rel = f.relative_to(STARTER_DIR).as_posix()
+            dst = site_dir / rel
+            if _starter_protected(rel) and dst.exists():
+                kept += 1
+                continue
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(f, dst)
+    if kept:
+        print(f"    starter copy preserved {kept} existing product file(s) "
+              "(rendered content / images / prompts)")
 
 
 LIGHT_OVERLAY_DIR = TEMPLATES_DIR / "astro-starter-light"
@@ -786,6 +815,25 @@ def write_content_md(
     fname = derive_filename(page)
     out = site_dir / "src" / "content" / coll / f"{fname}.md"
     out.parent.mkdir(parents=True, exist_ok=True)
+
+    # RENDERED-CONTENT GUARD (2026-08-19). A re-scaffold must NEVER flatten a
+    # page that render already wrote — re-scaffolding after a plan change
+    # wiped 37 rendered RT Olson pages back to placeholders mid-launch
+    # (2026-08-18; same class as the NaRestCo trauma-page overwrite). A page
+    # whose frontmatter says rendered: true keeps its file untouched; the
+    # plan's metadata for it is refreshed by the next targeted
+    # `render --url ... --force`, never by scaffold.
+    if out.exists():
+        try:
+            head = out.read_text()[:20000]
+        except OSError:
+            head = ""
+        # only the FRONTMATTER counts (up to the closing ---): a body that
+        # happens to quote the words "rendered: true" must not trigger this
+        frontmatter = head.split("\n---\n", 1)[0]
+        if "\nrendered: true" in frontmatter:
+            print(f"    KEPT (rendered): {out.relative_to(site_dir)}")
+            return out
 
     url = page["url_path"]
     parts = [p for p in url.split("/") if p]
