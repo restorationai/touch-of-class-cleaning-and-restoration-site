@@ -11,13 +11,10 @@
     "/services/furnace-repair/",
     "/services/water-heater-installation/",
     "/services/leak-detection/",
-<<<<<<< HEAD
-=======
     "/services/toilet-faucet-repair/",
     "/services/indoor-air-quality/",
     "/services/water-softeners-filtration/",
     "/services/garbage-disposal/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/",
@@ -100,8 +97,6 @@
     "/blog/low-water-pressure-causes/",
     "/blog/signs-of-a-slab-leak/"
   ],
-<<<<<<< HEAD
-=======
   "/services/drain-cleaning/": [
     "/services/",
     "/contact/",
@@ -216,7 +211,6 @@
     "/service-areas/santa-ana-ca/indoor-air-quality/",
     "/service-areas/yorba-linda-ca/indoor-air-quality/"
   ],
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
   "/service-areas/riverside-ca/": [
     "/service-areas/",
     "/contact/",
@@ -227,13 +221,10 @@
     "/service-areas/riverside-ca/furnace-repair/",
     "/service-areas/riverside-ca/water-heater-installation/",
     "/service-areas/riverside-ca/leak-detection/",
-<<<<<<< HEAD
-=======
     "/service-areas/riverside-ca/toilet-faucet-repair/",
     "/service-areas/riverside-ca/indoor-air-quality/",
     "/service-areas/riverside-ca/water-softeners-filtration/",
     "/service-areas/riverside-ca/garbage-disposal/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/"
@@ -248,13 +239,10 @@
     "/service-areas/anaheim-ca/furnace-repair/",
     "/service-areas/anaheim-ca/water-heater-installation/",
     "/service-areas/anaheim-ca/leak-detection/",
-<<<<<<< HEAD
-=======
     "/service-areas/anaheim-ca/toilet-faucet-repair/",
     "/service-areas/anaheim-ca/indoor-air-quality/",
     "/service-areas/anaheim-ca/water-softeners-filtration/",
     "/service-areas/anaheim-ca/garbage-disposal/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/",
     "/service-areas/norco-ca/"
@@ -269,13 +257,10 @@
     "/service-areas/santa-ana-ca/furnace-repair/",
     "/service-areas/santa-ana-ca/water-heater-installation/",
     "/service-areas/santa-ana-ca/leak-detection/",
-<<<<<<< HEAD
-=======
     "/service-areas/santa-ana-ca/toilet-faucet-repair/",
     "/service-areas/santa-ana-ca/indoor-air-quality/",
     "/service-areas/santa-ana-ca/water-softeners-filtration/",
     "/service-areas/santa-ana-ca/garbage-disposal/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/"
@@ -290,13 +275,10 @@
     "/service-areas/fullerton-ca/furnace-repair/",
     "/service-areas/fullerton-ca/water-heater-installation/",
     "/service-areas/fullerton-ca/leak-detection/",
-<<<<<<< HEAD
-=======
     "/service-areas/fullerton-ca/toilet-faucet-repair/",
     "/service-areas/fullerton-ca/indoor-air-quality/",
     "/service-areas/fullerton-ca/water-softeners-filtration/",
     "/service-areas/fullerton-ca/garbage-disposal/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/norco-ca/"
@@ -311,13 +293,10 @@
     "/service-areas/ontario-ca/furnace-repair/",
     "/service-areas/ontario-ca/water-heater-installation/",
     "/service-areas/ontario-ca/leak-detection/",
-<<<<<<< HEAD
-=======
     "/service-areas/ontario-ca/toilet-faucet-repair/",
     "/service-areas/ontario-ca/indoor-air-quality/",
     "/service-areas/ontario-ca/water-softeners-filtration/",
     "/service-areas/ontario-ca/garbage-disposal/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/"
@@ -332,13 +311,10 @@
     "/service-areas/chino-ca/furnace-repair/",
     "/service-areas/chino-ca/water-heater-installation/",
     "/service-areas/chino-ca/leak-detection/",
-<<<<<<< HEAD
-=======
     "/service-areas/chino-ca/toilet-faucet-repair/",
     "/service-areas/chino-ca/indoor-air-quality/",
     "/service-areas/chino-ca/water-softeners-filtration/",
     "/service-areas/chino-ca/garbage-disposal/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/fullerton-ca/",
     "/service-areas/norco-ca/"
@@ -353,13 +329,10 @@
     "/service-areas/norco-ca/furnace-repair/",
     "/service-areas/norco-ca/water-heater-installation/",
     "/service-areas/norco-ca/leak-detection/",
-<<<<<<< HEAD
-=======
     "/service-areas/norco-ca/toilet-faucet-repair/",
     "/service-areas/norco-ca/indoor-air-quality/",
     "/service-areas/norco-ca/water-softeners-filtration/",
     "/service-areas/norco-ca/garbage-disposal/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/"
@@ -374,13 +347,10 @@
     "/service-areas/yorba-linda-ca/furnace-repair/",
     "/service-areas/yorba-linda-ca/water-heater-installation/",
     "/service-areas/yorba-linda-ca/leak-detection/",
-<<<<<<< HEAD
-=======
     "/service-areas/yorba-linda-ca/toilet-faucet-repair/",
     "/service-areas/yorba-linda-ca/indoor-air-quality/",
     "/service-areas/yorba-linda-ca/water-softeners-filtration/",
     "/service-areas/yorba-linda-ca/garbage-disposal/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/"
@@ -500,8 +470,6 @@
     "/service-areas/anaheim-ca/drain-cleaning/",
     "/service-areas/chino-ca/leak-detection/",
     "/service-areas/fullerton-ca/leak-detection/",
-<<<<<<< HEAD
-=======
     "/contact/"
   ],
   "/service-areas/anaheim-ca/drain-cleaning/": [
@@ -583,7 +551,6 @@
     "/service-areas/anaheim-ca/drain-cleaning/",
     "/service-areas/chino-ca/indoor-air-quality/",
     "/service-areas/fullerton-ca/indoor-air-quality/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/emergency-plumbing/": [
@@ -899,8 +866,6 @@
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
     "/service-areas/fullerton-ca/leak-detection/",
-<<<<<<< HEAD
-=======
     "/contact/"
   ],
   "/service-areas/chino-ca/drain-cleaning/": [
@@ -982,7 +947,6 @@
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/indoor-air-quality/",
     "/service-areas/fullerton-ca/indoor-air-quality/",
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/contact/"
   ],
   "/service-areas/norco-ca/emergency-plumbing/": [

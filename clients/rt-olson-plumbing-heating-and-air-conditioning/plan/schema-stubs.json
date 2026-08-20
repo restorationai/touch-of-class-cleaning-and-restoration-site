@@ -78,8 +78,6 @@
     ],
     "missing_stubs": []
   },
-<<<<<<< HEAD
-=======
   "/services/drain-cleaning/": {
     "archetype": "service-landing",
     "stubs": [
@@ -170,7 +168,6 @@
     ],
     "missing_stubs": []
   },
->>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
   "/service-areas/riverside-ca/": {
     "archetype": "service-area",
     "stubs": [

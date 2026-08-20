@@ -2313,30 +2313,30 @@
   },
   "slots": {
     "hero": {
-      "asset": "crew:1786296453580-bacff10f",
-      "source": "crew",
-      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/1786296453580-bacff10f.jpg",
+      "asset": "gbp:gbp-AF1QipNTVTlJo659YHqxrr-PwJQPLTwOeyNaoScevLvC",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNTVTlJo659YHqxrr-PwJQPLTwOeyNaoScevLvC.jpg",
       "category": "fleet",
-      "subject": "RT Olson branded Ford Transit van side profile on sunny street",
-      "installed_at": "2026-08-18T12:02:00Z",
+      "subject": "Branded RT Olson blue Sprinter van parked in residential driveway",
+      "installed_at": "2026-08-18T16:45:25Z",
       "file": "/images/hero-bg.webp"
     },
     "team": {
-      "asset": "gbp:gbp-AF1QipMpFKecT0bEoE7Mx2rvu_YU2LusLUAXe5xCtiuj",
-      "source": "gbp",
-      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMpFKecT0bEoE7Mx2rvu_YU2LusLUAXe5xCtiuj.jpg",
+      "asset": "crew:1786296463125-7ed8dac8",
+      "source": "crew",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/1786296463125-7ed8dac8.jpg",
       "category": "crew",
-      "subject": "Eight uniformed technicians posed in front of branded company van",
-      "installed_at": "2026-08-18T12:02:07Z",
+      "subject": "Smiling male technician in uniform posing in front of RT Olson van",
+      "installed_at": "2026-08-18T16:45:31Z",
       "file": "/images/team.webp"
     },
     "services": {
-      "asset": "gbp:gbp-AF1QipMIK8aj44m59pt1jGPdoELR8ZMjjpDpreXlCZYK",
+      "asset": "gbp:gbp-AF1QipORt1I73spc9ah2LSE3u8iYzWgJwalK7qZeQEqO",
       "source": "gbp",
-      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMIK8aj44m59pt1jGPdoELR8ZMjjpDpreXlCZYK.jpg",
-      "category": "crew",
-      "subject": "Uniformed technician working on ceiling cutout with plastic sheeting",
-      "installed_at": "2026-08-18T12:02:11Z",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipORt1I73spc9ah2LSE3u8iYzWgJwalK7qZeQEqO.jpg",
+      "category": "equipment",
+      "subject": "Navien tankless water heater installed between exposed wall studs",
+      "installed_at": "2026-08-18T16:45:34Z",
       "file": "/images/services.webp"
     }
   },
