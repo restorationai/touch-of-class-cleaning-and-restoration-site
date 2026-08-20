@@ -46,6 +46,7 @@ THRESHOLDS = {
     "twilio-tollfree-sync": 3 * 60,               # hourly
     "invoke-dispatch-review-requests": 45,        # every 10 min
     "booking-backstop": 120,                      # every 30 min
+    "upload-event-sweep": 45,                     # every 10 min (2e acks)
 }
 OPS_COMPANY = "CO-1782880883337"   # Test (Rank AI) — existing system-note home
 

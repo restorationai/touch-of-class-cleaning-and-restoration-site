@@ -2077,6 +2077,45 @@ def _extract_contact_id(body: dict) -> str:
     return ""
 
 
+@app.post("/upload-event")
+async def upload_event_endpoint(request: Request):
+    """Branding-bucket upload sweep -> Monica thank-you texts (Monica email
+    evolution 2e, 2026-08-20 — the Robert's-logo class: uploads landed
+    silently). Fed by pg_cron job 'upload-event-sweep' every 10 min with
+    the storage objects created in the last ~11 minutes; every call also
+    retries hours-gated pending bursts, so a night upload gets its thanks
+    in the morning. Empty batches are a fast no-op unless pendings exist.
+
+    Auth: X-Rank-AI-Secret header or ?secret= against
+    LEAD_AUDIT_FUNNEL_SECRET (same contract as /booking-backstop).
+    Payload: {"objects": [{"name": "CO-.../job-photos/x.jpg", ...}, ...]}
+    or a bare JSON array."""
+    expected = os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", "")
+    supplied = (_mf(request.headers.get("X-Rank-AI-Secret"))
+                or _mf(request.query_params.get("secret")))
+    if not (expected and supplied == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+    try:
+        body = await request.json()
+    except Exception:
+        body = {}
+    objects = body if isinstance(body, list) else \
+        (body.get("objects") if isinstance(body, dict) else None) or []
+
+    def _run():
+        try:
+            import client_concierge  # scripts/ is on sys.path (see header)
+            client_concierge.load_env()
+            out = client_concierge.upload_event(objects, do_send=True)
+            if out.get("acked") or out.get("held") or out.get("dropped"):
+                print(f"[upload-event] {out} ({len(objects)} object(s) in)")
+        except Exception as e:  # noqa: BLE001 — sweep thread must not die loudly
+            print("[upload-event] failed:", str(e)[:300])
+
+    threading.Thread(target=_run, daemon=True).start()
+    return {"status": "queued", "objects": len(objects)}
+
+
 @app.post("/concierge-inbound")
 async def concierge_inbound(request: Request):
     """GHL webhook: a client just replied (SMS/email) — instant Monica.

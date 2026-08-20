@@ -8263,6 +8263,241 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     return out
 
 
+# ---------------------------------------------------------------- uploads (2e)
+# Client-upload path prefixes (inside branding/{cid}/) that deserve a
+# thank-you text. Everything else in the bucket is SYSTEM-written (review-qr,
+# generated art, reports) and must never trigger a "thanks for the upload".
+_UPLOAD_KINDS = (
+    ("job-photos/", "photo"),
+    ("job-videos/", "video"),
+    ("team/", "photo"),
+    ("brand/logo", "logo"),
+    ("docs/brand-kit/", "brand kit"),
+    ("docs/", "file"),
+)
+_UPLOAD_ACK_MAX_PATHS = 500      # rolling dedupe ledger per company
+_UPLOAD_PENDING_MAX_H = 48       # drop a burst we could not ack for 2 days
+
+
+def _upload_kind(rel_path: str) -> str | None:
+    """Classify a path RELATIVE to the company folder, or None for system
+    artifacts (the review QR lives at brand/review-qr.png — ours)."""
+    for prefix, kind in _UPLOAD_KINDS:
+        if rel_path.startswith(prefix):
+            return kind
+    return None
+
+
+def _upload_ack_text(counts: dict) -> str:
+    """One warm, deterministic thank-you for a whole burst. No LLM: the
+    message is a receipt, and receipts must never hallucinate. Keeps to one
+    SMS segment for the common cases."""
+    parts = []
+    for kind in ("photo", "video", "logo", "brand kit", "file"):
+        n = counts.get(kind) or 0
+        if not n:
+            continue
+        if kind == "logo":
+            parts.append("the logo" if n == 1 else f"{n} logo files")
+        elif kind == "brand kit":
+            parts.append("the brand kit files")
+        else:
+            parts.append(f"the {kind}" if n == 1 else f"{n} {kind}s")
+    if not parts:
+        return ""
+    what = parts[0] if len(parts) == 1 else ", ".join(parts[:-1]) + " and " + parts[-1]
+    got = f"Got {what}, thank you!"
+    if counts.get("photo") or counts.get("video"):
+        return (f"{got} They're in the queue for your Google profile "
+                "and website.")
+    if counts.get("logo") or counts.get("brand kit"):
+        return f"{got} We'll get it onto your site and profiles."
+    return f"{got} Passing this along to the team now."
+
+
+def upload_event(objects: list | None, do_send: bool = True) -> dict:
+    """UPLOAD ACKNOWLEDGMENTS (2026-08-20, Monica email evolution 2e — the
+    Robert's-logo class: he uploaded his logo 08-17 and heard nothing).
+
+    Fed by Railway POST /upload-event, which the pg_cron job
+    'upload-event-sweep' hits every 10 minutes with the branding-bucket
+    objects created in the last ~11. The sweep window IS the burst debounce
+    (a 10-photo upload collapses into one batch -> ONE text), the rolling
+    acked-paths ledger dedupes the overlap minute and cron retries, and
+    hours-gated bursts persist as upload_ack_pending so the NEXT sweep
+    delivers them (dropped after 48h, logged, never half-forgotten).
+    Every send gate applies inside send_message (canary allowlist, company
+    hold, human quiet window); business hours use the reply shoulder — an
+    upload is client activity happening right now.
+
+    Ledger: every acked burst writes a work_log 'uploads-received' row.
+    Incorporation is tracked by the pinned marketing_action_plan rows the
+    upload functions already create (logo/customer list/brand kit);
+    upload_stranded_check() below flags any of those left 'planned' 72h+."""
+    state = load_state()
+    dry_run = not do_send
+    now = datetime.now(timezone.utc)
+    # 1) fold fresh objects into per-company pendings
+    per_company: dict[str, list[str]] = {}
+    for o in objects or []:
+        name = str((o or {}).get("name") or "")
+        cid, _, rel = name.partition("/")
+        if not (cid.startswith("CO-") and rel):
+            continue
+        if _upload_kind(rel):
+            per_company.setdefault(cid, []).append(rel)
+    for cid, rels in per_company.items():
+        cs = company_state(state, cid)
+        acked = set(cs.get("upload_acked_paths") or [])
+        pend = cs.get("upload_ack_pending") or {"paths": [], "at": now.isoformat()}
+        fresh = [r for r in rels
+                 if r not in acked and r not in set(pend["paths"])]
+        if fresh:
+            pend["paths"] = (pend["paths"] + fresh)[-_UPLOAD_ACK_MAX_PATHS:]
+            pend.setdefault("at", now.isoformat())
+            cs["upload_ack_pending"] = pend
+    # 2) attempt every pending burst (fresh AND held-over) — one text each
+    out = {"acked": 0, "held": 0, "dropped": 0}
+    pending_cids = [cid for cid, c in (state.get("companies") or {}).items()
+                    if (c.get("upload_ack_pending") or {}).get("paths")]
+    if not pending_cids:
+        save_state(state, dry_run)
+        return out
+    companies = fetch_companies(pending_cids)
+    for cid in pending_cids:
+        cs = company_state(state, cid)
+        pend = cs.get("upload_ack_pending") or {}
+        rels = pend.get("paths") or []
+        company = companies.get(cid)
+        first_at = pend.get("at") or now.isoformat()
+        age_h = (now - datetime.fromisoformat(first_at)).total_seconds() / 3600
+        if not company or company_inactive(company):
+            cs.pop("upload_ack_pending", None)   # muted account: no ack ever
+            continue
+        if age_h > _UPLOAD_PENDING_MAX_H:
+            out["dropped"] += 1
+            cs.pop("upload_ack_pending", None)
+            print(f"  [upload-ack] {company.get('name')}: burst of "
+                  f"{len(rels)} could not be acked for {age_h:.0f}h — "
+                  "dropped (gates never opened)")
+            continue
+        counts: dict[str, int] = {}
+        for r in rels:
+            k = _upload_kind(r) or "file"
+            counts[k] = counts.get(k, 0) + 1
+        text = _upload_ack_text(counts)
+        target = messaging_target(company)
+        contact_id = (target.get("ghl_contact_id")
+                      or linked_contact_id(company))
+        if not (text and contact_id):
+            cs.pop("upload_ack_pending", None)
+            continue
+        contact_payload = None
+        try:
+            data = _ghl("GET", f"/contacts/{contact_id}")
+            contact_payload = (data or {}).get("contact") or data
+        except Exception:  # noqa: BLE001 — hours check falls back to company tz
+            pass
+        hours = business_hours_check(company, contact_payload,
+                                     reply_to=first_at)
+        if hours:
+            out["held"] += 1
+            print(f"  [upload-ack] {company.get('name')}: held ({hours})")
+            continue
+        contact = {"id": contact_id,
+                   "phone": (target.get("cell")
+                             or (contact_payload or {}).get("phone")),
+                   "email": (target.get("email")
+                             or (contact_payload or {}).get("email"))}
+        if dry_run:
+            print(f"  [upload-ack] [dry-run] {company.get('name')}: {text!r}")
+            out["acked"] += 1
+            continue
+        try:
+            sent = send_message(contact, "sms", text, company=company)
+        except SendBlocked as e:
+            out["held"] += 1
+            print(f"  [upload-ack] {company.get('name')}: blocked ({e}) — "
+                  "burst stays pending for the next sweep")
+            continue
+        record_sent_message(state, sent)
+        acked = set(cs.get("upload_acked_paths") or [])
+        cs["upload_acked_paths"] = (list(acked) + rels)[-_UPLOAD_ACK_MAX_PATHS:]
+        cs.pop("upload_ack_pending", None)
+        out["acked"] += 1
+        print(f"  [upload-ack] {company.get('name')}: acked "
+              f"{len(rels)} upload(s) -> {text!r}")
+        try:
+            from work_log import work_log
+            work_log(cid, "intake", "uploads-received",
+                     f"Acked {len(rels)} client upload(s): "
+                     + ", ".join(f"{v} {k}(s)" for k, v in counts.items()),
+                     evidence={"paths": rels[:20]}, actor="monica",
+                     source="client_concierge.py upload_event")
+        except Exception as e:  # noqa: BLE001 — ledger never blocks the ack
+            print(f"  [work-log] warn: {str(e)[:100]}")
+    # daily stranded pass rides the sweep (state-flagged, so the 10-min
+    # cadence costs one date compare)
+    today = now.strftime("%Y-%m-%d")
+    if state.get("upload_stranded_checked") != today:
+        state["upload_stranded_checked"] = today
+        try:
+            n = upload_stranded_check(dry_run, state=state)
+            if n:
+                print(f"  [upload-stranded] {n} pinned upload row(s) "
+                      "sitting planned 72h+ — cards filed")
+        except Exception as e:  # noqa: BLE001 — watchdog never kills acks
+            print(f"  [upload-stranded] warn: {str(e)[:100]}")
+    save_state(state, dry_run)
+    return out
+
+
+def upload_stranded_check(dry_run: bool = False,
+                          state: dict | None = None) -> int:
+    """NEVER STRANDED (2e): a pinned upload action row still 'planned' after
+    72h means a client's artifact was received and then sat unused (the
+    Robert's-logo failure with a paper trail). Files ONE Ops Attention card
+    per row, re-filed at most every 7 days while it stays planned (first
+    live run 08-20 found NINE logos sitting planned 7-31 days — without the
+    dedupe those become daily duplicates). Ran daily from the /upload-event
+    sweep (state-flagged so 10-min calls stay cheap)."""
+    rows = _sb("GET", "/rest/v1/marketing_action_plan"
+               "?status=eq.planned&pinned=is.true&title=ilike.*uploaded*"
+               "&select=company_id,title,updated_at,source_run_at") or []
+    flagged = 0
+    now = datetime.now(timezone.utc)
+    seen = state.setdefault("upload_stranded_flagged", {}) \
+        if state is not None else {}
+    for r in rows:
+        ts = r.get("updated_at") or r.get("source_run_at")
+        try:
+            age_h = (now - datetime.fromisoformat(
+                str(ts).replace("Z", "+00:00"))).total_seconds() / 3600
+        except (TypeError, ValueError):
+            continue
+        if age_h < 72:
+            continue
+        dedupe_key = f"{r['company_id']}:{r.get('title')}"
+        last = seen.get(dedupe_key)
+        if last:
+            try:
+                if (now - datetime.fromisoformat(last)).days < 7:
+                    continue
+            except (TypeError, ValueError):
+                pass
+        seen[dedupe_key] = now.isoformat()
+        flagged += 1
+        company = fetch_companies([r["company_id"]]).get(r["company_id"]) \
+            or {"id": r["company_id"], "name": r["company_id"]}
+        append_escalation(
+            company, None,
+            f"[UPLOAD-STRANDED] '{r.get('title')}' has sat planned for "
+            f"{age_h/24:.0f} days — the client sent this and it was never "
+            "applied. Apply it (or mark the action row done).",
+            dry_run)
+    return flagged
+
+
 def webhook_inbound(contact_id: str, do_send: bool = True) -> dict:
     """Instant inbound for ONE contact — the Railway POST /concierge-inbound
     webhook (Santino 2026-08-02: GHL fires the moment a client responds; no
@@ -9066,6 +9301,49 @@ def cmd_selfcheck(_args) -> int:
          "email_msg_id" in inspect.getsource(fetch_inbound_since)),
     ]
     for label, ok in rc_cases:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    print("\nupload acks (2e): client uploads get one thank-you, system "
+          "artifacts never do:")
+    up_cases = [
+        ("job photo is a client upload",
+         _upload_kind("job-photos/1755-abc.jpg") == "photo"),
+        ("hub team photo counts as a photo",
+         _upload_kind("team/team-photo.jpg") == "photo"),
+        ("logo upload classifies as logo",
+         _upload_kind("brand/logo-1755.png") == "logo"),
+        ("brand kit beats the generic docs bucket",
+         _upload_kind("docs/brand-kit/kit.zip") == "brand kit"),
+        ("customer list (docs) is a file",
+         _upload_kind("docs/other/customers.xlsx") == "file"),
+        ("our review QR is SYSTEM — never acked",
+         _upload_kind("brand/review-qr.png") is None),
+        ("photo burst ack names the count and the destination",
+         _upload_ack_text({"photo": 12})
+         == "Got 12 photos, thank you! They're in the queue for your "
+            "Google profile and website."),
+        ("single logo ack reads naturally",
+         _upload_ack_text({"logo": 1})
+         == "Got the logo, thank you! We'll get it onto your site and "
+            "profiles."),
+        ("mixed burst folds into ONE message",
+         _upload_ack_text({"photo": 3, "file": 1}).startswith(
+             "Got 3 photos and the file, thank you!")),
+        ("empty burst -> no message",
+         _upload_ack_text({}) == ""),
+        ("acks stay in one SMS segment",
+         all(len(_upload_ack_text(c)) <= 160 for c in
+             ({"photo": 10}, {"logo": 1}, {"brand kit": 3},
+              {"file": 2}, {"photo": 4, "video": 2, "file": 1}))),
+        ("upload_event dedupes via the acked-paths ledger",
+         "upload_acked_paths" in inspect.getsource(upload_event)),
+        ("hours-gated bursts persist for the next sweep",
+         "upload_ack_pending" in inspect.getsource(upload_event)),
+        ("stranded watchdog rides the sweep daily",
+         "upload_stranded_check" in inspect.getsource(upload_event)),
+    ]
+    for label, ok in up_cases:
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} {label}")
     print("\nblocked call promise is SUBSTITUTED, not dropped:")
