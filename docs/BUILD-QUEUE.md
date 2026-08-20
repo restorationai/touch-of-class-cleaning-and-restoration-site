@@ -5,20 +5,15 @@ Current position and deeper context: docs/WORKING-STATE.md.
 
 ## Up next (agreed order)
 
-1. **Fran's ten website changes** (client-facing lane) — from his 08-19 feedback email
-   (assets attached: 4 service icons + MA/CT/RI service-area map):
-   remove Auburn geo concern via explanation + copy check, drop top-left logo, van
-   image gains "Insurance Restoration" + 4 icons, emergencies section lists all 6
-   emergency services (client-attested), strip ALL free-estimate content, strip all
-   price ranges (two items), graphical service-area map replaces town list, FAQ says
-   incorporated April 2001, decide/port the PAY HERE button, answer his
-   domains-to-secure question. Then: redeploy preview -> his nod -> WE flip
-   Hostmonster NS (creds held; nothing needed from him). His reply-draft ready.
+1. ~~**Fran's ten website changes**~~ **DONE 08-20** — all ten shipped + verified on
+   staging preview (commit 195e3e42); PAY HERE ported verbatim from
+   qualitycontracting.us (no ask needed); domain recorded + https://None healed;
+   reply draft at clients/quality-contracting-inc/fran-reply-draft.md awaiting
+   Santino's send. Remaining: Fran's nod -> WE flip Hostmonster NS (email-safe
+   cutover; creds held; nothing needed from him).
 2. **Monica email evolution** (internal lane, in stages):
-   a. Video-verification rule (15 min, ships first): NEVER offer a call/Zoom/live
-      walkthrough for Google video verification (physically impossible to help live);
-      instead send Google's checklist up front, client records solo, offer to review
-      the checklist BEFORE filming. Contract rule + selfcheck case.
+   a. ~~Video-verification rule~~ DONE 08-20 (contract rule + message-level guard +
+      selfcheck; deployed to both Railway services).
    b. Sender map: our own addresses (getrestorationai.com, restorationai.io, GHL
       sends) are INTERNAL, never "the client" (the Bobby mistake).
    c. Second mailbox OAuth: contact@getrestorationai.com into email intake
@@ -48,6 +43,7 @@ Current position and deeper context: docs/WORKING-STATE.md.
 - GSC social-channel clicks per property once discovery fills the worksheet
   (docs/gsc-social-connections.md)
 - Send the Bobby email draft (GoDaddy delegate-access version) + Fran reply
+  (clients/quality-contracting-inc/fran-reply-draft.md — ready, per-item rundown)
 - Decisions pending: BrightLocal spend yes/no; billing-alert escalation yes/no
 
 ## Backlog (not yet scheduled)

@@ -1,9 +1,43 @@
 # Working State — leave-and-resume doc
 
-Updated: 2026-08-19 (UTC). Keep this current when a work thread pauses.
+Updated: 2026-08-20 (UTC). Keep this current when a work thread pauses.
 Deeper context: docs/seo-videos-gap-analysis-2026-08.md (SEO queue),
 docs/bobby-olson-call-plan-2026-08-18.md (Bobby items + statuses),
 docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
+
+## Latest (2026-08-20): Fran's ten changes SHIPPED to preview + Monica video rule
+
+- **QCI / Fran feedback round (lane 1) DONE, commit 195e3e42, staging deploy
+  verified live** at staging.rankai-quality-contracting-inc.pages.dev:
+  header logo removed (name in type); ALL free-estimate copy -> Request Service;
+  all dollar figures stripped from 12 content files (lint-gated model pass);
+  about meta + FAQ = incorporated April 2001; emergency page = his six services
+  (capsule + card grid, "structural surety" is Fran's own term); his MA-CT-RI map
+  on /service-areas/; van hero regenerated via nanobanana (2 passes, v2 kept:
+  INSURANCE RESTORATION + WATER/FIRE/MOLD/FLOOD gold icon row, middle-van
+  lettering cleaned, wall ghosting gone; v3 rejected for grain) in all 4 webp
+  derivatives; PAY HERE found on qualitycontracting.us and ported VERBATIM
+  (Authorize.net Simple Checkout LinkId 84c642bd...) into header + mobile nav +
+  footer, 3 forms verified on the live preview.
+- **Domain fixed along the way**: QCI record had domain=None (the
+  domain-after-scaffold class). Real domain = qualitycontracting.us (his email
+  domain; old site + Pay Here live there; Hostmonster NS flip target). Recorded
+  in clients/quality-contracting-inc.json; brand.ts canonicalUrl, astro.config
+  site, llms.txt, ai.txt healed of https://None; imagesBase="" + local
+  public/brand/hero.webp replaces the broken images.None og:image fallback
+  (was 404ing on 32 pages). NOTE: build_site sync-deploy has a rehydration
+  guard since 08-11 (_rehydrate_domain) — the "unbuilt" note in memory is stale.
+- **Fran reply draft READY**: clients/quality-contracting-inc/fran-reply-draft.md
+  (per-item rundown, Auburn architecture answer, domains-question answer, asks
+  if he wants CONSTRUCTION instead of FLOOD as 4th van word since his logo
+  differs from his attachments; NO verification topic). Santino sends.
+- **Monica video-verification rule (lane 2a) SHIPPED earlier this window**:
+  prompt rewrite + video_verification_call_offer guard inside
+  capability_violation + selfcheck ALL GREEN, committed, both Railway services
+  redeployed.
+- **Next per BUILD-QUEUE.md**: Monica email evolution stages b-f (sender map,
+  second-mailbox OAuth needs Santino sign-in, reply-in-channel, upload acks,
+  Bobby+Fran pilot); then citations program; then social discovery sweep.
 
 ## Latest (2026-08-19 second pass): big-two + small batch + paired items SHIPPED
 
