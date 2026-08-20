@@ -70,7 +70,7 @@ export default defineConfig({
       changefreq: "weekly",
       serialize(item) {
         if (item.url.endsWith("/")) {
-          item.priority = item.url === "https://None/" ? 1.0 : 0.7;
+          item.priority = item.url === "https://qualitycontracting.us/" ? 1.0 : 0.7;
         }
         const urlPath = new URL(item.url).pathname;
         item.lastmod = (LASTMOD_BY_PATH.get(urlPath) ?? BUILD_DATE).toISOString();
