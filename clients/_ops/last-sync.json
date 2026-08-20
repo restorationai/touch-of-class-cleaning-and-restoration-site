@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-08-20T14:35:57Z",
+  "cursor": "2026-08-20T22:47:34Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -85,7 +85,8 @@
     "cf4d50e4-ddec-4339-8d3a-0ea0b57affaf",
     "9a345ede-9ed9-4b43-9503-1c972fcf9e22",
     "94967117-4558-4d74-b08c-a51831d7b55f",
-    "9f370c2f-f8ec-4805-a3bd-d9329309752c"
+    "9f370c2f-f8ec-4805-a3bd-d9329309752c",
+    "53c3d65f-915c-4aab-8509-e7a27e3d3cd8"
   ],
   "processed_plan_events": [
     "80fd3777-f57b-4a61-9cf4-dc4e7d243cd1:done",
@@ -138,7 +139,10 @@
     "4702954c-bcc0-430e-a564-ca0e047f670f:approved",
     "d0bcf407-5bc0-48d5-bfe4-5b8599c146cd:approved",
     "8acdd50b-f4cf-40df-82d4-fbde1de87c12:approved",
-    "b5ca006b-29bb-4444-bf8b-1a11022135dd:approved"
+    "b5ca006b-29bb-4444-bf8b-1a11022135dd:approved",
+    "978f6976-1cf2-4d51-b735-d3c688654ffd:approved",
+    "45eeb673-d2ee-40f2-bcf3-456accbc7b66:approved",
+    "f5a1f813-a874-4779-bf6d-7166a4cde07b:approved"
   ],
-  "last_run_at": "2026-08-20T14:35:57.221678+00:00"
+  "last_run_at": "2026-08-20T22:47:34.458180+00:00"
 }

@@ -2115,6 +2115,31 @@
       "triaged_at": "2026-08-05T06:02:42Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNEgaRcgouJd1epl6t8VzJT9Y6qW07BjVXrjsxC": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNEgaRcgouJd1epl6t8VzJT9Y6qW07BjVXrjsxC.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipNEgaRcgouJd1epl6t8VzJT9Y6qW07BjVXrjsxC.jpg",
+      "width": 1080,
+      "height": 1801,
+      "bytes": 1618621,
+      "sha1": "d9d080a83fb68b48",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dehumidifier and air mover on exposed subfloor during drying",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Useful drying-equipment shot; portrait crop and cluttered framing limit hero use.",
+      "triaged_at": "2026-08-20T22:53:44Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNHBp2Nhik_hEhFsuGnqc4E82OKPPt3NoOp1S5k": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNHBp2Nhik_hEhFsuGnqc4E82OKPPt3NoOp1S5k.jpg",
@@ -4773,5 +4798,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-20T01:32:12Z"
+  "triaged_at": "2026-08-20T22:53:44Z"
 }
