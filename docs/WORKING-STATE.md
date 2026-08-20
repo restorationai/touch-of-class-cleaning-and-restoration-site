@@ -35,9 +35,21 @@ docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
   prompt rewrite + video_verification_call_offer guard inside
   capability_violation + selfcheck ALL GREEN, committed, both Railway services
   redeployed.
-- **Next per BUILD-QUEUE.md**: Monica email evolution stages b-f (sender map,
-  second-mailbox OAuth needs Santino sign-in, reply-in-channel, upload acks,
-  Bobby+Fran pilot); then citations program; then social discovery sweep.
+- **Fran reply is IN GMAIL DRAFTS** on his thread (to fcarlo@, cc TOstrokolowicz@,
+  draft id r5445986604550719178) — Santino reviews + clicks send. Nothing sends
+  automatically.
+- **Monica 2b sender map SHIPPED (08-20 second window)**: is_internal_sender()
+  in client_concierge.py — any GHL row with a userId is OUR side regardless of
+  direction (GHL's two-way Gmail sync logs Santino's external-mailbox sends as
+  inbound WITH his userId; fleet sample 371 inbound rows -> 7 userId rows, all
+  ours). fetch_inbound_since skips them (webhook + poll), fetch_history flips
+  them to our side, transcript renders 'us-human' with updated prompt legends.
+  Verified against Bobby's live thread: "These are perfect..." now us-human,
+  0 processable inbound. Selfcheck +9 cases ALL GREEN; pushed (6d1185d8) and
+  both Railway services redeployed.
+- **Next per BUILD-QUEUE.md**: Monica email evolution stages c-f (second-mailbox
+  OAuth needs Santino sign-in, reply-in-channel, upload acks, Bobby+Fran pilot);
+  then citations program; then social discovery sweep.
 
 ## Latest (2026-08-19 second pass): big-two + small batch + paired items SHIPPED
 

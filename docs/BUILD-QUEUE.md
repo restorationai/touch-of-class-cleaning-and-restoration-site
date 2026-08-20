@@ -14,8 +14,12 @@ Current position and deeper context: docs/WORKING-STATE.md.
 2. **Monica email evolution** (internal lane, in stages):
    a. ~~Video-verification rule~~ DONE 08-20 (contract rule + message-level guard +
       selfcheck; deployed to both Railway services).
-   b. Sender map: our own addresses (getrestorationai.com, restorationai.io, GHL
-      sends) are INTERNAL, never "the client" (the Bobby mistake).
+   b. ~~Sender map~~ DONE 08-20: is_internal_sender() — any GHL row bearing a
+      userId is OURS whatever its direction field says (external-mailbox sends
+      sync back as "inbound" WITH the workspace userId; verified on Bobby's
+      live thread). Wired into fetch_inbound_since (webhook+poll never answer
+      Santino) + fetch_history ('us-human' transcript label, legends updated);
+      9 selfcheck cases; deployed to both Railway services.
    c. Second mailbox OAuth: contact@getrestorationai.com into email intake
       (needs Santino's one sign-in; batch with the Bing re-login sitting).
    d. Reply-in-channel: email gets email, in-thread.
