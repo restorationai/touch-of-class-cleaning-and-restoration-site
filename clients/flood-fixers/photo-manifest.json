@@ -2,9 +2,9 @@
   "slug": "flood-fixers",
   "assets": {
     "crew:sms-1786127124446-08409720": {
-      "source": "crew",
-      "storage": "job-photos/sms-1786127124446-08409720.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/sms-1786127124446-08409720.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/sms-1786127124446-08409720.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/sms-1786127124446-08409720.jpg",
       "width": 1320,
       "height": 1661,
       "bytes": 224806,

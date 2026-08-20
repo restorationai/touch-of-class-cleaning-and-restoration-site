@@ -79,9 +79,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:sms-1786730070515-a6c7c13d": {
-      "source": "crew",
-      "storage": "job-photos/sms-1786730070515-a6c7c13d.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/sms-1786730070515-a6c7c13d.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/sms-1786730070515-a6c7c13d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/posted/sms-1786730070515-a6c7c13d.jpg",
       "width": 1280,
       "height": 720,
       "bytes": 112460,

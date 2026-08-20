@@ -1058,9 +1058,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:fb-5": {
-      "source": "crew",
-      "storage": "job-photos/fb-5.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-5.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-5.jpg",
       "width": 1536,
       "height": 2048,
       "bytes": 377483,

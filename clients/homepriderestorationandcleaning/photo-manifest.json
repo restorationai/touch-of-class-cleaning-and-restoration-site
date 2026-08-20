@@ -2,9 +2,9 @@
   "slug": "homepriderestorationandcleaning",
   "assets": {
     "crew:1785182180987-0c804e25": {
-      "source": "crew",
-      "storage": "job-photos/1785182180987-0c804e25.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/1785182180987-0c804e25.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1785182180987-0c804e25.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/1785182180987-0c804e25.jpg",
       "width": 1500,
       "height": 2000,
       "bytes": 771646,
@@ -4414,6 +4414,35 @@
       "triaged_at": "2026-08-05T06:07:36Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPdZxyoXZt7-U-5Vfl4TsveOsOs-rPGmaFPOsTP": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPdZxyoXZt7-U-5Vfl4TsveOsOs-rPGmaFPOsTP.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipPdZxyoXZt7-U-5Vfl4TsveOsOs-rPGmaFPOsTP.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 32526,
+      "sha1": "4d12143ec4a73479",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dehumidifiers running in basement with plastic containment sheeting",
+      "quality": 42,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Vertical crop, low light, black side bars reduce usability; equipment readable.",
+      "triaged_at": "2026-08-20T01:32:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPe-00-ymR9BWES2ws5bqIHPMvKJ4VJyuc1xFqB": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPe-00-ymR9BWES2ws5bqIHPMvKJ4VJyuc1xFqB.jpg",
@@ -4744,5 +4773,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-19T14:06:41Z"
+  "triaged_at": "2026-08-20T01:32:12Z"
 }

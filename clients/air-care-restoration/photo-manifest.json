@@ -2,9 +2,9 @@
   "slug": "air-care-restoration",
   "assets": {
     "crew:sms-1786473629282-24ba1093": {
-      "source": "crew",
-      "storage": "job-photos/sms-1786473629282-24ba1093.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786411719310/job-photos/sms-1786473629282-24ba1093.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/sms-1786473629282-24ba1093.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786411719310/job-photos/posted/sms-1786473629282-24ba1093.jpg",
       "width": 1333,
       "height": 2000,
       "bytes": 444232,

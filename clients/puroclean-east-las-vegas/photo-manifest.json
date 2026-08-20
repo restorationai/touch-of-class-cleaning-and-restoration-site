@@ -2,9 +2,9 @@
   "slug": "puroclean-east-las-vegas",
   "assets": {
     "crew:sms-1785949040816-605c116d": {
-      "source": "crew",
-      "storage": "job-photos/sms-1785949040816-605c116d.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/sms-1785949040816-605c116d.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/sms-1785949040816-605c116d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/sms-1785949040816-605c116d.jpg",
       "width": 1200,
       "height": 1600,
       "bytes": 245344,

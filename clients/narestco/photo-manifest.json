@@ -176,6 +176,32 @@
       "triaged_at": "2026-08-05T05:55:11Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMJz3NHxcFfd5K33UQQDWtmNrjXor2OrpiQUMIr": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMJz3NHxcFfd5K33UQQDWtmNrjXor2OrpiQUMIr.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipMJz3NHxcFfd5K33UQQDWtmNrjXor2OrpiQUMIr.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 462706,
+      "sha1": "7854c5a78ec33451",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Technician holding thermal imaging camera showing heat scan",
+      "quality": 68,
+      "slots": {
+        "hero": 20,
+        "team": 15,
+        "services": 72
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Thermal camera in use is strong services image; portrait crop limits hero use.",
+      "triaged_at": "2026-08-20T01:32:04Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMSFI_ojRVcrZrha8m_KR_pqrwKwYFGa5cljIIh": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMSFI_ojRVcrZrha8m_KR_pqrwKwYFGa5cljIIh.jpg",
@@ -650,6 +676,17 @@
       "triaged_at": "2026-08-05T05:56:03Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNnTfi0SAHwnEtvgY1ME6voTNthcPidEPDUKzIG": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNnTfi0SAHwnEtvgY1ME6voTNthcPidEPDUKzIG.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipNnTfi0SAHwnEtvgY1ME6voTNthcPidEPDUKzIG.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 462706,
+      "sha1": "7854c5a78ec33451",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipMJz3NHxcFfd5K33UQQDWtmNrjXor2OrpiQUMIr"
+    },
     "gbp:gbp-AF1QipO84Z3A_OoABvCt2wcYlhLt-GPxrmtwF4HD_ZEq": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipO84Z3A_OoABvCt2wcYlhLt-GPxrmtwF4HD_ZEq.jpg",
@@ -852,8 +889,8 @@
     },
     "gbp:gbp-AF1QipOh55OZf9a9bo4da1xylqylkPCtOD9p4AicbUOA": {
       "source": "gbp",
-      "storage": "job-photos/posted/gbp-AF1QipOh55OZf9a9bo4da1xylqylkPCtOD9p4AicbUOA.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipOh55OZf9a9bo4da1xylqylkPCtOD9p4AicbUOA.jpg",
+      "storage": "job-photos/posted/r1787156218_gbp-AF1QipOh55OZf9a9bo4da1xylqylkPCtOD9p4AicbUOA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/r1787156218_gbp-AF1QipOh55OZf9a9bo4da1xylqylkPCtOD9p4AicbUOA.jpg",
       "width": 2112,
       "height": 1188,
       "bytes": 433753,
@@ -880,6 +917,17 @@
       "reason": "Shows real damage demo work but tilted angle and soft focus reduce usability.",
       "triaged_at": "2026-08-05T05:56:21Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOk72fw78mW014OPQRlQLXn9pR246DHy0isdjAp": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOk72fw78mW014OPQRlQLXn9pR246DHy0isdjAp.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipOk72fw78mW014OPQRlQLXn9pR246DHy0isdjAp.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 462706,
+      "sha1": "7854c5a78ec33451",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipMJz3NHxcFfd5K33UQQDWtmNrjXor2OrpiQUMIr"
     },
     "gbp:gbp-AF1QipOt4Fo0hz5zT2G3QCZncJxu7dmdghixVhRCRgaY": {
       "source": "gbp",
@@ -1090,6 +1138,17 @@
       "reason": "Useful job-progress shot but cluttered foreground and steep angle limit appeal.",
       "triaged_at": "2026-08-05T05:56:57Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP52gNDKgm6SmBYIaUr60zJEpk_jzhx966YBwoR": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP52gNDKgm6SmBYIaUr60zJEpk_jzhx966YBwoR.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipP52gNDKgm6SmBYIaUr60zJEpk_jzhx966YBwoR.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 462706,
+      "sha1": "7854c5a78ec33451",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipMJz3NHxcFfd5K33UQQDWtmNrjXor2OrpiQUMIr"
     },
     "gbp:gbp-AF1QipP9Cg2SUJVln2osCgK-QJyHLphQ0mPESCQp3IrD": {
       "source": "gbp",
@@ -1502,5 +1561,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-05T05:57:26Z"
+  "triaged_at": "2026-08-20T01:32:04Z"
 }

@@ -143,6 +143,33 @@
       "triaged_at": "2026-08-17T00:57:04Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipM1E05_6oRil4FVD0dqe8pnjmH6TkXLZcTvKOUK": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM1E05_6oRil4FVD0dqe8pnjmH6TkXLZcTvKOUK.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipM1E05_6oRil4FVD0dqe8pnjmH6TkXLZcTvKOUK.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 658650,
+      "sha1": "c133ba1d94e10e4d",
+      "exif": {
+        "taken_at": "2026:08:19 10:59:44"
+      },
+      "category": "job_progress",
+      "subject": "Open cabinet interior with visible black mold growth",
+      "quality": 62,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear mold damage documentation; useful for services card, not hero or team.",
+      "triaged_at": "2026-08-20T01:32:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM1RAldSuRaS8Knuu88ebBTAzgyDJPXDzEuIN5D": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM1RAldSuRaS8Knuu88ebBTAzgyDJPXDzEuIN5D.jpg",
@@ -203,8 +230,8 @@
     },
     "gbp:gbp-AF1QipM1qUpsMs66cFxmIxfu9JXhs0HTraiwSNGZIJht": {
       "source": "gbp",
-      "storage": "job-photos/posted/gbp-AF1QipM1qUpsMs66cFxmIxfu9JXhs0HTraiwSNGZIJht.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipM1qUpsMs66cFxmIxfu9JXhs0HTraiwSNGZIJht.jpg",
+      "storage": "job-photos/posted/r1787156416_gbp-AF1QipM1qUpsMs66cFxmIxfu9JXhs0HTraiwSNGZIJht.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/r1787156416_gbp-AF1QipM1qUpsMs66cFxmIxfu9JXhs0HTraiwSNGZIJht.jpg",
       "width": 1920,
       "height": 2560,
       "bytes": 580978,
@@ -21147,6 +21174,33 @@
       "triaged_at": "2026-08-17T01:01:16Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPIVIrweW3xUTFpXAaOvIhxYl5mxIz1PCUKXhsI": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPIVIrweW3xUTFpXAaOvIhxYl5mxIz1PCUKXhsI.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPIVIrweW3xUTFpXAaOvIhxYl5mxIz1PCUKXhsI.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 636354,
+      "sha1": "c424c411006f150e",
+      "exif": {
+        "taken_at": "2026:08:19 10:59:46"
+      },
+      "category": "job_progress",
+      "subject": "Cabinet shelves with heavy black mold spotting throughout",
+      "quality": 58,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 52
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Similar mold cabinet shot; slightly tighter crop, lower hero value than image 0.",
+      "triaged_at": "2026-08-20T01:32:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPIgTG8-3RCo3Vmm8xoxYyQISUCoyfzs88B048i": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPIgTG8-3RCo3Vmm8xoxYyQISUCoyfzs88B048i.jpg",
@@ -25272,7 +25326,7 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-19T14:09:03Z",
+  "triaged_at": "2026-08-20T01:32:56Z",
   "slots_retired_2026-08-10": {
     "note": "AI-FIRST doctrine (Santino 2026-08-10, scripts/dev_agent.md Imagery doctrine): slot pins cleared so gen_site_images generates the polished AI look for every launch slot. The real photos archived below remain harvested assets and serve as livery/PPE/equipment REFERENCES only (see image-style-guide.md CLIENT DIRECTION). Do not re-pin via photo_harvest apply without a new decision. Santino specifically rejected the team.webp pick (two guys pressure washing does not read as a team).",
     "slots": {
