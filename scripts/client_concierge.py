@@ -1848,6 +1848,9 @@ def capability_violation(body: str) -> str | None:
     Naming a human sanctions NOTHING (Santino 2026-08-18, reversing the
     08-05 design): "Santino will give you a call" is exactly the promise he
     banned. The sanctioned rewrite is the pass-along (CALL_HANDOFF_REPLY)."""
+    vv = video_verification_call_offer(body or "")
+    if vv:
+        return f"capability violation — {vv}"
     for sent in re.split(r"(?<=[.!?])\s+", body or ""):
         for rx, why in _CAPABILITY_CLAIMS:
             m = rx.search(sent)
@@ -1887,6 +1890,35 @@ def escalate_call_request(company: dict, msg: dict | None,
         "promise a call; calling (or texting back) is your call: "
         f"{str(client_msg or '')[:120]!r}",
         dry_run, ping=True)
+
+
+_VERIF_VIDEO_RE = re.compile(
+    r"\b(?:video verification|verification video|verification walkthrough|"
+    r"verify (?:the |your )?(?:listing|profile)[^.!?]{0,30}video)\b", re.I)
+_CALL_OFFER_RE = re.compile(
+    r"\b(?:hop on|jump on|get on|quick call|video call|zoom|"
+    r"walk(?:s|ing)? you through|knock (?:it|this|that|both) out together|"
+    r"do it together|while (?:we|i) (?:watch|guide))\b", re.I)
+_BEFORE_FILM_RE = re.compile(
+    r"\bbefore (?:you|they) (?:film|record|start)\b", re.I)
+
+
+def video_verification_call_offer(body: str) -> str | None:
+    """MESSAGE-LEVEL ban (Santino 2026-08-20): never offer a call/Zoom/live
+    walkthrough for Google VIDEO verification — the client cannot film and be
+    on a call at once, and our voices would bleed into the recording. A call
+    offered explicitly for questions BEFORE filming is fine. Message-level
+    because the real incident split the offer across two sentences
+    ("...verification video walkthrough knocked out? Santino can hop on a
+    quick 15 minute call...")."""
+    text = body or ""
+    if not _VERIF_VIDEO_RE.search(text):
+        return None
+    if _CALL_OFFER_RE.search(text) and not _BEFORE_FILM_RE.search(text):
+        return ("video-verification call offer — filming is a SOLO task; "
+                "send the checklist and offer questions BEFORE filming, "
+                "never live help (Santino 2026-08-20)")
+    return None
 
 
 def outbound_guard(body: str, evidence: str | None) -> str | None:
@@ -4742,16 +4774,20 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "carry TWO asks — the site cannot launch without domain access "
             "and the listing is invisible on Maps without verification, so "
             "they are paired deliberately. Bundle both warmly: lead with the "
-            "Google-listing verification, then the domain, and offer ONE "
-            "shared 15-minute VIDEO call to knock out both together. NEVER "
-            "imply anyone is coming to them or is nearby: Santino is on the "
-            "other side of the country and Google's video verification is "
-            "done remotely, with the client walking their own premises on "
-            "video while we watch and guide. Say 'video call' or 'we hop on "
-            "a video call and walk you through it', never 'he walks you "
-            "through it' or anything that sounds like an in-person visit "
-            "(Santino 2026-08-09, after Fran was offered exactly that). "
-            "Never add anything else to this message.\n")
+            "Google-listing verification, then the domain. "
+            "VIDEO VERIFICATION IS A SOLO TASK (Santino 2026-08-20: a "
+            "client cannot be on a call with us AND film Google's video at "
+            "the same time, and our voices would bleed into their "
+            "recording — NEVER offer a call, Zoom, or live walkthrough for "
+            "the video step). Instead: tell them what Google asks them to "
+            "film (start outside showing the signage, walk in, show "
+            "equipment or a lettered vehicle, have the business license or "
+            "insurance document ready to show on camera), say to record it "
+            "solo in one take on their phone, and offer to answer any "
+            "questions BEFORE they film. The 15-minute call offer applies "
+            "to the DOMAIN-ACCESS half only. NEVER imply anyone is coming "
+            "to them or is nearby. Never add anything else to this "
+            "message.\n")
     # DIRECT ORDER FROM SANTINO (2026-08-04): an open ops note that reads as
     # an instruction to contact this client. It outranks the outstanding
     # items — he asked for it, so it is the message.
@@ -8723,6 +8759,12 @@ _CAPABILITY_CASES: list[tuple[str, bool]] = [
     # Monica never commits Santino to a call
     ("Got it, Santino will give you a call. What's the best time to reach "
      "you?", True),
+    # video verification is a SOLO task — live-help offers banned 08-20
+    ("Want to get that Google verification video walkthrough knocked out? "
+     "Santino can hop on a quick 15 minute call, you just hold the phone.",
+     True),
+    ("We can knock out the video verification together on a video call.",
+     True),
     ("Santino will give you a call today, what number is best?", True),
     ("He'll give you a ring once he's free.", True),
     ("I'll have Santino call you.", True),
@@ -8735,6 +8777,10 @@ _CAPABILITY_CASES: list[tuple[str, bool]] = [
     # the sanctioned rewrites and normal copy — never blocked
     (CALL_HANDOFF_REPLY, False),
     ("Got it, I'm passing this along to Santino right now.", False),
+    ("Here's what Google asks you to film for the video verification: start "
+     "outside at your signage, walk in, and show your equipment. Record it "
+     "solo in one take. Happy to answer any questions before you film.",
+     False),
     ("Want me to find a time with Santino? What time works?", False),
     ("You'd send us access from your GoDaddy account, takes about two "
      "minutes, or Santino can hop on a quick 15 minute call with you and do "
