@@ -1,61 +1,93 @@
-# Standing Build Queue (pre-dates the SEO-videos queue)
+# Rank AI Build Queue — canonical reference
 
-The maintained queue as of 2026-08-18, before the SEO gap-analysis items took the
-foreground. Executed one item at a time on Santino's "go" / "begin X". The SEO queue
-lives in docs/seo-videos-gap-analysis-2026-08.md; current position in docs/WORKING-STATE.md.
+Updated 2026-08-20. One client-facing lane + one internal lane at a time.
+Current position and deeper context: docs/WORKING-STATE.md.
 
-## Build items
+## Up next (agreed order)
 
-1. **MMS ingest gap** — texted photos that never auto-file into client storage (the Jack
-   case: doc-context MMS routing); close the hole.
-2. **Crew's image bucket** — never provisioned at onboarding; images.crew3r.com NXDOMAIN.
-3. **Imagery as a standard build step** — partially DONE 08-18/19: site-build workflow now
-   runs gen_site_images natively; photo_harvest apply re-applies when files are missing.
-   Remaining: stage-check that fails a build with no images; CLIENT DIRECTION block from
-   real photos before generating; auto-redact text/phone from livery references.
-4. **Billing-alert escalation** — vendor "payment failed/suspended" emails ping Santino
-   same-hour (pending his yes; born from the Twilio suspension).
-5. ~~Scheduler heartbeat~~ DONE 08-19 (found+retired a zombie billing job) — silence-watchdog checks the pg_cron pulse directly.
-6. **SMS exact-cost billing** — Twilio true per-text prices onto invoices (no n8n).
-7. **Reviews tab editor** — view/edit each client's four campaign messages in-app.
-8. **Services as Products** — browser agent adds product tiles to GBPs (no API exists);
-   supervised runs.
-9. **Post-meeting recap messenger** — auto recaps after sales/kickoff calls.
-10. ~~Citations record cleanup~~ DONE 08-19 (1 flagged wrong_business) — purge wrong-business audit entries.
-11. ~~Self-hosted QR codes~~ DONE 08-19 — replace the api.qrserver.com dependency.
-12. **Access verification pass** — verify client-claimed domain access before green chips
-    (Life Savers "ns_live" is stale/wrong) + same-day GoDaddy invite-acceptance alerts.
-13. ~~Intake auto-satisfy rule~~ DONE 08-19 (brand-kit rule; 5 closed) — live branded site closes brand-kit intake questions
-    (the Kyle case).
-14. **Multi-location profile creator** — Sioux City listing (waits on Iowa DBA approval +
-    Kyle's name decision; registry watcher runs nightly).
-15. **Apple Maps runs 2 & 3** — verify the 3 in-review listings, create Crew (needs the
-    57105-vs-57110 zip answer), watch the API-access decision email.
-16. **Diagnosis agent** — parked by Santino's explicit call.
-17. **App polish** — Today-tab filter, Ops Attention triage, LSA "Ready" persistence.
+1. **Fran's ten website changes** (client-facing lane) — from his 08-19 feedback email
+   (assets attached: 4 service icons + MA/CT/RI service-area map):
+   remove Auburn geo concern via explanation + copy check, drop top-left logo, van
+   image gains "Insurance Restoration" + 4 icons, emergencies section lists all 6
+   emergency services (client-attested), strip ALL free-estimate content, strip all
+   price ranges (two items), graphical service-area map replaces town list, FAQ says
+   incorporated April 2001, decide/port the PAY HERE button, answer his
+   domains-to-secure question. Then: redeploy preview -> his nod -> WE flip
+   Hostmonster NS (creds held; nothing needed from him). His reply-draft ready.
+2. **Monica email evolution** (internal lane, in stages):
+   a. Video-verification rule (15 min, ships first): NEVER offer a call/Zoom/live
+      walkthrough for Google video verification (physically impossible to help live);
+      instead send Google's checklist up front, client records solo, offer to review
+      the checklist BEFORE filming. Contract rule + selfcheck case.
+   b. Sender map: our own addresses (getrestorationai.com, restorationai.io, GHL
+      sends) are INTERNAL, never "the client" (the Bobby mistake).
+   c. Second mailbox OAuth: contact@getrestorationai.com into email intake
+      (needs Santino's one sign-in; batch with the Bing re-login sitting).
+   d. Reply-in-channel: email gets email, in-thread.
+   e. Upload acknowledgment texts (burst-debounced) + received->incorporated ledger
+      (the Robert's-logo class: artifacts consumed after upload, never stranded).
+   f. Pilot on Bobby + Fran before fleet-wide.
+3. **Citations program**: per-directory status tracker (missing/queued/created/
+   pending-review/live/blocked) + Build Stages citations popup checklist (socials
+   tracked here too: found -> confirmed -> connected-to-GSC) + THREE-clients-per-night
+   creation rotation with per-directory backoff + Bing re-login (1 min, Santino at
+   machine) + browser-agent failure-streak watchdog (3 consecutive fails = page).
+4. **Social discovery sweep + app fields**: find each client's FB/IG/LinkedIn/TikTok/
+   YT by NAP match, prefill the app, client confirms/adds via one queued Monica ask;
+   browser-agent playbook then syncs channels into each GSC property (agency session,
+   supervised first runs).
+5. **Apple Maps run 2** (rides any night): verify the 3 in-review listings publish,
+   create Crew using his GOOGLE LISTING address verbatim (Santino's call, zip debate
+   closed), keep watching for Apple's API-access decision email (request submitted
+   in-portal during run 1).
 
-## Added during the Bobby Olson arc (08-18/19)
+## Needs Santino (minutes, batch in one sitting)
 
-18. ~~Job Stories before/after photo fields~~ DONE 08-19 on the hub form (promised to Bobby).
-19. **Bing/citations for post-08-09 clients** — ROOT CAUSE FOUND 08-19: nightly
-    bing-sync failing since >=08-17 (Bing session expired, "not signed in after sso");
-    BLOCKED on Santino's 2-min re-login (ops card filed). RT Olson HomeGuide profile
-    CREATED 08-19 (review_needed = normal search-index lag, fleet-wide pattern).
-    NEW: browser-agent failure-streak watchdog (3 consecutive playbook failures page).
-20. ~~Repo lock~~ DONE 08-19 (repo_git_guard in all 4 automation sync sites).
-21. ~~Scaffold guard~~ DONE 08-19 (copy_starter preserves product; live-tested).
-22. ~~Plumbing template completion~~ DONE 08-19 (render prompts + overlay) — port proper render prompts (_system + archetype
-    briefs) into templates/plumbing/ instead of restoration hand-me-downs.
-23. **Review-photo truck composite** for Bobby (awaiting his selfie).
+- OAuth sign-in as contact@getrestorationai.com (queue 2c)
+- Bing Places re-login in the agent browser window (queue 3)
+- GSC social-channel clicks per property once discovery fills the worksheet
+  (docs/gsc-social-connections.md)
+- Send the Bobby email draft (GoDaddy delegate-access version) + Fran reply
+- Decisions pending: BrightLocal spend yes/no; billing-alert escalation yes/no
 
-## Waiting on humans (as of 2026-08-19)
+## Backlog (not yet scheduled)
 
-- Sarha (Air Care): reveal + WordPress NS flip (panel has the pair).
-- Todd (Go Green): utility bill arrived path done; COI promised; then listing address
-  update + appeal submission (combined text ready).
-- Kyle (Crew): Iowa DBA approval (watcher), trade-name answer, Crew zip decision.
-- Fran (QCI): reviewing preview with team; launch go = Hostmonster NS flip (creds held).
-- Bobby (RT Olson/Dry County): GoDaddy NS flip, customer list, selfies, job stories,
-  audit doc forward, real Dry County van photos.
-- Jack: insurance certificate. Stuti: email for Crew contact card.
-- Santino: BrightLocal yes/no; billing-alert escalation yes/no.
+- MMS ingest gap — texted photos auto-filed with doc-context routing (Jack case)
+- Crew's image bucket — images.crew3r.com never provisioned
+- Imagery remainder — no-image stage gate; CLIENT DIRECTION from real photos;
+  auto-redact text/phone from livery references
+- SMS exact-cost billing — Twilio true per-text prices onto invoices
+- Reviews tab editor — view/edit the four campaign messages in-app
+- Services as Products — browser agent adds product tiles to GBPs (supervised)
+- Post-meeting recap messenger — auto recaps after sales/kickoff calls
+- Access verification pass — verify claimed domain access before green chips
+  (Life Savers "ns_live" stale) + same-day GoDaddy invite-acceptance alerts
+- Multi-location profile creator — Sioux City (waits on Iowa DBA watcher + Kyle)
+- Visual sitemap generator — per-client Figma-style map for reveals/sales decks
+- YouTube buildout — question-videos + shorts cuts + owner-avatar pilot (Kyle)
+- Review-photo truck composite for Bobby (photos received; ready to run)
+- App polish — Today-tab filter, Ops Attention triage, LSA "Ready" persistence
+- Diagnosis agent — parked by Santino
+- Yelp claiming playbook — ON ICE (needs code-relay loop + scheduled windows;
+  phase 0 when thawed = Monica collects existing Yelp logins)
+
+## SEO queue (from the gap analysis; remaining)
+
+- Small batch leftovers: none — review-card QR wording, GBP deep links, 3rd weekly
+  post slot, GSC worksheet all shipped 08-19/20
+- BrightLocal long-tail citations — Santino yes/no
+- AREA_DEMAND follow-ups from wrong-page-ranks reports (e.g., Home Pride's
+  Marion/Kamas/Hoytsville UT expansion ring) — fold into ring updates per client
+
+## Recently DONE (compressed; see WORKING-STATE.md for detail)
+
+08-18/19/20: home-city fix fleet-wide; Monica quiet-window + userId human detection
++ call-promise reversal + California fact; RT Olson 124-page build + hero form +
+real photos; Dry County image revamp; safety trilogy (repo guard, scaffold product
+guard, mid-build stall alarm); area-page FAQPage schema fleet-wide; wrong-page-ranks
+monthly check (+AREA_DEMAND); GBP 3x/week + deep links; hub QR wording + self-hosted
+QR + before/after Job Story fields; plumbing render prompts + vertical overlay;
+scheduler heartbeat (retired zombie billing job); intake auto-satisfy (brand-kit);
+citations wrong-business cleanup; uploads gallery in app; Robert's logo incorporated;
+QCI verification timeline established (Google email 4h after connect — do not blame
+the client, do not claim innocence).
