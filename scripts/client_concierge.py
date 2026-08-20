@@ -3746,11 +3746,50 @@ def cadence_check(cs: dict, company: dict, contact: dict | None = None,
 
 
 # ---------------------------------------------------------------- SEND (gated)
+def owed_reply_channel(requested: str, cs: dict | None,
+                       contact: dict | None) -> str:
+    """REPLY-IN-CHANNEL (2026-08-20, Monica email evolution 2d — the Bobby
+    case: he emailed, Monica answered by SMS). When the send is the backstop
+    ANSWERING a client message that arrived by EMAIL, answer by email.
+    Upgrades only the sms DEFAULT (an explicit email request stays email, an
+    explicit sms choice was never expressible — argparse default is sms) and
+    only when the contact has an email on file. Proactive nudges (no
+    awaiting_reply armed) keep the SMS default: SMS converts better and
+    clients say so (Kenny 08-11: 'better chance via text vs email')."""
+    owed = (cs or {}).get("awaiting_reply") or {}
+    if (requested == "sms" and owed.get("channel") == "email"
+            and ((contact or {}).get("email") or "").strip()):
+        return "email"
+    return requested
+
+
+def _re_subject(subject: str | None) -> str | None:
+    """'Re: {original}' so the reply threads in the client's mailbox even
+    when GHL sends a fresh email; an existing Re: prefix is kept as-is."""
+    if not subject or not str(subject).strip():
+        return None
+    s = str(subject).strip()
+    return s if s.lower().startswith("re:") else f"Re: {s}"
+
+
+def _email_thread_fields(m: dict | None) -> dict:
+    """The threading crumbs an email inbound carries (fetch_inbound_since):
+    subject for the Re: line, GHL email message id for a true in-thread
+    reply. Empty for SMS — safe to splat anywhere."""
+    out = {}
+    if (m or {}).get("email_subject"):
+        out["email_subject"] = m["email_subject"]
+    if (m or {}).get("email_msg_id"):
+        out["email_msg_id"] = m["email_msg_id"]
+    return out
+
+
 def send_message(contact: dict, channel: str, body: str,
                  subject: str | None = None,
                  company: dict | None = None,
                  reply_to: str | None = None,
-                 human_hold_exempt: bool = False) -> dict:
+                 human_hold_exempt: bool = False,
+                 email_msg_id: str | None = None) -> dict:
     """Deliver via GHL POST /conversations/messages. CANARY GATE lives HERE.
 
     The recipient (contact phone for SMS, contact email for Email) must be on
@@ -3845,8 +3884,27 @@ def send_message(contact: dict, channel: str, body: str,
     else:
         payload["subject"] = subject or f"Your {BRAND_NAME} setup"
         payload["html"] = body.replace("\n", "<br>")
+        # IN-THREAD EMAIL (2026-08-20, evolution 2d): when we know which
+        # email we're answering, ask GHL to send it as a reply in that
+        # thread. Unsupported/rejected combos fall back to a plain email
+        # below — threading is best-effort, delivery is not.
+        if email_msg_id:
+            payload["emailReplyMode"] = "reply"
+            payload["emailMessageId"] = email_msg_id
     try:
-        result = _ghl("POST", "/conversations/messages", body=payload)
+        try:
+            result = _ghl("POST", "/conversations/messages", body=payload)
+        except RuntimeError as e:
+            if (email_msg_id and channel == "email"
+                    and "DND" not in str(e)):
+                print(f"  [email-thread] reply-mode send failed "
+                      f"({str(e)[:80]}) — retrying as a plain email",
+                      file=sys.stderr)
+                payload.pop("emailReplyMode", None)
+                payload.pop("emailMessageId", None)
+                result = _ghl("POST", "/conversations/messages", body=payload)
+            else:
+                raise
     except RuntimeError as e:
         # GHL 400 "Cannot send message as DND is active for SMS" — the client
         # has texting turned off at the CRM level. That's their choice, not an
@@ -5265,6 +5323,10 @@ def cmd_compose(args) -> int:
             and (contact or {}).get("email")):
         args.channel = "email"
         print("Channel override: email (SMS is DND for this contact)")
+    if owed_reply_channel(args.channel, cs, contact) != args.channel:
+        args.channel = "email"
+        print("Reply-in-channel: the owed client message arrived by email — "
+              "answering by email (2d)")
     print(f"Company: {company['name']} ({args.company})")
     target = messaging_target(company)
     print(f"Messaging target: {target_label(company)} — via {target['source']}")
@@ -5649,10 +5711,18 @@ def cmd_compose(args) -> int:
                               f"already told them: {dup}", False, ping=True)
         return 0
     channel_used = args.channel
+    # Answering an email: thread it (Re: subject + in-thread reply id).
+    subject_out = draft["subject"]
+    email_thread_id = None
+    _owed = cs.get("awaiting_reply") or {}
+    if args.channel == "email" and _owed.get("channel") == "email":
+        subject_out = _re_subject(_owed.get("email_subject")) or subject_out
+        email_thread_id = _owed.get("email_msg_id")
     try:
         result = send_message(contact, args.channel, draft["body"],
-                              draft["subject"], company=company,
-                              reply_to=reply_key)
+                              subject_out, company=company,
+                              reply_to=reply_key,
+                              email_msg_id=email_thread_id)
     except SendBlocked as e:
         # A tripped gate (canary allowlist, DND, paused) is the guardrail
         # WORKING, not an outage — returning 1 here failed the whole
@@ -5856,6 +5926,7 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
                                      dry_run=False)
     first = contact_first_name(contact, company)
     cs = company_state(state, company_id)
+    channel = owed_reply_channel(channel, cs, contact)   # 2d: email owed -> email
     first_contact = not cs.get("first_contacted")
     history = fetch_history(contact["id"])
     if first_contact and any(
@@ -5932,11 +6003,19 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
         return {**base, "sent": False, "body": body,
                 "reason": f"duplicate guard: {dup}"}
     channel_used = channel
+    # Answering an email: thread it (Re: subject + in-thread reply id).
+    _owed_now = cs.get("awaiting_reply") or {}
+    subject_now = draft["subject"]
+    email_thread_now = None
+    if channel == "email" and _owed_now.get("channel") == "email":
+        subject_now = _re_subject(_owed_now.get("email_subject")) or subject_now
+        email_thread_now = _owed_now.get("email_msg_id")
     try:
         try:
-            result = send_message(contact, channel, body, draft["subject"],
+            result = send_message(contact, channel, body, subject_now,
                                   company=company, reply_to=reply_key,
-                                  human_hold_exempt=True)
+                                  human_hold_exempt=True,
+                                  email_msg_id=email_thread_now)
         except SendBlocked as e:
             # same DND fallback as the scheduled compose path
             if ("DND active" in str(e) and channel == "sms"
@@ -6457,11 +6536,22 @@ def fetch_inbound_since(contact_id: str, since: datetime) -> list[dict]:
                 continue
             if ts <= since:
                 continue
-            messages.append({"id": msg["id"], "body": body, "ts": ts,
-                             "conversation_id": conv["id"],
-                             "attachments": attachments,
-                             "channel": "sms" if msg["messageType"] == "TYPE_SMS"
-                             else "email"})
+            entry = {"id": msg["id"], "body": body, "ts": ts,
+                     "conversation_id": conv["id"],
+                     "attachments": attachments,
+                     "channel": "sms" if msg["messageType"] == "TYPE_SMS"
+                     else "email"}
+            if msg["messageType"] == "TYPE_EMAIL":
+                # Threading crumbs for reply-in-channel (2d): subject for
+                # the Re: line, provider message id for a true in-thread
+                # reply via emailReplyMode.
+                em = (msg.get("meta") or {}).get("email") or {}
+                if em.get("subject"):
+                    entry["email_subject"] = em["subject"]
+                ids = em.get("messageIds") or []
+                if ids:
+                    entry["email_msg_id"] = ids[-1]
+            messages.append(entry)
     return sorted(messages, key=lambda m: m["ts"])
 
 
@@ -8023,7 +8113,8 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # outbounds; answer flags are voided by any newer outbound).
         kind = "question" if turn["needs_answer"] else "answer"
         cs_reset["awaiting_reply"] = {"body": combined, "at": stamp_at,
-                                      "channel": channel, "kind": kind}
+                                      "channel": channel, "kind": kind,
+                                      **_email_thread_fields(turn["last_msg"])}
         out["awaiting"] = True
         if compose_next:
             # Webhook path: the immediate compose that follows has the full
@@ -8091,9 +8182,14 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             contact = {"id": contact_id,
                        "phone": target.get("cell") or company.get("phone"),
                        "email": target.get("email") or company.get("email")}
+            # Email inline reply: thread into the email being answered (2d).
+            _th = (_email_thread_fields(turn["last_msg"])
+                   if channel == "email" else {})
             try:
                 sent = send_message(contact, channel, body_out,
-                                    company=company, reply_to=reply_key)
+                                    _re_subject(_th.get("email_subject")),
+                                    company=company, reply_to=reply_key,
+                                    email_msg_id=_th.get("email_msg_id"))
                 record_sent_message(state, sent)
                 if kind == "answer":
                     # the follow-through went out — nothing pending. A
@@ -8107,7 +8203,8 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         return out   # escalated to Santino above; a human takes it from here
     if turn["needs_answer"]:
         cs_reset["awaiting_reply"] = {"body": combined, "at": stamp_at,
-                                      "channel": channel, "kind": "question"}
+                                      "channel": channel, "kind": "question",
+                                      **_email_thread_fields(turn["last_msg"])}
         out["awaiting"] = True
         print("    [awaiting_reply set — next compose answers this, "
               "cooldown bypassed]")
@@ -8146,7 +8243,8 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     # (ours included — then we already closed), so this can never
     # double-send, and the next in-hours compose delivers it.
     cs_reset["awaiting_reply"] = {"body": combined, "at": stamp_at,
-                                  "channel": channel, "kind": "closer"}
+                                  "channel": channel, "kind": "closer",
+                                  **_email_thread_fields(turn["last_msg"])}
     print("    [awaiting_reply kind=closer — we owe the last word; the "
           "next in-hours pass delivers it if this one can't]")
     _maybe_send_ack(state, company, contact_id,
@@ -8923,6 +9021,51 @@ def cmd_selfcheck(_args) -> int:
          "is_internal_sender(msg)" in inspect.getsource(fetch_history)),
     ]
     for label, ok in wired:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    print("\nreply-in-channel (2d): email questions get email answers, "
+          "in thread:")
+    _owes_email = {"awaiting_reply": {"channel": "email",
+                                      "email_subject": "Website feedback",
+                                      "email_msg_id": "KabR1LjwiEwSYrnNZ6MZ"}}
+    rc_cases = [
+        ("owed email -> compose answers by email",
+         owed_reply_channel("sms", _owes_email, {"email": "k@x.com"})
+         == "email"),
+        ("owed sms stays sms",
+         owed_reply_channel(
+             "sms", {"awaiting_reply": {"channel": "sms"}},
+             {"email": "k@x.com"}) == "sms"),
+        ("proactive nudge (nothing owed) keeps the sms default",
+         owed_reply_channel("sms", {}, {"email": "k@x.com"}) == "sms"),
+        ("no email on file -> never upgraded",
+         owed_reply_channel("sms", _owes_email, {"email": ""}) == "sms"),
+        ("an explicit email request is untouched",
+         owed_reply_channel(
+             "email", {"awaiting_reply": {"channel": "sms"}},
+             {"email": "k@x.com"}) == "email"),
+        ("subject gains Re:",
+         _re_subject("Website feedback") == "Re: Website feedback"),
+        ("an existing Re: is kept, not doubled",
+         _re_subject("Re: Website feedback") == "Re: Website feedback"),
+        ("no subject -> no forced Re: line",
+         _re_subject(None) is None),
+        ("email inbounds carry threading crumbs",
+         _email_thread_fields({"email_subject": "S", "email_msg_id": "M"})
+         == {"email_subject": "S", "email_msg_id": "M"}),
+        ("sms inbounds carry none",
+         _email_thread_fields({"body": "hi", "channel": "sms"}) == {}),
+        ("compose is wired",
+         "owed_reply_channel" in inspect.getsource(cmd_compose)),
+        ("send_now is wired",
+         "owed_reply_channel" in inspect.getsource(send_now)),
+        ("send_message threads email replies",
+         "emailReplyMode" in inspect.getsource(send_message)),
+        ("inbound fetch captures the crumbs",
+         "email_msg_id" in inspect.getsource(fetch_inbound_since)),
+    ]
+    for label, ok in rc_cases:
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} {label}")
     print("\nblocked call promise is SUBSTITUTED, not dropped:")
