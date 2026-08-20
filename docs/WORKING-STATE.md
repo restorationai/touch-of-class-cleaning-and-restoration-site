@@ -22,8 +22,11 @@ docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
   27d, Crew 26d, ServiceMaster 23d, RX 23d, Coastal 21d, Home Pride 12d,
   RT Olson 11d, Dry County 7d) — cards land on first live sweep; several
   may just need the action row marked done (logo may already be applied).
-  heartbeat THRESHOLDS covers the new job. E2E: canary test photo uploaded
-  15:50Z awaiting the 16:00Z sweep -> ack to Santino's phone.
+  heartbeat THRESHOLDS covers the new job. E2E VERIFIED 17:00Z: sweep
+  succeeded, ack SMS delivered on the canary thread ('Got the photo,
+  thank you!...'), acked-path ledger + pending cleared, stranded cards
+  filed live. Railway 'deployment delays' incident stalled rollout
+  ~15:32-16:52Z (containers healthy, traffic flip stuck) — cleared.
 - **Kenny/Paul Davis review campaign VERIFIED healthy** (his "no movement"
   reply): 1526 enrolled 08-11, 248 SMS out, 137 reached (pace 2/20min),
   40 clicked (29% CTR), 1 opt-out; link chain live-tested to his Google

@@ -8307,8 +8307,10 @@ def _upload_ack_text(counts: dict) -> str:
         return ""
     what = parts[0] if len(parts) == 1 else ", ".join(parts[:-1]) + " and " + parts[-1]
     got = f"Got {what}, thank you!"
-    if counts.get("photo") or counts.get("video"):
-        return (f"{got} They're in the queue for your Google profile "
+    media_n = (counts.get("photo") or 0) + (counts.get("video") or 0)
+    if media_n:
+        pronoun = "It's" if media_n == 1 and len(parts) == 1 else "They're"
+        return (f"{got} {pronoun} in the queue for your Google profile "
                 "and website.")
     if counts.get("logo") or counts.get("brand kit"):
         return f"{got} We'll get it onto your site and profiles."
@@ -9322,6 +9324,10 @@ def cmd_selfcheck(_args) -> int:
         ("photo burst ack names the count and the destination",
          _upload_ack_text({"photo": 12})
          == "Got 12 photos, thank you! They're in the queue for your "
+            "Google profile and website."),
+        ("a single photo reads singular",
+         _upload_ack_text({"photo": 1})
+         == "Got the photo, thank you! It's in the queue for your "
             "Google profile and website."),
         ("single logo ack reads naturally",
          _upload_ack_text({"logo": 1})
