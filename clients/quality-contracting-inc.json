@@ -30,5 +30,13 @@
   "gbp": {
     "place_id": "ChIJ9wuzUNMF5IkR23w7vv0t_Hc",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJ9wuzUNMF5IkR23w7vv0t_Hc"
+  },
+  "cutover_prep": {
+    "domain": "qualitycontracting.us",
+    "harvested_at": "2026-08-20T14:41:00+00:00",
+    "url_count": 26,
+    "backlinked_count": 4,
+    "redirects_added": 22,
+    "mapped_at": "2026-08-20T14:41:07+00:00"
   }
 }

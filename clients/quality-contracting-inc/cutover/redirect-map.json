@@ -1,0 +1,95 @@
+{
+ "generated_at": "2026-08-20T14:41:07+00:00",
+ "domain": "qualitycontracting.us",
+ "routes": 151,
+ "map": {
+  "/about-us": {
+   "target": "/about/",
+   "how": "heuristic"
+  },
+  "/affiliates": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/call-today": {
+   "target": "/contact/",
+   "how": "claude"
+  },
+  "/gallery": {
+   "target": "/",
+   "how": "heuristic"
+  },
+  "/housing": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/service-area": {
+   "target": "/service-areas/",
+   "how": "heuristic"
+  },
+  "/services-2": {
+   "target": "/services/",
+   "how": "claude"
+  },
+  "/services/capital-projects": {
+   "target": "/services/",
+   "how": "claude"
+  },
+  "/services/emergency-services": {
+   "target": "/emergency/",
+   "how": "claude"
+  },
+  "/services/mitigation-services": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/services/restoration-services": {
+   "target": "/services/",
+   "how": "claude"
+  },
+  "/template/2-color-box-section": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/template/2-column-dashed-grid-section": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/template/banner-section-2": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/template/banner-section-final-1": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/template/footer": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/template/header": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/template/in-page-testimonail-slider": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/template/number-counting-section-old-home": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/template/number-moving-section-1": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/testimonials": {
+   "target": "/reviews/",
+   "how": "heuristic"
+  },
+  "/testimonials-star-ranking": {
+   "target": "/reviews/",
+   "how": "claude"
+  }
+ }
+}

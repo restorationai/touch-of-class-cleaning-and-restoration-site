@@ -1,0 +1,247 @@
+{
+ "domain": "qualitycontracting.us",
+ "harvested_at": "2026-08-20T14:41:00+00:00",
+ "counts": {
+  "total": 26,
+  "sitemap": 24,
+  "crawl": 0,
+  "backlinked": 4,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://qualitycontracting.us/",
+   "path": "/",
+   "title": "",
+   "backlinks": 889,
+   "referring_domains": 22,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://qualitycontracting.us/about-us",
+   "path": "/about-us",
+   "title": "",
+   "backlinks": 10,
+   "referring_domains": 2,
+   "gsc_clicks": 0,
+   "source": "backlinks"
+  },
+  {
+   "url": "https://qualitycontracting.us/contact",
+   "path": "/contact",
+   "title": "Contact - Quality Contracting, Inc.",
+   "backlinks": 3,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://qualitycontracting.us/services-2",
+   "path": "/services-2",
+   "title": "",
+   "backlinks": 2,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "backlinks"
+  },
+  {
+   "url": "https://qualitycontracting.us/about",
+   "path": "/about",
+   "title": "About - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/affiliates",
+   "path": "/affiliates",
+   "title": "Affiliates - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/call-today",
+   "path": "/call-today",
+   "title": "Call Today - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/gallery",
+   "path": "/gallery",
+   "title": "Gallery - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/housing",
+   "path": "/housing",
+   "title": "Housing - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/service-area",
+   "path": "/service-area",
+   "title": "Service Area - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/services",
+   "path": "/services",
+   "title": "Services - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/services/capital-projects",
+   "path": "/services/capital-projects",
+   "title": "Capital Projects - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/services/emergency-services",
+   "path": "/services/emergency-services",
+   "title": "Emergency Services - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/services/mitigation-services",
+   "path": "/services/mitigation-services",
+   "title": "Mitigation Services - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/services/restoration-services",
+   "path": "/services/restoration-services",
+   "title": "Restoration Services - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/template/2-color-box-section",
+   "path": "/template/2-color-box-section",
+   "title": "Home - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/template/2-column-dashed-grid-section",
+   "path": "/template/2-column-dashed-grid-section",
+   "title": "Home - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/template/banner-section-2",
+   "path": "/template/banner-section-2",
+   "title": "Home - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/template/banner-section-final-1",
+   "path": "/template/banner-section-final-1",
+   "title": "Home - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/template/footer",
+   "path": "/template/footer",
+   "title": "Home - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/template/header",
+   "path": "/template/header",
+   "title": "Home - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/template/in-page-testimonail-slider",
+   "path": "/template/in-page-testimonail-slider",
+   "title": "Home - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/template/number-counting-section-old-home",
+   "path": "/template/number-counting-section-old-home",
+   "title": "Home - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/template/number-moving-section-1",
+   "path": "/template/number-moving-section-1",
+   "title": "Home - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/testimonials",
+   "path": "/testimonials",
+   "title": "Testimonials - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://qualitycontracting.us/testimonials-star-ranking",
+   "path": "/testimonials-star-ranking",
+   "title": "Testimonials Low Star Form - Quality Contracting, Inc.",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  }
+ ]
+}

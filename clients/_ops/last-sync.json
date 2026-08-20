@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-08-20T14:00:49Z",
+  "cursor": "2026-08-20T14:35:57Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -140,5 +140,5 @@
     "8acdd50b-f4cf-40df-82d4-fbde1de87c12:approved",
     "b5ca006b-29bb-4444-bf8b-1a11022135dd:approved"
   ],
-  "last_run_at": "2026-08-20T14:00:49.573448+00:00"
+  "last_run_at": "2026-08-20T14:35:57.221678+00:00"
 }
