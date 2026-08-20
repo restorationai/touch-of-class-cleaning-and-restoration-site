@@ -21,7 +21,7 @@ If you've spotted a dark stain on the ceiling, caught a musty smell after a base
 
 ## What DIY Mold Test Kits Actually Do (and Don't Do)
 
-You've probably seen the petri-dish kits at hardware stores — typically $10–$50 — or the swab-and-mail-in versions that cost $30–$150 once you add the lab fee. Both work on the same basic principle: collect a sample, let mold spores grow or send the sample to a lab, and get a result.
+You've probably seen the petri-dish kits at hardware stores, or the swab-and-mail-in versions that require a separate lab fee. Both work on the same basic principle: collect a sample, let mold spores grow or send the sample to a lab, and get a result.
 
 Here's what they can tell you:
 
@@ -49,7 +49,7 @@ A certified mold inspector does several things a kit can't replicate:
 4. **Surface sampling** — Tape lifts or swabs from suspect areas go to an accredited lab, usually returning results in 24–72 hours.
 5. **Written report** — You receive a documented assessment that identifies affected areas, species found, and recommended remediation scope. This report is often required by insurance carriers and is essential if you're buying or selling a home.
 
-The cost for a professional inspection in central Massachusetts typically runs $300–$600 depending on home size and the number of samples collected. That's more than a kit, but the information you get is categorically different.
+A professional inspection gives you information that is categorically different from what a kit provides. The cost depends on the documented scope, including home size and the number of samples needed.
 
 ## When a DIY Kit Is Probably Enough
 
@@ -76,7 +76,7 @@ Call a professional if any of the following apply:
 
 If the inspection confirms mold, the next step is remediation — the physical removal of contaminated materials and treatment of affected surfaces. This is not a bleach-and-paint job. Proper remediation involves containment barriers to prevent cross-contamination, negative air pressure machines with HEPA filtration, controlled demolition of unsalvageable drywall or insulation, antimicrobial treatment, and post-remediation clearance testing to verify the work is complete.
 
-The scope depends entirely on what the inspection found. A 2-square-foot stain on a bathroom wall is a different project than mold colonizing 400 square feet of basement framing after a sump pump failure. That's why the inspection report matters — it defines the scope, which defines the cost, which is what your insurance carrier needs to process a claim.
+The scope depends entirely on what the inspection found. A 2-square-foot stain on a bathroom wall is a different project than mold colonizing 400 square feet of basement framing after a sump pump failure. That's why the inspection report matters. We produce a line-item scope with photos and moisture readings formatted for insurance carriers. For insured losses we bill the carrier directly.
 
 In Auburn and the surrounding MetroWest and Worcester County area, older housing stock — triple-deckers, cape-style homes with unvented crawl spaces, and 1960s–1980s ranch homes with fiberglass-insulated basements — tends to hold moisture longer than newer construction. If your home falls into any of those categories and you've had any water intrusion, the threshold for getting a professional inspection should be lower, not higher.
 

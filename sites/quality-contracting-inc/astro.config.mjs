@@ -57,7 +57,7 @@ function contentLastmodMap() {
 const LASTMOD_BY_PATH = contentLastmodMap();
 
 export default defineConfig({
-  site: "https://None",
+  site: "https://qualitycontracting.us",
   output: "static",
   trailingSlash: "always",
   integrations: [

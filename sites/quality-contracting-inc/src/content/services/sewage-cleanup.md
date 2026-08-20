@@ -47,17 +47,7 @@ Older homes in the Auburn and Worcester area sometimes have clay or cast-iron la
 
 ## What does sewage cleanup and sanitization cost?
 
-Typical costs vary significantly based on the volume of sewage, the size of the affected area, and how much finished material needs to be removed. Most homeowners pay somewhere in the following ranges for industry-typical losses — these are general benchmarks, not quotes, and every loss is different; Quality Contracting, Inc. provides a written scope of work before any work begins.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single bathroom, minor backup, no material removal | $500 – $1,500 |
-| Basement floor drain backup, unfinished space | $1,500 – $4,000 |
-| Finished basement, partial drywall and flooring removal | $4,000 – $9,000 |
-| Multi-room spread, significant structural material removal | $8,000 – $20,000+ |
-| Septic overflow affecting crawlspace or exterior soil | $3,000 – $12,000 |
-
-Homeowners insurance typically covers sudden and accidental sewer or drain backups when the policy includes a sewer backup rider — standard HO-3 policies often exclude this damage by default, so coverage depends on your specific endorsements. Documenting the loss thoroughly from the start is the single most important thing you can do to protect your claim.
+Cost depends on the documented scope of the loss. The volume of sewage, the size of the affected area, and how much finished material needs to be removed all affect the scope. We produce a line-item scope with photos and moisture readings formatted for insurance carriers. For insured losses we bill the carrier directly. Call us and we will walk you through the process for your specific situation.
 
 ## Seasonal and regional considerations
 

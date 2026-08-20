@@ -49,18 +49,7 @@ Finally, HVAC systems are frequently overlooked. Smoke circulates through ductwo
 
 ## What does fire damage restoration cost?
 
-Typical costs for residential fire and smoke restoration vary widely based on the size of the affected area, the intensity of the fire, and the types of materials involved. Most homeowners pay somewhere between $3,000 and $30,000 for fire cleanup and structural repair, with total losses running significantly higher. The table below reflects typical industry ranges — not quotes from Quality Contracting, Inc.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single room, smoke damage only | $2,500 – $6,000 |
-| Kitchen fire, moderate structural damage | $8,000 – $20,000 |
-| Whole-floor smoke migration, no structural loss | $6,000 – $15,000 |
-| Partial structural loss (one room or area) | $15,000 – $40,000 |
-| Whole-home fire with reconstruction required | $40,000 – $150,000+ |
-| Contents pack-out and cleaning (per household) | $3,000 – $12,000 |
-
-Every fire loss is different — scope, materials, and extent of hidden damage all affect the final number. Quality Contracting, Inc. provides a written scope of work before any work begins so there are no surprises. Standard homeowners insurance policies typically cover sudden and accidental fire damage including cleanup, structural repair, and contents restoration, subject to your deductible and policy limits.
+Cost depends on the documented scope of work. Every fire loss is different — the size of the affected area, the intensity of the fire, the types of materials involved, and the extent of hidden smoke migration all affect the final scope. Quality Contracting, Inc. produces a line-item scope with photos and moisture readings formatted for insurance carriers so the adjuster has everything needed to process the claim accurately. For insured losses we bill the carrier directly. Quality Contracting, Inc. provides a written scope of work before any work begins so there are no surprises. Standard homeowners insurance policies typically cover sudden and accidental fire damage including cleanup, structural repair, and contents restoration, subject to your deductible and policy limits.
 
 ## Seasonal and regional considerations
 

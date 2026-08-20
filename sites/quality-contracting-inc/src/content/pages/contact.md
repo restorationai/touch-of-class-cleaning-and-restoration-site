@@ -2,7 +2,7 @@
 archetype: "contact"
 title: "Contact Quality Contracting, Inc. | Restoration in Auburn"
 h1: "Contact Quality Contracting, Inc."
-meta_description: "Call (508) 756-8800 for restoration services in Auburn and surrounding areas. Free estimates. Direct insurance billing."
+meta_description: "Call (508) 756-8800 for restoration services in Auburn and surrounding areas. Direct insurance billing."
 primary_keyword: "quality contracting, inc. contact"
 secondary_keywords: ["restoration company contact"]
 search_intent: "navigational_action"

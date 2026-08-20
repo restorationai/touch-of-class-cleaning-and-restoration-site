@@ -6,9 +6,9 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 <header class="bg-dark text-white sticky top-0 z-50 border-b border-white/10 shadow-md">
   <div class="container-wide flex items-center justify-between gap-3 sm:gap-6 h-20">
     <a href="/" class="flex items-center gap-3 no-underline text-white group min-w-0 flex-1 overflow-hidden">
-      {brand.logoUrl && (
-        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-14 md:h-16 w-auto max-w-[42vw] sm:max-w-[200px] md:max-w-[240px] object-contain object-left group-hover:scale-105 transition-transform" width="36" height="36" loading="eager" />
-      )}
+      {/* Fran 2026-08-19: no logo up here ("it's big enough on the van") —
+          the name in type instead */}
+      <span class="text-lg md:text-xl font-black tracking-tight whitespace-nowrap overflow-hidden text-ellipsis">{brand.displayName}</span>
     </a>
 
     <nav class="hidden lg:flex items-center gap-6 text-[11px] font-black uppercase tracking-widest h-full">
@@ -21,6 +21,12 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
     </nav>
 
     <div class="flex items-center gap-2 flex-shrink-0">
+      {/* Fran 2026-08-19: keep the PAY HERE button — Authorize.net Simple Checkout
+          form ported verbatim (LinkId) from qualitycontracting.us */}
+      <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx" target="_blank" class="hidden lg:block">
+        <input type="hidden" name="LinkId" value="84c642bd-2c15-4cb2-995e-a0d1c8654865" />
+        <input type="submit" value="Pay Here" class="cursor-pointer rounded-md border border-white/30 px-4 py-3 text-[11px] font-black uppercase tracking-widest text-white hover:border-primary-400 hover:text-primary-400 transition-colors" />
+      </form>
       <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-sm md:text-base px-4 sm:px-6 py-3 md:py-4 shadow-primary-900/40 text-center leading-tight font-black">
         <span class="hidden sm:block tracking-wide whitespace-nowrap">Call Us Now <span aria-hidden="true">•</span> {brand.phone}</span>
         <span class="sm:hidden flex flex-col items-center gap-0.5">
@@ -43,6 +49,10 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
     <a href="/about/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-white/5">About</a>
     <a href="/blog/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-white/5">Blog</a>
     <a href="/contact/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-white/5">Contact</a>
+    <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx" target="_blank" class="border-t border-white/5">
+      <input type="hidden" name="LinkId" value="84c642bd-2c15-4cb2-995e-a0d1c8654865" />
+      <input type="submit" value="Pay Here" class="w-full text-left px-6 py-3.5 text-sm font-black uppercase tracking-widest text-white bg-transparent cursor-pointer" />
+    </form>
   </nav>
 
   <script is:inline>

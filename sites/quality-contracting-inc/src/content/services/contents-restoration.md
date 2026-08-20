@@ -55,18 +55,7 @@ Insurance adjusters also look for a clear line between pre-loss condition and lo
 
 ## What does contents restoration and storage cost?
 
-Typical costs for contents restoration and storage vary considerably based on the volume of affected items, the type of damage, and how quickly the pack-out begins. Most homeowners pay somewhere in the ranges below for industry-typical scenarios — these are not quotes from Quality Contracting, Inc., but representative figures to help you understand the scope of the work.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single room, smoke-affected soft goods only | $800 – $2,500 |
-| Whole-house pack-out after fire (contents cleaning + storage) | $8,000 – $25,000 |
-| Water damage pack-out, single floor (no mold) | $3,500 – $9,000 |
-| Document and photo recovery (freeze-drying, small volume) | $500 – $2,000 |
-| Electronics assessment and restoration (per unit) | $150 – $600 |
-| Odor treatment (ozone/hydroxyl, whole-house contents) | $1,200 – $4,000 |
-
-Every loss is different, and Quality Contracting, Inc. provides a written scope of work before any restoration begins so there are no surprises. Homeowners insurance typically covers contents restoration and storage when the loss is caused by a covered peril — fire, certain water events, and storm damage are the most common — and the itemized inventory documentation generated during pack-out is exactly what adjusters need to process that portion of the claim.
+Cost depends on the documented scope of the loss. The volume of affected items, the type of damage, and how quickly the pack-out begins all shape what the work involves. We produce a line-item scope with photos and moisture readings formatted for insurance carriers. For insured losses we bill the carrier directly. Homeowners insurance typically covers contents restoration and storage when the loss is caused by a covered peril — fire, certain water events, and storm damage are the most common — and the itemized inventory documentation generated during pack-out is exactly what adjusters need to process that portion of the claim. Quality Contracting, Inc. provides a written scope of work before any restoration begins so there are no surprises.
 
 ## Seasonal and regional considerations
 

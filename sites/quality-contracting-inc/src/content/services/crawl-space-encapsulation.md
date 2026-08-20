@@ -53,18 +53,7 @@ Finally, dehumidifier sizing matters. A unit rated for 1,000 sq ft placed in a 2
 
 ## What does crawl space encapsulation cost?
 
-Typical costs for crawl space encapsulation depend on the size of the space, existing conditions, and what components the system requires. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not a quote from Quality Contracting, Inc.
-
-| Scenario | Typical range |
-|---|---|
-| Small crawl space (under 800 sq ft), liner only | $1,500 – $3,000 |
-| Mid-size crawl space (800–1,500 sq ft), liner + dehumidifier | $3,000 – $6,000 |
-| Large crawl space (1,500–2,500 sq ft), full system | $5,500 – $10,000 |
-| Add: insulation removal and disposal | $500 – $1,500 |
-| Add: sump pit and sealed cover | $800 – $2,000 |
-| Add: mold remediation on framing prior to encapsulation | $1,200 – $4,500 |
-
-Every crawl space is different, and Quality Contracting, Inc. provides a written scope of work before any work begins so there are no surprises. Homeowners insurance typically does not cover encapsulation as a preventive upgrade, but it may cover related work — liner replacement, mold remediation, or structural drying — when the damage is tied to a covered sudden loss like a burst pipe or storm-driven water intrusion. Documentation of cause and scope is key to a successful claim.
+Cost depends on the documented scope of work. Every job is different based on the size of the space, existing conditions, and what components the system requires. We produce a line-item scope with photos and moisture readings formatted for insurance carriers so the work is clearly supported from the start. For insured losses we bill the carrier directly. Quality Contracting, Inc. provides a written scope of work before any work begins so there are no surprises. Homeowners insurance typically does not cover encapsulation as a preventive upgrade, but it may cover related work — liner replacement, mold remediation, or structural drying — when the damage is tied to a covered sudden loss like a burst pipe or storm-driven water intrusion. Documentation of cause and scope is key to a successful claim.
 
 ## Seasonal and regional considerations
 

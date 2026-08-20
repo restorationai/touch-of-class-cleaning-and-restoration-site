@@ -49,18 +49,7 @@ For Category 2 and Category 3 losses, proper containment and antimicrobial treat
 
 ## What does Water Damage Restoration cost?
 
-Typical costs vary significantly based on water category, affected square footage, materials involved, and how quickly mitigation begins. Most homeowners pay somewhere between $1,500 and $8,000 for residential water mitigation, though large-loss events — finished basements, multi-story pipe bursts, or prolonged leaks discovered late — can run higher. The figures below reflect typical industry ranges, not quotes from Quality Contracting, Inc.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single room, clean water (Category 1) | $1,200 – $3,500 |
-| Multi-room, clean water with subfloor involvement | $3,000 – $6,500 |
-| Category 2 loss (appliance overflow, gray water) | $2,500 – $7,000 |
-| Category 3 loss (sewage, floodwater) | $4,000 – $12,000+ |
-| Finished basement, partial flooding | $3,500 – $9,000 |
-| Crawl space water intrusion | $1,500 – $5,000 |
-
-Every loss is different, and Quality Contracting, Inc. provides a written scope before work begins so there are no surprises. Standard homeowners insurance typically covers sudden and accidental water damage — a burst pipe, appliance failure, or roof leak — but generally excludes gradual leaks and ground-level flooding, which requires separate flood insurance.
+Cost depends on the documented scope of loss. Water category, affected square footage, materials involved, and how quickly mitigation begins all affect what the scope includes. We produce a line-item scope with photos and moisture readings formatted for insurance carriers. For insured losses we bill the carrier directly. Standard homeowners insurance typically covers sudden and accidental water damage — a burst pipe, appliance failure, or roof leak — but generally excludes gradual leaks and ground-level flooding, which requires separate flood insurance.
 
 ## Seasonal and regional considerations
 

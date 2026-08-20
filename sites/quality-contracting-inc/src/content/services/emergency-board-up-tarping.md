@@ -49,18 +49,7 @@ A third issue is over-fastening into finished surfaces. Screwing through brick v
 
 ## What does emergency board-up and tarping cost?
 
-Typical costs depend on the number of openings, roof square footage affected, accessibility, and whether the work happens during business hours or after a weekend storm. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not a quote from Quality Contracting, Inc.
-
-| Scenario | Typical range |
-|---|---|
-| Single broken window, standard residential | $150 – $350 |
-| Multiple windows or one door opening | $400 – $900 |
-| Small roof tarp (up to 200 sq ft) | $300 – $600 |
-| Large roof tarp or multi-section coverage | $600 – $1,500 |
-| Full fire board-up (windows, doors, roof) | $1,200 – $3,500 |
-| Commercial property, multiple openings | $2,500 – $6,000+ |
-
-Every loss is different, and Quality Contracting, Inc. provides a written scope before work begins. Homeowners insurance typically covers emergency board-up and tarping as a mitigation expense under the dwelling protection portion of the policy, subject to your deductible — keeping thorough documentation is what ensures the claim holds up.
+Cost depends on the documented scope of work, including the number of openings, roof square footage affected, and accessibility. We produce a line-item scope with photos and moisture readings formatted for insurance carriers. For insured losses we bill the carrier directly.
 
 ## Seasonal and regional considerations
 

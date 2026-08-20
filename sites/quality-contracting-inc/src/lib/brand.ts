@@ -8,7 +8,7 @@ export const brand = {
   shortName: "Quality Contracting, Inc.",
   legalName: "Quality Contracting, Inc.",
   domain: "",
-  canonicalUrl: "https://None",
+  canonicalUrl: "https://qualitycontracting.us",
   phone: "(508) 756-8800",
   phoneRaw: "+15087568800",
   email: "info@qualitycontracting.us",
@@ -26,7 +26,9 @@ export const brand = {
   lng: "-71.8358095",
   placeId: "",
   googleCid: "",
-  imagesBase: "https://images.None",
+  // No per-client images bucket provisioned — serve the brand hero fallback
+  // from the site itself (public/brand/hero.webp)
+  imagesBase: "",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",

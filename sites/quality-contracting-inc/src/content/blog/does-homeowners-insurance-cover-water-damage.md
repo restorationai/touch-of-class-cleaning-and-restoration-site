@@ -49,7 +49,7 @@ One thing Massachusetts homeowners run into: ice dam damage. Because ice dams ar
 
 Before you call your adjuster, spend 15 minutes with your declarations page and the exclusions section. You're looking for three things:
 
-1. **Your deductible.** If the damage is $3,200 and your deductible is $2,500, filing a claim may not be worth it — and a claim on your record can raise your premium.
+1. **Your deductible.** Cost depends on the documented scope; we produce a line-item scope with photos and moisture readings formatted for insurance carriers. If the repair cost is only modestly above your deductible, filing a claim may not be worth it, and a claim on your record can raise your premium.
 2. **The exclusions list.** Look for the words "seepage," "leakage," "continuous or repeated," and "flood." These are the phrases insurers use to deny gradual-damage claims.
 3. **Any endorsements you added.** Water backup coverage, equipment breakdown coverage, and service line coverage are common add-ons that change what's covered. If you're not sure what you bought, call your agent — not your adjuster — and ask.
 
@@ -87,7 +87,7 @@ The drying and reconstruction phase runs parallel to the claims process. Structu
 
 Water is deceptive. A stain on the ceiling might represent a few gallons of standing water inside a wall cavity. Hardwood floors that look fine on day one can be cupped and buckled by day three. Mold can begin to colonize wet cellulose materials — drywall paper, wood framing, insulation — within 24 to 48 hours in warm conditions.
 
-If you're dealing with more than a small, contained spill, a professional moisture assessment is worth doing even if you're still sorting out insurance. Thermal imaging cameras and pin-type moisture meters can find wet areas behind walls and under floors that look dry to the eye. Knowing the true extent of the damage before you negotiate a claim settlement protects you from closing out a claim and then discovering hidden rot or mold six months later.
+If you're dealing with more than a small, contained spill, a professional moisture assessment is worth doing even if you're still sorting out insurance. Thermal imaging cameras and pin-type moisture meters can find wet areas behind walls and under floors that look dry to the eye. Cost depends on the documented scope; we produce a line-item scope with photos and moisture readings formatted for insurance carriers, and for insured losses we bill the carrier directly. Knowing the true extent of the damage before you negotiate a claim settlement protects you from closing out a claim and then discovering hidden rot or mold six months later.
 
 ---
 

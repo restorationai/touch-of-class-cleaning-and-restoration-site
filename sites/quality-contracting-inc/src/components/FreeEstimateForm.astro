@@ -21,7 +21,7 @@ type Props = {
 };
 const {
   compact = false,
-  heading = compact ? "Or Request a Free Estimate" : "Request Your Free Estimate",
+  heading = compact ? "Or Request Service" : "Request Service",
 } = Astro.props;
 ---
 
@@ -106,7 +106,7 @@ const {
           type="submit"
           class="inline-flex items-center justify-center font-bold px-8 py-4 rounded-md transition-all text-lg shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed"
         >
-          Get My Free Estimate
+          Request Service
         </button>
 
         <p data-estimate-status class="hidden m-0 rounded-md px-4 py-3 text-base font-medium" role="status" aria-live="polite"></p>
@@ -202,7 +202,7 @@ const {
             show("Something went wrong sending your request. Please call us instead — it's faster anyway.", false);
           })
           .finally(function () {
-            if (btn) { btn.disabled = false; btn.textContent = "Get My Free Estimate"; }
+            if (btn) { btn.disabled = false; btn.textContent = "Request Service"; }
           });
       });
     });

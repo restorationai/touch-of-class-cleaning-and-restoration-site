@@ -51,16 +51,7 @@ Privacy and discretion matter too. Unmarked vehicles, crew members who don't dis
 
 ## What does biohazard cleanup cost?
 
-Typical costs for biohazard remediation vary significantly based on the size of the affected area, the type of contamination, how long it was present before discovery, and whether structural materials need to be removed. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes.
-
-| Scenario | Typical range |
-|---|---|
-| Single room, limited surface contact | $1,500 – $4,000 |
-| Trauma or unattended death, single room | $3,000 – $8,000 |
-| Multi-room or structural material removal | $5,000 – $15,000+ |
-| Sharps/needle cleanup, contained area | $800 – $2,500 |
-| Hoarding remediation with biohazard content | $4,000 – $20,000+ |
-| Vehicle biohazard cleanup | $500 – $3,000 |
+Cost depends on the documented scope of the loss. The size of the affected area, the type of contamination, how long it was present before discovery, and whether structural materials need to be removed all affect what the work requires. We produce a line-item scope with photos and moisture readings formatted for insurance carriers. For insured losses, we bill the carrier directly.
 
 Every loss is different, and Quality Contracting, Inc. provides a written scope of work before any remediation begins. Homeowners insurance frequently covers biohazard cleanup — particularly in cases involving trauma, unattended death, or crime scenes — though coverage depends on your specific policy and the circumstances of the loss.
 

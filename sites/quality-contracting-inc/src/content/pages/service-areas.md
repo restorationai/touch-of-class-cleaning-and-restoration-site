@@ -17,6 +17,11 @@ rendered: true
 ---
 Quality Contracting, Inc. is based in Auburn, MA and serves communities across Southern New England, with crews responding across a 50 mile radius of Auburn. Scheduling is handled during business hours — call **(508) 756-8800** and a team member will confirm whether your address falls within our coverage area and get you on the calendar as quickly as possible.
 
+![Quality Contracting service area across South and Central New England](/images/service-area-map.png)
+
+Quality Contracting serves South and Central New England, headquartered in Auburn, Massachusetts.
+
+
 ## Where we work
 
 Auburn sits near the geographic center of Massachusetts, at the junction of I-290 and the Mass Pike, which puts the team within practical reach of Worcester County and the MetroWest corridor east toward Boston. Whether you're dealing with water damage in a triple-decker near downtown Worcester, storm damage on a Colonial in Shrewsbury, or a slow mold problem in a Framingham split-level, the geography here is familiar territory. The team knows the region's housing stock — a lot of it dates to the mid-20th century or earlier — and the seasonal patterns that drive most of the calls: ice dams in January, basement flooding during spring snowmelt, and humidity-driven moisture problems through the summer.

@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://None/
+# Site: https://qualitycontracting.us/
 # Maintainer: Quality Contracting, Inc.
 # Contact: info@qualitycontracting.us
-# Sitemap: https://None/sitemap-index.xml
-# LLM index: https://None/llms.txt
+# Sitemap: https://qualitycontracting.us/sitemap-index.xml
+# LLM index: https://qualitycontracting.us/llms.txt

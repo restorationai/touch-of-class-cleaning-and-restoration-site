@@ -49,18 +49,7 @@ Another common gap: failing to identify secondary structural damage. A tree impa
 
 ## What does Storm Damage Restoration cost?
 
-Typical costs vary significantly based on storm type, the size of the affected area, and how long the structure was exposed before stabilization. Most homeowners pay somewhere between $3,000 and $25,000 for storm damage restoration when combining emergency services, drying, and reconstruction — but losses involving major structural damage or prolonged water intrusion can run higher. The table below reflects typical industry ranges by scenario.
-
-| Scenario | Typical range |
-|---|---|
-| Emergency tarping and board-up only | $400 – $1,500 |
-| Minor roof damage with limited water intrusion | $2,500 – $6,000 |
-| Tree impact with roof penetration and attic wetting | $6,000 – $18,000 |
-| Siding loss with wall cavity moisture intrusion | $4,000 – $12,000 |
-| Significant structural damage requiring framing repair | $15,000 – $40,000+ |
-| Full storm damage restoration (multiple systems affected) | $10,000 – $35,000 |
-
-Every loss is different, and Quality Contracting, Inc. provides a written scope of work before any restoration begins so there are no surprises. Homeowners insurance typically covers sudden storm damage to the structure — wind, hail, fallen trees — though flood-origin damage usually requires a separate flood policy.
+Cost depends on the documented scope of loss. What was hit, how many systems were affected, and how long the structure stayed open to the weather all shape the scope. We produce a line-item scope with photos and moisture readings formatted for insurance carriers. For insured losses we bill the carrier directly. Homeowners insurance typically covers sudden storm damage to the structure — wind, hail, fallen trees — though flood-origin damage usually requires a separate flood policy.
 
 ## Seasonal and regional considerations
 

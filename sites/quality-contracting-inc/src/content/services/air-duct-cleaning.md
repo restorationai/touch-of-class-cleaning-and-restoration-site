@@ -51,16 +51,7 @@ Finally, air duct sanitization is only effective after thorough mechanical clean
 
 ## What does air duct cleaning cost?
 
-Typical costs for residential duct cleaning run $300–$1,000 for a standard single-system home, with the range widening significantly based on system size, accessibility, contamination level, and whether sanitization or dryer vent service is included. Most homeowners pay in the $400–$700 range for a straightforward forced-air system with no microbial involvement. Every loss and every home is different — Quality Contracting, Inc. provides a written scope before any work begins so there are no surprises.
-
-| Scenario | Typical range |
-|---|---|
-| Single-system home, standard cleaning (10–15 registers) | $300 – $600 |
-| Dual-system home or large square footage | $550 – $1,000 |
-| Duct cleaning + dryer vent service | $400 – $750 |
-| Duct cleaning + air duct sanitization (antimicrobial application) | $500 – $950 |
-| Post-renovation duct cleaning (construction debris present) | $600 – $1,200 |
-| Mold-involved duct system (remediation scope required) | $1,500 – $4,000+ |
+Cost depends on the documented scope of work. Every home is different, and factors like system size, number of registers, accessibility, contamination level, and whether sanitization or dryer vent service is needed all affect what a job requires. We produce a line-item scope with photos and moisture readings formatted for insurance carriers before any work begins, so there are no surprises. For insured losses, we bill the carrier directly.
 
 Homeowners insurance typically does not cover routine duct cleaning, but it may cover duct cleaning and sanitization when it is part of a documented water damage or mold remediation claim — for example, when a duct system is contaminated following a roof leak or HVAC condensate overflow. Quality Contracting, Inc. works with all major insurance carriers and handles claim documentation when coverage applies.
 
