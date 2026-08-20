@@ -5,7 +5,33 @@ Deeper context: docs/seo-videos-gap-analysis-2026-08.md (SEO queue),
 docs/bobby-olson-call-plan-2026-08-18.md (Bobby items + statuses),
 docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
 
-## Latest (2026-08-20): Fran's ten changes SHIPPED to preview + Monica video rule
+## Latest (2026-08-20 late): Monica 2d + 2e SHIPPED; Kenny campaign verified
+
+- **2d reply-in-channel LIVE**: owed_reply_channel() upgrades compose/send_now
+  to email when the owed reply arrived by email (proactive nudges stay SMS);
+  email threading crumbs (subject + provider msg id) ride awaiting_reply;
+  send_message sends GHL emailReplyMode=reply with plain-email fallback and
+  Re: subjects. 14 selfcheck cases. Deployed both Railway services.
+- **2e upload acks LIVE**: pg_cron `upload-event-sweep` (*/10, job 7) posts
+  new branding-bucket objects -> Railway POST /upload-event ->
+  client_concierge.upload_event(): ONE deterministic thank-you per client
+  per burst; acked-paths ledger dedupes; hours-gated bursts persist and
+  retry; 48h drop w/ log; system artifacts (review-qr) never ack; work_log
+  'uploads-received' rows; upload_stranded_check daily (7-day re-flag
+  dedupe) — FIRST RUN FOUND 9 STRANDED LOGOS (Puroclean ELV 31d, Go Green
+  27d, Crew 26d, ServiceMaster 23d, RX 23d, Coastal 21d, Home Pride 12d,
+  RT Olson 11d, Dry County 7d) — cards land on first live sweep; several
+  may just need the action row marked done (logo may already be applied).
+  heartbeat THRESHOLDS covers the new job. E2E: canary test photo uploaded
+  15:50Z awaiting the 16:00Z sweep -> ack to Santino's phone.
+- **Kenny/Paul Davis review campaign VERIFIED healthy** (his "no movement"
+  reply): 1526 enrolled 08-11, 248 SMS out, 137 reached (pace 2/20min),
+  40 clicked (29% CTR), 1 opt-out; link chain live-tested to his Google
+  review box; sender = HydroZ fallback pin; Monica replied fine, nothing
+  owed. His corporate-access connect link was the broken short-link class
+  (fixed today); no Google connection yet = can't show review counts.
+
+## Previous (2026-08-20): Fran's ten changes SHIPPED to preview + Monica video rule
 
 - **QCI / Fran feedback round (lane 1) DONE, commit 195e3e42, staging deploy
   verified live** at staging.rankai-quality-contracting-inc.pages.dev:

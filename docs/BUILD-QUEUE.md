@@ -22,10 +22,16 @@ Current position and deeper context: docs/WORKING-STATE.md.
       9 selfcheck cases; deployed to both Railway services.
    c. Second mailbox OAuth: contact@getrestorationai.com into email intake
       (needs Santino's one sign-in; batch with the Bing re-login sitting).
-   d. Reply-in-channel: email gets email, in-thread.
-   e. Upload acknowledgment texts (burst-debounced) + received->incorporated ledger
-      (the Robert's-logo class: artifacts consumed after upload, never stranded).
-   f. Pilot on Bobby + Fran before fleet-wide.
+   d. ~~Reply-in-channel~~ DONE 08-20: owed_reply_channel() upgrades compose +
+      send_now to email when answering an email; inline replies + acks already
+      channel-aware; GHL emailReplyMode=reply threading with Re: fallback.
+   e. ~~Upload acks + ledger~~ DONE 08-20: pg_cron upload-event-sweep (10 min)
+      -> Railway /upload-event -> ONE deterministic thank-you per burst (all
+      send gates; hours-held bursts retry; system artifacts never ack);
+      work_log received rows; upload_stranded_check flags pinned upload rows
+      planned 72h+ (FIRST RUN: 9 stranded logos, 7-31 days — cards filed).
+   f. Pilot watch on Bobby + Fran (2d threading on their next email) before
+      calling the email evolution done.
 3. **Citations program**: per-directory status tracker (missing/queued/created/
    pending-review/live/blocked) + Build Stages citations popup checklist (socials
    tracked here too: found -> confirmed -> connected-to-GSC) + THREE-clients-per-night
