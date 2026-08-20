@@ -727,6 +727,24 @@ def sent_id_regression_check() -> None:
 
 
 # ---------------------------------------------------------------- history
+def is_internal_sender(msg: dict) -> bool:
+    """INTERNAL SENDER MAP (2026-08-20, the Bobby misattribution): True when
+    a raw GHL message row was written (or answered) by a human on OUR side,
+    regardless of what its direction field claims.
+
+    GHL's two-way email sync logs sends made from our EXTERNAL mailboxes
+    (Santino replying from the contact@getrestorationai.com Gmail instead of
+    the GHL app) as direction=inbound — but it stamps the workspace user's
+    id on the row. On 08-19 Monica read Santino's "These are perfect. We'll
+    add them in for ya" as BOBBY's words and thanked him for them. userId is
+    the same human signal the quiet window and nudge deferral already key
+    on: real people carry it, Monica's API sends and true client messages
+    never do (fleet sample 08-20: 371 inbound rows across 13 clients, 7
+    carried a userId, every readable one was ours — two external-mailbox
+    emails, the rest empty email stubs and one human-answered call)."""
+    return bool(msg.get("userId"))
+
+
 def fetch_history(contact_id: str, max_msgs: int = HISTORY_MAX_MSGS) -> list[dict]:
     """The contact's full cross-conversation message history, newest first.
 
@@ -769,7 +787,14 @@ def fetch_history(contact_id: str, max_msgs: int = HISTORY_MAX_MSGS) -> list[dic
                 continue
             merged.append({
                 "id": msg.get("id"), "when": when,
-                "direction": "in" if msg.get("direction") == "inbound" else "out",
+                # A row bearing a userId is OURS whatever the direction
+                # field says (is_internal_sender: external-mailbox sends
+                # come back through GHL's sync marked "inbound") — so the
+                # transcript reads it as our side and the human-defer /
+                # quiet-window logic sees the human activity it represents.
+                "direction": ("out" if is_internal_sender(msg)
+                              else "in" if msg.get("direction") == "inbound"
+                              else "out"),
                 # user_id: set on every message a real person sent from the
                 # GHL app (texts AND calls); null on API sends like Monica's.
                 # The direct human-vs-concierge signal — no id bookkeeping.
@@ -780,10 +805,13 @@ def fetch_history(contact_id: str, max_msgs: int = HISTORY_MAX_MSGS) -> list[dic
 
 
 def format_history(history: list[dict]) -> str:
-    """Prompt-ready rendering, newest first ('them' = the client, 'us' = our side)."""
+    """Prompt-ready rendering, newest first ('them' = the client, 'us' =
+    Monica/automation, 'us-human' = a real person on our team, usually
+    Santino himself — their words must never be attributed to the client)."""
     return "\n".join(
         f"{m['when'].strftime('%Y-%m-%d %H:%M')} "
-        f"{'them' if m['direction'] == 'in' else 'us'} ({m['channel']}): {m['body']}"
+        f"{'them' if m['direction'] == 'in' else 'us-human' if m.get('user_id') else 'us'}"
+        f" ({m['channel']}): {m['body']}"
         for m in history)
 
 
@@ -4670,7 +4698,9 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     if history:
         history_block = (
             "\nRecent conversation history with this person (newest first; "
-            "'them' = the client, 'us' = anyone on our side):\n"
+            "'them' = the client, 'us' = our side, 'us-human' = a real "
+            "person on our team, usually Santino himself — never treat an "
+            "'us-human' line as something the client said or wrote):\n"
             + format_history(history) + "\n")
     # NAME BUDGET context: the mechanical signal behind the prompt rule
     # (first name at most once per day of thread — Santino 2026-08-02).
@@ -6401,6 +6431,13 @@ def fetch_inbound_since(contact_id: str, since: datetime) -> list[dict]:
         for msg in (data.get("messages") or {}).get("messages", []) or []:
             if msg.get("direction") != "inbound":
                 continue
+            # INTERNAL SENDER MAP (2b): an "inbound" row carrying a GHL
+            # userId is our own external-mailbox send synced back by GHL,
+            # never a client message. Skip it here so neither the webhook
+            # nor the poll ever answers Santino as if he were the client
+            # (Bobby 08-19: Monica thanked him for Santino's own words).
+            if is_internal_sender(msg):
+                continue
             if msg.get("messageType") not in ("TYPE_SMS", "TYPE_EMAIL"):
                 continue
             body = (msg.get("body") or "").strip()
@@ -7607,7 +7644,9 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     history = fetch_history(contact_id, max_msgs=CLASSIFY_HISTORY_MSGS)
     history_block = (
         f"\n\nRecent conversation history (newest first; 'them' = the "
-        f"client, 'us' = our side) — use it to disambiguate short "
+        f"client, 'us' = our side, 'us-human' = a real person on our team, "
+        f"usually Santino — an 'us-human' line is never the client "
+        f"speaking) — use it to disambiguate short "
         f"replies:\n{format_history(history)}" if history else "")
     intel = load_meeting_intel(company)
     intel_block = (
@@ -8798,6 +8837,31 @@ _CAPABILITY_CASES: list[tuple[str, bool]] = [
     ("Sounds like Tuesday's call with Santino went great.", False),
 ]
 
+# INTERNAL SENDER MAP cases (2026-08-20, the Bobby misattribution): raw GHL
+# rows -> is this OUR side despite the direction field? The first case is the
+# live failure verbatim: Santino's send from the external Gmail, synced back
+# by GHL as direction=inbound WITH his workspace userId stamped on it.
+_INTERNAL_SENDER_CASES: list[tuple[dict, bool]] = [
+    ({"direction": "inbound", "messageType": "TYPE_EMAIL",
+      "userId": "xTuHtBz8G7Z4fyhAJ9kJ",
+      "body": "These are perfect. We'll add them in for ya"}, True),
+    # human-answered inbound call: a person on our team spoke, counts as ours
+    ({"direction": "inbound", "messageType": "TYPE_CALL",
+      "userId": "xTuHtBz8G7Z4fyhAJ9kJ", "body": ""}, True),
+    # Santino texting from the GHL app (ordinary human outbound)
+    ({"direction": "outbound", "messageType": "TYPE_SMS",
+      "userId": "xTuHtBz8G7Z4fyhAJ9kJ", "body": "On it, give me an hour"},
+     True),
+    # a REAL client reply — sms and email, no userId — must stay the client
+    ({"direction": "inbound", "messageType": "TYPE_SMS",
+      "body": "Sounds good, thanks"}, False),
+    ({"direction": "inbound", "messageType": "TYPE_EMAIL",
+      "body": "These look great, when do we go live?"}, False),
+    # Monica's own API send: ours, but not a HUMAN row (userId absent)
+    ({"direction": "outbound", "messageType": "TYPE_SMS",
+      "body": "Quick update on your site build."}, False),
+]
+
 # Inbound messages that ARE a request for a phone call (always needs_santino)
 # and near-misses that are not.
 _CALL_REQUEST_CASES: list[tuple[str, bool]] = [
@@ -8833,6 +8897,34 @@ def cmd_selfcheck(_args) -> int:
         ok = got == want
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} {str(got):<5} {text[:62]!r}")
+    print("\ninternal sender map (a userId row is OURS whatever the "
+          "direction field says):")
+    for row, want in _INTERNAL_SENDER_CASES:
+        got = is_internal_sender(row)
+        ok = got == want
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {'ours ' if got else 'them ':<5} "
+              f"{row['direction']}/{row['messageType']} "
+              f"{(row.get('body') or '(no body)')[:44]!r}")
+    # the map must actually be WIRED into both ingest surfaces, not just exist
+    import inspect
+    wired = [
+        ("history renders an internal 'inbound' email as us-human",
+         "us-human (email): These are perfect" in format_history([{
+             "when": datetime.now(timezone.utc),
+             "direction": ("out" if is_internal_sender(
+                 _INTERNAL_SENDER_CASES[0][0]) else "in"),
+             "channel": "email", "user_id": "xTuHtBz8G7Z4fyhAJ9kJ",
+             "body": "These are perfect. We'll add them in for ya"}])),
+        ("fetch_inbound_since source guards on is_internal_sender",
+         "if is_internal_sender(msg):" in
+         inspect.getsource(fetch_inbound_since)),
+        ("fetch_history source routes internal rows to 'out'",
+         "is_internal_sender(msg)" in inspect.getsource(fetch_history)),
+    ]
+    for label, ok in wired:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
     print("\nblocked call promise is SUBSTITUTED, not dropped:")
     tony_reason = capability_violation("Got it, I'll give you a call shortly.")
     subs = [
