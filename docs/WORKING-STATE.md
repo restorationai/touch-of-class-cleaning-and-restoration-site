@@ -47,6 +47,22 @@ docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
   Verified against Bobby's live thread: "These are perfect..." now us-human,
   0 processable inbound. Selfcheck +9 cases ALL GREEN; pushed (6d1185d8) and
   both Railway services redeployed.
+- **JEFF SIBLEY / MCC INCIDENT (08-20) — root-caused + FIXED, Santino owes the
+  personal call**: every /connect/{slug} SHORT link since they shipped 07-28 was
+  100% broken: the worker mints a fresh signed jti per click but never inserts
+  it into connect_links, while connect-link-exchange requires a matching row
+  (its one-time check) -> clients cleared Google sign-in + consent, then hit
+  "AUTHENTICATION FAILED / Link not found". Jeff hit it 3+ times (08-09, 08-16,
+  08-20 screenshots), Monica kept re-sending the same link, he's furious
+  ("Same shit for 2 months.. don't charge my account again"). FIX: connect-
+  link-start now upserts the row after HMAC verification (ignoreDuplicates;
+  fail-closed if the write fails) — deployed via supabase CLI + committed
+  (app-work fdbbf5f), verified end-to-end (click -> row stored -> 302 Google).
+  Jeff's EXISTING link works on his next tap. HOLD note 8c3306ca on MCC keeps
+  Monica out of the thread until Santino personally reaches him (billing
+  make-good = Santino's call). Fleet: last successful standalone connect was
+  07-25 (pre-short-link); HomeLyft has an unused 08-03 pre-minted link (may
+  have tapped a short one instead); other open connect asks will now succeed.
 - **Next per BUILD-QUEUE.md**: Monica email evolution stages c-f (second-mailbox
   OAuth needs Santino sign-in, reply-in-channel, upload acks, Bobby+Fran pilot);
   then citations program; then social discovery sweep.
