@@ -116,6 +116,36 @@
       "triaged_at": "2026-08-05T05:55:11Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMGPX8Fq7vzLfszA_OIGQ7DabYCP2iJKUrASU9-": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMGPX8Fq7vzLfszA_OIGQ7DabYCP2iJKUrASU9-.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipMGPX8Fq7vzLfszA_OIGQ7DabYCP2iJKUrASU9-.jpg",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 389366,
+      "sha1": "f6bde86893d54ce4",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing collage with water leak attic photos and phone number",
+      "quality": 55,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "roof-leak-repair"
+      ],
+      "flags": [
+        "text_overlay",
+        "phone_number",
+        "logo_card"
+      ],
+      "reason": "Composited marketing card with overlaid text, phone number, and logo pasted in.",
+      "triaged_at": "2026-08-21T09:26:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMGshjOSTB_WxlDJx-CibSQhY1ZO2frSAXDxICy": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMGshjOSTB_WxlDJx-CibSQhY1ZO2frSAXDxICy.jpg",
@@ -202,6 +232,35 @@
       "triaged_at": "2026-08-20T01:32:04Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMPNlGzhqAjQTejl9v2dTTTbiDsen9Dz3SP-mOv": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMPNlGzhqAjQTejl9v2dTTTbiDsen9Dz3SP-mOv.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipMPNlGzhqAjQTejl9v2dTTTbiDsen9Dz3SP-mOv.jpg",
+      "width": 1320,
+      "height": 1287,
+      "bytes": 275872,
+      "sha1": "2394b855b981a742",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Red air mover units deployed in dark crawl space",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "low_res",
+        "indoor_clutter"
+      ],
+      "reason": "Dark, cluttered crawl space; equipment identifiable but poor exposure and composition.",
+      "triaged_at": "2026-08-21T09:26:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMSFI_ojRVcrZrha8m_KR_pqrwKwYFGa5cljIIh": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMSFI_ojRVcrZrha8m_KR_pqrwKwYFGa5cljIIh.jpg",
@@ -257,6 +316,34 @@
       ],
       "reason": "Useful mid-job evidence but low angle and clutter reduce appeal.",
       "triaged_at": "2026-08-05T05:55:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMUmNMsVgargkHOUdkAJLMy2Pi6_dGE9anSBy-1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMUmNMsVgargkHOUdkAJLMy2Pi6_dGE9anSBy-1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipMUmNMsVgargkHOUdkAJLMy2Pi6_dGE9anSBy-1.jpg",
+      "width": 1320,
+      "height": 1809,
+      "bytes": 507137,
+      "sha1": "f05eb30c76f86661",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Containment barrier with dehumidifier in residential kitchen",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear containment setup visible; cluttered kitchen context limits hero use.",
+      "triaged_at": "2026-08-21T09:26:38Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMZGPN8RWtJV1PpriE11b1s4IGPTdDH0kQxodt8": {
@@ -646,6 +733,34 @@
       "triaged_at": "2026-08-05T05:56:03Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNWlOwwXXwxJAm3WnT-ipY1sO-1c93MskMQjevS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNWlOwwXXwxJAm3WnT-ipY1sO-1c93MskMQjevS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipNWlOwwXXwxJAm3WnT-ipY1sO-1c93MskMQjevS.jpg",
+      "width": 1320,
+      "height": 1586,
+      "bytes": 225744,
+      "sha1": "5ada1f49cef6ea03",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Gloved hand using moisture meter on baseboard carpet edge",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-inspection-testing"
+      ],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Useful subject but awkward angle, partial frame, and slight blur reduce usability.",
+      "triaged_at": "2026-08-21T09:26:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNignI5jZVbldDc4wKsHYRUSUO6Zex5RjvcdIyf": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNignI5jZVbldDc4wKsHYRUSUO6Zex5RjvcdIyf.jpg",
@@ -674,6 +789,32 @@
       ],
       "reason": "Cluttered personal kitchen distracts; low professionalism reduces slot value.",
       "triaged_at": "2026-08-05T05:56:03Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNkO3byS03s3nTlz57xHcF_Ugiwy5jsW48CcWZM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNkO3byS03s3nTlz57xHcF_Ugiwy5jsW48CcWZM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipNkO3byS03s3nTlz57xHcF_Ugiwy5jsW48CcWZM.jpg",
+      "width": 1320,
+      "height": 1788,
+      "bytes": 952266,
+      "sha1": "4918e785bae8dd15",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Damaged wet insulation removed and piled outside crawl space",
+      "quality": 48,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Decent natural light showing remediation debris; top-down angle limits appeal.",
+      "triaged_at": "2026-08-21T09:26:38Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNnTfi0SAHwnEtvgY1ME6voTNthcPidEPDUKzIG": {
@@ -743,6 +884,34 @@
       "triaged_at": "2026-08-05T05:56:03Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOESvqiHosCjRlemnmtBtMkZDtZ3ZaTiFFhDoxy": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOESvqiHosCjRlemnmtBtMkZDtZ3ZaTiFFhDoxy.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipOESvqiHosCjRlemnmtBtMkZDtZ3ZaTiFFhDoxy.jpg",
+      "width": 1320,
+      "height": 1419,
+      "bytes": 398777,
+      "sha1": "cca8196aa4c1a1ec",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space access opening showing damaged hanging insulation",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 38
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Dark, cluttered scene with tool in foreground; poor exposure limits professional use.",
+      "triaged_at": "2026-08-21T09:26:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOF1fXlSK550wzb8Bq1_YSTOt9f_wuny-h8g8ns": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOF1fXlSK550wzb8Bq1_YSTOt9f_wuny-h8g8ns.jpg",
@@ -797,6 +966,59 @@
       ],
       "reason": "Poorly composed, dark, off-angle macro shot with limited marketing value.",
       "triaged_at": "2026-08-05T05:56:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOT7u_ynheByXhjMxP9k3Ai0IoYz4Ho5FzkqsL2": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOT7u_ynheByXhjMxP9k3Ai0IoYz4Ho5FzkqsL2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipOT7u_ynheByXhjMxP9k3Ai0IoYz4Ho5FzkqsL2.jpg",
+      "width": 1320,
+      "height": 1734,
+      "bytes": 532292,
+      "sha1": "14098707d5e08a67",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Cluttered utility laundry room with water heater and washer",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "appliance-leak-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered, poorly composed utility room; low professional value for marketing.",
+      "triaged_at": "2026-08-21T09:26:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOTMgfRxTjqIl1xIOX2_WWkRytlTvrlmh7wXzGr": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOTMgfRxTjqIl1xIOX2_WWkRytlTvrlmh7wXzGr.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipOTMgfRxTjqIl1xIOX2_WWkRytlTvrlmh7wXzGr.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 423188,
+      "sha1": "1fb4a3ce29c30fff",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Laundry room ceiling opened with red tape moisture markers",
+      "quality": 48,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "roof-leak-repair"
+      ],
+      "flags": [],
+      "reason": "Shows active moisture investigation with ceiling demo; useful for services page.",
+      "triaged_at": "2026-08-21T09:26:55Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOUP1owrZOshBTweZttTtaS_cE40Pyz3T1GfdK2": {
@@ -854,6 +1076,59 @@
       "flags": [],
       "reason": "Good documentary shot of real damage and assessment; cluttered interior limits hero use.",
       "triaged_at": "2026-08-05T05:56:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOZ5Sn2VN5ye8UwFq15SNFpH_SNsKiF_hzAI1tB": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOZ5Sn2VN5ye8UwFq15SNFpH_SNsKiF_hzAI1tB.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipOZ5Sn2VN5ye8UwFq15SNFpH_SNsKiF_hzAI1tB.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 299223,
+      "sha1": "d5031a1583a6576b",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Hand holding SurveyMaster moisture meter reading 999 WET",
+      "quality": 62,
+      "slots": {
+        "hero": 10,
+        "team": 15,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-inspection-testing"
+      ],
+      "flags": [],
+      "reason": "Clear moisture meter reading conveys professional assessment; good services card.",
+      "triaged_at": "2026-08-21T09:26:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO_TL4ODwIojlGnmtZ2L7Dm-_Q7-p6Q0FBR7Zfn": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO_TL4ODwIojlGnmtZ2L7Dm-_Q7-p6Q0FBR7Zfn.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipO_TL4ODwIojlGnmtZ2L7Dm-_Q7-p6Q0FBR7Zfn.jpg",
+      "width": 1320,
+      "height": 1837,
+      "bytes": 699077,
+      "sha1": "f20d9bce8e3095b4",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in full yellow hazmat suit outside residential building",
+      "quality": 58,
+      "slots": {
+        "hero": 30,
+        "team": 70,
+        "services": 72
+      },
+      "service_slugs": [
+        "biohazard-cleanup",
+        "mold-remediation",
+        "hoarding-cleanup"
+      ],
+      "flags": [],
+      "reason": "Well-suited technician in PPE; strong services and team visual despite low light.",
+      "triaged_at": "2026-08-21T09:26:55Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOcv2kwFn6LpBIkpP9gx5VnLJrHi_sgYQxK1tAS": {
@@ -1236,6 +1511,32 @@
       "triaged_at": "2026-08-05T05:56:57Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPIGx3KvAp9eXqhxb_C9ydwnT-vHOzBZHm4FxaZ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPIGx3KvAp9eXqhxb_C9ydwnT-vHOzBZHm4FxaZ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipPIGx3KvAp9eXqhxb_C9ydwnT-vHOzBZHm4FxaZ.jpg",
+      "width": 1320,
+      "height": 1798,
+      "bytes": 299050,
+      "sha1": "a06fcedb2710c90e",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Gloved hand pressing moisture meter to wall in basement storage",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "flags": [],
+      "reason": "Dark, awkward composition limits usability despite relevant subject matter.",
+      "triaged_at": "2026-08-21T09:26:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPIp2mkpRj3STe241YdvBw1KNraS09JQ7Or2AUW": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPIp2mkpRj3STe241YdvBw1KNraS09JQ7Or2AUW.jpg",
@@ -1438,6 +1739,33 @@
       "triaged_at": "2026-08-05T05:57:15Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPqCnb3jnvWwA2KovMOczqOpZ2uL4rhHxMBZl-C": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPqCnb3jnvWwA2KovMOczqOpZ2uL4rhHxMBZl-C.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipPqCnb3jnvWwA2KovMOczqOpZ2uL4rhHxMBZl-C.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 433258,
+      "sha1": "7aeacf53328e87a7",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Hand testing moisture in wet pink insulation inside attic space",
+      "quality": 44,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 48
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "roof-leak-repair",
+        "mold-inspection-testing"
+      ],
+      "flags": [],
+      "reason": "Dark attic shot with meter in wet insulation; niche services value, low hero appeal.",
+      "triaged_at": "2026-08-21T09:26:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPtAqKAxEPbFCGA_RCqY3y29e-iWmDRWa2oehFh": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPtAqKAxEPbFCGA_RCqY3y29e-iWmDRWa2oehFh.jpg",
@@ -1561,5 +1889,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-20T01:32:04Z"
+  "triaged_at": "2026-08-21T09:26:55Z"
 }
