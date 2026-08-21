@@ -62,9 +62,13 @@ except Exception:
 
 CF_API = "https://api.cloudflare.com/client/v4"
 # Shared public bucket for clients whose per-client bucket doesn't exist yet
-# (created pre-onboarding, 2026-07-26; managed r2.dev domain enabled).
+# (created pre-onboarding, 2026-07-26). 2026-08-21: served via the custom
+# domain geogrid.restorationai.io — the managed r2.dev URL stays enabled as
+# the bucket's fallback, but r2.dev is rate-limited, not-for-production,
+# and Santino's LAN DNS poisons it (resolved to a bogus non-Cloudflare IP,
+# so every map image looked broken from his network).
 FALLBACK_BUCKET = "rankai-geogrid"
-FALLBACK_PUBLIC_URL = "https://pub-1fc4fbd06484414192f087f3e6a5eca9.r2.dev"
+FALLBACK_PUBLIC_URL = "https://geogrid.restorationai.io"
 
 
 def _now_iso() -> str:

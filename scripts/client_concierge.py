@@ -8510,8 +8510,13 @@ def upload_stranded_check(dry_run: bool = False,
     live run 08-20 found NINE logos sitting planned 7-31 days — without the
     dedupe those become daily duplicates). Ran daily from the /upload-event
     sweep (state-flagged so 10-min calls stay cheap)."""
+    # Logo rows are EXCLUDED here (2026-08-21): logo_stranded_check.py
+    # auto-verifies/auto-resolves them and files [DEV] cards for the rest —
+    # Santino never gets a logo card again. This check keeps watching the
+    # OTHER upload classes (customer list, brand kit).
     rows = _sb("GET", "/rest/v1/marketing_action_plan"
                "?status=eq.planned&pinned=is.true&title=ilike.*uploaded*"
+               "&title=not.ilike.Logo*"
                "&select=company_id,title,updated_at,source_run_at") or []
     flagged = 0
     now = datetime.now(timezone.utc)

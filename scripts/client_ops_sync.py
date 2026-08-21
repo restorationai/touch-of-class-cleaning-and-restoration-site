@@ -1660,6 +1660,18 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     except Exception as e:  # noqa: BLE001
         print(f"  EMAIL: inbox sync errored: {str(e)[:120]}")
 
+    # Stranded logos resolve themselves (Santino 2026-08-21: "I shouldn't
+    # have to be the one to apply it or close the row"): verified-applied
+    # rows auto-close with evidence, truly-unapplied ones become [DEV]
+    # cards for the imagery pipeline — never Santino cards.
+    try:
+        from logo_stranded_check import check_logos
+        for ln in check_logos(dry_run):
+            print("  LOGO: " + ln)
+            sweep_lines.append(ln)
+    except Exception as e:  # noqa: BLE001
+        print(f"  LOGO: check errored: {str(e)[:120]}")
+
     # Stage-dwell checker (Santino 2026-08-10): derive every client's website
     # stage EXACTLY like the app's Build Stages board, track dwell time in
     # ops_kv 'stage-history', and route each unmet exit item to the system
