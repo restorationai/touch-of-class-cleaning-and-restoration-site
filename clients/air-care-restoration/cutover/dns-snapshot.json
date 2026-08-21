@@ -1,6 +1,6 @@
 {
  "domain": "aircarerestoration.com",
- "captured_at": "2026-08-21T00:51:01+00:00",
+ "captured_at": "2026-08-21T01:48:53+00:00",
  "authoritative": {
   "ns": [
    "ns1.wordpress.com",
@@ -10,23 +10,23 @@
   "mx": [
    {
     "priority": 10,
-    "exchange": "alt3.aspmx.l.google.com"
-   },
-   {
-    "priority": 1,
-    "exchange": "aspmx.l.google.com"
-   },
-   {
-    "priority": 5,
-    "exchange": "alt1.aspmx.l.google.com"
+    "exchange": "alt4.aspmx.l.google.com"
    },
    {
     "priority": 5,
     "exchange": "alt2.aspmx.l.google.com"
    },
    {
+    "priority": 1,
+    "exchange": "aspmx.l.google.com"
+   },
+   {
     "priority": 10,
-    "exchange": "alt4.aspmx.l.google.com"
+    "exchange": "alt3.aspmx.l.google.com"
+   },
+   {
+    "priority": 5,
+    "exchange": "alt1.aspmx.l.google.com"
    }
   ],
   "apex_txt": [
@@ -37,13 +37,11 @@
   ],
   "dkim": {},
   "apex_a": [
-   "172.66.44.137",
-   "172.66.47.119"
+   "172.67.187.198",
+   "104.21.51.219"
   ],
   "apex_cname": [],
-  "www_cname": [
-   "rankai-air-care-restoration.pages.dev"
-  ]
+  "www_cname": []
  },
  "cf_zone": {
   "zone_id": "6434b425bba59da9a642b90946e22803",
