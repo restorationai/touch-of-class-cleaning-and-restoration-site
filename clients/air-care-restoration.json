@@ -13,7 +13,7 @@
     "url_count": 380,
     "generated_at": "2026-08-16T09:42:03.082371+00:00"
   },
-  "updated_at": "2026-08-19T03:00:45.888724+00:00",
+  "updated_at": "2026-08-21T00:42:54+00:00",
   "gbp": {
     "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJAbX4Kjsyg2IRF9RgElzgJXk"
@@ -38,5 +38,14 @@
     "backlinked_count": 1,
     "redirects_added": 11,
     "mapped_at": "2026-08-16T14:25:08+00:00"
+  },
+  "zone": {
+    "id": "6434b425bba59da9a642b90946e22803",
+    "name": "aircarerestoration.com",
+    "status": "pending",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ]
   }
 }

@@ -1,32 +1,31 @@
 {
  "domain": "aircarerestoration.com",
- "captured_at": "2026-08-21T00:17:55+00:00",
+ "captured_at": "2026-08-21T00:42:47+00:00",
  "authoritative": {
   "ns": [
-   "ns1.wordpress.com",
-   "ns2.wordpress.com",
-   "ns3.wordpress.com"
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
   ],
   "mx": [
    {
-    "priority": 5,
-    "exchange": "alt2.aspmx.l.google.com"
-   },
-   {
     "priority": 1,
     "exchange": "aspmx.l.google.com"
+   },
+   {
+    "priority": 10,
+    "exchange": "alt4.aspmx.l.google.com"
    },
    {
     "priority": 5,
     "exchange": "alt1.aspmx.l.google.com"
    },
    {
-    "priority": 10,
-    "exchange": "alt3.aspmx.l.google.com"
+    "priority": 5,
+    "exchange": "alt2.aspmx.l.google.com"
    },
    {
     "priority": 10,
-    "exchange": "alt4.aspmx.l.google.com"
+    "exchange": "alt3.aspmx.l.google.com"
    }
   ],
   "apex_txt": [
@@ -36,14 +35,9 @@
    "v=DMARC1;p=none;"
   ],
   "dkim": {},
-  "apex_a": [
-   "192.0.78.202",
-   "192.0.78.182"
-  ],
+  "apex_a": [],
   "apex_cname": [],
-  "www_cname": [
-   "aircarerestoration.com"
-  ]
+  "www_cname": []
  },
  "cf_zone": {
   "zone_id": "6434b425bba59da9a642b90946e22803",
