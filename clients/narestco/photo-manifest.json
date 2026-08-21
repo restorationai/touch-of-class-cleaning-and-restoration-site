@@ -1233,6 +1233,35 @@
       "triaged_at": "2026-08-05T05:56:39Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOtB2WpaKJFczXQ-UeJeVKLKAKGvN2gu-TRWWNx": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOtB2WpaKJFczXQ-UeJeVKLKAKGvN2gu-TRWWNx.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipOtB2WpaKJFczXQ-UeJeVKLKAKGvN2gu-TRWWNx.jpg",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 346177,
+      "sha1": "ab66033e9976fb18",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Toilet flange inspection marketing collage with phone number overlay",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "phone_number",
+        "logo_card"
+      ],
+      "reason": "Composited marketing card with burnt-in headline, phone number, and logo lockup.",
+      "triaged_at": "2026-08-21T19:27:03Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOvRcy7nPvmBJCbRYXnL94jTCPpfdJa0YIh1hEn": {
       "source": "gbp",
       "storage": "job-photos/posted/r1785178959_gbp-AF1QipOvRcy7nPvmBJCbRYXnL94jTCPpfdJa0YIh1hEn.jpg",
@@ -1889,5 +1918,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-21T09:26:55Z"
+  "triaged_at": "2026-08-21T19:27:03Z"
 }
