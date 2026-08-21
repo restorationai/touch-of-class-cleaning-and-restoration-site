@@ -47,6 +47,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import json
 import os
 import re
 import sys
@@ -65,6 +66,14 @@ from client_concierge import (  # noqa: E402
 
 CURSOR_KEY = "email-inbox-sync-cursor"
 SEEN_KEY = "email-inbox-sync-seen"
+# SECOND MAILBOX (Monica email evolution 2c, 2026-08-20): the sales-era
+# contact@getrestorationai.com inbox — where Bobby's unanswered emails sat.
+# Scanned with its own token/cursor/seen; skipped quietly when no token is
+# minted yet, so the daily sweep never breaks on a missing credential.
+GETREST_TOKEN_PATH = (Path.home() / ".config" / "rankai"
+                      / "gmail_token_getrestorationai.json")
+GETREST_CURSOR_KEY = "email-inbox-sync-cursor-getrest"
+GETREST_SEEN_KEY = "email-inbox-sync-seen-getrest"
 SEEN_CAP = 500
 DEFAULT_LOOKBACK_DAYS = 14
 SNIPPET_CHARS = 300
@@ -199,17 +208,60 @@ def _safe_filename(name: str) -> str:
 
 
 # -------------------------------------------------------------------- sync
+def _getrest_access_token() -> str | None:
+    """Access token for the getrestorationai.com mailbox, or None when its
+    refresh token hasn't been minted (gmail_auth_bootstrap.py) — the sweep
+    then skips that mailbox without failing. Env GMAIL_TOKEN_JSON_GETREST
+    (CI) beats the on-disk file (ops Mac), mirroring email_intake."""
+    env_tok = os.environ.get("GMAIL_TOKEN_JSON_GETREST", "").strip()
+    if env_tok:
+        saved = json.loads(env_tok)
+    elif GETREST_TOKEN_PATH.exists():
+        saved = json.loads(GETREST_TOKEN_PATH.read_text())
+    else:
+        return None
+    tok = email_intake._http(
+        "https://oauth2.googleapis.com/token",
+        data=urllib.parse.urlencode({
+            "refresh_token": saved["refresh_token"],
+            "client_id": os.environ["GOOGLE_OAUTH_CLIENT_ID"],
+            "client_secret": os.environ["GOOGLE_OAUTH_CLIENT_SECRET"],
+            "grant_type": "refresh_token"}).encode(),
+        headers={"Content-Type": "application/x-www-form-urlencoded"})
+    return tok.get("access_token")
+
+
 def sync_inbox(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
-    """One pass: new inbox mail from known clients -> one note each (plus
-    attachments into their account documents). Returns '{slug}: ...' lines
-    for the sweep log. Read-only on Gmail; idempotent via ops_kv."""
+    """One pass over BOTH our mailboxes: new inbox mail from known clients
+    -> one note each (plus attachments into their account documents).
+    Returns '{slug}: ...' lines for the sweep log. Read-only on Gmail;
+    idempotent via ops_kv."""
+    out = _sync_one_mailbox("restorationai.io", email_intake.access_token(),
+                            CURSOR_KEY, SEEN_KEY, dry_run, cid_to_slug)
+    tok2 = None
+    try:
+        tok2 = _getrest_access_token()
+    except Exception as e:  # noqa: BLE001 — one mailbox must not sink the other
+        print(f"  ! getrestorationai token refresh failed: {str(e)[:100]}")
+    if tok2:
+        out += _sync_one_mailbox("getrestorationai.com", tok2,
+                                 GETREST_CURSOR_KEY, GETREST_SEEN_KEY,
+                                 dry_run, cid_to_slug)
+    else:
+        print("  (getrestorationai.com mailbox: no token — skipped; mint "
+              "one with scripts/gmail_auth_bootstrap.py)")
+    return out
+
+
+def _sync_one_mailbox(mailbox: str, tok: str, cursor_key: str,
+                      seen_key: str, dry_run: bool,
+                      cid_to_slug: dict | None = None) -> list[str]:
     cid_to_slug = cid_to_slug or {}
     out: list[str] = []
     run_start = datetime.now(timezone.utc)
 
-    tok = email_intake.access_token()
-    cursor = kv_get(CURSOR_KEY)
-    seen: list[str] = kv_get(SEEN_KEY) or []
+    cursor = kv_get(cursor_key)
+    seen: list[str] = kv_get(seen_key) or []
     if cursor:
         since = datetime.fromisoformat(str(cursor).replace("Z", "+00:00"))
     else:
@@ -228,7 +280,8 @@ def sync_inbox(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         if not page:
             break
     fresh = [s for s in stubs if s["id"] not in set(seen)]
-    print(f"email-inbox sync since {since.strftime('%Y-%m-%d %H:%M')}Z: "
+    print(f"email-inbox sync [{mailbox}] since "
+          f"{since.strftime('%Y-%m-%d %H:%M')}Z: "
           f"{len(stubs)} inbox message(s), {len(fresh)} unprocessed"
           f"{' [DRY RUN]' if dry_run else ''}")
 
@@ -291,7 +344,8 @@ def sync_inbox(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 att = "present but could not be saved — check the inbox"
             else:
                 att = "none"
-            note = (f"[CLIENT EMAIL] {sender} emailed {subject!r} on {when}: "
+            note = (f"[CLIENT EMAIL] {sender} emailed {subject!r} on {when} "
+                    f"(to our {mailbox} inbox): "
                     f"{snippet or '(no readable body)'} Attachments: {att}.")
             if dry_run:
                 print(f"  WOULD file note -> {slug}: {note[:160]}")
@@ -307,12 +361,12 @@ def sync_inbox(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
 
     if not dry_run:
         seen = (seen + processed)[-SEEN_CAP:]
-        kv_set(SEEN_KEY, seen)
+        kv_set(seen_key, seen)
         # Overlap the next window by an hour; the seen list absorbs the rerun.
-        kv_set(CURSOR_KEY, (run_start - timedelta(hours=1)).strftime(
+        kv_set(cursor_key, (run_start - timedelta(hours=1)).strftime(
             "%Y-%m-%dT%H:%M:%SZ"))
-    print(f"email-inbox sync: {filed} note(s) filed, {skipped} non-client "
-          f"message(s) skipped")
+    print(f"email-inbox sync [{mailbox}]: {filed} note(s) filed, "
+          f"{skipped} non-client message(s) skipped")
     return out
 
 

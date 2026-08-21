@@ -65,6 +65,7 @@ jobs:
           # Without it every "access confirmed" claim stays UNVERIFIED
           # rather than silently trusted.
           GMAIL_TOKEN_JSON:          ${{ secrets.GMAIL_TOKEN_JSON }}
+          GMAIL_TOKEN_JSON_GETREST:  ${{ secrets.GMAIL_TOKEN_JSON_GETREST }}
           DATAFORSEO_USERNAME:       ${{ secrets.DATAFORSEO_USERNAME }}
           DATAFORSEO_PASSWORD:       ${{ secrets.DATAFORSEO_PASSWORD }}
           ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
