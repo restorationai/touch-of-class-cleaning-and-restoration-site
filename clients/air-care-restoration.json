@@ -13,7 +13,7 @@
     "url_count": 380,
     "generated_at": "2026-08-16T09:42:03.082371+00:00"
   },
-  "updated_at": "2026-08-21T00:42:54+00:00",
+  "updated_at": "2026-08-21T00:51:04+00:00",
   "gbp": {
     "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJAbX4Kjsyg2IRF9RgElzgJXk"
@@ -47,5 +47,8 @@
       "amos.ns.cloudflare.com",
       "anastasia.ns.cloudflare.com"
     ]
+  },
+  "apex_cutover": {
+    "legacy_origin": "172.66.44.137"
   }
 }

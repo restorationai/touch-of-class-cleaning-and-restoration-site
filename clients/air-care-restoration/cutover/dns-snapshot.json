@@ -1,19 +1,20 @@
 {
  "domain": "aircarerestoration.com",
- "captured_at": "2026-08-21T00:42:47+00:00",
+ "captured_at": "2026-08-21T00:51:01+00:00",
  "authoritative": {
   "ns": [
-   "amos.ns.cloudflare.com",
-   "anastasia.ns.cloudflare.com"
+   "ns1.wordpress.com",
+   "ns2.wordpress.com",
+   "ns3.wordpress.com"
   ],
   "mx": [
    {
-    "priority": 1,
-    "exchange": "aspmx.l.google.com"
+    "priority": 10,
+    "exchange": "alt3.aspmx.l.google.com"
    },
    {
-    "priority": 10,
-    "exchange": "alt4.aspmx.l.google.com"
+    "priority": 1,
+    "exchange": "aspmx.l.google.com"
    },
    {
     "priority": 5,
@@ -25,7 +26,7 @@
    },
    {
     "priority": 10,
-    "exchange": "alt3.aspmx.l.google.com"
+    "exchange": "alt4.aspmx.l.google.com"
    }
   ],
   "apex_txt": [
@@ -35,9 +36,14 @@
    "v=DMARC1;p=none;"
   ],
   "dkim": {},
-  "apex_a": [],
+  "apex_a": [
+   "172.66.44.137",
+   "172.66.47.119"
+  ],
   "apex_cname": [],
-  "www_cname": []
+  "www_cname": [
+   "rankai-air-care-restoration.pages.dev"
+  ]
  },
  "cf_zone": {
   "zone_id": "6434b425bba59da9a642b90946e22803",
@@ -46,6 +52,22 @@
    "anastasia.ns.cloudflare.com"
   ],
   "records": [
+   {
+    "id": "31f43c663a9b59e12384a651b445ac82",
+    "type": "CNAME",
+    "name": "aircarerestoration.com",
+    "content": "rankai-air-care-restoration.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "d5b76422802636888e58162ef877cb7f",
+    "type": "CNAME",
+    "name": "www.aircarerestoration.com",
+    "content": "rankai-air-care-restoration.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
    {
     "id": "9086816fe2d042e2c4c09693a11906f9",
     "type": "MX",
