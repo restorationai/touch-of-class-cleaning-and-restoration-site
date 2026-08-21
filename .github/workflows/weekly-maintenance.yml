@@ -74,6 +74,13 @@ jobs:
           fi
 
       - name: Run due systems (S1-S4 for all active clients)
+        # 2026-08-21: this step hung and ate the ENTIRE 2h job budget on
+        # every run since ~08-06 (runs died "cancelled 2h0m"), starving
+        # every step below it — GBP daily insights went stale fleet-wide
+        # and the Locations tab showed zeros (Roy/RX stuck at 08-03).
+        # A hung content run may lose ITS slot, never the whole sweep.
+        timeout-minutes: 60
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY:            ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_AI_API_KEY:            ${{ secrets.GOOGLE_AI_API_KEY }}
