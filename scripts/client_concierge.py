@@ -3854,6 +3854,10 @@ def send_message(contact: dict, channel: str, body: str,
         banned = topic_ban_violation(company.get("id"), body)
         if banned:
             raise SendBlocked(banned)
+        # LAUNCHED-CLAIM — a "your site is live" needs the cutover stamp.
+        live_claim = site_live_claim_violation(company, body)
+        if live_claim:
+            raise SendBlocked(live_claim)
         # INTERNAL LEAK — last line, same standing as the topic ban.
         leak = internal_leak_violation(body, fetch_internal_work(company["id"]))
         if leak:
@@ -4486,6 +4490,49 @@ def site_live_fact(company: dict) -> str | None:
     if row.get("apex_live") and apex and "none" not in apex.lower():
         return apex if apex.startswith("http") else f"https://{apex}"
     return None
+
+
+# LAUNCHED-CLAIM GUARD (2026-08-21, the Sarha/Air Care incident): Monica told
+# a client "your website is live now" while the build sat on staging — the
+# compose read an APPROVED "push the site live" action item as a done fact,
+# and when the client correctly pushed back she was told search engines just
+# needed time. A liveness CLAIM must be backed by the cutover stamp itself.
+_SITE_LIVE_CLAIM_RE = re.compile(
+    r"\b(?:your|the)\s+(?:new\s+)?(?:web\s?site|site)\s+(?:is|went)\s+"
+    r"(?:now\s+|officially\s+|actually\s+)?live\b"
+    r"|\bsite\s+is\s+live\s+now\b",
+    re.I)
+
+
+def site_live_claim_violation(company: dict, body: str,
+                              live_lookup=None) -> str | None:
+    """Refusal reason when body claims the client's SITE IS LIVE but the
+    cutover has never been stamped. Preview wording ("your preview is
+    live") does not match; progressive wording ("we're getting your site
+    live now") does not match — only the done-claim does. live_lookup is
+    injectable for the offline selfcheck; the real one reads
+    marketing_sites.apex_live. FAILS CLOSED on lookup errors: if we cannot
+    prove the site is live, we do not say it is."""
+    if not _SITE_LIVE_CLAIM_RE.search(body or ""):
+        return None
+    if "preview" in (body or "").lower():
+        return None
+    cid = (company or {}).get("id")
+    if live_lookup is None:
+        def live_lookup(company_id):  # noqa: ANN001
+            rows = _sb("GET", "/rest/v1/marketing_sites"
+                       f"?company_id=eq.{company_id}&select=apex_live") or []
+            return any(r.get("apex_live") for r in rows)
+    try:
+        if cid and live_lookup(cid):
+            return None
+    except Exception as e:  # noqa: BLE001 — cannot verify -> cannot claim
+        return ("LAUNCHED-CLAIM GUARD: could not verify apex_live "
+                f"({str(e)[:60]}) — a site-live claim needs proof")
+    return ("LAUNCHED-CLAIM GUARD: the draft claims the client's site is "
+            "LIVE but marketing_sites.apex_live is not true for "
+            f"{cid or 'unknown company'} — the Sarha class. Say the build "
+            "is ready and launch is next, never that it is live.")
 
 
 def verify_outbound_links(company: dict, body: str) -> tuple[str, str | None]:
@@ -9350,6 +9397,46 @@ def cmd_selfcheck(_args) -> int:
          "upload_stranded_check" in inspect.getsource(upload_event)),
     ]
     for label, ok in up_cases:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    print("\nlaunched-claim guard: 'your site is live' needs the cutover "
+          "stamp:")
+    _co = {"id": "CO-TEST"}
+    _not_live = lambda cid: False    # noqa: E731
+    _is_live = lambda cid: True      # noqa: E731
+    def _boom(cid):
+        raise RuntimeError("db down")
+    lc_cases = [
+        ("the Sarha message verbatim is blocked when not live",
+         site_live_claim_violation(_co,
+             "Good news, your website is live now at https://aircarerestoration.com/.",
+             _not_live) is not None),
+        ("'your new site went live' is blocked when not live",
+         site_live_claim_violation(_co, "Your new site went live today!",
+                                   _not_live) is not None),
+        ("the same claim PASSES once apex_live is true",
+         site_live_claim_violation(_co,
+             "Good news, your website is live now.", _is_live) is None),
+        ("preview wording never trips it",
+         site_live_claim_violation(_co,
+             "Your preview site is live at staging, take a look.",
+             _not_live) is None),
+        ("progressive wording never trips it",
+         site_live_claim_violation(_co,
+             "We're getting your website live now, we'll confirm the moment "
+             "it's up.", _not_live) is None),
+        ("ordinary copy never trips it",
+         site_live_claim_violation(_co,
+             "Quick update on the review campaign.", _not_live) is None),
+        ("lookup failure FAILS CLOSED (cannot verify -> cannot claim)",
+         site_live_claim_violation(_co, "Your website is live now.",
+                                   _boom) is not None),
+        ("send_message is wired",
+         "site_live_claim_violation(company, body)"
+         in inspect.getsource(send_message)),
+    ]
+    for label, ok in lc_cases:
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} {label}")
     print("\nblocked call promise is SUBSTITUTED, not dropped:")
