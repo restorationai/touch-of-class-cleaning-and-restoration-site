@@ -35,7 +35,7 @@ Current position and deeper context: docs/WORKING-STATE.md.
 3. **Citations program**: tracker table + Build Stages popup SHIPPED 08-21
    (citation_listings, 33 seed rows + 24 discovered socials; popup v10.1 names
    every missing platform, wrong_data rows carry corrections — Reign pilot;
-   branch feat/citations-popup awaiting Santino review/merge). REMAINING:
+   MERGED TO PROD 08-21 incl. Social Profiles card on Connect). REMAINING:
    3-per-night creation rotation + per-directory backoff + failure-streak
    watchdog (parked per Santino) + Bing re-login (Santino).
 4. **Social discovery**: data pass DONE 08-21 (site-footer crawl, 24 profiles
