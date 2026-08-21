@@ -1,6 +1,6 @@
 {
  "domain": "aircarerestoration.com",
- "captured_at": "2026-08-17T06:51:06+00:00",
+ "captured_at": "2026-08-21T00:17:55+00:00",
  "authoritative": {
   "ns": [
    "ns1.wordpress.com",
@@ -9,24 +9,24 @@
   ],
   "mx": [
    {
-    "priority": 1,
-    "exchange": "aspmx.l.google.com"
+    "priority": 5,
+    "exchange": "alt2.aspmx.l.google.com"
    },
    {
-    "priority": 10,
-    "exchange": "alt4.aspmx.l.google.com"
+    "priority": 1,
+    "exchange": "aspmx.l.google.com"
    },
    {
     "priority": 5,
     "exchange": "alt1.aspmx.l.google.com"
    },
    {
-    "priority": 5,
-    "exchange": "alt2.aspmx.l.google.com"
+    "priority": 10,
+    "exchange": "alt3.aspmx.l.google.com"
    },
    {
     "priority": 10,
-    "exchange": "alt3.aspmx.l.google.com"
+    "exchange": "alt4.aspmx.l.google.com"
    }
   ],
   "apex_txt": [
