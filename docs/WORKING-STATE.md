@@ -5,6 +5,31 @@ Deeper context: docs/seo-videos-gap-analysis-2026-08.md (SEO queue),
 docs/bobby-olson-call-plan-2026-08-18.md (Bobby items + statuses),
 docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
 
+## Latest (2026-08-21): pilots live — 2f sent, citations pipeline v1, Air Care LAUNCHED
+
+- **2f emails SENT**: Fran (his Gmail draft, on-thread) + Bobby (from the
+  getrestorationai.com mailbox he wrote to, in-thread, delegate-access
+  version). Their replies are the live pilot of intake + reply-in-channel.
+- **Citations pipeline v1 SHIPPED (no rotation yet, per Santino)**:
+  public.citation_listings (RLS per-effective-company) seeded with 33 rows
+  (fleet from browser-agent history + Reign pilot); build-stages fn v10
+  projects citation_rows (deployed); BuildStagesBoard on branch
+  feat/citations-popup (localhost:5173, NOT merged): tracker counts on
+  citations cards, wrong_data forces gaps + red chip, click opens the
+  detail popup (corrections, listing links, socials ladder).
+- **Reign pilot**: yelp + mapquest rows status=wrong_data with correction
+  payload (6691 TX-276 STE C); google/website live-correct; homeguide live;
+  bing pending. Jerrott texted the update (address fixed, no re-verify).
+- **AIR CARE LAUNCHED**: aircarerestoration.com cut over end to end
+  (email-safe, NS flip by Santino, apex+www attached, verified from outside:
+  llms.txt identity + zip 79602 on the live page), cut_over_at stamped,
+  baseline captured (40 backlinks / citations 3 found, 10 missing).
+  Sarha got the apology + verified-live text AFTER outside verification.
+  gsc_register subprocess needs the 3.9 python (module error under CLI) —
+  re-run pending.
+- Next builds queued: launched-claim guard, social discovery pass,
+  citations rotation (awaiting go).
+
 ## Latest (2026-08-20 late): Monica 2d + 2e SHIPPED; Kenny campaign verified
 
 - **2d reply-in-channel LIVE**: owed_reply_channel() upgrades compose/send_now
