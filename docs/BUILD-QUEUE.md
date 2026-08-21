@@ -32,15 +32,16 @@ Current position and deeper context: docs/WORKING-STATE.md.
       planned 72h+ (FIRST RUN: 9 stranded logos, 7-31 days — cards filed).
    f. Pilot watch on Bobby + Fran (2d threading on their next email) before
       calling the email evolution done.
-3. **Citations program**: per-directory status tracker (missing/queued/created/
-   pending-review/live/blocked) + Build Stages citations popup checklist (socials
-   tracked here too: found -> confirmed -> connected-to-GSC) + THREE-clients-per-night
-   creation rotation with per-directory backoff + Bing re-login (1 min, Santino at
-   machine) + browser-agent failure-streak watchdog (3 consecutive fails = page).
-4. **Social discovery sweep + app fields**: find each client's FB/IG/LinkedIn/TikTok/
-   YT by NAP match, prefill the app, client confirms/adds via one queued Monica ask;
-   browser-agent playbook then syncs channels into each GSC property (agency session,
-   supervised first runs).
+3. **Citations program**: tracker table + Build Stages popup SHIPPED 08-21
+   (citation_listings, 33 seed rows + 24 discovered socials; popup v10.1 names
+   every missing platform, wrong_data rows carry corrections — Reign pilot;
+   branch feat/citations-popup awaiting Santino review/merge). REMAINING:
+   3-per-night creation rotation + per-directory backoff + failure-streak
+   watchdog (parked per Santino) + Bing re-login (Santino).
+4. **Social discovery**: data pass DONE 08-21 (site-footer crawl, 24 profiles
+   found across 15 clients, social_state=found rows). REMAINING: web-search
+   pass for the 7 clients with no crawlable site, Monica confirm-asks,
+   GSC-sync browser playbook (supervised).
 5. **Apple Maps run 2** (rides any night): verify the 3 in-review listings publish,
    create Crew using his GOOGLE LISTING address verbatim (Santino's call, zip debate
    closed), keep watching for Apple's API-access decision email (request submitted
