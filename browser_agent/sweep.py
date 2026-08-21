@@ -595,6 +595,19 @@ def main() -> int:
     if not (a.skip_access or a.queue_dry_run):
         access_sweep(dry_run=False)
 
+    # Citations rotation (2026-08-21, un-parked by Santino): tracker-driven
+    # nightly pass — write-back outcomes, verify pending listings, pick
+    # tonight's 3 companies, flag supervised corrections, streak watchdog.
+    # API-only (no browser), so it runs before the kill switch like the
+    # access pass; a raise must never take the sweep down.
+    if not a.queue_dry_run:
+        try:
+            from browser_agent.citations_rotation import rotate
+            for _ln in rotate(dry_run=False):
+                print("  ROTATE: " + _ln)
+        except Exception as _e:  # noqa: BLE001
+            print(f"  ROTATE: errored: {str(_e)[:120]}")
+
     if a.queue_dry_run:
         picks, houzz_pending, notes = select_creation_queue()
         print("HomeGuide picks (max %d/night, newest first):" % PORTAL_NIGHTLY_CAP)
