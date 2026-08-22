@@ -36,7 +36,7 @@ The process starts with a visual inspection — we use a duct camera to document
 
 From there, we connect a commercial-grade negative-air vacuum to the main trunk line, creating continuous negative pressure throughout the system while technicians work each branch with agitation tools. For older sheet-metal ductwork common in Coleman's mid-century homes, we use soft-bristle contact cleaning to avoid disturbing any existing joint sealant. Flex duct sections get a gentler approach — high-velocity air whips rather than rotary brushes — to protect the inner liner.
 
-If contamination includes visible mold growth, biological debris, or heavy odor, we apply an EPA-registered sanitizing agent to interior duct surfaces after the mechanical cleaning is complete. We're an IICRC Certified Firm and EPA Lead-Safe Certified, which matters in older Coleman homes where lead-based paint on nearby surfaces can become a consideration during any HVAC or structural work.
+If contamination includes visible mold growth, biological debris, or heavy odor, we apply an EPA-registered sanitizing agent to interior duct surfaces after the mechanical cleaning is complete. We are an IICRC Certified Firm. In older Coleman homes where lead-based paint on nearby surfaces may be a consideration during any HVAC or structural work, owner Sarha Boyd holds an EPA Certified Renovator credential under the Lead RRP program.
 
 We also clean and inspect dryer vents during the same visit when requested. In Coleman's dust-heavy environment, dryer vent lint accumulation accelerates, and a partially blocked vent is a fire risk regardless of how new the appliance is.
 

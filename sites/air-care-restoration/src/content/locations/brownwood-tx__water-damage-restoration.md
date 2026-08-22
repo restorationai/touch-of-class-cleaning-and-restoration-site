@@ -42,7 +42,7 @@ Air Care Restoration is headquartered in Abilene, roughly 60 miles north of Brow
 
 ## Brownwood Insurance Coordination
 
-Most homeowner policies cover sudden and accidental water losses — burst pipes, appliance failures, storm-driven intrusion through a compromised roof or window. What they typically don't cover is gradual leakage that went unaddressed, which is why prompt documentation matters. We photograph affected materials, record moisture readings, and produce a scope of work formatted for adjuster review. We bill carriers directly and work with your adjuster throughout the process so you're not managing the paperwork alone during an already stressful situation.
+Most homeowner policies cover sudden and accidental water losses — burst pipes, appliance failures, storm-driven intrusion through a compromised roof or window. What they typically don't cover is gradual leakage that went unaddressed, which is why prompt documentation matters. We photograph affected materials, record moisture readings, and produce a scope of work formatted for adjuster review. We bill carriers directly and communicate technical scope information with your adjuster throughout the process so you're not managing the paperwork alone during an already stressful situation. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 

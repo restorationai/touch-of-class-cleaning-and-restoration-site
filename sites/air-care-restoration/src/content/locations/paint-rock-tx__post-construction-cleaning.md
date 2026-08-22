@@ -38,9 +38,9 @@ Every job starts with a walk-through to assess what trades were on-site, what ma
 
 **Surface-by-surface detail clean.** Windows (inside glass, frames, tracks, and screens), cabinetry (interior boxes, door faces, hardware), lighting fixtures, plumbing fixtures, and flooring each get material-appropriate treatment. Paint overspray, grout haze, and sticker adhesive residue are addressed with targeted methods rather than one-size-fits-all chemicals.
 
-**Final inspection pass.** A second walk-through under strong lighting catches what the cleaning pass missed — dried drips on baseboard edges, dust in electrical box knockouts, smudges on switch plates.
+**Final inspection pass.** A second walk-through under strong lighting catches what the cleaning pass missed — dried drips on baseboard edge, dust in electrical box knockouts, smudges on switch plates.
 
-As an IICRC Certified Firm and EPA Lead-Safe Certified operation, the team follows documented protocols, which matters on any property where older painted surfaces may have been disturbed during renovation.
+As an IICRC Certified Firm, the team follows documented protocols, which matters on any property where older painted surfaces may have been disturbed during renovation. Owner Sarha Boyd holds EPA Certified Renovator (Lead RRP) credentials, and work involving pre-1978 painted surfaces is handled accordingly.
 
 ## Reaching Paint Rock from Abilene
 

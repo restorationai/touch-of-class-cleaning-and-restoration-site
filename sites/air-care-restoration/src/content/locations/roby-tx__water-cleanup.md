@@ -44,7 +44,7 @@ For properties on the outskirts of Roby or on county roads, it helps to have the
 
 ## Working With Your Insurance Carrier After a Roby Water Loss
 
-Most homeowner policies in Texas cover sudden and accidental water discharge — a burst pipe, an appliance failure, an ice-maker line that let go. Gradual leaks and flood damage from rising surface water are typically treated differently, and knowing that distinction before you file matters. Air Care Restoration documents the loss thoroughly from the first hour: photographs, moisture readings, equipment logs, and a written scope of affected materials. That documentation goes directly to your adjuster and is formatted to support the claim rather than complicate it.
+Most homeowner policies in Texas cover sudden and accidental water discharge — a burst pipe, an appliance failure, an ice-maker line that let go. Gradual leaks and flood damage from rising surface water are typically treated differently, and knowing that distinction before you file matters. Air Care Restoration documents the loss thoroughly from the first hour: photographs, moisture readings, equipment logs, and a written scope of affected materials. That documentation goes directly to your adjuster and is formatted to support the claim rather than complicate it. Coverage and settlement decisions remain between you and your carrier.
 
 If your carrier requires a preferred vendor or has a specific documentation format, let us know at the time of the call and we'll coordinate accordingly.
 

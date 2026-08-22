@@ -46,7 +46,7 @@ For properties on the western edge of Coke County near the Bronte road, technici
 
 ## Robert Lee Insurance Coordination
 
-Most standard homeowner policies cover sudden and accidental water damage — a burst pipe, a washing machine supply line failure, an ice maker line that lets go overnight. What they typically exclude is gradual leakage, so the documentation Air Care Restoration produces matters enormously. Technicians photograph conditions on arrival, log moisture readings with timestamps, and generate a scope of work that aligns with carrier expectations. That paper trail supports your adjuster's review and reduces back-and-forth delays.
+Most standard homeowner policies cover sudden and accidental water damage — a burst pipe, a washing machine supply line failure, an ice maker line that lets go overnight. What they typically exclude is gradual leakage, so the documentation Air Care Restoration produces matters enormously. Technicians photograph conditions on arrival, log moisture readings with timestamps, and generate a scope of work that aligns with carrier expectations. We provide detailed damage documentation, estimates and invoices, and direct insurance billing, and we communicate technical scope information with your adjuster — coverage and settlement decisions remain between you and your carrier. That paper trail supports your adjuster's review and reduces back-and-forth delays.
 
 If you have not yet filed a claim when you call, that is fine — the documentation process begins at arrival regardless, and you can initiate the claim while the crew is on-site.
 

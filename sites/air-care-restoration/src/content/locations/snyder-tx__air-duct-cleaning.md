@@ -36,7 +36,7 @@ Cleaning uses a truck-mounted or portable negative-air machine that places the e
 
 ## Reaching Snyder from Abilene
 
-Air Care Restoration is based in Abilene, and Snyder is a straightforward drive northwest on US-84 — a route the crew knows well. Because hours are 24/7, scheduling isn't limited to weekday business windows; if a storm event or HVAC issue surfaces on a weekend, a call to (325) 339-8723 reaches a live person. For Snyder residents, that means you're not waiting until Monday to get an assessment booked.
+Air Care Restoration is based in Abilene, and Snyder is a straightforward drive northwest on US-84 — a route the crew knows well. Because hours are 24/7, scheduling isn't limited to weekday business windows; if a storm event or HVAC issue surfaces on a weekend, a call to (325) 339-8723 reaches a live person. For Snyder residents, that means you're not waiting until Monday to get an appointment booked.
 
 ## Equipment & Methods We Use for Air Duct Cleaning
 

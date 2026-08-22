@@ -38,7 +38,7 @@ When we arrive, the first priority is stopping the source — whether that means
 
 **Structural drying.** Commercial desiccant and refrigerant dehumidifiers, paired with high-velocity air movers, are positioned according to a drying plan documented in writing. Drying targets follow the IICRC S500 standard. We monitor daily and adjust equipment placement as readings change.
 
-**Documentation.** Every moisture reading, equipment placement, and daily log is recorded and formatted for insurance submission. We work directly with most major carriers and can communicate with your adjuster throughout the process.
+**Documentation.** Every moisture reading, equipment placement, and daily log is recorded and formatted for insurance submission. We provide detailed damage documentation, estimates, and invoices and can communicate technical scope information directly with your adjuster throughout the process.
 
 ## Reaching Paint Rock from Abilene
 

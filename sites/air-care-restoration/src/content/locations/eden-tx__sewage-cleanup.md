@@ -40,7 +40,7 @@ Eden is roughly 90 miles southeast of our Abilene headquarters via US-83 South �
 
 ## Eden Insurance Coordination for Sewage Losses
 
-Sewage backup coverage is a common rider on homeowners' policies — but it is not automatic. Many Eden homeowners discover at claim time that their base policy excludes sewer backup unless they added the endorsement. We photograph and document the loss thoroughly from the moment we arrive, which gives your adjuster a complete picture of scope regardless of which carrier you use. We work directly with most major carriers and can communicate with your adjuster throughout the project so you are not translating between restoration and insurance language on your own.
+Sewage backup coverage is a common rider on homeowners' policies — but it is not automatic. Many Eden homeowners discover at claim time that their base policy excludes sewer backup unless they added the endorsement. We photograph and document the loss thoroughly from the moment we arrive, which gives your adjuster a complete picture of scope regardless of which carrier you use. We provide detailed damage documentation, itemized estimates and invoices, and direct insurance billing, and we can communicate technical scope information with your adjuster throughout the project so you are not translating between restoration and insurance language on your own. Coverage and settlement decisions remain between you and your carrier.
 
 If your policy does not include sewer backup coverage, we can walk you through the out-of-pocket scope and prioritize structural drying and sanitization to protect the home while keeping costs transparent.
 

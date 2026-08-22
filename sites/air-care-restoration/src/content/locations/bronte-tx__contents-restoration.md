@@ -44,7 +44,7 @@ If access to your property requires navigating a ranch gate or a caliche road th
 
 ## Bronte Insurance Coordination
 
-Most homeowner policies in Texas cover contents losses caused by fire, smoke, and sudden water events, but the documentation burden falls on the policyholder unless a restoration company steps in. Air Care Restoration produces the itemized inventory, photographs, and scope documentation that carriers require to process a contents claim. We communicate directly with adjusters and can provide line-item cleaning and storage costs in the format most carriers request, which keeps your claim moving without you having to chase paperwork.
+Most homeowner policies in Texas cover contents losses caused by fire, smoke, and sudden water events, but the documentation burden falls on the policyholder unless a restoration company steps in. Air Care Restoration produces the itemized inventory, photographs, and scope documentation that carriers require to process a contents claim. We communicate technical scope information directly with adjusters and can provide line-item cleaning and storage costs in the format most carriers request, which keeps your claim moving without you having to chase paperwork. Coverage and settlement decisions remain between you and your carrier.
 
 If your carrier requires a contents list before authorizing pack-out — a common step with some regional adjusters — we can provide a preliminary scope quickly so authorization doesn't delay the work.
 

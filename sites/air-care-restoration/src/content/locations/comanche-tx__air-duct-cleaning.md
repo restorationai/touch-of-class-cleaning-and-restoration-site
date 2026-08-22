@@ -34,16 +34,16 @@ When an Air Care Restoration crew arrives at a Comanche home, the first step is 
 
 For supply and return branches, we work section by section, agitating debris with rotary brushes before extraction. If we find microbial growth — which can develop in ductwork that's been exposed to humidity from a slow leak or a poorly draining condensate pan — we apply an EPA-registered sanitizing agent after cleaning. Dryer vent cleaning follows the same negative-pressure approach: lint accumulation in dryer vents is one of the leading causes of residential fires, and in homes where the dryer run is long or the vent makes multiple turns, buildup happens faster than most homeowners expect.
 
-Before leaving, we photograph the interior of the ductwork at key access points so you have a before-and-after record — useful documentation if you're coordinating with a home warranty provider or an insurance adjuster.
+Before leaving, we photograph the interior of the ductwork at key access points so you have a before-and-after record — useful documentation if you're coordinating with a home warranty provider or sharing technical scope information with your insurance adjuster.
 
 ## Reaching Comanche from Abilene
 
 Air Care Restoration is based in Abilene and serves Comanche as part of its regular West and Central Texas coverage area. The route via US-84 East is the most direct connection between the two cities, and the team is available around the clock — so whether a concern surfaces on a weekday afternoon or a weekend morning, you can reach someone at (325) 339-8723 to schedule service.
 
-For straightforward residential duct cleaning, scheduling a few days out is common. For situations involving contamination after a water loss or fire event — where duct cleaning is part of a broader restoration scope — the 24/7 availability means the assessment can begin without waiting for business hours.
+For straightforward residential duct cleaning, scheduling a few days out is common. For situations involving contamination after a water loss or fire event — where duct cleaning is part of a broader restoration scope — the 24/7 availability means the work can begin without waiting for business hours.
 
 ## Local Note
 
 Comanche County's clay-heavy soils expand and contract significantly with seasonal moisture swings — wet springs followed by dry summers can shift a slab foundation enough to open small separations at duct connections in the crawl space or under-slab runs. These separations are easy to miss during a routine HVAC service call because the system still moves air, just less efficiently and with more contamination risk. When we clean ductwork in this area, we specifically check connection points at any section that runs near the foundation perimeter, where movement is most pronounced. It's a small extra step that makes a real difference in homes built on the region's characteristic soils.
 
-If your home in Comanche has shown signs of uneven cooling, higher-than-expected utility bills, or visible dust settling quickly after cleaning, the ductwork is worth a close look. Call Air Care Restoration at (325) 339-8723 to schedule an inspection — the IICRC-certified team serves Comanche and the surrounding county with the same equipment and process used on full commercial restoration projects.
+If your home in Comanche has shown signs of uneven cooling, higher-than-expected utility bills, or visible dust settling quickly after cleaning, the ductwork is worth a close look. Call Air Care Restoration at (325) 339-8723 to schedule service — the IICRC-certified team serves Comanche and the surrounding county with the same equipment and process used on full commercial restoration projects.

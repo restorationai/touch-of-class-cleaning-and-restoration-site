@@ -20,7 +20,7 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire tears through a home in Ballinger, the damage doesn't stop when the flames do. West Texas wind — common across Runnels County — pulls smoke deeper into wall cavities and attic spaces than most homeowners expect, and the dry heat that follows accelerates the bonding of soot to surfaces. Air Care Restoration responds 24/7 to fire damage calls in Ballinger, bringing IICRC FSRT-certified technicians and the equipment needed to stop secondary damage before it compounds the loss.
+When a fire tears through a home in Ballinger, the damage doesn't stop when the flames do. West Texas wind — common across Runnels County — pulls smoke deeper into wall cavities and attic spaces than most homeowners expect, and the dry heat that follows accelerates the bonding of soot to surfaces. Air Care Restoration responds 24/7 to fire damage calls in Ballinger, bringing IICRC FSRT- and OCT-certified technicians and the equipment needed to stop secondary damage before it compounds the loss.
 
 ## Why Ballinger Properties Are Particularly Vulnerable After a Fire
 
@@ -40,7 +40,7 @@ Every fire loss is different, but the sequence of work follows a disciplined fra
 
 **Soot and smoke cleaning** is where IICRC FSRT training matters most. Different residues — wet smoke from slow-burning fires, dry smoke from fast-burning fires, protein residue from kitchen fires — require different chemical agents and application methods. Using the wrong product on the wrong residue can permanently set staining into surfaces.
 
-**Odor elimination** closes the loop. We use thermal fogging and hydroxyl generation to neutralize odor molecules in the air and inside porous materials, not just mask them.
+**Odor elimination** closes the loop. Drawing on IICRC OCT training, we use thermal fogging and hydroxyl generation to neutralize odor molecules in the air and inside porous materials, not just mask them.
 
 ## Reaching Ballinger from Abilene
 
@@ -48,7 +48,7 @@ Air Care Restoration is based in Abilene, and Ballinger sits roughly 60 miles to
 
 ## Insurance Coordination for Ballinger Fire Claims
 
-Fire damage claims are among the most document-intensive in residential insurance. Carriers want itemized loss inventories, moisture readings, photo logs, and scope-of-work estimates before they authorize repairs. We prepare that documentation as a standard part of the job — not as an add-on — and communicate directly with adjusters to reduce back-and-forth delays. We work with most major carriers and can bill them directly in most cases, which means you are not fronting the full cost of restoration while the claim works through the system.
+Fire damage claims are among the most document-intensive in residential insurance. Carriers want itemized loss inventories, moisture readings, photo logs, and scope-of-work estimates before they authorize repairs. We prepare that documentation as a standard part of the job — not as an add-on — and communicate technical scope information directly with your adjuster to reduce back-and-forth delays. We work with most major carriers and can bill them directly in most cases, which means you are not fronting the full cost of restoration while the claim works through the system. Coverage and settlement decisions remain between you and your carrier.
 
 If your home is in an older Ballinger neighborhood where replacement materials (original-profile trim, period-appropriate flooring) may need to be sourced specially, we flag that early in the estimate so it doesn't become a dispute point with the carrier later.
 

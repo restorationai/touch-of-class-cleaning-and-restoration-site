@@ -1,6 +1,6 @@
 ---
 archetype: "service-areas-hub"
-title: "Service Areas | Air Care Restoration Restoration"
+title: "Service Areas | Air Care Restoration"
 h1: "Areas We Serve"
 meta_description: "Air Care Restoration provides 24/7 restoration services across Abilene and the surrounding region. Find your city."
 primary_keyword: "air care restoration service areas"

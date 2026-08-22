@@ -32,7 +32,7 @@ The city's housing stock adds another layer of complexity. Older neighborhoods c
 
 When you call, the first question is always the same: what is the opening, and what is the weather doing right now. That determines whether tarping or boarding takes priority. A roof breach in advance of incoming rain gets a heavy-duty polyethylene tarp secured with batten strips and screwed-down perimeter boards first — the goal is waterproofing the structure before anything else. Broken windows and door openings get measured, cut, and secured with exterior-grade plywood, fastened in a way that does not damage the surrounding frame any more than necessary.
 
-Every opening is photographed before and after work begins. That documentation matters for your insurance claim — adjusters want to see the condition of the structure at the time of loss, not after a crew has already been on site. Our IICRC-certified team is trained in fire and smoke damage response as well, so when a board-up follows a fire, we understand what the structure has been through and handle materials accordingly, including lead-safe protocols on older homes where disturbing painted surfaces is unavoidable.
+Every opening is photographed before and after work begins. That documentation matters for your insurance claim — adjusters want to see the condition of the structure at the time of loss, not after a crew has already been on site. Our IICRC-certified team is trained in fire and smoke damage response as well, so when a board-up follows a fire, we understand what the structure has been through and handle materials accordingly, including lead-safe work practices on older homes where disturbing painted surfaces is unavoidable.
 
 ## Reaching San Angelo from Abilene
 
@@ -40,7 +40,7 @@ Air Care Restoration is headquartered in Abilene, and US-277 South is the most d
 
 ## San Angelo Insurance Coordination
 
-Most homeowner policies in Texas cover emergency protective measures — board-up and tarping are typically classified as "reasonable steps to prevent further damage," which is language that appears in standard HO-3 policy forms. Documenting those steps properly is what gets them reimbursed. We photograph every opening before work begins, note the materials used and the method of attachment, and provide an itemized scope of work you can hand directly to your adjuster or upload to your carrier's portal. If your insurer sends an independent adjuster to inspect, the documentation we leave with you answers the questions they are most likely to ask.
+Most homeowner policies in Texas cover emergency protective measures — board-up and tarping are typically classified as "reasonable steps to prevent further damage," which is language that appears in standard HO-3 policy forms. Documenting those steps properly is what gets them reimbursed. We photograph every opening before work begins, note the materials used and the method of attachment, and provide an itemized scope of work you can hand directly to your adjuster or upload to your carrier's portal. We can communicate technical scope information directly with your adjuster on your behalf; coverage and settlement decisions remain between you and your carrier. If your insurer sends an independent adjuster to inspect, the documentation we leave with you answers the questions they are most likely to ask.
 
 ## Local Note
 

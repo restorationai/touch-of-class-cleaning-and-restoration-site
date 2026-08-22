@@ -44,7 +44,7 @@ Air Care Restoration is based in Abilene and dispatches crews to Haskell around 
 
 ## Haskell Insurance Coordination
 
-Most homeowner policies cover sudden and accidental water losses — a burst pipe, an appliance failure, storm-driven water entry — but the documentation the adjuster needs has to be thorough. We photograph affected materials before extraction, log moisture readings at each monitoring point, and produce a written scope that itemizes what was wet, what was removed, and what the drying equipment achieved. That paper trail is what keeps a claim from stalling. We work directly with carriers and can communicate with your adjuster so you're not translating between two technical vocabularies at an already stressful time.
+Most homeowner policies cover sudden and accidental water losses — a burst pipe, an appliance failure, storm-driven water entry — but the documentation the adjuster needs has to be thorough. We photograph affected materials before extraction, log moisture readings at each monitoring point, and produce a written scope that itemizes what was wet, what was removed, and what the drying equipment achieved. That paper trail is what keeps a claim from stalling. We can bill carriers directly and communicate technical scope information with your adjuster — coverage and settlement decisions remain between you and your insurance carrier.
 
 ## Local Note
 

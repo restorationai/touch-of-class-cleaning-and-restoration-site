@@ -20,7 +20,7 @@ state: "TX"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-Brownwood sits in the heart of Brown County on the Llano Uplift's eastern edge, where shallow caliche soils and clay-heavy ground make drainage a constant negotiation. When a sewer line backs up or a septic system overflows here, that same dense soil that resists water absorption also traps raw sewage close to the surface — and close to your foundation. Air Care Restoration responds 24/7 to sewage backup and contamination calls throughout Brownwood, bringing IICRC-certified technicians and EPA Lead-Safe protocols to a problem that gets measurably worse with every hour it sits.
+Brownwood sits in the heart of Brown County on the Llano Uplift's eastern edge, where shallow caliche soils and clay-heavy ground make drainage a constant negotiation. When a sewer line backs up or a septic system overflows here, that same dense soil that resists water absorption also traps raw sewage close to the surface — and close to your foundation. Air Care Restoration responds 24/7 to sewage backup and contamination calls throughout Brownwood, bringing IICRC-certified technicians to a problem that gets measurably worse with every hour it sits.
 
 ## Why Brownwood Properties Experience Sewage Backups
 
@@ -46,7 +46,7 @@ Brownwood's geography means most residential addresses in the city core are reac
 
 Sewage backup coverage is one of the more misunderstood areas of homeowner insurance. Standard HO-3 policies in Texas frequently exclude sewer backup unless the homeowner added a specific endorsement — and many policyholders in Brownwood discover this for the first time during a claim. We document the loss thoroughly regardless of coverage status: photographs, moisture mapping, contamination scope, and material removal logs. That documentation supports your claim if coverage applies, and it gives you a clear picture of the scope if you are paying out of pocket.
 
-We work directly with adjusters and can bill carriers that accept third-party billing. If your policy does not cover the loss, we will walk you through what the work actually requires so there are no surprises.
+We can communicate technical scope information directly with your adjuster and bill carriers that accept third-party billing. Coverage and settlement decisions remain between you and your carrier. If your policy does not cover the loss, we will walk you through what the work actually requires so there are no surprises.
 
 ## Local Note
 

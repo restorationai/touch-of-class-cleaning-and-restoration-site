@@ -43,7 +43,7 @@ From there, the process moves in a deliberate sequence:
 - **Controlled demolition** of materials that cannot be dried in place (saturated OSB, drywall below the flood line, ruined insulation batts)
 - **Reconstruction coordination** once the structure is dry and the scope is agreed upon with your carrier
 
-As an IICRC Certified Firm with OSHA-trained technicians, the drying phase follows the IICRC S500 standard for water damage and the S110 standard for storm response — not a rough estimate of "dry enough."
+As an IICRC Certified Firm, the drying phase follows the IICRC S500 standard for water damage and the S110 standard for storm response — not a rough estimate of "dry enough."
 
 ## Reaching Paint Rock from Abilene
 
@@ -53,7 +53,7 @@ Air Care Restoration's base in Abilene puts Paint Rock within reach via US-83 So
 
 Most storm damage claims in this area run through carriers that are familiar with West Texas hail and wind events, which means adjusters have seen these loss patterns before. What slows claims down is incomplete documentation — photos taken after materials have dried out, moisture readings that weren't logged with timestamps, or a scope that doesn't account for hidden damage behind walls.
 
-We photograph and document before anything is moved or removed, produce a detailed moisture log for the drying period, and can communicate directly with your adjuster to answer technical questions about the scope. We don't negotiate your settlement, but we make sure the evidence supports what actually happened to your property.
+We photograph and document before anything is moved or removed, produce a detailed moisture log for the drying period, and can communicate directly with your adjuster to answer technical questions about the scope of work. Coverage and settlement decisions remain between you and your carrier, but we make sure the evidence supports what actually happened to your property.
 
 ## Local Note
 

@@ -46,7 +46,7 @@ Air Care Restoration is based in Abilene, and Tye is a short drive east on I-20.
 
 ## Working with Your Insurance Carrier
 
-Storm damage claims in Texas are governed by the Texas Department of Insurance's prompt-payment rules, which set timelines for how quickly carriers must acknowledge and act on a claim. Knowing those timelines helps you hold your adjuster accountable. We document the loss in the format adjusters expect — line-item scope, moisture logs, photo documentation — and we're available to walk through the damage with your adjuster on-site if that's helpful. We bill carriers directly for covered work, which reduces the out-of-pocket burden during what is already a stressful period.
+Storm damage claims in Texas are governed by the Texas Department of Insurance's prompt-payment rules, which set timelines for how quickly carriers must acknowledge and act on a claim. Knowing those timelines helps you hold your adjuster accountable. We document the loss in the format adjusters expect — line-item scope, moisture logs, photo documentation — and we're available to walk through the damage with your adjuster on-site if that's helpful. Coverage and settlement decisions remain between you and your carrier; we bill carriers directly for covered work, which reduces the out-of-pocket burden during what is already a stressful period.
 
 ## Local Note
 

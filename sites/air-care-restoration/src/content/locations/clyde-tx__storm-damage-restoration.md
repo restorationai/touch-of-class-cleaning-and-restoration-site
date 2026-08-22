@@ -44,7 +44,7 @@ Air Care Restoration is based in Abilene, and Clyde is a straightforward run eas
 
 ## Clyde Insurance Coordination
 
-Most storm damage claims in Texas involve a homeowner's insurance policy, and the documentation phase is where claims either move smoothly or stall. We photograph damage before any emergency mitigation work begins, preserve damaged materials where carriers require physical inspection, and provide a written scope of loss that aligns with how adjusters need to review it. We bill carriers directly for covered work, which means you're not fronting the full restoration cost out of pocket while waiting for reimbursement. If a supplement is needed because additional damage is found during the repair phase — which is common after high-wind events that drive water into concealed spaces — we handle that communication with the carrier.
+Most storm damage claims in Texas involve a homeowner's insurance policy, and the documentation phase is where claims either move smoothly or stall. We photograph damage before any emergency mitigation work begins, preserve damaged materials where carriers require physical inspection, and provide a written scope of loss that aligns with how adjusters need to review it. We bill carriers directly for covered work, which means you're not fronting the full restoration cost out of pocket while waiting for reimbursement. Coverage and settlement decisions remain between you and your carrier. If a supplement is needed because additional damage is found during the repair phase — which is common after high-wind events that drive water into concealed spaces — we communicate that technical scope information directly with your adjuster.
 
 ## Local Note
 

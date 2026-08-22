@@ -44,9 +44,7 @@ Air Care Restoration is based in Abilene, and Robert Lee sits roughly 75 miles t
 
 ## Insurance Coordination for Robert Lee Storm Claims
 
-Most homeowner policies in Texas cover sudden storm damage, but the documentation requirements can feel overwhelming when you're already dealing with a damaged roof and wet floors. Air Care Restoration works directly with insurance carriers — we photograph affected materials, generate moisture logs, and organize the scope of damage in a format adjusters recognize. This doesn't replace your relationship with your agent, but it removes the burden of translating a physical loss into the paperwork language insurance companies require.
-
-If your carrier sends an independent adjuster to inspect the property, having a professional restoration assessment already in hand typically speeds the process. We're available to walk through the damage with adjusters on-site when scheduling allows.
+Most homeowner policies in Texas cover sudden storm damage, but the documentation requirements can feel overwhelming when you're already dealing with a damaged roof and wet floors. Air Care Restoration documents affected materials thoroughly with photographs and moisture logs, organizes the scope of damage in a format adjusters recognize, and bills carriers directly. We can communicate technical scope information with your adjuster to help move the process forward. Coverage and settlement decisions remain between you and your carrier, but having a professional restoration assessment already in hand when an adjuster visits typically speeds things along. We're available to walk through the damage on-site with adjusters when scheduling allows.
 
 ## Local Note
 

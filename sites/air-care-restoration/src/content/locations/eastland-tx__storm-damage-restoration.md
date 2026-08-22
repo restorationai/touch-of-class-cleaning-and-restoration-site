@@ -34,7 +34,7 @@ Every storm job starts with emergency stabilization, not paperwork. When the cre
 
 Once the structure is stabilized, the scope shifts to controlled drying. Industrial desiccant dehumidifiers and high-velocity air movers are positioned based on the moisture map, not placed generically. Readings are logged daily so drying progress is documented — documentation that matters later when your insurance adjuster reviews the claim. Structural repairs, including roof deck replacement, framing repairs, and interior finishes, follow only after moisture levels confirm the assembly is dry. Rushing that sequence is how mold problems develop weeks after a storm job is "finished."
 
-As an IICRC Certified Firm with OSHA-trained technicians, the work follows the IICRC S500 and S700 standards for water and storm damage — the same frameworks insurance carriers use to evaluate whether a restoration was performed correctly.
+As an IICRC Certified Firm, the work follows the IICRC S500 and S700 standards for water and storm damage — the same frameworks insurance carriers use to evaluate whether a restoration was performed correctly.
 
 ## Reaching Eastland from Abilene
 
@@ -42,7 +42,7 @@ Air Care Restoration is based in Abilene, and Eastland sits roughly 60 miles eas
 
 ## Eastland Insurance Coordination
 
-Storm damage claims in Texas are governed by the Texas Department of Insurance's prompt-payment timelines, and carriers are required to acknowledge a claim and begin investigation within specific windows after you file. Thorough documentation from the moment a crew arrives — photographs, moisture readings, written scope — is what keeps a claim from stalling. Air Care Restoration documents losses in a format that aligns with how adjusters review files, and the team can communicate directly with your carrier's field representative to clarify scope questions without putting that burden on you during an already stressful situation.
+Storm damage claims in Texas are governed by the Texas Department of Insurance's prompt-payment timelines, and carriers are required to acknowledge a claim and begin investigation within specific windows after you file. Thorough documentation from the moment a crew arrives — photographs, moisture readings, written scope — is what keeps a claim from stalling. Air Care Restoration documents losses in a format that aligns with how adjusters review files, and the team can communicate technical scope information directly with your carrier's field representative to clarify scope questions without putting that burden on you during an already stressful situation. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 

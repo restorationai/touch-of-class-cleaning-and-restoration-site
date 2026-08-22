@@ -83,7 +83,7 @@ Call a professional restoration company when:
 - You cannot identify where all the water went.
 - The affected area is larger than roughly 10 square feet of flooring.
 - You smell anything musty within the first day — mold can begin colonizing porous materials within 24 to 48 hours under the right conditions.
-- The structure involves older construction with potential lead paint or asbestos-containing materials, which require specific handling before any demolition.
+- The structure involves older construction with potential lead paint or asbestos-containing materials, which require specific handling by licensed abatement contractors before any demolition.
 
 Professional water damage restoration uses truck-mounted extractors, industrial air movers, and refrigerant or desiccant dehumidifiers that pull moisture at a rate household equipment cannot match. More importantly, restoration technicians use thermal imaging and calibrated moisture meters to find water that has migrated behind walls and under floors — the water you cannot see is usually the water that causes the most damage.
 
@@ -91,7 +91,7 @@ Professional water damage restoration uses truck-mounted extractors, industrial 
 
 If the structure dries completely — typically three to five days with proper equipment in place — and no mold colonization occurred, repairs can begin. That usually means replacing drywall that was cut for drying access, reinstalling baseboards, and addressing flooring.
 
-If drying was delayed or incomplete, remediation comes before reconstruction. Mold that has begun growing in a wall cavity does not stop because the visible surface looks fine. Remediation involves containing the affected area, removing colonized material, treating surfaces, and verifying air quality before closing the wall back up.
+If drying was delayed or incomplete, remediation comes before reconstruction. Mold that has begun growing in a wall cavity does not stop because the visible surface looks fine. Remediation involves containing the affected area, removing colonized material, and treating surfaces. Post-remediation verification is then performed by an independent licensed Mold Assessment Consultant to confirm the work meets the criteria established in the Mold Remediation Protocol before the wall is closed back up.
 
 Documentation from the drying phase — daily moisture readings, equipment logs, photos — becomes part of the claim file and helps establish that the work was done correctly. Reputable restoration companies provide this as a standard part of their process.
 

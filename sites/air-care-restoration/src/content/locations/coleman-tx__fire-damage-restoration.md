@@ -32,7 +32,7 @@ Grass and range fires in the surrounding Coleman County area also create a speci
 
 ## Our Fire Damage Restoration Process in Coleman
 
-The work begins with a thorough assessment of both visible and hidden damage. Soot doesn't stay where you can see it — it travels through air currents and settles in closets, attics, and behind baseboards. Our IICRC FSRT-certified team uses this assessment to build a scope of work that accounts for the full spread of contamination, not just the burn zone.
+The work begins with a thorough assessment of both visible and hidden damage. Soot doesn't stay where you can see it — it travels through air currents and settles in closets, attics, and behind baseboards. Our IICRC FSRT- and OCT-certified team uses this assessment to build a scope of work that accounts for the full spread of contamination, not just the burn zone.
 
 From there, the process moves through several structured phases:
 
@@ -53,7 +53,7 @@ For properties on the north or west sides of Coleman near the highway corridors,
 
 ## Coleman Insurance Coordination
 
-Fire losses are among the most document-intensive insurance claims a homeowner will file. Carriers require itemized scopes, photo documentation of every affected area, and in many cases a signed authorization before work can proceed. Air Care Restoration handles the documentation side of this process — photographing damage, preparing line-item estimates, and communicating directly with adjusters — so you're not trying to manage paperwork while also managing a displaced household.
+Fire losses are among the most document-intensive insurance claims a homeowner will file. Carriers require itemized scopes, photo documentation of every affected area, and in many cases a signed authorization before work can proceed. Air Care Restoration handles the documentation side of this process — photographing damage, preparing line-item estimates, and communicating technical scope information directly with your adjuster — so you're not trying to manage paperwork while also managing a displaced household. Coverage and settlement decisions remain between you and your carrier.
 
 For Coleman homeowners with older homes, it's worth knowing that insurance adjusters sometimes flag pre-existing conditions (older wiring, aging roofing, deferred maintenance) as partial factors in a loss. Having a thorough, professionally documented scope from the outset gives your claim a stronger foundation.
 

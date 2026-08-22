@@ -49,9 +49,9 @@ For properties on the western edge of Fisher County or along the FM roads north 
 
 ## Roby Insurance Coordination
 
-Storm damage claims in this part of Texas are common enough that most regional adjusters are familiar with the scope of a hail or wind loss — but the documentation still has to be thorough. We photograph every affected surface before tarping or boarding, provide itemized moisture readings, and communicate directly with your carrier's adjuster throughout the process. Our goal is to make sure nothing is overlooked in the initial scope so you aren't negotiating supplements weeks later.
+Storm damage claims in this part of Texas are common enough that most regional adjusters are familiar with the scope of a hail or wind loss — but the documentation still has to be thorough. We photograph every affected surface before tarping or boarding, provide itemized moisture readings, and communicate technical scope information directly with your carrier's adjuster throughout the process. Our goal is to make sure nothing is overlooked in the initial scope so the documented loss accurately reflects what the storm caused.
 
-If your policy includes an ACV (actual cash value) versus RCV (replacement cost value) distinction on roofing, we can walk you through what that means for your out-of-pocket exposure before work begins.
+If your policy includes an ACV (actual cash value) versus RCV (replacement cost value) distinction on roofing, we can walk you through what that means for your out-of-pocket exposure before work begins. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 
@@ -59,4 +59,4 @@ One pattern worth knowing in Fisher County: older agricultural-area homes built 
 
 If your property in Roby took a hit in a recent storm and you're not sure whether the damage is cosmetic or structural, a professional assessment is the right first step — and it costs you nothing to have us take a look before you file or decide not to file.
 
-Call Air Care Restoration at (325) 339-8723 any time, day or night. We'll assess the damage to your Roby property, document everything your carrier needs, and get stabilization underway so the storm's impact stops growing.
+Call Air Care Restoration at (325) 339-8723 any time, day or night. We'll document the damage to your Roby property, communicate everything your carrier needs, and get stabilization underway so the storm's impact stops growing.

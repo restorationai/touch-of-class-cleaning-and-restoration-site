@@ -44,7 +44,7 @@ I-20 is the primary route, and it runs directly into Colorado City, which means 
 
 ## Colorado City Insurance Coordination
 
-Most homeowner policies in Texas cover emergency protective measures — board-up and tarping are typically classified as "reasonable steps to prevent further damage" and are reimbursable under the same claim as the underlying loss. Air Care Restoration documents the damage with photographs and written scope before any work begins, and we provide itemized invoices formatted for carrier review. That documentation package is what adjusters need to process the protective-measures line item without pushback.
+Most homeowner policies in Texas cover emergency protective measures — board-up and tarping are typically classified as "reasonable steps to prevent further damage" and are reimbursable under the same claim as the underlying loss. Air Care Restoration documents the damage with photographs and written scope before any work begins, and we provide itemized invoices formatted for carrier review. That documentation package is what adjusters need to process the protective-measures line item without pushback. Coverage and settlement decisions remain between you and your carrier.
 
 If you haven't yet filed a claim when you call us, that's fine — we can walk through what to document and who to contact at your carrier while we're on site.
 

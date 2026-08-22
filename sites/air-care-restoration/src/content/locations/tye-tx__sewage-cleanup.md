@@ -40,7 +40,7 @@ Raw sewage is classified as Category 3 contaminated water, which means standard 
 
 **EPA-registered disinfection and deodorization** — Every affected surface is treated with hospital-grade, EPA-registered disinfectants. Odor from sewage contamination is not cosmetic; it signals active bacterial presence. Thermal fogging or hydroxyl treatment is used when odor has penetrated wall cavities or HVAC pathways.
 
-**Post-remediation verification** — Moisture readings and, where indicated, surface testing confirm that affected areas are dry and sanitary before reconstruction begins.
+**Documentation for closeout** — Moisture readings confirm that affected areas are dry and sanitary before reconstruction begins. Complete documentation is provided for your records and for any required follow-up.
 
 ## Reaching Tye from Abilene
 
@@ -48,7 +48,7 @@ Air Care Restoration is based in Abilene, and Tye is a short drive west on US-83
 
 ## Tye Insurance Coordination
 
-Sewage backup claims are handled differently from standard water damage claims by most carriers — many homeowner policies exclude sewer backup unless a specific rider is in place. We document the loss thoroughly: photographs of affected areas and materials, moisture mapping, and a written scope of work that your adjuster can review directly. If your policy includes sewer backup coverage, that documentation is what makes the claim move. If coverage is limited, we walk through the scope with you before work begins so there are no surprises on cost.
+Sewage backup claims are handled differently from standard water damage claims by most carriers — many homeowner policies exclude sewer backup unless a specific rider is in place. We document the loss thoroughly: photographs of affected areas and materials, moisture mapping, and a written scope of work that your adjuster can review directly. Coverage and settlement decisions remain between you and your carrier. If your policy includes sewer backup coverage, that documentation is what makes the claim move. If coverage is limited, we walk through the scope with you before work begins so there are no surprises on cost.
 
 ## Local Note
 

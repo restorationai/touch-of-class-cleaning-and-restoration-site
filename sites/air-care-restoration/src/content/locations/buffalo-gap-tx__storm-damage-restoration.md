@@ -36,7 +36,7 @@ Once we've mapped the loss, the process moves in a clear sequence:
 
 - **Emergency stabilization** — tarping compromised rooflines, boarding breached windows and doors, and stopping active water intrusion before it spreads further into the structure.
 - **Water extraction and drying** — standing water is removed first; then industrial air movers and dehumidifiers are positioned according to the IICRC S500 drying standard, with daily moisture readings to track progress.
-- **Debris and material removal** — storm-damaged insulation, drywall, and roofing materials are removed and disposed of properly, including any lead-containing materials handled under our EPA Lead-Safe certification.
+- **Debris and material removal** — storm-damaged insulation, drywall, and roofing materials are removed and disposed of properly, including any lead-containing materials handled under owner Sarha Boyd's EPA Certified Renovator (Lead RRP) credential.
 - **Structural drying and documentation** — every reading, photo, and drying log is compiled into a complete file for your insurance carrier.
 - **Repair and reconstruction** — once the structure is dry and stable, we move into repairs: framing, sheathing, roofing, drywall, and finish work.
 
@@ -46,7 +46,7 @@ Our base in Abilene puts Buffalo Gap well within our primary service area. The d
 
 ## Buffalo Gap Insurance Coordination
 
-Storm damage claims in Taylor County follow Texas Department of Insurance guidelines, and most major carriers have specific documentation requirements for wind and hail losses. We photograph every affected surface before any material is touched, generate a detailed scope of work, and communicate directly with your adjuster throughout the process. If your carrier requests a re-inspection or supplemental documentation, we handle that too — you shouldn't have to manage the paperwork while your home is still drying out.
+Storm damage claims in Taylor County follow Texas Department of Insurance guidelines, and most major carriers have specific documentation requirements for wind and hail losses. We photograph every affected surface before any material is touched, generate a detailed scope of work, and communicate technical scope information directly with your adjuster throughout the process. If your carrier requests a re-inspection or supplemental documentation, we handle that too — you shouldn't have to manage the paperwork while your home is still drying out. Coverage and settlement decisions remain between you and your carrier.
 
 If your property falls under an HOA with exterior repair approval requirements, let us know at the first call. We can provide the scope and material specifications an HOA board typically needs to approve emergency and permanent repairs.
 

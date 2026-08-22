@@ -20,7 +20,7 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire moves through a home in Early, Texas, it rarely stops at the walls it touches. The dry, windy climate of Brown County accelerates smoke travel through attic spaces and HVAC systems, meaning a kitchen fire can leave soot on bedroom walls two rooms away before the flames are out. Air Care Restoration holds IICRC FSRT (Fire & Smoke) certification and responds 24/7, so whether the call comes in at noon or 3 a.m., a trained crew is on the way from Abilene.
+When a fire moves through a home in Early, Texas, it rarely stops at the walls it touches. The dry, windy climate of Brown County accelerates smoke travel through attic spaces and HVAC systems, meaning a kitchen fire can leave soot on bedroom walls two rooms away before the flames are out. Air Care Restoration holds IICRC FSRT (Fire & Smoke) and OCT (Odor Control) certifications and responds 24/7, so whether the call comes in at noon or 3 a.m., a trained crew is on the way from Abilene.
 
 ## Why Early Properties See Particular Fire Damage Challenges
 
@@ -46,7 +46,7 @@ Air Care Restoration is based in Abilene, and Early is a direct run south on US-
 
 ## Early Insurance Coordination
 
-Fire claims in Texas are handled under your homeowner's policy's dwelling and personal property coverage, and the documentation standards carriers apply have tightened in recent years. We work directly with adjusters, providing itemized scope-of-loss reports, moisture and air quality readings, and photo documentation formatted to meet carrier requirements. Our OSHA-trained and EPA Lead-Safe certified team also flags lead-paint or asbestos concerns in older homes early in the process — something adjusters need to know before approving a scope, and something that can delay a claim significantly if it surfaces mid-project.
+Fire claims in Texas are handled under your homeowner's policy's dwelling and personal property coverage, and the documentation standards carriers apply have tightened in recent years. We communicate technical scope information directly with your adjuster, providing itemized scope-of-loss reports, moisture and air quality readings, and photo documentation formatted to meet carrier requirements. Coverage and settlement decisions remain between you and your carrier. Our IICRC-certified team also flags lead-paint concerns — owner Sarha Boyd holds EPA Certified Renovator (Lead RRP) credentials — and notes when materials such as asbestos-containing components in older homes should be evaluated by a licensed abatement contractor before a scope is approved, as either issue surfacing mid-project can delay a claim significantly.
 
 ## Local Note
 

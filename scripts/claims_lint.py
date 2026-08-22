@@ -334,6 +334,12 @@ def lint_text(text: str, truth: dict, source: str = "", part: str = "text") -> l
                 text, m, source, part))
 
     # -- Review-count / rating tripwires --------------------------------------
+    # Best-of LISTICLES (System 0 best-of format) quote COMPETITOR review
+    # counts by design — those can never match our own gbpReviewCount, so
+    # they downgrade to review-severity instead of failing the batch
+    # (Air Care 2026-08-22: six competitor counts in one listicle blocked an
+    # unrelated compliance deploy).
+    is_listicle = "best-" in str(source or "").lower()
     for m in REVIEW_RE.finditer(text):
         if m.group(1):  # "N reviews" — check against synced gbpReviewCount ±20%
             claimed = int(m.group(1))
@@ -341,6 +347,13 @@ def lint_text(text: str, truth: dict, source: str = "", part: str = "text") -> l
             if synced:
                 lo, hi = synced * 0.8, synced * 1.2
                 if lo <= claimed <= hi:
+                    continue
+                if is_listicle:
+                    v.append(_violation(
+                        "reviews", "review",
+                        f"listicle review-count {claimed} (competitor stat — "
+                        "verify it is not presented as ours)",
+                        text, m, source, part))
                     continue
                 reason = (f"claims {claimed} reviews but synced gbpReviewCount "
                           f"is {synced} (allowed ±20%: {int(lo)}-{int(hi)})")

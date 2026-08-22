@@ -39,7 +39,7 @@ Smoke from a structure fire doesn't stay in the room where the fire started. It 
 
 ### Mold remediation
 
-Mold can begin colonizing wet building materials within 24 to 48 hours of a moisture event. In a climate where summer humidity spikes after rain, a slow roof leak or a sweating supply line behind a wall can create the right conditions without any obvious flooding. Remediation follows established containment and removal protocols to address the source and affected materials — not just the visible growth.
+Mold can begin colonizing wet building materials within 24 to 48 hours of a moisture event. In a climate where summer humidity spikes after rain, a slow roof leak or a sweating supply line behind a wall can create the right conditions without any obvious flooding. Remediation follows the containment and removal protocols established in the Mold Remediation Protocol written by the independent licensed Mold Assessment Consultant assigned to the project. Post-remediation verification is performed by that independent consultant to confirm the work meets the criteria established in the protocol.
 
 ### Reconstruction
 
@@ -53,7 +53,7 @@ Roby is roughly 60 miles east of Abilene via US-180, a straightforward route acr
 
 Much of Roby's residential housing was built in the mid-twentieth century, when wood-frame construction on slab-on-grade foundations was standard across small West Texas towns. Walls in homes of that era typically used plaster over wood lath or early-generation drywall, both of which absorb and hold moisture differently than modern assemblies — plaster can read dry at the surface while the lath behind it stays saturated. Plumbing in homes built before the 1980s often runs galvanized steel supply lines, which corrode from the inside out and can fail without visible exterior warning.
 
-Homes built before the late 1970s may contain asbestos-containing materials in floor tile, pipe insulation, or textured ceiling finishes, and lead-based paint in older trim and wall layers. Any restoration scope that involves demolition in those structures needs to account for testing and proper handling before work begins.
+Homes built before the late 1970s may contain asbestos-containing materials in floor tile, pipe insulation, or textured ceiling finishes, and lead-based paint in older trim and wall layers. Any restoration scope that involves demolition in those structures needs to account for proper identification and handling by a licensed abatement contractor before work begins.
 
 Fisher County's soils include expansive clays that shift with moisture changes — swelling when wet, shrinking and cracking when dry. That movement stresses slab foundations over time and can open pathways for water intrusion at the perimeter. Structural repair and significant rebuild work in Roby falls under the jurisdiction of the City of Roby and, for unincorporated areas, Fisher County — permit requirements should be confirmed with the relevant authority before reconstruction begins, as they govern what inspections are required before walls are closed.
 

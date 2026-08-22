@@ -40,7 +40,7 @@ Sewage remediation is a sequenced process, and cutting steps short creates healt
 
 **Drying and documentation** — Once the area is sanitized, industrial air movers and dehumidifiers bring structural materials to target moisture levels. Readings are logged daily and provided to your insurance carrier as part of the claim file.
 
-Our team holds IICRC certification and is OSHA trained, so the process follows established industry protocols rather than improvised field decisions.
+Our team holds IICRC certification, so the process follows established industry protocols rather than improvised field decisions.
 
 ## Reaching Paint Rock from Abilene
 
@@ -48,7 +48,7 @@ Air Care Restoration is headquartered in Abilene, and Paint Rock is accessible v
 
 ## Paint Rock Insurance Coordination
 
-Sewage backup coverage is a rider that many homeowners in rural Concho County add to their standard policy — but not everyone knows whether they have it until a loss occurs. Air Care Restoration documents the damage thoroughly from the moment we arrive: moisture readings, photographs, material assessments, and a written scope of work. That documentation goes directly to your adjuster and gives the carrier what it needs to process the claim without repeated site visits. We bill carriers directly and walk you through the process if this is your first time filing a sewage-related claim.
+Sewage backup coverage is a rider that many homeowners in rural Concho County add to their standard policy — but not everyone knows whether they have it until a loss occurs. Air Care Restoration documents the damage thoroughly from the moment we arrive: moisture readings, photographs, material assessments, and a written scope of work. That documentation goes directly to your adjuster and gives the carrier what it needs to process the claim without repeated site visits. We bill carriers directly and communicate technical scope information with your adjuster throughout the process.
 
 ## Local Note
 

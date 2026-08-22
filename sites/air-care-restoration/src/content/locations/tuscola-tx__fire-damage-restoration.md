@@ -20,7 +20,7 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire breaks out in a Tuscola home, the dry West Texas air that defines Taylor County living becomes part of the problem almost immediately. Low humidity accelerates the bonding of smoke residue to surfaces — soot that might stay loose and wipeable for days in a more humid climate can etch into drywall, cabinetry, and HVAC ducts within hours here. Air Care Restoration responds 24/7 from Abilene, holding IICRC FSRT (Fire & Smoke) certification and EPA Lead-Safe credentials, so the crew that arrives is trained specifically for the chemical and structural damage a fire leaves behind.
+When a fire breaks out in a Tuscola home, the dry West Texas air that defines Taylor County living becomes part of the problem almost immediately. Low humidity accelerates the bonding of smoke residue to surfaces — soot that might stay loose and wipeable for days in a more humid climate can etch into drywall, cabinetry, and HVAC ducts within hours here. Air Care Restoration responds 24/7 from Abilene, holding IICRC FSRT (Fire & Smoke) and OCT (Odor Control) certifications, so the crew that arrives is trained specifically for the chemical and structural damage a fire leaves behind.
 
 ## Why Tuscola Properties Face Particular Fire Damage Challenges
 
@@ -48,7 +48,7 @@ Air Care Restoration's base in Abilene puts Tuscola well within our primary serv
 
 ## Working with Your Insurance Carrier After a Tuscola Fire
 
-Fire claims in Taylor County typically move through standard homeowner's insurance channels, but the scope documentation matters enormously. Carriers will question line items that aren't supported by photographs, moisture readings, and written assessments — especially when secondary water damage from suppression is included in the claim. Air Care Restoration prepares itemized loss documentation that follows the same format adjusters expect, which reduces back-and-forth and keeps your project moving toward reconstruction rather than stalling in the claims process.
+Fire claims in Taylor County typically move through standard homeowner's insurance channels, but the scope documentation matters enormously. Carriers will question line items that aren't supported by photographs, moisture readings, and written assessments — especially when secondary water damage from suppression is included in the claim. Air Care Restoration prepares itemized loss documentation that follows the same format adjusters expect and communicates technical scope information directly with your adjuster, which reduces back-and-forth and keeps your project moving toward reconstruction rather than stalling in the claims process. Coverage and settlement decisions remain between you and your carrier.
 
 If your policy includes code-upgrade coverage, that can be relevant in Tuscola's older housing stock where a fire repair may trigger current Taylor County code requirements for electrical, insulation, or framing that weren't part of the original construction.
 
@@ -56,4 +56,4 @@ If your policy includes code-upgrade coverage, that can be relevant in Tuscola's
 
 Homes in the Tuscola area frequently have metal roofing — a practical choice for hail and wind resistance on the Rolling Plains. After a structural fire, metal roof panels can warp and separate at seams without showing obvious exterior damage, creating gaps that allow weather infiltration during the restoration window. Part of our initial assessment specifically checks roof decking and panel seams for heat distortion, because a gap that looks minor from the ground can admit enough rain or blowing dust to compromise drying efforts and delay reconstruction by weeks.
 
-If your Tuscola property has been damaged by fire, the window to limit secondary damage is short. Call Air Care Restoration at **(325) 339-8723** — our IICRC-certified, OSHA-trained crew is available 24/7 and will begin the assessment and stabilization process as soon as we arrive.
+If your Tuscola property has been damaged by fire, the window to limit secondary damage is short. Call Air Care Restoration at **(325) 339-8723** — our IICRC-certified crew is available 24/7 and will begin the assessment and stabilization process as soon as we arrive.

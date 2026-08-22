@@ -28,11 +28,11 @@ When you submit a contact or estimate request form, we collect the name, phone n
 
 ### How We Use Your Information
 
-The information you share is used to respond to your inquiry, schedule on-site estimates, and — if you authorize us to do so — coordinate with your insurance carrier or adjuster on your behalf. We do not use your contact information for unsolicited marketing, and we do not sell, rent, or trade your personal data to third parties.
+The information you share is used to respond to your inquiry, schedule on-site estimates, and — if you authorize us to do so — communicate technical scope information with your insurance carrier or adjuster on your behalf. We do not use your contact information for unsolicited marketing, and we do not sell, rent, or trade your personal data to third parties.
 
 ### Insurance Coordination and Data Sharing
 
-If you ask us to work directly with your insurance company, we will share only the documentation necessary to process your claim (scope of loss, photographs, moisture readings, and related records). That sharing happens with your explicit authorization, typically captured in the signed work-authorization form.
+If you ask us to work directly with your insurance company, we will share only the documentation necessary to support your claim (scope of loss, photographs, moisture readings, and related records). That sharing happens with your explicit authorization, typically captured in the signed work-authorization form. Coverage and settlement decisions remain between you and your carrier.
 
 ### Data Retention
 
@@ -64,7 +64,7 @@ Any estimate we provide — written, verbal, or digital — is an assessment bas
 
 ### Payment Terms
 
-Payment terms, accepted methods, and any financing or insurance-assignment arrangements are detailed in your work-authorization form. We coordinate directly with most major insurance carriers when authorized, which can reduce your out-of-pocket responsibility to your deductible. Final payment obligations remain with the property owner unless a written assignment of benefits is in place.
+Payment terms, accepted methods, and any financing or insurance-assignment arrangements are detailed in your work-authorization form. We bill insurance carriers directly when authorized and can provide detailed damage documentation and estimates to support your claim, which can reduce your out-of-pocket responsibility to your deductible. Coverage and settlement decisions remain with the property owner and their carrier. Final payment obligations remain with the property owner unless a written assignment of benefits is in place.
 
 ### Liability and Licensing
 

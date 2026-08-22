@@ -40,7 +40,7 @@ Air Care Restoration is based in Abilene and serves San Angelo via US-277 South,
 
 ## San Angelo Insurance Coordination
 
-Most homeowner policies in Texas cover sudden and accidental water discharge — a burst pipe, an appliance failure, an ice-dam backup — but the documentation burden falls on the policyholder to prove the loss was sudden, not gradual. Our moisture mapping reports, photo documentation, and drying logs are structured to meet the evidentiary standard that Texas carriers and their third-party adjusters look for. We communicate directly with your adjuster throughout the job so scope disputes are resolved with data, not phone-tag.
+Most homeowner policies in Texas cover sudden and accidental water discharge — a burst pipe, an appliance failure, an ice-dam backup — but the documentation burden falls on the policyholder to prove the loss was sudden, not gradual. Our moisture mapping reports, photo documentation, and drying logs are structured to meet the evidentiary standard that Texas carriers and their third-party adjusters look for. We communicate technical scope information directly with your adjuster throughout the job so scope questions are resolved with data, not phone-tag. Coverage and settlement decisions remain between you and your carrier.
 
 If your property is a rental or a commercial building, the coordination process is similar but often involves a property manager as the primary contact. We can work with whoever holds the policy and whoever is on-site — the goal is a clean claim file and a dried, documented structure.
 

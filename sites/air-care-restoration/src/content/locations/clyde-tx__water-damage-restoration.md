@@ -40,7 +40,7 @@ Air Care Restoration is based in Abilene, and Clyde sits roughly 25 miles east o
 
 ## Clyde Insurance Coordination
 
-Most residential water losses are covered under standard homeowners policies, and the documentation Air Care Restoration produces — moisture logs, photo sets, scope of work, drying reports — is formatted to support the claim from the first visit. The crew communicates directly with adjusters when needed and can provide a detailed drying log that shows day-by-day progress, which carriers often require before approving reconstruction costs. If a scope dispute arises, the moisture data collected on-site provides an objective record of what was actually wet and for how long.
+Most residential water losses are covered under standard homeowners policies, and the documentation Air Care Restoration produces — moisture logs, photo sets, scope of work, drying reports — is formatted to support the claim from the first visit. The crew can communicate technical scope information directly with your adjuster when needed and can provide a detailed drying log that shows day-by-day progress, which carriers often require before approving reconstruction costs. Coverage and settlement decisions remain between you and your carrier. If a scope question arises, the moisture data collected on-site provides an objective record of what was actually wet and for how long.
 
 ## Local Note
 

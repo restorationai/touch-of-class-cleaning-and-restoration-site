@@ -48,7 +48,7 @@ For property managers or landlords with multiple Coke County addresses, we can c
 
 ## Insurance Coordination for Bronte Storm Claims
 
-Storm damage claims in rural Texas can move slowly if the documentation isn't thorough from the start. Adjusters working Coke County losses may be covering a wide geographic area and won't always be on-site the same day as the damage. We provide detailed photo documentation, moisture logs, and written scope of damage that gives your carrier what it needs to process the claim without repeated site visits. We work with most major homeowners' insurance carriers and can communicate directly with your adjuster to keep the process moving.
+Storm damage claims in rural Texas can move slowly if the documentation isn't thorough from the start. Adjusters working Coke County losses may be covering a wide geographic area and won't always be on-site the same day as the damage. We provide detailed photo documentation, moisture logs, and written scope of damage that gives your carrier what it needs to process the claim without repeated site visits. We can bill your insurance carrier directly and communicate technical scope information with your adjuster to keep the process moving. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 

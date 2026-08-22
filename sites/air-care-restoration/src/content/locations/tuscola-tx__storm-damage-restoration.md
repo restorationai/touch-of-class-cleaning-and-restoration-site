@@ -34,17 +34,17 @@ The first step after we arrive is a full exterior and interior assessment — ro
 
 From there, the process moves to moisture mapping. Even when a storm looks like a "wind and hail" event rather than a flooding event, driven rain can push water into wall cavities, attic spaces, and under flooring through gaps that weren't there before the storm. We use thermal imaging and calibrated moisture meters to find those pockets. Wet insulation in an attic in a Taylor County summer — where ambient temperatures routinely exceed 100°F — becomes a mold-risk environment within 24 to 48 hours, so speed matters here.
 
-Once the structure is dried to IICRC S500 standards, we move into structural repairs: decking replacement, framing repairs, window and door reinstallation, and interior finishes. As an IICRC Certified Firm with OSHA-trained technicians and EPA Lead-Safe certification, we handle the full scope rather than handing off to a second contractor mid-job.
+Once the structure is dried to IICRC S500 standards, we move into structural repairs: decking replacement, framing repairs, window and door reinstallation, and interior finishes. As an IICRC Certified Firm, we handle the full scope rather than handing off to a second contractor mid-job.
 
 ## Reaching Tuscola from Abilene
 
-Our Abilene base puts us on US-83 South and then Farm-to-Market roads into Tuscola in a short drive — typically well under 30 minutes depending on where in the area you're located. Because we operate 24/7, a storm that moves through at 2 a.m. doesn't mean you're waiting until business hours to get tarps on a damaged roof. Call (325) 339-8723 and we'll dispatch.
+Our Abilene base puts us on US-83 South and then Farm-to-Market roads into Tuscola in a short drive. Because we operate 24/7, a storm that moves through at 2 a.m. doesn't mean you're waiting until business hours to get tarps on a damaged roof. Call (325) 339-8723 and we'll dispatch.
 
 For properties farther out on the rural routes south and east of the Tuscola community, we ask callers to note the nearest county road intersection or a landmark — GPS coordinates on a rural FM road can lag, and getting to you faster matters more than getting there after a wrong turn.
 
 ## Tuscola Insurance Coordination
 
-Most storm losses in this area run through homeowner's policies with wind and hail riders. We document the loss in the format carriers expect — itemized photo logs, moisture readings with timestamps, and a written scope of damage — so your adjuster has what they need to process the claim without sending out a second inspector to re-document what we've already captured. We bill carriers directly where the policy allows and walk you through the supplement process if the initial estimate doesn't cover the full scope of structural repairs.
+Most storm losses in this area run through homeowner's policies with wind and hail riders. We document the loss in the format carriers expect — itemized photo logs, moisture readings with timestamps, and a written scope of damage — so your adjuster has what they need to process the claim without sending out a second inspector to re-document what we've already captured. We communicate technical scope information directly with your adjuster and bill carriers directly where the policy allows, and we walk you through the supplement process if the initial estimate doesn't cover the full scope of structural repairs. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 

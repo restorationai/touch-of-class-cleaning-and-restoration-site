@@ -44,7 +44,7 @@ Air Care Restoration is based in Abilene, and US-83 North is the most direct rou
 
 ## Anson Insurance Coordination
 
-Storm damage claims in Texas are governed by state prompt-payment statutes, and most standard homeowner policies cover sudden wind, hail, and water intrusion caused by storm damage — though the specifics of your deductible, coverage limits, and any exclusions are between you and your carrier. What we do is make the documentation process as clean as possible: itemized moisture logs, timestamped photographs, and a written scope of work that gives your adjuster what they need to process the claim without unnecessary back-and-forth. We work with most major carriers and can communicate directly with your adjuster throughout the job.
+Storm damage claims in Texas are governed by state prompt-payment statutes, and most standard homeowner policies cover sudden wind, hail, and water intrusion caused by storm damage — though the specifics of your deductible, coverage limits, and any exclusions are between you and your carrier. What we do is make the documentation process as clean as possible: itemized moisture logs, timestamped photographs, and a written scope of work that gives your adjuster what they need to process the claim without unnecessary back-and-forth. We work with most major carriers and can communicate technical scope information directly with your adjuster throughout the job.
 
 ## Local Note
 

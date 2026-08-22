@@ -34,22 +34,27 @@ export const brand = {
   ga4MeasurementId: "",
   clarityProjectId: "",
   logoUrl: "/images/logo.png",
-  licenseNumbers: ["MRC2262"] as string[],
+  // Sarha 2026-08-21: company license and personal license kept SEPARATE —
+  // RCO1798 is the company (Texas Mold Remediation Company), MRC2262 is
+  // Sarha Boyd personally (Texas Mold Remediation Contractor). Never blob
+  // credentials into one string; never imply the EPA cert is a firm cert
+  // (she holds EPA Certified Renovator personally; firm cert pending).
+  licenseNumbers: ["RCO1798", "MRC2262"] as string[],
   licenseAuthority: "Texas Department of Licensing and Regulation",
   // State license-verification page — the footer links the license number here.
   licenseLookupUrl: "https://www.tdlr.texas.gov/LicenseSearch/",
-  licenseType: "Texas Mold Remediation Contractor License",
+  licenseType: "Texas Mold Remediation Company RCO1798 | Sarha Boyd — Texas Mold Remediation Contractor MRC2262",
   // Operator-confirmed "licensed & insured" attestation from plan-input.json —
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: true as boolean,
-  certifications: ["IICRC CERTIFIED FIRM", "OSHA TRAINED", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "EPA LEAD-SAFE CERTIFIED", "MRC2262-RCO1798-TCST-HST-OCT"] as string[],
+  certifications: ["IICRC CERTIFIED FIRM", "BBB ACCREDITED BUSINESS", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "IICRC OCT (ODOR)", "IICRC TCST (TRAUMA & CRIME SCENE)", "IICRC HST (HEALTH & SAFETY)", "EPA CERTIFIED RENOVATOR — LEAD RRP (SARHA BOYD)"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: ["https://www.yelp.com/biz/RjvrqMiPOqSCv-PxuabE1w", "https://www.bbb.org/us/tx/abilene/profile/flood-emergency/air-care-restoration-llc-0795-48105", "https://www.facebook.com/aircarerestorationtx/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "8",
+  gbpReviewCount: "15",
   gbpReviews: [
     { author: "Bayli", rating: 5, text: "I had an amazing experience with Air Care Restoration! From the moment I called, the team was professional, friendly, and quick to respond. They explained everything clearly, arrived on time, and treated my home with care and respect. Their attention to detail and quality of work exceeded my…", when: "August 2026" },
     { author: "Emily", rating: 5, text: "Absolutely AMAZING! Such knowledgeable, considerate and caring staff. The Owner, Sarha m, was wonderful to work with. HIGHLY recommend!! Thank you for all your amazing help Sarha!", when: "August 2026" },

@@ -41,7 +41,7 @@ After a kitchen fire or a grass fire that pushes smoke through HVAC returns, the
 
 ### Mold remediation
 
-Merkel's combination of aging housing stock and periodic moisture intrusion creates conditions where mold can establish behind walls and under flooring without visible signs at the surface. Remediation follows containment protocols that protect the rest of the structure during removal, and affected materials are properly disposed of before any rebuild work begins.
+Merkel's combination of aging housing stock and periodic moisture intrusion creates conditions where mold can establish behind walls and under flooring without visible signs at the surface. Remediation follows containment protocols that protect the rest of the structure during removal, and affected materials are properly disposed of before any rebuild work begins. A licensed Mold Assessment Consultant independent of Air Care performs the assessment, writes the remediation protocol, and conducts post-remediation verification to confirm the project meets the criteria established in that protocol.
 
 ### Storm and wind damage restoration
 
@@ -55,7 +55,7 @@ Merkel is a compact community, so once a crew is in town, travel across the city
 
 ## Building stock, site conditions, and permits in Merkel
 
-Much of Merkel's residential housing was built from the mid-20th century onward, with a meaningful portion of the stock dating to the postwar decades. Homes from that era commonly used galvanized steel supply lines, which corrode from the inside out and can fail without warning, and cast-iron drain lines that are prone to root intrusion and cracking. Asbestos-containing materials — floor tile, pipe insulation, joint compound — were standard in construction through the late 1970s, and any scope that opens walls or disturbs flooring in homes of that vintage needs to account for testing and proper handling before demolition begins.
+Much of Merkel's residential housing was built from the mid-20th century onward, with a meaningful portion of the stock dating to the postwar decades. Homes from that era commonly used galvanized steel supply lines, which corrode from the inside out and can fail without warning, and cast-iron drain lines that are prone to root intrusion and cracking. Asbestos-containing materials — floor tile, pipe insulation, joint compound — were standard in construction through the late 1970s, and any scope that opens walls or disturbs flooring in homes of that vintage needs to account for evaluation and proper handling by a licensed abatement contractor before demolition begins.
 
 Foundations in the area are predominantly slab-on-grade. Taylor County's expansive clay soils shift seasonally, and those movements can open gaps at slab perimeters that allow water intrusion at the foundation level. Structural or mechanical repair work in Merkel falls under the jurisdiction of the City of Merkel and, depending on scope, Taylor County. Permits are typically required for structural repairs, electrical, and plumbing work that follows a restoration loss — the restoration scope and the rebuild scope need to be coordinated with the appropriate authority having jurisdiction before work begins.
 

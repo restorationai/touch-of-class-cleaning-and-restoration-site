@@ -42,7 +42,7 @@ Air Care Restoration is based in Abilene, and Haskell is a direct run north on U
 
 ## Haskell Insurance Coordination
 
-Whether a sewage backup is covered depends on the specific policy language — standard homeowners policies often exclude sewer backup unless a rider was added, while some policies cover it under the sudden-and-accidental water damage provision. The crew documents the loss thoroughly: photographs of affected materials, moisture readings before and after, a written scope of the work performed. That documentation goes to your adjuster in the format carriers expect, which keeps the claim moving. If coverage is limited or denied, the team can walk through what was done and why, so you have a clear record regardless of the outcome.
+Whether a sewage backup is covered depends on the specific policy language — standard homeowners policies often exclude sewer backup unless a rider was added, while some policies cover it under the sudden-and-accidental water damage provision. The crew documents the loss thoroughly: photographs of affected materials, moisture readings before and after, a written scope of the work performed. That documentation goes to your adjuster in the format carriers expect, which keeps the claim moving. Coverage and settlement decisions remain between you and your carrier. If coverage is limited or denied, the team can walk through what was done and why, so you have a clear record regardless of the outcome.
 
 ## Local Note
 

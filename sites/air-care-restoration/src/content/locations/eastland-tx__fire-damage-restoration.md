@@ -20,7 +20,7 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-Eastland sits in the rolling Cross Timbers country of West Texas, where dry summer winds can turn a small kitchen fire into a whole-structure smoke event before the first engine arrives. The combination of low humidity, older wood-frame construction common throughout Eastland County, and the wide spacing between properties means fire moves fast and smoke travels farther than homeowners expect — saturating attic insulation, seeping into wall cavities, and leaving behind odor compounds that linger for months if the cleanup isn't handled correctly. Air Care Restoration responds 24/7 and holds IICRC FSRT (Fire & Smoke) certification, so the crew arriving at your door is trained specifically for what fire and smoke do to a structure — not just how to mop up water afterward.
+Eastland sits in the rolling Cross Timbers country of West Texas, where dry summer winds can turn a small kitchen fire into a whole-structure smoke event before the first engine arrives. The combination of low humidity, older wood-frame construction common throughout Eastland County, and the wide spacing between properties means fire moves fast and smoke travels farther than homeowners expect — saturating attic insulation, seeping into wall cavities, and leaving behind odor compounds that linger for months if the cleanup isn't handled correctly. Air Care Restoration responds 24/7 and holds IICRC FSRT (Fire & Smoke) and OCT (Odor Control) certifications, so the crew arriving at your door is trained specifically for what fire and smoke do to a structure — not just how to mop up water afterward.
 
 ## Why Eastland Properties Are Vulnerable to Structural Fire Damage
 
@@ -38,7 +38,7 @@ Every fire loss is different, but the sequence of work follows a disciplined ord
 
 **Structural cleaning and deodorization** is where the IICRC FSRT training matters most. Dry smoke from fast-burning fires leaves a powdery, alkaline residue that smears if you wipe it with the wrong product. Wet smoke from slow, smoldering fires leaves a sticky, acidic residue that etches surfaces. Protein smoke from kitchen fires is nearly invisible but produces some of the most persistent odors. We identify which smoke types are present and apply the appropriate cleaning agents — not a one-size approach.
 
-**Thermal fogging and hydroxyl treatment** address odor at the molecular level, reaching into wall cavities and HVAC ductwork that surface cleaning can't access. In Eastland's dry climate, this step moves quickly, but we verify odor neutralization before closing out the job.
+**Thermal fogging and hydroxyl treatment** address odor at the molecular level, reaching into wall cavities and HVAC ductwork that surface cleaning can't access. Our IICRC OCT certification guides the selection and application of odor-control methods for each specific loss. In Eastland's dry climate, this step moves quickly, but we verify odor neutralization before closing out the job.
 
 **Reconstruction coordination** closes the loop. Where structural materials need replacement — charred framing, damaged drywall, compromised insulation — we manage that scope so you're not coordinating a separate contractor on top of an already stressful situation.
 
@@ -48,7 +48,7 @@ Air Care Restoration is based in Abilene and responds to Eastland 24 hours a day
 
 ## Eastland Insurance Coordination
 
-Fire losses almost always involve a homeowner's or commercial property insurance claim, and the documentation phase of our process is built around what adjusters need to approve a scope of work. We provide line-item inventories, moisture readings, photo documentation, and written scope narratives. We work with most major carriers and can communicate directly with your adjuster to answer technical questions about methodology — which reduces back-and-forth delays and helps move your claim toward approval faster.
+Fire losses almost always involve a homeowner's or commercial property insurance claim, and the documentation phase of our process is built around what adjusters need to approve a scope of work. We provide line-item inventories, moisture readings, photo documentation, and written scope narratives. We work with most major carriers and can communicate directly with your adjuster to answer technical questions about methodology — which reduces back-and-forth delays and helps move your claim toward approval faster. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 

@@ -33,7 +33,7 @@ Thunderstorms rolling through the Concho Valley bring heavy rain in short bursts
 
 **Fire and smoke damage restoration** matters here because rural properties often rely on wood-burning stoves or older heating equipment, and response times from local fire departments — while dedicated — can mean a fire burns longer before suppression. Smoke residue penetrates porous surfaces quickly, and the odor compounds if cleanup is delayed. Full scope includes soot removal, deodorization, and coordinating any structural repairs needed before the home is livable again.
 
-**Mold remediation** follows water intrusion that wasn't fully dried — or wasn't discovered at all. Crawlspace areas, bathroom walls, and HVAC ducts are common sites. Remediation work is scoped to contain the affected area, remove colonized material, and address the moisture source so the problem doesn't return.
+**Mold remediation** follows water intrusion that wasn't fully dried — or wasn't discovered at all. Crawlspace areas, bathroom walls, and HVAC ducts are common sites. Remediation work is scoped to contain the affected area, remove colonized material, and address the moisture source so the problem doesn't return. An independent licensed Mold Assessment Consultant establishes the remediation protocol and performs post-remediation verification to confirm the work meets the criteria established in the Mold Remediation Protocol.
 
 **Reconstruction and build-back** closes the loop after any of the above. Once the damage is documented and the affected materials are removed, the rebuild phase restores the structure — drywall, flooring, cabinetry, roofing — so property owners aren't left coordinating a second contractor.
 

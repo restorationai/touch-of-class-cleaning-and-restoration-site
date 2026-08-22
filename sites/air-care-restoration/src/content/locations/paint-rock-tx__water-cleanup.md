@@ -44,7 +44,7 @@ Air Care Restoration is based in Abilene. Paint Rock is southeast of Abilene via
 
 ## Insurance Coordination for Paint Rock Water Losses
 
-Most standard homeowners' policies cover sudden and accidental water losses — a burst pipe, a washing machine supply line failure, an ice maker line that lets go. They typically do not cover gradual leaks or flood events (which require separate NFIP or private flood coverage). Air Care Restoration documents losses with photographs, moisture readings, and written scope notes in a format that supports the claims process with major carriers. That documentation is prepared from the first visit, so there is a clear record of conditions at the time of response rather than a reconstruction from memory.
+Most standard homeowners' policies cover sudden and accidental water losses — a burst pipe, a washing machine supply line failure, an ice maker line that lets go. They typically do not cover gradual leaks or flood events (which require separate NFIP or private flood coverage). Air Care Restoration documents losses with photographs, moisture readings, and written scope notes in a format that supports the claims process with major carriers. We provide detailed damage documentation, estimates and invoices, direct insurance billing, and communicate technical scope information with your adjuster. Coverage and settlement decisions remain between you and your carrier. Documentation is prepared from the first visit, so there is a clear record of conditions at the time of response rather than a reconstruction from memory.
 
 ## Local Note
 

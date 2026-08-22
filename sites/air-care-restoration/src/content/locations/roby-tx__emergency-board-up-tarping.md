@@ -46,7 +46,7 @@ Air Care Restoration is based in Abilene, and Roby sits roughly 60 miles to the 
 
 ## Roby Insurance Coordination
 
-Most homeowner and commercial property policies in Texas cover sudden and accidental damage from wind, hail, and fire — and they typically require that the property owner take reasonable steps to prevent further damage after a loss event. Emergency board-up and tarping is exactly that: documented mitigation that protects your claim rather than complicating it. Air Care Restoration photographs the damage before any material is installed, itemizes the scope of the temporary protection work, and provides documentation formatted for direct submission to your adjuster. We bill carriers directly where the policy allows, so you are not fronting the full cost out of pocket while the claim processes.
+Most homeowner and commercial property policies in Texas cover sudden and accidental damage from wind, hail, and fire — and they typically require that the property owner take reasonable steps to prevent further damage after a loss event. Emergency board-up and tarping is exactly that: documented mitigation that protects your claim rather than complicating it. Air Care Restoration photographs the damage before any material is installed, itemizes the scope of the temporary protection work, and provides documentation formatted for direct submission to your adjuster. We bill carriers directly where the policy allows, and we communicate technical scope information with your adjuster on your behalf — coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 

@@ -32,9 +32,9 @@ The region's temperature swings compound the problem. Hot, dry summers push peop
 
 Every remediation starts with a thorough moisture mapping inspection. We use thermal imaging and calibrated moisture meters to locate hidden saturation behind drywall, under flooring, and inside wall cavities — because surface mold is almost always a symptom of a deeper moisture source that has to be addressed before any cleaning or removal begins.
 
-Once we understand the full scope, we establish negative-air containment barriers to prevent spores from migrating to unaffected areas of the home during work. This step matters especially in older Rotan homes where open floor plans or shared ductwork can carry airborne spores from one room to another quickly. Affected materials are removed according to IICRC S520 protocol, and structural surfaces are treated and dried to confirmed clearance levels. Our EPA Lead-Safe certification also means we handle pre-1978 painted surfaces — common in Fisher County's older housing stock — with the additional precautions required by federal regulation.
+Once we understand the full scope, we establish negative-air containment barriers to prevent spores from migrating to unaffected areas of the home during work. This step matters especially in older Rotan homes where open floor plans or shared ductwork can carry airborne spores from one room to another quickly. Affected materials are removed according to IICRC S520 protocol and the Mold Remediation Protocol written by the independent licensed Mold Assessment Consultant assigned to the project, and structural surfaces are treated and dried until conditions meet the post-remediation verification criteria established in that protocol. Where pre-1978 painted surfaces are present — common in Fisher County's older housing stock — owner Sarha Boyd holds the EPA Certified Renovator credential under the Lead RRP program, and those surfaces receive the additional precautions required by federal regulation.
 
-Final air sampling, coordinated through an independent industrial hygienist when the scope warrants it, gives homeowners and insurers a documented clearance record rather than just a verbal sign-off.
+Post-remediation verification, including any required sampling or clearance confirmation, is performed by the independent licensed Mold Assessment Consultant, who provides the documented clearance record to the homeowner and insurer.
 
 ## Reaching Rotan from Abilene
 
@@ -44,7 +44,7 @@ For properties on the western or southern edges of Fisher County, we coordinate 
 
 ## Rotan Insurance Coordination
 
-Mold claims in Texas require careful documentation to avoid disputes over coverage scope. We photograph all affected areas before containment goes up, log moisture readings with timestamps, and produce a written scope of work that aligns with the format most carriers use for review. If your adjuster needs to inspect before demolition begins, we schedule around that window rather than rushing ahead — a step that prevents the back-and-forth that delays settlements.
+Mold claims in Texas require careful documentation to avoid disputes over coverage scope. We photograph all affected areas before containment goes up, log moisture readings with timestamps, and produce a written scope of work that aligns with the format most carriers use for review. We communicate technical scope information with your adjuster and provide detailed estimates and invoices, including direct insurance billing where applicable. If your adjuster needs to inspect before demolition begins, we schedule around that window rather than rushing ahead — a step that prevents the back-and-forth that delays settlements. Coverage and settlement decisions remain between you and your carrier.
 
 Homeowners in Fisher County sometimes carry older policy forms that distinguish between "sudden and accidental" water damage and long-term seepage. We flag that distinction early in the documentation process so there are no surprises when the claim is submitted.
 
@@ -52,4 +52,4 @@ Homeowners in Fisher County sometimes carry older policy forms that distinguish 
 
 One thing that catches Rotan homeowners off guard: the same dry heat that seems to fight mold in summer can actually mask an active colony. Low indoor humidity causes mold to go dormant and shrink, making it harder to see and easier to miss during a casual inspection. When the next rain cycle raises indoor humidity again — often within hours of a storm front moving through — the colony reactivates. If you notice a musty odor that comes and goes with the weather, that pattern is worth investigating rather than waiting to see if it resolves on its own.
 
-Call Air Care Restoration at (325) 339-8723 any time you suspect mold in your Rotan home or commercial property. We'll assess the situation honestly, contain the problem before it spreads, and document everything your insurer needs to process the claim.
+Call Air Care Restoration at (325) 339-8723 any time you suspect mold in your Rotan home or commercial property. We'll respond fast, contain the problem before it spreads, and document everything your insurer needs to process the claim.

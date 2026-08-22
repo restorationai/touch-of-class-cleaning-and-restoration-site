@@ -31,7 +31,7 @@ The region's dry, hot summers also concentrate odor-causing compounds quickly. I
 
 ## Our Biohazard Cleanup Process in Roby
 
-Every job begins with a thorough assessment before any materials are moved or removed. Our OSHA-trained technicians identify the full extent of affected surfaces, including areas that are not immediately visible. From there, the process follows a defined sequence:
+Every job begins with a thorough assessment before any materials are moved or removed. Our technicians identify the full extent of affected surfaces, including areas that are not immediately visible. From there, the process follows a defined sequence:
 
 - **Containment and PPE staging** — the affected area is isolated to prevent cross-contamination to adjacent rooms or HVAC pathways.
 - **Removal of porous materials** — saturated drywall, flooring, insulation, or soft goods that cannot be decontaminated to a safe standard are carefully packaged and disposed of in compliance with Texas Department of State Health Services regulations for biohazardous waste.
@@ -49,7 +49,7 @@ For rural Fisher County addresses outside the Roby city limits, we ask callers t
 
 ## Insurance Coordination for Biohazard Claims in Roby
 
-Homeowners' policies in Texas often include coverage for biohazard remediation under the same provisions that cover sudden and accidental losses. Whether your carrier is a regional Texas insurer or a national provider, Air Care Restoration documents the loss thoroughly — written scope, photographs, material removal logs — and communicates directly with your adjuster so you are not managing that process while also managing a family emergency. We cannot guarantee coverage determinations, which rest with your carrier, but we can make sure the documentation supports your claim.
+Homeowners' policies in Texas often include coverage for biohazard remediation under the same provisions that cover sudden and accidental losses. Whether your carrier is a regional Texas insurer or a national provider, Air Care Restoration documents the loss thoroughly — written scope, photographs, material removal logs — and communicates directly with your adjuster so you are not managing that process while also managing a family emergency. Coverage determinations rest with your carrier, but thorough documentation gives your claim the best foundation.
 
 If the property is part of an estate or a rental, we can coordinate with property managers, attorneys, or family representatives rather than requiring the primary contact to be on-site throughout the process.
 

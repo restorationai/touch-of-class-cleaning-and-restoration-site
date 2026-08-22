@@ -34,7 +34,7 @@ When you call, a crew is dispatched immediately. Because Air Care Restoration is
 
 On arrival, the crew conducts a rapid structural assessment: identifying every compromised opening, evaluating roof damage extent, and checking for hazards like downed wiring or unstable chimneys before anyone goes up on a ladder. Window and door openings are boarded with exterior-grade plywood, fastened to the structural framing rather than just the trim, so the board holds under continued wind load. Roof damage is covered with heavy-duty polyethylene tarps rated for UV exposure, secured with battens and mechanical fasteners rather than just weighted at the edges — a method that matters in a region where overnight wind gusts are common even after a storm passes.
 
-All work is documented with photographs and a written damage inventory before, during, and after installation. That documentation goes directly to your insurance carrier as part of the claim file.
+All work is documented with photographs and a written damage inventory before, during, and after installation. That documentation is provided to support your insurance claim file.
 
 ## Reaching Haskell from Abilene
 
@@ -42,7 +42,7 @@ US-277 North is the primary route from Abilene through Stamford and into Haskell
 
 ## Haskell Insurance Coordination
 
-Emergency board-up and tarping is almost universally covered under the "protection from further damage" provision of standard homeowners policies, but insurers do require documentation. Air Care Restoration's IICRC-certified team produces a scope of work and photo record that meets carrier requirements, which reduces the friction of getting the emergency mitigation expense approved. If your adjuster needs to inspect before permanent repairs begin, the board-up and tarp installation preserves the loss scene without allowing additional deterioration — a detail that matters when the adjuster's first available appointment is several days out.
+Emergency board-up and tarping is almost universally covered under the "protection from further damage" provision of standard homeowners policies, but insurers do require documentation. Air Care Restoration's IICRC-certified team produces a scope of work and photo record that meets carrier requirements, which reduces the friction of getting the emergency mitigation expense approved. We provide detailed damage documentation, estimates and invoices, and direct insurance billing, and we communicate technical scope information with your adjuster — coverage and settlement decisions remain between you and your carrier. If your adjuster needs to inspect before permanent repairs begin, the board-up and tarp installation preserves the loss scene without allowing additional deterioration — a detail that matters when the adjuster's first available appointment is several days out.
 
 ## Local Note
 

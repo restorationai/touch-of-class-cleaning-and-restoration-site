@@ -47,7 +47,7 @@ The second failure is ignoring HVAC systems. Smoke travels through return air pa
 
 A third gap is suppression water. Firefighting introduces significant moisture into wall cavities, subfloor assemblies, and ceiling systems. Fire restoration that doesn't include moisture mapping and structural drying leaves conditions that can produce mold growth within days — a secondary loss that complicates both the claim and the occupant's return timeline.
 
-Air Care Restoration holds IICRC FSRT (Fire and Smoke Restoration) certification and is OSHA trained, which means the crew arriving on a fire loss is trained specifically on residue chemistry, odor science, and the sequencing that prevents secondary damage.
+Air Care Restoration's work on fire losses follows the ANSI/IICRC S700 standard for fire and smoke damage restoration. Owner Sarha Boyd holds IICRC FSRT (Fire and Smoke Restoration) and OCT (Odor Control) certifications, which means the response is trained specifically on residue chemistry, odor science, and the sequencing that prevents secondary damage.
 
 ## What does fire damage restoration cost?
 
@@ -61,11 +61,13 @@ Typical costs for fire and smoke restoration vary significantly based on the siz
 | Partial structural fire with drywall and framing replacement | $15,000 – $40,000 |
 | Whole-home loss requiring full reconstruction | $60,000 – $200,000+ |
 
+*Industry reference ranges for budgeting context only, not an Air Care quote or guaranteed price. Every project is scoped and documented individually.*
+
 Every fire loss is different — square footage, construction type, residue category, and suppression water extent all shift the number. Air Care Restoration provides a written scope of work before any work begins so you know exactly what is covered and why. Homeowners insurance typically covers fire damage restoration, including smoke and soot cleanup, contents pack-out, and suppression water drying, subject to your policy's deductible and coverage limits.
 
 ## Seasonal and regional considerations
 
-Abiline's climate adds a layer of complexity to fire losses that isn't always obvious. The region's low humidity — particularly in fall and winter — accelerates soot migration and odor penetration because dry air allows fine particulate to stay airborne longer and travel farther through a structure before settling. A fire loss in January in West Texas can show smoke residue in rooms two and three zones away from the origin faster than the same loss in a more humid climate would.
+Abilene's climate adds a layer of complexity to fire losses that isn't always obvious. The region's low humidity — particularly in fall and winter — accelerates soot migration and odor penetration because dry air allows fine particulate to stay airborne longer and travel farther through a structure before settling. A fire loss in January in West Texas can show smoke residue in rooms two and three zones away from the origin faster than the same loss in a more humid climate would.
 
 Suppression water in winter also carries freeze risk in unheated or partially compromised structures. If exterior walls or roof assemblies were breached, water trapped in wall cavities can freeze before drying equipment can address it — a detail that affects both the drying timeline and the reconstruction scope.
 

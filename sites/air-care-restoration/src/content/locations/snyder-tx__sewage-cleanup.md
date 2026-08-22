@@ -42,7 +42,7 @@ Air Care Restoration is based in Abilene, roughly 90 miles southeast of Snyder v
 
 ## Snyder Insurance Coordination
 
-Whether a sewage backup is covered depends on the specific cause and your policy language — sewer line backups and septic overflows are often excluded from standard homeowners policies unless a rider was added, while internal plumbing failures may fall under dwelling coverage. Air Care Restoration documents the loss thoroughly: photographs of affected materials, moisture readings, scope of work, and disposal records. That documentation package is what your adjuster needs to process the claim, and we provide it regardless of how the coverage question resolves.
+Whether a sewage backup is covered depends on the specific cause and your policy language — sewer line backups and septic overflows are often excluded from standard homeowners policies unless a rider was added, while internal plumbing failures may fall under dwelling coverage. Air Care Restoration documents the loss thoroughly: photographs of affected materials, moisture readings, scope of work, and disposal records. That documentation package is what your adjuster needs to evaluate the claim, and we provide it regardless of how the coverage question resolves. Coverage and settlement decisions remain between you and your carrier.
 
 If your carrier does cover the loss, we bill directly and work to keep your out-of-pocket limited to your deductible.
 

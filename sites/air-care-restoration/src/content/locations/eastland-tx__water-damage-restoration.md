@@ -45,7 +45,7 @@ Air Care Restoration is headquartered in Abilene and serves Eastland via I-20 Ea
 
 ## Eastland Insurance Coordination
 
-Most standard homeowner policies cover sudden and accidental water losses — a burst pipe, an appliance failure, an ice-maker line that lets go. What carriers scrutinize is whether the damage was addressed promptly and whether the documentation supports the scope of the claim. Air Care Restoration provides moisture logs, thermal images, and itemized drying reports in formats that adjusters recognize, which reduces back-and-forth and helps keep your claim on track. If your carrier has a preferred vendor program, ask your adjuster whether Air Care qualifies — the IICRC firm certification and EPA Lead-Safe credential are the benchmarks most programs require.
+Most standard homeowner policies cover sudden and accidental water losses — a burst pipe, an appliance failure, an ice-maker line that lets go. What carriers scrutinize is whether the damage was addressed promptly and whether the documentation supports the scope of the claim. Air Care Restoration provides moisture logs, thermal images, and itemized drying reports in formats that adjusters recognize, which reduces back-and-forth and helps keep your claim on track. Coverage and settlement decisions remain between you and your carrier; Air Care handles the technical documentation and communicates scope information with your adjuster to support that process.
 
 ## Local Note
 

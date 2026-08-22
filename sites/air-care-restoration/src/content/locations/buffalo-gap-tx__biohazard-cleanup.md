@@ -21,7 +21,7 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
-Buffalo Gap is a small, tight-knit community in Taylor County where neighbors know each other by name — which makes an unexpected biohazard situation feel all the more overwhelming. Whether it involves unattended trauma, infectious material, or a sharps hazard on a rural property, the need for discreet, professional cleanup is immediate. Air Care Restoration responds 24/7 from Abilene, and our OSHA-trained, IICRC-certified team handles every call with the clinical care and quiet professionalism that a situation like this demands.
+Buffalo Gap is a small, tight-knit community in Taylor County where neighbors know each other by name — which makes an unexpected biohazard situation feel all the more overwhelming. Whether it involves unattended trauma, infectious material, or a sharps hazard on a rural property, the need for discreet, professional cleanup is immediate. Air Care Restoration responds 24/7 from Abilene, and our IICRC-certified team handles every call with the clinical care and quiet professionalism that a situation like this demands.
 
 ## Why Buffalo Gap Properties Present Unique Biohazard Challenges
 
@@ -31,11 +31,11 @@ The West Texas climate adds another layer of complexity. Summer heat in Taylor C
 
 ## Our Biohazard Remediation Process in Buffalo Gap
 
-Every biohazard call begins with a discreet arrival. We don't show up in vehicles that broadcast what we're doing to the neighborhood. Once on-site, our OSHA-trained technicians assess the affected area, establish containment, and begin the systematic removal of all infectious material — including blood, bodily fluids, sharps, and any contaminated porous materials that cannot be safely cleaned in place.
+Every biohazard call begins with a discreet arrival. We don't show up in vehicles that broadcast what we're doing to the neighborhood. Once on-site, our technicians assess the affected area, establish containment, and begin the systematic removal of all infectious material — including blood, bodily fluids, sharps, and any contaminated porous materials that cannot be safely cleaned in place.
 
-All waste is packaged and transported in compliance with Texas Department of State Health Services regulations for regulated medical and biohazardous waste. Nothing is left behind in a residential trash bin. After physical removal, we apply EPA-registered hospital-grade disinfectants to all affected surfaces and conduct verification testing before clearing the space. The goal is to return the property to a condition that is safe for re-occupancy — and to document that process thoroughly for insurance purposes.
+All waste is packaged and transported in compliance with Texas Department of State Health Services regulations for regulated medical and biohazardous waste. Nothing is left behind in a residential trash bin. After physical removal, we apply EPA-registered hospital-grade disinfectants to all affected surfaces. The goal is to return the property to a condition that is safe for re-occupancy — and to document that process thoroughly for insurance purposes.
 
-Because we hold EPA Lead-Safe certification, we're also equipped to handle remediation in older Buffalo Gap homes where lead-based paint on trim or walls could be disturbed during material removal — a detail that matters in structures built before the mid-1970s.
+Our owner, Sarha Boyd, holds the EPA Certified Renovator credential under the Lead RRP program, so we are equipped to handle remediation in older Buffalo Gap homes where lead-based paint on trim or walls could be disturbed during material removal — a detail that matters in structures built before the mid-1970s.
 
 ## Reaching Buffalo Gap from Abilene
 
@@ -43,7 +43,7 @@ Our team dispatches from Abilene, and Buffalo Gap is a direct shot south on FM 8
 
 ## Insurance Coordination for Buffalo Gap Residents
 
-Many homeowners in Taylor County don't realize that biohazard remediation — including trauma cleanup, infectious material removal, and sharps cleanup — is often a covered loss under standard homeowners insurance policies. Coverage depends on the specific policy and the nature of the incident, but we work directly with insurance carriers to document the scope of work, photograph affected areas, and submit the necessary paperwork. Our job is to reduce the administrative burden on you during an already difficult time.
+Many homeowners in Taylor County don't realize that biohazard remediation — including trauma cleanup, infectious material removal, and sharps cleanup — is often a covered loss under standard homeowners insurance policies. Coverage depends on the specific policy and the nature of the incident, and coverage and settlement decisions remain between you and your carrier. We support that process by providing detailed damage documentation, photographs of affected areas, accurate estimates and invoices, and direct insurance billing, and we can communicate technical scope information with your adjuster to help keep the process moving.
 
 If you're a landlord or property manager with a rental in the Buffalo Gap area, we can also coordinate directly with your property management company or insurance adjuster to keep the process moving without requiring your constant involvement on-site.
 

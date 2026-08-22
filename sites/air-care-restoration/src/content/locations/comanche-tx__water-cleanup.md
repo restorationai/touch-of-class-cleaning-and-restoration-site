@@ -42,7 +42,7 @@ Once on-site, our crew can stage equipment in driveways or on the street without
 
 ## Comanche Insurance Coordination
 
-Most standard homeowners policies in Texas cover sudden and accidental water damage — a burst pipe, an appliance failure, an overflow — but exclude gradual leaks and flood events. The distinction matters because the documentation we generate (moisture maps, photos, material logs, drying records) is exactly what adjusters use to evaluate the scope of a claim. We work directly with insurance carriers, providing the paperwork in the format most carriers require so you are not translating between a restoration crew and a desk adjuster on your own.
+Most standard homeowners policies in Texas cover sudden and accidental water damage — a burst pipe, an appliance failure, an overflow — but exclude gradual leaks and flood events. The distinction matters because the documentation we generate (moisture maps, photos, material logs, drying records) is exactly what adjusters use to evaluate the scope of a claim. We provide detailed damage documentation, estimates, and invoices, and bill carriers directly, supplying the paperwork in the format most carriers require so you are not translating between a restoration crew and a desk adjuster on your own. Coverage and settlement decisions remain between you and your carrier.
 
 If your loss involves a flood event rather than a plumbing failure, coverage typically falls under a separate NFIP or private flood policy. We can help you identify which policy applies based on the source of the water.
 

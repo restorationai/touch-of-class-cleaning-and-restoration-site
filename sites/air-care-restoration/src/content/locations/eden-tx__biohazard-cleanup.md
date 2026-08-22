@@ -47,7 +47,7 @@ For properties on the outskirts of Eden or on county roads, we ask callers to co
 
 Homeowners and property insurance policies vary significantly in how they handle biohazard cleanup, and the answer is not always obvious from the policy language. Some situations are covered under the dwelling protection portion of a standard homeowners policy; others fall under riders or require a specific cause-of-loss determination. We document the work thoroughly so that whatever your carrier requires — scope of loss, itemized materials removed, before-and-after photos — we can provide it.
 
-We communicate directly with adjusters when that helps move a claim forward. Our goal is to make sure the paperwork side of a difficult situation does not become another burden on the people already dealing with the hardest part.
+We communicate directly with adjusters when that helps move things forward, and we can bill insurers directly when coverage applies. Coverage and settlement decisions remain between you and your carrier. Our goal is to make sure the paperwork side of a difficult situation does not become another burden on the people already dealing with the hardest part.
 
 ## Local Note
 

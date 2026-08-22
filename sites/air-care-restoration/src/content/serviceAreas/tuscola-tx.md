@@ -33,11 +33,11 @@ Water damage in Tuscola frequently starts at the roof or at the foundation perim
 
 ### Fire and smoke damage restoration
 
-After a fire, the visible char is rarely the full story. Smoke residue migrates through HVAC systems and settles into porous surfaces — drywall, insulation, wood framing, soft furnishings — leaving an odor that resurfaces whenever temperatures rise. We clean and deodorize affected materials using methods matched to the residue type, and we coordinate the structural repairs that follow once the smoke work is complete.
+After a fire, the visible char is rarely the full story. Smoke residue migrates through HVAC systems and settles into porous surfaces — drywall, insulation, wood framing, soft furnishings — leaving an odor that resurfaces whenever temperatures rise. Our fire residue and odor-control work is guided by IICRC FSRT and OCT certifications held by our owner, Sarha Boyd. We clean and deodorize affected materials using methods matched to the residue type, and we coordinate the structural repairs that follow once the smoke work is complete.
 
 ### Mold remediation
 
-The combination of West Texas heat and any unresolved moisture source creates conditions where mold spreads quickly. We locate the moisture source, contain the affected area, remove colonized materials per industry protocols, and treat surfaces before reconstruction begins. Remediation without fixing the underlying moisture problem is temporary — we address both.
+The combination of West Texas heat and any unresolved moisture source creates conditions where mold spreads quickly. Mold remediation in Texas involves an independent licensed Mold Assessment Consultant who assesses conditions, writes the remediation protocol, and performs post-remediation verification — roles that are separate from our work. Air Care performs the remediation itself: locating the moisture source, containing the affected area, removing colonized materials per the protocol, and treating surfaces before reconstruction begins. Remediation without fixing the underlying moisture problem is temporary — we address both. Our work meets the post-remediation verification criteria established in the Mold Remediation Protocol.
 
 ### Reconstruction
 
@@ -49,7 +49,7 @@ Tuscola is roughly 15 miles south of downtown Abilene along US-83/84. From our A
 
 ## Building stock, site conditions, and permits in Tuscola
 
-Most of Tuscola's residential housing was built in the mid-to-late twentieth century, with a mix of modest ranch-style homes on slab-on-grade foundations and some older wood-frame construction on pier systems. Slab foundations are the norm in Taylor County, and the expansive clay soils common to this part of West Texas mean slabs move seasonally — creating stress points at plumbing penetrations that can produce slow leaks over years. Homes built before the late 1970s may contain asbestos-containing materials in floor tile, joint compound, or pipe insulation, and lead-based paint is possible in any structure predating 1978; a restoration scope in those homes requires testing and handling protocols before disturbing those assemblies.
+Most of Tuscola's residential housing was built in the mid-to-late twentieth century, with a mix of modest ranch-style homes on slab-on-grade foundations and some older wood-frame construction on pier systems. Slab foundations are the norm in Taylor County, and the expansive clay soils common to this part of West Texas mean slabs move seasonally — creating stress points at plumbing penetrations that can produce slow leaks over years. Homes built before the late 1970s may contain asbestos-containing materials in floor tile, joint compound, or pipe insulation, which require a licensed abatement contractor before those assemblies are disturbed; lead-based paint is possible in any structure predating 1978 and requires specific handling protocols as well.
 
 Plumbing in homes from the 1950s through 1970s is often galvanized steel supply lines, which corrode from the inside out and fail with little warning. Copper became standard later, and PEX is common in more recent construction and repairs. Structural repairs and significant reconstruction in Tuscola fall under Taylor County's permitting authority; homeowners should confirm current permit requirements with the county before work begins, as scope and trigger thresholds can change.
 

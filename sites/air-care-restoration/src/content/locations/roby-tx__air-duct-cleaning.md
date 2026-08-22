@@ -42,7 +42,7 @@ Air Care Restoration is based in Abilene and reaches Roby via US-180 East — a 
 
 ## Equipment & Methods We Use for Air Duct Cleaning
 
-The core equipment is truck-mounted or trailer-mounted negative-air collection, which generates the sustained suction needed to clear long duct runs in single-story ranch-style homes common throughout Fisher County. Rotary brush heads are sized to match duct diameter — flexible for round flex duct, rigid for sheet-metal trunk lines — so agitation is effective without damaging liner material. For sanitization, we use fogging or surface-application methods depending on duct geometry and the extent of any biological contamination. The team holds IICRC certification and is OSHA trained, which matters when work involves confined spaces like air handler closets or crawlspace duct access points.
+The core equipment is truck-mounted or trailer-mounted negative-air collection, which generates the sustained suction needed to clear long duct runs in single-story ranch-style homes common throughout Fisher County. Rotary brush heads are sized to match duct diameter — flexible for round flex duct, rigid for sheet-metal trunk lines — so agitation is effective without damaging liner material. For sanitization, we use fogging or surface-application methods depending on duct geometry and the extent of any biological contamination. The team holds IICRC certification, which matters when work involves confined spaces like air handler closets or crawlspace duct access points.
 
 ## Local Note
 

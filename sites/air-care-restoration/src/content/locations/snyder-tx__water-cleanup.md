@@ -54,7 +54,7 @@ For properties on the western side of Snyder near the Scurry County Airport corr
 
 Most sudden water losses — a burst pipe, an appliance failure, an overflow — are covered under standard homeowners policies as long as the source is accidental and not the result of long-term neglect. We document the loss thoroughly from the moment we arrive: photos of the water source, moisture readings at every affected surface, and a scope of affected materials.
 
-That documentation package goes to your adjuster in a format carriers recognize, reducing the back-and-forth that delays dry-out authorization. We work with most major insurance carriers and can communicate directly with your adjuster so you're not playing phone-tag in the middle of a stressful week.
+That documentation package is provided in a format carriers recognize, and we can communicate technical scope information directly with your adjuster — reducing the back-and-forth that delays dry-out authorization. Coverage and settlement decisions remain between you and your carrier. We bill most major insurance carriers directly so that piece of the process doesn't fall entirely on you in the middle of a stressful week.
 
 ## Local Note
 

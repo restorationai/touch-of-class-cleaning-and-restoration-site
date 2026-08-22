@@ -42,7 +42,7 @@ Air Care Restoration is based in Abilene, roughly 40 miles east of Sweetwater al
 
 ## Insurance Coordination for Sweetwater Contents Claims
 
-Contents claims are often the most contested part of a property insurance claim because adjusters and policyholders don't always agree on what's salvageable versus what needs replacement. The detailed inventory and condition documentation Air Care Restoration creates at pack-out gives your adjuster a clear, itemized record — photographs, descriptions, and damage notes — that supports your claim rather than leaving it open to interpretation. The team is IICRC certified and OSHA trained, which matters when an adjuster is evaluating whether the restoration methods used meet industry standards. Working with most major carriers, the billing process is handled directly where possible to reduce out-of-pocket exposure during an already stressful period.
+Contents claims are often the most contested part of a property insurance claim because adjusters and policyholders don't always agree on what's salvageable versus what needs replacement. The detailed inventory and condition documentation Air Care Restoration creates at pack-out gives your adjuster a clear, itemized record — photographs, descriptions, and damage notes — that supports your claim rather than leaving it open to interpretation. The team is IICRC certified, which matters when an adjuster is evaluating whether the restoration methods used meet industry standards. Working with most major carriers, the billing process is handled directly where possible to reduce out-of-pocket exposure during an already stressful period.
 
 ## Local Note
 

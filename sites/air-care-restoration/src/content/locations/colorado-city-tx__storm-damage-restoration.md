@@ -41,7 +41,7 @@ From there, the process follows the damage:
 - **Debris removal** — downed trees, scattered roofing materials, and damaged siding are cleared and documented before reconstruction begins.
 - **Structural repair and reconstruction** — once the structure is dry and stable, repair work begins on roofing, siding, windows, and any interior finishes affected by water intrusion.
 
-All work is performed by an IICRC Certified Firm with OSHA-trained technicians, and Air Care Restoration holds EPA Lead-Safe certification — relevant for Colorado City's older homes where lead-based paint may be present in trim and window components disturbed during storm repairs.
+All work is performed by an IICRC Certified Firm. For Colorado City's older homes where lead-based paint may be present in trim and window components disturbed during storm repairs, owner Sarha Boyd holds EPA Certified Renovator (Lead RRP) credentials to oversee that work appropriately.
 
 ## Reaching Colorado City from Abilene
 
@@ -49,7 +49,7 @@ Air Care Restoration is headquartered in Abilene, and Colorado City sits roughly
 
 ## Colorado City Insurance Coordination
 
-Texas homeowners' policies typically cover sudden storm damage — wind, hail, lightning, and falling trees — but the documentation requirements vary by carrier, and some policies carry separate wind/hail deductibles that differ from the base deductible. Air Care Restoration works directly with insurance adjusters, providing the photo documentation, moisture logs, and itemized scope of work that carriers need to process claims efficiently. Homeowners are kept in the loop at each stage so there are no surprises when the adjuster's estimate arrives.
+Texas homeowners' policies typically cover sudden storm damage — wind, hail, lightning, and falling trees — but the documentation requirements vary by carrier, and some policies carry separate wind/hail deductibles that differ from the base deductible. Air Care Restoration provides detailed photo documentation, moisture logs, and itemized scope of work to support your claim, and bills insurance carriers directly. Technical scope information is communicated with your adjuster to help carriers process claims efficiently. Coverage and settlement decisions remain between you and your insurance carrier. Homeowners are kept in the loop at each stage so there are no surprises when the adjuster's estimate arrives.
 
 ## Local Note
 

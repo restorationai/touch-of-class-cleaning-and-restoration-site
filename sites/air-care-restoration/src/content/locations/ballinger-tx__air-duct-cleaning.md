@@ -30,7 +30,7 @@ There's also a seasonal factor that's easy to overlook: when cotton harvest runs
 
 ## Our Air Duct Cleaning Process in Ballinger
 
-The work starts with an inspection — we pull at least one supply register and one return grille to assess what's actually in the system before quoting or starting. Ballinger homes with older flex duct sometimes have sections that have partially collapsed or separated at the boot, and cleaning a compromised duct without addressing the connection first just redistributes debris.
+The work starts with a visual assessment — we pull at least one supply register and one return grille to evaluate what's actually in the system before quoting or starting. Ballinger homes with older flex duct sometimes have sections that have partially collapsed or separated at the boot, and cleaning a compromised duct without addressing the connection first just redistributes debris.
 
 Once the system is mapped, we attach a high-powered negative-pressure vacuum to the main trunk and work register by register with a rotary brush or compressed-air whip, depending on duct material. Metal trunk lines tolerate the rotary; older flex sections get the gentler air-whip approach. All dislodged material is captured at the vacuum unit — nothing is blown into the living space. If sanitization is requested, we apply an EPA-registered antimicrobial fogging agent after the mechanical cleaning is complete, not before, so it's coating clean surfaces rather than sitting on top of debris.
 
@@ -48,4 +48,4 @@ Something worth knowing about Ballinger specifically: many homes here were built
 
 Cleaning the supply registers without thoroughly addressing the return side is a shortcut that leaves the dirtiest part of the system untouched. We don't skip it.
 
-If your home in Ballinger has reduced airflow, registers that feel weak even when the system is running hard, or an odor that comes on when the heat or AC kicks in, the duct system is worth a look. Call Air Care Restoration at (325) 339-8723 to schedule an inspection — we'll tell you honestly what we find before any cleaning begins.
+If your home in Ballinger has reduced airflow, registers that feel weak even when the system is running hard, or an odor that comes on when the heat or AC kicks in, the duct system is worth a look. Call Air Care Restoration at (325) 339-8723 to schedule — we'll tell you honestly what we find before any cleaning begins.

@@ -47,7 +47,7 @@ Air Care Restoration is based in Abilene, and Bronte is reachable via US-277 sou
 
 ## Insurance Coordination for Sewage Losses in Bronte
 
-Sewage backup coverage varies significantly by policy. Standard homeowners insurance often excludes sewer backup unless a specific endorsement was added — something many Coke County property owners discover for the first time when they're standing in a contaminated bathroom. We document the loss thoroughly from the moment we arrive: photographs, moisture readings, material inventories, and scope notes that align with what adjusters need to process a claim. If your policy does cover the loss, that documentation is what gets the claim moving. If coverage is limited or denied, we can walk you through what the out-of-pocket scope actually looks like before any work begins.
+Sewage backup coverage varies significantly by policy. Standard homeowners insurance often excludes sewer backup unless a specific endorsement was added — something many Coke County property owners discover for the first time when they're standing in a contaminated bathroom. We document the loss thoroughly from the moment we arrive: photographs, moisture readings, material inventories, and scope notes that align with what adjusters need to process a claim. We communicate that technical scope information directly with your adjuster and provide detailed estimates and invoices to support the process. Coverage and settlement decisions remain between you and your carrier. If coverage is limited or denied, we can walk you through what the out-of-pocket scope actually looks like before any work begins.
 
 ## Local Note
 

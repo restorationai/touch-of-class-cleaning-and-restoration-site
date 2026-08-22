@@ -20,7 +20,7 @@ state: "TX"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-When a sewer line backs up or a septic system overflows in Merkel, the mess doesn't wait for business hours — and in Taylor County's dry, cracking soil, it doesn't stay contained for long either. The same shrink-swell clay that makes West Texas foundations shift can fracture aging lateral lines, sending raw sewage into crawl spaces and slab seams before a homeowner even notices the odor. Air Care Restoration responds 24/7 to sewage emergencies throughout Merkel, bringing IICRC-certified water restoration technicians and EPA Lead-Safe certified crews to handle the extraction, disinfection, and documentation your insurance carrier will need.
+When a sewer line backs up or a septic system overflows in Merkel, the mess doesn't wait for business hours — and in Taylor County's dry, cracking soil, it doesn't stay contained for long either. The same shrink-swell clay that makes West Texas foundations shift can fracture aging lateral lines, sending raw sewage into crawl spaces and slab seams before a homeowner even notices the odor. Air Care Restoration responds 24/7 to sewage emergencies throughout Merkel, bringing IICRC-certified water restoration technicians to handle the extraction, disinfection, and documentation your insurance carrier will need.
 
 ## Why Merkel Properties See Sewage Backup Issues
 
@@ -35,9 +35,9 @@ Every sewage call starts the same way: contain the source, protect what hasn't b
 Once the scope is mapped, the process moves through these stages:
 
 - **Extraction and removal** — standing sewage and saturated porous materials (carpet, pad, drywall below the flood line) are removed and bagged for disposal per Texas Commission on Environmental Quality guidelines for biohazardous waste.
-- **Disinfection** — EPA-registered antimicrobials are applied to all affected hard surfaces, framing, and concrete. Our OSHA-trained technicians work in full PPE throughout.
+- **Disinfection** — EPA-registered antimicrobials are applied to all affected hard surfaces, framing, and concrete. Our technicians work in full PPE throughout.
 - **Drying and dehumidification** — commercial desiccant and refrigerant dehumidifiers run until moisture readings in the slab and framing return to dry-standard levels per the IICRC S500 protocol.
-- **Post-sanitization verification** — surfaces are tested and documented before reconstruction begins, giving your adjuster a clear record of the remediated scope.
+- **Post-sanitization verification** — surfaces are documented before reconstruction begins, giving your adjuster a clear record of the remediated scope.
 
 ## Reaching Merkel from Abilene
 
@@ -45,7 +45,7 @@ Air Care Restoration is headquartered in Abilene, roughly 35 miles east of Merke
 
 ## Merkel Insurance Coordination
 
-Sewage backup claims have a specific documentation burden that standard water-loss claims don't always require. Carriers want to know the contamination category, the materials removed, and the sanitization method used — not just a drying log. Because Air Care Restoration documents every sewage job with photographs, moisture readings, and a written scope of loss, your adjuster receives a package that matches what they're trained to review. We bill most major carriers directly and can communicate with your adjuster on your behalf so you're not translating between restoration terminology and insurance language during an already stressful week.
+Sewage backup claims have a specific documentation burden that standard water-loss claims don't always require. Carriers want to know the contamination category, the materials removed, and the sanitization method used — not just a drying log. Because Air Care Restoration documents every sewage job with photographs, moisture readings, and a written scope of loss, your adjuster receives a package that matches what they're trained to review. We bill most major carriers directly and can communicate technical scope information with your adjuster so you're not translating between restoration terminology and insurance language during an already stressful week.
 
 Note that many standard homeowners' policies in Texas exclude sewer backup unless a specific rider was purchased. It's worth pulling your declarations page before assuming coverage — and worth calling us regardless, because the health risk from untreated sewage doesn't pause while coverage is sorted out.
 

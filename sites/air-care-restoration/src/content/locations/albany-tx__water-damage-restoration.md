@@ -48,7 +48,7 @@ For properties on the eastern or rural edges of the county, we ask callers to no
 
 Most standard homeowners' policies in Texas cover sudden and accidental water discharge — a burst pipe, an appliance failure, an ice maker line that lets go. They typically do not cover gradual leaks that went unaddressed, which is why the documentation we produce from the first hour on-site matters. We photograph moisture readings, affected materials, and the source of loss in a format that aligns with what adjusters and carriers expect to see.
 
-We work directly with insurance carriers and can communicate with your adjuster throughout the claim process. We do not inflate scopes, and we do not cut corners to stay under a number — both create problems down the line.
+We bill insurance carriers directly and can communicate technical scope information with your adjuster throughout the process. Coverage and settlement decisions remain between you and your carrier. We do not inflate scopes, and we do not cut corners to stay under a number — both create problems down the line.
 
 ## Local Note
 

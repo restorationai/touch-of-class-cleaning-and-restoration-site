@@ -46,7 +46,7 @@ Air Care Restoration is based in Abilene, and Tuscola is a direct run south on U
 
 Most homeowner policies in Texas cover sudden and accidental water discharge — a burst pipe, a washing machine supply line failure, an ice-maker line that separated behind the refrigerator. What they typically exclude is long-term seepage or maintenance-related deterioration. Knowing that distinction before you file matters, because a poorly framed claim can create more friction than it resolves.
 
-We document the loss thoroughly from the first hour on-site: photographs of affected materials, moisture readings with timestamps, and a written scope that aligns with the format adjusters expect. That documentation package is yours to submit directly or share with your adjuster. We work with most major carriers and can communicate with your adjuster directly if that helps move the process forward.
+We document the loss thoroughly from the first hour on-site: photographs of affected materials, moisture readings with timestamps, and a written scope that aligns with the format adjusters expect. That documentation package is yours to submit directly or share with your adjuster. We can bill your carrier directly and communicate technical scope information with your adjuster if that helps move the process forward. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 

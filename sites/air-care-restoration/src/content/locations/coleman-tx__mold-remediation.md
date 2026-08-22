@@ -39,7 +39,7 @@ From there, the process follows a structured sequence:
 - **HEPA vacuuming and antimicrobial treatment** — surfaces are cleaned and treated to inhibit regrowth.
 - **Drying and documentation** — moisture readings are logged at multiple points to confirm the structure has returned to acceptable levels before any rebuild begins.
 
-The team is IICRC certified and OSHA trained, and all work follows the IICRC S520 standard for mold remediation — the same protocol used by industrial hygienists and insurance adjusters when they evaluate a completed job.
+All remediation work is performed in accordance with the Mold Remediation Protocol written by the independent licensed Mold Assessment Consultant assigned to the project, and follows the IICRC S520 standard — the same benchmark used by assessment consultants and insurance adjusters when they evaluate a completed job. Post-remediation verification is conducted by that independent consultant to confirm the work meets the criteria established in the protocol.
 
 ## Reaching Coleman from Abilene
 
@@ -49,12 +49,12 @@ For properties on the eastern side of Coleman County, the approach via US-283 is
 
 ## Coleman Insurance Coordination
 
-Mold claims in Texas can be complicated. Homeowners' policies vary significantly in how they define covered mold damage — some cover remediation only when it results directly from a covered water loss (a burst pipe, for example), while others exclude mold entirely or cap the payout. The documentation Air Care Restoration provides — moisture logs, photo evidence, scope of work — is structured to support the claims process regardless of carrier.
+Mold claims in Texas can be complicated. Homeowners' policies vary significantly in how they define covered mold damage — some cover remediation only when it results directly from a covered water loss (a burst pipe, for example), while others exclude mold entirely or cap the payout. Air Care Restoration provides detailed damage documentation, moisture logs, photo evidence, and a clear scope of work structured to support the claims process, and can communicate technical scope information directly with your adjuster. Coverage and settlement decisions remain between you and your carrier.
 
-If an adjuster requests a post-remediation clearance test from an independent industrial hygienist, that can be coordinated before the job is closed out. Having that third-party verification in the file is worth the extra step when a carrier is scrutinizing the claim.
+If the independent licensed Mold Assessment Consultant who wrote the remediation protocol performs post-remediation verification confirming the work meets the criteria established in the protocol, that third-party clearance documentation is worth having in the file when a carrier is scrutinizing the claim.
 
 ## Local Note
 
 Pier-and-beam construction is common enough in Coleman that it's worth knowing how it behaves differently from slab-on-grade. In a crawl space, mold often grows on the underside of the subfloor decking and on the lower sections of floor joists — areas that are invisible from inside the house and unreachable without crawling the full perimeter. Homeowners sometimes treat only the visible interior surface and miss the structural framing entirely. A thorough remediation in a Coleman pier-and-beam home requires inspecting and treating the crawl space as its own zone, with separate containment and its own moisture readings.
 
-If you're seeing soft spots in your floor, a musty odor that's stronger near the floor level, or discoloration along your baseboards, the source may be below you rather than in the walls. Call Air Care Restoration at (325) 339-8723 — the inspection starts with what's underneath.
+If you're seeing soft spots in your floor, a musty odor that's stronger near the floor level, or discoloration along your baseboards, the source may be below you rather than in the walls. Call Air Care Restoration at (325) 339-8723 — getting the right professionals involved quickly is the first step toward an effective remediation.

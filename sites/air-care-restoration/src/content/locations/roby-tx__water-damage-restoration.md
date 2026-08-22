@@ -50,7 +50,7 @@ For properties on the eastern side of Fisher County, the route through Sweetwate
 
 Most standard homeowners policies cover sudden and accidental water damage — a burst pipe, an appliance failure, a storm-driven roof leak. What they typically do not cover is long-term seepage or gradual leaks that a homeowner could have discovered earlier. The distinction matters, and the documentation we produce during moisture mapping and demolition is what supports your adjuster's assessment.
 
-We photograph affected materials before removal, log moisture readings by date and location, and prepare a scope of work that aligns with the line-item format most carriers use. We bill carriers directly and work to keep your out-of-pocket limited to your deductible where coverage applies.
+We photograph affected materials before removal, log moisture readings by date and location, and prepare a scope of work that aligns with the line-item format most carriers use. We communicate technical scope information directly with your adjuster and bill carriers directly where coverage applies. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 

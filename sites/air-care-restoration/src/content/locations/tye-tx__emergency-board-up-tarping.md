@@ -42,7 +42,7 @@ Air Care Restoration is based in Abilene, and Tye sits just east along the US-83
 
 ## Tye Insurance Coordination
 
-Most homeowner policies in Texas cover sudden and accidental damage from wind, hail, and fire — and they typically cover emergency protective measures like board-up and tarping as part of the initial loss. The key is documentation. We photograph every opening, measure every tarp and board-up panel, and provide a written scope of the protective work completed. That paperwork goes directly to your carrier or adjuster, reducing the back-and-forth that delays claim approval. If your policy requires a preferred vendor list, ask your adjuster — we are happy to speak with them directly.
+Most homeowner policies in Texas cover sudden and accidental damage from wind, hail, and fire — and they typically cover emergency protective measures like board-up and tarping as part of the initial loss. The key is documentation. We photograph every opening, measure every tarp and board-up panel, and provide a written scope of the protective work completed. That paperwork is available directly to your carrier or adjuster, and we are glad to communicate technical scope information with your adjuster to reduce the back-and-forth that delays claim approval. Coverage and settlement decisions remain between you and your carrier. If your policy requires a preferred vendor list, ask your adjuster — we are happy to speak with them directly.
 
 ## Local Note
 

@@ -46,11 +46,11 @@ When water hits a home in the Beltway Park area or a commercial building near th
 
 Their equipment lineup includes LGR dehumidifiers and professional-grade air movers, the kind of gear that pulls moisture from wall cavities and subfloor assemblies, not just surface water. They also handle the full scope of what a water loss usually requires: water extraction, structural drying, sewage cleanup if the source is contaminated, and mold remediation if secondary growth develops. That matters because water damage rarely stays contained to one category.
 
-Air Care is also EPA Lead-Safe Certified and OSHA trained, which is relevant in Abilene's older housing stock where disturbing water-damaged materials can mean disturbing lead paint or other hazards.
+Air Care's owner, Sarha Boyd, holds the EPA Certified Renovator credential under the Lead RRP program, which is relevant in Abilene's older housing stock where disturbing water-damaged materials can mean disturbing lead paint or other hazards. Sarha Boyd also holds IICRC FSRT (Fire and Smoke Restoration Technician) and OCT (Odor Control Technician) certifications, which underpin Air Care's fire damage and odor-control work.
 
 For a written scope before any work begins, call (325) 339-8723 or visit [our water damage restoration service page](/services/water-damage-restoration/).
 
-**Why they rank first:** 24/7 availability, IICRC Certified Firm status, WRT-credentialed technicians, full-service scope including mold and sewage, locally owned and based in Abilene.
+**Why they rank first:** 24/7 availability, IICRC Certified Firm status, WRT-credentialed technicians, full-service scope including mold remediation and sewage, locally owned and based in Abilene.
 
 ---
 
@@ -118,4 +118,4 @@ Air Care Restoration is available 24/7 at (325) 339-8723. They provide a written
 
 **About Air Care Restoration**
 
-Air Care Restoration is an IICRC Certified Firm serving Abilene, TX and the surrounding Big Country region (license MRC2262-RCO1798-TCST-HST-OCT). Their technicians hold IICRC WRT (Water Restoration Technician) and FSRT (Fire and Smoke Restoration Technician) credentials, and the company is OSHA trained and EPA Lead-Safe Certified. Services include water damage restoration, water cleanup, storm damage restoration, sewage cleanup, mold remediation, fire damage restoration, biohazard cleanup, air duct cleaning, and general contracting. Air Care Restoration is locally owned, licensed, insured, and available 24/7.
+Air Care Restoration is an IICRC Certified Firm serving Abilene, TX and the surrounding Big Country region (Texas Mold Remediation Company License RCO1798). Their technicians hold IICRC WRT (Water Restoration Technician) and FSRT (Fire and Smoke Restoration Technician) credentials. Owner Sarha Boyd holds the IICRC OCT (Odor Control Technician) certification, the IICRC FSRT credential, the EPA Certified Renovator credential under the Lead RRP program, and Texas Mold Remediation Contractor License MRC2262. Services include water damage restoration, water cleanup, storm damage restoration, sewage cleanup, mold remediation, fire damage restoration, biohazard cleanup, air duct cleaning, and general contracting. Air Care Restoration is locally owned, licensed, insured, and available 24/7.

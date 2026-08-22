@@ -45,7 +45,7 @@ Air Care Restoration is based in Abilene, and Ballinger sits roughly 60 miles to
 
 ## Ballinger Insurance Coordination
 
-Texas homeowners' policies vary significantly in how they handle wind versus hail versus "named storm" events, and the language matters when it comes to your deductible and what's covered. We work directly with adjusters from most major carriers, provide itemized documentation in Xactimate-compatible format, and can meet the adjuster on-site in Ballinger to walk the damage together. That kind of direct coordination tends to move claims faster than submitting photos and waiting.
+Texas homeowners' policies vary significantly in how they handle wind versus hail versus "named storm" events, and the language matters when it comes to your deductible and what's covered. We provide detailed damage documentation and itemized estimates in Xactimate-compatible format, bill carriers directly, and can meet your adjuster on-site in Ballinger to walk the damage together and communicate technical scope information. That kind of direct coordination tends to move claims faster than submitting photos and waiting. Coverage and settlement decisions remain between you and your carrier.
 
 If your carrier requires a licensed public adjuster or a specific inspection protocol, we'll tell you upfront rather than let you find out mid-claim.
 

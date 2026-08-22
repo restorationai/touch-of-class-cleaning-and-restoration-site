@@ -37,7 +37,7 @@ Smoke residue from a structure fire or a wind-driven grass fire doesn't stay in 
 
 ### Mold remediation
 
-In a climate that swings between dry heat and sudden humidity, mold can establish itself quickly after any moisture event — typically within 24 to 48 hours in the right conditions. Mold remediation in Albany homes often involves older wall assemblies where moisture has been present longer than it appeared. We contain affected areas, remove compromised materials, treat surfaces, and verify clearance before reconstruction begins.
+In a climate that swings between dry heat and sudden humidity, mold can establish itself quickly after any moisture event — typically within 24 to 48 hours in the right conditions. Mold remediation in Albany homes often involves older wall assemblies where moisture has been present longer than it appeared. We contain affected areas, remove compromised materials, and treat surfaces according to the remediation protocol established by your independent licensed Mold Assessment Consultant. Post-remediation verification that work meets the criteria established in the Mold Remediation Protocol is completed by that independent consultant before reconstruction begins.
 
 ### Reconstruction
 
@@ -49,7 +49,7 @@ Albany is roughly 35 miles northeast of Abilene via US-180 — a straightforward
 
 ## Building stock, site conditions, and permits in Albany
 
-Albany's housing stock is largely mid-twentieth century, with a meaningful share of homes built before 1980. That era of construction in this part of Texas typically means pier-and-beam or slab-on-grade foundations, wood-frame walls with minimal cavity insulation, and original plumbing in galvanized steel or early copper — materials that corrode from the inside out and fail without obvious external warning. Homes built before the late 1970s may contain asbestos-containing materials in floor tile, pipe insulation, or joint compound, and lead-based paint in interior finishes; any restoration scope that disturbs those materials requires proper handling protocols.
+Albany's housing stock is largely mid-twentieth century, with a meaningful share of homes built before 1980. That era of construction in this part of Texas typically means pier-and-beam or slab-on-grade foundations, wood-frame walls with minimal cavity insulation, and original plumbing in galvanized steel or early copper — materials that corrode from the inside out and fail without obvious external warning. Homes built before the late 1970s may contain asbestos-containing materials in floor tile, pipe insulation, or joint compound, and lead-based paint in interior finishes; any restoration scope that disturbs those materials requires a licensed abatement contractor for asbestos and proper handling protocols throughout.
 
 The soils across Shackelford County are predominantly expansive clays that swell with moisture and shrink in drought, creating seasonal foundation movement that can open gaps in exterior assemblies and stress plumbing connections over time. Structural repairs and significant rebuild work in Albany fall under the jurisdiction of the City of Albany and, for unincorporated county properties, Shackelford County. Texas follows the International Building Code with state amendments; permits are typically required for structural work, roofing, and plumbing repairs beyond like-for-like replacement. Confirming permit requirements with the local authority before reconstruction begins protects the homeowner and keeps the insurance scope clean.
 

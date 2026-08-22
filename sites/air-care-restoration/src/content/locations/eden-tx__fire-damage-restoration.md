@@ -26,7 +26,7 @@ When a fire tears through a home in Eden, the damage rarely stops at the charred
 
 Eden sits at the edge of the Edwards Plateau, where the climate runs hot and dry for most of the year. That aridity matters after a fire. Low ambient humidity means smoke particles and soot dry and bond to surfaces faster than they would in a humid climate — what might wipe clean in East Texas can etch into paint, drywall, and cabinetry here within a day or two if left untreated. At the same time, many homes in the Eden area were built during mid-century ranch-house construction booms common across rural Concho County, featuring wood-frame construction with pier-and-beam or slab foundations and older HVAC ductwork that readily pulls smoke throughout the entire living space during a fire event.
 
-That ductwork detail matters more than most homeowners realize. A kitchen fire that seems contained to one room can deposit smoke residue across every register in the house through the return-air system. Restoration here means testing air quality and inspecting the full duct network — not just cleaning the room where the fire started.
+That ductwork detail matters more than most homeowners realize. A kitchen fire that seems contained to one room can deposit smoke residue across every register in the house through the return-air system. Restoration here means inspecting the full duct network — not just cleaning the room where the fire started.
 
 ## Our Fire Damage Restoration Process in Eden
 
@@ -40,7 +40,7 @@ From there, the process moves through:
 - **Structural drying and material evaluation** — water used in firefighting efforts leaves its own damage; we assess what can be dried and restored versus what requires replacement
 - **Reconstruction coordination** — from framing repairs to finish work, returning the home to a livable condition
 
-As an EPA Lead-Safe Certified and OSHA-trained team, we handle older materials — including anything that may involve lead paint in pre-1978 construction — with the required protocols in place.
+Owner Sarha Boyd holds an EPA Certified Renovator credential and IICRC FSRT and OCT certifications, and our team follows the required protocols when working on older materials — including anything that may involve lead paint in pre-1978 construction. Where materials require licensed asbestos abatement, we coordinate with the appropriate licensed contractor.
 
 ## Reaching Eden from Abilene
 
@@ -50,10 +50,10 @@ When you call (325) 339-8723, you reach a live response at any hour, not an answ
 
 ## Eden Insurance Coordination
 
-Fire claims in rural Texas can move slowly if documentation is incomplete. Carriers want to see a clear scope of loss before authorizing work, and adjusters covering rural Concho County may not be on-site as quickly as they would be in a larger metro. We photograph and document the full loss from the moment we arrive, producing a detailed scope that gives your adjuster what they need to process the claim without multiple return visits. We bill carriers directly for covered work and walk you through what your policy is likely to cover before work begins — no surprises on scope.
+Fire claims in rural Texas can move slowly if documentation is incomplete. Carriers want to see a clear scope of loss before authorizing work, and adjusters covering rural Concho County may not be on-site as quickly as they would be in a larger metro. We photograph and document the full loss from the moment we arrive, producing a detailed scope that gives your adjuster the technical information they need to process the claim without multiple return visits. We bill carriers directly for covered work and walk you through the expected scope before work begins — no surprises on scope. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 
 One thing that catches Eden homeowners off guard: the combination of older wood-frame construction and the region's low relative humidity means that after a fire, structural lumber that absorbed water from suppression efforts can dry unevenly and begin to check or crack before restoration crews finish smoke remediation. We monitor moisture levels in framing throughout the job — not just at the start — because in this climate, the drying curve moves faster than it does in more humid parts of Texas, and materials that read acceptable on day one can be over-dried and compromised by day four if nobody is watching.
 
-If you're dealing with fire or smoke damage to a property in Eden, call Air Care Restoration at (325) 339-8723. We'll assess the full scope of the loss, document everything your insurer needs, and work through every phase of restoration — from the first emergency board-up to the final coat of paint.
+If you're dealing with fire or smoke damage to a property in Eden, call Air Care Restoration at (325) 339-8723. We'll document the full scope of the loss, communicate the technical detail your insurer needs, and work through every phase of restoration — from the first emergency board-up to the final coat of paint.

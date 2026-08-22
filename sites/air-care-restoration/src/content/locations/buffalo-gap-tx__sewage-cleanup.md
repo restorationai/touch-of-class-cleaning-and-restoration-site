@@ -39,7 +39,7 @@ From there, the process follows a defined sequence:
 - **Controlled demolition** — porous materials that have absorbed Category 3 water (drywall, insulation, subfloor sections, carpet) are removed. These cannot be dried and reused; they are bagged and disposed of per Texas Commission on Environmental Quality (TCEQ) guidelines.
 - **Antimicrobial treatment** — EPA-registered disinfectants are applied to all affected structural surfaces. This is not a single spray pass — it involves dwell time and, in some cases, multiple applications.
 - **Drying and monitoring** — commercial desiccant or refrigerant dehumidifiers and air movers run until moisture readings across all affected materials return to baseline. In Buffalo Gap's dry West Texas climate, ambient humidity is generally low, which can accelerate structural drying — but it does not eliminate the need for active equipment, because sewage events saturate materials deeply and unevenly.
-- **Post-remediation verification** — surface testing confirms that pathogen levels are within acceptable limits before reconstruction begins.
+- **Post-remediation verification** — an independent licensed Mold Assessment Consultant confirms that conditions meet the criteria established in the remediation protocol before reconstruction begins.
 
 ## Reaching Buffalo Gap from Abilene
 
@@ -47,7 +47,7 @@ Air Care Restoration is based in Abilene, and Buffalo Gap is a direct shot south
 
 ## Buffalo Gap Insurance Coordination
 
-Homeowners' insurance coverage for sewage backup varies significantly depending on whether the policy includes a sewer backup rider — standard HO-3 policies in Texas frequently exclude it unless the endorsement was added. We document the loss thoroughly from the moment we arrive: photographs of source conditions, moisture mapping, material removal logs, and a written scope. That documentation goes directly to your adjuster and is formatted to support the claim process regardless of which carrier holds the policy. If coverage is limited or denied, we walk through the scope with you line by line so there are no surprises.
+Homeowners' insurance coverage for sewage backup varies significantly depending on whether the policy includes a sewer backup rider — standard HO-3 policies in Texas frequently exclude it unless the endorsement was added. We document the loss thoroughly from the moment we arrive: photographs of source conditions, moisture mapping, material removal logs, and a written scope. That documentation goes directly to your adjuster and is formatted to support the claim process regardless of which carrier holds the policy. Coverage and settlement decisions remain between you and your carrier. If coverage is limited or denied, we walk through the scope with you line by line so there are no surprises.
 
 ## Local Note
 

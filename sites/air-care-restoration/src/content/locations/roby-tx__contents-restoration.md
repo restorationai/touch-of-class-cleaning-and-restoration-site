@@ -42,7 +42,7 @@ Air Care Restoration is based in Abilene and responds to Roby and the surroundin
 
 ## Working with Your Insurance Carrier After a Roby Loss
 
-Contents losses are frequently the most contested part of a property insurance claim. Carriers want itemized documentation, replacement cost valuations, and evidence that restoration was attempted before replacement was recommended. The inventory and photo documentation completed during pack-out feeds directly into that process. Air Care Restoration works alongside your adjuster, providing the records they need to process the contents portion of your claim accurately — so you are not left negotiating over a handwritten list of damaged items from memory.
+Contents losses are frequently the most contested part of a property insurance claim. Carriers want itemized documentation, replacement cost valuations, and evidence that restoration was attempted before replacement was recommended. The inventory and photo documentation completed during pack-out feeds directly into that process. Air Care Restoration works alongside your adjuster — providing detailed damage documentation, estimates, invoices, and technical scope information — so the contents portion of your claim is supported by accurate, thorough records rather than a handwritten list of damaged items from memory. Coverage and settlement decisions remain between you and your carrier.
 
 ## Local Note
 

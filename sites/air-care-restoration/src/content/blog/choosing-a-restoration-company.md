@@ -37,7 +37,7 @@ How to verify:
 - Check the Texas Department of Licensing and Regulation (TDLR) if the job involves mold remediation — Texas requires a separate mold remediation contractor license for jobs above a certain threshold.
 - Look up the company on the Better Business Bureau and Google. A pattern of complaints about billing surprises or incomplete work matters more than a single bad review.
 
-For mold work specifically, ask whether the company follows the IICRC S520 standard and whether they use a third-party industrial hygienist for post-remediation clearance testing. A company that does both the remediation and its own clearance testing has an obvious conflict of interest.
+For mold work specifically, ask whether the company follows the IICRC S520 standard. In Texas, mold assessment, protocol development, and post-remediation verification must be performed by an independent licensed Mold Assessment Consultant — not the remediation contractor. A company that performs both the remediation and its own clearance testing has an obvious conflict of interest and is not operating within Texas requirements.
 
 ## The Right Questions to Ask Before You Sign Anything
 
@@ -45,7 +45,7 @@ A legitimate restoration company will answer these questions without hesitation.
 
 1. **Are your technicians IICRC-certified, and in which disciplines?** Water damage, fire/smoke, and mold are separate certifications. A water damage crew isn't automatically qualified for mold remediation.
 2. **Do you carry general liability and workers' comp insurance?** Ask for a certificate of insurance, not just a verbal yes.
-3. **Will you work directly with my insurance carrier?** Most established restoration companies bill carriers directly and can document the loss in the format adjusters expect. This doesn't mean they work *for* your insurer — a good contractor documents everything thoroughly so your claim is as complete as possible.
+3. **Will you work directly with my insurance carrier?** Most established restoration companies provide detailed damage documentation, written estimates and invoices, and can communicate technical scope information directly with your adjuster. Coverage and settlement decisions remain between you and your carrier.
 4. **What does your written scope of work include, and what's excluded?** Get the scope in writing before demolition starts. Verbal promises about what's covered disappear fast once the walls are open.
 5. **Who performs the actual work — your employees or subcontractors?** Subcontracting isn't inherently bad, but you should know who's in your home and whether those subs are covered under the company's insurance.
 6. **What equipment will you use, and how will you monitor drying progress?** For water damage, the answer should involve moisture meters and thermal imaging, not just visual inspection. Drying goals should be documented daily.
@@ -69,6 +69,6 @@ For **water damage**, the process moves through inspection and moisture mapping,
 
 For **fire and smoke damage**, the scope is broader than most homeowners expect. Smoke travels through HVAC systems, penetrates porous materials, and leaves acidic residue that continues to corrode surfaces after the fire is out. Effective restoration involves not just cleaning visible soot but addressing odor at the molecular level — often with thermal fogging or ozone treatment — and evaluating structural members for heat damage that isn't visible on the surface.
 
-For **mold remediation**, the goal isn't just removing visible mold. It's identifying and correcting the moisture source that allowed it to grow, containing the affected area to prevent cross-contamination, removing and properly disposing of affected materials, and verifying through clearance testing that the space is safe. Any company that skips the moisture source correction is setting you up for a repeat.
+For **mold remediation**, the goal isn't just removing visible mold. It's identifying and correcting the moisture source that allowed it to grow, containing the affected area to prevent cross-contamination, removing and properly disposing of affected materials, and confirming through post-remediation verification — conducted by an independent licensed Mold Assessment Consultant — that the result meets the post-remediation verification criteria established in the Mold Remediation Protocol. Any company that skips the moisture source correction is setting you up for a repeat.
 
 Air Care Restoration handles water damage, fire damage, and mold remediation in Abilene and the surrounding area. If you're trying to evaluate your situation before making any calls, the guidance above applies regardless of who you hire. When you're ready to talk through what happened and what comes next, you can reach the team at (325) 339-8723.

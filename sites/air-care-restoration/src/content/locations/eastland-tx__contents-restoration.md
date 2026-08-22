@@ -42,7 +42,7 @@ Air Care Restoration is based in Abilene and reaches Eastland via I-20 East — 
 
 ## Eastland Insurance Coordination
 
-Contents restoration is a covered line item under most standard homeowner policies, but the documentation requirements vary by carrier. Air Care Restoration works directly with adjusters, providing the itemized inventory, condition photographs, and cleaning or replacement cost estimates they need to evaluate the claim. If a carrier requests a scope of loss before authorizing pack-out — which some do — the crew can document on-site first and begin transport once authorization is confirmed. The goal is to keep you out of the middle of a back-and-forth that slows down the process when time is already working against your belongings.
+Contents restoration is a covered line item under most standard homeowner policies, but the documentation requirements vary by carrier. Air Care Restoration works directly with adjusters, providing the itemized inventory, condition photographs, and cleaning or replacement cost estimates they need to evaluate the claim. If a carrier requests a scope of loss before authorizing pack-out — which some do — the crew can document on-site first and begin transport once authorization is confirmed. Coverage and settlement decisions remain between you and your carrier; Air Care's role is to make sure the technical scope is clearly communicated and that billing goes directly to your insurance, keeping you out of the middle of a back-and-forth that slows down the process when time is already working against your belongings.
 
 ## Local Note
 

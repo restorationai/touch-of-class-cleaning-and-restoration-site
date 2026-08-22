@@ -48,4 +48,4 @@ One thing that comes up specifically in Early and the surrounding Brown County a
 
 If your home in Early has been sitting vacant — common with lake properties near Brownwood — ductwork can develop rodent activity or significant mold growth during the off-season. A camera inspection before any cleaning tells us whether the job is straightforward or needs remediation first.
 
-Ready to schedule? Call Air Care Restoration at (325) 339-8723. We'll assess your system honestly and give you a clear picture of what the ducts look like before any work begins — no pressure, no upselling on services your home doesn't need.
+Ready to schedule? Call Air Care Restoration at (325) 339-8723. We'll inspect your duct system honestly and give you a clear picture of what the ducts look like before any work begins — no pressure, no upselling on services your home doesn't need.
