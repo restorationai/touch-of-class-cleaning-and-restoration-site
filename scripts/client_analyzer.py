@@ -223,6 +223,8 @@ Summarize the efforts from the JSON in one short paragraph. If effort was thin, 
 ## Do next (prioritized)
 The 3 highest-impact actions in priority order, each one line with WHY. Only actions supported by the data (missing citations, striking-distance queries, weak grid cities, junk photos, etc.).
 
+After the internal analysis, write =====CLIENT===== on its own line, then a CLIENT-FACING version addressed to the business owner (you/your). Same honesty about trends, but constructive and free of agency-internal critique (never mention our logging, internal queues, or that effort was thin — translate that into what happens next instead). Structure: "## How your online presence is performing" (2-3 sentences), "## The numbers" (same surfaces, owner-friendly), "## What we're working on next" (the same 3 priorities, framed as our plan for them). No em dashes.
+
 <metrics>
 {metrics}
 </metrics>"""
@@ -243,12 +245,17 @@ def narrate(m: dict) -> str:
 
 def run(slug: str, days: int, dry_run: bool) -> str:
     m = analyze(slug, days)
-    body = narrate(m)
+    full = narrate(m)
+    body, _, client_body = full.partition("=====CLIENT=====")
+    body = body.strip()
+    client_body = client_body.strip()
     out_dir = ROOT / "clients" / slug / "analyzer"
     out_dir.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     path = out_dir / f"analysis-{stamp}.md"
     path.write_text(f"# {slug} — biweekly analyzer — {stamp}\n\n" + body
+                    + ("\n\n---\n\n# CLIENT-FACING VERSION\n\n" + client_body
+                       if client_body else "")
                     + "\n\n---\n\n```json\n" + json.dumps(m, indent=1, default=str)
                     + "\n```\n")
     print(f"wrote {path.relative_to(ROOT)}")
@@ -261,6 +268,22 @@ def run(slug: str, days: int, dry_run: bool) -> str:
                      f"\n\nFull report: clients/{slug}/analyzer/analysis-{stamp}.md")},
             timeout=30)
         print("ops note filed")
+        if client_body:
+            # Client-facing copy -> the app's Reports > Analysis tab (RLS
+            # scoped read). The internal version above NEVER ships there.
+            client_verdict = client_body.split("## The numbers")[0] \
+                .replace("## How your online presence is performing", "").strip()
+            requests.post(f"{SB}/rest/v1/marketing_analyzer_reports",
+                          headers={**HDR, "Prefer": "return=minimal"}, json={
+                              "company_id": m["company_id"],
+                              "period_days": days,
+                              "verdict": client_verdict[:500],
+                              "body_md": client_body,
+                              "metrics": {k: m[k] for k in
+                                          ("gsc", "gbp", "maps", "citations", "calls")
+                                          if k in m}},
+                          timeout=30)
+            print("client report published to the app")
     return body
 
 
