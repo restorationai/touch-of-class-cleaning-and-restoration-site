@@ -5,6 +5,28 @@ Deeper context: docs/seo-videos-gap-analysis-2026-08.md (SEO queue),
 docs/bobby-olson-call-plan-2026-08-18.md (Bobby items + statuses),
 docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
 
+## PAUSED 2026-08-22 (Santino's machine going offline) — resume here
+
+- Sarha's ONE combined message (corrections + visual refresh, both LIVE +
+  verified on aircarerestoration.com): local watcher KILLED, cloud
+  directive filed — Monica's 16:07 UTC slot delivers it machine-off-safe.
+- RT Olson: 17,300-row customer export staged (harvested/ + his docs);
+  Bobby wants the REVIEW GATE ON ("bad review blocker"). ENROLLMENT AWAITS
+  SANTINO'S EXPLICIT GO (10x our biggest campaign; sender + gate check
+  first). Reply to Bobby goes BY EMAIL in-thread when actioned.
+- HomeLyft: pipeline nudged 5x then escalated 08-09 "needs a human touch
+  (call them?)" — card 13 days old; decisions pending: escalation re-ping
+  after a week + may Monica re-engage after 10d ladder silence?
+- Kenny pace -> 3/20min LIVE. Sister-company double-ack FIXED + deployed.
+- Bing + Apple: Santino signed into BOTH in the agent profile (window may
+  still be open on his machine); tonight's 21:30 sweep validates Bing —
+  only runs if his Mac is awake, else next night.
+- Analyzer LIVE (script + Sunday cron + app Reports > Analysis tab, RX +
+  Crew published). GSC panel: date ranges shipped.
+- Watching: Bobby/Fran email replies (2f); citations nightly (rotation
+  picks fresh 3); GBP junk-photo cleanup for RX still open; wrong-page
+  fixes open; content-job hang root-cause open.
+
 ## Latest (2026-08-22): Sarha's corrections LIVE; RX diagnosed; priority feature
 
 - **AIR CARE CORRECTIONS DEPLOYED + VERIFIED LIVE** (346 pages, lint 0):
