@@ -2063,6 +2063,33 @@
       "triaged_at": "2026-08-05T06:02:42Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNAA4GSBYn-CzKRGsz6aiHFAkLOfiLgqcU4NSLj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNAA4GSBYn-CzKRGsz6aiHFAkLOfiLgqcU4NSLj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipNAA4GSBYn-CzKRGsz6aiHFAkLOfiLgqcU4NSLj.jpg",
+      "width": 1350,
+      "height": 1080,
+      "bytes": 867355,
+      "sha1": "b7bc9f47405beab7",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air movers and dehumidifier inside containment barrier basement",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clear containment setup with drying equipment; no people, decent composition.",
+      "triaged_at": "2026-08-22T14:07:53Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNB3RP7y3v9xQPTU2HQ4wE5qSZ289NVa5f0Zl2g": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNB3RP7y3v9xQPTU2HQ4wE5qSZ289NVa5f0Zl2g.jpg",
@@ -2792,6 +2819,35 @@
       ],
       "reason": "Shows drying equipment in place; dark borders and casual framing reduce quality.",
       "triaged_at": "2026-08-05T06:04:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNoZDmW-w-Tqnqb9b_Rx8ekLf9V0UbuK8Fq8xrU": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNoZDmW-w-Tqnqb9b_Rx8ekLf9V0UbuK8Fq8xrU.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipNoZDmW-w-Tqnqb9b_Rx8ekLf9V0UbuK8Fq8xrU.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 88216,
+      "sha1": "c11cacac3f1c9b9a",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Multiple air movers and dehumidifiers in open basement space",
+      "quality": 52,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark edges, black letterbox bars, cluttered cords reduce professionalism.",
+      "triaged_at": "2026-08-22T14:07:53Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNxNJgOE17t0H-RIQvgmMf1ZekmV2amY9S59jeg": {
@@ -4798,5 +4854,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-20T22:53:44Z"
+  "triaged_at": "2026-08-22T14:07:53Z"
 }
