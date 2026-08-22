@@ -293,14 +293,26 @@ def main() -> int:
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--days", type=int, default=14)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--if-due", action="store_true",
+                    help="skip clients analyzed in the last 12 days (the "
+                         "weekly cron + this flag = biweekly per client)")
     a = ap.parse_args()
     if a.all:
         smap = _slug_map()
         cos = {c["id"]: c for c in _get("companies?select=id,status&plan=ilike.rank%20ai")}
         inact = {"paused", "cancelled", "canceled", "churned", "inactive", "archived"}
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=12)).isoformat()
+        recent = set()
+        if a.if_due:
+            recent = {r["company_id"] for r in _get(
+                f"marketing_analyzer_reports?created_at=gte.{cutoff}"
+                "&select=company_id")}
         for slug, cid in smap.items():
             st = str((cos.get(cid) or {}).get("status") or "").lower()
             if st in inact or cid not in cos:
+                continue
+            if a.if_due and cid in recent:
+                print(f"{slug}: analyzed <12 days ago — skipped")
                 continue
             try:
                 run(slug, a.days, a.dry_run)
