@@ -8458,6 +8458,27 @@ def upload_event(objects: list | None, do_send: bool = True) -> dict:
                              or (contact_payload or {}).get("phone")),
                    "email": (target.get("email")
                              or (contact_payload or {}).get("email"))}
+        # SISTER-COMPANY DEDUPE (2026-08-22, Bobby's double thank-you): the
+        # email intake files one email's attachments under EVERY matched
+        # sister company (RT Olson + Dry County share bob@'s thread), so two
+        # bursts produced two identical acks in one conversation. One
+        # identical ack per contact is enough: if the thread already carries
+        # this exact text in its recent outbound, mark the burst acked
+        # without sending again.
+        try:
+            recent = fetch_history(contact_id, max_msgs=8)
+            if any(m["direction"] == "out" and (m.get("body") or "").strip() == text.strip()
+                   for m in recent):
+                cs["upload_acked_paths"] = (list(cs.get("upload_acked_paths") or [])
+                                            + rels)[-_UPLOAD_ACK_MAX_PATHS:]
+                cs.pop("upload_ack_pending", None)
+                out["acked"] += 1
+                print(f"  [upload-ack] {company.get('name')}: identical ack "
+                      "already in the thread (sister company) — marked acked, "
+                      "not re-sent")
+                continue
+        except Exception:  # noqa: BLE001 — dedupe is best-effort
+            pass
         if dry_run:
             print(f"  [upload-ack] [dry-run] {company.get('name')}: {text!r}")
             out["acked"] += 1
