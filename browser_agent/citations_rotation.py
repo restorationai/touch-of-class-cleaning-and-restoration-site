@@ -62,7 +62,7 @@ def rotate(dry_run: bool = False) -> list[str]:
     acts = _get("browser_agent_actions?select=company_id,action,outcome,detail,meta,created_at"
                 "&action=eq.homeguide-create&order=created_at.asc&limit=500")
     tracker = {(t["company_id"], t["directory"]): t for t in
-               _get("citation_listings?select=id,company_id,directory,status,listing_url")}
+               _get("citation_listings?select=id,company_id,directory,status,listing_url,priority")}
     for a in acts:
         cid = a.get("company_id")
         if not cid:
@@ -99,12 +99,14 @@ def rotate(dry_run: bool = False) -> list[str]:
     # ---- 3. PICK tonight's companies -------------------------------------
     per_co: dict[str, dict] = {}
     for t in tracker.values():
-        d = per_co.setdefault(t["company_id"], {"live": 0, "wrong": 0, "total": 0})
+        d = per_co.setdefault(t["company_id"], {"live": 0, "wrong": 0, "total": 0,
+                                                "priority": 0})
         d["total"] += 1
         if t["status"] == "live":
             d["live"] += 1
         if t["status"] == "wrong_data":
             d["wrong"] += 1
+        d["priority"] = max(d["priority"], int(t.get("priority") or 0))
     cos = {c["id"]: c for c in _get(
         "companies?select=id,name,status,created_at&plan=ilike.rank%20ai")}
     inactive = {"paused", "cancelled", "canceled", "churned", "inactive", "archived"}
@@ -115,16 +117,25 @@ def rotate(dry_run: bool = False) -> list[str]:
                 str(cos[cid]["created_at"]).replace("Z", "+00:00")).timestamp()
         except (KeyError, TypeError, ValueError):
             return 0.0
+    # PRIORITY beats everything (Santino 2026-08-22: prioritize a company or
+    # a single citation for the upcoming run — set citation_listings.priority
+    # > 0 on any row; consumed when the company gets its night).
     ranked = sorted(
         (cid for cid in per_co
          if cid in cos
          and str((cos.get(cid) or {}).get("status") or "").lower() not in inactive),
-        key=lambda c: (-per_co[c]["wrong"], per_co[c]["live"], -_created_ts(c)))
+        key=lambda c: (-per_co[c]["priority"], -per_co[c]["wrong"],
+                       per_co[c]["live"], -_created_ts(c)))
     picks = ranked[:NIGHTLY_COMPANIES]
     for cid in picks:
         name = (cos.get(cid) or {}).get("name") or cid
         d = per_co[cid]
-        out.append(f"pick: {name} (wrong_data={d['wrong']}, live={d['live']}/{d['total']})")
+        flag = " [PRIORITIZED]" if d["priority"] else ""
+        out.append(f"pick: {name}{flag} (wrong_data={d['wrong']}, live={d['live']}/{d['total']})")
+        if d["priority"] and not dry_run:
+            # consume the flag so the queue rotates on after its night
+            _patch(f"citation_listings?company_id=eq.{cid}&priority=gt.0",
+                   {"priority": 0, "updated_at": now})
         if d["wrong"]:
             wrongs = [t for t in tracker.values()
                       if t["company_id"] == cid and t["status"] == "wrong_data"]
