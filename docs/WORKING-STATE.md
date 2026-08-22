@@ -5,6 +5,26 @@ Deeper context: docs/seo-videos-gap-analysis-2026-08.md (SEO queue),
 docs/bobby-olson-call-plan-2026-08-18.md (Bobby items + statuses),
 docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
 
+## Latest (2026-08-22): Sarha's corrections LIVE; RX diagnosed; priority feature
+
+- **AIR CARE CORRECTIONS DEPLOYED + VERIFIED LIVE** (346 pages, lint 0):
+  25 asbestos pages deleted, mold roles corrected fleet-of-pages-wide
+  (remediation vs independent assessment consultant), licenses split
+  (RCO1798 company / MRC2262 Sarha), insurance wording per her exact text,
+  ~10 copy fixes, review count 15, CARE slogan. Design round = open
+  [AIRCARE-DESIGN] dev card (staging review, NOT straight to prod). Monica
+  directive filed for the morning slot (quiet hours held the instant send).
+  claims_lint: listicle competitor review-counts downgraded to review sev.
+- **RX decline DIAGNOSED**: impressions flat, ACTIONS collapsed in the
+  08-06->08-21 maintenance outage window (posts + review replies dark);
+  14 junk customer photos flagged; citations 2-of-15; wrong-page x5 open;
+  organic ramping (0->32 clicks first GSC month). RX prioritized in
+  tonight's rotation (verified first pick).
+- **Citations priority feature LIVE**: citation_listings.priority +
+  rotation ranks it first (consumed on pick) + popup buttons (company
+  header + per-row) via build-stages prioritize_citations action.
+- Concierge slots now run email_inbox_sync first (Sarha-promise gap).
+
 ## Latest (2026-08-21): pilots live — 2f sent, citations pipeline v1, Air Care LAUNCHED
 
 - **2f emails SENT**: Fran (his Gmail draft, on-thread) + Bobby (from the
