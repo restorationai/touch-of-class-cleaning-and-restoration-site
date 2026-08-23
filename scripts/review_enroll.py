@@ -328,6 +328,11 @@ def main() -> None:
     ap.add_argument("--city-col", default=None)
     ap.add_argument("--state-col", default=None)
     ap.add_argument("--fallback-from", default=UNIVERSAL_FALLBACK_FROM)
+    ap.add_argument("--staged", action="store_true",
+                    help="write rows as status='staged' — the dispatcher "
+                         "never touches them until the app's Activate "
+                         "Review Campaign button (or a manual UPDATE) flips "
+                         "them to 'pending' (Santino 2026-08-23)")
     args = ap.parse_args()
 
     sb = SB()
@@ -531,10 +536,12 @@ def main() -> None:
         requests_rows.append({
             "company_id": company_id, "contact_id": cid,
             "campaign_type": "reactivation", "tracking_slug": slug,
-            "status": "pending", "step_number": 1, "next_send_at": due,
+            "status": "staged" if args.staged else "pending",
+            "step_number": 1, "next_send_at": due,
         })
     sb.insert("review_requests", requests_rows)
-    print(f"ENROLLED {len(requests_rows)} review_requests "
+    verb = "STAGED (not active)" if args.staged else "ENROLLED"
+    print(f"{verb} {len(requests_rows)} review_requests "
           f"({len(created)} new contacts, "
           f"{len(to_enroll) - len(new_rows)} existing reused).")
 

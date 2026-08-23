@@ -1,0 +1,76 @@
+{
+  "brand": {
+    "display_name": "TDI Builders, Inc.",
+    "lat": 38.6446,
+    "lng": -121.5058,
+    "phone": "(877) 688-0866",
+    "email": "",
+    "street_address": "701 Del Paso Rd",
+    "city": "Sacramento",
+    "state": "CA",
+    "postal_code": "95834",
+    "theme": "light",
+    "certifications": ["IICRC CERTIFIED TECHNICIANS", "LICENSED & INSURED", "40+ YEARS OF CONSTRUCTION & RESTORATION EXPERIENCE"],
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "founded_year": 1985,
+    "trust_badges": ["IICRC Certified Technicians", "Licensed & Insured", "24/7 Emergency Response", "Operator-Led, Not a Franchise"],
+    "colors": {
+      "primary": "#0080C4",
+      "secondary": "#A4B0BA",
+      "accent": "#0080C4",
+      "palette": ["#0080C4", "#A4B0BA", "#FFFFFF", "#1A1A1A", "#F4F6F8"],
+      "source": "TDI Branding Guidelines (client-supplied .ai/PDF, archived in clients/tdi-builders/docs/): TDI Blue #0080C4 primary/CTA, grey #A4B0BA connective only (never CTAs), white surfaces, dark text #1A1A1A, section bg #F4F6F8"
+    },
+    "fonts": {
+      "heading": "Jost",
+      "body": "Inter",
+      "source": "Brand spec is Futura PT (licensed; license decision pending with Rob). Jost = closest free geometric substitute for headings; Inter is the SOP's own named fallback for body."
+    },
+    "primary_color": "#0080C4",
+    "dark_color": "#1A1A1A",
+    "accent_color": "#0080C4",
+    "font_sans": "Inter",
+    "font_display": "Jost",
+    "logo_url": "/images/logo.png"
+  },
+  "second_location": {
+    "street_address": "1086 Bessemer Ave",
+    "city": "Manteca",
+    "state": "CA",
+    "postal_code": "95337"
+  },
+  "services": [
+    "water-damage-restoration",
+    "water-cleanup",
+    "fire-damage-restoration",
+    "storm-damage-restoration",
+    "mold-remediation",
+    "sewage-cleanup",
+    "biohazard-cleanup",
+    "general-contracting",
+    "emergency-board-up-tarping",
+    "contents-restoration",
+    "post-construction-cleaning",
+    "air-duct-cleaning"
+  ],
+  "service_areas": [
+    {"city": "Sacramento", "state": "CA", "slug": "sacramento-ca", "primary": true},
+    {"city": "Roseville", "state": "CA", "slug": "roseville-ca"},
+    {"city": "Elk Grove", "state": "CA", "slug": "elk-grove-ca"},
+    {"city": "Folsom", "state": "CA", "slug": "folsom-ca"},
+    {"city": "Modesto", "state": "CA", "slug": "modesto-ca"},
+    {"city": "Rocklin", "state": "CA", "slug": "rocklin-ca"},
+    {"city": "Citrus Heights", "state": "CA", "slug": "citrus-heights-ca"},
+    {"city": "Rancho Cordova", "state": "CA", "slug": "rancho-cordova-ca"},
+    {"city": "Fair Oaks", "state": "CA", "slug": "fair-oaks-ca"},
+    {"city": "Carmichael", "state": "CA", "slug": "carmichael-ca"},
+    {"city": "West Sacramento", "state": "CA", "slug": "west-sacramento-ca"},
+    {"city": "Lincoln", "state": "CA", "slug": "lincoln-ca"},
+    {"city": "Granite Bay", "state": "CA", "slug": "granite-bay-ca"},
+    {"city": "El Dorado Hills", "state": "CA", "slug": "el-dorado-hills-ca"},
+    {"city": "Loomis", "state": "CA", "slug": "loomis-ca"}
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
+}
