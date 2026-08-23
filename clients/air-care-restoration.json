@@ -13,7 +13,7 @@
     "url_count": 380,
     "generated_at": "2026-08-16T09:42:03.082371+00:00"
   },
-  "updated_at": "2026-08-21T01:49:03+00:00",
+  "updated_at": "2026-08-23T06:18:54.635610+00:00",
   "gbp": {
     "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJAbX4Kjsyg2IRF9RgElzgJXk"
@@ -27,10 +27,10 @@
     "url_count": 254,
     "pages_status": "created",
     "last_rendered_at": "2026-08-16T09:54:09.734073+00:00",
-    "last_pushed_staging_at": "2026-08-19T03:00:45.888692+00:00",
-    "last_pushed_main_at": "2026-08-19T02:58:49.346926+00:00"
+    "last_pushed_staging_at": "2026-08-22T04:56:23.231524+00:00",
+    "last_pushed_main_at": "2026-08-23T06:18:54.635543+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "cutover_prep": {
     "domain": "aircarerestoration.com",
     "harvested_at": "2026-08-16T14:25:06+00:00",
