@@ -1,0 +1,247 @@
+{
+ "domain": "tdiusa.com",
+ "harvested_at": "2026-08-23T14:07:42+00:00",
+ "counts": {
+  "total": 26,
+  "sitemap": 0,
+  "crawl": 25,
+  "backlinked": 2,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://tdiusa.com/",
+   "path": "/",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 41,
+   "referring_domains": 34,
+   "gsc_clicks": 0,
+   "source": "crawl,backlinks"
+  },
+  {
+   "url": "https://tdiusa.com/sdi/index.html",
+   "path": "/sdi/index.html",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "backlinks"
+  },
+  {
+   "url": "https://tdiusa.com/about-us",
+   "path": "/about-us",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/commercial-construction",
+   "path": "/commercial-construction",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/commercial-construction/commercial-remodeling",
+   "path": "/commercial-construction/commercial-remodeling",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/commercial-construction/fire-smoke-rebuilding",
+   "path": "/commercial-construction/fire-smoke-rebuilding",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/commercial-construction/tenant-improvements",
+   "path": "/commercial-construction/tenant-improvements",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/contact-us",
+   "path": "/contact-us",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/insurance-services",
+   "path": "/insurance-services",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/insurance-services/damage-restoration",
+   "path": "/insurance-services/damage-restoration",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/insurance-services/water-damage-restoration",
+   "path": "/insurance-services/water-damage-restoration",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/privacy-policy",
+   "path": "/privacy-policy",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/residential-construction",
+   "path": "/residential-construction",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/residential-construction/home-remodeling",
+   "path": "/residential-construction/home-remodeling",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/residential-construction/home-remodeling/bathroom-remodeling",
+   "path": "/residential-construction/home-remodeling/bathroom-remodeling",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/residential-construction/home-remodeling/garage-remodeling",
+   "path": "/residential-construction/home-remodeling/garage-remodeling",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/residential-construction/home-remodeling/home-additions",
+   "path": "/residential-construction/home-remodeling/home-additions",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/residential-construction/home-remodeling/kitchen-remodeling",
+   "path": "/residential-construction/home-remodeling/kitchen-remodeling",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/residential-construction/home-remodeling/room-additions",
+   "path": "/residential-construction/home-remodeling/room-additions",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/reviews",
+   "path": "/reviews",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/service-area",
+   "path": "/service-area",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/site-map",
+   "path": "/site-map",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/site-search",
+   "path": "/site-search",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/specialty-construction",
+   "path": "/specialty-construction",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/specialty-construction/agricultural-construction",
+   "path": "/specialty-construction/agricultural-construction",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://tdiusa.com/specialty-construction/industrial-construction",
+   "path": "/specialty-construction/industrial-construction",
+   "title": "Construction, Remodeling, & Rebuilding Services in Sacramento, CA | TDI Builders",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  }
+ ]
+}

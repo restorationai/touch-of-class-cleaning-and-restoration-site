@@ -25,5 +25,13 @@
     "pages_status": "created",
     "last_rendered_at": "2026-08-23T10:35:05.131968+00:00"
   },
-  "build_status": "content_partial"
+  "build_status": "content_partial",
+  "cutover_prep": {
+    "domain": "tdiusa.com",
+    "harvested_at": "2026-08-23T14:07:42+00:00",
+    "url_count": 26,
+    "backlinked_count": 2,
+    "redirects_added": 24,
+    "mapped_at": "2026-08-23T14:07:51+00:00"
+  }
 }

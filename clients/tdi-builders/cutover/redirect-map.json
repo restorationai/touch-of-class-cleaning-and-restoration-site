@@ -1,0 +1,103 @@
+{
+ "generated_at": "2026-08-23T14:07:50+00:00",
+ "domain": "tdiusa.com",
+ "routes": 214,
+ "map": {
+  "/about-us": {
+   "target": "/about/",
+   "how": "heuristic"
+  },
+  "/commercial-construction": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/commercial-construction/commercial-remodeling": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/commercial-construction/fire-smoke-rebuilding": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/commercial-construction/tenant-improvements": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/contact-us": {
+   "target": "/contact/",
+   "how": "heuristic"
+  },
+  "/insurance-services": {
+   "target": "/services/",
+   "how": "claude"
+  },
+  "/insurance-services/damage-restoration": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/insurance-services/water-damage-restoration": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/privacy-policy": {
+   "target": "/privacy/",
+   "how": "heuristic"
+  },
+  "/residential-construction": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/residential-construction/home-remodeling": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/residential-construction/home-remodeling/bathroom-remodeling": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/residential-construction/home-remodeling/garage-remodeling": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/residential-construction/home-remodeling/home-additions": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/residential-construction/home-remodeling/kitchen-remodeling": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/residential-construction/home-remodeling/room-additions": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/sdi/index.html": {
+   "target": "/",
+   "how": "heuristic"
+  },
+  "/service-area": {
+   "target": "/service-areas/",
+   "how": "heuristic"
+  },
+  "/site-map": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/site-search": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/specialty-construction": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/specialty-construction/agricultural-construction": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/specialty-construction/industrial-construction": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  }
+ }
+}

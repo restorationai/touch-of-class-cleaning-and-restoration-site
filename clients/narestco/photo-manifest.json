@@ -261,6 +261,36 @@
       "triaged_at": "2026-08-21T09:26:38Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMPcftazJM4P16fDzoxERPoPEGoCYhvbxWs_t8o": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMPcftazJM4P16fDzoxERPoPEGoCYhvbxWs_t8o.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipMPcftazJM4P16fDzoxERPoPEGoCYhvbxWs_t8o.jpg",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 493008,
+      "sha1": "467725c16e445c9c",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Basement water damage marketing collage with phone number overlay",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "phone_number",
+        "logo_card"
+      ],
+      "reason": "Designed marketing collage with burnt-in text, phone number, and logo lockup.",
+      "triaged_at": "2026-08-23T14:05:53Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMSFI_ojRVcrZrha8m_KR_pqrwKwYFGa5cljIIh": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMSFI_ojRVcrZrha8m_KR_pqrwKwYFGa5cljIIh.jpg",
@@ -1712,6 +1742,36 @@
       "triaged_at": "2026-08-05T05:57:15Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPjBjTW5b7cLtsNPPzmH-pBkR_5vQ7DQGF8nCAv": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPjBjTW5b7cLtsNPPzmH-pBkR_5vQ7DQGF8nCAv.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipPjBjTW5b7cLtsNPPzmH-pBkR_5vQ7DQGF8nCAv.jpg",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 448983,
+      "sha1": "64e0d2d394ab8b4e",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Water emergency response marketing collage with phone number overlay",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "appliance-leak-cleanup"
+      ],
+      "flags": [
+        "text_overlay",
+        "phone_number",
+        "logo_card"
+      ],
+      "reason": "Designed marketing collage with burnt-in text, phone number, and logo lockup.",
+      "triaged_at": "2026-08-23T14:05:53Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPjTvmP2cZzBOXrfu_Owk47uBuKEGZuzq7-1aTC": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPjTvmP2cZzBOXrfu_Owk47uBuKEGZuzq7-1aTC.jpg",
@@ -1918,5 +1978,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-21T19:27:03Z"
+  "triaged_at": "2026-08-23T14:05:53Z"
 }
