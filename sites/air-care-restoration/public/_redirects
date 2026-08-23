@@ -26,8 +26,10 @@
 /service-areas/abilene-tx/ / 301
 /service-areas/abilene-tx/air-duct-cleaning /services/air-duct-cleaning/ 301
 /service-areas/abilene-tx/air-duct-cleaning/ /services/air-duct-cleaning/ 301
-/service-areas/abilene-tx/asbestos-abatement /services/asbestos-abatement/ 301
-/service-areas/abilene-tx/asbestos-abatement/ /services/asbestos-abatement/ 301
+/services/asbestos-abatement /services/ 301
+/services/asbestos-abatement/ /services/ 301
+/service-areas/:city/asbestos-abatement /services/ 301
+/service-areas/:city/asbestos-abatement/ /services/ 301
 /service-areas/abilene-tx/biohazard-cleanup /services/biohazard-cleanup/ 301
 /service-areas/abilene-tx/biohazard-cleanup/ /services/biohazard-cleanup/ 301
 /service-areas/abilene-tx/contents-restoration /services/contents-restoration/ 301

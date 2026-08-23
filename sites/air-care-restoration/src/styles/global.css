@@ -34,17 +34,20 @@
   p {
     @apply leading-relaxed mb-5 text-dark-700;
   }
+  /* Round 2 of "work the orange in more" (Sarha 2026-08-22 email): link
+     hovers, list markers, and rules pick up the accent alongside the
+     eyebrows/dividers from the first pass. */
   a {
-    @apply text-primary-700 underline-offset-2 hover:underline transition-colors;
+    @apply text-primary-700 underline-offset-2 hover:underline hover:text-accent transition-colors;
   }
   ul, ol {
     @apply mb-5 pl-6 text-dark-700;
   }
-  ul { @apply list-disc; }
-  ol { @apply list-decimal; }
+  ul { @apply list-disc marker:text-accent; }
+  ol { @apply list-decimal marker:text-accent marker:font-bold; }
   strong { @apply text-dark-900 font-semibold; }
   hr {
-    @apply border-dark/10 my-12;
+    @apply border-accent/30 my-12;
   }
 }
 
@@ -59,13 +62,13 @@
      rung), never primary.DEFAULT — DEFAULT is the client's raw brand hex and
      may be a light gold/lime/sky that white cannot sit on. */
   .btn-primary {
-    @apply btn bg-primary-600 text-white hover:bg-dark-700;
+    @apply btn bg-primary-600 text-white hover:bg-accent;
   }
   .btn-accent {
     @apply btn bg-accent text-white hover:opacity-90;
   }
   .btn-outline {
-    @apply btn border border-dark/30 text-dark-900 hover:bg-dark-900 hover:text-white;
+    @apply btn border border-dark/30 text-dark-900 hover:bg-accent hover:border-accent hover:text-white;
   }
 
   .section { @apply py-24 border-t border-dark/10; }
