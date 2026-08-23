@@ -2241,6 +2241,219 @@ def company_inactive(company: dict | None) -> str | None:
     return None
 
 
+# ---------------------------------------------------------------------------
+# SUSPENSION DUNNING (Santino 2026-08-23, Coastal never added a payment
+# method): status='Suspended' means the account owes us a payment method.
+# Suspended is NOT muted — Monica runs a warm human ladder instead of the
+# normal nurture (normal compose skips Suspended; see cmd_compose). State
+# lives in companies.integration_settings.suspension.dunning so it survives
+# every process. Timeline (days since suspended_at):
+#   0   friendly heads-up SMS         3   reminder ("avoid disruptions")
+#   7   honest pause date             10  [SUSPENSION] card — Santino calls
+#   14  marketing work marked paused  30  SITE COMES DOWN AUTOMATICALLY
+# Day 30 is explicitly authorized to run WITHOUT approval (Santino
+# 2026-08-23: "At day 30, the site can come down without our approval").
+# ---------------------------------------------------------------------------
+
+SUSPENSION_BILLING_LINK = "https://app.restorationai.io/settings/billing"
+
+def _suspension_messages(first: str, pause_date: str) -> list[tuple[str, int, str]]:
+    """(step_key, due_day, body) — human tone, never robotic, no em dashes."""
+    return [
+        ("d0", 0,
+         f"Hey {first}, it's Monica with Santino's team. Quick heads up, the "
+         f"payment method on your account isn't going through. Everything is "
+         f"still running on our end. You can update it here: "
+         f"{SUSPENSION_BILLING_LINK} . If something changed with the card, "
+         f"just reply here and we'll get it sorted."),
+        ("d3", 3,
+         f"Hey {first}, just circling back on the payment method. When you "
+         f"get a minute, updating it here keeps everything running without "
+         f"any disruptions to your site, ads, and campaigns: "
+         f"{SUSPENSION_BILLING_LINK}"),
+        ("d7", 7,
+         f"Hey {first}, I want to be straight with you so nothing here is a "
+         f"surprise. If we can't get the payment method sorted by "
+         f"{pause_date}, we'll have to pause the marketing work. Your "
+         f"website stays up. The update takes about a minute: "
+         f"{SUSPENSION_BILLING_LINK} . If anything is going on, reply here "
+         f"and we'll figure it out together."),
+    ]
+
+
+def suspension_dunning(state: dict, dry_run: bool = False) -> int:
+    """Run the suspension ladder for every Suspended company. Returns the
+    number of actions taken. Rides every compose --all slot; per-step stamps
+    in integration_settings.suspension.dunning make it idempotent, and a
+    48h spacing guard stops step pile-ups when a suspension is discovered
+    late (day 5 gets d0 today, d3 two days later, never both in one day)."""
+    try:
+        rows = _sb("GET", "/rest/v1/companies?status=eq.Suspended"
+                   "&select=id,name,timezone,phone,email,account_owner_name,"
+                   "status,integration_settings") or []
+    except Exception as e:  # noqa: BLE001
+        print(f"  [suspension] fetch failed: {str(e)[:120]}")
+        return 0
+    actions = 0
+    now = datetime.now(timezone.utc)
+    for company in rows:
+        cid = company.get("id")
+        integ = company.get("integration_settings") or {}
+        susp = integ.get("suspension") or {}
+        started = _as_utc(susp.get("suspended_at"))
+        if not cid or not started:
+            continue
+        age_days = int((now - started).total_seconds() // 86400)
+        dn = dict(susp.get("dunning") or {})
+        changed = False
+        name = company.get("name", cid)
+
+        # --- message steps (one per slot max, 48h apart) -------------------
+        contact = resolve_contact(company)
+        first = contact_first_name(contact, company) if contact else "there"
+        pause_date = (started + timedelta(days=14)).strftime("%B %d").replace(" 0", " ")
+        last_send = _as_utc(dn.get("last_send_at"))
+        spacing_ok = not last_send or (now - last_send) >= timedelta(hours=48)
+        for key, due_day, body in _suspension_messages(first, pause_date):
+            if age_days < due_day or dn.get(f"{key}_sent_at"):
+                continue
+            if not contact:
+                if not dn.get("no_contact_card"):
+                    _suspension_card(cid, f"[SUSPENSION] {name}: payment "
+                                     "ladder cannot run, no reachable contact "
+                                     "on file. Needs a human touch.", dry_run)
+                    dn["no_contact_card"] = now.isoformat(); changed = True
+                break
+            if not spacing_ok:
+                break
+            hours_block = business_hours_check(company, contact)
+            if hours_block:
+                print(f"  [suspension] {name}: step {key} due, holding "
+                      f"({hours_block})")
+                break
+            channel = "email" if _sms_dnd(contact) else "sms"
+            if dry_run:
+                print(f"  [suspension] DRY {name}: would send {key} via "
+                      f"{channel}: {body[:80]}…")
+            else:
+                try:
+                    send_message(contact, channel, body, company=company,
+                                 subject=("Your Restoration AI account"
+                                          if channel == "email" else None))
+                    print(f"  [suspension] {name}: sent {key} via {channel}")
+                except Exception as e:  # noqa: BLE001
+                    print(f"  [suspension] {name}: {key} send failed: "
+                          f"{str(e)[:120]}")
+                    break
+            dn[f"{key}_sent_at"] = now.isoformat()
+            dn["last_send_at"] = now.isoformat()
+            changed = True
+            actions += 1
+            break  # one step per slot
+
+        # --- day 10: human escalation -------------------------------------
+        if age_days >= 10 and not dn.get("escalated_at"):
+            _suspension_card(cid, f"[SUSPENSION] {name}: 10 days without a "
+                             "payment method after three notices. Needs a "
+                             "personal call from Santino before the day-14 "
+                             "work pause.", dry_run)
+            dn["escalated_at"] = now.isoformat(); changed = True; actions += 1
+
+        # --- day 14: marketing work paused --------------------------------
+        if age_days >= 14 and not dn.get("work_paused_at"):
+            _suspension_card(cid, f"[SUSPENSION] {name}: day 14 reached, "
+                             "marketing work is now marked paused (ads, "
+                             "posts, campaigns). Site stays up until day 30.",
+                             dry_run)
+            dn["work_paused_at"] = now.isoformat(); changed = True; actions += 1
+
+        # --- day 30: site comes down (pre-authorized, no approval) --------
+        if age_days >= 30 and not dn.get("site_down_at") \
+                and not dn.get("site_down_blocked_at"):
+            removed = _suspension_site_down(cid, name, dry_run)
+            if removed is None:
+                dn["site_down_blocked_at"] = now.isoformat()
+            else:
+                dn["site_down_at"] = now.isoformat()
+                dn["site_down_domains"] = removed
+            changed = True; actions += 1
+
+        if changed and not dry_run:
+            integ["suspension"] = {**susp, "dunning": dn}
+            try:
+                _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                    {"integration_settings": integ}, prefer="return=minimal")
+            except Exception as e:  # noqa: BLE001
+                print(f"  [suspension] {name}: state save failed: "
+                      f"{str(e)[:120]}")
+    return actions
+
+
+def _suspension_card(company_id: str, body: str, dry_run: bool) -> None:
+    if dry_run:
+        print(f"  [suspension] DRY card: {body[:100]}")
+        return
+    try:
+        _sb("POST", "/rest/v1/marketing_ops_notes",
+            {"company_id": company_id, "author": "concierge",
+             "status": "open", "body": body}, prefer="return=minimal")
+    except Exception as e:  # noqa: BLE001
+        print(f"  [suspension] card failed: {str(e)[:100]}")
+
+
+def _suspension_site_down(cid: str, name: str, dry_run: bool):
+    """Detach the client's custom domain(s) from their Cloudflare Pages
+    project. Returns the list of removed domains, [] if none were attached,
+    or None when the takedown cannot run here (missing creds/slug/project) —
+    in which case an URGENT card is filed instead. The *.pages.dev preview
+    always survives; DNS zone is untouched, so restoring is re-adding the
+    domain."""
+    token = os.environ.get("CLOUDFLARE_R2_API_TOKEN")
+    account = os.environ.get("CLOUDFLARE_ACCOUNT_ID")
+    slug = company_slug(cid)
+    if not (token and account and slug):
+        _suspension_card(cid, f"[SUSPENSION] URGENT {name}: day 30 reached "
+                         "and the automatic site takedown could not run here "
+                         f"(creds={'y' if token and account else 'n'}, "
+                         f"slug={'y' if slug else 'n'}). Take the site down "
+                         "manually or clear the suspension.", dry_run)
+        return None
+    project = f"rankai-{slug}"
+    base = (f"https://api.cloudflare.com/client/v4/accounts/{account}"
+            f"/pages/projects/{project}/domains")
+    hdrs = {"Authorization": f"Bearer {token}"}
+    try:
+        r = requests.get(base, headers=hdrs, timeout=30)
+        if r.status_code == 404:
+            _suspension_card(cid, f"[SUSPENSION] {name}: day 30, no Pages "
+                             f"project '{project}' found — nothing to take "
+                             "down (site may never have launched).", dry_run)
+            return []
+        doms = [d.get("name") for d in (r.json().get("result") or [])
+                if d.get("name") and not d["name"].endswith(".pages.dev")]
+        if dry_run:
+            print(f"  [suspension] DRY {name}: would detach {doms}")
+            return doms
+        removed = []
+        for d in doms:
+            dr = requests.delete(f"{base}/{d}", headers=hdrs, timeout=30)
+            if dr.ok:
+                removed.append(d)
+        _suspension_card(cid, f"[SUSPENSION] {name}: day 30 reached with no "
+                         f"payment method. Site domain(s) detached "
+                         f"automatically per standing policy: "
+                         f"{', '.join(removed) or 'none were attached'}. "
+                         "Restore = re-add the domain on the Pages project "
+                         "after payment.", dry_run)
+        print(f"  [suspension] {name}: site down — detached {removed}")
+        return removed
+    except Exception as e:  # noqa: BLE001
+        print(f"  [suspension] {name}: takedown error {str(e)[:120]}")
+        _suspension_card(cid, f"[SUSPENSION] URGENT {name}: day-30 takedown "
+                         f"errored: {str(e)[:160]}", dry_run)
+        return None
+
+
 def fetch_companies(ids: list[str] | None = None) -> dict[str, dict]:
     q = ("/rest/v1/companies?select=id,name,timezone,phone,email,"
          "account_owner_name,status,integration_settings")
@@ -5252,6 +5465,15 @@ def cmd_compose(args) -> int:
         # their resolved messaging target; one merged message per human.
         cids = _companies_with_items(load_state())
         companies = fetch_companies(cids)
+        # Suspended-account payment ladder rides every slot (its own per-step
+        # stamps dedupe; a quiet fleet costs one GET).
+        try:
+            n = suspension_dunning(load_state(),
+                                   dry_run=not getattr(args, "send", False))
+            if n:
+                print(f"[suspension] {n} dunning action(s) this slot")
+        except Exception as e:  # noqa: BLE001 — the ladder never kills compose
+            print(f"[suspension] warn: {str(e)[:120]}")
         groups: dict[str, list[str]] = {}
         for cid in cids:
             co = companies.get(cid)
@@ -5285,6 +5507,12 @@ def cmd_compose(args) -> int:
             if muted:
                 print(f"  skipping {companies[group[0]].get('name', group[0])}: "
                       f"{muted}")
+                continue
+            # suspension_skip: Suspended accounts hear ONLY the payment
+            # ladder — normal nurture would undercut the dunning message.
+            if str(companies[group[0]].get("status") or "").lower() == "suspended":
+                print(f"  skipping {companies[group[0]].get('name', group[0])}: "
+                      "account Suspended — payment ladder owns this thread")
                 continue
             try:
                 rc = max(rc, cmd_compose(sub))
@@ -9374,6 +9602,20 @@ def cmd_selfcheck(_args) -> int:
          "emailReplyMode" in inspect.getsource(send_message)),
         ("inbound fetch captures the crumbs",
          "email_msg_id" in inspect.getsource(fetch_inbound_since)),
+        ("suspension ladder rides compose --all",
+         "suspension_dunning(" in inspect.getsource(cmd_compose)),
+        ("suspended accounts skip normal nurture",
+         "suspension_skip" in inspect.getsource(cmd_compose)),
+        ("dunning: one step per slot, 48h apart",
+         "last_send_at" in inspect.getsource(suspension_dunning)
+         and "timedelta(hours=48)" in inspect.getsource(suspension_dunning)),
+        ("dunning: 3 human message steps end at day 7",
+         [d for _, d, _ in _suspension_messages("x", "y")] == [0, 3, 7]),
+        ("dunning: no em dashes in client copy",
+         all("—" not in b for _, _, b in _suspension_messages("x", "y"))),
+        ("day-30 takedown fails safe to an URGENT card",
+         "site_down_blocked_at" in inspect.getsource(suspension_dunning)
+         and "URGENT" in inspect.getsource(_suspension_site_down)),
     ]
     for label, ok in rc_cases:
         fails += not ok
