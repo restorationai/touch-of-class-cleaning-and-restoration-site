@@ -1,9 +1,41 @@
 # Working State — leave-and-resume doc
 
-Updated: 2026-08-20 (UTC). Keep this current when a work thread pauses.
+Updated: 2026-08-23 (UTC). Keep this current when a work thread pauses.
 Deeper context: docs/seo-videos-gap-analysis-2026-08.md (SEO queue),
 docs/bobby-olson-call-plan-2026-08-18.md (Bobby items + statuses),
 docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
+
+## 2026-08-23 BIG SHIP DAY — current state
+
+- **TDI Builders signed** (Rob Carpenter, Sacramento+Manteca, buildwithtdi.com
+  → tdiusa.com). 211-page plan generated, rendered (~$8), staging deploy in
+  flight. Kickoff meeting 08-24: walk clients/tdi-builders/docs/
+  rank-ai-beyond-sop.md + tdi-build-plan.md. CSLB license MISSING (cutover
+  blocked); leads go to THEIR HubSpot 48033708 + CallRail, not GHL.
+- **Sarha round 2 DONE + verified live** (asbestos links stripped from 26
+  files + redirects, mold wording protocol-based, verification before
+  containment removal, more orange, old blog title gone). Replied IN HER
+  EMAIL THREAD + Monica SMS. LSA answer in email was soft — real ask is her
+  GL insurance cert; follow-up drafted, awaiting Santino go.
+- **Review suite LIVE**: superadmin Campaign Sender Control on Reviews page
+  (pool w/ live load, one-active-campaign-per-number), staged uploads
+  (CSV/XLSX), Activate Review Campaign button. RT Olson: 6,667 staged
+  (16.6k raw deduped), pinned to 3 Lions TF +18779194344, pace 4/20, gate
+  ON. ACTIVATION = Santino presses the button (or says go).
+- **Gate page**: light redesign (logo default, big faces) + now SERVED ON
+  THE CLIENT'S OWN DOMAIN by the review-link-redirect worker (RPC carries
+  branding; track_review_click captures sentiment/feedback). SPA fallback
+  intact.
+- **Media Library**: app sidebar "Files" tab per company (branding bucket,
+  signed uploads, superadmin delete). media-library edge fn.
+- **Suspend system LIVE**: pause click = Suspended + dunning
+  (d0/d3/d7 human notices from Monica, d10 call card, d14 work-pause,
+  d30 AUTO site takedown — pre-authorized by Santino 08-23). Coastal
+  SUSPENDED (no payment method); d0 goes out Monday business hours.
+  Mold Solutionz REMOVED (Inactive, citations purged, preview deleted).
+- Bing: Google session restored in agent profile (Santino signed in 08-23);
+  a parallel agent may be running Bing Places completion for 10 clients
+  (Mold Solutionz removed from that list).
 
 ## PAUSED 2026-08-22 (Santino's machine going offline) — resume here
 
