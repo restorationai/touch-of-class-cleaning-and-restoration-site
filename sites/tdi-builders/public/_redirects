@@ -1,0 +1,7 @@
+# Primary-city convention: the homepage IS the Sacramento page; the main
+# service pages are the Sacramento service pages. Old/planned sacramento-ca
+# URLs land on their canonical equivalents.
+/service-areas/sacramento-ca / 301
+/service-areas/sacramento-ca/ / 301
+/service-areas/sacramento-ca/:service /services/:service/ 301
+/service-areas/sacramento-ca/:service/ /services/:service/ 301
