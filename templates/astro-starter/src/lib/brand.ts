@@ -11,6 +11,15 @@ export const brand = {
   canonicalUrl: "{{BRAND_CANONICAL_URL}}",
   phone: "{{BRAND_PHONE}}",
   phoneRaw: "{{BRAND_PHONE_RAW}}",
+  // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
+  // a tiny inline script in BaseLayout swaps every visible phone mention
+  // and tel: link to this number AFTER the page renders. The HTML source,
+  // the JSON-LD in schema.ts, and anything crawlers/citation-checkers read
+  // keep the canonical NAP number above — humans dial the tracked line,
+  // Google sees consistent NAP. Empty = feature off (default at scaffold;
+  // filled by the call-tracking provisioning step).
+  trackingPhone: "",
+  trackingPhoneRaw: "",
   email: "{{BRAND_EMAIL}}",
   hours: "{{BRAND_HOURS}}",
   foundedYear: "{{BRAND_FOUNDED_YEAR}}",

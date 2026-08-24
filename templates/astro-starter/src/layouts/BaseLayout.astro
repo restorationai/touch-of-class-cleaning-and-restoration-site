@@ -187,5 +187,41 @@ const ctx: PageSchemaContext = {
       <Phone size={18} strokeWidth={3} />
       Call Now: {brand.phone}
     </a>
+    {brand.trackingPhone && brand.trackingPhoneRaw && (
+      /* Dynamic Number Insertion (2026-08-24): humans see + dial the
+         tracking number; the HTML source, JSON-LD schema, and cached/
+         crawled copies keep the canonical NAP number, so citations stay
+         consistent. Runs after DOM parse; skips script/style nodes so the
+         structured data is never rewritten. */
+      <script is:inline define:vars={{
+        tp: brand.trackingPhone, tpr: brand.trackingPhoneRaw,
+        op: brand.phone, opr: brand.phoneRaw,
+      }}>
+        (function () {
+          function swap() {
+            document.querySelectorAll('a[href^="tel:"]').forEach(function (a) {
+              var href = a.getAttribute("href") || "";
+              if (href.indexOf(opr) !== -1 || href === "tel:" + op) {
+                a.setAttribute("href", "tel:" + tpr);
+              }
+            });
+            var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+            var hits = [];
+            while (walker.nextNode()) {
+              var n = walker.currentNode;
+              var tag = n.parentElement && n.parentElement.tagName;
+              if (tag === "SCRIPT" || tag === "STYLE") continue;
+              if (n.nodeValue && n.nodeValue.indexOf(op) !== -1) hits.push(n);
+            }
+            hits.forEach(function (n) {
+              n.nodeValue = n.nodeValue.split(op).join(tp);
+            });
+          }
+          if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", swap);
+          } else swap();
+        })();
+      </script>
+    )}
   </body>
 </html>
