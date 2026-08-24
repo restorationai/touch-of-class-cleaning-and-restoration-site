@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://prorestorationca.com",
   phone: "(661) 393-9306",
   phoneRaw: "+16613939306",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(866) 950-3928",
+  trackingPhoneRaw: "+18669503928",
   email: "",
   hours: "24/7",
   foundedYear: "",

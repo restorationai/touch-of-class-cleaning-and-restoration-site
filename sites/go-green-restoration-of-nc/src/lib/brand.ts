@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://gogreenrestorationofnc.com",
   phone: "(919) 906-5473",
   phoneRaw: "+19199065473",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(844) 734-4755",
+  trackingPhoneRaw: "+18447344755",
   email: "gogreenrestorationofnc@gmail.com",
   hours: "24/7",
   foundedYear: "",

@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://flood-fixers.com",
   phone: "(855) 204-1124",
   phoneRaw: "+18552041124",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(855) 204-1124",
+  trackingPhoneRaw: "+18552041124",
   email: "",
   hours: "24/7 Emergency Service",
   foundedYear: "",

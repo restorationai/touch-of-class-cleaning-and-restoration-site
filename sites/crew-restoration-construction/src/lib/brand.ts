@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://crew3r.com",
   phone: "(605) 965-2727",
   phoneRaw: "+16059652727",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(844) 491-7560",
+  trackingPhoneRaw: "+18444917560",
   email: "estimates@crewthatcares.com",
   hours: "24/7",
   foundedYear: "",

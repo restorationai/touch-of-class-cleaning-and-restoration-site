@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://homepriderestorationandcleaning.com",
   phone: "(801) 995-2437",
   phoneRaw: "+18019952437",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(866) 759-3783",
+  trackingPhoneRaw: "+18667593783",
   email: "homepriderestorationut@gmail.com",
   hours: "24/7",
   foundedYear: "1997",
