@@ -1,6 +1,6 @@
 {
  "brand": {
-  "display_name": "TDI\u00ae USA",
+  "display_name": "TDI® USA",
   "lat": 38.5810606,
   "lng": -121.493895,
   "phone": "+19169666000",
@@ -29,7 +29,8 @@
    "Licensed & Insured",
    "24/7 Emergency Service",
    "Locally Owned & Operated"
-  ]
+  ],
+  "place_id": "ChIJDbb428TXmoARvyLLpaLNr3E"
  },
  "services": [
   "water-damage-restoration",
