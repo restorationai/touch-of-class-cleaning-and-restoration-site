@@ -5,6 +5,26 @@ Deeper context: docs/seo-videos-gap-analysis-2026-08.md (SEO queue),
 docs/bobby-olson-call-plan-2026-08-18.md (Bobby items + statuses),
 docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
 
+## 2026-08-24 additions
+
+- **Call-tracking DNI fleet LIVE**: 8 activated clients' sites display their
+  agent/tracking number (source+schema keep real NAP; narestco verified on
+  the live domain). Tool: scripts/site_call_tracking.py. GBP side already
+  standard (gbp.py set-phone). OPEN: citations must build on the REAL line;
+  provisioning for non-activated clients.
+- **Cloud deploys PROVEN**: .github/workflows/deploy-sites.yml
+  (workflow_dispatch, slugs+branch) sync-deploys from GitHub's cloud — no
+  laptop needed once commits are pushed. Auth gotcha solved:
+  persist-credentials false + GH_PAT url rewrite (bot credential 403s
+  per-client repos). Validated green on narestco run 32721048464.
+- **Review test-message feature** live on the Reviews panel (phone + step +
+  name -> real sender, real link, MMS image when configured). Image style
+  pack: no-Hey default, "!" always, Oswald/Caveat/Marker fonts, boxless
+  whiteboard mode, borders, font max 300. RT Olson live campaign is
+  TEXT-ONLY (whiteboard demo config saved but disarmed pending approval).
+- TDI staging: construction rebuild w/ fixed hero truck, awaiting Rob/Santino
+  approval before production.
+
 ## 2026-08-23 BIG SHIP DAY — current state
 
 - **TDI Builders signed** (Rob Carpenter, Sacramento+Manteca, buildwithtdi.com
