@@ -337,6 +337,21 @@
       ],
       "tier": "restoration",
       "priority": 7
+    },
+    {
+      "slug": "fire-smoke-rebuilding",
+      "display_name": "Fire and Smoke Damage Rebuilding",
+      "short_name": "Fire Rebuild",
+      "primary_intent": "local_commercial",
+      "secondary_keywords": [
+        "fire damage rebuild",
+        "fire damage repair contractor",
+        "smoke damage repair",
+        "fire restoration contractor",
+        "rebuild after fire"
+      ],
+      "tier": "restoration",
+      "priority": 7
     }
   ]
 }

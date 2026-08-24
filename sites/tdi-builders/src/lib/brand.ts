@@ -42,8 +42,8 @@ export const brand = {
   // Operator-confirmed "licensed & insured" attestation from plan-input.json —
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: true as boolean,
-  certifications: ["IICRC CERTIFIED TECHNICIANS", "LICENSED & INSURED", "40+ YEARS OF CONSTRUCTION & RESTORATION EXPERIENCE"] as string[],
-  trustBadges: ["IICRC Certified Technicians", "Licensed & Insured", "24/7 Emergency Response", "Operator-Led, Not a Franchise"] as string[],
+  certifications: ["LICENSED & INSURED", "COMMERCIAL, INDUSTRIAL & RESIDENTIAL", "40+ YEARS OF CONSTRUCTION & REBUILDING EXPERIENCE"] as string[],
+  trustBadges: ["Commercial, Industrial & Residential", "Licensed & Insured", "40+ Years of Construction Experience", "Insurance Rebuilds Handled Direct"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
@@ -51,15 +51,15 @@ export const brand = {
   gbpRatingValue: "",
   gbpReviewCount: "",
   gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
-  tagline: "24/7 restoration services in Sacramento, CA.",
-  ctaLabel: "24/7 Emergency Line",
+  tagline: "Construction and remodeling services in Sacramento, CA.",
+  ctaLabel: "Call for a Free Estimate",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
   // Components must use these instead of hardcoding a trade phrase.
-  tradeNoun: "restoration",
-  specialistPhrase: "Restoration & Construction Specialists",
-  announcementSuffix: "24/7 Emergency Response",
-  homeAboutBlurb: "TDI Builders, Inc. serves Sacramento and the surrounding CA area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
+  tradeNoun: "construction",
+  specialistPhrase: "Construction & Remodeling Specialists",
+  announcementSuffix: "Free Estimates",
+  homeAboutBlurb: "TDI Builders, Inc. serves Sacramento and the surrounding CA area with full-service construction and remodeling. From new construction and additions to roofing, siding, decks, and painting, our team manages every project from the first estimate to the final walkthrough.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

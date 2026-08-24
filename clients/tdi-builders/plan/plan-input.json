@@ -11,18 +11,18 @@
     "postal_code": "95834",
     "theme": "light",
     "certifications": [
-      "IICRC CERTIFIED TECHNICIANS",
       "LICENSED & INSURED",
-      "40+ YEARS OF CONSTRUCTION & RESTORATION EXPERIENCE"
+      "COMMERCIAL, INDUSTRIAL & RESIDENTIAL",
+      "40+ YEARS OF CONSTRUCTION & REBUILDING EXPERIENCE"
     ],
     "hours": "24/7",
     "licensed_insured_attested": true,
     "founded_year": 1985,
     "trust_badges": [
-      "IICRC Certified Technicians",
+      "Commercial, Industrial & Residential",
       "Licensed & Insured",
-      "24/7 Emergency Response",
-      "Operator-Led, Not a Franchise"
+      "40+ Years of Construction Experience",
+      "Insurance Rebuilds Handled Direct"
     ],
     "colors": {
       "primary": "#0080C4",
@@ -56,23 +56,18 @@
     "postal_code": "95337"
   },
   "services": [
+    "commercial-construction",
+    "general-contracting",
+    "new-construction",
+    "fire-smoke-rebuilding",
     "water-damage-restoration",
-    "water-cleanup",
-    "fire-damage-restoration",
     "storm-damage-restoration",
     "mold-remediation",
-    "sewage-cleanup",
-    "biohazard-cleanup",
-    "general-contracting",
-    "emergency-board-up-tarping",
-    "contents-restoration",
-    "post-construction-cleaning",
-    "air-duct-cleaning",
-    "reconstruction",
     "home-remodeling",
-    "room-addition",
-    "new-construction",
-    "large-loss-response"
+    "kitchen-remodeling",
+    "bathroom-remodeling",
+    "garage-construction",
+    "room-addition"
   ],
   "service_areas": [
     {
@@ -152,6 +147,6 @@
       "slug": "loomis-ca"
     }
   ],
-  "template": "restoration",
+  "template": "construction",
   "blog_seed_count": 8
 }

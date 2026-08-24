@@ -40,31 +40,26 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `` / `` | brand.place_id / brand.google_cid | from GBP |
 | `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
-| `["IICRC CERTIFIED TECHNICIANS", "LICENSED & INSURED", "40+ YEARS OF CONSTRUCTION & RESTORATION EXPERIENCE"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
+| `["LICENSED & INSURED", "COMMERCIAL, INDUSTRIAL & RESIDENTIAL", "40+ YEARS OF CONSTRUCTION & REBUILDING EXPERIENCE"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
-| `24/7 restoration services in Sacramento, CA.` | brand.tagline | short marketing line |
+| `Construction and remodeling services in Sacramento, CA.` | brand.tagline | short marketing line |
 | `#0080C4` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Jost` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.png` / `TB` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.tdiusa.com` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://tdiusa.com/services/water-damage-restoration/)
-- [Water Cleanup](https://tdiusa.com/services/water-cleanup/)
-- [Fire Damage Restoration](https://tdiusa.com/services/fire-damage-restoration/)
+| `- [Commercial Construction and Tenant Improvements](https://tdiusa.com/services/commercial-construction/)
+- [Renovations, Remodels and General Contracting](https://tdiusa.com/services/general-contracting/)
+- [New Home Construction](https://tdiusa.com/services/new-construction/)
+- [Fire and Smoke Damage Rebuilding](https://tdiusa.com/services/fire-smoke-rebuilding/)
+- [Water Damage Restoration](https://tdiusa.com/services/water-damage-restoration/)
 - [Storm Damage Restoration](https://tdiusa.com/services/storm-damage-restoration/)
 - [Mold Remediation](https://tdiusa.com/services/mold-remediation/)
-- [Sewage Cleanup and Sanitization](https://tdiusa.com/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://tdiusa.com/services/biohazard-cleanup/)
-- [Renovations, Remodels and General Contracting](https://tdiusa.com/services/general-contracting/)
-- [Emergency Board-Up and Tarping](https://tdiusa.com/services/emergency-board-up-tarping/)
-- [Contents Restoration and Storage](https://tdiusa.com/services/contents-restoration/)
-- [Post-Construction and Specialty Cleaning](https://tdiusa.com/services/post-construction-cleaning/)
-- [Air Duct Cleaning](https://tdiusa.com/services/air-duct-cleaning/)
-- [Reconstruction Services](https://tdiusa.com/services/reconstruction/)
 - [Home Remodeling](https://tdiusa.com/services/home-remodeling/)
-- [Room Additions and Home Additions](https://tdiusa.com/services/room-addition/)
-- [New Home Construction](https://tdiusa.com/services/new-construction/)
-- [Large Loss and Catastrophic Response](https://tdiusa.com/services/large-loss-response/)` / `- [Sacramento, CA](https://tdiusa.com/service-areas/sacramento-ca/)
+- [Kitchen Remodeling](https://tdiusa.com/services/kitchen-remodeling/)
+- [Bathroom Remodeling](https://tdiusa.com/services/bathroom-remodeling/)
+- [Garage Construction](https://tdiusa.com/services/garage-construction/)
+- [Room Additions and Home Additions](https://tdiusa.com/services/room-addition/)` / `- [Sacramento, CA](https://tdiusa.com/service-areas/sacramento-ca/)
 - [Roseville, CA](https://tdiusa.com/service-areas/roseville-ca/)
 - [Elk Grove, CA](https://tdiusa.com/service-areas/elk-grove-ca/)
 - [Folsom, CA](https://tdiusa.com/service-areas/folsom-ca/)
@@ -78,7 +73,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Lincoln, CA](https://tdiusa.com/service-areas/lincoln-ca/)
 - [Granite Bay, CA](https://tdiusa.com/service-areas/granite-bay-ca/)
 - [El Dorado Hills, CA](https://tdiusa.com/service-areas/el-dorado-hills-ca/)
-- [Loomis, CA](https://tdiusa.com/service-areas/loomis-ca/)` / `IICRC CERTIFIED TECHNICIANS, LICENSED & INSURED, 40+ YEARS OF CONSTRUCTION & RESTORATION EXPERIENCE` / `Greater Sacramento region` | computed at scaffold from plan + brand | |
+- [Loomis, CA](https://tdiusa.com/service-areas/loomis-ca/)` / `LICENSED & INSURED, COMMERCIAL, INDUSTRIAL & RESIDENTIAL, 40+ YEARS OF CONSTRUCTION & REBUILDING EXPERIENCE` / `Greater Sacramento region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

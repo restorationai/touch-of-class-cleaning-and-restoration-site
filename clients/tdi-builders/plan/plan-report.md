@@ -1,21 +1,21 @@
 # Site Plan Report — TDI Builders, Inc.
 
-- Template: `restoration` v0.3.0
-- Generated: 2026-08-24T00:16:20.159894+00:00
+- Template: `construction` v0.1.0
+- Generated: 2026-08-24T07:43:17.597777+00:00
 - Domain: `tdiusa.com`
-- Services selected: 17 of 55 catalog entries
+- Services selected: 12 of 23 catalog entries
 - Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **286**
-- Total internal links: 2345 (avg 8.2 per page)
+- Total URLs: **211**
+- Total internal links: 1710 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 238 |
-| `service-landing` | 17 |
+| `service-area-service` | 168 |
 | `service-area` | 14 |
+| `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,23 +27,18 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `water-cleanup` — Water Cleanup (core, priority 9)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
+- `commercial-construction` — Commercial Construction and Tenant Improvements (specialty, priority 7)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
-- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
-- `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
-- `reconstruction` — Reconstruction Services (core, priority 9)
-- `home-remodeling` — Home Remodeling (construction, priority 10)
-- `room-addition` — Room Additions and Home Additions (construction, priority 8)
-- `new-construction` — New Home Construction (construction, priority 9)
-- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `new-construction` — New Home Construction (core, priority 9)
+- `fire-smoke-rebuilding` — Fire and Smoke Damage Rebuilding (restoration, priority 7)
+- `water-damage-restoration` — Water Damage Restoration (restoration, priority 7)
+- `storm-damage-restoration` — Storm Damage Restoration (restoration, priority 7)
+- `mold-remediation` — Mold Remediation (restoration, priority 7)
+- `home-remodeling` — Home Remodeling (core, priority 10)
+- `kitchen-remodeling` — Kitchen Remodeling (core, priority 9)
+- `bathroom-remodeling` — Bathroom Remodeling (core, priority 9)
+- `garage-construction` — Garage Construction (specialty, priority 6)
+- `room-addition` — Room Additions and Home Additions (core, priority 8)
 
 ## Service areas
 
@@ -67,16 +62,16 @@
 
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
-| `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration sacramento |
 | `/services/home-remodeling/` | `service-landing` | 9.0 | home remodeling sacramento |
-| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation sacramento |
-| `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration sacramento |
+| `/services/bathroom-remodeling/` | `service-landing` | 8.1 | bathroom remodeling sacramento |
+| `/services/kitchen-remodeling/` | `service-landing` | 8.1 | kitchen remodeling sacramento |
 | `/services/new-construction/` | `service-landing` | 8.1 | new home construction sacramento |
-| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services sacramento |
-| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization sacramento |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration sacramento |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup sacramento |
-| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup sacramento |
+| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting sacramento |
+| `/services/room-addition/` | `service-landing` | 7.2 | room additions and home additions sacramento |
+| `/service-areas/carmichael-ca/home-remodeling/` | `service-area-service` | 7.0 | home remodeling carmichael |
+| `/service-areas/citrus-heights-ca/home-remodeling/` | `service-area-service` | 7.0 | home remodeling citrus heights |
+| `/service-areas/el-dorado-hills-ca/home-remodeling/` | `service-area-service` | 7.0 | home remodeling el dorado hills |
+| `/service-areas/elk-grove-ca/home-remodeling/` | `service-area-service` | 7.0 | home remodeling elk grove |
 
 ## Validation
 

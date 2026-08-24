@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "navigational_legal"
 priority: 1.0
 plan_hash: "cdaf3de19c78890f"
-generated_at: "2026-08-23T10:30:24.502425+00:00"
+generated_at: "2026-08-24T08:33:03.262624+00:00"
 manual_override: false
 internal_links: []
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Terms of Service"}]
@@ -18,38 +18,40 @@ rendered: true
 ---
 ## Who These Terms Apply To
 
-By visiting tdiusa.com or contacting TDI Builders, Inc. through any form or phone number on this site, you agree to the terms described below. These terms apply to the website and to the initial stages of any service inquiry — they do not replace a signed work-authorization agreement, which governs the actual service relationship once a project begins.
+These Terms of Service apply to anyone who visits tdiusa.com or contacts TDI Builders, Inc. to request services. By using this website or engaging with our team, you agree to the terms described here. If you have questions before proceeding, call us at (877) 688-0866.
 
-TDI Builders, Inc. is a licensed contractor operating under California state regulations, headquartered at 701 Del Paso Rd, Sacramento, CA 95834.
+## Service Area
 
-## Service Area and Estimates
+TDI Builders, Inc. operates as a licensed contractor in the state of California. We do not guarantee availability outside our current service area. If you contact us from a location we cannot serve, we will let you know promptly rather than leave you waiting.
 
-TDI Builders provides restoration and reconstruction services within its established service area in California. Submitting an inquiry through this website does not guarantee service availability at your location. A team member will confirm coverage when you call or when we respond to your message.
+## Estimates and Proposals
 
-Any estimate, quote, or scope of work discussed verbally or provided in writing before a work-authorization form is signed is informational only — it is not a binding contract. Conditions discovered during inspection, hidden damage, or changes in project scope may affect the final cost. The signed work-authorization form is the controlling document for all services rendered.
+Any estimate, quote, or scope of work we provide — whether delivered in person, by phone, by email, or through this website — is not a binding contract. Work does not begin, and TDI Builders, Inc. assumes no service obligation, until both parties have signed a written work-authorization form. That signed document governs the actual service relationship, including scope, pricing, access requirements, and scheduling. If there is ever a conflict between something stated informally and the signed authorization, the signed document controls.
 
 ## Payment Terms
 
-Accepted payment methods and due dates are stated in the work-authorization agreement for each project. Where TDI Builders coordinates directly with your insurance carrier, payment terms reflect the insurance claim process and any applicable deductible obligations. Questions about payment should be directed to (877) 688-0866 before work begins, not after.
+Payment terms, accepted methods, and any deposit requirements are specified in the work-authorization form for each project. We coordinate directly with insurance carriers when a loss is covered under a property policy and the homeowner or property manager has authorized us to do so — but the property owner remains ultimately responsible for any balance not covered by insurance. We do not sell or share your financial information.
+
+## Scope of Work and Changes
+
+Restoration and reconstruction projects can evolve as hidden damage becomes visible after demolition or drying. If conditions discovered during work require a material change to the original scope, we will document the change and obtain written approval before proceeding. Verbal approvals are not sufficient to authorize additional costs.
+
+## Liability
+
+TDI Builders, Inc. operates under California contractor licensing requirements and carries the insurance required by state law. Our liability is limited to the direct scope of contracted work. We are not responsible for pre-existing conditions, code violations unrelated to our work, or damage caused by a homeowner's failure to follow documented recommendations (such as delaying mitigation after a water loss).
 
 ## Insurance Coordination
 
-TDI Builders can work alongside your insurance carrier to document loss, photograph affected materials, and support the claims process. Coordinating with your carrier requires your explicit authorization. We do not act as a public adjuster, and nothing on this site should be read as insurance or legal advice. Final coverage determinations rest with your carrier.
-
-## Scope of Work and Liability
-
-The scope of any restoration or reconstruction project is defined in the signed work-authorization form. Work performed outside that written scope requires a written change order. TDI Builders carries the licensing and insurance required under California law for the work we perform; liability is limited to the services described in the executed agreement.
-
-This website is provided as-is for informational purposes. TDI Builders makes no warranties regarding the completeness or accuracy of general educational content on this site.
+When you authorize us to work with your insurance carrier, we will document the loss, photograph affected materials, and communicate with your adjuster on your behalf. This coordination is a courtesy service. TDI Builders, Inc. makes no guarantee of claim approval or payment amounts — those decisions rest with your carrier.
 
 ## Dispute Resolution
 
-Any dispute arising from a service engagement will first be addressed through direct communication with TDI Builders management. If a resolution cannot be reached, disputes are subject to the laws of the State of California and the jurisdiction of the appropriate California court. The signed work-authorization form may include additional dispute-resolution provisions specific to your project.
+If a dispute arises from work performed under a signed authorization, both parties agree to attempt resolution in good faith before pursuing formal action. California law governs any dispute that cannot be resolved informally. Venue for any legal proceeding shall be Sacramento County, California.
 
 ## Changes to These Terms
 
-TDI Builders may update these terms at any time. The current version will always be available at tdiusa.com. Continued use of the site after an update constitutes acceptance of the revised terms.
+We may update these terms from time to time. The current version is always available at tdiusa.com. Continued use of the site or our services after an update constitutes acceptance of the revised terms.
 
-## Questions
+## Contact
 
-For questions about these terms, contact TDI Builders at (877) 688-0866 or through the contact form at tdiusa.com.
+For questions about these terms, reach us by phone at (877) 688-0866 or by mail at 701 Del Paso Rd, Sacramento, CA 95834.

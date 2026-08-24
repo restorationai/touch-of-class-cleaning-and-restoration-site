@@ -1,20 +1,20 @@
 ---
 archetype: "blog-index"
-title: "Restoration Blog | TDI Builders, Inc."
-h1: "Restoration Resources and Insights"
-meta_description: "Guides, checklists, and explainers from TDI Builders, Inc. on water, fire, mold, and storm damage restoration."
-primary_keyword: "restoration blog sacramento"
-secondary_keywords: ["restoration guides", "damage restoration tips", "restoration insights"]
+title: "Construction Blog | TDI Builders, Inc."
+h1: "Construction Resources and Insights"
+meta_description: "Guides, checklists, and explainers from TDI Builders, Inc. on remodeling, new construction, roofing, and home improvement projects."
+primary_keyword: "construction blog sacramento"
+secondary_keywords: ["construction guides", "home remodeling tips", "home improvement insights"]
 search_intent: "informational_browse"
 priority: 3.0
-plan_hash: "14d3fec0b6933f75"
-generated_at: "2026-08-23T10:27:06.116997+00:00"
+plan_hash: "2c226dd6dbb3a1a3"
+generated_at: "2026-08-24T08:32:24.896240+00:00"
 manual_override: false
-internal_links: ["/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/choosing-a-restoration-company/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/fire-damage-restoration-process/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/", "/blog/black-mold-vs-regular-mold/"]
+internal_links: ["/", "/blog/choosing-a-general-contractor/", "/blog/how-to-plan-a-home-remodel/", "/blog/do-you-need-a-permit/", "/blog/kitchen-remodel-cost-breakdown/", "/blog/questions-to-ask-before-signing-contract/", "/blog/mold-found-during-renovation/", "/blog/storm-damage-insurance-claim-checklist/", "/blog/storm-damage-repair-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog"}]
 faq: []
 rendered: true
 ---
-Sacramento homeowners deal with a specific set of problems — aging plumbing in midcentury Arden Park bungalows, El Niño winters that push water through foundations that have been dry for years, summer heat that accelerates mold growth after a slow leak goes unnoticed. The posts here are written to help you understand what's actually happening inside your walls, attic, or crawlspace when something goes wrong, and what the restoration process looks like before you ever pick up a phone.
+Restoration work moves fast — water spreads, smoke odor sets into drywall, and mold can begin colonizing a damp wall cavity within days of a leak. Most of the questions homeowners ask us on-site are ones they wish they'd had answers to before they called. That's the gap these posts are meant to fill.
 
-You'll find emergency response guides (what to do in the first hour after a pipe bursts or a fire is extinguished), plain-language walkthroughs of how insurance claims move from first notice of loss to final payment, and honest explainers on what drying equipment does, why containment matters during mold work, and when a repair crosses into a full rebuild. We also cover the seasonal and regional patterns that make Sacramento properties vulnerable in ways that generic national advice misses. Read whatever's useful — the goal is to give you enough information to make good decisions, whether that means calling us or handling something yourself.
+You'll find emergency response guides (what to do in the first hour after a pipe bursts or a fire is extinguished), plain-language walkthroughs of the insurance claim process, and honest explainers on what restoration work actually looks like from start to finish. We also write about Sacramento-specific conditions — the way the valley's clay soils hold moisture after a wet winter, what older Midtown and East Sacramento homes tend to hide behind their plaster walls, how the region's dry summers can mask slow leaks until fall rains make them obvious again. Read whatever is useful. These posts are written to help you make sense of a stressful situation, whether or not you ever pick up the phone.

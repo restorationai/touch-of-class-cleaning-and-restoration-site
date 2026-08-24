@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "navigational_legal"
 priority: 1.0
 plan_hash: "f874973f028e87fd"
-generated_at: "2026-08-23T10:30:27.623833+00:00"
+generated_at: "2026-08-24T08:33:05.061799+00:00"
 manual_override: false
 internal_links: []
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Accessibility Statement"}]
@@ -18,36 +18,37 @@ rendered: true
 ---
 ## Our Commitment to Accessibility
 
-TDI Builders, Inc. is committed to ensuring that our website is usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification. We believe access to information about restoration and reconstruction services should not depend on a visitor's abilities or the device they use.
+TDI Builders, Inc. is committed to ensuring that our website is usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification. We believe that access to information about our services — whether you're dealing with water damage, fire damage, or a mold concern — should not be a barrier for any visitor.
 
-## What We're Working Toward
+This site is built with the goal of conforming to the **Web Content Accessibility Guidelines (WCAG) 2.1, Level AA**, the current internationally recognized standard for web accessibility. These guidelines define how to make web content more accessible to people with a range of disabilities, including visual, auditory, cognitive, and motor impairments.
 
-We aim to meet the **Web Content Accessibility Guidelines (WCAG) 2.1, Level AA** — the widely recognized benchmark for accessible web content. This means we work to ensure that our pages are perceivable, operable, understandable, and robust across a range of browsers, devices, and assistive tools.
+## What We've Done to Support Accessibility
 
-Specific practices we follow include:
+We've taken steps to make the site as navigable and readable as possible:
 
-- Providing descriptive alternative text for meaningful images
-- Structuring pages with semantic headings so screen readers can navigate efficiently
-- Maintaining sufficient color contrast between text and backgrounds
-- Ensuring all interactive elements — forms, buttons, phone links — are reachable and usable by keyboard alone
-- Avoiding content that flashes or auto-plays in ways that could cause harm
+- Pages are structured with semantic HTML so screen readers can interpret headings, lists, and landmarks in a logical order.
+- Images include descriptive alternative text where content is meaningful.
+- Color contrast ratios are maintained to support visitors with low vision or color-vision differences.
+- Interactive elements — including forms and navigation — are designed to be operable by keyboard without requiring a mouse.
+- The site avoids content that flashes or strobes in ways known to trigger photosensitive responses.
+
+We recognize that accessibility is an ongoing practice, not a one-time checklist. As we update and expand the site, we continue to evaluate new content against the same standards.
 
 ## Known Limitations
 
-We are continually reviewing and improving our site. Some older content or third-party components — such as embedded maps or scheduling tools — may not yet fully meet WCAG 2.1 AA standards. We are actively working to identify and address these gaps.
+Despite our efforts, some content may not yet fully meet WCAG 2.1 AA in every respect. Third-party tools, embedded maps, or older documents may present accessibility challenges that are outside our direct control. We are actively working to identify and address these gaps.
 
-If you encounter a barrier that prevents you from accessing any information or completing any task on this site, we want to hear about it.
+## Report an Issue
 
-## Contact Us About Accessibility
+If you encounter a barrier on this site — a page that doesn't read correctly with your screen reader, a form you can't complete, or any other accessibility concern — please let us know. We take these reports seriously and aim to respond and address reported issues within a reasonable timeframe.
 
-Please reach out if you experience difficulty using any part of tdiusa.com. You can contact us by phone at **(877) 688-0866** or by mail at:
+You can reach us by:
 
-**TDI Builders, Inc.**
-701 Del Paso Rd
-Sacramento, CA 95834
+- **Phone:** (877) 688-0866
+- **Mail:** TDI Builders, Inc., 701 Del Paso Rd, Sacramento, CA 95834
 
-When you report an issue, please describe the page or feature you were trying to use and the nature of the barrier you encountered. We will acknowledge your message promptly and work to resolve the reported issue within a reasonable timeframe. In the meantime, if there is information you cannot access, we are happy to provide it to you directly by phone.
+When you contact us, please describe the specific page or feature you had difficulty with and the assistive technology or browser you were using, if known. That detail helps us reproduce and resolve the issue more quickly.
 
-## Ongoing Effort
+## Alternative Access to Information
 
-Accessibility is not a one-time checklist — it is an ongoing part of how we maintain this site. As we update content, add new service pages, or integrate new tools, accessibility review is part of that process. We welcome feedback from visitors at any time, and we treat reported issues as a genuine opportunity to improve the experience for everyone.
+If any part of this site presents a barrier that prevents you from getting the information or assistance you need, please call us directly. A member of our team can answer questions, describe our services, and help schedule an estimate by phone during business hours.

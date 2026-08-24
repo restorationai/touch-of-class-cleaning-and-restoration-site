@@ -1,6 +1,6 @@
 # TDI Builders, Inc.
 
-> 24/7 restoration services in Sacramento, CA.
+> Construction and remodeling services in Sacramento, CA.
 
 TDI Builders, Inc. (TDI Builders, Inc.) is a professional restoration contractor serving Sacramento, CA and surrounding areas since 1985. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (877) 688-0866 · Email: .
 
@@ -9,23 +9,18 @@ TDI Builders, Inc. (TDI Builders, Inc.) is a professional restoration contractor
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://tdiusa.com/sitemap-index.xml.
 
 ### Core service pages
+- [Commercial Construction and Tenant Improvements](https://tdiusa.com/services/commercial-construction/)
+- [Renovations, Remodels and General Contracting](https://tdiusa.com/services/general-contracting/)
+- [New Home Construction](https://tdiusa.com/services/new-construction/)
+- [Fire and Smoke Damage Rebuilding](https://tdiusa.com/services/fire-smoke-rebuilding/)
 - [Water Damage Restoration](https://tdiusa.com/services/water-damage-restoration/)
-- [Water Cleanup](https://tdiusa.com/services/water-cleanup/)
-- [Fire Damage Restoration](https://tdiusa.com/services/fire-damage-restoration/)
 - [Storm Damage Restoration](https://tdiusa.com/services/storm-damage-restoration/)
 - [Mold Remediation](https://tdiusa.com/services/mold-remediation/)
-- [Sewage Cleanup and Sanitization](https://tdiusa.com/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://tdiusa.com/services/biohazard-cleanup/)
-- [Renovations, Remodels and General Contracting](https://tdiusa.com/services/general-contracting/)
-- [Emergency Board-Up and Tarping](https://tdiusa.com/services/emergency-board-up-tarping/)
-- [Contents Restoration and Storage](https://tdiusa.com/services/contents-restoration/)
-- [Post-Construction and Specialty Cleaning](https://tdiusa.com/services/post-construction-cleaning/)
-- [Air Duct Cleaning](https://tdiusa.com/services/air-duct-cleaning/)
-- [Reconstruction Services](https://tdiusa.com/services/reconstruction/)
 - [Home Remodeling](https://tdiusa.com/services/home-remodeling/)
+- [Kitchen Remodeling](https://tdiusa.com/services/kitchen-remodeling/)
+- [Bathroom Remodeling](https://tdiusa.com/services/bathroom-remodeling/)
+- [Garage Construction](https://tdiusa.com/services/garage-construction/)
 - [Room Additions and Home Additions](https://tdiusa.com/services/room-addition/)
-- [New Home Construction](https://tdiusa.com/services/new-construction/)
-- [Large Loss and Catastrophic Response](https://tdiusa.com/services/large-loss-response/)
 
 ### Service area pages
 - [Sacramento, CA](https://tdiusa.com/service-areas/sacramento-ca/)
@@ -54,7 +49,7 @@ This file is intended for AI assistants and language models to efficiently inges
 
 - **Founded:** 1985
 - **Licenses:**  · 
-- **Certifications:** IICRC CERTIFIED TECHNICIANS, LICENSED & INSURED, 40+ YEARS OF CONSTRUCTION & RESTORATION EXPERIENCE
+- **Certifications:** LICENSED & INSURED, COMMERCIAL, INDUSTRIAL & RESIDENTIAL, 40+ YEARS OF CONSTRUCTION & REBUILDING EXPERIENCE
 - **Response time:** 24/7 emergency dispatch
 - **Emergency response:** 24/7 emergency dispatch in Sacramento. Direct insurance billing. Call (877) 688-0866.
 - **Insurance:** Direct insurance billing accepted
