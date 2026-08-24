@@ -21,6 +21,11 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Contents Restoration and Storage](https://tdiusa.com/services/contents-restoration/)
 - [Post-Construction and Specialty Cleaning](https://tdiusa.com/services/post-construction-cleaning/)
 - [Air Duct Cleaning](https://tdiusa.com/services/air-duct-cleaning/)
+- [Reconstruction Services](https://tdiusa.com/services/reconstruction/)
+- [Home Remodeling](https://tdiusa.com/services/home-remodeling/)
+- [Room Additions and Home Additions](https://tdiusa.com/services/room-addition/)
+- [New Home Construction](https://tdiusa.com/services/new-construction/)
+- [Large Loss and Catastrophic Response](https://tdiusa.com/services/large-loss-response/)
 
 ### Service area pages
 - [Sacramento, CA](https://tdiusa.com/service-areas/sacramento-ca/)
