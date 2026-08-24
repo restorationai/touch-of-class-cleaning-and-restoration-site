@@ -1,0 +1,1375 @@
+{
+  "/": {
+    "archetype": "home",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "aggregate-rating"
+    ],
+    "missing_stubs": []
+  },
+  "/services/": {
+    "archetype": "services-hub",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/": {
+    "archetype": "service-areas-hub",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/": {
+    "archetype": "blog-index",
+    "stubs": [
+      "website",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/about/": {
+    "archetype": "about",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "aggregate-rating",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/contact/": {
+    "archetype": "contact",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/fire-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/mold-remediation/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/storm-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/general-contracting/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/biohazard-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/sewage-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/emergency-board-up-tarping/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/contents-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/crawl-space-encapsulation/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/carpet-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/post-construction-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/contents-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elk-grove-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/contents-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roseville-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/contents-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/folsom-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/contents-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/citrus-heights-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/contents-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-cordova-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/contents-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-sacramento-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/contents-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocklin-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/contents-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/davis-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/what-to-do-first-24-hours-water-damage/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/burst-pipe-emergency-checklist/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/does-homeowners-insurance-cover-water-damage/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/signs-of-hidden-mold/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/how-to-test-for-mold/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/fire-damage-restoration-process/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/choosing-a-restoration-company/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/black-mold-vs-regular-mold/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  }
+}

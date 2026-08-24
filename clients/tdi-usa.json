@@ -1,0 +1,28 @@
+{
+  "slug": "tdi-usa",
+  "display_name": "TDI\u00ae USA",
+  "domain": "tdiusa.com",
+  "tier": "standard",
+  "vertical": "restoration",
+  "contact": "office@tdiusa.com",
+  "status": "onboarding",
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.3.0",
+    "url_count": 142,
+    "generated_at": "2026-08-24T15:58:08.051412+00:00"
+  },
+  "updated_at": "2026-08-24T15:58:19.039449+00:00",
+  "indexnow_key": "6632efe0245d4ebb8829b8f7c7c645c7",
+  "build": {
+    "scaffolded_at": "2026-08-24T15:58:19.039328+00:00",
+    "github_repo": "restorationai/tdi-usa-site",
+    "pages_project": "rankai-tdi-usa",
+    "starter_version": "0.1.0",
+    "url_count": 142,
+    "pages_status": "created",
+    "last_rendered_at": "2026-08-24T16:26:57.808944+00:00"
+  },
+  "build_status": "content_partial"
+}

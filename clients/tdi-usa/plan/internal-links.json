@@ -1,0 +1,1396 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/biohazard-cleanup/",
+    "/services/general-contracting/",
+    "/services/emergency-board-up-tarping/",
+    "/services/contents-restoration/",
+    "/services/crawl-space-encapsulation/",
+    "/services/carpet-cleaning/",
+    "/services/post-construction-cleaning/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/davis-ca/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/west-sacramento-ca/"
+  ],
+  "/services/": [
+    "/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/biohazard-cleanup/",
+    "/services/general-contracting/",
+    "/services/emergency-board-up-tarping/",
+    "/services/contents-restoration/",
+    "/services/crawl-space-encapsulation/",
+    "/services/carpet-cleaning/",
+    "/services/post-construction-cleaning/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/davis-ca/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/west-sacramento-ca/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/fire-damage-restoration-process/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/water-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/service-areas/elk-grove-ca/water-damage-restoration/",
+    "/service-areas/folsom-ca/water-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/water-damage-restoration/",
+    "/service-areas/rocklin-ca/water-damage-restoration/",
+    "/service-areas/roseville-ca/water-damage-restoration/",
+    "/service-areas/west-sacramento-ca/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/fire-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/"
+  ],
+  "/services/mold-remediation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/services/storm-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
+    "/service-areas/elk-grove-ca/storm-damage-restoration/",
+    "/service-areas/folsom-ca/storm-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/storm-damage-restoration/",
+    "/service-areas/rocklin-ca/storm-damage-restoration/",
+    "/service-areas/roseville-ca/storm-damage-restoration/",
+    "/service-areas/west-sacramento-ca/storm-damage-restoration/"
+  ],
+  "/services/general-contracting/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/davis-ca/general-contracting/",
+    "/service-areas/elk-grove-ca/general-contracting/",
+    "/service-areas/folsom-ca/general-contracting/",
+    "/service-areas/rancho-cordova-ca/general-contracting/",
+    "/service-areas/rocklin-ca/general-contracting/",
+    "/service-areas/roseville-ca/general-contracting/",
+    "/service-areas/west-sacramento-ca/general-contracting/"
+  ],
+  "/services/biohazard-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/biohazard-cleanup/",
+    "/service-areas/davis-ca/biohazard-cleanup/",
+    "/service-areas/elk-grove-ca/biohazard-cleanup/",
+    "/service-areas/folsom-ca/biohazard-cleanup/",
+    "/service-areas/rancho-cordova-ca/biohazard-cleanup/",
+    "/service-areas/rocklin-ca/biohazard-cleanup/",
+    "/service-areas/roseville-ca/biohazard-cleanup/",
+    "/service-areas/west-sacramento-ca/biohazard-cleanup/"
+  ],
+  "/services/sewage-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/sewage-cleanup/",
+    "/service-areas/davis-ca/sewage-cleanup/",
+    "/service-areas/elk-grove-ca/sewage-cleanup/",
+    "/service-areas/folsom-ca/sewage-cleanup/",
+    "/service-areas/rancho-cordova-ca/sewage-cleanup/",
+    "/service-areas/rocklin-ca/sewage-cleanup/",
+    "/service-areas/roseville-ca/sewage-cleanup/",
+    "/service-areas/west-sacramento-ca/sewage-cleanup/"
+  ],
+  "/services/emergency-board-up-tarping/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
+    "/service-areas/davis-ca/emergency-board-up-tarping/",
+    "/service-areas/elk-grove-ca/emergency-board-up-tarping/",
+    "/service-areas/folsom-ca/emergency-board-up-tarping/",
+    "/service-areas/rancho-cordova-ca/emergency-board-up-tarping/",
+    "/service-areas/rocklin-ca/emergency-board-up-tarping/",
+    "/service-areas/roseville-ca/emergency-board-up-tarping/",
+    "/service-areas/west-sacramento-ca/emergency-board-up-tarping/"
+  ],
+  "/services/contents-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/contents-restoration/",
+    "/service-areas/davis-ca/contents-restoration/",
+    "/service-areas/elk-grove-ca/contents-restoration/",
+    "/service-areas/folsom-ca/contents-restoration/",
+    "/service-areas/rancho-cordova-ca/contents-restoration/",
+    "/service-areas/rocklin-ca/contents-restoration/",
+    "/service-areas/roseville-ca/contents-restoration/",
+    "/service-areas/west-sacramento-ca/contents-restoration/"
+  ],
+  "/services/crawl-space-encapsulation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/crawl-space-encapsulation/",
+    "/service-areas/davis-ca/crawl-space-encapsulation/",
+    "/service-areas/elk-grove-ca/crawl-space-encapsulation/",
+    "/service-areas/folsom-ca/crawl-space-encapsulation/",
+    "/service-areas/rancho-cordova-ca/crawl-space-encapsulation/",
+    "/service-areas/rocklin-ca/crawl-space-encapsulation/",
+    "/service-areas/roseville-ca/crawl-space-encapsulation/",
+    "/service-areas/west-sacramento-ca/crawl-space-encapsulation/"
+  ],
+  "/services/carpet-cleaning/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/carpet-cleaning/",
+    "/service-areas/davis-ca/carpet-cleaning/",
+    "/service-areas/elk-grove-ca/carpet-cleaning/",
+    "/service-areas/folsom-ca/carpet-cleaning/",
+    "/service-areas/rancho-cordova-ca/carpet-cleaning/",
+    "/service-areas/rocklin-ca/carpet-cleaning/",
+    "/service-areas/roseville-ca/carpet-cleaning/",
+    "/service-areas/west-sacramento-ca/carpet-cleaning/"
+  ],
+  "/services/post-construction-cleaning/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/post-construction-cleaning/",
+    "/service-areas/davis-ca/post-construction-cleaning/",
+    "/service-areas/elk-grove-ca/post-construction-cleaning/",
+    "/service-areas/folsom-ca/post-construction-cleaning/",
+    "/service-areas/rancho-cordova-ca/post-construction-cleaning/",
+    "/service-areas/rocklin-ca/post-construction-cleaning/",
+    "/service-areas/roseville-ca/post-construction-cleaning/",
+    "/service-areas/west-sacramento-ca/post-construction-cleaning/"
+  ],
+  "/services/water-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/water-cleanup/",
+    "/service-areas/davis-ca/water-cleanup/",
+    "/service-areas/elk-grove-ca/water-cleanup/",
+    "/service-areas/folsom-ca/water-cleanup/",
+    "/service-areas/rancho-cordova-ca/water-cleanup/",
+    "/service-areas/rocklin-ca/water-cleanup/",
+    "/service-areas/roseville-ca/water-cleanup/",
+    "/service-areas/west-sacramento-ca/water-cleanup/"
+  ],
+  "/service-areas/elk-grove-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/water-damage-restoration/",
+    "/service-areas/elk-grove-ca/sewage-cleanup/",
+    "/service-areas/elk-grove-ca/storm-damage-restoration/",
+    "/service-areas/elk-grove-ca/water-cleanup/",
+    "/service-areas/elk-grove-ca/biohazard-cleanup/",
+    "/service-areas/elk-grove-ca/general-contracting/",
+    "/service-areas/elk-grove-ca/emergency-board-up-tarping/",
+    "/service-areas/elk-grove-ca/contents-restoration/",
+    "/service-areas/elk-grove-ca/crawl-space-encapsulation/",
+    "/service-areas/elk-grove-ca/carpet-cleaning/",
+    "/service-areas/elk-grove-ca/post-construction-cleaning/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/davis-ca/",
+    "/service-areas/folsom-ca/"
+  ],
+  "/service-areas/roseville-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/water-damage-restoration/",
+    "/service-areas/roseville-ca/sewage-cleanup/",
+    "/service-areas/roseville-ca/storm-damage-restoration/",
+    "/service-areas/roseville-ca/water-cleanup/",
+    "/service-areas/roseville-ca/biohazard-cleanup/",
+    "/service-areas/roseville-ca/general-contracting/",
+    "/service-areas/roseville-ca/emergency-board-up-tarping/",
+    "/service-areas/roseville-ca/contents-restoration/",
+    "/service-areas/roseville-ca/crawl-space-encapsulation/",
+    "/service-areas/roseville-ca/carpet-cleaning/",
+    "/service-areas/roseville-ca/post-construction-cleaning/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/davis-ca/",
+    "/service-areas/elk-grove-ca/"
+  ],
+  "/service-areas/folsom-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/water-damage-restoration/",
+    "/service-areas/folsom-ca/sewage-cleanup/",
+    "/service-areas/folsom-ca/storm-damage-restoration/",
+    "/service-areas/folsom-ca/water-cleanup/",
+    "/service-areas/folsom-ca/biohazard-cleanup/",
+    "/service-areas/folsom-ca/general-contracting/",
+    "/service-areas/folsom-ca/emergency-board-up-tarping/",
+    "/service-areas/folsom-ca/contents-restoration/",
+    "/service-areas/folsom-ca/crawl-space-encapsulation/",
+    "/service-areas/folsom-ca/carpet-cleaning/",
+    "/service-areas/folsom-ca/post-construction-cleaning/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/davis-ca/",
+    "/service-areas/elk-grove-ca/"
+  ],
+  "/service-areas/citrus-heights-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/sewage-cleanup/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/citrus-heights-ca/water-cleanup/",
+    "/service-areas/citrus-heights-ca/biohazard-cleanup/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
+    "/service-areas/citrus-heights-ca/contents-restoration/",
+    "/service-areas/citrus-heights-ca/crawl-space-encapsulation/",
+    "/service-areas/citrus-heights-ca/carpet-cleaning/",
+    "/service-areas/citrus-heights-ca/post-construction-cleaning/",
+    "/service-areas/davis-ca/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/folsom-ca/"
+  ],
+  "/service-areas/rancho-cordova-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/water-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/sewage-cleanup/",
+    "/service-areas/rancho-cordova-ca/storm-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/water-cleanup/",
+    "/service-areas/rancho-cordova-ca/biohazard-cleanup/",
+    "/service-areas/rancho-cordova-ca/general-contracting/",
+    "/service-areas/rancho-cordova-ca/emergency-board-up-tarping/",
+    "/service-areas/rancho-cordova-ca/contents-restoration/",
+    "/service-areas/rancho-cordova-ca/crawl-space-encapsulation/",
+    "/service-areas/rancho-cordova-ca/carpet-cleaning/",
+    "/service-areas/rancho-cordova-ca/post-construction-cleaning/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/davis-ca/",
+    "/service-areas/elk-grove-ca/"
+  ],
+  "/service-areas/west-sacramento-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/water-damage-restoration/",
+    "/service-areas/west-sacramento-ca/sewage-cleanup/",
+    "/service-areas/west-sacramento-ca/storm-damage-restoration/",
+    "/service-areas/west-sacramento-ca/water-cleanup/",
+    "/service-areas/west-sacramento-ca/biohazard-cleanup/",
+    "/service-areas/west-sacramento-ca/general-contracting/",
+    "/service-areas/west-sacramento-ca/emergency-board-up-tarping/",
+    "/service-areas/west-sacramento-ca/contents-restoration/",
+    "/service-areas/west-sacramento-ca/crawl-space-encapsulation/",
+    "/service-areas/west-sacramento-ca/carpet-cleaning/",
+    "/service-areas/west-sacramento-ca/post-construction-cleaning/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/davis-ca/",
+    "/service-areas/elk-grove-ca/"
+  ],
+  "/service-areas/rocklin-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/water-damage-restoration/",
+    "/service-areas/rocklin-ca/sewage-cleanup/",
+    "/service-areas/rocklin-ca/storm-damage-restoration/",
+    "/service-areas/rocklin-ca/water-cleanup/",
+    "/service-areas/rocklin-ca/biohazard-cleanup/",
+    "/service-areas/rocklin-ca/general-contracting/",
+    "/service-areas/rocklin-ca/emergency-board-up-tarping/",
+    "/service-areas/rocklin-ca/contents-restoration/",
+    "/service-areas/rocklin-ca/crawl-space-encapsulation/",
+    "/service-areas/rocklin-ca/carpet-cleaning/",
+    "/service-areas/rocklin-ca/post-construction-cleaning/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/davis-ca/",
+    "/service-areas/elk-grove-ca/"
+  ],
+  "/service-areas/davis-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/sewage-cleanup/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
+    "/service-areas/davis-ca/water-cleanup/",
+    "/service-areas/davis-ca/biohazard-cleanup/",
+    "/service-areas/davis-ca/general-contracting/",
+    "/service-areas/davis-ca/emergency-board-up-tarping/",
+    "/service-areas/davis-ca/contents-restoration/",
+    "/service-areas/davis-ca/crawl-space-encapsulation/",
+    "/service-areas/davis-ca/carpet-cleaning/",
+    "/service-areas/davis-ca/post-construction-cleaning/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/folsom-ca/"
+  ],
+  "/service-areas/elk-grove-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/davis-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/biohazard-cleanup/",
+    "/service-areas/davis-ca/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/sewage-cleanup/",
+    "/service-areas/davis-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
+    "/service-areas/davis-ca/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/contents-restoration/",
+    "/service-areas/davis-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/crawl-space-encapsulation/",
+    "/service-areas/davis-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/carpet-cleaning/",
+    "/service-areas/davis-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/post-construction-cleaning/": [
+    "/services/post-construction-cleaning/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/post-construction-cleaning/",
+    "/service-areas/davis-ca/post-construction-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-cleanup/",
+    "/service-areas/davis-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/davis-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/biohazard-cleanup/",
+    "/service-areas/davis-ca/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/sewage-cleanup/",
+    "/service-areas/davis-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
+    "/service-areas/davis-ca/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/contents-restoration/",
+    "/service-areas/davis-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/crawl-space-encapsulation/",
+    "/service-areas/davis-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/carpet-cleaning/",
+    "/service-areas/davis-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/post-construction-cleaning/": [
+    "/services/post-construction-cleaning/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/post-construction-cleaning/",
+    "/service-areas/davis-ca/post-construction-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-cleanup/",
+    "/service-areas/davis-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/davis-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/biohazard-cleanup/",
+    "/service-areas/davis-ca/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/sewage-cleanup/",
+    "/service-areas/davis-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
+    "/service-areas/davis-ca/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/contents-restoration/",
+    "/service-areas/davis-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/crawl-space-encapsulation/",
+    "/service-areas/davis-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/carpet-cleaning/",
+    "/service-areas/davis-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/post-construction-cleaning/": [
+    "/services/post-construction-cleaning/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/post-construction-cleaning/",
+    "/service-areas/davis-ca/post-construction-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-cleanup/",
+    "/service-areas/davis-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/service-areas/elk-grove-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
+    "/service-areas/elk-grove-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/general-contracting/",
+    "/service-areas/elk-grove-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/biohazard-cleanup/",
+    "/service-areas/elk-grove-ca/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/sewage-cleanup/",
+    "/service-areas/elk-grove-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/emergency-board-up-tarping/",
+    "/service-areas/elk-grove-ca/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/contents-restoration/",
+    "/service-areas/elk-grove-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/crawl-space-encapsulation/",
+    "/service-areas/elk-grove-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/carpet-cleaning/",
+    "/service-areas/elk-grove-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/post-construction-cleaning/": [
+    "/services/post-construction-cleaning/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/post-construction-cleaning/",
+    "/service-areas/elk-grove-ca/post-construction-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/water-cleanup/",
+    "/service-areas/elk-grove-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/davis-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/biohazard-cleanup/",
+    "/service-areas/davis-ca/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/sewage-cleanup/",
+    "/service-areas/davis-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
+    "/service-areas/davis-ca/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/contents-restoration/",
+    "/service-areas/davis-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/crawl-space-encapsulation/",
+    "/service-areas/davis-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/carpet-cleaning/",
+    "/service-areas/davis-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/post-construction-cleaning/": [
+    "/services/post-construction-cleaning/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/post-construction-cleaning/",
+    "/service-areas/davis-ca/post-construction-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-cleanup/",
+    "/service-areas/davis-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/davis-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/biohazard-cleanup/",
+    "/service-areas/davis-ca/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/sewage-cleanup/",
+    "/service-areas/davis-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
+    "/service-areas/davis-ca/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/contents-restoration/",
+    "/service-areas/davis-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/crawl-space-encapsulation/",
+    "/service-areas/davis-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/carpet-cleaning/",
+    "/service-areas/davis-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/post-construction-cleaning/": [
+    "/services/post-construction-cleaning/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/post-construction-cleaning/",
+    "/service-areas/davis-ca/post-construction-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-cleanup/",
+    "/service-areas/davis-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/davis-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/biohazard-cleanup/",
+    "/service-areas/davis-ca/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/sewage-cleanup/",
+    "/service-areas/davis-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
+    "/service-areas/davis-ca/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/contents-restoration/",
+    "/service-areas/davis-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/crawl-space-encapsulation/",
+    "/service-areas/davis-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/carpet-cleaning/",
+    "/service-areas/davis-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/post-construction-cleaning/": [
+    "/services/post-construction-cleaning/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/post-construction-cleaning/",
+    "/service-areas/davis-ca/post-construction-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-cleanup/",
+    "/service-areas/davis-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/elk-grove-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/elk-grove-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/elk-grove-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/biohazard-cleanup/",
+    "/service-areas/elk-grove-ca/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/sewage-cleanup/",
+    "/service-areas/elk-grove-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
+    "/service-areas/elk-grove-ca/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/contents-restoration/",
+    "/service-areas/elk-grove-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/crawl-space-encapsulation/",
+    "/service-areas/elk-grove-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/carpet-cleaning/",
+    "/service-areas/elk-grove-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/post-construction-cleaning/": [
+    "/services/post-construction-cleaning/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/post-construction-cleaning/",
+    "/service-areas/elk-grove-ca/post-construction-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/fire-damage-restoration/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/water-cleanup/",
+    "/service-areas/elk-grove-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/blog/what-to-do-first-24-hours-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/burst-pipe-emergency-checklist/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/does-homeowners-insurance-cover-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/signs-of-hidden-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/how-to-test-for-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/fire-damage-restoration-process/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/choosing-a-restoration-company/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/black-mold-vs-regular-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}

@@ -1,0 +1,99 @@
+{
+  "brand": {
+    "display_name": "TDI\u00ae USA",
+    "lat": 38.5810606,
+    "lng": -121.493895,
+    "phone": "+19169666000",
+    "email": "rob@tdiusa.com",
+    "street_address": "701 Del Paso Road",
+    "city": "Sacramento",
+    "state": "CA",
+    "postal_code": "95834",
+    "theme": "light",
+    "certifications": [
+      "IICRC CERTIFIED FIRM",
+      "IICRC WRT (WATER)",
+      "IICRC ASD (STRUCTURAL DRYING)",
+      "IICRC AMRT (MOLD)",
+      "IICRC FSRT (FIRE & SMOKE)",
+      "OSHA TRAINED"
+    ],
+    "license_numbers": [
+      "1041773"
+    ],
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "founded_year": "2017",
+    "trust_badges": [
+      "IICRC Certified Firm",
+      "Licensed & Insured",
+      "24/7 Emergency Service",
+      "Locally Owned & Operated"
+    ]
+  },
+  "services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "storm-damage-restoration",
+    "general-contracting",
+    "biohazard-cleanup",
+    "sewage-cleanup",
+    "emergency-board-up-tarping",
+    "contents-restoration",
+    "crawl-space-encapsulation",
+    "carpet-cleaning",
+    "post-construction-cleaning",
+    "water-cleanup"
+  ],
+  "service_areas": [
+    {
+      "city": "Sacramento",
+      "state": "CA",
+      "slug": "sacramento-ca",
+      "primary": true
+    },
+    {
+      "city": "Elk Grove",
+      "state": "CA",
+      "slug": "elk-grove-ca"
+    },
+    {
+      "city": "Roseville",
+      "state": "CA",
+      "slug": "roseville-ca"
+    },
+    {
+      "city": "Folsom",
+      "state": "CA",
+      "slug": "folsom-ca"
+    },
+    {
+      "city": "Citrus Heights",
+      "state": "CA",
+      "slug": "citrus-heights-ca"
+    },
+    {
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "slug": "rancho-cordova-ca"
+    },
+    {
+      "city": "West Sacramento",
+      "state": "CA",
+      "slug": "west-sacramento-ca"
+    },
+    {
+      "city": "Rocklin",
+      "state": "CA",
+      "slug": "rocklin-ca"
+    },
+    {
+      "city": "Davis",
+      "state": "CA",
+      "slug": "davis-ca"
+    }
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
+}
