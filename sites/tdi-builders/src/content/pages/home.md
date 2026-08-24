@@ -2,7 +2,7 @@
 archetype: "home"
 title: "TDI Builders, Inc. | General Contractor in Sacramento, CA"
 h1: "Trusted General Contractor in Sacramento"
-meta_description: "TDI Builders, Inc. is a licensed general contractor serving Sacramento and surrounding areas — remodeling, new construction, roofing, and exterior work. Free estimates. Call (877) 688-0866."
+meta_description: "TDI Builders, Inc. is a licensed general contractor serving Sacramento and surrounding areas — commercial construction, tenant improvements, remodeling, new construction, and insurance rebuilds. Free estimates. Call (877) 688-0866."
 primary_keyword: "general contractor sacramento"
 secondary_keywords: ["general contractor near me", "home remodeling contractor", "licensed construction company"]
 search_intent: "local_commercial"
