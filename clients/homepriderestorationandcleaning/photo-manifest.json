@@ -655,6 +655,32 @@
       "triaged_at": "2026-08-05T06:00:37Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipM7Wr9UwJRfXL2-r-TZ5a1A-WWRgS5sCNnMpu_3": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM7Wr9UwJRfXL2-r-TZ5a1A-WWRgS5sCNnMpu_3.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipM7Wr9UwJRfXL2-r-TZ5a1A-WWRgS5sCNnMpu_3.jpg",
+      "width": 1438,
+      "height": 1080,
+      "bytes": 864380,
+      "sha1": "ab975d909f75c71d",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Multiple air movers and dehumidifier deployed in basement drying",
+      "quality": 72,
+      "slots": {
+        "hero": 45,
+        "team": 0,
+        "services": 78
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clear equipment deployment shot; good services card, modest hero potential.",
+      "triaged_at": "2026-08-24T14:08:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM8g5CaBVFdOnDnb29QXoERrrvGbq3-7Ccx-Mb3": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM8g5CaBVFdOnDnb29QXoERrrvGbq3-7Ccx-Mb3.jpg",
@@ -1671,6 +1697,31 @@
       "sha1": "bc345753a7627149",
       "exif": {},
       "duplicate_of": "gbp:gbp-AF1QipMZeK1VEqDqb02_9nxC7P57ocncVavaZyxgIP-K"
+    },
+    "gbp:gbp-AF1QipMyCmi-9Iisc7nzBHJCKcGxVWttwX6g_Oq4pgn5": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMyCmi-9Iisc7nzBHJCKcGxVWttwX6g_Oq4pgn5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMyCmi-9Iisc7nzBHJCKcGxVWttwX6g_Oq4pgn5.jpg",
+      "width": 608,
+      "height": 1081,
+      "bytes": 1024555,
+      "sha1": "fe878f92f1defdb6",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Floral patterned sofa cushion on carpet close-up",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "upholstery-cleaning"
+      ],
+      "flags": [],
+      "reason": "Tight portrait crop, no action shown; limited context for services card.",
+      "triaged_at": "2026-08-24T14:08:42Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMywiuK8j2Xa35o3a5nLcuBhhkBDy8u2bbDZFwX": {
       "source": "gbp",
@@ -4854,5 +4905,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-22T14:07:53Z"
+  "triaged_at": "2026-08-24T14:08:42Z"
 }
