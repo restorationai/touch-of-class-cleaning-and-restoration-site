@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://narestco.com",
   phone: "(206) 883-0333",
   phoneRaw: "+12068830333",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(844) 642-0298",
+  trackingPhoneRaw: "+18446420298",
   // Google Ads click-to-call conversion (LP layouts read these; no-op if empty)
   gadsId: "AW-16824131335",
   gadsCallConversionLabel: "AW-16824131335/lNXeCMeuy74cEIe-r9Y-",
