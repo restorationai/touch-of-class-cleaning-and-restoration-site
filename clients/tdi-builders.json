@@ -7,7 +7,7 @@
   "contact": "",
   "status": "onboarding",
   "plan_status": "planned",
-  "updated_at": "2026-08-24T00:16:39.701856+00:00",
+  "updated_at": "2026-08-24T00:56:30.758837+00:00",
   "notes": "Signed 2026-08-23. Migrating from buildwithtdi.com (16-page Scorpion site). Client-supplied 47-page architecture SOP in clients/tdi-builders/docs/. CSLB license number PENDING \u2014 cutover blocked until provided. Lead routing goes to THEIR HubSpot (portal 48033708) + CallRail, not GHL. Contact email for site footer pending from Rob Carpenter.",
   "plan": {
     "template": "restoration",
@@ -24,9 +24,9 @@
     "url_count": 286,
     "pages_status": "exists",
     "last_rendered_at": "2026-08-24T00:51:49.987262+00:00",
-    "last_pushed_staging_at": "2026-08-23T10:52:37.414671+00:00"
+    "last_pushed_staging_at": "2026-08-24T00:56:30.758790+00:00"
   },
-  "build_status": "content_rendered",
+  "build_status": "pushed_staging",
   "cutover_prep": {
     "domain": "tdiusa.com",
     "harvested_at": "2026-08-23T14:07:42+00:00",

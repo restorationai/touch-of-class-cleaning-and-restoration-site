@@ -2,7 +2,7 @@
 archetype: "home"
 title: "TDI Builders, Inc. | Restoration & Construction Services in Sacramento, CA"
 h1: "24/7 Restoration & Construction Services in Sacramento"
-meta_description: "TDI Builders, Inc. provides 24/7 water, fire, mold, and storm damage restoration across Sacramento and surrounding areas. Licensed, insured, IICRC-certified. Call (877) 688-0866."
+meta_description: "TDI Builders, Inc. handles 24/7 damage restoration and full-service construction in Sacramento: water, fire, mold, and storm recovery plus remodels, additions, and commercial builds. Licensed, insured, IICRC-certified. Call (877) 688-0866."
 primary_keyword: "restoration services sacramento"
 secondary_keywords: ["restoration company near me", "24/7 damage restoration", "emergency restoration"]
 search_intent: "local_commercial"
