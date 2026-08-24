@@ -52,7 +52,12 @@
     "emergency-board-up-tarping",
     "contents-restoration",
     "post-construction-cleaning",
-    "air-duct-cleaning"
+    "air-duct-cleaning",
+    "reconstruction",
+    "home-remodeling",
+    "room-addition",
+    "new-construction",
+    "large-loss-response"
   ],
   "service_areas": [
     {"city": "Sacramento", "state": "CA", "slug": "sacramento-ca", "primary": true},

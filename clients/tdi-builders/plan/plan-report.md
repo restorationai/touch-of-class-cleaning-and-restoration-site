@@ -1,21 +1,21 @@
 # Site Plan Report — TDI Builders, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-23T09:45:50.342217+00:00
+- Generated: 2026-08-24T00:16:20.159894+00:00
 - Domain: `tdiusa.com`
-- Services selected: 12 of 55 catalog entries
+- Services selected: 17 of 55 catalog entries
 - Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **211**
-- Total internal links: 1703 (avg 8.1 per page)
+- Total URLs: **286**
+- Total internal links: 2345 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 168 |
+| `service-area-service` | 238 |
+| `service-landing` | 17 |
 | `service-area` | 14 |
-| `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -39,6 +39,11 @@
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `home-remodeling` — Home Remodeling (construction, priority 10)
+- `room-addition` — Room Additions and Home Additions (construction, priority 8)
+- `new-construction` — New Home Construction (construction, priority 9)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 
 ## Service areas
 
@@ -63,15 +68,15 @@
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration sacramento |
+| `/services/home-remodeling/` | `service-landing` | 9.0 | home remodeling sacramento |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation sacramento |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration sacramento |
+| `/services/new-construction/` | `service-landing` | 8.1 | new home construction sacramento |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services sacramento |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization sacramento |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration sacramento |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup sacramento |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup sacramento |
-| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting sacramento |
-| `/service-areas/carmichael-ca/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration carmichael |
-| `/service-areas/carmichael-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation carmichael |
 
 ## Validation
 

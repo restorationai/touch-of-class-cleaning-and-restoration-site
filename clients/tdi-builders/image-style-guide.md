@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Water Cleanup, Fire Damage Restoration, Storm Damage Restoration, Mold Remediation, Sewage Cleanup and Sanitization, Biohazard Cleanup, Renovations, Remodels and General Contracting, Emergency Board-Up and Tarping, Contents Restoration and Storage, Post-Construction and Specialty Cleaning, Air Duct Cleaning)
+- [ ] (continue for each of Water Damage Restoration, Water Cleanup, Fire Damage Restoration, Storm Damage Restoration, Mold Remediation, Sewage Cleanup and Sanitization, Biohazard Cleanup, Renovations, Remodels and General Contracting, Emergency Board-Up and Tarping, Contents Restoration and Storage, Post-Construction and Specialty Cleaning, Air Duct Cleaning, Reconstruction Services, Home Remodeling, Room Additions and Home Additions, New Home Construction, Large Loss and Catastrophic Response)
 
 ### Service area pages (one image per city served)
 - [ ] Sacramento hero — exterior shot, regional housing stock, evocative of the city

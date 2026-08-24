@@ -5,13 +5,18 @@
     "/contact/",
     "/about/",
     "/services/fire-damage-restoration/",
+    "/services/home-remodeling/",
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
+    "/services/new-construction/",
+    "/services/reconstruction/",
     "/services/sewage-cleanup/",
     "/services/storm-damage-restoration/",
     "/services/water-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/general-contracting/",
+    "/services/large-loss-response/",
+    "/services/room-addition/",
     "/services/emergency-board-up-tarping/",
     "/services/air-duct-cleaning/",
     "/services/contents-restoration/",
@@ -34,13 +39,18 @@
   "/services/": [
     "/",
     "/services/fire-damage-restoration/",
+    "/services/home-remodeling/",
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
+    "/services/new-construction/",
+    "/services/reconstruction/",
     "/services/sewage-cleanup/",
     "/services/storm-damage-restoration/",
     "/services/water-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/general-contracting/",
+    "/services/large-loss-response/",
+    "/services/room-addition/",
     "/services/emergency-board-up-tarping/",
     "/services/air-duct-cleaning/",
     "/services/contents-restoration/",
@@ -218,7 +228,8 @@
     "/service-areas/loomis-ca/general-contracting/",
     "/service-areas/modesto-ca/general-contracting/",
     "/service-areas/rancho-cordova-ca/general-contracting/",
-    "/service-areas/rocklin-ca/general-contracting/"
+    "/service-areas/rocklin-ca/general-contracting/",
+    "/services/home-remodeling/"
   ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
@@ -284,17 +295,103 @@
     "/service-areas/rancho-cordova-ca/air-duct-cleaning/",
     "/service-areas/rocklin-ca/air-duct-cleaning/"
   ],
+  "/services/reconstruction/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/service-areas/el-dorado-hills-ca/reconstruction/",
+    "/service-areas/elk-grove-ca/reconstruction/",
+    "/service-areas/fair-oaks-ca/reconstruction/",
+    "/service-areas/folsom-ca/reconstruction/",
+    "/service-areas/granite-bay-ca/reconstruction/",
+    "/service-areas/lincoln-ca/reconstruction/",
+    "/service-areas/loomis-ca/reconstruction/",
+    "/service-areas/modesto-ca/reconstruction/",
+    "/service-areas/rancho-cordova-ca/reconstruction/",
+    "/service-areas/rocklin-ca/reconstruction/"
+  ],
+  "/services/home-remodeling/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
+    "/service-areas/folsom-ca/home-remodeling/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
+    "/service-areas/lincoln-ca/home-remodeling/",
+    "/service-areas/loomis-ca/home-remodeling/",
+    "/service-areas/modesto-ca/home-remodeling/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
+    "/service-areas/rocklin-ca/home-remodeling/",
+    "/services/general-contracting/"
+  ],
+  "/services/room-addition/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/el-dorado-hills-ca/room-addition/",
+    "/service-areas/elk-grove-ca/room-addition/",
+    "/service-areas/fair-oaks-ca/room-addition/",
+    "/service-areas/folsom-ca/room-addition/",
+    "/service-areas/granite-bay-ca/room-addition/",
+    "/service-areas/lincoln-ca/room-addition/",
+    "/service-areas/loomis-ca/room-addition/",
+    "/service-areas/modesto-ca/room-addition/",
+    "/service-areas/rancho-cordova-ca/room-addition/",
+    "/service-areas/rocklin-ca/room-addition/"
+  ],
+  "/services/new-construction/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/el-dorado-hills-ca/new-construction/",
+    "/service-areas/elk-grove-ca/new-construction/",
+    "/service-areas/fair-oaks-ca/new-construction/",
+    "/service-areas/folsom-ca/new-construction/",
+    "/service-areas/granite-bay-ca/new-construction/",
+    "/service-areas/lincoln-ca/new-construction/",
+    "/service-areas/loomis-ca/new-construction/",
+    "/service-areas/modesto-ca/new-construction/",
+    "/service-areas/rancho-cordova-ca/new-construction/",
+    "/service-areas/rocklin-ca/new-construction/"
+  ],
+  "/services/large-loss-response/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
+    "/service-areas/el-dorado-hills-ca/large-loss-response/",
+    "/service-areas/elk-grove-ca/large-loss-response/",
+    "/service-areas/fair-oaks-ca/large-loss-response/",
+    "/service-areas/folsom-ca/large-loss-response/",
+    "/service-areas/granite-bay-ca/large-loss-response/",
+    "/service-areas/lincoln-ca/large-loss-response/",
+    "/service-areas/loomis-ca/large-loss-response/",
+    "/service-areas/modesto-ca/large-loss-response/",
+    "/service-areas/rancho-cordova-ca/large-loss-response/",
+    "/service-areas/rocklin-ca/large-loss-response/"
+  ],
   "/service-areas/roseville-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/mold-remediation/",
     "/service-areas/roseville-ca/water-damage-restoration/",
+    "/service-areas/roseville-ca/new-construction/",
+    "/service-areas/roseville-ca/reconstruction/",
     "/service-areas/roseville-ca/sewage-cleanup/",
     "/service-areas/roseville-ca/storm-damage-restoration/",
     "/service-areas/roseville-ca/water-cleanup/",
     "/service-areas/roseville-ca/biohazard-cleanup/",
     "/service-areas/roseville-ca/general-contracting/",
+    "/service-areas/roseville-ca/large-loss-response/",
+    "/service-areas/roseville-ca/room-addition/",
     "/service-areas/roseville-ca/emergency-board-up-tarping/",
     "/service-areas/roseville-ca/air-duct-cleaning/",
     "/service-areas/roseville-ca/contents-restoration/",
@@ -307,13 +404,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/mold-remediation/",
     "/service-areas/elk-grove-ca/water-damage-restoration/",
+    "/service-areas/elk-grove-ca/new-construction/",
+    "/service-areas/elk-grove-ca/reconstruction/",
     "/service-areas/elk-grove-ca/sewage-cleanup/",
     "/service-areas/elk-grove-ca/storm-damage-restoration/",
     "/service-areas/elk-grove-ca/water-cleanup/",
     "/service-areas/elk-grove-ca/biohazard-cleanup/",
     "/service-areas/elk-grove-ca/general-contracting/",
+    "/service-areas/elk-grove-ca/large-loss-response/",
+    "/service-areas/elk-grove-ca/room-addition/",
     "/service-areas/elk-grove-ca/emergency-board-up-tarping/",
     "/service-areas/elk-grove-ca/air-duct-cleaning/",
     "/service-areas/elk-grove-ca/contents-restoration/",
@@ -326,13 +428,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/mold-remediation/",
     "/service-areas/folsom-ca/water-damage-restoration/",
+    "/service-areas/folsom-ca/new-construction/",
+    "/service-areas/folsom-ca/reconstruction/",
     "/service-areas/folsom-ca/sewage-cleanup/",
     "/service-areas/folsom-ca/storm-damage-restoration/",
     "/service-areas/folsom-ca/water-cleanup/",
     "/service-areas/folsom-ca/biohazard-cleanup/",
     "/service-areas/folsom-ca/general-contracting/",
+    "/service-areas/folsom-ca/large-loss-response/",
+    "/service-areas/folsom-ca/room-addition/",
     "/service-areas/folsom-ca/emergency-board-up-tarping/",
     "/service-areas/folsom-ca/air-duct-cleaning/",
     "/service-areas/folsom-ca/contents-restoration/",
@@ -345,13 +452,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/mold-remediation/",
     "/service-areas/modesto-ca/water-damage-restoration/",
+    "/service-areas/modesto-ca/new-construction/",
+    "/service-areas/modesto-ca/reconstruction/",
     "/service-areas/modesto-ca/sewage-cleanup/",
     "/service-areas/modesto-ca/storm-damage-restoration/",
     "/service-areas/modesto-ca/water-cleanup/",
     "/service-areas/modesto-ca/biohazard-cleanup/",
     "/service-areas/modesto-ca/general-contracting/",
+    "/service-areas/modesto-ca/large-loss-response/",
+    "/service-areas/modesto-ca/room-addition/",
     "/service-areas/modesto-ca/emergency-board-up-tarping/",
     "/service-areas/modesto-ca/air-duct-cleaning/",
     "/service-areas/modesto-ca/contents-restoration/",
@@ -364,13 +476,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/mold-remediation/",
     "/service-areas/rocklin-ca/water-damage-restoration/",
+    "/service-areas/rocklin-ca/new-construction/",
+    "/service-areas/rocklin-ca/reconstruction/",
     "/service-areas/rocklin-ca/sewage-cleanup/",
     "/service-areas/rocklin-ca/storm-damage-restoration/",
     "/service-areas/rocklin-ca/water-cleanup/",
     "/service-areas/rocklin-ca/biohazard-cleanup/",
     "/service-areas/rocklin-ca/general-contracting/",
+    "/service-areas/rocklin-ca/large-loss-response/",
+    "/service-areas/rocklin-ca/room-addition/",
     "/service-areas/rocklin-ca/emergency-board-up-tarping/",
     "/service-areas/rocklin-ca/air-duct-cleaning/",
     "/service-areas/rocklin-ca/contents-restoration/",
@@ -383,13 +500,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/room-addition/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
@@ -402,13 +524,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/mold-remediation/",
     "/service-areas/rancho-cordova-ca/water-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/new-construction/",
+    "/service-areas/rancho-cordova-ca/reconstruction/",
     "/service-areas/rancho-cordova-ca/sewage-cleanup/",
     "/service-areas/rancho-cordova-ca/storm-damage-restoration/",
     "/service-areas/rancho-cordova-ca/water-cleanup/",
     "/service-areas/rancho-cordova-ca/biohazard-cleanup/",
     "/service-areas/rancho-cordova-ca/general-contracting/",
+    "/service-areas/rancho-cordova-ca/large-loss-response/",
+    "/service-areas/rancho-cordova-ca/room-addition/",
     "/service-areas/rancho-cordova-ca/emergency-board-up-tarping/",
     "/service-areas/rancho-cordova-ca/air-duct-cleaning/",
     "/service-areas/rancho-cordova-ca/contents-restoration/",
@@ -421,13 +548,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/mold-remediation/",
     "/service-areas/fair-oaks-ca/water-damage-restoration/",
+    "/service-areas/fair-oaks-ca/new-construction/",
+    "/service-areas/fair-oaks-ca/reconstruction/",
     "/service-areas/fair-oaks-ca/sewage-cleanup/",
     "/service-areas/fair-oaks-ca/storm-damage-restoration/",
     "/service-areas/fair-oaks-ca/water-cleanup/",
     "/service-areas/fair-oaks-ca/biohazard-cleanup/",
     "/service-areas/fair-oaks-ca/general-contracting/",
+    "/service-areas/fair-oaks-ca/large-loss-response/",
+    "/service-areas/fair-oaks-ca/room-addition/",
     "/service-areas/fair-oaks-ca/emergency-board-up-tarping/",
     "/service-areas/fair-oaks-ca/air-duct-cleaning/",
     "/service-areas/fair-oaks-ca/contents-restoration/",
@@ -440,13 +572,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/carmichael-ca/reconstruction/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/carmichael-ca/general-contracting/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/carmichael-ca/room-addition/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/carmichael-ca/contents-restoration/",
@@ -459,13 +596,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/mold-remediation/",
     "/service-areas/west-sacramento-ca/water-damage-restoration/",
+    "/service-areas/west-sacramento-ca/new-construction/",
+    "/service-areas/west-sacramento-ca/reconstruction/",
     "/service-areas/west-sacramento-ca/sewage-cleanup/",
     "/service-areas/west-sacramento-ca/storm-damage-restoration/",
     "/service-areas/west-sacramento-ca/water-cleanup/",
     "/service-areas/west-sacramento-ca/biohazard-cleanup/",
     "/service-areas/west-sacramento-ca/general-contracting/",
+    "/service-areas/west-sacramento-ca/large-loss-response/",
+    "/service-areas/west-sacramento-ca/room-addition/",
     "/service-areas/west-sacramento-ca/emergency-board-up-tarping/",
     "/service-areas/west-sacramento-ca/air-duct-cleaning/",
     "/service-areas/west-sacramento-ca/contents-restoration/",
@@ -478,13 +620,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/mold-remediation/",
     "/service-areas/lincoln-ca/water-damage-restoration/",
+    "/service-areas/lincoln-ca/new-construction/",
+    "/service-areas/lincoln-ca/reconstruction/",
     "/service-areas/lincoln-ca/sewage-cleanup/",
     "/service-areas/lincoln-ca/storm-damage-restoration/",
     "/service-areas/lincoln-ca/water-cleanup/",
     "/service-areas/lincoln-ca/biohazard-cleanup/",
     "/service-areas/lincoln-ca/general-contracting/",
+    "/service-areas/lincoln-ca/large-loss-response/",
+    "/service-areas/lincoln-ca/room-addition/",
     "/service-areas/lincoln-ca/emergency-board-up-tarping/",
     "/service-areas/lincoln-ca/air-duct-cleaning/",
     "/service-areas/lincoln-ca/contents-restoration/",
@@ -497,13 +644,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/mold-remediation/",
     "/service-areas/granite-bay-ca/water-damage-restoration/",
+    "/service-areas/granite-bay-ca/new-construction/",
+    "/service-areas/granite-bay-ca/reconstruction/",
     "/service-areas/granite-bay-ca/sewage-cleanup/",
     "/service-areas/granite-bay-ca/storm-damage-restoration/",
     "/service-areas/granite-bay-ca/water-cleanup/",
     "/service-areas/granite-bay-ca/biohazard-cleanup/",
     "/service-areas/granite-bay-ca/general-contracting/",
+    "/service-areas/granite-bay-ca/large-loss-response/",
+    "/service-areas/granite-bay-ca/room-addition/",
     "/service-areas/granite-bay-ca/emergency-board-up-tarping/",
     "/service-areas/granite-bay-ca/air-duct-cleaning/",
     "/service-areas/granite-bay-ca/contents-restoration/",
@@ -516,13 +668,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/mold-remediation/",
     "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
+    "/service-areas/el-dorado-hills-ca/new-construction/",
+    "/service-areas/el-dorado-hills-ca/reconstruction/",
     "/service-areas/el-dorado-hills-ca/sewage-cleanup/",
     "/service-areas/el-dorado-hills-ca/storm-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/water-cleanup/",
     "/service-areas/el-dorado-hills-ca/biohazard-cleanup/",
     "/service-areas/el-dorado-hills-ca/general-contracting/",
+    "/service-areas/el-dorado-hills-ca/large-loss-response/",
+    "/service-areas/el-dorado-hills-ca/room-addition/",
     "/service-areas/el-dorado-hills-ca/emergency-board-up-tarping/",
     "/service-areas/el-dorado-hills-ca/air-duct-cleaning/",
     "/service-areas/el-dorado-hills-ca/contents-restoration/",
@@ -535,13 +692,18 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/mold-remediation/",
     "/service-areas/loomis-ca/water-damage-restoration/",
+    "/service-areas/loomis-ca/new-construction/",
+    "/service-areas/loomis-ca/reconstruction/",
     "/service-areas/loomis-ca/sewage-cleanup/",
     "/service-areas/loomis-ca/storm-damage-restoration/",
     "/service-areas/loomis-ca/water-cleanup/",
     "/service-areas/loomis-ca/biohazard-cleanup/",
     "/service-areas/loomis-ca/general-contracting/",
+    "/service-areas/loomis-ca/large-loss-response/",
+    "/service-areas/loomis-ca/room-addition/",
     "/service-areas/loomis-ca/emergency-board-up-tarping/",
     "/service-areas/loomis-ca/air-duct-cleaning/",
     "/service-areas/loomis-ca/contents-restoration/",
@@ -554,7 +716,7 @@
     "/services/water-damage-restoration/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -563,7 +725,7 @@
     "/services/water-cleanup/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -571,8 +733,8 @@
   "/service-areas/roseville-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/mold-remediation/",
-    "/service-areas/roseville-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -581,7 +743,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -590,7 +752,7 @@
     "/services/mold-remediation/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/water-damage-restoration/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -599,7 +761,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -608,7 +770,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -617,7 +779,7 @@
     "/services/general-contracting/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -626,7 +788,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -635,7 +797,7 @@
     "/services/contents-restoration/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -644,7 +806,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -653,16 +815,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/fire-damage-restoration/",
-    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/roseville-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/roseville-ca/",
+    "/service-areas/roseville-ca/fire-damage-restoration/",
+    "/service-areas/roseville-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -671,7 +878,7 @@
     "/services/water-cleanup/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -679,8 +886,8 @@
   "/service-areas/elk-grove-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/mold-remediation/",
-    "/service-areas/elk-grove-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -689,7 +896,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -698,7 +905,7 @@
     "/services/mold-remediation/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/water-damage-restoration/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -707,7 +914,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -716,7 +923,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -725,7 +932,7 @@
     "/services/general-contracting/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -734,7 +941,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -743,7 +950,7 @@
     "/services/contents-restoration/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -752,7 +959,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -761,16 +968,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/fire-damage-restoration/",
-    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/elk-grove-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/elk-grove-ca/",
+    "/service-areas/elk-grove-ca/fire-damage-restoration/",
+    "/service-areas/elk-grove-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -779,7 +1031,7 @@
     "/services/water-cleanup/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -787,8 +1039,8 @@
   "/service-areas/folsom-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/mold-remediation/",
-    "/service-areas/folsom-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -797,7 +1049,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -806,7 +1058,7 @@
     "/services/mold-remediation/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/water-damage-restoration/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -815,7 +1067,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -824,7 +1076,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -833,7 +1085,7 @@
     "/services/general-contracting/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -842,7 +1094,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -851,7 +1103,7 @@
     "/services/contents-restoration/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -860,7 +1112,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -869,16 +1121,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/fire-damage-restoration/",
-    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/folsom-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/folsom-ca/",
+    "/service-areas/folsom-ca/fire-damage-restoration/",
+    "/service-areas/folsom-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -887,7 +1184,7 @@
     "/services/water-cleanup/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -895,8 +1192,8 @@
   "/service-areas/modesto-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/modesto-ca/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/mold-remediation/",
-    "/service-areas/modesto-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -905,7 +1202,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -914,7 +1211,7 @@
     "/services/mold-remediation/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/water-damage-restoration/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -923,7 +1220,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -932,7 +1229,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -941,7 +1238,7 @@
     "/services/general-contracting/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -950,7 +1247,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -959,7 +1256,7 @@
     "/services/contents-restoration/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -968,7 +1265,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -977,16 +1274,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/fire-damage-restoration/",
-    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/modesto-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/modesto-ca/",
+    "/service-areas/modesto-ca/fire-damage-restoration/",
+    "/service-areas/modesto-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/modesto-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/modesto-ca/",
+    "/service-areas/modesto-ca/fire-damage-restoration/",
+    "/service-areas/modesto-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/modesto-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/modesto-ca/",
+    "/service-areas/modesto-ca/fire-damage-restoration/",
+    "/service-areas/modesto-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/modesto-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/modesto-ca/",
+    "/service-areas/modesto-ca/fire-damage-restoration/",
+    "/service-areas/modesto-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/modesto-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/modesto-ca/",
+    "/service-areas/modesto-ca/fire-damage-restoration/",
+    "/service-areas/modesto-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -995,7 +1337,7 @@
     "/services/water-cleanup/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -1003,8 +1345,8 @@
   "/service-areas/rocklin-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/mold-remediation/",
-    "/service-areas/rocklin-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -1013,7 +1355,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -1022,7 +1364,7 @@
     "/services/mold-remediation/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/water-damage-restoration/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -1031,7 +1373,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -1040,7 +1382,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -1049,7 +1391,7 @@
     "/services/general-contracting/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -1058,7 +1400,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -1067,7 +1409,7 @@
     "/services/contents-restoration/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -1076,7 +1418,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -1085,16 +1427,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/fire-damage-restoration/",
-    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/rocklin-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/rocklin-ca/",
+    "/service-areas/rocklin-ca/fire-damage-restoration/",
+    "/service-areas/rocklin-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
     "/contact/"
@@ -1103,7 +1490,7 @@
     "/services/water-cleanup/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/el-dorado-hills-ca/water-cleanup/",
     "/contact/"
@@ -1111,8 +1498,8 @@
   "/service-areas/citrus-heights-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
     "/contact/"
@@ -1121,7 +1508,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/storm-damage-restoration/",
     "/contact/"
@@ -1130,7 +1517,7 @@
     "/services/mold-remediation/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/el-dorado-hills-ca/mold-remediation/",
     "/contact/"
@@ -1139,7 +1526,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/el-dorado-hills-ca/sewage-cleanup/",
     "/contact/"
@@ -1148,7 +1535,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/el-dorado-hills-ca/biohazard-cleanup/",
     "/contact/"
@@ -1157,7 +1544,7 @@
     "/services/general-contracting/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/el-dorado-hills-ca/general-contracting/",
     "/contact/"
@@ -1166,7 +1553,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/el-dorado-hills-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -1175,7 +1562,7 @@
     "/services/contents-restoration/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/el-dorado-hills-ca/contents-restoration/",
     "/contact/"
@@ -1184,7 +1571,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/el-dorado-hills-ca/post-construction-cleaning/",
     "/contact/"
@@ -1193,16 +1580,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/el-dorado-hills-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/el-dorado-hills-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/el-dorado-hills-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/el-dorado-hills-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/citrus-heights-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/citrus-heights-ca/",
+    "/service-areas/citrus-heights-ca/fire-damage-restoration/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/el-dorado-hills-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -1211,7 +1643,7 @@
     "/services/water-cleanup/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -1219,8 +1651,8 @@
   "/service-areas/rancho-cordova-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/mold-remediation/",
-    "/service-areas/rancho-cordova-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -1229,7 +1661,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -1238,7 +1670,7 @@
     "/services/mold-remediation/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/water-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -1247,7 +1679,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -1256,7 +1688,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -1265,7 +1697,7 @@
     "/services/general-contracting/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -1274,7 +1706,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -1283,7 +1715,7 @@
     "/services/contents-restoration/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -1292,7 +1724,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -1301,16 +1733,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-cordova-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rancho-cordova-ca/fire-damage-restoration/",
+    "/service-areas/rancho-cordova-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -1319,7 +1796,7 @@
     "/services/water-cleanup/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -1327,8 +1804,8 @@
   "/service-areas/fair-oaks-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/fair-oaks-ca/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/mold-remediation/",
-    "/service-areas/fair-oaks-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -1337,7 +1814,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -1346,7 +1823,7 @@
     "/services/mold-remediation/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/water-damage-restoration/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -1355,7 +1832,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -1364,7 +1841,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -1373,7 +1850,7 @@
     "/services/general-contracting/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -1382,7 +1859,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -1391,7 +1868,7 @@
     "/services/contents-restoration/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -1400,7 +1877,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -1409,16 +1886,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/fire-damage-restoration/",
-    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/fair-oaks-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/fair-oaks-ca/",
+    "/service-areas/fair-oaks-ca/fire-damage-restoration/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/fair-oaks-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/fair-oaks-ca/",
+    "/service-areas/fair-oaks-ca/fire-damage-restoration/",
+    "/service-areas/fair-oaks-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/fair-oaks-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/fair-oaks-ca/",
+    "/service-areas/fair-oaks-ca/fire-damage-restoration/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/fair-oaks-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/fair-oaks-ca/",
+    "/service-areas/fair-oaks-ca/fire-damage-restoration/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/fair-oaks-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/fair-oaks-ca/",
+    "/service-areas/fair-oaks-ca/fire-damage-restoration/",
+    "/service-areas/fair-oaks-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
     "/contact/"
@@ -1427,7 +1949,7 @@
     "/services/water-cleanup/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/service-areas/el-dorado-hills-ca/water-cleanup/",
     "/contact/"
@@ -1435,8 +1957,8 @@
   "/service-areas/carmichael-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/carmichael-ca/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
     "/contact/"
@@ -1445,7 +1967,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/storm-damage-restoration/",
     "/contact/"
@@ -1454,7 +1976,7 @@
     "/services/mold-remediation/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/service-areas/el-dorado-hills-ca/mold-remediation/",
     "/contact/"
@@ -1463,7 +1985,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/service-areas/el-dorado-hills-ca/sewage-cleanup/",
     "/contact/"
@@ -1472,7 +1994,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/service-areas/el-dorado-hills-ca/biohazard-cleanup/",
     "/contact/"
@@ -1481,7 +2003,7 @@
     "/services/general-contracting/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/service-areas/el-dorado-hills-ca/general-contracting/",
     "/contact/"
@@ -1490,7 +2012,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/service-areas/el-dorado-hills-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -1499,7 +2021,7 @@
     "/services/contents-restoration/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/service-areas/el-dorado-hills-ca/contents-restoration/",
     "/contact/"
@@ -1508,7 +2030,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/service-areas/el-dorado-hills-ca/post-construction-cleaning/",
     "/contact/"
@@ -1517,16 +2039,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
-    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
     "/service-areas/el-dorado-hills-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/carmichael-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/carmichael-ca/",
+    "/service-areas/carmichael-ca/fire-damage-restoration/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/service-areas/el-dorado-hills-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/carmichael-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/carmichael-ca/",
+    "/service-areas/carmichael-ca/fire-damage-restoration/",
+    "/service-areas/carmichael-ca/mold-remediation/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/carmichael-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/carmichael-ca/",
+    "/service-areas/carmichael-ca/fire-damage-restoration/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/el-dorado-hills-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/carmichael-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/carmichael-ca/",
+    "/service-areas/carmichael-ca/fire-damage-restoration/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/el-dorado-hills-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/carmichael-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/carmichael-ca/",
+    "/service-areas/carmichael-ca/fire-damage-restoration/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
+    "/service-areas/el-dorado-hills-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -1535,7 +2102,7 @@
     "/services/water-cleanup/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -1543,8 +2110,8 @@
   "/service-areas/west-sacramento-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/mold-remediation/",
-    "/service-areas/west-sacramento-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -1553,7 +2120,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -1562,7 +2129,7 @@
     "/services/mold-remediation/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/water-damage-restoration/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -1571,7 +2138,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -1580,7 +2147,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -1589,7 +2156,7 @@
     "/services/general-contracting/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -1598,7 +2165,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -1607,7 +2174,7 @@
     "/services/contents-restoration/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -1616,7 +2183,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -1625,16 +2192,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/fire-damage-restoration/",
-    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/west-sacramento-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/west-sacramento-ca/fire-damage-restoration/",
+    "/service-areas/west-sacramento-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -1643,7 +2255,7 @@
     "/services/water-cleanup/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -1651,8 +2263,8 @@
   "/service-areas/lincoln-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/lincoln-ca/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/mold-remediation/",
-    "/service-areas/lincoln-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -1661,7 +2273,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -1670,7 +2282,7 @@
     "/services/mold-remediation/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/water-damage-restoration/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -1679,7 +2291,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -1688,7 +2300,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -1697,7 +2309,7 @@
     "/services/general-contracting/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -1706,7 +2318,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -1715,7 +2327,7 @@
     "/services/contents-restoration/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -1724,7 +2336,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -1733,16 +2345,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/fire-damage-restoration/",
-    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/lincoln-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/lincoln-ca/",
+    "/service-areas/lincoln-ca/fire-damage-restoration/",
+    "/service-areas/lincoln-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/lincoln-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/lincoln-ca/",
+    "/service-areas/lincoln-ca/fire-damage-restoration/",
+    "/service-areas/lincoln-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/lincoln-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/lincoln-ca/",
+    "/service-areas/lincoln-ca/fire-damage-restoration/",
+    "/service-areas/lincoln-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/lincoln-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/lincoln-ca/",
+    "/service-areas/lincoln-ca/fire-damage-restoration/",
+    "/service-areas/lincoln-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/lincoln-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/lincoln-ca/",
+    "/service-areas/lincoln-ca/fire-damage-restoration/",
+    "/service-areas/lincoln-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -1751,7 +2408,7 @@
     "/services/water-cleanup/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -1759,8 +2416,8 @@
   "/service-areas/granite-bay-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/granite-bay-ca/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/mold-remediation/",
-    "/service-areas/granite-bay-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -1769,7 +2426,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -1778,7 +2435,7 @@
     "/services/mold-remediation/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/water-damage-restoration/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -1787,7 +2444,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -1796,7 +2453,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -1805,7 +2462,7 @@
     "/services/general-contracting/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -1814,7 +2471,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -1823,7 +2480,7 @@
     "/services/contents-restoration/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -1832,7 +2489,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -1841,16 +2498,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/fire-damage-restoration/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/granite-bay-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/granite-bay-ca/",
+    "/service-areas/granite-bay-ca/fire-damage-restoration/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/granite-bay-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/granite-bay-ca/",
+    "/service-areas/granite-bay-ca/fire-damage-restoration/",
+    "/service-areas/granite-bay-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/granite-bay-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/granite-bay-ca/",
+    "/service-areas/granite-bay-ca/fire-damage-restoration/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/granite-bay-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/granite-bay-ca/",
+    "/service-areas/granite-bay-ca/fire-damage-restoration/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/granite-bay-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/granite-bay-ca/",
+    "/service-areas/granite-bay-ca/fire-damage-restoration/",
+    "/service-areas/granite-bay-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -1859,7 +2561,7 @@
     "/services/water-cleanup/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -1867,8 +2569,8 @@
   "/service-areas/el-dorado-hills-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/mold-remediation/",
-    "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -1877,7 +2579,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -1886,7 +2588,7 @@
     "/services/mold-remediation/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -1895,7 +2597,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -1904,7 +2606,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -1913,7 +2615,7 @@
     "/services/general-contracting/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -1922,7 +2624,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -1931,7 +2633,7 @@
     "/services/contents-restoration/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -1940,7 +2642,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -1949,16 +2651,61 @@
     "/services/air-duct-cleaning/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/el-dorado-hills-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/el-dorado-hills-ca/",
+    "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/el-dorado-hills-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/el-dorado-hills-ca/",
+    "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
+    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/el-dorado-hills-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/el-dorado-hills-ca/",
+    "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/el-dorado-hills-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/el-dorado-hills-ca/",
+    "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/el-dorado-hills-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/el-dorado-hills-ca/",
+    "/service-areas/el-dorado-hills-ca/fire-damage-restoration/",
+    "/service-areas/el-dorado-hills-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/contact/"
@@ -1967,7 +2714,7 @@
     "/services/water-cleanup/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/water-cleanup/",
     "/service-areas/citrus-heights-ca/water-cleanup/",
     "/contact/"
@@ -1975,8 +2722,8 @@
   "/service-areas/loomis-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/loomis-ca/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/mold-remediation/",
-    "/service-areas/loomis-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/fire-damage-restoration/",
     "/service-areas/citrus-heights-ca/fire-damage-restoration/",
     "/contact/"
@@ -1985,7 +2732,7 @@
     "/services/storm-damage-restoration/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/contact/"
@@ -1994,7 +2741,7 @@
     "/services/mold-remediation/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/water-damage-restoration/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/contact/"
@@ -2003,7 +2750,7 @@
     "/services/sewage-cleanup/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/sewage-cleanup/",
     "/service-areas/citrus-heights-ca/sewage-cleanup/",
     "/contact/"
@@ -2012,7 +2759,7 @@
     "/services/biohazard-cleanup/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/biohazard-cleanup/",
     "/service-areas/citrus-heights-ca/biohazard-cleanup/",
     "/contact/"
@@ -2021,7 +2768,7 @@
     "/services/general-contracting/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/contact/"
@@ -2030,7 +2777,7 @@
     "/services/emergency-board-up-tarping/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/emergency-board-up-tarping/",
     "/service-areas/citrus-heights-ca/emergency-board-up-tarping/",
     "/contact/"
@@ -2039,7 +2786,7 @@
     "/services/contents-restoration/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/contents-restoration/",
     "/service-areas/citrus-heights-ca/contents-restoration/",
     "/contact/"
@@ -2048,7 +2795,7 @@
     "/services/post-construction-cleaning/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/post-construction-cleaning/",
     "/service-areas/citrus-heights-ca/post-construction-cleaning/",
     "/contact/"
@@ -2057,9 +2804,54 @@
     "/services/air-duct-cleaning/",
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/fire-damage-restoration/",
-    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/carmichael-ca/air-duct-cleaning/",
     "/service-areas/citrus-heights-ca/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/loomis-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/loomis-ca/",
+    "/service-areas/loomis-ca/fire-damage-restoration/",
+    "/service-areas/loomis-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/reconstruction/",
+    "/service-areas/citrus-heights-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/loomis-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/loomis-ca/",
+    "/service-areas/loomis-ca/fire-damage-restoration/",
+    "/service-areas/loomis-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/loomis-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/loomis-ca/",
+    "/service-areas/loomis-ca/fire-damage-restoration/",
+    "/service-areas/loomis-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/room-addition/",
+    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/loomis-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/loomis-ca/",
+    "/service-areas/loomis-ca/fire-damage-restoration/",
+    "/service-areas/loomis-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/service-areas/citrus-heights-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/loomis-ca/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/loomis-ca/",
+    "/service-areas/loomis-ca/fire-damage-restoration/",
+    "/service-areas/loomis-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/large-loss-response/",
+    "/service-areas/citrus-heights-ca/large-loss-response/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [
