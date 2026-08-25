@@ -1,0 +1,169 @@
+{
+  "slug": "tdi-builders",
+  "assets": {
+    "gbp:gbp-AF1QipM0YaDKqUCfU75Im-lr3pN67Hw_Wk5C_JbkkenL": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM0YaDKqUCfU75Im-lr3pN67Hw_Wk5C_JbkkenL.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/gbp-AF1QipM0YaDKqUCfU75Im-lr3pN67Hw_Wk5C_JbkkenL.jpg",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 1000772,
+      "sha1": "56a85cb7bb742476",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Side-by-side before and after living room remodel collage",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "home-remodeling"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card"
+      ],
+      "reason": "Composited collage with burnt-in BEFORE/AFTER labels and TDI logo card.",
+      "triaged_at": "2026-08-25T01:00:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMmaoge1e_08KTcdQ1Fr2mrwRVATabOd6kmX5z7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMmaoge1e_08KTcdQ1Fr2mrwRVATabOd6kmX5z7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/gbp-AF1QipMmaoge1e_08KTcdQ1Fr2mrwRVATabOd6kmX5z7.jpg",
+      "width": 608,
+      "height": 1081,
+      "bytes": 553621,
+      "sha1": "43a23ccba9f658ff",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two workers in hard hats framing roof structure outdoors",
+      "quality": 74,
+      "slots": {
+        "hero": 52,
+        "team": 68,
+        "services": 72
+      },
+      "service_slugs": [
+        "general-contracting",
+        "storm-damage-restoration",
+        "home-remodeling"
+      ],
+      "flags": [],
+      "reason": "Authentic crew shot, good light and sky; portrait crop limits hero use.",
+      "triaged_at": "2026-08-25T01:00:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNQMUVCB5dpEovZA2iNlI0YTb1Pd01enXFWH7RA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNQMUVCB5dpEovZA2iNlI0YTb1Pd01enXFWH7RA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/gbp-AF1QipNQMUVCB5dpEovZA2iNlI0YTb1Pd01enXFWH7RA.jpg",
+      "width": 864,
+      "height": 1080,
+      "bytes": 629860,
+      "sha1": "0f76d53538f8d828",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Stacked before and after kitchen remodel collage with logo",
+      "quality": 75,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "kitchen-remodeling"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card"
+      ],
+      "reason": "Composited collage with burnt-in BEFORE/AFTER text and TDI logo card.",
+      "triaged_at": "2026-08-25T01:00:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO3kKgbcjsjR9QdxLaLf5n1knWOKwzIwSC-ZdSm": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO3kKgbcjsjR9QdxLaLf5n1knWOKwzIwSC-ZdSm.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/gbp-AF1QipO3kKgbcjsjR9QdxLaLf5n1knWOKwzIwSC-ZdSm.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 609339,
+      "sha1": "4898d36fe6840ce6",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Green air movers on dark floor in smoke-damaged open kitchen",
+      "quality": 68,
+      "slots": {
+        "hero": 28,
+        "team": 0,
+        "services": 78
+      },
+      "service_slugs": [
+        "fire-smoke-rebuilding",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear equipment-in-use scene showing restoration work; slightly dark exposure.",
+      "triaged_at": "2026-08-25T01:00:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOanZl8cxr0T7FvuaefUV9YRu7n4j-hZA3vgx2B": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOanZl8cxr0T7FvuaefUV9YRu7n4j-hZA3vgx2B.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/gbp-AF1QipOanZl8cxr0T7FvuaefUV9YRu7n4j-hZA3vgx2B.jpg",
+      "width": 640,
+      "height": 480,
+      "bytes": 54458,
+      "sha1": "0f434e477f3e434e",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Finished white kitchen and dining area after remodel",
+      "quality": 82,
+      "slots": {
+        "hero": 65,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "kitchen-remodeling",
+        "home-remodeling"
+      ],
+      "flags": [],
+      "reason": "Clean, well-lit completed kitchen; holiday d\u00e9cor slightly dates the image.",
+      "triaged_at": "2026-08-25T01:00:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPGvFQBJIjYpCq7h3iayTVTOSR7nypaNPq2Kgig": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1787593616_gbp-AF1QipPGvFQBJIjYpCq7h3iayTVTOSR7nypaNPq2Kgig.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/r1787593616_gbp-AF1QipPGvFQBJIjYpCq7h3iayTVTOSR7nypaNPq2Kgig.jpg",
+      "width": 609,
+      "height": 1079,
+      "bytes": 698029,
+      "sha1": "3276649cbe2a662e",
+      "exif": {},
+      "category": "crew",
+      "subject": "Single worker on ladder installing Tyvek house wrap on exterior wall",
+      "quality": 71,
+      "slots": {
+        "hero": 38,
+        "team": 55,
+        "services": 68
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "general-contracting",
+        "home-remodeling"
+      ],
+      "flags": [],
+      "reason": "Real job-site crew shot; portrait crop and back-turned worker limit team slot.",
+      "triaged_at": "2026-08-25T01:00:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-25T01:00:57Z"
+}
