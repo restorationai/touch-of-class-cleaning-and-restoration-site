@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Sacramento, CA",
+    "lat": 38.6446,
+    "lng": -121.5058
+  },
+  {
+    "label": "Roseville, CA",
+    "lat": 38.7521,
+    "lng": -121.288
+  },
+  {
+    "label": "Elk Grove, CA",
+    "lat": 38.4088,
+    "lng": -121.3716
+  },
+  {
+    "label": "Modesto, CA",
+    "lat": 37.6393,
+    "lng": -120.9969
+  },
+  {
+    "label": "Rancho Cordova, CA",
+    "lat": 38.5891,
+    "lng": -121.3027
+  },
+  {
+    "label": "Fair Oaks, CA",
+    "lat": 39.3785,
+    "lng": -123.3414
+  }
+]

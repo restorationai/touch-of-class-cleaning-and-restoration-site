@@ -47,7 +47,9 @@
     "accent_color": "#0080C4",
     "font_sans": "Inter",
     "font_display": "Jost",
-    "logo_url": "/images/logo.png"
+    "logo_url": "/images/logo.png",
+    "place_id": "ChIJDbb428TXmoARvyLLpaLNr3E",
+    "google_cid": "8191992345660170943"
   },
   "second_location": {
     "street_address": "1086 Bessemer Ave",
