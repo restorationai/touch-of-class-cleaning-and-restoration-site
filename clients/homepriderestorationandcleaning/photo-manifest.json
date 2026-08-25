@@ -4041,6 +4041,31 @@
       "triaged_at": "2026-08-05T06:06:45Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOz_5yd1bNIc1zu-fCxzLWtD4tEyUzhh439GN5t": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOz_5yd1bNIc1zu-fCxzLWtD4tEyUzhh439GN5t.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipOz_5yd1bNIc1zu-fCxzLWtD4tEyUzhh439GN5t.jpg",
+      "width": 810,
+      "height": 1080,
+      "bytes": 1267822,
+      "sha1": "1b9270a650655024",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Floral upholstered chair cushion removed on carpet floor",
+      "quality": 62,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "upholstery-cleaning"
+      ],
+      "flags": [],
+      "reason": "Decent clarity but awkward composition; shows upholstery cleaning subject matter.",
+      "triaged_at": "2026-08-25T14:05:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOzyYe35Y7IuySMjo_z2t3EW_F0oIQ4sK6Bjy8G": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOzyYe35Y7IuySMjo_z2t3EW_F0oIQ4sK6Bjy8G.jpg",
@@ -4916,5 +4941,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-24T14:08:42Z"
+  "triaged_at": "2026-08-25T14:05:55Z"
 }
