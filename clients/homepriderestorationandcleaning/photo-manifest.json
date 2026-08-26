@@ -2220,8 +2220,8 @@
     },
     "gbp:gbp-AF1QipNHBp2Nhik_hEhFsuGnqc4E82OKPPt3NoOp1S5k": {
       "source": "gbp",
-      "storage": "job-photos/posted/gbp-AF1QipNHBp2Nhik_hEhFsuGnqc4E82OKPPt3NoOp1S5k.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipNHBp2Nhik_hEhFsuGnqc4E82OKPPt3NoOp1S5k.jpg",
+      "storage": "job-photos/posted/r1787762578_gbp-AF1QipNHBp2Nhik_hEhFsuGnqc4E82OKPPt3NoOp1S5k.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/r1787762578_gbp-AF1QipNHBp2Nhik_hEhFsuGnqc4E82OKPPt3NoOp1S5k.jpg",
       "width": 810,
       "height": 1080,
       "bytes": 971301,
@@ -4514,6 +4514,31 @@
       "triaged_at": "2026-08-05T06:07:19Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPW9k0VIEmym8LgNxBhkU0J7FkHXHJTb1jn09MP": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPW9k0VIEmym8LgNxBhkU0J7FkHXHJTb1jn09MP.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipPW9k0VIEmym8LgNxBhkU0J7FkHXHJTb1jn09MP.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 83340,
+      "sha1": "17d2ea10c582864f",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dehumidifiers and air movers set up in bedroom during drying",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Good equipment-in-use shot; dim lighting and cluttered closet limit hero use.",
+      "triaged_at": "2026-08-26T23:33:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPaXAkgDZGN5l5j5Mi_8mARW8ZollAIpEIXuV7p": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPaXAkgDZGN5l5j5Mi_8mARW8ZollAIpEIXuV7p.jpg",
@@ -4952,5 +4977,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-25T14:05:55Z"
+  "triaged_at": "2026-08-26T23:33:47Z"
 }
