@@ -48,15 +48,15 @@ export const brand = {
   sameAsUrls: ["https://maps.google.com/maps?cid=8645835952486055131", "https://www.yelp.com/biz/quality-contracting-auburn", "https://www.bbb.org/us/ma/auburn/profile/fire-water-damage-restoration/quality-contracting-inc-0261-103855", "https://www.angi.com/companylist/us/ma/auburn/quality-contracting-inc-reviews-164220227.htm", "https://www.facebook.com/qualcontracting/", "https://www.houzz.com/professionals/general-contractors/quality-contracting-inc-pfvwus-pf~815837747"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "4.5",
-  gbpReviewCount: "86",
+  gbpRatingValue: "4.6",
+  gbpReviewCount: "95",
   gbpReviews: [
-    { author: "Bryant", rating: 5, text: "Talk about turning a disaster into a small inconvenience. First Ice dam ever. nightmare. One phone call and Quality took care of it. They told me what to do. Sent a team over that day to start remediation. I could never have handled all of this without them. Everyone who came to the house was…", when: "July 2026" },
-    { author: "Frankie", rating: 5, text: "I highly recommend Quality Contracting, Inc!!!. They are an amazing team that calmly helped me through a very stressful time for me. I was very fortunate to have Johana as the project manager during the initial mitigation process. I admire her leadership in a traditionally male-dominant field!! She…", when: "June 2026" },
-    { author: "Paul", rating: 5, text: "Excellent communication throughout the process. Resources were timely, polite, friendly and experienced.", when: "June 2026" },
-    { author: "Bill", rating: 5, text: "The project manager kept me informed as the work progressed. They did excellent work cleaning up as they went along. I could not asked for a better contracting company. On a scale of one to ten they get a ten. Again thanks for the great service.", when: "May 2026" },
-    { author: "Denise", rating: 4, text: "Our remediation team was several hours late due to a schedule mishap, but thanks to Johana the team stayed and did a great job. She stopped in to check on them every day that they were here. Johana was knowledgeable, professional, and very pleasant to work with. She's very very good at her job.", when: "April 2026" },
-    { author: "Stephanie", rating: 5, text: "I had part of my wall replaced this year and they did great service ! Shout out to Derek Pereira I appreciate all the work done !", when: "March 2026" },
+    { author: "William", rating: 5, text: "Very courteous workers. Kept me informed as the work was progressing", when: "August 2026" },
+    { author: "Gail", rating: 5, text: "I have never had such an incredible team as Quality Contracting’s under manager Mike Bonnette following last winter’s ice dam. Each member of the team he put together…from movers, to those securing all entries with plastic, filtering air machine in place to assure the rest of the house had only…", when: "August 2026" },
+    { author: "Heather", rating: 5, text: "I am so happy I chose this company to move our belongings to our new home. The whole process was seamless and the guys (Henry’s team) were incredible. They were kind, considerate, careful, and fast! I will tell everyone to use your company. I didn’t mention one of the best parts, your quote was…", when: "August 2026" },
+    { author: "Renee", rating: 5, text: "Quality contracting had been top notch to work with so far. We had a roof leak that resulted in water damage to multiple areas within our home. Quality's swift response saved our 100 year old flooring in multiple rooms. Javier, Jose & Luis were always professional and took great care to ensure that…", when: "August 2026" },
+    { author: "Erik", rating: 5, text: "I’ve been working with QCI for over 5 years. The always deliver a quality renovation and are easy to work with. Highly recommended.", when: "August 2026" },
+    { author: "Gino", rating: 5, text: "I had a major main sewer line back up over the weekend that flooded out my finished cellar and had to get in touch with a hazmat company. I chose Quality Contracting. OMG what a lucky choice I made ! Everyone that I've dealt with from the company have been Wonderful. It all started with Amy in the…", when: "August 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Auburn, MA.",
   ctaLabel: "24/7 Emergency Line",

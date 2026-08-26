@@ -47,14 +47,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
-  gbpReviewCount: "489",
+  gbpReviewCount: "491",
   gbpReviews: [
+    { author: "Lyndsay", rating: 5, text: "Terra is amazing! Very friendly & attentive. She needs a raise!! THANK YOU!", when: "August 2026" },
+    { author: "Manny", rating: 5, text: "Sy, Ariston, and Khaymon were excellent ! Great energy and awesome service", when: "August 2026" },
+    { author: "Holla", rating: 5, text: "Terra was absolutely amazing!she deserves a raise", when: "August 2026" },
     { author: "Melina", rating: 5, text: "So glad I was able to work with Crew. They were super responsive, patient while working with my insurance and all my questions. The work was done fast and looks amazing. 10/10 would recommend", when: "July 2026" },
     { author: "Chelsey", rating: 5, text: "We made an appointment with Victor from Crew to inspect our basement for possible mold. He arrived promptly, thoroughly examined the area, and took the time to explain his findings in detail. After his inspection, he reassured us that the only work needed was to remove a few baseboards and that…", when: "July 2026" },
     { author: "Chris", rating: 5, text: "Vic runs a stellar promo tent with swag for days", when: "July 2026" },
-    { author: "Jason", rating: 5, text: "Great bunch!! Well organized and everything was as it should be. Thanks.", when: "July 2026" },
-    { author: "Nick", rating: 5, text: "Had a great experience with Victor and learned way more about how the whole restoration process works & feel much more confident!", when: "July 2026" },
-    { author: "Billy", rating: 5, text: "Very helpful with questions I had!", when: "July 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",

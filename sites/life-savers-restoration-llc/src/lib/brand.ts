@@ -49,7 +49,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
-  gbpReviewCount: "244",
+  gbpReviewCount: "247",
   gbpReviews: [
     { author: "Marcia", rating: 5, text: "I highly recommend Rudy and Life Savers Restoration! I had sudden water damage emergency at my townhome while living out of town, and Rudy came through on very short notice after being recommended by a friend. He kept me informed every step of the way, did an excellent job, and took the time to…", when: "July 2026" },
     { author: "Martin", rating: 5, text: "The Life Savers team took care of our water damage and was done quickly, with as little disruption as possible. The team was professional. Rudy helped us through the process with the insurance company from start to finish.", when: "June 2026" },
