@@ -1,0 +1,39 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+sewage cleanup in basement,transactional,90,12,82.42,3,sewage cleanup,,/services/sewage-cleanup/,no
+Federal Way sewage cleanup,transactional,,,,3,sewage cleanup,Federal Way,/services/sewage-cleanup/,no
+sewage cleanup Federal Way WA,transactional,,,,3,sewage cleanup,Federal Way,/services/sewage-cleanup/,no
+emergency sewage cleanup Federal Way,transactional,,,,3,sewage cleanup,Federal Way,/services/sewage-cleanup/,no
+Seattle sewage cleanup,transactional,,,,3,sewage cleanup,Seattle,/service-areas/seattle-wa/sewage-cleanup/,no
+sewage cleanup Seattle WA,transactional,,,,3,sewage cleanup,Seattle,/service-areas/seattle-wa/sewage-cleanup/,no
+emergency sewage cleanup Seattle,transactional,,,,3,sewage cleanup,Seattle,/service-areas/seattle-wa/sewage-cleanup/,no
+Bellevue sewage cleanup,transactional,,,,3,sewage cleanup,Bellevue,/service-areas/bellevue-wa/sewage-cleanup/,no
+sewage cleanup Bellevue WA,transactional,,,,3,sewage cleanup,Bellevue,/service-areas/bellevue-wa/sewage-cleanup/,no
+emergency sewage cleanup Bellevue,transactional,,,,3,sewage cleanup,Bellevue,/service-areas/bellevue-wa/sewage-cleanup/,no
+Tacoma sewage cleanup,transactional,,,,3,sewage cleanup,Tacoma,/service-areas/tacoma-wa/sewage-cleanup/,no
+sewage cleanup Tacoma WA,transactional,,,,3,sewage cleanup,Tacoma,/service-areas/tacoma-wa/sewage-cleanup/,no
+emergency sewage cleanup Tacoma,transactional,,,,3,sewage cleanup,Tacoma,/service-areas/tacoma-wa/sewage-cleanup/,no
+sewage cleanup,commercial,1600,21,47.66,3,sewage cleanup,,/services/sewage-cleanup/,no
+sewage cleanup near me,commercial,1000,0,65.03,3,sewage cleanup,,/services/sewage-cleanup/,no
+sewage cleanup services,commercial,590,2,88.22,3,sewage cleanup,,/services/sewage-cleanup/,no
+sewage cleanup companies,commercial,320,0,25.81,3,sewage cleanup,,/services/sewage-cleanup/,no
+sewage cleanup services near me,commercial,260,0,36.83,3,sewage cleanup,,/services/sewage-cleanup/,no
+sewage backup cleanup near me,commercial,170,0,,3,sewage cleanup,,/services/sewage-cleanup/,no
+servpro sewage cleanup cost,commercial,110,0,17.81,3,sewage cleanup,,,no
+sewage smell in house,informational,3600,0,9.39,1,sewage cleanup,,,no
+sewage backup in basement,informational,720,0,38.33,1,sewage cleanup,,,yes
+sewage backup cleanup cost,informational,260,0,31.46,1,sewage cleanup,,,yes
+does homeowners insurance cover sewage backup,informational,210,0,,1,sewage cleanup,,,yes
+how to clean up raw sewage in basement,informational,140,12,25.29,1,sewage cleanup,,,yes
+what is category 3 water,informational,90,0,,1,sewage cleanup,,,yes
+how to clean up a sewage spill outdoors,informational,110,5,7.88,2,sewage cleanup,,,no
+raw sewage health risks,informational,70,15,,2,sewage cleanup,,,no
+sewage cleanup cost,informational,70,0,32.75,2,sewage cleanup,,,no
+how to clean up sewage backup in basement,informational,70,43,3.88,2,sewage cleanup,,,no
+basement sewage cleanup cost,informational,50,0,14.57,2,sewage cleanup,,,no
+how to clean up a sewage spill indoors,informational,30,5,4.72,2,sewage cleanup,,,no
+is sewage backup dangerous,informational,10,0,,2,sewage cleanup,,,no
+what to do after a sewage backup,informational,,,,2,sewage cleanup,,,no
+how to prevent sewage backups,informational,,,,2,sewage cleanup,,,no
+how long does sewage cleanup take,informational,,,,2,sewage cleanup,,,no
+garden lime for sewage spill,informational,260,0,0.36,3,sewage cleanup,,,no
+where to buy lime for sewage spills,informational,70,0,0.29,3,sewage cleanup,,,no

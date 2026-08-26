@@ -1005,6 +1005,171 @@
         "https://www.iii.org/article/what-covered-standard-homeowners-policy"
       ],
       "notes": "High-value insurance decision-stage (restoration-vertical priority), vol 170. Distinguish the three coverage buckets that trip up homeowners: sudden/accidental internal water (burst pipe, appliance leak) usually covered; surface flooding and groundwater need a separate NFIP/flood policy; sewer/drain backup needs a water-backup endorsement, and sump-pump failure needs its own rider. Cross-link the existing water-damage insurance post. Companion piece extending the site's insurance content into basement flooding."
+    },
+    {
+      "id": "2026-08-26-sewage-backup-in-basement",
+      "status": "queued",
+      "queued_at": "2026-08-26T08:30:38Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "sewage backup in basement",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what to do after a sewage backup",
+        "how to clean up raw sewage in basement",
+        "how to clean up sewage backup in basement",
+        "is sewage backup dangerous",
+        "how long does sewage cleanup take"
+      ],
+      "suggested_slug": "sewage-backup-in-basement",
+      "suggested_title": "Sewage backup in your basement: what to do first and how cleanup works",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/sewage-cleanup/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "sewage-cleanup",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.cdc.gov/mold/php/about/index.html"
+      ],
+      "notes": "Category 3 black water: lead with the health/safety warning and the 24-48 hour response window. Sensitive-content care (contamination, health). Pair with the sewage cleanup and basement flooding cleanup service pages."
+    },
+    {
+      "id": "2026-08-26-does-homeowners-insurance-cover-sewage-backup",
+      "status": "queued",
+      "queued_at": "2026-08-26T08:30:38Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover sewage backup",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "is sewage backup covered by homeowners insurance",
+        "sewer backup endorsement",
+        "average payout for sewage backup",
+        "does insurance cover water damage from a sewage backup"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-sewage-backup",
+      "suggested_title": "Does homeowners insurance cover sewage backup? What Washington homeowners need to know",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/sewage-cleanup/"
+      ],
+      "service_tags": [
+        "sewage-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-is-covered-by-standard-homeowners-policy"
+      ],
+      "notes": "Decision-stage query hit 24-48 hours before hiring. Explain that a sewer/water backup rider is usually a SEPARATE endorsement, not standard coverage. Neutral, no legal/insurance guarantees."
+    },
+    {
+      "id": "2026-08-26-sewage-backup-cleanup-cost",
+      "status": "queued",
+      "queued_at": "2026-08-26T08:30:38Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "sewage backup cleanup cost",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "sewage cleanup cost",
+        "basement sewage cleanup cost",
+        "servpro sewage cleanup cost",
+        "how much does sewage cleanup cost"
+      ],
+      "suggested_slug": "sewage-backup-cleanup-cost",
+      "suggested_title": "Sewage backup cleanup cost: what you'll pay and what drives the price",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/sewage-cleanup/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "sewage-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Fold the cost variants into one guide. Break cost by category 3 factors: extraction, sanitizing, affected materials, structural drying. Give ranges, not guarantees."
+    },
+    {
+      "id": "2026-08-26-how-to-clean-up-raw-sewage-in-basement",
+      "status": "queued",
+      "queued_at": "2026-08-26T08:30:38Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to clean up raw sewage in basement",
+      "intent": "informational",
+      "volume": 140,
+      "kd": 12,
+      "fan_out_cluster": [
+        "how to clean up sewage backup in basement",
+        "how to clean up a sewage spill indoors",
+        "how to clean up a sewage spill outdoors",
+        "how to sanitize after a sewage backup"
+      ],
+      "suggested_slug": "how-to-clean-up-raw-sewage-in-basement",
+      "suggested_title": "How to clean up raw sewage in a basement (and when to call a pro)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/sewage-cleanup/",
+        "/services/biohazard-cleanup/"
+      ],
+      "service_tags": [
+        "sewage-cleanup",
+        "biohazard-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cdc.gov/mold/php/about/index.html",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Sensitive: raw sewage is a category 3 biohazard. Emphasize PPE, health risk, disinfection, and the clear threshold for calling a professional. DIY-vs-pro framing without encouraging unsafe cleanup."
+    },
+    {
+      "id": "2026-08-26-what-is-category-3-water",
+      "status": "queued",
+      "queued_at": "2026-08-26T08:30:38Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is category 3 water",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 0,
+      "fan_out_cluster": [
+        "category 3 black water",
+        "raw sewage health risks",
+        "is sewage backup dangerous",
+        "water damage categories explained"
+      ],
+      "suggested_slug": "what-is-category-3-water",
+      "suggested_title": "What is category 3 water? The 'black water' contamination you should never ignore",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/sewage-cleanup/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "sewage-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Authority/definition piece anchoring the sewage cluster. Explain IICRC S500 water categories 1-2-3, why sewage is category 3, and health implications. Links out to sewage cleanup + water damage services."
     }
   ]
 }
