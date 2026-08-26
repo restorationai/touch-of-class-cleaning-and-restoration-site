@@ -221,9 +221,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1786296289576-eda90488": {
-      "source": "crew",
-      "storage": "job-photos/1786296289576-eda90488.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/1786296289576-eda90488.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1786296289576-eda90488.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/1786296289576-eda90488.jpg",
       "width": 1500,
       "height": 2000,
       "bytes": 718057,
@@ -244,9 +244,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1786296292526-555a6f30": {
-      "source": "crew",
-      "storage": "job-photos/1786296292526-555a6f30.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/1786296292526-555a6f30.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1786296292526-555a6f30.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/1786296292526-555a6f30.jpg",
       "width": 1500,
       "height": 2000,
       "bytes": 931238,
@@ -267,9 +267,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1786296296105-d9534e30": {
-      "source": "crew",
-      "storage": "job-photos/1786296296105-d9534e30.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/1786296296105-d9534e30.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1786296296105-d9534e30.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/1786296296105-d9534e30.jpg",
       "width": 2000,
       "height": 1500,
       "bytes": 807445,
@@ -290,9 +290,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1786296299657-2adbe718": {
-      "source": "crew",
-      "storage": "job-photos/1786296299657-2adbe718.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/1786296299657-2adbe718.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1786296299657-2adbe718.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/1786296299657-2adbe718.jpg",
       "width": 2000,
       "height": 1500,
       "bytes": 1153393,

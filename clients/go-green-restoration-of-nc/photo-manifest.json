@@ -104,9 +104,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:fb-14": {
-      "source": "crew",
-      "storage": "job-photos/fb-14.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-14.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-14.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-14.jpg",
       "width": 1536,
       "height": 2048,
       "bytes": 582190,
@@ -129,9 +129,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:fb-15": {
-      "source": "crew",
-      "storage": "job-photos/fb-15.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-15.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-15.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-15.jpg",
       "width": 1536,
       "height": 2048,
       "bytes": 386816,
@@ -154,9 +154,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:fb-16": {
-      "source": "crew",
-      "storage": "job-photos/fb-16.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-16.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-16.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-16.jpg",
       "width": 1536,
       "height": 2048,
       "bytes": 237745,
@@ -182,9 +182,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:fb-17": {
-      "source": "crew",
-      "storage": "job-photos/fb-17.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-17.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-17.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-17.jpg",
       "width": 839,
       "height": 1797,
       "bytes": 247320,
