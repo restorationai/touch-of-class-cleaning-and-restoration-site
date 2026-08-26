@@ -1,0 +1,106 @@
+---
+// Real case studies — client-supplied, never generated.
+//
+// This section exists because we REMOVED the fabricated "A recent {city}
+// response" stories the content generator used to invent (2026-08, Santino's
+// call). The local-relevance value those fake stories were reaching for is now
+// earned honestly: this renders only when the client has given us an actual job
+// we can stand behind.
+//
+// Source of truth: clients/{slug}/case-studies.json (ops-facing, what Monica
+// collects). scripts/case_studies_sync.py copies the PUBLISHED entries into
+// sites/{slug}/src/data/case-studies.json so the deployable subtree is
+// self-contained. Seeded as [] for every client — renders nothing until a real
+// job is added, exactly like RecentWork.astro does with crew job photos.
+//
+// NEVER populate this file with model-written prose. If it did not happen, it
+// does not ship. See docs/case-studies.md.
+import rawCaseStudies from "~/data/case-studies.json";
+import { srcsetFor } from "~/lib/images";
+
+export interface Props {
+  areaSlug?: string;
+  serviceSlug?: string;
+  city?: string;
+  state?: string;
+  limit?: number;
+}
+
+type CaseStudy = {
+  area_slug?: string;
+  service_slug?: string;
+  title?: string;
+  summary?: string;
+  performed_on?: string;
+  photos?: string[];
+  published?: boolean;
+};
+
+const { areaSlug, serviceSlug, city, state, limit = 3 } = Astro.props;
+
+const all = (rawCaseStudies as CaseStudy[]) || [];
+
+// Only published entries for THIS city (and this service, when the page is a
+// city x service page). An entry with no area_slug is treated as company-wide.
+const studies = all
+  .filter((c) => c && c.published !== false && c.title && c.summary)
+  .filter((c) => !areaSlug || !c.area_slug || c.area_slug === areaSlug)
+  .filter((c) => !serviceSlug || !c.service_slug || c.service_slug === serviceSlug)
+  .slice(0, limit);
+
+const heading = city ? `Recent work in ${city}${state ? `, ${state}` : ""}` : "Recent work";
+
+const dateFmt = (v?: string) => {
+  if (!v) return null;
+  const d = new Date(v.length === 7 ? `${v}-01T00:00:00Z` : v);
+  if (isNaN(d.getTime())) return null;
+  return d.toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
+};
+---
+
+{studies.length > 0 && (
+  <section class="section bg-dark border-t border-white/10">
+    <div class="container-wide">
+      <div class="mb-8">
+        <div class="eyebrow">Case Studies</div>
+        <h2>{heading}</h2>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {studies.map((c) => {
+          const when = dateFmt(c.performed_on);
+          const photo = (c.photos || [])[0];
+          const img = photo ? srcsetFor(photo) : null;
+          return (
+            <article class="rounded-lg border border-white/10 bg-white/5 overflow-hidden shadow-lg">
+              {photo && (
+                <div class="relative aspect-[4/3] bg-white/5">
+                  <img
+                    src={photo}
+                    srcset={img?.srcset}
+                    sizes={img?.srcset ? "(min-width:1024px) 33vw, (min-width:768px) 50vw, 100vw" : undefined}
+                    width={img?.width}
+                    height={img?.height}
+                    alt={c.title}
+                    class="w-full h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              )}
+              <div class="p-6">
+                {when && (
+                  <div class="text-xs font-black uppercase tracking-widest text-primary-400 mb-2">
+                    {when}
+                  </div>
+                )}
+                <h3 class="text-lg font-bold text-white mb-2">{c.title}</h3>
+                <p class="text-sm text-white/70">{c.summary}</p>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+)}

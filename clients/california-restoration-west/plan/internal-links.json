@@ -1,0 +1,735 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/contents-restoration/",
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/ojai-ca/",
+    "/service-areas/oxnard-ca/",
+    "/service-areas/port-hueneme-ca/",
+    "/service-areas/santa-paula-ca/",
+    "/service-areas/simi-valley-ca/",
+    "/service-areas/thousand-oaks-ca/"
+  ],
+  "/services/": [
+    "/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/contents-restoration/",
+    "/services/crawl-space-encapsulation/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/ojai-ca/",
+    "/service-areas/oxnard-ca/",
+    "/service-areas/port-hueneme-ca/",
+    "/service-areas/santa-paula-ca/",
+    "/service-areas/simi-valley-ca/",
+    "/service-areas/thousand-oaks-ca/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/",
+    "/blog/storm-damage-insurance-claim-checklist/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/water-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/service-areas/ojai-ca/water-damage-restoration/",
+    "/service-areas/oxnard-ca/water-damage-restoration/",
+    "/service-areas/port-hueneme-ca/water-damage-restoration/",
+    "/service-areas/santa-paula-ca/water-damage-restoration/",
+    "/service-areas/simi-valley-ca/water-damage-restoration/",
+    "/service-areas/thousand-oaks-ca/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/mold-remediation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/service-areas/ojai-ca/mold-remediation/",
+    "/service-areas/oxnard-ca/mold-remediation/",
+    "/service-areas/port-hueneme-ca/mold-remediation/",
+    "/service-areas/santa-paula-ca/mold-remediation/",
+    "/service-areas/simi-valley-ca/mold-remediation/",
+    "/service-areas/thousand-oaks-ca/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/services/storm-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/service-areas/ojai-ca/storm-damage-restoration/",
+    "/service-areas/oxnard-ca/storm-damage-restoration/",
+    "/service-areas/port-hueneme-ca/storm-damage-restoration/",
+    "/service-areas/santa-paula-ca/storm-damage-restoration/",
+    "/service-areas/simi-valley-ca/storm-damage-restoration/",
+    "/service-areas/thousand-oaks-ca/storm-damage-restoration/",
+    "/blog/storm-damage-insurance-claim-checklist/"
+  ],
+  "/services/contents-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/fillmore-ca/contents-restoration/",
+    "/service-areas/ojai-ca/contents-restoration/",
+    "/service-areas/oxnard-ca/contents-restoration/",
+    "/service-areas/port-hueneme-ca/contents-restoration/",
+    "/service-areas/santa-paula-ca/contents-restoration/",
+    "/service-areas/simi-valley-ca/contents-restoration/",
+    "/service-areas/thousand-oaks-ca/contents-restoration/"
+  ],
+  "/services/crawl-space-encapsulation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/service-areas/ojai-ca/crawl-space-encapsulation/",
+    "/service-areas/oxnard-ca/crawl-space-encapsulation/",
+    "/service-areas/port-hueneme-ca/crawl-space-encapsulation/",
+    "/service-areas/santa-paula-ca/crawl-space-encapsulation/",
+    "/service-areas/simi-valley-ca/crawl-space-encapsulation/",
+    "/service-areas/thousand-oaks-ca/crawl-space-encapsulation/"
+  ],
+  "/services/water-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/fillmore-ca/water-cleanup/",
+    "/service-areas/ojai-ca/water-cleanup/",
+    "/service-areas/oxnard-ca/water-cleanup/",
+    "/service-areas/port-hueneme-ca/water-cleanup/",
+    "/service-areas/santa-paula-ca/water-cleanup/",
+    "/service-areas/simi-valley-ca/water-cleanup/",
+    "/service-areas/thousand-oaks-ca/water-cleanup/"
+  ],
+  "/service-areas/oxnard-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/oxnard-ca/mold-remediation/",
+    "/service-areas/oxnard-ca/water-damage-restoration/",
+    "/service-areas/oxnard-ca/storm-damage-restoration/",
+    "/service-areas/oxnard-ca/water-cleanup/",
+    "/service-areas/oxnard-ca/contents-restoration/",
+    "/service-areas/oxnard-ca/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/ojai-ca/"
+  ],
+  "/service-areas/thousand-oaks-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/thousand-oaks-ca/mold-remediation/",
+    "/service-areas/thousand-oaks-ca/water-damage-restoration/",
+    "/service-areas/thousand-oaks-ca/storm-damage-restoration/",
+    "/service-areas/thousand-oaks-ca/water-cleanup/",
+    "/service-areas/thousand-oaks-ca/contents-restoration/",
+    "/service-areas/thousand-oaks-ca/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/ojai-ca/"
+  ],
+  "/service-areas/simi-valley-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/simi-valley-ca/mold-remediation/",
+    "/service-areas/simi-valley-ca/water-damage-restoration/",
+    "/service-areas/simi-valley-ca/storm-damage-restoration/",
+    "/service-areas/simi-valley-ca/water-cleanup/",
+    "/service-areas/simi-valley-ca/contents-restoration/",
+    "/service-areas/simi-valley-ca/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/ojai-ca/"
+  ],
+  "/service-areas/camarillo-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/ojai-ca/",
+    "/service-areas/oxnard-ca/"
+  ],
+  "/service-areas/santa-paula-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/santa-paula-ca/mold-remediation/",
+    "/service-areas/santa-paula-ca/water-damage-restoration/",
+    "/service-areas/santa-paula-ca/storm-damage-restoration/",
+    "/service-areas/santa-paula-ca/water-cleanup/",
+    "/service-areas/santa-paula-ca/contents-restoration/",
+    "/service-areas/santa-paula-ca/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/ojai-ca/"
+  ],
+  "/service-areas/port-hueneme-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/port-hueneme-ca/mold-remediation/",
+    "/service-areas/port-hueneme-ca/water-damage-restoration/",
+    "/service-areas/port-hueneme-ca/storm-damage-restoration/",
+    "/service-areas/port-hueneme-ca/water-cleanup/",
+    "/service-areas/port-hueneme-ca/contents-restoration/",
+    "/service-areas/port-hueneme-ca/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/ojai-ca/"
+  ],
+  "/service-areas/ojai-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/ojai-ca/mold-remediation/",
+    "/service-areas/ojai-ca/water-damage-restoration/",
+    "/service-areas/ojai-ca/storm-damage-restoration/",
+    "/service-areas/ojai-ca/water-cleanup/",
+    "/service-areas/ojai-ca/contents-restoration/",
+    "/service-areas/ojai-ca/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/oxnard-ca/"
+  ],
+  "/service-areas/fillmore-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/water-cleanup/",
+    "/service-areas/fillmore-ca/contents-restoration/",
+    "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/ojai-ca/",
+    "/service-areas/oxnard-ca/"
+  ],
+  "/service-areas/oxnard-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/oxnard-ca/",
+    "/service-areas/oxnard-ca/mold-remediation/",
+    "/service-areas/oxnard-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oxnard-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/oxnard-ca/",
+    "/service-areas/oxnard-ca/water-damage-restoration/",
+    "/service-areas/oxnard-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/oxnard-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/oxnard-ca/",
+    "/service-areas/oxnard-ca/mold-remediation/",
+    "/service-areas/oxnard-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oxnard-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/oxnard-ca/",
+    "/service-areas/oxnard-ca/mold-remediation/",
+    "/service-areas/oxnard-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/fillmore-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oxnard-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/oxnard-ca/",
+    "/service-areas/oxnard-ca/mold-remediation/",
+    "/service-areas/oxnard-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/oxnard-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/oxnard-ca/",
+    "/service-areas/oxnard-ca/mold-remediation/",
+    "/service-areas/oxnard-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/fillmore-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/thousand-oaks-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/thousand-oaks-ca/",
+    "/service-areas/thousand-oaks-ca/mold-remediation/",
+    "/service-areas/thousand-oaks-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/thousand-oaks-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/thousand-oaks-ca/",
+    "/service-areas/thousand-oaks-ca/water-damage-restoration/",
+    "/service-areas/thousand-oaks-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/thousand-oaks-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/thousand-oaks-ca/",
+    "/service-areas/thousand-oaks-ca/mold-remediation/",
+    "/service-areas/thousand-oaks-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/thousand-oaks-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/thousand-oaks-ca/",
+    "/service-areas/thousand-oaks-ca/mold-remediation/",
+    "/service-areas/thousand-oaks-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/fillmore-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/thousand-oaks-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/thousand-oaks-ca/",
+    "/service-areas/thousand-oaks-ca/mold-remediation/",
+    "/service-areas/thousand-oaks-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/thousand-oaks-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/thousand-oaks-ca/",
+    "/service-areas/thousand-oaks-ca/mold-remediation/",
+    "/service-areas/thousand-oaks-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/fillmore-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/simi-valley-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/simi-valley-ca/",
+    "/service-areas/simi-valley-ca/mold-remediation/",
+    "/service-areas/simi-valley-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/simi-valley-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/simi-valley-ca/",
+    "/service-areas/simi-valley-ca/water-damage-restoration/",
+    "/service-areas/simi-valley-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/simi-valley-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/simi-valley-ca/",
+    "/service-areas/simi-valley-ca/mold-remediation/",
+    "/service-areas/simi-valley-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/simi-valley-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/simi-valley-ca/",
+    "/service-areas/simi-valley-ca/mold-remediation/",
+    "/service-areas/simi-valley-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/fillmore-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/simi-valley-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/simi-valley-ca/",
+    "/service-areas/simi-valley-ca/mold-remediation/",
+    "/service-areas/simi-valley-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/simi-valley-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/simi-valley-ca/",
+    "/service-areas/simi-valley-ca/mold-remediation/",
+    "/service-areas/simi-valley-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/fillmore-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/camarillo-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/service-areas/ojai-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/camarillo-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/service-areas/ojai-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/camarillo-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/service-areas/ojai-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/camarillo-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/contents-restoration/",
+    "/service-areas/ojai-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/camarillo-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/service-areas/ojai-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/camarillo-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/water-cleanup/",
+    "/service-areas/ojai-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/santa-paula-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/santa-paula-ca/",
+    "/service-areas/santa-paula-ca/mold-remediation/",
+    "/service-areas/santa-paula-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/santa-paula-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/santa-paula-ca/",
+    "/service-areas/santa-paula-ca/water-damage-restoration/",
+    "/service-areas/santa-paula-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/santa-paula-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/santa-paula-ca/",
+    "/service-areas/santa-paula-ca/mold-remediation/",
+    "/service-areas/santa-paula-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/santa-paula-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/santa-paula-ca/",
+    "/service-areas/santa-paula-ca/mold-remediation/",
+    "/service-areas/santa-paula-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/fillmore-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/santa-paula-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/santa-paula-ca/",
+    "/service-areas/santa-paula-ca/mold-remediation/",
+    "/service-areas/santa-paula-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/santa-paula-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/santa-paula-ca/",
+    "/service-areas/santa-paula-ca/mold-remediation/",
+    "/service-areas/santa-paula-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/fillmore-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/port-hueneme-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/port-hueneme-ca/",
+    "/service-areas/port-hueneme-ca/mold-remediation/",
+    "/service-areas/port-hueneme-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/port-hueneme-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/port-hueneme-ca/",
+    "/service-areas/port-hueneme-ca/water-damage-restoration/",
+    "/service-areas/port-hueneme-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/port-hueneme-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/port-hueneme-ca/",
+    "/service-areas/port-hueneme-ca/mold-remediation/",
+    "/service-areas/port-hueneme-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/port-hueneme-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/port-hueneme-ca/",
+    "/service-areas/port-hueneme-ca/mold-remediation/",
+    "/service-areas/port-hueneme-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/fillmore-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/port-hueneme-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/port-hueneme-ca/",
+    "/service-areas/port-hueneme-ca/mold-remediation/",
+    "/service-areas/port-hueneme-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/port-hueneme-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/port-hueneme-ca/",
+    "/service-areas/port-hueneme-ca/mold-remediation/",
+    "/service-areas/port-hueneme-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/fillmore-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ojai-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/ojai-ca/",
+    "/service-areas/ojai-ca/mold-remediation/",
+    "/service-areas/ojai-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ojai-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/ojai-ca/",
+    "/service-areas/ojai-ca/water-damage-restoration/",
+    "/service-areas/ojai-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/ojai-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/ojai-ca/",
+    "/service-areas/ojai-ca/mold-remediation/",
+    "/service-areas/ojai-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ojai-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/ojai-ca/",
+    "/service-areas/ojai-ca/mold-remediation/",
+    "/service-areas/ojai-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/fillmore-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ojai-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/ojai-ca/",
+    "/service-areas/ojai-ca/mold-remediation/",
+    "/service-areas/ojai-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/ojai-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/ojai-ca/",
+    "/service-areas/ojai-ca/mold-remediation/",
+    "/service-areas/ojai-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/fillmore-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/fillmore-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/ojai-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/fillmore-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/ojai-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/fillmore-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/ojai-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/fillmore-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/ojai-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/fillmore-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/ojai-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/fillmore-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/ojai-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/blog/what-to-do-first-24-hours-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/burst-pipe-emergency-checklist/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/does-homeowners-insurance-cover-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/signs-of-hidden-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/how-to-test-for-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/choosing-a-restoration-company/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/black-mold-vs-regular-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/blog/storm-damage-insurance-claim-checklist/": [
+    "/blog/",
+    "/services/storm-damage-restoration/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}

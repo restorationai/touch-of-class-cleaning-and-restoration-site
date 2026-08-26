@@ -1,0 +1,88 @@
+{
+ "brand": {
+  "display_name": "California Restoration West ",
+  "lat": 34.4458248,
+  "lng": -119.0779359,
+  "phone": "(805) 290-7292",
+  "email": "Californiarestorationwest@gmail.com.com",
+  "street_address": "363 mackay ave ",
+  "city": "Ventura ",
+  "state": "Ca",
+  "postal_code": "93004",
+  "theme": "light",
+  "certifications": [
+   "IICRC WRT (WATER)",
+   "IICRC AMRT (MOLD)",
+   "IICRC ASD (STRUCTURAL DRYING)",
+   "IICRC CERTIFIED FIRM",
+   "OSHA TRAINED"
+  ],
+  "hours": "24/7",
+  "licensed_insured_attested": true,
+  "founded_year": "2025",
+  "trust_badges": [
+   "IICRC Certified Firm",
+   "Licensed & Insured",
+   "24/7 Emergency Service",
+   "Locally Owned & Operated"
+  ]
+ },
+ "services": [
+  "water-damage-restoration",
+  "mold-remediation",
+  "storm-damage-restoration",
+  "contents-restoration",
+  "crawl-space-encapsulation",
+  "water-cleanup"
+ ],
+ "service_areas": [
+  {
+   "city": "Ventura",
+   "state": "CA",
+   "slug": "ventura-ca",
+   "primary": true
+  },
+  {
+   "city": "Oxnard",
+   "state": "CA",
+   "slug": "oxnard-ca"
+  },
+  {
+   "city": "Thousand Oaks",
+   "state": "CA",
+   "slug": "thousand-oaks-ca"
+  },
+  {
+   "city": "Simi Valley",
+   "state": "CA",
+   "slug": "simi-valley-ca"
+  },
+  {
+   "city": "Camarillo",
+   "state": "CA",
+   "slug": "camarillo-ca"
+  },
+  {
+   "city": "Santa Paula",
+   "state": "CA",
+   "slug": "santa-paula-ca"
+  },
+  {
+   "city": "Port Hueneme",
+   "state": "CA",
+   "slug": "port-hueneme-ca"
+  },
+  {
+   "city": "Ojai",
+   "state": "CA",
+   "slug": "ojai-ca"
+  },
+  {
+   "city": "Fillmore",
+   "state": "CA",
+   "slug": "fillmore-ca"
+  }
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
+}

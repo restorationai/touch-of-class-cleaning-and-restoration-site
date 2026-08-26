@@ -1,0 +1,34 @@
+---
+/**
+ * Service-areas hub grid — "Proudly Serving" clickable city tiles rendered
+ * above the prose on /service-areas/. Simple clean tiles (city + state), each
+ * a link to /service-areas/{slug}/. No images by design.
+ */
+import { MapPin } from '@lucide/astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { brand } from '~/lib/brand';
+
+const all = (await getCollection('serviceAreas')) as CollectionEntry<'serviceAreas'>[];
+const areas = all.sort((a, b) => {
+  if (a.data.primary && !b.data.primary) return -1;
+  if (!a.data.primary && b.data.primary) return 1;
+  return a.data.city.localeCompare(b.data.city);
+});
+---
+
+<section class="bg-white py-16 border-b border-dark/10">
+  <div class="container-wide">
+    <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-dark-900 mb-8">Proudly Serving the {brand.primaryCity} Area</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      {areas.map((area) => (
+        <a
+          href={`/service-areas/${area.data.area_slug}/`}
+          class="group flex items-center gap-3 border border-dark/15 bg-white px-4 py-4 shadow-sm no-underline hover:no-underline hover:border-primary-500 hover:bg-primary-50 transition-all"
+        >
+          <MapPin size={20} class="text-primary-500 shrink-0 group-hover:scale-110 transition-transform" />
+          <span class="text-dark-900 font-black uppercase tracking-tight text-sm leading-tight group-hover:text-primary-600 transition-colors">{area.data.city}, {area.data.state}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
