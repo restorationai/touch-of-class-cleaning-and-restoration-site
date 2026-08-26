@@ -201,7 +201,7 @@
     },
     {
       "id": "2026-07-27-how-much-does-a-plumber-cost-to-unclog-a-drain",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-27T20:50:00Z",
       "written_at": "2026-08-26T13:45:39Z",
       "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-to-unclog-a-drain/",
@@ -234,7 +234,8 @@
         "https://www.epa.gov/septic/septicsmart-homeowners"
       ],
       "notes": "Price by clog type (single fixture, branch line, main line, camera inspection, hydro jetting) rather than one number. Local hook: mature downtown tree canopy drives root-intruded laterals in Oleander, Westchester and East Bakersfield, which is why a repeat main-line clog becomes a sewer conversation. Complements the planned /blog/hydro-jetting-vs-snaking/ post: that one compares methods, this one prices them, so cross-link rather than restate.",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "published_verified_at": "2026-08-26T13:45:51Z"
     },
     {
       "id": "2026-07-30-air-conditioner-not-cooling",

@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-08-26-water-damage-restoration-cost-sd",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-26T14:38:58Z",
       "priority": 1,
       "prioritized": true,
@@ -29,7 +29,8 @@
       ],
       "source": "best-of-seeder",
       "written_at": "2026-08-26T14:48:28Z",
-      "post_url": "https://crew3r.com/blog/water-damage-restoration-cost-sd/"
+      "post_url": "https://crew3r.com/blog/water-damage-restoration-cost-sd/",
+      "published_verified_at": "2026-08-26T14:48:38Z"
     },
     {
       "id": "2026-08-07-best-water-damage-restoration-in-sioux-falls-sd",

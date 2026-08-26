@@ -1,6 +1,6 @@
 {
   "slug": "davis-construction",
-  "generated_at": "2026-07-30T18:37:25Z",
+  "generated_at": "2026-08-26T14:01:07Z",
   "truth": {
     "hours": "Monday\u2013Friday, 8:00 AM \u2013 5:00 PM",
     "is_247": false,
@@ -13,9 +13,63 @@
     "gbp_review_count": null,
     "vertical": "construction"
   },
-  "errors": 0,
+  "errors": 6,
   "review_flags": 37,
   "violations": [
+    {
+      "file": "src/content/blog/best-home-remodeling-company-in-madison-al.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "71 reviews",
+      "context": "doesn't tell the full story. A 5.0 from 71 reviews is meaningful. A 3.8 from 9 reviews is",
+      "reason": "claims 71 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-home-remodeling-company-in-madison-al.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "9 reviews",
+      "context": "om 71 reviews is meaningful. A 3.8 from 9 reviews is a small sample. And a franchise oper",
+      "reason": "claims 9 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-home-remodeling-company-in-madison-al.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "108 reviews",
+      "context": "nt LLC** has the largest review base at 108 reviews and a 4.8 rating, which suggests consis",
+      "reason": "claims 108 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-home-remodeling-company-in-madison-al.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "71 reviews",
+      "context": "Remodeling** holds a perfect 5.0 across 71 reviews. Perfect scores on a meaningful sample",
+      "reason": "claims 71 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-home-remodeling-company-in-madison-al.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "28 reviews",
+      "context": "is a franchise model with a 4.5 across 28 reviews. Franchise operations often have struct",
+      "reason": "claims 28 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-home-remodeling-company-in-madison-al.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "9 reviews",
+      "context": "One Remodeling** sits at 3.8 with only 9 reviews. That's too small a sample to draw conc",
+      "reason": "claims 9 reviews but no synced gbpReviewCount exists for this site"
+    },
     {
       "file": "src/content/blog/choosing-a-restoration-company.md",
       "part": "frontmatter",

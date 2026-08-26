@@ -1,6 +1,6 @@
 {
   "slug": "flood-fixers",
-  "generated_at": "2026-07-30T18:37:25Z",
+  "generated_at": "2026-08-26T14:01:07Z",
   "truth": {
     "hours": "24/7 Emergency Service",
     "is_247": true,
@@ -17,7 +17,7 @@
     "vertical": "restoration"
   },
   "errors": 0,
-  "review_flags": 139,
+  "review_flags": 133,
   "violations": [
     {
       "file": "src/content/blog/burst-pipe-emergency-checklist.md",
@@ -881,60 +881,6 @@
       "severity": "review",
       "matched": "mold remediation",
       "context": "r damage extraction, structural drying, mold remediation, fire and smoke cleanup, and full recon",
-      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
-    },
-    {
-      "file": "src/content/serviceAreas/san-diego-ca.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire and smoke damage",
-      "context": "nd structural drying, mold remediation, fire and smoke damage cleanup, and full reconstruction \\u2014",
-      "reason": "names the 'fire' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
-    },
-    {
-      "file": "src/content/serviceAreas/san-diego-ca.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "storm damage restoration",
-      "context": "go, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
-      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
-    },
-    {
-      "file": "src/content/serviceAreas/san-diego-ca.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "mold remediation",
-      "context": "amage extraction and structural drying, mold remediation, fire and smoke damage cleanup, and ful",
-      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
-    },
-    {
-      "file": "src/content/serviceAreas/san-diego-ca.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "Fire and smoke damage",
-      "context": "e before reconstruction can begin. ### Fire and smoke damage restoration After a kitchen fire or a",
-      "reason": "names the 'fire' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
-    },
-    {
-      "file": "src/content/serviceAreas/san-diego-ca.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "smoke damage restoration",
-      "context": "reconstruction can begin. ### Fire and smoke damage restoration After a kitchen fire or a wildfire-smo",
-      "reason": "names the 'fire' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
-    },
-    {
-      "file": "src/content/serviceAreas/san-diego-ca.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "mold remediation",
-      "context": "le water extraction, structural drying, mold remediation, fire and smoke cleanup, and full recon",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {

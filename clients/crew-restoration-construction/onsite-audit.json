@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "slug": "crew-restoration-construction",
+  "site": "crew3r.com",
+  "live_origin": "https://crew3r.com",
+  "live_origin_source": "apex",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-08-26T14:55:00Z",
+  "lighthouse_version": "13.4.0",
+  "environment_caveats": [
+    "Audited the apex production domain https://crew3r.com. The client record has no apex_cutover.completed_at key, but it does carry cut_over_at 2026-08-08 with the note 'crew3r.com live 08-08'; the apex returns HTTP 200 on all six URLs and carries no x-robots-tag: noindex, while the staging Pages preview does. Apex is therefore the correct origin and the Step 4 staging SEO-exclusion correction does NOT apply. All four Lighthouse categories count toward the verdicts.",
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240, rttMs=40). Mobile scores would typically land 10-20 performance points lower. Do not read these as mobile-first scores.",
+    "Client record status is 'onboarding', not 'active'. Proceeded because build_status is pushed_main and all six URLs returned HTTP 200, so the site is live and auditable. The status field looks stale relative to the 2026-08-08 cutover and is worth correcting.",
+    "The named MCP tools on_page_lighthouse and on_page_instant_pages are not exposed by this DataForSEO MCP build. Used authenticated REST calls to /v3/on_page/lighthouse/live/json and /v3/on_page/instant_pages, piped to disk. Equivalent data, same cost basis.",
+    "DataForSEO reports has_micromarkup_errors: true on all five URLs that carry BreadcrumbList plus FAQPage markup, and false on the homepage, which carries neither. The vendor does not expose the error text on the instant_pages endpoint (the microdata endpoint requires a full crawl task, out of scope for this run). Manual inspection of the rendered JSON-LD shows every block parses and the only structural defect unique to those five pages is the terminal BreadcrumbList ListItem having no item property. Reported as a medium schema-validation issue on that basis.",
+    "The DataForSEO 'frame' check fires on /service-areas/brookings-sd/. The page contains one <iframe> (map embed) and zero <frame>/<frameset> elements. Treated as a vendor false positive and NOT reported as an issue.",
+    "DataForSEO has_render_blocking_resources and high_loading_time fired on several URLs but are not in the Step 3 on-page check list; the same ground is covered by the Lighthouse render-blocking-insight and LCP audits, so they are not double-counted as on-page issues."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://crew3r.com/",
+      "url_path": "/",
+      "archetype": "home",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 577,
+        "CLS": 0.0058,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 294,
+        "SI_ms": 313
+      },
+      "onpage_score": 92.95,
+      "http_status": 200,
+      "page_facts": {
+        "title": "Crew | Restoration Services in Sioux Falls, SD",
+        "title_length": 46,
+        "description_length": 151,
+        "h1": [
+          "Restoration Services in Sioux Falls"
+        ],
+        "canonical": "https://crew3r.com/",
+        "word_count": 1360,
+        "target_word_count": 1200,
+        "images_count": 3,
+        "images_size": 330497,
+        "internal_links": 66,
+        "external_links": 1,
+        "render_blocking_scripts": 1,
+        "render_blocking_stylesheets": 1,
+        "scripts_size": 35101,
+        "stylesheets_size": 49439,
+        "total_transfer_size": 14883,
+        "has_micromarkup": true,
+        "has_micromarkup_errors": false,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 2,
+          "display_value": "Est savings of 120\u00a0KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 3,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 0\u00a0KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML ratio",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://crew3r.com/services/",
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 854,
+        "CLS": 0.002,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 369,
+        "SI_ms": 369
+      },
+      "onpage_score": 100,
+      "http_status": 200,
+      "page_facts": {
+        "title": "Restoration Services in Sioux Falls | Crew",
+        "title_length": 42,
+        "description_length": 145,
+        "h1": [
+          "Our Restoration Services"
+        ],
+        "canonical": "https://crew3r.com/services/",
+        "word_count": 804,
+        "target_word_count": 800,
+        "images_count": 15,
+        "images_size": 684593,
+        "internal_links": 36,
+        "external_links": 0,
+        "render_blocking_scripts": 1,
+        "render_blocking_stylesheets": 1,
+        "scripts_size": 35101,
+        "stylesheets_size": 49439,
+        "total_transfer_size": 9547,
+        "has_micromarkup": true,
+        "has_micromarkup_errors": true,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "affected_elements": 1,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 2,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 3,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 0\u00a0KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 11,
+          "display_value": "Est savings of 140\u00a0KiB"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup has validation errors",
+          "severity": "medium"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML ratio",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://crew3r.com/services/water-damage-restoration/",
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 807,
+        "CLS": 0.0029,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 340,
+        "SI_ms": 363
+      },
+      "onpage_score": 92.95,
+      "http_status": 200,
+      "page_facts": {
+        "title": "Water Damage Restoration in Sioux Falls | Crew",
+        "title_length": 46,
+        "description_length": 111,
+        "h1": [
+          "Water Damage Restoration in Sioux Falls"
+        ],
+        "canonical": "https://crew3r.com/services/water-damage-restoration/",
+        "word_count": 1883,
+        "target_word_count": 1100,
+        "images_count": 2,
+        "images_size": 265223,
+        "internal_links": 46,
+        "external_links": 0,
+        "render_blocking_scripts": 1,
+        "render_blocking_stylesheets": 1,
+        "scripts_size": 35101,
+        "stylesheets_size": 49439,
+        "total_transfer_size": 13333,
+        "has_micromarkup": true,
+        "has_micromarkup_errors": true,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "affected_elements": 3,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 2,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 3,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 0\u00a0KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 2,
+          "display_value": "Est savings of 137\u00a0KiB"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup has validation errors",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://crew3r.com/services/fire-damage-restoration/",
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 802,
+        "CLS": 0.0029,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 305,
+        "SI_ms": 305
+      },
+      "onpage_score": 100,
+      "http_status": 200,
+      "page_facts": {
+        "title": "Fire Damage Restoration in Sioux Falls | Crew",
+        "title_length": 45,
+        "description_length": 110,
+        "h1": [
+          "Fire Damage Restoration in Sioux Falls"
+        ],
+        "canonical": "https://crew3r.com/services/fire-damage-restoration/",
+        "word_count": 1849,
+        "target_word_count": 1100,
+        "images_count": 2,
+        "images_size": 180227,
+        "internal_links": 46,
+        "external_links": 0,
+        "render_blocking_scripts": 1,
+        "render_blocking_stylesheets": 1,
+        "scripts_size": 3489,
+        "stylesheets_size": 49439,
+        "total_transfer_size": 13201,
+        "has_micromarkup": true,
+        "has_micromarkup_errors": true,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "affected_elements": 3,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 2,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 3,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 0\u00a0KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 76\u00a0KiB"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup has validation errors",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://crew3r.com/service-areas/brookings-sd/",
+      "url_path": "/service-areas/brookings-sd/",
+      "archetype": "service-area",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 560,
+        "CLS": 0.0029,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 283,
+        "SI_ms": 287
+      },
+      "onpage_score": 100,
+      "http_status": 200,
+      "page_facts": {
+        "title": "Restoration Services in Brookings, SD | Crew",
+        "title_length": 44,
+        "description_length": 114,
+        "h1": [
+          "Restoration Services in Brookings"
+        ],
+        "canonical": "https://crew3r.com/service-areas/brookings-sd/",
+        "word_count": 1336,
+        "target_word_count": 900,
+        "images_count": 2,
+        "images_size": 176791,
+        "internal_links": 44,
+        "external_links": 1,
+        "render_blocking_scripts": 1,
+        "render_blocking_stylesheets": 1,
+        "scripts_size": 3489,
+        "stylesheets_size": 49439,
+        "total_transfer_size": 10711,
+        "has_micromarkup": true,
+        "has_micromarkup_errors": true,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 76\u00a0KiB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "affected_elements": 5,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 2,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 3,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 0\u00a0KiB"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup has validation errors",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://crew3r.com/contact/",
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 492,
+        "CLS": 0.0048,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 290,
+        "SI_ms": 292
+      },
+      "onpage_score": 92.95,
+      "http_status": 200,
+      "page_facts": {
+        "title": "Contact Crew | Restoration in Sioux Falls",
+        "title_length": 41,
+        "description_length": 124,
+        "h1": [
+          "Contact Crew Restoration & Construction"
+        ],
+        "canonical": "https://crew3r.com/contact/",
+        "word_count": 639,
+        "target_word_count": 400,
+        "images_count": 2,
+        "images_size": 176791,
+        "internal_links": 31,
+        "external_links": 0,
+        "render_blocking_scripts": 1,
+        "render_blocking_stylesheets": 1,
+        "scripts_size": 35101,
+        "stylesheets_size": 49439,
+        "total_transfer_size": 9635,
+        "has_micromarkup": true,
+        "has_micromarkup_errors": true,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "affected_elements": 1,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 2,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 3,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 0\u00a0KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 2,
+          "display_value": "Est savings of 115\u00a0KiB"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup has validation errors",
+          "severity": "medium"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.8,
+      "accessibility": 96.3,
+      "best_practices": 100.0,
+      "seo": 100.0
+    },
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 1,
+      "amber": 5,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "high",
+        "source": "lighthouse",
+        "urls": [
+          "/",
+          "/services/",
+          "/services/water-damage-restoration/",
+          "/services/fire-damage-restoration/",
+          "/service-areas/brookings-sd/",
+          "/contact/"
+        ]
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 6,
+        "severity": "high",
+        "source": "lighthouse",
+        "urls": [
+          "/",
+          "/services/",
+          "/services/water-damage-restoration/",
+          "/services/fire-damage-restoration/",
+          "/service-areas/brookings-sd/",
+          "/contact/"
+        ]
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "affected_urls": 6,
+        "severity": "medium",
+        "source": "lighthouse",
+        "urls": [
+          "/",
+          "/services/",
+          "/services/water-damage-restoration/",
+          "/services/fire-damage-restoration/",
+          "/service-areas/brookings-sd/",
+          "/contact/"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 5,
+        "severity": "high",
+        "source": "lighthouse",
+        "urls": [
+          "/services/",
+          "/services/water-damage-restoration/",
+          "/services/fire-damage-restoration/",
+          "/service-areas/brookings-sd/",
+          "/contact/"
+        ]
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "high",
+        "source": "lighthouse",
+        "urls": [
+          "/services/",
+          "/services/water-damage-restoration/",
+          "/services/fire-damage-restoration/",
+          "/service-areas/brookings-sd/",
+          "/contact/"
+        ]
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "Schema.org markup has validation errors",
+        "affected_urls": 5,
+        "severity": "medium",
+        "source": "dataforseo_onpage",
+        "urls": [
+          "/services/",
+          "/services/water-damage-restoration/",
+          "/services/fire-damage-restoration/",
+          "/service-areas/brookings-sd/",
+          "/contact/"
+        ]
+      },
+      {
+        "id": "low_content_rate",
+        "title": "Low text-to-HTML ratio",
+        "affected_urls": 2,
+        "severity": "low",
+        "source": "dataforseo_onpage",
+        "urls": [
+          "/",
+          "/services/"
+        ]
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://crew3r.com/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "accessibility 95 (breadcrumb link contrast), BreadcrumbList schema validation error"
+      },
+      {
+        "url": "https://crew3r.com/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "accessibility 96 (3 low-contrast nav/CTA elements), BreadcrumbList schema validation error"
+      },
+      {
+        "url": "https://crew3r.com/services/fire-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "accessibility 96 (3 low-contrast nav/CTA elements), BreadcrumbList schema validation error"
+      },
+      {
+        "url": "https://crew3r.com/contact/",
+        "archetype": "contact",
+        "verdict": "amber",
+        "main_issue": "accessibility 96 (breadcrumb link contrast), BreadcrumbList schema validation error"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First onsite audit for this client. No prior clients/crew-restoration-construction/onsite-audit.json existed, so regression detection was skipped."
+  }
+}

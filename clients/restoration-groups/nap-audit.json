@@ -1,0 +1,104 @@
+{
+  "slug": "restoration-groups",
+  "checked_at": "2026-08-26T14:01:05.175046+00:00",
+  "canonical": {
+    "name": "The Restoration Group",
+    "phone": "(855) 650-7422",
+    "street_address": "500 S 31st St",
+    "city": "Kenilworth",
+    "state": "NJ",
+    "postal_code": "07033",
+    "domain": "therestorationgroup.com"
+  },
+  "results": [
+    {
+      "platform": "google-maps",
+      "url": "https://www.google.com/maps?cid=8008820373441604497",
+      "source": "dataforseo maps live",
+      "status": "ok",
+      "found_name": "Elite Restoration Group",
+      "found_phone": "(855) 650-7422",
+      "found_address": "500 S 31st St, Kenilworth, NJ 07033",
+      "name_match": true,
+      "phone_match": true,
+      "address_match": true
+    },
+    {
+      "platform": "gbp-profile",
+      "source": "marketing_gbp_profiles",
+      "status": "not_found",
+      "notes": "no marketing_gbp_profiles row"
+    },
+    {
+      "platform": "angi",
+      "url": "https://www.angi.com/companylist/us/il/chicago/blackstone-restoration-group%2Cinc-reviews-7833358.htm",
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [],
+      "phone_match": null,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
+    },
+    {
+      "platform": "yelp",
+      "url": "https://www.yelp.com/biz/the-restoration-group-highland-park",
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [
+        "(973) 587-2139"
+      ],
+      "phone_match": false,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); canonical phone absent; page shows (973) 587-2139; canonical street address not found on page"
+    },
+    {
+      "platform": "houzz",
+      "url": "https://www.houzz.com/professionals/general-contractors/north-jersey-restoration-group-pfvwus-pf~1892966983",
+      "status": "ok",
+      "fetch": "http",
+      "phones_found": [
+        "(888) 316-4595",
+        "(551) 367-9420",
+        "(800) 340-9610",
+        "(888) 610-7168",
+        "(888) 316-6960",
+        "(714) 689-6633"
+      ],
+      "phone_match": false,
+      "address_match": false,
+      "notes": "canonical phone absent; page shows (888) 316-4595, (551) 367-9420, (800) 340-9610"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/KenilworthTAP/posts/mike-young-from-the-restoration-group-located-in-kenilworth-was-honored-with-the/879540930853556/",
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [],
+      "phone_match": null,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
+    }
+  ],
+  "duplicates": [],
+  "mismatches": [
+    {
+      "kind": "phone",
+      "platform": "yelp",
+      "target": "https://www.yelp.com/biz/the-restoration-group-highland-park",
+      "title": "Fix wrong phone number on yelp"
+    },
+    {
+      "kind": "phone",
+      "platform": "houzz",
+      "target": "https://www.houzz.com/professionals/general-contractors/north-jersey-restoration-group-pfvwus-pf~1892966983",
+      "title": "Fix wrong phone number on houzz"
+    },
+    {
+      "kind": "address",
+      "platform": "houzz",
+      "target": "https://www.houzz.com/professionals/general-contractors/north-jersey-restoration-group-pfvwus-pf~1892966983",
+      "title": "Fix address on houzz"
+    }
+  ],
+  "actions_upserted": 0
+}

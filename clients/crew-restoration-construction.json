@@ -13,7 +13,7 @@
     "url_count": 664,
     "generated_at": "2026-07-26T16:11:25.485538+00:00"
   },
-  "updated_at": "2026-08-19T03:05:43.400852+00:00",
+  "updated_at": "2026-08-26T14:55:00Z",
   "build": {
     "scaffolded_at": "2026-07-26T06:51:44.253391+00:00",
     "github_repo": "restorationai/crew-restoration-construction-site",
@@ -23,9 +23,9 @@
     "pages_status": "created",
     "last_rendered_at": "2026-07-26T16:47:36.711100+00:00",
     "last_pushed_staging_at": "2026-08-19T03:05:43.400819+00:00",
-    "last_pushed_main_at": "2026-08-19T03:04:53.487803+00:00"
+    "last_pushed_main_at": "2026-08-26T14:48:37.008456+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "indexnow_key": "bedc968faa1a4b2ba63dc60541a475c5",
   "cut_over_at": "2026-08-08T00:00:00+00:00",
   "cut_over_note": "crew3r.com live 08-08",
@@ -48,5 +48,14 @@
       "evidence": "branding/CO-1785003272145/docs/dba/sioux-city-dba-filing-2026-08-12.jpg (Kyle's texted photo, refiled from job-photos)",
       "next": "address confirm -> GBP listing create via API -> owner does Google verification (video/postcard) -> site location section + citations"
     }
+  },
+  "audit": {
+    "last_audit_at": "2026-08-26T14:55:00Z",
+    "last_audit_verdict": "amber",
+    "last_audit_report_path": "audit-runs/2026-08-26-onsite-audit.md",
+    "last_audit_origin": "https://crew3r.com",
+    "last_audit_origin_source": "apex",
+    "last_audit_form_factor": "desktop",
+    "last_audit_url_count": 6
   }
 }

@@ -1,0 +1,766 @@
+{
+  "schema_version": 1,
+  "slug": "coastal-restoration-services",
+  "site": "staging.rankai-coastal-restoration-services.pages.dev",
+  "live_origin": "https://staging.rankai-coastal-restoration-services.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-08-26T14:37:01Z",
+  "environment_caveats": [
+    "Audited the Cloudflare Pages staging preview because clients/coastal-restoration-services.json has domain: null and no apex_cutover.completed_at. Verified x-robots-tag: noindex is present on the preview, so the Lighthouse SEO category (69 on every URL, is-crawlable scoring 0) is inconclusive and was excluded from all verdicts. Re-audit after apex cutover.",
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically land 10-20 performance points lower. Do not read these as mobile-first scores.",
+    "DataForSEO on-page reports has_micromarkup: false on all six URLs. Manually verified against the rendered HTML that JSON-LD IS present (Organization, WebSite, LocalBusiness, Service, FAQPage, BreadcrumbList). Treated as a vendor false negative for JSON-LD and NOT reported as a missing-schema issue.",
+    "The named MCP tools on_page_lighthouse and on_page_instant_pages are not exposed by this DataForSEO MCP build. Used authenticated REST calls to /v3/on_page/lighthouse/live/json and /v3/on_page/instant_pages, piped to disk. Equivalent data, same cost basis.",
+    "Client record status is 'onboarding', not 'active'. Proceeded because build_status is pushed_main and all six URLs returned HTTP 200, so the site is live and auditable.",
+    "Issue IDs prefixed rankai_ are Rank AI derived checks, not Lighthouse or DataForSEO audit IDs. All unprefixed IDs are genuine vendor IDs."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/",
+      "url_path": "/",
+      "archetype": "home",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 92,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 836,
+        "CLS": 0.0027,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 11,
+          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 83127,
+          "failing_elements": 2,
+          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 8998,
+          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 183,
+          "category": "performance",
+          "detail": "Longest critical request chain 183ms (document then CSS/JS)."
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "info",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "excluded_from_verdict": true,
+          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical URL resolves to an invalid host: https://none/",
+          "severity": "high",
+          "source": "dataforseo_onpage",
+          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
+        },
+        {
+          "id": "rankai_jsonld_invalid_entity_id",
+          "title": "JSON-LD @id and url properties point to https://None",
+          "severity": "high",
+          "source": "rankai_derived",
+          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/",
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 90,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 840,
+        "CLS": 0.002,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 9,
+          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 243933,
+          "failing_elements": 12,
+          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 9052,
+          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 146,
+          "category": "performance",
+          "detail": "Longest critical request chain 146ms (document then CSS/JS)."
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "LCP hero image is missing fetchpriority=\"high\"."
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "info",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "excluded_from_verdict": true,
+          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical URL resolves to an invalid host: https://none/services/",
+          "severity": "high",
+          "source": "dataforseo_onpage",
+          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
+        },
+        {
+          "id": "rankai_jsonld_invalid_entity_id",
+          "title": "JSON-LD @id and url properties point to https://None",
+          "severity": "high",
+          "source": "rankai_derived",
+          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+        },
+        {
+          "id": "rankai_wrong_primary_city_in_metadata",
+          "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
+          "severity": "high",
+          "source": "rankai_derived",
+          "detail": "Renderer substitutes service_areas[0] (Vandenberg Village) rather than the entry flagged primary: true (Santa Maria). Contradicts the approved url-plan."
+        },
+        {
+          "id": "low_character_count",
+          "title": "Word count 790 is below the planned target 800",
+          "severity": "low",
+          "source": "dataforseo_onpage",
+          "detail": "Rendered 790 words against a url-plan target of 800."
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/water-damage-restoration/",
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 791,
+        "CLS": 0.003,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 10,
+          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 66307,
+          "failing_elements": 1,
+          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 8996,
+          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 149,
+          "category": "performance",
+          "detail": "Longest critical request chain 149ms (document then CSS/JS)."
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "LCP hero image is missing fetchpriority=\"high\"."
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "info",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "excluded_from_verdict": true,
+          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical URL resolves to an invalid host: https://none/services/water-damage-restoration/",
+          "severity": "high",
+          "source": "dataforseo_onpage",
+          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
+        },
+        {
+          "id": "rankai_jsonld_invalid_entity_id",
+          "title": "JSON-LD @id and url properties point to https://None",
+          "severity": "high",
+          "source": "rankai_derived",
+          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+        },
+        {
+          "id": "rankai_wrong_primary_city_in_metadata",
+          "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
+          "severity": "high",
+          "source": "rankai_derived",
+          "detail": "Renderer substitutes service_areas[0] (Vandenberg Village) rather than the entry flagged primary: true (Santa Maria). Contradicts the approved url-plan."
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/fire-damage-restoration/",
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 784,
+        "CLS": 0.003,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 10,
+          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 66307,
+          "failing_elements": 1,
+          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 9002,
+          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 193,
+          "category": "performance",
+          "detail": "Longest critical request chain 193ms (document then CSS/JS)."
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "LCP hero image is missing fetchpriority=\"high\"."
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "info",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "excluded_from_verdict": true,
+          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical URL resolves to an invalid host: https://none/services/fire-damage-restoration/",
+          "severity": "high",
+          "source": "dataforseo_onpage",
+          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
+        },
+        {
+          "id": "rankai_jsonld_invalid_entity_id",
+          "title": "JSON-LD @id and url properties point to https://None",
+          "severity": "high",
+          "source": "rankai_derived",
+          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+        },
+        {
+          "id": "rankai_wrong_primary_city_in_metadata",
+          "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
+          "severity": "high",
+          "source": "rankai_derived",
+          "detail": "Renderer substitutes service_areas[0] (Vandenberg Village) rather than the entry flagged primary: true (Santa Maria). Contradicts the approved url-plan."
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/service-areas/vandenberg-village-ca/",
+      "url_path": "/service-areas/vandenberg-village-ca/",
+      "archetype": "service-area",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 781,
+        "CLS": 0.0236,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 24,
+          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 135944,
+          "failing_elements": 2,
+          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 8994,
+          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 143,
+          "category": "performance",
+          "detail": "Longest critical request chain 143ms (document then CSS/JS)."
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "LCP hero image is missing fetchpriority=\"high\"."
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "info",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "excluded_from_verdict": true,
+          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical URL resolves to an invalid host: https://none/service-areas/vandenberg-village-ca/",
+          "severity": "high",
+          "source": "dataforseo_onpage",
+          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
+        },
+        {
+          "id": "rankai_jsonld_invalid_entity_id",
+          "title": "JSON-LD @id and url properties point to https://None",
+          "severity": "high",
+          "source": "rankai_derived",
+          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+        },
+        {
+          "id": "frame",
+          "title": "Page embeds a frame/iframe",
+          "severity": "low",
+          "source": "dataforseo_onpage",
+          "detail": "Google Maps embed. Already loading=lazy; informational only."
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/contact/",
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 92,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 829,
+        "CLS": 0.002,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 10,
+          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 194482,
+          "failing_elements": 2,
+          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 9000,
+          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 244,
+          "category": "performance",
+          "detail": "Longest critical request chain 244ms (document then CSS/JS)."
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "LCP hero image is missing fetchpriority=\"high\"."
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "info",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "excluded_from_verdict": true,
+          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical URL resolves to an invalid host: https://none/contact/",
+          "severity": "high",
+          "source": "dataforseo_onpage",
+          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
+        },
+        {
+          "id": "rankai_jsonld_invalid_entity_id",
+          "title": "JSON-LD @id and url properties point to https://None",
+          "severity": "high",
+          "source": "rankai_derived",
+          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+        },
+        {
+          "id": "rankai_wrong_primary_city_in_metadata",
+          "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
+          "severity": "high",
+          "source": "rankai_derived",
+          "detail": "Renderer substitutes service_areas[0] (Vandenberg Village) rather than the entry flagged primary: true (Santa Maria). Contradicts the approved url-plan."
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.5,
+      "accessibility": 91.2,
+      "best_practices": 100.0,
+      "seo": 69.0
+    },
+    "verdict": "red",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 0,
+      "red": 6,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "canonical",
+        "title": "Canonical URL resolves to an invalid host: https://none/",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "rankai_jsonld_invalid_entity_id",
+        "title": "JSON-LD @id and url properties point to https://None",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "target-size",
+        "title": "Touch targets do not have sufficient size or spacing.",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "rankai_wrong_primary_city_in_metadata",
+        "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
+        "affected_urls": 4,
+        "severity": "high"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-coastal-restoration-services.pages.dev/",
+        "archetype": "home",
+        "verdict": "red",
+        "main_issue": "Canonical URL resolves to an invalid host: https://none/; JSON-LD @id and url properties point to https://None"
+      },
+      {
+        "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "red",
+        "main_issue": "Canonical URL resolves to an invalid host: https://none/services/; JSON-LD @id and url properties point to https://None"
+      },
+      {
+        "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "Canonical URL resolves to an invalid host: https://none/services/water-damage-restoration/; JSON-LD @id and url properties point to https://None"
+      },
+      {
+        "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/fire-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "Canonical URL resolves to an invalid host: https://none/services/fire-damage-restoration/; JSON-LD @id and url properties point to https://None"
+      },
+      {
+        "url": "https://staging.rankai-coastal-restoration-services.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "red",
+        "main_issue": "Canonical URL resolves to an invalid host: https://none/contact/; JSON-LD @id and url properties point to https://None"
+      }
+    ],
+    "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover"
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  }
+}

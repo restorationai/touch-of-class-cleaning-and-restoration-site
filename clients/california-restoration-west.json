@@ -13,7 +13,7 @@
     "url_count": 79,
     "generated_at": "2026-08-26T01:45:01.950245+00:00"
   },
-  "updated_at": "2026-08-26T01:45:16.022857+00:00",
+  "updated_at": "2026-08-26T14:06:49.536397+00:00",
   "indexnow_key": "083b7bb2c77745718e103e96051292a9",
   "build": {
     "scaffolded_at": "2026-08-26T01:45:16.022751+00:00",
@@ -22,9 +22,10 @@
     "starter_version": "0.1.0",
     "url_count": 79,
     "pages_status": "created",
-    "last_rendered_at": "2026-08-26T02:00:06.782932+00:00"
+    "last_rendered_at": "2026-08-26T02:00:06.782932+00:00",
+    "last_pushed_main_at": "2026-08-26T14:06:49.536381+00:00"
   },
-  "build_status": "content_rendered",
+  "build_status": "pushed_main",
   "cutover_prep": {
     "domain": "californiarestorationwest.com",
     "harvested_at": "2026-08-26T06:46:43+00:00",

@@ -1,6 +1,6 @@
 {
   "slug": "flood-fixers",
-  "checked_at": "2026-07-06T18:41:52.543471+00:00",
+  "checked_at": "2026-08-26T13:48:20.339324+00:00",
   "canonical": {
     "name": "Flood Fixers",
     "phone": "(855) 204-1124",
@@ -15,14 +15,63 @@
       "platform": "google-maps",
       "url": null,
       "source": "dataforseo maps live",
-      "status": "error",
-      "notes": "maps lookup failed: Invalid Field: 'location_coordinate'."
+      "status": "ok",
+      "found_name": "Flood Fixers",
+      "found_phone": "(855) 204-1124",
+      "found_address": "1320 Grand Ave #20, San Marcos, CA 92078",
+      "name_match": true,
+      "phone_match": true,
+      "address_match": null
     },
     {
       "platform": "gbp-profile",
       "source": "marketing_gbp_profiles",
-      "status": "not_found",
-      "notes": "no marketing_gbp_profiles row"
+      "status": "ok",
+      "found_name": "Flood Fixers",
+      "found_phone": "(855) 204-1124",
+      "found_address": "1320 Grand Avenue #20, San Marcos, CA, 92078",
+      "name_match": true,
+      "phone_match": true,
+      "address_match": null
+    },
+    {
+      "platform": "yelp",
+      "url": "https://m.yelp.com/biz/flood-fixers-san-diego",
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+    },
+    {
+      "platform": "houzz",
+      "url": "https://www.houzz.com/professionals/environmental-services-and-restoration/flood-fixers-pfvwus-pf~190107846",
+      "status": "ok",
+      "fetch": "http",
+      "phones_found": [
+        "(888) 316-4595",
+        "(855) 204-1124",
+        "(800) 340-9610",
+        "(888) 610-7168",
+        "(888) 316-6960",
+        "(714) 689-6633"
+      ],
+      "phone_match": true,
+      "address_match": null,
+      "notes": "canonical street address not found on page"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/61589997593516",
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 400; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+    },
+    {
+      "platform": "bing_places",
+      "url": "https://www.bing.com/maps?ss=ypid.YN98B76BD2E3E0D8A0",
+      "status": "ok",
+      "fetch": "http",
+      "phones_found": [],
+      "phone_match": null,
+      "address_match": null,
+      "notes": "no phone number found on page; canonical street address not found on page"
     }
   ],
   "duplicates": [],
