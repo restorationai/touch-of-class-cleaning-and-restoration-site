@@ -1,0 +1,103 @@
+{
+ "domain": "californiarestorationwest.com",
+ "harvested_at": "2026-08-26T06:46:43+00:00",
+ "counts": {
+  "total": 10,
+  "sitemap": 9,
+  "crawl": 0,
+  "backlinked": 1,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://californiarestorationwest.com/",
+   "path": "/",
+   "title": "",
+   "backlinks": 20,
+   "referring_domains": 19,
+   "gsc_clicks": 0,
+   "source": "backlinks"
+  },
+  {
+   "url": "https://californiarestorationwest.com/about",
+   "path": "/about",
+   "title": "About | Discover Innovation \u2014 Get Started Today \u2014 CAlifornia REstoration west",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://californiarestorationwest.com/appointments",
+   "path": "/appointments",
+   "title": "Appointments | Book Your Appointment Today \u2014 CAlifornia REstoration west",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://californiarestorationwest.com/contact",
+   "path": "/contact",
+   "title": "Contact | Get In Touch Today \u2014 CAlifornia REstoration west",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://californiarestorationwest.com/home",
+   "path": "/home",
+   "title": "CAlifornia REstoration west | Restore Today \u2013 Get Expert Help",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://californiarestorationwest.com/services-store",
+   "path": "/services-store",
+   "title": "Store 2 \u2014 CAlifornia REstoration west",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://californiarestorationwest.com/services-store/p/advanced-service-1-b8by5",
+   "path": "/services-store/p/advanced-service-1-b8by5",
+   "title": "Home / Maintenance services \u2014 CAlifornia REstoration west",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://californiarestorationwest.com/services-store/p/basic-service-nzfnk",
+   "path": "/services-store/p/basic-service-nzfnk",
+   "title": "Water Damage Mitigation \u2014 CAlifornia REstoration west",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://californiarestorationwest.com/services-store/p/contents-cleaning-pack-out",
+   "path": "/services-store/p/contents-cleaning-pack-out",
+   "title": "contents cleaning / pack out \u2014 CAlifornia REstoration west",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://californiarestorationwest.com/services-store/p/intermediate-service-t8n6n",
+   "path": "/services-store/p/intermediate-service-t8n6n",
+   "title": "mold remediation \u2014 CAlifornia REstoration west",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  }
+ ]
+}

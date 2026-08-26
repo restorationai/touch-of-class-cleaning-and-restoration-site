@@ -1,5 +1,3338 @@
 {
   "slug": "california-restoration-west",
-  "assets": {},
-  "slots": {}
+  "assets": {
+    "crew:job_1787708656784": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708656784.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708656784.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2862528,
+      "sha1": "213d7ccd4f11e25f",
+      "exif": {
+        "taken_at": "2026:08:25 15:06:06",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Yellow dehumidifier and air mover in damaged bathroom",
+      "quality": 42,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated shot, cluttered composition, but real drying equipment on active job.",
+      "triaged_at": "2026-08-26T06:41:18Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708658519": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708658519.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708658519.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2939630,
+      "sha1": "d85182987cfa0bd2",
+      "exif": {
+        "taken_at": "2026:08:25 15:05:59",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Blue air scrubber and yellow dehumidifier in stripped room",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 48
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated image, multiple drying units deployed, walls stripped to substrate.",
+      "triaged_at": "2026-08-26T06:41:18Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708659983": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708659983.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708659983.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2739095,
+      "sha1": "586ac885cbedef13",
+      "exif": {
+        "taken_at": "2026:08:25 15:05:57",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Stripped bathroom and bedroom with drying equipment deployed",
+      "quality": 40,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated, wide view of active drying job but chaotic composition reduces usability.",
+      "triaged_at": "2026-08-26T06:41:18Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708661243": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708661243.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708661243.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2285153,
+      "sha1": "640dde3afd563228",
+      "exif": {
+        "taken_at": "2026:08:25 15:05:40",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Blue air scrubber and yellow dehumidifier against stripped tile wall",
+      "quality": 52,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Properly oriented, clear equipment shot on active job; serviceable for services card.",
+      "triaged_at": "2026-08-26T06:41:18Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708662067": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708662067.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708662067.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2446890,
+      "sha1": "6642375bcc0f0f96",
+      "exif": {
+        "taken_at": "2026:08:25 15:05:37",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Blue HEPA air scrubber on bare concrete floor close-up",
+      "quality": 48,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Slight tilt, bare concrete context shows damage; readable equipment close-up.",
+      "triaged_at": "2026-08-26T06:41:18Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708663071": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708663071.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708663071.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2476270,
+      "sha1": "2b22f6be908fe1ea",
+      "exif": {
+        "taken_at": "2026:08:25 15:05:30",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Yellow dehumidifier top-down view on concrete floor",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Overhead angle awkward; minimal context; low compositional value for marketing.",
+      "triaged_at": "2026-08-26T06:41:18Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708664059": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708664059.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708664059.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2511635,
+      "sha1": "2cf3d26d6286e436",
+      "exif": {
+        "taken_at": "2026:08:25 15:05:21",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Blue LGR dehumidifier running on bare concrete floor",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Overhead angle, cluttered surroundings, moderate sharpness; usable for services card.",
+      "triaged_at": "2026-08-26T06:41:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708664902": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708664902.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708664902.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2084661,
+      "sha1": "7329a44f8f841fbe",
+      "exif": {
+        "taken_at": "2026:08:25 15:05:19",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Blue air scrubber on tile floor in cluttered room",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated composition, heavy clutter, low ambient light reduces usability.",
+      "triaged_at": "2026-08-26T06:41:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708665676": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708665676.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708665676.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2603559,
+      "sha1": "87c3dd2f2d9b0db0",
+      "exif": {
+        "taken_at": "2026:08:25 14:38:40",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Tile flooring removed exposing wooden subfloor framing",
+      "quality": 45,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated shot of demolition work; readable damage evidence but poor composition.",
+      "triaged_at": "2026-08-26T06:41:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708666661": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708666661.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708666661.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2425119,
+      "sha1": "dcf49f81fddfad20",
+      "exif": {
+        "taken_at": "2026:08:25 14:38:38",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Tile removed exposing subfloor joists with blue tape barrier",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Slightly better framing than image 2; shows containment prep and structural damage.",
+      "triaged_at": "2026-08-26T06:41:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708667559": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708667559.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708667559.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2743735,
+      "sha1": "960b135f5f9b3d20",
+      "exif": {
+        "taken_at": "2026:08:25 14:38:34",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Mop in floor access hole during water extraction work",
+      "quality": 44,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated, cluttered scene; mop in access hole implies active water removal.",
+      "triaged_at": "2026-08-26T06:41:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708668586": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708668586.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708668586.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2597916,
+      "sha1": "167c7fac59da925a",
+      "exif": {
+        "taken_at": "2026:08:25 14:38:28",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Drywall removed exposing studs mold stained concrete wall",
+      "quality": 55,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Visible mold staining on concrete and stripped wall reads clearly as remediation work.",
+      "triaged_at": "2026-08-26T06:41:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708669591": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708669591.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708669591.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3287981,
+      "sha1": "19b931a7a9f5f11b",
+      "exif": {
+        "taken_at": "2026:08:25 14:38:20",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Rotated view of exposed floor joists and damaged subfloor",
+      "quality": 28,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Awkward rotated composition, poor lighting, limited professional value.",
+      "triaged_at": "2026-08-26T06:41:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708670841": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708670841.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708670841.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3425928,
+      "sha1": "63a8044024e7f666",
+      "exif": {
+        "taken_at": "2026:08:25 14:38:18",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Exposed floor joists and tile at water-damaged wall base",
+      "quality": 32,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 32
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated image, cluttered framing, modest documentation value only.",
+      "triaged_at": "2026-08-26T06:41:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708671912": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708671912.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708671912.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2560519,
+      "sha1": "293a765b0871a685",
+      "exif": {
+        "taken_at": "2026:08:25 14:38:11",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Open wall cavity revealing wood framing beside tile wall",
+      "quality": 42,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 38
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Reasonably composed but limited subject; serviceable for wall-demo documentation.",
+      "triaged_at": "2026-08-26T06:41:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708673017": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708673017.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708673017.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2918721,
+      "sha1": "9e0abb1b51d1de92",
+      "exif": {
+        "taken_at": "2026:08:25 14:38:01",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Rotated bathroom with open floor and damaged wall framing",
+      "quality": 25,
+      "slots": {
+        "hero": 4,
+        "team": 0,
+        "services": 22
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Heavily rotated, cluttered, dark; poor professional presentation.",
+      "triaged_at": "2026-08-26T06:41:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708673967": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708673967.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708673967.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2651949,
+      "sha1": "45eec7c8e16d7e8f",
+      "exif": {
+        "taken_at": "2026:08:25 14:37:56",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Rotated view of open floor joists beside damaged tile wall",
+      "quality": 28,
+      "slots": {
+        "hero": 4,
+        "team": 0,
+        "services": 28
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated composition, low light, minimal compositional quality.",
+      "triaged_at": "2026-08-26T06:41:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708674932": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708674932.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708674932.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3502084,
+      "sha1": "07e6efbfc5218b90",
+      "exif": {
+        "taken_at": "2026:08:25 14:37:53",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Open wall revealing dark-stained framing and mold-affected tile",
+      "quality": 45,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 52
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear mold and water damage evidence; best of set for services documentation.",
+      "triaged_at": "2026-08-26T06:41:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708676366": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708676366.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708676366.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2900170,
+      "sha1": "1c48d8f13b76f7e6",
+      "exif": {
+        "taken_at": "2026:08:25 14:37:48",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Bathroom wall opened revealing mold-stained tile backer and subfloor",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Useful damage documentation but awkward angle and clutter limit versatility.",
+      "triaged_at": "2026-08-26T06:42:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708677299": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708677299.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708677299.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2633714,
+      "sha1": "0b8bd3574d55a65e",
+      "exif": {
+        "taken_at": "2026:08:25 13:53:56",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "crew",
+      "subject": "Technician removing damaged ceiling drywall with debris bags below",
+      "quality": 42,
+      "slots": {
+        "hero": 8,
+        "team": 45,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Tilted angle and poor lighting reduce quality; partial crew view limits team use.",
+      "triaged_at": "2026-08-26T06:42:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708678213": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708678213.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708678213.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2338984,
+      "sha1": "5cf1ae462e843ce5",
+      "exif": {
+        "taken_at": "2026:08:25 13:53:55",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Opened ceiling cavity showing lath and vapour barrier after drywall removal",
+      "quality": 48,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Decent documentation shot but tilted framing and low drama limit marketing value.",
+      "triaged_at": "2026-08-26T06:42:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708679034": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708679034.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708679034.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2541567,
+      "sha1": "3d9851dfd52d1d93",
+      "exif": {
+        "taken_at": "2026:08:25 13:53:53",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Wall cavity exposed showing damaged lath and vapour barrier with mold",
+      "quality": 50,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Straightforward damage documentation; serviceable for mold or water service card.",
+      "triaged_at": "2026-08-26T06:42:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708679950": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708679950.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708679950.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2737398,
+      "sha1": "d924943fb7e8413d",
+      "exif": {
+        "taken_at": "2026:08:25 13:00:15",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Yellow dehumidifier unit sitting on concrete floor with cables",
+      "quality": 44,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Top-down overhead angle is awkward; equipment identifiable but composition is weak.",
+      "triaged_at": "2026-08-26T06:42:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708680827": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708680827.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708680827.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3140029,
+      "sha1": "e14a51112becf40d",
+      "exif": {
+        "taken_at": "2026:08:25 09:47:11",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Tattooed hand holding moisture meter against damaged wall tile",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 30,
+        "services": 68
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Strong services story showing moisture detection; personal tattoo may divide audiences.",
+      "triaged_at": "2026-08-26T06:42:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708681940": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708681940.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708681940.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3545954,
+      "sha1": "4d4b9807b5939d93",
+      "exif": {
+        "taken_at": "2026:08:25 09:47:08",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Water-damaged wall base and floor showing staining and rot",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated, poorly composed close-up of damaged baseboard area; low professional appeal.",
+      "triaged_at": "2026-08-26T06:42:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708683177": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708683177.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708683177.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3498188,
+      "sha1": "63be81f19a07c3b3",
+      "exif": {
+        "taken_at": "2026:08:25 09:47:06",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "crew",
+      "subject": "Tattooed technician hand holding moisture meter at damaged wall",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 45,
+        "services": 62
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Rotated image; shows active moisture testing but no face or full crew context.",
+      "triaged_at": "2026-08-26T06:42:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708684293": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708684293.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708684293.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3260788,
+      "sha1": "0d95b8e86a94205e",
+      "exif": {
+        "taken_at": "2026:08:25 09:46:51",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "crew",
+      "subject": "Tattooed hand using moisture meter at tiled wall base",
+      "quality": 50,
+      "slots": {
+        "hero": 8,
+        "team": 40,
+        "services": 58
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Rotated; acceptable services image but partial subject and average composition.",
+      "triaged_at": "2026-08-26T06:42:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708685468": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708685468.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708685468.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3445459,
+      "sha1": "eb2e8ecce709cea9",
+      "exif": {
+        "taken_at": "2026:08:25 09:45:12",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "crew",
+      "subject": "Technician scanning moisture meter along stripped baseboard floor",
+      "quality": 48,
+      "slots": {
+        "hero": 8,
+        "team": 38,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Rotated; dark damage visible but cropping and angle reduce professional appeal.",
+      "triaged_at": "2026-08-26T06:42:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708686676": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708686676.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708686676.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3656520,
+      "sha1": "6444aa336c32de46",
+      "exif": {
+        "taken_at": "2026:08:25 09:45:10",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Moisture meter reading 51.2 held against damaged concrete floor",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clear equipment-in-use shot; rotated orientation and partial hand limit appeal.",
+      "triaged_at": "2026-08-26T06:42:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708687937": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708687937.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708687937.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2304340,
+      "sha1": "c9de7f9874a2334c",
+      "exif": {
+        "taken_at": "2026:08:22 10:28:35",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Moisture meter reading 99.9 pressed against wet interior wall",
+      "quality": 62,
+      "slots": {
+        "hero": 10,
+        "team": 25,
+        "services": 68
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Best-composed moisture-meter shot; maxed reading is compelling proof of damage.",
+      "triaged_at": "2026-08-26T06:42:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708688765": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708688765.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708688765.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3503665,
+      "sha1": "8047dd045ba2254a",
+      "exif": {
+        "taken_at": "2026:08:22 10:24:50",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Tattooed hand holding moisture meter against wall baseboard",
+      "quality": 52,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Close-up moisture reading useful for services but awkward crop and angle.",
+      "triaged_at": "2026-08-26T06:42:36Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708690132": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708690132.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708690132.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2991390,
+      "sha1": "5ab1e45a93e26237",
+      "exif": {
+        "taken_at": "2026:08:22 10:24:46",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Tattooed hand pressing moisture meter to wall corner baseboard",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 15,
+        "services": 48
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Better composed than image 0 but still a tight informal shot.",
+      "triaged_at": "2026-08-26T06:42:36Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708691215": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708691215.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708691215.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2497452,
+      "sha1": "8adf07c0ca2a8b6e",
+      "exif": {
+        "taken_at": "2026:08:22 10:24:41",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Tattooed hand holding moisture meter on carpet near baseboard",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 15,
+        "services": 38
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Rotated, dim, and poorly composed; weakest of the moisture-meter set.",
+      "triaged_at": "2026-08-26T06:42:36Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708692098": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708692098.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708692098.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2639475,
+      "sha1": "70c2389e72378803",
+      "exif": {
+        "taken_at": "2026:08:22 10:24:32",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Hand holding moisture meter at wall-floor baseboard corner",
+      "quality": 48,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Rotated 90 degrees, low contrast; readable but not polished.",
+      "triaged_at": "2026-08-26T06:42:36Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708693436": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708693436.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708693436.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3224313,
+      "sha1": "241ceffff8e39262",
+      "exif": {
+        "taken_at": "2026:08:22 10:24:05",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "FLIR MR277 thermal camera screen showing moisture scan",
+      "quality": 50,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Thermal imaging screen shot conveys advanced diagnostics; usable for services.",
+      "triaged_at": "2026-08-26T06:42:36Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708694437": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708694437.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708694437.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3425570,
+      "sha1": "4a47ecb2f70e9734",
+      "exif": {
+        "taken_at": "2026:08:22 10:23:50",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "FLIR thermal camera screen showing wall moisture heat map",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Blurry, dark border, rotated; inferior duplicate of image 4.",
+      "triaged_at": "2026-08-26T06:42:36Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708696091": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708696091.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708696091.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3147518,
+      "sha1": "e574d88434c9d54b",
+      "exif": {
+        "taken_at": "2026:08:22 10:23:39",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "unusable",
+      "subject": "Blurry photograph of thermal camera screen showing moisture",
+      "quality": 8,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "blurry",
+        "low_res"
+      ],
+      "reason": "Extreme blur and dark framing make image completely unusable for marketing.",
+      "triaged_at": "2026-08-26T06:42:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708697442": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708697442.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708697442.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3955052,
+      "sha1": "080cec22b2def5b1",
+      "exif": {
+        "taken_at": "2026:08:22 10:23:08",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "FLIR MR277 thermal moisture meter showing wall scan readings",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clear device shot with real readings; cluttered framing limits marketing appeal.",
+      "triaged_at": "2026-08-26T06:42:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708699004": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708699004.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708699004.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3099069,
+      "sha1": "24c2c044d187fdf2",
+      "exif": {
+        "taken_at": "2026:08:22 10:23:11",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Bathroom wall with damaged peeling plaster after water damage",
+      "quality": 52,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Decent exposure but awkward angle and cluttered composition limit usefulness.",
+      "triaged_at": "2026-08-26T06:42:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708700228": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708700228.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708700228.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3383868,
+      "sha1": "9c2a90cc64792ad4",
+      "exif": {
+        "taken_at": "2026:08:22 10:23:20",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "FLIR thermal camera screen displaying moisture scan of ceiling",
+      "quality": 48,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 38
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Photo of screen rather than direct thermal image; dark surroundings reduce quality.",
+      "triaged_at": "2026-08-26T06:42:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708701534": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708701534.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708701534.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2660018,
+      "sha1": "4998310a95935ada",
+      "exif": {
+        "taken_at": "2026:08:22 10:21:48",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Tattooed hand holding SurveyMaster moisture meter reading 236 WET",
+      "quality": 58,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good focus on meter with clear WET reading; tattooed hand may distract some audiences.",
+      "triaged_at": "2026-08-26T06:42:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708702590": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708702590.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708702590.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3089402,
+      "sha1": "db2de6411a0625f9",
+      "exif": {
+        "taken_at": "2026:08:22 10:21:31",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Tattooed hand holding moisture meter reading 528 on tile floor",
+      "quality": 52,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Similar to image 4 but rotated awkwardly; redundant and slightly lower composition quality.",
+      "triaged_at": "2026-08-26T06:42:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708703709": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708703709.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708703709.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 1869153,
+      "sha1": "b81ffc03d88f074a",
+      "exif": {
+        "taken_at": "2026:08:22 10:21:40",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Tattooed hand holding moisture meter over marble tile",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 42
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Rotated, low-quality close-up; partial person, limited professional appeal.",
+      "triaged_at": "2026-08-26T06:43:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708704527": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708704527.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708704527.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2132575,
+      "sha1": "6cb24c5915118726",
+      "exif": {
+        "taken_at": "2026:08:22 08:26:46",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Opened wall cavity exposing wood studs after water damage",
+      "quality": 52,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Decent demolition documentation shot; useful for services but not hero-worthy.",
+      "triaged_at": "2026-08-26T06:43:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708705342": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708705342.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708705342.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2222281,
+      "sha1": "40000b0ca31fa403",
+      "exif": {
+        "taken_at": "2026:08:22 08:26:44",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Open access panel revealing grey containment plastic sheeting inside",
+      "quality": 44,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 38
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Dark, awkward angle; context is unclear without wider framing.",
+      "triaged_at": "2026-08-26T06:43:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708706106": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708706106.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708706106.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3448967,
+      "sha1": "68d936e4ecadef27",
+      "exif": {
+        "taken_at": "2026:08:22 08:26:41",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Containment plastic sheeting taped over wall and ceiling area",
+      "quality": 48,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Shows containment work clearly but poor composition and low drama.",
+      "triaged_at": "2026-08-26T06:43:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708707396": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708707396.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708707396.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2654084,
+      "sha1": "da88861f6e1b75d6",
+      "exif": {
+        "taken_at": "2026:08:21 15:36:04",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Exposed ceiling joists and pipes showing structural damage or demolition",
+      "quality": 40,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Rotated, dark, poor framing; evidence of work but not market-ready.",
+      "triaged_at": "2026-08-26T06:43:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708708317": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708708317.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708708317.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3068953,
+      "sha1": "8c768201b740aa82",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:54",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Exposed ceiling joists and stained concrete wall during remediation",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 48
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Better orientation than image 4 but still cluttered and low professional quality.",
+      "triaged_at": "2026-08-26T06:43:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708709954": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708709954.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708709954.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2766511,
+      "sha1": "b61739772a2c763e",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:52",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "rotated view of demo containment plastic sheeting crawl space",
+      "quality": 28,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated orientation, poor composition, cluttered damage scene limits usability.",
+      "triaged_at": "2026-08-26T06:43:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708711304": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708711304.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708711304.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2530218,
+      "sha1": "e039cc781019a3b9",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:50",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "open floor joist cavity with teal plastic containment sheeting",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 38
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Decent exposure but tight claustrophobic angle limits marketing appeal.",
+      "triaged_at": "2026-08-26T06:43:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708712306": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708712306.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708712306.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3191566,
+      "sha1": "eaa90b096ea46fb0",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:44",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "crawl space encapsulated with white vapor barrier and dehumidifiers",
+      "quality": 52,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear encapsulation result visible; rotated orientation reduces hero appeal.",
+      "triaged_at": "2026-08-26T06:43:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708713740": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708713740.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708713740.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3530387,
+      "sha1": "422a90061775cbe8",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:37",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "plastic containment barrier taped over doorway during remediation work",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated, low contrast, and cluttered scene; limited marketing value.",
+      "triaged_at": "2026-08-26T06:43:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708714909": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708714909.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708714909.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2560358,
+      "sha1": "8b4c6771e63cea54",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:34",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "white plastic containment enclosure inside tiled bathroom mold work",
+      "quality": 44,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated image, adequate exposure but confined interior limits appeal.",
+      "triaged_at": "2026-08-26T06:43:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708715805": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708715805.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708715805.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3378608,
+      "sha1": "241d1e999de7735d",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:21",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "plastic containment barrier with zipper door in tiled room",
+      "quality": 48,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Reasonably clear containment setup shot; rotated orientation hurts usability.",
+      "triaged_at": "2026-08-26T06:43:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708717019": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708717019.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708717019.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2657692,
+      "sha1": "ae0d1645d0070aad",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:16",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Plastic containment barrier erected around bathroom toilet area",
+      "quality": 28,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated, low-quality shot of containment sheeting; limited marketing value.",
+      "triaged_at": "2026-08-26T06:43:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708718092": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708718092.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708718092.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2839308,
+      "sha1": "c6d7ed76f71ecec4",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:13",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Removed floor revealing damaged joists with containment plastic visible",
+      "quality": 32,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 38
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated image of water-damaged subfloor demo; usable only as services evidence.",
+      "triaged_at": "2026-08-26T06:43:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708719203": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708719203.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708719203.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2726659,
+      "sha1": "f230949238d4f157",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:07",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Exposed rotted floor joists with mold-stained concrete wall and equipment",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear damage evidence with equipment visible; correctly oriented but cluttered.",
+      "triaged_at": "2026-08-26T06:43:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708720718": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708720718.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708720718.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2681397,
+      "sha1": "f02d7594766549f6",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:06",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Open floor joists over crawl space with mold-damaged concrete walls",
+      "quality": 36,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated shot of severe mold damage and demolition; poor composition.",
+      "triaged_at": "2026-08-26T06:43:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708721692": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708721692.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708721692.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2691322,
+      "sha1": "16eb5b06f94716c7",
+      "exif": {
+        "taken_at": "2026:08:21 15:35:03",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Exposed floor joists over crawl space with blue equipment visible below",
+      "quality": 40,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 48
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated but best-lit demolition shot; shows remediation scope clearly.",
+      "triaged_at": "2026-08-26T06:43:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708723368": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708723368.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708723368.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2366841,
+      "sha1": "7d7c9c5166a8e193",
+      "exif": {
+        "taken_at": "2026:08:21 15:34:59",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Partially demolished wall framing with plastic sheeting over openings",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Awkward angle of mid-demo containment work; limited marketing utility.",
+      "triaged_at": "2026-08-26T06:43:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708724142": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708724142.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708724142.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2288731,
+      "sha1": "f49b08609eb49c93",
+      "exif": {
+        "taken_at": "2026:08:20 15:08:06",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Drywall panel with tape over exposed floor joists damage",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated composition, poor framing, shows water-damaged subfloor and remediation work in progress.",
+      "triaged_at": "2026-08-26T06:43:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708725019": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708725019.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708725019.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2369969,
+      "sha1": "a91aa1bf192385d4",
+      "exif": {
+        "taken_at": "2026:08:20 15:08:03",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Water-damaged concrete wall with exposed floor framing openings",
+      "quality": 42,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear mold and water damage on concrete wall; decent exposure but cluttered and rotated.",
+      "triaged_at": "2026-08-26T06:43:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708726029": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708726029.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708726029.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3071981,
+      "sha1": "d172b88a782b628d",
+      "exif": {
+        "taken_at": "2026:08:20 15:07:58",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Rotated view of exposed floor joists mold-stained wall tape rolls",
+      "quality": 28,
+      "slots": {
+        "hero": 3,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Heavily rotated, cluttered composition; tape rolls and damaged subfloor visible but poorly framed.",
+      "triaged_at": "2026-08-26T06:43:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708727290": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708727290.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708727290.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3302323,
+      "sha1": "ecdf99954330e447",
+      "exif": {
+        "taken_at": "2026:08:20 15:07:56",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Exposed floor joists mold-covered concrete wall blue tarp visible",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Best of the series; correctly oriented, good exposure showing significant mold damage clearly.",
+      "triaged_at": "2026-08-26T06:43:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708728590": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708728590.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708728590.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2645316,
+      "sha1": "eaa1520f32e1d59b",
+      "exif": {
+        "taken_at": "2026:08:20 15:07:55",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Drywall panel beside mold-stained concrete wall exposed joists",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 38
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated shot, similar to others in series; mold damage visible but composition weak.",
+      "triaged_at": "2026-08-26T06:43:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708729773": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708729773.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708729773.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2930567,
+      "sha1": "4adc1743b50c80e6",
+      "exif": {
+        "taken_at": "2026:08:20 15:07:50",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Peeling mold-damaged concrete wall exposed wood floor joists",
+      "quality": 40,
+      "slots": {
+        "hero": 6,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated composition but clearly shows severe mold and water damage on structural elements.",
+      "triaged_at": "2026-08-26T06:43:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708730945": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708730945.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708730945.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3186962,
+      "sha1": "2c8055d314d45243",
+      "exif": {
+        "taken_at": "2026:08:20 15:07:47",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Rotated view of damaged wall and exposed ceiling joists",
+      "quality": 28,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Severely rotated, poor composition; shows water-damaged wall and exposed framing.",
+      "triaged_at": "2026-08-26T06:44:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708732210": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708732210.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708732210.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3215817,
+      "sha1": "65db29a8d85e34b5",
+      "exif": {
+        "taken_at": "2026:08:20 15:07:46",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Utility room with exposed damaged concrete wall and electrical panels",
+      "quality": 38,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated image; cluttered utility room showing moisture-damaged concrete wall.",
+      "triaged_at": "2026-08-26T06:44:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708733376": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708733376.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708733376.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3709400,
+      "sha1": "bd9717912ca5adbc",
+      "exif": {
+        "taken_at": "2026:08:20 15:07:44",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Damaged concrete wall with exposed subfloor and HVAC unit",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 32
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated, cluttered scene; water-stained concrete wall and structural exposure visible.",
+      "triaged_at": "2026-08-26T06:44:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708735034": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708735034.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708735034.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3330465,
+      "sha1": "d681209e14232715",
+      "exif": {
+        "taken_at": "2026:08:20 15:07:40",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Air mover placed in open floor access panel during drying",
+      "quality": 42,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated; air mover in crawl access shows active drying work in progress.",
+      "triaged_at": "2026-08-26T06:44:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708736329": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708736329.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708736329.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2699579,
+      "sha1": "bbd82acfba5952c0",
+      "exif": {
+        "taken_at": "2026:08:20 11:40:53",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Large extraction hose running into crawl space opening near HVAC",
+      "quality": 38,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated; extraction hose entering crawl space documents active water removal work.",
+      "triaged_at": "2026-08-26T06:44:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708737806": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708737806.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708737806.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3062642,
+      "sha1": "6e70016fc83e4f12",
+      "exif": {
+        "taken_at": "2026:08:20 11:40:50",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Large extraction hose and pipes at crawl space opening near utility equipment",
+      "quality": 40,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Similar to image 4; slightly better framing but still rotated and cluttered.",
+      "triaged_at": "2026-08-26T06:44:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708739081": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708739081.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708739081.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2852762,
+      "sha1": "e4110ef7f89c9451",
+      "exif": {
+        "taken_at": "2026:08:20 11:40:41",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Close-up of crawl space framing and drainage hose",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Awkward angle, poor composition, dark and cluttered crawl space detail.",
+      "triaged_at": "2026-08-26T06:44:26Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708740333": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708740333.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708740333.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3315317,
+      "sha1": "e69d1a2adc1273d1",
+      "exif": {
+        "taken_at": "2026:08:20 11:40:26",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Damaged wall cavity with vacuum hose and debris",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotated image, very cluttered, low professional appeal.",
+      "triaged_at": "2026-08-26T06:44:26Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708741617": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708741617.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708741617.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2722273,
+      "sha1": "c8b673740f91f5ec",
+      "exif": {
+        "taken_at": "2026:08:19 17:00:02",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Air scrubber and dehumidifier in containment area with open wall",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear equipment shot in containment; good for services card despite portrait crop.",
+      "triaged_at": "2026-08-26T06:44:26Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708742777": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708742777.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708742777.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2366586,
+      "sha1": "60dbeb8894cb969f",
+      "exif": {
+        "taken_at": "2026:08:19 16:43:41",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Large drywall opening exposing interior wall framing and insulation",
+      "quality": 58,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clean framing of demo work; useful for services but limited hero appeal.",
+      "triaged_at": "2026-08-26T06:44:26Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708743756": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708743756.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708743756.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2374365,
+      "sha1": "64afcb55a16c1efb",
+      "exif": {
+        "taken_at": "2026:08:19 16:43:38",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Ceiling drywall cut open revealing framing and moisture damage",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 48
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Similar to image 3 but awkward upward angle reduces usability.",
+      "triaged_at": "2026-08-26T06:44:26Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708744659": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708744659.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708744659.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2748878,
+      "sha1": "4226bb8fd51b9ada",
+      "exif": {
+        "taken_at": "2026:08:19 16:43:31",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Yellow commercial dehumidifier deployed on plastic sheeting",
+      "quality": 68,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 62
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Sharp close-up of key equipment; good services card, weak hero due to portrait crop.",
+      "triaged_at": "2026-08-26T06:44:26Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708745898": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708745898.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708745898.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3512396,
+      "sha1": "be4c6b8332dbff84",
+      "exif": {
+        "taken_at": "2026:08:19 13:53:54",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Two DeWalt reciprocating saws on plastic sheeting amid drywall debris",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Overhead angle, cluttered debris field; useful as supporting services image only.",
+      "triaged_at": "2026-08-26T06:44:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708747742": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708747742.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708747742.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3313532,
+      "sha1": "4dda88e770c7e3b6",
+      "exif": {
+        "taken_at": "2026:08:19 13:53:47",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Demolished drywall chunks scattered on protective plastic sheeting",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Poor composition, diagonal crop, no clear subject; minimal marketing value.",
+      "triaged_at": "2026-08-26T06:44:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708749584": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708749584.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708749584.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2851075,
+      "sha1": "179b67a76d4792d8",
+      "exif": {
+        "taken_at": "2026:08:19 13:53:45",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Torn drywall revealing mold growth on backing paper and framing",
+      "quality": 55,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear mold evidence visible; decent services card for mold-remediation page.",
+      "triaged_at": "2026-08-26T06:44:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708751733": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708751733.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708751733.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2421953,
+      "sha1": "1751349a514da812",
+      "exif": {
+        "taken_at": "2026:08:19 13:53:26",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Opened wall cavity showing studs, insulation, and exposed pipe",
+      "quality": 58,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Reasonably sharp but tight interior; usable as supporting services image.",
+      "triaged_at": "2026-08-26T06:44:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708752753": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708752753.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708752753.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2176699,
+      "sha1": "81020953d895d9d1",
+      "exif": {
+        "taken_at": "2026:08:19 13:44:01",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Broken drywall hole exposing stud framing and insulation inside wall",
+      "quality": 50,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Close-up tight angle; weak composition limits usefulness beyond damage documentation.",
+      "triaged_at": "2026-08-26T06:44:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708753486": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708753486.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708753486.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2445435,
+      "sha1": "c42ce70ac230777a",
+      "exif": {
+        "taken_at": "2026:08:19 13:43:58",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Peeled drywall with heavy black mold spotting near window frame",
+      "quality": 57,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 62
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Visible mold damage clearly documented; usable services card for mold-remediation.",
+      "triaged_at": "2026-08-26T06:44:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708754349": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708754349.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708754349.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2636544,
+      "sha1": "a087a794f5eb2bb7",
+      "exif": {
+        "taken_at": "2026:08:19 13:43:57",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Peeling drywall with black mold spots on wall",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear mold damage evidence; tight awkward crop limits hero use.",
+      "triaged_at": "2026-08-26T06:44:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708755383": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708755383.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708755383.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2883676,
+      "sha1": "09d8ac58c30633a0",
+      "exif": {
+        "taken_at": "2026:08:19 13:43:52",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Peeling drywall with black mold damage near window",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 52
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Similar mold damage shot to image 0; slightly wider but still awkward angle.",
+      "triaged_at": "2026-08-26T06:44:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708756385": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708756385.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708756385.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2113173,
+      "sha1": "e349d65c83edc5a4",
+      "exif": {
+        "taken_at": "2026:08:19 13:36:43",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Water-damaged ceiling with peeling paint and stains",
+      "quality": 45,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Subtle damage barely readable; low contrast ceiling shot, weak visual impact.",
+      "triaged_at": "2026-08-26T06:44:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708757105": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708757105.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708757105.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 7395064,
+      "sha1": "8961a1be24f80bcf",
+      "exif": {
+        "taken_at": "2026:08:19 10:20:01",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Wet carpet folded back revealing damp underpad and subfloor",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "competitor_brand"
+      ],
+      "reason": "Home Depot Tempur brand visible on pad; dark, angled shot limits usability.",
+      "triaged_at": "2026-08-26T06:44:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708759392": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708759392.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708759392.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 7656771,
+      "sha1": "a53f55dece720768",
+      "exif": {
+        "taken_at": "2026:08:19 10:19:59",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Folded carpet backing with moisture damage and soiled pad",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "competitor_brand"
+      ],
+      "reason": "Home Depot Tempur branding prominent; dark, poorly composed close-up.",
+      "triaged_at": "2026-08-26T06:44:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708761774": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708761774.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708761774.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 7728244,
+      "sha1": "27a37abd1e48fb89",
+      "exif": {
+        "taken_at": "2026:08:19 10:19:58",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Technician hand lifting wet carpet backing from floor",
+      "quality": 48,
+      "slots": {
+        "hero": 8,
+        "team": 20,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Partial hand visible adds human element; overhead angle and poor lighting limit quality.",
+      "triaged_at": "2026-08-26T06:44:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708764813": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708764813.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708764813.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 6235285,
+      "sha1": "658ce9bd997e4373",
+      "exif": {
+        "taken_at": "2026:08:19 10:19:40",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Carpet and padding peeled back at room corner",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Awkward rotated angle, poor composition; shows carpet removal work in progress.",
+      "triaged_at": "2026-08-26T06:45:14Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708766821": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708766821.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708766821.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 6252337,
+      "sha1": "7054ee623557b03d",
+      "exif": {
+        "taken_at": "2026:08:19 10:19:38",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "job_progress",
+      "subject": "Carpet folded back exposing subfloor at staircase",
+      "quality": 45,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 38
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Decent clarity but odd angle; shows carpet removal progress adequately for services card.",
+      "triaged_at": "2026-08-26T06:45:14Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708768882": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708768882.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708768882.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2602498,
+      "sha1": "775b50826171fe39",
+      "exif": {
+        "taken_at": "2026:08:19 09:12:30",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Close-up of Storm Series dehumidifier LCD display panel",
+      "quality": 52,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 28
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Too close and narrow; screen data readable but not useful as a marketing image.",
+      "triaged_at": "2026-08-26T06:45:14Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708769913": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708769913.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708769913.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3274058,
+      "sha1": "d4c3055763c16729",
+      "exif": {
+        "taken_at": "2026:08:17 18:24:36",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Yellow dehumidifier and blue air mover on carpeted floor",
+      "quality": 60,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clear equipment shot in context; reasonable for services card, weak composition for hero.",
+      "triaged_at": "2026-08-26T06:45:14Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708771496": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708771496.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708771496.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 3481090,
+      "sha1": "0dd4d95aa2ddc316",
+      "exif": {
+        "taken_at": "2026:08:17 18:24:30",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Blue air mover blowing under baseboard on wet carpet",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 52
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Shows drying equipment in use; rotated angle hurts hero appeal but serviceable for services.",
+      "triaged_at": "2026-08-26T06:45:14Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708772725": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708772725.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708772725.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2400526,
+      "sha1": "2a479c72a538c046",
+      "exif": {
+        "taken_at": "2026:08:17 17:45:03",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "Hand holding FLIR MR277 thermal moisture meter showing reading",
+      "quality": 50,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Interesting diagnostic tool detail but shallow depth-of-field and tight crop limit usability.",
+      "triaged_at": "2026-08-26T06:45:14Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708773747": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708773747.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708773747.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2554537,
+      "sha1": "842bdedb8f022ca0",
+      "exif": {
+        "taken_at": "2026:08:17 17:44:53",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "FLIR MR277 thermal moisture meter held in hand",
+      "quality": 52,
+      "slots": {
+        "hero": 5,
+        "team": 5,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Close-up of diagnostic meter; useful for services but low hero or team value.",
+      "triaged_at": "2026-08-26T06:45:20Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:job_1787708774852": {
+      "source": "crew",
+      "storage": "job-photos/job_1787708774852.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708774852.jpg",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 2665644,
+      "sha1": "de1cf80abcbeff96",
+      "exif": {
+        "taken_at": "2026:08:17 17:43:27",
+        "camera": "samsung Galaxy S25",
+        "gps": {
+          "lat": NaN,
+          "lng": NaN
+        }
+      },
+      "category": "equipment",
+      "subject": "FLIR MR277 thermal image showing moisture in wall",
+      "quality": 50,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 48
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Thermal scan evidence of moisture; decent services proof but awkward composition.",
+      "triaged_at": "2026-08-26T06:45:20Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-26T06:45:20Z"
 }
