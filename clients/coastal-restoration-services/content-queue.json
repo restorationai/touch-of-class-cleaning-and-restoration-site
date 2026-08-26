@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "id": "2026-08-26-water-damage-restoration-cost-ca",
+      "status": "written",
+      "queued_at": "2026-08-26T14:12:29Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-ca",
+      "primary_keyword": "water damage restoration cost CA",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "santa-maria-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Santa Maria",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in CA",
+        "water damage restoration price CA",
+        "average cost of water damage restoration CA",
+        "water damage cleanup CA",
+        "water cleanup CA",
+        "water removal CA"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-26T14:24:04Z",
+      "post_url": "https://None/blog/water-damage-restoration-cost-ca/"
+    },
+    {
       "id": "2026-08-07-best-water-damage-restoration-in-santa-maria-ca",
       "status": "written",
       "queued_at": "2026-08-07T03:42:01Z",
@@ -473,6 +504,201 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "Direct brand fit: Coastal is an IICRC Certified Firm with WRT and ASD, license 11245226. Teach the homeowner to verify a firm on the IICRC registry, then let the credential speak for itself rather than claiming superiority. Pairs with the planned /blog/choosing-a-restoration-company/ post: link to it, do not duplicate its checklist."
+    },
+    {
+      "id": "2026-08-26-mold-remediation-cost-after-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does mold remediation cost after water damage",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold remediation cost per square foot",
+        "cost to remove mold after a water leak",
+        "does insurance cover mold remediation after water damage",
+        "mold inspection cost before remediation",
+        "how much does mold remediation cost after water damage in California",
+        "signs you need mold remediation not just drying"
+      ],
+      "suggested_slug": "mold-remediation-cost-after-water-damage",
+      "suggested_title": "How much does mold remediation cost after water damage?",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/service-areas/lompoc-ca/mold-remediation/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "santa-maria-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "Highest-value gap this run: mold carries the top local CPC in the Santa Barbara-Santa Maria-SLO DMA ($86.24) and the site has zero cost content for it. Give real Central Coast ranges, split contained-area vs whole-home, and be explicit that drying alone is cheaper than remediation so the 24-48 hour urgency argument lands.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-26-call-insurance-or-restoration-company-first",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "should i call my insurance company or a restoration company first",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "do i need to call my insurance before starting water cleanup",
+        "will insurance deny my claim if i start cleanup early",
+        "who do i call first after a burst pipe",
+        "does my insurer get to pick the restoration company",
+        "emergency mitigation coverage homeowners policy",
+        "what to document before restoration crews arrive"
+      ],
+      "suggested_slug": "call-insurance-or-restoration-company-first",
+      "suggested_title": "Should I call my insurance company or a restoration company first after water damage?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/"
+      ],
+      "notes": "Decision-stage: this gets asked in the 24-48 hours before anyone hires. The existing insurance blog answers what is covered, not the sequencing. Key point to lead with: the policy's duty-to-mitigate means calling a mitigation crew immediately does not void a claim, and the homeowner picks the contractor, not the carrier. Link to the CDI page.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-26-water-damage-categories-and-classes",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what are the categories and classes of water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "category 1 vs category 2 vs category 3 water",
+        "is gray water or black water damage safe to clean up yourself",
+        "what is black water damage",
+        "class 1 to class 4 water damage explained",
+        "how long before category 1 water becomes category 2",
+        "sewage backup water category"
+      ],
+      "suggested_slug": "water-damage-categories-and-classes",
+      "suggested_title": "What are the categories and classes of water damage? (IICRC S500 explained)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.cdc.gov/mold/php/about/index.html"
+      ],
+      "notes": "Definition content is what AI assistants quote verbatim, and this one has no coverage in the editorial partition. Absorbs the gray-water DIY-safety question as a section. Make the clean-water-degrades-to-category-2-in-48-hours point explicit: it is the single best argument for calling fast.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-26-dry-out-water-damage-yourself-or-hire-a-pro",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "can i dry out water damage myself or should i hire a professional",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "when is water damage small enough to handle yourself",
+        "box fans vs commercial air movers",
+        "do i need a dehumidifier or a desiccant",
+        "how do pros know when a wall is actually dry",
+        "moisture meter readings that mean you need help",
+        "what DIY drying misses behind baseboards"
+      ],
+      "suggested_slug": "dry-out-water-damage-yourself-or-hire-a-pro",
+      "suggested_title": "Can I dry out water damage myself or should I hire a professional?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/crawl-space-encapsulation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Last query before the phone call. Be honest about the DIY-viable case (small, clean-water, caught inside a few hours) so the pro case reads as advice instead of a pitch. Anchor the cut-off on measurable things: standing water over a small footprint, water in wall cavities or subfloor, any category 2 or 3 source, anyone in the house with asthma.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-26-signs-of-hidden-water-damage-behind-walls",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what are the signs of hidden water damage behind walls",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "musty smell but no visible leak",
+        "bubbling or peeling paint on a wall",
+        "warm spot on the floor slab leak",
+        "unexplained spike in water bill",
+        "how do professionals find water behind drywall",
+        "thermal imaging vs moisture meter for hidden leaks"
+      ],
+      "suggested_slug": "signs-of-hidden-water-damage-behind-walls",
+      "suggested_title": "What are the signs of hidden water damage behind walls?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-and-health"
+      ],
+      "notes": "/blog/signs-of-hidden-mold/ covers hidden mold, which is the downstream problem, not the leak itself. Write this as the upstream piece and interlink both ways. Central Coast angle: slab-on-grade construction is common here, so cover slab leaks and the warm-floor tell.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
     }
   ]
 }
