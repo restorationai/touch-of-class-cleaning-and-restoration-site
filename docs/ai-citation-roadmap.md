@@ -90,6 +90,51 @@ Pro as an "other excellent choice" (BBB A+ doing the work).
   ~late Sept 2026.
 - **businessrate.com**: never (vanity mailer mill, non-indexable trophy).
 
+## 38 Digital Market ordering gameplan (2026-08-26)
+
+Their menu decoded: 3 base tiers (Standard $97 / Advanced $197 / Premium
+$487), bundled "Power Packages", and ~12 add-ons.
+
+**Round 1 (Pro, order now): Standard PR $97 + Do-Follow Distribution $60 +
+Podcast Publishing $45 ≈ $202.** Standard already carries the citable core
+(Google News, 50+ ABC/NBC/FOX affiliate sites, local newswires); Do-Follow
+turns placements into followed links; Podcast adds the entity surfaces we
+want. Submit OUR prepared copy (one release = one client) + NAP + site URL
++ logo. Ask for the full placement-URL report (feeds the citation tracker,
+and it is the future tier-2 target list if the gray lane ever activates).
+
+**Skip**: Premium $487 (Yahoo/Benzinga finance angle, irrelevant for local),
+Google Stacks / Cloud Site Stacks add-ons (unproven entity-stack lane),
+PR Booster Links (tier-2 blast — gray lane on hold), Canada/International/
+Benzinga/Crypto add-ons, a-la-carte featured articles $197 (38DM's own
+guest posts at $20-95 are the better version). **APNews add-on $75** only
+if round 1 shows AP didn't come through standard distribution.
+
+**Measure after round 1** (2-3 weeks): indexed placements, AP pickup,
+referring domains on the release, whether the release URL shows in AI
+answers. Then either make the $202 trio the quarterly per-client standard
+or drop to Standard-only $97.
+
+## Facebook group post playbook (modeled on the cited Enid post)
+
+The AI-cited unit = a personal-voice post in a PUBLIC local
+reviews/recommendations group naming the business with specifics. Templates:
+
+- **A. Owner voice (Jack)**: "Hit a milestone I'm proud of — ProRestoration
+  just passed 100 five-star Google reviews. 15(?) years of Bakersfield
+  homes and businesses trusting us with water and fire damage. If we've
+  ever helped you out, it'd mean a lot if you shared your experience here
+  or on Google." + crew/team photo.
+- **B. Question thread (honest, anyone)**: "Who's the best water damage
+  restoration company in Bakersfield? Pipe burst horror stories welcome."
+  The REPLIES naming the business are the citable content. Jack + real
+  customers answer.
+- **C. Customer voice**: added to the review thank-you flow — "if you're in
+  {group}, a quick mention there helps other locals find us."
+
+Guardrail: we never post first-person customer recommendations from our
+own or staff profiles. Group must be PUBLIC or Google/AI can't read it.
+
 ## Standing watch items
 
 - James Ranks (@jamesrankseverything) new weekly videos — SEO Neo results
