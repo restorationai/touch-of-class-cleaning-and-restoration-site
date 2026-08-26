@@ -82,10 +82,17 @@ HEADLESS_PROMPT_MAP = {
     4: "prompts/refresh-recommender.md",
 }
 
-# DataForSEO tools each system needs in headless mode
+# DataForSEO tools each system needs in headless mode.
+# `mcp__dataforseo` (bare server grant, allows every tool the server exposes)
+# rides along with the named tools: the 08-26 CI probe showed the npx-latest
+# dataforseo-mcp-server now exposes a generic `api_request` tool the agents
+# reach for, and the old per-tool names silently stopped matching — every
+# DataForSEO call was permission-DENIED, which is why System 1 refills
+# stopped landing fleet-wide while nothing errored.
 HEADLESS_ALLOWED_TOOLS = {
     1: (
         "Bash,Read,Write,Edit,Glob,Grep,WebFetch,"
+        "mcp__dataforseo,"
         "mcp__dataforseo__dataforseo_labs_google_keyword_ideas,"
         "mcp__dataforseo__dataforseo_labs_google_related_keywords,"
         "mcp__dataforseo__dataforseo_labs_bulk_keyword_difficulty,"
@@ -95,6 +102,7 @@ HEADLESS_ALLOWED_TOOLS = {
     ),
     3: (
         "Bash,Read,Write,Edit,Glob,Grep,WebFetch,"
+        "mcp__dataforseo,"
         "mcp__dataforseo__on_page_lighthouse,"
         "mcp__dataforseo__on_page_instant_pages,"
         "mcp__dataforseo__on_page_content_parsing"
