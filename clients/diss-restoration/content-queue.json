@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "id": "2026-08-26-water-damage-restoration-cost-oh",
+      "status": "written",
+      "queued_at": "2026-08-26T23:09:49Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-oh",
+      "primary_keyword": "water damage restoration cost OH",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "youngstown-oh",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Youngstown",
+        "state": "OH",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in OH",
+        "water damage restoration price OH",
+        "average cost of water damage restoration OH",
+        "water damage cleanup OH",
+        "water cleanup OH",
+        "water removal OH"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-26T23:18:23Z",
+      "post_url": "https://dissrestoration.com/blog/water-damage-restoration-cost-oh/"
+    },
+    {
       "id": "2026-08-07-best-water-damage-restoration-in-youngstown-oh",
       "status": "written",
       "queued_at": "2026-08-07T03:42:28Z",
@@ -309,6 +340,192 @@
         "https://www.epa.gov/mold/what-do-after-flood"
       ],
       "notes": "Diagnosis-stage query, 210/mo at KD 7. The ChatGPT decomposition flagged that homeowners lump four distinct failures together: supply line burst, sewer backup, sump pump failure, and foundation seepage. Separating those four is the whole value of this post, and each one has a different insurance outcome.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-how-long-does-water-damage-restoration-take",
+      "status": "queued",
+      "queued_at": "2026-08-26T23:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does water damage restoration take",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 3,
+      "fan_out_cluster": [
+        "how long does it take to dry out a flooded house",
+        "water damage drying time",
+        "how long do air movers need to run",
+        "how long does water damage restoration take start to finish",
+        "how long before mold grows after water damage",
+        "water damage restoration timeline by room"
+      ],
+      "suggested_slug": "how-long-does-water-damage-restoration-take",
+      "suggested_title": "How long does water damage restoration take? A day-by-day timeline",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Give a real day-by-day table (day 0 extraction, days 1-4 drying, days 5+ repairs) and name the variables that stretch it: category of water, affected materials, hidden saturation behind walls. Anchor the 24-48 hour mold window. DISS is IICRC ASD (structural drying) certified, lean on that.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-water-mitigation-vs-water-restoration",
+      "status": "queued",
+      "queued_at": "2026-08-26T23:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is the difference between water mitigation and water restoration",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "water mitigation vs water restoration",
+        "what is water mitigation",
+        "does insurance pay mitigation and restoration separately",
+        "water damage mitigation process steps",
+        "do i need one company for mitigation and rebuild",
+        "water remediation vs restoration"
+      ],
+      "suggested_slug": "water-mitigation-vs-water-restoration",
+      "suggested_title": "What is the difference between water mitigation and water restoration?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/general-contracting/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition, so treat this as AI-retrieval fuel: short definitional passages an assistant can lift verbatim. Key selling angle for DISS: they do both phases in house (IICRC mitigation plus general contracting rebuild), so the homeowner does not hand off between two vendors.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-insurance-temporary-housing-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-26T23:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does insurance cover temporary housing during water damage restoration",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "additional living expenses water damage claim",
+        "does insurance pay for a hotel during restoration",
+        "loss of use coverage homeowners insurance",
+        "how long will insurance pay for temporary housing",
+        "what receipts do i need for ALE claim",
+        "is my home uninhabitable after water damage"
+      ],
+      "suggested_slug": "does-insurance-cover-temporary-housing-water-damage-restoration",
+      "suggested_title": "Does insurance cover temporary housing during water damage restoration?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/services/contents-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/understanding-your-insurance-deductible",
+        "https://www.fema.gov/flood-insurance"
+      ],
+      "notes": "This is Coverage D / loss of use, and almost nobody in the vertical writes it well. Explain what makes a home legally uninhabitable, what receipts to keep, and typical ALE time limits. Do not give policy-specific promises: frame as what to ask your adjuster. Pairs with the existing insurance blog rather than duplicating it.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-best-water-damage-restoration-near-me",
+      "status": "queued",
+      "queued_at": "2026-08-26T23:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "best water damage restoration near me",
+      "intent": "commercial",
+      "volume": 320,
+      "kd": 25,
+      "fan_out_cluster": [
+        "how to vet a water damage restoration company",
+        "questions to ask a restoration company before signing",
+        "iicrc certified firm near me",
+        "restoration company red flags",
+        "should i use the company my insurance recommends",
+        "water damage restoration reviews what to look for"
+      ],
+      "suggested_slug": "best-water-damage-restoration-near-me",
+      "suggested_title": "How to find the best water damage restoration near me (a vetting checklist)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/",
+        "/blog/choosing-a-restoration-company/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.bbb.org/"
+      ],
+      "notes": "CANNIBALIZATION WATCH: a Youngstown best-of post is already written and /blog/choosing-a-restoration-company/ is planned. Do NOT write another ranked list. Write the criteria-and-vetting angle (certifications, response time SLA, direct insurance billing, written scope before work starts, who owns the rebuild) and link out to the Youngstown best-of for the local shortlist.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-water-damage-restoration-cost-calculator",
+      "status": "queued",
+      "queued_at": "2026-08-26T23:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration cost calculator",
+      "intent": "commercial",
+      "volume": 170,
+      "kd": 0,
+      "fan_out_cluster": [
+        "estimate water damage restoration cost",
+        "water damage cost by category of water",
+        "cost to dry out a room",
+        "water damage restoration cost by square footage",
+        "what drives up a water damage estimate",
+        "how restoration companies price a job"
+      ],
+      "suggested_slug": "water-damage-restoration-cost-calculator",
+      "suggested_title": "Water damage restoration cost calculator: estimate your job before you call",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/general-contracting/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "KD 0, wide-open SERP. Build this as an ESTIMATOR asset (input tables by square footage x water category x affected material), not another prose cost guide: two cost-guide posts are already in this queue and a third would cannibalize. Cross-link to them instead.",
       "source": "keyword-researcher"
     }
   ]
