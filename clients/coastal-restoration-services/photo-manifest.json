@@ -2,9 +2,9 @@
   "slug": "coastal-restoration-services",
   "assets": {
     "crew:sms-1786730070515-5a919436": {
-      "source": "crew",
-      "storage": "job-photos/sms-1786730070515-5a919436.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/sms-1786730070515-5a919436.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/sms-1786730070515-5a919436.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/posted/sms-1786730070515-5a919436.jpg",
       "width": 320,
       "height": 180,
       "bytes": 17404,

@@ -110,7 +110,7 @@
     },
     {
       "id": "2026-08-17-water-damage-restoration-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-17T17:12:13Z",
       "written_at": "2026-08-26T13:22:34Z",
       "post_url": "https://aircarerestoration.com/blog/water-damage-restoration-cost/",
@@ -146,7 +146,8 @@
       ],
       "notes": "Highest-volume uncovered term from this seed (880/mo, KD 3, CPC $14.73 to $53). No cost page exists in the url-plan, commercial partition is clean. Give real dollar bands by loss size and water category, and state plainly that insurance usually pays for sudden discharge but not long-term seepage. Do not publish a fixed price list: use ranges and a free-assessment CTA.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "published_verified_at": "2026-08-26T13:22:43Z"
     },
     {
       "id": "2026-08-17-category-3-water-damage",

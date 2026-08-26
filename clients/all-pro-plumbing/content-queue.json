@@ -577,6 +577,164 @@
       ],
       "notes": "Trust and pricing-transparency topic that also captures the transactional 'plumber near me free estimate' cluster (2,900/mo) which has no commercial page of its own. Explain the real distinction honestly: a quote on visible, straightforward work is usually free, while diagnostic work that takes time and equipment (leak detection, camera inspection) normally carries a fee that is often credited to the repair. Complements /blog/how-to-find-a-good-plumber/ (vetting) and /blog/how-much-does-a-plumber-cost-per-hour/ (rates) rather than repeating them. Do not state All Pro's own estimate policy unless it is confirmed in plan-input. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
       "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-should-i-tip-a-plumber",
+      "status": "queued",
+      "queued_at": "2026-08-26T13:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "should i tip a plumber",
+      "intent": "informational",
+      "volume": 2400,
+      "kd": 0,
+      "fan_out_cluster": [
+        "do you tip a plumber",
+        "how much do you tip a plumber",
+        "do you tip plumbers who come to your house",
+        "should i tip a plumber for a water heater install",
+        "is tipping expected on an after-hours emergency plumbing call",
+        "better ways to thank a plumber than cash"
+      ],
+      "suggested_slug": "should-i-tip-a-plumber",
+      "suggested_title": "Should I tip a plumber? What Bakersfield homeowners actually do",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/",
+        "/contact/",
+        "/services/emergency-plumbing/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "water-heater-installation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+      ],
+      "notes": "2,400/mo at KD 0 and no page on the site touches it: the cheapest ranking win in this seed family. Answer the question in the first two sentences (tipping is never expected on a quoted invoice, $10-$20 or a cold drink is a normal gesture on a hard after-hours or attic/crawlspace job), then cover the situations readers actually mean: emergency night calls, water heater hauls, multi-day repipes, apprentice vs lead tech. Close on the alternatives that help a local crew more than cash: a Google review, a referral, naming the tech. Pure trust content, no dispatch push beyond one soft CTA. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-how-much-does-an-emergency-plumber-cost",
+      "status": "queued",
+      "queued_at": "2026-08-26T13:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does an emergency plumber cost",
+      "intent": "informational",
+      "volume": 140,
+      "kd": 0,
+      "fan_out_cluster": [
+        "emergency plumber call out fee vs hourly rate",
+        "after hours plumber rates explained",
+        "weekend and holiday plumbing rates",
+        "what counts as a plumbing emergency",
+        "how much does a burst pipe repair cost at 2am",
+        "does homeowners insurance cover an emergency plumber",
+        "how to keep an emergency plumbing call from getting expensive"
+      ],
+      "suggested_slug": "how-much-does-an-emergency-plumber-cost",
+      "suggested_title": "How much does an emergency plumber cost? Call-out fees and after-hours rates explained",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/emergency-plumbing/",
+        "/services/burst-pipe-repair/",
+        "/services/leak-detection/",
+        "/service-areas/bakersfield-ca/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "burst-pipe-repair",
+        "leak-detection"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+      ],
+      "notes": "$41 CPC on a KD 0 keyword: the ads side pays real money for this intent and nothing on the site answers it. Structure it as fee anatomy (call-out/trip fee, after-hours multiplier, diagnostic time, then the repair itself) with honest ranges rather than one made-up number, and give the shut-off-the-water step before any pricing so the page earns the AI-answer slot. 24/7 claims ARE allowed for this brand (plan-input brand.hours = 24/7). Pairs with /blog/how-much-does-a-plumber-cost-per-hour/ (day rates) and /blog/what-to-do-burst-pipe/ (the emergency itself): link both, do not restate them. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-how-to-hire-a-licensed-plumber",
+      "status": "queued",
+      "queued_at": "2026-08-26T13:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "licensed plumber",
+      "intent": "transactional",
+      "volume": 8100,
+      "kd": 26,
+      "fan_out_cluster": [
+        "how to know if a plumber is licensed",
+        "how to verify a plumbing license in california",
+        "what is a c-36 plumbing contractor license",
+        "risks of hiring an unlicensed plumber",
+        "is the plumber bonded and insured",
+        "do plumbers warranty their work",
+        "does a licensed plumber have to pull a permit"
+      ],
+      "suggested_slug": "how-to-hire-a-licensed-plumber",
+      "suggested_title": "How to hire a licensed plumber in California (and check the license in two minutes)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/",
+        "/contact/",
+        "/services/repiping/",
+        "/services/gas-line-services/",
+        "/services/water-heater-installation/"
+      ],
+      "service_tags": [
+        "repiping",
+        "gas-line-services",
+        "water-heater-installation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/",
+        "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx"
+      ],
+      "notes": "8,100/mo at KD 26 with $25.75 CPC and no commercial page targeting it. Write the how-to-verify walkthrough: CSLB license lookup by number or business name, C-36 classification, workers comp and bond status, why the license matters most on permitted work (repipe, sewer replacement, gas line, water heater changeout). This is the vetting-mechanics post; /blog/how-to-find-a-good-plumber/ is the soft-skills vetting post and the two must cross-link, not overlap. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-plumbing-contractor-vs-plumber",
+      "status": "queued",
+      "queued_at": "2026-08-26T13:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "plumbing contractor",
+      "intent": "transactional",
+      "volume": 6600,
+      "kd": 12,
+      "fan_out_cluster": [
+        "what is a plumbing contractor",
+        "plumbing contractor vs plumber",
+        "master plumber vs journeyman plumber",
+        "plumber vs handyman for plumbing work",
+        "which plumbing jobs need a permit in california",
+        "when does a plumbing job need a licensed contractor"
+      ],
+      "suggested_slug": "plumbing-contractor-vs-plumber",
+      "suggested_title": "Plumbing contractor vs plumber: which one does your job actually need?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/",
+        "/services/sewer-line-repair/",
+        "/services/repiping/",
+        "/services/gas-line-services/"
+      ],
+      "service_tags": [
+        "sewer-line-repair",
+        "repiping",
+        "gas-line-services"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+      ],
+      "notes": "6,600/mo at KD 12, uncovered. Scope-and-permits angle, deliberately kept off the license-verification angle in the sibling 'licensed plumber' post: apprentice/journeyman/master tiers, what a contracting entity carries that an individual tech does not, and a plain table of Kern County job types that need a permit and inspection versus same-day handyman-scale fixes. Absorbs the 'plumber vs handyman' cluster (20/mo but constant in AI answers). LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
+      "source": "rank-ai-keyword-researcher"
     }
   ]
 }

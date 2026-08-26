@@ -1180,8 +1180,8 @@
     },
     "gbp:gbp-AF1QipOABWO7C3Hs0t4e0-rRk7SuGOr5xlTPoq5nVctm": {
       "source": "gbp",
-      "storage": "job-photos/posted/gbp-AF1QipOABWO7C3Hs0t4e0-rRk7SuGOr5xlTPoq5nVctm.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/job-photos/posted/gbp-AF1QipOABWO7C3Hs0t4e0-rRk7SuGOr5xlTPoq5nVctm.jpg",
+      "storage": "job-photos/posted/r1787741504_gbp-AF1QipOABWO7C3Hs0t4e0-rRk7SuGOr5xlTPoq5nVctm.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/job-photos/posted/r1787741504_gbp-AF1QipOABWO7C3Hs0t4e0-rRk7SuGOr5xlTPoq5nVctm.jpg",
       "width": 348,
       "height": 348,
       "bytes": 19134,
@@ -2304,6 +2304,33 @@
       "reason": "Appliance product-style photo; no restoration context, minimal trade relevance.",
       "triaged_at": "2026-08-09T14:12:12Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "web:07ce75b0fb277f41": {
+      "source": "website",
+      "storage": "site-assets/web/web-07ce75b0fb277f41.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/site-assets/web/web-07ce75b0fb277f41.jpg",
+      "origin_url": "https://www.drycountyrestoration.com/wp-content/uploads/2025/05/Untitled-design-8.jpeg",
+      "found_on": "https://www.drycountyrestoration.com/",
+      "width": 651,
+      "height": 421,
+      "bytes": 62172,
+      "sha1": "07ce75b0fb277f41",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Bearded man smiling outdoors at a park or sports field",
+      "quality": 72,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Casual non-uniform outdoor portrait; no company context, trade relevance, or branding.",
+      "triaged_at": "2026-08-26T12:39:26Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {
@@ -2317,5 +2344,5 @@
       "note": "AI-FIRST doctrine exception: exceptional real photo (q=82, their best asset) holds this card; pinned by hand during the 2026-08-10 visual pass."
     }
   },
-  "triaged_at": "2026-08-18T13:58:32Z"
+  "triaged_at": "2026-08-26T12:39:26Z"
 }

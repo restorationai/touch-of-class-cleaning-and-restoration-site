@@ -1,0 +1,504 @@
+{
+  "schema_version": 1,
+  "slug": "aaa-water-damage",
+  "site": "staging.rankai-aaa-water-damage.pages.dev",
+  "live_origin": "https://staging.rankai-aaa-water-damage.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-08-26T13:08:44Z",
+  "lighthouse_detail": "full - complete audits array captured per URL; lighthouse_issues[] is capped at the top 5 per URL per methodology, while site_rollup.template_issues counts the full failing set",
+  "environment_caveats": [
+    "live_origin_source=staging: apex domain aaawaterdamagehawaii.com does not resolve (no DNS A record) and client record has apex_cutover=null, so the Cloudflare Pages preview was audited.",
+    "Cloudflare Pages preview returns x-robots-tag: noindex (verified via curl). The Lighthouse is-crawlable audit therefore fails on all 6 URLs and deflates the SEO category to 69. SEO is EXCLUDED from all verdicts this run and is inconclusive - staging noindex artifact, re-audit after apex cutover.",
+    "Canonical tags and schema url/og:url on staging correctly point at the apex domain https://aaawaterdamagehawaii.com/, which is not yet resolving. This is expected pre-cutover, not a page defect, and is not counted as a canonical issue.",
+    "Lighthouse ran DESKTOP (configSettings.formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically run 10-20 performance points lower. No mobile-first claim is made.",
+    "Client record status is \"pending\" (not \"active\"); build_status is pushed_main with last_pushed_main_at 2026-08-26. Audit proceeded because the site is live and auditable. Flagged for record hygiene.",
+    "Exact DataForSEO micromarkup validator messages require the task-based /v3/on_page/microdata endpoint and were not fetched this run (deferred, cost/time). Structural defects were verified independently by parsing the pages JSON-LD."
+  ],
+  "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-aaa-water-damage.pages.dev/",
+      "archetype": "home",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 820,
+        "CLS": 0.0022,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 30,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "derived:description_length_out_of_range",
+          "title": "Meta description is 164 chars (target 70-160)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 819,
+        "CLS": 0.0018,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup present but fails validation",
+          "severity": "medium"
+        },
+        {
+          "id": "derived:word_count_below_target",
+          "title": "Word count 755 below archetype target 800",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 454,
+        "CLS": 0.0309,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup present but fails validation",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/mold-remediation/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 804,
+        "CLS": 0.0026,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup present but fails validation",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-aaa-water-damage.pages.dev/service-areas/hawaii-kai-hi/",
+      "archetype": "service-area",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 816,
+        "CLS": 0.0035,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup present but fails validation",
+          "severity": "medium"
+        },
+        {
+          "id": "frame",
+          "title": "Page embeds an iframe (Google Maps embed)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-aaa-water-damage.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 832,
+        "CLS": 0.0042,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "agent-accessibility-tree",
+          "title": "Accessibility tree is not well-formed",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "agentic-browsing"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup present but fails validation",
+          "severity": "medium"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.8,
+      "accessibility": 95.2,
+      "best_practices": 100.0,
+      "seo": 69.0
+    },
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 1,
+      "amber": 5,
+      "red": 0,
+      "error": 0
+    },
+    "verdict_excludes_seo": true,
+    "template_issues": [
+      {
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "severity": "low",
+        "affected_urls": 6
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "severity": "low",
+        "affected_urls": 6
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "severity": "high",
+        "affected_urls": 5
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "severity": "medium",
+        "affected_urls": 5
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "Schema.org markup present but fails validation",
+        "severity": "medium",
+        "affected_urls": 5
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "severity": "low",
+        "affected_urls": 5
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "performance 100, accessibility 95, LCP 819ms; has_micromarkup_errors, color-contrast"
+      },
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "performance 100, accessibility 95, LCP 454ms; has_micromarkup_errors, color-contrast"
+      },
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/mold-remediation/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "performance 100, accessibility 95, LCP 804ms; has_micromarkup_errors, color-contrast"
+      },
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "amber",
+        "main_issue": "performance 99, accessibility 91, LCP 832ms; has_micromarkup_errors, color-contrast, link-name"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  }
+}

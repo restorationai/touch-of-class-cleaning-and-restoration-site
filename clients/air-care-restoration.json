@@ -13,7 +13,7 @@
     "url_count": 380,
     "generated_at": "2026-08-16T09:42:03.082371+00:00"
   },
-  "updated_at": "2026-08-23T06:18:54.635610+00:00",
+  "updated_at": "2026-08-26T13:32:46Z",
   "gbp": {
     "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJAbX4Kjsyg2IRF9RgElzgJXk"
@@ -28,7 +28,7 @@
     "pages_status": "created",
     "last_rendered_at": "2026-08-16T09:54:09.734073+00:00",
     "last_pushed_staging_at": "2026-08-22T04:56:23.231524+00:00",
-    "last_pushed_main_at": "2026-08-23T06:18:54.635543+00:00"
+    "last_pushed_main_at": "2026-08-26T13:22:41.883867+00:00"
   },
   "build_status": "pushed_main",
   "cutover_prep": {
@@ -52,5 +52,10 @@
     "legacy_origin": "172.67.187.198",
     "completed_at": "2026-08-21T01:49:03+00:00"
   },
-  "cut_over_at": "2026-08-21T01:49:03+00:00"
+  "cut_over_at": "2026-08-21T01:49:03+00:00",
+  "audit": {
+    "last_audit_at": "2026-08-26T13:30:57Z",
+    "last_audit_verdict": "amber",
+    "last_audit_report_path": "audit-runs/2026-08-26-onsite-audit.md"
+  }
 }

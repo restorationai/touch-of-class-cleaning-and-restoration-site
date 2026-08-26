@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+emergency water damage restoration,transactional,2900,19,58.31,2,water damage restoration,,,no
+water damage restoration contractors,transactional,1300,33,24.49,2,water damage restoration,,,no
+commercial water damage restoration,transactional,590,15,13.32,2,water damage restoration,,,no
+water damage restoration near me,transactional,135000,17,51.04,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration company,transactional,110000,25,60.4,3,water damage restoration,,/services/water-damage-restoration/,no
+residential water damage restoration near me,transactional,210,31,21.3,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration abilene tx,transactional,10,,,3,water damage restoration,abilene-tx,/services/water-damage-restoration/,no
+water damage repair abilene tx,transactional,10,,,3,water damage restoration,abilene-tx,/services/water-damage-restoration/,no
+water extraction abilene tx,transactional,10,,,3,water damage restoration,abilene-tx,/services/water-damage-restoration/,no
+water removal abilene tx,transactional,10,,,3,water damage restoration,abilene-tx,/services/water-damage-restoration/,no
+water damage restoration in abilene,transactional,,,,3,water damage restoration,abilene-tx,/services/water-damage-restoration/,no
+abilene water damage restoration,transactional,,,,3,water damage restoration,abilene-tx,/services/water-damage-restoration/,no
+emergency water damage restoration abilene tx,transactional,,,,3,water damage restoration,abilene-tx,/services/water-damage-restoration/,no
+water damage restoration company abilene tx,transactional,,,,3,water damage restoration,abilene-tx,/services/water-damage-restoration/,no
+water damage cleanup abilene tx,transactional,,,,3,water damage restoration,abilene-tx,/services/water-cleanup/,no
+water damage restoration san angelo tx,transactional,,,,3,water damage restoration,san-angelo-tx,/service-areas/san-angelo-tx/water-damage-restoration/,no
+water damage restoration in san angelo,transactional,,,,3,water damage restoration,san-angelo-tx,/service-areas/san-angelo-tx/water-damage-restoration/,no
+water damage restoration sweetwater tx,transactional,,,,3,water damage restoration,sweetwater-tx,/service-areas/sweetwater-tx/water-damage-restoration/,no
+water damage restoration brownwood tx,transactional,,,,3,water damage restoration,brownwood-tx,/service-areas/brownwood-tx/water-damage-restoration/,no
+24 hour water damage restoration abilene,transactional,,,,3,water damage restoration,abilene-tx,/services/water-damage-restoration/,no
+best water damage restoration company near me,commercial,170,21,1.24,2,water damage restoration,,,no
+water damage restoration cost per square foot,commercial,70,3,28.17,2,water damage restoration,,,no
+how much does water damage restoration cost in texas,commercial,,,,2,water damage restoration,,,no
+can water damaged carpet be saved,informational,10,,,1,water damage restoration,,,no
+should i replace drywall that got wet,informational,,,,1,water damage restoration,,,yes
+what certifications should a water damage restoration company have,informational,,,,1,water damage restoration,,,yes
+what equipment do water damage restoration companies use,informational,,,,1,water damage restoration,,,yes
+how soon should i call a water damage restoration company,informational,,,,1,water damage restoration,,,no
+how do i prevent mold after water damage,informational,,,,1,water damage restoration,,,no
+does insurance cover a burst pipe in the wall,informational,,,,1,water damage restoration,,,yes
+what personal items can be salvaged after water damage,informational,,,,1,water damage restoration,,,yes
+who pays for water damage restoration,informational,,,,1,water damage restoration,,,no
+how long does water damage take to show up,informational,,,,1,water damage restoration,,,no
+what does a water damage restoration company do,informational,10,,,2,water damage restoration,,,no
+how long does it take to dry out a house after water damage,informational,,,,2,water damage restoration,,,no
+what are the categories of water damage,informational,,,,2,water damage restoration,,,no
+difference between water damage and flood damage insurance,informational,,,,2,water damage restoration,,,no
+how does water damage affect a home structure,informational,,,,2,water damage restoration,,,no
+how to document water damage for insurance claim,informational,,,,2,water damage restoration,,,no
+does homeowners insurance cover water damage in texas,informational,,,,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no

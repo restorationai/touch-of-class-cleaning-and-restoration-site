@@ -1,0 +1,954 @@
+{
+  "schema_version": 1,
+  "slug": "air-care-restoration",
+  "site": "aircarerestoration.com",
+  "live_origin": "https://aircarerestoration.com",
+  "live_origin_source": "apex",
+  "generated_at": "2026-08-26T13:30:57Z",
+  "audit_form_factor": "desktop",
+  "lighthouse_version": "13.4.0",
+  "lighthouse_throttling": {
+    "cpuSlowdownMultiplier": 1,
+    "throughputKbps": 10240,
+    "rttMs": 40
+  },
+  "url_selection_mode": "auto_derived_from_url_plan",
+  "environment_caveats": [
+    "Lighthouse ran DESKTOP only (cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically run 10-20 performance points lower. Do not read these as mobile-first scores.",
+    "Client record status is \"onboarding\", not \"active\". build_status is pushed_main and apex_cutover.completed_at is 2026-08-21T01:49:03+00:00, so the site is live and auditable; the audit proceeded and the status field looks stale.",
+    "The DataForSEO MCP wrapper does not expose form_factor, but the underlying /v3/on_page/lighthouse/live/json endpoint accepts for_mobile. Mobile auditing is now technically available for a future cadence change; desktop was kept this run for month-over-month comparability."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://aircarerestoration.com/",
+      "archetype": "home",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 93,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 650,
+        "CLS": 0.157,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 289,
+        "SI_ms": 304,
+        "TTFB_ms": 92
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 150,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": "Est savings of 173\u00a0KiB"
+        },
+        {
+          "id": "layout-shifts",
+          "title": "Avoid large layout shifts",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": "3 layout shifts found"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "cls-culprits-insight",
+          "title": "Layout shift culprits",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": "Est savings of 0\u00a0KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": null
+        },
+        {
+          "id": "cumulative-layout-shift",
+          "title": "Cumulative Layout Shift",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.74,
+          "display_value": "0.157"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "Page load time above DataForSEO crawler threshold",
+          "severity": "medium",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Text-to-HTML ratio below threshold",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "meta_description_too_long",
+          "title": "Meta description is 177 chars (target 70-160)",
+          "severity": "medium",
+          "source": "derived_from_instant_pages_meta.description_length"
+        }
+      ],
+      "onpage_facts": {
+        "onpage_score": 92.95,
+        "http_status": 200,
+        "title": "Air Care Restoration | Restoration Services in Abilene, TX",
+        "title_length": 58,
+        "description_length": 177,
+        "canonical": "https://aircarerestoration.com/",
+        "h1_count": 1,
+        "word_count": 1733,
+        "target_word_count": 1200,
+        "internal_links": 49,
+        "external_links": 2,
+        "images_count": 3,
+        "images_bytes": 374476,
+        "image_alt_coverage_pct": 100,
+        "schema_types_present": [
+          "Organization",
+          "WebSite",
+          "LocalBusiness",
+          "AggregateRating",
+          "PostalAddress",
+          "GeoCoordinates",
+          "OpeningHoursSpecification",
+          "ImageObject"
+        ],
+        "mixed_content_resources": 0,
+        "crawler_dom_complete_ms": 3687
+      }
+    },
+    {
+      "url": "https://aircarerestoration.com/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 931,
+        "CLS": 0.029,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 347,
+        "SI_ms": 347,
+        "TTFB_ms": 126
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": "Est savings of 247\u00a0KiB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": "Est savings of 0\u00a0KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "Page load time above DataForSEO crawler threshold",
+          "severity": "medium",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        }
+      ],
+      "onpage_facts": {
+        "onpage_score": 92.95,
+        "http_status": 200,
+        "title": "Restoration Services in Abilene | Air Care Restoration",
+        "title_length": 54,
+        "description_length": 137,
+        "canonical": "https://aircarerestoration.com/services/",
+        "h1_count": 1,
+        "word_count": 861,
+        "target_word_count": 800,
+        "internal_links": 35,
+        "external_links": 1,
+        "images_count": 14,
+        "images_bytes": 712324,
+        "image_alt_coverage_pct": 100,
+        "schema_types_present": [
+          "Organization",
+          "WebSite",
+          "LocalBusiness",
+          "BreadcrumbList",
+          "FAQPage",
+          "AggregateRating"
+        ],
+        "mixed_content_resources": 0,
+        "crawler_dom_complete_ms": 3397
+      }
+    },
+    {
+      "url": "https://aircarerestoration.com/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 643,
+        "CLS": 0.025,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 283,
+        "SI_ms": 308,
+        "TTFB_ms": 131
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 150,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": "Est savings of 173\u00a0KiB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": "Est savings of 0\u00a0KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "Page load time above DataForSEO crawler threshold",
+          "severity": "medium",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        }
+      ],
+      "onpage_facts": {
+        "onpage_score": 92.95,
+        "http_status": 200,
+        "title": "Water Damage Restoration in Abilene | Air Care Restoration",
+        "title_length": 58,
+        "description_length": 129,
+        "canonical": "https://aircarerestoration.com/services/water-damage-restoration/",
+        "h1_count": 1,
+        "word_count": 1843,
+        "target_word_count": 1100,
+        "internal_links": 45,
+        "external_links": 1,
+        "images_count": 2,
+        "images_bytes": 290440,
+        "image_alt_coverage_pct": 100,
+        "schema_types_present": [
+          "LocalBusiness",
+          "Service",
+          "BreadcrumbList",
+          "FAQPage",
+          "AggregateRating"
+        ],
+        "mixed_content_resources": 0,
+        "crawler_dom_complete_ms": 3425
+      }
+    },
+    {
+      "url": "https://aircarerestoration.com/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 834,
+        "CLS": 0.025,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 289,
+        "SI_ms": 346,
+        "TTFB_ms": 173
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": "Est savings of 182\u00a0KiB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": "Est savings of 0\u00a0KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "Page load time above DataForSEO crawler threshold",
+          "severity": "medium",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        }
+      ],
+      "onpage_facts": {
+        "onpage_score": 92.95,
+        "http_status": 200,
+        "title": "Fire Damage Restoration in Abilene | Air Care Restoration",
+        "title_length": 57,
+        "description_length": 128,
+        "canonical": "https://aircarerestoration.com/services/fire-damage-restoration/",
+        "h1_count": 1,
+        "word_count": 1938,
+        "target_word_count": 1100,
+        "internal_links": 44,
+        "external_links": 1,
+        "images_count": 2,
+        "images_bytes": 305650,
+        "image_alt_coverage_pct": 100,
+        "schema_types_present": [
+          "LocalBusiness",
+          "Service",
+          "BreadcrumbList",
+          "FAQPage",
+          "AggregateRating"
+        ],
+        "mixed_content_resources": 0,
+        "crawler_dom_complete_ms": 3323
+      }
+    },
+    {
+      "url": "https://aircarerestoration.com/service-areas/sweetwater-tx/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 846,
+        "CLS": 0.01,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 315,
+        "SI_ms": 318,
+        "TTFB_ms": 89
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": "Est savings of 173\u00a0KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": "Est savings of 50\u00a0ms"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": "Est savings of 0\u00a0KiB"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "frame",
+          "title": "Page contains an iframe",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        }
+      ],
+      "onpage_facts": {
+        "onpage_score": 100,
+        "http_status": 200,
+        "title": "Restoration Services in Sweetwater, TX | Air Care Restoration",
+        "title_length": 61,
+        "description_length": 124,
+        "canonical": "https://aircarerestoration.com/service-areas/sweetwater-tx/",
+        "h1_count": 1,
+        "word_count": 1324,
+        "target_word_count": 900,
+        "internal_links": 43,
+        "external_links": 2,
+        "images_count": 2,
+        "images_bytes": 278528,
+        "image_alt_coverage_pct": 100,
+        "schema_types_present": [
+          "LocalBusiness",
+          "BreadcrumbList",
+          "FAQPage",
+          "AggregateRating"
+        ],
+        "mixed_content_resources": 0,
+        "crawler_dom_complete_ms": 1174
+      }
+    },
+    {
+      "url": "https://aircarerestoration.com/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 784,
+        "CLS": 0.029,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 296,
+        "SI_ms": 296,
+        "TTFB_ms": 91
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0,
+          "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": "Est savings of 0\u00a0KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": "Est savings of 222\u00a0KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "lighthouse_score": 0.5,
+          "display_value": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute",
+          "severity": "low",
+          "source": "dataforseo_instant_pages"
+        }
+      ],
+      "onpage_facts": {
+        "onpage_score": 100,
+        "http_status": 200,
+        "title": "Contact Air Care Restoration | 24/7 Restoration in Abilene",
+        "title_length": 58,
+        "description_length": 126,
+        "canonical": "https://aircarerestoration.com/contact/",
+        "h1_count": 1,
+        "word_count": 658,
+        "target_word_count": 400,
+        "internal_links": 31,
+        "external_links": 1,
+        "images_count": 2,
+        "images_bytes": 278528,
+        "image_alt_coverage_pct": 100,
+        "schema_types_present": [
+          "Organization",
+          "WebSite",
+          "LocalBusiness",
+          "BreadcrumbList",
+          "FAQPage",
+          "AggregateRating"
+        ],
+        "mixed_content_resources": 0,
+        "crawler_dom_complete_ms": 2107
+      }
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 98,
+      "accessibility": 95,
+      "best_practices": 100,
+      "seo": 100
+    },
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 2,
+      "amber": 4,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 6,
+        "severity": "high",
+        "source": "lighthouse"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "high",
+        "source": "lighthouse"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "affected_urls": 6,
+        "severity": "low",
+        "source": "lighthouse"
+      },
+      {
+        "id": "has_render_blocking_resources",
+        "title": "Page has render-blocking resources",
+        "affected_urls": 6,
+        "severity": "low",
+        "source": "dataforseo_instant_pages"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 6,
+        "severity": "low",
+        "source": "lighthouse"
+      },
+      {
+        "id": "no_image_title",
+        "title": "Images have no title attribute",
+        "affected_urls": 6,
+        "severity": "low",
+        "source": "dataforseo_instant_pages"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "low",
+        "source": "lighthouse"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "medium",
+        "source": "lighthouse"
+      },
+      {
+        "id": "high_loading_time",
+        "title": "Page load time above DataForSEO crawler threshold",
+        "affected_urls": 4,
+        "severity": "medium",
+        "source": "dataforseo_instant_pages"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://aircarerestoration.com/",
+        "archetype": "home",
+        "verdict": "amber",
+        "main_issue": "performance 93, LCP 0.65s, CLS 0.157; on-page: high_loading_time, meta_description_too_long"
+      },
+      {
+        "url": "https://aircarerestoration.com/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "performance 99, LCP 0.93s, CLS 0.029; on-page: high_loading_time"
+      },
+      {
+        "url": "https://aircarerestoration.com/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "performance 100, LCP 0.64s, CLS 0.025; on-page: high_loading_time"
+      },
+      {
+        "url": "https://aircarerestoration.com/services/fire-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "performance 99, LCP 0.83s, CLS 0.025; on-page: high_loading_time"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  },
+  "cost_usd": {
+    "lighthouse": 0.03,
+    "instant_pages": 0.031,
+    "total": 0.061,
+    "note": "6 lighthouse live + 6 instant_pages calls"
+  }
+}

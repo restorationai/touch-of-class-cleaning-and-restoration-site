@@ -2,9 +2,9 @@
   "slug": "go-green-restoration-of-nc",
   "assets": {
     "crew:fb-10": {
-      "source": "crew",
-      "storage": "job-photos/fb-10.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-10.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-10.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-10.jpg",
       "width": 1536,
       "height": 2048,
       "bytes": 604396,
@@ -27,9 +27,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:fb-11": {
-      "source": "crew",
-      "storage": "job-photos/fb-11.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-11.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-11.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-11.jpg",
       "width": 1536,
       "height": 2048,
       "bytes": 708438,
@@ -52,9 +52,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:fb-12": {
-      "source": "crew",
-      "storage": "job-photos/fb-12.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-12.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-12.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-12.jpg",
       "width": 2048,
       "height": 1536,
       "bytes": 484360,
@@ -79,9 +79,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:fb-13": {
-      "source": "crew",
-      "storage": "job-photos/fb-13.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-13.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-13.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-13.jpg",
       "width": 1536,
       "height": 2048,
       "bytes": 369626,
