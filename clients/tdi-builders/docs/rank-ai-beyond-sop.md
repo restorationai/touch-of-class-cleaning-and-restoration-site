@@ -63,7 +63,7 @@ plus the three decisions and the access list we need from TDI.
 
 ## Access + inputs we need from TDI
 
-- **CSLB license number** (not on the current site and not in the SOP;
+- **CSLB license number** 1041773 (not on the current site and not in the SOP;
   site carries a placeholder until received and cannot cut over without it)
 - **HubSpot** (portal 48033708): either a user seat for
   contact@restorationai.io, or the form GUIDs for estimate / commercial /
