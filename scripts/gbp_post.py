@@ -261,7 +261,11 @@ def main():
         # 3x/week: Mon + Thu (weekly-maintenance) + Wed (gbp-posts-midweek)
         for slug in slugs:
             try:
-                topic = random.choice(list(TOPICS))
+                # Weighted toward 'services' (Santino 2026-08-26): the
+                # service-spotlight topic is the only one that deep-links a
+                # specific page, so it gets ~half the rolls instead of 1/4.
+                topics = list(TOPICS)
+                topic = random.choice(topics + ["services"] * 2)  # 3/6 = half
                 service = None
                 cta_url = None
                 if topic == "services":
