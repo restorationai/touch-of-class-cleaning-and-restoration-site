@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-08-07-best-water-damage-restoration-in-royse-city-tx",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-07T03:44:36Z",
       "priority": 1,
       "prioritized": true,
@@ -56,7 +56,8 @@
           "context": "gest verified review base on this list: 172 Google reviews at a 4.9 rating. That volume of reviews",
           "reason": "listicle review-count 172 (competitor stat \u2014 verify it is not presented as ours)"
         }
-      ]
+      ],
+      "published_verified_at": "2026-08-26T22:19:15Z"
     },
     {
       "id": "2026-08-26-ceiling-water-damage",
