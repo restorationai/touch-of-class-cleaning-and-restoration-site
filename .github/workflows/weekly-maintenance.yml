@@ -186,6 +186,11 @@ jobs:
 
       - name: Scan AI search visibility (weekly — Monday + manual)
         if: github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch'
+        # 08-24 run: this step hung 41 minutes and the 2h job cap killed the
+        # whole workflow before content was committed. Cap it, never let it
+        # take the run down.
+        timeout-minutes: 20
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -254,6 +259,9 @@ jobs:
         run: python3 scripts/strategist.py --all
 
       - name: Commit generated state files and content
+        # ALWAYS commit what was produced — the 08-24 death discarded every
+        # blog post written before the hang because this step never ran.
+        if: always()
         run: |
           git add clients/ sites/ portfolio/ docs/ 2>/dev/null || true
           if git diff --cached --quiet; then

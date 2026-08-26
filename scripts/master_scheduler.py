@@ -295,10 +295,36 @@ def can_run_directly(client: dict, system: int) -> bool:
 # -----------------------------------------------------------------------------
 
 
+def _call_with_timeout(cmd: list[str], cwd: Path, env=None,
+                       timeout_s: int = 900, label: str = "") -> int:
+    """subprocess with a hard wall-clock cap (2026-08-26).
+
+    Root cause of the weekly-maintenance 2-hour deaths + the fleet-wide
+    content stall since ~08-04: `claude -p` invocations (and their npx MCP
+    server children) occasionally never exit, and subprocess.call waited
+    forever — one hung client killed content for EVERY client after it,
+    and the end-of-job commit step never ran, discarding even the posts
+    that WERE written. A hang now skips ONE job. start_new_session +
+    killpg takes the orphaned MCP server down with the parent."""
+    import signal
+    print(f"\n    $ {' '.join(cmd[:3])}{' ...' if len(cmd) > 3 else ''}  (cap {timeout_s // 60}m)")
+    proc = subprocess.Popen(cmd, cwd=str(cwd), env=env, start_new_session=True)
+    try:
+        return proc.wait(timeout=timeout_s)
+    except subprocess.TimeoutExpired:
+        print(f"    !! TIMEOUT after {timeout_s // 60}m — killing "
+              f"{label or cmd[0]} process group, moving to the next job")
+        try:
+            os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+        except Exception:  # noqa: BLE001 — group may already be gone
+            proc.kill()
+        proc.wait()
+        return 124
+
+
 def run_script(cmd: list[str], cwd: Path = ROOT) -> int:
     """Run a script-driven system. Streams output, returns exit code."""
-    print(f"\n    $ {' '.join(cmd)}")
-    return subprocess.call(cmd, cwd=str(cwd))
+    return _call_with_timeout(cmd, cwd, timeout_s=900)
 
 
 def emit_agent_prompt(system: int, slug: str) -> str:
@@ -377,7 +403,8 @@ def run_agent_headless(system: int, slug: str) -> int:
     # Fresh CI runners cold-start the npx MCP server; give it 2 min to connect
     # instead of the default (audits were aborting on "still connecting").
     env = {**os.environ, "MCP_TIMEOUT": "120000"}
-    return subprocess.call(cmd, cwd=str(ROOT), env=env)
+    return _call_with_timeout(cmd, ROOT, env=env, timeout_s=1200,
+                              label=f"S{system} {slug}")
 
 
 # -----------------------------------------------------------------------------
