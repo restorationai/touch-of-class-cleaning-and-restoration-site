@@ -701,10 +701,10 @@
     },
     {
       "id": "2026-07-23-how-long-does-a-home-remodel-take",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-23T17:18:06Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-26T22:58:34Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/how-long-does-a-home-remodel-take/",
       "primary_keyword": "how long does a home remodel take",
       "intent": "informational",
       "volume": null,
@@ -984,6 +984,185 @@
         "https://www.nahb.org/"
       ],
       "notes": "Compare payback by addition type and set expectations that resale recovery is rarely 100 percent, so the real case is usable space versus the cost of moving. Reference the Huntsville area market: aerospace and Redstone Arsenal families often add space rather than relocate."
+    },
+    {
+      "id": "2026-08-26-20x20-room-addition-cost",
+      "status": "queued",
+      "queued_at": "2026-08-26T22:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "20x20 room addition cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 0,
+      "fan_out_cluster": [
+        "home addition cost per square foot",
+        "500 sq ft addition cost",
+        "20x20 room addition cost calculator",
+        "home addition cost calculator",
+        "what does a 400 square foot addition cost",
+        "room addition cost by size"
+      ],
+      "suggested_slug": "20x20-room-addition-cost",
+      "suggested_title": "What a 20x20 room addition cost looks like in North Alabama",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/"
+      ],
+      "service_tags": [
+        "room-addition",
+        "home-remodeling"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/"
+      ],
+      "notes": "Size-specific cost angle. Lead with a cost table broken out by 20x20 use case (family room, master suite, in-law suite) and a line-item breakdown (foundation, framing, roof tie-in, HVAC extension, finishes). Keep it distinct from the queued general 'how much does a home addition cost' post: that one owns the overview, this one owns the single most-searched size."
+    },
+    {
+      "id": "2026-08-26-400-sq-ft-master-suite-addition-cost",
+      "status": "queued",
+      "queued_at": "2026-08-26T22:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "400 sq ft master suite addition cost",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "200 sq ft master suite addition cost",
+        "400 sq ft master suite addition plans",
+        "master bedroom addition cost",
+        "home addition cost per square foot",
+        "does a master suite addition add value",
+        "how much would a 400 sq ft addition cost"
+      ],
+      "suggested_slug": "400-sq-ft-master-suite-addition-cost",
+      "suggested_title": "400 sq ft master suite addition cost: what North Alabama homeowners actually pay",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/service-areas/huntsville-al/home-remodeling/"
+      ],
+      "service_tags": [
+        "room-addition",
+        "home-remodeling"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.remodeling.hw.net/cost-vs-value/"
+      ],
+      "notes": "Highest-intent size query in the addition family. Cover the ensuite bath as the main cost driver (plumbing runs, vanity, tile), plus HVAC load and whether the existing roofline allows a simple tie-in. Madison and Hampton Cove ranch homes are the natural example set."
+    },
+    {
+      "id": "2026-08-26-home-addition-ideas",
+      "status": "queued",
+      "queued_at": "2026-08-26T22:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "home addition ideas",
+      "intent": "informational",
+      "volume": 1300,
+      "kd": 5,
+      "fan_out_cluster": [
+        "small home addition ideas",
+        "room addition ideas for small homes",
+        "home addition ideas before and after",
+        "home addition ideas for ranch style homes",
+        "single story ranch house additions before and after",
+        "simple home addition ideas"
+      ],
+      "suggested_slug": "home-addition-ideas",
+      "suggested_title": "Home addition ideas that work for North Alabama houses",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/",
+        "/services/decks-pergolas-fences/"
+      ],
+      "service_tags": [
+        "room-addition",
+        "home-remodeling",
+        "new-construction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/"
+      ],
+      "notes": "Top-of-funnel inspiration piece that feeds the whole addition cluster. Organize by addition type (bump-out, sunroom, master suite, second story, garage conversion, in-law suite) and note which suit the 1970s-80s brick ranches common in Athens and Madison versus newer HOA subdivisions with architectural review."
+    },
+    {
+      "id": "2026-08-26-cheapest-way-to-add-addition-to-house",
+      "status": "queued",
+      "queued_at": "2026-08-26T22:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "cheapest way to add addition to house",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 7,
+      "fan_out_cluster": [
+        "cheapest type of home addition",
+        "bump out addition cost",
+        "is it cheaper to convert a garage or build an addition",
+        "sunroom vs addition cost",
+        "how to save money on a home addition",
+        "cheapest way to add square footage"
+      ],
+      "suggested_slug": "cheapest-way-to-add-addition-to-house",
+      "suggested_title": "The cheapest way to add an addition to your house (and what it costs you later)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/"
+      ],
+      "service_tags": [
+        "room-addition",
+        "home-remodeling"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/"
+      ],
+      "notes": "Budget-first angle, no overlap with the queued build-up-or-out post (that one is a structural comparison, this one ranks options by dollars per square foot). Rank the cheap routes honestly: garage conversion, bump-out, finishing existing space, sunroom. Flag where cutting cost creates resale or permit problems."
+    },
+    {
+      "id": "2026-08-26-can-you-live-in-your-house-during-a-home-addition",
+      "status": "queued",
+      "queued_at": "2026-08-26T22:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "can you live in your house during a home addition",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how do you pay a contractor for a home addition",
+        "what questions to ask a home addition contractor",
+        "does a home addition need an architect",
+        "how messy is a home addition",
+        "do you need to move out during a remodel",
+        "how contractors seal off a work area"
+      ],
+      "suggested_slug": "can-you-live-in-your-house-during-a-home-addition",
+      "suggested_title": "Can you live in your house during a home addition? Here is what to expect",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "room-addition",
+        "home-remodeling"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/"
+      ],
+      "notes": "Sourced from the ChatGPT decomposition, not Google volume: this is AI-retrieval fuel and no competitor in the market has a page on it. Answer the question directly in the first 60 words so AI engines can lift the passage. Cover dust containment, utility shutoffs, which weeks are worst (roof tie-in, HVAC cut-over), and the summer heat and humidity angle for North Alabama."
     }
   ]
 }
