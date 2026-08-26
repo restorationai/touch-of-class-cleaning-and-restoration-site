@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "id": "2026-08-26-water-damage-restoration-cost-sd",
+      "status": "written",
+      "queued_at": "2026-08-26T14:38:58Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-sd",
+      "primary_keyword": "water damage restoration cost SD",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "sioux-falls-sd",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Sioux Falls",
+        "state": "SD",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in SD",
+        "water damage restoration price SD",
+        "average cost of water damage restoration SD",
+        "water damage cleanup SD",
+        "water cleanup SD",
+        "water removal SD"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-26T14:48:28Z",
+      "post_url": "https://crew3r.com/blog/water-damage-restoration-cost-sd/"
+    },
+    {
       "id": "2026-08-07-best-water-damage-restoration-in-sioux-falls-sd",
       "status": "written",
       "queued_at": "2026-08-07T03:42:17Z",
@@ -642,6 +673,200 @@
       ],
       "notes": "Rounds out cost-guide coverage of Crew's core services. Range from smoke-only cleanup to structural rebuild; Crew's differentiator is mitigation through reconstruction under one contractor (general contracting license 3814). Cross-link the fire restoration process post.",
       "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-what-to-do-if-your-basement-is-flooded",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:45:34Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do if your basement is flooded",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to clean up a flooded basement",
+        "what to do when basement floods",
+        "basement flooded what to do",
+        "how to get water out of a flooded basement",
+        "my basement is flooded what do i do",
+        "basement flooded after heavy rain",
+        "who to call for flooded basement",
+        "flooded basement sump pump failure"
+      ],
+      "suggested_slug": "what-to-do-if-your-basement-is-flooded",
+      "suggested_title": "What to do if your basement is flooded: the first 24 hours, step by step",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.cdc.gov/floods/safety/cleanup-safely-after-a-disaster.html"
+      ],
+      "notes": "Lead with safety: power shutoff before entering standing water, then extraction, then drying. Anchor local context to Sioux Falls spring melt and heavy-rain events. Pull the 24-48 hour mold growth window forward. Do not duplicate /blog/what-to-do-first-24-hours-water-damage/ (that post is generic water damage): this one is basement-specific (sump pump failure, groundwater seepage, floor drain backup)."
+    },
+    {
+      "id": "2026-08-26-how-to-disinfect-a-flooded-basement",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:45:34Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to disinfect a flooded basement",
+      "intent": "informational",
+      "volume": 480,
+      "kd": null,
+      "fan_out_cluster": [
+        "how to clean after a flooded basement",
+        "cleaning a flooded basement",
+        "mold cleanup after flood",
+        "what to throw away after a flood",
+        "how to safely disinfect after contaminated floodwater",
+        "category 3 water damage",
+        "is it safe to stay in a flooded house"
+      ],
+      "suggested_slug": "how-to-disinfect-a-flooded-basement",
+      "suggested_title": "How to disinfect a flooded basement (and what has to be thrown out)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/mold-remediation/",
+        "/services/contents-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup",
+        "mold-remediation",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cdc.gov/floods/safety/cleanup-safely-after-a-disaster.html",
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Split by IICRC S500 water category. Category 1 versus 3 changes the answer completely, and most basement floods that involve a floor drain or sewer backup are category 3. Be explicit that porous materials (carpet pad, drywall below the waterline, upholstered contents) are not salvageable by disinfecting. Bleach is not the right antimicrobial for porous surfaces: say so."
+    },
+    {
+      "id": "2026-08-26-who-to-call-for-flooded-basement",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:45:34Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who to call for flooded basement",
+      "intent": "commercial",
+      "volume": 320,
+      "kd": 2,
+      "fan_out_cluster": [
+        "flooded basement who to call",
+        "basement flooded who to call",
+        "plumber for flooded basement",
+        "flood cleanup company near me",
+        "flooded basement help",
+        "restoration company vs plumber flooded basement"
+      ],
+      "suggested_slug": "who-to-call-for-flooded-basement",
+      "suggested_title": "Who to call for a flooded basement: plumber, restoration company, or insurer first",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/contact/",
+        "/service-areas/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.iii.org/article/what-does-flood-insurance-cover"
+      ],
+      "notes": "Decision-stage: the honest answer is a plumber stops the source and an IICRC-certified restoration contractor dries the structure, and for a sump pump failure you often need both. Give the call order (safety, source, restoration, insurer) rather than a sales pitch. High CPC (96 USD) confirms commercial value. Mention 24/7 response and the Sioux Falls service radius."
+    },
+    {
+      "id": "2026-08-26-basement-flood-cleanup-cost",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:45:34Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "basement flood cleanup cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "flooded basement cleanup cost",
+        "cost of basement flood cleanup",
+        "flooded basement clean up cost",
+        "flood damage cleanup cost",
+        "how much does flood cleanup cost",
+        "flood damage repair cost"
+      ],
+      "suggested_slug": "basement-flood-cleanup-cost",
+      "suggested_title": "Basement flood cleanup cost: what drives the price in 2026",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.iii.org/article/what-does-flood-insurance-cover"
+      ],
+      "notes": "Cost drivers: square footage, water category, depth, how long it sat, whether drywall and flooring come out, and equipment days. Keep ranges honest and caveated. Distinct from the already-queued generic water damage restoration cost posts because it is basement-scoped. Do not state a flat price the estimator cannot honor."
+    },
+    {
+      "id": "2026-08-26-will-insurance-cover-flooded-basement",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:45:34Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "will insurance cover flooded basement",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "flooded basement insurance",
+        "basement flooded insurance",
+        "does home insurance cover flooded basement",
+        "my basement flooded what will insurance cover",
+        "does homeowners insurance cover flood damage",
+        "water backup endorsement",
+        "sump pump failure coverage"
+      ],
+      "suggested_slug": "will-insurance-cover-flooded-basement",
+      "suggested_title": "Will insurance cover a flooded basement? What your policy actually pays for",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-does-flood-insurance-cover",
+        "https://www.floodsmart.gov/"
+      ],
+      "notes": "The distinction that matters: a burst supply line is usually covered, surface water and groundwater are not (that is NFIP territory), and sump pump failure or sewer backup needs a water backup endorsement. Cross-link, do not duplicate, /blog/does-homeowners-insurance-cover-water-damage/ and /blog/storm-damage-insurance-claim-checklist/. Never tell the reader what their specific policy covers: tell them which clause to look for."
     }
   ]
 }
