@@ -9,7 +9,12 @@ on:
 jobs:
   maintain:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    # 150 not 120: the 08-26 run proved a single uncapped step (AIO scan hung
+    # 14 min) can push a legitimately-full backlog run over 120 and the
+    # runner teardown kills the final push mid-flight (commit 9411f1cb was
+    # created and LOST). Every hang-capable step below now carries its own
+    # cap, and content is checkpoint-pushed right after the content run.
+    timeout-minutes: 150
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -42,6 +47,8 @@ jobs:
           git config user.name "Rank AI Bot"
 
       - name: Harvest + triage the clients' OWN photos (real-photo-first imagery)
+        timeout-minutes: 15
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -59,6 +66,8 @@ jobs:
           python3 scripts/photo_harvest.py run --all || echo "photo harvest failed (non-fatal — sites keep their current imagery)."
 
       - name: Sync GBP ratings + review snippets into brand.ts (before content run — freshened numbers ride each content deploy)
+        timeout-minutes: 10
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -94,8 +103,25 @@ jobs:
           DATAFORSEO_PASSWORD:          ${{ secrets.DATAFORSEO_PASSWORD }}
         run: python3 scripts/master_scheduler.py run-due --all --headless
 
+      - name: Checkpoint-commit content (survives any later hang or job-cap kill)
+        # The expensive, client-visible output (blog posts, rendered pages) is
+        # all written by the step above. Push it NOW — the 08-26 run wrote an
+        # hour of backfill and lost it because the only commit lived at the
+        # end of the job and the runner died mid-push.
+        if: always()
+        run: |
+          git add clients/ sites/ portfolio/ docs/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to checkpoint."
+          else
+            git commit -m "chore: content checkpoint $(date +%Y-%m-%d) [automated]"
+            git push || (git pull --rebase && git push)
+          fi
+
       - name: NAP consistency audit (monthly — first Monday; results feed the coverage gate)
         if: github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch'
+        timeout-minutes: 20
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -113,6 +139,8 @@ jobs:
           fi
 
       - name: Coverage gate (non-fatal — emails gap summary if any system is missing)
+        timeout-minutes: 10
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -129,6 +157,8 @@ jobs:
           fi
 
       - name: Claims lint (non-fatal — truth gate on shipped content claims)
+        timeout-minutes: 10
+        continue-on-error: true
         env:
           SENDGRID_API_KEY:           ${{ secrets.SENDGRID_API_KEY }}
         run: |
@@ -149,6 +179,8 @@ jobs:
           fi
 
       - name: GBP posts (2x/week — every Mon + Thu run)
+        timeout-minutes: 20
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -158,6 +190,8 @@ jobs:
         run: python3 scripts/gbp_post.py due --all
 
       - name: Sync GBP profile snapshot + daily insights (2x/week — keeps dashboard data fresh)
+        timeout-minutes: 15
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -168,6 +202,8 @@ jobs:
         run: python3 scripts/gbp.py sync --all || echo "GBP sync failed (non-fatal — dashboard uses last-synced data)."
 
       - name: Review responder (4-5 star auto-reply, 1-3 star parked for approval)
+        timeout-minutes: 15
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -177,6 +213,8 @@ jobs:
         run: python3 scripts/review_responder.py --all || echo "review responder errored (non-fatal)"
 
       - name: Upload real job photos to GBP (2x/week — only if crews uploaded any)
+        timeout-minutes: 10
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -200,6 +238,8 @@ jobs:
 
       - name: Track Google AI Overviews (weekly — Monday + manual)
         if: github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch'
+        timeout-minutes: 15
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -208,6 +248,8 @@ jobs:
         run: python3 scripts/google_aio_scan.py --all
 
       - name: Sync Google Search Console performance (before strategist)
+        timeout-minutes: 15
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -222,6 +264,8 @@ jobs:
 
       - name: Indexing watchdog (weekly — Monday + manual; GSC index coverage + remediation)
         if: github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch'
+        timeout-minutes: 20
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -242,6 +286,8 @@ jobs:
           fi
 
       - name: Location Scout (weekly — where a second office would have to go)
+        timeout-minutes: 45
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -253,6 +299,8 @@ jobs:
         run: python3 scripts/location_scout.py --all || echo "location scout failed (non-fatal)"
 
       - name: Refresh strategist action plans (System 0)
+        timeout-minutes: 20
+        continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -268,7 +316,7 @@ jobs:
             echo "Nothing to commit."
           else
             git commit -m "chore: weekly maintenance run $(date +%Y-%m-%d) [automated]"
-            git push
+            git push || (git pull --rebase && git push)
           fi
 
       - name: Alert on failure
