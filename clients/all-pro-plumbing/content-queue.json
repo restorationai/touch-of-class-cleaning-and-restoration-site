@@ -201,10 +201,10 @@
     },
     {
       "id": "2026-07-27-how-much-does-a-plumber-cost-to-unclog-a-drain",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-27T20:50:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-26T13:45:39Z",
+      "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-to-unclog-a-drain/",
       "primary_keyword": "how much does a plumber cost to unclog a drain",
       "intent": "commercial",
       "volume": 480,
