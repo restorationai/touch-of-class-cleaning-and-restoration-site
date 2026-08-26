@@ -403,7 +403,11 @@ def run_agent_headless(system: int, slug: str) -> int:
     # Fresh CI runners cold-start the npx MCP server; give it 2 min to connect
     # instead of the default (audits were aborting on "still connecting").
     env = {**os.environ, "MCP_TIMEOUT": "120000"}
-    return _call_with_timeout(cmd, ROOT, env=env, timeout_s=1200,
+    # 30m not 20m: the 08-26 catch-up run showed real, healthy content jobs
+    # taking 23-27 minutes wall clock — a 1200s cap kills legitimate posts
+    # mid-write. The cap exists for HANGS, so it sits above the slowest
+    # observed honest job, not the average one.
+    return _call_with_timeout(cmd, ROOT, env=env, timeout_s=1800,
                               label=f"S{system} {slug}")
 
 
