@@ -228,6 +228,52 @@ def ai_draft(slug, topic="services", service=None):
     return "".join(b.get("text", "") for b in r.json()["content"]).strip()
 
 
+
+def sync_states(slugs):
+    """Refresh marketing_gbp_posts.state from Google for each client.
+
+    Google resolves localPosts asynchronously (the 2026 July-August queue sat
+    in PROCESSING for weeks, then flushed) — the ledger only ever knew the
+    create-time state, so the app showed "processing" long after posts went
+    LIVE. Runs after every `due` sweep in the weekly workflow; the app's
+    Recent Google posts feed is truthful without manual syncs."""
+    import urllib.parse
+    total, held = 0, []
+    for slug in slugs:
+        try:
+            tok, acct, locid, _loc = _resolve(slug)
+        except SystemExit as e:
+            print(f"  {slug}: skip ({e})")
+            continue
+        try:
+            r = requests.get(f"{GBP_V4}/{acct}/locations/{locid}/localPosts",
+                             headers={"Authorization": f"Bearer {tok}"}, timeout=30)
+            posts = r.json().get("localPosts", [])
+        except requests.RequestException as e:
+            print(f"  {slug}: list failed ({e})")
+            continue
+        stuck = 0
+        for po in posts:
+            name, state = po.get("name"), po.get("state")
+            if not (name and state):
+                continue
+            if state == "PROCESSING":
+                stuck += 1
+            try:
+                requests.patch(
+                    f"{gbp.SB_URL}/rest/v1/marketing_gbp_posts"
+                    f"?post_name=eq.{urllib.parse.quote(name, safe='')}",
+                    headers={**_sb_headers(), "Content-Type": "application/json"},
+                    json={"state": state}, timeout=15)
+                total += 1
+            except requests.RequestException:
+                pass
+        if stuck:
+            held.append(f"{slug}({stuck})")
+        print(f"  {slug}: {len(posts)} posts, {stuck} still held")
+    print(f"sync-states: refreshed {total}; held listings: {held or 'none'}")
+
+
 def main():
     ap = argparse.ArgumentParser(description="GBP post creator")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -243,6 +289,9 @@ def main():
     pd.add_argument("--all", action="store_true")
     pd.add_argument("--slug")
     pd.add_argument("--dry-run", action="store_true")
+    ps = sub.add_parser("sync-states", help="refresh ledger states from Google (app truth)")
+    ps.add_argument("--all", action="store_true")
+    ps.add_argument("--slug")
     a = ap.parse_args()
 
     if a.cmd == "post":
@@ -254,6 +303,12 @@ def main():
             print("  draft:\n   ", summary[:300])
         create_local_post(a.slug, summary, a.cta_type, a.cta_url, a.dry_run,
                           topic=topic, source="rank-ai-manual")
+
+    elif a.cmd == "sync-states":
+        slugs = ([a.slug] if a.slug else
+                 list(json.loads((ROOT / "clients" / "company_map.json").read_text()).keys()))
+        sync_states(slugs)
+        return
 
     elif a.cmd == "due":
         slugs = ([a.slug] if a.slug else
