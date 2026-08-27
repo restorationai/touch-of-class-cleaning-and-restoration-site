@@ -3333,6 +3333,16 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {},
+  "slots": {
+    "services": {
+      "asset": "crew:job_1787708680827",
+      "source": "crew",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/job_1787708680827.jpg",
+      "category": "equipment",
+      "subject": "Tattooed hand holding moisture meter against damaged wall tile",
+      "installed_at": "2026-08-27T19:56:39Z",
+      "file": "/images/services.webp"
+    }
+  },
   "triaged_at": "2026-08-26T06:45:20Z"
 }
