@@ -332,7 +332,7 @@
     },
     {
       "id": "2026-07-13-difference-between-flood-damage-and-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-13T18:01:06Z",
       "written_at": "2026-08-27T02:00:50Z",
       "post_url": "https://flood-fixers.com/blog/difference-between-flood-damage-and-water-damage/",
@@ -363,7 +363,8 @@
         "https://www.floodsmart.gov/",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "GEO/definitional: flood = external rising water (often category 3, contaminated), water damage = internal source (pipes, appliances). Explains why insurance and remediation differ. Disambiguates the two core services for AI retrieval. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
+      "notes": "GEO/definitional: flood = external rising water (often category 3, contaminated), water damage = internal source (pipes, appliances). Explains why insurance and remediation differ. Disambiguates the two core services for AI retrieval. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
+      "published_verified_at": "2026-08-27T02:02:01Z"
     },
     {
       "id": "2026-07-13-is-flood-water-dangerous",

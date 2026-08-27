@@ -453,7 +453,7 @@
     },
     {
       "id": "2026-07-16-what-kills-mold-permanently",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-16T20:20:00Z",
       "written_at": "2026-08-27T03:08:07Z",
       "post_url": "https://homepriderestorationandcleaning.com/blog/what-kills-mold-permanently/",
@@ -485,7 +485,8 @@
       "external_authority_candidates": [
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
-      "notes": "DIY query (vol 3600, KD 18). Apply the EPA 10 sq ft threshold: small non-porous areas can be DIY (detergent + water, dry fully, fix the moisture source), but bleach does not penetrate porous materials so mold returns unless the moisture source is fixed. CTA to professional remediation for larger, porous, or HVAC contamination."
+      "notes": "DIY query (vol 3600, KD 18). Apply the EPA 10 sq ft threshold: small non-porous areas can be DIY (detergent + water, dry fully, fix the moisture source), but bleach does not penetrate porous materials so mold returns unless the moisture source is fixed. CTA to professional remediation for larger, porous, or HVAC contamination.",
+      "published_verified_at": "2026-08-27T03:09:18Z"
     },
     {
       "id": "2026-07-16-when-is-mold-remediation-required",

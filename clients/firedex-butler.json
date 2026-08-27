@@ -10,7 +10,7 @@
   "r2": null,
   "status": "pending",
   "created_at": "2026-07-08T22:00:00+00:00",
-  "updated_at": "2026-08-27T00:00:41.068373+00:00",
+  "updated_at": "2026-08-27T01:52:22Z",
   "company_id": "CO-1783443032282",
   "nap": {
     "name": "FireDEX Butler, Inc.",
@@ -71,5 +71,14 @@
     "redirects_added": 22,
     "mapped_at": "2026-08-16T14:25:29+00:00"
   },
-  "indexnow_key": "e760cd2f7023430fa1cf59a1cc3481e5"
+  "indexnow_key": "e760cd2f7023430fa1cf59a1cc3481e5",
+  "audit": {
+    "last_audit_at": "2026-08-27T01:52:22Z",
+    "last_audit_verdict": "green",
+    "last_audit_report_path": "audit-runs/2026-08-27-onsite-audit.md",
+    "last_audit_origin": "https://staging.rankai-firedex-butler.pages.dev",
+    "last_audit_origin_source": "staging",
+    "last_audit_form_factor": "desktop",
+    "last_audit_seo_status": "inconclusive - staging noindex artifact, re-audit after apex cutover"
+  }
 }

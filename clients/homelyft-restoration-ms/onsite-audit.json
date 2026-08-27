@@ -1,0 +1,607 @@
+{
+  "schema_version": 1,
+  "slug": "homelyft-restoration-ms",
+  "site": "staging.rankai-homelyft-restoration-ms.pages.dev",
+  "live_origin": "https://staging.rankai-homelyft-restoration-ms.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-08-27T02:58:36Z",
+  "lighthouse_version": "13.4.0",
+  "environment_caveats": [
+    "Audited the Cloudflare Pages staging preview: client record has domain=null and no apex_cutover.",
+    "All 6 URLs return x-robots-tag: noindex (Cloudflare Pages preview default). Lighthouse SEO is deflated to 69 on every page and is-crawlable is the ONLY failing SEO audit anywhere. SEO is excluded from all verdicts this run and recorded as inconclusive - staging noindex artifact, re-audit after apex cutover.",
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically run 10-20 performance points lower.",
+    "The dedicated on_page_lighthouse / on_page_instant_pages MCP tools are not present in this MCP build; both datasets were collected from the same DataForSEO endpoints (/v3/on_page/lighthouse/live/json, /v3/on_page/instant_pages) via authenticated HTTP. Desktop was kept deliberately for comparability with prior audits in this repo.",
+    "Pre-flight deviation: client status is 'onboarding', not 'active'. build_status is 'pushed_main' and the site serves HTTP 200, so the audit proceeded (consistent with prior audits of non-active clients in this repo)."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/",
+      "archetype": "home",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
+      "core_web_vitals": {
+        "LCP_ms": 863,
+        "CLS": 0.0023,
+        "TBT_ms": 102,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 83968,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Avoid chaining critical requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render blocking requests (_astro/_slug_.*.css)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "severity": "high"
+        },
+        {
+          "id": "rankai:meta_description_too_long",
+          "title": "Meta description is 174 chars (target 70-160)",
+          "severity": "medium"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "DataForSEO flags high page loading time",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
+      "core_web_vitals": {
+        "LCP_ms": 829,
+        "CLS": 0.0018,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 190464,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: fetchpriority=high not applied to hero image",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Avoid chaining critical requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render blocking requests (_astro/_slug_.*.css)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "severity": "high"
+        },
+        {
+          "id": "rankai:word_count_below_target",
+          "title": "767 words vs url-plan target 800",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
+      "core_web_vitals": {
+        "LCP_ms": 752,
+        "CLS": 0.0236,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 31744,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: fetchpriority=high not applied to hero image",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Avoid chaining critical requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render blocking requests (_astro/_slug_.*.css)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "severity": "high"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "DataForSEO flags high page loading time",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
+      "core_web_vitals": {
+        "LCP_ms": 771,
+        "CLS": 0.0301,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 36864,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: fetchpriority=high not applied to hero image",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Avoid chaining critical requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render blocking requests (_astro/_slug_.*.css)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/service-areas/eastabuchie-ms/",
+      "archetype": "service-area",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
+      "core_web_vitals": {
+        "LCP_ms": 767,
+        "CLS": 0.0025,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 99328,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: fetchpriority=high not applied to hero image",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Avoid chaining critical requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render blocking requests (_astro/_slug_.*.css)",
+          "severity": "low",
+          "estimated_savings_ms": 57,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "severity": "high"
+        },
+        {
+          "id": "frame",
+          "title": "Page embeds an iframe (Google Maps embed)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
+      "core_web_vitals": {
+        "LCP_ms": 636,
+        "CLS": 0.0066,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 166912,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: fetchpriority=high not applied to hero image",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Avoid chaining critical requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render blocking requests (_astro/_slug_.*.css)",
+          "severity": "low",
+          "estimated_savings_ms": 54,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "severity": "high"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "DataForSEO flags high page loading time",
+          "severity": "low"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.5,
+      "accessibility": 95.3,
+      "best_practices": 100.0,
+      "seo": 69.0
+    },
+    "verdict": "red",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 0,
+      "red": 6,
+      "error": 0
+    },
+    "counted_categories": [
+      "performance",
+      "accessibility",
+      "best_practices"
+    ],
+    "template_issues": [
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "rankai:canonical_host_unresolvable",
+        "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Avoid chaining critical requests",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render blocking requests (_astro/_slug_.*.css)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery: fetchpriority=high not applied to hero image",
+        "affected_urls": 5,
+        "severity": "low"
+      },
+      {
+        "id": "high_loading_time",
+        "title": "DataForSEO flags high page loading time",
+        "affected_urls": 3,
+        "severity": "low"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/",
+        "archetype": "home",
+        "verdict": "red",
+        "main_issue": "canonical and og:url resolve to https://None/ (unresolvable host); Lighthouse scores are otherwise healthy"
+      },
+      {
+        "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "red",
+        "main_issue": "canonical and og:url resolve to https://None/ (unresolvable host); Lighthouse scores are otherwise healthy"
+      },
+      {
+        "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "canonical and og:url resolve to https://None/ (unresolvable host); Lighthouse scores are otherwise healthy"
+      },
+      {
+        "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/fire-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "canonical and og:url resolve to https://None/ (unresolvable host); Lighthouse scores are otherwise healthy"
+      },
+      {
+        "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "red",
+        "main_issue": "canonical and og:url resolve to https://None/ (unresolvable host); Lighthouse scores are otherwise healthy"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  },
+  "cost_usd": {
+    "lighthouse": 0.03,
+    "instant_pages": 0.0306,
+    "total": 0.0606
+  }
+}

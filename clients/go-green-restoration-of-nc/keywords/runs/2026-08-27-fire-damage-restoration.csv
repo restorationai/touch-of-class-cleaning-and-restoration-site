@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+smoke damage restoration,transactional,1300,20,25.01,2,fire damage restoration,,,no
+smoke damage cleanup,transactional,720,11,64.38,2,fire damage restoration,,,no
+smoke damage repair,transactional,320,1,69.02,2,fire damage restoration,,,no
+fire damage restoration,transactional,110000,13,21.98,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration near me,transactional,18100,9,,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire and water damage restoration,transactional,1300,28,31.29,3,fire damage restoration,,/services/fire-damage-restoration/,no
+commercial fire damage restoration,transactional,170,0,,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration raleigh nc,transactional,90,0,,3,fire damage restoration,raleigh-nc,/service-areas/raleigh-nc/fire-damage-restoration/,no
+residential fire damage restoration,transactional,70,11,5.17,3,fire damage restoration,,/services/fire-damage-restoration/,no
+smoke damage restoration raleigh nc,transactional,10,,,3,fire damage restoration,raleigh-nc,,no
+fire damage restoration durham nc,transactional,10,,,3,fire damage restoration,durham-nc,/service-areas/durham-nc/fire-damage-restoration/,no
+fire damage restoration rocky mount nc,transactional,10,,,3,fire damage restoration,rocky-mount-nc,/service-areas/rocky-mount-nc/fire-damage-restoration/,no
+fire damage restoration middlesex nc,transactional,,,,3,fire damage restoration,middlesex-nc,/services/fire-damage-restoration/,no
+emergency fire damage restoration raleigh,transactional,,,,3,fire damage restoration,raleigh-nc,/service-areas/raleigh-nc/fire-damage-restoration/,no
+fire damage restoration cost,commercial,260,0,2.68,1,fire damage restoration,,,yes
+smoke damage restoration cost,commercial,50,12,,2,fire damage restoration,,,no
+smoke odor removal cost,commercial,50,0,7.38,2,fire damage restoration,,,no
+fire restoration cost per square foot,commercial,40,1,1.65,2,fire damage restoration,,,no
+house fire debris removal cost,commercial,40,0,24.93,2,fire damage restoration,,,no
+soot removal cost,commercial,20,0,292.18,2,fire damage restoration,,,no
+fire damage restoration companies,commercial,2900,2,16.18,3,fire damage restoration,,/services/fire-damage-restoration/,no
+what to do after a house fire,informational,260,0,3.01,1,fire damage restoration,,,yes
+what to throw away after smoke damage,informational,210,0,,1,fire damage restoration,,,yes
+fire damage insurance claim,informational,210,4,15.54,1,fire damage restoration,,,yes
+how to clean smoke damage on walls and ceiling,informational,170,0,4.06,1,fire damage restoration,,,yes
+smoke damage insurance claim,informational,110,0,15.16,1,fire damage restoration,,,no
+how to get smoke smell out of house after fire,informational,70,,1.12,1,fire damage restoration,,,no
+what does smoke damage look like,informational,50,0,,1,fire damage restoration,,,no
+what to do after a house fire checklist,informational,110,8,0.06,2,fire damage restoration,,,no
+what happens after a house fire,informational,90,11,,2,fire damage restoration,,,no
+how to clean up smoke damage,informational,90,0,6.19,2,fire damage restoration,,,no
+what is smoke damage,informational,50,0,,2,fire damage restoration,,,no
+house fire insurance claim,informational,50,16,,2,fire damage restoration,,,no
+rebuilding after a house fire,informational,50,0,13.04,2,fire damage restoration,,,no
+what can be salvaged after a house fire,informational,30,0,,2,fire damage restoration,,,no
+how to deal with insurance adjuster after a house fire,informational,30,0,,2,fire damage restoration,,,no
+fire restoration checklist,informational,20,3,12.87,2,fire damage restoration,,,no
+what to do after a total loss house fire,informational,,3,,2,fire damage restoration,,,no
+how long does fire damage restoration take,informational,,,,2,fire damage restoration,,,no
+fire damage restoration process,informational,50,14,134.65,3,fire damage restoration,,/blog/fire-damage-restoration-process/,no

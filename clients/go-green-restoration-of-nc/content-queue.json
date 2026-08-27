@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-08-07-best-mold-remediation-in-middlesex-nc",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-07T03:42:52Z",
       "priority": 1,
       "prioritized": true,
@@ -151,7 +151,8 @@
           "context": "na Mold & Air holds a 5.0 rating across 11 reviews. Fewer reviews make it harder to draw f",
           "reason": "claims 11 reviews but no synced gbpReviewCount exists for this site"
         }
-      ]
+      ],
+      "published_verified_at": "2026-08-27T02:26:09Z"
     },
     {
       "id": "2026-08-09-crawl-space-encapsulation-cost",

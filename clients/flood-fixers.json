@@ -23,7 +23,7 @@
   "status": "active",
   "video_publish_mode": "public",
   "created_at": "2026-06-29T20:08:03.446673+00:00",
-  "updated_at": "2026-08-19T14:09:26.377830+00:00",
+  "updated_at": "2026-08-27T02:14:36Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -40,7 +40,7 @@
     "pages_status": "created",
     "last_rendered_at": "2026-06-29T20:56:54.729664+00:00",
     "last_pushed_staging_at": "2026-08-18T05:10:23.199132+00:00",
-    "last_pushed_main_at": "2026-08-19T14:09:26.377806+00:00"
+    "last_pushed_main_at": "2026-08-27T02:00:59.726136+00:00"
   },
   "build_status": "pushed_main",
   "indexnow_key": "7ba7475fb4a24ee48bb843392ddc71a8",
@@ -54,15 +54,15 @@
   },
   "cut_over_at": "2026-07-04T20:30:00Z",
   "audit": {
-    "last_audit_at": "2026-07-15T15:46:06Z",
+    "last_audit_at": "2026-08-27T02:10:05Z",
     "last_audit_verdict": "green",
-    "last_audit_report_path": "audit-runs/2026-07-15-onsite-audit.md"
+    "last_audit_report_path": "audit-runs/2026-08-27-onsite-audit.md"
   },
   "refresh": {
-    "last_run_at": "2026-07-06T18:34:02Z",
+    "last_run_at": "2026-08-27T02:14:36Z",
     "last_run_total_actions": 0,
     "last_run_top_action": "none",
-    "last_run_report_path": "clients/flood-fixers/refresh-runs/2026-07-06-refresh-recommender.md"
+    "last_run_report_path": "clients/flood-fixers/refresh-runs/2026-08-27-refresh-recommender.md"
   },
   "indexnow_key_history": [
     {

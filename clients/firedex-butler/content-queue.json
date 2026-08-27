@@ -1,308 +1,337 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-08-27-water-damage-restoration-cost-pa",
+   "status": "queued",
+   "queued_at": "2026-08-27T01:43:48Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "water-damage-restoration-cost-pa",
+   "primary_keyword": "water damage restoration cost PA",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "cranberry-township-pa",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Cranberry Township",
+    "state": "PA",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does water damage restoration cost in PA",
+    "water damage restoration price PA",
+    "average cost of water damage restoration PA",
+    "water damage cleanup PA",
+    "water cleanup PA",
+    "water removal PA"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-cranberry-township-pa",
+   "status": "written",
+   "queued_at": "2026-08-07T03:42:43Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-cranberry-township-pa",
+   "primary_keyword": "best water damage restoration company in Cranberry Township, PA",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "cranberry-township-pa",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Cranberry Township",
+    "state": "PA",
+    "competitors": [
+     {
+      "name": "Restore It",
+      "google_rating": 5,
+      "review_count": 67
+     },
+     {
+      "name": "G.S. Jones Restoration Consulting",
+      "google_rating": 4.4,
+      "review_count": 56
+     },
+     {
+      "name": "Pennsylvania Water and Fire",
+      "google_rating": 5,
+      "review_count": 735
+     },
+     {
+      "name": "Un-Flood-It Emergency Water Removal",
+      "google_rating": 5,
+      "review_count": 80
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Cranberry Township",
+    "top rated water damage restoration Cranberry Township PA",
+    "who is the best water damage restoration company in Cranberry Township",
+    "water damage cleanup Cranberry Township",
+    "water cleanup Cranberry Township",
+    "water removal Cranberry Township"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-08-27T00:00:32Z",
+   "post_url": "https://firedex.net/blog/best-water-damage-restoration-company-in-cranberry-township-pa/",
+   "claims_flags": [
     {
-      "id": "2026-08-07-best-water-damage-restoration-in-cranberry-township-pa",
-      "status": "written",
-      "queued_at": "2026-08-07T03:42:43Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-water-damage-restoration-in-cranberry-township-pa",
-      "primary_keyword": "best water damage restoration company in Cranberry Township, PA",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "cranberry-township-pa",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Cranberry Township",
-        "state": "PA",
-        "competitors": [
-          {
-            "name": "Restore It",
-            "google_rating": 5,
-            "review_count": 67
-          },
-          {
-            "name": "G.S. Jones Restoration Consulting",
-            "google_rating": 4.4,
-            "review_count": 56
-          },
-          {
-            "name": "Pennsylvania Water and Fire",
-            "google_rating": 5,
-            "review_count": 735
-          },
-          {
-            "name": "Un-Flood-It Emergency Water Removal",
-            "google_rating": 5,
-            "review_count": 80
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best water damage restoration companies Cranberry Township",
-        "top rated water damage restoration Cranberry Township PA",
-        "who is the best water damage restoration company in Cranberry Township",
-        "water damage cleanup Cranberry Township",
-        "water cleanup Cranberry Township",
-        "water removal Cranberry Township"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-08-27T00:00:32Z",
-      "post_url": "https://firedex.net/blog/best-water-damage-restoration-company-in-cranberry-township-pa/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-cranberry-township-pa.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "y 3 sewage backup, and they dry to the [IICRC S500 standard](https://www.iicrc.org) r",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-cranberry-township-pa.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "67 reviews",
-          "context": "ore It holds a 5.0 Google rating across 67 reviews, which reflects consistent customer sat",
-          "reason": "listicle review-count 67 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-cranberry-township-pa.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "56 reviews",
-          "context": "ting carries a 4.4 Google rating across 56 reviews. The consulting focus in their name sug",
-          "reason": "listicle review-count 56 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-cranberry-township-pa.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "735 Google reviews",
-          "context": "est review footprint on this list, with 735 Google reviews at a 5.0 rating. That volume of feedbac",
-          "reason": "listicle review-count 735 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-cranberry-township-pa.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "80 reviews",
-          "context": "emoval holds a 5.0 Google rating across 80 reviews. Their name signals a focus on water ex",
-          "reason": "listicle review-count 80 (competitor stat \u2014 verify it is not presented as ours)"
-        }
-      ]
+     "file": "src/content/blog/best-water-damage-restoration-company-in-cranberry-township-pa.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "y 3 sewage backup, and they dry to the [IICRC S500 standard](https://www.iicrc.org) r",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
-      "id": "2026-08-26-flooded-basement-what-to-do",
-      "status": "queued",
-      "queued_at": "2026-08-26T23:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "flooded basement what to do",
-      "intent": "informational",
-      "volume": 1000,
-      "kd": 3,
-      "fan_out_cluster": [
-        "what to do after basement flood",
-        "how to dry out a flooded basement",
-        "how long does it take to dry out a flooded basement",
-        "basement flooding cleanup",
-        "how much does it cost to fix a flooded basement",
-        "who to call for water damage"
-      ],
-      "suggested_slug": "flooded-basement-what-to-do",
-      "suggested_title": "Flooded basement: what to do in the first 24 hours (step by step)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/basement-flooding-cleanup/",
-        "/services/water-damage-restoration/",
-        "/services/sewage-cleanup/",
-        "/services/burst-pipe-repair/"
-      ],
-      "service_tags": [
-        "basement-flooding-cleanup",
-        "water-damage-restoration",
-        "sewage-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.ready.gov/floods"
-      ],
-      "notes": "Differentiate from the planned /blog/what-to-do-first-24-hours-water-damage/ post: that one is whole-home and generic, this one is basement-specific (power and gas shutoff before entering standing water, sump pit and floor drain checks, finished-basement drywall and carpet-pad decisions, category escalation if the water came from a floor drain). Nearly every home in Cranberry Township, Wexford and Seven Fields has a basement and many are finished, so this is the client's highest-frequency loss scenario. Do not claim IICRC certification or membership: cite the S500 standard as an external source only. Never quote GBP rating or review count.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-cranberry-township-pa.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "67 reviews",
+     "context": "ore It holds a 5.0 Google rating across 67 reviews, which reflects consistent customer sat",
+     "reason": "listicle review-count 67 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-08-26-water-damage-restoration-cost",
-      "status": "queued",
-      "queued_at": "2026-08-26T23:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water damage restoration cost",
-      "intent": "commercial",
-      "volume": 880,
-      "kd": 3,
-      "fan_out_cluster": [
-        "water damage restoration cost per square foot",
-        "how much does water damage restoration cost",
-        "how much does it cost to fix a flooded basement",
-        "who pays for water damage restoration",
-        "water damage insurance claim",
-        "water damage restoration cost calculator"
-      ],
-      "suggested_slug": "water-damage-restoration-cost",
-      "suggested_title": "Water damage restoration cost: what Western PA homeowners actually pay in 2026",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/basement-flooding-cleanup/",
-        "/services/burst-pipe-repair/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "basement-flooding-cleanup",
-        "burst-pipe-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iii.org/article/what-covered-standard-homeowners-policy",
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Highest-CPC family in the seed (mitigation CPCs run $30-$118 in this market), so the organic version intercepts spend the client would otherwise pay for. Structure by cost driver: water category (1/2/3), square footage, class of drying, equipment days, and whether reconstruction follows mitigation. Give honest ranges and say plainly that most of it is an insurance claim, not out of pocket. No fabricated price tables and no fake calculator: publish ranges with the drivers that move them.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-cranberry-township-pa.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "56 reviews",
+     "context": "ting carries a 4.4 Google rating across 56 reviews. The consulting focus in their name sug",
+     "reason": "listicle review-count 56 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-08-26-water-in-basement-after-heavy-rain",
-      "status": "queued",
-      "queued_at": "2026-08-26T23:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water in basement after heavy rain",
-      "intent": "informational",
-      "volume": 480,
-      "kd": 0,
-      "fan_out_cluster": [
-        "why does my basement flood when it rains",
-        "basement seepage after storm",
-        "sump pump failure water damage",
-        "does homeowners insurance cover sump pump failure",
-        "how to stop water coming in basement walls",
-        "storm damage basement flooding"
-      ],
-      "suggested_slug": "water-in-basement-after-heavy-rain",
-      "suggested_title": "Water in the basement after heavy rain: causes, fixes and when it is a restoration job",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/basement-flooding-cleanup/",
-        "/services/storm-damage-restoration/",
-        "/services/flood-damage-restoration/",
-        "/services/water-damage-restoration/"
-      ],
-      "service_tags": [
-        "basement-flooding-cleanup",
-        "storm-damage-restoration",
-        "flood-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home",
-        "https://www.ready.gov/floods"
-      ],
-      "notes": "Strong local hook without being a location page: Connoquenessing Creek (Zelienople, Butler) and Breakneck Creek (Mars, Evans City) put low-lying blocks on flood alert in cloudburst summers, and Cranberry and Seven Fields sit on sump-dependent newer builds. Separate the three causes clearly (surface grading and downspouts, hydrostatic seepage through block walls, sump or drain failure) because the insurance answer differs for each: groundwater seepage is usually excluded, sump failure needs a rider, storm-driven surface flooding needs NFIP. Writer should note FireDEX does the cleanup and drying, not foundation waterproofing.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-cranberry-township-pa.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "735 Google reviews",
+     "context": "est review footprint on this list, with 735 Google reviews at a 5.0 rating. That volume of feedbac",
+     "reason": "listicle review-count 735 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-08-26-category-3-water-damage",
-      "status": "queued",
-      "queued_at": "2026-08-26T23:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "category 3 water damage",
-      "intent": "informational",
-      "volume": 390,
-      "kd": 0,
-      "fan_out_cluster": [
-        "category 1 2 3 water damage",
-        "black water damage cleanup",
-        "clean water vs gray water vs black water",
-        "sewage backup in basement",
-        "when does clean water become category 3",
-        "water damage classes of drying"
-      ],
-      "suggested_slug": "category-3-water-damage",
-      "suggested_title": "Category 3 water damage explained: black water, what has to be thrown out, and why the clock matters",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/sewage-cleanup/",
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/services/basement-flooding-cleanup/"
-      ],
-      "service_tags": [
-        "sewage-cleanup",
-        "water-damage-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.cdc.gov/mold/cleanup-guide.html"
-      ],
-      "notes": "Definition-style page that AI assistants lift verbatim, which is exactly the retrieval slot the audit says the client can win. Cover the escalation rule (clean water turns category 2 then 3 with time, temperature and contact with contaminated materials) because that is what homeowners get wrong when they wait a weekend. Butler and Beaver Falls housing stock runs original cast-iron drains, so sewer backup is a real local scenario. Sensitive-adjacent content: keep it factual, no gore, no scare copy. Cite the S500 standard, do not claim certification.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration"
-    },
-    {
-      "id": "2026-08-26-what-is-water-damage-restoration",
-      "status": "queued",
-      "queued_at": "2026-08-26T23:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what is water damage restoration",
-      "intent": "informational",
-      "volume": 210,
-      "kd": 3,
-      "fan_out_cluster": [
-        "water damage restoration process",
-        "what does water damage restoration include",
-        "water mitigation vs restoration",
-        "water damage restoration timeline",
-        "do i need to move out during water damage restoration",
-        "water damage restoration equipment"
-      ],
-      "suggested_slug": "what-is-water-damage-restoration",
-      "suggested_title": "What is water damage restoration? The full process from first call to final rebuild",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/reconstruction/",
-        "/services/mold-remediation/",
-        "/services/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "reconstruction",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Pillar explainer for the water-first pivot: FireDEX reads as a fire brand, so a plain-language water process page anchors the entity to water work for both readers and AI retrieval. Draw the mitigation/reconstruction line explicitly (extraction, structural drying, monitoring, then repairs) since the client does both under one roof, which most Butler County competitors do not. Differentiate from /blog/how-long-does-water-damage-restoration-take/ by covering scope rather than duration, and link to it for the timeline question.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-cranberry-township-pa.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "80 reviews",
+     "context": "emoval holds a 5.0 Google rating across 80 reviews. Their name signals a focus on water ex",
+     "reason": "listicle review-count 80 (competitor stat \u2014 verify it is not presented as ours)"
     }
-  ]
+   ]
+  },
+  {
+   "id": "2026-08-26-flooded-basement-what-to-do",
+   "status": "queued",
+   "queued_at": "2026-08-26T23:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "flooded basement what to do",
+   "intent": "informational",
+   "volume": 1000,
+   "kd": 3,
+   "fan_out_cluster": [
+    "what to do after basement flood",
+    "how to dry out a flooded basement",
+    "how long does it take to dry out a flooded basement",
+    "basement flooding cleanup",
+    "how much does it cost to fix a flooded basement",
+    "who to call for water damage"
+   ],
+   "suggested_slug": "flooded-basement-what-to-do",
+   "suggested_title": "Flooded basement: what to do in the first 24 hours (step by step)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/basement-flooding-cleanup/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/burst-pipe-repair/"
+   ],
+   "service_tags": [
+    "basement-flooding-cleanup",
+    "water-damage-restoration",
+    "sewage-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.ready.gov/floods"
+   ],
+   "notes": "Differentiate from the planned /blog/what-to-do-first-24-hours-water-damage/ post: that one is whole-home and generic, this one is basement-specific (power and gas shutoff before entering standing water, sump pit and floor drain checks, finished-basement drywall and carpet-pad decisions, category escalation if the water came from a floor drain). Nearly every home in Cranberry Township, Wexford and Seven Fields has a basement and many are finished, so this is the client's highest-frequency loss scenario. Do not claim IICRC certification or membership: cite the S500 standard as an external source only. Never quote GBP rating or review count.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration"
+  },
+  {
+   "id": "2026-08-26-water-damage-restoration-cost",
+   "status": "queued",
+   "queued_at": "2026-08-26T23:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water damage restoration cost",
+   "intent": "commercial",
+   "volume": 880,
+   "kd": 3,
+   "fan_out_cluster": [
+    "water damage restoration cost per square foot",
+    "how much does water damage restoration cost",
+    "how much does it cost to fix a flooded basement",
+    "who pays for water damage restoration",
+    "water damage insurance claim",
+    "water damage restoration cost calculator"
+   ],
+   "suggested_slug": "water-damage-restoration-cost",
+   "suggested_title": "Water damage restoration cost: what Western PA homeowners actually pay in 2026",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/basement-flooding-cleanup/",
+    "/services/burst-pipe-repair/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "basement-flooding-cleanup",
+    "burst-pipe-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iii.org/article/what-covered-standard-homeowners-policy",
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Highest-CPC family in the seed (mitigation CPCs run $30-$118 in this market), so the organic version intercepts spend the client would otherwise pay for. Structure by cost driver: water category (1/2/3), square footage, class of drying, equipment days, and whether reconstruction follows mitigation. Give honest ranges and say plainly that most of it is an insurance claim, not out of pocket. No fabricated price tables and no fake calculator: publish ranges with the drivers that move them.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration"
+  },
+  {
+   "id": "2026-08-26-water-in-basement-after-heavy-rain",
+   "status": "queued",
+   "queued_at": "2026-08-26T23:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water in basement after heavy rain",
+   "intent": "informational",
+   "volume": 480,
+   "kd": 0,
+   "fan_out_cluster": [
+    "why does my basement flood when it rains",
+    "basement seepage after storm",
+    "sump pump failure water damage",
+    "does homeowners insurance cover sump pump failure",
+    "how to stop water coming in basement walls",
+    "storm damage basement flooding"
+   ],
+   "suggested_slug": "water-in-basement-after-heavy-rain",
+   "suggested_title": "Water in the basement after heavy rain: causes, fixes and when it is a restoration job",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/basement-flooding-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/services/flood-damage-restoration/",
+    "/services/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "basement-flooding-cleanup",
+    "storm-damage-restoration",
+    "flood-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home",
+    "https://www.ready.gov/floods"
+   ],
+   "notes": "Strong local hook without being a location page: Connoquenessing Creek (Zelienople, Butler) and Breakneck Creek (Mars, Evans City) put low-lying blocks on flood alert in cloudburst summers, and Cranberry and Seven Fields sit on sump-dependent newer builds. Separate the three causes clearly (surface grading and downspouts, hydrostatic seepage through block walls, sump or drain failure) because the insurance answer differs for each: groundwater seepage is usually excluded, sump failure needs a rider, storm-driven surface flooding needs NFIP. Writer should note FireDEX does the cleanup and drying, not foundation waterproofing.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration"
+  },
+  {
+   "id": "2026-08-26-category-3-water-damage",
+   "status": "queued",
+   "queued_at": "2026-08-26T23:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "category 3 water damage",
+   "intent": "informational",
+   "volume": 390,
+   "kd": 0,
+   "fan_out_cluster": [
+    "category 1 2 3 water damage",
+    "black water damage cleanup",
+    "clean water vs gray water vs black water",
+    "sewage backup in basement",
+    "when does clean water become category 3",
+    "water damage classes of drying"
+   ],
+   "suggested_slug": "category-3-water-damage",
+   "suggested_title": "Category 3 water damage explained: black water, what has to be thrown out, and why the clock matters",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/sewage-cleanup/",
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/basement-flooding-cleanup/"
+   ],
+   "service_tags": [
+    "sewage-cleanup",
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.cdc.gov/mold/cleanup-guide.html"
+   ],
+   "notes": "Definition-style page that AI assistants lift verbatim, which is exactly the retrieval slot the audit says the client can win. Cover the escalation rule (clean water turns category 2 then 3 with time, temperature and contact with contaminated materials) because that is what homeowners get wrong when they wait a weekend. Butler and Beaver Falls housing stock runs original cast-iron drains, so sewer backup is a real local scenario. Sensitive-adjacent content: keep it factual, no gore, no scare copy. Cite the S500 standard, do not claim certification.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration"
+  },
+  {
+   "id": "2026-08-26-what-is-water-damage-restoration",
+   "status": "queued",
+   "queued_at": "2026-08-26T23:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what is water damage restoration",
+   "intent": "informational",
+   "volume": 210,
+   "kd": 3,
+   "fan_out_cluster": [
+    "water damage restoration process",
+    "what does water damage restoration include",
+    "water mitigation vs restoration",
+    "water damage restoration timeline",
+    "do i need to move out during water damage restoration",
+    "water damage restoration equipment"
+   ],
+   "suggested_slug": "what-is-water-damage-restoration",
+   "suggested_title": "What is water damage restoration? The full process from first call to final rebuild",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/reconstruction/",
+    "/services/mold-remediation/",
+    "/services/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "reconstruction",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Pillar explainer for the water-first pivot: FireDEX reads as a fire brand, so a plain-language water process page anchors the entity to water work for both readers and AI retrieval. Draw the mitigation/reconstruction line explicitly (extraction, structural drying, monitoring, then repairs) since the client does both under one roof, which most Butler County competitors do not. Differentiate from /blog/how-long-does-water-damage-restoration-take/ by covering scope rather than duration, and link to it for the timeline question.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration"
+  }
+ ]
 }

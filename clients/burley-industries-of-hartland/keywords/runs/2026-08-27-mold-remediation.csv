@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+mold remediation,transactional,165000,35,,2,mold remediation,,,no
+mold remediation services,transactional,60500,10,15.89,2,mold remediation,,,no
+professional mold remediation,transactional,40500,26,23.43,2,mold remediation,,,no
+mold remediation specialists,transactional,40500,18,32.06,2,mold remediation,,,no
+mold remediation near me,transactional,33100,25,36.49,2,mold remediation,,,no
+mold remediation company near me,transactional,33100,2,37.17,2,mold remediation,,,no
+mold remediation specialist,transactional,33100,15,38.57,2,mold remediation,,,no
+mold remediation company,transactional,27100,18,39.52,2,mold remediation,,,no
+mold remediation companies,transactional,27100,14,,2,mold remediation,,,no
+black mold remediation,transactional,12100,31,,2,black mold removal,,,no
+mold remediation contractors,transactional,9900,4,34.26,2,mold remediation,,,no
+mold remediation contractor,transactional,9900,4,,2,mold remediation,,,no
+bathroom mold remediation,transactional,5400,23,7.24,2,mold remediation,,,no
+professional mold remediation services,transactional,5400,19,20.53,2,mold remediation,,,no
+attic mold remediation,transactional,2400,0,,2,attic mold removal,,,no
+mold remediation services near me,transactional,2400,10,,2,mold remediation,,,no
+basement mold remediation,transactional,1900,10,22.1,2,mold remediation,,,no
+crawl space mold remediation,transactional,1900,0,32.77,2,crawl space mold removal,,,no
+mold testing and remediation,transactional,1300,50,30.09,2,mold testing,,,no
+mold inspection and remediation,transactional,1300,32,30.09,2,mold inspection,,,no
+hvac mold remediation,transactional,1300,0,,2,mold remediation,,,no
+mold remediation and restoration,transactional,1000,16,29.29,2,mold remediation,,,no
+certified mold remediation,transactional,1000,20,8.06,2,mold remediation,,,no
+mold remediation cost,commercial,9900,3,16.92,2,mold remediation,,,no
+how much does mold remediation cost,commercial,3600,5,,2,mold remediation,,,no
+black mold remediation cost,commercial,1300,7,,2,black mold removal,,,no
+attic mold remediation cost,commercial,1000,5,19.52,2,attic mold removal,,,no
+mold remediation in basement cost,commercial,880,1,16.26,2,mold remediation,,,no
+mold remediation cost per square foot,commercial,720,0,17.38,2,mold remediation,,,no
+best mold remediation companies,commercial,210,5,13.49,2,mold remediation,,,no
+hvac mold remediation cost,commercial,140,10,,2,mold remediation,,,no
+does homeowners insurance cover mold remediation,informational,1000,26,9.82,2,mold remediation,,,no
+will homeowners insurance cover mold remediation,informational,1000,5,9.82,2,mold remediation,,,no
+what is mold remediation,informational,1000,18,9.35,2,mold remediation,,,no
+who pays for mold remediation,informational,880,9,14.41,2,mold remediation,,,no
+how long does mold remediation take,informational,720,0,17.8,2,mold remediation,,,no
+mold remediation process,informational,720,16,13.62,2,mold remediation,,,no
+signs of mold in your home,informational,590,34,2.41,2,mold inspection,,,no
+when is mold remediation required,informational,390,27,13.19,2,mold remediation,,,no
+epa mold remediation guidelines,informational,320,40,,2,mold remediation,,,no

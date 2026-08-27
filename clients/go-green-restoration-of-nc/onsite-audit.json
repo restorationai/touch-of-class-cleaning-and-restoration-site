@@ -1,0 +1,691 @@
+{
+  "schema_version": 1,
+  "slug": "go-green-restoration-of-nc",
+  "site": "gogreenrestorationofnc.com",
+  "live_origin": "https://gogreenrestorationofnc.com",
+  "live_origin_source": "apex",
+  "audit_form_factor": "desktop",
+  "lighthouse_version": "13.4.0",
+  "generated_at": "2026-08-27T02:34:56Z",
+  "environment_caveats": [
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores typically run 10-20 performance points lower and are NOT represented here.",
+    "Client record status is 'onboarding', not 'active'. Audited anyway because build_status=pushed_main and the apex responds 200. Confirm the status field is correct.",
+    "Client record has no apex_cutover.completed_at field; apex origin was selected from cut_over_at (2026-08-09) plus a live 200 response with no noindex header.",
+    "5 DataForSEO instant_pages checks were confirmed false-positive against the live HTML and excluded from verdicts. See excluded_false_positives per URL."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://gogreenrestorationofnc.com/",
+      "archetype": "home",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 96,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 942,
+        "CLS": 0.0048,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "title_length": 60,
+      "meta_description_length": 144,
+      "h1_count": 1,
+      "canonical": "https://gogreenrestorationofnc.com/",
+      "word_count": 1181,
+      "image_alt_coverage_pct": 100.0,
+      "broken_links": false,
+      "broken_resources": false,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "logo.png ships as a 105 KB PNG on every page; /contact/ hero lacks srcset and ships the full 269 KB source",
+          "estimated_savings_kib": 284
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 55,
+          "category": "performance",
+          "detail": "single 8.7 KB Astro stylesheet _slug_.UsQ6mpDA.css"
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "best_practices",
+          "detail": "footer logo declares width=48 height=48 but renders at 386x80"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "critical path depth diagnostic, 0 ms measured savings"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Cloudflare email-decode.min.js, 288 bytes; third-party, not ours to fix"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        }
+      ],
+      "excluded_false_positives": [
+        {
+          "id": "has_micromarkup",
+          "title": "Page has no schema.org structured data",
+          "reason_excluded": "JSON-LD verified present on all 6 pages (3-5 blocks each)"
+        },
+        {
+          "id": "has_meta_title",
+          "title": "Page has no meta title",
+          "reason_excluded": "<title> present on all 6 pages; check targets the non-standard <meta name=\"title\">"
+        },
+        {
+          "id": "from_sitemap",
+          "title": "Page is not present in the XML sitemap",
+          "reason_excluded": "all 6 URLs present in /sitemap-0.xml via robots.txt -> /sitemap-index.xml"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Page contains images without title attribute",
+          "reason_excluded": "img title attribute is not a ranking signal; alt coverage measured 100%"
+        }
+      ]
+    },
+    {
+      "url": "https://gogreenrestorationofnc.com/services/",
+      "archetype": "services-hub",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 898,
+        "CLS": 0.0045,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "title_length": 62,
+      "meta_description_length": 143,
+      "h1_count": 1,
+      "canonical": "https://gogreenrestorationofnc.com/services/",
+      "word_count": 774,
+      "image_alt_coverage_pct": 100.0,
+      "broken_links": false,
+      "broken_resources": false,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "logo.png ships as a 105 KB PNG on every page; /contact/ hero lacks srcset and ships the full 269 KB source",
+          "estimated_savings_kib": 309
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "best_practices",
+          "detail": "footer logo declares width=48 height=48 but renders at 386x80"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "breadcrumb link a.text-dark/50 is #888c93 on #ffffff = 3.37:1 at 12px (needs 4.5:1)"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "inner-page hero img is loading=eager but has no fetchpriority=high and no srcset"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "critical path depth diagnostic, 0 ms measured savings"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        }
+      ],
+      "excluded_false_positives": [
+        {
+          "id": "has_micromarkup",
+          "title": "Page has no schema.org structured data",
+          "reason_excluded": "JSON-LD verified present on all 6 pages (3-5 blocks each)"
+        },
+        {
+          "id": "has_meta_title",
+          "title": "Page has no meta title",
+          "reason_excluded": "<title> present on all 6 pages; check targets the non-standard <meta name=\"title\">"
+        },
+        {
+          "id": "from_sitemap",
+          "title": "Page is not present in the XML sitemap",
+          "reason_excluded": "all 6 URLs present in /sitemap-0.xml via robots.txt -> /sitemap-index.xml"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Page contains images without title attribute",
+          "reason_excluded": "img title attribute is not a ranking signal; alt coverage measured 100%"
+        }
+      ]
+    },
+    {
+      "url": "https://gogreenrestorationofnc.com/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 759,
+        "CLS": 0.0054,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "title_length": 60,
+      "meta_description_length": 109,
+      "h1_count": 1,
+      "canonical": "https://gogreenrestorationofnc.com/services/water-damage-restoration/",
+      "word_count": 1861,
+      "image_alt_coverage_pct": 100.0,
+      "broken_links": false,
+      "broken_resources": false,
+      "lighthouse_issues": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "best_practices",
+          "detail": "footer logo declares width=48 height=48 but renders at 386x80"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "breadcrumb link a.text-dark/50 is #888c93 on #ffffff = 3.37:1 at 12px (needs 4.5:1)"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "inner-page hero img is loading=eager but has no fetchpriority=high and no srcset"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "critical path depth diagnostic, 0 ms measured savings"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Cloudflare email-decode.min.js, 288 bytes; third-party, not ours to fix"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        }
+      ],
+      "excluded_false_positives": [
+        {
+          "id": "has_micromarkup",
+          "title": "Page has no schema.org structured data",
+          "reason_excluded": "JSON-LD verified present on all 6 pages (3-5 blocks each)"
+        },
+        {
+          "id": "has_meta_title",
+          "title": "Page has no meta title",
+          "reason_excluded": "<title> present on all 6 pages; check targets the non-standard <meta name=\"title\">"
+        },
+        {
+          "id": "from_sitemap",
+          "title": "Page is not present in the XML sitemap",
+          "reason_excluded": "all 6 URLs present in /sitemap-0.xml via robots.txt -> /sitemap-index.xml"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Page contains images without title attribute",
+          "reason_excluded": "img title attribute is not a ranking signal; alt coverage measured 100%"
+        }
+      ]
+    },
+    {
+      "url": "https://gogreenrestorationofnc.com/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 771,
+        "CLS": 0.0054,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "title_length": 65,
+      "meta_description_length": 113,
+      "h1_count": 1,
+      "canonical": "https://gogreenrestorationofnc.com/services/fire-damage-restoration/",
+      "word_count": 1737,
+      "image_alt_coverage_pct": 100.0,
+      "broken_links": false,
+      "broken_resources": false,
+      "lighthouse_issues": [
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 52,
+          "category": "performance",
+          "detail": "single 8.7 KB Astro stylesheet _slug_.UsQ6mpDA.css"
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "best_practices",
+          "detail": "footer logo declares width=48 height=48 but renders at 386x80"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "breadcrumb link a.text-dark/50 is #888c93 on #ffffff = 3.37:1 at 12px (needs 4.5:1)"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "inner-page hero img is loading=eager but has no fetchpriority=high and no srcset"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "critical path depth diagnostic, 0 ms measured savings"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        }
+      ],
+      "excluded_false_positives": [
+        {
+          "id": "has_micromarkup",
+          "title": "Page has no schema.org structured data",
+          "reason_excluded": "JSON-LD verified present on all 6 pages (3-5 blocks each)"
+        },
+        {
+          "id": "has_meta_title",
+          "title": "Page has no meta title",
+          "reason_excluded": "<title> present on all 6 pages; check targets the non-standard <meta name=\"title\">"
+        },
+        {
+          "id": "from_sitemap",
+          "title": "Page is not present in the XML sitemap",
+          "reason_excluded": "all 6 URLs present in /sitemap-0.xml via robots.txt -> /sitemap-index.xml"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Page contains images without title attribute",
+          "reason_excluded": "img title attribute is not a ranking signal; alt coverage measured 100%"
+        }
+      ]
+    },
+    {
+      "url": "https://gogreenrestorationofnc.com/service-areas/raleigh-nc/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 900,
+        "CLS": 0.0058,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "title_length": 64,
+      "meta_description_length": 112,
+      "h1_count": 1,
+      "canonical": "https://gogreenrestorationofnc.com/service-areas/raleigh-nc/",
+      "word_count": 1336,
+      "image_alt_coverage_pct": 100.0,
+      "broken_links": false,
+      "broken_resources": false,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "logo.png ships as a 105 KB PNG on every page; /contact/ hero lacks srcset and ships the full 269 KB source",
+          "estimated_savings_kib": 250
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "best_practices",
+          "detail": "footer logo declares width=48 height=48 but renders at 386x80"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "breadcrumb link a.text-dark/50 is #888c93 on #ffffff = 3.37:1 at 12px (needs 4.5:1)"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "inner-page hero img is loading=eager but has no fetchpriority=high and no srcset"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "critical path depth diagnostic, 0 ms measured savings"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        }
+      ],
+      "excluded_false_positives": [
+        {
+          "id": "has_micromarkup",
+          "title": "Page has no schema.org structured data",
+          "reason_excluded": "JSON-LD verified present on all 6 pages (3-5 blocks each)"
+        },
+        {
+          "id": "has_meta_title",
+          "title": "Page has no meta title",
+          "reason_excluded": "<title> present on all 6 pages; check targets the non-standard <meta name=\"title\">"
+        },
+        {
+          "id": "from_sitemap",
+          "title": "Page is not present in the XML sitemap",
+          "reason_excluded": "all 6 URLs present in /sitemap-0.xml via robots.txt -> /sitemap-index.xml"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Page contains images without title attribute",
+          "reason_excluded": "img title attribute is not a ranking signal; alt coverage measured 100%"
+        },
+        {
+          "id": "frame",
+          "title": "Page uses frames",
+          "reason_excluded": "single Google Maps embed, loading=lazy with a title attribute"
+        }
+      ]
+    },
+    {
+      "url": "https://gogreenrestorationofnc.com/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 96,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 865,
+        "CLS": 0.0262,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "title_length": 61,
+      "meta_description_length": 122,
+      "h1_count": 1,
+      "canonical": "https://gogreenrestorationofnc.com/contact/",
+      "word_count": 692,
+      "image_alt_coverage_pct": 100.0,
+      "broken_links": false,
+      "broken_resources": false,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "logo.png ships as a 105 KB PNG on every page; /contact/ hero lacks srcset and ships the full 269 KB source",
+          "estimated_savings_kib": 314
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "best_practices",
+          "detail": "footer logo declares width=48 height=48 but renders at 386x80"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "breadcrumb link a.text-dark/50 is #888c93 on #ffffff = 3.37:1 at 12px (needs 4.5:1)"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "inner-page hero img is loading=eager but has no fetchpriority=high and no srcset"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "critical path depth diagnostic, 0 ms measured savings"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        }
+      ],
+      "excluded_false_positives": [
+        {
+          "id": "has_micromarkup",
+          "title": "Page has no schema.org structured data",
+          "reason_excluded": "JSON-LD verified present on all 6 pages (3-5 blocks each)"
+        },
+        {
+          "id": "has_meta_title",
+          "title": "Page has no meta title",
+          "reason_excluded": "<title> present on all 6 pages; check targets the non-standard <meta name=\"title\">"
+        },
+        {
+          "id": "from_sitemap",
+          "title": "Page is not present in the XML sitemap",
+          "reason_excluded": "all 6 URLs present in /sitemap-0.xml via robots.txt -> /sitemap-index.xml"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Page contains images without title attribute",
+          "reason_excluded": "img title attribute is not a ranking signal; alt coverage measured 100%"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.3,
+      "accessibility": 96.0,
+      "best_practices": 96.0,
+      "seo": 100.0
+    },
+    "verdict": "green",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 6,
+      "amber": 0,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "image-aspect-ratio",
+        "title": "Displays images with incorrect aspect ratio",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "has_render_blocking_resources",
+        "title": "Page has render-blocking resources",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "low"
+      }
+    ],
+    "money_page_alerts": []
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  },
+  "cost_usd": 0.0408
+}

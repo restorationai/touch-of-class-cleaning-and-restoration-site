@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "slug": "firedex-butler",
+  "site": "staging.rankai-firedex-butler.pages.dev",
+  "live_origin": "https://staging.rankai-firedex-butler.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-08-27T01:51:16Z",
+  "environment_caveats": [
+    "Audited the Cloudflare Pages staging preview; apex firedex.net still serves the legacy 2020 WordPress site and was deliberately not audited.",
+    "All 6 URLs return x-robots-tag: noindex (Pages preview default). is-crawlable is the ONLY failing SEO audit on every page, so SEO 69 is a staging artifact and is EXCLUDED from all verdicts. Expected apex SEO is 100.",
+    "Lighthouse ran desktop only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would run lower and would weight the 535KB logo far more heavily.",
+    "Canonicals point to https://firedex.net/... by design for cutover; they resolve to the legacy WordPress site until cutover completes.",
+    "Client record status is 'pending', not 'active'; audited anyway because build_status is pushed_main and the preview is live."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-firedex-butler.pages.dev/",
+      "archetype": "home",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1115,
+        "CLS": 0.0419,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 571723,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "meta_description_too_long",
+          "title": "Meta description is 165 characters, above the 160-character target",
+          "severity": "low",
+          "source": "derived"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-firedex-butler.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 97,
+        "accessibility": 90,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1212,
+        "CLS": 0.0042,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 698355,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-firedex-butler.pages.dev/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 90,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1102,
+        "CLS": 0.0102,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 533974,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-firedex-butler.pages.dev/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 90,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1042,
+        "CLS": 0.0051,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 533974,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-firedex-butler.pages.dev/service-areas/wexford-pa/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1093,
+        "CLS": 0.0049,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 590327,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "frame",
+          "title": "Page contains an iframe (Google Maps embed, lazy-loaded)",
+          "severity": "low",
+          "source": "dataforseo"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-firedex-butler.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 92,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1112,
+        "CLS": 0.0063,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 650990,
+          "category": "performance"
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": []
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 98.0,
+      "accessibility": 90.7,
+      "best_practices": 100.0,
+      "seo": 69.0
+    },
+    "verdict": "green",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 6,
+      "amber": 0,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "target-size",
+        "title": "Touch targets do not have sufficient size or spacing.",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "low"
+      }
+    ],
+    "money_page_alerts": []
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client. No comparison data."
+  }
+}
