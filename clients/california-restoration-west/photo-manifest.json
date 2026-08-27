@@ -3331,6 +3331,58 @@
       "reason": "Thermal scan evidence of moisture; decent services proof but awkward composition.",
       "triaged_at": "2026-08-26T06:45:20Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1787848450881-ce25e5ae": {
+      "source": "crew",
+      "storage": "job-photos/sms-1787848450881-ce25e5ae.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/sms-1787848450881-ce25e5ae.jpg",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 96522,
+      "sha1": "9ebbae4e117e4d29",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Screenshot of website permissions dialog on screen",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot",
+        "indoor_clutter"
+      ],
+      "reason": "Photo of a screen showing a CMS permissions error; completely irrelevant.",
+      "triaged_at": "2026-08-27T23:44:04Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1787848490110-cea682b6": {
+      "source": "crew",
+      "storage": "job-photos/sms-1787848490110-cea682b6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/sms-1787848490110-cea682b6.jpg",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 96301,
+      "sha1": "4da067ba8ea45994",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Screenshot of website contributor permissions dialog on screen",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot",
+        "indoor_clutter"
+      ],
+      "reason": "Photo of a screen showing a CMS permissions error; completely irrelevant.",
+      "triaged_at": "2026-08-27T23:44:04Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {
@@ -3344,5 +3396,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-08-26T06:45:20Z"
+  "triaged_at": "2026-08-27T23:44:04Z"
 }
