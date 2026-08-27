@@ -777,6 +777,32 @@ def fetch_history(contact_id: str, max_msgs: int = HISTORY_MAX_MSGS) -> list[dic
                 body = "[phone call]"
             elif channel == "email":
                 body = body[:HISTORY_EMAIL_TRIM]
+                if not body:
+                    # Inbound emails land in the conversations feed as SHELLS
+                    # (body AND attachments null); the real content sits behind
+                    # the email endpoint. Jaziel/RestorationXpress 2026-08-24:
+                    # the customer-list email was silently dropped right here
+                    # by the `if not body: continue` below. Hydrate first.
+                    email_ids = (((msg.get("meta") or {}).get("email") or {})
+                                 .get("messageIds") or [])
+                    if email_ids:
+                        try:
+                            full = _ghl("GET",
+                                        f"/conversations/messages/email/{email_ids[0]}") or {}
+                            e = full.get("emailMessage", full)
+                            subj = (e.get("subject") or "").strip()
+                            raw = re.sub(r"<[^>]+>", " ", e.get("body") or "")
+                            raw = re.sub(r"\s+", " ", raw).strip()
+                            att = e.get("attachments") or []
+                            parts = [f"[email: {subj}]" if subj else "[email]"]
+                            if raw:
+                                parts.append(raw[:HISTORY_EMAIL_TRIM])
+                            if att:
+                                names = ", ".join(a.rsplit("/", 1)[-1] for a in att[:3])
+                                parts.append(f"[{len(att)} attachment(s): {names}]")
+                            body = " ".join(parts).strip()
+                        except Exception:  # noqa: BLE001 — hydration is best-effort
+                            body = "[inbound email — content unavailable]"
             n_att = len(msg.get("attachments") or [])
             if n_att:
                 # photo-only MMS must be visible in history or the composer
