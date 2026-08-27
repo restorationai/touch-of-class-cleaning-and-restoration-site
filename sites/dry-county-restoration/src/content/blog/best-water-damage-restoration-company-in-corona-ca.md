@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Corona, CA"
 secondary_keywords: ["best water damage restoration companies Corona", "top rated water damage restoration Corona CA", "who is the best water damage restoration company in Corona", "water damage cleanup Corona", "water damage repair Corona", "water cleanup Corona"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.None/brand/hero.webp"
-og: "https://images.None/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-26T23:38:57Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/services/general-contracting/", "/services/contents-restoration/", "/services/air-duct-cleaning/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]

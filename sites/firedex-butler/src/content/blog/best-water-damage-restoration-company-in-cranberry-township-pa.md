@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Cranberry Township, P
 secondary_keywords: ["best water damage restoration companies Cranberry Township", "top rated water damage restoration Cranberry Township PA", "who is the best water damage restoration company in Cranberry Township", "water damage cleanup Cranberry Township", "water cleanup Cranberry Township", "water removal Cranberry Township"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.firedex.net/brand/hero.webp"
-og: "https://images.firedex.net/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-27T00:00:32Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/basement-flooding-cleanup/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/services/reconstruction/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/how-long-does-water-damage-restoration-take/"]

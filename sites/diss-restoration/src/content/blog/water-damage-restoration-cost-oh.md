@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost OH"
 secondary_keywords: ["how much does water damage restoration cost in OH", "water damage restoration price OH", "average cost of water damage restoration OH", "water damage cleanup OH", "water cleanup OH", "water removal OH"]
 search_intent: "transactional"
 priority: 7
-hero: "https://images.dissrestoration.com/brand/hero.webp"
-og: "https://images.dissrestoration.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-26T23:18:23Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/sewage-cleanup/", "/services/mold-remediation/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/contact/"]

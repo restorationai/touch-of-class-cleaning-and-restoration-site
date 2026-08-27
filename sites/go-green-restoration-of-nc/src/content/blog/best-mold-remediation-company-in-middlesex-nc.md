@@ -7,8 +7,8 @@ primary_keyword: "best mold remediation company in Middlesex, NC"
 secondary_keywords: ["best mold remediation companies Middlesex", "top rated mold remediation Middlesex NC", "who is the best mold remediation company in Middlesex", "mold removal Middlesex", "mold cleanup Middlesex", "black mold removal Middlesex"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.gogreenrestorationofnc.com/brand/hero.webp"
-og: "https://images.gogreenrestorationofnc.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-27T02:25:00Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/services/crawl-space-encapsulation/", "/services/air-duct-cleaning/", "/blog/how-to-test-for-mold/", "/blog/choosing-a-restoration-company/", "/service-areas/middlesex-nc/"]

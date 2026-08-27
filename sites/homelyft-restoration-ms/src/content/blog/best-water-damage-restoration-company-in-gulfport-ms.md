@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Gulfport, MS"
 secondary_keywords: ["best water damage restoration companies Gulfport", "top rated water damage restoration Gulfport MS", "who is the best water damage restoration company in Gulfport", "water damage cleanup Gulfport", "water damage repair Gulfport", "water cleanup Gulfport"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.None/brand/hero.webp"
-og: "https://images.None/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-27T02:46:28Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/general-contracting/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/choosing-a-restoration-company/", "/service-areas/gulfport-ms/"]

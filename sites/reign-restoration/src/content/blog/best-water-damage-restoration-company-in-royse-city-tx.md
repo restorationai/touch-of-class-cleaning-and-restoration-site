@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Royse City, TX"
 secondary_keywords: ["best water damage restoration companies Royse City", "top rated water damage restoration Royse City TX", "who is the best water damage restoration company in Royse City", "water damage cleanup Royse City", "water cleanup Royse City", "water removal Royse City"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.reign-restoration.com/brand/hero.webp"
-og: "https://images.reign-restoration.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-26T22:17:33Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/general-contracting/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/service-areas/royse-city-tx/"]
