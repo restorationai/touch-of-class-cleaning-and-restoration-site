@@ -453,10 +453,10 @@
     },
     {
       "id": "2026-07-16-what-kills-mold-permanently",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-16T20:20:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-27T03:08:07Z",
+      "post_url": "https://homepriderestorationandcleaning.com/blog/what-kills-mold-permanently/",
       "primary_keyword": "what kills mold permanently",
       "intent": "informational",
       "volume": 3600,
@@ -755,6 +755,184 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition, so it is AI-retrieval fuel: write it as a numbered, liftable passage (safety, document, mitigate, call insurer, keep records). Must stay mitigation-focused and defer claim mechanics to /blog/storm-damage-insurance-claim-checklist/ to avoid duplicate content."
+    },
+    {
+      "id": "2026-08-27-hail-damage-roof-signs-utah",
+      "status": "queued",
+      "queued_at": "2026-08-27T03:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "hail damage roof",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": 7,
+      "fan_out_cluster": [
+        "signs of hail damage",
+        "hail damage roof repair cost",
+        "wind damage to roof",
+        "how to tell if water is behind your walls",
+        "what does storm damage restoration include"
+      ],
+      "suggested_slug": "hail-damage-roof-signs-utah",
+      "suggested_title": "Hail damage roof inspection: how to spot it after a Utah storm",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/roof-leak-repair/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "roof-leak-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.ready.gov/severe-weather"
+      ],
+      "notes": "Wasatch Back hail is the local hook: lean on Heber City and Park City examples per the client's stated ranking targets. Show the difference between cosmetic granule loss and a breach that lets water into the decking, and set the expectation that interior moisture work starts within 24 to 48 hours."
+    },
+    {
+      "id": "2026-08-27-wind-damage-to-roof-what-to-do",
+      "status": "queued",
+      "queued_at": "2026-08-27T03:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "wind damage to roof",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 0,
+      "fan_out_cluster": [
+        "storm damage roof repair",
+        "emergency roof tarping",
+        "how to tarp a roof after storm damage",
+        "does homeowners insurance cover wind damage",
+        "who to call for storm damage"
+      ],
+      "suggested_slug": "wind-damage-to-roof-what-to-do",
+      "suggested_title": "Wind damage to roof: what Utah homeowners should do in the first 48 hours",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/roof-leak-repair/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "roof-leak-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.ready.gov/severe-weather"
+      ],
+      "notes": "Canyon winds off the Wasatch Front are the local angle (Saratoga Springs, Eagle Mountain, Lehi). Cover safe temporary tarping versus calling a crew, and link the insurance-claim checklist post rather than repeating it."
+    },
+    {
+      "id": "2026-08-27-basement-flooded-after-heavy-rain",
+      "status": "queued",
+      "queued_at": "2026-08-27T03:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "basement flooded after heavy rain",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 1,
+      "fan_out_cluster": [
+        "what to do if your basement floods after heavy rain",
+        "storm damage cleanup",
+        "how long after a storm does mold start growing",
+        "how long does storm damage restoration take",
+        "does homeowners insurance cover storm damage"
+      ],
+      "suggested_slug": "basement-flooded-after-heavy-rain",
+      "suggested_title": "Basement flooded after heavy rain: the first 24 hours, step by step",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "storm-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.ready.gov/severe-weather"
+      ],
+      "notes": "Utah County clay soil plus fast spring runoff is the local cause. Separate clean rainwater intrusion (category 1) from ground-water and sewer backup (category 3) early, because the category drives what gets saved versus removed."
+    },
+    {
+      "id": "2026-08-27-what-does-storm-damage-restoration-include",
+      "status": "queued",
+      "queued_at": "2026-08-27T03:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what does storm damage restoration include",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "storm damage restoration process",
+        "emergency roof tarping",
+        "storm damage cleanup",
+        "storm damage restoration cost",
+        "how long does storm damage restoration take"
+      ],
+      "suggested_slug": "what-does-storm-damage-restoration-include",
+      "suggested_title": "What does storm damage restoration include? The full scope, phase by phase",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/",
+        "/services/roof-leak-repair/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.ready.gov/severe-weather"
+      ],
+      "notes": "Straight answer-format page built for AI retrieval: emergency stabilization, assessment and documentation, water extraction and structural drying, then repairs. ChatGPT already cites the storm service page for this client, so mirror that phrasing and link back to it."
+    },
+    {
+      "id": "2026-08-27-how-long-does-storm-damage-restoration-take",
+      "status": "queued",
+      "queued_at": "2026-08-27T03:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does storm damage restoration take",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what does storm damage restoration include",
+        "storm damage restoration cost",
+        "how long after a storm does mold start growing",
+        "how long to file a storm damage claim",
+        "storm damage roof repair"
+      ],
+      "suggested_slug": "how-long-does-storm-damage-restoration-take",
+      "suggested_title": "How long does storm damage restoration take? Realistic timelines by damage type",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.ready.gov/severe-weather"
+      ],
+      "notes": "Give ranges, not promises: tarping and board-up same day, structural drying three to five days, repairs measured in weeks and gated by the insurance approval. Note that the drying clock does not start until the roof or window breach is closed."
     }
   ]
 }
