@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+water damage restoration butler county pa,transactional,,,,2,water damage restoration,butler-county-pa,,no
+emergency water damage restoration,transactional,2900,19,58.31,3,water damage restoration,,/services/water-damage-restoration/,no
+emergency water removal,transactional,2900,8,117.91,3,water damage restoration,,/services/water-damage-restoration/,no
+commercial water damage restoration,transactional,590,15,13.32,3,water damage restoration,,/services/commercial-restoration/,no
+residential water damage restoration near me,transactional,210,31,21.3,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration pittsburgh,transactional,140,4,24.71,3,water damage restoration,pittsburgh-pa,,no
+water damage restoration pittsburgh pa,transactional,140,21,24.71,3,water damage restoration,pittsburgh-pa,,no
+water damage restoration cranberry township,transactional,,,,3,water damage restoration,cranberry-township-pa,/services/water-damage-restoration/,no
+water damage restoration in cranberry township pa,transactional,,,,3,water damage restoration,cranberry-township-pa,/services/water-damage-restoration/,no
+emergency water damage restoration cranberry township pa,transactional,,,,3,water damage restoration,cranberry-township-pa,/services/water-damage-restoration/,no
+water damage cleanup cranberry township pa,transactional,,,,3,water damage restoration,cranberry-township-pa,/services/water-damage-restoration/,no
+water removal cranberry township pa,transactional,,,,3,water damage restoration,cranberry-township-pa,/services/water-damage-restoration/,no
+basement flooding cleanup cranberry township pa,transactional,,,,3,water damage restoration,cranberry-township-pa,/services/basement-flooding-cleanup/,no
+water damage restoration butler pa,transactional,,,,3,water damage restoration,butler-pa,/service-areas/butler-pa/water-damage-restoration/,no
+emergency water damage restoration butler pa,transactional,,,,3,water damage restoration,butler-pa,/service-areas/butler-pa/water-damage-restoration/,no
+water damage restoration wexford pa,transactional,,,,3,water damage restoration,wexford-pa,/service-areas/wexford-pa/water-damage-restoration/,no
+water damage restoration mars pa,transactional,,,,3,water damage restoration,mars-pa,/service-areas/mars-pa/water-damage-restoration/,no
+water damage restoration cost,commercial,880,3,,1,water damage restoration,,,yes
+water damage restoration cost per square foot,commercial,70,3,28.17,2,water damage restoration,,,no
+how much does water damage restoration cost,commercial,40,6,53.17,2,water damage restoration,,,no
+how much does it cost to fix a flooded basement,commercial,20,39,,2,water damage restoration,,,no
+water damage restoration company,commercial,110000,25,60.4,3,water damage restoration,,/,no
+flooded basement what to do,informational,1000,3,50.9,1,water damage restoration,,,yes
+water in basement after heavy rain,informational,480,0,48.44,1,water damage restoration,,,yes
+category 3 water damage,informational,390,0,33.24,1,water damage restoration,,,yes
+what is water damage restoration,informational,210,3,29.64,1,water damage restoration,,,yes
+does homeowners insurance cover sump pump failure,informational,50,2,,1,water damage restoration,,,no
+water damage insurance claim,informational,590,27,45.19,2,water damage restoration,,,no
+does insurance cover burst pipe,informational,170,22,,2,water damage restoration,,,no
+water damage restoration process,informational,110,6,,2,water damage restoration,,,no
+what to do after basement flood,informational,90,2,25.72,2,water damage restoration,,,no
+burst pipe insurance claim,informational,70,4,29.38,2,water damage restoration,,,no
+who to call for water damage,informational,70,0,,2,water damage restoration,,,no
+how to dry out a flooded basement,informational,50,7,16.68,2,water damage restoration,,,no
+what does water damage restoration include,informational,10,,,2,water damage restoration,,,no
+who pays for water damage restoration,informational,,,,2,water damage restoration,,,no
+do i need to move out during water damage restoration,informational,,,,2,water damage restoration,,,no
+how long does it take to dry out a flooded basement,informational,,,,2,water damage restoration,,,no
+does homeowners insurance cover water damage,informational,1900,10,,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no
+how quickly does mold grow after water damage,informational,70,0,,3,water damage restoration,,/blog/mold-after-water-damage/,no

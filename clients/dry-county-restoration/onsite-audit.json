@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "slug": "dry-county-restoration",
+  "site": "staging.rankai-dry-county-restoration.pages.dev",
+  "live_origin": "https://staging.rankai-dry-county-restoration.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-08-26T23:49:37Z",
+  "environment_caveats": [
+    "Staging Pages preview returns x-robots-tag: noindex, so the Lighthouse is-crawlable audit fails and the SEO category is deflated to 69. SEO is recorded but EXCLUDED from verdict computation. Re-audit after apex cutover.",
+    "Client record status is 'onboarding' (methodology expects 'active'); build_status is 'pushed_main' so the site is live and auditable. Audit proceeded with this deviation logged.",
+    "client.domain is null, which is the root cause of the https://None canonical/og:url/schema defect. The same defect is present on the production Pages build (rankai-dry-county-restoration.pages.dev), not just staging.",
+    "Lighthouse run DESKTOP (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would run lower. Note: this run used the DataForSEO REST API directly via curl, which DOES expose for_mobile - desktop was kept for methodology consistency and future comparability."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-dry-county-restoration.pages.dev/",
+      "archetype": "home",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 930,
+        "CLS": 0.0025,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "word_count": 1506,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 295277,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "occurrences": 4
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo",
+          "note": "staging noindex artifact - excluded from verdict"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 56,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai_canonical_unresolvable_host",
+          "title": "Canonical and og:url resolve to https://None (unresolvable host)",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "<link rel=canonical> = https://None/"
+        },
+        {
+          "id": "rankai_schema_url_unresolvable_host",
+          "title": "JSON-LD schema url property set to https://None",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "LocalBusiness/Organization/WebSite url = https://None"
+        },
+        {
+          "id": "rankai_meta_description_length",
+          "title": "Meta description 178 chars (target 70-160)",
+          "severity": "medium",
+          "source": "rank-ai manual check",
+          "detail": "Dry County Restoration provides 24/7 water, fire, mold, and storm damage restora..."
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-dry-county-restoration.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1018,
+        "CLS": 0.0022,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "word_count": 770,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 381825,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "occurrences": 5
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo",
+          "note": "staging noindex artifact - excluded from verdict"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai_canonical_unresolvable_host",
+          "title": "Canonical and og:url resolve to https://None (unresolvable host)",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "<link rel=canonical> = https://None/services/"
+        },
+        {
+          "id": "rankai_schema_url_unresolvable_host",
+          "title": "JSON-LD schema url property set to https://None",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "LocalBusiness/Organization/WebSite url = https://None"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-dry-county-restoration.pages.dev/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 857,
+        "CLS": 0.0301,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "word_count": 1782,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 243528,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "occurrences": 7
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo",
+          "note": "staging noindex artifact - excluded from verdict"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai_canonical_unresolvable_host",
+          "title": "Canonical and og:url resolve to https://None (unresolvable host)",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "<link rel=canonical> = https://None/services/water-damage-restoration/"
+        },
+        {
+          "id": "rankai_schema_url_unresolvable_host",
+          "title": "JSON-LD schema url property set to https://None",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "LocalBusiness/Organization/WebSite url = https://None"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-dry-county-restoration.pages.dev/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 905,
+        "CLS": 0.0301,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "word_count": 1959,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 243528,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "occurrences": 7
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo",
+          "note": "staging noindex artifact - excluded from verdict"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai_canonical_unresolvable_host",
+          "title": "Canonical and og:url resolve to https://None (unresolvable host)",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "<link rel=canonical> = https://None/services/fire-damage-restoration/"
+        },
+        {
+          "id": "rankai_schema_url_unresolvable_host",
+          "title": "JSON-LD schema url property set to https://None",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "LocalBusiness/Organization/WebSite url = https://None"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-dry-county-restoration.pages.dev/service-areas/riverside-ca/",
+      "archetype": "service-area",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 975,
+        "CLS": 0.0031,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "word_count": 1310,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 318539,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "occurrences": 9
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo",
+          "note": "staging noindex artifact - excluded from verdict"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai_canonical_unresolvable_host",
+          "title": "Canonical and og:url resolve to https://None (unresolvable host)",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "<link rel=canonical> = https://None/service-areas/riverside-ca/"
+        },
+        {
+          "id": "rankai_schema_url_unresolvable_host",
+          "title": "JSON-LD schema url property set to https://None",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "LocalBusiness/Organization/WebSite url = https://None"
+        },
+        {
+          "id": "frame",
+          "title": "Page embeds an iframe",
+          "severity": "low",
+          "source": "dataforseo on_page check"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-dry-county-restoration.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 911,
+        "CLS": 0.0252,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "word_count": 698,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 386838,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "occurrences": 5
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo",
+          "note": "staging noindex artifact - excluded from verdict"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai_canonical_unresolvable_host",
+          "title": "Canonical and og:url resolve to https://None (unresolvable host)",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "<link rel=canonical> = https://None/contact/"
+        },
+        {
+          "id": "rankai_schema_url_unresolvable_host",
+          "title": "JSON-LD schema url property set to https://None",
+          "severity": "high",
+          "source": "rank-ai manual check",
+          "detail": "LocalBusiness/Organization/WebSite url = https://None"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.0,
+      "accessibility": 95.3,
+      "best_practices": 100.0,
+      "seo": 69.0
+    },
+    "verdict": "red",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 0,
+      "red": 6,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "rankai_canonical_unresolvable_host",
+        "title": "Canonical and og:url resolve to https://None (unresolvable host)",
+        "severity": "high",
+        "affected_urls": 6
+      },
+      {
+        "id": "rankai_schema_url_unresolvable_host",
+        "title": "JSON-LD schema url property set to https://None",
+        "severity": "high",
+        "affected_urls": 6
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "severity": "low",
+        "affected_urls": 6
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "severity": "low",
+        "affected_urls": 6
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "severity": "low",
+        "affected_urls": 5
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-dry-county-restoration.pages.dev/",
+        "archetype": "home",
+        "verdict": "red",
+        "main_issue": "canonical + og:url + schema url all point to https://None (unresolvable host)"
+      },
+      {
+        "url": "https://staging.rankai-dry-county-restoration.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "red",
+        "main_issue": "canonical + og:url + schema url all point to https://None (unresolvable host)"
+      },
+      {
+        "url": "https://staging.rankai-dry-county-restoration.pages.dev/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "canonical + og:url + schema url all point to https://None (unresolvable host)"
+      },
+      {
+        "url": "https://staging.rankai-dry-county-restoration.pages.dev/services/fire-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "canonical + og:url + schema url all point to https://None (unresolvable host)"
+      },
+      {
+        "url": "https://staging.rankai-dry-county-restoration.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "red",
+        "main_issue": "canonical + og:url + schema url all point to https://None (unresolvable host)"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  }
+}

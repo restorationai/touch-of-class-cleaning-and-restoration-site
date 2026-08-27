@@ -1,0 +1,40 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+water damage restoration near me,transactional,135000,17,51.04,3,water damage restoration,,/services/water-damage-restoration/,no
+water restoration services,transactional,135000,31,36.67,3,water damage restoration,,/services/,no
+water damage restoration company,transactional,110000,25,60.4,3,water damage restoration,,/services/water-damage-restoration/,no
+flood damage restoration,transactional,110000,9,45.46,3,water damage restoration,,/services/water-damage-restoration/,no
+residential water damage restoration near me,transactional,210,31,21.3,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration Youngstown OH,transactional,10,,,3,water damage restoration,Youngstown,/services/water-damage-restoration/,no
+water damage restoration Warren OH,transactional,10,,,3,water damage restoration,Warren,/service-areas/warren-oh/water-damage-restoration/,no
+water damage restoration in Youngstown OH,transactional,,,,3,water damage restoration,Youngstown,/services/water-damage-restoration/,no
+emergency water damage restoration Youngstown OH,transactional,,,,3,water damage restoration,Youngstown,/services/water-damage-restoration/,no
+Youngstown water damage restoration,transactional,,,,3,water damage restoration,Youngstown,/services/water-damage-restoration/,no
+water damage restoration company Youngstown OH,transactional,,,,3,water damage restoration,Youngstown,/services/water-damage-restoration/,no
+water damage cleanup Youngstown OH,transactional,,,,3,water damage restoration,Youngstown,/services/water-damage-restoration/,no
+water damage repair Youngstown OH,transactional,,,,3,water damage restoration,Youngstown,/services/water-damage-restoration/,no
+flood damage restoration Youngstown OH,transactional,,,,3,water damage restoration,Youngstown,/services/water-damage-restoration/,no
+water removal Youngstown OH,transactional,,,,3,water damage restoration,Youngstown,/services/water-damage-restoration/,no
+water damage restoration in Warren OH,transactional,,,,3,water damage restoration,Warren,/service-areas/warren-oh/water-damage-restoration/,no
+emergency water damage restoration Warren OH,transactional,,,,3,water damage restoration,Warren,/service-areas/warren-oh/water-damage-restoration/,no
+water damage restoration in Boardman OH,transactional,,,,3,water damage restoration,Boardman,/service-areas/boardman-oh/water-damage-restoration/,no
+emergency water damage restoration Boardman OH,transactional,,,,3,water damage restoration,Boardman,/service-areas/boardman-oh/water-damage-restoration/,no
+water damage restoration Austintown OH,transactional,,,,3,water damage restoration,Austintown,/service-areas/austintown-oh/water-damage-restoration/,no
+water damage restoration in Austintown OH,transactional,,,,3,water damage restoration,Austintown,/service-areas/austintown-oh/water-damage-restoration/,no
+emergency water damage restoration Austintown OH,transactional,,,,3,water damage restoration,Austintown,/service-areas/austintown-oh/water-damage-restoration/,no
+water damage restoration Niles OH,transactional,,,,3,water damage restoration,Niles,/service-areas/niles-oh/water-damage-restoration/,no
+water damage restoration Canfield OH,transactional,,,,3,water damage restoration,Canfield,/service-areas/canfield-oh/water-damage-restoration/,no
+water damage restoration Hubbard OH,transactional,,,,3,water damage restoration,Hubbard,/service-areas/hubbard-oh/water-damage-restoration/,no
+water damage restoration Girard OH,transactional,,,,3,water damage restoration,Girard,/service-areas/girard-oh/water-damage-restoration/,no
+water damage restoration Struthers OH,transactional,,,,3,water damage restoration,Struthers,/service-areas/struthers-oh/water-damage-restoration/,no
+best water damage restoration near me,commercial,320,25,48.89,1,water damage restoration,,,yes
+water damage restoration cost calculator,commercial,170,0,7.8,1,water damage restoration,,,yes
+water damage restoration cost per square foot,commercial,70,3,28.17,1,water damage restoration,,,no
+how long does water damage restoration take,informational,50,3,10.32,1,water damage restoration,,,yes
+what is the difference between water mitigation and water restoration,informational,,,,1,water damage restoration,,,yes
+does insurance cover temporary housing during water damage restoration,informational,,,,1,water damage restoration,,,yes
+what does a water damage restoration company do,informational,10,,,2,water damage restoration,,,no
+how long to dry out a flooded house,informational,10,,,2,water damage restoration,,,no
+will insurance pay for mold after water damage,informational,,,,2,water damage restoration,,,no
+does homeowners insurance cover water damage restoration,informational,,,,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no
+what to do immediately after water damage in your home,informational,,,,3,water damage restoration,,/blog/what-to-do-first-24-hours-water-damage/,no
+how do i choose a water damage restoration company,informational,,,,3,water damage restoration,,/blog/choosing-a-restoration-company/,no

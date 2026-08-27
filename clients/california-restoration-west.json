@@ -13,7 +13,7 @@
     "url_count": 79,
     "generated_at": "2026-08-26T01:45:01.950245+00:00"
   },
-  "updated_at": "2026-08-26T14:06:49.536397+00:00",
+  "updated_at": "2026-08-26T22:49:01Z",
   "indexnow_key": "083b7bb2c77745718e103e96051292a9",
   "build": {
     "scaffolded_at": "2026-08-26T01:45:16.022751+00:00",
@@ -33,5 +33,14 @@
     "backlinked_count": 1,
     "redirects_added": 7,
     "mapped_at": "2026-08-26T06:46:49+00:00"
+  },
+  "audit": {
+    "last_audit_at": "2026-08-26T22:49:01Z",
+    "last_audit_verdict": "red",
+    "last_audit_report_path": "audit-runs/2026-08-26-onsite-audit.md",
+    "last_audit_origin": "https://staging.rankai-california-restoration-west.pages.dev",
+    "last_audit_origin_source": "staging",
+    "last_audit_form_factor": "desktop",
+    "last_audit_seo_inconclusive": true
   }
 }

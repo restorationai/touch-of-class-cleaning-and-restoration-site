@@ -13,7 +13,7 @@
     "url_count": 136,
     "generated_at": "2026-08-10T02:39:11.952103+00:00"
   },
-  "updated_at": "2026-08-19T03:11:32.438161+00:00",
+  "updated_at": "2026-08-26T23:49:37Z",
   "indexnow_key": "899685c92b08481ebe32ce5b9e39fe67",
   "build": {
     "scaffolded_at": "2026-08-08T18:59:41.259271+00:00",
@@ -24,11 +24,19 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-08-08T19:26:17.402652+00:00",
     "last_pushed_staging_at": "2026-08-19T03:11:32.438130+00:00",
-    "last_pushed_main_at": "2026-08-19T03:10:48.854303+00:00"
+    "last_pushed_main_at": "2026-08-26T23:39:04.697494+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "gbp": {
     "place_id": "ChIJBQyutfy53IARKDqQsaEwmyQ",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJBQyutfy53IARKDqQsaEwmyQ"
+  },
+  "audit": {
+    "last_audit_at": "2026-08-26T23:49:37Z",
+    "last_audit_verdict": "red",
+    "last_audit_report_path": "audit-runs/2026-08-26-onsite-audit.md",
+    "last_audit_origin_source": "staging",
+    "last_audit_form_factor": "desktop",
+    "last_audit_blocker": "canonical/og:url/schema url render as https://None because client.domain is null; present on production build too"
   }
 }

@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+home addition contractor,transactional,27100,0,10.35,1,home addition contractor,,,no
+contractors for home additions,transactional,27100,0,12.16,1,home addition contractor,,,no
+garage conversion contractor,transactional,14800,0,,1,home addition contractor,,,no
+contractor for finishing basement,transactional,5400,0,17.19,1,home addition contractor,,,no
+home addition contractors near me,transactional,4400,0,13.29,1,home addition contractor,,,no
+contractor for screened in porch,transactional,4400,0,,1,home addition contractor,,,no
+second story addition contractor,transactional,3600,0,6.06,1,home addition contractor,,,no
+home additions near me,transactional,2900,0,13.01,1,home addition contractor,,,no
+contractors for home additions near me,transactional,320,3,16.05,1,home addition contractor,,,no
+second story addition contractors near me,transactional,40,0,,2,home addition contractor,,,no
+home additions Huntsville AL,transactional,10,,1.38,2,home addition contractor,Huntsville,,no
+home addition contractor Madison AL,transactional,,,,2,home addition contractor,Madison,,no
+home addition contractors in Huntsville,transactional,,,,2,home addition contractor,Huntsville,,no
+Huntsville home addition contractor,transactional,,,,2,home addition contractor,Huntsville,,no
+home addition contractor near Madison,transactional,,,,2,home addition contractor,Madison,,no
+home addition contractor Athens AL,transactional,,,,2,home addition contractor,Athens,,no
+home additions Madison AL,transactional,,,,2,home addition contractor,Madison,,no
+room addition contractor Huntsville AL,transactional,,,,2,home addition contractor,Huntsville,,no
+second story addition contractor Huntsville AL,transactional,,,,2,home addition contractor,Huntsville,,no
+garage conversion contractor Huntsville AL,transactional,,,,2,home addition contractor,Huntsville,,no
+basement finishing contractor Madison AL,transactional,,,,2,home addition contractor,Madison,,no
+sunroom addition contractor Athens AL,transactional,,,,2,home addition contractor,Athens,,no
+home addition cost calculator,commercial,4400,0,,1,home addition contractor,,,no
+home addition cost,commercial,3600,0,8.02,1,home addition contractor,,,no
+home addition cost per square foot,commercial,1000,2,9.83,1,home addition contractor,,,no
+20x20 room addition cost,commercial,880,0,4.89,1,home addition contractor,,,yes
+400 sq ft master suite addition cost,commercial,720,0,7.18,1,home addition contractor,,,yes
+best home addition contractors near me,commercial,140,0,17.75,1,home addition contractor,,,no
+500 sq ft addition cost,commercial,110,3,8.26,1,home addition contractor,,,no
+best contractor for home addition,commercial,10,15,23.01,2,home addition contractor,,,no
+home addition ideas,informational,1300,5,3.94,1,home addition contractor,,,yes
+cheapest way to add addition to house,informational,260,7,7.41,1,home addition contractor,,,yes
+room addition ideas for small homes,informational,210,1,3.6,1,home addition contractor,,,no
+small home addition ideas,informational,140,8,0.13,1,home addition contractor,,,no
+hiring a contractor checklist,informational,90,6,3.79,1,home addition contractor,,,no
+what questions to ask a home addition contractor,informational,,,,1,home addition contractor,,,no
+does a home addition need an architect,informational,,,,1,home addition contractor,,,no
+can you live in your house during a home addition,informational,,,,1,home addition contractor,,,yes
+how do you pay a contractor for a home addition,informational,,,,1,home addition contractor,,,no
+how to find a contractor for home addition,informational,10,12,17.44,2,home addition contractor,,,no

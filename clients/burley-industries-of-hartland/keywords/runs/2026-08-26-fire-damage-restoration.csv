@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+fire damage restoration,transactional,110000,13,21.98,2,fire damage restoration,,,no
+fire damage restoration services,transactional,110000,16,21.98,2,fire damage restoration,,,no
+fire damage restoration near me,transactional,18100,9,,2,fire damage restoration,,,no
+fire damage restoration service near me,transactional,2900,5,53.36,2,fire damage restoration,,,no
+fire damage restoration company,transactional,2900,29,,2,fire damage restoration,,,no
+fire damage restoration companies,transactional,2900,2,16.18,2,fire damage restoration,,,no
+fire and water damage restoration,transactional,1300,28,31.29,2,fire damage restoration,,,no
+smoke damage restoration,transactional,1300,20,25.01,2,smoke damage restoration,,,no
+smoke damage restoration near me,transactional,1300,8,,2,smoke damage restoration,,,no
+smoke damage cleaning,transactional,720,19,49.46,2,smoke damage restoration,,,no
+fire and smoke damage restoration,transactional,590,12,40.3,2,fire damage restoration,,,no
+fire and smoke damage cleanup,transactional,590,6,55.43,2,smoke damage restoration,,,no
+fire damage restoration contractors,transactional,590,5,30.76,2,fire damage restoration,,,no
+fire damage restoration companies near me,transactional,390,4,9.39,2,fire damage restoration,,,no
+smoke damage cleanup near me,transactional,320,5,,2,smoke damage restoration,,,no
+smoke damage repair,transactional,320,1,69.02,2,smoke damage restoration,,,no
+smoke damage restoration companies,transactional,210,6,69.8,2,smoke damage restoration,,,no
+fire damage restoration services near me,transactional,210,0,,2,fire damage restoration,,,no
+commercial fire damage restoration,transactional,170,0,,2,fire damage restoration,,,no
+fire clean up services near me,transactional,170,13,,2,fire damage restoration,,,no
+smoke damage repair near me,transactional,110,8,,2,smoke damage restoration,,,no
+residential fire damage restoration,transactional,70,11,5.17,2,fire damage restoration,,,no
+house fire damage restoration,transactional,40,9,,2,fire damage restoration,,,no
+smoke damage cleaning services near me,transactional,30,5,,2,smoke damage restoration,,,no
+fire damage restoration cost,commercial,260,0,2.68,2,fire damage restoration,,,no
+fire damage restoration costs,commercial,260,12,2.68,2,fire damage restoration,,,no
+fire damage restoration rates,commercial,260,8,2.68,2,fire damage restoration,,,no
+fire restoration cost per square foot,commercial,40,1,1.65,2,fire damage restoration,,,no
+house fire debris removal cost,commercial,40,0,24.93,2,fire damage restoration,,,no
+what to do after a house fire,informational,260,0,3.01,2,what to do after a house fire,,,no
+fire damage insurance claim,informational,210,4,8.33,2,fire damage insurance claim,,,no
+what to throw away after smoke damage,informational,210,0,,2,smoke damage restoration,,,no
+how to clean smoke damage on walls and ceiling,informational,170,0,4.06,2,smoke damage restoration,,,no
+what to do after a house fire checklist,informational,110,8,,2,what to do after a house fire,,,no
+smoke damage insurance claim,informational,110,0,,2,fire damage insurance claim,,,no
+what happens after a house fire,informational,90,11,,2,what to do after a house fire,,,no
+what to do after a house fire with no insurance,informational,70,4,,2,fire damage insurance claim,,,no
+fire damage restoration process,informational,50,14,,2,fire damage restoration,,,no
+rebuilding after a house fire,informational,50,0,13.04,2,what to do after a house fire,,,no
+how to clean after a house fire,informational,30,16,28.81,2,what to do after a house fire,,,no

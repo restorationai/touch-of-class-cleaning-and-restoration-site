@@ -701,7 +701,7 @@
     },
     {
       "id": "2026-07-23-how-long-does-a-home-remodel-take",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-23T17:18:06Z",
       "written_at": "2026-08-26T22:58:34Z",
       "post_url": "https://davisconstructioncontractors.com/blog/how-long-does-a-home-remodel-take/",
@@ -732,7 +732,8 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Break the timeline into phases (design and permits, demo, rough-in, finishes). Give ranges by project type. Note that HOA architectural review in newer Madison and Hampton Cove subdivisions can add lead time."
+      "notes": "Break the timeline into phases (design and permits, demo, rough-in, finishes). Give ranges by project type. Note that HOA architectural review in newer Madison and Hampton Cove subdivisions can add lead time.",
+      "published_verified_at": "2026-08-26T23:00:16Z"
     },
     {
       "id": "2026-07-23-remodeling-contractor-vs-general-contractor",
