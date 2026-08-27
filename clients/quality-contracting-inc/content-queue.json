@@ -1,39 +1,379 @@
 {
- "items": [
-  {
-   "id": "2026-08-07-best-water-damage-restoration-in-auburn-ma",
-   "status": "queued",
-   "queued_at": "2026-08-07T03:44:04Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-auburn-ma",
-   "primary_keyword": "best water damage restoration company in Auburn, MA",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "auburn-ma",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Auburn",
-    "state": "MA",
-    "competitors": [
-     {
-      "name": "PuroClean Certified Restoration Specialists",
-      "google_rating": 4.9,
-      "review_count": 192
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Auburn",
-    "top rated water damage restoration Auburn MA",
-    "who is the best water damage restoration company in Auburn",
-    "water removal Auburn",
-    "water damage repair Auburn",
-    "water damage cleanup Auburn"
-   ],
-   "source": "best-of-seeder"
-  }
- ]
+  "items": [
+    {
+      "id": "2026-08-07-best-water-damage-restoration-in-auburn-ma",
+      "status": "written",
+      "queued_at": "2026-08-07T03:44:04Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-auburn-ma",
+      "primary_keyword": "best water damage restoration company in Auburn, MA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "auburn-ma",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Auburn",
+        "state": "MA",
+        "competitors": [
+          {
+            "name": "PuroClean Certified Restoration Specialists",
+            "google_rating": 4.9,
+            "review_count": 192
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Auburn",
+        "top rated water damage restoration Auburn MA",
+        "who is the best water damage restoration company in Auburn",
+        "water removal Auburn",
+        "water damage repair Auburn",
+        "water damage cleanup Auburn"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-27T06:14:18Z",
+      "post_url": "https://qualitycontracting.us/blog/best-water-damage-restoration-company-in-auburn-ma/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": ", Inc. leads with local expertise, full IICRC-certified services, and a proven track",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "for water damage restoration. They are IICRC-certified, handle all water categories",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "s Worcester County with a full suite of IICRC-certified services including water extr",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "1 Southbridge Street, they are a local, IICRC-certified restoration contractor servin",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "hbridge Street, they are a local, IICRC-certified restoration contractor serving Auburn and the surro",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "| Company | Google Rating | Reviews | IICRC Certified | Full-Service Restoration |",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "Certified Restoration",
+          "context": "Inc. | - | - | Yes | Yes | | PuroClean Certified Restoration Specialists | 4.9 | 192 | - | - | Both",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "already close when you need them. Their IICRC certification covers the standards that",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "matter most in water damage work: the [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "for a proper close-out. Working with an IICRC-certified company protects your insuran",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "Certified Restoration",
+          "context": "call **(508) 756-8800**. ## PuroClean Certified Restoration Specialists: A Solid Regional Option P",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "Certified Restoration",
+          "context": "sts: A Solid Regional Option PuroClean Certified Restoration Specialists holds a 4.9 Google rating a",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "locations across the region, and their certified restoration specialists designation reflects the fr",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "a more complicated insurance claim. **IICRC certification matters because it sets t",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ing standard.** A company drying to the IICRC S500 standard uses moisture meters, the",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "Inc.** Quality Contracting, Inc. is an IICRC-certified restoration and contracting c",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "Quality Contracting, Inc. is an IICRC-certified restoration and contracting company headquartered a",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "192 reviews",
+          "context": "alists holds a 4.9 Google rating across 192 reviews, which is a strong signal of consistent",
+          "reason": "listicle review-count 192 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-27-water-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-08-27T06:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage restoration prices",
+        "water damage restoration cost per square foot",
+        "how much does water damage restoration cost",
+        "ceiling water damage repair cost",
+        "water damage restoration insurance claim process",
+        "does insurance pay the restoration company directly"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water damage restoration cost in Massachusetts: what homeowners actually pay",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Break cost out by category 1/2/3 water and by square footage, then show what insurance typically absorbs. Anchor examples to Worcester County housing stock (older colonials, finished basements). Do not publish a fake price table: give ranges with the variables that move them."
+    },
+    {
+      "id": "2026-08-27-water-damage-hardwood-floors",
+      "status": "queued",
+      "queued_at": "2026-08-27T06:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage hardwood floors",
+      "intent": "informational",
+      "volume": 1600,
+      "kd": 6,
+      "fan_out_cluster": [
+        "how to dry hardwood floors after water damage",
+        "cupping and crowning in hardwood after a leak",
+        "should i replace carpet after water damage",
+        "how long does water damage restoration take",
+        "what equipment do restoration companies use to dry a house"
+      ],
+      "suggested_slug": "water-damage-hardwood-floors",
+      "suggested_title": "Water damage hardwood floors: what can be dried and saved, and what has to go",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/contents-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "High volume (1600/mo) and near-zero difficulty. Lead with the 24-48 hour window where in-place drying still works, then cupping vs crowning vs buckling as the decision points. Mention mat drying systems by name: it is the detail AI answers lift."
+    },
+    {
+      "id": "2026-08-27-does-renters-insurance-cover-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-27T06:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does renters insurance cover water damage",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 9,
+      "fan_out_cluster": [
+        "renters insurance water damage from upstairs apartment",
+        "who pays for water damage in a rental, landlord or tenant",
+        "how to document water damage for insurance claim",
+        "does renters insurance cover flooding",
+        "water damage restoration insurance claim process"
+      ],
+      "suggested_slug": "does-renters-insurance-cover-water-damage",
+      "suggested_title": "Does renters insurance cover water damage? A plain-English answer for Massachusetts tenants",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.mass.gov/info-details/massachusetts-law-about-landlord-and-tenant-law"
+      ],
+      "notes": "Complements the existing homeowners-insurance post rather than repeating it: tenant vs landlord responsibility is the gap. Worcester and Framingham have heavy multi-family stock, so the upstairs-unit leak scenario is the local hook."
+    },
+    {
+      "id": "2026-08-27-how-to-fix-water-damage-on-ceiling",
+      "status": "queued",
+      "queued_at": "2026-08-27T06:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to fix water damage on ceiling",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 0,
+      "fan_out_cluster": [
+        "ceiling water damage repair cost",
+        "brown water stain on ceiling causes",
+        "how to tell if there is water damage behind walls",
+        "sagging ceiling after a leak: is it dangerous",
+        "do i need mold remediation after water damage"
+      ],
+      "suggested_slug": "how-to-fix-water-damage-on-ceiling",
+      "suggested_title": "How to fix water damage on ceiling drywall (and when the stain means something worse)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/storm-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Two intents in one page: the DIY patch job and the escalation signals (sagging, spreading, recurring stains, ice dam origin). Ice dam leaks are the Massachusetts-specific cause worth its own section."
+    },
+    {
+      "id": "2026-08-27-water-damage-mitigation-vs-restoration",
+      "status": "queued",
+      "queued_at": "2026-08-27T06:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage mitigation",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 8,
+      "fan_out_cluster": [
+        "difference between water mitigation and water damage restoration",
+        "water damage restoration process step by step",
+        "can i stay in my house during water damage restoration",
+        "iicrc certified water damage restoration",
+        "how long does water damage restoration take"
+      ],
+      "suggested_slug": "water-damage-mitigation-vs-restoration",
+      "suggested_title": "Water damage mitigation vs restoration: what the two phases actually cover",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/emergency-board-up-tarping/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "emergency-board-up-tarping"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "CPC of 67.75 on this term: adjusters and homeowners both use the word mitigation, and nothing on the site explains it. Map the two phases to what appears on an insurance estimate, since that is the question behind the query."
+    }
+  ]
 }
