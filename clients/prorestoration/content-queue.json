@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-08-07-best-water-damage-restoration-in-bakersfield-ca",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-07T03:43:43Z",
       "priority": 1,
       "prioritized": true,
@@ -88,7 +88,8 @@
           "context": "d carries a 4.9-star Google rating with 18 reviews. The lower review count makes the avera",
           "reason": "listicle review-count 18 (competitor stat \u2014 verify it is not presented as ours)"
         }
-      ]
+      ],
+      "published_verified_at": "2026-08-27T05:28:17Z"
     },
     {
       "id": "2026-08-09-mold-remediation-cost",

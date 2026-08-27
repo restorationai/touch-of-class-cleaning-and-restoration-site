@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-08-07-best-mold-remediation-in-las-vegas-nv",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-07T03:43:51Z",
       "priority": 1,
       "prioritized": true,
@@ -241,7 +241,8 @@
           "context": "ing but should be weighted accordingly, 25 reviews is a thin dataset. Vortex Restoration i",
           "reason": "listicle review-count 25 (competitor stat \u2014 verify it is not presented as ours)"
         }
-      ]
+      ],
+      "published_verified_at": "2026-08-27T05:49:32Z"
     },
     {
       "id": "2026-08-09-mold-remediation-cost",

@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "slug": "quality-contracting-inc",
+  "site": "staging.rankai-quality-contracting-inc.pages.dev",
+  "live_origin": "https://staging.rankai-quality-contracting-inc.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-08-27T06:27:43Z",
+  "environment_caveats": [
+    "Audited the Cloudflare Pages staging preview, not the apex. clients/quality-contracting-inc.json has no apex_cutover.completed_at, and https://qualitycontracting.us/ still serves the client's old WordPress site (Kinsta origin, title 'Home - Quality Contracting, Inc.', /92370eb0990e4d9a832d8b93a4bd94ef.txt returns 404).",
+    "GET https://staging.rankai-quality-contracting-inc.pages.dev/ returns x-robots-tag: noindex, injected automatically by Cloudflare Pages on *.pages.dev. The Lighthouse is-crawlable audit fails on all 6 URLs as a result and deflates the SEO category to 69. SEO is inconclusive this run and was excluded from every verdict. Verdicts were computed from performance, accessibility and best_practices only.",
+    "Canonical tags on all 6 pages point to https://qualitycontracting.us/... rather than the staging URL, so the DataForSEO 'canonical' self-reference check reports false on all 6. That is correct behaviour for a staging preview and is not recorded as an issue.",
+    "Lighthouse 13.4.0 ran desktop only (formFactor desktop, cpuSlowdownMultiplier 1, throughputKbps 10240). Mobile scores would typically run 10-20 performance points lower, and the homepage CLS finding would very likely be worse on mobile.",
+    "clients/quality-contracting-inc.json has status 'onboarding' rather than 'active'. The audit proceeded because build_status is 'pushed_main' and the staging origin serves 200 on all 6 URLs. This matches prior practice on prorestoration (status 'pending') and mcc-restoration."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/",
+      "archetype": "home",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 94,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 788,
+        "CLS": 0.1473,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "cumulative-layout-shift",
+          "title": "Cumulative Layout Shift 0.147 (above the 0.1 good threshold)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "layout-shifts",
+          "title": "Avoid large layout shifts: hero copy block shifts when the Inter web font swaps in",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "cls-culprits-insight",
+          "title": "Layout shift culprits: web font load on header.relative > div.container-wide",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery: oversized hero and thumbnail images",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 41813
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests: /_astro/_slug_.CzmCq3fu.css blocks first paint",
+          "severity": "low",
+          "estimated_savings_ms": 55,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree: no origins preconnected (Lighthouse reports no good preconnect candidates)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 798,
+        "CLS": 0.0036,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable: tel: link at 1.14:1 against surrounding text",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery: oversized hero and thumbnail images",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 151231
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: hero image is missing fetchpriority=\"high\"",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests: /_astro/_slug_.CzmCq3fu.css blocks first paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree: no origins preconnected (Lighthouse reports no good preconnect candidates)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation errors reported by DataForSEO (isolated to the FAQPage node; markup is structurally valid against Google's FAQPage spec)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 784,
+        "CLS": 0.0331,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: hero image is missing fetchpriority=\"high\"",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests: /_astro/_slug_.CzmCq3fu.css blocks first paint",
+          "severity": "low",
+          "estimated_savings_ms": 56,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree: no origins preconnected (Lighthouse reports no good preconnect candidates)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation errors reported by DataForSEO (isolated to the FAQPage node; markup is structurally valid against Google's FAQPage spec)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 825,
+        "CLS": 0.0331,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: hero image is missing fetchpriority=\"high\"",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests: /_astro/_slug_.CzmCq3fu.css blocks first paint",
+          "severity": "low",
+          "estimated_savings_ms": 57,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree: no origins preconnected (Lighthouse reports no good preconnect candidates)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation errors reported by DataForSEO (isolated to the FAQPage node; markup is structurally valid against Google's FAQPage spec)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/worcester-ma/",
+      "archetype": "service-area",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 763,
+        "CLS": 0.005,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Insufficient contrast: span.text-slate-400 (#94a3b8 on #ffffff, 14px) measures 2.56:1",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery: oversized hero and thumbnail images",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 61809
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: hero image is missing fetchpriority=\"high\"",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests: /_astro/_slug_.CzmCq3fu.css blocks first paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree: no origins preconnected (Lighthouse reports no good preconnect candidates)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation errors reported by DataForSEO (isolated to the FAQPage node; markup is structurally valid against Google's FAQPage spec)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 753,
+        "CLS": 0.012,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery: oversized hero and thumbnail images",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 130108
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: hero image is missing fetchpriority=\"high\"",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests: /_astro/_slug_.CzmCq3fu.css blocks first paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree: no origins preconnected (Lighthouse reports no good preconnect candidates)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation errors reported by DataForSEO (isolated to the FAQPage node; markup is structurally valid against Google's FAQPage spec)",
+          "severity": "medium"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 98.8,
+      "accessibility": 98.7,
+      "best_practices": 100.0,
+      "seo": 69.0
+    },
+    "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 1,
+      "amber": 5,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex, not a site defect)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests: /_astro/_slug_.CzmCq3fu.css plus a duplicate blocking Google Fonts stylesheet",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree: no origins preconnected",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "Structured data validation errors on every page carrying a FAQPage node",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "Inner-page hero image is missing fetchpriority=\"high\"",
+        "affected_urls": 5,
+        "severity": "low"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Oversized images: /brand/hero.webp shipped at full 178KB into every inner-page hero slot",
+        "affected_urls": 4,
+        "severity": "medium"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "accessibility 96 (tel: link contrast 1.14:1 against surrounding text), 151KB of avoidable image weight, FAQPage schema validation errors"
+      },
+      {
+        "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "FAQPage schema validation errors; hero missing fetchpriority=\"high\""
+      },
+      {
+        "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/fire-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "FAQPage schema validation errors; hero missing fetchpriority=\"high\"; performance 99"
+      },
+      {
+        "url": "https://staging.rankai-quality-contracting-inc.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "amber",
+        "main_issue": "130KB of avoidable hero image weight, FAQPage schema validation errors"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": []
+  },
+  "run_cost_usd": 0.03315
+}

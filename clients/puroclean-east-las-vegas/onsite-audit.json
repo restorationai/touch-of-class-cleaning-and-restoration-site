@@ -1,0 +1,1012 @@
+{
+  "schema_version": 1,
+  "slug": "puroclean-east-las-vegas",
+  "site": "purocleaneastlasvegas.com",
+  "live_origin": "https://purocleaneastlasvegas.com",
+  "live_origin_source": "apex",
+  "generated_at": "2026-08-27T06:05:00Z",
+  "audit_form_factor": "desktop",
+  "supplementary_form_factors": [
+    "mobile"
+  ],
+  "lighthouse_version": "13.4.0",
+  "environment_caveats": [
+    "Audited the apex production origin (https://purocleaneastlasvegas.com). GET / returns 200 with no x-robots-tag, so the staging noindex correction in Step 4 does not apply and SEO counts toward the verdict.",
+    "Canonical scoring is DESKTOP (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240), recorded in audit_form_factor. This run reached the DataForSEO REST endpoint directly rather than through the MCP on_page_lighthouse wrapper, and the REST path DOES expose for_mobile. A full mobile pass was therefore captured for all 6 URLs and stored per-URL under .mobile and in site_rollup.avg_scores_mobile. Desktop remains canonical for month-over-month comparability.",
+    "DataForSEO check has_micromarkup_errors=true on 5 of 6 URLs was validated against the on_page/microdata endpoint (task 08270555-1761-0216-0000-10df5c00b265). The messages are: FAQPage Question missing 'text' and 'answerCount', and BreadcrumbList trailing ListItem missing 'item'. Both are OPTIONAL under Google's structured-data requirements (Question.name + acceptedAnswer.text are present and sufficient; Google explicitly allows the final breadcrumb to omit 'item'). Recorded as low severity, not medium, because they do not threaten rich-result eligibility. Deliberately not allowed to flip 4 money pages to amber on a false premise.",
+    "One genuine schema defect WAS found by manual JSON-LD inspection: Organization.foundingDate and LocalBusiness.foundingDate are emitted as empty strings (\"\") on every page. There is no DataForSEO or Lighthouse check ID for this, so per the hard rule against inventing issue IDs it is not recorded in onpage_issues[]; it is carried in the report recommendations instead.",
+    "DataForSEO checks is_https, canonical, has_html_doctype, has_micromarkup and seo_friendly_url* are TRUE as passes, not defects, and are not recorded as issues. no_image_title is also excluded: the title attribute on <img> is not an SEO requirement and alt coverage is 100% on every audited page (Lighthouse image-alt passes everywhere).",
+    "INP is null on every URL: interaction-to-next-paint is a field metric and is not produced by a Lighthouse lab run.",
+    "The /tmp scratch directory was shared with an earlier prorestoration audit run. Nine leftover prorestoration response files were identified by finalUrl and quarantined before extraction; every file used in this audit was verified to resolve to purocleaneastlasvegas.com.",
+    "clients/puroclean-east-las-vegas.json has status=\"live\", not \"active\". build_status=pushed_main and the apex origin serves 200, so the audit proceeded."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://purocleaneastlasvegas.com/",
+      "archetype": "home",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 848,
+        "CLS": 0.0036,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 95\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 0\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "0.8\u00a0s",
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet in <head>",
+          "severity": "low"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML ratio",
+          "severity": "low"
+        }
+      ],
+      "mobile": {
+        "verdict": "green",
+        "scores": {
+          "performance": 97,
+          "accessibility": 100,
+          "best_practices": 100,
+          "seo": 100
+        },
+        "core_web_vitals": {
+          "LCP_ms": 2648,
+          "CLS": 0.0334,
+          "TBT_ms": 2,
+          "INP_ms": null
+        },
+        "lighthouse_issues": [
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 70\u00a0KiB",
+            "category": "performance"
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render-blocking requests",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "cache-insight",
+            "title": "Use efficient cache lifetimes",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 0\u00a0KiB",
+            "category": "performance"
+          },
+          {
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "2.6\u00a0s",
+            "category": "performance"
+          }
+        ]
+      },
+      "onpage_meta": {
+        "status_code": 200,
+        "onpage_score": 100,
+        "title_length": 49,
+        "description_length": 143,
+        "canonical": "https://purocleaneastlasvegas.com/",
+        "h1_count": 1,
+        "word_count": 1610,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      }
+    },
+    {
+      "url": "https://purocleaneastlasvegas.com/services/",
+      "archetype": "services-hub",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 809,
+        "CLS": 0.002,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 145\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
+          "severity": "low"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet in <head>",
+          "severity": "low"
+        }
+      ],
+      "mobile": {
+        "verdict": "green",
+        "scores": {
+          "performance": 97,
+          "accessibility": 95,
+          "best_practices": 100,
+          "seo": 100
+        },
+        "core_web_vitals": {
+          "LCP_ms": 2678,
+          "CLS": 0.0344,
+          "TBT_ms": 0,
+          "INP_ms": null
+        },
+        "lighthouse_issues": [
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "severity": "high",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "accessibility"
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 156\u00a0KiB",
+            "category": "performance"
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render-blocking requests",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 140\u00a0ms",
+            "category": "performance"
+          }
+        ]
+      },
+      "onpage_meta": {
+        "status_code": 200,
+        "onpage_score": 100,
+        "title_length": 63,
+        "description_length": 141,
+        "canonical": "https://purocleaneastlasvegas.com/services/",
+        "h1_count": 1,
+        "word_count": 824,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      }
+    },
+    {
+      "url": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 785,
+        "CLS": 0.0029,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 110\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
+          "severity": "low"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet in <head>",
+          "severity": "low"
+        }
+      ],
+      "mobile": {
+        "verdict": "green",
+        "scores": {
+          "performance": 92,
+          "accessibility": 95,
+          "best_practices": 100,
+          "seo": 100
+        },
+        "core_web_vitals": {
+          "LCP_ms": 3377,
+          "CLS": 0.0229,
+          "TBT_ms": 0,
+          "INP_ms": null
+        },
+        "lighthouse_issues": [
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "severity": "high",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "accessibility"
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 154\u00a0KiB",
+            "category": "performance"
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render-blocking requests",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 160\u00a0ms",
+            "category": "performance"
+          }
+        ]
+      },
+      "onpage_meta": {
+        "status_code": 200,
+        "onpage_score": 100,
+        "title_length": 48,
+        "description_length": 106,
+        "canonical": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
+        "h1_count": 1,
+        "word_count": 1598,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      }
+    },
+    {
+      "url": "https://purocleaneastlasvegas.com/services/mold-remediation/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 759,
+        "CLS": 0.0061,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 47\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
+          "severity": "low"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet in <head>",
+          "severity": "low"
+        }
+      ],
+      "mobile": {
+        "verdict": "green",
+        "scores": {
+          "performance": 96,
+          "accessibility": 95,
+          "best_practices": 100,
+          "seo": 100
+        },
+        "core_web_vitals": {
+          "LCP_ms": 2800,
+          "CLS": 0.0017,
+          "TBT_ms": 0,
+          "INP_ms": null
+        },
+        "lighthouse_issues": [
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "severity": "high",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "accessibility"
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 87\u00a0KiB",
+            "category": "performance"
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render-blocking requests",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 140\u00a0ms",
+            "category": "performance"
+          }
+        ]
+      },
+      "onpage_meta": {
+        "status_code": 200,
+        "onpage_score": 100,
+        "title_length": 59,
+        "description_length": 99,
+        "canonical": "https://purocleaneastlasvegas.com/services/mold-remediation/",
+        "h1_count": 1,
+        "word_count": 1707,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      }
+    },
+    {
+      "url": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 603,
+        "CLS": 0.0041,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 92\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
+          "severity": "low"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet in <head>",
+          "severity": "low"
+        }
+      ],
+      "mobile": {
+        "verdict": "green",
+        "scores": {
+          "performance": 93,
+          "accessibility": 96,
+          "best_practices": 100,
+          "seo": 100
+        },
+        "core_web_vitals": {
+          "LCP_ms": 3201,
+          "CLS": 0.0017,
+          "TBT_ms": 0,
+          "INP_ms": null
+        },
+        "lighthouse_issues": [
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "severity": "high",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "accessibility"
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 133\u00a0KiB",
+            "category": "performance"
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render-blocking requests",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 140\u00a0ms",
+            "category": "performance"
+          }
+        ]
+      },
+      "onpage_meta": {
+        "status_code": 200,
+        "onpage_score": 100,
+        "title_length": 49,
+        "description_length": 112,
+        "canonical": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
+        "h1_count": 1,
+        "word_count": 1378,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      }
+    },
+    {
+      "url": "https://purocleaneastlasvegas.com/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 844,
+        "CLS": 0.039,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 167\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
+          "severity": "low"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet in <head>",
+          "severity": "low"
+        }
+      ],
+      "mobile": {
+        "verdict": "green",
+        "scores": {
+          "performance": 93,
+          "accessibility": 96,
+          "best_practices": 100,
+          "seo": 100
+        },
+        "core_web_vitals": {
+          "LCP_ms": 3242,
+          "CLS": 0.0183,
+          "TBT_ms": 0,
+          "INP_ms": null
+        },
+        "lighthouse_issues": [
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "severity": "high",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "accessibility"
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 144\u00a0KiB",
+            "category": "performance"
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render-blocking requests",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 150\u00a0ms",
+            "category": "performance"
+          }
+        ]
+      },
+      "onpage_meta": {
+        "status_code": 200,
+        "onpage_score": 100,
+        "title_length": 62,
+        "description_length": 122,
+        "canonical": "https://purocleaneastlasvegas.com/contact/",
+        "h1_count": 1,
+        "word_count": 656,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false
+      }
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.7,
+      "accessibility": 96.0,
+      "best_practices": 100.0,
+      "seo": 100.0
+    },
+    "avg_scores_mobile": {
+      "performance": 94.7,
+      "accessibility": 96.2,
+      "best_practices": 100.0,
+      "seo": 100.0
+    },
+    "verdict": "green",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 6,
+      "amber": 0,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "severity": "low",
+        "affected_urls": 6
+      },
+      {
+        "id": "has_render_blocking_resources",
+        "title": "Render-blocking stylesheet in <head>",
+        "severity": "low",
+        "affected_urls": 6
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "severity": "high",
+        "affected_urls": 5
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "severity": "medium",
+        "affected_urls": 5
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
+        "severity": "low",
+        "affected_urls": 5
+      }
+    ],
+    "money_page_alerts": []
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  }
+}

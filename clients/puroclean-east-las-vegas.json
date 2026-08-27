@@ -15,7 +15,7 @@
     "url_count": 74,
     "generated_at": "2026-07-23T06:14:51.581517+00:00"
   },
-  "updated_at": "2026-08-19T03:36:14.471659+00:00",
+  "updated_at": "2026-08-27T06:05:00Z",
   "build": {
     "scaffolded_at": "2026-07-23T06:15:02.233709+00:00",
     "github_repo": "restorationai/puroclean-east-las-vegas-site",
@@ -25,9 +25,9 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-07-23T06:31:03.636344+00:00",
     "last_pushed_staging_at": "2026-08-19T03:36:14.471611+00:00",
-    "last_pushed_main_at": "2026-08-19T03:35:15.709749+00:00"
+    "last_pushed_main_at": "2026-08-27T05:48:30.367113+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "indexnow_key": "4ee9211aefa640b59f8a664f6e3f49ff",
   "indexnow_key_history": [
     {
@@ -52,5 +52,10 @@
   "gbp": {
     "place_id": "ChIJWRNeaVbDyIAR429H1EKyxas",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJWRNeaVbDyIAR429H1EKyxas"
+  },
+  "audit": {
+    "last_audit_at": "2026-08-27T06:05:00Z",
+    "last_audit_verdict": "green",
+    "last_audit_report_path": "audit-runs/2026-08-27-onsite-audit.md"
   }
 }

@@ -1,304 +1,333 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-08-27-water-damage-restoration-cost-nv",
+   "status": "queued",
+   "queued_at": "2026-08-27T05:16:36Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "water-damage-restoration-cost-nv",
+   "primary_keyword": "water damage restoration cost NV",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "henderson-nv",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Henderson",
+    "state": "NV",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does water damage restoration cost in NV",
+    "water damage restoration price NV",
+    "average cost of water damage restoration NV",
+    "water damage cleanup NV",
+    "water cleanup NV",
+    "water removal NV"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-henderson-nv",
+   "status": "written",
+   "queued_at": "2026-08-07T03:43:28Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-henderson-nv",
+   "primary_keyword": "best water damage restoration company in Henderson, NV",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "henderson-nv",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Henderson",
+    "state": "NV",
+    "competitors": [
+     {
+      "name": "SERVPRO of Henderson/Boulder City",
+      "google_rating": 4.9,
+      "review_count": 364
+     },
+     {
+      "name": "Quality 1st Restorations",
+      "google_rating": 5,
+      "review_count": 10
+     },
+     {
+      "name": "Water Damage Professionals",
+      "google_rating": 5,
+      "review_count": 49
+     },
+     {
+      "name": "1-800 Water Damage of SE Las Vegas and Henderson",
+      "google_rating": 5,
+      "review_count": 7
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Henderson",
+    "top rated water damage restoration Henderson NV",
+    "who is the best water damage restoration company in Henderson",
+    "water damage cleanup Henderson",
+    "water cleanup Henderson",
+    "water damage repair Henderson"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-08-27T03:46:21Z",
+   "post_url": "https://None/blog/best-water-damage-restoration-company-in-henderson-nv/",
+   "claims_flags": [
     {
-      "id": "2026-08-07-best-water-damage-restoration-in-henderson-nv",
-      "status": "written",
-      "queued_at": "2026-08-07T03:43:28Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-water-damage-restoration-in-henderson-nv",
-      "primary_keyword": "best water damage restoration company in Henderson, NV",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "henderson-nv",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Henderson",
-        "state": "NV",
-        "competitors": [
-          {
-            "name": "SERVPRO of Henderson/Boulder City",
-            "google_rating": 4.9,
-            "review_count": 364
-          },
-          {
-            "name": "Quality 1st Restorations",
-            "google_rating": 5,
-            "review_count": 10
-          },
-          {
-            "name": "Water Damage Professionals",
-            "google_rating": 5,
-            "review_count": 49
-          },
-          {
-            "name": "1-800 Water Damage of SE Las Vegas and Henderson",
-            "google_rating": 5,
-            "review_count": 7
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best water damage restoration companies Henderson",
-        "top rated water damage restoration Henderson NV",
-        "who is the best water damage restoration company in Henderson",
-        "water damage cleanup Henderson",
-        "water cleanup Henderson",
-        "water damage repair Henderson"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-08-27T03:46:21Z",
-      "post_url": "https://None/blog/best-water-damage-restoration-company-in-henderson-nv/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "364 reviews",
-          "context": "der City **Google Rating:** 4.9 stars (364 reviews) | **24/7:** Unknown | **IICRC Certifie",
-          "reason": "listicle review-count 364 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "364 Google reviews",
-          "context": "ume reviewed company on this list, with 364 Google reviews at a 4.9-star average. That review dept",
-          "reason": "listicle review-count 364 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "49 reviews",
-          "context": "ssionals **Google Rating:** 5.0 stars (49 reviews) | **24/7:** Unknown | **IICRC Certifie",
-          "reason": "listicle review-count 49 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "49 reviews",
-          "context": "onals holds a perfect 5.0 rating across 49 reviews, which is a solid sample size for a sma",
-          "reason": "listicle review-count 49 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "10 reviews",
-          "context": "orations **Google Rating:** 5.0 stars (10 reviews) | **24/7:** Unknown | **IICRC Certifie",
-          "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "10 reviews",
-          "context": "Restorations has a perfect rating, but 10 reviews is a limited sample. That does not mean",
-          "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "7 reviews",
-          "context": "enderson **Google Rating:** 5.0 stars (7 reviews) | **24/7:** Unknown | **IICRC Certifie",
-          "reason": "listicle review-count 7 (competitor stat \u2014 verify it is not presented as ours)"
-        }
-      ]
+     "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "364 reviews",
+     "context": "der City **Google Rating:** 4.9 stars (364 reviews) | **24/7:** Unknown | **IICRC Certifie",
+     "reason": "listicle review-count 364 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-08-27-water-damage-restoration-cost",
-      "status": "queued",
-      "queued_at": "2026-08-27T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water damage restoration cost",
-      "intent": "commercial",
-      "volume": 880,
-      "kd": 3,
-      "fan_out_cluster": [
-        "how much does water damage restoration cost",
-        "water damage restoration cost per square foot",
-        "water damage restoration price sheet",
-        "water damage restoration cost las vegas",
-        "what affects water damage restoration pricing",
-        "does insurance pay the restoration bill directly"
-      ],
-      "suggested_slug": "water-damage-restoration-cost",
-      "suggested_title": "Water damage restoration cost: what Henderson homeowners actually pay in 2026",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Highest-value uncovered term this run: 880/mo, KD 3, CPC $14.73. No commercial URL targets pricing. Break cost out by category 1/2/3 water and by affected square footage, and give a Las Vegas Valley range rather than a national average. Pairs with the already-queued 'best water damage restoration company in Henderson, NV' item: link the two."
+     "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "364 Google reviews",
+     "context": "ume reviewed company on this list, with 364 Google reviews at a 4.9-star average. That review dept",
+     "reason": "listicle review-count 364 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-08-27-category-3-water-damage",
-      "status": "queued",
-      "queued_at": "2026-08-27T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "category 3 water damage",
-      "intent": "informational",
-      "volume": 390,
-      "kd": 0,
-      "fan_out_cluster": [
-        "category 1 vs category 2 vs category 3 water",
-        "what is black water damage",
-        "is category 3 water damage dangerous",
-        "does insurance cover category 3 water damage",
-        "how contractors classify water damage",
-        "sewage backup category 3"
-      ],
-      "suggested_slug": "category-3-water-damage",
-      "suggested_title": "Category 3 water damage: what black water means and why you cannot clean it yourself",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/sewage-cleanup/",
-        "/services/biohazard-cleanup/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "sewage-cleanup",
-        "biohazard-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.cdc.gov/healthywater/emergency/floodwater.html"
-      ],
-      "notes": "390/mo, KD 0. IICRC S500 category definitions are the authority spine here. This is the bridge topic into sewage-cleanup and biohazard-cleanup, both planned services with no editorial support yet. Cite the client's IICRC WRT and ASD certifications."
+     "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "49 reviews",
+     "context": "ssionals **Google Rating:** 5.0 stars (49 reviews) | **24/7:** Unknown | **IICRC Certifie",
+     "reason": "listicle review-count 49 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-08-27-document-water-damage-insurance-claim",
-      "status": "queued",
-      "queued_at": "2026-08-27T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how do i document water damage for an insurance claim",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "what photos does an adjuster need for water damage",
-        "how to write a water damage contents inventory",
-        "should i move anything before the adjuster arrives",
-        "what types of water damage are not covered by insurance",
-        "how long do i have to file a water damage claim",
-        "who talks to the adjuster, me or the restoration company"
-      ],
-      "suggested_slug": "document-water-damage-insurance-claim",
-      "suggested_title": "How do I document water damage for an insurance claim (a step-by-step homeowner guide)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/contents-restoration/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "contents-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iii.org/article/how-file-homeowners-claim",
-        "https://doi.nv.gov/Consumers/Homeowners/"
-      ],
-      "notes": "Surfaced by the ChatGPT decomposition, not by Google volume: no reliable US volume, which is exactly the AI-retrieval gap worth owning. Decision-stage, 24-48 hours before the homeowner hires anyone. The existing insurance blog answers 'is it covered' but nothing answers 'how do I prove it'. Link to Nevada DOI for the state-specific angle."
+     "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "49 reviews",
+     "context": "onals holds a perfect 5.0 rating across 49 reviews, which is a solid sample size for a sma",
+     "reason": "listicle review-count 49 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-08-27-how-quickly-water-damage-leads-to-mold",
-      "status": "queued",
-      "queued_at": "2026-08-27T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how quickly does water damage lead to mold",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "how long before mold grows after a leak",
-        "does dry desert air prevent mold",
-        "mold behind drywall after water damage",
-        "what humidity level stops mold growth",
-        "do i need mold testing after a water leak",
-        "how to prevent mold after water damage"
-      ],
-      "suggested_slug": "how-quickly-water-damage-leads-to-mold",
-      "suggested_title": "How quickly does water damage lead to mold? The 24 to 48 hour window explained",
-      "target_word_count": 1300,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/blog/signs-of-hidden-mold/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": "henderson-nv",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home",
-        "https://www.iicrc.org/page/IICRCS520"
-      ],
-      "notes": "ChatGPT-surfaced, uncovered by the three existing mold blogs (which cover signs, testing, and black mold, never the timeline). Henderson angle is the strong differentiator: homeowners assume the Mojave climate protects them, and trapped moisture behind drywall does not care about outdoor humidity. Use city_anchor henderson-nv for that section."
+     "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "10 reviews",
+     "context": "orations **Google Rating:** 5.0 stars (10 reviews) | **24/7:** Unknown | **IICRC Certifie",
+     "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-08-27-water-damage-restoration-process",
-      "status": "queued",
-      "queued_at": "2026-08-27T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water damage restoration process",
-      "intent": "informational",
-      "volume": 110,
-      "kd": 6,
-      "fan_out_cluster": [
-        "water damage restoration step by step",
-        "how long does the drying process take",
-        "what equipment do restoration companies use",
-        "what is a moisture map",
-        "when is a structure considered dry",
-        "what happens after the drying equipment comes out"
-      ],
-      "suggested_slug": "water-damage-restoration-process",
-      "suggested_title": "The water damage restoration process: what happens from the first call to final clearance",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/contents-restoration/",
-        "/blog/what-to-do-first-24-hours-water-damage/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "contents-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "110/mo, KD 6. Mirrors the existing /blog/fire-damage-restoration-process/ post, which proves the format works but leaves the highest-volume service without an equivalent. Cover extraction, dehumidification, moisture mapping, and clearance criteria. Cite IICRC ASD certification."
+     "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "10 reviews",
+     "context": "Restorations has a perfect rating, but 10 reviews is a limited sample. That does not mean",
+     "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+     "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "7 reviews",
+     "context": "enderson **Google Rating:** 5.0 stars (7 reviews) | **24/7:** Unknown | **IICRC Certifie",
+     "reason": "listicle review-count 7 (competitor stat \u2014 verify it is not presented as ours)"
     }
-  ]
+   ]
+  },
+  {
+   "id": "2026-08-27-water-damage-restoration-cost",
+   "status": "queued",
+   "queued_at": "2026-08-27T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water damage restoration cost",
+   "intent": "commercial",
+   "volume": 880,
+   "kd": 3,
+   "fan_out_cluster": [
+    "how much does water damage restoration cost",
+    "water damage restoration cost per square foot",
+    "water damage restoration price sheet",
+    "water damage restoration cost las vegas",
+    "what affects water damage restoration pricing",
+    "does insurance pay the restoration bill directly"
+   ],
+   "suggested_slug": "water-damage-restoration-cost",
+   "suggested_title": "Water damage restoration cost: what Henderson homeowners actually pay in 2026",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/service-areas/henderson-nv/water-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Highest-value uncovered term this run: 880/mo, KD 3, CPC $14.73. No commercial URL targets pricing. Break cost out by category 1/2/3 water and by affected square footage, and give a Las Vegas Valley range rather than a national average. Pairs with the already-queued 'best water damage restoration company in Henderson, NV' item: link the two."
+  },
+  {
+   "id": "2026-08-27-category-3-water-damage",
+   "status": "queued",
+   "queued_at": "2026-08-27T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "category 3 water damage",
+   "intent": "informational",
+   "volume": 390,
+   "kd": 0,
+   "fan_out_cluster": [
+    "category 1 vs category 2 vs category 3 water",
+    "what is black water damage",
+    "is category 3 water damage dangerous",
+    "does insurance cover category 3 water damage",
+    "how contractors classify water damage",
+    "sewage backup category 3"
+   ],
+   "suggested_slug": "category-3-water-damage",
+   "suggested_title": "Category 3 water damage: what black water means and why you cannot clean it yourself",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/biohazard-cleanup/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "biohazard-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.cdc.gov/healthywater/emergency/floodwater.html"
+   ],
+   "notes": "390/mo, KD 0. IICRC S500 category definitions are the authority spine here. This is the bridge topic into sewage-cleanup and biohazard-cleanup, both planned services with no editorial support yet. Cite the client's IICRC WRT and ASD certifications."
+  },
+  {
+   "id": "2026-08-27-document-water-damage-insurance-claim",
+   "status": "queued",
+   "queued_at": "2026-08-27T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how do i document water damage for an insurance claim",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "what photos does an adjuster need for water damage",
+    "how to write a water damage contents inventory",
+    "should i move anything before the adjuster arrives",
+    "what types of water damage are not covered by insurance",
+    "how long do i have to file a water damage claim",
+    "who talks to the adjuster, me or the restoration company"
+   ],
+   "suggested_slug": "document-water-damage-insurance-claim",
+   "suggested_title": "How do I document water damage for an insurance claim (a step-by-step homeowner guide)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/contents-restoration/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "contents-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iii.org/article/how-file-homeowners-claim",
+    "https://doi.nv.gov/Consumers/Homeowners/"
+   ],
+   "notes": "Surfaced by the ChatGPT decomposition, not by Google volume: no reliable US volume, which is exactly the AI-retrieval gap worth owning. Decision-stage, 24-48 hours before the homeowner hires anyone. The existing insurance blog answers 'is it covered' but nothing answers 'how do I prove it'. Link to Nevada DOI for the state-specific angle."
+  },
+  {
+   "id": "2026-08-27-how-quickly-water-damage-leads-to-mold",
+   "status": "queued",
+   "queued_at": "2026-08-27T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how quickly does water damage lead to mold",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "how long before mold grows after a leak",
+    "does dry desert air prevent mold",
+    "mold behind drywall after water damage",
+    "what humidity level stops mold growth",
+    "do i need mold testing after a water leak",
+    "how to prevent mold after water damage"
+   ],
+   "suggested_slug": "how-quickly-water-damage-leads-to-mold",
+   "suggested_title": "How quickly does water damage lead to mold? The 24 to 48 hour window explained",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/blog/signs-of-hidden-mold/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": "henderson-nv",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home",
+    "https://www.iicrc.org/page/IICRCS520"
+   ],
+   "notes": "ChatGPT-surfaced, uncovered by the three existing mold blogs (which cover signs, testing, and black mold, never the timeline). Henderson angle is the strong differentiator: homeowners assume the Mojave climate protects them, and trapped moisture behind drywall does not care about outdoor humidity. Use city_anchor henderson-nv for that section."
+  },
+  {
+   "id": "2026-08-27-water-damage-restoration-process",
+   "status": "queued",
+   "queued_at": "2026-08-27T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water damage restoration process",
+   "intent": "informational",
+   "volume": 110,
+   "kd": 6,
+   "fan_out_cluster": [
+    "water damage restoration step by step",
+    "how long does the drying process take",
+    "what equipment do restoration companies use",
+    "what is a moisture map",
+    "when is a structure considered dry",
+    "what happens after the drying equipment comes out"
+   ],
+   "suggested_slug": "water-damage-restoration-process",
+   "suggested_title": "The water damage restoration process: what happens from the first call to final clearance",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/contents-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "contents-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "110/mo, KD 6. Mirrors the existing /blog/fire-damage-restoration-process/ post, which proves the format works but leaves the highest-volume service without an equivalent. Cover extraction, dehumidification, moisture mapping, and clearance criteria. Cite IICRC ASD certification."
+  }
+ ]
 }

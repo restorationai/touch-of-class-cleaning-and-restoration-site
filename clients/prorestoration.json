@@ -22,7 +22,7 @@
   },
   "status": "pending",
   "created_at": "2026-07-08T16:12:33.269867+00:00",
-  "updated_at": "2026-08-19T03:34:19.403741+00:00",
+  "updated_at": "2026-08-27T05:34:00Z",
   "company_id": "CO-1779551010975",
   "nap": {
     "name": "ProRestoration Services Inc",
@@ -68,9 +68,9 @@
     "github_repo": "restorationai/prorestoration-site",
     "last_pushed_staging_at": "2026-08-19T03:34:19.403705+00:00",
     "preview_url": "https://prorestoration-preview.pages.dev",
-    "last_pushed_main_at": "2026-08-19T03:33:25.752947+00:00"
+    "last_pushed_main_at": "2026-08-27T05:27:15.530356+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "indexnow_key": "b99138573e514e8cb2f3258a532103fd",
   "cut_over_at": "2026-08-09T19:29:00+00:00",
   "cut_over_note": "zone activated + verified live 08-09",
@@ -81,5 +81,10 @@
     "backlinked_count": 32,
     "redirects_added": 30,
     "mapped_at": "2026-08-12T15:45:02+00:00"
+  },
+  "audit": {
+    "last_audit_at": "2026-08-27T05:34:00Z",
+    "last_audit_verdict": "amber",
+    "last_audit_report_path": "audit-runs/2026-08-27-onsite-audit.md"
   }
 }

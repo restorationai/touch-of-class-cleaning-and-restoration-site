@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-08-27-water-damage-restoration-cost-nj",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-27T06:29:40Z",
       "priority": 1,
       "prioritized": true,
@@ -29,7 +29,8 @@
       ],
       "source": "best-of-seeder",
       "written_at": "2026-08-27T06:40:22Z",
-      "post_url": "https://therestorationgroup.com/blog/water-damage-restoration-cost-nj/"
+      "post_url": "https://therestorationgroup.com/blog/water-damage-restoration-cost-nj/",
+      "published_verified_at": "2026-08-27T06:43:34Z"
     },
     {
       "id": "2026-07-27-best-water-damage-restoration-in-kenilworth-nj",

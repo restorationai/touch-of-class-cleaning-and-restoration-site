@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+emergency roof tarping,transactional,720,0,42.65,2,storm damage restoration,,,no
+storm damage restoration bakersfield,transactional,,,,3,storm damage restoration,Bakersfield,/services/storm-damage-restoration/,no
+storm damage restoration in bakersfield,transactional,,,,3,storm damage restoration,Bakersfield,/services/storm-damage-restoration/,no
+bakersfield storm damage restoration,transactional,,,,3,storm damage restoration,Bakersfield,/services/storm-damage-restoration/,no
+emergency storm damage restoration bakersfield,transactional,,,,3,storm damage restoration,Bakersfield,/services/storm-damage-restoration/,no
+storm damage restoration bakersfield ca,transactional,,,,3,storm damage restoration,Bakersfield,/services/storm-damage-restoration/,no
+storm damage repair bakersfield,transactional,,,,3,storm damage restoration,Bakersfield,/services/storm-damage-restoration/,no
+storm damage cleanup bakersfield,transactional,,,,3,storm damage restoration,Bakersfield,/services/storm-damage-restoration/,no
+storm damage roof repair bakersfield,transactional,,,,3,storm damage restoration,Bakersfield,/services/storm-damage-restoration/,no
+roof tarping bakersfield,transactional,,,,3,storm damage restoration,Bakersfield,,no
+wind damage repair bakersfield,transactional,,,,3,storm damage restoration,Bakersfield,,no
+storm damage restoration tehachapi,transactional,,,,3,storm damage restoration,Tehachapi,/service-areas/tehachapi-ca/storm-damage-restoration/,no
+storm damage repair tehachapi,transactional,,,,3,storm damage restoration,Tehachapi,/service-areas/tehachapi-ca/storm-damage-restoration/,no
+storm damage restoration delano,transactional,,,,3,storm damage restoration,Delano,/service-areas/delano-ca/storm-damage-restoration/,no
+storm damage restoration lamont,transactional,,,,3,storm damage restoration,Lamont,/service-areas/lamont-ca/storm-damage-restoration/,no
+storm damage roof repair,commercial,2900,0,30.05,2,storm damage restoration,,,no
+storm damage restoration,commercial,110000,0,,3,storm damage restoration,,/services/storm-damage-restoration/,no
+storm damage repair,commercial,3600,0,25.66,3,storm damage restoration,,/services/storm-damage-restoration/,no
+storm damage cleanup,commercial,880,0,,3,storm damage restoration,,/services/storm-damage-restoration/,no
+storm damage restoration cost,commercial,,,,3,storm damage restoration,,,no
+storm damage restoration companies bakersfield,commercial,,,,3,storm damage restoration,Bakersfield,/services/storm-damage-restoration/,no
+storm damage to roof,informational,4400,29,55.18,1,storm damage restoration,,,yes
+wind damage on roofs,informational,1300,0,24.72,1,storm damage restoration,,,yes
+tree fell on house,informational,1300,5,21.96,1,storm damage restoration,,,yes
+how to tarp a roof,informational,880,0,10.09,1,storm damage restoration,,,yes
+ice storm damage,informational,260,10,,1,storm damage restoration,,,no
+does homeowners insurance cover storm damage,informational,90,2,8.07,1,storm damage restoration,,,yes
+my neighbor's tree fell on my house,informational,590,9,0.9,2,storm damage restoration,,,no
+homeowners insurance for storm damage,informational,590,22,,2,storm damage restoration,,,no
+storm damage insurance coverage,informational,480,2,18.88,2,storm damage restoration,,,no
+how to tarp a leaking roof,informational,390,0,2.87,2,storm damage restoration,,,no
+how to secure a tarp on a roof,informational,390,1,1.01,2,storm damage restoration,,,no
+wind damage roof insurance claim,informational,320,5,8.16,2,storm damage restoration,,,no
+how to put a tarp on a roof without nails,informational,210,0,1.28,2,storm damage restoration,,,no
+tree fell on house what to do,informational,110,0,,2,storm damage restoration,,,no
+how much does it cost to tarp a roof,informational,70,0,,2,storm damage restoration,,,no
+a tree fell on my house who do i call,informational,10,,,2,storm damage restoration,,,no
+how long does storm damage restoration take,informational,,,,2,storm damage restoration,,,no
+what to do after a storm damages your house,informational,,,,2,storm damage restoration,,,no
+storm damage insurance claim,informational,260,5,,3,storm damage restoration,,/blog/storm-damage-insurance-claim-checklist/,no

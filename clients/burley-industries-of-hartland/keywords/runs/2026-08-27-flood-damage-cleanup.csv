@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+water mitigation near me,transactional,8100,25,,2,flood damage cleanup,,,no
+flood cleanup,transactional,2900,31,48.67,2,flood damage cleanup,,,no
+water damage cleanup,transactional,2900,31,38.14,2,flood damage cleanup,,,no
+flood clean up,transactional,2900,6,,2,flood damage cleanup,,,no
+flood basement cleanup,transactional,1600,3,60.29,2,flood damage cleanup,,,no
+flood cleanup near me,transactional,1600,2,,2,flood damage cleanup,,,no
+basement flood cleanup,transactional,1600,8,,2,flood damage cleanup,,,no
+flood in basement cleanup,transactional,1600,3,60.29,2,flood damage cleanup,,,no
+water mitigation company near me,transactional,1600,32,,2,flood damage cleanup,,,no
+flood cleanup service,transactional,1300,18,55.68,2,flood damage cleanup,,,no
+flood cleanup services,transactional,1300,6,,2,flood damage cleanup,,,no
+flood damage cleanup,transactional,880,38,48.61,2,flood damage cleanup,,,no
+flood damage cleanup near me,transactional,590,13,66.68,2,flood damage cleanup,,,no
+flood cleanup service near me,transactional,480,19,27.99,2,flood damage cleanup,,,no
+flood cleanup services near me,transactional,480,19,27.99,2,flood damage cleanup,,,no
+emergency flood cleanup near me,transactional,480,0,80.44,2,flood damage cleanup,,,no
+emergency flood cleanup,transactional,390,0,,2,flood damage cleanup,,,no
+basement flood cleanup near me,transactional,320,0,76.65,2,flood damage cleanup,,,no
+basement flood cleanup services,transactional,210,0,39.33,2,flood damage cleanup,,,no
+water clean up service near me,transactional,210,12,75.24,2,flood damage cleanup,,,no
+water flood cleanup,transactional,170,16,56.01,2,flood damage cleanup,,,no
+flood water cleanup,transactional,170,16,124.29,2,flood damage cleanup,,,no
+home flood cleanup,transactional,90,33,81.33,2,flood damage cleanup,,,no
+flood cleanup companies,commercial,320,22,22.89,2,flood damage cleanup,,,no
+flood cleanup company,commercial,320,27,22.89,2,flood damage cleanup,,,no
+basement flood cleanup cost,commercial,260,0,29.83,2,flood damage cleanup,,,no
+cost of basement flood cleanup,commercial,260,0,49.58,2,flood damage cleanup,,,no
+flood damage cleanup companies,commercial,110,17,,2,flood damage cleanup,,,no
+water mitigation cost,commercial,110,0,26.14,2,flood damage cleanup,,,no
+flood cleanup company near me,commercial,90,7,11.36,2,flood damage cleanup,,,no
+how much does flood cleanup cost,commercial,10,,8.35,2,flood damage cleanup,,,no
+water damage,informational,12100,39,,2,flood damage cleanup,,,no
+does renters insurance cover flood damage,informational,590,14,7.21,2,flood damage cleanup,,,no
+does homeowners insurance cover flood damage,informational,210,44,,2,flood damage cleanup,,,no
+how to dry out a flooded basement,informational,50,7,16.68,2,flood damage cleanup,,,no
+what is category 3 water damage,informational,40,0,,2,flood damage cleanup,,,no
+is flood damage covered by homeowners insurance,informational,40,29,40.64,2,flood damage cleanup,,,no
+how to prevent mold after flooding,informational,20,0,,2,flood damage cleanup,,,no
+what to do immediately after a flood in your house,informational,,,,2,flood damage cleanup,,,no
+how long does it take mold to grow after a flood,informational,,,,2,flood damage cleanup,,,no
