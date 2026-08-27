@@ -7,8 +7,8 @@ primary_keyword: "hardwood floor water damage"
 secondary_keywords: ["can water damaged hardwood floors be saved", "cupping hardwood floor water damage", "how long does it take hardwood to dry after a leak", "hardwood floor water damage repair cost", "buckled wood floor after flooding", "does insurance cover hardwood floor water damage"]
 search_intent: "transactional"
 priority: 7
-hero: "https://images.therestorationgroup.com/brand/hero.webp"
-og: "https://images.therestorationgroup.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-03T18:27:40Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/basement-flooding-cleanup/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/mold-after-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/"]

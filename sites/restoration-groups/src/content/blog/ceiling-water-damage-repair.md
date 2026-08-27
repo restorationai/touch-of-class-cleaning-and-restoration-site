@@ -7,8 +7,8 @@ primary_keyword: "ceiling water damage repair"
 secondary_keywords: ["ceiling water damage", "signs of water damage in ceiling", "water stain on ceiling from leak above", "sagging ceiling from water damage", "how much does ceiling water damage repair cost", "can a water damaged ceiling collapse"]
 search_intent: "transactional"
 priority: 7
-hero: "https://images.therestorationgroup.com/brand/hero.webp"
-og: "https://images.therestorationgroup.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-07-30T18:18:43Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/reconstruction/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/mold-after-water-damage/"]

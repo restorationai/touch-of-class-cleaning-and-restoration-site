@@ -7,8 +7,8 @@ primary_keyword: "how much does a plumber cost per hour"
 secondary_keywords: ["plumber prices per hour", "how much do plumbers charge per hour near me", "plumbing labor price list", "how much does a plumber charge for a service call", "emergency plumber cost per hour", "plumber bakersfield prices", "plumbing cost estimator", "plumbing prices per fixture"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/07/how-much-does-a-plumber-cost-per-hour/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/07/how-much-does-a-plumber-cost-per-hour/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-07-30T17:30:26Z"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/services/drain-cleaning/", "/services/toilet-faucet-repair/", "/contact/", "/blog/signs-of-a-slab-leak/", "/blog/what-to-do-burst-pipe/", "/blog/drain-cleaning-diy-vs-pro/"]

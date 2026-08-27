@@ -761,9 +761,27 @@ def cmd_next_post(args) -> int:
             print(f"      Image gen failed: {e}")
             if args.no_image_fallback:
                 raise
-            print(f"      Falling back to brand hero placeholder.")
             client = load_json(CLIENTS_DIR / f"{slug}.json")
-            hero_url = f"https://images.{client['domain']}/brand/hero.webp"
+            fallback = f"https://images.{client['domain']}/brand/hero.webp"
+            # Verify the placeholder actually serves before embedding it.
+            # Pre-launch clients have no images bucket/domain yet ("The
+            # specified bucket does not exist" is exactly this), and the
+            # 08-26 backfill shipped 10 posts with dead hero URLs this way.
+            # An empty hero is a supported state — backfill_heroes.py fills
+            # it once the client's image infra exists.
+            try:
+                import requests as _rq
+                _ok = _rq.head(fallback, timeout=10,
+                               allow_redirects=True).status_code == 200
+            except Exception:  # noqa: BLE001 — DNS failure = not served
+                _ok = False
+            if _ok:
+                print("      Falling back to brand hero placeholder.")
+                hero_url = fallback
+            else:
+                print("      Brand hero placeholder unreachable — leaving "
+                      "hero empty for backfill_heroes.py.")
+                hero_url = ""
 
     # Step 2b (optional): mid-body section image. Only when the model returned
     # section_image_prompt — absence changes nothing. Fully best-effort: any

@@ -7,8 +7,8 @@ primary_keyword: "does homeowners insurance cover slab leak repair"
 secondary_keywords: ["who pays for slab leak repair", "slab leak insurance claim denied", "average cost of slab leak repair", "does insurance cover the water damage from a slab leak", "how to prove a slab leak to insurance", "slab leak repair cost bakersfield"]
 search_intent: "informational"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/08/does-homeowners-insurance-cover-slab-leak-repair/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/08/does-homeowners-insurance-cover-slab-leak-repair/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-17T17:42:25Z"
 manual_override: false
 internal_links: ["/services/slab-leak-repair/", "/services/leak-detection/", "/services/repiping/", "/blog/signs-of-a-slab-leak/"]

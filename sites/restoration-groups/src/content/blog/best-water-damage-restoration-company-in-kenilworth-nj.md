@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Kenilworth, NJ"
 secondary_keywords: ["best water damage restoration companies Kenilworth", "top rated water damage restoration Kenilworth NJ", "who is the best water damage restoration company in Kenilworth", "water damage cleanup Kenilworth", "water cleanup Kenilworth", "water removal Kenilworth"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.therestorationgroup.com/brand/hero.webp"
-og: "https://images.therestorationgroup.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-07-27T18:43:37Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/basement-flooding-cleanup/", "/services/burst-pipe-repair/", "/services/sewage-cleanup/", "/services/mold-remediation/", "/services/reconstruction/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/choosing-a-restoration-company/"]

@@ -7,8 +7,8 @@ primary_keyword: "flood insurance hawaii"
 secondary_keywords: ["flooded house insurance", "does homeowners insurance cover flood damage", "flood insurance oahu", "how much is flood insurance in hawaii", "hawaii flood insurance", "national flood insurance program hawaii", "special flood hazard area oahu"]
 search_intent: "informational"
 priority: 7
-hero: "https://images.aaawaterdamagehawaii.com/brand/hero.webp"
-og: "https://images.aaawaterdamagehawaii.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-26T12:55:54Z"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/services/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]

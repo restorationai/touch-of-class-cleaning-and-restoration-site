@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost SD"
 secondary_keywords: ["how much does water damage restoration cost in SD", "water damage restoration price SD", "average cost of water damage restoration SD", "water damage cleanup SD", "water cleanup SD", "water removal SD"]
 search_intent: "transactional"
 priority: 7
-hero: "https://images.crew3r.com/brand/hero.webp"
-og: "https://images.crew3r.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-26T14:48:28Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/burst-pipe-emergency-checklist/", "/contact/"]

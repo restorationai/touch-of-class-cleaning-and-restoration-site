@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Abilene, TX"
 secondary_keywords: ["best water damage restoration companies Abilene", "top rated water damage restoration Abilene TX", "who is the best water damage restoration company in Abilene", "water damage cleanup Abilene", "water cleanup Abilene", "water removal Abilene"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.aircarerestoration.com/brand/hero.webp"
-og: "https://images.aircarerestoration.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-17T17:15:14Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]

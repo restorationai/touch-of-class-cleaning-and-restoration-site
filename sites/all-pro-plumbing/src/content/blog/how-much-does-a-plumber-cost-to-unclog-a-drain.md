@@ -7,8 +7,8 @@ primary_keyword: "how much does a plumber cost to unclog a drain"
 secondary_keywords: ["hydrojet drain cleaning cost", "cost to snake a main line", "drain cleaning cost bakersfield", "how much does it cost to clear a sewer line", "why does my drain keep clogging", "when snaking is not enough"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/08/how-much-does-a-plumber-cost-to-unclog-a-drain/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/08/how-much-does-a-plumber-cost-to-unclog-a-drain/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-26T13:45:39Z"
 manual_override: false
 internal_links: ["/services/drain-cleaning/", "/services/sewer-line-repair/", "/service-areas/bakersfield-ca/drain-cleaning/", "/blog/hydro-jetting-vs-snaking/", "/blog/how-much-does-a-plumber-cost-per-hour/"]

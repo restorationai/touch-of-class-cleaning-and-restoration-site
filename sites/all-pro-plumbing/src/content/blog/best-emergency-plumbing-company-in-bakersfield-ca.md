@@ -7,8 +7,8 @@ primary_keyword: "best emergency plumbing company in Bakersfield, CA"
 secondary_keywords: ["best emergency plumbing companies Bakersfield", "top rated emergency plumbing Bakersfield CA", "who is the best emergency plumbing company in Bakersfield"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/07/best-emergency-plumbing-company-in-bakersfield-ca/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/07/best-emergency-plumbing-company-in-bakersfield-ca/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-07-27T17:54:24Z"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/services/slab-leak-repair/", "/services/burst-pipe-repair/", "/services/sewer-line-repair/", "/blog/what-to-do-burst-pipe/", "/blog/signs-of-a-slab-leak/", "/contact/"]

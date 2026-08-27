@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost CA"
 secondary_keywords: ["how much does water damage restoration cost in CA", "water damage restoration price CA", "average cost of water damage restoration CA", "water damage cleanup CA", "water cleanup CA", "water removal CA"]
 search_intent: "transactional"
 priority: 7
-hero: "https://images.None/brand/hero.webp"
-og: "https://images.None/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-26T14:24:04Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/best-water-damage-restoration-company-in-santa-maria-ca/", "/blog/burst-pipe-emergency-checklist/", "/contact/"]

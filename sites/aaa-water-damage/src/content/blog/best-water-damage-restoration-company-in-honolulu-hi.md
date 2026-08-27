@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Honolulu, HI"
 secondary_keywords: ["best water damage restoration companies Honolulu", "top rated water damage restoration Honolulu HI", "who is the best water damage restoration company in Honolulu", "water removal Honolulu", "water damage cleanup Honolulu", "water cleanup Honolulu"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.aaawaterdamagehawaii.com/brand/hero.webp"
-og: "https://images.aaawaterdamagehawaii.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-10T17:14:27Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/burst-pipe-repair/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/"]

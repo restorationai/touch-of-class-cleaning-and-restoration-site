@@ -7,8 +7,8 @@ primary_keyword: "toilet replacement cost"
 secondary_keywords: ["plumber cost to replace toilet near me", "how much does a plumber cost to fix a toilet", "labor cost to replace toilet fill valve", "plumber to install toilet", "toilet installation labor cost", "is it worth replacing an old toilet"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/08/toilet-replacement-cost/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/08/toilet-replacement-cost/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-10T17:33:30Z"
 manual_override: false
 internal_links: ["/services/toilet-faucet-repair/", "/services/water-softeners-filtration/", "/blog/how-much-does-a-plumber-cost-per-hour/", "/contact/"]

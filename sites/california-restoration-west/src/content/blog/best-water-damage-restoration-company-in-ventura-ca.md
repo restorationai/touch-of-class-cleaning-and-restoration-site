@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Ventura, CA"
 secondary_keywords: ["best water damage restoration companies Ventura", "top rated water damage restoration Ventura CA", "who is the best water damage restoration company in Ventura", "water damage cleanup Ventura", "water cleanup Ventura", "water removal Ventura"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.californiarestorationwest.com/brand/hero.webp"
-og: "https://images.californiarestorationwest.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-26T14:06:42Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/blog/choosing-a-restoration-company/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/"]

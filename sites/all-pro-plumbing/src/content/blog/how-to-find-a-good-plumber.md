@@ -7,8 +7,8 @@ primary_keyword: "how to find a good plumber"
 secondary_keywords: ["what questions to ask a plumber before hiring", "how to check if a plumber is licensed in california", "signs of a bad plumber", "licensed vs unlicensed plumber", "should a plumber give a written estimate", "how many plumbing quotes should I get"]
 search_intent: "informational"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/08/how-to-find-a-good-plumber/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/08/how-to-find-a-good-plumber/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-03T17:52:31Z"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/blog/how-much-does-a-plumber-cost-per-hour/", "/blog/best-emergency-plumbing-company-in-bakersfield-ca/"]

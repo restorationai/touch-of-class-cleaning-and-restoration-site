@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration company"
 secondary_keywords: ["water damage restoration company houston", "houston water damage restoration company", "water damage restoration company katy", "katy water damage restoration company", "water damage restoration company sugar land", "sugar land water damage restoration company", "water damage restoration company the woodlands", "the woodlands water damage restoration company"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.probritegen.com/blog/2026/05/water-damage-restoration-company/hero.webp"
-og: "https://images.probritegen.com/blog/2026/05/water-damage-restoration-company/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-05-18T20:42:02Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-backup-cleanup/", "/service-areas/houston-tx/", "/contact/"]

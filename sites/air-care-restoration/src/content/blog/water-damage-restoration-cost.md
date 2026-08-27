@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["water damage restoration cost per square foot", "how much does water damage restoration cost", "water damage restoration cost calculator", "water damage restoration price sheet", "does insurance pay the water damage restoration bill", "category 3 water damage cost"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.aircarerestoration.com/brand/hero.webp"
-og: "https://images.aircarerestoration.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-26T13:22:34Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/water-cleanup/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]

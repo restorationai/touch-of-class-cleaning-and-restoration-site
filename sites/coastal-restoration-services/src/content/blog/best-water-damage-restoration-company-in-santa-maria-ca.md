@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Santa Maria, CA"
 secondary_keywords: ["best water damage restoration companies Santa Maria", "top rated water damage restoration Santa Maria CA", "who is the best water damage restoration company in Santa Maria", "water damage cleanup Santa Maria", "water cleanup Santa Maria", "water removal Santa Maria"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.None/brand/hero.webp"
-og: "https://images.None/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-10T17:48:52Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]

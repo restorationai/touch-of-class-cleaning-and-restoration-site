@@ -7,8 +7,8 @@ primary_keyword: "mold remediation cost"
 secondary_keywords: ["mold removal cost", "how much does mold remediation cost", "average cost of mold remediation", "basement mold remediation cost", "mold inspection cost", "mold remediation cost sioux falls"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.crew3r.com/brand/hero.webp"
-og: "https://images.crew3r.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-17T18:14:41Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/", "/services/water-damage-restoration/", "/contact/"]

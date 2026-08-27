@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Youngstown, OH"
 secondary_keywords: ["best water damage restoration companies Youngstown", "top rated water damage restoration Youngstown OH", "who is the best water damage restoration company in Youngstown", "water damage repair Youngstown", "water damage cleanup Youngstown", "water cleanup Youngstown"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.dissrestoration.com/brand/hero.webp"
-og: "https://images.dissrestoration.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-10T18:38:11Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/choosing-a-restoration-company/"]

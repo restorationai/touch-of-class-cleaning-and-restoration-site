@@ -7,8 +7,8 @@ primary_keyword: "hawaii water damage restoration"
 secondary_keywords: ["water damage restoration oahu", "water damage restoration honolulu", "emergency water extraction honolulu", "24 hour water damage restoration honolulu", "water damage cleanup honolulu", "residential water damage restoration near me"]
 search_intent: "transactional"
 priority: 7
-hero: "https://images.aaawaterdamagehawaii.com/brand/hero.webp"
-og: "https://images.aaawaterdamagehawaii.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-17T16:51:54Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/flood-damage-restoration/", "/services/mold-remediation/", "/services/mold-inspection-testing/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/mold-after-water-damage/"]
