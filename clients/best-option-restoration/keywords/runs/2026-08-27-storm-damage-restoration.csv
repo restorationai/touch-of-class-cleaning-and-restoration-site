@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,would_be_priority,fan_out_parent,city_modifier,covered_by,queued
+storm damage restoration,transactional,110000,0,11.82,2,1,storm damage restoration,,,no
+storm damage restoration near me,transactional,9900,0,0.24,2,1,storm damage restoration,,,no
+storm damage repair,transactional,3600,0,25.66,2,1,storm damage restoration,,,no
+storm damage repairs,transactional,3600,0,25.66,2,1,storm damage restoration,,,no
+storm damage roof repair,transactional,2900,0,30.05,2,1,storm damage restoration,,,no
+roof storm damage repair,transactional,2900,2,30.05,2,1,storm damage restoration,,,no
+storm damage repair near me,transactional,1900,0,92.78,2,1,storm damage restoration,,,no
+storm damage roof repair near me,transactional,1900,0,24.25,2,1,storm damage restoration,,,no
+storm damage near me,transactional,1600,1,7.92,2,1,storm damage restoration,,,no
+storm damage cleanup,transactional,880,0,46.85,2,1,storm damage restoration,,,no
+storm damage clean up,transactional,880,0,46.85,2,1,storm damage restoration,,,no
+storm damage roof replacement near me,transactional,880,0,,2,1,storm damage restoration,,,no
+flood damage restoration companies,transactional,880,16,,2,1,storm damage restoration,,,no
+storm damage repair services,transactional,720,0,1.41,2,1,storm damage restoration,,,no
+storm damage restoration services,transactional,590,0,0.19,2,1,storm damage restoration,,,no
+storm damage tree removal,transactional,480,0,9.81,2,1,storm damage restoration,,,no
+tree removal storm damage,transactional,480,0,9.81,2,1,storm damage restoration,,,no
+storm damage tree removal near me,transactional,390,0,12.79,2,1,storm damage restoration,,,no
+storm damage restoration company,transactional,320,1,,2,1,storm damage restoration,,,no
+storm damage repair contractor,transactional,260,0,8.58,2,1,storm damage restoration,,,no
+storm damage repair company,transactional,210,0,,2,1,storm damage restoration,,,no
+commercial storm damage restoration,transactional,210,0,683.83,2,1,storm damage restoration,,,no
+water damage restoration service,transactional,135000,53,36.67,2,2,storm damage restoration,,,no
+storm damage roofing contractors,commercial,720,0,,2,1,storm damage restoration,,,no
+storm damage contractors,commercial,480,0,47.4,2,1,storm damage restoration,,,no
+storm damage repair contractors,commercial,390,0,21.36,2,1,storm damage restoration,,,no
+storm damage restoration companies,commercial,320,0,,2,1,storm damage restoration,,,no
+storm damage repair companies,commercial,210,0,,2,1,storm damage restoration,,,no
+homeowners insurance for storm damage,informational,590,22,,2,1,storm damage restoration,,,no
+storm damage insurance,informational,480,9,18.88,2,1,storm damage restoration,,,no
+storm damage insurance coverage,informational,480,2,18.88,2,1,storm damage restoration,,,no
+storm damage insurance claim,informational,260,5,,2,1,storm damage restoration,,,no
+what to do if a tree falls on your house,informational,260,0,14.31,2,1,storm damage restoration,,,no
+how to tell if my roof has storm damage,informational,,,,2,1,storm damage restoration,,,no
+does homeowners insurance cover wind and hail damage,informational,,,,2,1,storm damage restoration,,,no
+how long can a tarp stay on a roof,informational,,,,2,1,storm damage restoration,,,no
+how to file a storm damage insurance claim,informational,,,,2,1,storm damage restoration,,,no
+how long does storm damage roof repair take,informational,,,,2,1,storm damage restoration,,,no
+signs of hidden water damage after a storm,informational,,,,2,1,storm damage restoration,,,no
+can i choose my own contractor for storm damage repair,informational,,,,2,1,storm damage restoration,,,no

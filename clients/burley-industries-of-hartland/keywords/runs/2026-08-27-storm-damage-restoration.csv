@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+storm damage restoration,transactional,110000,0,11.82,2,storm damage restoration,,,no
+storm damage restoration near me,transactional,9900,0,16.84,2,storm damage restoration,,,no
+hail damage repair,transactional,4400,4,17.25,2,storm damage restoration,,,no
+storm damage repair,transactional,3600,0,25.66,2,storm damage restoration,,,no
+storm damage roof repair,transactional,2900,0,30.05,2,storm damage restoration,,,no
+storm damage repair near me,transactional,1900,0,92.78,2,storm damage restoration,,,no
+flood damage restoration companies,transactional,880,16,72.33,2,storm damage restoration,,,no
+storm damage cleanup,transactional,880,0,46.85,2,storm damage restoration,,,no
+emergency board up services,transactional,480,0,51.46,2,storm damage restoration,,,no
+tree removal storm damage,transactional,480,0,9.81,2,storm damage restoration,,,no
+storm damage restoration companies,transactional,320,0,,2,storm damage restoration,,,no
+wind damage repair,transactional,320,0,,2,storm damage restoration,,,no
+roof tarping service,transactional,210,0,36.3,2,storm damage restoration,,,no
+storm debris removal,transactional,210,0,10.08,2,storm damage restoration,,,no
+storm damage restoration companies near me,transactional,50,0,27.82,2,storm damage restoration,,,no
+residential storm damage restoration,transactional,40,0,,2,storm damage restoration,,,no
+hail damage restoration,transactional,40,0,,2,storm damage restoration,,,no
+hurricane damage restoration,transactional,40,0,,2,storm damage restoration,,,no
+emergency tarping service near me,transactional,20,0,50.67,2,storm damage restoration,,,no
+residential flood damage restoration,transactional,10,,,2,storm damage restoration,,,no
+storm damage mitigation,transactional,10,,,2,storm damage restoration,,,no
+tornado damage cleanup,transactional,,,,2,storm damage restoration,,,no
+emergency storm damage response,transactional,,,,2,storm damage restoration,,,no
+24 hour storm damage restoration,transactional,,,,2,storm damage restoration,,,no
+siding damage repair storm,transactional,,,,2,storm damage restoration,,,no
+water extraction after storm,transactional,,,,2,storm damage restoration,,,no
+structural drying after storm,transactional,,,,2,storm damage restoration,,,no
+best storm damage restoration company,commercial,,,,2,storm damage restoration,,,no
+storm damage restoration cost,commercial,,,,2,storm damage restoration,,,no
+average cost of storm damage repair,commercial,,,,2,storm damage restoration,,,no
+storm damage repair estimate,commercial,,,,2,storm damage restoration,,,no
+how much does storm damage repair cost,commercial,,,,2,storm damage restoration,,,no
+how do i choose a storm damage restoration company,commercial,,,,2,storm damage restoration,,,no
+storm damage insurance claim,informational,260,5,21.07,2,storm damage restoration,,,no
+does homeowners insurance cover storm damage,informational,90,2,8.07,2,storm damage restoration,,,no
+what to do after storm damage to your home,informational,,,,2,storm damage restoration,,,no
+how long does storm damage restoration take,informational,,,,2,storm damage restoration,,,no
+do i need a roof tarp after storm damage,informational,,,,2,storm damage restoration,,,no
+how to document storm damage for insurance claim,informational,,,,2,storm damage restoration,,,no
+what does storm damage restoration include,informational,,,,2,storm damage restoration,,,no

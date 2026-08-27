@@ -24,7 +24,7 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-08-19T03:58:40.545408+00:00",
+  "updated_at": "2026-08-27T04:33:58Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -40,17 +40,17 @@
     "url_count": 229,
     "pages_status": "created",
     "last_rendered_at": "2026-07-15T05:38:19.287586+00:00",
-    "last_pushed_main_at": "2026-08-19T03:57:41.859541+00:00",
+    "last_pushed_main_at": "2026-08-27T04:24:37.915201+00:00",
     "last_pushed_staging_at": "2026-08-19T03:58:40.545317+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "cut_over_at": "2026-05-17T22:11:55+00:00",
   "deploy_url": "https://narestco.com",
   "audit": {
-    "last_audit_at": "2026-07-15T16:01:06Z",
+    "last_audit_at": "2026-08-27T04:33:58Z",
     "last_audit_verdict": "amber",
-    "last_audit_report_path": "clients/narestco/audit-runs/2026-07-15-onsite-audit.md",
-    "last_audit_caveat": "Apex audit. Major improvement vs 2026-06-22: 5 of 6 pages now green (a11y 77->100, best_practices 77->100, total-byte-weight all under 1.6MB, titles 75->~50). Site held at amber solely by home meta description 194 chars (over 160). No regressions.",
+    "last_audit_report_path": "clients/narestco/audit-runs/2026-08-27-onsite-audit.md",
+    "last_audit_caveat": "Apex audit, desktop only. 5 of 6 pages green; site held at amber solely by the homepage meta description at 194 chars (limit 160), unresolved since 2026-07-15. Avg perf 97.7 (-0.8), a11y/BP/SEO 100 across all pages. One CWV regression: /contact/ LCP 1147ms -> 1625ms (missing fetchpriority on the hero). Service-area slot changed: /service-areas/federal-way-wa/ now 301s to home and is out of the sitemap, replaced by /service-areas/seattle-wa/ (100/100/100/100). Only one genuinely new issue (low_content_rate on /contact/); 31 other 'new' IDs are detection artifacts from capturing Lighthouse full_data and using a wider instant_pages profile this run.",
     "live_origin_audited": "https://narestco.com"
   },
   "apex_cutover": {

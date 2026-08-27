@@ -1,0 +1,571 @@
+{
+  "schema_version": 1,
+  "slug": "life-savers-restoration-llc",
+  "site": "staging.rankai-life-savers-restoration-llc.pages.dev",
+  "live_origin": "https://staging.rankai-life-savers-restoration-llc.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-08-27T03:56:47Z",
+  "environment_caveats": [
+    "Audited the Cloudflare Pages staging preview: the client record has domain=null and no apex_cutover, so no apex origin exists yet.",
+    "staging.rankai-life-savers-restoration-llc.pages.dev returns x-robots-tag: noindex (Cloudflare Pages preview default). The Lighthouse is-crawlable audit therefore fails on all 6 URLs and deflates the SEO category to 69. SEO is recorded but EXCLUDED from all verdicts this run. SEO status: inconclusive - staging noindex artifact, re-audit after apex cutover.",
+    "Lighthouse ran DESKTOP (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically run 10-20 performance points lower.",
+    "Client record status is \"onboarding\", not \"active\". build_status is pushed_main so the site is live and auditable; the audit proceeded and this deviation is logged."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/",
+      "archetype": "home",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1059,
+        "CLS": 0.0167,
+        "TBT_ms": 30,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 1740,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 737\u00a0KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to invalid host: https://none/",
+          "severity": "high"
+        },
+        {
+          "id": "description_length",
+          "title": "Meta description length 186 chars, outside the 70-160 target",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1129,
+        "CLS": 0.0027,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 725,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 534\u00a0KiB"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to invalid host: https://none/services/",
+          "severity": "high"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)",
+          "severity": "medium"
+        },
+        {
+          "id": "plain_text_word_count",
+          "title": "Word count 725 below the archetype target of 800",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 951,
+        "CLS": 0.0036,
+        "TBT_ms": 9,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 2055,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 422\u00a0KiB"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to invalid host: https://none/services/water-damage-restoration/",
+          "severity": "high"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/services/mold-remediation/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 976,
+        "CLS": 0.0035,
+        "TBT_ms": 84,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 1755,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 422\u00a0KiB"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to invalid host: https://none/services/mold-remediation/",
+          "severity": "high"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/service-areas/las-vegas-nv/",
+      "archetype": "service-area",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1055,
+        "CLS": 0.0036,
+        "TBT_ms": 38,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 1366,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 488\u00a0KiB"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to invalid host: https://none/service-areas/las-vegas-nv/",
+          "severity": "high"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)",
+          "severity": "medium"
+        },
+        {
+          "id": "frame",
+          "title": "Page contains an iframe (map embed)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1061,
+        "CLS": 0.0556,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 726,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 555\u00a0KiB"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to invalid host: https://none/contact/",
+          "severity": "high"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)",
+          "severity": "medium"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 98,
+      "accessibility": 95,
+      "best_practices": 100,
+      "seo": 69
+    },
+    "verdict": "red",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 0,
+      "red": 6,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "canonical",
+        "title": "Canonical points to invalid host: https://none/contact/",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)",
+        "affected_urls": 5,
+        "severity": "medium"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/",
+        "archetype": "home",
+        "verdict": "red",
+        "main_issue": "Canonical points to invalid host: https://none/"
+      },
+      {
+        "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "red",
+        "main_issue": "Canonical points to invalid host: https://none/services/"
+      },
+      {
+        "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "Canonical points to invalid host: https://none/services/water-damage-restoration/"
+      },
+      {
+        "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/services/mold-remediation/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "Canonical points to invalid host: https://none/services/mold-remediation/"
+      },
+      {
+        "url": "https://staging.rankai-life-savers-restoration-llc.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "red",
+        "main_issue": "Canonical points to invalid host: https://none/contact/"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  }
+}

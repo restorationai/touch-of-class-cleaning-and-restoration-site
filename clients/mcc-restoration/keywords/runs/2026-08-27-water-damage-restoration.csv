@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+emergency water damage restoration,transactional,2900,19,58.31,1,water damage restoration,,,no
+commercial water damage restoration,transactional,590,15,13.32,1,water damage restoration,,,yes
+water damage restoration near me,transactional,135000,,51.04,2,water damage restoration,,,no
+residential water damage restoration near me,transactional,210,,21.3,2,water damage restoration,,,no
+slab leak repair dallas,transactional,140,0,,2,water damage restoration,Dallas,,no
+water damage restoration dallas,transactional,1300,18,,3,water damage restoration,Dallas,/service-areas/dallas-tx/water-damage-restoration/,no
+water damage restoration dallas tx,transactional,1300,18,22.44,3,water damage restoration,Dallas,/service-areas/dallas-tx/water-damage-restoration/,no
+dallas water damage restoration,transactional,1300,18,,3,water damage restoration,Dallas,/service-areas/dallas-tx/water-damage-restoration/,no
+water damage restoration in dallas,transactional,1300,18,,3,water damage restoration,Dallas,/service-areas/dallas-tx/water-damage-restoration/,no
+water damage restoration dallas texas,transactional,1300,10,30.27,3,water damage restoration,Dallas,/service-areas/dallas-tx/water-damage-restoration/,no
+water damage restoration dfw,transactional,1300,12,22.44,3,water damage restoration,Dallas,/service-areas/dallas-tx/water-damage-restoration/,no
+water damage dallas,transactional,170,7,,3,water damage restoration,Dallas,/service-areas/dallas-tx/water-damage-restoration/,no
+water damage dallas tx,transactional,170,7,,3,water damage restoration,Dallas,/service-areas/dallas-tx/water-damage-restoration/,no
+water damage repair dallas tx,transactional,50,7,22.72,3,water damage restoration,Dallas,/service-areas/dallas-tx/water-damage-restoration/,no
+water damage restoration grand prairie,transactional,10,,,3,water damage restoration,Grand Prairie,/service-areas/grand-prairie-tx/water-damage-restoration/,no
+water damage restoration company,commercial,110000,25,60.4,1,water damage restoration,,,no
+water damage restoration contractors,commercial,1300,33,24.49,1,water damage restoration,,,no
+water damage restoration services,commercial,5400,53,34.84,2,water damage restoration,,,no
+best water damage restoration near me,commercial,320,,40.21,2,water damage restoration,,,no
+water damage and mold restoration,commercial,320,28,135.13,2,water damage restoration,,,no
+does renters insurance cover water damage,informational,1000,9,,1,water damage restoration,,,yes
+will renters insurance cover water damage,informational,1000,,9.06,1,water damage restoration,,,no
+water damage restoration cost,informational,880,3,14.73,1,water damage restoration,,,yes
+cost of water damage restoration,informational,880,3,14.73,1,water damage restoration,,,no
+water damage restoration prices,informational,880,9,14.73,1,water damage restoration,,,no
+does renters insurance cover water leak damage,informational,390,11,,1,water damage restoration,,,no
+signs of a slab leak,informational,390,0,19.86,1,water damage restoration,,,yes
+how much does it cost to repair water damage,informational,170,0,22.35,1,water damage restoration,,,no
+how long does a landlord have to fix water damage,informational,170,2,,1,water damage restoration,,,no
+how to tell if you have a slab leak,informational,170,0,27.88,1,water damage restoration,,,no
+how much does it cost to repair ceiling water damage,informational,140,0,13.57,1,water damage restoration,,,no
+does a home warranty cover water damage,informational,140,1,21.68,1,water damage restoration,,,yes
+does homeowners insurance cover slab leak,informational,140,,3.16,1,water damage restoration,,,no
+water damage restoration cost per square foot,informational,70,3,28.17,1,water damage restoration,,,no
+does homeowners insurance cover water damage from rain,informational,210,12,23.77,2,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no
+water damage restoration cost calculator,informational,170,,7.8,2,water damage restoration,,,no
+does homeowners insurance cover water damage from roof leak,informational,110,6,10.61,2,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no
+does home insurance cover mold from water damage,informational,110,20,,2,water damage restoration,,/blog/mold-after-water-damage/,no
+does homeowners insurance cover water damage,informational,1900,10,,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no
+will homeowners insurance cover water damage,informational,1900,12,27.28,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no

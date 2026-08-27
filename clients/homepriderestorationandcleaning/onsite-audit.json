@@ -5,14 +5,16 @@
   "live_origin": "https://homepriderestorationandcleaning.com",
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-07-15T16:02:16Z",
+  "generated_at": "2026-08-27T03:35:00Z",
   "environment_caveats": [
-    "Lighthouse run via DataForSEO is DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240); mobile scores would typically run 10-20 performance points lower. Scores here are not mobile-first.",
-    "Lighthouse detail was fetched via the DataForSEO on_page/lighthouse/live/json REST endpoint (full audit set) rather than the MCP full_data flag, to keep the run within context and cost budget. Lighthouse version 13.4.0.",
-    "DataForSEO on_page_instant_pages reports no_image_alt=true on all 6 pages, but the Lighthouse image-alt accessibility audit passes (score 1) on every page and accessibility scores 100, so alt-text coverage is effectively >=90%; the DataForSEO flag is treated as a decorative/pixel-image detection artifact and not counted as an issue.",
-    "DataForSEO has_micromarkup=false on all pages, but rendered HTML contains valid JSON-LD; DataForSEO's micromarkup check does not detect JSON-LD, so schema is NOT flagged as missing.",
-    "DataForSEO checks.frame=true on the Saratoga Springs service-area page reflects an embedded map iframe, not a legacy frameset; not counted as an issue.",
-    "low_content_rate=true on home and services-hub reflects a low text-to-HTML ratio, not thin content; measured plain-text word counts exceed every archetype target, so no content-length issue is flagged."
+    "Lighthouse run via DataForSEO is DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240, rttMs=40); mobile scores would typically run 10-20 performance points lower. Scores here are not mobile-first.",
+    "Lighthouse detail was fetched via the DataForSEO on_page/lighthouse/live/json REST endpoint (full audit set, Lighthouse 13.4.0). No dedicated on_page_lighthouse / on_page_instant_pages MCP tools are exposed in this environment, so both steps used the REST API directly.",
+    "Service-area slot changed this month. The prior audit used /service-areas/saratoga-springs-ut/, which 301-redirects to / and is a legacy pre-cutover URL absent from url-plan.json; that row in the July audit therefore re-measured the homepage. This run uses /service-areas/lehi-ut/, the first service-area entry in url-plan.json (no entry carries primary=true and the client city Saratoga Springs has no service-area page in the plan). The service-area slot has no valid prior comparison.",
+    "DataForSEO on_page instant_pages reports no_image_alt=true on all 6 pages, but the Lighthouse image-alt accessibility audit passes (score 1) on every page and accessibility scores 100, so alt-text coverage is effectively >=90%; treated as a decorative/pixel-image detection artifact and not counted as an issue.",
+    "DataForSEO has_micromarkup=false on all pages, but rendered HTML contains valid JSON-LD on all 6 (LocalBusiness, Organization, WebSite, BreadcrumbList, FAQPage, Service). DataForSEO's micromarkup check does not detect JSON-LD, so schema is NOT flagged as missing.",
+    "DataForSEO checks.frame=true on the Lehi service-area page reflects an embedded map iframe, not a legacy frameset; not counted as an issue.",
+    "low_content_rate=true on home and services-hub reflects a low text-to-HTML ratio, not thin content; measured plain-text word counts exceed every archetype target (home 1507 vs 1200, services hub 807 vs 800), so no content-length issue is flagged.",
+    "checks.high_loading_time=true on the homepage in the instant_pages fetch (duration_time 4225ms). This is an uncached cold-origin single fetch; Lighthouse measured LCP 1125ms and performance 98 on the same URL. Not counted as an issue, but see the R2 cache-lifetime recommendation."
   ],
   "audited_urls": [
     {
@@ -27,8 +29,8 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1126,
-        "CLS": 0.014,
+        "LCP_ms": 1125,
+        "CLS": 0.004,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -51,7 +53,7 @@
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 90,
+          "estimated_savings_ms": 100,
           "category": "performance"
         },
         {
@@ -83,25 +85,18 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 97,
+        "performance": 98,
         "accessibility": 100,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1216,
-        "CLS": 0.012,
+        "LCP_ms": 1172,
+        "CLS": 0.003,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": 200,
-          "category": "performance"
-        },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
@@ -110,17 +105,24 @@
           "category": "performance"
         },
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
           "severity": "low",
-          "estimated_savings_ms": 60,
+          "estimated_savings_ms": 150,
           "category": "performance"
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 50,
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
           "category": "performance"
         },
         {
@@ -139,51 +141,51 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 100,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 811,
-        "CLS": 0.017,
+        "LCP_ms": 906,
+        "CLS": 0.005,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
           "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 100,
           "category": "performance"
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 0,
+          "estimated_savings_ms": 100,
           "category": "performance"
         },
         {
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
           "severity": "low",
-          "estimated_savings_ms": 0,
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
           "severity": "low",
-          "estimated_savings_ms": 0,
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
           "category": "performance"
         }
       ],
@@ -195,39 +197,18 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 100,
         "accessibility": 100,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 861,
-        "CLS": 0.024,
+        "LCP_ms": 793,
+        "CLS": 0.007,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 60,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": 50,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": 50,
-          "category": "performance"
-        },
         {
           "id": "lcp-discovery-insight",
           "title": "LCP request discovery",
@@ -238,6 +219,27 @@
         {
           "id": "network-dependency-tree-insight",
           "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance"
@@ -246,19 +248,19 @@
       "onpage_issues": []
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
       "archetype": "service-area",
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 98,
+        "performance": 99,
         "accessibility": 100,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1072,
-        "CLS": 0.017,
+        "LCP_ms": 1028,
+        "CLS": 0.004,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -267,33 +269,33 @@
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
           "severity": "low",
-          "estimated_savings_ms": 200,
+          "estimated_savings_ms": 150,
           "category": "performance"
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "low",
-          "estimated_savings_ms": 200,
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 90,
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
           "id": "lcp-discovery-insight",
           "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance"
@@ -307,14 +309,14 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 97,
+        "performance": 99,
         "accessibility": 100,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1068,
-        "CLS": 0.069,
+        "LCP_ms": 1016,
+        "CLS": 0.006,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -323,7 +325,7 @@
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
           "severity": "low",
-          "estimated_savings_ms": 200,
+          "estimated_savings_ms": 150,
           "category": "performance"
         },
         {
@@ -337,7 +339,7 @@
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 90,
+          "estimated_savings_ms": 100,
           "category": "performance"
         },
         {
@@ -360,7 +362,7 @@
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 98,
+      "performance": 99,
       "accessibility": 100,
       "best_practices": 100,
       "seo": 100
@@ -389,356 +391,90 @@
       {
         "id": "unused-javascript",
         "title": "Reduce unused JavaScript",
-        "affected_urls": 6,
-        "severity": "low"
-      },
-      {
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
         "affected_urls": 5,
         "severity": "low"
       },
       {
         "id": "lcp-discovery-insight",
         "title": "LCP request discovery",
-        "affected_urls": 5,
+        "affected_urls": 4,
+        "severity": "low"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "affected_urls": 3,
+        "severity": "low"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 3,
+        "severity": "low"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 3,
         "severity": "low"
       }
     ],
     "money_page_alerts": []
   },
   "regression": {
-    "prior_run_at": "2026-06-22T19:40:00Z",
+    "prior_run_at": "2026-07-15T16:02:16Z",
     "score_deltas": {
-      "performance": 0,
-      "accessibility": 5,
+      "performance": 1,
+      "accessibility": 0,
       "best_practices": 0,
       "seo": 0
     },
-    "verdict_transitions": [
-      {
-        "url": "https://homepriderestorationandcleaning.com/",
-        "from": "amber",
-        "to": "green"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/",
-        "from": "amber",
-        "to": "green"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "from": "amber",
-        "to": "green"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "from": "amber",
-        "to": "green"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
-        "from": "amber",
-        "to": "green"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "from": "amber",
-        "to": "green"
-      }
-    ],
-    "cwv_regressions": [
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/",
-        "metric": "LCP_ms",
-        "from": 512,
-        "to": 1216,
-        "delta": 704
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "metric": "CLS",
-        "from": 0.004,
-        "to": 0.024,
-        "delta": 0.02
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
-        "metric": "LCP_ms",
-        "from": 834,
-        "to": 1072,
-        "delta": 238
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "metric": "LCP_ms",
-        "from": 799,
-        "to": 1068,
-        "delta": 269
-      }
-    ],
+    "verdict_transitions": [],
+    "cwv_regressions": [],
     "new_issues": [
       {
-        "url": "https://homepriderestorationandcleaning.com/",
+        "url": "https://homepriderestorationandcleaning.com/services/",
         "id": "forced-reflow-insight",
-        "title": "Forced reflow",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/",
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
-        "severity": "low"
+        "title": "Forced reflow"
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "severity": "low"
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "severity": "low"
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
-        "severity": "low"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "severity": "low"
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
       }
     ],
     "resolved_issues": [
       {
-        "url": "https://homepriderestorationandcleaning.com/",
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/",
-        "id": "llms-txt",
-        "title": "llms.txt does not follow recommendations"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/",
-        "id": "title_too_long",
-        "title": "Title length 82 chars (over 65)"
-      },
-      {
         "url": "https://homepriderestorationandcleaning.com/services/",
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/",
-        "id": "llms-txt",
-        "title": "llms.txt does not follow recommendations"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/",
-        "id": "title_too_long",
-        "title": "Title length 78 chars (over 65)"
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery"
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "id": "llms-txt",
-        "title": "llms.txt does not follow recommendations"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "id": "title_too_long",
-        "title": "Title length 82 chars (over 65)"
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "llms-txt",
-        "title": "llms.txt does not follow recommendations"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "title_too_long",
-        "title": "Title length 81 chars (over 65)"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
-        "id": "llms-txt",
-        "title": "llms.txt does not follow recommendations"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/",
-        "id": "title_too_long",
-        "title": "Title length 82 chars (over 65)"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "id": "llms-txt",
-        "title": "llms.txt does not follow recommendations"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "id": "title_too_long",
-        "title": "Title length 82 chars (over 65)"
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
       }
     ],
-    "note": "All new_issues are low-severity performance 'insight' diagnostics newly surfaced by Lighthouse 13.4.0's expanded insight audit set; site performance held flat (avg 98, delta 0) and every page improved amber->green. render-blocking-insight remains present at partial score on all pages but dropped out of the per-URL top-5 by savings ranking, so it is not listed under resolved_issues."
+    "note": "Compared against the 2026-07-15 audit. 5 of 6 URLs are present in both runs; /service-areas/lehi-ut/ is new this month and has no prior baseline (see environment_caveats). Site-level avg_scores deltas are computed against the prior rollup, whose service-area row was a redirected re-measurement of the homepage."
   }
 }

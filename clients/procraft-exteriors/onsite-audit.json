@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "slug": "procraft-exteriors",
+  "site": "staging.rankai-procraft-exteriors.pages.dev",
+  "live_origin": "https://staging.rankai-procraft-exteriors.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-08-27T04:59:11Z",
+  "environment_caveats": [
+    "Audited the Cloudflare Pages staging preview because clients/procraft-exteriors.json has domain=null and no apex_cutover.completed_at. curl confirmed x-robots-tag: noindex on the staging origin, so the Lighthouse SEO category (69 on every page) is deflated by a failing is-crawlable audit. SEO was EXCLUDED from every verdict; verdicts use performance, accessibility and best_practices only. SEO score is inconclusive until apex cutover.",
+    "The production Pages origin https://rankai-procraft-exteriors.pages.dev serves the same build WITHOUT the noindex header (build_status is pushed_main). A future run could target it for a real SEO score before apex cutover.",
+    "Client record status is \"onboarding\", not \"active\". Audit proceeded because build_status is pushed_main and all 5 URLs returned HTTP 200.",
+    "url-plan.json contains only one service-landing archetype, so slot 3 yielded 1 URL instead of 2. Total audited set is 5 URLs, not 6.",
+    "plan-input.json marks chesterfield-mo as the primary service area, but url-plan.json generates no /service-areas/chesterfield-mo/ page (the homepage carries Chesterfield). Slot 4 fell back to the first area slug, st-louis-mo.",
+    "DataForSEO instant_pages reported has_micromarkup=false, but raw HTML inspection confirms JSON-LD (LocalBusiness, Organization, WebSite, BreadcrumbList, FAQPage, Service) on all 5 pages. Treated as a DataForSEO false negative, not a missing-schema finding.",
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1). Mobile scores would typically run 10-20 performance points lower.",
+    "INP is null on every page: the inp-breakdown-insight audit returned no value on a cold lab load. TTI was not substituted for INP."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-procraft-exteriors.pages.dev/",
+      "archetype": "home",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 480,
+        "CLS": 0.0143,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console (4 failed resource loads)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 52,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag noindex artifact, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "severity": "high",
+          "title": "Canonical points to a non-resolving placeholder host (https://procraft-exteriors.invalid/)"
+        },
+        {
+          "id": "low_character_count",
+          "severity": "low",
+          "title": "Word count 1095 is below the archetype target of 1200"
+        }
+      ],
+      "word_count": 1095,
+      "target_word_count": 1200,
+      "canonical": "https://procraft-exteriors.invalid/",
+      "title_length": 62,
+      "meta_description_length": 158
+    },
+    {
+      "url": "https://staging.rankai-procraft-exteriors.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 475,
+        "CLS": 0.002,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console (3 failed resource loads)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (1 breadcrumb link node(s))",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag noindex artifact, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "severity": "high",
+          "title": "Canonical points to a non-resolving placeholder host (https://procraft-exteriors.invalid/services/)"
+        },
+        {
+          "id": "low_character_count",
+          "severity": "low",
+          "title": "Word count 793 is below the archetype target of 800"
+        }
+      ],
+      "word_count": 793,
+      "target_word_count": 800,
+      "canonical": "https://procraft-exteriors.invalid/services/",
+      "title_length": 57,
+      "meta_description_length": 146
+    },
+    {
+      "url": "https://staging.rankai-procraft-exteriors.pages.dev/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 482,
+        "CLS": 0.003,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console (2 failed resource loads)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (2 breadcrumb link node(s))",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 53,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag noindex artifact, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "severity": "high",
+          "title": "Canonical points to a non-resolving placeholder host (https://procraft-exteriors.invalid/services/storm-damage-restoration/)"
+        }
+      ],
+      "word_count": 1821,
+      "target_word_count": 1100,
+      "canonical": "https://procraft-exteriors.invalid/services/storm-damage-restoration/",
+      "title_length": 61,
+      "meta_description_length": 112
+    },
+    {
+      "url": "https://staging.rankai-procraft-exteriors.pages.dev/service-areas/st-louis-mo/",
+      "archetype": "service-area",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 478,
+        "CLS": 0.0029,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console (2 failed resource loads)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (2 breadcrumb link node(s))",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag noindex artifact, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "severity": "high",
+          "title": "Canonical points to a non-resolving placeholder host (https://procraft-exteriors.invalid/service-areas/st-louis-mo/)"
+        }
+      ],
+      "word_count": 1291,
+      "target_word_count": 900,
+      "canonical": "https://procraft-exteriors.invalid/service-areas/st-louis-mo/",
+      "title_length": 58,
+      "meta_description_length": 114
+    },
+    {
+      "url": "https://staging.rankai-procraft-exteriors.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 485,
+        "CLS": 0.0201,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console (2 failed resource loads)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (1 breadcrumb link node(s))",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 54,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag noindex artifact, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "severity": "high",
+          "title": "Canonical points to a non-resolving placeholder host (https://procraft-exteriors.invalid/contact/)"
+        }
+      ],
+      "word_count": 610,
+      "target_word_count": 400,
+      "canonical": "https://procraft-exteriors.invalid/contact/",
+      "title_length": 56,
+      "meta_description_length": 125
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 100.0,
+      "accessibility": 96.2,
+      "best_practices": 96.0,
+      "seo": 69.0
+    },
+    "verdict": "red",
+    "url_count": 5,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 0,
+      "red": 5,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console (4 failed resource loads)",
+        "affected_urls": 5,
+        "severity": "high"
+      },
+      {
+        "id": "canonical",
+        "title": "Canonical points to a non-resolving placeholder host (https://procraft-exteriors.invalid/)",
+        "affected_urls": 5,
+        "severity": "high"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 5,
+        "severity": "low"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag noindex artifact, not a site defect)",
+        "affected_urls": 5,
+        "severity": "low"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio (1 breadcrumb link node(s))",
+        "affected_urls": 4,
+        "severity": "medium"
+      },
+      {
+        "id": "low_character_count",
+        "title": "Word count 1095 is below the archetype target of 1200",
+        "affected_urls": 2,
+        "severity": "low"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-procraft-exteriors.pages.dev/",
+        "archetype": "home",
+        "verdict": "red",
+        "main_issue": "Canonical points to a non-resolving placeholder host (https://procraft-exteriors.invalid/); Browser errors were logged to the console (4 failed resource loads)"
+      },
+      {
+        "url": "https://staging.rankai-procraft-exteriors.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "red",
+        "main_issue": "Canonical points to a non-resolving placeholder host (https://procraft-exteriors.invalid/services/); Browser errors were logged to the console (3 failed resource loads)"
+      },
+      {
+        "url": "https://staging.rankai-procraft-exteriors.pages.dev/services/storm-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "Canonical points to a non-resolving placeholder host (https://procraft-exteriors.invalid/services/storm-damage-restoration/); Browser errors were logged to the console (2 failed resource loads)"
+      },
+      {
+        "url": "https://staging.rankai-procraft-exteriors.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "red",
+        "main_issue": "Canonical points to a non-resolving placeholder host (https://procraft-exteriors.invalid/contact/); Browser errors were logged to the console (2 failed resource loads)"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  }
+}

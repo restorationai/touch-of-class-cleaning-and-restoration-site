@@ -643,7 +643,7 @@
     },
     {
       "id": "2026-07-09-does-homeowners-insurance-cover-storm-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-09T18:09:50Z",
       "written_at": "2026-08-27T04:24:26Z",
       "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-storm-damage/",
@@ -677,7 +677,8 @@
       "external_authority_candidates": [
         "https://www.iii.org/article/does-homeowners-insurance-cover-wind-damage"
       ],
-      "notes": "Companion to the existing water and fire insurance posts. Answer yes for sudden storm, wind, and hail events plus firefighting-style water, then cover exclusions (flood and storm surge need a separate flood policy, gradual leaks, poor maintenance). Frame for the Pacific Northwest reality: winter windstorms, atmospheric rivers, and falling trees, not hurricanes or tornadoes. Cross-link to the storm damage insurance claim checklist. DataForSEO was unavailable at research time, so volume and KD are pending backfill; queued via intent-first (uncovered, high-intent decision-stage informational)."
+      "notes": "Companion to the existing water and fire insurance posts. Answer yes for sudden storm, wind, and hail events plus firefighting-style water, then cover exclusions (flood and storm surge need a separate flood policy, gradual leaks, poor maintenance). Frame for the Pacific Northwest reality: winter windstorms, atmospheric rivers, and falling trees, not hurricanes or tornadoes. Cross-link to the storm damage insurance claim checklist. DataForSEO was unavailable at research time, so volume and KD are pending backfill; queued via intent-first (uncovered, high-intent decision-stage informational).",
+      "published_verified_at": "2026-08-27T04:25:39Z"
     },
     {
       "id": "2026-07-09-what-to-do-after-storm-damage",
