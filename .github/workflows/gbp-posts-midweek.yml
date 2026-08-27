@@ -41,7 +41,8 @@ jobs:
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
         run: |
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            python3 scripts/gbp_post.py due --all --dry-run
+            python3 scripts/gbp_post.py due --all
+            python3 scripts/gbp_post.py sync-states --all || echo "post-state sync failed (non-fatal)" --dry-run
           else
             python3 scripts/gbp_post.py due --all
           fi
