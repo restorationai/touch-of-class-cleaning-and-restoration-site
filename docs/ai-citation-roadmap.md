@@ -28,6 +28,19 @@ denominator of all three.
 | High-value directories | Yelp, BBB, Angi, Houzz, ThreeBestRated, TrustAnalytica, Facebook, HomeGuide, Bing, ContractorsRanked | Browser agent, nightly rotation + supervised runs | threebestrated/houzz/trustanalytica seeded fleet-wide 08-25 (21 clients each); contractorsranked = Pro pilot (watch lead-billing terms) |
 | Long tail + aggregators | Data Axle, Localeze, Foursquare, voice assistants, DexKnows-class directories | **BrightLocal Citation Builder via API** (persist after cancel, we pick directories) | Emily Hamblyn thread reopened 08-26; subscribe to a plan w/ API (Track/Manage/Grow all include API; 250-req trial key; CB-via-API may need Enterprise — asked) |
 | Award pages | Quality Business Awards ($30 on acceptance, indexed, dofollow, one proven AI Mode citation) | Manual application per client, 4.8+ real ratings only | Pro queued as pilot (payment needs Santino). businessrate.com = SCAM, never pay |
+
+**QBA operating procedure** (tracked as `quality_business_awards` in
+citation_listings, shows in the app's Business Listings build-out queue):
+1. Apply at https://qualitybusinessawards.com/request-consideration (free).
+   Only submit clients holding a REAL 4.8+ Google average (their criteria:
+   review quality across Google/Facebook/Yelp, low complaints, multi-year
+   record). Never submit a client below 4.8.
+2. They evaluate; on acceptance the award page costs $30 (Santino's card).
+3. On acceptance: pay, grab the award-page URL, flip the citation_listings
+   row to live with the URL, add the URL to the citation tracker + IndexNow
+   ping, and (optional) badge on the client site footer.
+4. Cadence: one client per batch, only after their review campaign has
+   pushed them solidly over 4.8 with volume. Pro = pilot.
 | Press releases | **38 Digital Market first** (AP News, Digital Journal, Google News), EIN Presswire second ($999/15 = $67 ea, explicit "AI/LLM platforms" distribution). IssueWire = never (own-network PBN) | We write (press_release.py drafts, app approval + Download .docx), Santino submits + pays | **ORDERED 08-26/27 for Pro**: Standard $97 + Do-Follow $60 + Podcast $45; intakes submitted (podcast order CE21B016_3, company-name link field). Await placement-URL report -> citation tracker. Verify Jack OK'd the quote before publication (editable via order ticket) |
 | Owned social surfaces | FB posts w/ NAP burned into images + link in first comment; native FB video uploads; best-of listicle posts; per-client podcast feed (System 5 audio → RSS → Spotify/Apple = DR16-class links) | Content engine additions | TO BUILD: podcast layer + FB mechanics |
 | Local FB groups | Personal-profile recommendation posts in public "{city} reviews/recommendations" groups are AI Mode-citable. Path: client OWNER posts, or genuinely happy customers asked at the thank-you step. We draft copy. NOT us astroturfing from fake/staff profiles | Manual, per campaign | Santino joined the Bakersfield group; Pro first. 08-27: default format switching to DIRECT owner-voice post modeled on the cited Enid example (FB post is login-walled to us — Santino pasting text; question-thread stays as the alternate). App drafts to be regenerated on the new template |
