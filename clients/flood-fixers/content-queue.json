@@ -332,10 +332,10 @@
     },
     {
       "id": "2026-07-13-difference-between-flood-damage-and-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-13T18:01:06Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-27T02:00:50Z",
+      "post_url": "https://flood-fixers.com/blog/difference-between-flood-damage-and-water-damage/",
       "primary_keyword": "difference between flood damage and water damage",
       "intent": "informational",
       "volume": null,
@@ -692,6 +692,187 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "Diagnostic checklist, zero Google-measured KD and a strong AI-retrieval shape (the SERP already carries an AI overview plus people-also-ask). Build it as discrete signal sections: the meter test with everything shut off, an unexplained bill spike, soggy or unusually green patches in the yard, running-water sound in a silent house, warm spots on a slab floor, low pressure, sinkholes or settling. Lead with slab symptoms rather than basement symptoms: San Diego housing stock is mostly slab-on-grade."
+    },
+    {
+      "id": "2026-08-27-does-renters-insurance-cover-basement-flooding",
+      "status": "queued",
+      "queued_at": "2026-08-27T02:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does renters insurance cover basement flooding",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 12,
+      "fan_out_cluster": [
+        "basement flooding insurance coverage",
+        "my basement flooded what will insurance cover",
+        "does insurance cover basement flooding from rain",
+        "basement flooding insurance",
+        "what to do when your basement floods from rain"
+      ],
+      "suggested_slug": "does-renters-insurance-cover-basement-flooding",
+      "suggested_title": "Does renters insurance cover basement flooding? What tenants in San Diego need to know",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/",
+        "https://www.iii.org/article/does-my-homeowners-insurance-cover-water-damage"
+      ],
+      "notes": "Highest-volume gap from this seed (720/mo, KD 12) and genuinely uncovered: both existing insurance posts address homeowners policies, not renters. Draw the line clearly between contents coverage (tenant policy) and structure coverage (landlord policy), and note the NFIP flood exclusion. Do not promise coverage outcomes."
+    },
+    {
+      "id": "2026-08-27-basement-flooded-who-to-call",
+      "status": "queued",
+      "queued_at": "2026-08-27T02:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "basement flooded who to call",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "who to call for basement flooding",
+        "basement flooding who to call",
+        "flooded basement cleanup companies near me",
+        "basement flooding services",
+        "when to call a professional for flood cleanup"
+      ],
+      "suggested_slug": "basement-flooded-who-to-call",
+      "suggested_title": "Basement flooded: who to call first (plumber, restoration company, or insurer)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/burst-pipe-repair/",
+        "/blog/choosing-a-restoration-company/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "CPC $94.88 with KD 0: the single best money-to-difficulty ratio in this seed family. Decision-stage query. Order the call list by scenario (still-active water goes to the plumber or shutoff first, then restoration, then the carrier) and close with the 24/7 line."
+    },
+    {
+      "id": "2026-08-27-why-is-my-basement-flooding",
+      "status": "queued",
+      "queued_at": "2026-08-27T02:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "why is my basement flooding",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 7,
+      "fan_out_cluster": [
+        "what causes basement flooding",
+        "basement flooding causes",
+        "basement flooding when it rains",
+        "basement flooding from rain",
+        "basement flooded after heavy rain",
+        "basement flooding solutions"
+      ],
+      "suggested_slug": "why-is-my-basement-flooding",
+      "suggested_title": "Why is my basement flooding? The 8 most common causes (and which are emergencies)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/burst-pipe-repair/",
+        "/blog/basement-flooding-prevention/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/floods"
+      ],
+      "notes": "Diagnostic angle, not covered by the existing prevention post. Cause-first structure so AI assistants can lift individual causes as passages. Include a San Diego note: most local basement flooding is plumbing or irrigation driven rather than seasonal groundwater, which differs from the national coverage that dominates this SERP."
+    },
+    {
+      "id": "2026-08-27-water-heater-flooding-basement",
+      "status": "queued",
+      "queued_at": "2026-08-27T02:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water heater flooding basement",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water heater leaking into basement",
+        "basement flooding water removal",
+        "how to dry out a basement fast",
+        "emergency flooding in basement",
+        "basement flooding what to do"
+      ],
+      "suggested_slug": "water-heater-flooding-basement",
+      "suggested_title": "Water heater flooding your basement: how to shut it down and what to do next",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "KD 0 at CPC $73.99. Lead with the shutoff sequence (power or gas first, then cold water supply) because that is the passage AI assistants will lift. A failed heater is clean Category 1 water that degrades to Category 2 within roughly 48 hours: state that window explicitly."
+    },
+    {
+      "id": "2026-08-27-basement-flooding-sump-pump-not-working",
+      "status": "queued",
+      "queued_at": "2026-08-27T02:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "basement flooding sump pump not working",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 0,
+      "fan_out_cluster": [
+        "sump pump failed basement flooded",
+        "basement flooding when it rains",
+        "basement flooding water removal",
+        "emergency flooding in basement",
+        "how to dry out a basement fast"
+      ],
+      "suggested_slug": "basement-flooding-sump-pump-not-working",
+      "suggested_title": "Basement flooding with a sump pump not working: emergency steps and next moves",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/blog/basement-flooding-prevention/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/floods"
+      ],
+      "notes": "KD 0 at CPC $73.24. Split the piece by failure mode (tripped breaker, stuck float, clogged intake, undersized pump, discharge frozen or blocked) and be explicit that standing water plus an electrical outlet is a stop-and-call-a-pro condition. Flood Fixers does not sell or install sump pumps: keep the CTA on cleanup and drying, not pump replacement."
     }
   ]
 }
