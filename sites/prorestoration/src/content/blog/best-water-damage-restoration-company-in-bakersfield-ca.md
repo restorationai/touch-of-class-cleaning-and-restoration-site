@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Bakersfield, CA"
 secondary_keywords: ["best water damage restoration companies Bakersfield", "top rated water damage restoration Bakersfield CA", "who is the best water damage restoration company in Bakersfield", "flood cleanup Bakersfield", "water damage repair Bakersfield", "water damage cleanup Bakersfield"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.prorestorationca.com/blog/2026/08/best-water-damage-restoration-company-in-bakersfield-ca/hero.webp"
-og: "https://images.prorestorationca.com/blog/2026/08/best-water-damage-restoration-company-in-bakersfield-ca/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-27T05:27:06Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/burst-pipe-repair/", "/blog/mold-after-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/choosing-a-restoration-company/", "/blog/burst-pipe-emergency-checklist/", "/contact/"]

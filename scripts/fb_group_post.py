@@ -92,6 +92,18 @@ def parse_best_of(slug: str):
                         if l.strip() and not l.strip().startswith("**Contact:"))
         entries.append({"n": int(em.group(1)), "name": strip_md(em.group(2)),
                         "blurb": first_sentences(body)})
+    if not entries:
+        # Third heading generation (Pro's Bakersfield post): client blurb
+        # under "## Who Is the Best...", competitors as PLAIN "### Name"
+        # entries under "## How the Other ... Compare".
+        top_sec = re.search(r"^## Who Is the Best.*?$\n+((?:(?!^##).*\n?)+)", text, re.M)
+        if top_sec:
+            entries.append({"n": 1, "name": "", "blurb": first_sentences(top_sec.group(1))})
+        comp_sec = re.search(r"^## How the Other.*?$\n((?:.*\n?)*?)(?=^## [^#]|\Z)", text, re.M)
+        if comp_sec:
+            for cm in re.finditer(r"^### (.+?)\s*$\n+((?:(?!^#).*\n?)+?)(?=^#|\Z)", comp_sec.group(1), re.M):
+                entries.append({"n": len(entries) + 1, "name": strip_md(cm.group(1)),
+                                "blurb": first_sentences(cm.group(2))})
     return {"service": service, "city": city, "st": st, "entries": entries}
 
 
