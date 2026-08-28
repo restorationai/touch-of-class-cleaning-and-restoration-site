@@ -140,8 +140,15 @@ def fetch_competitors(service: str, city: str, state: str,
         votes = ((it.get("rating") or {}).get("votes_count"))
         if not name or rating is None:
             continue
-        # never list the client as their own competitor
-        if client_tokens and client_tokens & {t for t in name.lower().split() if len(t) > 3}:
+        # never list the client as their own competitor — token overlap
+        # AND collapsed-name containment ("RestorationXpress" vs Google's
+        # "Restoration Xpress" shared zero tokens, so the client's own
+        # listing shipped as competitor #5 in their Davie best-of, 08-28)
+        _collapse = lambda x: __import__("re").sub(r"[^a-z0-9]", "", x.lower())
+        _self_overlap = client_tokens and client_tokens & {t for t in name.lower().split() if len(t) > 3}
+        _self_collapsed = _collapse(client_name) and (
+            _collapse(client_name) in _collapse(name) or _collapse(name) in _collapse(client_name))
+        if _self_overlap or _self_collapsed:
             continue
         out.append({"name": name, "google_rating": rating,
                     "review_count": votes or 0})
