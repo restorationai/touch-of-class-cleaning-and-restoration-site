@@ -7,10 +7,10 @@
   "contact": "",
   "status": "onboarding",
   "plan_status": "planned",
-  "updated_at": "2026-08-24T10:58:47.390461+00:00",
+  "updated_at": "2026-08-28T02:02:06Z",
   "notes": "Signed 2026-08-23. REBUILT 08-24 on the CONSTRUCTION template (Santino: they are a construction company with a corporate/commercial vibe; restoration is one silo called Insurance Services on their site). Migrating buildwithtdi.com (Scorpion) -> tdiusa.com. CSLB license PENDING (cutover blocked). Leads go to THEIR HubSpot 48033708 + CallRail. Contact email for footer pending from Rob Carpenter.",
   "indexnow_key": "a5ba5c9b00a249bd9fe79e311dacc8a7",
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "cutover_prep": {
     "domain": "tdiusa.com",
     "harvested_at": "2026-08-23T14:07:42+00:00",
@@ -33,7 +33,8 @@
     "url_count": 211,
     "pages_status": "exists",
     "last_rendered_at": "2026-08-24T08:35:33.951138+00:00",
-    "last_pushed_staging_at": "2026-08-24T10:58:47.390428+00:00"
+    "last_pushed_staging_at": "2026-08-24T10:58:47.390428+00:00",
+    "last_pushed_main_at": "2026-08-28T01:51:36.073442+00:00"
   },
   "gbp": {
     "place_id": "ChIJDbb428TXmoARvyLLpaLNr3E",
@@ -41,5 +42,15 @@
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJDbb428TXmoARvyLLpaLNr3E",
     "gbp_phone": "+19162597848",
     "note": "claimed listing, 5.0/9 reviews, primary category Remodeler (2026-08-25 lookup); GBP phone differs from site 877 line - reconcile at cutover"
+  },
+  "audit": {
+    "last_audit_at": "2026-08-28T02:00:51Z",
+    "last_audit_verdict": "amber",
+    "last_audit_report_path": "audit-runs/2026-08-28-onsite-audit.md",
+    "last_audit_origin": "https://staging.rankai-tdi-builders.pages.dev",
+    "last_audit_origin_source": "staging",
+    "last_audit_form_factor": "desktop",
+    "last_audit_url_count": 6,
+    "last_audit_seo_excluded": true
   }
 }

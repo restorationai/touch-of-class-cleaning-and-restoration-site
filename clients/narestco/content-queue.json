@@ -1171,6 +1171,45 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "Authority/definition piece anchoring the sewage cluster. Explain IICRC S500 water categories 1-2-3, why sewage is category 3, and health implications. Links out to sewage cleanup + water damage services."
+    },
+    {
+      "id": "2026-08-28-pin-water-damage-repair",
+      "status": "queued",
+      "queued_at": "2026-08-28T02:11:47.875237+00:00",
+      "prioritized": true,
+      "source": "strategist-pin",
+      "primary_keyword": "water damage repair",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "target_word_count": 1500,
+      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table."
+    },
+    {
+      "id": "2026-08-28-pin-biohazard-cleanup",
+      "status": "queued",
+      "queued_at": "2026-08-28T02:11:47.875237+00:00",
+      "prioritized": true,
+      "source": "strategist-pin",
+      "primary_keyword": "biohazard cleanup",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "target_word_count": 1500,
+      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table."
+    },
+    {
+      "id": "2026-08-28-pin-fire-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-08-28T02:11:47.875237+00:00",
+      "prioritized": true,
+      "source": "strategist-pin",
+      "primary_keyword": "fire damage restoration",
+      "intent": "commercial",
+      "volume": 135000,
+      "kd": 19,
+      "target_word_count": 1500,
+      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table."
     }
   ]
 }

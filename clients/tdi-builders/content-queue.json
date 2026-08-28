@@ -3,7 +3,7 @@
   "items": [
     {
       "id": "2026-08-28-what-does-a-general-contractor-do",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-28T00:00:00Z",
       "written_at": "2026-08-28T01:51:29Z",
       "post_url": "https://tdiusa.com/blog/what-does-a-general-contractor-do/",
@@ -36,7 +36,8 @@
         "https://www.cslb.ca.gov/",
         "https://www.nahb.org/"
       ],
-      "notes": "Highest-volume uncovered term in this run (5400/mo, KD 2) and nothing on the site targets it. Open with a plain-language definition, then a scope-of-work table (permits, scheduling, subs, inspections, warranty). Include a California-specific section on CSLB licensing since the ChatGPT decomposition surfaced license verification as the first thing homeowners are told to check. Link out to /services/general-contracting/ for the transactional handoff."
+      "notes": "Highest-volume uncovered term in this run (5400/mo, KD 2) and nothing on the site targets it. Open with a plain-language definition, then a scope-of-work table (permits, scheduling, subs, inspections, warranty). Include a California-specific section on CSLB licensing since the ChatGPT decomposition surfaced license verification as the first thing homeowners are told to check. Link out to /services/general-contracting/ for the transactional handoff.",
+      "published_verified_at": "2026-08-28T01:52:39Z"
     },
     {
       "id": "2026-08-28-general-contractor-vs-subcontractor",
