@@ -1975,6 +1975,22 @@ def video_verification_call_offer(body: str) -> str | None:
     return None
 
 
+def unlinked_preview_invite(body: str) -> str | None:
+    """A message that mentions the client's website/preview MUST carry a full
+    URL in the same message — Jimmy / California Restoration West 2026-08-28:
+    the instant inbound reply wrote "take a look at your new website preview"
+    two days into the build, with no link and nothing review-ready. The
+    composer's prompt rules could not save a path that freeforms; this makes
+    the class mechanically unsendable from EVERY path. (The 5-day soak is
+    enforced where preview links get released into context, so a linkless
+    mention has no legitimate form.)"""
+    if _PREVIEW_ASK_RE.search(body) and not re.search(r"https?://\S+", body):
+        return ("mentions the website preview without a URL — either the "
+                "verified preview link is in the message or the preview is "
+                "not mentioned at all")
+    return None
+
+
 def outbound_guard(body: str, evidence: str | None) -> str | None:
     """Every mechanical refusal an outbound must survive, in one call so no
     send path can quietly miss one. Returns the first violation, else None.
@@ -1985,7 +2001,8 @@ def outbound_guard(body: str, evidence: str | None) -> str | None:
     return (unsupported_done_claim(body, evidence)
             or persona_attendance_claim(body)
             or false_registrar_claim(body)
-            or capability_violation(body))
+            or capability_violation(body)
+            or unlinked_preview_invite(body))
 
 
 def _valid_tz(name: str) -> bool:
@@ -6928,6 +6945,37 @@ def _fmt_card(c: dict) -> str:
     return bits or "contact card (could not parse — raw .vcf saved)"
 
 
+def _classify_texted_image(jpeg_bytes: bytes, msg_text: str) -> str | None:
+    """What IS this image a client just texted? Returns job_photo /
+    screenshot / document / brand, or None when the call fails (callers
+    fall back to the aspect-ratio heuristic). Born from Jimmy / California
+    Restoration West 2026-08-28: two cropped screenshots of a Squarespace
+    invite error were filed as job photos and thanked with "queued for your
+    Google profile" — aspect ratio alone cannot tell a cropped screenshot
+    from a job photo, but one look can."""
+    try:
+        import base64
+        out = anthropic_json(
+            "You classify a single image a home-services client texted to "
+            "their marketing agency. Reply with ONE JSON object: "
+            '{"class": "job_photo" | "screenshot" | "document" | "brand"}. '
+            "job_photo = real-world photo of work, damage, equipment, crew, "
+            "vehicles or property. screenshot = any phone/computer UI, app, "
+            "error message, settings page or website capture. document = a "
+            "photo/scan of paperwork (insurance, license, bill, form, "
+            "letter). brand = logo, color palette, font sample or business "
+            "card.",
+            "Accompanying text from the client (may be empty): "
+            + (msg_text or "(none)")[:400],
+            max_tokens=600,
+            images=[{"media_type": "image/jpeg",
+                     "data": base64.b64encode(jpeg_bytes).decode()}])
+        c = str(out.get("class") or "").strip().lower()
+        return c if c in ("job_photo", "screenshot", "document", "brand") else None
+    except Exception:  # noqa: BLE001 — classification is best-effort
+        return None
+
+
 def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
     """File a client's texted photos/videos where the hub upload page puts
     them, so nothing a client sends is ever lost:
@@ -6947,7 +6995,7 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                       public 'branding' bucket like the media does)
     Images are re-encoded (EXIF/GPS stripped) like the upload page does."""
     out = {"photos": 0, "screenshots": 0, "videos": 0, "contacts": 0,
-           "failed": 0, "contact_cards": [], "brand_refs": 0}
+           "failed": 0, "contact_cards": [], "brand_refs": 0, "documents": 0}
     cid = company["id"]
     # BRAND CONTEXT (Sarha / Air Care 2026-08-11): she texted 8 color-picker
     # screenshots saying "these specific colors and fonts" — they were filed
@@ -6990,9 +7038,18 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                 buf = BytesIO()
                 img.save(buf, "JPEG", quality=85)   # re-encode = EXIF/GPS gone
                 body, up_type = buf.getvalue(), "image/jpeg"
-                if brand_context:
+                cls = None if brand_context else _classify_texted_image(
+                    body, msg.get("body") or "")
+                if brand_context or cls == "brand":
                     path, kind = f"{cid}/brand/refs/sms-{stamp}.jpg", "brand_refs"
-                elif h and w / h < 0.5:             # screenshot-shaped
+                elif cls == "screenshot":
+                    path, kind = f"{cid}/job-photos/inbox/sms-{stamp}.jpg", "screenshots"
+                elif cls == "document":
+                    # paperwork (insurance, licenses, bills) — never GBP media
+                    path, kind = f"{cid}/docs/inbox/sms-{stamp}.jpg", "documents"
+                elif cls == "job_photo":
+                    path, kind = f"{cid}/job-photos/sms-{stamp}.jpg", "photos"
+                elif h and w / h < 0.5:             # classifier failed: screenshot-shaped
                     path, kind = f"{cid}/job-photos/inbox/sms-{stamp}.jpg", "screenshots"
                 else:
                     path, kind = f"{cid}/job-photos/sms-{stamp}.jpg", "photos"
@@ -8569,6 +8626,12 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
 # thank-you text. Everything else in the bucket is SYSTEM-written (review-qr,
 # generated art, reports) and must never trigger a "thanks for the upload".
 _UPLOAD_KINDS = (
+    # job-photos/inbox/ = quarantined screenshots (see ingest_inbound_media):
+    # they must NEVER get the "queued for your Google profile" receipt —
+    # Jimmy's Squarespace-error screenshots were thanked as job photos
+    # (2026-08-28). Order matters: the inbox rule must sit above the
+    # job-photos/ prefix it shadows.
+    ("job-photos/inbox/", None),
     ("job-photos/", "photo"),
     ("job-videos/", "video"),
     ("team/", "photo"),
@@ -8585,7 +8648,7 @@ def _upload_kind(rel_path: str) -> str | None:
     artifacts (the review QR lives at brand/review-qr.png — ours)."""
     for prefix, kind in _UPLOAD_KINDS:
         if rel_path.startswith(prefix):
-            return kind
+            return kind          # kind=None => quarantined, no ack
     return None
 
 
@@ -9553,6 +9616,30 @@ def cmd_selfcheck(_args) -> int:
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} "
               f"{'BLOCK' if got else 'pass ':<5} {text[:62]!r}")
+    print("\npreview mentions carry a URL or don't exist (Jimmy 08-28):")
+    for text, want_blocked in [
+        ("When you get a chance, take a look at your new website preview and let us know your thoughts.", True),
+        ("Your new site is built! Here's the preview of your website: https://staging.rankai-x.pages.dev/ - what do you think?", False),
+        ("The team's already started on your website, more soon.", False),
+        ("Quick update on your site build.", False),
+    ]:
+        got = bool(unlinked_preview_invite(text))
+        ok = got == want_blocked
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} "
+              f"{'BLOCK' if got else 'pass ':<5} {text[:62]!r}")
+
+    print("\nquarantined screenshots never get the photo-queued receipt:")
+    for path, want in [
+        ("job-photos/inbox/sms-123.jpg", None),
+        ("job-photos/sms-123.jpg", "photo"),
+        ("docs/inbox/sms-123.jpg", "file"),
+    ]:
+        got = _upload_kind(path)
+        ok = got == want
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {str(got):<6} {path}")
+
     print("\ncall requests are needs_santino by definition:")
     for text, want in _CALL_REQUEST_CASES:
         got = client_asked_for_a_call(text)
