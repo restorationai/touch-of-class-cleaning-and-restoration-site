@@ -104,6 +104,15 @@ def parse_best_of(slug: str):
             for cm in re.finditer(r"^### (.+?)\s*$\n+((?:(?!^#).*\n?)+?)(?=^#|\Z)", comp_sec.group(1), re.M):
                 entries.append({"n": len(entries) + 1, "name": strip_md(cm.group(1)),
                                 "blurb": first_sentences(cm.group(2))})
+    if len(entries) < 2:
+        # Fourth heading variant (QCI Auburn / PuroClean Las Vegas): every
+        # company is its own H2 shaped "## {Name}: {Label}" — no numbers.
+        # First matching section is the client, the rest are competitors.
+        h2 = [(m.group(1).strip(), m.group(3))
+              for m in re.finditer(r"^## ([^:\n?]+?): (.+?)\s*$\n+((?:(?!^##).*\n?)+?)(?=^##|\Z)", text, re.M)]
+        if len(h2) >= 2:
+            entries = [{"n": i + 1, "name": strip_md(name), "blurb": first_sentences(body)}
+                       for i, (name, body) in enumerate(h2)]
     return {"service": service, "city": city, "st": st, "entries": entries}
 
 
