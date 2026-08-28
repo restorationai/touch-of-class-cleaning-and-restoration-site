@@ -3750,6 +3750,55 @@ def gbp_ask_guard(company: dict, items: list[dict],
             [d for d in directives if d not in drop_d], note)
 
 
+_ASK_TOPIC_RES = {
+    # topic keywords a prohibition note might name -> ask text that topic owns
+    "google-connect": re.compile(
+        r"google|business\s+profile|\bgbp\b|\bconnect", re.I),
+}
+
+
+def boss_prohibition_guard(company: dict, items: list[dict],
+                           directives: list[dict] | None, dry_run: bool):
+    """An OPEN prohibitive ops note from Santino ("Stop reaching out and
+    asking Heath to connect his Google Business profile", Davis 2026-08-28)
+    must mechanically drop the matching recurring asks — not just sit in the
+    LLM's context hoping to be honored. Scoped to the topics the note names;
+    everything else composes normally. The note staying OPEN keeps the
+    suppression alive; resolving it re-arms the asks."""
+    directives = directives or []
+    try:
+        notes = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq."
+                    f"{company['id']}&status=eq.open&select=body,author") or []
+    except Exception:  # noqa: BLE001 — fail open, other guards still run
+        return items, directives, None
+    prohibitions = [
+        str(n.get("body") or "") for n in notes
+        if _DIRECTIVE_PROHIBIT_RE.match(str(n.get("body") or "").strip())
+        and not str(n.get("author") or "").strip().lower().startswith(_MACHINE_AUTHORS)]
+    if not prohibitions:
+        return items, directives, None
+    drop_i: list[dict] = []
+    drop_d: list[dict] = []
+    reasons: list[str] = []
+    for topic, topic_re in _ASK_TOPIC_RES.items():
+        hits = [b for b in prohibitions if topic_re.search(b)]
+        if not hits:
+            continue
+        for coll, dropped in ((items, drop_i), (directives, drop_d)):
+            for it in coll:
+                blob = " ".join(str(it.get(k) or "") for k in
+                                ("action_key", "title", "rationale", "body"))
+                if topic_re.search(blob):
+                    dropped.append(it)
+        reasons.append(f"[boss-prohibition] {topic}: open note "
+                       f"({hits[0][:70]!r}) suppresses the ask")
+    for r in reasons:
+        print("  " + r)
+    return ([i for i in items if i not in drop_i],
+            [d for d in directives if d not in drop_d],
+            ("\n".join(reasons) or None))
+
+
 def access_ask_guard(company: dict, items: list[dict],
                      directives: list[dict] | None, dry_run: bool):
     """One gate over every ask for access we might already hold.
@@ -3762,7 +3811,9 @@ def access_ask_guard(company: dict, items: list[dict],
                                                 dry_run)
     items, directives, gbp_note = gbp_ask_guard(company, items, directives,
                                                 dry_run)
-    note = "\n".join(n for n in (ads_note, gbp_note) if n)
+    items, directives, veto_note = boss_prohibition_guard(company, items,
+                                                          directives, dry_run)
+    note = "\n".join(n for n in (ads_note, gbp_note, veto_note) if n)
     return items, directives, (note or None)
 
 
