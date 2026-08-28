@@ -193,6 +193,7 @@ def build_post(company: dict, parsed) -> tuple[str, str]:
         "HOW TO USE: post THE POST below from a PERSONAL profile (the owner's, or someone who can genuinely vouch) in a PUBLIC local "
         f"{city} Facebook group (recommendations / word-of-mouth / neighbors). It reads as community research, ranks {name} #1 with real local alternatives for credibility, and invites discussion. This exact structure earned a Google AI Mode citation (see docs/fb-group-post-reference-enid.md).\n"
         "- POSTER CHOICE (Santino 2026-08-27): the poster should be someone the group will NOT recognize as affiliated with the company (not the owner, not staff, not an admin of the company's FB page). Facebook does not expose page-admin status publicly, so the mechanical risk is low; the real risk is a group member recognizing the poster and calling the thread fake, which kills the asset. If the owner is the only option, use the transparent owner-voice alternate instead of posing as a neutral researcher.\n"
+        "- HEADLINE STYLE: after pasting, click into the first line and use the composer's text-style control (Aa) to set it to Heading 1. Facebook only applies heading styles inside the composer; a paste cannot carry them.\n"
         "- Group must be PUBLIC or search engines and AI assistants cannot read the thread.\n"
         "- One post per group. Never repost the same text word-for-word in another group; rewrite it.\n"
         "- Competitor lines are REAL companies from our published best-of comparison; do not swap in invented ones.\n"
