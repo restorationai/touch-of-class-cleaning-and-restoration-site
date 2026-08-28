@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+local plumber,transactional,22200,24,36.72,1,plumber,,,yes
+plumbing company near me,transactional,18100,24,35.54,1,plumber,,,no
+plumbing repair near me,transactional,14800,5,29.89,1,plumber,,,no
+licensed plumber,transactional,8100,26,24.01,1,plumber,,,yes
+residential plumber,transactional,5400,22,22.07,1,plumber,,,no
+plumbers near me small jobs,transactional,1000,5,20.71,1,plumber,,,no
+plumber near me,transactional,823000,19,38.8,3,plumber,,/,no
+emergency plumber near me,transactional,110000,0,74.79,3,plumber,,/services/emergency-plumbing/,no
+emergency plumber,transactional,60500,0,74.91,3,plumber,,/services/emergency-plumbing/,no
+24 hour plumber near me,transactional,49500,0,68.93,3,plumber,,/services/emergency-plumbing/,no
+24 hour plumber,transactional,8100,2,75.15,3,plumber,,/services/emergency-plumbing/,no
+plumber near me open now,transactional,2400,3,62.61,3,plumber,,/services/emergency-plumbing/,no
+plumber riverside ca,transactional,1900,12,34.94,3,plumber,Riverside,/service-areas/riverside-ca/,no
+plumber in riverside ca,transactional,1900,12,34.94,3,plumber,Riverside,/service-areas/riverside-ca/,no
+plumbers in riverside ca,transactional,1900,12,34.94,3,plumber,Riverside,/service-areas/riverside-ca/,no
+plumber corona ca,transactional,1300,17,41.61,3,plumber,Corona,/,no
+plumber in corona ca,transactional,1300,28,41.61,3,plumber,Corona,/,no
+corona plumber,transactional,1300,17,41.61,3,plumber,Corona,/,no
+plumbers in corona ca,transactional,1300,28,41.61,3,plumber,Corona,/,no
+plumber anaheim ca,transactional,1300,0,48.92,3,plumber,Anaheim,/service-areas/anaheim-ca/,no
+anaheim plumber,transactional,1300,24,48.92,3,plumber,Anaheim,/service-areas/anaheim-ca/,no
+plumber in anaheim ca,transactional,1300,0,48.92,3,plumber,Anaheim,/service-areas/anaheim-ca/,no
+plumbers in anaheim ca,transactional,1300,0,48.92,3,plumber,Anaheim,/service-areas/anaheim-ca/,no
+riverside plumber,transactional,1000,10,32.98,3,plumber,Riverside,/service-areas/riverside-ca/,no
+plumbing services corona ca,transactional,110,17,82.11,3,plumber,Corona,/services/,no
+emergency plumber anaheim ca,transactional,110,,,3,plumber,Anaheim,/service-areas/anaheim-ca/emergency-plumbing/,no
+plumbing services anaheim ca,transactional,110,,18.36,3,plumber,Anaheim,/service-areas/anaheim-ca/,no
+plumber norco ca,transactional,90,0,39.99,3,plumber,Norco,/service-areas/norco-ca/,no
+plumber in norco ca,transactional,90,0,39.99,3,plumber,Norco,/service-areas/norco-ca/,no
+norco plumber,transactional,70,0,54.53,3,plumber,Norco,/service-areas/norco-ca/,no
+emergency plumber riverside ca,transactional,70,0,69.4,3,plumber,Riverside,/service-areas/riverside-ca/emergency-plumbing/,no
+best plumber near me,commercial,14800,24,29.28,1,plumber,,,yes
+affordable plumber near me,commercial,14800,18,40.33,1,plumber,,,no
+how much does a plumber cost,commercial,1600,0,16.08,1,plumber,,,yes
+how much does a plumber cost per hour,commercial,1600,11,12.17,1,plumber,,,no
+how much should a plumber charge per hour,commercial,1600,0,12.17,1,plumber,,,no
+how much does a plumber charge to install a toilet,commercial,1000,3,10.44,1,plumber,,,no
+how much does a plumber charge to unclog drain,commercial,480,0,36.12,1,plumber,,,no
+should i tip a plumber,informational,2400,0,3.88,1,plumber,,,yes
+do i need a licensed plumber,informational,260,0,18.95,1,plumber,,,no

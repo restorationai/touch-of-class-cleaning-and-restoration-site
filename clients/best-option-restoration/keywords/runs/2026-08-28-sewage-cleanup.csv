@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,would_be_priority,fan_out_parent,city_modifier,covered_by,queued
+sewage cleanup,transactional,1600,21,47.66,2,1,sewage cleanup,,,no
+sewage cleanup near me,transactional,1000,7,65.03,2,1,sewage cleanup,,,no
+sewage cleanup service,transactional,720,6,47.36,2,1,sewage cleanup,,,no
+sewage cleanup service near me,transactional,320,,46.07,2,1,sewage cleanup,,,no
+sewage cleanup companies,transactional,320,,,2,1,sewage cleanup,,,no
+emergency sewage cleanup,transactional,260,3,,2,1,sewage cleanup,,,no
+sewage backup cleanup near me,transactional,170,,,2,1,sewage cleanup,,,no
+basement sewage cleanup,transactional,110,10,47.64,2,1,sewage cleanup,,,no
+sewage backup cleanup services,transactional,90,5,114.02,2,1,sewage cleanup,,,no
+basement sewage backup cleanup,transactional,70,12,26.3,2,1,sewage cleanup,,,no
+professional sewage cleanup,transactional,70,,32.84,2,1,sewage cleanup,,,no
+sewage backup service,transactional,70,,30.23,2,1,sewage cleanup,,,no
+raw sewage cleanup,transactional,50,10,,2,1,sewage cleanup,,,no
+sewage backup cleanup cost,commercial,260,,,2,1,sewage cleanup,,,no
+sewage cleanup cost,commercial,70,,,2,1,sewage cleanup,,,no
+best cleaner for sewage backup,commercial,70,8,11.93,2,1,sewage cleanup,,,no
+basement sewage cleanup cost,commercial,50,,14.57,2,1,sewage cleanup,,,no
+backup sewage,informational,2400,49,32.45,2,2,sewage cleanup,,,no
+sewage backup basement,informational,720,2,38.33,2,1,sewage cleanup,,,no
+clean sewage backup,informational,590,21,35.64,2,1,sewage cleanup,,,no
+sewage backup in tub,informational,390,,41.24,2,1,sewage cleanup,,,no
+shower backup sewage,informational,320,,35.97,2,1,sewage cleanup,,,no
+sewage backup in home,informational,260,20,9.89,2,1,sewage cleanup,,,no
+how long does a landlord have to fix sewage backup,informational,210,,,2,1,sewage cleanup,,,no
+does home insurance cover sewage backup,informational,210,1,,2,1,sewage cleanup,,,no
+sewage backup outside,informational,170,2,,2,1,sewage cleanup,,,no
+sewage backup basement floor drain,informational,170,,,2,1,sewage cleanup,,,no
+how to clean up raw sewage in basement,informational,140,12,25.29,2,1,sewage cleanup,,,no
+how to clean sewage backup,informational,110,5,,2,1,sewage cleanup,,,no
+what is sewage backup,informational,110,,7.14,2,1,sewage cleanup,,,no
+how to clean up a sewage spill outdoors,informational,110,5,,2,1,sewage cleanup,,,no
+signs of sewage backup,informational,90,4,,2,1,sewage cleanup,,,no
+toilet sewage backup,informational,70,,0.16,2,1,sewage cleanup,,,no
+how to clean sewage backup in shower,informational,70,4,,2,1,sewage cleanup,,,no
+how to clean up sewage backup in basement,informational,70,16,19.22,2,1,sewage cleanup,,,no
+sewage backup in yard,informational,70,8,,2,1,sewage cleanup,,,no
+tenant rights sewage backup,informational,50,2,,2,1,sewage cleanup,,,no
+sewage backup in basement health risks,informational,50,,49.64,2,1,sewage cleanup,,,no
+what causes sewage backup,informational,50,36,3.02,2,1,sewage cleanup,,,no
+sewage backup insurance,informational,40,,20.81,2,2,sewage cleanup,,,no

@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+construction company sacramento,transactional,590,14,4.23,2,general contractor,Sacramento,,no
+general contractor,transactional,165000,28,10.39,3,general contractor,,,no
+construction company near me,transactional,74000,27,6.96,3,general contractor,,/,no
+general contractors near me,transactional,74000,9,10.07,3,general contractor,,/,no
+licensed general contractor,transactional,9900,40,8.86,3,general contractor,,,no
+commercial general contractor,transactional,5400,0,5.47,3,general contractor,,,no
+general contracting services,transactional,2900,4,1.39,3,general contractor,,,no
+residential general contractor,transactional,2400,16,9.35,3,general contractor,,,no
+general contracting sacramento,transactional,880,,12.72,3,general contractor,Sacramento,/services/general-contracting/,no
+general contractor in sacramento,transactional,880,0,12.72,3,general contractor,Sacramento,/,no
+general contractor sacramento,transactional,880,0,12.72,3,general contractor,Sacramento,/,no
+general contractors sacramento ca,transactional,880,17,12.72,3,general contractor,Sacramento,/,no
+sacramento general contractor,transactional,880,0,12.72,3,general contractor,Sacramento,/,no
+general contractor modesto,transactional,320,24,7.32,3,general contractor,Modesto,/service-areas/modesto-ca/general-contracting/,no
+general contractor in roseville ca,transactional,170,0,3.66,3,general contractor,Roseville,/service-areas/roseville-ca/general-contracting/,no
+general contractor roseville,transactional,170,0,3.66,3,general contractor,Roseville,/service-areas/roseville-ca/general-contracting/,no
+roseville general contractor,transactional,170,0,3.66,3,general contractor,Roseville,/service-areas/roseville-ca/general-contracting/,no
+folsom general contractor,transactional,30,,9.59,3,general contractor,Folsom,/service-areas/folsom-ca/general-contracting/,no
+general contractor folsom,transactional,30,0,9.59,3,general contractor,Folsom,/service-areas/folsom-ca/general-contracting/,no
+elk grove general contractor,transactional,20,,,3,general contractor,Elk Grove,/service-areas/elk-grove-ca/general-contracting/,no
+general contractor elk grove,transactional,20,0,,3,general contractor,Elk Grove,/service-areas/elk-grove-ca/general-contracting/,no
+general contractor rancho cordova,transactional,10,,5.81,3,general contractor,Rancho Cordova,/service-areas/rancho-cordova-ca/general-contracting/,no
+general contractor west sacramento,transactional,10,,,3,general contractor,West Sacramento,/service-areas/west-sacramento-ca/general-contracting/,no
+residential general contractor sacramento,transactional,10,,,3,general contractor,Sacramento,/,no
+general contractor vs subcontractor,commercial,260,0,,1,general contractor,,,yes
+how much does a general contractor cost,commercial,140,0,11.2,1,general contractor,,,yes
+construction companies sacramento,commercial,590,14,4.23,2,general contractor,Sacramento,,no
+general contractor cost,commercial,140,7,3.96,2,general contractor,,,no
+cost to rebuild a house after a fire,commercial,20,0,,2,general contractor,,,no
+how much do general contractors charge percentage,commercial,,,,2,general contractor,,,no
+best general contractor near me,commercial,2900,16,9.78,3,general contractor,,/,no
+what does a general contractor do,informational,5400,2,3.76,1,general contractor,,,yes
+does homeowners insurance cover rebuilding after a fire,informational,,,,1,general contractor,,,yes
+how long does a home remodel take,informational,70,0,,2,general contractor,,,no
+what is a general contractor responsible for,informational,20,13,,2,general contractor,,,no
+do i need a general contractor for a remodel,informational,,,,2,general contractor,,,no
+how to check a contractor license in california,informational,,,,2,general contractor,,,no
+is a general contractor license required in california,informational,,,,2,general contractor,,,no
+how to choose a general contractor,informational,110,0,9.58,3,general contractor,,/blog/choosing-a-general-contractor/,no
+what questions to ask a general contractor,informational,40,0,0.2,3,general contractor,,/blog/questions-to-ask-before-signing-contract/,no

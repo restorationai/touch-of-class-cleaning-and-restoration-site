@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+sewage cleanup,transactional,1600,21,47.66,2,sewage cleanup,,,no
+sewage backup in basement,transactional,720,0,38.33,2,sewage cleanup,,,no
+sewage backup cleanup near me,transactional,170,0,,2,sewage cleanup,,,no
+floor drain plug to prevent sewer backup,transactional,140,0,,2,sewage cleanup,,,no
+sewer backup in basement cleanup,transactional,70,10,26.3,2,sewage cleanup,,,no
+sewage cleanup near me,transactional,,0,,2,sewage cleanup,,,no
+sewage cleanup services,transactional,,2,,2,sewage cleanup,,,no
+sewage cleanup in basement,transactional,,12,,2,sewage cleanup,,,no
+sewage backup in condo who is responsible,transactional,,,,2,sewage cleanup,,,no
+residential sewage cleanup near me,transactional,,,,2,sewage cleanup,,,no
+sewage cleanup today,transactional,,,,2,sewage cleanup,,,no
+sewage cleanup cost,commercial,,0,,2,sewage cleanup,,,no
+sewage cleanup companies,commercial,,0,,2,sewage cleanup,,,no
+basement sewage cleanup cost,commercial,,0,,2,sewage cleanup,,,no
+sewage backup cleanup cost,commercial,,0,,2,sewage cleanup,,,no
+best sewage cleanup companies,commercial,,,,2,sewage cleanup,,,no
+sewage cleanup services cost,commercial,,,,2,sewage cleanup,,,no
+sewer backup repair cost,commercial,,0,,2,sewage cleanup,,,no
+crawl space sewage cleanup cost,commercial,,0,,2,sewage cleanup,,,no
+sewer backup city responsibility,informational,260,0,,2,sewage cleanup,,,no
+what to do if exposed to raw sewage,informational,170,13,,2,sewage cleanup,,,no
+how to clean up raw sewage in basement,informational,140,12,25.29,2,sewage cleanup,,,no
+how to clean sewage backup in basement,informational,50,2,19.22,2,sewage cleanup,,,no
+what causes sewage backup in basement,informational,,0,,2,sewage cleanup,,,no
+how to prevent sewage backup in basement,informational,,0,,2,sewage cleanup,,,no
+is it safe to stay in a house with sewage backup,informational,,,,2,sewage cleanup,,,no
+how long does it take to get sick from sewage backup,informational,,,,2,sewage cleanup,,,no
+how to disinfect after sewer backup,informational,,4,,2,sewage cleanup,,,no
+who to call about raw sewage,informational,,15,,2,sewage cleanup,,,no
+can i sue the city for sewer backup,informational,,0,,2,sewage cleanup,,,no
+what part of the sewer line is the city responsible for,informational,,,,2,sewage cleanup,,,no
+how to clean up sewer backup in yard,informational,,0,,2,sewage cleanup,,,no
+how long does a landlord have to fix sewage backup,informational,,0,,2,sewage cleanup,,,no
+who is responsible for a broken sewer pipe,informational,,,,2,sewage cleanup,,,no
+sewage backup in basement insurance,informational,,,,2,sewage cleanup,,,no
+sewage backup in basement health risks,informational,,0,,2,sewage cleanup,,,no
+raw sewage health risks,informational,,15,,2,sewage cleanup,,,no
+dangers of raw sewage under house,informational,,7,,2,sewage cleanup,,,no
+suing landlord for sewage backup,informational,,0,,2,sewage cleanup,,,no
+how to clean up a sewage spill outdoors,informational,,5,,2,sewage cleanup,,,no

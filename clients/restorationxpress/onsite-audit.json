@@ -1,0 +1,657 @@
+{
+  "schema_version": 1,
+  "slug": "restorationxpress",
+  "site": "restorationxpress.com",
+  "live_origin": "https://restorationxpress.com",
+  "live_origin_source": "apex",
+  "generated_at": "2026-08-28T01:23:55Z",
+  "audit_form_factor": "desktop",
+  "lighthouse_version": "13.4.0",
+  "environment_caveats": [
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically run 10-20 performance points lower.",
+    "Client record status is 'onboarding', not 'active'. Audit proceeded because build_status=pushed_main and apex_cutover.completed_at is set (2026-08-04), so the site is live and auditable. Ops owner should flip status to active.",
+    "A main-branch deploy landed at 2026-08-28T01:14:51Z, about two minutes before this scan. Scores reflect that build.",
+    "Site uses a client-side call-tracking swap: server HTML renders (954) 932-5420 (matches schema.org telephone), JS swaps visible tel: links to (954) 686-1404 after hydration. Correct pattern, crawlers see the NAP-consistent number. Not a defect.",
+    "Repo plan files (plan-input.json, plan/url-plan.json) still carry a stale third phone number (954) 964-6471 that appears nowhere on the live site. Repo data hygiene only, no live-site impact."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://restorationxpress.com/",
+      "archetype": "home",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 924,
+        "CLS": 0.0039,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "word_count": 1645,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 247938,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 56,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet (_astro/_slug_.CuEjtIRd.css, 8.7KB, 0-56ms measured cost)",
+          "severity": "low"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML ratio (9.7%)",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images missing title attribute (alt coverage is 100%)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://restorationxpress.com/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 924,
+        "CLS": 0.0019,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "word_count": 783,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 314120,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "BreadcrumbList ListItem missing 'item' property (schema validation error)",
+          "severity": "medium"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet (_astro/_slug_.CuEjtIRd.css, 8.7KB, 0-56ms measured cost)",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images missing title attribute (alt coverage is 100%)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://restorationxpress.com/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 774,
+        "CLS": 0.0028,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "word_count": 1853,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 185497,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 52,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "BreadcrumbList ListItem missing 'item' property (schema validation error)",
+          "severity": "medium"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet (_astro/_slug_.CuEjtIRd.css, 8.7KB, 0-56ms measured cost)",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images missing title attribute (alt coverage is 100%)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://restorationxpress.com/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 646,
+        "CLS": 0.0049,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 92.95,
+      "word_count": 1593,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 180253,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "BreadcrumbList ListItem missing 'item' property (schema validation error)",
+          "severity": "medium"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet (_astro/_slug_.CuEjtIRd.css, 8.7KB, 0-56ms measured cost)",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images missing title attribute (alt coverage is 100%)",
+          "severity": "low"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "High page loading time during crawl (transient - re-verified at 39ms TTFB across 3 requests)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://restorationxpress.com/service-areas/fort-lauderdale-fl/",
+      "archetype": "service-area",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 874,
+        "CLS": 0.0028,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "word_count": 1427,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 258580,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 52,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "BreadcrumbList ListItem missing 'item' property (schema validation error)",
+          "severity": "medium"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet (_astro/_slug_.CuEjtIRd.css, 8.7KB, 0-56ms measured cost)",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images missing title attribute (alt coverage is 100%)",
+          "severity": "low"
+        },
+        {
+          "id": "frame",
+          "title": "Page contains an iframe (Google Maps embed; lazy-loaded, titled, referrerpolicy set - informational)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://restorationxpress.com/contact/",
+      "archetype": "contact",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 92,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 693,
+        "CLS": 0.0048,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "word_count": 731,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 325984,
+          "category": "performance"
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "BreadcrumbList ListItem missing 'item' property (schema validation error)",
+          "severity": "medium"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet (_astro/_slug_.CuEjtIRd.css, 8.7KB, 0-56ms measured cost)",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images missing title attribute (alt coverage is 100%)",
+          "severity": "low"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.5,
+      "accessibility": 94.7,
+      "best_practices": 100.0,
+      "seo": 100.0
+    },
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 1,
+      "amber": 5,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "has_render_blocking_resources",
+        "title": "Render-blocking stylesheet (_astro/_slug_.CuEjtIRd.css, 8.7KB, 0-56ms measured cost)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "no_image_title",
+        "title": "Images missing title attribute (alt coverage is 100%)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "BreadcrumbList ListItem missing 'item' property (schema validation error)",
+        "affected_urls": 5,
+        "severity": "medium"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://restorationxpress.com/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "BreadcrumbList schema validation error; accessibility 95; 314KB of avoidable image bytes; hero image missing fetchpriority=high"
+      },
+      {
+        "url": "https://restorationxpress.com/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "BreadcrumbList schema validation error; accessibility 95; 185KB avoidable image bytes (logo.png alone is 157KB)"
+      },
+      {
+        "url": "https://restorationxpress.com/services/fire-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "BreadcrumbList schema validation error; accessibility 95; 180KB avoidable image bytes; one transient 5.1s crawl fetch, not reproducible"
+      },
+      {
+        "url": "https://restorationxpress.com/contact/",
+        "archetype": "contact",
+        "verdict": "amber",
+        "main_issue": "BreadcrumbList schema validation error; accessibility 92 (lowest on site); mailto link fails link-in-text-block; 326KB avoidable image bytes"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  }
+}
