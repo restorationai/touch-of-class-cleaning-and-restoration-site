@@ -3,10 +3,10 @@
   "items": [
     {
       "id": "2026-08-28-what-does-a-general-contractor-do",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-28T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-28T01:51:29Z",
+      "post_url": "https://tdiusa.com/blog/what-does-a-general-contractor-do/",
       "primary_keyword": "what does a general contractor do",
       "intent": "informational",
       "volume": 5400,
