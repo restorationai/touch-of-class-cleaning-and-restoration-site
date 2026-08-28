@@ -49,14 +49,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "41",
+  gbpReviewCount: "42",
   gbpReviews: [
+    { author: "Dorien", rating: 5, text: "A1 SERVICE, great customer service and answered all my question and finished the job in a timely matter", when: "August 2026" },
     { author: "Franchesca", rating: 5, text: "Bob did an excellent job installing our new toilets and angle stops. Came on time. Quick. Thorough. Reasonably priced. Highly recommend for plumbing needs.", when: "February 2026" },
     { author: "Gifted", rating: 5, text: "Tim did an excellent job installing my thermostat! He was fast, professional, and very kind. He made sure everything was set up correctly and explained what I needed to know. I really appreciated how helpful and patient he was. Great service all around, I would definitely recommend him!", when: "February 2026" },
     { author: "Anne-Marie", rating: 5, text: "Scott and Tim were on time and provided great service. We signed up for the Annual Maintenance program to make sure that everything runs smoothly. We’ve used RT Olson before and have been very pleased with their service.", when: "November 2025" },
     { author: "Celia", rating: 5, text: "RT Olson Plumbing, Heating and Air Conditioning team of Tim,Scott,Tai and Mason did an amazing job for our home with a new comfortable central heat pump installation with new air ducting and attic insulation! We opted in to get an air purification system and a nice pleated 5 inch thick air…", when: "November 2025" },
     { author: "Soraya", rating: 5, text: "We had an amazing experience, Tim was incredibly professional, honest and kind throughout the entire process. He explained everything clearly and made sure we felt comfortable from start to finish. We would absolutely recommend Tim and the company to anyone looking for reliable and top quality…", when: "October 2025" },
-    { author: "Greg", rating: 5, text: "Tim and his team took it to the next level. I just remodeled my house and needed a new AC system. Tim came out and gave me a great price. They worked with me through the remodel and when it was time they came and finished hooking up the system. You can’t go wrong using R T Olsen. I highly recommend…", when: "October 2025" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "Plumbing, heating & air services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",

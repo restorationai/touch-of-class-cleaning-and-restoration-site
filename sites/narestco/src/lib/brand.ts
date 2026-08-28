@@ -52,14 +52,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "63",
+  gbpReviewCount: "64",
   gbpReviews: [
+    { author: "Julia", rating: 5, text: "Jose and his team were very helpful and did a great job! Super happy with their work!", when: "August 2026" },
     { author: "Benjamin", rating: 5, text: "Had a water emergency on site. These guys showed up the next day and started taking care of business! took a few days to get all the water out/ damage ripped out. Those guys worked hard! Communication with the guys in the office was easy and fast. Overall, very happy. Would recommend.", when: "August 2026" },
     { author: "Ivan", rating: 5, text: "Did a great job! Negotiated with my home insurance for me, was patient and communicated well, and we're overall satisfied with the work", when: "August 2026" },
     { author: "Tate", rating: 5, text: "Jose and crew at National Restoration are exactly the kind of people you want on your side after a disaster in your home. Within hours of our small house fire they had a crew in our house, mitigating damage and starting clean up. After mitigation was complete, they worked diligently and efficiently…", when: "August 2026" },
     { author: "Snehal", rating: 5, text: "It's our third time working with Jose and his team. We keep coming back to him because of his prompt response and fixing things within days. We recently had a plumbing issue at one of our rentals. Jose replied to my text within minutes and scheduled his team for inspection the next day. Our tenants…", when: "August 2026" },
     { author: "Kevin", rating: 5, text: "Super professional and helpful. The crew went out of their way to be helpful. Jose was super informative on the phone.", when: "August 2026" },
-    { author: "Towhee1312", rating: 5, text: "Jose and crew were very informative and helpful regarding my no cost inspection of possible water and mold damage to my bathroom. Also took time to look at a seperate attic crawl space issue free of charge. Thank you so much. I definitely recommend.", when: "August 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Federal Way, WA.",
 } as const;

@@ -40,8 +40,8 @@ export const brand = {
   sameAsUrls: ["https://www.google.com/maps?cid=14805396469301132499", "https://www.yelp.com/biz/firedex-butler-cranberry-twp", "https://www.bbb.org/us/pa/cranberry-twp/profile/building-restoration/firedex-of-butler-inc-0141-12002805", "https://www.homeadvisor.com/rated.FiredexofButlerInc.22614897.html", "https://www.houzz.com/professionals/general-contractors/firedex-of-butler-inc-pfvwus-pf~26200651", "https://www.yellowpages.com/cranberry-township-pa/mip/firedex-of-butler-inc-7424511"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "3.6",
-  gbpReviewCount: "12",
+  gbpRatingValue: "3.7",
+  gbpReviewCount: "13",
   gbpReviews: [
     { author: "Sue", rating: 5, text: "I had a great experience with FireDEX. They were great to work with. Quick to get me a quote and to schedule the repairs. The job they did turned out fantastic and I would call them again if the need arises. Hands Down Solid 5 Star!!", when: "August 2025" },
     { author: "Jim", rating: 5, text: "Good company, their work speaks for itself,their team of professionals are friendly and knowledgeable.", when: "September 2023" },
