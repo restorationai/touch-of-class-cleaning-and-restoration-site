@@ -7,7 +7,7 @@
   "contact": "",
   "status": "onboarding",
   "plan_status": "planned",
-  "updated_at": "2026-08-28T02:02:06Z",
+  "updated_at": "2026-08-28T11:31:03.800694+00:00",
   "notes": "Signed 2026-08-23. REBUILT 08-24 on the CONSTRUCTION template (Santino: they are a construction company with a corporate/commercial vibe; restoration is one silo called Insurance Services on their site). Migrating buildwithtdi.com (Scorpion) -> tdiusa.com. CSLB license PENDING (cutover blocked). Leads go to THEIR HubSpot 48033708 + CallRail. Contact email for footer pending from Rob Carpenter.",
   "indexnow_key": "a5ba5c9b00a249bd9fe79e311dacc8a7",
   "build_status": "pushed_main",
@@ -34,7 +34,7 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-08-24T08:35:33.951138+00:00",
     "last_pushed_staging_at": "2026-08-24T10:58:47.390428+00:00",
-    "last_pushed_main_at": "2026-08-28T01:51:36.073442+00:00"
+    "last_pushed_main_at": "2026-08-28T11:31:03.800643+00:00"
   },
   "gbp": {
     "place_id": "ChIJDbb428TXmoARvyLLpaLNr3E",
