@@ -3754,6 +3754,11 @@ _ASK_TOPIC_RES = {
     # topic keywords a prohibition note might name -> ask text that topic owns
     "google-connect": re.compile(
         r"google|business\s+profile|\bgbp\b|\bconnect", re.I),
+    # "Hold off telling X their website is live / sharing the site" — the
+    # perception-of-value hold (Jimmy / cal-west 2026-08-28): suppresses the
+    # share-the-site / preview-reveal asks while the note is open.
+    "site-share": re.compile(
+        r"web\s?site|\bsite\b|preview|launch", re.I),
 }
 
 
@@ -9679,6 +9684,17 @@ def cmd_selfcheck(_args) -> int:
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} "
               f"{'BLOCK' if got else 'pass ':<5} {text[:62]!r}")
+
+    print("\nboss prohibition topics match the asks they own:")
+    for topic, sample_ask, want in [
+        ("google-connect", "ASK CLIENT: connect their Google account", True),
+        ("site-share", "Share the website preview with the owner", True),
+        ("google-connect", "Send over the insurance certificate", False),
+    ]:
+        got = bool(_ASK_TOPIC_RES[topic].search(sample_ask))
+        ok = got == want
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {topic:15} {sample_ask[:44]!r}")
 
     print("\nquarantined screenshots never get the photo-queued receipt:")
     for path, want in [
