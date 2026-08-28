@@ -2552,6 +2552,26 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
         cid, slug = co["id"], cid_to_slug.get(co["id"])
         if not slug or (SITES_DIR / slug / "src").exists():
             continue
+        # PAYMENT GATE (Santino 2026-08-28, after the "Loopple" junk signup
+        # landed as Active): no card, no website. Evidence of payment = at
+        # least one billing_invoices row (the Stripe webhook writes these for
+        # every paying signup) OR integration_settings.billing_vetted=true
+        # (manual override for special arrangements like invoice-billed
+        # clients). Errs safe: a legit payer missing both shows up in the
+        # ops digest as a one-line fix, a freeloader never gets a render.
+        ints = co.get("integration_settings") or {}
+        if isinstance(ints, str):
+            try:
+                ints = json.loads(ints)
+            except ValueError:
+                ints = {}
+        has_invoice = bool(_sb(
+            "GET", f"/rest/v1/billing_invoices?company_id=eq.{cid}&select=id&limit=1"))
+        if not has_invoice and ints.get("billing_vetted") is not True:
+            out.append(f"{slug}: cannot auto-build — no payment on file "
+                       "(no billing invoice; set integration_settings."
+                       "billing_vetted=true to override)")
+            continue
         services = [s for s in (co.get("services") or []) if s]
         if not services:
             # An UNESCALATED blocker is the same as no blocker. Paul Davis
