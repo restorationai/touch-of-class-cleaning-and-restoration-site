@@ -152,7 +152,7 @@ def build_post(company: dict, parsed) -> tuple[str, str]:
         "",
         f"I've spent some time looking into {service_lc} companies around {city} because this is one of those services you only research after something has already gone wrong, and by then you're panicking and calling the first ad you see.",
         "",
-        "Everyone promises fast response and a spotless cleanup, so let's cut through the marketing. Here's my honest top 5:",
+        f"Everyone promises fast response and a spotless cleanup, so let's cut through the marketing. Here's my honest top {1 + len(comps) if comps else 5}:",
         "",
         f"1. {name} - MY TOP PICK",
     ]
