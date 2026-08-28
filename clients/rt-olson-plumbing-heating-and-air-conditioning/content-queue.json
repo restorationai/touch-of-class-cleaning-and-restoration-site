@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "id": "2026-08-28-local-plumber-vs-national-chain",
+      "status": "written",
+      "queued_at": "2026-08-28T01:35:00Z",
+      "written_at": "2026-08-28T01:37:25Z",
+      "post_url": "https://rtolsonplumbing.com/blog/local-plumber-vs-national-chain/",
+      "primary_keyword": "local plumber",
+      "intent": "transactional",
+      "volume": 22200,
+      "kd": 24,
+      "fan_out_cluster": [
+        "local plumber vs franchise plumbing company",
+        "how fast can a local plumber get here",
+        "do national plumbing chains charge more",
+        "who actually shows up when you call a plumbing franchise",
+        "questions to ask before booking a plumber",
+        "why after hours plumbing rates differ by company"
+      ],
+      "suggested_slug": "local-plumber-vs-national-chain",
+      "suggested_title": "Local plumber vs national chain: what actually changes when you call",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/",
+        "/services/emergency-plumbing/",
+        "/service-areas/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "drain-cleaning",
+        "water-heater-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+      ],
+      "notes": "22,200/mo at KD 24, uncovered in the commercial partition. Angle is dispatch reality, not brand chest-beating: who owns the truck, who sets the price, how routing works when a call comes in at 2am, and why a shop 15 minutes away beats a call center. RT Olson can back the 24/7 line (brand.hours is 24/7 and the trust badges carry 24/7 Emergency Service), so the after-hours section may state it plainly. Founded 2014, Corona based at 9064 Pulsar Ct: use that for the local-proof paragraph. Do not name or knock specific competitors.",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-28-how-to-pick-the-best-plumber-near-me",
+      "status": "queued",
+      "queued_at": "2026-08-28T01:35:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "best plumber near me",
+      "intent": "commercial",
+      "volume": 14800,
+      "kd": 24,
+      "fan_out_cluster": [
+        "how to choose a plumber",
+        "what questions to ask a plumber before hiring",
+        "plumber red flags to walk away from",
+        "how many plumbing quotes should you get",
+        "do plumbers give free estimates",
+        "flat rate vs hourly plumbing pricing",
+        "should you always take the lowest plumbing bid"
+      ],
+      "suggested_slug": "how-to-pick-the-best-plumber-near-me",
+      "suggested_title": "How to pick the best plumber near me (a homeowner's 10 minute checklist)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/",
+        "/contact/",
+        "/services/emergency-plumbing/",
+        "/services/leak-detection/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "leak-detection",
+        "drain-cleaning"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+      ],
+      "notes": "14,800/mo at KD 24. Selection-process post: reviews, quote count, written itemized estimate, the 'is that the total installed price including parts, labor, permits, disposal and the call-out fee' question, and why the cheapest bid often is not. Keep this deliberately OFF the license-verification angle: that is the sibling 'licensed plumber' post. The ChatGPT decomposition for Corona leads with exactly this checklist, so structure it as scannable H2 steps with a short answer capsule up top for AI retrieval.",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-28-licensed-plumber-c36-verify-california",
+      "status": "queued",
+      "queued_at": "2026-08-28T01:35:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "licensed plumber",
+      "intent": "transactional",
+      "volume": 8100,
+      "kd": 26,
+      "fan_out_cluster": [
+        "what is a c 36 plumbing license",
+        "how do i know if a plumber is licensed",
+        "do i need a licensed plumber",
+        "how to look up a contractor license in california",
+        "licensed vs unlicensed plumber risks",
+        "does a plumber need to be bonded and insured",
+        "which plumbing jobs need a permit in riverside county"
+      ],
+      "suggested_slug": "licensed-plumber-c36-verify-california",
+      "suggested_title": "Licensed plumber: what a C-36 means in California and how to verify one in 60 seconds",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/",
+        "/about/",
+        "/contact/",
+        "/services/water-heater-installation/"
+      ],
+      "service_tags": [
+        "water-heater-installation",
+        "repiping",
+        "gas-line-services"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx",
+        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+      ],
+      "notes": "8,100/mo at KD 26 and the strongest AI-retrieval slot in this seed: ChatGPT's own Corona answer opens by telling the homeowner to check CSLB for an active C-36. Teach the lookup step by step and link the CSLB check page. RT Olson holds license 997337 and licensed_insured_attested is true, so the brand may state it is licensed and insured and invite readers to verify 997337 themselves: that self-verification invite is the trust move. Cover which jobs (water heater swaps, repipes, gas lines, sewer work) need a permit and inspection.",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-28-how-much-does-a-plumber-cost",
+      "status": "queued",
+      "queued_at": "2026-08-28T01:35:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does a plumber cost",
+      "intent": "commercial",
+      "volume": 1600,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how much does a plumber cost per hour",
+        "how much should a plumber charge per hour",
+        "how much does a plumber charge to unclog drain",
+        "how much does a plumber charge to install a toilet",
+        "what is a plumbing service call fee",
+        "why do emergency plumbing rates cost more",
+        "flat rate vs hourly plumber pricing"
+      ],
+      "suggested_slug": "how-much-does-a-plumber-cost",
+      "suggested_title": "How much does a plumber cost in 2026 (real price ranges by job)",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/",
+        "/services/drain-cleaning/",
+        "/services/toilet-faucet-repair/",
+        "/services/water-heater-installation/",
+        "/services/leak-detection/"
+      ],
+      "service_tags": [
+        "drain-cleaning",
+        "toilet-faucet-repair",
+        "water-heater-installation",
+        "leak-detection"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.energystar.gov/",
+        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+      ],
+      "notes": "Cost hub for the whole seed family: absorbs the per-hour cluster (1,600/mo), unclog-drain (480/mo) and toilet-install (1,000/mo) so those stay banked instead of becoming thin standalone posts. Lead with a job-by-job price table (service call, drain clear, hydro jet, camera inspection, leak detection, 50 gal gas water heater, tankless, slab leak reroute, trenchless lining): those are the exact rows ChatGPT is already publishing for the Corona and Riverside County market. Present ranges as market ranges, never as RT Olson's prices, and say plainly what moves a number (access, permits, materials, after-hours).",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-28-should-i-tip-a-plumber",
+      "status": "queued",
+      "queued_at": "2026-08-28T01:35:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "should i tip a plumber",
+      "intent": "informational",
+      "volume": 2400,
+      "kd": 0,
+      "fan_out_cluster": [
+        "do you tip a plumber for a service call",
+        "how much do you tip a plumber",
+        "do you tip plumbers on a big install job",
+        "is it rude not to tip a tradesperson",
+        "better ways to thank a plumber than tipping",
+        "do plumbing companies allow their techs to accept tips"
+      ],
+      "suggested_slug": "should-i-tip-a-plumber",
+      "suggested_title": "Should I tip a plumber? What homeowners actually do (and better ways to say thanks)",
+      "target_word_count": 1100,
+      "internal_link_targets": [
+        "/contact/",
+        "/services/",
+        "/about/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "drain-cleaning"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "2,400/mo at KD 0 and zero competition (competition_index 1): the cheapest win in this seed. Low direct dispatch value, high trust and AI-answer value, and it lands people on the site while they already have a plumber in the house. Answer the question in the first 40 words (no, tipping is not expected; cash tips on holidays or brutal after-hours calls are appreciated but never required), then pivot to the alternatives that actually help a local shop: a Google review, referrals, cold drinks. Point the review CTA at the GBP review link on file.",
+      "source": "rank-ai-keyword-researcher"
+    }
+  ]
+}
