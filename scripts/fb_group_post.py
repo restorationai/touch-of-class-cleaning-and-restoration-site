@@ -137,7 +137,14 @@ def build_post(company: dict, parsed) -> tuple[str, str]:
 
     entries = parsed["entries"] if parsed else []
     top = next((e for e in entries if e["n"] == 1), None)
-    comps = [e for e in entries if e["n"] > 1][:4]
+    # Never list the client's OWN duplicate/alternate listing as a
+    # "competitor" (RX Davie 2026-08-28: the best-of honestly ranked the
+    # client's second GBP listing #5 — true on the map, absurd in the post).
+    def is_self(comp_name: str) -> bool:
+        norm = lambda x: re.sub(r"[^a-z0-9]", "", x.lower())
+        a, b = norm(comp_name), norm(name)
+        return bool(a and b) and (a in b or b in a)
+    comps = [e for e in entries if e["n"] > 1 and not is_self(e["name"])][:4]
 
     top_blurb = top["blurb"] if top else f"[One or two TRUE sentences on why {name} is the first call: certifications, license, response, documentation.]"
     lines = [
