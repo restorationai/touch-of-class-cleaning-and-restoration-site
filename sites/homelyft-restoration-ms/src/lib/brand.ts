@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://None",
   phone: "+12282845200",
   phoneRaw: "+112282845200",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(228) 900-0775",
+  trackingPhoneRaw: "+12289000775",
   email: "info@homelyft.net",
   hours: "24/7",
   foundedYear: "",

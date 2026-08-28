@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://aaawaterdamagehawaii.com",
   phone: "(808) 349-3407",
   phoneRaw: "+18083493407",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(808) 201-2531",
+  trackingPhoneRaw: "+18082012531",
   email: "",
   hours: "24/7",
   foundedYear: "",

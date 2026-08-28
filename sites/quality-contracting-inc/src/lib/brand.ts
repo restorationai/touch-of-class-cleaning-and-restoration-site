@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://qualitycontracting.us",
   phone: "(508) 756-8800",
   phoneRaw: "+15087568800",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(508) 978-7507",
+  trackingPhoneRaw: "+15089787507",
   email: "info@qualitycontracting.us",
   hours: "24/7",
   // Fran 2026-08-05: "We started almost 30 years ago and incorporated in 2001."

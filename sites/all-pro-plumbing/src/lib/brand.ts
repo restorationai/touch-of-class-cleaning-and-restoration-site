@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://allproplumbingheatingandair.com",
   phone: "(661) 863-9242",
   phoneRaw: "+16618639242",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(661) 451-5794",
+  trackingPhoneRaw: "+16614515794",
   email: "info@allproplumbingheatingandair.com",
   hours: "24/7",
   foundedYear: "",

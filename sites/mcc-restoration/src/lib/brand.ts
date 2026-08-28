@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://mccrestoration.com",
   phone: "(682) 772-9123",
   phoneRaw: "+16827729123",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(682) 243-0341",
+  trackingPhoneRaw: "+16822430341",
   email: "",
   hours: "",
   foundedYear: "",

@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://None",
   phone: "(702) 845-1325",
   phoneRaw: "+17028451325",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(702) 766-5003",
+  trackingPhoneRaw: "+17027665003",
   email: "info@lifesaversrestoration.com",
   hours: "24/7",
   foundedYear: "2019",

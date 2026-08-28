@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://reign-restoration.com",
   phone: "(214) 304-0621",
   phoneRaw: "+12143040621",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(903) 408-6905",
+  trackingPhoneRaw: "+19034086905",
   email: "jerrott@reign-restoration.com",
   hours: "24/7",
   foundedYear: "",

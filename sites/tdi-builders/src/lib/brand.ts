@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://tdiusa.com",
   phone: "(877) 688-0866",
   phoneRaw: "+18776880866",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(916) 884-6899",
+  trackingPhoneRaw: "+19168846899",
   email: "",
   hours: "24/7",
   foundedYear: "1985",

@@ -11,6 +11,10 @@ export const brand = {
   canonicalUrl: "https://purocleaneastlasvegas.com",
   phone: "+17025513040",
   phoneRaw: "+117025513040",
+  // Sitewide call-tracking display number (DNI — see BaseLayout).
+  // Schema/NAP keep the canonical number above.
+  trackingPhone: "(725) 500-0996",
+  trackingPhoneRaw: "+17255000996",
   email: "eastlasvegas@puroclean.com",
   hours: "24/7",
   foundedYear: "",
