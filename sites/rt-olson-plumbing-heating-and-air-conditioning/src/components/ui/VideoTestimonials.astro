@@ -1,0 +1,83 @@
+---
+// VideoTestimonials — real customer video reviews pulled from the client's
+// YouTube channel (Santino 2026-08-29: "grab those YouTube videos and embed
+// them on the homepage"). Facade pattern: only a thumbnail + play button ship
+// with the page; the YouTube iframe loads on click, so the three embeds cost
+// ~0 KB of JS until a visitor actually plays one (page-weight policy).
+// Videos are vertical (9:16) testimonial shorts.
+const videos = [
+  {
+    id: "vVO1XqMvioo",
+    title: "7 years of trust: why this contractor recommends RT Olson",
+  },
+  {
+    id: "rBS9UPoXtg0",
+    title: "Full plumbing and HVAC overhaul in just 10 days",
+  },
+  {
+    id: "NJR6lS0GSSE",
+    title: "Why SoCal homeowners trust RT Olson",
+  },
+];
+---
+
+<section class="py-16 md:py-20 bg-white border-b border-dark/10">
+  <div class="container-wide px-6">
+    <h2 class="text-center text-3xl md:text-4xl font-black uppercase tracking-tighter mb-3">
+      Hear It Straight From Our Customers
+    </h2>
+    <p class="text-center text-lg text-dark/70 max-w-2xl mx-auto mb-10">
+      Real video reviews from homeowners and contractors we work with.
+    </p>
+    <div class="grid sm:grid-cols-3 gap-5 md:gap-6 max-w-4xl mx-auto">
+      {videos.map((v) => (
+        <div class="relative aspect-[9/16] rounded-2xl overflow-hidden shadow-lg border border-dark/10 bg-dark-900" data-yt-slot={v.id}>
+          <button
+            type="button"
+            data-yt={v.id}
+            data-yt-title={v.title}
+            class="group absolute inset-0 w-full h-full text-left cursor-pointer"
+            aria-label={`Play video: ${v.title}`}
+          >
+            <img
+              src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
+              alt={v.title}
+              loading="lazy"
+              decoding="async"
+              class="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-105"
+            />
+            <span class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent"></span>
+            <span class="absolute inset-0 flex items-center justify-center">
+              <span class="w-16 h-16 rounded-full bg-primary-600 text-white flex items-center justify-center shadow-xl transition-transform group-hover:scale-110">
+                <svg width="22" height="26" viewBox="0 0 22 26" fill="currentColor" aria-hidden="true"><path d="M0 0 L22 13 L0 26 Z" /></svg>
+              </span>
+            </span>
+            <span class="absolute bottom-3 left-3 right-3 text-white text-sm font-bold leading-snug drop-shadow-md">
+              {v.title}
+            </span>
+          </button>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  (function () {
+    document.querySelectorAll("[data-yt]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var id = btn.getAttribute("data-yt");
+        var title = btn.getAttribute("data-yt-title") || "Customer video review";
+        var slot = btn.closest("[data-yt-slot]");
+        if (!slot) return;
+        var frame = document.createElement("iframe");
+        frame.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&playsinline=1&rel=0";
+        frame.title = title;
+        frame.allow = "autoplay; encrypted-media; picture-in-picture; web-share";
+        frame.allowFullscreen = true;
+        frame.className = "absolute inset-0 w-full h-full border-0";
+        slot.replaceChildren(frame);
+      });
+    });
+  })();
+</script>

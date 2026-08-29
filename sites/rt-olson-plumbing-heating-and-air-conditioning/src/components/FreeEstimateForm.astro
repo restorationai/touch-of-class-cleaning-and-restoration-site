@@ -17,23 +17,29 @@ import { Phone } from "@lucide/astro";
 type Props = {
   /** Compact variant for /emergency/ — tighter spacing, shorter copy. */
   compact?: boolean;
+  /** Bare variant for slotting into the hero (Santino 2026-08-29): renders
+   *  ONLY the navy form card — the section/container wrappers collapse via
+   *  `contents`, and the "Need Immediate Assistance?" aside is skipped. */
+  bare?: boolean;
   heading?: string;
 };
 const {
   compact = false,
-  heading = compact ? "Or Request a Free Estimate" : "Request Your Free Estimate",
+  bare = false,
+  heading = bare ? "Get a Free Quote" : compact ? "Or Request a Free Estimate" : "Request Your Free Estimate",
 } = Astro.props;
+const tight = compact || bare;
 ---
 
-<section id="estimate" class={`scroll-mt-24 bg-dark-50 border-y border-dark/10 ${compact ? "py-14" : "py-20"}`}>
-  <div class="container-wide px-6">
-    <div class={`mx-auto ${compact ? "max-w-xl" : "max-w-6xl"} flex flex-col lg:flex-row gap-8 items-start`}>
-    <div class={`flex-1 w-full bg-dark-900 rounded-2xl shadow-xl border border-dark/10 ${compact ? "p-6 sm:p-8" : "p-8 sm:p-10"}`}>
-      <div class={`text-center ${compact ? "mb-6" : "mb-8"}`}>
-        <h2 class={`font-black uppercase tracking-tighter text-white ${compact ? "text-2xl md:text-3xl" : "text-3xl md:text-4xl"} mb-3`}>
+<section id="estimate" class={bare ? "contents" : `scroll-mt-24 bg-dark-50 border-y border-dark/10 ${compact ? "py-14" : "py-20"}`}>
+  <div class={bare ? "contents" : "container-wide px-6"}>
+    <div class={bare ? "contents" : `mx-auto ${compact ? "max-w-xl" : "max-w-6xl"} flex flex-col lg:flex-row gap-8 items-start`}>
+    <div class={`flex-1 w-full bg-dark-900 rounded-2xl border ${bare ? "shadow-2xl border-white/10 p-6 sm:p-7" : `shadow-xl border-dark/10 ${compact ? "p-6 sm:p-8" : "p-8 sm:p-10"}`}`}>
+      <div class={`text-center ${tight ? "mb-5" : "mb-8"}`}>
+        <h2 class={`font-black uppercase tracking-tighter text-white ${tight ? "text-2xl md:text-3xl" : "text-3xl md:text-4xl"} mb-3`}>
           {heading}
         </h2>
-        {!compact && (
+        {!tight && (
           <p class="text-white/75 text-lg mb-0">
             Tell us what happened and we'll get back to you fast — usually within one business hour.
           </p>
@@ -86,7 +92,7 @@ const {
         <label class="grid gap-1.5 text-sm font-bold uppercase tracking-widest text-white/70">
           What happened?
           <textarea
-            name="description" rows={compact ? 3 : 4} maxlength="2000"
+            name="description" rows={tight ? 3 : 4} maxlength="2000"
             class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none resize-y"
             placeholder="Briefly describe the damage — e.g. burst pipe in the kitchen, standing water in the basement…"
           ></textarea>
@@ -113,7 +119,7 @@ const {
       </form>
     </div>
 
-    {!compact && (
+    {!compact && !bare && (
       <aside class="w-full lg:w-[360px] shrink-0 bg-dark-950 text-white rounded-2xl shadow-xl border border-white/10 p-7 self-start">
         <h3 class="text-2xl font-black tracking-tight mb-6 text-white">Need Immediate Assistance?</h3>
         <div class="space-y-5">
