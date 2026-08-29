@@ -13,8 +13,8 @@ export const brand = {
   phoneRaw: "+117025513040",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
   // Schema/NAP keep the canonical number above.
-  trackingPhone: "(725) 500-0996",
-  trackingPhoneRaw: "+17255000996",
+  trackingPhone: "(702) 842-2834",
+  trackingPhoneRaw: "+17028422834",
   email: "eastlasvegas@puroclean.com",
   hours: "24/7",
   foundedYear: "",

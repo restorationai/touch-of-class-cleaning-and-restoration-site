@@ -13,8 +13,8 @@ export const brand = {
   phoneRaw: "+12068830333",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
   // Schema/NAP keep the canonical number above.
-  trackingPhone: "(253) 525-6874",
-  trackingPhoneRaw: "+12535256874",
+  trackingPhone: "(206) 737-0916",
+  trackingPhoneRaw: "+12067370916",
   // Google Ads click-to-call conversion (LP layouts read these; no-op if empty)
   gadsId: "AW-16824131335",
   gadsCallConversionLabel: "AW-16824131335/lNXeCMeuy74cEIe-r9Y-",

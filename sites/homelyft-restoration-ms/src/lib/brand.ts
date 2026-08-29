@@ -13,8 +13,8 @@ export const brand = {
   phoneRaw: "+112282845200",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
   // Schema/NAP keep the canonical number above.
-  trackingPhone: "(228) 900-0775",
-  trackingPhoneRaw: "+12289000775",
+  trackingPhone: "(228) 900-9718",
+  trackingPhoneRaw: "+12289009718",
   email: "info@homelyft.net",
   hours: "24/7",
   foundedYear: "",

@@ -13,8 +13,8 @@ export const brand = {
   phoneRaw: "+19199065473",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
   // Schema/NAP keep the canonical number above.
-  trackingPhone: "(252) 371-0544",
-  trackingPhoneRaw: "+12523710544",
+  trackingPhone: "(919) 925-4635",
+  trackingPhoneRaw: "+19199254635",
   email: "gogreenrestorationofnc@gmail.com",
   hours: "24/7",
   foundedYear: "",

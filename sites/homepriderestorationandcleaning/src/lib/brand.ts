@@ -13,8 +13,8 @@ export const brand = {
   phoneRaw: "+18019952437",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
   // Schema/NAP keep the canonical number above.
-  trackingPhone: "(801) 312-9279",
-  trackingPhoneRaw: "+18013129279",
+  trackingPhone: "(385) 438-3364",
+  trackingPhoneRaw: "+13854383364",
   email: "homepriderestorationut@gmail.com",
   hours: "24/7",
   foundedYear: "1997",

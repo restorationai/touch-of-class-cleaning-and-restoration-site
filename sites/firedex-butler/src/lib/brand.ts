@@ -13,8 +13,8 @@ export const brand = {
   phoneRaw: "+17244527400",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
   // Schema/NAP keep the canonical number above.
-  trackingPhone: "(724) 573-8054",
-  trackingPhoneRaw: "+17245738054",
+  trackingPhone: "(724) 623-2137",
+  trackingPhoneRaw: "+17246232137",
   email: "mail@firedex.net",
   hours: "24/7",
   foundedYear: "1981",
