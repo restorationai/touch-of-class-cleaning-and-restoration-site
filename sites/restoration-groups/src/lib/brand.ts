@@ -51,7 +51,7 @@ export const brand = {
     "/images/work/job-5.webp",
     "/images/work/job-6.webp",
   ] as string[],
-  sameAsUrls: ["http://facebook.com/EliteRestorationGroups", "https://www.instagram.com/eliterestorationgroup/", "https://www.google.com/maps?cid=8008820373441604497", "https://maps.google.com/maps?cid=5612453956771500683", "https://www.yelp.com/biz/the-restoration-group-highland-park", "https://www.houzz.com/professionals/general-contractors/north-jersey-restoration-group-pfvwus-pf~1892966983"] as string[],
+  sameAsUrls: ["http://facebook.com/EliteRestorationGroups", "https://www.instagram.com/eliterestorationgroup/", "https://www.google.com/maps?cid=8008820373441604497", "https://maps.google.com/maps?cid=5612453956771500683", "https://www.yelp.com/biz/the-restoration-group-highland-park", "https://www.houzz.com/professionals/general-contractors/north-jersey-restoration-group-pfvwus-pf~1892966983", "https://homeguide.com/nj/paterson/water-damage-restoration/the-restoration-group-vhnT_n48y"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",
