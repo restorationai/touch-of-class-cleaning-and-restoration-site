@@ -191,25 +191,81 @@ def patch_site(slug: str, number: str, dry_run: bool) -> bool:
     return True
 
 
+def _refuse_agent_line(slug: str, number: str, allow_agent: bool) -> None:
+    """The AI receptionist line must NEVER be the site's displayed number
+    unless explicitly forced (Santino 2026-08-29: the original 08-24 batch
+    defaulted --number to agent_phone_1 and 7 client sites rang the AI
+    instead of the business; policy is site tracker / GBP tracker, and the
+    AI number only when a client explicitly chooses it)."""
+    import json as _json, os as _os, re as _re, urllib.request as _rq
+    key = _os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    url = _os.environ.get("SUPABASE_URL", "").rstrip("/")
+    if not (key and url):
+        return
+    try:
+        cmap = _json.loads(open("clients/company_map.json").read())
+        cid = cmap.get(slug)
+        if not cid:
+            return
+        req = _rq.Request(f"{url}/rest/v1/company_phone_setup?id=eq.{cid}&select=agent_phone_1",
+                          headers={"apikey": key, "Authorization": f"Bearer {key}"})
+        rows = _json.loads(_rq.urlopen(req, timeout=15).read())
+        agent = _re.sub(r"[^\d+]", "", (rows[0].get("agent_phone_1") or "")) if rows else ""
+        if agent and _re.sub(r"[^\d+]", "", number) == agent and not allow_agent:
+            raise SystemExit(
+                f"{slug}: REFUSED — {number} is the AI receptionist line "
+                "(agent_phone_1). Use the site/GBP tracking number, or pass "
+                "--allow-agent-line if the client explicitly chose AI-first.")
+    except SystemExit:
+        raise
+    except Exception:
+        pass
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--slug")
     g.add_argument("--all-activated", action="store_true",
                    help="every Active company with an agent number and a live apex site")
-    ap.add_argument("--number", help="override tracking number (default: agent_phone_1)")
+    ap.add_argument("--number", help="override tracking number (default: the "
+                    "provisioned site/GBP marketing tracker — NEVER the AI agent line)")
+    ap.add_argument("--allow-agent-line", action="store_true",
+                    help="explicitly permit the AI receptionist number as the displayed number")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+
+    def marketing_tracker(slug: str) -> str | None:
+        """site tracker first, GBP tracker second — the 2/3-number model
+        (Santino 2026-08-29): 1) site tracking number, 2) GBP tracking
+        number, 3) AI receptionist ONLY when a client explicitly opts in."""
+        cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
+        cid = cmap.get(slug)
+        if not cid:
+            return None
+        rows = sb_get(f"companies?id=eq.{cid}&select=integration_settings")
+        ints = (rows[0].get("integration_settings") or {}) if rows else {}
+        if isinstance(ints, str):
+            try:
+                ints = json.loads(ints)
+            except ValueError:
+                ints = {}
+        ct = ints.get("call_tracking") or {}
+        return ((ct.get("site") or {}).get("number")
+                or (ct.get("gbp") or {}).get("number"))
 
     targets: list[tuple[str, str]] = []
     if args.slug:
         if args.number:
+            _refuse_agent_line(args.slug, args.number, args.allow_agent_line)
             targets.append((args.slug, args.number))
         else:
-            _, agent = company_for_slug(args.slug)
-            if not agent:
-                die(f"{args.slug}: no agent_phone_1 on file — pass --number")
-            targets.append((args.slug, agent))
+            number = marketing_tracker(args.slug)
+            if not number:
+                die(f"{args.slug}: no site/GBP tracking number provisioned — "
+                    "run call_tracking.py first (the AI agent line is never "
+                    "used as a default; --allow-agent-line to force)")
+            targets.append((args.slug, number))
     else:
         rows = sb_get(
             "company_phone_setup?select=id,agent_phone_1&agent_phone_1=not.is.null")
@@ -230,7 +286,12 @@ def main() -> None:
                 continue
             slug = by_domain.get(dom_by_cid[cid])
             if slug and (ROOT / "sites" / slug).exists():
-                targets.append((slug, agent))
+                number = marketing_tracker(slug)
+                if not number:
+                    print(f"  {slug}: SKIP — no marketing tracker provisioned "
+                          "(never defaulting to the AI agent line)")
+                    continue
+                targets.append((slug, number))
 
     print(f"call-tracking DNI targets: {len(targets)}")
     ok = 0
