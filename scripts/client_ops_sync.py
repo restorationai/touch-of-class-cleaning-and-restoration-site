@@ -111,10 +111,16 @@ DOMAIN_ACCESS_TRUTH = (
     "(or any registrar) to get access, and never imply the switch can "
     "happen without the client doing this one thing first.")
 
+DOMAIN_ACCESS_VIDEO_URL = (
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/"
+    "branding/_agency/videos/godaddy-invite-access.mp4")
+
 DOMAIN_ACCESS_ASK_GODADDY = (
     "Sign in at account.godaddy.com/access, tap Invite to Access, and send "
     f"the invite to {DOMAIN_ACCESS_INVITE_EMAIL} with the Domains "
-    "permission. Takes about two minutes, on a phone or a computer.")
+    "permission. Takes about two minutes, on a phone or a computer. "
+    f"Here's a 1-minute video showing exactly where to tap: "
+    f"{DOMAIN_ACCESS_VIDEO_URL}")
 
 DOMAIN_ACCESS_ASK_GENERIC = (
     "Nearly every domain company has an 'invite someone' or 'delegate "
