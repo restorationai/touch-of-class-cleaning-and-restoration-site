@@ -1,1451 +1,1455 @@
 {
- "_source": "Built 2026-07-10 from clients/restoration-groups/intel/audit-2026-07-09.md + the 2026-07-08 onboarding call (call facts OVERRIDE the audit where they conflict \u2014 audit covered the old 'Elite Restoration Group' identity). Preview promised 7/13, review call 7/15.",
- "_claims_policy": "CLAIMABLE: founded 2021 / 'since 2021' (owner-stated; matches domain registration 2021-12); IICRC Certified Firm #210213 (owner stated on recorded call); 24/7 (GBP open 24h); 60-minute emergency response (owner attested \u2014 template default kept ON, response_minutes=60); 'NJ Licensed Home Improvement Contractor' TEXT ONLY. WITHHELD: the specific NJ HIC number (digits unverified \u2014 never print until DCA-verified); BBB accreditation (audit: NO BBB profile exists \u2014 old site's badge was unsupported, do NOT carry it over); '20+ years' / '13 years' tenure claims (contradictory, replaced by 'since 2021'); star ratings in copy (GBP fields sync-only via sync_brand_reviews.py).",
- "_intake_pending": [
-  "NJ HIC number verification (13VH... digits) -> license_numbers",
-  "legal entity suffix (Schwarz Enterprises LLC/Inc?)",
-  "email on restorationgroups.com",
-  "logo files + truck/crew/job photos",
-  "post-rebrand social URLs for same_as_urls",
-  "confirm Brooklyn/Manhattan licensing posture for NY work claims (pages kept service-descriptive)"
- ],
- "template": "restoration",
- "services": [
-  "water-damage-restoration",
-  "flood-damage-restoration",
-  "burst-pipe-repair",
-  "basement-flooding-cleanup",
-  "appliance-leak-cleanup",
-  "sewage-cleanup",
-  "fire-damage-restoration",
-  "smoke-damage-restoration",
-  "odor-removal",
-  "mold-remediation",
-  "mold-inspection-testing",
-  "storm-damage-restoration",
-  "emergency-board-up-tarping",
-  "commercial-restoration",
-  "reconstruction",
-  "general-contracting"
- ],
- "service_areas": [
-  {
-   "city": "Kenilworth",
-   "state": "NJ",
-   "slug": "kenilworth-nj",
-   "primary": true,
-   "neighborhoods": [
-    "The Boulevard corridor",
-    "North Kenilworth",
-    "South Kenilworth",
-    "Galloping Hill border",
-    "Monroe Avenue industrial corridor"
-   ],
-   "landmarks": [
-    "Black Brook Park",
-    "Galloping Hill Golf Course",
-    "David Brearley High School",
-    "The Boulevard business district",
-    "Garden State Parkway Exit 138",
-    "The Park (former Merck campus)"
-   ],
-   "zip_codes": [
-    "07033"
-   ],
-   "local_notes": "Home base \u2014 our headquarters is on S 31st Street, so Kenilworth emergencies get the fastest truck roll we can offer anywhere. This square-mile Union County borough is 1920s-1950s capes and colonials on full basements: sump-pump failures, water-heater lets-go and laundry-line bursts are the everyday losses. Black Brook and its storm drains back up in cloudbursts \u2014 Ida (September 2021) put water in basements across the borough \u2014 and the Monroe Avenue/Market Street industrial corridor plus the redeveloping Merck campus add commercial water and fire work. Older galvanized supply lines and clay sewer laterals in the prewar housing stock drive burst-pipe and sewage-backup calls year-round."
-  },
-  {
-   "city": "Union",
-   "state": "NJ",
-   "slug": "union-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Union Center",
-    "Vauxhall",
-    "Battle Hill",
-    "Washington",
-    "Larchmont",
-    "Putnam Ridge"
-   ],
-   "landmarks": [
-    "Kean University",
-    "Liberty Hall Museum",
-    "Union Center business district",
-    "Galloping Hill Golf Course",
-    "Route 22 retail corridor"
-   ],
-   "zip_codes": [
-    "07083",
-    "07088"
-   ],
-   "local_notes": "Union Township borders Kenilworth directly \u2014 crews are minutes away. Dense postwar housing (1940s-60s capes, split-levels and colonials) means original supply plumbing and cast-iron drains failing on schedule, nearly all on finished or semi-finished basements. The Elizabeth River and Rahway River tributaries thread through town and jumped their banks during Ida; low spots off Morris Avenue and Vauxhall flood in hard summer storms. The Route 22 corridor's big-box retail and restaurants generate sprinkler-discharge, roof-leak and overnight commercial losses, and Kean University adds student-housing water events."
-  },
-  {
-   "city": "Elizabeth",
-   "state": "NJ",
-   "slug": "elizabeth-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Elmora",
-    "Midtown",
-    "Elizabethport",
-    "Peterstown",
-    "North Elizabeth",
-    "Bayway",
-    "Westminster"
-   ],
-   "landmarks": [
-    "The Mills at Jersey Gardens",
-    "Union County Courthouse",
-    "Warinanco Park",
-    "Port Newark-Elizabeth Marine Terminal",
-    "Newark Liberty International Airport"
-   ],
-   "zip_codes": [
-    "07201",
-    "07202",
-    "07206",
-    "07208"
-   ],
-   "local_notes": "New Jersey's fourth-largest city and a ten-minute run from our Kenilworth shop. Housing skews to early-1900s multifamily \u2014 two- and three-family frame homes packed tight, where one burst riser or kitchen fire affects multiple households and landlords need fast, documented mitigation. The Elizabeth River flooded catastrophically during Ida, and low-lying Elizabethport and Bayway see tidal and storm-surge exposure. Combined-sewer backups make sewage cleanup a constant here. The port, airport corridor and Jersey Gardens retail add large commercial and industrial loss potential."
-  },
-  {
-   "city": "Westfield",
-   "state": "NJ",
-   "slug": "westfield-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown Westfield",
-    "Wychwood",
-    "The Gardens",
-    "Indian Forest",
-    "Manor Park",
-    "Brightwood"
-   ],
-   "landmarks": [
-    "Downtown Westfield (Quimby Street)",
-    "Mindowaskin Park",
-    "Tamaques Park",
-    "Echo Lake Country Club"
-   ],
-   "zip_codes": [
-    "07090"
-   ],
-   "local_notes": "Affluent Union County town of Victorian, Tudor and center-hall colonial homes dating to the 1890s-1930s \u2014 original clay sewer laterals, aging cast-iron stacks and knob-era renovations hiding slow leaks inside plaster walls. Finished basements are near-universal and expensive: home theaters, gyms and offices that turn a failed sump into a five-figure claim. The Rahway River's Robinson's Branch and heavy old-growth tree canopy make storm damage \u2014 wind-thrown limbs through roofs, water intrusion behind slate and cedar \u2014 a recurring loss type. Owners here expect meticulous protection of floors and finishes and full reconstruction to matching quality."
-  },
-  {
-   "city": "Cranford",
-   "state": "NJ",
-   "slug": "cranford-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown Cranford",
-    "Riverside Drive area",
-    "Sunny Acres",
-    "Cranford West",
-    "Lincoln Park East"
-   ],
-   "landmarks": [
-    "Rahway River Parkway",
-    "Nomahegan Park",
-    "Union College of Union County",
-    "Droescher's Mill",
-    "Cranford Canoe Club"
-   ],
-   "zip_codes": [
-    "07016"
-   ],
-   "local_notes": "Cranford is the 'Venice of New Jersey' \u2014 the Rahway River winds directly through town, and that charm comes with the most serious repeat-flood history in Union County: Floyd (1999), Irene (2011) and Ida (2021) each put whole neighborhoods underwater. Riverside blocks flood from the river itself; the rest of town floods from overwhelmed storm sewers. Flood cleanup, basement pump-outs, structural drying and mold prevention are the signature services here, and many owners have been through it before \u2014 they value a crew that documents everything for the NFIP or their carrier. Housing is 1900s-1940s colonials and capes on full basements, one town over from our Kenilworth headquarters."
-  },
-  {
-   "city": "Springfield",
-   "state": "NJ",
-   "slug": "springfield-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Springfield center",
-    "Baltusrol area",
-    "Route 22 corridor",
-    "Mountain Avenue corridor"
-   ],
-   "landmarks": [
-    "Baltusrol Golf Club",
-    "Meisel Avenue Park",
-    "Jonathan Dayton High School",
-    "Route 22 commercial strip"
-   ],
-   "zip_codes": [
-    "07081"
-   ],
-   "local_notes": "Springfield Township sits where the Rahway River's west branch comes off the Watchung ridges \u2014 Ida turned Route 22 here into a river and flooded homes and businesses across the township's low spots. Housing is a mix of 1920s-50s colonials and capes plus newer townhome complexes toward the Millburn line, most with finished basements that take on water in every major storm cycle. The Route 22 and Morris Avenue commercial corridors add restaurant, retail and office losses. Minutes from our Kenilworth base via Route 22 or the Parkway."
-  },
-  {
-   "city": "Summit",
-   "state": "NJ",
-   "slug": "summit-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown Summit",
-    "Northside",
-    "Franklin School area",
-    "Brayton School area",
-    "New Providence border"
-   ],
-   "landmarks": [
-    "Overlook Medical Center",
-    "Reeves-Reed Arboretum",
-    "Springfield Avenue downtown",
-    "Summit train station"
-   ],
-   "zip_codes": [
-    "07901"
-   ],
-   "local_notes": "Hilltop city of large 1890s-1930s homes \u2014 slate roofs, copper gutters, plaster walls and deep finished basements, owned by families who expect white-glove treatment of hardwood, millwork and furnishings during mitigation. Elevation spares Summit the river flooding its neighbors get, but steep lots channel stormwater into lower levels, aging original plumbing fails inside walls, and clay sewer laterals under century-old street trees back up regularly. Freeze events burst uninsulated radiator and supply lines in older wings. High-value contents handling, moisture mapping and reconstruction to period-correct finish quality matter more here than anywhere else we serve."
-  },
-  {
-   "city": "Newark",
-   "state": "NJ",
-   "slug": "newark-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Ironbound",
-    "Downtown Newark",
-    "Forest Hill",
-    "Vailsburg",
-    "Weequahic",
-    "University Heights"
-   ],
-   "landmarks": [
-    "Prudential Center",
-    "Newark Penn Station",
-    "Branch Brook Park",
-    "NJPAC",
-    "Newark Liberty International Airport"
-   ],
-   "zip_codes": [
-    "07102",
-    "07103",
-    "07104",
-    "07105",
-    "07106",
-    "07107",
-    "07108",
-    "07112"
-   ],
-   "local_notes": "New Jersey's largest city, fifteen minutes up McCarter Highway from our shop. The Ironbound sits low along the Passaic River and flooded hard during Ida; combined sewers back up into basements citywide in heavy rain, making sewage cleanup a core Newark service. Housing is dense pre-war stock \u2014 brick multifamily, frame two- and three-families, and Forest Hill's grand colonials \u2014 where fires spread between close-set buildings and one riser failure soaks three floors. Landlords, property managers and institutions (universities, hospitals, the arena district) need documented, insurance-ready mitigation with fast board-up response."
-  },
-  {
-   "city": "Jersey City",
-   "state": "NJ",
-   "slug": "jersey-city-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown Jersey City",
-    "The Heights",
-    "Journal Square",
-    "Bergen-Lafayette",
-    "Greenville",
-    "Newport"
-   ],
-   "landmarks": [
-    "Liberty State Park",
-    "Exchange Place waterfront",
-    "Journal Square",
-    "Liberty Science Center",
-    "Grove Street PATH plaza"
-   ],
-   "zip_codes": [
-    "07302",
-    "07304",
-    "07305",
-    "07306",
-    "07307",
-    "07310"
-   ],
-   "local_notes": "Two building worlds share one city: waterfront high-rise condos and rentals at Newport and Exchange Place, where a single supply-line or riser failure cascades through stacked units and building management needs unit-by-unit moisture documentation for the association's insurer \u2014 and 1890s-1920s brownstones and frame rowhouses in the Heights, Bergen-Lafayette and Greenville, where cellar flooding and combined-sewer backups are chronic. Sandy's surge showed how exposed Jersey City's low-lying blocks are, and Ida flooded basements citywide. Dense multifamily ownership means landlords and condo boards value fast response and clean paperwork."
-  },
-  {
-   "city": "Brooklyn",
-   "state": "NY",
-   "slug": "brooklyn-ny",
-   "primary": false,
-   "neighborhoods": [
-    "Park Slope",
-    "Brooklyn Heights",
-    "Williamsburg",
-    "Bay Ridge",
-    "Flatbush",
-    "Bushwick",
-    "Canarsie"
-   ],
-   "landmarks": [
-    "Brooklyn Bridge",
-    "Prospect Park",
-    "Barclays Center",
-    "Brooklyn Navy Yard",
-    "Coney Island boardwalk"
-   ],
-   "zip_codes": [
-    "11201",
-    "11209",
-    "11211",
-    "11215",
-    "11226",
-    "11235"
-   ],
-   "local_notes": "Our NY-metro coverage runs across the Hudson: Brooklyn's brownstone belt (Park Slope, Brooklyn Heights, Bed-Stuy fringe) is 1880s-1920s masonry rowhouses with garden-level and cellar apartments that flood first \u2014 Ida's record rain made Brooklyn basement flooding a citywide emergency. Coastal neighborhoods from Red Hook to Canarsie and Coney Island carry real storm-surge exposure remembered from Sandy. Co-op and condo boards, brownstone owners and commercial landlords need mitigation crews that respect plaster, original woodwork and party-wall neighbors, with documentation their insurer and management company will accept."
-  },
-  {
-   "city": "Manhattan",
-   "state": "NY",
-   "slug": "manhattan-ny",
-   "primary": false,
-   "neighborhoods": [
-    "Upper East Side",
-    "Upper West Side",
-    "Midtown",
-    "Chelsea",
-    "Lower East Side",
-    "Financial District",
-    "Harlem"
-   ],
-   "landmarks": [
-    "Central Park",
-    "Empire State Building",
-    "One World Trade Center",
-    "Times Square",
-    "Grand Central Terminal"
-   ],
-   "zip_codes": [
-    "10001",
-    "10002",
-    "10016",
-    "10021",
-    "10025",
-    "10038"
-   ],
-   "local_notes": "Manhattan losses are vertical: in pre-war co-ops and modern condo towers alike, a failed riser, radiator valve or washing-machine hose on the 14th floor means soaked ceilings on thirteen. Buildings run on process \u2014 resident managers, boards and managing agents expect certificates of insurance, unit-by-unit moisture logs and after-hours freight-elevator coordination, and we work inside those rules. Sandy's surge flooded the Financial District and Lower East Side; Ida overwhelmed drains from Harlem to Chelsea. Retail, restaurant and office interiors add overnight commercial mitigation where every closed day is lost revenue."
-  },
-  {
-   "city": "Fair Lawn",
-   "state": "NJ",
-   "slug": "fair-lawn-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Radburn",
-    "Warren Point",
-    "Memorial Park",
-    "Columbia Heights",
-    "Broadway",
-    "River Road"
-   ],
-   "landmarks": [
-    "Radburn Historic District",
-    "Fair Lawn Community Center",
-    "Saddle River County Park",
-    "Memorial Park",
-    "Broadway commercial district"
-   ],
-   "zip_codes": [
-    "07410"
-   ],
-   "local_notes": "Fair Lawn is one of our office locations, so crews respond fast borough-wide. The Passaic River forms the southern boundary and the Saddle River threads the east side; both flooded severely during Ida in 2021, and the low-lying River Road and Saddle River Road areas take repeated hits in heavy storms. Housing runs from 1920s-30s Radburn planned-community homes to postwar capes and colonials, meaning aging cast-iron drains and original supply lines fail on finished basements. The Broadway and Fair Lawn Avenue corridors add commercial pipe-break and roof-leak losses from older retail buildings."
-  },
-  {
-   "city": "Highland Park",
-   "state": "NJ",
-   "slug": "highland-park-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown Highland Park",
-    "Livingston Manor",
-    "Triangle",
-    "Meadow",
-    "North Highland Park"
-   ],
-   "landmarks": [
-    "Raritan Avenue business district",
-    "Donaldson Park",
-    "Johnson Park (adjacent)",
-    "Rutgers University (across the river)",
-    "Landing Lane Bridge"
-   ],
-   "zip_codes": [
-    "08904"
-   ],
-   "local_notes": "Highland Park is one of our office locations, so response times are minimal. The Raritan River runs the length of the southern border and flooded catastrophically during Ida in 2021, with Donaldson Park and River Road low spots inundated. The borough's dense pre-war and early-postwar housing \u2014 1910s-1940s colonials, bungalows and two-families \u2014 carries original supply plumbing and cast-iron drains prone to failure over finished basements. The Raritan Avenue corridor's restaurants and shops generate commercial water and sprinkler losses, and proximity to Rutgers adds student-rental and multi-unit water events."
-  },
-  {
-   "city": "Staten Island",
-   "state": "NY",
-   "slug": "staten-island-ny",
-   "primary": false,
-   "neighborhoods": [
-    "St. George",
-    "Tottenville",
-    "Great Kills",
-    "New Dorp",
-    "Port Richmond",
-    "South Beach"
-   ],
-   "landmarks": [
-    "Staten Island Ferry Terminal",
-    "Historic Richmond Town",
-    "Freshkills Park",
-    "Snug Harbor Cultural Center",
-    "Staten Island Mall"
-   ],
-   "zip_codes": [
-    "10301",
-    "10304",
-    "10306",
-    "10312",
-    "10314"
-   ],
-   "local_notes": "Staten Island is one of our office locations, giving crews a borough base. The East Shore \u2014 South Beach, Midland Beach, Oakwood Beach \u2014 was devastated by Hurricane Sandy in 2012 and remains flood-prone, and Ida in 2021 brought inland flash flooding to low-lying South Shore streets. Housing spans early-1900s frame homes, dense postwar Cape Cods and split-levels, and newer townhome developments, with basements and crawlspaces common. Aging cast-iron drains and supply lines drive pipe-break losses, while the Hylan Boulevard and Forest Avenue retail corridors add commercial roof-leak and sprinkler-discharge claims."
-  },
-  {
-   "city": "Linden",
-   "state": "NJ",
-   "slug": "linden-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Sunnyside",
-    "Tremley Point",
-    "Wheatsheaf",
-    "Roselle Park border",
-    "Bower",
-    "West End"
-   ],
-   "landmarks": [
-    "Linden Municipal Airport",
-    "Wood Avenue business district",
-    "Linden GM Assembly (former)",
-    "Warinanco Park (adjacent)",
-    "Route 1 & 9 industrial corridor"
-   ],
-   "zip_codes": [
-    "07036"
-   ],
-   "local_notes": "Linden sits minutes from our Kenilworth HQ. The Rahway River and Morses Creek run through the city and jumped their banks during Ida in 2021, flooding low-lying Tremley Point and areas near the Arthur Kill. Housing stock is heavily postwar \u2014 1940s-60s capes, colonials and split-levels \u2014 with finished basements where original supply plumbing and cast-iron drains fail on schedule. The Route 1 & 9 industrial belt, refinery zone and Wood Avenue commercial district generate large sprinkler-discharge, pipe-break and overnight commercial water losses alongside the residential base."
-  },
-  {
-   "city": "Rahway",
-   "state": "NJ",
-   "slug": "rahway-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown Rahway",
-    "Milton Lake",
-    "Leesville",
-    "Hazelwood",
-    "Central Rahway",
-    "Clark border"
-   ],
-   "landmarks": [
-    "Rahway Train Station",
-    "Union County Performing Arts Center",
-    "Rahway River Park",
-    "Merck & Co. campus",
-    "Main Street business district"
-   ],
-   "zip_codes": [
-    "07065"
-   ],
-   "local_notes": "Rahway is a short drive from our Kenilworth HQ. The Rahway River winds through the city and Rahway River Park, and the downtown and low-lying riverfront neighborhoods flooded badly during Ida in 2021 and in earlier Irene-era storms. Housing runs from Victorian-era and 1920s homes near downtown to postwar capes and colonials, most with finished basements over aging cast-iron drains and original supply lines. Transit-oriented development around the train station and the Main Street commercial corridor add multi-unit and commercial water and sprinkler losses to the residential caseload."
-  },
-  {
-   "city": "Plainfield",
-   "state": "NJ",
-   "slug": "plainfield-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Sleepy Hollow",
-    "Van Wyck Brooks Historic District",
-    "Netherwood",
-    "West End",
-    "Crescent Area",
-    "East Front Street"
-   ],
-   "landmarks": [
-    "Van Wyck Brooks Historic District",
-    "Plainfield Train Station",
-    "Cedar Brook Park",
-    "Drake House Museum",
-    "Front Street business district"
-   ],
-   "zip_codes": [
-    "07060",
-    "07062",
-    "07063"
-   ],
-   "local_notes": "Plainfield is a straightforward run from our Kenilworth HQ. Cedar Brook and the Green Brook thread the city's low areas, and Plainfield saw severe flooding and fatalities during Ida in 2021, with the East Front Street and brook-adjacent neighborhoods hardest hit. The city's celebrated Victorian and Queen Anne housing stock \u2014 plus dense early-1900s and postwar homes \u2014 carries original plumbing, knob-and-tube-era systems and cast-iron drains prone to failure. Deep, often finished basements amplify water losses, and the Front Street and Park Avenue commercial corridors add sprinkler and roof-leak claims."
-  },
-  {
-   "city": "Scotch Plains",
-   "state": "NJ",
-   "slug": "scotch-plains-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown Scotch Plains",
-    "Shackamaxon",
-    "Fanwood border",
-    "Willow Grove",
-    "Ashbrook",
-    "Southside"
-   ],
-   "landmarks": [
-    "Ashbrook Reservation",
-    "Scotch Hills Country Club",
-    "Shackamaxon Country Club",
-    "Frazee House",
-    "Park Avenue business district"
-   ],
-   "zip_codes": [
-    "07076"
-   ],
-   "local_notes": "Scotch Plains is a quick drive from our Kenilworth HQ. The Green Brook and Cedar Brook run along the southern edge and flooded during Ida in 2021, with low spots near the Plainfield and Fanwood borders taking on water. Housing is largely mid-century \u2014 1950s-60s split-levels, ranches and colonials \u2014 alongside older homes near downtown, most with finished basements over aging cast-iron drains and original supply lines that fail on schedule. The Park Avenue and Route 22 corridors add commercial roof-leak, pipe-break and sprinkler-discharge losses to the residential base."
-  },
-  {
-   "city": "Clark",
-   "state": "NJ",
-   "slug": "clark-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Lake Avenue",
-    "Brant Lake",
-    "Valley Road",
-    "Robert Wood Johnson area",
-    "Westfield Avenue corridor"
-   ],
-   "landmarks": [
-    "Oak Ridge Golf Course",
-    "Dr. William H. Robinson Plantation House",
-    "Clark Reservation area",
-    "Arthur L. Johnson High School",
-    "Raritan Road business district"
-   ],
-   "zip_codes": [
-    "07066"
-   ],
-   "local_notes": "Clark is a compact postwar suburb of 1950s-60s ranches, split-levels and capes, most sitting on finished basements where aging cast-iron drains and copper supply lines fail predictably. The Rahway River forms Clark's northern and western edges and the Robinson's Branch tributary threads through low ground near Lake Avenue; both jumped their banks during Ida in 2021, backing sewers into basements off Valley Road. Sump-pump failures during summer downpours are the routine call. The Raritan Road and Westfield Avenue commercial strips add restaurant and retail losses, and Merck's Rahway campus nearby drives commercial water work."
-  },
-  {
-   "city": "Roselle",
-   "state": "NJ",
-   "slug": "roselle-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Roselle Park border",
-    "Warinanco",
-    "Chestnut Street",
-    "Fifth Avenue",
-    "East Roselle"
-   ],
-   "landmarks": [
-    "Warinanco Park",
-    "Abraham Clark House",
-    "First Presbyterian Church (first electrically lit street)",
-    "Chestnut Street business district",
-    "Roselle Golf Club"
-   ],
-   "zip_codes": [
-    "07203"
-   ],
-   "local_notes": "Roselle is dense with early-1900s through 1950s housing \u2014 Victorians, colonials and postwar capes on tight lots, many with finished basements and original galvanized supply and cast-iron waste lines failing on schedule. The Elizabeth River runs along the eastern edge by Warinanco Park and floods low blocks during heavy rain; Ida in 2021 pushed water and sewer backups into basements across town. Sump-pump overload during summer storms is the common loss. The Chestnut Street and St. Georges Avenue corridors generate small commercial, roof-leak and overnight retail water events."
-  },
-  {
-   "city": "Hillside",
-   "state": "NJ",
-   "slug": "hillside-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Hillside Center",
-    "Saybrook",
-    "Coe's Corner",
-    "Winans",
-    "Conant"
-   ],
-   "landmarks": [
-    "Woodruff House / Eaton Store Museum",
-    "Evergreen Cemetery",
-    "Route 22 retail corridor",
-    "Conant Street industrial area",
-    "Hillside Public Library"
-   ],
-   "zip_codes": [
-    "07205"
-   ],
-   "local_notes": "Hillside is a tight urban township of 1920s-50s colonials, two-families and postwar capes, most with finished or semi-finished basements where original galvanized supply and cast-iron drains fail routinely. The Elizabeth River crosses the town's eastern side and low ground floods during hard rain; Ida in 2021 drove river overflow and sewer backups into basements. Sump-pump failures during summer downpours are steady work. The Route 22 corridor and Conant Street industrial zone generate warehouse, sprinkler-discharge, roof-leak and overnight commercial losses that make up a large share of calls."
-  },
-  {
-   "city": "East Orange",
-   "state": "NJ",
-   "slug": "east-orange-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Brick Church",
-    "Ampere",
-    "Elmwood",
-    "Doddtown",
-    "Presidential Estates"
-   ],
-   "landmarks": [
-    "Brick Church station",
-    "East Orange General Hospital",
-    "Cicely Tyson School",
-    "Watsessing Park (border)",
-    "Central Avenue business district"
-   ],
-   "zip_codes": [
-    "07017",
-    "07018",
-    "07019"
-   ],
-   "local_notes": "East Orange is dense with early-1900s through 1930s brick apartment buildings, three-story walk-ups, Victorians and two-families, plus postwar infill \u2014 aging galvanized risers, cast-iron stacks and flat roofs drive repeated water losses across multiple units. Basement mechanical rooms and finished cellars flood during heavy rain, and sewer backups are routine in low areas. The Second River and nearby Elizabeth River tributaries flooded low ground during Ida in 2021. The Central Avenue and Main Street commercial corridors and hospital campus add sprinkler, roof-leak and overnight multi-family losses."
-  },
-  {
-   "city": "West Orange",
-   "state": "NJ",
-   "slug": "west-orange-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Llewellyn Park",
-    "Pleasantdale",
-    "Gregory",
-    "Redwood",
-    "St. Cloud"
-   ],
-   "landmarks": [
-    "Thomas Edison National Historical Park",
-    "Turtle Back Zoo",
-    "South Mountain Reservation",
-    "Eagle Rock Reservation",
-    "Essex Green Shopping Center"
-   ],
-   "zip_codes": [
-    "07052"
-   ],
-   "local_notes": "West Orange climbs the Watchung ridge with a wide mix \u2014 grand Victorians in Llewellyn Park, 1920s Tudors and colonials, and postwar splits and ranches in Pleasantdale, most on finished basements. Hillside grading sends stormwater downslope, overwhelming sump pumps and flooding basements during heavy rain. The Rahway River headwaters and streams draining South Mountain Reservation swell in storms, and Ida in 2021 drove flash flooding and sewer backups across low pockets. The Northfield Avenue and Prospect Avenue commercial corridors plus Essex Green retail add roof-leak, sprinkler and overnight commercial losses."
-  },
-  {
-   "city": "Montclair",
-   "state": "NJ",
-   "slug": "montclair-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Upper Montclair",
-    "Watchung Plaza",
-    "South End",
-    "Frog Hollow",
-    "Estate Section"
-   ],
-   "landmarks": [
-    "Montclair Art Museum",
-    "Montclair State University (border)",
-    "Anderson Park",
-    "Watchung Plaza district",
-    "Eagle Rock Reservation"
-   ],
-   "zip_codes": [
-    "07042",
-    "07043"
-   ],
-   "local_notes": "Montclair is known for large Victorians, early-1900s Tudors and center-hall colonials plus grand Estate Section homes, many with old slate roofs, plaster walls and finished basements where aging supply lines and cast-iron drains fail. The Third River (Yantacaw) and its tributaries run through town and flood low ground; Ida in 2021 caused severe flash flooding and sewer backups, notably around Frog Hollow and the South End. Hillside grading off the Watchung ridge overwhelms sumps in storms. The Bloomfield Avenue and Walnut Street corridors add restaurant, retail and roof-leak commercial losses."
-  },
-  {
-   "city": "Bloomfield",
-   "state": "NJ",
-   "slug": "bloomfield-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Brookdale",
-    "Watsessing",
-    "Bloomfield Center",
-    "Brookside",
-    "North Center"
-   ],
-   "landmarks": [
-    "Bloomfield Green Historic District",
-    "Brookdale Park",
-    "Watsessing Park",
-    "Bloomfield College",
-    "Broad Street business district"
-   ],
-   "zip_codes": [
-    "07003"
-   ],
-   "local_notes": "Bloomfield is densely built with 1900s-1930s colonials, two-families and Tudors plus postwar capes, most on finished basements where original galvanized supply and cast-iron waste lines fail on schedule. The Third River (Yantacaw) and Second River thread through town near Watsessing and Brookdale, and both areas flooded badly during Ida in 2021, backing sewers into basements. Sump-pump failures during summer downpours are the routine call. The Broad Street and Bloomfield Avenue corridors and college campus add restaurant, retail, roof-leak and overnight commercial water losses."
-  },
-  {
-   "city": "Livingston",
-   "state": "NJ",
-   "slug": "livingston-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Northland",
-    "Collins",
-    "Riker Hill",
-    "Cedar Hill",
-    "Squiretown"
-   ],
-   "landmarks": [
-    "Livingston Mall",
-    "Riker Hill Art Park",
-    "Saint Barnabas Medical Center",
-    "Livingston Town Center",
-    "Memorial Park"
-   ],
-   "zip_codes": [
-    "07039"
-   ],
-   "local_notes": "Livingston's housing skews to 1950s-70s split-levels, ranches and colonials, with a wave of newer teardown McMansions on finished basements that raise cleanup stakes. The Passaic River forms the western boundary and the Canoe Brook watershed threads the town; low-lying areas near the Canoe Brook and West Essex Trail flood during heavy rain, and Ida in 2021 pushed water into basements across the region. Aging cast-iron drains and copper supply lines fail on schedule. Saint Barnabas Medical Center and the Livingston Mall retail corridor generate commercial and sprinkler-discharge losses."
-  },
-  {
-   "city": "Irvington",
-   "state": "NJ",
-   "slug": "irvington-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Irvington Center",
-    "Upsala",
-    "Grove Park",
-    "Union Avenue",
-    "Chancellor Avenue"
-   ],
-   "landmarks": [
-    "Irvington Park",
-    "Civic Square",
-    "Springfield Avenue corridor",
-    "Camptown Historic District",
-    "Olympic Park site"
-   ],
-   "zip_codes": [
-    "07111"
-   ],
-   "local_notes": "Irvington is densely built with early-1900s multifamily rowhouses, two- and three-family homes and prewar frame houses, much of it aging and prone to failing galvanized supply lines and cast-iron drains. Finished and semi-finished basements are common in this tight housing stock, compounding water losses. The Elizabeth River watershed drains the area and low spots flood in hard storms, with Ida in 2021 driving widespread basement flooding across Essex County. The Springfield Avenue commercial corridor produces storefront roof-leak, overnight and pipe-burst losses."
-  },
-  {
-   "city": "Maplewood",
-   "state": "NJ",
-   "slug": "maplewood-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Maplewood Village",
-    "Hilton",
-    "Jefferson",
-    "Tuscan",
-    "The Fields"
-   ],
-   "landmarks": [
-    "Maplewood Village shopping district",
-    "Memorial Park",
-    "South Mountain Reservation",
-    "Maplewood Train Station",
-    "Durand-Hedden House"
-   ],
-   "zip_codes": [
-    "07040"
-   ],
-   "local_notes": "Maplewood is known for its 1910s-1930s Tudors, colonials and craftsman houses, many with original plaster, stone foundations and finished basements vulnerable to seepage. The East Branch of the Rahway River runs through Memorial Park and Maplewood Village; it repeatedly overtops during major storms, and Ida in 2021 flooded the village and low-lying streets severely. Older cast-iron drains and knob-and-tube-era plumbing failures are routine in this housing stock. The Maplewood Village commercial district and train-station area generate roof-leak and sump-failure losses."
-  },
-  {
-   "city": "Millburn",
-   "state": "NJ",
-   "slug": "millburn-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Millburn Center",
-    "Short Hills",
-    "Wyoming",
-    "Glenwood",
-    "Old Short Hills"
-   ],
-   "landmarks": [
-    "The Mall at Short Hills",
-    "Paper Mill Playhouse",
-    "Taylor Park",
-    "South Mountain Reservation",
-    "Millburn train station"
-   ],
-   "zip_codes": [
-    "07041",
-    "07078"
-   ],
-   "local_notes": "Millburn and Short Hills feature large early-1900s colonials, Tudors and estate homes, many with finished basements, wine cellars and high-value contents that raise water-loss severity. The West Branch of the Rahway River runs directly through downtown Millburn and Taylor Park; it has a long history of overtopping, and Ida in 2021 devastated the downtown business district with catastrophic flooding. Aging cast-iron and copper systems fail routinely. The Mall at Short Hills and Millburn Avenue retail corridor generate sprinkler-discharge and commercial losses."
-  },
-  {
-   "city": "Hackensack",
-   "state": "NJ",
-   "slug": "hackensack-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Fairmount",
-    "The Heights",
-    "Southside",
-    "Central Business District",
-    "Prospect Avenue corridor"
-   ],
-   "landmarks": [
-    "Hackensack University Medical Center",
-    "Bergen County Courthouse",
-    "Main Street business district",
-    "Johnson Park",
-    "Foschini Park"
-   ],
-   "zip_codes": [
-    "07601",
-    "07602"
-   ],
-   "local_notes": "Hackensack mixes prewar two- and three-family homes, mid-century capes and a wall of Prospect Avenue high-rise apartments where stacked units mean single pipe bursts cascade across floors. The Hackensack River forms the eastern edge and tidal-influenced low areas flood in heavy storms; Ida in 2021 caused widespread basement flooding across Bergen County. Aging cast-iron drains and galvanized supply lines fail on schedule. Hackensack University Medical Center, the courthouse district and Main Street retail corridor produce commercial, sprinkler and overnight losses."
-  },
-  {
-   "city": "Paramus",
-   "state": "NJ",
-   "slug": "paramus-nj",
-   "primary": false,
-   "neighborhoods": [
-    "West Paramus",
-    "East Paramus",
-    "Farview",
-    "Spring Valley",
-    "Arcola"
-   ],
-   "landmarks": [
-    "Westfield Garden State Plaza",
-    "Paramus Park Mall",
-    "Bergen Community College",
-    "Route 17 retail corridor",
-    "Van Saun County Park"
-   ],
-   "zip_codes": [
-    "07652",
-    "07653"
-   ],
-   "local_notes": "Paramus is largely 1950s-60s ranches, split-levels and colonials on slab or finished basements, with sprawling retail dominating the town. The Saddle River runs through Van Saun Park and low-lying areas along it flood during heavy rain, and Ida in 2021 drove basement flooding across Bergen County. Aging postwar supply plumbing and cast-iron drains fail routinely. Paramus's Route 4 and Route 17 corridors \u2014 anchored by Garden State Plaza and Paramus Park \u2014 generate heavy sprinkler-discharge, roof-leak and overnight commercial water losses at big-box and mall properties."
-  },
-  {
-   "city": "Fort Lee",
-   "state": "NJ",
-   "slug": "fort-lee-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Coytesville",
-    "Palisade",
-    "The Hill",
-    "Linwood",
-    "Central Fort Lee"
-   ],
-   "landmarks": [
-    "George Washington Bridge",
-    "Fort Lee Historic Park",
-    "Palisades Interstate Park",
-    "Main Street business district",
-    "Hudson Lights complex"
-   ],
-   "zip_codes": [
-    "07024"
-   ],
-   "local_notes": "Fort Lee is dominated by dense high-rise condominium and apartment towers along the Palisades, where a single supply-line or in-unit failure cascades through stacked units, plus older prewar homes and multifamily buildings in Coytesville and The Hill. The town sits atop the Palisades cliffs above the Hudson River, so runoff and steep-grade drainage drive storm-related losses. Ida in 2021 caused widespread flooding across Bergen County. High-rise plumbing failures, the Main Street corridor and Hudson Lights mixed-use complex generate frequent water and commercial losses."
-  },
-  {
-   "city": "Teaneck",
-   "state": "NJ",
-   "slug": "teaneck-nj",
-   "primary": false,
-   "neighborhoods": [
-    "West Englewood",
-    "The Grange",
-    "Bryant School area",
-    "Cedar Lane district",
-    "Whittier",
-    "West Teaneck"
-   ],
-   "landmarks": [
-    "Cedar Lane commercial district",
-    "Fairleigh Dickinson University",
-    "Teaneck Creek Conservancy",
-    "Votee Park",
-    "Holy Name Medical Center"
-   ],
-   "zip_codes": [
-    "07666"
-   ],
-   "local_notes": "Teaneck's housing runs to 1920s-40s brick Tudors, colonials and center-hall homes, many with old cast-iron drains and finished basements prone to sewer backups. The Hackensack River forms the eastern edge and Teaneck Creek winds through low-lying areas; both contributed to flooding during Ida in 2021, which overwhelmed basements across the township. The Cedar Lane and Teaneck Road corridors carry dense retail and restaurants generating sprinkler and overnight commercial losses. Fairleigh Dickinson University adds student-housing water events, and Holy Name Medical Center anchors round-the-clock institutional risk."
-  },
-  {
-   "city": "Ridgewood",
-   "state": "NJ",
-   "slug": "ridgewood-nj",
-   "primary": false,
-   "neighborhoods": [
-    "The Village center",
-    "Willard",
-    "Somerville",
-    "Heights",
-    "Old Country Club",
-    "West Side"
-   ],
-   "landmarks": [
-    "Ridgewood train station",
-    "Van Neste Square",
-    "Graydon Pool",
-    "Ridgewood Country Club",
-    "The Stable"
-   ],
-   "zip_codes": [
-    "07450"
-   ],
-   "local_notes": "Ridgewood is defined by grand early-1900s Victorians, Tudors and stately colonials with aging supply lines and deep finished basements. The Ho-Ho-Kus Brook and Saddle River run through the village and have a long history of overtopping; Ida in 2021 flooded downtown streets and basements near the brook badly. The compact East Ridgewood Avenue business district produces frequent commercial pipe, roof-leak and sprinkler losses. Older slate and flat roofs on historic homes drive ice-dam and storm intrusion claims, while dense mature tree cover contributes to storm-related water damage each season."
-  },
-  {
-   "city": "Englewood",
-   "state": "NJ",
-   "slug": "englewood-nj",
-   "primary": false,
-   "neighborhoods": [
-    "The East Hill",
-    "Englewood Cliffs border",
-    "The Fourth Ward",
-    "West Englewood",
-    "Highwood",
-    "Downtown"
-   ],
-   "landmarks": [
-    "Bergen Performing Arts Center",
-    "Palisade Avenue business district",
-    "Englewood Hospital",
-    "Flat Rock Brook Nature Center",
-    "Dwight-Englewood School"
-   ],
-   "zip_codes": [
-    "07631"
-   ],
-   "local_notes": "Englewood mixes grand East Hill estates with dense early-1900s multifamily and postwar housing on the west side, meaning a wide range of failing plumbing and finished basements. Flat Rock Brook and Overpeck Creek tributaries cross the city and low-lying areas near Overpeck flooded during Ida in 2021. The Palisade Avenue corridor carries dense retail, restaurants and offices generating sprinkler-discharge and overnight commercial losses. Englewood Hospital anchors continuous institutional exposure, while the Bergen PAC and older apartment stock add commercial and multi-unit water events across the year."
-  },
-  {
-   "city": "Garfield",
-   "state": "NJ",
-   "slug": "garfield-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Belmont",
-    "Plauderville",
-    "Outwater",
-    "Dahnert's Lake area",
-    "Harrison Avenue district",
-    "Passaic Street corridor"
-   ],
-   "landmarks": [
-    "Dahnert's Lake County Park",
-    "Passaic Street business district",
-    "Garfield train station",
-    "River Drive",
-    "Belmont Avenue corridor"
-   ],
-   "zip_codes": [
-    "07026"
-   ],
-   "local_notes": "Garfield is a dense, working-class city of early-1900s two-and-three-family frame homes and postwar capes on small lots, with aging cast-iron drains and finished basements common. The Passaic River runs along the western edge on River Drive and has a severe flood history; Ida in 2021 inundated riverfront blocks and basements badly. Saddle River tributaries add low-spot flooding after hard storms. The Passaic Street and Belmont Avenue corridors carry dense retail and small commercial generating overnight pipe and roof-leak losses, while packed multifamily housing drives frequent shared-wall water events."
-  },
-  {
-   "city": "New Brunswick",
-   "state": "NJ",
-   "slug": "new-brunswick-nj",
-   "primary": false,
-   "neighborhoods": [
-    "The Fifth Ward",
-    "Highland Park border",
-    "Robeson Village",
-    "Rutgers Village",
-    "Downtown",
-    "Edgebrook"
-   ],
-   "landmarks": [
-    "Rutgers University",
-    "Robert Wood Johnson University Hospital",
-    "State Theatre New Jersey",
-    "George Street business district",
-    "Boyd Park"
-   ],
-   "zip_codes": [
-    "08901",
-    "08903",
-    "08906"
-   ],
-   "local_notes": "New Brunswick pairs dense early-1900s rowhouses and multifamily near Rutgers with high-rise downtown development and postwar housing. Aging supply lines and cast-iron drains fail routinely, and student rentals drive constant apartment water events. The Raritan River runs along the southern edge at Boyd Park and has a long flood history; Ida in 2021 pushed water into low-lying riverfront areas. The George Street and downtown corridors carry dense retail, restaurants and offices generating sprinkler and overnight commercial losses, while Robert Wood Johnson hospital and university buildings add continuous institutional exposure."
-  },
-  {
-   "city": "Edison",
-   "state": "NJ",
-   "slug": "edison-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Clara Barton",
-    "Stelton",
-    "Oak Tree",
-    "North Edison",
-    "Menlo Park",
-    "Nixon"
-   ],
-   "landmarks": [
-    "Menlo Park Mall",
-    "Thomas Edison Center at Menlo Park",
-    "Middlesex County College",
-    "Roosevelt Park",
-    "Route 1 retail corridor"
-   ],
-   "zip_codes": [
-    "08817",
-    "08818",
-    "08820",
-    "08837",
-    "08899"
-   ],
-   "local_notes": "Edison is a sprawling township of postwar capes, split-levels and colonials plus large multifamily complexes, with original supply plumbing and cast-iron drains failing on finished basements. The Raritan River borders the south and low-lying areas near it, along with Mill Brook tributaries, saw flooding during Ida in 2021. The Route 1 and Route 27 corridors carry heavy big-box retail, restaurants, offices and warehouses generating sprinkler-discharge, roof-leak and overnight commercial losses. Menlo Park Mall and the dense industrial and logistics footprint add large-loss commercial water exposure across the township."
-  },
-  {
-   "city": "Woodbridge",
-   "state": "NJ",
-   "slug": "woodbridge-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Woodbridge Proper",
-    "Colonia",
-    "Iselin",
-    "Fords",
-    "Avenel",
-    "Port Reading",
-    "Sewaren"
-   ],
-   "landmarks": [
-    "Woodbridge Center mall",
-    "Woodbridge train station",
-    "Rahway River",
-    "Merrill Park",
-    "Route 1 & 9 corridor"
-   ],
-   "zip_codes": [
-    "07095",
-    "07064",
-    "07067",
-    "07001",
-    "08830",
-    "08832",
-    "08863"
-   ],
-   "local_notes": "Woodbridge Township spans many communities of postwar capes, split-levels and colonials with aging supply lines, cast-iron drains and finished basements. The Rahway River and Woodbridge River thread through town and both have severe flood histories; Ida in 2021 devastated low-lying areas, and the township has repeatedly flooded near the rivers and tidal creeks in Sewaren and Port Reading. The Route 1 & 9 corridor and Woodbridge Center carry dense retail, restaurants and industrial sites generating sprinkler and overnight commercial losses, while tidal and coastal-storm surge adds waterfront risk in the eastern sections."
-  },
-  {
-   "city": "Perth Amboy",
-   "state": "NJ",
-   "slug": "perth-amboy-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown",
-    "Budapest",
-    "Dunham Heights",
-    "Waterfront",
-    "Kearny Heights",
-    "Chase Avenue"
-   ],
-   "landmarks": [
-    "Raritan Bay Waterfront",
-    "Perth Amboy Ferry Slip",
-    "City Hall (oldest in continuous use in the U.S.)",
-    "Proprietary House",
-    "Bayview Park"
-   ],
-   "zip_codes": [
-    "08861",
-    "08862"
-   ],
-   "local_notes": "Perth Amboy sits where the Raritan River meets Raritan Bay, and its low waterfront blocks took serious tidal surge and flooding during Sandy in 2012, with lingering coastal-storm exposure. Housing stock is old and dense \u2014 late-1800s and early-1900s frame two- and three-families, brick rowhomes and multifamily conversions with aging galvanized supply lines and cast-iron drains prone to failure. The downtown Smith Street commercial corridor and waterfront restaurants generate storefront and roof-leak losses. Older basements flood during nor'easters and hard summer storms, and multifamily buildings drive tenant-to-tenant water damage claims."
-  },
-  {
-   "city": "East Brunswick",
-   "state": "NJ",
-   "slug": "east-brunswick-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Old Bridge Turnpike",
-    "Lawrence Brook",
-    "Frost Woods",
-    "Tanglewood",
-    "Village of the Golden Triangle",
-    "Farrington"
-   ],
-   "landmarks": [
-    "Route 18 retail corridor",
-    "Brunswick Square Mall",
-    "Lawrence Brook",
-    "East Brunswick Community Arts Center",
-    "Ireland Brook Conservation Area"
-   ],
-   "zip_codes": [
-    "08816"
-   ],
-   "local_notes": "East Brunswick is a sprawling postwar suburb of 1950s-70s ranches, split-levels and colonials, with newer townhome and condo developments layered in. Lawrence Brook and the Farrington Lake watershed thread through town, and low-lying sections along the brook and near Route 18 saw flooding during Irene and Ida remnants. Aging original supply plumbing and cast-iron drains fail on schedule in the older tracts, nearly all on finished basements. The Route 18 corridor's big-box retail, Brunswick Square Mall and restaurants generate sprinkler-discharge, roof-leak and overnight commercial water losses, while dense condo clusters drive multi-unit failures."
-  },
-  {
-   "city": "Piscataway",
-   "state": "NJ",
-   "slug": "piscataway-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Arbor",
-    "Possumtown",
-    "Stelton",
-    "New Market",
-    "Society Hill",
-    "River Road"
-   ],
-   "landmarks": [
-    "Rutgers Livingston & Busch Campuses",
-    "SHI Stadium",
-    "Johnson Park",
-    "Raritan River",
-    "Stelton commercial corridor"
-   ],
-   "zip_codes": [
-    "08854",
-    "08855"
-   ],
-   "local_notes": "Piscataway runs along the Raritan River, and the River Road corridor and Johnson Park flatlands flooded badly during Ida in 2021 and earlier during Floyd and Irene, with repeat riverine exposure. Housing ranges from postwar capes and split-levels to large Society Hill townhome and condo developments. Older tracts have failing galvanized supply lines and cast-iron drains on finished basements. Rutgers' Livingston and Busch campuses add student-housing water events, and the Centennial Avenue and Stelton commercial corridors plus warehouse and lab space generate sprinkler-discharge, roof-leak and overnight commercial losses."
-  },
-  {
-   "city": "Morristown",
-   "state": "NJ",
-   "slug": "morristown-nj",
-   "primary": false,
-   "neighborhoods": [
-    "The Green",
-    "Speedwell",
-    "Historic District",
-    "Little Italy",
-    "Franklin Corner",
-    "Cauldwell"
-   ],
-   "landmarks": [
-    "Morristown Green",
-    "Morristown National Historical Park",
-    "Morristown Medical Center",
-    "Ford Mansion",
-    "The Vail Mansion"
-   ],
-   "zip_codes": [
-    "07960",
-    "07963"
-   ],
-   "local_notes": "Morristown pairs a dense historic core with newer downtown mid-rise apartments and condos. The housing stock includes 1800s and early-1900s Victorians, colonials and brick multifamily near the Green, many with aging galvanized plumbing and cast-iron drains on finished basements. The Whippany River runs along the town's edge and low areas flood during heavy storms, including Ida remnants in 2021. The Speedwell Avenue and South Street commercial corridors, restaurants around the Green and Morristown Medical Center generate storefront, roof-leak and overnight commercial water losses, while new luxury apartment towers drive multi-unit supply-line failures."
-  },
-  {
-   "city": "Parsippany",
-   "state": "NJ",
-   "slug": "parsippany-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Lake Hiawatha",
-    "Lake Parsippany",
-    "Mount Tabor",
-    "Powder Mill",
-    "Rainbow Lakes",
-    "Troy Hills"
-   ],
-   "landmarks": [
-    "Lake Parsippany",
-    "Mount Tabor Historic District",
-    "Interstate 80/287 interchange",
-    "Waterview commercial district",
-    "Whippany River"
-   ],
-   "zip_codes": [
-    "07054",
-    "07005",
-    "07950"
-   ],
-   "local_notes": "Parsippany-Troy Hills is a large township of postwar capes, ranches and split-levels around its namesake lake communities, plus the tightly-packed Victorian cottages of Mount Tabor. The Whippany River, Rockaway River and Troy Brook run through low sections, and Lake Hiawatha in particular flooded severely during Ida in 2021 as well as Floyd and Irene. Aging supply plumbing and cast-iron drains fail on finished basements in the older lake tracts. The town's massive corporate office parks, hotels and the Route 46 and Waterview commercial corridors generate sprinkler-discharge, roof-leak and overnight commercial water losses."
-  },
-  {
-   "city": "Somerville",
-   "state": "NJ",
-   "slug": "somerville-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown",
-    "West End",
-    "East Main",
-    "Fairview",
-    "Gaston Avenue",
-    "Mercer Street"
-   ],
-   "landmarks": [
-    "Main Street business district",
-    "Somerset County Courthouse",
-    "Wallace House",
-    "Duke Farms (adjacent)",
-    "Raritan River"
-   ],
-   "zip_codes": [
-    "08876",
-    "08869"
-   ],
-   "local_notes": "Somerville is Somerset County's compact seat, built around a walkable Main Street of storefronts, restaurants and county offices. Housing is largely early-1900s frame two-families, Victorians and colonials with aging galvanized supply lines and cast-iron drains on finished basements, joined by newer downtown apartment redevelopment. The Raritan River and Peters Brook flank the borough, and low areas flooded during Ida in 2021 and earlier during Floyd and Irene. The Main Street commercial corridor generates storefront, sprinkler-discharge and overnight roof-leak losses, while new mid-rise residential projects drive multi-unit supply-line failures."
-  },
-  {
-   "city": "Bridgewater",
-   "state": "NJ",
-   "slug": "bridgewater-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Finderne",
-    "Martinsville",
-    "Bradley Gardens",
-    "Green Knoll",
-    "Milltown",
-    "Chimney Rock"
-   ],
-   "landmarks": [
-    "Bridgewater Commons",
-    "TD Bank Ballpark",
-    "Raritan River",
-    "Chimney Rock Park",
-    "Route 22/287 interchange"
-   ],
-   "zip_codes": [
-    "08807",
-    "08805"
-   ],
-   "local_notes": "Bridgewater is a sprawling suburban township of postwar ranches and split-levels plus larger newer colonials and townhome developments. The Raritan River, Middle Brook and Chimney Rock area run through low sections, and the Finderne and Bound Brook-adjacent flats flooded catastrophically during Floyd and again during Ida in 2021. Older tracts have failing supply plumbing and cast-iron drains on finished basements. The Route 22 and Route 202/206 retail corridors, Bridgewater Commons mall, TD Bank Ballpark and office parks generate sprinkler-discharge, roof-leak and overnight commercial water losses across the township."
-  },
-  {
-   "city": "Paterson",
-   "state": "NJ",
-   "slug": "paterson-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Eastside",
-    "Sandy Hill",
-    "South Paterson",
-    "Hillcrest",
-    "Totowa Section",
-    "Lakeview"
-   ],
-   "landmarks": [
-    "Great Falls National Historical Park",
-    "Hinchliffe Stadium",
-    "St. Joseph's University Medical Center",
-    "Lambert Castle",
-    "Passaic County Community College"
-   ],
-   "zip_codes": [
-    "07501",
-    "07502",
-    "07503",
-    "07504",
-    "07505",
-    "07513",
-    "07514",
-    "07522",
-    "07524"
-   ],
-   "local_notes": "Paterson sits directly on the Passaic River, and the low-lying blocks below the Great Falls flood repeatedly \u2014 the river crested catastrophically during Hurricane Irene in 2011 and again during Ida in 2021, submerging homes near the Riverside and downtown sections. Housing skews old: dense 19th-century mill-worker rowhomes, brick multi-family walkups and aging two- and three-family frame houses with knob-and-tube remnants and cast-iron drains. Silk-era industrial buildings converted to apartments generate sprinkler and standpipe losses. Overcrowded rental stock drives frequent tenant water damage, backups and mold in unventilated basements and bathrooms."
-  },
-  {
-   "city": "Clifton",
-   "state": "NJ",
-   "slug": "clifton-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Botany Village",
-    "Athenia",
-    "Lakeview",
-    "Richfield",
-    "Delawanna",
-    "Montclair Heights"
-   ],
-   "landmarks": [
-    "Clifton Commons",
-    "Main Memorial Park",
-    "Styertowne Shopping Center",
-    "Weasel Brook Park",
-    "Route 3 commercial corridor"
-   ],
-   "zip_codes": [
-    "07011",
-    "07012",
-    "07013",
-    "07014"
-   ],
-   "local_notes": "Clifton's Passaic River and Weasel Brook borders flood the Lakeview and Delawanna sections; the Passaic overran its banks here during Irene and Ida, pushing water into low-lying homes and industrial lots near Route 21. Housing is heavily postwar \u2014 1940s-60s capes, colonials and split-levels on finished basements with original supply lines and cast-iron drains reaching end of life. Botany Village retains older brick multi-family stock. The Route 3 and Route 46 retail corridors and Styertowne generate sprinkler-discharge, roof-leak and overnight commercial losses, and dense two-family rentals produce frequent tenant water events."
-  },
-  {
-   "city": "Wayne",
-   "state": "NJ",
-   "slug": "wayne-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Pines Lake",
-    "Packanack Lake",
-    "Preakness",
-    "Mountain View",
-    "Lionshead Lake",
-    "Hoffman Grove"
-   ],
-   "landmarks": [
-    "William Paterson University",
-    "Willowbrook Mall",
-    "Dey Mansion",
-    "High Mountain Park Preserve",
-    "Wayne Towne Center"
-   ],
-   "zip_codes": [
-    "07470",
-    "07474"
-   ],
-   "local_notes": "Wayne is notorious for Passaic River and Pompton River flooding \u2014 the Hoffman Grove and Mountain View sections flood chronically, and the town was hit hard by Irene in 2011 and again during Ida in 2021, with repeated evacuations along the river. Several lake communities \u2014 Packanack, Pines and Lionshead \u2014 feature midcentury ranches and split-levels near water on finished basements. Broader housing is 1950s-70s colonials and capes with aging plumbing and sump-dependent basements. Willowbrook Mall and the Route 23/46 retail corridors drive commercial sprinkler, roof-leak and pipe-burst losses, while William Paterson adds student-housing events."
-  },
-  {
-   "city": "Passaic",
-   "state": "NJ",
-   "slug": "passaic-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown Passaic",
-    "Third Ward",
-    "Fourth Ward",
-    "Rutherford Heights",
-    "Prospect Park border"
-   ],
-   "landmarks": [
-    "Passaic City Hall",
-    "St. Mary's General Hospital",
-    "Third Ward Park",
-    "Main Avenue business district",
-    "Pulaski Park"
-   ],
-   "zip_codes": [
-    "07055"
-   ],
-   "local_notes": "Passaic sits on the Passaic River, and the city flooded severely during Irene in 2011 and again during Ida in 2021, with riverfront blocks and low spots inundated. It's one of New Jersey's densest small cities \u2014 packed with early 20th-century brick multi-family walkups, two- and three-family frame houses and older rowhomes with knob-and-tube remnants and failing cast-iron drains. Overcrowded rental stock drives constant tenant water damage, sewer backups and mold in unventilated basements. The Main Avenue commercial corridor and mixed-use storefronts generate sprinkler-discharge, roof-leak and overnight retail losses."
-  },
-  {
-   "city": "Hoboken",
-   "state": "NJ",
-   "slug": "hoboken-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Downtown Hoboken",
-    "Uptown",
-    "Midtown",
-    "The Waterfront",
-    "Southwest Hoboken",
-    "Castle Point"
-   ],
-   "landmarks": [
-    "Stevens Institute of Technology",
-    "Hoboken Terminal",
-    "Pier A Park",
-    "Washington Street business district",
-    "Elysian Park"
-   ],
-   "zip_codes": [
-    "07030"
-   ],
-   "local_notes": "Hoboken is a low-lying former tidal marsh on the Hudson and floods routinely \u2014 Superstorm Sandy in 2012 submerged much of the city, and heavy rain and Ida in 2021 overwhelmed the combined sewer system, backing water into basements and garden units citywide. Housing is dominated by dense 19th-century brownstones and brick rowhomes with below-grade units, plus newer waterfront high-rises. Aging plumbing and shared party-wall stacks drive frequent pipe bursts and multi-unit water losses. The Washington Street corridor and Stevens Institute add commercial sprinkler, roof-leak and student-housing water events."
-  },
-  {
-   "city": "Bayonne",
-   "state": "NJ",
-   "slug": "bayonne-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Bergen Point",
-    "Constable Hook",
-    "Uptown",
-    "Downtown Bayonne",
-    "Midtown"
-   ],
-   "landmarks": [
-    "Bayonne Bridge",
-    "Stephen R. Gregg Park",
-    "Bayonne Crossing shopping center",
-    "Cape Liberty Cruise Port",
-    "Newark Bay waterfront"
-   ],
-   "zip_codes": [
-    "07002"
-   ],
-   "local_notes": "Bayonne is a narrow peninsula between Newark Bay and the Kill Van Kull, and its waterfront and Constable Hook areas are storm-surge exposed \u2014 Sandy in 2012 flooded low-lying industrial and residential blocks. Housing is dense and older: early 20th-century two- and three-family frame homes, brick rowhomes and postwar capes on finished basements with cast-iron drains and original supply plumbing failing on schedule. Tight rental stock produces frequent tenant water losses and basement mold. The Bayonne Crossing retail center and Route 440 corridor drive commercial sprinkler, roof-leak and overnight losses."
-  },
-  {
-   "city": "North Bergen",
-   "state": "NJ",
-   "slug": "north-bergen-nj",
-   "primary": false,
-   "neighborhoods": [
-    "Guttenberg border",
-    "Bergenline",
-    "Fairview border",
-    "Woodcliff",
-    "Transfer Station"
-   ],
-   "landmarks": [
-    "James J. Braddock North Hudson Park",
-    "Bergenline Avenue business district",
-    "Hudson County Community College North Hudson Center",
-    "Tonnelle Avenue commercial corridor",
-    "Hudson River waterfront"
-   ],
-   "zip_codes": [
-    "07047"
-   ],
-   "local_notes": "North Bergen straddles the Palisades ridge above the Hudson, and its low-lying western flats near the Meadowlands and Tonnelle Avenue are flood-prone \u2014 heavy rain and Ida in 2021 overwhelmed storm drains, backing water into basements. It's one of the state's densest towns: packed with early 20th-century multi-family walkups, brick and frame two- and three-family homes on hillside lots, and older rental stock with aging plumbing and cast-iron drains. Overcrowded units drive frequent tenant water damage and basement mold. The Bergenline and Tonnelle corridors generate commercial sprinkler, roof-leak and retail losses."
-  }
- ],
- "brand": {
-  "display_name": "The Restoration Group",
-  "short_name": "The Restoration Group",
-  "legal_name": "The Restoration Group",
-  "phone": "(855) 650-7422",
-  "email": "",
-  "hours": "24/7",
-  "founded_year": "2021",
-  "street_address": "500 S 31st St",
-  "postal_code": "07033",
-  "lat": "40.6749",
-  "lng": "-74.2957",
-  "place_id": "ChIJfZMnExzVxiIRkevldLILJW8",
-  "google_cid": "8008820373441604497",
-  "license_numbers": [],
-  "license_authority": "NJ Division of Consumer Affairs",
-  "license_type": "NJ Licensed Home Improvement Contractor",
-  "response_minutes": 60,
-  "certifications": [
-   "IICRC Certified Firm #210213"
+  "_source": "Built 2026-07-10 from clients/restoration-groups/intel/audit-2026-07-09.md + the 2026-07-08 onboarding call (call facts OVERRIDE the audit where they conflict \u2014 audit covered the old 'Elite Restoration Group' identity). Preview promised 7/13, review call 7/15.",
+  "_claims_policy": "CLAIMABLE: founded 2021 / 'since 2021' (owner-stated; matches domain registration 2021-12); IICRC Certified Firm #210213 (owner stated on recorded call); 24/7 (GBP open 24h); 60-minute emergency response (owner attested \u2014 template default kept ON, response_minutes=60); 'NJ Licensed Home Improvement Contractor' TEXT ONLY. WITHHELD: the specific NJ HIC number (digits unverified \u2014 never print until DCA-verified); BBB accreditation (audit: NO BBB profile exists \u2014 old site's badge was unsupported, do NOT carry it over); '20+ years' / '13 years' tenure claims (contradictory, replaced by 'since 2021'); star ratings in copy (GBP fields sync-only via sync_brand_reviews.py).",
+  "_intake_pending": [
+    "NJ HIC number verification (13VH... digits) -> license_numbers",
+    "legal entity suffix (Schwarz Enterprises LLC/Inc?)",
+    "email on restorationgroups.com",
+    "logo files + truck/crew/job photos",
+    "post-rebrand social URLs for same_as_urls",
+    "confirm Brooklyn/Manhattan licensing posture for NY work claims (pages kept service-descriptive)"
   ],
-  "same_as_urls": [
-   "https://www.google.com/maps?cid=8008820373441604497"
+  "template": "restoration",
+  "services": [
+    "water-damage-restoration",
+    "flood-damage-restoration",
+    "burst-pipe-repair",
+    "basement-flooding-cleanup",
+    "appliance-leak-cleanup",
+    "sewage-cleanup",
+    "fire-damage-restoration",
+    "smoke-damage-restoration",
+    "odor-removal",
+    "mold-remediation",
+    "mold-inspection-testing",
+    "storm-damage-restoration",
+    "emergency-board-up-tarping",
+    "commercial-restoration",
+    "reconstruction",
+    "general-contracting",
+    "water-cleanup",
+    "contents-restoration-pack-out",
+    "basement-flood-cleanup",
+    "biohazard-cleanup"
   ],
-  "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
-  "licensed_insured_attested": true,
-  "_license_note": "NJ HIC number captured on the 7/8 call but digits UNVERIFIED \u2014 license_numbers stays EMPTY until DCA-verified. Footer/badges print 'NJ Licensed Home Improvement Contractor' text only. licensed_insured_attested=true per owner attestation on the recorded call.",
-  "trust_badges": [
-   "IICRC Certified Firm #210213",
-   "NJ Licensed Home Improvement Contractor",
-   "24/7 Emergency Response",
-   "Serving NJ Since 2021"
+  "service_areas": [
+    {
+      "city": "Kenilworth",
+      "state": "NJ",
+      "slug": "kenilworth-nj",
+      "primary": true,
+      "neighborhoods": [
+        "The Boulevard corridor",
+        "North Kenilworth",
+        "South Kenilworth",
+        "Galloping Hill border",
+        "Monroe Avenue industrial corridor"
+      ],
+      "landmarks": [
+        "Black Brook Park",
+        "Galloping Hill Golf Course",
+        "David Brearley High School",
+        "The Boulevard business district",
+        "Garden State Parkway Exit 138",
+        "The Park (former Merck campus)"
+      ],
+      "zip_codes": [
+        "07033"
+      ],
+      "local_notes": "Home base \u2014 our headquarters is on S 31st Street, so Kenilworth emergencies get the fastest truck roll we can offer anywhere. This square-mile Union County borough is 1920s-1950s capes and colonials on full basements: sump-pump failures, water-heater lets-go and laundry-line bursts are the everyday losses. Black Brook and its storm drains back up in cloudbursts \u2014 Ida (September 2021) put water in basements across the borough \u2014 and the Monroe Avenue/Market Street industrial corridor plus the redeveloping Merck campus add commercial water and fire work. Older galvanized supply lines and clay sewer laterals in the prewar housing stock drive burst-pipe and sewage-backup calls year-round."
+    },
+    {
+      "city": "Union",
+      "state": "NJ",
+      "slug": "union-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Union Center",
+        "Vauxhall",
+        "Battle Hill",
+        "Washington",
+        "Larchmont",
+        "Putnam Ridge"
+      ],
+      "landmarks": [
+        "Kean University",
+        "Liberty Hall Museum",
+        "Union Center business district",
+        "Galloping Hill Golf Course",
+        "Route 22 retail corridor"
+      ],
+      "zip_codes": [
+        "07083",
+        "07088"
+      ],
+      "local_notes": "Union Township borders Kenilworth directly \u2014 crews are minutes away. Dense postwar housing (1940s-60s capes, split-levels and colonials) means original supply plumbing and cast-iron drains failing on schedule, nearly all on finished or semi-finished basements. The Elizabeth River and Rahway River tributaries thread through town and jumped their banks during Ida; low spots off Morris Avenue and Vauxhall flood in hard summer storms. The Route 22 corridor's big-box retail and restaurants generate sprinkler-discharge, roof-leak and overnight commercial losses, and Kean University adds student-housing water events."
+    },
+    {
+      "city": "Elizabeth",
+      "state": "NJ",
+      "slug": "elizabeth-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Elmora",
+        "Midtown",
+        "Elizabethport",
+        "Peterstown",
+        "North Elizabeth",
+        "Bayway",
+        "Westminster"
+      ],
+      "landmarks": [
+        "The Mills at Jersey Gardens",
+        "Union County Courthouse",
+        "Warinanco Park",
+        "Port Newark-Elizabeth Marine Terminal",
+        "Newark Liberty International Airport"
+      ],
+      "zip_codes": [
+        "07201",
+        "07202",
+        "07206",
+        "07208"
+      ],
+      "local_notes": "New Jersey's fourth-largest city and a ten-minute run from our Kenilworth shop. Housing skews to early-1900s multifamily \u2014 two- and three-family frame homes packed tight, where one burst riser or kitchen fire affects multiple households and landlords need fast, documented mitigation. The Elizabeth River flooded catastrophically during Ida, and low-lying Elizabethport and Bayway see tidal and storm-surge exposure. Combined-sewer backups make sewage cleanup a constant here. The port, airport corridor and Jersey Gardens retail add large commercial and industrial loss potential."
+    },
+    {
+      "city": "Westfield",
+      "state": "NJ",
+      "slug": "westfield-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Westfield",
+        "Wychwood",
+        "The Gardens",
+        "Indian Forest",
+        "Manor Park",
+        "Brightwood"
+      ],
+      "landmarks": [
+        "Downtown Westfield (Quimby Street)",
+        "Mindowaskin Park",
+        "Tamaques Park",
+        "Echo Lake Country Club"
+      ],
+      "zip_codes": [
+        "07090"
+      ],
+      "local_notes": "Affluent Union County town of Victorian, Tudor and center-hall colonial homes dating to the 1890s-1930s \u2014 original clay sewer laterals, aging cast-iron stacks and knob-era renovations hiding slow leaks inside plaster walls. Finished basements are near-universal and expensive: home theaters, gyms and offices that turn a failed sump into a five-figure claim. The Rahway River's Robinson's Branch and heavy old-growth tree canopy make storm damage \u2014 wind-thrown limbs through roofs, water intrusion behind slate and cedar \u2014 a recurring loss type. Owners here expect meticulous protection of floors and finishes and full reconstruction to matching quality."
+    },
+    {
+      "city": "Cranford",
+      "state": "NJ",
+      "slug": "cranford-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Cranford",
+        "Riverside Drive area",
+        "Sunny Acres",
+        "Cranford West",
+        "Lincoln Park East"
+      ],
+      "landmarks": [
+        "Rahway River Parkway",
+        "Nomahegan Park",
+        "Union College of Union County",
+        "Droescher's Mill",
+        "Cranford Canoe Club"
+      ],
+      "zip_codes": [
+        "07016"
+      ],
+      "local_notes": "Cranford is the 'Venice of New Jersey' \u2014 the Rahway River winds directly through town, and that charm comes with the most serious repeat-flood history in Union County: Floyd (1999), Irene (2011) and Ida (2021) each put whole neighborhoods underwater. Riverside blocks flood from the river itself; the rest of town floods from overwhelmed storm sewers. Flood cleanup, basement pump-outs, structural drying and mold prevention are the signature services here, and many owners have been through it before \u2014 they value a crew that documents everything for the NFIP or their carrier. Housing is 1900s-1940s colonials and capes on full basements, one town over from our Kenilworth headquarters."
+    },
+    {
+      "city": "Springfield",
+      "state": "NJ",
+      "slug": "springfield-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Springfield center",
+        "Baltusrol area",
+        "Route 22 corridor",
+        "Mountain Avenue corridor"
+      ],
+      "landmarks": [
+        "Baltusrol Golf Club",
+        "Meisel Avenue Park",
+        "Jonathan Dayton High School",
+        "Route 22 commercial strip"
+      ],
+      "zip_codes": [
+        "07081"
+      ],
+      "local_notes": "Springfield Township sits where the Rahway River's west branch comes off the Watchung ridges \u2014 Ida turned Route 22 here into a river and flooded homes and businesses across the township's low spots. Housing is a mix of 1920s-50s colonials and capes plus newer townhome complexes toward the Millburn line, most with finished basements that take on water in every major storm cycle. The Route 22 and Morris Avenue commercial corridors add restaurant, retail and office losses. Minutes from our Kenilworth base via Route 22 or the Parkway."
+    },
+    {
+      "city": "Summit",
+      "state": "NJ",
+      "slug": "summit-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Summit",
+        "Northside",
+        "Franklin School area",
+        "Brayton School area",
+        "New Providence border"
+      ],
+      "landmarks": [
+        "Overlook Medical Center",
+        "Reeves-Reed Arboretum",
+        "Springfield Avenue downtown",
+        "Summit train station"
+      ],
+      "zip_codes": [
+        "07901"
+      ],
+      "local_notes": "Hilltop city of large 1890s-1930s homes \u2014 slate roofs, copper gutters, plaster walls and deep finished basements, owned by families who expect white-glove treatment of hardwood, millwork and furnishings during mitigation. Elevation spares Summit the river flooding its neighbors get, but steep lots channel stormwater into lower levels, aging original plumbing fails inside walls, and clay sewer laterals under century-old street trees back up regularly. Freeze events burst uninsulated radiator and supply lines in older wings. High-value contents handling, moisture mapping and reconstruction to period-correct finish quality matter more here than anywhere else we serve."
+    },
+    {
+      "city": "Newark",
+      "state": "NJ",
+      "slug": "newark-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Ironbound",
+        "Downtown Newark",
+        "Forest Hill",
+        "Vailsburg",
+        "Weequahic",
+        "University Heights"
+      ],
+      "landmarks": [
+        "Prudential Center",
+        "Newark Penn Station",
+        "Branch Brook Park",
+        "NJPAC",
+        "Newark Liberty International Airport"
+      ],
+      "zip_codes": [
+        "07102",
+        "07103",
+        "07104",
+        "07105",
+        "07106",
+        "07107",
+        "07108",
+        "07112"
+      ],
+      "local_notes": "New Jersey's largest city, fifteen minutes up McCarter Highway from our shop. The Ironbound sits low along the Passaic River and flooded hard during Ida; combined sewers back up into basements citywide in heavy rain, making sewage cleanup a core Newark service. Housing is dense pre-war stock \u2014 brick multifamily, frame two- and three-families, and Forest Hill's grand colonials \u2014 where fires spread between close-set buildings and one riser failure soaks three floors. Landlords, property managers and institutions (universities, hospitals, the arena district) need documented, insurance-ready mitigation with fast board-up response."
+    },
+    {
+      "city": "Jersey City",
+      "state": "NJ",
+      "slug": "jersey-city-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Jersey City",
+        "The Heights",
+        "Journal Square",
+        "Bergen-Lafayette",
+        "Greenville",
+        "Newport"
+      ],
+      "landmarks": [
+        "Liberty State Park",
+        "Exchange Place waterfront",
+        "Journal Square",
+        "Liberty Science Center",
+        "Grove Street PATH plaza"
+      ],
+      "zip_codes": [
+        "07302",
+        "07304",
+        "07305",
+        "07306",
+        "07307",
+        "07310"
+      ],
+      "local_notes": "Two building worlds share one city: waterfront high-rise condos and rentals at Newport and Exchange Place, where a single supply-line or riser failure cascades through stacked units and building management needs unit-by-unit moisture documentation for the association's insurer \u2014 and 1890s-1920s brownstones and frame rowhouses in the Heights, Bergen-Lafayette and Greenville, where cellar flooding and combined-sewer backups are chronic. Sandy's surge showed how exposed Jersey City's low-lying blocks are, and Ida flooded basements citywide. Dense multifamily ownership means landlords and condo boards value fast response and clean paperwork."
+    },
+    {
+      "city": "Brooklyn",
+      "state": "NY",
+      "slug": "brooklyn-ny",
+      "primary": false,
+      "neighborhoods": [
+        "Park Slope",
+        "Brooklyn Heights",
+        "Williamsburg",
+        "Bay Ridge",
+        "Flatbush",
+        "Bushwick",
+        "Canarsie"
+      ],
+      "landmarks": [
+        "Brooklyn Bridge",
+        "Prospect Park",
+        "Barclays Center",
+        "Brooklyn Navy Yard",
+        "Coney Island boardwalk"
+      ],
+      "zip_codes": [
+        "11201",
+        "11209",
+        "11211",
+        "11215",
+        "11226",
+        "11235"
+      ],
+      "local_notes": "Our NY-metro coverage runs across the Hudson: Brooklyn's brownstone belt (Park Slope, Brooklyn Heights, Bed-Stuy fringe) is 1880s-1920s masonry rowhouses with garden-level and cellar apartments that flood first \u2014 Ida's record rain made Brooklyn basement flooding a citywide emergency. Coastal neighborhoods from Red Hook to Canarsie and Coney Island carry real storm-surge exposure remembered from Sandy. Co-op and condo boards, brownstone owners and commercial landlords need mitigation crews that respect plaster, original woodwork and party-wall neighbors, with documentation their insurer and management company will accept."
+    },
+    {
+      "city": "Manhattan",
+      "state": "NY",
+      "slug": "manhattan-ny",
+      "primary": false,
+      "neighborhoods": [
+        "Upper East Side",
+        "Upper West Side",
+        "Midtown",
+        "Chelsea",
+        "Lower East Side",
+        "Financial District",
+        "Harlem"
+      ],
+      "landmarks": [
+        "Central Park",
+        "Empire State Building",
+        "One World Trade Center",
+        "Times Square",
+        "Grand Central Terminal"
+      ],
+      "zip_codes": [
+        "10001",
+        "10002",
+        "10016",
+        "10021",
+        "10025",
+        "10038"
+      ],
+      "local_notes": "Manhattan losses are vertical: in pre-war co-ops and modern condo towers alike, a failed riser, radiator valve or washing-machine hose on the 14th floor means soaked ceilings on thirteen. Buildings run on process \u2014 resident managers, boards and managing agents expect certificates of insurance, unit-by-unit moisture logs and after-hours freight-elevator coordination, and we work inside those rules. Sandy's surge flooded the Financial District and Lower East Side; Ida overwhelmed drains from Harlem to Chelsea. Retail, restaurant and office interiors add overnight commercial mitigation where every closed day is lost revenue."
+    },
+    {
+      "city": "Fair Lawn",
+      "state": "NJ",
+      "slug": "fair-lawn-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Radburn",
+        "Warren Point",
+        "Memorial Park",
+        "Columbia Heights",
+        "Broadway",
+        "River Road"
+      ],
+      "landmarks": [
+        "Radburn Historic District",
+        "Fair Lawn Community Center",
+        "Saddle River County Park",
+        "Memorial Park",
+        "Broadway commercial district"
+      ],
+      "zip_codes": [
+        "07410"
+      ],
+      "local_notes": "Fair Lawn is one of our office locations, so crews respond fast borough-wide. The Passaic River forms the southern boundary and the Saddle River threads the east side; both flooded severely during Ida in 2021, and the low-lying River Road and Saddle River Road areas take repeated hits in heavy storms. Housing runs from 1920s-30s Radburn planned-community homes to postwar capes and colonials, meaning aging cast-iron drains and original supply lines fail on finished basements. The Broadway and Fair Lawn Avenue corridors add commercial pipe-break and roof-leak losses from older retail buildings."
+    },
+    {
+      "city": "Highland Park",
+      "state": "NJ",
+      "slug": "highland-park-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Highland Park",
+        "Livingston Manor",
+        "Triangle",
+        "Meadow",
+        "North Highland Park"
+      ],
+      "landmarks": [
+        "Raritan Avenue business district",
+        "Donaldson Park",
+        "Johnson Park (adjacent)",
+        "Rutgers University (across the river)",
+        "Landing Lane Bridge"
+      ],
+      "zip_codes": [
+        "08904"
+      ],
+      "local_notes": "Highland Park is one of our office locations, so response times are minimal. The Raritan River runs the length of the southern border and flooded catastrophically during Ida in 2021, with Donaldson Park and River Road low spots inundated. The borough's dense pre-war and early-postwar housing \u2014 1910s-1940s colonials, bungalows and two-families \u2014 carries original supply plumbing and cast-iron drains prone to failure over finished basements. The Raritan Avenue corridor's restaurants and shops generate commercial water and sprinkler losses, and proximity to Rutgers adds student-rental and multi-unit water events."
+    },
+    {
+      "city": "Staten Island",
+      "state": "NY",
+      "slug": "staten-island-ny",
+      "primary": false,
+      "neighborhoods": [
+        "St. George",
+        "Tottenville",
+        "Great Kills",
+        "New Dorp",
+        "Port Richmond",
+        "South Beach"
+      ],
+      "landmarks": [
+        "Staten Island Ferry Terminal",
+        "Historic Richmond Town",
+        "Freshkills Park",
+        "Snug Harbor Cultural Center",
+        "Staten Island Mall"
+      ],
+      "zip_codes": [
+        "10301",
+        "10304",
+        "10306",
+        "10312",
+        "10314"
+      ],
+      "local_notes": "Staten Island is one of our office locations, giving crews a borough base. The East Shore \u2014 South Beach, Midland Beach, Oakwood Beach \u2014 was devastated by Hurricane Sandy in 2012 and remains flood-prone, and Ida in 2021 brought inland flash flooding to low-lying South Shore streets. Housing spans early-1900s frame homes, dense postwar Cape Cods and split-levels, and newer townhome developments, with basements and crawlspaces common. Aging cast-iron drains and supply lines drive pipe-break losses, while the Hylan Boulevard and Forest Avenue retail corridors add commercial roof-leak and sprinkler-discharge claims."
+    },
+    {
+      "city": "Linden",
+      "state": "NJ",
+      "slug": "linden-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Sunnyside",
+        "Tremley Point",
+        "Wheatsheaf",
+        "Roselle Park border",
+        "Bower",
+        "West End"
+      ],
+      "landmarks": [
+        "Linden Municipal Airport",
+        "Wood Avenue business district",
+        "Linden GM Assembly (former)",
+        "Warinanco Park (adjacent)",
+        "Route 1 & 9 industrial corridor"
+      ],
+      "zip_codes": [
+        "07036"
+      ],
+      "local_notes": "Linden sits minutes from our Kenilworth HQ. The Rahway River and Morses Creek run through the city and jumped their banks during Ida in 2021, flooding low-lying Tremley Point and areas near the Arthur Kill. Housing stock is heavily postwar \u2014 1940s-60s capes, colonials and split-levels \u2014 with finished basements where original supply plumbing and cast-iron drains fail on schedule. The Route 1 & 9 industrial belt, refinery zone and Wood Avenue commercial district generate large sprinkler-discharge, pipe-break and overnight commercial water losses alongside the residential base."
+    },
+    {
+      "city": "Rahway",
+      "state": "NJ",
+      "slug": "rahway-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Rahway",
+        "Milton Lake",
+        "Leesville",
+        "Hazelwood",
+        "Central Rahway",
+        "Clark border"
+      ],
+      "landmarks": [
+        "Rahway Train Station",
+        "Union County Performing Arts Center",
+        "Rahway River Park",
+        "Merck & Co. campus",
+        "Main Street business district"
+      ],
+      "zip_codes": [
+        "07065"
+      ],
+      "local_notes": "Rahway is a short drive from our Kenilworth HQ. The Rahway River winds through the city and Rahway River Park, and the downtown and low-lying riverfront neighborhoods flooded badly during Ida in 2021 and in earlier Irene-era storms. Housing runs from Victorian-era and 1920s homes near downtown to postwar capes and colonials, most with finished basements over aging cast-iron drains and original supply lines. Transit-oriented development around the train station and the Main Street commercial corridor add multi-unit and commercial water and sprinkler losses to the residential caseload."
+    },
+    {
+      "city": "Plainfield",
+      "state": "NJ",
+      "slug": "plainfield-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Sleepy Hollow",
+        "Van Wyck Brooks Historic District",
+        "Netherwood",
+        "West End",
+        "Crescent Area",
+        "East Front Street"
+      ],
+      "landmarks": [
+        "Van Wyck Brooks Historic District",
+        "Plainfield Train Station",
+        "Cedar Brook Park",
+        "Drake House Museum",
+        "Front Street business district"
+      ],
+      "zip_codes": [
+        "07060",
+        "07062",
+        "07063"
+      ],
+      "local_notes": "Plainfield is a straightforward run from our Kenilworth HQ. Cedar Brook and the Green Brook thread the city's low areas, and Plainfield saw severe flooding and fatalities during Ida in 2021, with the East Front Street and brook-adjacent neighborhoods hardest hit. The city's celebrated Victorian and Queen Anne housing stock \u2014 plus dense early-1900s and postwar homes \u2014 carries original plumbing, knob-and-tube-era systems and cast-iron drains prone to failure. Deep, often finished basements amplify water losses, and the Front Street and Park Avenue commercial corridors add sprinkler and roof-leak claims."
+    },
+    {
+      "city": "Scotch Plains",
+      "state": "NJ",
+      "slug": "scotch-plains-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Scotch Plains",
+        "Shackamaxon",
+        "Fanwood border",
+        "Willow Grove",
+        "Ashbrook",
+        "Southside"
+      ],
+      "landmarks": [
+        "Ashbrook Reservation",
+        "Scotch Hills Country Club",
+        "Shackamaxon Country Club",
+        "Frazee House",
+        "Park Avenue business district"
+      ],
+      "zip_codes": [
+        "07076"
+      ],
+      "local_notes": "Scotch Plains is a quick drive from our Kenilworth HQ. The Green Brook and Cedar Brook run along the southern edge and flooded during Ida in 2021, with low spots near the Plainfield and Fanwood borders taking on water. Housing is largely mid-century \u2014 1950s-60s split-levels, ranches and colonials \u2014 alongside older homes near downtown, most with finished basements over aging cast-iron drains and original supply lines that fail on schedule. The Park Avenue and Route 22 corridors add commercial roof-leak, pipe-break and sprinkler-discharge losses to the residential base."
+    },
+    {
+      "city": "Clark",
+      "state": "NJ",
+      "slug": "clark-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Lake Avenue",
+        "Brant Lake",
+        "Valley Road",
+        "Robert Wood Johnson area",
+        "Westfield Avenue corridor"
+      ],
+      "landmarks": [
+        "Oak Ridge Golf Course",
+        "Dr. William H. Robinson Plantation House",
+        "Clark Reservation area",
+        "Arthur L. Johnson High School",
+        "Raritan Road business district"
+      ],
+      "zip_codes": [
+        "07066"
+      ],
+      "local_notes": "Clark is a compact postwar suburb of 1950s-60s ranches, split-levels and capes, most sitting on finished basements where aging cast-iron drains and copper supply lines fail predictably. The Rahway River forms Clark's northern and western edges and the Robinson's Branch tributary threads through low ground near Lake Avenue; both jumped their banks during Ida in 2021, backing sewers into basements off Valley Road. Sump-pump failures during summer downpours are the routine call. The Raritan Road and Westfield Avenue commercial strips add restaurant and retail losses, and Merck's Rahway campus nearby drives commercial water work."
+    },
+    {
+      "city": "Roselle",
+      "state": "NJ",
+      "slug": "roselle-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Roselle Park border",
+        "Warinanco",
+        "Chestnut Street",
+        "Fifth Avenue",
+        "East Roselle"
+      ],
+      "landmarks": [
+        "Warinanco Park",
+        "Abraham Clark House",
+        "First Presbyterian Church (first electrically lit street)",
+        "Chestnut Street business district",
+        "Roselle Golf Club"
+      ],
+      "zip_codes": [
+        "07203"
+      ],
+      "local_notes": "Roselle is dense with early-1900s through 1950s housing \u2014 Victorians, colonials and postwar capes on tight lots, many with finished basements and original galvanized supply and cast-iron waste lines failing on schedule. The Elizabeth River runs along the eastern edge by Warinanco Park and floods low blocks during heavy rain; Ida in 2021 pushed water and sewer backups into basements across town. Sump-pump overload during summer storms is the common loss. The Chestnut Street and St. Georges Avenue corridors generate small commercial, roof-leak and overnight retail water events."
+    },
+    {
+      "city": "Hillside",
+      "state": "NJ",
+      "slug": "hillside-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Hillside Center",
+        "Saybrook",
+        "Coe's Corner",
+        "Winans",
+        "Conant"
+      ],
+      "landmarks": [
+        "Woodruff House / Eaton Store Museum",
+        "Evergreen Cemetery",
+        "Route 22 retail corridor",
+        "Conant Street industrial area",
+        "Hillside Public Library"
+      ],
+      "zip_codes": [
+        "07205"
+      ],
+      "local_notes": "Hillside is a tight urban township of 1920s-50s colonials, two-families and postwar capes, most with finished or semi-finished basements where original galvanized supply and cast-iron drains fail routinely. The Elizabeth River crosses the town's eastern side and low ground floods during hard rain; Ida in 2021 drove river overflow and sewer backups into basements. Sump-pump failures during summer downpours are steady work. The Route 22 corridor and Conant Street industrial zone generate warehouse, sprinkler-discharge, roof-leak and overnight commercial losses that make up a large share of calls."
+    },
+    {
+      "city": "East Orange",
+      "state": "NJ",
+      "slug": "east-orange-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Brick Church",
+        "Ampere",
+        "Elmwood",
+        "Doddtown",
+        "Presidential Estates"
+      ],
+      "landmarks": [
+        "Brick Church station",
+        "East Orange General Hospital",
+        "Cicely Tyson School",
+        "Watsessing Park (border)",
+        "Central Avenue business district"
+      ],
+      "zip_codes": [
+        "07017",
+        "07018",
+        "07019"
+      ],
+      "local_notes": "East Orange is dense with early-1900s through 1930s brick apartment buildings, three-story walk-ups, Victorians and two-families, plus postwar infill \u2014 aging galvanized risers, cast-iron stacks and flat roofs drive repeated water losses across multiple units. Basement mechanical rooms and finished cellars flood during heavy rain, and sewer backups are routine in low areas. The Second River and nearby Elizabeth River tributaries flooded low ground during Ida in 2021. The Central Avenue and Main Street commercial corridors and hospital campus add sprinkler, roof-leak and overnight multi-family losses."
+    },
+    {
+      "city": "West Orange",
+      "state": "NJ",
+      "slug": "west-orange-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Llewellyn Park",
+        "Pleasantdale",
+        "Gregory",
+        "Redwood",
+        "St. Cloud"
+      ],
+      "landmarks": [
+        "Thomas Edison National Historical Park",
+        "Turtle Back Zoo",
+        "South Mountain Reservation",
+        "Eagle Rock Reservation",
+        "Essex Green Shopping Center"
+      ],
+      "zip_codes": [
+        "07052"
+      ],
+      "local_notes": "West Orange climbs the Watchung ridge with a wide mix \u2014 grand Victorians in Llewellyn Park, 1920s Tudors and colonials, and postwar splits and ranches in Pleasantdale, most on finished basements. Hillside grading sends stormwater downslope, overwhelming sump pumps and flooding basements during heavy rain. The Rahway River headwaters and streams draining South Mountain Reservation swell in storms, and Ida in 2021 drove flash flooding and sewer backups across low pockets. The Northfield Avenue and Prospect Avenue commercial corridors plus Essex Green retail add roof-leak, sprinkler and overnight commercial losses."
+    },
+    {
+      "city": "Montclair",
+      "state": "NJ",
+      "slug": "montclair-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Upper Montclair",
+        "Watchung Plaza",
+        "South End",
+        "Frog Hollow",
+        "Estate Section"
+      ],
+      "landmarks": [
+        "Montclair Art Museum",
+        "Montclair State University (border)",
+        "Anderson Park",
+        "Watchung Plaza district",
+        "Eagle Rock Reservation"
+      ],
+      "zip_codes": [
+        "07042",
+        "07043"
+      ],
+      "local_notes": "Montclair is known for large Victorians, early-1900s Tudors and center-hall colonials plus grand Estate Section homes, many with old slate roofs, plaster walls and finished basements where aging supply lines and cast-iron drains fail. The Third River (Yantacaw) and its tributaries run through town and flood low ground; Ida in 2021 caused severe flash flooding and sewer backups, notably around Frog Hollow and the South End. Hillside grading off the Watchung ridge overwhelms sumps in storms. The Bloomfield Avenue and Walnut Street corridors add restaurant, retail and roof-leak commercial losses."
+    },
+    {
+      "city": "Bloomfield",
+      "state": "NJ",
+      "slug": "bloomfield-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Brookdale",
+        "Watsessing",
+        "Bloomfield Center",
+        "Brookside",
+        "North Center"
+      ],
+      "landmarks": [
+        "Bloomfield Green Historic District",
+        "Brookdale Park",
+        "Watsessing Park",
+        "Bloomfield College",
+        "Broad Street business district"
+      ],
+      "zip_codes": [
+        "07003"
+      ],
+      "local_notes": "Bloomfield is densely built with 1900s-1930s colonials, two-families and Tudors plus postwar capes, most on finished basements where original galvanized supply and cast-iron waste lines fail on schedule. The Third River (Yantacaw) and Second River thread through town near Watsessing and Brookdale, and both areas flooded badly during Ida in 2021, backing sewers into basements. Sump-pump failures during summer downpours are the routine call. The Broad Street and Bloomfield Avenue corridors and college campus add restaurant, retail, roof-leak and overnight commercial water losses."
+    },
+    {
+      "city": "Livingston",
+      "state": "NJ",
+      "slug": "livingston-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Northland",
+        "Collins",
+        "Riker Hill",
+        "Cedar Hill",
+        "Squiretown"
+      ],
+      "landmarks": [
+        "Livingston Mall",
+        "Riker Hill Art Park",
+        "Saint Barnabas Medical Center",
+        "Livingston Town Center",
+        "Memorial Park"
+      ],
+      "zip_codes": [
+        "07039"
+      ],
+      "local_notes": "Livingston's housing skews to 1950s-70s split-levels, ranches and colonials, with a wave of newer teardown McMansions on finished basements that raise cleanup stakes. The Passaic River forms the western boundary and the Canoe Brook watershed threads the town; low-lying areas near the Canoe Brook and West Essex Trail flood during heavy rain, and Ida in 2021 pushed water into basements across the region. Aging cast-iron drains and copper supply lines fail on schedule. Saint Barnabas Medical Center and the Livingston Mall retail corridor generate commercial and sprinkler-discharge losses."
+    },
+    {
+      "city": "Irvington",
+      "state": "NJ",
+      "slug": "irvington-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Irvington Center",
+        "Upsala",
+        "Grove Park",
+        "Union Avenue",
+        "Chancellor Avenue"
+      ],
+      "landmarks": [
+        "Irvington Park",
+        "Civic Square",
+        "Springfield Avenue corridor",
+        "Camptown Historic District",
+        "Olympic Park site"
+      ],
+      "zip_codes": [
+        "07111"
+      ],
+      "local_notes": "Irvington is densely built with early-1900s multifamily rowhouses, two- and three-family homes and prewar frame houses, much of it aging and prone to failing galvanized supply lines and cast-iron drains. Finished and semi-finished basements are common in this tight housing stock, compounding water losses. The Elizabeth River watershed drains the area and low spots flood in hard storms, with Ida in 2021 driving widespread basement flooding across Essex County. The Springfield Avenue commercial corridor produces storefront roof-leak, overnight and pipe-burst losses."
+    },
+    {
+      "city": "Maplewood",
+      "state": "NJ",
+      "slug": "maplewood-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Maplewood Village",
+        "Hilton",
+        "Jefferson",
+        "Tuscan",
+        "The Fields"
+      ],
+      "landmarks": [
+        "Maplewood Village shopping district",
+        "Memorial Park",
+        "South Mountain Reservation",
+        "Maplewood Train Station",
+        "Durand-Hedden House"
+      ],
+      "zip_codes": [
+        "07040"
+      ],
+      "local_notes": "Maplewood is known for its 1910s-1930s Tudors, colonials and craftsman houses, many with original plaster, stone foundations and finished basements vulnerable to seepage. The East Branch of the Rahway River runs through Memorial Park and Maplewood Village; it repeatedly overtops during major storms, and Ida in 2021 flooded the village and low-lying streets severely. Older cast-iron drains and knob-and-tube-era plumbing failures are routine in this housing stock. The Maplewood Village commercial district and train-station area generate roof-leak and sump-failure losses."
+    },
+    {
+      "city": "Millburn",
+      "state": "NJ",
+      "slug": "millburn-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Millburn Center",
+        "Short Hills",
+        "Wyoming",
+        "Glenwood",
+        "Old Short Hills"
+      ],
+      "landmarks": [
+        "The Mall at Short Hills",
+        "Paper Mill Playhouse",
+        "Taylor Park",
+        "South Mountain Reservation",
+        "Millburn train station"
+      ],
+      "zip_codes": [
+        "07041",
+        "07078"
+      ],
+      "local_notes": "Millburn and Short Hills feature large early-1900s colonials, Tudors and estate homes, many with finished basements, wine cellars and high-value contents that raise water-loss severity. The West Branch of the Rahway River runs directly through downtown Millburn and Taylor Park; it has a long history of overtopping, and Ida in 2021 devastated the downtown business district with catastrophic flooding. Aging cast-iron and copper systems fail routinely. The Mall at Short Hills and Millburn Avenue retail corridor generate sprinkler-discharge and commercial losses."
+    },
+    {
+      "city": "Hackensack",
+      "state": "NJ",
+      "slug": "hackensack-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Fairmount",
+        "The Heights",
+        "Southside",
+        "Central Business District",
+        "Prospect Avenue corridor"
+      ],
+      "landmarks": [
+        "Hackensack University Medical Center",
+        "Bergen County Courthouse",
+        "Main Street business district",
+        "Johnson Park",
+        "Foschini Park"
+      ],
+      "zip_codes": [
+        "07601",
+        "07602"
+      ],
+      "local_notes": "Hackensack mixes prewar two- and three-family homes, mid-century capes and a wall of Prospect Avenue high-rise apartments where stacked units mean single pipe bursts cascade across floors. The Hackensack River forms the eastern edge and tidal-influenced low areas flood in heavy storms; Ida in 2021 caused widespread basement flooding across Bergen County. Aging cast-iron drains and galvanized supply lines fail on schedule. Hackensack University Medical Center, the courthouse district and Main Street retail corridor produce commercial, sprinkler and overnight losses."
+    },
+    {
+      "city": "Paramus",
+      "state": "NJ",
+      "slug": "paramus-nj",
+      "primary": false,
+      "neighborhoods": [
+        "West Paramus",
+        "East Paramus",
+        "Farview",
+        "Spring Valley",
+        "Arcola"
+      ],
+      "landmarks": [
+        "Westfield Garden State Plaza",
+        "Paramus Park Mall",
+        "Bergen Community College",
+        "Route 17 retail corridor",
+        "Van Saun County Park"
+      ],
+      "zip_codes": [
+        "07652",
+        "07653"
+      ],
+      "local_notes": "Paramus is largely 1950s-60s ranches, split-levels and colonials on slab or finished basements, with sprawling retail dominating the town. The Saddle River runs through Van Saun Park and low-lying areas along it flood during heavy rain, and Ida in 2021 drove basement flooding across Bergen County. Aging postwar supply plumbing and cast-iron drains fail routinely. Paramus's Route 4 and Route 17 corridors \u2014 anchored by Garden State Plaza and Paramus Park \u2014 generate heavy sprinkler-discharge, roof-leak and overnight commercial water losses at big-box and mall properties."
+    },
+    {
+      "city": "Fort Lee",
+      "state": "NJ",
+      "slug": "fort-lee-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Coytesville",
+        "Palisade",
+        "The Hill",
+        "Linwood",
+        "Central Fort Lee"
+      ],
+      "landmarks": [
+        "George Washington Bridge",
+        "Fort Lee Historic Park",
+        "Palisades Interstate Park",
+        "Main Street business district",
+        "Hudson Lights complex"
+      ],
+      "zip_codes": [
+        "07024"
+      ],
+      "local_notes": "Fort Lee is dominated by dense high-rise condominium and apartment towers along the Palisades, where a single supply-line or in-unit failure cascades through stacked units, plus older prewar homes and multifamily buildings in Coytesville and The Hill. The town sits atop the Palisades cliffs above the Hudson River, so runoff and steep-grade drainage drive storm-related losses. Ida in 2021 caused widespread flooding across Bergen County. High-rise plumbing failures, the Main Street corridor and Hudson Lights mixed-use complex generate frequent water and commercial losses."
+    },
+    {
+      "city": "Teaneck",
+      "state": "NJ",
+      "slug": "teaneck-nj",
+      "primary": false,
+      "neighborhoods": [
+        "West Englewood",
+        "The Grange",
+        "Bryant School area",
+        "Cedar Lane district",
+        "Whittier",
+        "West Teaneck"
+      ],
+      "landmarks": [
+        "Cedar Lane commercial district",
+        "Fairleigh Dickinson University",
+        "Teaneck Creek Conservancy",
+        "Votee Park",
+        "Holy Name Medical Center"
+      ],
+      "zip_codes": [
+        "07666"
+      ],
+      "local_notes": "Teaneck's housing runs to 1920s-40s brick Tudors, colonials and center-hall homes, many with old cast-iron drains and finished basements prone to sewer backups. The Hackensack River forms the eastern edge and Teaneck Creek winds through low-lying areas; both contributed to flooding during Ida in 2021, which overwhelmed basements across the township. The Cedar Lane and Teaneck Road corridors carry dense retail and restaurants generating sprinkler and overnight commercial losses. Fairleigh Dickinson University adds student-housing water events, and Holy Name Medical Center anchors round-the-clock institutional risk."
+    },
+    {
+      "city": "Ridgewood",
+      "state": "NJ",
+      "slug": "ridgewood-nj",
+      "primary": false,
+      "neighborhoods": [
+        "The Village center",
+        "Willard",
+        "Somerville",
+        "Heights",
+        "Old Country Club",
+        "West Side"
+      ],
+      "landmarks": [
+        "Ridgewood train station",
+        "Van Neste Square",
+        "Graydon Pool",
+        "Ridgewood Country Club",
+        "The Stable"
+      ],
+      "zip_codes": [
+        "07450"
+      ],
+      "local_notes": "Ridgewood is defined by grand early-1900s Victorians, Tudors and stately colonials with aging supply lines and deep finished basements. The Ho-Ho-Kus Brook and Saddle River run through the village and have a long history of overtopping; Ida in 2021 flooded downtown streets and basements near the brook badly. The compact East Ridgewood Avenue business district produces frequent commercial pipe, roof-leak and sprinkler losses. Older slate and flat roofs on historic homes drive ice-dam and storm intrusion claims, while dense mature tree cover contributes to storm-related water damage each season."
+    },
+    {
+      "city": "Englewood",
+      "state": "NJ",
+      "slug": "englewood-nj",
+      "primary": false,
+      "neighborhoods": [
+        "The East Hill",
+        "Englewood Cliffs border",
+        "The Fourth Ward",
+        "West Englewood",
+        "Highwood",
+        "Downtown"
+      ],
+      "landmarks": [
+        "Bergen Performing Arts Center",
+        "Palisade Avenue business district",
+        "Englewood Hospital",
+        "Flat Rock Brook Nature Center",
+        "Dwight-Englewood School"
+      ],
+      "zip_codes": [
+        "07631"
+      ],
+      "local_notes": "Englewood mixes grand East Hill estates with dense early-1900s multifamily and postwar housing on the west side, meaning a wide range of failing plumbing and finished basements. Flat Rock Brook and Overpeck Creek tributaries cross the city and low-lying areas near Overpeck flooded during Ida in 2021. The Palisade Avenue corridor carries dense retail, restaurants and offices generating sprinkler-discharge and overnight commercial losses. Englewood Hospital anchors continuous institutional exposure, while the Bergen PAC and older apartment stock add commercial and multi-unit water events across the year."
+    },
+    {
+      "city": "Garfield",
+      "state": "NJ",
+      "slug": "garfield-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Belmont",
+        "Plauderville",
+        "Outwater",
+        "Dahnert's Lake area",
+        "Harrison Avenue district",
+        "Passaic Street corridor"
+      ],
+      "landmarks": [
+        "Dahnert's Lake County Park",
+        "Passaic Street business district",
+        "Garfield train station",
+        "River Drive",
+        "Belmont Avenue corridor"
+      ],
+      "zip_codes": [
+        "07026"
+      ],
+      "local_notes": "Garfield is a dense, working-class city of early-1900s two-and-three-family frame homes and postwar capes on small lots, with aging cast-iron drains and finished basements common. The Passaic River runs along the western edge on River Drive and has a severe flood history; Ida in 2021 inundated riverfront blocks and basements badly. Saddle River tributaries add low-spot flooding after hard storms. The Passaic Street and Belmont Avenue corridors carry dense retail and small commercial generating overnight pipe and roof-leak losses, while packed multifamily housing drives frequent shared-wall water events."
+    },
+    {
+      "city": "New Brunswick",
+      "state": "NJ",
+      "slug": "new-brunswick-nj",
+      "primary": false,
+      "neighborhoods": [
+        "The Fifth Ward",
+        "Highland Park border",
+        "Robeson Village",
+        "Rutgers Village",
+        "Downtown",
+        "Edgebrook"
+      ],
+      "landmarks": [
+        "Rutgers University",
+        "Robert Wood Johnson University Hospital",
+        "State Theatre New Jersey",
+        "George Street business district",
+        "Boyd Park"
+      ],
+      "zip_codes": [
+        "08901",
+        "08903",
+        "08906"
+      ],
+      "local_notes": "New Brunswick pairs dense early-1900s rowhouses and multifamily near Rutgers with high-rise downtown development and postwar housing. Aging supply lines and cast-iron drains fail routinely, and student rentals drive constant apartment water events. The Raritan River runs along the southern edge at Boyd Park and has a long flood history; Ida in 2021 pushed water into low-lying riverfront areas. The George Street and downtown corridors carry dense retail, restaurants and offices generating sprinkler and overnight commercial losses, while Robert Wood Johnson hospital and university buildings add continuous institutional exposure."
+    },
+    {
+      "city": "Edison",
+      "state": "NJ",
+      "slug": "edison-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Clara Barton",
+        "Stelton",
+        "Oak Tree",
+        "North Edison",
+        "Menlo Park",
+        "Nixon"
+      ],
+      "landmarks": [
+        "Menlo Park Mall",
+        "Thomas Edison Center at Menlo Park",
+        "Middlesex County College",
+        "Roosevelt Park",
+        "Route 1 retail corridor"
+      ],
+      "zip_codes": [
+        "08817",
+        "08818",
+        "08820",
+        "08837",
+        "08899"
+      ],
+      "local_notes": "Edison is a sprawling township of postwar capes, split-levels and colonials plus large multifamily complexes, with original supply plumbing and cast-iron drains failing on finished basements. The Raritan River borders the south and low-lying areas near it, along with Mill Brook tributaries, saw flooding during Ida in 2021. The Route 1 and Route 27 corridors carry heavy big-box retail, restaurants, offices and warehouses generating sprinkler-discharge, roof-leak and overnight commercial losses. Menlo Park Mall and the dense industrial and logistics footprint add large-loss commercial water exposure across the township."
+    },
+    {
+      "city": "Woodbridge",
+      "state": "NJ",
+      "slug": "woodbridge-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Woodbridge Proper",
+        "Colonia",
+        "Iselin",
+        "Fords",
+        "Avenel",
+        "Port Reading",
+        "Sewaren"
+      ],
+      "landmarks": [
+        "Woodbridge Center mall",
+        "Woodbridge train station",
+        "Rahway River",
+        "Merrill Park",
+        "Route 1 & 9 corridor"
+      ],
+      "zip_codes": [
+        "07095",
+        "07064",
+        "07067",
+        "07001",
+        "08830",
+        "08832",
+        "08863"
+      ],
+      "local_notes": "Woodbridge Township spans many communities of postwar capes, split-levels and colonials with aging supply lines, cast-iron drains and finished basements. The Rahway River and Woodbridge River thread through town and both have severe flood histories; Ida in 2021 devastated low-lying areas, and the township has repeatedly flooded near the rivers and tidal creeks in Sewaren and Port Reading. The Route 1 & 9 corridor and Woodbridge Center carry dense retail, restaurants and industrial sites generating sprinkler and overnight commercial losses, while tidal and coastal-storm surge adds waterfront risk in the eastern sections."
+    },
+    {
+      "city": "Perth Amboy",
+      "state": "NJ",
+      "slug": "perth-amboy-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown",
+        "Budapest",
+        "Dunham Heights",
+        "Waterfront",
+        "Kearny Heights",
+        "Chase Avenue"
+      ],
+      "landmarks": [
+        "Raritan Bay Waterfront",
+        "Perth Amboy Ferry Slip",
+        "City Hall (oldest in continuous use in the U.S.)",
+        "Proprietary House",
+        "Bayview Park"
+      ],
+      "zip_codes": [
+        "08861",
+        "08862"
+      ],
+      "local_notes": "Perth Amboy sits where the Raritan River meets Raritan Bay, and its low waterfront blocks took serious tidal surge and flooding during Sandy in 2012, with lingering coastal-storm exposure. Housing stock is old and dense \u2014 late-1800s and early-1900s frame two- and three-families, brick rowhomes and multifamily conversions with aging galvanized supply lines and cast-iron drains prone to failure. The downtown Smith Street commercial corridor and waterfront restaurants generate storefront and roof-leak losses. Older basements flood during nor'easters and hard summer storms, and multifamily buildings drive tenant-to-tenant water damage claims."
+    },
+    {
+      "city": "East Brunswick",
+      "state": "NJ",
+      "slug": "east-brunswick-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Old Bridge Turnpike",
+        "Lawrence Brook",
+        "Frost Woods",
+        "Tanglewood",
+        "Village of the Golden Triangle",
+        "Farrington"
+      ],
+      "landmarks": [
+        "Route 18 retail corridor",
+        "Brunswick Square Mall",
+        "Lawrence Brook",
+        "East Brunswick Community Arts Center",
+        "Ireland Brook Conservation Area"
+      ],
+      "zip_codes": [
+        "08816"
+      ],
+      "local_notes": "East Brunswick is a sprawling postwar suburb of 1950s-70s ranches, split-levels and colonials, with newer townhome and condo developments layered in. Lawrence Brook and the Farrington Lake watershed thread through town, and low-lying sections along the brook and near Route 18 saw flooding during Irene and Ida remnants. Aging original supply plumbing and cast-iron drains fail on schedule in the older tracts, nearly all on finished basements. The Route 18 corridor's big-box retail, Brunswick Square Mall and restaurants generate sprinkler-discharge, roof-leak and overnight commercial water losses, while dense condo clusters drive multi-unit failures."
+    },
+    {
+      "city": "Piscataway",
+      "state": "NJ",
+      "slug": "piscataway-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Arbor",
+        "Possumtown",
+        "Stelton",
+        "New Market",
+        "Society Hill",
+        "River Road"
+      ],
+      "landmarks": [
+        "Rutgers Livingston & Busch Campuses",
+        "SHI Stadium",
+        "Johnson Park",
+        "Raritan River",
+        "Stelton commercial corridor"
+      ],
+      "zip_codes": [
+        "08854",
+        "08855"
+      ],
+      "local_notes": "Piscataway runs along the Raritan River, and the River Road corridor and Johnson Park flatlands flooded badly during Ida in 2021 and earlier during Floyd and Irene, with repeat riverine exposure. Housing ranges from postwar capes and split-levels to large Society Hill townhome and condo developments. Older tracts have failing galvanized supply lines and cast-iron drains on finished basements. Rutgers' Livingston and Busch campuses add student-housing water events, and the Centennial Avenue and Stelton commercial corridors plus warehouse and lab space generate sprinkler-discharge, roof-leak and overnight commercial losses."
+    },
+    {
+      "city": "Morristown",
+      "state": "NJ",
+      "slug": "morristown-nj",
+      "primary": false,
+      "neighborhoods": [
+        "The Green",
+        "Speedwell",
+        "Historic District",
+        "Little Italy",
+        "Franklin Corner",
+        "Cauldwell"
+      ],
+      "landmarks": [
+        "Morristown Green",
+        "Morristown National Historical Park",
+        "Morristown Medical Center",
+        "Ford Mansion",
+        "The Vail Mansion"
+      ],
+      "zip_codes": [
+        "07960",
+        "07963"
+      ],
+      "local_notes": "Morristown pairs a dense historic core with newer downtown mid-rise apartments and condos. The housing stock includes 1800s and early-1900s Victorians, colonials and brick multifamily near the Green, many with aging galvanized plumbing and cast-iron drains on finished basements. The Whippany River runs along the town's edge and low areas flood during heavy storms, including Ida remnants in 2021. The Speedwell Avenue and South Street commercial corridors, restaurants around the Green and Morristown Medical Center generate storefront, roof-leak and overnight commercial water losses, while new luxury apartment towers drive multi-unit supply-line failures."
+    },
+    {
+      "city": "Parsippany",
+      "state": "NJ",
+      "slug": "parsippany-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Lake Hiawatha",
+        "Lake Parsippany",
+        "Mount Tabor",
+        "Powder Mill",
+        "Rainbow Lakes",
+        "Troy Hills"
+      ],
+      "landmarks": [
+        "Lake Parsippany",
+        "Mount Tabor Historic District",
+        "Interstate 80/287 interchange",
+        "Waterview commercial district",
+        "Whippany River"
+      ],
+      "zip_codes": [
+        "07054",
+        "07005",
+        "07950"
+      ],
+      "local_notes": "Parsippany-Troy Hills is a large township of postwar capes, ranches and split-levels around its namesake lake communities, plus the tightly-packed Victorian cottages of Mount Tabor. The Whippany River, Rockaway River and Troy Brook run through low sections, and Lake Hiawatha in particular flooded severely during Ida in 2021 as well as Floyd and Irene. Aging supply plumbing and cast-iron drains fail on finished basements in the older lake tracts. The town's massive corporate office parks, hotels and the Route 46 and Waterview commercial corridors generate sprinkler-discharge, roof-leak and overnight commercial water losses."
+    },
+    {
+      "city": "Somerville",
+      "state": "NJ",
+      "slug": "somerville-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown",
+        "West End",
+        "East Main",
+        "Fairview",
+        "Gaston Avenue",
+        "Mercer Street"
+      ],
+      "landmarks": [
+        "Main Street business district",
+        "Somerset County Courthouse",
+        "Wallace House",
+        "Duke Farms (adjacent)",
+        "Raritan River"
+      ],
+      "zip_codes": [
+        "08876",
+        "08869"
+      ],
+      "local_notes": "Somerville is Somerset County's compact seat, built around a walkable Main Street of storefronts, restaurants and county offices. Housing is largely early-1900s frame two-families, Victorians and colonials with aging galvanized supply lines and cast-iron drains on finished basements, joined by newer downtown apartment redevelopment. The Raritan River and Peters Brook flank the borough, and low areas flooded during Ida in 2021 and earlier during Floyd and Irene. The Main Street commercial corridor generates storefront, sprinkler-discharge and overnight roof-leak losses, while new mid-rise residential projects drive multi-unit supply-line failures."
+    },
+    {
+      "city": "Bridgewater",
+      "state": "NJ",
+      "slug": "bridgewater-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Finderne",
+        "Martinsville",
+        "Bradley Gardens",
+        "Green Knoll",
+        "Milltown",
+        "Chimney Rock"
+      ],
+      "landmarks": [
+        "Bridgewater Commons",
+        "TD Bank Ballpark",
+        "Raritan River",
+        "Chimney Rock Park",
+        "Route 22/287 interchange"
+      ],
+      "zip_codes": [
+        "08807",
+        "08805"
+      ],
+      "local_notes": "Bridgewater is a sprawling suburban township of postwar ranches and split-levels plus larger newer colonials and townhome developments. The Raritan River, Middle Brook and Chimney Rock area run through low sections, and the Finderne and Bound Brook-adjacent flats flooded catastrophically during Floyd and again during Ida in 2021. Older tracts have failing supply plumbing and cast-iron drains on finished basements. The Route 22 and Route 202/206 retail corridors, Bridgewater Commons mall, TD Bank Ballpark and office parks generate sprinkler-discharge, roof-leak and overnight commercial water losses across the township."
+    },
+    {
+      "city": "Paterson",
+      "state": "NJ",
+      "slug": "paterson-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Eastside",
+        "Sandy Hill",
+        "South Paterson",
+        "Hillcrest",
+        "Totowa Section",
+        "Lakeview"
+      ],
+      "landmarks": [
+        "Great Falls National Historical Park",
+        "Hinchliffe Stadium",
+        "St. Joseph's University Medical Center",
+        "Lambert Castle",
+        "Passaic County Community College"
+      ],
+      "zip_codes": [
+        "07501",
+        "07502",
+        "07503",
+        "07504",
+        "07505",
+        "07513",
+        "07514",
+        "07522",
+        "07524"
+      ],
+      "local_notes": "Paterson sits directly on the Passaic River, and the low-lying blocks below the Great Falls flood repeatedly \u2014 the river crested catastrophically during Hurricane Irene in 2011 and again during Ida in 2021, submerging homes near the Riverside and downtown sections. Housing skews old: dense 19th-century mill-worker rowhomes, brick multi-family walkups and aging two- and three-family frame houses with knob-and-tube remnants and cast-iron drains. Silk-era industrial buildings converted to apartments generate sprinkler and standpipe losses. Overcrowded rental stock drives frequent tenant water damage, backups and mold in unventilated basements and bathrooms."
+    },
+    {
+      "city": "Clifton",
+      "state": "NJ",
+      "slug": "clifton-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Botany Village",
+        "Athenia",
+        "Lakeview",
+        "Richfield",
+        "Delawanna",
+        "Montclair Heights"
+      ],
+      "landmarks": [
+        "Clifton Commons",
+        "Main Memorial Park",
+        "Styertowne Shopping Center",
+        "Weasel Brook Park",
+        "Route 3 commercial corridor"
+      ],
+      "zip_codes": [
+        "07011",
+        "07012",
+        "07013",
+        "07014"
+      ],
+      "local_notes": "Clifton's Passaic River and Weasel Brook borders flood the Lakeview and Delawanna sections; the Passaic overran its banks here during Irene and Ida, pushing water into low-lying homes and industrial lots near Route 21. Housing is heavily postwar \u2014 1940s-60s capes, colonials and split-levels on finished basements with original supply lines and cast-iron drains reaching end of life. Botany Village retains older brick multi-family stock. The Route 3 and Route 46 retail corridors and Styertowne generate sprinkler-discharge, roof-leak and overnight commercial losses, and dense two-family rentals produce frequent tenant water events."
+    },
+    {
+      "city": "Wayne",
+      "state": "NJ",
+      "slug": "wayne-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Pines Lake",
+        "Packanack Lake",
+        "Preakness",
+        "Mountain View",
+        "Lionshead Lake",
+        "Hoffman Grove"
+      ],
+      "landmarks": [
+        "William Paterson University",
+        "Willowbrook Mall",
+        "Dey Mansion",
+        "High Mountain Park Preserve",
+        "Wayne Towne Center"
+      ],
+      "zip_codes": [
+        "07470",
+        "07474"
+      ],
+      "local_notes": "Wayne is notorious for Passaic River and Pompton River flooding \u2014 the Hoffman Grove and Mountain View sections flood chronically, and the town was hit hard by Irene in 2011 and again during Ida in 2021, with repeated evacuations along the river. Several lake communities \u2014 Packanack, Pines and Lionshead \u2014 feature midcentury ranches and split-levels near water on finished basements. Broader housing is 1950s-70s colonials and capes with aging plumbing and sump-dependent basements. Willowbrook Mall and the Route 23/46 retail corridors drive commercial sprinkler, roof-leak and pipe-burst losses, while William Paterson adds student-housing events."
+    },
+    {
+      "city": "Passaic",
+      "state": "NJ",
+      "slug": "passaic-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Passaic",
+        "Third Ward",
+        "Fourth Ward",
+        "Rutherford Heights",
+        "Prospect Park border"
+      ],
+      "landmarks": [
+        "Passaic City Hall",
+        "St. Mary's General Hospital",
+        "Third Ward Park",
+        "Main Avenue business district",
+        "Pulaski Park"
+      ],
+      "zip_codes": [
+        "07055"
+      ],
+      "local_notes": "Passaic sits on the Passaic River, and the city flooded severely during Irene in 2011 and again during Ida in 2021, with riverfront blocks and low spots inundated. It's one of New Jersey's densest small cities \u2014 packed with early 20th-century brick multi-family walkups, two- and three-family frame houses and older rowhomes with knob-and-tube remnants and failing cast-iron drains. Overcrowded rental stock drives constant tenant water damage, sewer backups and mold in unventilated basements. The Main Avenue commercial corridor and mixed-use storefronts generate sprinkler-discharge, roof-leak and overnight retail losses."
+    },
+    {
+      "city": "Hoboken",
+      "state": "NJ",
+      "slug": "hoboken-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Hoboken",
+        "Uptown",
+        "Midtown",
+        "The Waterfront",
+        "Southwest Hoboken",
+        "Castle Point"
+      ],
+      "landmarks": [
+        "Stevens Institute of Technology",
+        "Hoboken Terminal",
+        "Pier A Park",
+        "Washington Street business district",
+        "Elysian Park"
+      ],
+      "zip_codes": [
+        "07030"
+      ],
+      "local_notes": "Hoboken is a low-lying former tidal marsh on the Hudson and floods routinely \u2014 Superstorm Sandy in 2012 submerged much of the city, and heavy rain and Ida in 2021 overwhelmed the combined sewer system, backing water into basements and garden units citywide. Housing is dominated by dense 19th-century brownstones and brick rowhomes with below-grade units, plus newer waterfront high-rises. Aging plumbing and shared party-wall stacks drive frequent pipe bursts and multi-unit water losses. The Washington Street corridor and Stevens Institute add commercial sprinkler, roof-leak and student-housing water events."
+    },
+    {
+      "city": "Bayonne",
+      "state": "NJ",
+      "slug": "bayonne-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Bergen Point",
+        "Constable Hook",
+        "Uptown",
+        "Downtown Bayonne",
+        "Midtown"
+      ],
+      "landmarks": [
+        "Bayonne Bridge",
+        "Stephen R. Gregg Park",
+        "Bayonne Crossing shopping center",
+        "Cape Liberty Cruise Port",
+        "Newark Bay waterfront"
+      ],
+      "zip_codes": [
+        "07002"
+      ],
+      "local_notes": "Bayonne is a narrow peninsula between Newark Bay and the Kill Van Kull, and its waterfront and Constable Hook areas are storm-surge exposed \u2014 Sandy in 2012 flooded low-lying industrial and residential blocks. Housing is dense and older: early 20th-century two- and three-family frame homes, brick rowhomes and postwar capes on finished basements with cast-iron drains and original supply plumbing failing on schedule. Tight rental stock produces frequent tenant water losses and basement mold. The Bayonne Crossing retail center and Route 440 corridor drive commercial sprinkler, roof-leak and overnight losses."
+    },
+    {
+      "city": "North Bergen",
+      "state": "NJ",
+      "slug": "north-bergen-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Guttenberg border",
+        "Bergenline",
+        "Fairview border",
+        "Woodcliff",
+        "Transfer Station"
+      ],
+      "landmarks": [
+        "James J. Braddock North Hudson Park",
+        "Bergenline Avenue business district",
+        "Hudson County Community College North Hudson Center",
+        "Tonnelle Avenue commercial corridor",
+        "Hudson River waterfront"
+      ],
+      "zip_codes": [
+        "07047"
+      ],
+      "local_notes": "North Bergen straddles the Palisades ridge above the Hudson, and its low-lying western flats near the Meadowlands and Tonnelle Avenue are flood-prone \u2014 heavy rain and Ida in 2021 overwhelmed storm drains, backing water into basements. It's one of the state's densest towns: packed with early 20th-century multi-family walkups, brick and frame two- and three-family homes on hillside lots, and older rental stock with aging plumbing and cast-iron drains. Overcrowded units drive frequent tenant water damage and basement mold. The Bergenline and Tonnelle corridors generate commercial sprinkler, roof-leak and retail losses."
+    }
   ],
-  "logo_url": "",
-  "tagline": "24/7 water, fire & mold damage restoration across New Jersey.",
-  "dark_color": "#1e293b",
-  "primary_color": "#1498d5",
-  "primary_dark": "#0c5d83",
-  "primary_light": "#bae4f7",
-  "accent_color": "#09435d"
- },
- "service_radius_description": "Union County NJ home base (Kenilworth) with statewide New Jersey focus plus the Brooklyn and Manhattan NY metro",
- "cross_product": true,
- "keyword_strategy": "conservative",
- "blog_seed_count": 12
+  "brand": {
+    "display_name": "The Restoration Group",
+    "short_name": "The Restoration Group",
+    "legal_name": "The Restoration Group",
+    "phone": "(855) 650-7422",
+    "email": "",
+    "hours": "24/7",
+    "founded_year": "2021",
+    "street_address": "500 S 31st St",
+    "postal_code": "07033",
+    "lat": "40.6749",
+    "lng": "-74.2957",
+    "place_id": "ChIJfZMnExzVxiIRkevldLILJW8",
+    "google_cid": "8008820373441604497",
+    "license_numbers": [],
+    "license_authority": "NJ Division of Consumer Affairs",
+    "license_type": "NJ Licensed Home Improvement Contractor",
+    "response_minutes": 60,
+    "certifications": [
+      "IICRC Certified Firm #210213"
+    ],
+    "same_as_urls": [
+      "https://www.google.com/maps?cid=8008820373441604497"
+    ],
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
+    "licensed_insured_attested": true,
+    "_license_note": "NJ HIC number captured on the 7/8 call but digits UNVERIFIED \u2014 license_numbers stays EMPTY until DCA-verified. Footer/badges print 'NJ Licensed Home Improvement Contractor' text only. licensed_insured_attested=true per owner attestation on the recorded call.",
+    "trust_badges": [
+      "IICRC Certified Firm #210213",
+      "NJ Licensed Home Improvement Contractor",
+      "24/7 Emergency Response",
+      "Serving NJ Since 2021"
+    ],
+    "logo_url": "",
+    "tagline": "24/7 water, fire & mold damage restoration across New Jersey.",
+    "dark_color": "#1e293b",
+    "primary_color": "#1498d5",
+    "primary_dark": "#0c5d83",
+    "primary_light": "#bae4f7",
+    "accent_color": "#09435d"
+  },
+  "service_radius_description": "Union County NJ home base (Kenilworth) with statewide New Jersey focus plus the Brooklyn and Manhattan NY metro",
+  "cross_product": true,
+  "keyword_strategy": "conservative",
+  "blog_seed_count": 12
 }

@@ -1,21 +1,21 @@
 # Site Plan Report — The Restoration Group
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-18T20:19:17.765486+00:00
+- Generated: 2026-08-29T16:37:27.357079+00:00
 - Domain: `therestorationgroup.com`
-- Services selected: 16 of 48 catalog entries
+- Services selected: 20 of 60 catalog entries
 - Service areas: 53
 - Cross-product enabled: True
-- Total URLs: **938**
-- Total internal links: 7509 (avg 8.0 per page)
+- Total URLs: **1133**
+- Total internal links: 9102 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 848 |
-| `service-area` | 53 |
-| `service-landing` | 16 |
+| `service-area-service` | 1040 |
+| `service-area` | 52 |
+| `service-landing` | 20 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -43,6 +43,10 @@
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `reconstruction` — Reconstruction Services (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `water-cleanup` — Water Cleanup (core, priority 9)
+- `contents-restoration-pack-out` — Contents Restoration & Pack-Out (adjacent, priority 5)
+- `basement-flood-cleanup` — Basement Flood Cleanup (adjacent, priority 5)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 
 ## Service areas
 
@@ -113,7 +117,7 @@
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization kenilworth |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration kenilworth |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration kenilworth |
-| `/service-areas/kenilworth-nj/` | `service-area` | 7.2 | restoration services kenilworth |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup kenilworth |
 
 ## Validation
 

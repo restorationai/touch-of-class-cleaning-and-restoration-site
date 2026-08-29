@@ -26,7 +26,11 @@
     "emergency-board-up-tarping",
     "commercial-restoration",
     "reconstruction",
-    "general-contracting"
+    "general-contracting",
+    "water-cleanup",
+    "contents-restoration-pack-out",
+    "basement-flood-cleanup",
+    "biohazard-cleanup"
   ],
   "service_areas": [
     {

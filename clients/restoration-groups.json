@@ -53,22 +53,22 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 938,
-    "generated_at": "2026-07-18T20:19:17.766228+00:00"
+    "url_count": 1133,
+    "generated_at": "2026-08-29T16:37:27.358115+00:00"
   },
   "build": {
     "scaffolded_at": "2026-07-11T01:57:15.798619+00:00",
     "starter_version": "0.1.0",
     "url_count": 224,
     "pages_status": "local-only",
-    "last_rendered_at": "2026-07-18T21:57:06.218718+00:00",
+    "last_rendered_at": "2026-08-29T21:12:21.066508+00:00",
     "preview_url": "https://the-restoration-group-preview.pages.dev",
     "preview_pages_project": "the-restoration-group-preview",
     "github_repo": "restorationai/restoration-groups-site",
     "last_pushed_staging_at": "2026-08-19T03:41:40.423257+00:00",
     "last_pushed_main_at": "2026-08-29T17:41:32.347134+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "content_rendered",
   "license_numbers": [
     "NJ HIC 13VH05488600"
   ],
