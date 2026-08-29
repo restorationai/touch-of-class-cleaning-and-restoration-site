@@ -261,7 +261,7 @@ FIRST_CONTACT_MAX_ITEMS = 1
 # QA window that would have caught DISS's broken logo before they ever saw it.
 # This gates the PROACTIVE ask only. A client who writes in asking about their
 # site is answered by the reply path, which never consults this filter.
-PREVIEW_SOAK_DAYS = 5  # Santino 2026-08-10: was 3; five days of visible progress before the reveal
+PREVIEW_SOAK_DAYS = 7  # Santino 2026-08-29: was 5 (08-10: was 3) — a full week of visible progress before any site-live notice, every path
 MIN_DAYS_BETWEEN_SENDS = 3
 HISTORY_MAX_MSGS = 25          # default fetch_history depth for compose/status
 CLASSIFY_HISTORY_MSGS = 10     # history context given to inbound classification
