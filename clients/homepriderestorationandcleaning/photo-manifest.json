@@ -2724,6 +2724,35 @@
       "triaged_at": "2026-08-05T06:04:04Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNk7nf97wGwBbwLZ1hmgM81KZUrLLp4aho1AykH": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNk7nf97wGwBbwLZ1hmgM81KZUrLLp4aho1AykH.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipNk7nf97wGwBbwLZ1hmgM81KZUrLLp4aho1AykH.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 84758,
+      "sha1": "6e8679b6e781097f",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Basement containment setup with air movers and dehumidifier",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Containment barriers and drying equipment clearly show remediation work in progress.",
+      "triaged_at": "2026-08-29T14:08:59Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNl3pji48pbII76jR1z4GZE3FxhJNIecx92BjiX": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNl3pji48pbII76jR1z4GZE3FxhJNIecx92BjiX.jpg",
@@ -4851,6 +4880,17 @@
       "triaged_at": "2026-08-05T06:07:52Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPoh6MJ1dr0EIVcNrq-xJxOGfU2Q6_3UsJRwKn_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPoh6MJ1dr0EIVcNrq-xJxOGfU2Q6_3UsJRwKn_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipPoh6MJ1dr0EIVcNrq-xJxOGfU2Q6_3UsJRwKn_.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 950794,
+      "sha1": "f81c2fbb14c90081",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipMvGiEiCz1n2qi7BE4ZQH6AnM_qkAAa_SPCdv4D"
+    },
     "gbp:gbp-AF1QipPqem06FZpb1dMqSnvmkC8QsUm5kZIWk0rJDwYa": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPqem06FZpb1dMqSnvmkC8QsUm5kZIWk0rJDwYa.jpg",
@@ -4999,5 +5039,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-26T23:33:47Z"
+  "triaged_at": "2026-08-29T14:08:59Z"
 }
