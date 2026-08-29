@@ -2556,7 +2556,13 @@ def build_client_pages(slug: str) -> tuple:
     _sh(["git", "commit", "-m", f"gbp: build pages for {slug} [automated]"])  # no-op if nothing staged
 
     # 5. deploy what rendered — the gate. 13 good pages beat deploying nothing over 1 straggler.
-    rcd, logd = _run(["scripts/build_site.py", "sync-deploy", "--slug", slug, "--branch", "main"])
+    #    --allow-dirty: step 4 already committed everything this build touched
+    #    (clients/sites/templates), and the subtree split reads committed
+    #    history only — so an unrelated dirty file elsewhere in the monorepo
+    #    (another session's WIP doc, a sweep log) must not sink the deploy.
+    #    Both 08-29 local drains failed exactly this way after clean builds.
+    rcd, logd = _run(["scripts/build_site.py", "sync-deploy", "--slug", slug,
+                      "--branch", "main", "--allow-dirty"])
     if rcd != 0:
         return False, f"BUILD FAILED at `sync-deploy` -> ...{logd.strip()[-400:]}"
     return True, "built + deployed (plan -> add-pages -> render -> commit -> sync-deploy main)" + render_note
