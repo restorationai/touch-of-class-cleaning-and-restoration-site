@@ -251,7 +251,8 @@ def main() -> None:
             except ValueError:
                 ints = {}
         ct = ints.get("call_tracking") or {}
-        return ((ct.get("site") or {}).get("number")
+        return ((ct.get("website") or {}).get("number")
+                or (ct.get("site") or {}).get("number")
                 or (ct.get("gbp") or {}).get("number"))
 
     targets: list[tuple[str, str]] = []
