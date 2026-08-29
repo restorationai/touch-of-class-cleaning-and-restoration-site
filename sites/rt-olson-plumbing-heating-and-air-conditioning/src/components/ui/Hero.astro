@@ -27,21 +27,25 @@ const hasAside = Astro.slots.has("aside");
 <header class={`relative overflow-hidden border-t border-dark/10 min-h-[60vh] md:min-h-[560px] ${hasAside ? "" : "md:h-[calc(100vh-188px)]"} flex items-center`}>
   {backgroundImage ? (
     <div class="absolute inset-0 z-0">
-      <img src={backgroundImage} srcset={bg.srcset} sizes={bg.srcset ? "100vw" : undefined} alt="Background" loading="eager" fetchpriority="high" decoding="async" class="w-full h-full object-cover object-[center_25%]" />
-      <div class="absolute inset-0 bg-white/20"></div>
+      <img src={backgroundImage} srcset={bg.srcset} sizes={bg.srcset ? "100vw" : undefined} alt="Background" loading="eager" fetchpriority="high" decoding="async" class={`w-full h-full object-cover ${hasAside ? "object-center" : "object-[center_25%]"}`} />
+      <div class={`absolute inset-0 ${hasAside ? "bg-black/25" : "bg-white/20"}`}></div>
     </div>
   ) : (
     <div class="absolute inset-0 bg-white z-0"></div>
   )}
 
-  {/* Left-to-right scrim: strong behind the text block, light over the branded van */}
-  <div class="absolute inset-0 bg-gradient-to-r from-white/85 via-white/45 to-white/10 z-0"></div>
+  {/* Scrim. Aside (photo + form) heroes go DARK with white text — the
+      washed-out white scrim buried the crew photo (Santino screenshot
+      2026-08-29); both reference sites (eladiosdemolition, glassexpertsfl)
+      run dark overlays for exactly this reason. Non-aside pages keep the
+      original light treatment. */}
+  <div class={`absolute inset-0 z-0 ${hasAside ? "bg-gradient-to-r from-black/70 via-black/35 to-black/20" : "bg-gradient-to-r from-white/85 via-white/45 to-white/10"}`}></div>
 
   <div class="container-wide relative z-10 pt-10 pb-14 md:pt-12 md:pb-16 text-left">
     <div class={hasAside ? "grid lg:grid-cols-[minmax(0,1fr)_420px] gap-10 lg:gap-14 items-center" : ""}>
     <div class="max-w-2xl">
-      <h1 class="mb-6 drop-shadow-lg text-4xl md:text-5xl lg:text-6xl">{title}</h1>
-      {subtitle && <p class="text-xl md:text-2xl text-dark/90 mb-10 drop-shadow-md">{subtitle}</p>}
+      <h1 class={`mb-6 drop-shadow-lg text-4xl md:text-5xl lg:text-6xl ${hasAside ? "text-white" : ""}`}>{title}</h1>
+      {subtitle && <p class={`text-xl md:text-2xl mb-10 drop-shadow-md ${hasAside ? "text-white/90" : "text-dark/90"}`}>{subtitle}</p>}
       <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center flex-wrap">
         <a
           href={`tel:${brand.phoneRaw}`}
@@ -64,7 +68,7 @@ const hasAside = Astro.slots.has("aside");
           </a>
         )}
       </div>
-      <p class="mt-5 text-sm font-semibold opacity-80 drop-shadow-md">We work with all insurance carriers and handle the claim paperwork.</p>
+      <p class={`mt-5 text-sm font-semibold opacity-80 drop-shadow-md ${hasAside ? "text-white" : ""}`}>We work with all insurance carriers and handle the claim paperwork.</p>
     </div>
     {hasAside && (
       <div class="w-full max-w-[440px] mx-auto lg:mx-0 lg:justify-self-end">
