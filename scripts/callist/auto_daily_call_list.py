@@ -894,32 +894,6 @@ def suggestion_blocks(today_str_key):
     blocks.append(make_divider())
     return blocks
 
-def needs_response_blocks(today_str_key):
-    """Render the '📬 Needs a Response' section (unanswered inbound + drafted replies) atop the page."""
-    try:
-        data = json.load(open(os.path.join(BASE_DIR, "inbox_needs_response.json")))
-    except Exception:
-        return []
-    items = data.get("items", [])
-    if not items:
-        return []
-    blocks = [make_heading(f"📬 NEEDS A RESPONSE — {len(items)} left on read", level=1),
-              make_text_block('Leads who messaged us and we haven\'t replied. A drafted reply is under each '
-                              '— say "send to <name>" to send it (or edit first).', color="gray")]
-    for it in items[:20]:
-        head = f"📬 {it.get('name','?')} · {it.get('channel','')}"
-        if it.get('inbound_date'): head += f" · since {it['inbound_date']}"
-        blocks.append({"object": "block", "type": "paragraph", "paragraph": {"rich_text": [
-            {"type": "text", "text": {"content": head}, "annotations": {"bold": True}}]}})
-        blocks.append(make_text_block(f"💬 They said: {it.get('inbound_text','')[:400]}", color="gray"))
-        draft = (f"[{it['subject']}] " if it.get('subject') else "") + (it.get('draft', '') or '')
-        blocks.append({"object": "block", "type": "paragraph", "paragraph": {"rich_text": [
-            {"type": "text", "text": {"content": "✏️ Drafted reply: "}, "annotations": {"bold": True}},
-            {"type": "text", "text": {"content": draft[:1200]}}]}})
-        blocks.append(make_text_block(f"send-ref:{it.get('contact_id','')}", color="gray"))
-    blocks.append(make_divider())
-    return blocks
-
 def monica_activity_blocks():
     """Cross-feed from the client concierge (Supabase concierge_escalations,
     last 24h) so client-side events show up next to the sales list. Silent
@@ -1044,8 +1018,7 @@ def rebuild_persistent(today):
     raw_results = pull_contacts()
     results     = filter_for_today(raw_results, today)
     total       = sum(len(c) for s in results.values() for c in s.values())
-    blocks = (needs_response_blocks(today_str_key) + build_blocks(results, disp, total)
-              + suggestion_blocks(today_str_key))
+    blocks = build_blocks(results, disp, total) + suggestion_blocks(today_str_key)
     pid = get_or_create_persistent_page(disp)
     repaint_page(pid, disp, blocks)
     return pid, total

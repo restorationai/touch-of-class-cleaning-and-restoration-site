@@ -220,14 +220,6 @@ def main(dry_run=False):
     try: promote_due_followups(today, dry_run=dry_run)
     except Exception as e: log(f"waiting-stage sweep failed: {e}")
 
-    # 6.5 inbox triage — unanswered inbound + drafted replies (📬 Needs a Response)
-    if not dry_run:
-        try:
-            import inbox_triage
-            inbox_triage.run(dry_run=False)
-        except Exception as e:
-            log(f"inbox triage failed: {e}")
-
     # 7. repaint the same page
     pid, total = L.rebuild_persistent(today)
     log(f"Repainted page with call list of {total}")
