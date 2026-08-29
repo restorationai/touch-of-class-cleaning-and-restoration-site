@@ -2616,6 +2616,23 @@ def create_pages(slug_filter: str | None = None, build: bool = False) -> list[st
                 if ok else {"status": "error", "error": msg[:500]}
             for r in reqs:
                 _sb_patch("marketing_page_requests", f"id=eq.{r['id']}", patch)
+            if ok:
+                # Client-visible reporting (Santino 2026-08-29: "make sure
+                # those page additions are documented and logged"): one
+                # work-ledger line per drain — services named, city ripple
+                # stated — so Reports/monthly summaries show the build.
+                try:
+                    sys.path.insert(0, str(ROOT / "scripts"))
+                    from work_log import work_log
+                    svcs = sorted({_svc_label(r["service"]) for r in reqs})
+                    work_log(reqs[0]["company_id"], "site", "pages-built",
+                             "Built and published new website pages for {}: {} — "
+                             "each with a dedicated page for every service area."
+                             .format(len(svcs), ", ".join(svcs)),
+                             evidence={"services": svcs, "requests": len(reqs)},
+                             actor="automation", source="gbp.py create-pages")
+                except Exception as e:  # noqa: BLE001 — reporting never blocks builds
+                    print(f"  [work-log] warn: {str(e)[:100]}")
 
     if not out:
         out.append("no queued page requests")

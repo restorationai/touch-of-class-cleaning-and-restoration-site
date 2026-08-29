@@ -5029,6 +5029,45 @@ def fetch_upcoming_appointments(contact_id: str, client_tz: str) -> tuple[str | 
     return ("\n".join(lines), soonest) if lines else (None, None)
 
 
+def _review_stats_context(cid: str | None) -> str:
+    """Live review-campaign numbers for the compose prompt (Kenny case,
+    Santino 2026-08-29). Three cheap HEAD-count queries; returns "" when the
+    company has no campaign so quiet clients cost one query, not four.
+    The block tells Monica these are SHAREABLE — the one category of internal
+    data the client is entitled to hear verbatim."""
+    if not cid:
+        return ""
+    _key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    base = os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/review_requests"
+    hdr = {"apikey": _key, "Authorization": f"Bearer {_key}",
+           "Prefer": "count=exact", "Range": "0-0", "User-Agent": UA}
+
+    def _count(params: str) -> int:
+        r = requests.get(f"{base}?company_id=eq.{cid}&select=id&{params}",
+                         headers=hdr, timeout=15)
+        cr = r.headers.get("content-range", "")
+        return int(cr.split("/")[-1]) if "/" in cr and r.ok else 0
+
+    total = _count("limit=1")
+    if not total:
+        return ""
+    unprocessed = _count("status=in.(pending,staged)&last_sent_at=is.null&limit=1")
+    clicked = _count("status=in.(clicked,reviewed,feedback_given)&limit=1")
+    processed = max(total - unprocessed, 0)
+    pct = round(processed / total * 100) if total else 0
+    click_rate = round(clicked / processed * 100, 1) if processed else 0.0
+    return (
+        "\nREVIEW CAMPAIGN STATS (LIVE — these numbers are the client's own "
+        "results and you SHOULD share them plainly when they ask how the "
+        "campaign or reviews are going; round nothing, never invent trends):\n"
+        f"  Contacts messaged so far: {processed:,} of {total:,} on the list "
+        f"({pct}% complete)\n"
+        f"  Clicked their review link: {clicked:,} ({click_rate}% of those "
+        "messaged)\n"
+        "  (If they want more detail than this, offer to send the full "
+        "report rather than guessing.)\n")
+
+
 def compose_draft(company: dict, first_name: str, items: list[dict],
                   channel: str, first_contact: bool,
                   history: list[dict] | None = None,
@@ -5134,6 +5173,16 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "open with content.\n" if used_today else
             "Name budget: their first name has not been used in the last "
             "day; you may use it once, or not at all.\n")
+    # REVIEW CAMPAIGN STATS (Santino 2026-08-29, the Kenny case: "Kenny asked
+    # for the stats of his review campaign and Monica wasn't able to answer").
+    # Live numbers ride along on every compose so ANY phrasing of "how's my
+    # review campaign going" gets a real answer instead of a deflection.
+    # Fail-open: a stats failure must never block a message.
+    review_stats_block = ""
+    try:
+        review_stats_block = _review_stats_context(company.get("id"))
+    except Exception:  # noqa: BLE001
+        pass
     intel_block = ""
     if intel:
         intel_block = (
@@ -5453,6 +5502,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                if first_contact else "")
             + history_block
             + intel_block
+            + review_stats_block
             + appt_block
             + ban_block
             + directive_block
