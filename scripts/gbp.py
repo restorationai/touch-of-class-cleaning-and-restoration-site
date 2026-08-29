@@ -2290,6 +2290,177 @@ def cmd_optimize(args) -> int:
 
 
 # --------------------------------------------------------------------------- #
+# Unattended execution of auto-safe SERVICE suggestions (Santino 2026-08-26:
+# "service adds, removals, descriptions and attributes go full auto fleet-wide;
+# name, categories and address stay manual"). Descriptions + attributes were
+# already weekly --apply steps; this is the missing executor for the service
+# rows the optimizer marks auto_safe — before this, they sat in the app
+# waiting for a human click forever (the NaRestCo pile).
+#
+# Documentation contract (Santino 2026-08-26): every change this function
+# makes is recorded twice — one marketing_gbp_changes row (the client-visible
+# Reports feed + monthly-summary source) and the suggestion row itself flips
+# to 'applied' with an AUTO-APPLIED stamp, so the board doubles as the
+# human-review ledger. Nothing is recorded that didn't verify on read-back.
+# --------------------------------------------------------------------------- #
+AUTO_APPLY_MAX_CHANGES = 12  # per client per run — bounds the blast radius
+
+
+def auto_apply(slug: str) -> str:
+    """Execute open auto_safe service suggestions: ADDs via add_services();
+    REMOVEs/MERGEs via the trim-style full-list PATCH (validateOnly first).
+    Removal is deliberately narrower than the auto_safe flag: only items
+    whole-phrase-matching the client's declared negative_services are removed
+    unattended (they told us they don't offer it); every other REMOVE stays
+    open for the app's one-click — a wrong add is reversible, a wrong removal
+    costs rankings for that exact phrasing. MERGE removes the redundant
+    phrasing only when its canonical is live on the listing."""
+    import datetime as dt
+    import urllib.parse
+    cid = company_id_for(slug)
+    if not cid:
+        return f"{slug}: skip (no company id)"
+    rows = _sb(f"marketing_gbp_suggestions?company_id=eq.{cid}"
+               "&status=eq.open&auto_safe=is.true&item_type=eq.service"
+               "&verdict=in.(ADD,REMOVE,MERGE)"
+               "&select=item,verdict,reason,canonical,confidence")
+    if not rows:
+        return f"{slug}: no open auto-safe service suggestions"
+    rows = rows[:AUTO_APPLY_MAX_CHANGES]
+    _, dont = declared_services(cid)
+    stamp = dt.date.today().isoformat()
+
+    def _flip_applied(item: str, note: str) -> None:
+        enc = urllib.parse.quote(str(item), safe="")
+        _sb_patch("marketing_gbp_suggestions",
+                  f"company_id=eq.{cid}&item_type=eq.service"
+                  f"&item=eq.{enc}&status=eq.open",
+                  {"status": "applied", "reason": note[:240]})
+
+    applied_adds: list[str] = []
+    applied_removes: list[str] = []
+    skipped: list[str] = []
+
+    # -- ADDs ride the existing primitive (it logs marketing_gbp_changes). --
+    add_rows = [r for r in rows if r["verdict"] == "ADD"]
+    labels = [_svc_label(r["item"]) for r in add_rows]
+    if labels:
+        msg = add_services(slug, labels)
+        if "added" in msg or "nothing to add" in msg:
+            applied_adds = labels
+            for r in add_rows:
+                _flip_applied(r["item"],
+                              f"{str(r.get('reason') or '')[:120]} — "
+                              f"AUTO-APPLIED {stamp} (optimizer, auto-safe)")
+        else:
+            skipped.append(f"adds failed: {msg[:120]}")
+
+    # -- REMOVE / MERGE: one full-list PATCH minus the confirmed trims. -----
+    to_remove: list[tuple[dict, str]] = []  # (suggestion row, live display name)
+    brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
+    token = get_access_token(cid)
+    place = brand.get("place_id") or _place_id_from_connection(cid)
+    loc = find_location(token, place) if (token and place) else None
+    if loc:
+        live_names = {_item_name(it).strip(): it for it in loc.get("serviceItems", [])}
+        for r in rows:
+            label = _svc_label(r["item"])
+            if r["verdict"] == "REMOVE":
+                if not _matches_exact(r["item"], dont) and not _matches_exact(label, dont):
+                    skipped.append(f"{label}: REMOVE not negative-services-backed — left for the click")
+                    continue
+            elif r["verdict"] == "MERGE":
+                canon = _svc_label(r.get("canonical") or "")
+                if canon not in live_names:
+                    skipped.append(f"{label}: MERGE canonical '{canon}' not live — left open")
+                    continue
+            else:
+                continue
+            hit = next((n for n in live_names if n.lower() == label.lower()), None)
+            if not hit:
+                _flip_applied(r["item"],
+                              f"AUTO-RESOLVED {stamp}: no longer on the listing")
+                continue
+            to_remove.append((r, hit))
+    if to_remove and loc:
+        names = {n for _, n in to_remove}
+        new_list = [it for it in loc.get("serviceItems", [])
+                    if _item_name(it).strip() not in names]
+        if new_list:  # never empty the services list
+            hdrs = {"Authorization": f"Bearer {token}",
+                    "Content-Type": "application/json"}
+            body = json.dumps({"serviceItems": new_list})
+            pre = requests.patch(
+                f"{INFO_API}/{loc['name']}?updateMask=serviceItems&validateOnly=true",
+                headers=hdrs, data=body, timeout=60)
+            if pre.ok:
+                real = requests.patch(
+                    f"{INFO_API}/{loc['name']}?updateMask=serviceItems",
+                    headers=hdrs, data=body, timeout=60)
+                if real.ok:
+                    back = find_location(token, place)
+                    still = {_item_name(it).strip()
+                             for it in (back or {}).get("serviceItems", [])}
+                    for r, name in to_remove:
+                        if name in still:
+                            skipped.append(f"{name}: removal did not verify — left open")
+                            continue
+                        applied_removes.append(name)
+                        why = ("client-declared negative service"
+                               if r["verdict"] == "REMOVE"
+                               else f"duplicate phrasing of '{_svc_label(r.get('canonical') or '')}'")
+                        log_change(cid, "service_remove",
+                                   f"Service removed from Google listing: {name} ({why})",
+                                   actor="optimizer")
+                        _flip_applied(r["item"],
+                                      f"{str(r.get('reason') or '')[:120]} — "
+                                      f"AUTO-APPLIED {stamp} (optimizer, auto-safe)")
+                else:
+                    skipped.append(f"remove PATCH failed {real.status_code}: {real.text[:120]}")
+            else:
+                skipped.append(f"remove preflight failed {pre.status_code}: {pre.text[:120]}")
+
+    # -- work ledger: one plain-English line per direction. ------------------
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from work_log import work_log
+        if applied_adds:
+            work_log(cid, "gbp", "services-auto-applied",
+                     "Added {} service(s) to the Google Business Profile from "
+                     "the weekly optimizer audit: {}.".format(
+                         len(applied_adds), ", ".join(applied_adds)),
+                     evidence={"services": applied_adds},
+                     actor="automation", source="gbp.py auto-apply")
+        if applied_removes:
+            work_log(cid, "gbp", "services-auto-trimmed",
+                     "Removed {} service(s) from the Google Business Profile "
+                     "(client-declared negatives / confirmed duplicates): {}.".format(
+                         len(applied_removes), ", ".join(applied_removes)),
+                     evidence={"services": applied_removes},
+                     actor="automation", source="gbp.py auto-apply")
+    except Exception as e:  # noqa: BLE001 — bookkeeping never blocks the apply
+        print(f"    [work-log] warn: {str(e)[:100]}")
+
+    bits = []
+    if applied_adds:
+        bits.append(f"added {len(applied_adds)} {applied_adds}")
+    if applied_removes:
+        bits.append(f"removed {len(applied_removes)} {applied_removes}")
+    if skipped:
+        bits.append(f"skipped {len(skipped)} ({'; '.join(skipped[:3])})")
+    return f"{slug}: " + ("; ".join(bits) if bits else "nothing applied")
+
+
+def cmd_auto_apply(args) -> int:
+    for slug in _clients(args):
+        try:
+            print("  " + auto_apply(slug))
+        except Exception as e:  # one client must never abort the whole --all run
+            print(f"  {slug}: ERROR ({type(e).__name__}: {str(e)[:200]}) — skipped")
+    return 0
+
+
+# --------------------------------------------------------------------------- #
 # "Create page" execution — drain the marketing_page_requests queue into the
 # client's plan-input (the canonical services list the build pipeline reads), so
 # the next re-plan + rebuild scaffolds, renders, and deploys a page per service.
@@ -2396,7 +2567,11 @@ def create_pages(slug_filter: str | None = None, build: bool = False) -> list[st
     plan-input.json (deduped) and mark the request 'building'. With build=True, run the
     safe incremental build+deploy chain and mark the requests 'built'/'error'."""
     import datetime as dt
-    rows = _sb("marketing_page_requests?status=eq.queued&select=id,company_id,service")
+    # 'building' rows are re-picked too: a killed run (job timeout, Ctrl-C)
+    # marks rows 'building' and never returns — without this they'd be
+    # orphaned forever, since everything downstream is idempotent anyway
+    # (plan-input dedupes, render skips rendered pages).
+    rows = _sb("marketing_page_requests?status=in.(queued,building)&select=id,company_id,service")
     out = []
     by_slug: dict[str, list] = {}
     for r in rows:
@@ -2525,6 +2700,10 @@ def main() -> int:
     go = po.add_mutually_exclusive_group(required=True)
     go.add_argument("--slug")
     go.add_argument("--all", action="store_true")
+    pat = sub.add_parser("auto-apply")
+    gat = pat.add_mutually_exclusive_group(required=True)
+    gat.add_argument("--slug")
+    gat.add_argument("--all", action="store_true")
     pdsc = sub.add_parser("descriptions")
     gd = pdsc.add_mutually_exclusive_group(required=True)
     gd.add_argument("--slug")
@@ -2548,6 +2727,7 @@ def main() -> int:
             "set-phone": cmd_set_phone,
             "add-services": cmd_add_services,
             "create-pages": cmd_create_pages, "optimize": cmd_optimize,
+            "auto-apply": cmd_auto_apply,
             "descriptions": cmd_descriptions, "enrich": cmd_enrich}[args.cmd](args)
 
 
