@@ -7,8 +7,16 @@
     "/services/fire-damage-restoration/",
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
+    "/services/commercial-restoration/",
     "/services/sewage-cleanup/",
+    "/services/water-cleanup/",
     "/services/biohazard-cleanup/",
+    "/services/mold-inspection-testing/",
+    "/services/basement-flood-cleanup/",
+    "/services/burst-frozen-pipes/",
+    "/services/commercial-fire-restoration/",
+    "/services/contents-restoration-pack-out/",
+    "/services/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/",
     "/service-areas/henderson-nv/",
     "/service-areas/north-las-vegas-nv/",
@@ -22,8 +30,16 @@
     "/services/fire-damage-restoration/",
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
+    "/services/commercial-restoration/",
     "/services/sewage-cleanup/",
-    "/services/biohazard-cleanup/"
+    "/services/water-cleanup/",
+    "/services/biohazard-cleanup/",
+    "/services/mold-inspection-testing/",
+    "/services/basement-flood-cleanup/",
+    "/services/burst-frozen-pipes/",
+    "/services/commercial-fire-restoration/",
+    "/services/contents-restoration-pack-out/",
+    "/services/contents-restoration-storage/"
   ],
   "/service-areas/": [
     "/",
@@ -125,16 +141,114 @@
     "/service-areas/sunrise-manor-nv/biohazard-cleanup/",
     "/service-areas/whitney-nv/biohazard-cleanup/"
   ],
+  "/services/burst-frozen-pipes/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+    "/service-areas/henderson-nv/burst-frozen-pipes/",
+    "/service-areas/north-las-vegas-nv/burst-frozen-pipes/",
+    "/service-areas/paradise-nv/burst-frozen-pipes/",
+    "/service-areas/spring-valley-nv/burst-frozen-pipes/",
+    "/service-areas/sunrise-manor-nv/burst-frozen-pipes/",
+    "/service-areas/whitney-nv/burst-frozen-pipes/"
+  ],
+  "/services/commercial-fire-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+    "/service-areas/henderson-nv/commercial-fire-restoration/",
+    "/service-areas/north-las-vegas-nv/commercial-fire-restoration/",
+    "/service-areas/paradise-nv/commercial-fire-restoration/",
+    "/service-areas/spring-valley-nv/commercial-fire-restoration/",
+    "/service-areas/sunrise-manor-nv/commercial-fire-restoration/",
+    "/service-areas/whitney-nv/commercial-fire-restoration/"
+  ],
+  "/services/contents-restoration-storage/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/service-areas/henderson-nv/contents-restoration-storage/",
+    "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
+    "/service-areas/paradise-nv/contents-restoration-storage/",
+    "/service-areas/spring-valley-nv/contents-restoration-storage/",
+    "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
+    "/service-areas/whitney-nv/contents-restoration-storage/"
+  ],
+  "/services/water-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/boulder-city-nv/water-cleanup/",
+    "/service-areas/henderson-nv/water-cleanup/",
+    "/service-areas/north-las-vegas-nv/water-cleanup/",
+    "/service-areas/paradise-nv/water-cleanup/",
+    "/service-areas/spring-valley-nv/water-cleanup/",
+    "/service-areas/sunrise-manor-nv/water-cleanup/",
+    "/service-areas/whitney-nv/water-cleanup/"
+  ],
+  "/services/commercial-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/boulder-city-nv/commercial-restoration/",
+    "/service-areas/henderson-nv/commercial-restoration/",
+    "/service-areas/north-las-vegas-nv/commercial-restoration/",
+    "/service-areas/paradise-nv/commercial-restoration/",
+    "/service-areas/spring-valley-nv/commercial-restoration/",
+    "/service-areas/sunrise-manor-nv/commercial-restoration/",
+    "/service-areas/whitney-nv/commercial-restoration/"
+  ],
+  "/services/contents-restoration-pack-out/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+    "/service-areas/henderson-nv/contents-restoration-pack-out/",
+    "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
+    "/service-areas/paradise-nv/contents-restoration-pack-out/",
+    "/service-areas/spring-valley-nv/contents-restoration-pack-out/",
+    "/service-areas/sunrise-manor-nv/contents-restoration-pack-out/",
+    "/service-areas/whitney-nv/contents-restoration-pack-out/"
+  ],
+  "/services/mold-inspection-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/boulder-city-nv/mold-inspection-testing/",
+    "/service-areas/henderson-nv/mold-inspection-testing/",
+    "/service-areas/north-las-vegas-nv/mold-inspection-testing/",
+    "/service-areas/paradise-nv/mold-inspection-testing/",
+    "/service-areas/spring-valley-nv/mold-inspection-testing/",
+    "/service-areas/sunrise-manor-nv/mold-inspection-testing/",
+    "/service-areas/whitney-nv/mold-inspection-testing/",
+    "/blog/how-to-test-for-mold/"
+  ],
+  "/services/basement-flood-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+    "/service-areas/henderson-nv/basement-flood-cleanup/",
+    "/service-areas/north-las-vegas-nv/basement-flood-cleanup/",
+    "/service-areas/paradise-nv/basement-flood-cleanup/",
+    "/service-areas/spring-valley-nv/basement-flood-cleanup/",
+    "/service-areas/sunrise-manor-nv/basement-flood-cleanup/",
+    "/service-areas/whitney-nv/basement-flood-cleanup/"
+  ],
   "/service-areas/henderson-nv/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/henderson-nv/fire-damage-restoration/",
     "/service-areas/henderson-nv/mold-remediation/",
     "/service-areas/henderson-nv/water-damage-restoration/",
+    "/service-areas/henderson-nv/commercial-restoration/",
     "/service-areas/henderson-nv/sewage-cleanup/",
+    "/service-areas/henderson-nv/water-cleanup/",
     "/service-areas/henderson-nv/biohazard-cleanup/",
+    "/service-areas/henderson-nv/mold-inspection-testing/",
+    "/service-areas/henderson-nv/basement-flood-cleanup/",
+    "/service-areas/henderson-nv/burst-frozen-pipes/",
+    "/service-areas/henderson-nv/commercial-fire-restoration/",
+    "/service-areas/henderson-nv/contents-restoration-pack-out/",
+    "/service-areas/henderson-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/",
-    "/service-areas/north-las-vegas-nv/"
+    "/service-areas/north-las-vegas-nv/",
+    "/service-areas/paradise-nv/"
   ],
   "/service-areas/north-las-vegas-nv/": [
     "/service-areas/",
@@ -142,10 +256,19 @@
     "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
     "/service-areas/north-las-vegas-nv/mold-remediation/",
     "/service-areas/north-las-vegas-nv/water-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/commercial-restoration/",
     "/service-areas/north-las-vegas-nv/sewage-cleanup/",
+    "/service-areas/north-las-vegas-nv/water-cleanup/",
     "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
+    "/service-areas/north-las-vegas-nv/mold-inspection-testing/",
+    "/service-areas/north-las-vegas-nv/basement-flood-cleanup/",
+    "/service-areas/north-las-vegas-nv/burst-frozen-pipes/",
+    "/service-areas/north-las-vegas-nv/commercial-fire-restoration/",
+    "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
+    "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/",
-    "/service-areas/henderson-nv/"
+    "/service-areas/henderson-nv/",
+    "/service-areas/paradise-nv/"
   ],
   "/service-areas/paradise-nv/": [
     "/service-areas/",
@@ -153,10 +276,19 @@
     "/service-areas/paradise-nv/fire-damage-restoration/",
     "/service-areas/paradise-nv/mold-remediation/",
     "/service-areas/paradise-nv/water-damage-restoration/",
+    "/service-areas/paradise-nv/commercial-restoration/",
     "/service-areas/paradise-nv/sewage-cleanup/",
+    "/service-areas/paradise-nv/water-cleanup/",
     "/service-areas/paradise-nv/biohazard-cleanup/",
+    "/service-areas/paradise-nv/mold-inspection-testing/",
+    "/service-areas/paradise-nv/basement-flood-cleanup/",
+    "/service-areas/paradise-nv/burst-frozen-pipes/",
+    "/service-areas/paradise-nv/commercial-fire-restoration/",
+    "/service-areas/paradise-nv/contents-restoration-pack-out/",
+    "/service-areas/paradise-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/",
-    "/service-areas/henderson-nv/"
+    "/service-areas/henderson-nv/",
+    "/service-areas/north-las-vegas-nv/"
   ],
   "/service-areas/spring-valley-nv/": [
     "/service-areas/",
@@ -164,10 +296,19 @@
     "/service-areas/spring-valley-nv/fire-damage-restoration/",
     "/service-areas/spring-valley-nv/mold-remediation/",
     "/service-areas/spring-valley-nv/water-damage-restoration/",
+    "/service-areas/spring-valley-nv/commercial-restoration/",
     "/service-areas/spring-valley-nv/sewage-cleanup/",
+    "/service-areas/spring-valley-nv/water-cleanup/",
     "/service-areas/spring-valley-nv/biohazard-cleanup/",
+    "/service-areas/spring-valley-nv/mold-inspection-testing/",
+    "/service-areas/spring-valley-nv/basement-flood-cleanup/",
+    "/service-areas/spring-valley-nv/burst-frozen-pipes/",
+    "/service-areas/spring-valley-nv/commercial-fire-restoration/",
+    "/service-areas/spring-valley-nv/contents-restoration-pack-out/",
+    "/service-areas/spring-valley-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/",
-    "/service-areas/henderson-nv/"
+    "/service-areas/henderson-nv/",
+    "/service-areas/north-las-vegas-nv/"
   ],
   "/service-areas/sunrise-manor-nv/": [
     "/service-areas/",
@@ -175,10 +316,19 @@
     "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
     "/service-areas/sunrise-manor-nv/mold-remediation/",
     "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+    "/service-areas/sunrise-manor-nv/commercial-restoration/",
     "/service-areas/sunrise-manor-nv/sewage-cleanup/",
+    "/service-areas/sunrise-manor-nv/water-cleanup/",
     "/service-areas/sunrise-manor-nv/biohazard-cleanup/",
+    "/service-areas/sunrise-manor-nv/mold-inspection-testing/",
+    "/service-areas/sunrise-manor-nv/basement-flood-cleanup/",
+    "/service-areas/sunrise-manor-nv/burst-frozen-pipes/",
+    "/service-areas/sunrise-manor-nv/commercial-fire-restoration/",
+    "/service-areas/sunrise-manor-nv/contents-restoration-pack-out/",
+    "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/",
-    "/service-areas/henderson-nv/"
+    "/service-areas/henderson-nv/",
+    "/service-areas/north-las-vegas-nv/"
   ],
   "/service-areas/whitney-nv/": [
     "/service-areas/",
@@ -186,10 +336,19 @@
     "/service-areas/whitney-nv/fire-damage-restoration/",
     "/service-areas/whitney-nv/mold-remediation/",
     "/service-areas/whitney-nv/water-damage-restoration/",
+    "/service-areas/whitney-nv/commercial-restoration/",
     "/service-areas/whitney-nv/sewage-cleanup/",
+    "/service-areas/whitney-nv/water-cleanup/",
     "/service-areas/whitney-nv/biohazard-cleanup/",
+    "/service-areas/whitney-nv/mold-inspection-testing/",
+    "/service-areas/whitney-nv/basement-flood-cleanup/",
+    "/service-areas/whitney-nv/burst-frozen-pipes/",
+    "/service-areas/whitney-nv/commercial-fire-restoration/",
+    "/service-areas/whitney-nv/contents-restoration-pack-out/",
+    "/service-areas/whitney-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/",
-    "/service-areas/henderson-nv/"
+    "/service-areas/henderson-nv/",
+    "/service-areas/north-las-vegas-nv/"
   ],
   "/service-areas/boulder-city-nv/": [
     "/service-areas/",
@@ -197,10 +356,19 @@
     "/service-areas/boulder-city-nv/fire-damage-restoration/",
     "/service-areas/boulder-city-nv/mold-remediation/",
     "/service-areas/boulder-city-nv/water-damage-restoration/",
+    "/service-areas/boulder-city-nv/commercial-restoration/",
     "/service-areas/boulder-city-nv/sewage-cleanup/",
+    "/service-areas/boulder-city-nv/water-cleanup/",
     "/service-areas/boulder-city-nv/biohazard-cleanup/",
+    "/service-areas/boulder-city-nv/mold-inspection-testing/",
+    "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+    "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+    "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/service-areas/henderson-nv/",
-    "/service-areas/north-las-vegas-nv/"
+    "/service-areas/north-las-vegas-nv/",
+    "/service-areas/paradise-nv/"
   ],
   "/service-areas/henderson-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
@@ -208,6 +376,7 @@
     "/service-areas/henderson-nv/mold-remediation/",
     "/service-areas/henderson-nv/water-damage-restoration/",
     "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/henderson-nv/mold-remediation/": [
@@ -216,6 +385,7 @@
     "/service-areas/henderson-nv/fire-damage-restoration/",
     "/service-areas/henderson-nv/water-damage-restoration/",
     "/service-areas/boulder-city-nv/mold-remediation/",
+    "/service-areas/north-las-vegas-nv/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/henderson-nv/water-damage-restoration/": [
@@ -224,6 +394,7 @@
     "/service-areas/henderson-nv/fire-damage-restoration/",
     "/service-areas/henderson-nv/mold-remediation/",
     "/service-areas/boulder-city-nv/water-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/henderson-nv/sewage-cleanup/": [
@@ -232,6 +403,7 @@
     "/service-areas/henderson-nv/fire-damage-restoration/",
     "/service-areas/henderson-nv/mold-remediation/",
     "/service-areas/boulder-city-nv/sewage-cleanup/",
+    "/service-areas/north-las-vegas-nv/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/henderson-nv/biohazard-cleanup/": [
@@ -240,6 +412,79 @@
     "/service-areas/henderson-nv/fire-damage-restoration/",
     "/service-areas/henderson-nv/mold-remediation/",
     "/service-areas/boulder-city-nv/biohazard-cleanup/",
+    "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/henderson-nv/burst-frozen-pipes/": [
+    "/services/burst-frozen-pipes/",
+    "/service-areas/henderson-nv/",
+    "/service-areas/henderson-nv/fire-damage-restoration/",
+    "/service-areas/henderson-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+    "/service-areas/north-las-vegas-nv/burst-frozen-pipes/",
+    "/contact/"
+  ],
+  "/service-areas/henderson-nv/commercial-fire-restoration/": [
+    "/services/commercial-fire-restoration/",
+    "/service-areas/henderson-nv/",
+    "/service-areas/henderson-nv/fire-damage-restoration/",
+    "/service-areas/henderson-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+    "/service-areas/north-las-vegas-nv/commercial-fire-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/henderson-nv/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/henderson-nv/",
+    "/service-areas/henderson-nv/fire-damage-restoration/",
+    "/service-areas/henderson-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/henderson-nv/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/henderson-nv/",
+    "/service-areas/henderson-nv/fire-damage-restoration/",
+    "/service-areas/henderson-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/water-cleanup/",
+    "/service-areas/north-las-vegas-nv/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/henderson-nv/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/henderson-nv/",
+    "/service-areas/henderson-nv/fire-damage-restoration/",
+    "/service-areas/henderson-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-restoration/",
+    "/service-areas/north-las-vegas-nv/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/henderson-nv/contents-restoration-pack-out/": [
+    "/services/contents-restoration-pack-out/",
+    "/service-areas/henderson-nv/",
+    "/service-areas/henderson-nv/fire-damage-restoration/",
+    "/service-areas/henderson-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+    "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
+    "/contact/"
+  ],
+  "/service-areas/henderson-nv/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/henderson-nv/",
+    "/service-areas/henderson-nv/fire-damage-restoration/",
+    "/service-areas/henderson-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/mold-inspection-testing/",
+    "/service-areas/north-las-vegas-nv/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/henderson-nv/basement-flood-cleanup/": [
+    "/services/basement-flood-cleanup/",
+    "/service-areas/henderson-nv/",
+    "/service-areas/henderson-nv/fire-damage-restoration/",
+    "/service-areas/henderson-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+    "/service-areas/north-las-vegas-nv/basement-flood-cleanup/",
     "/contact/"
   ],
   "/service-areas/north-las-vegas-nv/fire-damage-restoration/": [
@@ -287,6 +532,78 @@
     "/service-areas/henderson-nv/biohazard-cleanup/",
     "/contact/"
   ],
+  "/service-areas/north-las-vegas-nv/burst-frozen-pipes/": [
+    "/services/burst-frozen-pipes/",
+    "/service-areas/north-las-vegas-nv/",
+    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+    "/service-areas/henderson-nv/burst-frozen-pipes/",
+    "/contact/"
+  ],
+  "/service-areas/north-las-vegas-nv/commercial-fire-restoration/": [
+    "/services/commercial-fire-restoration/",
+    "/service-areas/north-las-vegas-nv/",
+    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+    "/service-areas/henderson-nv/commercial-fire-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/north-las-vegas-nv/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/north-las-vegas-nv/",
+    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/service-areas/henderson-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/north-las-vegas-nv/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/north-las-vegas-nv/",
+    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/water-cleanup/",
+    "/service-areas/henderson-nv/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/north-las-vegas-nv/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/north-las-vegas-nv/",
+    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-restoration/",
+    "/service-areas/henderson-nv/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/": [
+    "/services/contents-restoration-pack-out/",
+    "/service-areas/north-las-vegas-nv/",
+    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+    "/service-areas/henderson-nv/contents-restoration-pack-out/",
+    "/contact/"
+  ],
+  "/service-areas/north-las-vegas-nv/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/north-las-vegas-nv/",
+    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/mold-inspection-testing/",
+    "/service-areas/henderson-nv/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/north-las-vegas-nv/basement-flood-cleanup/": [
+    "/services/basement-flood-cleanup/",
+    "/service-areas/north-las-vegas-nv/",
+    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+    "/service-areas/henderson-nv/basement-flood-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/paradise-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/paradise-nv/",
@@ -330,6 +647,78 @@
     "/service-areas/paradise-nv/mold-remediation/",
     "/service-areas/boulder-city-nv/biohazard-cleanup/",
     "/service-areas/henderson-nv/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/paradise-nv/burst-frozen-pipes/": [
+    "/services/burst-frozen-pipes/",
+    "/service-areas/paradise-nv/",
+    "/service-areas/paradise-nv/fire-damage-restoration/",
+    "/service-areas/paradise-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+    "/service-areas/henderson-nv/burst-frozen-pipes/",
+    "/contact/"
+  ],
+  "/service-areas/paradise-nv/commercial-fire-restoration/": [
+    "/services/commercial-fire-restoration/",
+    "/service-areas/paradise-nv/",
+    "/service-areas/paradise-nv/fire-damage-restoration/",
+    "/service-areas/paradise-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+    "/service-areas/henderson-nv/commercial-fire-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/paradise-nv/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/paradise-nv/",
+    "/service-areas/paradise-nv/fire-damage-restoration/",
+    "/service-areas/paradise-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/service-areas/henderson-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/paradise-nv/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/paradise-nv/",
+    "/service-areas/paradise-nv/fire-damage-restoration/",
+    "/service-areas/paradise-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/water-cleanup/",
+    "/service-areas/henderson-nv/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/paradise-nv/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/paradise-nv/",
+    "/service-areas/paradise-nv/fire-damage-restoration/",
+    "/service-areas/paradise-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-restoration/",
+    "/service-areas/henderson-nv/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/paradise-nv/contents-restoration-pack-out/": [
+    "/services/contents-restoration-pack-out/",
+    "/service-areas/paradise-nv/",
+    "/service-areas/paradise-nv/fire-damage-restoration/",
+    "/service-areas/paradise-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+    "/service-areas/henderson-nv/contents-restoration-pack-out/",
+    "/contact/"
+  ],
+  "/service-areas/paradise-nv/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/paradise-nv/",
+    "/service-areas/paradise-nv/fire-damage-restoration/",
+    "/service-areas/paradise-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/mold-inspection-testing/",
+    "/service-areas/henderson-nv/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/paradise-nv/basement-flood-cleanup/": [
+    "/services/basement-flood-cleanup/",
+    "/service-areas/paradise-nv/",
+    "/service-areas/paradise-nv/fire-damage-restoration/",
+    "/service-areas/paradise-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+    "/service-areas/henderson-nv/basement-flood-cleanup/",
     "/contact/"
   ],
   "/service-areas/spring-valley-nv/fire-damage-restoration/": [
@@ -377,6 +766,78 @@
     "/service-areas/henderson-nv/biohazard-cleanup/",
     "/contact/"
   ],
+  "/service-areas/spring-valley-nv/burst-frozen-pipes/": [
+    "/services/burst-frozen-pipes/",
+    "/service-areas/spring-valley-nv/",
+    "/service-areas/spring-valley-nv/fire-damage-restoration/",
+    "/service-areas/spring-valley-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+    "/service-areas/henderson-nv/burst-frozen-pipes/",
+    "/contact/"
+  ],
+  "/service-areas/spring-valley-nv/commercial-fire-restoration/": [
+    "/services/commercial-fire-restoration/",
+    "/service-areas/spring-valley-nv/",
+    "/service-areas/spring-valley-nv/fire-damage-restoration/",
+    "/service-areas/spring-valley-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+    "/service-areas/henderson-nv/commercial-fire-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/spring-valley-nv/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/spring-valley-nv/",
+    "/service-areas/spring-valley-nv/fire-damage-restoration/",
+    "/service-areas/spring-valley-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/service-areas/henderson-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/spring-valley-nv/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/spring-valley-nv/",
+    "/service-areas/spring-valley-nv/fire-damage-restoration/",
+    "/service-areas/spring-valley-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/water-cleanup/",
+    "/service-areas/henderson-nv/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/spring-valley-nv/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/spring-valley-nv/",
+    "/service-areas/spring-valley-nv/fire-damage-restoration/",
+    "/service-areas/spring-valley-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-restoration/",
+    "/service-areas/henderson-nv/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/spring-valley-nv/contents-restoration-pack-out/": [
+    "/services/contents-restoration-pack-out/",
+    "/service-areas/spring-valley-nv/",
+    "/service-areas/spring-valley-nv/fire-damage-restoration/",
+    "/service-areas/spring-valley-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+    "/service-areas/henderson-nv/contents-restoration-pack-out/",
+    "/contact/"
+  ],
+  "/service-areas/spring-valley-nv/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/spring-valley-nv/",
+    "/service-areas/spring-valley-nv/fire-damage-restoration/",
+    "/service-areas/spring-valley-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/mold-inspection-testing/",
+    "/service-areas/henderson-nv/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/spring-valley-nv/basement-flood-cleanup/": [
+    "/services/basement-flood-cleanup/",
+    "/service-areas/spring-valley-nv/",
+    "/service-areas/spring-valley-nv/fire-damage-restoration/",
+    "/service-areas/spring-valley-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+    "/service-areas/henderson-nv/basement-flood-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/sunrise-manor-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/sunrise-manor-nv/",
@@ -420,6 +881,78 @@
     "/service-areas/sunrise-manor-nv/mold-remediation/",
     "/service-areas/boulder-city-nv/biohazard-cleanup/",
     "/service-areas/henderson-nv/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-manor-nv/burst-frozen-pipes/": [
+    "/services/burst-frozen-pipes/",
+    "/service-areas/sunrise-manor-nv/",
+    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+    "/service-areas/sunrise-manor-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+    "/service-areas/henderson-nv/burst-frozen-pipes/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-manor-nv/commercial-fire-restoration/": [
+    "/services/commercial-fire-restoration/",
+    "/service-areas/sunrise-manor-nv/",
+    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+    "/service-areas/sunrise-manor-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+    "/service-areas/henderson-nv/commercial-fire-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-manor-nv/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/sunrise-manor-nv/",
+    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+    "/service-areas/sunrise-manor-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/service-areas/henderson-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-manor-nv/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/sunrise-manor-nv/",
+    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+    "/service-areas/sunrise-manor-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/water-cleanup/",
+    "/service-areas/henderson-nv/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-manor-nv/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/sunrise-manor-nv/",
+    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+    "/service-areas/sunrise-manor-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-restoration/",
+    "/service-areas/henderson-nv/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-manor-nv/contents-restoration-pack-out/": [
+    "/services/contents-restoration-pack-out/",
+    "/service-areas/sunrise-manor-nv/",
+    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+    "/service-areas/sunrise-manor-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+    "/service-areas/henderson-nv/contents-restoration-pack-out/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-manor-nv/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/sunrise-manor-nv/",
+    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+    "/service-areas/sunrise-manor-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/mold-inspection-testing/",
+    "/service-areas/henderson-nv/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-manor-nv/basement-flood-cleanup/": [
+    "/services/basement-flood-cleanup/",
+    "/service-areas/sunrise-manor-nv/",
+    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+    "/service-areas/sunrise-manor-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+    "/service-areas/henderson-nv/basement-flood-cleanup/",
     "/contact/"
   ],
   "/service-areas/whitney-nv/fire-damage-restoration/": [
@@ -467,12 +1000,85 @@
     "/service-areas/henderson-nv/biohazard-cleanup/",
     "/contact/"
   ],
+  "/service-areas/whitney-nv/burst-frozen-pipes/": [
+    "/services/burst-frozen-pipes/",
+    "/service-areas/whitney-nv/",
+    "/service-areas/whitney-nv/fire-damage-restoration/",
+    "/service-areas/whitney-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+    "/service-areas/henderson-nv/burst-frozen-pipes/",
+    "/contact/"
+  ],
+  "/service-areas/whitney-nv/commercial-fire-restoration/": [
+    "/services/commercial-fire-restoration/",
+    "/service-areas/whitney-nv/",
+    "/service-areas/whitney-nv/fire-damage-restoration/",
+    "/service-areas/whitney-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+    "/service-areas/henderson-nv/commercial-fire-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/whitney-nv/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/whitney-nv/",
+    "/service-areas/whitney-nv/fire-damage-restoration/",
+    "/service-areas/whitney-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/service-areas/henderson-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/whitney-nv/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/whitney-nv/",
+    "/service-areas/whitney-nv/fire-damage-restoration/",
+    "/service-areas/whitney-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/water-cleanup/",
+    "/service-areas/henderson-nv/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/whitney-nv/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/whitney-nv/",
+    "/service-areas/whitney-nv/fire-damage-restoration/",
+    "/service-areas/whitney-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/commercial-restoration/",
+    "/service-areas/henderson-nv/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/whitney-nv/contents-restoration-pack-out/": [
+    "/services/contents-restoration-pack-out/",
+    "/service-areas/whitney-nv/",
+    "/service-areas/whitney-nv/fire-damage-restoration/",
+    "/service-areas/whitney-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+    "/service-areas/henderson-nv/contents-restoration-pack-out/",
+    "/contact/"
+  ],
+  "/service-areas/whitney-nv/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/whitney-nv/",
+    "/service-areas/whitney-nv/fire-damage-restoration/",
+    "/service-areas/whitney-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/mold-inspection-testing/",
+    "/service-areas/henderson-nv/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/whitney-nv/basement-flood-cleanup/": [
+    "/services/basement-flood-cleanup/",
+    "/service-areas/whitney-nv/",
+    "/service-areas/whitney-nv/fire-damage-restoration/",
+    "/service-areas/whitney-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+    "/service-areas/henderson-nv/basement-flood-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/boulder-city-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/boulder-city-nv/",
     "/service-areas/boulder-city-nv/mold-remediation/",
     "/service-areas/boulder-city-nv/water-damage-restoration/",
     "/service-areas/henderson-nv/fire-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/boulder-city-nv/mold-remediation/": [
@@ -481,6 +1087,7 @@
     "/service-areas/boulder-city-nv/fire-damage-restoration/",
     "/service-areas/boulder-city-nv/water-damage-restoration/",
     "/service-areas/henderson-nv/mold-remediation/",
+    "/service-areas/north-las-vegas-nv/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/boulder-city-nv/water-damage-restoration/": [
@@ -489,6 +1096,7 @@
     "/service-areas/boulder-city-nv/fire-damage-restoration/",
     "/service-areas/boulder-city-nv/mold-remediation/",
     "/service-areas/henderson-nv/water-damage-restoration/",
+    "/service-areas/north-las-vegas-nv/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/boulder-city-nv/sewage-cleanup/": [
@@ -497,6 +1105,7 @@
     "/service-areas/boulder-city-nv/fire-damage-restoration/",
     "/service-areas/boulder-city-nv/mold-remediation/",
     "/service-areas/henderson-nv/sewage-cleanup/",
+    "/service-areas/north-las-vegas-nv/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/boulder-city-nv/biohazard-cleanup/": [
@@ -505,6 +1114,79 @@
     "/service-areas/boulder-city-nv/fire-damage-restoration/",
     "/service-areas/boulder-city-nv/mold-remediation/",
     "/service-areas/henderson-nv/biohazard-cleanup/",
+    "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/boulder-city-nv/burst-frozen-pipes/": [
+    "/services/burst-frozen-pipes/",
+    "/service-areas/boulder-city-nv/",
+    "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/service-areas/boulder-city-nv/mold-remediation/",
+    "/service-areas/henderson-nv/burst-frozen-pipes/",
+    "/service-areas/north-las-vegas-nv/burst-frozen-pipes/",
+    "/contact/"
+  ],
+  "/service-areas/boulder-city-nv/commercial-fire-restoration/": [
+    "/services/commercial-fire-restoration/",
+    "/service-areas/boulder-city-nv/",
+    "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/service-areas/boulder-city-nv/mold-remediation/",
+    "/service-areas/henderson-nv/commercial-fire-restoration/",
+    "/service-areas/north-las-vegas-nv/commercial-fire-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/boulder-city-nv/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/boulder-city-nv/",
+    "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/service-areas/boulder-city-nv/mold-remediation/",
+    "/service-areas/henderson-nv/contents-restoration-storage/",
+    "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/boulder-city-nv/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/boulder-city-nv/",
+    "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/service-areas/boulder-city-nv/mold-remediation/",
+    "/service-areas/henderson-nv/water-cleanup/",
+    "/service-areas/north-las-vegas-nv/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/boulder-city-nv/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/boulder-city-nv/",
+    "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/service-areas/boulder-city-nv/mold-remediation/",
+    "/service-areas/henderson-nv/commercial-restoration/",
+    "/service-areas/north-las-vegas-nv/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/boulder-city-nv/contents-restoration-pack-out/": [
+    "/services/contents-restoration-pack-out/",
+    "/service-areas/boulder-city-nv/",
+    "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/service-areas/boulder-city-nv/mold-remediation/",
+    "/service-areas/henderson-nv/contents-restoration-pack-out/",
+    "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
+    "/contact/"
+  ],
+  "/service-areas/boulder-city-nv/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/boulder-city-nv/",
+    "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/service-areas/boulder-city-nv/mold-remediation/",
+    "/service-areas/henderson-nv/mold-inspection-testing/",
+    "/service-areas/north-las-vegas-nv/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/boulder-city-nv/basement-flood-cleanup/": [
+    "/services/basement-flood-cleanup/",
+    "/service-areas/boulder-city-nv/",
+    "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/service-areas/boulder-city-nv/mold-remediation/",
+    "/service-areas/henderson-nv/basement-flood-cleanup/",
+    "/service-areas/north-las-vegas-nv/basement-flood-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [
@@ -538,6 +1220,7 @@
   "/blog/how-to-test-for-mold/": [
     "/blog/",
     "/services/mold-remediation/",
+    "/services/mold-inspection-testing/",
     "/blog/choosing-a-restoration-company/",
     "/blog/signs-of-hidden-mold/",
     "/blog/black-mold-vs-regular-mold/"

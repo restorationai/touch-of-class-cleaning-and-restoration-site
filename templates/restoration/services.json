@@ -828,6 +828,51 @@
       ],
       "tier": "adjacent",
       "priority": 5
+    },
+    {
+      "slug": "burst-frozen-pipes",
+      "display_name": "Burst & Frozen Pipes",
+      "short_name": "Burst & Frozen",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "commercial-fire-restoration",
+      "display_name": "Commercial Fire Restoration",
+      "short_name": "Commercial Fire Restoration",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "contents-restoration-storage",
+      "display_name": "Contents Restoration & Storage",
+      "short_name": "Contents Restoration &",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "contents-restoration-pack-out",
+      "display_name": "Contents Restoration & Pack-Out",
+      "short_name": "Contents Restoration &",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "basement-flood-cleanup",
+      "display_name": "Basement Flood Cleanup",
+      "short_name": "Basement Flood Cleanup",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
     }
   ]
 }
