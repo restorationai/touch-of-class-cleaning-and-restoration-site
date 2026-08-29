@@ -13,8 +13,8 @@ export const brand = {
   phoneRaw: "+12567710326",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
   // Schema/NAP keep the canonical number above.
-  trackingPhone: "(855) 901-7178",
-  trackingPhoneRaw: "+18559017178",
+  trackingPhone: "(256) 368-0097",
+  trackingPhoneRaw: "+12563680097",
   email: "davisheath09@gmail.com",
   hours: "Monday–Friday, 8:00 AM – 5:00 PM",
   foundedYear: "2008",

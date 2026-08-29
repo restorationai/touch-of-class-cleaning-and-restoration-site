@@ -13,8 +13,8 @@ export const brand = {
   phoneRaw: "+19549325420",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
   // Schema/NAP keep the canonical number above.
-  trackingPhone: "(954) 686-1404",
-  trackingPhoneRaw: "+19546861404",
+  trackingPhone: "(561) 621-4582",
+  trackingPhoneRaw: "+15616214582",
   email: "issac@restorationxpress.com",
   hours: "24/7",
   foundedYear: "2011",
