@@ -1,6 +1,32 @@
 # Working State — leave-and-resume doc
 
-Updated: 2026-08-23 (UTC). Keep this current when a work thread pauses.
+Updated: 2026-08-29 (PT). Keep this current when a work thread pauses.
+
+## 2026-08-29 (Sat) — citations day + auto-apply flip
+
+- **GBP auto-apply SHIPPED + fleet-run** (4820be67): gbp.py auto-apply executes
+  auto_safe service suggestions (adds + negative-backed removals only; name/
+  categories/address/pages stay one-click). First run: 49 adds / 12 clients,
+  7 removals, all in marketing_gbp_changes + stamped on the app board. In the
+  Monday workflow after optimize. Descriptions+attributes were already weekly.
+- **Kenilworth VERIFIED from Jul 28 transcript**: Michael declined (Elite
+  association, "don't want it to hurt what we have"); wants Island Park +
+  Staten Island connected (link with Adi since Jul 28, still unaccepted).
+  TRG FB/IG are Elite-branded = Monday talking point. TRG Monday pack:
+  https://claude.ai/code/artifact/1804fc88-2871-4db0-b388-ece7f9fb490d
+  (GSC 28d: 81,347 impr / 82 clicks, 3.3x/2.5x).
+- **Citations**: sweep was DEAD ~1wk (Chrome held the profile at 21:30;
+  cleared). Two manual sweeps: HomeGuide created cal-west + TDI
+  (review_needed). TRG logo pulled from GBP → homeguide unblocked (tonight).
+  BING login EXPIRED → Santino: `python3 -m browser_agent login`. PuroLV/
+  HomeLyft/Pro Bing need owner to add contact@restorationai.io as GBP manager.
+- **Apple**: API access requested in-portal 08-16, waiting on Apple email.
+  Listing runs need Santino live (SMS code to phone ..49). 3 In Review.
+- **BrightLocal**: committed to Simply Listings + $1,200/500 bundle (acct
+  606053, verified); Harry must activate — pricing page is Contact Us.
+- **City×service drains**: PuroLV (48pg) + TRG (318pg) building locally
+  (nohup, log in session scratchpad); remaining ~600pg drain Mon 10am PT via
+  gbp-maintenance (timeout now 300m; create-pages re-picks 'building' rows).
 Deeper context: docs/seo-videos-gap-analysis-2026-08.md (SEO queue),
 docs/bobby-olson-call-plan-2026-08-18.md (Bobby items + statuses),
 docs/rt-olson-hvac-split-memo-2026-08.md (split recommendation).
