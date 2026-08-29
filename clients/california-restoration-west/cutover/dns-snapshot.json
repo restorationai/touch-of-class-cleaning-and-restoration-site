@@ -1,0 +1,33 @@
+{
+ "domain": "californiarestorationwest.com",
+ "captured_at": "2026-08-29T10:24:26+00:00",
+ "authoritative": {
+  "ns": [
+   "ns-cloud-a1.googledomains.com",
+   "ns-cloud-a2.googledomains.com",
+   "ns-cloud-a3.googledomains.com",
+   "ns-cloud-a4.googledomains.com"
+  ],
+  "mx": [],
+  "apex_txt": [
+   "google-site-verification=oZdNoiAkhDz0tywHWYb4PPScyb77Ki4x2Dm1hi-Q5kw"
+  ],
+  "dmarc_txt": [],
+  "dkim": {},
+  "apex_a": [
+   "198.49.23.145"
+  ],
+  "apex_cname": [],
+  "www_cname": [
+   "ext-sq.squarespace.com"
+  ]
+ },
+ "cf_zone": {
+  "zone_id": "a6bc703de378aa9c56b774949b67f363",
+  "name_servers": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
+  "records": []
+ }
+}
