@@ -34,3 +34,7 @@ With over 40 years in construction and rebuilding, the team has worked across th
 Sacramento is the base, and the surrounding region is the service area, the Central Valley cities, the foothill communities along Highway 50 and I-80, and the greater Sacramento metro. The region's housing stock runs the gamut: postwar tract homes with original plumbing, mid-century commercial buildings, newer construction in the suburban corridors east and south of the city. Each era brings its own vulnerabilities. Older homes often have galvanized supply lines that corrode from the inside out; Sacramento's hot, dry summers followed by wet winters create expansion-and-contraction cycles that stress rooflines and foundations over time; the valley's clay soils drain slowly, which means a heavy rain event can push water toward foundations that have handled it fine for decades, until one year they don't.
 
 If you're unsure whether your property falls within the service area, a call to (877) 688-0866 will get you a direct answer.
+
+## Proudly Native American Owned
+
+TDI is a Native American owned business (Cherokee). That heritage shapes how we build: with respect for the land we work on, accountability to the communities we serve, and craftsmanship meant to last for the next generation. It also makes TDI a strong partner for public agencies and organizations that value working with Indigenous-owned contractors.

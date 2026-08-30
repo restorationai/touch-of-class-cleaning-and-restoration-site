@@ -70,7 +70,7 @@ export const brand = {
   tradeNoun: "construction",
   specialistPhrase: "Construction & Remodeling Specialists",
   announcementSuffix: "Free Estimates",
-  homeAboutBlurb: "TDI Builders, Inc. serves Sacramento and the surrounding CA area with full-service construction and remodeling. From new construction and additions to roofing, siding, decks, and painting, our team manages every project from the first estimate to the final walkthrough.",
+  homeAboutBlurb: "TDI is a proudly Native American owned company (Cherokee) serving Sacramento and the surrounding CA area with full-service construction and remodeling. From new construction and additions to roofing, siding, decks, and painting, our team manages every project from the first estimate to the final walkthrough.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

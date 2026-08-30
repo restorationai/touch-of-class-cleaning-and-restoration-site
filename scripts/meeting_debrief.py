@@ -62,14 +62,14 @@ def sb(method: str, path: str, body=None, prefer=None):
 
 def get_cursor() -> str | None:
     try:
-        rows = sb("GET", f"ops_kv?key=eq.{CURSOR_KEY}&select=value")
-        return (rows[0]["value"] or {}).get("ts") if rows else None
+        rows = sb("GET", f"ops_kv?k=eq.{CURSOR_KEY}&select=v")
+        return (rows[0]["v"] or {}).get("ts") if rows else None
     except Exception:  # noqa: BLE001
         return None
 
 
 def set_cursor(ts: str) -> None:
-    sb("POST", "ops_kv", {"key": CURSOR_KEY, "value": {"ts": ts}},
+    sb("POST", "ops_kv?on_conflict=k", {"k": CURSOR_KEY, "v": {"ts": ts}},
        prefer="resolution=merge-duplicates,return=minimal")
 
 
@@ -104,6 +104,26 @@ def load_client_index():
         if digits:
             by_phone[digits] = c["id"]
         names.append((c["name"].strip().lower(), c["id"], c["name"].strip()))
+    # clients/*.json contact names — meetings are often titled with the
+    # PERSON ("Rob Carpenter - Kick Off Call"), the client joins by link so
+    # no invitee email exists, and the company name never appears (TDI
+    # 2026-08-31). Full contact names become title-match candidates too.
+    try:
+        cmap = json.loads((Path(__file__).resolve().parent.parent
+                           / "clients" / "company_map.json").read_text())
+        for slug, cid in cmap.items():
+            if cid not in {c["id"] for c in companies}:
+                continue
+            try:
+                cj = json.loads((Path(__file__).resolve().parent.parent
+                                 / "clients" / f"{slug}.json").read_text())
+                nm = ((cj.get("contact") or {}).get("name") or "").strip()
+                if len(nm) > 6:
+                    names.append((nm.lower(), cid, nm))
+            except Exception:  # noqa: BLE001
+                continue
+    except Exception:  # noqa: BLE001
+        pass
     # contacts carry the humans (owners, office managers)
     contacts = sb("GET", "contacts?select=client_id,email,phone&limit=5000")
     active_ids = {c["id"] for c in companies}
