@@ -1833,7 +1833,7 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request,
             print("[call-tracking] log failed:", str(e)[:120])
     background_tasks.add_task(_log_ringing)
     base = "https://rank-ai-api-production.up.railway.app"
-    say = ('<Say voice="Polly.Joanna">This call is recorded.</Say>'
+    say = ('<Say voice="Polly.Joanna">This call may be recorded.</Say>'
            if disclose else "")
     if _whisper:
         _wurl = (f"{base}/call-tracking/whisper?text="
