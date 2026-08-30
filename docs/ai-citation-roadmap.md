@@ -28,22 +28,9 @@ denominator of all three.
 | High-value directories | Yelp, BBB, Angi, Houzz, ThreeBestRated, TrustAnalytica, Facebook, HomeGuide, Bing, ContractorsRanked | Browser agent, nightly rotation + supervised runs | threebestrated/houzz/trustanalytica seeded fleet-wide 08-25 (21 clients each); contractorsranked = Pro pilot (watch lead-billing terms) |
 | Long tail + aggregators | Data Axle, Localeze, Foursquare, voice assistants, DexKnows-class directories | **BrightLocal Citation Builder via API** (persist after cancel, we pick directories) | Emily Hamblyn thread reopened 08-26; subscribe to a plan w/ API (Track/Manage/Grow all include API; 250-req trial key; CB-via-API may need Enterprise — asked) |
 | Award pages | Quality Business Awards ($30 on acceptance, indexed, dofollow, one proven AI Mode citation) | Manual application per client, 4.8+ real ratings only | Pro queued as pilot (payment needs Santino). businessrate.com = SCAM, never pay |
-
-**QBA operating procedure** (tracked as `quality_business_awards` in
-citation_listings, shows in the app's Business Listings build-out queue):
-1. Apply at https://qualitybusinessawards.com/request-consideration (free).
-   Only submit clients holding a REAL 4.8+ Google average (their criteria:
-   review quality across Google/Facebook/Yelp, low complaints, multi-year
-   record). Never submit a client below 4.8.
-2. They evaluate; on acceptance the award page costs $30 (Santino's card).
-3. On acceptance: pay, grab the award-page URL, flip the citation_listings
-   row to live with the URL, add the URL to the citation tracker + IndexNow
-   ping, and (optional) badge on the client site footer.
-4. Cadence: one client per batch, only after their review campaign has
-   pushed them solidly over 4.8 with volume. Pro = pilot.
-| Press releases | **38 Digital Market first** (AP News, Digital Journal, Google News), EIN Presswire second ($999/15 = $67 ea, explicit "AI/LLM platforms" distribution). IssueWire = never (own-network PBN) | We write (press_release.py drafts, app approval + Download .docx), Santino submits + pays | **ORDERED 08-26/27 for Pro**: Standard $97 + Do-Follow $60 + Podcast $45; intakes submitted (podcast order CE21B016_3, company-name link field). Await placement-URL report -> citation tracker. Verify Jack OK'd the quote before publication (editable via order ticket) |
+| Press releases | **38 Digital Market first** (AP News, Digital Journal, Google News; $97 std / $197 PR Booster w/ tier-2s + podcasts + entity stack), EIN Presswire second ($999/15 = $67 ea, explicit "AI/LLM platforms" distribution). IssueWire = never (own-network PBN) | We write (press_release.py drafts, app approval), Santino submits + pays | Pro draft REWRITTEN 08-26: "Surpasses 100 Five-Star Google Reviews" (Jack's quote needs his OK). Next: order 38DM Booster $197 |
 | Owned social surfaces | FB posts w/ NAP burned into images + link in first comment; native FB video uploads; best-of listicle posts; per-client podcast feed (System 5 audio → RSS → Spotify/Apple = DR16-class links) | Content engine additions | TO BUILD: podcast layer + FB mechanics |
-| Local FB groups | Personal-profile recommendation posts in public "{city} reviews/recommendations" groups are AI Mode-citable. Path: client OWNER posts, or genuinely happy customers asked at the thank-you step. We draft copy. NOT us astroturfing from fake/staff profiles | Manual, per campaign | Santino joined the Bakersfield group; Pro first. 08-27: default format switching to DIRECT owner-voice post modeled on the cited Enid example (FB post is login-walled to us — Santino pasting text; question-thread stays as the alternate). App drafts to be regenerated on the new template |
+| Local FB groups | Personal-profile recommendation posts in public "{city} reviews/recommendations" groups are AI Mode-citable. Path: client OWNER posts, or genuinely happy customers asked at the thank-you step. We draft copy. NOT us astroturfing from fake/staff profiles | Manual, per campaign | Santino joined the Bakersfield-relevant group; Pro first |
 | Measurement | review_campaign_stats view, review_count_history (daily 03:30 UTC pg_cron), geo-grid, AI-answer citation loop (add "best water damage restoration bakersfield") | Automated | LIVE 08-25 |
 
 ## Adopted vs avoided (from the James Ranks series analysis)
@@ -76,13 +63,9 @@ Standings (08-25, from Pro's coordinates): #6. Ahead: 911 Restoration
 (5.0/46), two thin listings. Pro: 4.8/106, 45 photos. ChatGPT already names
 Pro as an "other excellent choice" (BBB A+ doing the work).
 
-1. **Jack's customer list** → review campaign: **LIVE 2026-08-27.** Jack's
-   Encircle export (1,516 rows → 1,357 clean contacts, names hand-sanitized)
-   staged via the app, activated by Santino. Sender: pool number Highridge
-   +18338929547 (pinned for campaign lifetime), pace 3/20min, filter page ON,
-   tz America/Los_Angeles (was NULL = would have texted at 5am PT). THE
-   lever: gap is ~450 reviews; at ~35%% review-rate ceiling this list alone
-   can close most of it.
+1. **Jack's customer list** → review campaign (own approved TF +17605128274,
+   filter ON, photo ON). Monica's ask to Angie is queued. THE lever: gap is
+   ~450 reviews.
 2. Citations queue (already seeded): Angi > ContractorsRanked >
    homeservices.review > Expertise portal application > QBA.
 3. 38DM press release (draft ready, above).
@@ -106,51 +89,6 @@ Pro as an "other excellent choice" (BBB A+ doing the work).
 - **SEO NEO**: hold. Watching James Ranks' documented results through
   ~late Sept 2026.
 - **businessrate.com**: never (vanity mailer mill, non-indexable trophy).
-
-## 38 Digital Market ordering gameplan (2026-08-26)
-
-Their menu decoded: 3 base tiers (Standard $97 / Advanced $197 / Premium
-$487), bundled "Power Packages", and ~12 add-ons.
-
-**Round 1 (Pro, order now): Standard PR $97 + Do-Follow Distribution $60 +
-Podcast Publishing $45 ≈ $202.** Standard already carries the citable core
-(Google News, 50+ ABC/NBC/FOX affiliate sites, local newswires); Do-Follow
-turns placements into followed links; Podcast adds the entity surfaces we
-want. Submit OUR prepared copy (one release = one client) + NAP + site URL
-+ logo. Ask for the full placement-URL report (feeds the citation tracker,
-and it is the future tier-2 target list if the gray lane ever activates).
-
-**Skip**: Premium $487 (Yahoo/Benzinga finance angle, irrelevant for local),
-Google Stacks / Cloud Site Stacks add-ons (unproven entity-stack lane),
-PR Booster Links (tier-2 blast — gray lane on hold), Canada/International/
-Benzinga/Crypto add-ons, a-la-carte featured articles $197 (38DM's own
-guest posts at $20-95 are the better version). **APNews add-on $75** only
-if round 1 shows AP didn't come through standard distribution.
-
-**Measure after round 1** (2-3 weeks): indexed placements, AP pickup,
-referring domains on the release, whether the release URL shows in AI
-answers. Then either make the $202 trio the quarterly per-client standard
-or drop to Standard-only $97.
-
-## Facebook group post playbook (modeled on the cited Enid post)
-
-The AI-cited unit = a personal-voice post in a PUBLIC local
-reviews/recommendations group naming the business with specifics. Templates:
-
-- **A. Owner voice (Jack)**: "Hit a milestone I'm proud of — ProRestoration
-  just passed 100 five-star Google reviews. 15(?) years of Bakersfield
-  homes and businesses trusting us with water and fire damage. If we've
-  ever helped you out, it'd mean a lot if you shared your experience here
-  or on Google." + crew/team photo.
-- **B. Question thread (honest, anyone)**: "Who's the best water damage
-  restoration company in Bakersfield? Pipe burst horror stories welcome."
-  The REPLIES naming the business are the citable content. Jack + real
-  customers answer.
-- **C. Customer voice**: added to the review thank-you flow — "if you're in
-  {group}, a quick mention there helps other locals find us."
-
-Guardrail: we never post first-person customer recommendations from our
-own or staff profiles. Group must be PUBLIC or Google/AI can't read it.
 
 ## Standing watch items
 
