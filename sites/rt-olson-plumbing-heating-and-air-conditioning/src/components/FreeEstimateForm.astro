@@ -34,8 +34,16 @@ const tight = compact || bare;
 <section id="estimate" class={bare ? "contents" : `scroll-mt-24 bg-dark-50 border-y border-dark/10 ${compact ? "py-14" : "py-20"}`}>
   <div class={bare ? "contents" : "container-wide px-6"}>
     <div class={bare ? "contents" : `mx-auto ${compact ? "max-w-xl" : "max-w-6xl"} flex flex-col lg:flex-row gap-8 items-start`}>
-    <div class={`flex-1 w-full bg-dark-900 rounded-2xl border ${bare ? "shadow-2xl border-white/10 p-6 sm:p-7" : `shadow-xl border-dark/10 ${compact ? "p-6 sm:p-8" : "p-8 sm:p-10"}`}`}>
+    <div class={`flex-1 w-full bg-dark-900 rounded-2xl border ${bare ? "shadow-2xl border-white/10 border-t-4 border-t-primary-600 p-6 sm:p-7" : `shadow-xl border-dark/10 ${compact ? "p-6 sm:p-8" : "p-8 sm:p-10"}`}`}>
       <div class={`text-center ${tight ? "mb-5" : "mb-8"}`}>
+        {bare && brand.logoUrl && (
+          <img
+            src={brand.logoUrl}
+            alt={`${brand.displayName} logo`}
+            width="72" height="72" loading="eager"
+            class="mx-auto mb-3 h-16 w-16 rounded-full bg-white object-contain shadow-md ring-2 ring-white/25"
+          />
+        )}
         <h2 class={`font-black uppercase tracking-tighter text-white ${tight ? "text-2xl md:text-3xl" : "text-3xl md:text-4xl"} mb-3`}>
           {heading}
         </h2>
@@ -58,7 +66,7 @@ const tight = compact || bare;
             Name *
             <input
               type="text" name="name" required autocomplete="name" maxlength="120"
-              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class="rounded-md border border-white/20 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-dark-900 placeholder-slate-400 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/40 focus:outline-none"
               placeholder="Your name"
             />
           </label>
@@ -66,7 +74,7 @@ const tight = compact || bare;
             Phone *
             <input
               type="tel" name="phone" required autocomplete="tel" maxlength="30"
-              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class="rounded-md border border-white/20 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-dark-900 placeholder-slate-400 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/40 focus:outline-none"
               placeholder="(555) 555-5555"
             />
           </label>
@@ -76,7 +84,7 @@ const tight = compact || bare;
             City / ZIP *
             <input
               type="text" name="city" required autocomplete="postal-code" maxlength="80"
-              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class="rounded-md border border-white/20 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-dark-900 placeholder-slate-400 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/40 focus:outline-none"
               placeholder={`${brand.primaryCity} or ZIP`}
             />
           </label>
@@ -84,7 +92,7 @@ const tight = compact || bare;
             Email <span class="normal-case font-normal tracking-normal text-white/60">(optional)</span>
             <input
               type="email" name="email" autocomplete="email" maxlength="160"
-              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class="rounded-md border border-white/20 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-dark-900 placeholder-slate-400 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/40 focus:outline-none"
               placeholder="you@example.com"
             />
           </label>
@@ -93,7 +101,7 @@ const tight = compact || bare;
           What happened?
           <textarea
             name="description" rows={tight ? 3 : 4} maxlength="2000"
-            class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none resize-y"
+            class="rounded-md border border-white/20 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-dark-900 placeholder-slate-400 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/40 focus:outline-none resize-y"
             placeholder="Briefly describe the damage — e.g. burst pipe in the kitchen, standing water in the basement…"
           ></textarea>
         </label>
