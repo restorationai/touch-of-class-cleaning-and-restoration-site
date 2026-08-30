@@ -1991,6 +1991,25 @@ def unlinked_preview_invite(body: str) -> str | None:
     return None
 
 
+_UPLOAD_VERB_RE = re.compile(
+    r"\b(upload|send (it|the file|your logo|the logo|the list|photos?)|"
+    r"drop (it|the file)|attach)\b", re.I)
+
+
+def upload_to_preview_link(body: str) -> str | None:
+    """An upload instruction must never point at a *.pages.dev site URL —
+    Rob Carpenter / TDI 2026-08-31: Monica worked a logo ask whose rationale
+    hard-coded the hub upload link and still told Rob to 'upload it here:
+    https://rankai-tdi-builders.pages.dev'. Nothing in our stack accepts
+    uploads on pages.dev, so the pairing has no legitimate form; the upload
+    destinations are restorationai.io hub/logo/photo pages."""
+    if _UPLOAD_VERB_RE.search(body) and re.search(r"https?://\S*pages\.dev", body, re.I):
+        return ("pairs an upload instruction with a pages.dev site link — "
+                "uploads only ever go to a restorationai.io hub/upload link; "
+                "use the exact link from the ask, or drop the upload ask")
+    return None
+
+
 def outbound_guard(body: str, evidence: str | None) -> str | None:
     """Every mechanical refusal an outbound must survive, in one call so no
     send path can quietly miss one. Returns the first violation, else None.
@@ -2002,7 +2021,8 @@ def outbound_guard(body: str, evidence: str | None) -> str | None:
             or persona_attendance_claim(body)
             or false_registrar_claim(body)
             or capability_violation(body)
-            or unlinked_preview_invite(body))
+            or unlinked_preview_invite(body)
+            or upload_to_preview_link(body))
 
 
 def _valid_tz(name: str) -> bool:
@@ -9771,6 +9791,19 @@ def cmd_selfcheck(_args) -> int:
         ("Quick update on your site build.", False),
     ]:
         got = bool(unlinked_preview_invite(text))
+        ok = got == want_blocked
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} "
+              f"{'BLOCK' if got else 'pass ':<5} {text[:62]!r}")
+
+    print("\nupload instructions never point at pages.dev (Rob/TDI 08-31):")
+    for text, want_blocked in [
+        ("Robert, still need your logo to get your business listings built out. Upload it here: https://rankai-tdi-builders.pages.dev", True),
+        ("Send your logo here, works from your phone: https://restorationai.io/logo/tdi-builders", False),
+        ("Your new site preview is live: https://staging.rankai-tdi-builders.pages.dev/ - take a look!", False),
+        ("Can you attach the file here: https://rankai-x.pages.dev/upload", True),
+    ]:
+        got = bool(upload_to_preview_link(text))
         ok = got == want_blocked
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} "
