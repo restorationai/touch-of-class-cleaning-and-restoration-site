@@ -141,9 +141,13 @@ def review_section(cid: str) -> dict | None:
 
 
 def work_section(cid: str, days: int = 31) -> dict:
-    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)).isoformat()
+    # Z-format, never isoformat(): '+00:00' reads as a space in a URL query
+    # and PostgREST 400s the filter (the whole section silently vanished).
+    since = (dt.datetime.now(dt.timezone.utc)
+             - dt.timedelta(days=days)).strftime('%Y-%m-%dT%H:%M:%SZ')
     logs = _sb(f"marketing_work_log?company_id=eq.{cid}"
                f"&ts=gte.{since}&order=ts.desc"
+               "&category=neq.reporting"   # a report never lists itself as work
                "&select=detail,category,ts&limit=60")
     changes = _sb(f"marketing_gbp_changes?company_id=eq.{cid}"
                   f"&changed_at=gte.{since}&select=change_type&limit=1000")
@@ -350,6 +354,8 @@ def build_one(co: dict, slug: str | None, period: str, at: str | None,
                         "stats": {"gsc": bool(gsc), "reviews": bool(rev),
                                   "work_items": len(work["items"])}},
                   timeout=30)
+    if existing:
+        return f"{name}: refreshed {url}"
     try:
         from work_log import work_log
         work_log(cid, "reporting", "monthly-report",
