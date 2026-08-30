@@ -14,8 +14,8 @@
     "variants": []
   },
   "/images/services/bathroom-remodeling.webp": {
-    "width": 1200,
-    "height": 896,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -59,8 +59,8 @@
     ]
   },
   "/images/services/home-remodeling.webp": {
-    "width": 1200,
-    "height": 896,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -68,8 +68,8 @@
     ]
   },
   "/images/services/kitchen-remodeling.webp": {
-    "width": 1200,
-    "height": 896,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
