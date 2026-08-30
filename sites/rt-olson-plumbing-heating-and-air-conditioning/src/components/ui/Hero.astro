@@ -24,7 +24,7 @@ const bg = backgroundImage ? srcsetFor(backgroundImage) : {};
 const hasAside = Astro.slots.has("aside");
 ---
 
-<header class={`relative overflow-hidden border-t border-dark/10 min-h-[60vh] md:min-h-[560px] ${hasAside ? "" : "md:h-[calc(100vh-188px)]"} flex items-center`}>
+<header class={`relative overflow-hidden border-t border-dark/10 ${hasAside ? "min-h-0" : "min-h-[60vh] md:min-h-[560px] md:h-[calc(100vh-188px)]"} flex items-center`}>
   {backgroundImage ? (
     <div class="absolute inset-0 z-0">
       <img src={backgroundImage} srcset={bg.srcset} sizes={bg.srcset ? "100vw" : undefined} alt="Background" loading="eager" fetchpriority="high" decoding="async" class={`w-full h-full object-cover ${hasAside ? "object-center" : "object-[center_25%]"}`} />
@@ -41,11 +41,11 @@ const hasAside = Astro.slots.has("aside");
       original light treatment. */}
   <div class={`absolute inset-0 z-0 ${hasAside ? "bg-gradient-to-r from-black/70 via-black/35 to-black/20" : "bg-gradient-to-r from-white/85 via-white/45 to-white/10"}`}></div>
 
-  <div class="container-wide relative z-10 pt-10 pb-14 md:pt-12 md:pb-16 text-left">
+  <div class={`container-wide relative z-10 text-left ${hasAside ? "py-7 md:py-8" : "pt-10 pb-14 md:pt-12 md:pb-16"}`}>
     <div class={hasAside ? "grid lg:grid-cols-[minmax(0,1fr)_420px] gap-10 lg:gap-14 items-center" : ""}>
     <div class="max-w-2xl">
-      <h1 class={`mb-6 drop-shadow-lg text-4xl md:text-5xl lg:text-6xl ${hasAside ? "text-white" : ""}`}>{title}</h1>
-      {subtitle && <p class={`text-xl md:text-2xl mb-10 drop-shadow-md ${hasAside ? "text-white/90" : "text-dark/90"}`}>{subtitle}</p>}
+      <h1 class={`drop-shadow-lg ${hasAside ? "text-white text-3xl md:text-4xl lg:text-5xl mb-4" : "text-4xl md:text-5xl lg:text-6xl mb-6"}`}>{title}</h1>
+      {subtitle && <p class={`drop-shadow-md ${hasAside ? "text-white/90 text-lg md:text-xl mb-6" : "text-dark/90 text-xl md:text-2xl mb-10"}`}>{subtitle}</p>}
       <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center flex-wrap">
         <a
           href={`tel:${brand.phoneRaw}`}
