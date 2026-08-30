@@ -11,6 +11,7 @@ Deployed on Railway from the rank-ai monorepo.
 import json
 import os
 import sys
+import time
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -26,7 +27,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
-from fastapi import FastAPI, HTTPException, Depends, Request
+from fastapi import FastAPI, HTTPException, Depends, Request, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel
@@ -1761,16 +1762,29 @@ def _state_abbrev(state: str) -> str:
     return names.get(s, s[:2])
 
 
+# Short-TTL cache for the twiml route's company lookup: every second of
+# webhook latency is dead air for a live caller (Jack Bispo 2026-08-30), and
+# routing config changes rarely. 120s keeps config edits near-instant while
+# repeat calls skip the DB round-trip entirely.
+_TWIML_CO_CACHE: dict[str, tuple[float, list]] = {}
+
+
 @app.post("/call-tracking/twiml/{company_id}/{source}")
-async def call_tracking_twiml(company_id: str, source: str, request: Request):
+async def call_tracking_twiml(company_id: str, source: str, request: Request,
+                              background_tasks: BackgroundTasks):
     """Twilio Voice webhook: answer, (disclose where required), record, and
     dial straight through to the client's real line."""
     form = await request.form()
     call_sid = str(form.get("CallSid") or "")
     from_num = str(form.get("From") or "")
     to_num = str(form.get("To") or "")
-    co = sb().table("companies").select("phone,state,integration_settings") \
-        .eq("id", company_id).limit(1).execute().data
+    _hit = _TWIML_CO_CACHE.get(company_id)
+    if _hit and (time.time() - _hit[0]) < 120:
+        co = _hit[1]
+    else:
+        co = sb().table("companies").select("phone,state,integration_settings") \
+            .eq("id", company_id).limit(1).execute().data
+        _TWIML_CO_CACHE[company_id] = (time.time(), co)
     if not co:
         raise HTTPException(status_code=404, detail="unknown company")
     _ints = co[0].get("integration_settings") or {}
@@ -1803,17 +1817,23 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request):
     # and it is spoken only to the ANSWERING party via the Number verb's `url`,
     # so the caller never hears it.
     _whisper = str(_ct.get("whisper") or "").strip()
-    try:
-        if call_sid:
-            sb().table("marketing_tracked_calls").upsert({
-                "company_id": company_id, "source": source,
-                "tracking_number": to_num, "from_number": from_num,
-                "to_number": real, "call_sid": call_sid, "status": "ringing",
-            }, on_conflict="call_sid").execute()
-    except Exception as e:  # noqa: BLE001 — logging must never break the call
-        print("[call-tracking] log failed:", str(e)[:120])
+
+    # Log AFTER the response goes back to Twilio — the upsert used to sit on
+    # the caller's critical path and every ms here is dead air (Jack Bispo
+    # 2026-08-30). BackgroundTasks runs it the moment the TwiML is sent.
+    def _log_ringing():
+        try:
+            if call_sid:
+                sb().table("marketing_tracked_calls").upsert({
+                    "company_id": company_id, "source": source,
+                    "tracking_number": to_num, "from_number": from_num,
+                    "to_number": real, "call_sid": call_sid, "status": "ringing",
+                }, on_conflict="call_sid").execute()
+        except Exception as e:  # noqa: BLE001 — logging must never break the call
+            print("[call-tracking] log failed:", str(e)[:120])
+    background_tasks.add_task(_log_ringing)
     base = "https://rank-ai-api-production.up.railway.app"
-    say = ('<Say voice="Polly.Joanna">This call may be recorded.</Say>'
+    say = ('<Say voice="Polly.Joanna">This call is recorded.</Say>'
            if disclose else "")
     if _whisper:
         _wurl = (f"{base}/call-tracking/whisper?text="
