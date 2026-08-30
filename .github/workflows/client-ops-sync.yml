@@ -232,6 +232,10 @@ jobs:
           # one monthly_summaries row per client, which the app renders as
           # Marketing -> Monthly Summary. Runs last so today's earlier steps
           # (citations sync, GBP harvest) are already in the ledger.
+          # Stale-ask audit FIRST (Santino 2026-08-31: Michael/Rob/Josiah all
+          # got asked for things we already held) — retire satisfied asks
+          # before any downstream step or Monica slot can work them.
+          python3 scripts/ask_staleness_audit.py || true
           python3 scripts/monthly_summary.py compile --all || true
           # Monthly Report card (marketing_work_reports): calendar-month
           # anchored since 2026-08-30 — refresh the running month daily so
