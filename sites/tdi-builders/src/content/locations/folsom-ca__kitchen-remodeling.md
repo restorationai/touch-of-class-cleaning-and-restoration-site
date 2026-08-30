@@ -20,19 +20,19 @@ state: "CA"
 service_display: "Kitchen Remodeling"
 rendered: true
 ---
-Folsom's rapid growth over the past two decades has produced a wide range of kitchen styles — from the open-concept great rooms in newer master-planned communities near Empire Ranch to the more compartmentalized layouts in older ranch-style homes closer to the historic district along Sutter Street. Whatever your kitchen looks like today, TDI Builders, Inc. has been navigating California's evolving building codes and homeowner expectations since 1985, and we bring that depth of experience to every cabinet pull, countertop cut, and structural wall decision in Folsom.
+Folsom's rapid growth over the past two decades has produced a wide range of kitchen styles, from the open-concept great rooms in newer master-planned communities near Empire Ranch to the more compartmentalized layouts in older ranch-style homes closer to the historic district along Sutter Street. Whatever your kitchen looks like today, TDI Builders, Inc. has been navigating California's evolving building codes and homeowner expectations since 1985, and we bring that depth of experience to every cabinet pull, countertop cut, and structural wall decision in Folsom.
 
 ## Why Folsom Kitchens Have Unique Remodeling Considerations
 
 Folsom sits in the Sierra Nevada foothills, and that geography shapes kitchens in ways that aren't obvious until you're mid-project. The region's hot, dry summers and cooler, occasionally wet winters create expansion and contraction cycles that stress cabinetry joints and tile grout over time. Homes built during Folsom's growth boom of the late 1990s and early 2000s frequently used builder-grade cabinetry that has since warped, delaminated, or simply aged out of alignment with how families actually use their kitchens today.
 
-Folsom also sits within El Dorado and Sacramento County jurisdictions depending on exact address, and permit requirements can differ meaningfully. Structural changes — removing a wall to open a kitchen to a dining area, relocating a gas line, or upgrading to a 200-amp panel to support induction ranges and under-counter refrigeration — all require permits that must be pulled correctly the first time. We handle that coordination as part of the project, not as an afterthought.
+Folsom also sits within El Dorado and Sacramento County jurisdictions depending on exact address, and permit requirements can differ meaningfully. Structural changes, removing a wall to open a kitchen to a dining area, relocating a gas line, or upgrading to a 200-amp panel to support induction ranges and under-counter refrigeration, all require permits that must be pulled correctly the first time. We handle that coordination as part of the project, not as an afterthought.
 
 ## Our Kitchen Remodeling Process in Folsom
 
-Every project starts with a thorough on-site assessment. We look at your existing layout, the condition of your subfloor (a common issue in homes with older vinyl or tile that has trapped moisture), the location of load-bearing walls, and the current state of your plumbing and electrical rough-in. From there, we build a scope of work that is specific to your home — not a package pulled from a catalog.
+Every project starts with a thorough on-site assessment. We look at your existing layout, the condition of your subfloor (a common issue in homes with older vinyl or tile that has trapped moisture), the location of load-bearing walls, and the current state of your plumbing and electrical rough-in. From there, we build a scope of work that is specific to your home, not a package pulled from a catalog.
 
-Design and material selection come next. We work with you on cabinet style, door profile, and finish, countertop material (quartz, granite, and butcher block each behave differently in Folsom's climate), backsplash, lighting, and appliance placement. Once selections are finalized, we pull the required permits from the City of Folsom or the relevant county authority, schedule inspections, and sequence the trades — demo, rough-in, drywall, cabinets, countertops, finish work — so the project moves without unnecessary gaps.
+Design and material selection come next. We work with you on cabinet style, door profile, and finish, countertop material (quartz, granite, and butcher block each behave differently in Folsom's climate), backsplash, lighting, and appliance placement. Once selections are finalized, we pull the required permits from the City of Folsom or the relevant county authority, schedule inspections, and sequence the trades, demo, rough-in, drywall, cabinets, countertops, finish work, so the project moves without unnecessary gaps.
 
 Final walkthrough and punch-list close out the job. We don't consider a kitchen done until every drawer closes flush, every seam is caulked cleanly, and the inspector has signed off.
 
@@ -40,14 +40,14 @@ Final walkthrough and punch-list close out the job. We don't consider a kitchen 
 
 TDI Builders operates out of Sacramento, and Folsom is a regular part of our service area. US-50 East is the primary corridor, and we route around peak commute windows when scheduling material deliveries and crew arrivals so your project timeline doesn't absorb freeway delays. For homeowners in the Empire Ranch area or near the Folsom Lake corridor, we're familiar with the neighborhood street patterns and HOA access requirements that can affect staging and dumpster placement.
 
-Because we're available around the clock, scheduling consultations and handling urgent project questions isn't limited to a narrow window — you can reach us at (877) 688-0866 any time.
+Because we're available around the clock, scheduling consultations and handling urgent project questions isn't limited to a narrow window, you can reach us at (877) 688-0866 any time.
 
 ## Local Note: HOA Design Review in Folsom's Planned Communities
 
-Many of Folsom's newer subdivisions — particularly those developed in the late 1990s through the 2010s — are governed by HOAs that have architectural review requirements extending to exterior-visible changes. A kitchen remodel that involves a new window, a relocated exterior door, or even a new range hood vent penetration through an exterior wall may require HOA approval before work begins. This is a step that catches homeowners off guard, and it can add two to four weeks to a project timeline if not anticipated. We flag these situations early in the planning phase and can help you prepare the documentation your HOA's architectural committee typically requests — drawings, material specs, and a project description — so approval doesn't become a bottleneck.
+Many of Folsom's newer subdivisions, particularly those developed in the late 1990s through the 2010s, are governed by HOAs that have architectural review requirements extending to exterior-visible changes. A kitchen remodel that involves a new window, a relocated exterior door, or even a new range hood vent penetration through an exterior wall may require HOA approval before work begins. This is a step that catches homeowners off guard, and it can add two to four weeks to a project timeline if not anticipated. We flag these situations early in the planning phase and can help you prepare the documentation your HOA's architectural committee typically requests, drawings, material specs, and a project description, so approval doesn't become a bottleneck.
 
 If your home is in a community with active design review, bring that up at the first consultation. It changes the sequencing of everything that follows.
 
 ---
 
-If your Folsom kitchen has outlived its layout, its cabinets, or both, TDI Builders is ready to walk the space with you and build a realistic plan. Call (877) 688-0866 to schedule your on-site consultation — we serve Folsom and the surrounding Sacramento region with the same licensed, insured crew and 40-plus years of construction experience on every job.
+If your Folsom kitchen has outlived its layout, its cabinets, or both, TDI Builders is ready to walk the space with you and build a realistic plan. Call (877) 688-0866 to schedule your on-site consultation, we serve Folsom and the surrounding Sacramento region with the same licensed, insured crew and 40-plus years of construction experience on every job.

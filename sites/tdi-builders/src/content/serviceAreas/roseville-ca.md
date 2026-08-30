@@ -19,11 +19,11 @@ state: "CA"
 primary: false
 rendered: true
 ---
-TDI Builders, Inc. has been handling water damage, fire and smoke damage, mold remediation, and full reconstruction for Roseville property owners since 1985. Operating around the clock out of Sacramento, the crew reaches Roseville via I-80 East — roughly 18 miles from our HQ to the heart of the city — and covers every corner of Roseville's fast-growing footprint, from the older neighborhoods near downtown to the newer master-planned communities along the eastern edge.
+TDI Builders, Inc. has been handling water damage, fire and smoke damage, mold remediation, and full reconstruction for Roseville property owners since 1985. Operating around the clock out of Sacramento, the crew reaches Roseville via I-80 East, roughly 18 miles from our HQ to the heart of the city, and covers every corner of Roseville's fast-growing footprint, from the older neighborhoods near downtown to the newer master-planned communities along the eastern edge.
 
 ## Restoration emergencies common in Roseville
 
-Roseville sits in the Sacramento Valley foothills at an elevation where the seasons swing harder than many residents expect. Wet winters bring atmospheric river events that can drop several inches of rain in 24 hours, overwhelming gutters, area drains, and the clay-heavy soils that underlie much of the city. Water that can't drain fast enough finds its way through foundation walls, under slab edges, and into garages and finished basements in the hillside communities. Summer brings the opposite extreme: prolonged heat and low humidity that dry out wood framing, crack caulk lines around windows and roof penetrations, and raise the fire-weather risk that can push smoke and ash into HVAC systems across entire neighborhoods during regional wildland fires. The combination of wet winters and dry summers also creates the humidity cycling that feeds mold growth inside wall cavities — often weeks after the original leak has been forgotten.
+Roseville sits in the Sacramento Valley foothills at an elevation where the seasons swing harder than many residents expect. Wet winters bring atmospheric river events that can drop several inches of rain in 24 hours, overwhelming gutters, area drains, and the clay-heavy soils that underlie much of the city. Water that can't drain fast enough finds its way through foundation walls, under slab edges, and into garages and finished basements in the hillside communities. Summer brings the opposite extreme: prolonged heat and low humidity that dry out wood framing, crack caulk lines around windows and roof penetrations, and raise the fire-weather risk that can push smoke and ash into HVAC systems across entire neighborhoods during regional wildland fires. The combination of wet winters and dry summers also creates the humidity cycling that feeds mold growth inside wall cavities, often weeks after the original leak has been forgotten.
 
 ## Services we provide in Roseville
 
@@ -33,11 +33,11 @@ Water intrusion in Roseville frequently starts at the roof or at the slab perime
 
 ### Fire and smoke damage restoration
 
-Smoke from a kitchen fire or a wildfire event doesn't stay in the room where it started. It migrates through HVAC ducts, settles into insulation, and bonds to painted surfaces in ways that standard cleaning won't reverse. Restoration work here covers odor neutralization, duct cleaning, content pack-out and cleaning, and structural repairs — including roof and framing work when the fire damage extends that far.
+Smoke from a kitchen fire or a wildfire event doesn't stay in the room where it started. It migrates through HVAC ducts, settles into insulation, and bonds to painted surfaces in ways that standard cleaning won't reverse. Restoration work here covers odor neutralization, duct cleaning, content pack-out and cleaning, and structural repairs, including roof and framing work when the fire damage extends that far.
 
 ### Mold remediation
 
-Roseville's humidity cycling creates conditions where mold can colonize drywall paper and wood framing within 24 to 48 hours of a water event. Remediation follows established containment and removal protocols, and the scope is scoped to the actual affected area — not the entire house — so reconstruction stays proportionate.
+Roseville's humidity cycling creates conditions where mold can colonize drywall paper and wood framing within 24 to 48 hours of a water event. Remediation follows established containment and removal protocols, and the scope is scoped to the actual affected area, not the entire house, so reconstruction stays proportionate.
 
 ### Reconstruction and rebuild
 
@@ -49,16 +49,16 @@ For larger losses, contents are inventoried, packed, and moved to a secure facil
 
 ## Coverage and how fast we can get there
 
-From Sacramento, the primary route to Roseville is I-80 East to the Douglas Boulevard or Rocklin Road exits, depending on which part of the city is affected. The western and central areas of Roseville are closest to that corridor. The city's eastern growth areas — the newer subdivisions that have pushed toward the Placer County line — add a few miles but remain well within our service range. TDI Builders dispatches 24 hours a day, seven days a week, so a call at 2 a.m. during a winter storm gets the same response as a call on a weekday afternoon.
+From Sacramento, the primary route to Roseville is I-80 East to the Douglas Boulevard or Rocklin Road exits, depending on which part of the city is affected. The western and central areas of Roseville are closest to that corridor. The city's eastern growth areas, the newer subdivisions that have pushed toward the Placer County line, add a few miles but remain well within our service range. TDI Builders dispatches 24 hours a day, seven days a week, so a call at 2 a.m. during a winter storm gets the same response as a call on a weekday afternoon.
 
 ## Building stock, site conditions, and permits in Roseville
 
-Roseville's housing stock spans a wide range of construction eras. The neighborhoods closest to the historic downtown core include homes built from the 1920s through the 1960s, where galvanized steel supply lines and cast-iron drain stacks are common — both materials that corrode from the inside out and fail without obvious warning. Homes from that era may also contain asbestos-containing materials in floor tile, pipe insulation, and textured ceiling finishes, which affects how demolition scopes are written.
+Roseville's housing stock spans a wide range of construction eras. The neighborhoods closest to the historic downtown core include homes built from the 1920s through the 1960s, where galvanized steel supply lines and cast-iron drain stacks are common, both materials that corrode from the inside out and fail without obvious warning. Homes from that era may also contain asbestos-containing materials in floor tile, pipe insulation, and textured ceiling finishes, which affects how demolition scopes are written.
 
 The large master-planned communities that expanded through the 1990s and 2000s are predominantly slab-on-grade construction with copper or early PEX supply lines. Slab foundations in Roseville's clay-dominant soils can shift seasonally, stressing supply lines at slab penetrations and creating pathways for water intrusion at the foundation edge.
 
-Structural repairs and rebuilds in Roseville fall under the City of Roseville Building Division, which issues permits for work that affects structural members, electrical, plumbing, and mechanical systems. Many of Roseville's newer communities are governed by HOAs with their own approval requirements that run parallel to — and sometimes slower than — the city permit process. California's Title 24 energy code applies to reconstruction work, which affects insulation and window specifications in any permitted rebuild scope.
+Structural repairs and rebuilds in Roseville fall under the City of Roseville Building Division, which issues permits for work that affects structural members, electrical, plumbing, and mechanical systems. Many of Roseville's newer communities are governed by HOAs with their own approval requirements that run parallel to, and sometimes slower than, the city permit process. California's Title 24 energy code applies to reconstruction work, which affects insulation and window specifications in any permitted rebuild scope.
 
 ---
 
-If you're dealing with standing water, smoke damage, or a mold discovery in Roseville, the next step is a call — not a form. Reach TDI Builders, Inc. any time at **(877) 688-0866**. We'll assess the situation, explain the scope, and coordinate directly with your insurance carrier so the process moves without unnecessary delays.
+If you're dealing with standing water, smoke damage, or a mold discovery in Roseville, the next step is a call, not a form. Reach TDI Builders, Inc. any time at **(877) 688-0866**. We'll assess the situation, explain the scope, and coordinate directly with your insurance carrier so the process moves without unnecessary delays.

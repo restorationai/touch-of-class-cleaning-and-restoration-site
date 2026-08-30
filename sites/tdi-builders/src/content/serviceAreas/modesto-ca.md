@@ -19,11 +19,11 @@ state: "CA"
 primary: false
 rendered: true
 ---
-TDI Builders, Inc. handles water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers across Modesto and the surrounding San Joaquin Valley. Operating around the clock since 1985, the team reaches Modesto from Sacramento via Highway 99 — roughly 90 miles south — and coordinates directly with insurance carriers to move the claim and the repair forward at the same time.
+TDI Builders, Inc. handles water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers across Modesto and the surrounding San Joaquin Valley. Operating around the clock since 1985, the team reaches Modesto from Sacramento via Highway 99, roughly 90 miles south, and coordinates directly with insurance carriers to move the claim and the repair forward at the same time.
 
 ## Restoration emergencies common in Modesto
 
-Modesto sits in the floor of the Central Valley, where the combination of intense summer heat, periodic tule fog, and wet winters creates conditions that stress buildings in predictable ways. The valley receives the bulk of its rainfall between November and March, and when storms arrive quickly, aging drainage infrastructure can back up faster than the ground can absorb water. Homes built on the clay-heavy soils common to Stanislaus County experience foundation movement as those soils expand when wet and shrink when dry — a cycle that opens gaps at slab edges, around pipe penetrations, and at exterior wall bases where water finds a path inside. Summer temperatures that regularly exceed 100°F accelerate the drying of wood framing, which can cause cracking and separation that worsens over successive seasons. When a pipe fails or a roof lets in water during a winter storm, the warm months that follow create near-ideal conditions for mold colonization — often within days if materials stay damp.
+Modesto sits in the floor of the Central Valley, where the combination of intense summer heat, periodic tule fog, and wet winters creates conditions that stress buildings in predictable ways. The valley receives the bulk of its rainfall between November and March, and when storms arrive quickly, aging drainage infrastructure can back up faster than the ground can absorb water. Homes built on the clay-heavy soils common to Stanislaus County experience foundation movement as those soils expand when wet and shrink when dry, a cycle that opens gaps at slab edges, around pipe penetrations, and at exterior wall bases where water finds a path inside. Summer temperatures that regularly exceed 100°F accelerate the drying of wood framing, which can cause cracking and separation that worsens over successive seasons. When a pipe fails or a roof lets in water during a winter storm, the warm months that follow create near-ideal conditions for mold colonization, often within days if materials stay damp.
 
 ## Services we provide in Modesto
 
@@ -37,7 +37,7 @@ Summer wildfire smoke from fires in the Sierra Nevada foothills and the Diablo R
 
 ### Mold remediation
 
-Modesto's climate means a slow leak behind a wall or under a slab can produce visible mold growth faster than in cooler climates. Remediation follows established industry protocols for containment, removal, and clearance — and any underlying moisture source is identified and corrected before encapsulation or reconstruction begins, so the problem does not return.
+Modesto's climate means a slow leak behind a wall or under a slab can produce visible mold growth faster than in cooler climates. Remediation follows established industry protocols for containment, removal, and clearance, and any underlying moisture source is identified and corrected before encapsulation or reconstruction begins, so the problem does not return.
 
 ### Reconstruction and rebuild
 
@@ -45,14 +45,14 @@ After a significant loss, the rebuild phase requires pulling permits, coordinati
 
 ## Coverage and how fast we can get there
 
-From Sacramento, the most direct route to Modesto is south on Highway 99, which runs straight into the city's core. TDI Builders, Inc. is available 24/7, so a call at any hour connects you with someone who can dispatch a crew. Travel time from Sacramento varies with traffic and time of day — Highway 99 through Stockton can slow during commute hours, and the team accounts for that in scheduling. Whether the property is near downtown Modesto, out toward the newer developments on the city's eastern edge, or in the older residential corridors closer to the Tuolumne River, the same crew and equipment reach the site.
+From Sacramento, the most direct route to Modesto is south on Highway 99, which runs straight into the city's core. TDI Builders, Inc. is available 24/7, so a call at any hour connects you with someone who can dispatch a crew. Travel time from Sacramento varies with traffic and time of day, Highway 99 through Stockton can slow during commute hours, and the team accounts for that in scheduling. Whether the property is near downtown Modesto, out toward the newer developments on the city's eastern edge, or in the older residential corridors closer to the Tuolumne River, the same crew and equipment reach the site.
 
 ## Building stock, site conditions, and permits in Modesto
 
-Modesto's housing stock spans several distinct eras. Neighborhoods established before the 1960s tend to feature wood-frame construction with stucco exteriors, original galvanized steel supply lines that are well past their service life, and cast-iron drain stacks — all of which require lead and asbestos awareness before any invasive work begins, since materials from that period frequently contain both. Homes built through the 1970s and 1980s may include polybutylene supply piping, which is prone to failure at fittings. Newer construction on the city's expanding edges is largely slab-on-grade with engineered lumber framing.
+Modesto's housing stock spans several distinct eras. Neighborhoods established before the 1960s tend to feature wood-frame construction with stucco exteriors, original galvanized steel supply lines that are well past their service life, and cast-iron drain stacks, all of which require lead and asbestos awareness before any invasive work begins, since materials from that period frequently contain both. Homes built through the 1970s and 1980s may include polybutylene supply piping, which is prone to failure at fittings. Newer construction on the city's expanding edges is largely slab-on-grade with engineered lumber framing.
 
 Stanislaus County soils include expansive clays in many areas, which move with seasonal moisture changes and can compromise slab integrity and exterior waterproofing over time. The valley floor's relatively shallow water table in low-lying areas means saturated soil conditions can persist after heavy rain, slowing drying and increasing hydrostatic pressure against foundations.
 
 Structural repairs and reconstruction in Modesto require permits through the City of Modesto Building Division. California's seismic zone requirements apply, and any work that alters structural elements, electrical, or plumbing will trigger inspection. HOA covenants in newer planned communities may also govern exterior finishes and timelines, which is worth confirming early in the project.
 
-If your Modesto property has been damaged by water, fire, smoke, or mold, call TDI Builders, Inc. at (877) 688-0866 any time — day or night. The team will assess the damage, document everything your carrier needs, and get the work started.
+If your Modesto property has been damaged by water, fire, smoke, or mold, call TDI Builders, Inc. at (877) 688-0866 any time, day or night. The team will assess the damage, document everything your carrier needs, and get the work started.

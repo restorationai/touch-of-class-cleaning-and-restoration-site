@@ -19,38 +19,38 @@ rendered: true
 ---
 ## What Renovations, Remodels and General Contracting actually involves
 
-You have a clear picture of what you want — a kitchen that actually functions for the way your family cooks, a primary bath that doesn't feel like it belongs in 1987, an addition that finally gives the house the square footage it needs. What you don't have is a clear picture of who's going to coordinate the plumber, the electrician, the tile setter, and the drywall crew so they show up in the right order and don't undo each other's work. That coordination gap is where renovation projects stall, budgets balloon, and homeowners end up living in a half-finished house for six months longer than anyone planned. A licensed general contractor is the single point of accountability that keeps a complex project moving.
+You have a clear picture of what you want, a kitchen that actually functions for the way your family cooks, a primary bath that doesn't feel like it belongs in 1987, an addition that finally gives the house the square footage it needs. What you don't have is a clear picture of who's going to coordinate the plumber, the electrician, the tile setter, and the drywall crew so they show up in the right order and don't undo each other's work. That coordination gap is where renovation projects stall, budgets balloon, and homeowners end up living in a half-finished house for six months longer than anyone planned. A licensed general contractor is the single point of accountability that keeps a complex project moving.
 
-Residential general contracting covers the full arc from demolition through final punch list: structural changes, mechanical rough-ins, insulation, drywall, finish carpentry, tile and flooring, cabinet installation, fixture setting, and exterior work. The scope varies enormously — a bathroom remodel in a 1960s Sacramento ranch house involves different framing conditions, plumbing stack configurations, and subfloor depths than the same scope in a newer tract home. With 40+ years of construction and rebuilding experience across commercial, industrial, and residential projects, TDI Builders, Inc. reads those site conditions before a single wall comes down.
+Residential general contracting covers the full arc from demolition through final punch list: structural changes, mechanical rough-ins, insulation, drywall, finish carpentry, tile and flooring, cabinet installation, fixture setting, and exterior work. The scope varies enormously, a bathroom remodel in a 1960s Sacramento ranch house involves different framing conditions, plumbing stack configurations, and subfloor depths than the same scope in a newer tract home. With 40+ years of construction and rebuilding experience across commercial, industrial, and residential projects, TDI Builders, Inc. reads those site conditions before a single wall comes down.
 
 ## Our process
 
 **1. Pre-construction scope and planning**
-Before any work is priced or scheduled, the project gets a thorough walkthrough. Existing conditions are documented — wall framing, mechanical locations, load-bearing elements, and any deferred maintenance that will surface the moment walls open. A written scope of work is produced so every trade knows exactly what they're responsible for. Vague scopes are the number-one cause of change orders.
+Before any work is priced or scheduled, the project gets a thorough walkthrough. Existing conditions are documented, wall framing, mechanical locations, load-bearing elements, and any deferred maintenance that will surface the moment walls open. A written scope of work is produced so every trade knows exactly what they're responsible for. Vague scopes are the number-one cause of change orders.
 
 **2. Permitting and inspections**
-In Sacramento, most structural changes, electrical panel work, HVAC modifications, and plumbing re-routes require permits pulled through the City of Sacramento Community Development Department or the applicable county authority. TDI Builders, Inc. handles permit applications and schedules inspections at each required phase — rough framing, rough mechanical, insulation, and final. Skipping permits to save time is a liability that surfaces at resale and can void homeowners insurance coverage.
+In Sacramento, most structural changes, electrical panel work, HVAC modifications, and plumbing re-routes require permits pulled through the City of Sacramento Community Development Department or the applicable county authority. TDI Builders, Inc. handles permit applications and schedules inspections at each required phase, rough framing, rough mechanical, insulation, and final. Skipping permits to save time is a liability that surfaces at resale and can void homeowners insurance coverage.
 
 **3. Demolition and site protection**
-Demolition is more controlled than it looks. Lead paint and asbestos-containing materials are a real consideration in Sacramento's older housing stock — homes built before 1978 frequently have both. Affected materials are tested and handled appropriately before demo proceeds. Dust barriers, floor protection, and negative air pressure in occupied homes keep the rest of the house livable during construction.
+Demolition is more controlled than it looks. Lead paint and asbestos-containing materials are a real consideration in Sacramento's older housing stock, homes built before 1978 frequently have both. Affected materials are tested and handled appropriately before demo proceeds. Dust barriers, floor protection, and negative air pressure in occupied homes keep the rest of the house livable during construction.
 
 **4. Rough work: framing, mechanical, and inspections**
-This is the phase where the project takes shape structurally. New walls go up, headers are sized correctly for span, and the plumbing, electrical, and HVAC rough-ins are run and inspected before anything is closed in. Getting rough inspections signed off on the first visit — not the third — keeps the schedule intact.
+This is the phase where the project takes shape structurally. New walls go up, headers are sized correctly for span, and the plumbing, electrical, and HVAC rough-ins are run and inspected before anything is closed in. Getting rough inspections signed off on the first visit, not the third, keeps the schedule intact.
 
 **5. Finish work and punch list**
 Drywall, tape, texture, paint, tile, flooring, cabinetry, trim, and fixtures all follow in a sequenced order that prevents trades from working over each other. The project closes with a formal punch list walkthrough. Items that aren't right get corrected before the job is marked complete.
 
 ## What separates a good renovation from a bad one
 
-The most common failure point in residential remodeling isn't the craftsmanship — it's the sequencing. A tile setter who shows up before the waterproofing membrane is inspected, a cabinet installer who arrives before the floor is flat, a painter who gets called in before the texture is fully dry — each one creates rework that costs more than the original trade. An experienced general contractor has seen these collisions enough times to schedule around them.
+The most common failure point in residential remodeling isn't the craftsmanship, it's the sequencing. A tile setter who shows up before the waterproofing membrane is inspected, a cabinet installer who arrives before the floor is flat, a painter who gets called in before the texture is fully dry, each one creates rework that costs more than the original trade. An experienced general contractor has seen these collisions enough times to schedule around them.
 
-In Sacramento's older neighborhoods — Curtis Park, Land Park, East Sacramento, Midtown — the housing stock runs heavily toward pre-1960 construction with plaster walls, galvanized supply lines, knob-and-tube wiring in some cases, and pier-and-beam foundations. Renovation bids that don't account for what's likely behind those walls tend to blow up mid-project. Contingency planning isn't pessimism; it's what distinguishes a contractor who's actually done this work from one who's just priced the drawings.
+In Sacramento's older neighborhoods, Curtis Park, Land Park, East Sacramento, Midtown, the housing stock runs heavily toward pre-1960 construction with plaster walls, galvanized supply lines, knob-and-tube wiring in some cases, and pier-and-beam foundations. Renovation bids that don't account for what's likely behind those walls tend to blow up mid-project. Contingency planning isn't pessimism; it's what distinguishes a contractor who's actually done this work from one who's just priced the drawings.
 
 On the permit side: unpermitted work is increasingly scrutinized by buyers, lenders, and insurers. A licensed general contractor who pulls permits correctly protects the homeowner's investment, not just the contractor's liability.
 
 ## What does Renovations, Remodels and General Contracting cost?
 
-Typical costs for residential renovation and general contracting work vary widely based on scope, existing conditions, material selections, and local labor rates. Most homeowners find that the ranges below reflect what projects of each type actually cost in the greater Sacramento market — not what they were originally quoted by a contractor who hadn't opened the walls yet.
+Typical costs for residential renovation and general contracting work vary widely based on scope, existing conditions, material selections, and local labor rates. Most homeowners find that the ranges below reflect what projects of each type actually cost in the greater Sacramento market, not what they were originally quoted by a contractor who hadn't opened the walls yet.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -61,11 +61,11 @@ Typical costs for residential renovation and general contracting work vary widel
 | Room addition (per square foot, permitted) | $250 – $450/sq ft |
 | Whole-home renovation (phased or full) | $100,000 – $400,000+ |
 
-Every project is different, and TDI Builders, Inc. provides a written scope and detailed estimate before any work begins — there are no surprise invoices mid-project. Homeowners insurance typically does not cover elective renovations, but it does cover reconstruction work tied to a covered loss (fire, water, storm damage), and TDI Builders, Inc. works directly with all major carriers on those claims.
+Every project is different, and TDI Builders, Inc. provides a written scope and detailed estimate before any work begins, there are no surprise invoices mid-project. Homeowners insurance typically does not cover elective renovations, but it does cover reconstruction work tied to a covered loss (fire, water, storm damage), and TDI Builders, Inc. works directly with all major carriers on those claims.
 
 ## Seasonal and regional considerations
 
-Sacramento's dry summers and wet winters affect renovation timing in practical ways. Exterior work — siding, roofing, painting, foundation repairs — is best scheduled outside the November-through-March rainy window when possible, though interior remodels run year-round without issue. The Sacramento Valley's heat also means HVAC work scheduled in late spring avoids the peak-season backlog that hits every summer when systems fail and contractors are stretched thin. If your project touches the exterior envelope, sequencing around the weather calendar is worth the conversation early.
+Sacramento's dry summers and wet winters affect renovation timing in practical ways. Exterior work, siding, roofing, painting, foundation repairs, is best scheduled outside the November-through-March rainy window when possible, though interior remodels run year-round without issue. The Sacramento Valley's heat also means HVAC work scheduled in late spring avoids the peak-season backlog that hits every summer when systems fail and contractors are stretched thin. If your project touches the exterior envelope, sequencing around the weather calendar is worth the conversation early.
 
 ## Service area
 

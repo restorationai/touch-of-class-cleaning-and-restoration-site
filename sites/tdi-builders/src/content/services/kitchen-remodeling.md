@@ -17,37 +17,37 @@ service_slug: "kitchen-remodeling"
 service_display: "Kitchen Remodeling"
 rendered: true
 ---
-The kitchen that made sense in 1998 — or even 2010 — often doesn't work for the way people actually cook and gather today. Cabinets that stop short of the ceiling waste storage. A peninsula that blocks natural light. A layout where the refrigerator door swings into the prep path. These aren't cosmetic complaints; they're daily friction points that a well-planned kitchen renovation resolves at the structural level, not just the surface.
+The kitchen that made sense in 1998, or even 2010, often doesn't work for the way people actually cook and gather today. Cabinets that stop short of the ceiling waste storage. A peninsula that blocks natural light. A layout where the refrigerator door swings into the prep path. These aren't cosmetic complaints; they're daily friction points that a well-planned kitchen renovation resolves at the structural level, not just the surface.
 
 ## What kitchen remodeling actually involves
 
-A kitchen remodel is one of the most technically layered projects in residential construction. Behind every new cabinet run is a conversation about load-bearing walls, plumbing rough-in locations, electrical panel capacity, and ventilation clearances. In Sacramento's older neighborhoods — Midtown bungalows, East Sac Craftsmans, the ranch-style homes that spread across Arden-Arcade in the postwar decades — kitchens were built for a different era of appliances and a different idea of how families use the space. Updating them means working within existing framing, managing lead paint and asbestos considerations in pre-1980 homes, and coordinating multiple licensed trades in a tight sequence.
+A kitchen remodel is one of the most technically layered projects in residential construction. Behind every new cabinet run is a conversation about load-bearing walls, plumbing rough-in locations, electrical panel capacity, and ventilation clearances. In Sacramento's older neighborhoods, Midtown bungalows, East Sac Craftsmans, the ranch-style homes that spread across Arden-Arcade in the postwar decades, kitchens were built for a different era of appliances and a different idea of how families use the space. Updating them means working within existing framing, managing lead paint and asbestos considerations in pre-1980 homes, and coordinating multiple licensed trades in a tight sequence.
 
-The physical scope typically includes demolition of existing cabinets, countertops, and flooring; rough plumbing and electrical work; installation of new cabinetry and hardware; countertop templating and installation; backsplash tile; appliance hookups; and finish work including paint, trim, and lighting. A modest galley refresh might run four to six weeks. A full gut-and-reconfigure with a layout change — moving the sink, relocating a gas line, opening a wall — can extend to ten to fourteen weeks depending on permit timelines and material lead times.
+The physical scope typically includes demolition of existing cabinets, countertops, and flooring; rough plumbing and electrical work; installation of new cabinetry and hardware; countertop templating and installation; backsplash tile; appliance hookups; and finish work including paint, trim, and lighting. A modest galley refresh might run four to six weeks. A full gut-and-reconfigure with a layout change, moving the sink, relocating a gas line, opening a wall, can extend to ten to fourteen weeks depending on permit timelines and material lead times.
 
 ## Our process
 
 1. **Design consultation and space assessment.** Before any drawings are produced, we walk the existing kitchen with you to understand how you use the space: where you prep, where traffic flows, where natural light falls at different times of day. We measure the room precisely, note existing utility locations, and identify any structural elements that will affect the layout options.
 
-2. **Scope of work and permit documentation.** We develop a detailed written scope — materials, finishes, fixture specifications, structural changes — and pull the required permits through Sacramento County or the relevant municipality. Permitted work protects your home's resale value and ensures inspections at the rough-in stage catch problems before walls close.
+2. **Scope of work and permit documentation.** We develop a detailed written scope, materials, finishes, fixture specifications, structural changes, and pull the required permits through Sacramento County or the relevant municipality. Permitted work protects your home's resale value and ensures inspections at the rough-in stage catch problems before walls close.
 
 3. **Demolition and rough-in trades.** Existing cabinets, countertops, and flooring come out. Plumbing and electrical rough-in work follows the new layout plan. In older Sacramento homes, this phase sometimes surfaces surprises: galvanized supply lines, knob-and-tube wiring, or subfloor damage under a decades-old dishwasher. We document and address these before moving forward rather than building over them.
 
-4. **Cabinet installation and countertop templating.** Cabinet installation is sequenced carefully — upper cabinets before lowers, shimming for level on floors that have settled over decades. Countertop templates are cut after cabinets are set and secured, not before, so the template reflects the actual installed position rather than a drawing.
+4. **Cabinet installation and countertop templating.** Cabinet installation is sequenced carefully, upper cabinets before lowers, shimming for level on floors that have settled over decades. Countertop templates are cut after cabinets are set and secured, not before, so the template reflects the actual installed position rather than a drawing.
 
 5. **Finish work, punch list, and final inspection.** Backsplash tile, appliance hookups, lighting, hardware, paint, and trim complete the project. We walk the finished kitchen with you against the original scope, address any punch-list items, and schedule the final municipal inspection before closing out the permit.
 
 ## What separates a good kitchen remodel from a bad one
 
-The most common failures in kitchen remodeling aren't visible on day one — they show up six months later. Cabinet boxes that weren't shimmed level cause drawer slides to bind and doors to drift open. Countertop seams placed without regard to grain or pattern direction look mismatched under kitchen lighting. Tile backsplash installed before the countertop is set often ends up with a grout joint that doesn't align with the counter edge.
+The most common failures in kitchen remodeling aren't visible on day one, they show up six months later. Cabinet boxes that weren't shimmed level cause drawer slides to bind and doors to drift open. Countertop seams placed without regard to grain or pattern direction look mismatched under kitchen lighting. Tile backsplash installed before the countertop is set often ends up with a grout joint that doesn't align with the counter edge.
 
-On the structural side, opening a wall without confirming load-bearing status — and without a permit and engineer sign-off — is the mistake that creates the most expensive remediation. In Sacramento's older housing stock, original framing doesn't always follow modern conventions, and what looks like a partition wall sometimes carries roof load.
+On the structural side, opening a wall without confirming load-bearing status, and without a permit and engineer sign-off, is the mistake that creates the most expensive remediation. In Sacramento's older housing stock, original framing doesn't always follow modern conventions, and what looks like a partition wall sometimes carries roof load.
 
 Experienced contractors also sequence trades correctly. Painting after tile, not before. Appliance delivery scheduled after flooring is complete. Final electrical trim-out after cabinet hardware is set. Poor sequencing forces rework, extends timelines, and introduces damage to finished surfaces.
 
 ## What does kitchen remodeling cost?
 
-Typical costs for a kitchen renovation vary widely based on scope, layout complexity, and material selections. Most homeowners pay somewhere in the following ranges — these are industry-typical figures, not TDI Builders, Inc. quotes:
+Typical costs for a kitchen renovation vary widely based on scope, layout complexity, and material selections. Most homeowners pay somewhere in the following ranges, these are industry-typical figures, not TDI Builders, Inc. quotes:
 
 | Scenario | Typical range |
 |---|---|
@@ -58,14 +58,14 @@ Typical costs for a kitchen renovation vary widely based on scope, layout comple
 | Galley kitchen, cosmetic refresh only | $12,000 – $28,000 |
 | Commercial or investment property kitchen | $20,000 – $60,000 |
 
-Every project is different, and TDI Builders, Inc. provides a written scope of work with line-item pricing before any work begins. Standard homeowners insurance does not cover elective remodeling, but if your kitchen renovation is tied to a covered loss — a pipe burst, fire damage, or storm event — your carrier may cover the rebuild portion; TDI Builders, Inc. works with all major insurance carriers and handles claim documentation directly.
+Every project is different, and TDI Builders, Inc. provides a written scope of work with line-item pricing before any work begins. Standard homeowners insurance does not cover elective remodeling, but if your kitchen renovation is tied to a covered loss, a pipe burst, fire damage, or storm event, your carrier may cover the rebuild portion; TDI Builders, Inc. works with all major insurance carriers and handles claim documentation directly.
 
 ## Seasonal and regional considerations
 
-Sacramento's dry summers and mild, wet winters affect kitchen remodel timing in a few practical ways. Countertop stone and tile adhesives cure best above 50°F — winter projects in unheated spaces need temperature management. Permit turnaround times at Sacramento County and city building departments can lengthen during high-volume spring and summer construction seasons, so projects starting in late fall or winter sometimes move through inspections faster. If your remodel involves opening exterior walls or modifying rooflines, scheduling around the November–March rainy window matters for weather protection during construction.
+Sacramento's dry summers and mild, wet winters affect kitchen remodel timing in a few practical ways. Countertop stone and tile adhesives cure best above 50°F, winter projects in unheated spaces need temperature management. Permit turnaround times at Sacramento County and city building departments can lengthen during high-volume spring and summer construction seasons, so projects starting in late fall or winter sometimes move through inspections faster. If your remodel involves opening exterior walls or modifying rooflines, scheduling around the November–March rainy window matters for weather protection during construction.
 
 ## Service area
 
 TDI Builders, Inc. is based in Sacramento and serves homeowners and property managers throughout the greater Sacramento region, including Elk Grove, Roseville, Folsom, Citrus Heights, Rancho Cordova, West Sacramento, Davis, and surrounding communities. Individual service-area pages cover local permitting and neighborhood-specific considerations for each city.
 
-Ready to stop working around a kitchen that doesn't work for you? Call (877) 688-0866 to schedule your kitchen design consultation and written scope — the first step toward a space that actually fits the way you live.
+Ready to stop working around a kitchen that doesn't work for you? Call (877) 688-0866 to schedule your kitchen design consultation and written scope, the first step toward a space that actually fits the way you live.

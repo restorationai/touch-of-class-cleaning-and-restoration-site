@@ -20,41 +20,41 @@ state: "CA"
 service_display: "Fire and Smoke Damage Rebuilding"
 rendered: true
 ---
-Citrus Heights sits in Sacramento County's inland valley, where summer temperatures regularly push past 100°F and the dry season leaves wood-framed structures parched for months at a time. That combination — sun-baked lumber, older attic insulation, and the region's periodic wind events — means a kitchen fire or electrical fault can move fast and leave smoke residue embedded deep into wall cavities, HVAC ductwork, and the wood framing itself. TDI Builders, Inc. has been rebuilding fire-damaged properties across the Sacramento area since 1985, and we understand the specific construction patterns and code requirements that shape every rebuild in this city.
+Citrus Heights sits in Sacramento County's inland valley, where summer temperatures regularly push past 100°F and the dry season leaves wood-framed structures parched for months at a time. That combination, sun-baked lumber, older attic insulation, and the region's periodic wind events, means a kitchen fire or electrical fault can move fast and leave smoke residue embedded deep into wall cavities, HVAC ductwork, and the wood framing itself. TDI Builders, Inc. has been rebuilding fire-damaged properties across the Sacramento area since 1985, and we understand the specific construction patterns and code requirements that shape every rebuild in this city.
 
 ## Why Citrus Heights Properties Face Distinct Fire Rebuild Challenges
 
-Much of Citrus Heights was developed during the postwar housing boom, with a substantial share of the residential stock built between the late 1940s and the early 1970s. Homes from that era commonly feature original wood-paneled interiors, older electrical systems that may include aluminum wiring, and attic insulation that predates modern fire-retardant standards. When fire moves through a structure like this, it doesn't stop at drywall — it travels along the original framing, through balloon-frame wall cavities, and into spaces that look intact from the outside but are carbonized inside.
+Much of Citrus Heights was developed during the postwar housing boom, with a substantial share of the residential stock built between the late 1940s and the early 1970s. Homes from that era commonly feature original wood-paneled interiors, older electrical systems that may include aluminum wiring, and attic insulation that predates modern fire-retardant standards. When fire moves through a structure like this, it doesn't stop at drywall, it travels along the original framing, through balloon-frame wall cavities, and into spaces that look intact from the outside but are carbonized inside.
 
-Smoke damage compounds the problem. In a tightly built postwar ranch, smoke oils and soot particles infiltrate the HVAC system, settle into original hardwood subfloors, and chemically bond to plaster surfaces. Odor that seems manageable the first week can resurface months later if the rebuild doesn't address the source material — not just the surface. Sacramento County's building department governs permits for fire reconstruction in Citrus Heights, and any structural work requires proper permitting and inspection before walls are closed. We manage that process from the initial scope through final sign-off.
+Smoke damage compounds the problem. In a tightly built postwar ranch, smoke oils and soot particles infiltrate the HVAC system, settle into original hardwood subfloors, and chemically bond to plaster surfaces. Odor that seems manageable the first week can resurface months later if the rebuild doesn't address the source material, not just the surface. Sacramento County's building department governs permits for fire reconstruction in Citrus Heights, and any structural work requires proper permitting and inspection before walls are closed. We manage that process from the initial scope through final sign-off.
 
 ## Our Fire and Smoke Damage Rebuilding Process in Citrus Heights
 
-Every rebuild starts with a documented scope — not an estimate based on what's visible, but a systematic assessment of what the fire actually touched. That means opening wall cavities where smoke migration is suspected, testing framing for char depth, and cataloging every material that needs replacement versus cleaning and sealing.
+Every rebuild starts with a documented scope, not an estimate based on what's visible, but a systematic assessment of what the fire actually touched. That means opening wall cavities where smoke migration is suspected, testing framing for char depth, and cataloging every material that needs replacement versus cleaning and sealing.
 
 From there, the process moves in a defined sequence:
 
-- **Structural stabilization** — shoring or temporary weatherproofing if the fire compromised the roof or load-bearing walls
-- **Debris and char removal** — down to clean, sound material that passes inspection
-- **Smoke and odor treatment** — thermal fogging or sealant application on framing before new insulation and drywall go in
-- **Mechanical rough-in** — replacing or cleaning HVAC, electrical, and plumbing systems affected by heat or smoke
-- **Finish rebuild** — insulation, drywall, interior finishes, and exterior repair to match the existing structure
-- **Final inspection and permit close-out** — coordinated with Sacramento County
+- **Structural stabilization**, shoring or temporary weatherproofing if the fire compromised the roof or load-bearing walls
+- **Debris and char removal**, down to clean, sound material that passes inspection
+- **Smoke and odor treatment**, thermal fogging or sealant application on framing before new insulation and drywall go in
+- **Mechanical rough-in**, replacing or cleaning HVAC, electrical, and plumbing systems affected by heat or smoke
+- **Finish rebuild**, insulation, drywall, interior finishes, and exterior repair to match the existing structure
+- **Final inspection and permit close-out**, coordinated with Sacramento County
 
 For commercial properties, we also coordinate with business owners on phased work schedules when partial occupancy needs to be maintained during the rebuild.
 
 ## Reaching Citrus Heights from Our Sacramento Base
 
-Our crews operate out of Sacramento and reach Citrus Heights via Sunrise Boulevard and Greenback Lane — two of the primary corridors connecting the city to the broader Sacramento metro. We're available around the clock, so whether a loss is reported on a weekday morning or a weekend night, we can dispatch and begin the assessment process without delay. For properties along the eastern edges of the city near Antelope Road, we route accordingly to avoid the Sunrise/Greenback interchange during peak hours.
+Our crews operate out of Sacramento and reach Citrus Heights via Sunrise Boulevard and Greenback Lane, two of the primary corridors connecting the city to the broader Sacramento metro. We're available around the clock, so whether a loss is reported on a weekday morning or a weekend night, we can dispatch and begin the assessment process without delay. For properties along the eastern edges of the city near Antelope Road, we route accordingly to avoid the Sunrise/Greenback interchange during peak hours.
 
 ## Insurance and Permit Coordination for Citrus Heights Rebuilds
 
-Fire losses almost always involve an insurance claim, and the rebuild scope has to align with what the adjuster approves. We document the damage in detail — photographs, written scope, material specifications — and communicate directly with carriers throughout the process. If a supplement is needed because hidden damage is found once demolition begins (a common situation in older Citrus Heights homes where smoke has traveled further than the initial assessment showed), we handle that conversation with the insurer so the project doesn't stall.
+Fire losses almost always involve an insurance claim, and the rebuild scope has to align with what the adjuster approves. We document the damage in detail, photographs, written scope, material specifications, and communicate directly with carriers throughout the process. If a supplement is needed because hidden damage is found once demolition begins (a common situation in older Citrus Heights homes where smoke has traveled further than the initial assessment showed), we handle that conversation with the insurer so the project doesn't stall.
 
 Permits for structural fire reconstruction in Citrus Heights run through Sacramento County. We pull the permits, schedule inspections, and track the approval timeline so work proceeds in the right sequence.
 
 ## Local Note
 
-Homes built in Citrus Heights during the 1950s and 1960s frequently used a stucco-over-wood-lath exterior finish that was standard for California construction of that era. After a fire, stucco can appear intact while the wood lath behind it is charred or smoke-damaged — and that damage won't show up on a surface inspection. On rebuilds involving exterior walls from this period, we open and assess the lath layer before any re-stucco work begins. Skipping that step is how odor problems and structural issues get missed and resurface after the project closes.
+Homes built in Citrus Heights during the 1950s and 1960s frequently used a stucco-over-wood-lath exterior finish that was standard for California construction of that era. After a fire, stucco can appear intact while the wood lath behind it is charred or smoke-damaged, and that damage won't show up on a surface inspection. On rebuilds involving exterior walls from this period, we open and assess the lath layer before any re-stucco work begins. Skipping that step is how odor problems and structural issues get missed and resurface after the project closes.
 
-If you're managing a fire loss in Citrus Heights — residential or commercial — call TDI Builders, Inc. at (877) 688-0866. We'll walk through the scope, the permit process, and the insurance coordination so you have a clear picture of what the rebuild involves before any work begins.
+If you're managing a fire loss in Citrus Heights, residential or commercial, call TDI Builders, Inc. at (877) 688-0866. We'll walk through the scope, the permit process, and the insurance coordination so you have a clear picture of what the rebuild involves before any work begins.

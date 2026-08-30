@@ -17,13 +17,13 @@ published_at: "2026-08-11"
 services: ["storm-damage-restoration"]
 rendered: true
 ---
-After a storm tears through your neighborhood, the last thing you want is to lose money on your insurance claim because of a paperwork mistake. This checklist walks you through every step — from the first hour after the storm to the final settlement — so you can document the damage thoroughly, avoid the most common claim mistakes, and get the payout your policy entitles you to. Keep it open on your phone as you work through the process.
+After a storm tears through your neighborhood, the last thing you want is to lose money on your insurance claim because of a paperwork mistake. This checklist walks you through every step, from the first hour after the storm to the final settlement, so you can document the damage thoroughly, avoid the most common claim mistakes, and get the payout your policy entitles you to. Keep it open on your phone as you work through the process.
 
 ## Step 1: Make Sure the Property Is Safe Before You Document Anything
 
 Before you photograph a single shingle, do a quick safety sweep. Storm damage can hide serious hazards: downed power lines near standing water, gas leaks from a displaced meter, structural instability from a tree strike, or mold-prone conditions starting the moment water enters the building envelope.
 
-If you smell gas, leave immediately and call PG&E's emergency line before re-entering. If there is standing water inside and your electrical panel is in the affected area, do not step into that water until the power is confirmed off at the meter. Sacramento's older housing stock — a lot of it built in the 1950s through 1970s — often has panels and subpanels in garages or utility rooms that are among the first spaces to flood.
+If you smell gas, leave immediately and call PG&E's emergency line before re-entering. If there is standing water inside and your electrical panel is in the affected area, do not step into that water until the power is confirmed off at the meter. Sacramento's older housing stock, a lot of it built in the 1950s through 1970s, often has panels and subpanels in garages or utility rooms that are among the first spaces to flood.
 
 Once you've confirmed it's safe, you can begin the documentation phase.
 
@@ -33,12 +33,12 @@ This is the single most important rule of storm damage claims: **photograph and 
 
 Work through this list systematically:
 
-1. **Shoot wide establishing shots first** — the full exterior of the home from each corner, the roof line, the yard, any downed trees or fencing.
-2. **Move to mid-range** — each damaged section of roof, siding, windows, gutters, and foundation.
-3. **Close-up detail shots** — individual broken shingles, impact marks on siding, water intrusion points, cracked glass, damaged HVAC equipment.
-4. **Interior damage** — water stains on ceilings and walls, wet flooring, damaged insulation if accessible, any personal property affected.
-5. **Timestamps matter** — most smartphone cameras embed the date and time in the file metadata, but also enable the on-screen timestamp overlay if your camera app supports it.
-6. **Video walkthrough** — do a slow, narrated video of every affected room and exterior zone. Narrate what you're seeing. This is harder for an adjuster to dispute than still photos alone.
+1. **Shoot wide establishing shots first**, the full exterior of the home from each corner, the roof line, the yard, any downed trees or fencing.
+2. **Move to mid-range**, each damaged section of roof, siding, windows, gutters, and foundation.
+3. **Close-up detail shots**, individual broken shingles, impact marks on siding, water intrusion points, cracked glass, damaged HVAC equipment.
+4. **Interior damage**, water stains on ceilings and walls, wet flooring, damaged insulation if accessible, any personal property affected.
+5. **Timestamps matter**, most smartphone cameras embed the date and time in the file metadata, but also enable the on-screen timestamp overlay if your camera app supports it.
+6. **Video walkthrough**, do a slow, narrated video of every affected room and exterior zone. Narrate what you're seeing. This is harder for an adjuster to dispute than still photos alone.
 
 Back up everything to cloud storage immediately. Do not rely solely on your phone.
 
@@ -46,49 +46,49 @@ Back up everything to cloud storage immediately. Do not rely solely on your phon
 
 Photos and video are the foundation, but a complete claim file includes more than images. Gather the following before you call your insurer:
 
-- **Your insurance policy declarations page** — know your dwelling coverage limit, your deductible, and whether you carry additional living expenses (ALE) coverage, which pays for a hotel or rental if the home is uninhabitable.
-- **A written inventory of damaged personal property** — list each item, its approximate age, and its estimated replacement value. Check your email history, Amazon orders, and credit card statements to find purchase prices.
-- **Pre-storm photos if you have them** — photos from a real estate listing, Google Street View captures, or your own archive can establish the pre-loss condition of the roof or siding.
-- **Receipts for any emergency expenses** — tarps, plywood, a hotel stay, meals if you were displaced. Most policies reimburse reasonable emergency mitigation costs.
-- **Contractor estimates** — you are entitled to get your own estimates. In fact, you should. An independent estimate from a licensed contractor gives you a benchmark against the adjuster's scope of loss.
+- **Your insurance policy declarations page**, know your dwelling coverage limit, your deductible, and whether you carry additional living expenses (ALE) coverage, which pays for a hotel or rental if the home is uninhabitable.
+- **A written inventory of damaged personal property**, list each item, its approximate age, and its estimated replacement value. Check your email history, Amazon orders, and credit card statements to find purchase prices.
+- **Pre-storm photos if you have them**, photos from a real estate listing, Google Street View captures, or your own archive can establish the pre-loss condition of the roof or siding.
+- **Receipts for any emergency expenses**, tarps, plywood, a hotel stay, meals if you were displaced. Most policies reimburse reasonable emergency mitigation costs.
+- **Contractor estimates**, you are entitled to get your own estimates. In fact, you should. An independent estimate from a licensed contractor gives you a benchmark against the adjuster's scope of loss.
 
-## Step 4: Report the Claim Promptly — and Know What to Say
+## Step 4: Report the Claim Promptly, and Know What to Say
 
 California law requires insurers to acknowledge a claim within 15 days of notice and to accept or deny it within 40 days of receiving proof of loss. That clock starts when you report. Don't wait.
 
 When you call:
 
 - Give the date of loss and a brief description of the cause (wind, hail, fallen tree, etc.).
-- Do not speculate about total damage or dollar amounts — you don't know yet, and early estimates can be used against you.
+- Do not speculate about total damage or dollar amounts, you don't know yet, and early estimates can be used against you.
 - Ask for your claim number and the adjuster's direct contact information.
 - Ask specifically whether your policy covers additional living expenses and how to submit those receipts.
-- Ask whether the insurer uses a preferred contractor network — you are **not** required to use their preferred vendors in California. You have the right to hire a licensed contractor of your choosing.
+- Ask whether the insurer uses a preferred contractor network, you are **not** required to use their preferred vendors in California. You have the right to hire a licensed contractor of your choosing.
 
 Document every conversation: date, time, name of the representative, and a summary of what was said. Follow up phone calls with an email so you have a written record.
 
-## Step 5: Temporary Repairs — What You Must Do and What to Save
+## Step 5: Temporary Repairs, What You Must Do and What to Save
 
 Your policy almost certainly requires you to take reasonable steps to prevent further damage. A tarp over a breached roof section, plywood over a broken window, or a wet-vac on standing water are all reasonable. Failure to mitigate can give the insurer grounds to reduce your payout.
 
 But there are limits:
 
 - **Do not make permanent repairs before the adjuster inspects.** Replacing a damaged roof section before the adjuster sees it removes evidence. Get the inspection first.
-- **Save all damaged materials.** Broken shingles, sections of damaged siding, water-stained drywall — bag them and keep them. The adjuster may want to see them.
+- **Save all damaged materials.** Broken shingles, sections of damaged siding, water-stained drywall, bag them and keep them. The adjuster may want to see them.
 - **Keep every receipt** for materials and labor related to temporary repairs. These costs are typically reimbursable.
 
-If water has entered the structure, time is a real factor. Mold can begin colonizing wet building materials within 24 to 48 hours in warm conditions. Sacramento's dry summers can actually accelerate surface drying while moisture stays trapped inside wall cavities — which means a wall can feel dry to the touch while the framing behind it is still saturated. A professional moisture assessment with a thermal camera or pin-type meter gives you an accurate picture that protects both your home and your claim.
+If water has entered the structure, time is a real factor. Mold can begin colonizing wet building materials within 24 to 48 hours in warm conditions. Sacramento's dry summers can actually accelerate surface drying while moisture stays trapped inside wall cavities, which means a wall can feel dry to the touch while the framing behind it is still saturated. A professional moisture assessment with a thermal camera or pin-type meter gives you an accurate picture that protects both your home and your claim.
 
 ## Step 6: Review the Adjuster's Estimate Carefully
 
 When the adjuster's written estimate arrives, read every line. Common areas where scopes of loss are underwritten:
 
-- **Roofing**: check whether the estimate includes underlayment, flashing, ridge cap, and code-required upgrades — not just field shingles.
+- **Roofing**: check whether the estimate includes underlayment, flashing, ridge cap, and code-required upgrades, not just field shingles.
 - **Siding**: if only a section is damaged but matching material is discontinued, California law may support a claim for full replacement to maintain a uniform appearance.
 - **Interior water damage**: confirm that drying, antimicrobial treatment, and structural drying are included, not just surface replacement.
-- **Depreciation**: most policies pay actual cash value (ACV) initially and release the recoverable depreciation once repairs are complete. Understand your policy's timeline for submitting the recoverable depreciation claim — typically 180 days to a year.
+- **Depreciation**: most policies pay actual cash value (ACV) initially and release the recoverable depreciation once repairs are complete. Understand your policy's timeline for submitting the recoverable depreciation claim, typically 180 days to a year.
 
 If the estimate feels low, you have options: request a re-inspection, submit a contractor's competing estimate, or invoke the appraisal clause in your policy, which allows both sides to hire independent appraisers.
 
 ---
 
-Navigating a storm damage claim on your own is doable — this checklist gives you the framework. But if the damage is significant, if there's water intrusion into the structure, or if you're not confident the adjuster's scope captures everything, it's worth having a licensed restoration contractor walk the property with you before you sign anything. TDI Builders, Inc. works with Sacramento-area homeowners on storm damage restoration and can help you understand what a full scope of repairs should include. Call (877) 688-0866 to schedule an assessment.
+Navigating a storm damage claim on your own is doable, this checklist gives you the framework. But if the damage is significant, if there's water intrusion into the structure, or if you're not confident the adjuster's scope captures everything, it's worth having a licensed restoration contractor walk the property with you before you sign anything. TDI Builders, Inc. works with Sacramento-area homeowners on storm damage restoration and can help you understand what a full scope of repairs should include. Call (877) 688-0866 to schedule an assessment.

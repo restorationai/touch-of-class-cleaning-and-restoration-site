@@ -24,9 +24,9 @@ Elk Grove has grown faster than almost any city in California over the past two 
 
 ## Why Elk Grove Kitchens Are Ready for a Rethink
 
-Elk Grove's housing stock skews heavily toward homes built between 1995 and 2015 — a period when open-concept living was being marketed aggressively but not always executed well. Many of those kitchens were designed around standard builder-grade cabinets, laminate countertops, and layouts that prioritized square footage on the listing sheet over actual workflow. A decade or two of daily use makes the shortcomings obvious: not enough storage, poor lighting, an island that blocks traffic flow, or a range hood that vents into a recirculating loop instead of outside.
+Elk Grove's housing stock skews heavily toward homes built between 1995 and 2015, a period when open-concept living was being marketed aggressively but not always executed well. Many of those kitchens were designed around standard builder-grade cabinets, laminate countertops, and layouts that prioritized square footage on the listing sheet over actual workflow. A decade or two of daily use makes the shortcomings obvious: not enough storage, poor lighting, an island that blocks traffic flow, or a range hood that vents into a recirculating loop instead of outside.
 
-Elk Grove's climate adds another layer. The Sacramento Valley heat — routinely above 100°F in July and August — puts real stress on cabinet finishes, caulk joints around sinks, and the adhesives used in laminate surfaces. Homes without adequate ventilation over the range trap grease and humidity that slowly degrade cabinetry from the inside out. When we assess a kitchen here, we're looking at those failure points before we talk about aesthetics.
+Elk Grove's climate adds another layer. The Sacramento Valley heat, routinely above 100°F in July and August, puts real stress on cabinet finishes, caulk joints around sinks, and the adhesives used in laminate surfaces. Homes without adequate ventilation over the range trap grease and humidity that slowly degrade cabinetry from the inside out. When we assess a kitchen here, we're looking at those failure points before we talk about aesthetics.
 
 ## Our Kitchen Remodeling Process in Elk Grove
 
@@ -34,20 +34,20 @@ Every project starts with a site walkthrough, not a phone estimate. We measure t
 
 From there, the process moves through design, material selection, permitting, and build-out in a sequence we've refined over four decades of residential and commercial construction:
 
-- **Design and layout** — We work from your existing footprint or reconfigure it if the structure allows. Moving a sink or range means rerouting plumbing and gas lines, which requires licensed subcontractors and city permits.
-- **Permitting** — Kitchen remodels that involve structural changes, electrical upgrades, or plumbing relocation require permits through the City of Elk Grove Building Department. We handle the application and coordinate inspections so the project stays on schedule.
-- **Demolition and rough-in** — Old cabinets, countertops, and flooring come out. Rough plumbing, electrical, and any HVAC duct changes happen before walls close.
-- **Cabinet installation** — Whether you're choosing stock, semi-custom, or fully custom cabinetry, installation precision matters. Cabinets that aren't level and plumb cause door alignment problems within months.
-- **Countertops, fixtures, and finish work** — Quartz, granite, butcher block, or porcelain — each material has different substrate and support requirements we account for during framing.
+- **Design and layout**, We work from your existing footprint or reconfigure it if the structure allows. Moving a sink or range means rerouting plumbing and gas lines, which requires licensed subcontractors and city permits.
+- **Permitting**, Kitchen remodels that involve structural changes, electrical upgrades, or plumbing relocation require permits through the City of Elk Grove Building Department. We handle the application and coordinate inspections so the project stays on schedule.
+- **Demolition and rough-in**, Old cabinets, countertops, and flooring come out. Rough plumbing, electrical, and any HVAC duct changes happen before walls close.
+- **Cabinet installation**, Whether you're choosing stock, semi-custom, or fully custom cabinetry, installation precision matters. Cabinets that aren't level and plumb cause door alignment problems within months.
+- **Countertops, fixtures, and finish work**, Quartz, granite, butcher block, or porcelain, each material has different substrate and support requirements we account for during framing.
 
 ## HOA Coordination in Elk Grove's Planned Communities
 
-A meaningful portion of Elk Grove homes sit within master-planned communities that have CC&Rs governing renovation work. While HOA rules typically don't reach interior finishes, they often do cover exterior penetrations — and a kitchen remodel that adds or relocates a range hood vent, a new window, or a gas line stub-out can trigger a review requirement. We've worked through these processes enough times to know what documentation HOA architectural committees typically want and how to submit it cleanly the first time.
+A meaningful portion of Elk Grove homes sit within master-planned communities that have CC&Rs governing renovation work. While HOA rules typically don't reach interior finishes, they often do cover exterior penetrations, and a kitchen remodel that adds or relocates a range hood vent, a new window, or a gas line stub-out can trigger a review requirement. We've worked through these processes enough times to know what documentation HOA architectural committees typically want and how to submit it cleanly the first time.
 
 If your project involves any exterior change, we recommend pulling the CC&Rs before design is finalized. It's a straightforward step that prevents the frustration of designing around a window placement that the HOA won't approve.
 
 ## Local Note
 
-Homes built in Elk Grove's rapid-growth corridors during the early 2000s frequently used builder-grade range hoods ducted into the attic rather than through an exterior wall — a shortcut that was common and technically permitted at the time but creates grease accumulation and fire risk over years of use. When we open walls on a kitchen remodel in these neighborhoods, we find this configuration regularly. Correcting it means running a proper duct path to an exterior cap, which adds a permit line item and some framing work, but it's not optional if you're putting in a high-output range. We flag it in the assessment so it's budgeted before demolition starts, not discovered mid-project.
+Homes built in Elk Grove's rapid-growth corridors during the early 2000s frequently used builder-grade range hoods ducted into the attic rather than through an exterior wall, a shortcut that was common and technically permitted at the time but creates grease accumulation and fire risk over years of use. When we open walls on a kitchen remodel in these neighborhoods, we find this configuration regularly. Correcting it means running a proper duct path to an exterior cap, which adds a permit line item and some framing work, but it's not optional if you're putting in a high-output range. We flag it in the assessment so it's budgeted before demolition starts, not discovered mid-project.
 
-If your Elk Grove kitchen remodel is overdue, call TDI Builders, Inc. at (877) 688-0866. We're available around the clock, and we'll schedule a walkthrough at a time that works for your household — not just our calendar.
+If your Elk Grove kitchen remodel is overdue, call TDI Builders, Inc. at (877) 688-0866. We're available around the clock, and we'll schedule a walkthrough at a time that works for your household, not just our calendar.

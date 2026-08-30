@@ -20,15 +20,15 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-Rancho Cordova sits in a climate corridor that can feel deceptively mild — until a late-season atmospheric river rolls in off the Sierra Nevada foothills and drops two inches of rain in six hours, or a Diablo-adjacent wind event strips roofing material off entire blocks in the older subdivisions east of Mather Field. When that happens, the damage window is short and the repair decisions are consequential. TDI Builders, Inc. has been handling storm damage restoration across the Sacramento region since 1985, and the team is available around the clock when conditions turn.
+Rancho Cordova sits in a climate corridor that can feel deceptively mild, until a late-season atmospheric river rolls in off the Sierra Nevada foothills and drops two inches of rain in six hours, or a Diablo-adjacent wind event strips roofing material off entire blocks in the older subdivisions east of Mather Field. When that happens, the damage window is short and the repair decisions are consequential. TDI Builders, Inc. has been handling storm damage restoration across the Sacramento region since 1985, and the team is available around the clock when conditions turn.
 
 ## Why Rancho Cordova Properties See Concentrated Storm Damage
 
 The Sacramento Valley's wet season runs roughly November through March, but the storms that cause the most structural damage often arrive as isolated, high-intensity events rather than steady seasonal rain. Rancho Cordova's position along the American River corridor creates a specific vulnerability: when soils are already saturated from earlier storms, even moderate rainfall can overwhelm drainage systems and push water toward foundations and crawl spaces.
 
-The city's housing stock adds another layer of complexity. Large portions of Rancho Cordova were developed in the 1960s and 1970s, when roof sheathing standards, underlayment specifications, and flashing details were less stringent than current California Building Code requires. Composition shingles installed decades ago — and never replaced — are often the first thing to fail when sustained winds arrive. Once the roof envelope is breached, water infiltration behind siding, into attic insulation, and along interior wall cavities happens faster than most homeowners expect. The same age of construction often means single-pane windows and older aluminum-frame doors that are more susceptible to wind pressure damage.
+The city's housing stock adds another layer of complexity. Large portions of Rancho Cordova were developed in the 1960s and 1970s, when roof sheathing standards, underlayment specifications, and flashing details were less stringent than current California Building Code requires. Composition shingles installed decades ago, and never replaced, are often the first thing to fail when sustained winds arrive. Once the roof envelope is breached, water infiltration behind siding, into attic insulation, and along interior wall cavities happens faster than most homeowners expect. The same age of construction often means single-pane windows and older aluminum-frame doors that are more susceptible to wind pressure damage.
 
-Commercial and industrial properties along the Folsom Boulevard and Sunrise Boulevard corridors tend to have large low-slope or flat roof sections — a design that pools standing water quickly when drains back up with storm debris.
+Commercial and industrial properties along the Folsom Boulevard and Sunrise Boulevard corridors tend to have large low-slope or flat roof sections, a design that pools standing water quickly when drains back up with storm debris.
 
 ## Our Storm Damage Restoration Process in Rancho Cordova
 
@@ -36,14 +36,14 @@ Every storm damage project starts with a thorough exterior and interior assessme
 
 After assessment, the process typically moves through these stages:
 
-- **Emergency weatherproofing** — tarping compromised roof sections, boarding broken windows, and sealing breached siding to stop active water intrusion while permanent repairs are planned.
-- **Moisture mapping and extraction** — any water that entered the structure is located with thermal imaging and moisture meters, then extracted and dried before reconstruction begins. Skipping this step leads to mold colonization, which in Sacramento's climate can begin within 24 to 48 hours of a saturation event.
-- **Structural assessment and permitting** — depending on the scope, repair work in Rancho Cordova may require permits through Sacramento County. TDI Builders coordinates the permitting process so work proceeds on a documented, code-compliant timeline.
-- **Roof, siding, and structural rebuild** — licensed crews handle roofing, siding replacement, window and door repair, and any framing or sheathing that was compromised. All work is performed to current California Building Code standards, which in some cases means upgrading materials beyond what was originally installed.
+- **Emergency weatherproofing**, tarping compromised roof sections, boarding broken windows, and sealing breached siding to stop active water intrusion while permanent repairs are planned.
+- **Moisture mapping and extraction**, any water that entered the structure is located with thermal imaging and moisture meters, then extracted and dried before reconstruction begins. Skipping this step leads to mold colonization, which in Sacramento's climate can begin within 24 to 48 hours of a saturation event.
+- **Structural assessment and permitting**, depending on the scope, repair work in Rancho Cordova may require permits through Sacramento County. TDI Builders coordinates the permitting process so work proceeds on a documented, code-compliant timeline.
+- **Roof, siding, and structural rebuild**, licensed crews handle roofing, siding replacement, window and door repair, and any framing or sheathing that was compromised. All work is performed to current California Building Code standards, which in some cases means upgrading materials beyond what was originally installed.
 
 ## Reaching Rancho Cordova from Sacramento
 
-TDI Builders is headquartered in Sacramento, and Rancho Cordova is a direct service area. US-50 east from downtown Sacramento puts crews into the heart of Rancho Cordova quickly, with access to neighborhoods throughout the city. Because the team operates 24/7, a call placed at 2 a.m. after a wind event brings the same response as a call placed during business hours — storm damage doesn't wait for morning, and neither does the dispatch process.
+TDI Builders is headquartered in Sacramento, and Rancho Cordova is a direct service area. US-50 east from downtown Sacramento puts crews into the heart of Rancho Cordova quickly, with access to neighborhoods throughout the city. Because the team operates 24/7, a call placed at 2 a.m. after a wind event brings the same response as a call placed during business hours, storm damage doesn't wait for morning, and neither does the dispatch process.
 
 ## Rancho Cordova Insurance Coordination
 
@@ -51,6 +51,6 @@ Storm damage claims in California have specific documentation requirements, and 
 
 ## Local Note
 
-One pattern worth knowing: properties near the American River Parkway that back up to riparian vegetation tend to accumulate significant debris on roofs and in gutters during wind events — leaves, small branches, and seed pods that block drainage and hold moisture against roofing material long after the storm passes. That prolonged moisture contact accelerates shingle degradation and can push water under flashing at valleys and eaves. If your property is in that zone, a post-storm roof inspection is worth scheduling even when there's no obvious visible damage from the ground.
+One pattern worth knowing: properties near the American River Parkway that back up to riparian vegetation tend to accumulate significant debris on roofs and in gutters during wind events, leaves, small branches, and seed pods that block drainage and hold moisture against roofing material long after the storm passes. That prolonged moisture contact accelerates shingle degradation and can push water under flashing at valleys and eaves. If your property is in that zone, a post-storm roof inspection is worth scheduling even when there's no obvious visible damage from the ground.
 
 If a storm has left your Rancho Cordova property with a compromised roof, damaged siding, broken windows, or water inside walls, call TDI Builders, Inc. at (877) 688-0866. The team is available any hour, documents everything for your insurance carrier, and has been rebuilding storm-damaged properties across the Sacramento region for more than 40 years.

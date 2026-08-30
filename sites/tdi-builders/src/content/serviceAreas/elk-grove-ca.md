@@ -19,17 +19,17 @@ state: "CA"
 primary: false
 rendered: true
 ---
-TDI Builders, Inc. provides water damage restoration, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners and property managers throughout Elk Grove. Operating around the clock since 1985, the team dispatches from Sacramento and reaches Elk Grove communities along Highway 99 and Elk Grove–Florin Road whenever a loss occurs — day, night, or weekend.
+TDI Builders, Inc. provides water damage restoration, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners and property managers throughout Elk Grove. Operating around the clock since 1985, the team dispatches from Sacramento and reaches Elk Grove communities along Highway 99 and Elk Grove–Florin Road whenever a loss occurs, day, night, or weekend.
 
 ## Restoration emergencies common in Elk Grove
 
-Elk Grove sits in the Sacramento Valley's low-lying southern corridor, where the combination of clay-heavy soils, seasonal atmospheric river storms, and a housing boom that stretched from the 1980s through the mid-2000s creates a specific and recurring set of property risks. Winter and early-spring rain events can overwhelm tract-home drainage systems quickly — water that pools against slab foundations or backs up through undersized storm laterals finds its way inside faster than most homeowners expect. Summer heat in the Central Valley regularly pushes attic temperatures well above ambient, accelerating the off-gassing of older building materials and stressing HVAC systems that, when they fail or leak, can saturate insulation and ceiling assemblies before anyone notices. Wildfire smoke from the Sierra Nevada foothills — increasingly a late-summer and fall concern across the greater Sacramento region — infiltrates ductwork and settles into porous surfaces, leaving odor and particulate residue that surface cleaning alone cannot resolve.
+Elk Grove sits in the Sacramento Valley's low-lying southern corridor, where the combination of clay-heavy soils, seasonal atmospheric river storms, and a housing boom that stretched from the 1980s through the mid-2000s creates a specific and recurring set of property risks. Winter and early-spring rain events can overwhelm tract-home drainage systems quickly, water that pools against slab foundations or backs up through undersized storm laterals finds its way inside faster than most homeowners expect. Summer heat in the Central Valley regularly pushes attic temperatures well above ambient, accelerating the off-gassing of older building materials and stressing HVAC systems that, when they fail or leak, can saturate insulation and ceiling assemblies before anyone notices. Wildfire smoke from the Sierra Nevada foothills, increasingly a late-summer and fall concern across the greater Sacramento region, infiltrates ductwork and settles into porous surfaces, leaving odor and particulate residue that surface cleaning alone cannot resolve.
 
 ## Services we provide in Elk Grove
 
 ### Water damage restoration
 
-Water losses in Elk Grove frequently involve slab-on-grade construction, which means moisture has nowhere to drain once it enters — it migrates laterally under flooring and into wall cavities, often reading dry at the surface while subfloor assemblies and bottom plates remain saturated. Extraction, drying, and monitoring with calibrated meters are essential before any repair begins.
+Water losses in Elk Grove frequently involve slab-on-grade construction, which means moisture has nowhere to drain once it enters, it migrates laterally under flooring and into wall cavities, often reading dry at the surface while subfloor assemblies and bottom plates remain saturated. Extraction, drying, and monitoring with calibrated meters are essential before any repair begins.
 
 ### Fire and smoke damage cleanup
 
@@ -37,11 +37,11 @@ Post-fire cleanup in the region often involves composite and engineered wood fra
 
 ### Mold remediation
 
-Elk Grove's warm summers and periodic moisture intrusion from winter storms create conditions where mold can colonize wall cavities within days of an undetected leak. Remediation work here routinely involves coordinating with property owners on source correction — whether a failed irrigation line, a roof penetration, or a plumbing supply leak — before containment and removal begin.
+Elk Grove's warm summers and periodic moisture intrusion from winter storms create conditions where mold can colonize wall cavities within days of an undetected leak. Remediation work here routinely involves coordinating with property owners on source correction, whether a failed irrigation line, a roof penetration, or a plumbing supply leak, before containment and removal begin.
 
 ### Reconstruction and rebuild
 
-After a loss is mitigated, TDI Builders, Inc. carries the project through permitted reconstruction — framing, drywall, flooring, cabinetry, and finish work — so property owners work with a single contractor from emergency response through final inspection rather than handing off mid-project.
+After a loss is mitigated, TDI Builders, Inc. carries the project through permitted reconstruction, framing, drywall, flooring, cabinetry, and finish work, so property owners work with a single contractor from emergency response through final inspection rather than handing off mid-project.
 
 ### Insurance documentation and billing
 
@@ -53,6 +53,6 @@ Elk Grove is roughly 15 to 20 miles south of TDI Builders' Sacramento headquarte
 
 ## Building stock, site conditions, and permits in Elk Grove
 
-The majority of Elk Grove's residential stock was built between the late 1980s and the mid-2000s, a period dominated by slab-on-grade tract construction with wood-frame walls, OSB sheathing, and concrete tile or composition shingle roofs. Homes from the earlier part of that range may contain asbestos-containing materials in floor tile mastics and textured ceiling finishes, and lead-based paint in pre-1978 components — both of which require testing and proper handling before any demolition work begins. Plumbing in homes from this era typically uses copper supply lines, though some late-1980s and early-1990s construction included polybutylene, which is prone to failure at fittings. The soils across much of the Elk Grove area are expansive Vertisol-type clays that swell with moisture and shrink in dry summers, placing ongoing stress on slab foundations and underground laterals. Structural repair and reconstruction permits are issued through the City of Elk Grove's Building Division; most interior scope-of-loss repairs that involve structural framing, electrical, or plumbing will require a permit and inspection before walls are closed.
+The majority of Elk Grove's residential stock was built between the late 1980s and the mid-2000s, a period dominated by slab-on-grade tract construction with wood-frame walls, OSB sheathing, and concrete tile or composition shingle roofs. Homes from the earlier part of that range may contain asbestos-containing materials in floor tile mastics and textured ceiling finishes, and lead-based paint in pre-1978 components, both of which require testing and proper handling before any demolition work begins. Plumbing in homes from this era typically uses copper supply lines, though some late-1980s and early-1990s construction included polybutylene, which is prone to failure at fittings. The soils across much of the Elk Grove area are expansive Vertisol-type clays that swell with moisture and shrink in dry summers, placing ongoing stress on slab foundations and underground laterals. Structural repair and reconstruction permits are issued through the City of Elk Grove's Building Division; most interior scope-of-loss repairs that involve structural framing, electrical, or plumbing will require a permit and inspection before walls are closed.
 
-When a loss affects your property, the right call is the one that starts the clock on drying, documentation, and a clear path to repair. Reach TDI Builders, Inc. any time at **(877) 688-0866** — a live team member answers around the clock and can begin coordinating a response while you're still on the phone.
+When a loss affects your property, the right call is the one that starts the clock on drying, documentation, and a clear path to repair. Reach TDI Builders, Inc. any time at **(877) 688-0866**, a live team member answers around the clock and can begin coordinating a response while you're still on the phone.

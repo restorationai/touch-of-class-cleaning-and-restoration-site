@@ -20,42 +20,42 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-West Sacramento sits in a different storm world than its neighbor across the river. While Sacramento proper gets some shelter from the Coast Range, West Sacramento's flat, low-lying terrain along the Sacramento River puts it squarely in the path of winter atmospheric rivers that funnel through the Central Valley — the kind of systems that drop two inches of rain in an afternoon, push sustained winds past 40 mph, and leave roofs, siding, and commercial facades exposed in ways that drier inland cities rarely see. When that combination hits, the damage shows up fast and compounds quickly if it isn't addressed.
+West Sacramento sits in a different storm world than its neighbor across the river. While Sacramento proper gets some shelter from the Coast Range, West Sacramento's flat, low-lying terrain along the Sacramento River puts it squarely in the path of winter atmospheric rivers that funnel through the Central Valley, the kind of systems that drop two inches of rain in an afternoon, push sustained winds past 40 mph, and leave roofs, siding, and commercial facades exposed in ways that drier inland cities rarely see. When that combination hits, the damage shows up fast and compounds quickly if it isn't addressed.
 
 ## Why West Sacramento Properties See Storm Damage Differently
 
-The geography here matters. West Sacramento is built on reclaimed floodplain, and the water table in many parts of the city sits close enough to the surface that storm runoff doesn't have far to travel before it backs up against foundations, infiltrates crawl spaces, or pools against commercial building slabs. The city's older industrial corridors and mid-century residential blocks — many built between the 1940s and 1970s — feature wood-framed construction with original roofing substrates that weren't engineered for the back-to-back storm sequences California has seen in recent years.
+The geography here matters. West Sacramento is built on reclaimed floodplain, and the water table in many parts of the city sits close enough to the surface that storm runoff doesn't have far to travel before it backs up against foundations, infiltrates crawl spaces, or pools against commercial building slabs. The city's older industrial corridors and mid-century residential blocks, many built between the 1940s and 1970s, feature wood-framed construction with original roofing substrates that weren't engineered for the back-to-back storm sequences California has seen in recent years.
 
 High-wind events are the other half of the equation. Valley wind patterns can accelerate through the gap between the Sacramento and Yolo County flatlands, lifting asphalt shingles at the rake edges, peeling soffit panels, and driving rain horizontally into siding joints that would otherwise shed water cleanly. Once moisture gets behind siding or under lifted flashing, it moves into wall cavities and insulation before the storm even ends.
 
 ## Our Storm Damage Restoration Process in West Sacramento
 
-Every storm damage job starts with a thorough exterior and interior assessment — not just what's visibly broken, but where water has already traveled. On a wind-damaged roof, that means probing the decking for soft spots, checking attic insulation for saturation, and tracing any ceiling staining to its actual source rather than its most obvious entry point.
+Every storm damage job starts with a thorough exterior and interior assessment, not just what's visibly broken, but where water has already traveled. On a wind-damaged roof, that means probing the decking for soft spots, checking attic insulation for saturation, and tracing any ceiling staining to its actual source rather than its most obvious entry point.
 
 From there, the process moves in a logical sequence:
 
-- **Emergency stabilization** — tarping compromised roof sections, boarding damaged openings, and stopping active water intrusion before repairs begin
-- **Moisture mapping** — thermal imaging and moisture meters to locate hidden saturation in walls, ceilings, and subfloors
-- **Structural assessment** — evaluating framing, sheathing, and load-bearing elements for storm-related compromise
-- **Repair and rebuild** — roofing, siding, window and door replacement, and interior finish work coordinated under one contractor rather than handed off between trades
-- **Final documentation** — photo records and written scope that support insurance claims from the first call to final sign-off
+- **Emergency stabilization**, tarping compromised roof sections, boarding damaged openings, and stopping active water intrusion before repairs begin
+- **Moisture mapping**, thermal imaging and moisture meters to locate hidden saturation in walls, ceilings, and subfloors
+- **Structural assessment**, evaluating framing, sheathing, and load-bearing elements for storm-related compromise
+- **Repair and rebuild**, roofing, siding, window and door replacement, and interior finish work coordinated under one contractor rather than handed off between trades
+- **Final documentation**, photo records and written scope that support insurance claims from the first call to final sign-off
 
-With more than 40 years of construction and rebuilding experience, the TDI Builders team handles the full scope — from emergency response through permitted reconstruction — so property owners aren't managing a relay race of subcontractors.
+With more than 40 years of construction and rebuilding experience, the TDI Builders team handles the full scope, from emergency response through permitted reconstruction, so property owners aren't managing a relay race of subcontractors.
 
 ## Reaching West Sacramento Around the Clock
 
-TDI Builders is based in Sacramento, and West Sacramento is a direct shot across the Tower Bridge or the Interstate 80 corridor — no freeway loops, no suburban sprawl to navigate. That proximity matters when a storm rolls through overnight and a property owner needs someone on-site before more rain arrives. The team is available 24/7, which means an emergency call at 2 a.m. gets the same response as one placed during business hours.
+TDI Builders is based in Sacramento, and West Sacramento is a direct shot across the Tower Bridge or the Interstate 80 corridor, no freeway loops, no suburban sprawl to navigate. That proximity matters when a storm rolls through overnight and a property owner needs someone on-site before more rain arrives. The team is available 24/7, which means an emergency call at 2 a.m. gets the same response as one placed during business hours.
 
-For commercial properties along the industrial and warehouse corridors near the Port of Sacramento, after-hours access coordination is something the team handles routinely — staging equipment, working around active operations, and meeting the timeline that a business owner or property manager needs.
+For commercial properties along the industrial and warehouse corridors near the Port of Sacramento, after-hours access coordination is something the team handles routinely, staging equipment, working around active operations, and meeting the timeline that a business owner or property manager needs.
 
 ## West Sacramento Insurance Coordination
 
-Storm damage claims in California have become more complicated in recent years as carriers tighten wind and water exclusions and scrutinize scope-of-loss documentation more carefully. TDI Builders is licensed and insured, and the team documents losses in the format adjusters expect — line-item scope, photo evidence tied to specific damage locations, and moisture readings that establish the extent of intrusion. That documentation record is built from the first site visit, not assembled after the fact.
+Storm damage claims in California have become more complicated in recent years as carriers tighten wind and water exclusions and scrutinize scope-of-loss documentation more carefully. TDI Builders is licensed and insured, and the team documents losses in the format adjusters expect, line-item scope, photo evidence tied to specific damage locations, and moisture readings that establish the extent of intrusion. That documentation record is built from the first site visit, not assembled after the fact.
 
 For commercial property managers handling multiple units or a portfolio of buildings, a single point of contact who can coordinate across structures and communicate directly with the adjuster reduces the administrative burden significantly.
 
 ## Local Note
 
-One thing that catches property owners off guard in West Sacramento: the city's proximity to the river and its low-lying drainage patterns mean that storm damage assessments here need to account for ground saturation that persists well after the rain stops. A roof repair completed on day two of a storm sequence may be sitting above wall cavities that are still wicking moisture from below-grade sources. Experienced crews working in this part of Yolo County know to re-check moisture readings 48 to 72 hours after initial drying equipment is placed — not because the equipment isn't working, but because the source conditions are still active. Skipping that follow-up check is how hidden mold problems develop in the weeks after a storm.
+One thing that catches property owners off guard in West Sacramento: the city's proximity to the river and its low-lying drainage patterns mean that storm damage assessments here need to account for ground saturation that persists well after the rain stops. A roof repair completed on day two of a storm sequence may be sitting above wall cavities that are still wicking moisture from below-grade sources. Experienced crews working in this part of Yolo County know to re-check moisture readings 48 to 72 hours after initial drying equipment is placed, not because the equipment isn't working, but because the source conditions are still active. Skipping that follow-up check is how hidden mold problems develop in the weeks after a storm.
 
-If your property has been hit by recent storm activity, call TDI Builders at **(877) 688-0866**. The team serves West Sacramento and the surrounding region 24/7, and the assessment starts with an honest look at what the storm actually did — not just what's visible from the street.
+If your property has been hit by recent storm activity, call TDI Builders at **(877) 688-0866**. The team serves West Sacramento and the surrounding region 24/7, and the assessment starts with an honest look at what the storm actually did, not just what's visible from the street.

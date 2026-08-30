@@ -17,44 +17,44 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-A storm doesn't announce what it broke. Wind peels back a ridge cap and the damage reads as a few missing shingles — until the next rain finds the gap, soaks the sheathing, and starts rotting the rafters from the inside. The real cost of storm damage isn't always what you can see from the driveway the morning after; it's what gets missed in the first 48 hours. Storm damage restoration is the work of finding all of it — the obvious and the hidden — and rebuilding to a standard that holds through the next storm season.
+A storm doesn't announce what it broke. Wind peels back a ridge cap and the damage reads as a few missing shingles, until the next rain finds the gap, soaks the sheathing, and starts rotting the rafters from the inside. The real cost of storm damage isn't always what you can see from the driveway the morning after; it's what gets missed in the first 48 hours. Storm damage restoration is the work of finding all of it, the obvious and the hidden, and rebuilding to a standard that holds through the next storm season.
 
 ## What storm damage restoration actually involves
 
 Storm losses in the Sacramento region tend to cluster around three failure types: roof and sheathing damage from wind or falling debris, siding and envelope breaches that let water into wall cavities, and structural loading from saturated soil or downed trees pressing against foundations and framing. Each one looks different on the surface and requires a different repair sequence.
 
-Roof storm damage repair starts with more than patching visible holes. A thorough assessment checks decking deflection, fastener pull-through on remaining shingles, flashing separation at chimneys and valleys, and soffit damage that can compromise attic ventilation. Siding storm damage repair involves probing behind the visible face — fiber cement, stucco, and lap siding all trap moisture differently, and a dented or cracked panel often conceals saturated housewrap or water-damaged sheathing beneath it.
+Roof storm damage repair starts with more than patching visible holes. A thorough assessment checks decking deflection, fastener pull-through on remaining shingles, flashing separation at chimneys and valleys, and soffit damage that can compromise attic ventilation. Siding storm damage repair involves probing behind the visible face, fiber cement, stucco, and lap siding all trap moisture differently, and a dented or cracked panel often conceals saturated housewrap or water-damaged sheathing beneath it.
 
 Wind damage repair on the structural side means evaluating connections: hurricane ties, ridge-beam attachments, and gable-end framing that can rack under lateral load. Equipment on a storm damage rebuild typically includes moisture meters, thermal imaging cameras, and sometimes a blower door test to locate envelope gaps that aren't visible to the eye.
 
-Timeline depends on scope. Emergency tarping and board-up can happen the same day. A full storm damage rebuild — permits, framing, roofing, siding, interior finishes — runs weeks, not days, and the permitting clock in Sacramento County starts before a nail goes in.
+Timeline depends on scope. Emergency tarping and board-up can happen the same day. A full storm damage rebuild, permits, framing, roofing, siding, interior finishes, runs weeks, not days, and the permitting clock in Sacramento County starts before a nail goes in.
 
 ## Our process
 
 1. **Emergency stabilization.** Before anything is measured or documented, the structure needs to stop taking on more damage. That means emergency tarping of breached rooflines, boarding compromised windows and doors, and shoring any framing that's at immediate risk. This step protects the home and preserves the insurance claim.
 
-2. **Full-envelope damage assessment.** A room-by-room, surface-by-surface inspection documents every point of failure — not just what's visibly broken. Moisture readings are taken at the roof deck, wall cavities, and any interior surfaces below the breach. Thermal imaging identifies wet insulation that won't show on a visual walk-through. Everything is photographed and logged for the insurance carrier.
+2. **Full-envelope damage assessment.** A room-by-room, surface-by-surface inspection documents every point of failure, not just what's visibly broken. Moisture readings are taken at the roof deck, wall cavities, and any interior surfaces below the breach. Thermal imaging identifies wet insulation that won't show on a visual walk-through. Everything is photographed and logged for the insurance carrier.
 
-3. **Scope of work and permit filing.** Structural repairs and full re-roofs in Sacramento require permits. The scope is written before demolition begins — line-item materials, methods, and code compliance notes — so there are no surprises mid-project and the insurance adjuster has a document they can approve against.
+3. **Scope of work and permit filing.** Structural repairs and full re-roofs in Sacramento require permits. The scope is written before demolition begins, line-item materials, methods, and code compliance notes, so there are no surprises mid-project and the insurance adjuster has a document they can approve against.
 
 4. **Demolition and structural repair.** Damaged sheathing, framing members, and compromised insulation come out. Structural repairs follow the engineered or code-compliant detail required by the permit. This is where wind damage repair contractor experience matters: replacing a rafter isn't the same as sistering it correctly to transfer load back to the ridge and bearing wall.
 
-5. **Envelope rebuild and finish work.** New roofing, siding, windows, or exterior elements are installed to current code — which in California often means updated energy compliance and fire-resistance requirements that didn't apply when the original material went on. Interior finishes, drywall, insulation, and paint close out the project.
+5. **Envelope rebuild and finish work.** New roofing, siding, windows, or exterior elements are installed to current code, which in California often means updated energy compliance and fire-resistance requirements that didn't apply when the original material went on. Interior finishes, drywall, insulation, and paint close out the project.
 
 ## What separates a good storm damage response from a bad one
 
-The most common failure in storm damage repair isn't the visible work — it's what doesn't get documented or doesn't get found. Insurance adjusters are trained to look for a complete damage inventory, and a claim that only captures the obvious damage will be settled for less than the full loss.
+The most common failure in storm damage repair isn't the visible work, it's what doesn't get documented or doesn't get found. Insurance adjusters are trained to look for a complete damage inventory, and a claim that only captures the obvious damage will be settled for less than the full loss.
 
 Specific things that get missed by less-thorough operators:
 
-- **Secondary water intrusion.** A roof breach that was open for 24–72 hours before tarping can saturate roof decking, top plates, and ceiling joists. If moisture readings aren't taken before closing up, that wet material gets sealed in and begins to degrade — or grow mold — behind new finishes.
+- **Secondary water intrusion.** A roof breach that was open for 24–72 hours before tarping can saturate roof decking, top plates, and ceiling joists. If moisture readings aren't taken before closing up, that wet material gets sealed in and begins to degrade, or grow mold, behind new finishes.
 - **Fastener and connection damage.** High-wind events stress the entire roof-to-wall connection system, not just the shingles that blew off. Remaining shingles with lifted tabs, backed-out fasteners, or cracked sealant strips will fail in the next storm season.
 - **Code upgrade triggers.** In California, replacing more than a threshold percentage of a roof or re-siding a wall often triggers a requirement to bring the assembly up to current energy and fire codes. Contractors who don't flag this leave homeowners exposed to failed inspections.
-- **Supplement documentation.** Adjusters write initial estimates from photos and a desk review. A contractor who can walk the adjuster through the full scope — with moisture logs, photos of concealed damage, and a written repair method — consistently recovers more of the actual loss for the homeowner.
+- **Supplement documentation.** Adjusters write initial estimates from photos and a desk review. A contractor who can walk the adjuster through the full scope, with moisture logs, photos of concealed damage, and a written repair method, consistently recovers more of the actual loss for the homeowner.
 
 ## What does storm damage restoration cost?
 
-Typical costs for storm damage restoration vary widely based on what failed, how long the structure was exposed, and what code upgrades the repair triggers. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not TDI Builders, Inc. quotes, and every loss is different.
+Typical costs for storm damage restoration vary widely based on what failed, how long the structure was exposed, and what code upgrades the repair triggers. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not TDI Builders, Inc. quotes, and every loss is different.
 
 | Scenario | Typical range |
 |---|---|
@@ -65,16 +65,16 @@ Typical costs for storm damage restoration vary widely based on what failed, how
 | Full siding replacement with sheathing repair | $12,000 – $35,000+ |
 | Structural wind damage repair (framing, sheathing) | $5,000 – $40,000+ |
 
-TDI Builders, Inc. provides a written scope of work before any work begins — no open-ended estimates. Homeowners insurance typically covers sudden and accidental storm losses including wind, hail, and falling trees, subject to your deductible and policy exclusions; a well-documented claim with a line-item contractor scope gives adjusters what they need to process it accurately.
+TDI Builders, Inc. provides a written scope of work before any work begins, no open-ended estimates. Homeowners insurance typically covers sudden and accidental storm losses including wind, hail, and falling trees, subject to your deductible and policy exclusions; a well-documented claim with a line-item contractor scope gives adjusters what they need to process it accurately.
 
 ## Seasonal and regional considerations
 
 Sacramento's storm season runs roughly November through March, when atmospheric river events can drop several inches of rain in 24 hours on roofs and soil that have been baked dry for six months. That dry-then-saturated cycle is hard on roofing sealants, caulked penetrations, and any flashing that's seen a few seasons of thermal expansion. Damage that looked minor after a dry October wind event often reveals itself in the first heavy rain of December.
 
-The valley floor's clay-heavy soils drain slowly, which means saturated ground around foundations stays wet long after the storm passes — relevant for any storm damage rebuild that involves grading, drainage, or below-grade work. Foothills properties face additional exposure from falling trees and debris loads that flatland homes don't.
+The valley floor's clay-heavy soils drain slowly, which means saturated ground around foundations stays wet long after the storm passes, relevant for any storm damage rebuild that involves grading, drainage, or below-grade work. Foothills properties face additional exposure from falling trees and debris loads that flatland homes don't.
 
 ## Service area
 
-TDI Builders, Inc. is based in Sacramento and handles storm damage restoration throughout the greater Sacramento region, including surrounding cities and foothill communities. Individual service-area pages cover specific cities in more detail — if you don't see your city listed, call and ask; the service area is broader than what's published.
+TDI Builders, Inc. is based in Sacramento and handles storm damage restoration throughout the greater Sacramento region, including surrounding cities and foothill communities. Individual service-area pages cover specific cities in more detail, if you don't see your city listed, call and ask; the service area is broader than what's published.
 
-If you're looking at storm damage on your roof, siding, or structure right now, the next step is a documented assessment — not a ballpark. Call **(877) 688-0866** to schedule your storm damage evaluation and get a written scope before any repair work begins.
+If you're looking at storm damage on your roof, siding, or structure right now, the next step is a documented assessment, not a ballpark. Call **(877) 688-0866** to schedule your storm damage evaluation and get a written scope before any repair work begins.

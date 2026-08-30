@@ -19,7 +19,7 @@ If water is spreading, smoke damage is setting in, or you're dealing with someth
 
 ## For urgent situations
 
-Water damage begins working into subfloor and wall cavities within the first few hours. Smoke residue starts bonding to surfaces before the smell even fully registers. If you're in the middle of an active loss — flooding, fire aftermath, a biohazard situation — call **(877) 688-0866** directly. TDI Builders operates 24/7, so you'll reach someone any time of day or night, including weekends and holidays. Don't wait for a callback form to process.
+Water damage begins working into subfloor and wall cavities within the first few hours. Smoke residue starts bonding to surfaces before the smell even fully registers. If you're in the middle of an active loss, flooding, fire aftermath, a biohazard situation, call **(877) 688-0866** directly. TDI Builders operates 24/7, so you'll reach someone any time of day or night, including weekends and holidays. Don't wait for a callback form to process.
 
 ## For estimates and non-urgent inquiries
 
@@ -27,4 +27,4 @@ If the situation is stable and you're looking for a repair estimate, want to ask
 
 ## Where we're located
 
-TDI Builders is based at **701 Del Paso Rd, Sacramento, CA 95834**, in the North Sacramento area near the Port of Sacramento. From here, we serve property owners throughout the greater Sacramento region — including Elk Grove, Rancho Cordova, Citrus Heights, Roseville, West Sacramento, and surrounding communities in the Central Valley. Sacramento's mix of older Craftsman-era homes, mid-century tract construction, and newer infill development means water and fire losses can behave very differently from one neighborhood to the next. We're familiar with the region's housing stock and the way the valley's wet winters and dry summers affect building materials over time.
+TDI Builders is based at **701 Del Paso Rd, Sacramento, CA 95834**, in the North Sacramento area near the Port of Sacramento. From here, we serve property owners throughout the greater Sacramento region, including Elk Grove, Rancho Cordova, Citrus Heights, Roseville, West Sacramento, and surrounding communities in the Central Valley. Sacramento's mix of older Craftsman-era homes, mid-century tract construction, and newer infill development means water and fire losses can behave very differently from one neighborhood to the next. We're familiar with the region's housing stock and the way the valley's wet winters and dry summers affect building materials over time.

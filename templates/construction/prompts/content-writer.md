@@ -233,3 +233,5 @@ Critical JSON rules (same as System 1):
 ## Why this design
 
 Single-source-of-truth prompt (this file) + orchestrator script (`scripts/content_writer.py`) keeps the agent's job tight: write good content. State management, image gen, deploy — all handled by the script. This separation means we can iterate the prompt without re-deploying the orchestrator, and re-deploy the orchestrator without revisiting the prompt.
+
+- NEVER use an em dash (the — character) anywhere: not in the title, body, meta description, or FAQ. Use a comma, a period, a colon, or a plain hyphen instead. (The orchestrator strips any that slip through, but write without them.)

@@ -19,27 +19,27 @@ state: "CA"
 primary: false
 rendered: true
 ---
-TDI Builders, Inc. has been responding to water damage, fire damage, mold, and full reconstruction needs across the Sacramento region since 1985. For Folsom property owners — whether you're dealing with a burst pipe in a newer master-planned subdivision or smoke damage in an older foothill-adjacent home — we dispatch from Sacramento around the clock, every day of the year, and we handle the full scope from emergency mitigation through permitted reconstruction.
+TDI Builders, Inc. has been responding to water damage, fire damage, mold, and full reconstruction needs across the Sacramento region since 1985. For Folsom property owners, whether you're dealing with a burst pipe in a newer master-planned subdivision or smoke damage in an older foothill-adjacent home, we dispatch from Sacramento around the clock, every day of the year, and we handle the full scope from emergency mitigation through permitted reconstruction.
 
 ## Restoration emergencies common in Folsom
 
-Folsom sits at the edge of the Sierra Nevada foothills, and that geography shapes the losses that show up here. The region runs hot and dry through summer, which accelerates wood shrinkage and puts pressure on plumbing fittings and roof flashings. Then the atmospheric river storms that move through the Sacramento Valley between November and March can drop several inches of rain in a short window — more than the clay-heavy soils in many Folsom neighborhoods can absorb quickly. That combination produces roof leaks, foundation intrusion, and saturated crawlspaces in the same season. Wildfire smoke from the Sierra foothills is a recurring concern as well; even fires burning miles away can push fine particulate into HVAC systems and leave odor and residue that requires professional remediation rather than airing out.
+Folsom sits at the edge of the Sierra Nevada foothills, and that geography shapes the losses that show up here. The region runs hot and dry through summer, which accelerates wood shrinkage and puts pressure on plumbing fittings and roof flashings. Then the atmospheric river storms that move through the Sacramento Valley between November and March can drop several inches of rain in a short window, more than the clay-heavy soils in many Folsom neighborhoods can absorb quickly. That combination produces roof leaks, foundation intrusion, and saturated crawlspaces in the same season. Wildfire smoke from the Sierra foothills is a recurring concern as well; even fires burning miles away can push fine particulate into HVAC systems and leave odor and residue that requires professional remediation rather than airing out.
 
 Folsom Reservoir and the surrounding lake communities add another layer: properties near the water table can see moisture migration that reads dry at the surface while subflooring and wall cavities stay saturated. The newer planned communities built since the 1990s expansion tend toward slab-on-grade construction, which limits some below-grade water paths but makes any slab penetration or under-slab plumbing failure more disruptive to address.
 
 ## Services we provide in Folsom
 
 ### Water damage mitigation and drying
-Water losses in Folsom frequently start at the roof line during winter storms or at aging supply lines in homes built in the 1990s and early 2000s when polybutylene and early PEX fittings were common. We extract standing water, deploy drying equipment calibrated to the affected materials, and monitor moisture readings until structural assemblies reach acceptable levels — not just until the surface feels dry.
+Water losses in Folsom frequently start at the roof line during winter storms or at aging supply lines in homes built in the 1990s and early 2000s when polybutylene and early PEX fittings were common. We extract standing water, deploy drying equipment calibrated to the affected materials, and monitor moisture readings until structural assemblies reach acceptable levels, not just until the surface feels dry.
 
 ### Fire and smoke damage restoration
 Smoke behaves differently depending on what burned and how hot. In Folsom's foothill-adjacent neighborhoods, wildfire smoke tends to be a low-temperature, long-duration exposure that embeds in porous materials and ductwork. Structure fires in the area's wood-framed homes require full scope assessment before any rebuild begins. We document the damage, coordinate with your insurance adjuster, and carry the project through reconstruction.
 
 ### Mold remediation
-Mold can begin colonizing wet building materials within 24 to 48 hours of a moisture event. In Folsom's climate — warm summers, periodic wet winters — a slow roof leak or an undetected supply-line drip behind a wall can produce significant growth before it's visible. We identify the moisture source, contain the affected area, and remediate to industry standards before any reconstruction work begins.
+Mold can begin colonizing wet building materials within 24 to 48 hours of a moisture event. In Folsom's climate, warm summers, periodic wet winters, a slow roof leak or an undetected supply-line drip behind a wall can produce significant growth before it's visible. We identify the moisture source, contain the affected area, and remediate to industry standards before any reconstruction work begins.
 
 ### Full reconstruction
-When damage is structural — whether from water, fire, or a combination — mitigation alone isn't the finish line. TDI Builders handles permitted reconstruction, coordinating with the City of Folsom's building department so repairs meet current California code requirements and your project closes with a proper final inspection.
+When damage is structural, whether from water, fire, or a combination, mitigation alone isn't the finish line. TDI Builders handles permitted reconstruction, coordinating with the City of Folsom's building department so repairs meet current California code requirements and your project closes with a proper final inspection.
 
 ## Coverage and how fast we can get there
 
@@ -47,10 +47,10 @@ Folsom is roughly 25 miles northeast of our Sacramento headquarters via US-50 Ea
 
 ## Building stock, site conditions, and permits in Folsom
 
-Most of Folsom's residential stock was built in two distinct waves: a smaller core of pre-1970s homes near the historic downtown, and a much larger inventory of tract and custom homes constructed during the suburban expansion of the 1990s through 2000s. The newer homes are predominantly wood-frame, slab-on-grade construction with tile or composition roofing. Plumbing in that era ranges from copper supply lines to polybutylene and early PEX, and fittings in those systems are worth scrutiny during any water-loss investigation. Homes predating the 1980s may contain asbestos-containing materials in textured ceilings, vinyl flooring, or duct insulation — a restoration scope has to account for that before any demolition begins.
+Most of Folsom's residential stock was built in two distinct waves: a smaller core of pre-1970s homes near the historic downtown, and a much larger inventory of tract and custom homes constructed during the suburban expansion of the 1990s through 2000s. The newer homes are predominantly wood-frame, slab-on-grade construction with tile or composition roofing. Plumbing in that era ranges from copper supply lines to polybutylene and early PEX, and fittings in those systems are worth scrutiny during any water-loss investigation. Homes predating the 1980s may contain asbestos-containing materials in textured ceilings, vinyl flooring, or duct insulation, a restoration scope has to account for that before any demolition begins.
 
 Soils in the Folsom area transition from the valley's heavier clay profiles toward rockier, more granitic foothill ground as you move east. Clay-dominant areas can shed water laterally toward foundations during heavy rain rather than absorbing it. Structurally, slab-on-grade construction limits basement or crawlspace exposure but makes under-slab plumbing repairs more involved.
 
-Building permits for structural repair and reconstruction in Folsom are issued by the City of Folsom's Building and Safety Division. California's Title 24 energy code and the state's adopted building codes apply. Many Folsom subdivisions are governed by HOAs that have their own exterior repair approval requirements layered on top of city permitting — something to factor into any project timeline.
+Building permits for structural repair and reconstruction in Folsom are issued by the City of Folsom's Building and Safety Division. California's Title 24 energy code and the state's adopted building codes apply. Many Folsom subdivisions are governed by HOAs that have their own exterior repair approval requirements layered on top of city permitting, something to factor into any project timeline.
 
 If you're dealing with damage now, the fastest next step is a call to (877) 688-0866. We're available around the clock, we'll walk you through what to expect, and we can begin the documentation your insurance carrier will need from the first visit.

@@ -17,29 +17,29 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
-Water you can see is only part of the problem. The water you can't see — soaked into wall cavities, wicking up baseboards, pooling beneath subfloor sheathing — is what turns a manageable repair into a gut renovation. After a pipe burst, appliance failure, or roof intrusion, the clock starts immediately: mold can begin colonizing wet cellulose materials within 24 to 48 hours, and wood framing that stays saturated long enough will swell, cup, and lose structural integrity. Getting the moisture out fast, and confirming it's actually out, is what water damage restoration is built around.
+Water you can see is only part of the problem. The water you can't see, soaked into wall cavities, wicking up baseboards, pooling beneath subfloor sheathing, is what turns a manageable repair into a gut renovation. After a pipe burst, appliance failure, or roof intrusion, the clock starts immediately: mold can begin colonizing wet cellulose materials within 24 to 48 hours, and wood framing that stays saturated long enough will swell, cup, and lose structural integrity. Getting the moisture out fast, and confirming it's actually out, is what water damage restoration is built around.
 
 ## What water damage restoration actually involves
 
 Restoration work after a water loss is not just drying and repainting. The scope depends on the water source (clean supply line versus sewage backup versus roof intrusion), how long the water sat, and what building materials absorbed it.
 
-Clean water from a broken supply line is the most forgiving category — but only if it's addressed quickly. Water that has contacted soil, appliance reservoirs, or standing sources is categorized differently and requires more aggressive handling, including containment protocols to protect unaffected areas of the home.
+Clean water from a broken supply line is the most forgiving category, but only if it's addressed quickly. Water that has contacted soil, appliance reservoirs, or standing sources is categorized differently and requires more aggressive handling, including containment protocols to protect unaffected areas of the home.
 
-Equipment matters here in ways that aren't visible. Industrial-grade desiccant or refrigerant dehumidifiers pull moisture from the air continuously. High-velocity air movers accelerate evaporation from structural surfaces. Thermal imaging cameras and calibrated moisture meters let technicians map exactly where water has traveled — including behind intact drywall — so nothing gets sealed over while still wet.
+Equipment matters here in ways that aren't visible. Industrial-grade desiccant or refrigerant dehumidifiers pull moisture from the air continuously. High-velocity air movers accelerate evaporation from structural surfaces. Thermal imaging cameras and calibrated moisture meters let technicians map exactly where water has traveled, including behind intact drywall, so nothing gets sealed over while still wet.
 
 Timeline varies by material and saturation depth. A single-layer drywall assembly in a bathroom may dry in three to five days under proper airflow. Plaster over wood lath, common in Sacramento's older Midtown and East Sacramento bungalows, can hold moisture for weeks and often requires opening walls to dry adequately.
 
 ## Our process
 
-1. **Assessment and moisture mapping.** Before any equipment goes in, the affected area is walked with moisture meters and a thermal camera. This establishes a baseline — where the water traveled, which materials are affected, and what category of water loss you're dealing with. This step determines the entire scope of work that follows.
+1. **Assessment and moisture mapping.** Before any equipment goes in, the affected area is walked with moisture meters and a thermal camera. This establishes a baseline, where the water traveled, which materials are affected, and what category of water loss you're dealing with. This step determines the entire scope of work that follows.
 
-2. **Water extraction.** Standing water is removed using truck-mounted or portable extraction units. This includes water visible on hard surfaces and water that has been absorbed into carpet, pad, and subfloor assemblies. Extraction is not optional prep — every gallon pulled out mechanically is moisture the drying equipment doesn't have to process.
+2. **Water extraction.** Standing water is removed using truck-mounted or portable extraction units. This includes water visible on hard surfaces and water that has been absorbed into carpet, pad, and subfloor assemblies. Extraction is not optional prep, every gallon pulled out mechanically is moisture the drying equipment doesn't have to process.
 
 3. **Structural drying and containment.** Air movers and dehumidifiers are positioned to create a controlled drying environment. For Category 2 or Category 3 losses, containment barriers isolate the work area to prevent cross-contamination. Drying targets are set based on the IICRC S500 standard for professional water damage restoration.
 
-4. **Daily moisture monitoring.** Drying is not a set-it-and-forget-it process. Readings are taken at each check to confirm materials are trending toward dry standard. Equipment is repositioned as the drying profile changes. Documentation of daily readings is maintained — this record matters for insurance claims and for confirming the structure is genuinely dry before any rebuild begins.
+4. **Daily moisture monitoring.** Drying is not a set-it-and-forget-it process. Readings are taken at each check to confirm materials are trending toward dry standard. Equipment is repositioned as the drying profile changes. Documentation of daily readings is maintained, this record matters for insurance claims and for confirming the structure is genuinely dry before any rebuild begins.
 
-5. **Rebuild and finish work.** Once materials reach dry standard, damaged drywall, insulation, flooring, and trim are removed and replaced. Ceiling water damage repair, drywall water damage repair, and subfloor replacement are common scopes. TDI Builders' construction background means the post-leak renovation and the drying phase are handled under one roof — no handoff gap between the mitigation crew and the contractor.
+5. **Rebuild and finish work.** Once materials reach dry standard, damaged drywall, insulation, flooring, and trim are removed and replaced. Ceiling water damage repair, drywall water damage repair, and subfloor replacement are common scopes. TDI Builders' construction background means the post-leak renovation and the drying phase are handled under one roof, no handoff gap between the mitigation crew and the contractor.
 
 ## What separates a good water damage response from a bad one
 
@@ -51,7 +51,7 @@ Insurance adjusters reviewing a water damage claim look for daily moisture logs,
 
 ## What does water damage restoration cost?
 
-Typical costs for water damage restoration vary significantly based on the size of the affected area, the water category, how long the water sat, and which materials require replacement. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not quotes.
+Typical costs for water damage restoration vary significantly based on the size of the affected area, the water category, how long the water sat, and which materials require replacement. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes.
 
 | Scenario | Typical industry range |
 |---|---|
@@ -62,18 +62,18 @@ Typical costs for water damage restoration vary significantly based on the size 
 | Category 3 loss (sewage or floodwater) | $7,000 – $25,000+ |
 | Ceiling water damage repair (localized) | $800 – $3,000 |
 
-Every loss is different, and TDI Builders provides a written scope of work before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers sudden and accidental water losses — burst pipes, appliance failures, and roof intrusions during a storm — but generally excludes gradual leaks or maintenance-related damage. Your adjuster can clarify what your specific policy covers; TDI Builders works with all major carriers and handles the documentation on our end.
+Every loss is different, and TDI Builders provides a written scope of work before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers sudden and accidental water losses, burst pipes, appliance failures, and roof intrusions during a storm, but generally excludes gradual leaks or maintenance-related damage. Your adjuster can clarify what your specific policy covers; TDI Builders works with all major carriers and handles the documentation on our end.
 
 ## Seasonal and regional considerations
 
-Sacramento's climate creates a specific water damage pattern that differs from coastal California. The valley's wet season runs roughly November through March, when atmospheric river events can deliver several inches of rain in 24 hours — more than aging gutters, flat roofs, and clay-heavy soils can always handle. Roof intrusions and foundation seepage are most common during this window.
+Sacramento's climate creates a specific water damage pattern that differs from coastal California. The valley's wet season runs roughly November through March, when atmospheric river events can deliver several inches of rain in 24 hours, more than aging gutters, flat roofs, and clay-heavy soils can always handle. Roof intrusions and foundation seepage are most common during this window.
 
 The dry summers bring a different risk: irrigation systems, evaporative coolers, and neglected supply lines that go unnoticed until a fitting fails. Homes built before the 1980s in neighborhoods like Land Park, Curtis Park, and Oak Park frequently have galvanized supply lines that corrode from the inside out, with no visible warning before a failure.
 
-Slab-on-grade construction — common in Sacramento's postwar tract neighborhoods — means slab leaks can saturate flooring and lower wall assemblies before a homeowner notices anything. Thermal imaging is particularly useful in these situations because the moisture signature is often the first visible indicator.
+Slab-on-grade construction, common in Sacramento's postwar tract neighborhoods, means slab leaks can saturate flooring and lower wall assemblies before a homeowner notices anything. Thermal imaging is particularly useful in these situations because the moisture signature is often the first visible indicator.
 
 ## Service area
 
-TDI Builders serves Sacramento and the surrounding region, including Elk Grove, Roseville, Folsom, Rancho Cordova, West Sacramento, Davis, and Woodland. The city-specific pages for each area link back here for full service details. If you're outside these areas, call — coverage decisions are made case by case.
+TDI Builders serves Sacramento and the surrounding region, including Elk Grove, Roseville, Folsom, Rancho Cordova, West Sacramento, Davis, and Woodland. The city-specific pages for each area link back here for full service details. If you're outside these areas, call, coverage decisions are made case by case.
 
-If you're standing in a wet room right now, the most useful thing you can do before the crew arrives is shut off the water source if it's still running, move valuables off wet flooring, and leave the affected area ventilated but undisturbed. Call (877) 688-0866 to schedule your moisture assessment — TDI Builders is available 24/7.
+If you're standing in a wet room right now, the most useful thing you can do before the crew arrives is shut off the water source if it's still running, move valuables off wet flooring, and leave the affected area ventilated but undisturbed. Call (877) 688-0866 to schedule your moisture assessment, TDI Builders is available 24/7.

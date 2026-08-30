@@ -1382,6 +1382,22 @@ def update_content_md(
         else:
             fm[k] = v
 
+    # HOUSE LAW (Santino 2026-08-05, enforced here 2026-08-31 after TDI shipped
+    # 2,582 of them): NO EM DASHES in anything client-facing. The restoration
+    # content-writer prompt bans them but the construction/plumbing prompts
+    # didn't, and prompts drift — this strip is the guarantee. Applies to the
+    # body and every string frontmatter field (titles, meta descriptions, FAQ).
+    def _no_em(s):
+        if isinstance(s, str) and "—" in s:
+            s = re.sub(r"\s*—\s*", ", ", s)
+            s = re.sub(r",\s*,", ",", s)
+            s = re.sub(r"([.!?:;])\s*,\s*", r"\1 ", s)
+        return s
+    body_markdown = _no_em(body_markdown)
+    faq = [{k: _no_em(v) for k, v in item.items()} for item in faq] \
+        if isinstance(faq, list) else faq
+    fm = {k: _no_em(v) for k, v in fm.items()}
+
     # Update render-specific fields
     fm["faq"] = faq
     fm["generated_at"] = now_iso()

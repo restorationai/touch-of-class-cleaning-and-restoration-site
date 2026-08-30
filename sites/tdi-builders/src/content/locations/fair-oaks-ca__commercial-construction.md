@@ -20,34 +20,34 @@ state: "CA"
 service_display: "Commercial Construction and Tenant Improvements"
 rendered: true
 ---
-Fair Oaks sits in an older corridor of Sacramento County where commercial strips along Sunrise Boulevard and Madison Avenue still carry a mix of mid-century retail buildings, converted professional offices, and newer mixed-use infill — all with different structural bones and very different demands when a business owner needs to renovate, expand, or build from the ground up. TDI Builders, Inc. has been working through exactly that kind of complexity since 1985, and the team brings licensed, insured general contracting experience across commercial, industrial, and residential scopes to every project in this community.
+Fair Oaks sits in an older corridor of Sacramento County where commercial strips along Sunrise Boulevard and Madison Avenue still carry a mix of mid-century retail buildings, converted professional offices, and newer mixed-use infill, all with different structural bones and very different demands when a business owner needs to renovate, expand, or build from the ground up. TDI Builders, Inc. has been working through exactly that kind of complexity since 1985, and the team brings licensed, insured general contracting experience across commercial, industrial, and residential scopes to every project in this community.
 
 ## Why Fair Oaks Commercial Buildings Present Unique Construction Challenges
 
-Much of the commercial building stock along the Fair Oaks business corridors was constructed in the 1960s through the 1980s — an era before current Title 24 energy standards, ADA accessibility requirements, and modern mechanical load expectations. When a tenant moves into a space that hasn't been touched in twenty years, the walls may hide undersized electrical panels, HVAC systems that can't support today's density of equipment and occupants, and plumbing rough-ins that don't align with current fixture placement. Sacramento County's permitting authority reviews these conditions carefully during plan check, and projects that don't account for them upfront routinely stall.
+Much of the commercial building stock along the Fair Oaks business corridors was constructed in the 1960s through the 1980s, an era before current Title 24 energy standards, ADA accessibility requirements, and modern mechanical load expectations. When a tenant moves into a space that hasn't been touched in twenty years, the walls may hide undersized electrical panels, HVAC systems that can't support today's density of equipment and occupants, and plumbing rough-ins that don't align with current fixture placement. Sacramento County's permitting authority reviews these conditions carefully during plan check, and projects that don't account for them upfront routinely stall.
 
-Fair Oaks also sits in a climate zone that swings from triple-digit summer heat to wet, cool winters — a range that stresses building envelopes and makes energy-code compliance a real design consideration, not a checkbox. Insulation upgrades, cool-roof requirements, and HVAC sizing are part of almost every meaningful tenant improvement here.
+Fair Oaks also sits in a climate zone that swings from triple-digit summer heat to wet, cool winters, a range that stresses building envelopes and makes energy-code compliance a real design consideration, not a checkbox. Insulation upgrades, cool-roof requirements, and HVAC sizing are part of almost every meaningful tenant improvement here.
 
 ## Our Commercial Construction and Tenant Improvements Process in Fair Oaks
 
-Every project starts with a thorough site walk — not a sales visit. We look at the existing conditions: panel capacity, structural spans, ceiling plenum clearance, and whether the space has been through previous tenant improvements that left buried complications. That assessment shapes the scope, the permit drawings, and the schedule before a single subcontractor is mobilized.
+Every project starts with a thorough site walk, not a sales visit. We look at the existing conditions: panel capacity, structural spans, ceiling plenum clearance, and whether the space has been through previous tenant improvements that left buried complications. That assessment shapes the scope, the permit drawings, and the schedule before a single subcontractor is mobilized.
 
 From there, the process runs in a sequence built to keep your business on track:
 
-- **Permit coordination** with Sacramento County (or the applicable jurisdiction) — we prepare or review construction documents and manage the plan-check cycle so you're not chasing inspectors.
-- **Demolition and rough-in** — framing, electrical, plumbing, and mechanical are sequenced to minimize conflicts and pass inspections on the first attempt where possible.
-- **Finish work and systems integration** — flooring, ceilings, storefront, millwork, and technology infrastructure are coordinated so trades don't undo each other's work.
-- **Final inspections and punch-list** — we walk the space with you before closeout, not after you've already signed off.
+- **Permit coordination** with Sacramento County (or the applicable jurisdiction), we prepare or review construction documents and manage the plan-check cycle so you're not chasing inspectors.
+- **Demolition and rough-in**, framing, electrical, plumbing, and mechanical are sequenced to minimize conflicts and pass inspections on the first attempt where possible.
+- **Finish work and systems integration**, flooring, ceilings, storefront, millwork, and technology infrastructure are coordinated so trades don't undo each other's work.
+- **Final inspections and punch-list**, we walk the space with you before closeout, not after you've already signed off.
 
-For tenant improvements specifically, we also coordinate directly with landlords and property managers on lease exhibit requirements — a step that gets skipped on smaller jobs and causes expensive change orders later.
+For tenant improvements specifically, we also coordinate directly with landlords and property managers on lease exhibit requirements, a step that gets skipped on smaller jobs and causes expensive change orders later.
 
 ## Reaching Fair Oaks from Our Sacramento Base
 
-TDI Builders operates out of Sacramento, and Fair Oaks is a straightforward drive east on Highway 50 or north through the Citrus Heights corridor depending on the project address. We're available around the clock for project questions and scheduling — the 24/7 availability that matters most during pre-construction when decisions need fast answers and during active construction when field conditions change without warning. For commercial clients along the Madison Avenue corridor or closer to the Hazel Avenue business district, we can typically stage a site visit the same day you call.
+TDI Builders operates out of Sacramento, and Fair Oaks is a straightforward drive east on Highway 50 or north through the Citrus Heights corridor depending on the project address. We're available around the clock for project questions and scheduling, the 24/7 availability that matters most during pre-construction when decisions need fast answers and during active construction when field conditions change without warning. For commercial clients along the Madison Avenue corridor or closer to the Hazel Avenue business district, we can typically stage a site visit the same day you call.
 
 ## Local Note
 
-One detail that catches out-of-area contractors in Fair Oaks: a meaningful number of commercial parcels in this part of unincorporated Sacramento County fall under the county's jurisdiction rather than any city's, which means permitting goes through Sacramento County Department of Community Development rather than a municipal building department. The plan-check timelines, fee schedules, and inspector availability differ from what contractors accustomed to working in the City of Sacramento expect. Knowing which jurisdiction controls your parcel before submitting drawings saves weeks — and occasionally reveals that a project requires a discretionary land-use approval before building permits can even be applied for.
+One detail that catches out-of-area contractors in Fair Oaks: a meaningful number of commercial parcels in this part of unincorporated Sacramento County fall under the county's jurisdiction rather than any city's, which means permitting goes through Sacramento County Department of Community Development rather than a municipal building department. The plan-check timelines, fee schedules, and inspector availability differ from what contractors accustomed to working in the City of Sacramento expect. Knowing which jurisdiction controls your parcel before submitting drawings saves weeks, and occasionally reveals that a project requires a discretionary land-use approval before building permits can even be applied for.
 
 ## Closing
 

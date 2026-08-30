@@ -1,1 +1,133 @@
-{}
+{
+  "/images/hero-bg.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/logo.png": {
+    "width": 600,
+    "height": 589,
+    "variants": []
+  },
+  "/images/services/bathroom-remodeling.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/commercial-construction.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/fire-smoke-rebuilding.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/garage-construction.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/general-contracting.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/home-remodeling.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/kitchen-remodeling.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/mold-remediation.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/new-construction.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/room-addition.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/storm-damage-restoration.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-damage-restoration.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/team.webp": {
+    "width": 1264,
+    "height": 848,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  }
+}

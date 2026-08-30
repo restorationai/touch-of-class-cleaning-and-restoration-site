@@ -19,36 +19,36 @@ state: "CA"
 primary: false
 rendered: true
 ---
-TDI Builders, Inc. handles water damage mitigation, fire and smoke restoration, mold remediation, and full reconstruction for homeowners and property managers in Loomis, CA. Operating around the clock since 1985, the team reaches Loomis from Sacramento via I-80 East — roughly 25 miles — and covers the surrounding Placer County footprint. When something goes wrong with your property, the call goes to (877) 688-0866.
+TDI Builders, Inc. handles water damage mitigation, fire and smoke restoration, mold remediation, and full reconstruction for homeowners and property managers in Loomis, CA. Operating around the clock since 1985, the team reaches Loomis from Sacramento via I-80 East, roughly 25 miles, and covers the surrounding Placer County footprint. When something goes wrong with your property, the call goes to (877) 688-0866.
 
 ## Restoration emergencies common in Loomis
 
-Loomis sits in the Sierra Nevada foothills at an elevation where the climate swings harder than the Sacramento Valley floor. Wet winters bring atmospheric river events that can drop several inches of rain in 24 hours, overwhelming gutters, grading, and crawlspace drainage on properties that were never designed for that kind of saturation. Summer heat — routinely above 100°F — stresses older plumbing and HVAC systems, and the dry season creates serious wildfire exposure; smoke infiltration and ember-related ignitions are real risks for homes near the open space corridors that define much of Loomis's character.
+Loomis sits in the Sierra Nevada foothills at an elevation where the climate swings harder than the Sacramento Valley floor. Wet winters bring atmospheric river events that can drop several inches of rain in 24 hours, overwhelming gutters, grading, and crawlspace drainage on properties that were never designed for that kind of saturation. Summer heat, routinely above 100°F, stresses older plumbing and HVAC systems, and the dry season creates serious wildfire exposure; smoke infiltration and ember-related ignitions are real risks for homes near the open space corridors that define much of Loomis's character.
 
 The housing stock is a mix of mid-century ranch homes, 1970s–1990s tract construction, and newer custom builds on larger lots. Older homes often have crawlspaces rather than slabs, which means a single plumbing failure or a wet winter can leave moisture trapped under the structure for weeks before a homeowner notices the smell. That delay is exactly when mold colonization accelerates.
 
 ## Services we provide in Loomis
 
-**Water damage restoration** — Loomis properties with crawlspace foundations are especially vulnerable to groundwater intrusion and plumbing leaks that go undetected under the subfloor. Standing water under a home can read dry at the surface while the joists and insulation stay saturated. Extraction, structural drying, and moisture mapping are the core of what we do here.
+**Water damage restoration**, Loomis properties with crawlspace foundations are especially vulnerable to groundwater intrusion and plumbing leaks that go undetected under the subfloor. Standing water under a home can read dry at the surface while the joists and insulation stay saturated. Extraction, structural drying, and moisture mapping are the core of what we do here.
 
-**Fire and smoke damage restoration** — Wildfire smoke travels. Even a fire burning miles away in the Auburn or Rocklin corridor can push fine particulate and odor compounds into a home's HVAC system, attic insulation, and wall cavities. Post-fire and post-smoke scopes in Loomis frequently involve duct cleaning, content pack-out, and odor neutralization alongside visible char removal.
+**Fire and smoke damage restoration**, Wildfire smoke travels. Even a fire burning miles away in the Auburn or Rocklin corridor can push fine particulate and odor compounds into a home's HVAC system, attic insulation, and wall cavities. Post-fire and post-smoke scopes in Loomis frequently involve duct cleaning, content pack-out, and odor neutralization alongside visible char removal.
 
-**Mold remediation** — The combination of crawlspace construction, seasonal humidity, and occasional deferred maintenance makes mold a recurring issue in Loomis. Remediation here often means working in tight crawlspace conditions, addressing the moisture source, and coordinating with reconstruction to restore vapor barriers and insulation.
+**Mold remediation**, The combination of crawlspace construction, seasonal humidity, and occasional deferred maintenance makes mold a recurring issue in Loomis. Remediation here often means working in tight crawlspace conditions, addressing the moisture source, and coordinating with reconstruction to restore vapor barriers and insulation.
 
-**Reconstruction and build-back** — After mitigation is complete, the same crew that dried the structure can handle framing, drywall, flooring, and finish work. Keeping the project under one contractor simplifies insurance documentation and avoids the scheduling gaps that come from handing off between separate companies.
+**Reconstruction and build-back**, After mitigation is complete, the same crew that dried the structure can handle framing, drywall, flooring, and finish work. Keeping the project under one contractor simplifies insurance documentation and avoids the scheduling gaps that come from handing off between separate companies.
 
 ## Coverage and how fast we can get there
 
-From TDI Builders' Sacramento headquarters, the primary route to Loomis is I-80 East to the Horseshoe Bar Road or Loomis exits — a straightforward drive through Roseville and Rocklin. Because the team operates 24/7, a call at any hour reaches a live dispatcher who can coordinate a response without waiting for business hours to open.
+From TDI Builders' Sacramento headquarters, the primary route to Loomis is I-80 East to the Horseshoe Bar Road or Loomis exits, a straightforward drive through Roseville and Rocklin. Because the team operates 24/7, a call at any hour reaches a live dispatcher who can coordinate a response without waiting for business hours to open.
 
 Loomis is a relatively compact community, so once a crew is on the highway, travel time to any part of town is consistent. Properties further out toward the Penryn or Newcastle edges of the area are still well within the coverage zone, and Placer County's road network makes routing predictable in most conditions.
 
 ## Building stock, site conditions, and permits in Loomis
 
-Loomis's residential building stock spans several decades, with a meaningful share of homes built between the 1950s and 1990s. Crawlspace foundations are common in this era, and older supply lines in the area may include galvanized steel or copper — both of which corrode in ways that cause slow leaks behind walls before they announce themselves. Homes built before the mid-1980s should be evaluated for asbestos-containing materials in floor tile, pipe insulation, and textured ceilings before any invasive demolition begins; lead paint is similarly a planning consideration in pre-1978 construction.
+Loomis's residential building stock spans several decades, with a meaningful share of homes built between the 1950s and 1990s. Crawlspace foundations are common in this era, and older supply lines in the area may include galvanized steel or copper, both of which corrode in ways that cause slow leaks behind walls before they announce themselves. Homes built before the mid-1980s should be evaluated for asbestos-containing materials in floor tile, pipe insulation, and textured ceilings before any invasive demolition begins; lead paint is similarly a planning consideration in pre-1978 construction.
 
 The soils in the Loomis area transition from the heavier clay of the valley floor to decomposed granite and rocky foothill substrate. Clay-dominant areas can shift seasonally with moisture changes, which puts stress on slab edges and foundation perimeters. Drainage grading matters here.
 
 Permits for structural repair and reconstruction in Loomis are issued through Placer County's Department of Engineering and Surveying (or the Building Division for residential work). California's Title 24 energy code and the current adopted building code edition govern scope, and work that touches structural framing, electrical, or plumbing typically requires a permit and inspection before close-out.
 
-When your property has been damaged and you're not sure what to do next, the clearest first step is a documented assessment. Call TDI Builders, Inc. at (877) 688-0866 — day or night — and a team member will walk you through what the scope looks like, how insurance documentation works, and what comes first.
+When your property has been damaged and you're not sure what to do next, the clearest first step is a documented assessment. Call TDI Builders, Inc. at (877) 688-0866, day or night, and a team member will walk you through what the scope looks like, how insurance documentation works, and what comes first.

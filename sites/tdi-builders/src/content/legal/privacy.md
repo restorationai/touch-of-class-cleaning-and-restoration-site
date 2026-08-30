@@ -22,11 +22,11 @@ This privacy policy explains how TDI Builders, Inc. collects, uses, and protects
 
 ## Information We Collect
 
-When you fill out a contact or estimate-request form, we receive the details you provide — typically your name, phone number, email address, property address, and a description of the damage or project. We also collect basic, anonymized analytics data (pages visited, browser type, general geographic region) through standard web analytics tools. We do not use tracking pixels, build behavioral profiles, or collect payment card information through the website.
+When you fill out a contact or estimate-request form, we receive the details you provide, typically your name, phone number, email address, property address, and a description of the damage or project. We also collect basic, anonymized analytics data (pages visited, browser type, general geographic region) through standard web analytics tools. We do not use tracking pixels, build behavioral profiles, or collect payment card information through the website.
 
 ## How We Use Your Information
 
-The information you submit is used to respond to your inquiry, schedule an on-site estimate, and — where you authorize it — coordinate documentation with your insurance carrier. If you are filing a claim, we may share relevant loss documentation (photos, moisture readings, scope notes) with your adjuster, but only after you have given us explicit direction to do so. We do not use your contact details for unrelated marketing, and we do not sell or rent your information to third parties under any circumstances.
+The information you submit is used to respond to your inquiry, schedule an on-site estimate, and, where you authorize it, coordinate documentation with your insurance carrier. If you are filing a claim, we may share relevant loss documentation (photos, moisture readings, scope notes) with your adjuster, but only after you have given us explicit direction to do so. We do not use your contact details for unrelated marketing, and we do not sell or rent your information to third parties under any circumstances.
 
 ## Data Sharing and Third Parties
 
@@ -38,10 +38,10 @@ Contact and project records are retained for as long as needed to fulfill the se
 
 ## Your Rights as a California Resident
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request its deletion, and opt out of any sale of that information — though as noted above, we do not sell personal data. To exercise any of these rights, contact us at (877) 688-0866 or write to us at the address above. We will respond within the timeframe the law requires.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request its deletion, and opt out of any sale of that information, though as noted above, we do not sell personal data. To exercise any of these rights, contact us at (877) 688-0866 or write to us at the address above. We will respond within the timeframe the law requires.
 
 For visitors outside California: this site is operated by a California-based contractor and is not specifically directed at residents of the European Union. GDPR obligations are unlikely to apply, but if you believe they do and have a concern, contact us and we will work through it in good faith.
 
 ## Changes to This Policy
 
-If we update this policy in a material way, we will revise the effective date at the top of this page. Continued use of the site after a change constitutes acceptance of the updated terms. For questions or concerns at any time, call (877) 688-0866 or write to TDI Builders, Inc., 701 Del Paso Rd, Sacramento, CA 95834.
+If we update this policy in a material way, we will revise the effective date at the top of this page. Continued use of the site after a change constitutes acceptance of the updated terms. For questions or concerns at any time, call (877) 688-0866 or write to TDI Builders, Inc. 701 Del Paso Rd, Sacramento, CA 95834.

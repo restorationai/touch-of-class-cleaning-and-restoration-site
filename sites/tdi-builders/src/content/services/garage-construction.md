@@ -17,41 +17,41 @@ service_slug: "garage-construction"
 service_display: "Garage Construction"
 rendered: true
 ---
-Most Sacramento homeowners reach the decision point the same way: the driveway is full, the side yard is wasted space, or the house simply doesn't have enough covered storage to function. A garage isn't a luxury addition — it's a structural project that affects your property value, your permit record, and the way the rest of your lot drains and sits. Getting it right means more than pouring a slab and framing walls; it means engineering a building that matches your soil conditions, ties into your existing structure correctly if attached, and passes every inspection the first time.
+Most Sacramento homeowners reach the decision point the same way: the driveway is full, the side yard is wasted space, or the house simply doesn't have enough covered storage to function. A garage isn't a luxury addition, it's a structural project that affects your property value, your permit record, and the way the rest of your lot drains and sits. Getting it right means more than pouring a slab and framing walls; it means engineering a building that matches your soil conditions, ties into your existing structure correctly if attached, and passes every inspection the first time.
 
 ## What garage construction actually involves
 
-A garage build — whether a new detached structure, an attached addition, or a conversion of an existing space — is a permitted construction project from day one. In Sacramento and surrounding jurisdictions, that means architectural drawings or engineered plans, a site plan showing setbacks and lot coverage, and sequential inspections at foundation, framing, and final. The physical work spans site grading and forming, concrete flatwork (typically a 4-inch slab with thickened edges at bearing points), pressure-treated sill plates, wood or steel framing, sheathing, roofing that ties into existing drainage, and finish work — drywall, electrical rough-in, garage door rough opening, and weatherproofing.
+A garage build, whether a new detached structure, an attached addition, or a conversion of an existing space, is a permitted construction project from day one. In Sacramento and surrounding jurisdictions, that means architectural drawings or engineered plans, a site plan showing setbacks and lot coverage, and sequential inspections at foundation, framing, and final. The physical work spans site grading and forming, concrete flatwork (typically a 4-inch slab with thickened edges at bearing points), pressure-treated sill plates, wood or steel framing, sheathing, roofing that ties into existing drainage, and finish work, drywall, electrical rough-in, garage door rough opening, and weatherproofing.
 
-Timeline from permit submittal to final inspection varies by jurisdiction and project complexity. A straightforward detached single-car garage in an unincorporated Sacramento County area can move faster than a two-car attached addition in a city with a backlog at the building department. Realistic planning windows run from six to sixteen weeks depending on permitting pace, site conditions, and finish scope — not counting the pre-permit design phase.
+Timeline from permit submittal to final inspection varies by jurisdiction and project complexity. A straightforward detached single-car garage in an unincorporated Sacramento County area can move faster than a two-car attached addition in a city with a backlog at the building department. Realistic planning windows run from six to sixteen weeks depending on permitting pace, site conditions, and finish scope, not counting the pre-permit design phase.
 
 Equipment on site includes concrete formwork and a ready-mix truck for the pour, framing crews with engineered lumber where span tables require it, and inspection-ready documentation at every stage.
 
 ## Our process
 
-1. **Site evaluation and design scope** — We walk the property, measure setbacks against your parcel map, assess grade and drainage, and identify whether the project is detached, attached, or a conversion. We flag any HOA restrictions, easements, or utility conflicts before design begins.
+1. **Site evaluation and design scope**, We walk the property, measure setbacks against your parcel map, assess grade and drainage, and identify whether the project is detached, attached, or a conversion. We flag any HOA restrictions, easements, or utility conflicts before design begins.
 
-2. **Permit-ready drawings and submittal** — We prepare or coordinate the architectural and site plans required by your local building department, submit the application, and track the review. We handle correction responses so the permit moves forward without the homeowner chasing the counter.
+2. **Permit-ready drawings and submittal**, We prepare or coordinate the architectural and site plans required by your local building department, submit the application, and track the review. We handle correction responses so the permit moves forward without the homeowner chasing the counter.
 
-3. **Foundation and flatwork** — We form and pour the slab to code, including proper compaction of the sub-base, vapor barrier where required, and reinforcement. The slab is the most consequential part of the build — settlement or cracking here affects every wall and door above it.
+3. **Foundation and flatwork**, We form and pour the slab to code, including proper compaction of the sub-base, vapor barrier where required, and reinforcement. The slab is the most consequential part of the build, settlement or cracking here affects every wall and door above it.
 
-4. **Framing, sheathing, and roofing** — Wall framing is sized for the span and load, headers are engineered for the garage door opening width, and the roof ties into existing structure (for attached builds) or stands independently with correct drainage slope. Sheathing and housewrap go on before roofing so the building is dried-in before interior work begins.
+4. **Framing, sheathing, and roofing**, Wall framing is sized for the span and load, headers are engineered for the garage door opening width, and the roof ties into existing structure (for attached builds) or stands independently with correct drainage slope. Sheathing and housewrap go on before roofing so the building is dried-in before interior work begins.
 
-5. **Finish, inspection, and closeout** — Electrical rough-in, drywall (required on shared walls with living space for fire separation), garage door installation, and final grading around the perimeter. We schedule and attend every inspection and deliver the final permit card and close-out documents to you.
+5. **Finish, inspection, and closeout**, Electrical rough-in, drywall (required on shared walls with living space for fire separation), garage door installation, and final grading around the perimeter. We schedule and attend every inspection and deliver the final permit card and close-out documents to you.
 
 ## What separates a good garage build from a bad one
 
-The most common failure point isn't the framing — it's what happens before a single board goes up. Setback violations are the leading cause of stop-work orders and forced demolitions on unpermitted or mispermitted garage projects. Sacramento County and the incorporated cities each have their own accessory structure rules for rear and side setbacks, lot coverage maximums, and height limits. A contractor who doesn't pull the parcel-specific zoning data before design is guessing.
+The most common failure point isn't the framing, it's what happens before a single board goes up. Setback violations are the leading cause of stop-work orders and forced demolitions on unpermitted or mispermitted garage projects. Sacramento County and the incorporated cities each have their own accessory structure rules for rear and side setbacks, lot coverage maximums, and height limits. A contractor who doesn't pull the parcel-specific zoning data before design is guessing.
 
-Slab failures are the second major problem. Sacramento's clay-heavy soils expand and contract with seasonal moisture changes — the same dynamic that buckles sidewalks and cracks foundations throughout the region. A slab poured without adequate sub-base compaction or without accounting for drainage away from the structure will show movement within a few seasons. Proper grading and a compacted aggregate base aren't optional line items to cut.
+Slab failures are the second major problem. Sacramento's clay-heavy soils expand and contract with seasonal moisture changes, the same dynamic that buckles sidewalks and cracks foundations throughout the region. A slab poured without adequate sub-base compaction or without accounting for drainage away from the structure will show movement within a few seasons. Proper grading and a compacted aggregate base aren't optional line items to cut.
 
 On attached additions, the connection between the new roof and the existing house is where water intrusion problems originate. The flashing at that junction has to be integrated with the existing roofing material, not just lapped over it. Inspectors catch this; rain catches it faster.
 
-For garage conversions — turning an existing garage into living space — the fire separation wall between the converted area and the garage (if any remains) must meet current code, and the slab typically needs to be raised or a subfloor system added to meet habitable space requirements. Skipping either creates a code violation that surfaces at resale.
+For garage conversions, turning an existing garage into living space, the fire separation wall between the converted area and the garage (if any remains) must meet current code, and the slab typically needs to be raised or a subfloor system added to meet habitable space requirements. Skipping either creates a code violation that surfaces at resale.
 
 ## What does garage construction cost?
 
-Typical costs for garage construction depend heavily on size, attachment type, finish level, and local permitting fees. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not TDI Builders, Inc. quotes, and every project is scoped individually before work begins.
+Typical costs for garage construction depend heavily on size, attachment type, finish level, and local permitting fees. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not TDI Builders, Inc. quotes, and every project is scoped individually before work begins.
 
 | Scenario | Typical range |
 |---|---|
@@ -62,16 +62,16 @@ Typical costs for garage construction depend heavily on size, attachment type, f
 | Garage conversion to living space | $30,000 – $65,000 |
 | Garage conversion to ADU (permitted) | $60,000 – $120,000 |
 
-Homeowners insurance does not typically cover new garage construction as a capital improvement, but it may cover reconstruction of a damaged or destroyed garage under your dwelling or other structures coverage — TDI Builders, Inc. works with all major carriers and handles claim documentation when the project originates from a covered loss. TDI Builders, Inc. provides a written scope of work before any construction begins.
+Homeowners insurance does not typically cover new garage construction as a capital improvement, but it may cover reconstruction of a damaged or destroyed garage under your dwelling or other structures coverage, TDI Builders, Inc. works with all major carriers and handles claim documentation when the project originates from a covered loss. TDI Builders, Inc. provides a written scope of work before any construction begins.
 
 ## Seasonal and regional considerations
 
-Sacramento's wet season runs roughly November through March. Concrete pours and foundation work are best scheduled outside of extended rain windows — not because rain makes the work impossible, but because curing concrete needs protection from standing water and freeze events, and grading work done in saturated soil can shift before compaction holds. Projects that start framing in late spring typically move through inspections during the driest, most predictable months. If your timeline is flexible, planning your permit submittal in late summer for a fall or early-winter start puts the slab work in the dry season and framing into spring.
+Sacramento's wet season runs roughly November through March. Concrete pours and foundation work are best scheduled outside of extended rain windows, not because rain makes the work impossible, but because curing concrete needs protection from standing water and freeze events, and grading work done in saturated soil can shift before compaction holds. Projects that start framing in late spring typically move through inspections during the driest, most predictable months. If your timeline is flexible, planning your permit submittal in late summer for a fall or early-winter start puts the slab work in the dry season and framing into spring.
 
 Clay soil expansion is a year-round consideration in Sacramento and the surrounding valley floor. Any contractor scoping your foundation should be accounting for it in the sub-base specification, not treating it as a standard flat-ground pour.
 
 ## Service area
 
-TDI Builders, Inc. is based in Sacramento and builds garages throughout the greater Sacramento region — including Elk Grove, Roseville, Folsom, Citrus Heights, Rancho Cordova, West Sacramento, Davis, and surrounding communities. Each city and county jurisdiction has its own permit process; we handle submittals locally across the service area.
+TDI Builders, Inc. is based in Sacramento and builds garages throughout the greater Sacramento region, including Elk Grove, Roseville, Folsom, Citrus Heights, Rancho Cordova, West Sacramento, Davis, and surrounding communities. Each city and county jurisdiction has its own permit process; we handle submittals locally across the service area.
 
 Ready to move from driveway frustration to a finished, permitted garage? Call TDI Builders, Inc. at (877) 688-0866 to schedule your site evaluation and get a written project scope.

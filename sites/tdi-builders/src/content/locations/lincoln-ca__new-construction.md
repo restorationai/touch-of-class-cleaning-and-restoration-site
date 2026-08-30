@@ -20,11 +20,11 @@ state: "CA"
 service_display: "New Home Construction"
 rendered: true
 ---
-Lincoln is growing fast — and building here means navigating Placer County's permit pipeline, the clay-heavy soils common across the western foothills, and a high-desert climate that swings from triple-digit summer heat to hard freezes in January. Getting a new home built right in this environment takes more than a general contractor with a lumber account. It takes a team that understands how those conditions shape every decision from foundation depth to roof assembly, and that has the experience to keep a project moving when inspections, utility connections, or weather create delays.
+Lincoln is growing fast, and building here means navigating Placer County's permit pipeline, the clay-heavy soils common across the western foothills, and a high-desert climate that swings from triple-digit summer heat to hard freezes in January. Getting a new home built right in this environment takes more than a general contractor with a lumber account. It takes a team that understands how those conditions shape every decision from foundation depth to roof assembly, and that has the experience to keep a project moving when inspections, utility connections, or weather create delays.
 
 ## Building on Lincoln's Land and Climate
 
-The soils across much of Lincoln's expanding footprint — particularly in the newer growth corridors pushing toward Highway 65 — include expansive clay that swells when wet and shrinks when dry. That seasonal movement is not just a landscaping concern; it directly affects how a foundation is engineered and poured. A slab designed for stable sandy loam behaves very differently over clay that shifts two to three inches between a wet February and a dry August. Our pre-construction process includes a review of soils data for each parcel so the foundation system is sized and reinforced for what is actually beneath the site, not a regional average.
+The soils across much of Lincoln's expanding footprint, particularly in the newer growth corridors pushing toward Highway 65, include expansive clay that swells when wet and shrinks when dry. That seasonal movement is not just a landscaping concern; it directly affects how a foundation is engineered and poured. A slab designed for stable sandy loam behaves very differently over clay that shifts two to three inches between a wet February and a dry August. Our pre-construction process includes a review of soils data for each parcel so the foundation system is sized and reinforced for what is actually beneath the site, not a regional average.
 
 The climate also shapes framing and envelope decisions. Lincoln's summer heat regularly pushes well past 100°F, and energy code compliance in Placer County requires careful attention to insulation values, cool-roof specifications, and window performance ratings. Getting those details right at the design and permitting stage saves homeowners from costly retrofits later and keeps the home comfortable without an oversized HVAC system working against the sun.
 
@@ -32,17 +32,17 @@ The climate also shapes framing and envelope decisions. Lincoln's summer heat re
 
 Every ground-up build we manage in Lincoln moves through the same disciplined sequence, calibrated to local conditions:
 
-**Site evaluation and pre-permit coordination** — Before a shovel turns, we assess the parcel, review any Placer County grading or drainage requirements, and confirm utility availability with the relevant providers. New subdivisions on Lincoln's edges sometimes require coordination with PG&E and the local water district on service extensions that older in-fill lots do not.
+**Site evaluation and pre-permit coordination**, Before a shovel turns, we assess the parcel, review any Placer County grading or drainage requirements, and confirm utility availability with the relevant providers. New subdivisions on Lincoln's edges sometimes require coordination with PG&E and the local water district on service extensions that older in-fill lots do not.
 
-**Structural design and permit submittal** — We work with licensed engineers and architects to produce construction documents that meet current California Building Code requirements as adopted by Placer County. Permit timelines vary, and we build realistic schedules that account for plan check cycles rather than assuming best-case turnaround.
+**Structural design and permit submittal**, We work with licensed engineers and architects to produce construction documents that meet current California Building Code requirements as adopted by Placer County. Permit timelines vary, and we build realistic schedules that account for plan check cycles rather than assuming best-case turnaround.
 
-**Framing, rough trades, and inspections** — Framing in Lincoln's climate means selecting lumber and sheathing products that perform through the region's humidity swings. We stage rough electrical, plumbing, and HVAC work to align with inspection windows, so the project does not sit idle waiting for a re-inspection that could have been avoided.
+**Framing, rough trades, and inspections**, Framing in Lincoln's climate means selecting lumber and sheathing products that perform through the region's humidity swings. We stage rough electrical, plumbing, and HVAC work to align with inspection windows, so the project does not sit idle waiting for a re-inspection that could have been avoided.
 
-**Finish work and final sign-off** — Interior and exterior finishes are selected and installed with the local climate in mind — exterior stucco and paint systems, for example, need to handle both the dry summer UV exposure and the occasional freeze-thaw cycle that Lincoln winters can produce.
+**Finish work and final sign-off**, Interior and exterior finishes are selected and installed with the local climate in mind, exterior stucco and paint systems, for example, need to handle both the dry summer UV exposure and the occasional freeze-thaw cycle that Lincoln winters can produce.
 
 ## Reaching Lincoln from Sacramento
 
-TDI Builders operates out of Sacramento, and Lincoln is a straightforward run north on I-80 to Highway 65 — a route our crews travel regularly for active projects in Placer County. We are available around the clock, so scheduling site visits, responding to construction questions, or addressing issues that come up mid-project is not constrained to a narrow business-hours window. If something needs attention on a job site, we can be there.
+TDI Builders operates out of Sacramento, and Lincoln is a straightforward run north on I-80 to Highway 65, a route our crews travel regularly for active projects in Placer County. We are available around the clock, so scheduling site visits, responding to construction questions, or addressing issues that come up mid-project is not constrained to a narrow business-hours window. If something needs attention on a job site, we can be there.
 
 ## Local Note
 
@@ -50,4 +50,4 @@ One thing that catches out-of-area builders in Lincoln is the pace of Placer Cou
 
 ## Building Your Home in Lincoln
 
-Lincoln's growth means there is real demand for quality residential construction — and real competition among builders for the trades, materials, and inspection slots that every project depends on. With more than 40 years of construction and rebuilding experience across Northern California, TDI Builders brings the organizational depth to manage that competition on your behalf. If you are ready to build in Lincoln, call (877) 688-0866 and talk through what your project needs.
+Lincoln's growth means there is real demand for quality residential construction, and real competition among builders for the trades, materials, and inspection slots that every project depends on. With more than 40 years of construction and rebuilding experience across Northern California, TDI Builders brings the organizational depth to manage that competition on your behalf. If you are ready to build in Lincoln, call (877) 688-0866 and talk through what your project needs.

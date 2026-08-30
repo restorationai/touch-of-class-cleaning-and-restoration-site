@@ -21,7 +21,7 @@ Hiring the wrong general contractor in Sacramento can cost you tens of thousands
 
 ## Why Sacramento's Market Makes This Harder Than It Looks
 
-Sacramento's construction market has been running hot. The region's population growth, the post-pandemic renovation surge, and a steady pipeline of infill development in neighborhoods like Oak Park, Natomas, and Midtown have stretched contractor availability thin. When demand outpaces supply, two things happen: legitimate contractors get booked out months in advance, and less scrupulous operators — or outright unlicensed crews — step into the gap.
+Sacramento's construction market has been running hot. The region's population growth, the post-pandemic renovation surge, and a steady pipeline of infill development in neighborhoods like Oak Park, Natomas, and Midtown have stretched contractor availability thin. When demand outpaces supply, two things happen: legitimate contractors get booked out months in advance, and less scrupulous operators, or outright unlicensed crews, step into the gap.
 
 The Valley's climate adds another wrinkle. Sacramento's hot, dry summers followed by wet winters create a specific rhythm of damage: slab leaks from clay soil movement, roof failures after the first hard rain of the season, and moisture intrusion in older Craftsman and mid-century homes that weren't built with modern vapor barriers. A general contractor who works regularly in the region will understand those patterns. One who doesn't may underbid a job because they missed what Sacramento's soil or housing stock actually requires.
 
@@ -33,7 +33,7 @@ Think of this as your pre-contract checklist. Skip any one of these and you're t
 
 2. **Workers' compensation and general liability insurance.** Ask for certificates of insurance naming you as an additional insured. If a worker is injured on your property and the contractor has no workers' comp, you can be held liable. This is not a formality.
 
-3. **A physical business address.** A contractor who operates only from a cell phone and a P.O. box is harder to hold accountable if something goes wrong. Look for a verifiable address — not just a suite number at a UPS Store.
+3. **A physical business address.** A contractor who operates only from a cell phone and a P.O. box is harder to hold accountable if something goes wrong. Look for a verifiable address, not just a suite number at a UPS Store.
 
 4. **References from comparable projects.** A contractor who has done excellent work on kitchen remodels may not have the subcontractor relationships to manage a ground-up new construction. Ask for references from projects similar in scope and dollar amount to yours, and actually call them.
 
@@ -41,7 +41,7 @@ Think of this as your pre-contract checklist. Skip any one of these and you're t
 
 ## How to Read a Bid (and Spot the Red Flags)
 
-Three bids is the standard advice, and it's good advice — but only if you know what you're comparing. A low bid isn't automatically a good deal. Here's what to look for:
+Three bids is the standard advice, and it's good advice, but only if you know what you're comparing. A low bid isn't automatically a good deal. Here's what to look for:
 
 - **Allowances that are too low.** Allowances are placeholders for items not yet selected (tile, fixtures, cabinets). A contractor who sets allowances unrealistically low wins the bid on paper, then hits you with change orders once you've signed and selections are made. Compare allowances across bids, not just totals.
 
@@ -67,16 +67,16 @@ A few mistakes show up repeatedly in contractor disputes. Avoid them regardless 
 
 The stakes are higher on ground-up new construction and whole-home remodels, and the contractor selection process should reflect that. A few additional considerations:
 
-For **new construction**, your contractor will be managing a web of subcontractors — framing crews, electricians, plumbers, HVAC installers, roofers — and coordinating inspections at each phase. Ask specifically how they manage that schedule and what happens when a sub falls behind. Sacramento County and the City of Sacramento both have active inspection requirements, and a contractor who doesn't have a working relationship with local inspectors will cost you time.
+For **new construction**, your contractor will be managing a web of subcontractors, framing crews, electricians, plumbers, HVAC installers, roofers, and coordinating inspections at each phase. Ask specifically how they manage that schedule and what happens when a sub falls behind. Sacramento County and the City of Sacramento both have active inspection requirements, and a contractor who doesn't have a working relationship with local inspectors will cost you time.
 
-For **major remodels**, particularly in older Sacramento neighborhoods where homes may date to the 1920s through 1960s, ask about the contractor's experience with lead paint and asbestos protocols. Disturbing materials in pre-1978 construction without proper containment isn't just a health issue — it's a regulatory one, and the liability falls on whoever did the work.
+For **major remodels**, particularly in older Sacramento neighborhoods where homes may date to the 1920s through 1960s, ask about the contractor's experience with lead paint and asbestos protocols. Disturbing materials in pre-1978 construction without proper containment isn't just a health issue, it's a regulatory one, and the liability falls on whoever did the work.
 
-For **home remodeling** projects that touch multiple systems (a kitchen remodel that moves plumbing and opens a wall, for example), make sure the bid reflects the full scope of what's behind the walls — not just the finish work you can see.
+For **home remodeling** projects that touch multiple systems (a kitchen remodel that moves plumbing and opens a wall, for example), make sure the bid reflects the full scope of what's behind the walls, not just the finish work you can see.
 
 ## Making Your Final Decision
 
 After you've verified licenses, compared itemized bids, checked references, and confirmed insurance, the final decision usually comes down to communication. The contractor you hire will be in your home or on your property for weeks or months. How quickly do they return calls? Do they explain things clearly or get defensive when you ask questions? Do they have a project manager you'll actually be able to reach?
 
-Those soft factors matter, but they come after the hard verification — not instead of it.
+Those soft factors matter, but they come after the hard verification, not instead of it.
 
-If you're starting a general contracting, home remodeling, or new construction project in the Sacramento area and want to talk through scope and timeline before committing to anything, TDI Builders, Inc. is available at (877) 688-0866. No pressure to sign on the first call — just a straight conversation about what your project actually requires.
+If you're starting a general contracting, home remodeling, or new construction project in the Sacramento area and want to talk through scope and timeline before committing to anything, TDI Builders, Inc. is available at (877) 688-0866. No pressure to sign on the first call, just a straight conversation about what your project actually requires.

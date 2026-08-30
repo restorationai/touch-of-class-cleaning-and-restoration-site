@@ -17,11 +17,11 @@ service_slug: "bathroom-remodeling"
 service_display: "Bathroom Remodeling"
 rendered: true
 ---
-That bathroom has been bothering you for years — the grout that never comes clean no matter how hard you scrub, the shower pan that flexes underfoot, the vanity that eats counter space while delivering almost no storage. A bathroom remodel fixes the specific things that make the room frustrating to use every single day, and when it's done right, it adds measurable value to the home. The work is more involved than most homeowners expect, which is exactly why the contractor you choose matters.
+That bathroom has been bothering you for years, the grout that never comes clean no matter how hard you scrub, the shower pan that flexes underfoot, the vanity that eats counter space while delivering almost no storage. A bathroom remodel fixes the specific things that make the room frustrating to use every single day, and when it's done right, it adds measurable value to the home. The work is more involved than most homeowners expect, which is exactly why the contractor you choose matters.
 
 ## What bathroom remodeling actually involves
 
-A bathroom renovation is not a cosmetic refresh. Behind those tiles and that drywall are waterproofing membranes, subfloor sheathing, supply lines, drain assemblies, vent stacks, and electrical circuits — all of which have to be evaluated, and often replaced, before the finish work begins.
+A bathroom renovation is not a cosmetic refresh. Behind those tiles and that drywall are waterproofing membranes, subfloor sheathing, supply lines, drain assemblies, vent stacks, and electrical circuits, all of which have to be evaluated, and often replaced, before the finish work begins.
 
 For a full master bath remodel, the scope typically includes demolition of existing tile, fixtures, and cabinetry; inspection and repair of the subfloor and wall framing; rough plumbing and electrical work (which requires permits in Sacramento and most surrounding jurisdictions); waterproofing the shower or wet area with a membrane system; tile installation; fixture and vanity installation; and finish work including trim, paint, and glass enclosures.
 
@@ -31,15 +31,15 @@ Timeline for a standard full bathroom renovation in Sacramento runs roughly two 
 
 ## Our process
 
-1. **Design consultation and scope of work** — We walk the space with you, document existing conditions (including any moisture readings if there's a history of leaks), and build a written scope that covers every line item before a single tile is touched. Material selections happen here so there are no surprises mid-project.
+1. **Design consultation and scope of work**, We walk the space with you, document existing conditions (including any moisture readings if there's a history of leaks), and build a written scope that covers every line item before a single tile is touched. Material selections happen here so there are no surprises mid-project.
 
-2. **Permits and rough-in** — Any work that touches plumbing, electrical, or structural elements requires a permit from the City of Sacramento or the applicable jurisdiction. We pull the permits, schedule inspections, and complete rough-in work — moving drains, relocating supply lines, adding circuits for GFCI outlets or heated floors — before walls are closed.
+2. **Permits and rough-in**, Any work that touches plumbing, electrical, or structural elements requires a permit from the City of Sacramento or the applicable jurisdiction. We pull the permits, schedule inspections, and complete rough-in work, moving drains, relocating supply lines, adding circuits for GFCI outlets or heated floors, before walls are closed.
 
-3. **Waterproofing and substrate preparation** — This is the step that separates a bathroom that lasts from one that fails. We install a continuous waterproofing membrane in all wet areas, verify the subfloor is solid and level, and use the right backer material for tile applications. A shower floor that pitches even slightly wrong will hold standing water and degrade grout and membrane over time.
+3. **Waterproofing and substrate preparation**, This is the step that separates a bathroom that lasts from one that fails. We install a continuous waterproofing membrane in all wet areas, verify the subfloor is solid and level, and use the right backer material for tile applications. A shower floor that pitches even slightly wrong will hold standing water and degrade grout and membrane over time.
 
-4. **Tile, fixtures, and cabinetry installation** — Tile layout is planned before the first piece is set — especially important in smaller bathrooms where a half-tile at an awkward edge reads as sloppy. Vanities, toilets, shower valves, and tub or shower enclosures are installed after tile is complete and cured.
+4. **Tile, fixtures, and cabinetry installation**, Tile layout is planned before the first piece is set, especially important in smaller bathrooms where a half-tile at an awkward edge reads as sloppy. Vanities, toilets, shower valves, and tub or shower enclosures are installed after tile is complete and cured.
 
-5. **Final inspection, punch list, and walkthrough** — We schedule the final permit inspection, address any punch-list items, and walk the finished space with you before we consider the project closed.
+5. **Final inspection, punch list, and walkthrough**, We schedule the final permit inspection, address any punch-list items, and walk the finished space with you before we consider the project closed.
 
 ## What separates a good bathroom remodel from a bad one
 
@@ -51,7 +51,7 @@ A third issue is tile layout that wasn't planned for the actual room dimensions.
 
 ## What does bathroom remodeling cost?
 
-Typical costs for bathroom remodeling vary significantly based on bathroom size, fixture selections, whether layout changes are involved, and local labor rates. Most homeowners in the Sacramento area pay somewhere in the ranges below — these are industry-typical figures, not TDI Builders, Inc. quotes, and every project is different.
+Typical costs for bathroom remodeling vary significantly based on bathroom size, fixture selections, whether layout changes are involved, and local labor rates. Most homeowners in the Sacramento area pay somewhere in the ranges below, these are industry-typical figures, not TDI Builders, Inc. quotes, and every project is different.
 
 | Scenario | Typical range |
 |---|---|
@@ -62,13 +62,13 @@ Typical costs for bathroom remodeling vary significantly based on bathroom size,
 | Full master bath remodel, no layout change | $18,000 – $40,000 |
 | Master bath remodel with layout or plumbing relocation | $35,000 – $65,000+ |
 
-TDI Builders provides a written scope of work with line-item pricing before any work begins — no estimate ranges that balloon at the final invoice. Standard bathroom remodeling is not typically covered by homeowners insurance unless the work is part of a covered loss (such as water damage or fire damage restoration); in those cases, TDI Builders works with all major carriers and handles claim documentation directly.
+TDI Builders provides a written scope of work with line-item pricing before any work begins, no estimate ranges that balloon at the final invoice. Standard bathroom remodeling is not typically covered by homeowners insurance unless the work is part of a covered loss (such as water damage or fire damage restoration); in those cases, TDI Builders works with all major carriers and handles claim documentation directly.
 
 ## Seasonal and regional considerations
 
-Sacramento's dry summers and wet winters affect bathroom remodel scheduling in a few practical ways. Tile adhesives and grout have manufacturer-specified temperature and humidity ranges for curing — work done in an unheated bathroom during a cold Central Valley winter needs to account for that. If your project involves opening exterior walls (to relocate plumbing or add a window), scheduling around Sacramento's November-through-March rain window matters for keeping the structure dry during construction.
+Sacramento's dry summers and wet winters affect bathroom remodel scheduling in a few practical ways. Tile adhesives and grout have manufacturer-specified temperature and humidity ranges for curing, work done in an unheated bathroom during a cold Central Valley winter needs to account for that. If your project involves opening exterior walls (to relocate plumbing or add a window), scheduling around Sacramento's November-through-March rain window matters for keeping the structure dry during construction.
 
-Older Sacramento neighborhoods — Curtis Park, Land Park, East Sacramento, Midtown — tend to have homes built before the 1970s with cast-iron drain lines, galvanized supply pipes, and subfloors that have seen decades of moisture exposure. A bathroom remodel in these homes almost always surfaces at least some plumbing or substrate work that wasn't visible at the start. Budgeting a contingency for that reality is standard practice on older stock.
+Older Sacramento neighborhoods, Curtis Park, Land Park, East Sacramento, Midtown, tend to have homes built before the 1970s with cast-iron drain lines, galvanized supply pipes, and subfloors that have seen decades of moisture exposure. A bathroom remodel in these homes almost always surfaces at least some plumbing or substrate work that wasn't visible at the start. Budgeting a contingency for that reality is standard practice on older stock.
 
 ## Service area
 

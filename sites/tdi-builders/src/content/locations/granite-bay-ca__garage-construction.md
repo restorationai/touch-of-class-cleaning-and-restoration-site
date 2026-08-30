@@ -20,21 +20,21 @@ state: "CA"
 service_display: "Garage Construction"
 rendered: true
 ---
-Granite Bay sits in the western Sierra Nevada foothills where long, dry summers bake the clay-heavy soils and wet winters can shift foundations in ways that catch homeowners off guard years later. That soil behavior matters when you're planning a garage — whether you're adding a detached workshop behind a custom home or converting an existing space into a finished two-car structure. TDI Builders, Inc. has been navigating those site conditions and the Placer County permitting process since 1985, and the work we do here reflects what this specific community actually requires.
+Granite Bay sits in the western Sierra Nevada foothills where long, dry summers bake the clay-heavy soils and wet winters can shift foundations in ways that catch homeowners off guard years later. That soil behavior matters when you're planning a garage, whether you're adding a detached workshop behind a custom home or converting an existing space into a finished two-car structure. TDI Builders, Inc. has been navigating those site conditions and the Placer County permitting process since 1985, and the work we do here reflects what this specific community actually requires.
 
 ## Why Garage Construction in Granite Bay Requires Local Know-How
 
-Granite Bay's residential character is defined by large lots, mature oak canopies, and a mix of custom homes built across several decades. Many properties were developed with oversized driveways but undersized or single-car garages — a mismatch that homeowners are now correcting with additions and detached structures. The challenge is that Placer County's unincorporated land-use rules govern most of Granite Bay, and setback requirements, lot coverage limits, and grading standards can vary significantly depending on how a parcel was originally subdivided.
+Granite Bay's residential character is defined by large lots, mature oak canopies, and a mix of custom homes built across several decades. Many properties were developed with oversized driveways but undersized or single-car garages, a mismatch that homeowners are now correcting with additions and detached structures. The challenge is that Placer County's unincorporated land-use rules govern most of Granite Bay, and setback requirements, lot coverage limits, and grading standards can vary significantly depending on how a parcel was originally subdivided.
 
-The expansive clay soils common throughout the foothill zone add another layer of planning. A slab poured without adequate compaction or moisture barrier work can heave or crack within a few seasons. We account for that at the design stage — specifying proper sub-base depth, vapor barriers, and reinforcement schedules before a single form is set.
+The expansive clay soils common throughout the foothill zone add another layer of planning. A slab poured without adequate compaction or moisture barrier work can heave or crack within a few seasons. We account for that at the design stage, specifying proper sub-base depth, vapor barriers, and reinforcement schedules before a single form is set.
 
-HOA covenants are also a real factor here. Many of Granite Bay's planned communities have architectural review boards with specific requirements around exterior materials, roof pitch, and door style. Getting HOA approval before breaking ground isn't optional — it's the difference between a smooth project and a stop-work order.
+HOA covenants are also a real factor here. Many of Granite Bay's planned communities have architectural review boards with specific requirements around exterior materials, roof pitch, and door style. Getting HOA approval before breaking ground isn't optional, it's the difference between a smooth project and a stop-work order.
 
 ## Our Garage Construction Process in Granite Bay
 
-Every project starts with a site assessment. We look at the existing grade, drainage patterns, utility locations, and any easements that could affect where a structure can legally sit. In Granite Bay, that often means coordinating with Placer County Planning for a building permit and, where applicable, submitting architectural drawings to an HOA review board simultaneously — so both tracks move in parallel rather than sequentially.
+Every project starts with a site assessment. We look at the existing grade, drainage patterns, utility locations, and any easements that could affect where a structure can legally sit. In Granite Bay, that often means coordinating with Placer County Planning for a building permit and, where applicable, submitting architectural drawings to an HOA review board simultaneously, so both tracks move in parallel rather than sequentially.
 
-Once permits are in hand, the sequence runs: excavation and grading, foundation forming and pour, framing, roofing, exterior finish, electrical rough-in, and final inspection. For attached garage additions, we tie into the existing structure carefully — matching roof lines, siding profiles, and interior access points so the addition reads as original construction rather than an afterthought.
+Once permits are in hand, the sequence runs: excavation and grading, foundation forming and pour, framing, roofing, exterior finish, electrical rough-in, and final inspection. For attached garage additions, we tie into the existing structure carefully, matching roof lines, siding profiles, and interior access points so the addition reads as original construction rather than an afterthought.
 
 Detached garages on larger Granite Bay lots often include secondary uses: workshop space, storage for recreational equipment, or a finished room above. We frame and wire for those possibilities from the start, because retrofitting a ceiling for a future bonus room is far more expensive than planning for it during initial construction.
 
@@ -44,12 +44,12 @@ TDI Builders is based in Sacramento and serves Granite Bay regularly. The primar
 
 ## Local Note
 
-One thing that catches out-of-area contractors in Granite Bay: the mature valley oaks scattered across residential lots are protected under Placer County's tree preservation guidelines, and garage footprints that encroach on a tree's critical root zone can trigger a required arborist report and, in some cases, a redesign. We flag potential conflicts during the initial site walk — before drawings are finalized — so there are no surprises when the county reviews the permit application. It's a detail that adds a step, but skipping it costs far more time than it saves.
+One thing that catches out-of-area contractors in Granite Bay: the mature valley oaks scattered across residential lots are protected under Placer County's tree preservation guidelines, and garage footprints that encroach on a tree's critical root zone can trigger a required arborist report and, in some cases, a redesign. We flag potential conflicts during the initial site walk, before drawings are finalized, so there are no surprises when the county reviews the permit application. It's a detail that adds a step, but skipping it costs far more time than it saves.
 
 ## Granite Bay HOA and Permit Coordination
 
 Because Granite Bay is unincorporated Placer County rather than a city, all building permits route through the county's Community Development Resource Agency. Plan check timelines vary by project complexity, and submitting complete, code-compliant drawings the first time is the fastest path through the queue. TDI Builders prepares permit packages that address structural, energy (Title 24 compliance is required for new conditioned space), and grading requirements upfront.
 
-For properties subject to HOA review, we provide the architectural documentation those boards typically request — elevations, material callouts, color samples — formatted to match what review committees expect. Coordinating both processes in parallel keeps your project moving.
+For properties subject to HOA review, we provide the architectural documentation those boards typically request, elevations, material callouts, color samples, formatted to match what review committees expect. Coordinating both processes in parallel keeps your project moving.
 
 If you're ready to move forward with a garage addition, detached structure, or conversion on your Granite Bay property, call TDI Builders at (877) 688-0866. We'll schedule a site visit, walk through what Placer County and your HOA will require, and give you a realistic picture of timeline and scope before any commitments are made.

@@ -20,38 +20,38 @@ state: "CA"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-Granite Bay sits in a sweet spot between Sacramento's urban density and the Sierra Nevada foothills, and that geography shapes nearly every home addition project here. Lots tend to run large, mature oak trees dot many backyards, and the neighborhood character skews toward established single-family homes built from the 1970s through the early 2000s — the kind of properties where a well-designed addition doesn't just add square footage, it adds lasting value. TDI Builders, Inc. has been planning and building room additions and home additions since 1985, and we bring that four-decade track record to every project in Placer County.
+Granite Bay sits in a sweet spot between Sacramento's urban density and the Sierra Nevada foothills, and that geography shapes nearly every home addition project here. Lots tend to run large, mature oak trees dot many backyards, and the neighborhood character skews toward established single-family homes built from the 1970s through the early 2000s, the kind of properties where a well-designed addition doesn't just add square footage, it adds lasting value. TDI Builders, Inc. has been planning and building room additions and home additions since 1985, and we bring that four-decade track record to every project in Placer County.
 
-## Why Granite Bay Homes Are Well-Suited — and Well-Challenged — for Additions
+## Why Granite Bay Homes Are Well-Suited, and Well-Challenged, for Additions
 
 Granite Bay's housing stock is a mixed bag from a construction standpoint, and that matters when you're planning to add a room or expand a footprint. Homes built in the 1970s and 1980s often used post-and-beam framing conventions that differ from today's platform framing, which affects how a bump-out addition ties into the existing structure. Crawl spaces and raised foundations are common in older sections of the community, and tying a new slab or foundation into an existing raised system requires careful engineering to avoid differential settling over time.
 
-The region's Mediterranean climate — hot, dry summers and wet winters — also plays a role. Placer County can see significant rainfall between November and March, so exterior framing and roofing phases need to be sequenced around the weather window. We schedule concrete pours and framing milestones with that seasonal rhythm in mind, not against it.
+The region's Mediterranean climate, hot, dry summers and wet winters, also plays a role. Placer County can see significant rainfall between November and March, so exterior framing and roofing phases need to be sequenced around the weather window. We schedule concrete pours and framing milestones with that seasonal rhythm in mind, not against it.
 
 Finally, Granite Bay falls within unincorporated Placer County for most addresses, meaning permits and inspections run through the county rather than a city building department. That distinction matters: county review timelines and submittal requirements differ from what Sacramento city homeowners are used to, and working with a contractor who already knows the Placer County process saves weeks of back-and-forth.
 
 ## Our Home Addition Process in Granite Bay
 
-Every addition starts with a site walk, not a sales pitch. We look at the existing structure — foundation type, roof pitch, exterior wall assembly, utility entry points — before we ever sketch a floor plan. That information drives the design, which is why our additions integrate cleanly rather than looking bolted on.
+Every addition starts with a site walk, not a sales pitch. We look at the existing structure, foundation type, roof pitch, exterior wall assembly, utility entry points, before we ever sketch a floor plan. That information drives the design, which is why our additions integrate cleanly rather than looking bolted on.
 
 From there, the process moves through these phases:
 
-**Design and permitting.** We prepare construction documents calibrated to Placer County's submittal requirements and coordinate with county plan check. For projects in HOA-governed communities — common throughout Granite Bay — we also prepare the architectural review package and manage that submission in parallel so HOA approval and county permit review run concurrently where possible.
+**Design and permitting.** We prepare construction documents calibrated to Placer County's submittal requirements and coordinate with county plan check. For projects in HOA-governed communities, common throughout Granite Bay, we also prepare the architectural review package and manage that submission in parallel so HOA approval and county permit review run concurrently where possible.
 
 **Site preparation and foundation work.** Depending on your lot, this may involve grading, oak-tree setback compliance (Placer County has tree protection provisions that affect where you can dig), and foundation forming. We coordinate underground utility locates before any excavation.
 
-**Framing, mechanical rough-ins, and envelope.** Framing, roofing, windows, and exterior cladding get closed in as a continuous phase so the structure is weathertight before interior work begins — critical during the rainy season.
+**Framing, mechanical rough-ins, and envelope.** Framing, roofing, windows, and exterior cladding get closed in as a continuous phase so the structure is weathertight before interior work begins, critical during the rainy season.
 
 **Interior finish and final inspection.** Insulation, drywall, flooring, trim, paint, and fixtures are completed to match or complement your existing home. We schedule the county final inspection and walk you through the completed space before we close out.
 
 ## Granite Bay HOA Coordination
 
-A significant portion of Granite Bay's residential communities are governed by homeowners associations, and many of those HOAs have architectural review committees with real teeth — specific requirements around exterior materials, roof pitch, paint color palettes, and setbacks from property lines. Submitting an incomplete package to an HOA architectural committee is one of the most common reasons addition projects stall for months.
+A significant portion of Granite Bay's residential communities are governed by homeowners associations, and many of those HOAs have architectural review committees with real teeth, specific requirements around exterior materials, roof pitch, paint color palettes, and setbacks from property lines. Submitting an incomplete package to an HOA architectural committee is one of the most common reasons addition projects stall for months.
 
 We've navigated these processes across Placer County communities and know what a complete submittal looks like: site plan, elevation drawings, material samples or specifications, and a written description of how the addition conforms to community standards. Getting that package right the first time keeps your project on schedule.
 
 ## Local Note
 
-One thing that catches homeowners off guard in Granite Bay: many lots in the area have heritage oak trees that trigger Placer County's oak woodland preservation provisions. Even if a tree isn't directly in the footprint of your planned addition, its drip line — the area extending to the outer edge of the canopy — may restrict where grading and foundation work can occur. We identify oak drip-line conflicts during the initial site walk and design around them from the start, rather than discovering the constraint mid-permit. If your backyard addition plan has a large valley oak anywhere near the proposed footprint, that's the first conversation we'll have.
+One thing that catches homeowners off guard in Granite Bay: many lots in the area have heritage oak trees that trigger Placer County's oak woodland preservation provisions. Even if a tree isn't directly in the footprint of your planned addition, its drip line, the area extending to the outer edge of the canopy, may restrict where grading and foundation work can occur. We identify oak drip-line conflicts during the initial site walk and design around them from the start, rather than discovering the constraint mid-permit. If your backyard addition plan has a large valley oak anywhere near the proposed footprint, that's the first conversation we'll have.
 
-Ready to talk through what a room addition or house addition could look like on your Granite Bay property? Call TDI Builders, Inc. at (877) 688-0866 — we're available around the clock and can schedule a site visit to get the conversation started with real numbers, not ballpark estimates.
+Ready to talk through what a room addition or house addition could look like on your Granite Bay property? Call TDI Builders, Inc. at (877) 688-0866, we're available around the clock and can schedule a site visit to get the conversation started with real numbers, not ballpark estimates.

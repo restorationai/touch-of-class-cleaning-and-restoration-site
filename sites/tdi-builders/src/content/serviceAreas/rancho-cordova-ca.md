@@ -19,11 +19,11 @@ state: "CA"
 primary: false
 rendered: true
 ---
-TDI Builders, Inc. handles water damage mitigation, fire and smoke restoration, mold remediation, and full reconstruction for homeowners and property managers throughout Rancho Cordova. Operating around the clock from our Sacramento headquarters, we reach Rancho Cordova neighborhoods quickly via US-50 and Folsom Boulevard — and we work directly with insurance carriers so the claims process doesn't fall entirely on your shoulders.
+TDI Builders, Inc. handles water damage mitigation, fire and smoke restoration, mold remediation, and full reconstruction for homeowners and property managers throughout Rancho Cordova. Operating around the clock from our Sacramento headquarters, we reach Rancho Cordova neighborhoods quickly via US-50 and Folsom Boulevard, and we work directly with insurance carriers so the claims process doesn't fall entirely on your shoulders.
 
 ## Restoration emergencies common in Rancho Cordova
 
-Rancho Cordova sits in the Sacramento Valley, where the combination of hot, dry summers and wet winters creates a predictable cycle of building stress. Winter atmospheric rivers can push several inches of rain onto the ground in 48 hours, overwhelming gutters, window flashing, and aging drainage systems in a single event. That same moisture finds its way into wall cavities and under slab flooring, where it can go undetected long enough for mold to establish — mold colonization can begin within 24 to 48 hours on wet organic material like drywall paper or subfloor sheathing.
+Rancho Cordova sits in the Sacramento Valley, where the combination of hot, dry summers and wet winters creates a predictable cycle of building stress. Winter atmospheric rivers can push several inches of rain onto the ground in 48 hours, overwhelming gutters, window flashing, and aging drainage systems in a single event. That same moisture finds its way into wall cavities and under slab flooring, where it can go undetected long enough for mold to establish, mold colonization can begin within 24 to 48 hours on wet organic material like drywall paper or subfloor sheathing.
 
 Summer heat accelerates a different set of problems. Wildfire smoke from the Sierra Nevada foothills regularly blankets the region, and smoke residue infiltrates HVAC systems and settles into porous finishes in ways that aren't always visible at first. When a fire loss does occur, the dry-season conditions mean smoke travels farther through a structure before the fire is suppressed.
 
@@ -31,28 +31,28 @@ The American River corridor to the north and the low-lying areas near Mather Fie
 
 ## Services we provide in Rancho Cordova
 
-**Water damage restoration** — Slab-on-grade construction is common throughout Rancho Cordova, and when a supply line fails or a water heater lets go, water has nowhere to drain — it spreads laterally under flooring and wicks into wall framing. We use moisture mapping and thermal imaging to locate saturation that reads dry at the surface, then dry the structure to the IICRC S500 standard before any rebuild begins.
+**Water damage restoration**, Slab-on-grade construction is common throughout Rancho Cordova, and when a supply line fails or a water heater lets go, water has nowhere to drain, it spreads laterally under flooring and wicks into wall framing. We use moisture mapping and thermal imaging to locate saturation that reads dry at the surface, then dry the structure to the IICRC S500 standard before any rebuild begins.
 
-**Fire and smoke restoration** — After a kitchen fire or a structure fire that touched multiple rooms, smoke odor and residue remain long after the flames are out. Porous stucco exteriors and open-plan interiors common in Rancho Cordova's tract homes allow smoke to migrate widely. We assess the full extent of the loss, remove unsalvageable materials, and treat affected surfaces before reconstruction.
+**Fire and smoke restoration**, After a kitchen fire or a structure fire that touched multiple rooms, smoke odor and residue remain long after the flames are out. Porous stucco exteriors and open-plan interiors common in Rancho Cordova's tract homes allow smoke to migrate widely. We assess the full extent of the loss, remove unsalvageable materials, and treat affected surfaces before reconstruction.
 
-**Mold remediation** — Slow plumbing leaks behind cabinets, condensation on poorly insulated ducts, and post-flood drying that didn't go deep enough are the most common mold triggers we see in this region. Remediation scope is determined by visible growth and air sampling results, not by assumption.
+**Mold remediation**, Slow plumbing leaks behind cabinets, condensation on poorly insulated ducts, and post-flood drying that didn't go deep enough are the most common mold triggers we see in this region. Remediation scope is determined by visible growth and air sampling results, not by assumption.
 
-**Full reconstruction** — Once mitigation is complete, TDI Builders, Inc. handles the rebuild under one contract — framing, drywall, flooring, painting, cabinetry, and finish work — so you aren't coordinating a separate general contractor while your home is still open to the elements.
+**Full reconstruction**, Once mitigation is complete, TDI Builders, Inc. handles the rebuild under one contract, framing, drywall, flooring, painting, cabinetry, and finish work, so you aren't coordinating a separate general contractor while your home is still open to the elements.
 
-**Biohazard and specialty cleanup** — We also respond to sewage backups, which are a documented risk in older lateral lines throughout Sacramento County, and to other biohazard situations requiring regulated disposal and proper containment.
+**Biohazard and specialty cleanup**, We also respond to sewage backups, which are a documented risk in older lateral lines throughout Sacramento County, and to other biohazard situations requiring regulated disposal and proper containment.
 
 ## Coverage and how fast we can get there
 
-From our Sacramento headquarters, Rancho Cordova is a straightforward run east on US-50. Depending on traffic, most addresses in the city's core — including the Anatolia and Cobblestone communities to the east and the older neighborhoods closer to Folsom Boulevard — are reachable well within a reasonable drive. We are available 24 hours a day, seven days a week, so a call at 2 a.m. after a pipe burst reaches a live dispatcher, not a voicemail.
+From our Sacramento headquarters, Rancho Cordova is a straightforward run east on US-50. Depending on traffic, most addresses in the city's core, including the Anatolia and Cobblestone communities to the east and the older neighborhoods closer to Folsom Boulevard, are reachable well within a reasonable drive. We are available 24 hours a day, seven days a week, so a call at 2 a.m. after a pipe burst reaches a live dispatcher, not a voicemail.
 
 ## Building stock, site conditions, and permits in Rancho Cordova
 
-Rancho Cordova's housing stock spans several distinct eras. The oldest neighborhoods near Folsom Boulevard were largely built in the 1950s and 1960s, when galvanized steel supply lines and cast-iron drain lines were standard — both materials that corrode and fail with age. Homes from that period may also contain asbestos-containing materials in floor tile, pipe insulation, and textured ceilings, which requires abatement planning before any invasive demolition.
+Rancho Cordova's housing stock spans several distinct eras. The oldest neighborhoods near Folsom Boulevard were largely built in the 1950s and 1960s, when galvanized steel supply lines and cast-iron drain lines were standard, both materials that corrode and fail with age. Homes from that period may also contain asbestos-containing materials in floor tile, pipe insulation, and textured ceilings, which requires abatement planning before any invasive demolition.
 
 Development expanded significantly through the 1980s and 1990s, bringing copper supply lines and slab-on-grade foundations that dominate the city today. Slab construction limits moisture pathways but makes under-slab leak detection and repair more involved than in a crawlspace home.
 
 The underlying soils in the Sacramento Valley include expansive clays that swell with seasonal moisture and shrink in summer, placing cyclic stress on slab edges and foundation walls. Structural repair and rebuild work in Rancho Cordova falls under the City of Rancho Cordova's Building and Safety Division, which became an independent city in 2003. California's seismic zone requirements apply throughout the region, and permits are typically required for any structural, electrical, or plumbing work that is part of a restoration scope.
 
-If your property is within an HOA, restoration work visible from the exterior will likely require HOA approval in addition to a city permit — a step worth confirming before reconstruction begins.
+If your property is within an HOA, restoration work visible from the exterior will likely require HOA approval in addition to a city permit, a step worth confirming before reconstruction begins.
 
-When water, fire, or mold has damaged your Rancho Cordova property, the next call should be one that gets you a real assessment and a clear plan — not more uncertainty. Reach TDI Builders, Inc. any time at **(877) 688-0866**.
+When water, fire, or mold has damaged your Rancho Cordova property, the next call should be one that gets you a real assessment and a clear plan, not more uncertainty. Reach TDI Builders, Inc. any time at **(877) 688-0866**.

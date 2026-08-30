@@ -17,44 +17,44 @@ service_slug: "room-addition"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-Your family has outgrown the house, but you're not ready to move — and in Sacramento's competitive real estate market, moving often means trading up in price without gaining much in space. A room addition lets you stay in the neighborhood you chose, keep the schools your kids already attend, and build equity instead of paying a real estate agent's commission. The challenge is that adding square footage to an existing structure is genuinely complex: foundations have to match, rooflines have to tie in, and a single framing miscalculation can haunt the finished room for decades.
+Your family has outgrown the house, but you're not ready to move, and in Sacramento's competitive real estate market, moving often means trading up in price without gaining much in space. A room addition lets you stay in the neighborhood you chose, keep the schools your kids already attend, and build equity instead of paying a real estate agent's commission. The challenge is that adding square footage to an existing structure is genuinely complex: foundations have to match, rooflines have to tie in, and a single framing miscalculation can haunt the finished room for decades.
 
 ## What room additions and home additions actually involve
 
-A room addition is not a renovation — it is new construction grafted onto a living structure. That distinction matters because every trade has to sequence correctly against an occupied home. The foundation crew can't pour until the design is permitted. The framers can't close the walls until rough electrical, plumbing, and HVAC inspections pass. And the finish work — drywall, paint, trim, flooring — has to match or complement what's already inside the house, which is rarely as simple as it sounds when the existing interior is fifteen or thirty years old.
+A room addition is not a renovation, it is new construction grafted onto a living structure. That distinction matters because every trade has to sequence correctly against an occupied home. The foundation crew can't pour until the design is permitted. The framers can't close the walls until rough electrical, plumbing, and HVAC inspections pass. And the finish work, drywall, paint, trim, flooring, has to match or complement what's already inside the house, which is rarely as simple as it sounds when the existing interior is fifteen or thirty years old.
 
 Common addition types in the Sacramento region include:
 
-- **Full room additions** — a bedroom, home office, or family room built on a new foundation slab or with a crawl space, attached to the existing structure with a proper structural connection.
-- **Bump-out additions** — a smaller cantilevered or foundation-supported extension, often used to expand a kitchen, bathroom, or primary bedroom without the footprint of a full addition.
-- **Second-story additions** — building up rather than out, which requires a structural engineering assessment of the existing first-floor walls and foundation before a single board is cut.
-- **Garage conversions with additions** — converting an attached garage while simultaneously adding replacement square footage elsewhere on the lot.
+- **Full room additions**, a bedroom, home office, or family room built on a new foundation slab or with a crawl space, attached to the existing structure with a proper structural connection.
+- **Bump-out additions**, a smaller cantilevered or foundation-supported extension, often used to expand a kitchen, bathroom, or primary bedroom without the footprint of a full addition.
+- **Second-story additions**, building up rather than out, which requires a structural engineering assessment of the existing first-floor walls and foundation before a single board is cut.
+- **Garage conversions with additions**, converting an attached garage while simultaneously adding replacement square footage elsewhere on the lot.
 
 Timelines vary with scope. A straightforward bump-out addition might run eight to twelve weeks from permit approval to final inspection. A full room addition with new foundation work typically runs three to five months. Second-story additions are longer still.
 
 ## Our process
 
-1. **Design consultation and site assessment** — Before any drawings are produced, the existing structure is evaluated: foundation type, wall framing, roof pitch, utility locations, and setback distances from property lines. Sacramento County and most incorporated cities in the region have specific setback and lot-coverage rules that determine what can be built and where.
+1. **Design consultation and site assessment**, Before any drawings are produced, the existing structure is evaluated: foundation type, wall framing, roof pitch, utility locations, and setback distances from property lines. Sacramento County and most incorporated cities in the region have specific setback and lot-coverage rules that determine what can be built and where.
 
-2. **Architectural drawings and permit submittal** — Construction documents are prepared to the detail level required by the local building department. In Sacramento, room additions require a building permit, and depending on scope, may also trigger mechanical, electrical, and plumbing permits. The permit process is submitted, tracked, and responded to — plan check corrections are common and are handled as part of the process, not billed as extras.
+2. **Architectural drawings and permit submittal**, Construction documents are prepared to the detail level required by the local building department. In Sacramento, room additions require a building permit, and depending on scope, may also trigger mechanical, electrical, and plumbing permits. The permit process is submitted, tracked, and responded to, plan check corrections are common and are handled as part of the process, not billed as extras.
 
-3. **Foundation and framing** — Once permits are in hand, site work begins. Foundation type (slab, raised perimeter, or pier-and-beam) is determined by soil conditions and the existing structure's foundation. Framing follows, including the structural connection to the existing building — the point where the addition meets the house is engineered, not improvised.
+3. **Foundation and framing**, Once permits are in hand, site work begins. Foundation type (slab, raised perimeter, or pier-and-beam) is determined by soil conditions and the existing structure's foundation. Framing follows, including the structural connection to the existing building, the point where the addition meets the house is engineered, not improvised.
 
-4. **Rough mechanicals and inspections** — Electrical, plumbing, and HVAC rough-in work is completed and inspected before walls are closed. This is the phase where future problems are either prevented or created. Undersized HVAC duct runs and improperly bonded electrical panels are the two most common sources of callbacks on addition projects.
+4. **Rough mechanicals and inspections**, Electrical, plumbing, and HVAC rough-in work is completed and inspected before walls are closed. This is the phase where future problems are either prevented or created. Undersized HVAC duct runs and improperly bonded electrical panels are the two most common sources of callbacks on addition projects.
 
-5. **Insulation, drywall, and finish work** — After rough inspections pass, insulation is installed to current California Title 24 energy code requirements. Drywall, paint, trim, flooring, and fixtures follow. The final inspection closes the permit and delivers a legal, insurable, appraised square footage to the home.
+5. **Insulation, drywall, and finish work**, After rough inspections pass, insulation is installed to current California Title 24 energy code requirements. Drywall, paint, trim, flooring, and fixtures follow. The final inspection closes the permit and delivers a legal, insurable, appraised square footage to the home.
 
 ## What separates a good addition from a problem one
 
-The most common failures in room addition work are not dramatic — they accumulate quietly. Rooflines that don't properly flash at the connection point allow water intrusion that shows up two rainy seasons later. HVAC systems extended without a load calculation leave the new room perpetually too hot in Sacramento's triple-digit summers. Foundations poured without matching the existing structure's depth or bearing capacity can settle independently, cracking the connection between old and new.
+The most common failures in room addition work are not dramatic, they accumulate quietly. Rooflines that don't properly flash at the connection point allow water intrusion that shows up two rainy seasons later. HVAC systems extended without a load calculation leave the new room perpetually too hot in Sacramento's triple-digit summers. Foundations poured without matching the existing structure's depth or bearing capacity can settle independently, cracking the connection between old and new.
 
-Permit history matters too. An unpermitted addition — even a well-built one — creates title problems when the home sells and can trigger costly retroactive permitting or demolition orders. Every addition TDI Builders completes is permitted, inspected, and closed with the local building department.
+Permit history matters too. An unpermitted addition, even a well-built one, creates title problems when the home sells and can trigger costly retroactive permitting or demolition orders. Every addition TDI Builders completes is permitted, inspected, and closed with the local building department.
 
 For second-story additions specifically, the structural engineering phase is not optional or abbreviated. Existing first-floor framing and foundation capacity have to be documented before any load is added above.
 
 ## What does a room addition cost?
 
-Typical costs for room additions vary widely based on size, foundation type, finish level, and whether plumbing or HVAC is involved. Most homeowners in the Sacramento area pay somewhere in the following ranges — these are industry-typical figures, not quotes:
+Typical costs for room additions vary widely based on size, foundation type, finish level, and whether plumbing or HVAC is involved. Most homeowners in the Sacramento area pay somewhere in the following ranges, these are industry-typical figures, not quotes:
 
 | Scenario | Typical range |
 |---|---|
@@ -64,16 +64,16 @@ Typical costs for room additions vary widely based on size, foundation type, fin
 | Second-story addition (full floor) | $175,000 – $350,000+ |
 | Garage conversion with new addition | $80,000 – $145,000 |
 
-Every project is different — lot conditions, existing structure, finish selections, and permit fees all affect the final number. TDI Builders provides a written scope of work and fixed-price contract before construction begins, so there are no open-ended estimates. Homeowners insurance generally does not cover elective additions, though it may cover damage to an existing structure that occurs during permitted construction — your carrier can clarify your specific policy terms.
+Every project is different, lot conditions, existing structure, finish selections, and permit fees all affect the final number. TDI Builders provides a written scope of work and fixed-price contract before construction begins, so there are no open-ended estimates. Homeowners insurance generally does not cover elective additions, though it may cover damage to an existing structure that occurs during permitted construction, your carrier can clarify your specific policy terms.
 
 ## Seasonal and regional considerations
 
-Sacramento's dry summers make them the preferred window for foundation and framing work — concrete cures predictably, and open framing isn't exposed to rain. The rainy season, roughly November through March, doesn't stop construction but does require active weatherproofing of any open structure. If your project is targeting a specific completion date, permit submittal timing matters: plan check queues at Sacramento County and most city building departments tend to lengthen in spring when permit volume picks up.
+Sacramento's dry summers make them the preferred window for foundation and framing work, concrete cures predictably, and open framing isn't exposed to rain. The rainy season, roughly November through March, doesn't stop construction but does require active weatherproofing of any open structure. If your project is targeting a specific completion date, permit submittal timing matters: plan check queues at Sacramento County and most city building departments tend to lengthen in spring when permit volume picks up.
 
-Soil conditions in the Sacramento Valley also vary by neighborhood. Expansive clay soils — common in many older Sacramento-area subdivisions — require deeper footings or engineered foundation designs. This is assessed during the site evaluation phase, not discovered mid-pour.
+Soil conditions in the Sacramento Valley also vary by neighborhood. Expansive clay soils, common in many older Sacramento-area subdivisions, require deeper footings or engineered foundation designs. This is assessed during the site evaluation phase, not discovered mid-pour.
 
 ## Service area
 
 TDI Builders serves Sacramento and the surrounding region, including Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, West Sacramento, Davis, and communities throughout Sacramento County and neighboring counties. The city-specific pages linked from this site cover local permit offices, setback rules, and neighborhood considerations in more detail.
 
-If you're ready to talk through what adding square footage to your home actually requires — foundation to finish — call (877) 688-0866 or reach out online to schedule a site assessment and start a written scope for your addition.
+If you're ready to talk through what adding square footage to your home actually requires, foundation to finish, call (877) 688-0866 or reach out online to schedule a site assessment and start a written scope for your addition.

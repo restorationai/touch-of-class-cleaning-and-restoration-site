@@ -19,17 +19,17 @@ state: "CA"
 primary: false
 rendered: true
 ---
-TDI Builders, Inc. handles water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers throughout Fair Oaks. Operating around the clock from our Sacramento headquarters since 1985, we respond to the kinds of losses that are specific to this community — aging plumbing in mid-century ranch homes, storm runoff that backs up against slab foundations, and the dry-season fire risk that follows every summer. Call (877) 688-0866 any time.
+TDI Builders, Inc. handles water damage, fire and smoke damage, mold remediation, and full reconstruction for homeowners and property managers throughout Fair Oaks. Operating around the clock from our Sacramento headquarters since 1985, we respond to the kinds of losses that are specific to this community, aging plumbing in mid-century ranch homes, storm runoff that backs up against slab foundations, and the dry-season fire risk that follows every summer. Call (877) 688-0866 any time.
 
 ## Restoration emergencies common in Fair Oaks
 
-Fair Oaks sits in the foothills transition zone of Sacramento County, where the climate swings hard between wet winters and long, dry summers. That range creates a predictable cycle of damage. Winter atmospheric rivers push heavy rain through aged roof assemblies and overwhelm gutters on homes that were built before modern drainage standards. Water that gets behind stucco or into a crawlspace in January can fuel mold growth by February — the IICRC S520 standard notes that mold can begin colonizing wet cellulose materials within 24 to 48 hours of saturation. Summer brings the opposite problem: wildfire smoke infiltrates HVAC systems and leaves odor-trapping residue on every porous surface inside the home. The American River Parkway corridor, which runs along Fair Oaks' western edge, also means that properties near the bluffs can experience soil movement and drainage complications that compound any water intrusion event.
+Fair Oaks sits in the foothills transition zone of Sacramento County, where the climate swings hard between wet winters and long, dry summers. That range creates a predictable cycle of damage. Winter atmospheric rivers push heavy rain through aged roof assemblies and overwhelm gutters on homes that were built before modern drainage standards. Water that gets behind stucco or into a crawlspace in January can fuel mold growth by February, the IICRC S520 standard notes that mold can begin colonizing wet cellulose materials within 24 to 48 hours of saturation. Summer brings the opposite problem: wildfire smoke infiltrates HVAC systems and leaves odor-trapping residue on every porous surface inside the home. The American River Parkway corridor, which runs along Fair Oaks' western edge, also means that properties near the bluffs can experience soil movement and drainage complications that compound any water intrusion event.
 
 ## Services we provide in Fair Oaks
 
 ### Water damage restoration
 
-Water damage in Fair Oaks frequently starts at the source you cannot see — a pinhole in a copper supply line inside a wall cavity, or a failed wax ring that has been wicking into subfloor framing for weeks. We use thermal imaging and calibrated moisture meters to find the full boundary of the wet zone before any drying equipment is placed, so the scope of work reflects what is actually wet, not just what is visible.
+Water damage in Fair Oaks frequently starts at the source you cannot see, a pinhole in a copper supply line inside a wall cavity, or a failed wax ring that has been wicking into subfloor framing for weeks. We use thermal imaging and calibrated moisture meters to find the full boundary of the wet zone before any drying equipment is placed, so the scope of work reflects what is actually wet, not just what is visible.
 
 ### Fire and smoke damage restoration
 
@@ -37,20 +37,20 @@ After a kitchen fire or a structure fire that started in an attached garage, the
 
 ### Mold remediation
 
-Fair Oaks' older housing stock — much of it built in the 1950s through 1970s — often has fiberglass batt insulation that has absorbed moisture over decades, and wall cavities that were never designed with vapor management in mind. Mold remediation here requires careful containment, HEPA filtration, and material removal that accounts for what may be behind the surface, not just what is visible at the drywall face.
+Fair Oaks' older housing stock, much of it built in the 1950s through 1970s, often has fiberglass batt insulation that has absorbed moisture over decades, and wall cavities that were never designed with vapor management in mind. Mold remediation here requires careful containment, HEPA filtration, and material removal that accounts for what may be behind the surface, not just what is visible at the drywall face.
 
 ### Reconstruction
 
-When damage requires permitted structural repair — replacing roof sheathing, reframing a water-damaged wall, or rebuilding after fire — TDI Builders carries the contractor license to take the project from demolition through finished reconstruction. That means one point of contact from the emergency call through the final inspection, rather than handing off to a separate general contractor mid-project.
+When damage requires permitted structural repair, replacing roof sheathing, reframing a water-damaged wall, or rebuilding after fire, TDI Builders carries the contractor license to take the project from demolition through finished reconstruction. That means one point of contact from the emergency call through the final inspection, rather than handing off to a separate general contractor mid-project.
 
 ## Coverage and how fast we can get there
 
-Fair Oaks is roughly 15 miles northeast of our Sacramento headquarters via US-50 East to Hazel Avenue, or via Folsom Boulevard through Rancho Cordova. Either route puts a crew into Fair Oaks without the freeway congestion that can slow response toward Roseville or Folsom. Because we operate 24/7, a call at 2 a.m. reaches a live dispatcher, not a voicemail. From central Sacramento, Fair Oaks is a straightforward run — no mountain grades, no bridge chokepoints — which means equipment-loaded vehicles arrive without the delays that affect more distant foothill communities.
+Fair Oaks is roughly 15 miles northeast of our Sacramento headquarters via US-50 East to Hazel Avenue, or via Folsom Boulevard through Rancho Cordova. Either route puts a crew into Fair Oaks without the freeway congestion that can slow response toward Roseville or Folsom. Because we operate 24/7, a call at 2 a.m. reaches a live dispatcher, not a voicemail. From central Sacramento, Fair Oaks is a straightforward run, no mountain grades, no bridge chokepoints, which means equipment-loaded vehicles arrive without the delays that affect more distant foothill communities.
 
 ## Building stock, site conditions, and permits in Fair Oaks
 
-Most of Fair Oaks' residential neighborhoods were developed between the late 1940s and the early 1980s, which means the dominant building types are wood-frame ranch homes on slab-on-grade foundations, with a smaller share built over raised crawlspaces. Homes from this era were typically plumbed with copper supply lines and cast-iron drain lines — both of which can fail in predictable ways as they age. Copper develops pinhole leaks at fittings; cast iron corrodes from the inside out. Any scope of work on a pre-1980 home should also account for the possibility of asbestos-containing materials in floor tile, pipe insulation, and textured ceiling finishes, as well as lead-based paint on pre-1978 surfaces.
+Most of Fair Oaks' residential neighborhoods were developed between the late 1940s and the early 1980s, which means the dominant building types are wood-frame ranch homes on slab-on-grade foundations, with a smaller share built over raised crawlspaces. Homes from this era were typically plumbed with copper supply lines and cast-iron drain lines, both of which can fail in predictable ways as they age. Copper develops pinhole leaks at fittings; cast iron corrodes from the inside out. Any scope of work on a pre-1980 home should also account for the possibility of asbestos-containing materials in floor tile, pipe insulation, and textured ceiling finishes, as well as lead-based paint on pre-1978 surfaces.
 
 The soils in the Fair Oaks area include expansive clay in lower-lying areas and decomposed granite closer to the bluffs, both of which behave differently under a slab when moisture levels change seasonally. Permits for structural repair and reconstruction in Fair Oaks are issued through Sacramento County's Planning and Environmental Review department, since Fair Oaks is an unincorporated community. California's building code framework applies, and work that affects structural elements, electrical, or plumbing will typically require a permit and inspection before walls are closed.
 
-TDI Builders, Inc. is available around the clock for Fair Oaks property owners dealing with active damage. Call (877) 688-0866 to speak with someone now — not a form, not a callback queue.
+TDI Builders, Inc. is available around the clock for Fair Oaks property owners dealing with active damage. Call (877) 688-0866 to speak with someone now, not a form, not a callback queue.

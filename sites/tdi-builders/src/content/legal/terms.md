@@ -26,11 +26,11 @@ TDI Builders, Inc. operates as a licensed contractor in the state of California.
 
 ## Estimates and Proposals
 
-Any estimate, quote, or scope of work we provide — whether delivered in person, by phone, by email, or through this website — is not a binding contract. Work does not begin, and TDI Builders, Inc. assumes no service obligation, until both parties have signed a written work-authorization form. That signed document governs the actual service relationship, including scope, pricing, access requirements, and scheduling. If there is ever a conflict between something stated informally and the signed authorization, the signed document controls.
+Any estimate, quote, or scope of work we provide, whether delivered in person, by phone, by email, or through this website, is not a binding contract. Work does not begin, and TDI Builders, Inc. assumes no service obligation, until both parties have signed a written work-authorization form. That signed document governs the actual service relationship, including scope, pricing, access requirements, and scheduling. If there is ever a conflict between something stated informally and the signed authorization, the signed document controls.
 
 ## Payment Terms
 
-Payment terms, accepted methods, and any deposit requirements are specified in the work-authorization form for each project. We coordinate directly with insurance carriers when a loss is covered under a property policy and the homeowner or property manager has authorized us to do so — but the property owner remains ultimately responsible for any balance not covered by insurance. We do not sell or share your financial information.
+Payment terms, accepted methods, and any deposit requirements are specified in the work-authorization form for each project. We coordinate directly with insurance carriers when a loss is covered under a property policy and the homeowner or property manager has authorized us to do so, but the property owner remains ultimately responsible for any balance not covered by insurance. We do not sell or share your financial information.
 
 ## Scope of Work and Changes
 
@@ -42,7 +42,7 @@ TDI Builders, Inc. operates under California contractor licensing requirements a
 
 ## Insurance Coordination
 
-When you authorize us to work with your insurance carrier, we will document the loss, photograph affected materials, and communicate with your adjuster on your behalf. This coordination is a courtesy service. TDI Builders, Inc. makes no guarantee of claim approval or payment amounts — those decisions rest with your carrier.
+When you authorize us to work with your insurance carrier, we will document the loss, photograph affected materials, and communicate with your adjuster on your behalf. This coordination is a courtesy service. TDI Builders, Inc. makes no guarantee of claim approval or payment amounts, those decisions rest with your carrier.
 
 ## Dispute Resolution
 
