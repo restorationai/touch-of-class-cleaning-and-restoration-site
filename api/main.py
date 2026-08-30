@@ -110,6 +110,28 @@ def health():
     return {"status": "ok", "service": "rank-ai-api"}
 
 
+@app.get("/report/{company_id}/{fname}")
+def client_report(company_id: str, fname: str):
+    """Serve a client's monthly results page (client_report.py writes them to
+    the client-reports bucket). Supabase's public storage endpoint refuses to
+    render HTML (text/plain + nosniff, XSS policy), so this is the report's
+    real front door. Auth model = the unguessable token baked into the
+    filename, same as the crew-hub upload links."""
+    if not re.fullmatch(r"CO-\d{6,16}", company_id) \
+            or not re.fullmatch(r"20\d{2}-\d{2}-[0-9a-f]{8,16}\.html", fname):
+        raise HTTPException(status_code=404, detail="Not found")
+    sb = os.environ["SUPABASE_URL"].rstrip("/")
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    import requests as _rq
+    r = _rq.get(f"{sb}/storage/v1/object/client-reports/{company_id}/{fname}",
+                headers={"apikey": key, "Authorization": f"Bearer {key}"},
+                timeout=20)
+    if not r.ok:
+        raise HTTPException(status_code=404, detail="Not found")
+    from fastapi.responses import HTMLResponse
+    return HTMLResponse(r.text)
+
+
 @app.get("/status", dependencies=[Depends(auth)])
 def status():
     """Return all active clients and their last-run timestamps from marketing_sites."""
