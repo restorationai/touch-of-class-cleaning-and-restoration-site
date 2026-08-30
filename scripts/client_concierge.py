@@ -5029,6 +5029,41 @@ def fetch_upcoming_appointments(contact_id: str, client_tz: str) -> tuple[str | 
     return ("\n".join(lines), soonest) if lines else (None, None)
 
 
+def _billing_context(cid: str | None) -> str:
+    """Live payment link for the compose prompt (Santino 2026-08-31, the Tony
+    case: Monica pointed a past-due client at the app's /settings/billing page,
+    which needs a login, instead of the Stripe-hosted invoice link that pays in
+    two taps and saves the card). When the company has an OPEN Stripe invoice,
+    the hosted link rides along with a hard directive. Fail-open; one Stripe
+    call, only for companies with a customer id."""
+    key = os.environ.get("STRIPE_SECRET_KEY") or ""
+    if not (cid and key):
+        return ""
+    rows = _sb("GET", f"/rest/v1/company_billing_setup?id=eq.{cid}"
+               "&select=stripe_customer_id")
+    cus = (rows[0].get("stripe_customer_id") if rows else None) or ""
+    if not cus:
+        return ""
+    r = requests.get("https://api.stripe.com/v1/invoices",
+                     params={"customer": cus, "status": "open", "limit": 1},
+                     auth=(key, ""), timeout=15)
+    if not r.ok:
+        return ""
+    inv = (r.json().get("data") or [None])[0]
+    if not inv:
+        return ""
+    url = inv.get("hosted_invoice_url") or ""
+    if not url:
+        return ""
+    due = (inv.get("amount_due") or 0) / 100
+    return (
+        "\nOPEN INVOICE (LIVE from Stripe): this client has an unpaid invoice "
+        f"of ${due:,.2f}. If payment, billing, a card, or an invoice is the "
+        "topic, give them THIS exact link and no other destination (it pays "
+        "the invoice in two taps and saves their card; never send them to "
+        f"the app's billing settings page, which needs a login):\n  {url}\n")
+
+
 def _review_stats_context(cid: str | None) -> str:
     """Live review-campaign numbers for the compose prompt (Kenny case,
     Santino 2026-08-29). Three cheap HEAD-count queries; returns "" when the
@@ -5181,6 +5216,11 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     review_stats_block = ""
     try:
         review_stats_block = _review_stats_context(company.get("id"))
+    except Exception:  # noqa: BLE001
+        pass
+    billing_block = ""
+    try:
+        billing_block = _billing_context(company.get("id"))
     except Exception:  # noqa: BLE001
         pass
     intel_block = ""
@@ -5503,6 +5543,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + history_block
             + intel_block
             + review_stats_block
+            + billing_block
             + appt_block
             + ban_block
             + directive_block
