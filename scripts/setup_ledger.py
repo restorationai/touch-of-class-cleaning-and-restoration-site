@@ -406,18 +406,29 @@ def _owner_first_name(co: dict) -> str:
     return first.capitalize() if len(first) > 1 else "The client"
 
 
-def _site_serves_us(domain: str, brand_name: str) -> bool:
+def _site_serves_us(domain: str, brand_name: str, indexnow_key: str | None = None) -> bool:
     """True only when the domain serves OUR build. Brand-name matching is
     useless here — the client's OLD site obviously contains their name
-    (crew3r.com false-positived) — so require our own markers."""
-    del brand_name
+    (crew3r.com false-positived) — so require our own markers.
+
+    2026-08-31 tightened after Life Savers: their old Scorpion-hosted site
+    happened to contain "/images/logo", which flipped domain-access to
+    ns_live/done and silently killed the access ask for weeks. The generic
+    marker is GONE. The strongest proof is the client's own IndexNow key
+    file (unique per client, only our builds serve it); the /_astro/ bundle
+    marker stays as fallback for older records without a key."""
     try:
+        if indexnow_key:
+            k = requests.get(f"https://{domain}/{indexnow_key}.txt", timeout=15,
+                             headers={"User-Agent": "Mozilla/5.0 (rank-ai ledger)"})
+            if k.status_code == 200 and indexnow_key in k.text:
+                return True
         r = requests.get(f"https://{domain}/", timeout=20,
                          headers={"User-Agent": "Mozilla/5.0 (rank-ai ledger)"})
         if r.status_code != 200:
             return False
         # every Astro build links /_astro/ asset bundles; old WP sites never do
-        return "/_astro/" in r.text or "/images/logo" in r.text
+        return "/_astro/" in r.text
     except Exception:
         return False
 
@@ -1436,7 +1447,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         domain = _norm_domain(_client_record(slug).get("domain") or co.get("website"))
         live = False
         if domain and built:
-            live = _site_serves_us(domain, co.get("name") or "")
+            live = _site_serves_us(domain, co.get("name") or "",
+                                   _client_record(slug).get("indexnow_key"))
         zstat = zones.get(domain, "") if domain else ""
         ours = zstat == "active"
         rows.append({"company_id": cid, "item_key": "site-live", "kind": "auto",

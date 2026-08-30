@@ -62,11 +62,12 @@ jobs:
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
         run: |
           if [ -n "${{ github.event.inputs.slug }}" ]; then
             python3 scripts/client_report.py --slug "${{ github.event.inputs.slug }}" ${{ github.event.inputs.period && format('--period {0}', github.event.inputs.period) || '' }}
           else
-            python3 scripts/client_report.py --all ${{ github.event.inputs.period && format('--period {0}', github.event.inputs.period) || '' }}
+            python3 scripts/client_report.py --all --notify ${{ github.event.inputs.period && format('--period {0}', github.event.inputs.period) || '' }}
           fi
 
       - name: Alert on failure

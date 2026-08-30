@@ -169,6 +169,37 @@ def work_section(cid: str, days: int = 31) -> dict:
     return {"items": items, "gbp_counts": by_type}
 
 
+def calls_section(cid: str, days: int = 31) -> dict | None:
+    """Tracked phone calls (Santino 2026-08-31: "add the ability to see how
+    many calls happen and the list of calls from both Google and the
+    website"). Only exists once call tracking is provisioned."""
+    since = (dt.datetime.now(dt.timezone.utc)
+             - dt.timedelta(days=days)).strftime('%Y-%m-%dT%H:%M:%SZ')
+    rows = _sb(f"marketing_tracked_calls?company_id=eq.{cid}"
+               f"&started_at=gte.{since}&order=started_at.desc"
+               "&select=source,from_number,status,duration_seconds,started_at&limit=200")
+    if not rows:
+        return None
+    by_src = {"gbp": 0, "website": 0}
+    answered = 0
+    for r in rows:
+        by_src[r.get("source") or "gbp"] = by_src.get(r.get("source") or "gbp", 0) + 1
+        if (r.get("duration_seconds") or 0) >= 20:
+            answered += 1
+    return {"total": len(rows), "gbp": by_src.get("gbp", 0),
+            "website": by_src.get("website", 0), "answered": answered,
+            "recent": rows[:20]}
+
+
+def activity_section(cid: str, period: str) -> list[dict]:
+    """The full month-to-date action log (monthly_summaries.items) — same
+    lines the app shows, tucked into a collapsed block at the report's end."""
+    rows = _sb(f"monthly_summaries?company_id=eq.{cid}&month=eq.{period}"
+               "&select=items&limit=1")
+    items = (rows[0].get("items") or []) if rows else []
+    return items[:200]
+
+
 def listings_section(cid: str) -> dict | None:
     rows = _sb(f"citation_listings?company_id=eq.{cid}&select=directory,status,listing_url")
     live = [r for r in rows if r.get("status") == "live"]
@@ -203,8 +234,19 @@ def _delta_chip(cur: int, prev: int) -> str:
     return '<span class="delta flat">steady</span>'
 
 
+def _mask(num: str) -> str:
+    d = re.sub(r"\D", "", num or "")[-10:]
+    return f"({d[:3]}) ***-{d[6:]}" if len(d) == 10 else "unknown"
+
+
+def _dur(sec) -> str:
+    sec = int(sec or 0)
+    return f"{sec // 60}:{sec % 60:02d}"
+
+
 def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
-                work: dict, lst: dict | None) -> str:
+                work: dict, lst: dict | None, calls: dict | None = None,
+                activity: list[dict] | None = None) -> str:
     e = html.escape
     parts: list[str] = []
     month_label = dt.datetime.strptime(period, "%Y-%m").strftime("%B %Y")
@@ -243,6 +285,26 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
     <div class="from">{rev['click_rate']}% of those messaged</div></div>
 </div></section>""")
 
+    if calls:
+        rows_html = "".join(
+            f"<tr><td>{str(r.get('started_at') or '')[:10]}</td>"
+            f"<td>{'Google listing' if (r.get('source') or 'gbp') == 'gbp' else 'Website'}</td>"
+            f"<td class='n'>{e(_mask(r.get('from_number') or ''))}</td>"
+            f"<td class='n'>{_dur(r.get('duration_seconds'))}</td></tr>"
+            for r in calls["recent"])
+        parts.append(f"""
+<section><h2>Phone calls</h2>
+<div class="stats">
+  <div class="stat"><div class="lbl">Tracked calls, last 30 days</div>
+    <div class="num">{_fmt(calls['total'])}</div>
+    <div class="from">{calls['answered']} connected for 20+ seconds</div></div>
+  <div class="stat"><div class="lbl">Where they came from</div>
+    <div class="num">{_fmt(calls['gbp'])}<span class="of"> Google</span> &#183; {_fmt(calls['website'])}<span class="of"> website</span></div>
+    <div class="from">every call rings straight to your line and is recorded</div></div>
+</div>
+<div class='twrap'><table><tr><th>Date</th><th>Source</th><th class='n'>Caller</th><th class='n'>Length</th></tr>{rows_html}</table></div>
+</section>""")
+
     gbp_lines = "".join(
         f"<li><b>{cnt}</b> {e(_GBP_LABELS.get(t, t.replace('_', ' ') + ' updates'))}</li>"
         for t, cnt in sorted(work["gbp_counts"].items(), key=lambda kv: -kv[1]) if cnt)
@@ -263,8 +325,18 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
 <p>Your business is live on <b>{lst['live']}</b> tracked directories{f" including {names}" if names else ""}. Consistent listings strengthen how Google and AI assistants verify your business.</p>
 </section>""")
 
+    if activity:
+        act_lines = "".join(
+            f"<li>{e(str(a.get('line') or ''))} <span class='when'>{e(str(a.get('date') or '')[:10])}</span></li>"
+            for a in activity)
+        parts.append(f"""
+<section><h2>Every action, day by day</h2>
+<details><summary>{len(activity)} logged actions this month, tap to expand</summary>
+<ul class="worklist" style="margin-top:.8rem">{act_lines}</ul></details>
+</section>""")
+
     body = "".join(parts) or "<section><p>Your campaign is just getting started. The first full month of results lands here.</p></section>"
-    return f"""<title>{e(name)} Results</title>
+    return f"""<meta charset="utf-8"><title>{e(name)} Results</title>
 <style>
 :root{{--paper:#FAFCFD;--panel:#FFF;--ink:#17222B;--sub:#5E707C;--line:#DCE6EC;
 --blue:#1863A8;--navy:#0E3A5C;--good:#1E7D4E;--good-bg:#E7F4EC;--bad:#A33;--bad-bg:#F7ECEC}}
@@ -314,8 +386,48 @@ footer{{color:var(--sub);font-size:.83rem;border-top:1px solid var(--line);paddi
 
 
 # ------------------------------------------------------------------- main
+def notify_client(co: dict, url: str, period: str) -> str:
+    """Monthly distribution (Santino 2026-08-31): one email with the report
+    link + one [FOR MONICA] note so the text goes out through her guards and
+    quiet windows. Called only with --notify (the monthly cron), never on
+    manual regenerations."""
+    month = dt.datetime.strptime(period, "%Y-%m").strftime("%B")
+    name = (co.get("name") or "").strip()
+    first = (name.split()[0] if name else "there")
+    sent = []
+    email = (co.get("email") or "").strip()
+    sg = os.environ.get("SENDGRID_API_KEY") or ""
+    if email and sg:
+        r = requests.post("https://api.sendgrid.com/v3/mail/send",
+                          headers={"Authorization": f"Bearer {sg}",
+                                   "Content-Type": "application/json"},
+                          json={"personalizations": [{"to": [{"email": email}]}],
+                                "from": {"email": "contact@restorationai.io",
+                                         "name": "Rank AI"},
+                                "reply_to": {"email": "contact@restorationai.io"},
+                                "subject": f"Your {month} results are ready",
+                                "content": [{"type": "text/plain", "value":
+                                    f"Hi {first},\n\nYour {month} results page is ready: "
+                                    f"what showed up in Google, calls, your review "
+                                    f"campaign, and everything we shipped for you, all "
+                                    f"in one place.\n\n{url}\n\nQuestions? Just reply "
+                                    f"to this email or text us.\n\nRank AI"}]},
+                          timeout=30)
+        sent.append(f"email {'ok' if r.ok else r.status_code}")
+    requests.post(f"{SB_URL}/rest/v1/marketing_ops_notes",
+                  headers=HDR | {"Prefer": "return=minimal"},
+                  json={"company_id": co["id"], "status": "open", "body":
+                        f"[FOR MONICA] Their {month} results page is ready. Send them "
+                        f"the link with one warm line, e.g. 'your {month} results "
+                        f"are in, here is everything in one page'. LINK (share "
+                        f"exactly): {url}"},
+                  timeout=30)
+    sent.append("monica note filed")
+    return ", ".join(sent)
+
+
 def build_one(co: dict, slug: str | None, period: str, at: str | None,
-              dry: bool) -> str:
+              dry: bool, notify: bool = False) -> str:
     cid, name = co["id"], (co.get("name") or "").strip()
     domain = None
     if slug:
@@ -328,9 +440,11 @@ def build_one(co: dict, slug: str | None, period: str, at: str | None,
     rev = review_section(cid)
     work = work_section(cid)
     lst = listings_section(cid)
-    if not (gsc or rev or work["items"] or work["gbp_counts"] or (lst and lst["live"])):
+    calls = calls_section(cid)
+    activity = activity_section(cid, period)
+    if not (gsc or rev or calls or work["items"] or work["gbp_counts"] or (lst and lst["live"])):
         return f"{name}: nothing reportable yet, skipped"
-    page = render_html(name, period, gsc, rev, work, lst)
+    page = render_html(name, period, gsc, rev, work, lst, calls, activity)
     if dry:
         return f"{name}: would publish ({len(page)} bytes; gsc={'y' if gsc else 'n'} rev={'y' if rev else 'n'} work={len(work['items'])})"
 
@@ -355,6 +469,8 @@ def build_one(co: dict, slug: str | None, period: str, at: str | None,
                                   "work_items": len(work["items"])}},
                   timeout=30)
     if existing:
+        if notify:
+            return f"{name}: refreshed {url} [{notify_client(co, url, period)}]"
         return f"{name}: refreshed {url}"
     try:
         from work_log import work_log
@@ -365,6 +481,8 @@ def build_one(co: dict, slug: str | None, period: str, at: str | None,
                  actor="automation", source="client_report.py")
     except Exception as ex:  # noqa: BLE001
         print(f"  [work-log] warn {name}: {str(ex)[:80]}")
+    if notify:
+        return f"{name}: published {url} [{notify_client(co, url, period)}]"
     return f"{name}: published {url}"
 
 
@@ -375,11 +493,14 @@ def main() -> int:
     g.add_argument("--all", action="store_true")
     ap.add_argument("--period", default=dt.date.today().strftime("%Y-%m"))
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--notify", action="store_true",
+                    help="Also email each client their report link + file the "
+                         "Monica SMS note (monthly cron only)")
     args = ap.parse_args()
 
     cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
     slug_by_cid = {v: k for k, v in cmap.items()}
-    cos = _sb("companies?select=id,name,status,plan&plan=ilike.rank%20ai")
+    cos = _sb("companies?select=id,name,status,plan,email&plan=ilike.rank%20ai")
     cos = [c for c in cos
            if str(c.get("status") or "").strip().lower() not in _INACTIVE
            and not re.match(r"^\s*(test\b|rank\s*ai\b|restoration\s*ai\b)",
@@ -395,7 +516,7 @@ def main() -> int:
     for co in sorted(cos, key=lambda c: c.get("name") or ""):
         try:
             print("  " + build_one(co, slug_by_cid.get(co["id"]), args.period,
-                                   at, args.dry_run))
+                                   at, args.dry_run, notify=args.notify))
         except Exception as ex:  # noqa: BLE001 — one client never sinks the fleet
             print(f"  {co.get('name')}: ERROR {type(ex).__name__}: {str(ex)[:140]}")
     return 0
