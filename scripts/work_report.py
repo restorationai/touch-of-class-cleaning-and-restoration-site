@@ -501,14 +501,28 @@ def main() -> int:
                     help="Every active Rank AI client")
     ap.add_argument("--since", help="YYYY-MM-DD (default: until minus 30 days)")
     ap.add_argument("--until", help="YYYY-MM-DD (default: today)")
+    ap.add_argument("--month", metavar="YYYY-MM",
+                    help="Calendar-month bounds (Santino 2026-08-30: reports "
+                         "anchor to calendar months so the app's Monthly "
+                         "Report card and the results pages line up; the old "
+                         "rolling-30-days default produced windows like "
+                         "Jul 3 to Aug 2 that matched nothing else)")
     ap.add_argument("--publish", action="store_true",
                     help="Also upsert into Supabase marketing_work_reports "
-                         "(the app's Monthly Summary card)")
+                         "(the app's Monthly Report card)")
     a = ap.parse_args()
     if not a.slug and not a.all:
         ap.error("pass --slug <slug> or --all")
-    until = date.fromisoformat(a.until) if a.until else datetime.now(timezone.utc).date()
-    since = date.fromisoformat(a.since) if a.since else until - timedelta(days=30)
+    if a.month:
+        if a.since or a.until:
+            ap.error("--month replaces --since/--until")
+        y, m = int(a.month[:4]), int(a.month[5:7])
+        since = date(y, m, 1)
+        last = (date(y + 1, 1, 1) if m == 12 else date(y, m + 1, 1)) - timedelta(days=1)
+        until = min(last, datetime.now(timezone.utc).date())
+    else:
+        until = date.fromisoformat(a.until) if a.until else datetime.now(timezone.utc).date()
+        since = date.fromisoformat(a.since) if a.since else until - timedelta(days=30)
     if since > until:
         ap.error("--since is after --until")
     slugs = ([c["slug"] for c in active_clients()] if a.all else [a.slug])

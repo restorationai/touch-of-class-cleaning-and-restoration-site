@@ -233,10 +233,17 @@ jobs:
           # Marketing -> Monthly Summary. Runs last so today's earlier steps
           # (citations sync, GBP harvest) are already in the ledger.
           python3 scripts/monthly_summary.py compile --all || true
+          # Monthly Report card (marketing_work_reports): calendar-month
+          # anchored since 2026-08-30 — refresh the running month daily so
+          # the pinned card stays current, same cadence as the summary.
+          python3 scripts/work_report.py --all --publish \
+            --month "$(date -u +%Y-%m)" || true
           # First days of a month: also refinalize the month that just closed,
           # so late-arriving rows (e.g. last night's work) make the final cut.
           if [ "$(date -u +%-d)" -le 3 ]; then
             python3 scripts/monthly_summary.py compile --all \
+              --month "$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)" || true
+            python3 scripts/work_report.py --all --publish \
               --month "$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)" || true
           fi
 
