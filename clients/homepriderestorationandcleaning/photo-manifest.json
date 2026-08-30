@@ -3660,6 +3660,33 @@
       "triaged_at": "2026-08-05T06:06:13Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOXhw5Bajc-NqaTFqPSW-SYdyvrgn3o9V-rI3q4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOXhw5Bajc-NqaTFqPSW-SYdyvrgn3o9V-rI3q4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipOXhw5Bajc-NqaTFqPSW-SYdyvrgn3o9V-rI3q4.jpg",
+      "width": 1440,
+      "height": 856,
+      "bytes": 957150,
+      "sha1": "55de09b3705244ff",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Carpet with hose marks and composited circular portrait inset",
+      "quality": 42,
+      "slots": {
+        "hero": 10,
+        "team": 20,
+        "services": 25
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Circular portrait photo composited over carpet image makes this a graphic collage.",
+      "triaged_at": "2026-08-30T14:06:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOZjw4TuQ-Cv8WK0gZWNWDkoVUG9Tq0lkJb8Scm": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOZjw4TuQ-Cv8WK0gZWNWDkoVUG9Tq0lkJb8Scm.jpg",
@@ -5039,5 +5066,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-29T14:08:59Z"
+  "triaged_at": "2026-08-30T14:06:57Z"
 }
