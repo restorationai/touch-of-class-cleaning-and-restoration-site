@@ -1446,7 +1446,8 @@
     "primary_color": "#1498d5",
     "primary_dark": "#0c5d83",
     "primary_light": "#bae4f7",
-    "accent_color": "#09435d"
+    "accent_color": "#09435d",
+    "ga4_measurement_id": "G-E4FC6VR918"
   },
   "service_radius_description": "Union County NJ home base (Kenilworth) with statewide New Jersey focus plus the Brooklyn and Manhattan NY metro",
   "cross_product": true,

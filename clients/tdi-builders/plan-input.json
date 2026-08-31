@@ -49,7 +49,8 @@
     "font_display": "Jost",
     "logo_url": "/images/logo.png",
     "place_id": "ChIJDbb428TXmoARvyLLpaLNr3E",
-    "google_cid": "8191992345660170943"
+    "google_cid": "8191992345660170943",
+    "ga4_measurement_id": "G-HCNBG7B9HN"
   },
   "second_location": {
     "street_address": "1086 Bessemer Ave",

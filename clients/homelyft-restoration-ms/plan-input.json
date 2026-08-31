@@ -33,7 +33,8 @@
     "lat": 30.3886736,
     "lng": -89.0586991,
     "place_id": "ChIJ5dJT_FQWnIgRzm4i4D1BgR4",
-    "google_cid": "2198109827142676174"
+    "google_cid": "2198109827142676174",
+    "ga4_measurement_id": "G-CY001B6T82"
   },
   "services": [
     "water-damage-restoration",

@@ -20,7 +20,8 @@
       "IICRC"
     ],
     "insured": true,
-    "founded_year": "2015"
+    "founded_year": "2015",
+    "ga4_measurement_id": "G-GCKPEW6C00"
   },
   "template": "restoration",
   "services": [

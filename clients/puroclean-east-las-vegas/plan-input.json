@@ -96,7 +96,8 @@
       }
     },
     "color_locked": true,
-    "color_source": "brand-kit"
+    "color_source": "brand-kit",
+    "ga4_measurement_id": "G-M4N5NVD0WN"
   },
   "template": "restoration",
   "services": [

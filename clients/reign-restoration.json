@@ -13,7 +13,7 @@
     "url_count": 142,
     "generated_at": "2026-08-05T00:44:49.825503+00:00"
   },
-  "updated_at": "2026-08-31T14:10:31.660276+00:00",
+  "updated_at": "2026-08-31T14:56:28.740350+00:00",
   "build": {
     "scaffolded_at": "2026-08-03T16:27:31.440951+00:00",
     "github_repo": "restorationai/reign-restoration-site",
@@ -23,7 +23,7 @@
     "pages_status": "created",
     "last_rendered_at": "2026-08-05T00:57:24.241231+00:00",
     "last_pushed_staging_at": "2026-08-19T03:39:53.319272+00:00",
-    "last_pushed_main_at": "2026-08-31T14:10:31.660253+00:00"
+    "last_pushed_main_at": "2026-08-31T14:56:28.740286+00:00"
   },
   "build_status": "pushed_main",
   "cutover_prep": {

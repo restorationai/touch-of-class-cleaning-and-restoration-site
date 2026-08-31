@@ -117,7 +117,8 @@
     "lat": 33.1434,
     "lng": -117.1661,
     "city": "San Marcos",
-    "state": "CA"
+    "state": "CA",
+    "ga4_measurement_id": "G-BPB9R60M10"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

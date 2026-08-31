@@ -11,7 +11,8 @@
     "postal_code": "01501",
     "theme": "dark",
     "primary_color": "#dc0a0e",
-    "place_id": "ChIJ9wuzUNMF5IkR23w7vv0t_Hc"
+    "place_id": "ChIJ9wuzUNMF5IkR23w7vv0t_Hc",
+    "ga4_measurement_id": "G-G8PLTS9XDN"
   },
   "services": [
     "water-damage-restoration",

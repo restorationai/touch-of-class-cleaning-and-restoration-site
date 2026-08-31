@@ -14,7 +14,8 @@
     "theme": "light",
     "primary_color": "#15803d",
     "hours": "24/7",
-    "place_id": "ChIJhWCvh9tJrIkRkCEs58UBIRw"
+    "place_id": "ChIJhWCvh9tJrIkRkCEs58UBIRw",
+    "ga4_measurement_id": "G-FB7ZB4MR6V"
   },
   "services": [
     "water-damage-restoration",

@@ -1,223 +1,226 @@
 {
- "brand": {
-  "display_name": "Air Care Restoration",
-  "lat": 32.44645,
-  "lng": -99.7475905,
-  "phone": "(325) 339-8723",
-  "email": "info@aircarerestoration.com",
-  "street_address": "2241 S 41ST ST SUITE A",
-  "city": "ABILENE",
-  "state": "TX",
-  "postal_code": "79602",
-  "theme": "light",
-  "certifications": [
-   "IICRC CERTIFIED FIRM",
-   "OSHA TRAINED",
-   "IICRC WRT (WATER)",
-   "IICRC FSRT (FIRE & SMOKE)",
-   "EPA LEAD-SAFE CERTIFIED",
-   "MRC2262-RCO1798-TCST-HST-OCT"
+  "brand": {
+    "display_name": "Air Care Restoration",
+    "lat": 32.44645,
+    "lng": -99.7475905,
+    "phone": "(325) 339-8723",
+    "email": "info@aircarerestoration.com",
+    "street_address": "2241 S 41ST ST SUITE A",
+    "city": "ABILENE",
+    "state": "TX",
+    "postal_code": "79602",
+    "theme": "light",
+    "certifications": [
+      "IICRC CERTIFIED FIRM",
+      "OSHA TRAINED",
+      "IICRC WRT (WATER)",
+      "IICRC FSRT (FIRE & SMOKE)",
+      "EPA LEAD-SAFE CERTIFIED",
+      "MRC2262-RCO1798-TCST-HST-OCT"
+    ],
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "license_numbers": [
+      "MRC2262"
+    ],
+    "license_type": "Texas Mold Remediation Contractor License",
+    "license_authority": "Texas Department of Licensing and Regulation",
+    "founded_year": "2026",
+    "trust_badges": [
+      "IICRC Certified Firm",
+      "Licensed & Insured",
+      "24/7 Emergency Service",
+      "Locally Owned & Operated"
+    ],
+    "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk",
+    "colors": {
+      "primary": "#02255d",
+      "secondary": "#2a70c0",
+      "accent": "#ff6901",
+      "palette": [
+        "#02255d",
+        "#2a70c0",
+        "#59b7ec",
+        "#3a9edc",
+        "#c3e8fb",
+        "#a3e2f6",
+        "#ff6901"
+      ],
+      "source": "Sarha's color-picker screenshots texted 2026-08-11 18:34 UTC (exact hex codes from her logo/business-card design)"
+    },
+    "fonts": {
+      "heading": "Anton",
+      "body": "Poppins",
+      "source": "same screenshots; Poppins selected in her font list, Anton in the mix"
+    },
+    "primary_color": "#02255d",
+    "dark_color": "#02255d",
+    "accent_color": "#ff6901",
+    "font_sans": "Poppins",
+    "font_display": "Anton",
+    "logo_url": "/images/logo.png",
+    "ga4_measurement_id": "G-FW5QLBCH24"
+  },
+  "services": [
+    "water-damage-restoration",
+    "water-cleanup",
+    "storm-damage-restoration",
+    "air-duct-cleaning",
+    "fire-damage-restoration",
+    "general-contracting",
+    "sewage-cleanup",
+    "biohazard-cleanup",
+    "contents-restoration",
+    "post-construction-cleaning",
+    "emergency-board-up-tarping",
+    "asbestos-abatement",
+    "mold-remediation"
   ],
-  "hours": "24/7",
-  "licensed_insured_attested": true,
-  "license_numbers": ["MRC2262"],
-  "license_type": "Texas Mold Remediation Contractor License",
-  "license_authority": "Texas Department of Licensing and Regulation",
-  "founded_year": "2026",
-  "trust_badges": [
-   "IICRC Certified Firm",
-   "Licensed & Insured",
-   "24/7 Emergency Service",
-   "Locally Owned & Operated"
+  "service_areas": [
+    {
+      "city": "Abilene",
+      "state": "TX",
+      "slug": "abilene-tx",
+      "primary": true
+    },
+    {
+      "city": "Sweetwater",
+      "state": "TX",
+      "slug": "sweetwater-tx"
+    },
+    {
+      "city": "Clyde",
+      "state": "TX",
+      "slug": "clyde-tx"
+    },
+    {
+      "city": "Merkel",
+      "state": "TX",
+      "slug": "merkel-tx"
+    },
+    {
+      "city": "Anson",
+      "state": "TX",
+      "slug": "anson-tx"
+    },
+    {
+      "city": "Tuscola",
+      "state": "TX",
+      "slug": "tuscola-tx"
+    },
+    {
+      "city": "Tye",
+      "state": "TX",
+      "slug": "tye-tx"
+    },
+    {
+      "city": "Buffalo Gap",
+      "state": "TX",
+      "slug": "buffalo-gap-tx"
+    },
+    {
+      "city": "Brownwood",
+      "state": "TX",
+      "slug": "brownwood-tx",
+      "primary": false
+    },
+    {
+      "city": "Early",
+      "state": "TX",
+      "slug": "early-tx",
+      "primary": false
+    },
+    {
+      "city": "Roby",
+      "state": "TX",
+      "slug": "roby-tx",
+      "primary": false
+    },
+    {
+      "city": "Rotan",
+      "state": "TX",
+      "slug": "rotan-tx",
+      "primary": false
+    },
+    {
+      "city": "Robert Lee",
+      "state": "TX",
+      "slug": "robert-lee-tx",
+      "primary": false
+    },
+    {
+      "city": "Bronte",
+      "state": "TX",
+      "slug": "bronte-tx",
+      "primary": false
+    },
+    {
+      "city": "Eden",
+      "state": "TX",
+      "slug": "eden-tx",
+      "primary": false
+    },
+    {
+      "city": "Paint Rock",
+      "state": "TX",
+      "slug": "paint-rock-tx",
+      "primary": false
+    },
+    {
+      "city": "San Angelo",
+      "state": "TX",
+      "slug": "san-angelo-tx",
+      "primary": false
+    },
+    {
+      "city": "Snyder",
+      "state": "TX",
+      "slug": "snyder-tx",
+      "primary": false
+    },
+    {
+      "city": "Coleman",
+      "state": "TX",
+      "slug": "coleman-tx",
+      "primary": false
+    },
+    {
+      "city": "Ballinger",
+      "state": "TX",
+      "slug": "ballinger-tx",
+      "primary": false
+    },
+    {
+      "city": "Haskell",
+      "state": "TX",
+      "slug": "haskell-tx",
+      "primary": false
+    },
+    {
+      "city": "Albany",
+      "state": "TX",
+      "slug": "albany-tx",
+      "primary": false
+    },
+    {
+      "city": "Eastland",
+      "state": "TX",
+      "slug": "eastland-tx",
+      "primary": false
+    },
+    {
+      "city": "Colorado City",
+      "state": "TX",
+      "slug": "colorado-city-tx",
+      "primary": false
+    },
+    {
+      "city": "Comanche",
+      "state": "TX",
+      "slug": "comanche-tx",
+      "primary": false
+    }
   ],
-  "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk",
-  "colors": {
-   "primary": "#02255d",
-   "secondary": "#2a70c0",
-   "accent": "#ff6901",
-   "palette": [
-    "#02255d",
-    "#2a70c0",
-    "#59b7ec",
-    "#3a9edc",
-    "#c3e8fb",
-    "#a3e2f6",
-    "#ff6901"
-   ],
-   "source": "Sarha's color-picker screenshots texted 2026-08-11 18:34 UTC (exact hex codes from her logo/business-card design)"
-  },
-  "fonts": {
-   "heading": "Anton",
-   "body": "Poppins",
-   "source": "same screenshots; Poppins selected in her font list, Anton in the mix"
-  },
-  "primary_color": "#02255d",
-  "dark_color": "#02255d",
-  "accent_color": "#ff6901",
-  "font_sans": "Poppins",
-  "font_display": "Anton",
-  "logo_url": "/images/logo.png"
- },
- "services": [
-  "water-damage-restoration",
-  "water-cleanup",
-  "storm-damage-restoration",
-  "air-duct-cleaning",
-  "fire-damage-restoration",
-  "general-contracting",
-  "sewage-cleanup",
-  "biohazard-cleanup",
-  "contents-restoration",
-  "post-construction-cleaning",
-  "emergency-board-up-tarping",
-  "asbestos-abatement",
-  "mold-remediation"
- ],
- "service_areas": [
-  {
-   "city": "Abilene",
-   "state": "TX",
-   "slug": "abilene-tx",
-   "primary": true
-  },
-  {
-   "city": "Sweetwater",
-   "state": "TX",
-   "slug": "sweetwater-tx"
-  },
-  {
-   "city": "Clyde",
-   "state": "TX",
-   "slug": "clyde-tx"
-  },
-  {
-   "city": "Merkel",
-   "state": "TX",
-   "slug": "merkel-tx"
-  },
-  {
-   "city": "Anson",
-   "state": "TX",
-   "slug": "anson-tx"
-  },
-  {
-   "city": "Tuscola",
-   "state": "TX",
-   "slug": "tuscola-tx"
-  },
-  {
-   "city": "Tye",
-   "state": "TX",
-   "slug": "tye-tx"
-  },
-  {
-   "city": "Buffalo Gap",
-   "state": "TX",
-   "slug": "buffalo-gap-tx"
-  },
-  {
-   "city": "Brownwood",
-   "state": "TX",
-   "slug": "brownwood-tx",
-   "primary": false
-  },
-  {
-   "city": "Early",
-   "state": "TX",
-   "slug": "early-tx",
-   "primary": false
-  },
-  {
-   "city": "Roby",
-   "state": "TX",
-   "slug": "roby-tx",
-   "primary": false
-  },
-  {
-   "city": "Rotan",
-   "state": "TX",
-   "slug": "rotan-tx",
-   "primary": false
-  },
-  {
-   "city": "Robert Lee",
-   "state": "TX",
-   "slug": "robert-lee-tx",
-   "primary": false
-  },
-  {
-   "city": "Bronte",
-   "state": "TX",
-   "slug": "bronte-tx",
-   "primary": false
-  },
-  {
-   "city": "Eden",
-   "state": "TX",
-   "slug": "eden-tx",
-   "primary": false
-  },
-  {
-   "city": "Paint Rock",
-   "state": "TX",
-   "slug": "paint-rock-tx",
-   "primary": false
-  },
-  {
-   "city": "San Angelo",
-   "state": "TX",
-   "slug": "san-angelo-tx",
-   "primary": false
-  },
-  {
-   "city": "Snyder",
-   "state": "TX",
-   "slug": "snyder-tx",
-   "primary": false
-  },
-  {
-   "city": "Coleman",
-   "state": "TX",
-   "slug": "coleman-tx",
-   "primary": false
-  },
-  {
-   "city": "Ballinger",
-   "state": "TX",
-   "slug": "ballinger-tx",
-   "primary": false
-  },
-  {
-   "city": "Haskell",
-   "state": "TX",
-   "slug": "haskell-tx",
-   "primary": false
-  },
-  {
-   "city": "Albany",
-   "state": "TX",
-   "slug": "albany-tx",
-   "primary": false
-  },
-  {
-   "city": "Eastland",
-   "state": "TX",
-   "slug": "eastland-tx",
-   "primary": false
-  },
-  {
-   "city": "Colorado City",
-   "state": "TX",
-   "slug": "colorado-city-tx",
-   "primary": false
-  },
-  {
-   "city": "Comanche",
-   "state": "TX",
-   "slug": "comanche-tx",
-   "primary": false
-  }
- ],
- "template": "restoration",
- "blog_seed_count": 8
+  "template": "restoration",
+  "blog_seed_count": 8
 }
