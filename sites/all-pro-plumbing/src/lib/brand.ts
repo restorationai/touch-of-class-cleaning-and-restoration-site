@@ -29,7 +29,7 @@ export const brand = {
   imagesBase: "https://images.allproplumbingheatingandair.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-S1L0GF0J60",
   clarityProjectId: "",
   logoUrl: "/images/logo.webp", // preview: switch to images.allproplumbingheatingandair.com/brand/... at production cutover
   licenseNumbers: [] as string[],
