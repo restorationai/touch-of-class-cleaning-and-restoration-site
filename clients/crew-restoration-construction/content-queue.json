@@ -190,10 +190,10 @@
     },
     {
       "id": "2026-08-09-does-homeowners-insurance-cover-mold",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-09T22:31:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-31T22:38:59Z",
+      "post_url": "https://crew3r.com/blog/does-homeowners-insurance-cover-mold/",
       "priority": 1,
       "primary_keyword": "does homeowners insurance cover mold",
       "intent": "informational",
