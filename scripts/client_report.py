@@ -347,7 +347,7 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
   <div class="stat"><div class="lbl">Clicks to your website</div>
     <div class="num">{_fmt(gsc['clicks'])}{_delta_chip(gsc['clicks'], gsc['clicks_prev'])}</div>
     <div class="from">previous four weeks: {_fmt(gsc['clicks_prev'])}</div></div>
-</div>{_sparkline(gsc.get("series") or [])}{qtable}
+</div><p class="lbl" style="margin:.9rem 0 0">DAILY TIMES SHOWN IN GOOGLE, LAST 8 WEEKS</p>{_sparkline(gsc.get("series") or [])}{qtable}
 <p class="note">Daily impressions over the last eight weeks, then the four weeks ending {e(gsc['end'])} compared with the four weeks before. Source: Google Search Console.</p>
 </section>""")
 
