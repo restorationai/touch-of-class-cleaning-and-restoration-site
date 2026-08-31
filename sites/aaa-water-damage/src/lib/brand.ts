@@ -29,7 +29,7 @@ export const brand = {
   imagesBase: "https://images.aaawaterdamagehawaii.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-YESCZ9R462",
   clarityProjectId: "",
   logoUrl: "/images/logo.webp", // preview: switch to images.{domain} at production cutover
   licenseNumbers: [] as string[],
