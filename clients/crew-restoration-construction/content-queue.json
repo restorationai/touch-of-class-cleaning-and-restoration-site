@@ -190,7 +190,7 @@
     },
     {
       "id": "2026-08-09-does-homeowners-insurance-cover-mold",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-09T22:31:00Z",
       "written_at": "2026-08-31T22:38:59Z",
       "post_url": "https://crew3r.com/blog/does-homeowners-insurance-cover-mold/",
@@ -225,7 +225,8 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "Companion to the existing water damage insurance post. Core distinction: mold from a sudden covered peril (burst pipe) is often covered, gradual moisture is not, and many policies carry mold sublimits. Cite SD Division of Insurance guidance. Lead with the plain answer in the first 80 words.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "published_verified_at": "2026-08-31T22:41:41Z"
     },
     {
       "id": "2026-08-09-water-damage-restoration-cost",

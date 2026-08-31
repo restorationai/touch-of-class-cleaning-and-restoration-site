@@ -1,6 +1,6 @@
 {
   "slug": "all-pro-plumbing",
-  "generated_at": "2026-08-28T01:50:05Z",
+  "generated_at": "2026-08-31T22:27:29Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -16,8 +16,17 @@
     "vertical": "plumbing"
   },
   "errors": 0,
-  "review_flags": 2,
+  "review_flags": 3,
   "violations": [
+    {
+      "file": "src/content/blog/air-conditioner-not-cooling.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "certified technician",
+      "context": "n608), refrigerant must be handled by a certified technician. It cannot legally be purchased or char",
+      "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
+    },
     {
       "file": "src/content/blog/how-much-does-a-plumber-cost-per-hour.md",
       "part": "body",

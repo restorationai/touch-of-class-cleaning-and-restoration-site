@@ -3,7 +3,7 @@
   "slug": "davis-construction",
   "site": "davisconstructioncontractors.com",
   "origin": "https://davisconstructioncontractors.com",
-  "generated_at": "2026-07-30T17:49:44Z",
+  "generated_at": "2026-08-31T22:45:59Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
@@ -22,11 +22,11 @@
   },
   "items": [],
   "notes": [
-    "URLs skipped because already in content-queue: [] (the 5 queued content-queue items have no post_url yet, so none of them map to a live site URL)",
-    "URLs where date extraction failed: [] (all 76 candidates resolved a date; 53 from json_ld_date_modified, 23 from sitemap_lastmod)",
+    "URLs skipped because already in content-queue: [] (all 11 open content-queue items are status=queued with post_url null, so none of them map to a live site URL yet)",
+    "URLs where date extraction failed: [] (all 71 candidates resolved a date; 49 from json_ld_date_modified, 22 from sitemap_lastmod, 0 HTML fetch failures)",
     "v1 limitations: no GSC indexing flags (not_indexed and index_warning are deferred to v2, so request_indexing and fix_canonical are unreachable this run)",
-    "All 76 inspected URLs are fresh: every candidate has an empty flag list and the oldest is 70 days, well under the 305-day aging threshold. No refresh or audit_then_decide actions warranted this cycle.",
-    "Date-signal gap: all 15 money pages derive age from sitemap_lastmod (2026-05-21) with no json_ld_date_modified or article_modified_time in the HTML. Their age tracks the last site build, not the last content edit.",
-    "Prior run (2026-06-25) also produced 0 actions and 0 preserved items, so nothing carried forward."
+    "All 71 inspected URLs are fresh: every candidate has an empty flag list and the oldest is 102 days, well under the 305-day aging threshold. No refresh or audit_then_decide actions warranted this cycle.",
+    "Date-signal gap: all 14 money pages derive age from sitemap_lastmod pinned at 2026-05-21 with no json_ld_date_modified or article_modified_time in the HTML. Their age tracks the original site build, not the last content edit. At that fixed lastmod they cross the 305-day aging threshold on 2027-03-23 and stale_12mo on 2027-05-22.",
+    "Prior run (2026-07-30) also produced 0 actions; no in_progress or completed items existed to carry forward."
   ]
 }

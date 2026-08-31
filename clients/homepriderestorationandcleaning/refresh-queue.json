@@ -3,29 +3,253 @@
   "slug": "homepriderestorationandcleaning",
   "site": "homepriderestorationandcleaning.com",
   "origin": "https://homepriderestorationandcleaning.com",
-  "generated_at": "2026-07-30T17:59:38Z",
-  "gsc_enabled": false,
+  "generated_at": "2026-08-31T23:43:48Z",
+  "gsc_enabled": true,
   "totals": {
-    "total_actions": 0,
+    "total_actions": 11,
     "by_action": {
-      "refresh": 0,
+      "refresh": 8,
       "audit_then_decide": 0,
-      "request_indexing": 0,
+      "title-meta-rewrite": 1,
+      "request_indexing": 2,
       "fix_canonical": 0
     },
     "by_priority": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
+      "1": 8,
+      "2": 1,
+      "3": 2,
       "4": 0
     }
   },
-  "items": [],
+  "items": [
+    {
+      "id": "8c56157e",
+      "url": "https://homepriderestorationandcleaning.com/",
+      "archetype": "home",
+      "is_money_page": true,
+      "action": "refresh",
+      "primary_flag": "striking_queries",
+      "all_flags": [
+        "striking_queries"
+      ],
+      "flag_source": "refresh-candidates.flags",
+      "gsc_coverage_state": "Submitted and indexed",
+      "age_days": 77,
+      "date_source": "sitemap_lastmod",
+      "recommendation": "Target \"smoke remediation services saratoga ut\" (position 14.1, 841 impressions) and its near-duplicate \"smoke damage restoration saratoga ut\" (position 18.4, 772 impressions). The homepage is absorbing all Saratoga Springs smoke demand because no /service-areas/saratoga-springs-ut/ page exists live or in the url-plan, even though Saratoga Springs is the NAP city and the homepage internal_links_out already points at that missing URL. Fix the cause, not the symptom: build the Saratoga Springs service-area page and its smoke-damage-restoration child, then repoint the homepage link. As an interim on-page fix, add a \"Smoke and soot damage restoration in Saratoga Springs\" section that answers the remediation query directly (scope of smoke remediation, response time, direct insurance billing), work \"smoke damage restoration in Saratoga Springs\" into the intro under the existing H1 \"24/7 Restoration Services in Saratoga Springs\", and re-anchor the existing homepage link to /services/smoke-damage-restoration/ as \"smoke damage restoration\". Third query \"smoke damage restoration and cleanup morgan ut\" (position 16, 673 impressions) targets Morgan, UT, which has no page and is not in the 11-city plan. Flagged via date_source sitemap_lastmod at 77 days.",
+      "priority": 1,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    },
+    {
+      "id": "7c179db6",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
+      "archetype": "service-area",
+      "is_money_page": true,
+      "action": "refresh",
+      "primary_flag": "striking_queries",
+      "all_flags": [
+        "striking_queries"
+      ],
+      "flag_source": "refresh-candidates.flags",
+      "gsc_coverage_state": "Submitted and indexed",
+      "age_days": 77,
+      "date_source": "sitemap_lastmod",
+      "recommendation": "Target \"smoke damage restoration and cleanup lehi ut\" (position 13.6, 782 impressions). The Lehi hub is ranking for it instead of the existing /service-areas/lehi-ut/smoke-damage-restoration/ child, so add a short smoke and soot block to the hub that summarizes the process and links down to the child page with the anchor \"smoke damage restoration and cleanup in Lehi\" rather than building competing depth on the hub. Second, two Cedar Pass queries are within one position of page 1 with no Cedar Pass page anywhere in the plan: \"water clean up cedar pass ut\" (position 11.9, 416 impressions) and \"smoke remediation services cedar pass ut\" (position 9.1, 236 impressions). Add a \"Neighborhoods we serve in Lehi\" section that names Cedar Pass explicitly and carries both the water cleanup and smoke remediation phrasings. Flagged via date_source sitemap_lastmod at 77 days.",
+      "priority": 1,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    },
+    {
+      "id": "79ca5ba4",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "is_money_page": false,
+      "action": "refresh",
+      "primary_flag": "striking_queries",
+      "all_flags": [
+        "striking_queries"
+      ],
+      "flag_source": "refresh-candidates.flags",
+      "gsc_coverage_state": "Submitted and indexed",
+      "age_days": 77,
+      "date_source": "json_ld_date_modified",
+      "recommendation": "Target \"smoke damage restoration and cleanup herriman ut\" (position 15.0, 755 impressions). Three near-identical smoke queries totalling 1,579 impressions all sit at positions 13 to 17 on a page that is already exactly on topic, so this is a content-depth problem, not a targeting problem: \"smoke damage restoration herriman ut\" (16.6, 510) and \"smoke damage restoration service herriman ut\" (13.2, 314) are the other two. Build out what the \"and cleanup\" phrasing implies, which the current template lander does not cover: soot removal from walls and contents, thermal fogging, HVAC duct decontamination, sealing and repainting, plus a Herriman-specific response-time statement and insurance billing detail. Widen the H1 from \"Smoke Damage Restoration in Herriman\" to carry \"and cleanup\" and mirror it in the intro. Add inbound links using that anchor from /service-areas/herriman-ut/ and /services/smoke-damage-restoration/. Flagged via date_source json_ld_date_modified at 77 days.",
+      "priority": 1,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    },
+    {
+      "id": "154851be",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/",
+      "archetype": "service-area",
+      "is_money_page": true,
+      "action": "refresh",
+      "primary_flag": "striking_queries",
+      "all_flags": [
+        "striking_queries"
+      ],
+      "flag_source": "refresh-candidates.flags",
+      "gsc_coverage_state": "Submitted and indexed",
+      "age_days": 77,
+      "date_source": "sitemap_lastmod",
+      "recommendation": "Target \"smoke damage restoration american fork ut\" (position 19.6, 458 impressions), but route it rather than absorb it: /service-areas/american-fork-ut/smoke-damage-restoration/ exists and is separately flagged in this same run, so keep the hub smoke section to a two-sentence summary and link down with the anchor \"smoke damage restoration in American Fork\". The larger unserved gap is \"wind damage repair american fork ut\" (position 12.0, 236 impressions): there is no wind-damage service anywhere in the 20-service plan, the closest being /services/storm-damage-restoration/. Add an explicit \"wind damage repair\" subsection to the hub storm coverage naming shingle loss, siding and fence damage, and water intrusion after a blow-off, and link it to /service-areas/american-fork-ut/storm-damage-restoration/. Also carry the layperson phrasing from \"water clean up american fork ut\" (position 14.0, 136 impressions). Flagged via date_source sitemap_lastmod at 77 days.",
+      "priority": 1,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    },
+    {
+      "id": "8de8df82",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/",
+      "archetype": "service-area",
+      "is_money_page": true,
+      "action": "refresh",
+      "primary_flag": "striking_queries",
+      "all_flags": [
+        "striking_queries",
+        "low_ctr"
+      ],
+      "flag_source": "refresh-candidates.flags",
+      "gsc_coverage_state": "Submitted and indexed",
+      "age_days": 77,
+      "date_source": "sitemap_lastmod",
+      "recommendation": "Two jobs on this page, which carries both flags. First, target \"storm damage repair eagle mountain ut\" (position 10.2, 335 impressions), one place off page 1: add a storm-damage-repair section using \"repair\" phrasing (roof, siding, window, water intrusion after wind) and link down to /service-areas/eagle-mountain-ut/storm-damage-restoration/ with the anchor \"storm damage repair in Eagle Mountain\". Fold \"wind damage repair eagle mountain ut\" (position 11.3, 230 impressions) into the same section, since no wind-damage page exists in the plan. \"smoke damage repair eagle mountain ut\" is already at position 8.5 on 90 impressions, so leave it alone. Second, the page is also flagged low_ctr, meaning the scorer measured average position 10 or better on 100+ impressions with under 2 percent CTR, against 3,629 total impressions: rewrite the generic template title \"Restoration Services in Eagle Mountain, UT | Home Pride Restoration and Cleaning\" to lead with the storm and water angle plus a proof point, and rewrite the meta so it opens with the emergency promise and IICRC certification instead of the templated \"Serving Eagle Mountain, UT with 24/7...\" stem. Flagged via date_source sitemap_lastmod at 77 days.",
+      "priority": 1,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    },
+    {
+      "id": "0461f739",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "is_money_page": false,
+      "action": "refresh",
+      "primary_flag": "striking_queries",
+      "all_flags": [
+        "striking_queries",
+        "low_ctr"
+      ],
+      "flag_source": "refresh-candidates.flags",
+      "gsc_coverage_state": "Submitted and indexed",
+      "age_days": 77,
+      "date_source": "json_ld_date_modified",
+      "recommendation": "Target \"smoke remediation services american fork ut\" (position 11.6, 289 impressions). The query says \"remediation\" and the page says \"restoration\" everywhere, including the H1 \"Smoke Damage Restoration in American Fork\", which is the likely reason it stalls just off page 1. Add a section headed \"Smoke remediation services in American Fork\" that states plainly that smoke remediation and smoke damage restoration are the same scope of work, then itemizes it: soot and residue removal, odor neutralization, contents cleaning, HVAC decontamination. Use \"smoke remediation\" naturally in the intro. The page is also flagged low_ctr on 1,133 impressions, so rewrite the template title to carry both terms and a hook, for example \"Smoke Damage Restoration and Remediation in American Fork, UT | 24/7 Response\", and replace the templated meta stem. Flagged via date_source json_ld_date_modified at 77 days.",
+      "priority": 1,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    },
+    {
+      "id": "89a58322",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/",
+      "archetype": "service-area",
+      "is_money_page": true,
+      "action": "refresh",
+      "primary_flag": "striking_queries",
+      "all_flags": [
+        "striking_queries"
+      ],
+      "flag_source": "refresh-candidates.flags",
+      "gsc_coverage_state": "Submitted and indexed",
+      "age_days": 77,
+      "date_source": "sitemap_lastmod",
+      "recommendation": "Target \"water clean up herriman ut\" (position 12.7, 172 impressions) by adding a \"Water cleanup in Herriman\" section that uses the layperson phrasing \"water clean up\" alongside the formal term and links down to /service-areas/herriman-ut/water-damage-restoration/ with that anchor. Protect the second query first, though: \"herriman ut water damage restoration company\" is already at position 9.0 on 152 impressions, so make sure the intro names the business as a Herriman water damage restoration company and the LocalBusiness and aggregate-rating schema stubs are populated, and do not restructure around the striking query in a way that costs that page-1 placement. Third query \"smoke remediation services upton ut\" (position 17.3, 121 impressions) points at Upton, which has no page in the 11-city plan: log it for planning rather than stuffing the locality into the Herriman page. Flagged via date_source sitemap_lastmod at 77 days.",
+      "priority": 1,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    },
+    {
+      "id": "03c24d71",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/",
+      "archetype": "service-area",
+      "is_money_page": true,
+      "action": "refresh",
+      "primary_flag": "striking_queries",
+      "all_flags": [
+        "striking_queries"
+      ],
+      "flag_source": "refresh-candidates.flags",
+      "gsc_coverage_state": "Submitted and indexed",
+      "age_days": 68,
+      "date_source": "sitemap_lastmod",
+      "recommendation": "Lowest-volume striking item this run at 50 impressions, so schedule it after the seven above. Target \"water damage restoration heber city\" (position 12.2) by adding a water-damage section built on the Wasatch Back specifics that differentiate Heber City from the valley cities already covered: seasonal cabins and second homes where a freeze break is discovered days after the loss, snow-load and ice-dam driven roof leaks, and longer drive times that make the 24/7 response claim worth restating. Link down to /service-areas/heber-city-ut/water-damage-restoration/ with the anchor \"water damage restoration in Heber City\". Flagged via date_source sitemap_lastmod at 68 days, the newest page in the flagged set (published 2026-06-24).",
+      "priority": 1,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    },
+    {
+      "id": "f9529324",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "is_money_page": false,
+      "action": "title-meta-rewrite",
+      "primary_flag": "low_ctr",
+      "all_flags": [
+        "low_ctr"
+      ],
+      "flag_source": "refresh-candidates.flags",
+      "gsc_coverage_state": "Submitted and indexed",
+      "age_days": 77,
+      "date_source": "json_ld_date_modified",
+      "recommendation": "Snippet problem, not a content problem: no striking queries fired on this page, so the scorer already places it at average position 10 or better, and the low_ctr flag means it converts under 2 percent of 488 impressions into clicks. Leave the body alone. Rewrite the title away from the generic template \"Storm Damage Restoration in Herriman, UT | Home Pride Restoration and Cleaning\" so it leads with urgency and a differentiator instead of the company name, for example \"Storm Damage Restoration in Herriman, UT | Emergency Tarping and Board-Up, 24/7\". Rewrite the meta away from the templated \"24/7 storm damage restoration in Herriman, UT. IICRC-certified, insurance billing accepted.\" so it carries a concrete next step and the number: same-day tarp and board-up, IICRC-certified crews, direct insurance billing, and (801) 995-2437. Flagged via date_source json_ld_date_modified at 77 days.",
+      "priority": 2,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    },
+    {
+      "id": "9baa3507",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "is_money_page": false,
+      "action": "request_indexing",
+      "primary_flag": "not_indexed",
+      "all_flags": [],
+      "flag_source": "gsc.coverage_state (layer 1 emitted no flag for this URL)",
+      "gsc_coverage_state": "Discovered - currently not indexed",
+      "age_days": 77,
+      "date_source": "json_ld_date_modified",
+      "recommendation": "Layer 1 emitted no flag for this URL; the action derives from the gsc block in refresh-candidates.json, which reports coverage_state \"Discovered - currently not indexed\" with last_crawl_time null. Google has known about the URL for the full 77 days since publication and has never fetched it. This is the highest-value unindexed page on the site: water damage restoration is the primary money service and Eagle Mountain is a core city that is already producing striking queries on its hub. Request indexing through GSC URL Inspection, fire the IndexNow key c07ed68ea29b48918d04a079121afc9a for the URL, and confirm it is still carried in sitemap-index.xml (sitemap_lastmod is 2026-06-15T18:24:52Z, so it is). Most importantly, add internal links from /service-areas/eagle-mountain-ut/ and /services/water-damage-restoration/: \"Discovered - currently not indexed\" on a 77-day-old page almost always means too little internal link equity for Google to spend a crawl on it, not a technical block. Re-check coverage_state on the next monthly run.",
+      "priority": 3,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    },
+    {
+      "id": "f4ae86a5",
+      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "is_money_page": false,
+      "action": "request_indexing",
+      "primary_flag": "not_indexed",
+      "all_flags": [],
+      "flag_source": "gsc.coverage_state (layer 1 emitted no flag for this URL)",
+      "gsc_coverage_state": "Crawled - currently not indexed",
+      "age_days": 77,
+      "date_source": "json_ld_date_modified",
+      "recommendation": "Layer 1 emitted no flag for this URL; the action derives from the gsc block in refresh-candidates.json, which reports coverage_state \"Crawled - currently not indexed\" with last_crawl_time 2026-07-03T23:03:18Z. Google fetched this page nearly two months ago and declined to index it, which is a quality or duplication judgment rather than a discovery problem, so requesting indexing on its own will not hold. Diff the body against the sibling /service-areas/eagle-mountain-ut/frozen-pipe-restoration/ and the other 18 Eagle Mountain service-area-service pages: if the copy is the same template with the service name swapped, that is the cause. Add genuinely page-specific substance first (main shutoff location and steps for Eagle Mountain housing stock, PEX versus copper failure points in local construction age, what a policy covers on a sudden burst versus a slow leak), then request indexing through GSC URL Inspection and add internal links from the Eagle Mountain hub. Re-check coverage_state on the next monthly run.",
+      "priority": 3,
+      "status": "queued",
+      "queued_at": "2026-08-31T23:43:48Z",
+      "completed_at": null
+    }
+  ],
   "notes": [
-    "URLs skipped because already in content-queue: none",
-    "URLs where date extraction failed: none",
-    "URLs skipped as fresh (no flags, age below the 305-day aging threshold): 120",
-    "Oldest URL on the site is 45 days old (https://homepriderestorationandcleaning.com/), 260 days short of the aging threshold, so no URL qualifies for refresh this cycle.",
-    "v1 limitations: no GSC indexing flags, so not_indexed and index_warning cannot be detected and request_indexing / fix_canonical are unreachable. No striking-query or low-CTR demand signals on any candidate this run."
+    "URLs skipped because already in content-queue: none. All 25 content-queue items are /blog/ posts; no flagged URL overlaps System 2 work.",
+    "URLs where date extraction failed: none. All 120 candidates resolved a date (105 json_ld_date_modified, 15 sitemap_lastmod).",
+    "URLs skipped as fresh (no flags, no adverse GSC coverage state, age below the 305-day aging threshold): 109.",
+    "No stale_12mo or aging URL on the site. The oldest page is 77 days old, 228 days short of the aging threshold, so every action in this queue is demand-driven (v2 GSC signals), not age-driven.",
+    "Priority tiers follow the v2 ordering (striking_queries by top-query impressions, then low_ctr, then not_indexed/index_warning, then stale/aging), which supersedes the age-based Step 3 rubric on this run because GSC demand signals are present.",
+    "Layer-1 gap: 3 candidates carry non-indexed GSC coverage states but no flags, so the scorer did not emit not_indexed. Two are queued here from gsc.coverage_state directly (/service-areas/eagle-mountain-ut/water-damage-restoration/, /service-areas/eagle-mountain-ut/burst-pipe-repair/). The third, /blog/when-is-mold-remediation-required/, is 'URL is unknown to Google' at age 0 (published today), which is expected for a same-day publish and is not queued.",
+    "Spec gap: the money-page rule (home, contact, services-hub, service-landing, service-area) does not include the service-area-service archetype, which is 209 of the 260 planned pages and is commercially the deepest converting tier. Four queued items are therefore marked is_money_page false despite being city-plus-service commercial landers. Recommend adding service-area-service to the rule.",
+    "Coverage gap found while classifying: no /service-areas/saratoga-springs-ut/ page exists live or in the url-plan even though Saratoga Springs is the NAP city, and the homepage internal_links_out already links to that missing URL. Only 5 of 11 planned service-area hubs are live.",
+    "Localities drawing striking-query impressions with no page in the plan: Morgan UT (673), Cedar Pass (416 + 236), Upton UT (121). Wind damage repair draws 466 impressions across two cities with no wind-damage service page in the 20-service plan."
   ]
 }

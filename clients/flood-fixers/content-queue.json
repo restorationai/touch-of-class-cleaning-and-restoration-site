@@ -877,7 +877,7 @@
     },
     {
       "id": "2026-08-28-pin-water-damage-repair",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-28T02:11:36.668433+00:00",
       "prioritized": true,
       "source": "strategist-pin",
@@ -899,7 +899,8 @@
           "context": "right now, you don't have time to read 20 reviews and compare websites. You need a compan",
           "reason": "claims 20 reviews but synced gbpReviewCount is 9 (allowed \u00b120%: 7-10)"
         }
-      ]
+      ],
+      "published_verified_at": "2026-08-31T23:14:02Z"
     }
   ]
 }

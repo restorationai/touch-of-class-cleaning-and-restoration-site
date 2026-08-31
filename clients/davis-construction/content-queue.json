@@ -737,7 +737,7 @@
     },
     {
       "id": "2026-07-23-remodeling-contractor-vs-general-contractor",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-23T17:18:06Z",
       "written_at": "2026-08-31T22:43:28Z",
       "post_url": "https://davisconstructioncontractors.com/blog/remodeling-contractor-vs-general-contractor/",
@@ -767,7 +767,8 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Clarify the roles: a remodeler specializes in renovating existing homes; a general contractor manages any construction project. Position Davis as doing both under one roof. Keep distinct from the queued 'do I need a general contractor for a remodel' post by focusing on the role distinction."
+      "notes": "Clarify the roles: a remodeler specializes in renovating existing homes; a general contractor manages any construction project. Position Davis as doing both under one roof. Keep distinct from the queued 'do I need a general contractor for a remodel' post by focusing on the role distinction.",
+      "published_verified_at": "2026-08-31T22:44:41Z"
     },
     {
       "id": "2026-07-23-how-to-plan-a-home-remodel",

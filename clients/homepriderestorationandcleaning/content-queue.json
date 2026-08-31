@@ -490,7 +490,7 @@
     },
     {
       "id": "2026-07-16-when-is-mold-remediation-required",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-16T20:20:00Z",
       "written_at": "2026-08-31T23:25:47Z",
       "post_url": "https://homepriderestorationandcleaning.com/blog/when-is-mold-remediation-required/",
@@ -523,7 +523,8 @@
       "external_authority_candidates": [
         "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide"
       ],
-      "notes": "Decision-stage threshold query. Cover the EPA 10 sq ft guideline, HVAC/sewage/health triggers, and the remediation-vs-removal terminology. Pairs with the mold cost guide and the inspection service. Localize lightly to Utah County."
+      "notes": "Decision-stage threshold query. Cover the EPA 10 sq ft guideline, HVAC/sewage/health triggers, and the remediation-vs-removal terminology. Pairs with the mold cost guide and the inspection service. Localize lightly to Utah County.",
+      "published_verified_at": "2026-08-31T23:27:00Z"
     },
     {
       "id": "2026-07-20-what-is-mold-remediation",
