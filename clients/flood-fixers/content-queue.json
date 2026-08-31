@@ -877,7 +877,7 @@
     },
     {
       "id": "2026-08-28-pin-water-damage-repair",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-28T02:11:36.668433+00:00",
       "prioritized": true,
       "source": "strategist-pin",
@@ -886,7 +886,20 @@
       "volume": null,
       "kd": null,
       "target_word_count": 1500,
-      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table."
+      "notes": "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of real local companies for this query. Our client is #1 with a factual justification (verifiable certifications, license, response time, review count/rating); competitors at #2-#5 are REAL businesses with their REAL Google ratings and one honest strength each \u2014 never invented, never disparaged. End with an FAQ section whose first question is the search query itself, answered directly, plus 3-4 people-also-ask variants (cost, how to choose, response time) phrased the way customers search. Every claim about our client must pass the claims truth table.",
+      "written_at": "2026-08-31T23:12:50Z",
+      "post_url": "https://flood-fixers.com/blog/water-damage-repair/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-repair.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "20 reviews",
+          "context": "right now, you don't have time to read 20 reviews and compare websites. You need a compan",
+          "reason": "claims 20 reviews but synced gbpReviewCount is 9 (allowed \u00b120%: 7-10)"
+        }
+      ]
     }
   ]
 }
