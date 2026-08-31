@@ -190,13 +190,7 @@ def rankings_section(cid: str, domain: str | None, at: str | None) -> dict | Non
                      "img": s.get("image_url")})
     if grid:
         grid.sort(key=lambda g: g["rank"])
-        best_img = max((g for g in grid if g.get("img")),
-                       key=lambda g: g["top3"], default=None)
         out["grid"] = grid[:8]
-        if best_img:
-            out["grid_img"] = {"url": best_img["img"], "date": best_img["date"],
-                               "label": f"{best_img['kw']} around {best_img['city']}"
-                               if best_img["city"] else best_img["kw"]}
 
     hist = _sb(f"marketing_ai_search_history?company_id=eq.{cid}"
                f"&order=scanned_at.desc&limit=12")
@@ -510,14 +504,6 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
                 f"<div class='twrap'><table><tr><th>Keyword</th><th>Scanned around</th>"
                 f"<th class='n'>Average map position</th><th class='n'>Area in top 3</th>"
                 f"<th>Trend</th></tr>{''.join(grows)}</table></div>")
-            gi = rank.get("grid_img")
-            if gi:
-                grid_html += (
-                    f"<img src='{e(gi['url'])}' alt='Map ranking heat map: {e(gi['label'])}' "
-                    f"loading='lazy' style='width:100%;max-width:560px;border:1px solid var(--line);"
-                    f"border-radius:12px;margin:.9rem 0 .2rem;display:block'>"
-                    f"<p class='note'>Heat map for &ldquo;{e(gi['label'])}&rdquo;, scanned {e(gi['date'])}. "
-                    f"Each dot is a real Google Maps search run from that spot; the number is your position.</p>")
         ai_html = ""
         if ai and ai.get("examples"):
             ex_parts = []
