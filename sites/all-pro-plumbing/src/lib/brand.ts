@@ -41,7 +41,7 @@ export const brand = {
   certifications: [] as string[],
   trustBadges: [] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://www.yelp.com/biz/all-pro-plumbing-heating-air-conditioning-and-electrical-oceanside", "https://www.bbb.org/us/ca/ontario/profile/plumber/all-pro-plumbing-heating-cooling-electrical-llc-1126-13063515/complaints", "https://www.homeadvisor.com/rated.allproplumbingheatingairelectrical.156415988.html", "https://www.thumbtack.com/ca/ontario/electrical-repairs/all-pro-plumbing-heating-air-electrical/service/287533992053220469", "https://maps.apple.com/place?place-id=I5285D52B41ECAAF5", "https://nextdoor.com/pages/all-pro-plumbing-heating-air-conditioning-electrical-oceanside-ca/", "https://www.yellowpages.com/oceanside-ca/all-pro-plumbing-heating-air-conditioning"] as string[],
+  sameAsUrls: ["https://www.yelp.com/biz/all-pro-plumbing-heating-air-conditioning-and-electrical-oceanside", "https://www.bbb.org/us/ca/ontario/profile/plumber/all-pro-plumbing-heating-cooling-electrical-llc-1126-13063515/complaints", "https://www.homeadvisor.com/rated.allproplumbingheatingairelectrical.156415988.html", "https://www.thumbtack.com/ca/ontario/electrical-repairs/all-pro-plumbing-heating-air-electrical/service/287533992053220469", "https://maps.apple.com/place?place-id=I5285D52B41ECAAF5", "https://www.bing.com/maps?ss=ypid.YNB76BE949CBC764A1", "https://nextdoor.com/pages/all-pro-plumbing-heating-air-conditioning-electrical-oceanside-ca/", "https://www.yellowpages.com/oceanside-ca/all-pro-plumbing-heating-air-conditioning"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",
