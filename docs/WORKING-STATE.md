@@ -16,11 +16,11 @@ Updated: 2026-08-30 late (PT). Keep this current when a work thread pauses.
   R2 heat-map PNG, AI visibility % from marketing_ai_search_history + real
   cited-query examples. TRG shows 44 page-1 terms / 714 pages / 53% AI.
   All 27 reports regenerated (same URLs).
-- **Sweep FDA FIXED + VERIFIED**: Santino re-granted Full Disk Access to
-  /bin/zsh; launchd-spawned zsh read the Desktop .env in a live test.
-  STILL PENDING (Santino, needs password):
-  `sudo pmset repeat wakeorpoweron MTWRFSU 21:28:00` (Mac must be awake at
-  21:30; pmset -g sched shows no repeat event yet).
+- **Sweep FULLY UNBLOCKED**: Santino re-granted Full Disk Access to /bin/zsh
+  (launchd-spawned zsh read the Desktop .env in a live test) AND the wake
+  schedule is set (osascript admin prompt): `pmset -g sched` shows
+  "wakepoweron at 9:28PM every day". First autonomous 21:30 run since
+  Aug 23 is tonight.
 - **Paul Davis logo**: official franchisor logo fetched from pauldavis.com,
   in branding bucket CO-1783462003421/brand/logo-pauldavis-official.png
   (citations gate reads bucket; no site dir exists for them yet).
