@@ -29,7 +29,7 @@ export const brand = {
   imagesBase: "https://images.mccrestoration.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-G4M427GZWR",
   clarityProjectId: "",
   logoUrl: "/images/logo.webp", // clients/mcc-restoration/Logo.png (chrome MCC + green/blue lockup). Local file for preview; move to images.mccrestoration.com/brand/logo.webp at production cutover once the zone + R2 bucket exist.
   licenseNumbers: [] as string[],
