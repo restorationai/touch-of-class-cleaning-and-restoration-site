@@ -2331,6 +2331,33 @@
       "reason": "Casual non-uniform outdoor portrait; no company context, trade relevance, or branding.",
       "triaged_at": "2026-08-26T12:39:26Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "web:7fb40250e4ff70e7": {
+      "source": "website",
+      "storage": "site-assets/web/web-7fb40250e4ff70e7.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/site-assets/web/web-7fb40250e4ff70e7.png",
+      "origin_url": "https://www.drycountyrestoration.com/wp-content/uploads/2025/06/dcr1.png",
+      "found_on": "https://www.drycountyrestoration.com/",
+      "width": 1900,
+      "height": 1267,
+      "bytes": 807558,
+      "sha1": "7fb40250e4ff70e7",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Dry County Restoration branded cargo van full side profile",
+      "quality": 82,
+      "slots": {
+        "hero": 72,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean studio-style van wrap shot; real signage on vehicle, not editorial overlay.",
+      "triaged_at": "2026-08-31T21:21:05Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {
@@ -2344,5 +2371,5 @@
       "note": "AI-FIRST doctrine exception: exceptional real photo (q=82, their best asset) holds this card; pinned by hand during the 2026-08-10 visual pass."
     }
   },
-  "triaged_at": "2026-08-26T12:39:26Z"
+  "triaged_at": "2026-08-31T21:21:05Z"
 }

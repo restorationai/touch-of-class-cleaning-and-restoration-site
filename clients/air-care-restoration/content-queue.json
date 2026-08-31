@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-08-31-water-damage-restoration-cost-tx",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-31T21:35:13Z",
       "priority": 1,
       "prioritized": true,
@@ -29,7 +29,8 @@
       ],
       "source": "best-of-seeder",
       "written_at": "2026-08-31T21:37:10Z",
-      "post_url": "https://aircarerestoration.com/blog/water-damage-restoration-cost-tx/"
+      "post_url": "https://aircarerestoration.com/blog/water-damage-restoration-cost-tx/",
+      "published_verified_at": "2026-08-31T21:38:20Z"
     },
     {
       "id": "2026-08-17-best-water-damage-restoration-in-abilene-tx",

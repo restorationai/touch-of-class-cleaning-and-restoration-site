@@ -3,7 +3,7 @@
   "slug": "all-pro-plumbing",
   "site": "allproplumbingheatingandair.com",
   "origin": "https://allproplumbingheatingandair.com",
-  "generated_at": "2026-07-30T17:43:12Z",
+  "generated_at": "2026-08-31T22:00:34Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
@@ -22,11 +22,13 @@
   },
   "items": [],
   "notes": [
-    "URLs skipped because already in content-queue: none. Two candidate URLs overlap content-queue items (/blog/best-emergency-plumbing-company-in-bakersfield-ca/ status=written, /blog/how-much-does-a-plumber-cost-per-hour/ status=published), but neither status is in the active set {queued, in_progress, needs_review}, and both are fresh (age 3 and 0 days). The other 9 content-queue items are still queued with post_url=null, so they have no live URL to dedupe against yet.",
-    "URLs where date extraction failed: none. All 209 inspected URLs resolved a date (168 via json_ld_date_modified, 41 via sitemap_lastmod) with zero HTML fetch failures.",
+    "URLs skipped because already in content-queue: none. Seven candidate URLs match content-queue items, but none carry a status in the active set {queued, in_progress, needs_review}: /blog/best-emergency-plumbing-company-in-bakersfield-ca/, /blog/how-to-find-a-good-plumber/, /blog/toilet-replacement-cost/ and /blog/does-homeowners-insurance-cover-slab-leak-repair/ are status=written, and /blog/how-much-does-a-plumber-cost-per-hour/, /blog/how-much-does-a-plumber-cost-to-unclog-a-drain/ and /blog/air-conditioner-not-cooling/ are status=published. All seven are fresh (age 0 to 35 days), so there was nothing to dedupe. The remaining 12 content-queue items are still queued with post_url=null and have no live URL yet.",
+    "URLs where date extraction failed: none. All 192 inspected URLs resolved a date (151 via json_ld_date_modified, 41 via sitemap_lastmod) with zero HTML fetch failures.",
     "v1 limitations: no GSC indexing flags. request_indexing and fix_canonical are unreachable this run because not_indexed and index_warning coverage states require the v2 GSC layer.",
-    "All 209 candidates are fresh: zero layer-1 flags and a maximum age of 50 days against a 305-day aging threshold and a 365-day stale threshold. No refresh or audit action is warranted this cycle.",
-    "Layer 1 coverage: the scorer was re-run at --max-urls 300 because its default cap of 120 left 89 of the 209 sitemap URLs uninspected, including all 22 /services/ service-landing money pages and the /services/ hub. This run covers the full sitemap.",
-    "Archetype mapping: 5 sitemap URLs are absent from plan/url-plan.json (/certifications/, /emergency/, /reviews/, plus the 2 System 2 blog posts) and were treated as non-money pages. /emergency/ in particular would likely score as a money page once mapped."
+    "All 192 candidates are fresh: zero layer-1 flags and a maximum age of 82 days against a 305-day aging threshold and a 365-day stale threshold. No refresh or audit action is warranted this cycle.",
+    "Layer 1 coverage: the candidates file found in place had inspected_count=120, the scorer's default --max-urls cap (scripts/refresh_scorer.py:527), against a 192-URL sitemap. The scorer was re-run at --max-urls 300 for this report so the numbers above cover the full sitemap. This is the same truncation reported on 2026-07-30 and it has recurred.",
+    "Sitemap change since 2026-07-30: 209 URLs then, 192 now. The entire 23-URL /service-areas/bakersfield-ca/ cluster was removed from the sitemap and now 301-redirects (each service page to its /services/{service}/ equivalent, the city hub to /). Bakersfield is the primary service area in plan-input.json, so the primary city is covered by the 22 /services/ service-landing pages and the duplicate city cluster has been consolidated correctly. Six new URLs were added: five blog posts published by System 2 and /services/plasma-guard-pro/.",
+    "Archetype mapping: 11 sitemap URLs are absent from plan/url-plan.json (/certifications/, /emergency/, /reviews/, /services/plasma-guard-pro/, and 7 System 2 blog posts) and were treated as non-money pages by default. /emergency/ and /services/plasma-guard-pro/ are commercial pages that would score as money pages once mapped.",
+    "Money-page rule scope: the rule matches archetypes {home, contact, services-hub, service-landing, service-area}, which covers 31 of 192 candidates. The 132 service-area-service URLs (for example /service-areas/shafter-ca/water-heater-repair/) are commercial conversion pages but fall outside the rule as written, so they would score at priority 4 rather than priority 1 or 3 when they age."
   ]
 }

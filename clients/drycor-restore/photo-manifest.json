@@ -1,5 +1,455 @@
 {
   "slug": "drycor-restore",
-  "assets": {},
-  "slots": {}
+  "assets": {
+    "web:10818cc925159265": {
+      "source": "website",
+      "storage": "site-assets/web/web-10818cc925159265.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-10818cc925159265.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/Stabilization-Fire_Smoke-Board-up-1-scaled.png",
+      "found_on": "https://www.drycor.com/",
+      "width": 2560,
+      "height": 1705,
+      "bytes": 6344586,
+      "sha1": "10818cc925159265",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Boarded-up arched windows on damaged residential building exterior",
+      "quality": 72,
+      "slots": {
+        "hero": 55,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Sharp, well-composed exterior showing storm or fire board-up damage work.",
+      "triaged_at": "2026-08-31T21:26:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:158f038172c928b3": {
+      "source": "website",
+      "storage": "site-assets/web/web-158f038172c928b3.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-158f038172c928b3.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/05/3.png",
+      "found_on": "https://www.drycor.com/",
+      "width": 3600,
+      "height": 1800,
+      "bytes": 183764,
+      "sha1": "158f038172c928b3",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Drycor Restore company logo on black background",
+      "quality": 90,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Pure logo lockup graphic; not a photograph, unsuitable for any photo slot.",
+      "triaged_at": "2026-08-31T21:26:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:1ea9065a2155988a": {
+      "source": "website",
+      "storage": "site-assets/web/web-1ea9065a2155988a.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-1ea9065a2155988a.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/Mold-1.png",
+      "found_on": "https://www.drycor.com/",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 3341223,
+      "sha1": "1ea9065a2155988a",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Black mold growth revealed under lifted hardwood floor planks",
+      "quality": 68,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear mold damage evidence; useful for services but too grim for hero.",
+      "triaged_at": "2026-08-31T21:26:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:2fed0d9d352475e4": {
+      "source": "website",
+      "storage": "site-assets/web/web-2fed0d9d352475e4.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-2fed0d9d352475e4.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/Water-Extraction-1.png",
+      "found_on": "https://www.drycor.com/water-damage-restoration/water-extraction",
+      "width": 3035,
+      "height": 4293,
+      "bytes": 9221326,
+      "sha1": "2fed0d9d352475e4",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two technicians extracting standing water from flooded condo interior",
+      "quality": 78,
+      "slots": {
+        "hero": 62,
+        "team": 70,
+        "services": 80
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Bright, action-rich scene with city view backdrop; strong services and team shot.",
+      "triaged_at": "2026-08-31T21:26:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:473779335bde6ce2": {
+      "source": "website",
+      "storage": "site-assets/web/web-473779335bde6ce2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-473779335bde6ce2.jpg",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/05/emergency-mitigation.jpg",
+      "found_on": "https://www.drycor.com/water-damage-restoration",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 1035087,
+      "sha1": "473779335bde6ce2",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician using wand to extract water from flooded concrete floor",
+      "quality": 60,
+      "slots": {
+        "hero": 20,
+        "team": 40,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Low angle, headless crop limits team value; reads clearly as extraction work.",
+      "triaged_at": "2026-08-31T21:26:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:4cb6b451b6f2f1ba": {
+      "source": "website",
+      "storage": "site-assets/web/web-4cb6b451b6f2f1ba.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-4cb6b451b6f2f1ba.jpg",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/05/turnkey-restoration-scaled.jpg",
+      "found_on": "https://www.drycor.com/",
+      "width": 2560,
+      "height": 2144,
+      "bytes": 677108,
+      "sha1": "4cb6b451b6f2f1ba",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Fully renovated modern kitchen after restoration work completed",
+      "quality": 80,
+      "slots": {
+        "hero": 60,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clean, bright after-state interior; good composition for rebuild or hero use.",
+      "triaged_at": "2026-08-31T21:26:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:5cbeb5a7741ba914": {
+      "source": "website",
+      "storage": "site-assets/web/web-5cbeb5a7741ba914.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-5cbeb5a7741ba914.jpg",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/05/DRYCORSVGDisasterTeamOn-Site1-1920w.webp",
+      "found_on": "https://www.drycor.com/about",
+      "width": 1920,
+      "height": 1279,
+      "bytes": 146232,
+      "sha1": "5cbeb5a7741ba914",
+      "exif": {},
+      "category": "crew",
+      "subject": "Drycor crew in hazmat suits at large-scale fire demolition site",
+      "quality": 82,
+      "slots": {
+        "hero": 78,
+        "team": 72,
+        "services": 80
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Extremely polished, cinematic lighting and composition suggests AI-generated or produced marketing image.",
+      "triaged_at": "2026-08-31T21:26:50Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:601cb5e7622dbc5f": {
+      "source": "website",
+      "storage": "site-assets/web/web-601cb5e7622dbc5f.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-601cb5e7622dbc5f.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/Contents.png",
+      "found_on": "https://www.drycor.com/",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2379927,
+      "sha1": "601cb5e7622dbc5f",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crew sorting flood debris and damaged contents inside flooded home",
+      "quality": 68,
+      "slots": {
+        "hero": 22,
+        "team": 60,
+        "services": 72
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "indoor_clutter"
+      ],
+      "reason": "Authentic job site photo; portrait crop and clutter limit hero use but good for services.",
+      "triaged_at": "2026-08-31T21:26:50Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:64a1a50e953296ed": {
+      "source": "website",
+      "storage": "site-assets/web/web-64a1a50e953296ed.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-64a1a50e953296ed.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/HOME-HERO-IMAGE.png",
+      "found_on": "https://www.drycor.com/",
+      "width": 1000,
+      "height": 666,
+      "bytes": 846245,
+      "sha1": "64a1a50e953296ed",
+      "exif": {},
+      "category": "crew",
+      "subject": "Drycor technician consulting homeowner with dehumidifier and crew in background",
+      "quality": 78,
+      "slots": {
+        "hero": 65,
+        "team": 70,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Heavily art-directed with dark vignette overlay; too polished and staged to be an authentic job photo.",
+      "triaged_at": "2026-08-31T21:26:50Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:722e97ef8cce5c6c": {
+      "source": "website",
+      "storage": "site-assets/web/web-722e97ef8cce5c6c.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-722e97ef8cce5c6c.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/05/cropped-3-scaled-1.png",
+      "found_on": "https://www.drycor.com/",
+      "width": 2560,
+      "height": 731,
+      "bytes": 145872,
+      "sha1": "722e97ef8cce5c6c",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Drycor Restore logo lockup on black background",
+      "quality": 90,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Pure logo graphic; no photographic content, unsuitable for any photo slot.",
+      "triaged_at": "2026-08-31T21:26:50Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:72dbeebfd86f67b9": {
+      "source": "website",
+      "storage": "site-assets/web/web-72dbeebfd86f67b9.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-72dbeebfd86f67b9.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/Catastrophe-Damage-Storm-Surge-1-scaled.png",
+      "found_on": "https://www.drycor.com/",
+      "width": 2560,
+      "height": 1979,
+      "bytes": 5490238,
+      "sha1": "72dbeebfd86f67b9",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Flood-damaged basement interior with mud-covered floor and peeling walls",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Good authentic damage documentation; dark and cluttered limits hero, useful for before state.",
+      "triaged_at": "2026-08-31T21:26:50Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:94f57bd6da45183b": {
+      "source": "website",
+      "storage": "site-assets/web/web-94f57bd6da45183b.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-94f57bd6da45183b.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/VETERAN-OWNED-scaled.png",
+      "found_on": "https://www.drycor.com/",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 639211,
+      "sha1": "94f57bd6da45183b",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Veteran owned badge with saluting soldier silhouette and American flag",
+      "quality": 70,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic stock graphic badge; no photographic content, unsuitable for any photo slot.",
+      "triaged_at": "2026-08-31T21:26:50Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:b311eb3bf2bd20cd": {
+      "source": "website",
+      "storage": "site-assets/web/web-b311eb3bf2bd20cd.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-b311eb3bf2bd20cd.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/Loss-Coordination-COMMERCIAL-1-scaled.png",
+      "found_on": "https://www.drycor.com/",
+      "width": 2560,
+      "height": 1705,
+      "bytes": 4667882,
+      "sha1": "b311eb3bf2bd20cd",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Four construction professionals shaking hands at building site",
+      "quality": 82,
+      "slots": {
+        "hero": 15,
+        "team": 20,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Polished stock photo; no Drycor branding, crew, or restoration work visible.",
+      "triaged_at": "2026-08-31T21:27:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:c39fef2a917dfde1": {
+      "source": "website",
+      "storage": "site-assets/web/web-c39fef2a917dfde1.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-c39fef2a917dfde1.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/Emergency-response-TECH-DRIVER-1-scaled.png",
+      "found_on": "https://www.drycor.com/",
+      "width": 2560,
+      "height": 1705,
+      "bytes": 3731951,
+      "sha1": "c39fef2a917dfde1",
+      "exif": {},
+      "category": "crew",
+      "subject": "Drycor technician in branded cap and polo sitting in van",
+      "quality": 88,
+      "slots": {
+        "hero": 52,
+        "team": 78,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp branded portrait in company vehicle; strong team slot, limited hero width.",
+      "triaged_at": "2026-08-31T21:27:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:c5f09d8e835ec8c7": {
+      "source": "website",
+      "storage": "site-assets/web/web-c5f09d8e835ec8c7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-c5f09d8e835ec8c7.jpg",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/05/emergency-mitigation-scaled.jpg",
+      "found_on": "https://www.drycor.com/water-damage-restoration",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 591226,
+      "sha1": "c5f09d8e835ec8c7",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Technician extracting water from flooded basement floor",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 20,
+        "services": 68
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Authentic extraction work in progress; low angle limits hero use but services reads well.",
+      "triaged_at": "2026-08-31T21:27:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:db115eae0de56267": {
+      "source": "website",
+      "storage": "site-assets/web/web-db115eae0de56267.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-db115eae0de56267.jpg",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/Drying-scaled.jpg",
+      "found_on": "https://www.drycor.com/",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 678547,
+      "sha1": "db115eae0de56267",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air movers and dehumidifier deployed in gutted residential living room",
+      "quality": 72,
+      "slots": {
+        "hero": 48,
+        "team": 0,
+        "services": 74
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Wide-angle drying setup with good natural light; clear services visual, no crew present.",
+      "triaged_at": "2026-08-31T21:27:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:ec7ed25e6bc60c90": {
+      "source": "website",
+      "storage": "site-assets/web/web-ec7ed25e6bc60c90.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/site-assets/web/web-ec7ed25e6bc60c90.png",
+      "origin_url": "https://www.drycor.com/wp-content/uploads/2026/06/Water-Extraction-1-scaled.png",
+      "found_on": "https://www.drycor.com/water-damage-restoration/water-extraction",
+      "width": 1810,
+      "height": 2560,
+      "bytes": 4835950,
+      "sha1": "ec7ed25e6bc60c90",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two technicians extracting water from flooded high-rise apartment",
+      "quality": 75,
+      "slots": {
+        "hero": 62,
+        "team": 72,
+        "services": 80
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Real crew mid-task with bright city view background; strong services and team appeal.",
+      "triaged_at": "2026-08-31T21:27:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-31T21:27:06Z"
 }

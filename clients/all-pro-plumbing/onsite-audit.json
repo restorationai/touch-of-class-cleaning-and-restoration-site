@@ -5,12 +5,14 @@
   "live_origin": "https://allproplumbingheatingandair.com",
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-07-30T17:39:11Z",
+  "lighthouse_version": "13.4.0",
+  "generated_at": "2026-08-31T21:52:35Z",
   "environment_caveats": [
-    "Lighthouse ran DESKTOP only (cpuSlowdownMultiplier=1, throughputKbps=10240, formFactor=desktop). Mobile scores would typically run 10-20 performance points lower. Not mobile-first scoring.",
-    "Apex audited (cutover completed 2026-07-23). No x-robots-tag: noindex on any audited URL, so the staging SEO-exclusion correction does not apply and SEO counts toward the verdict.",
-    "Lighthouse 13.4.0 reports the newer *-insight audit IDs (image-delivery-insight, render-blocking-insight, lcp-discovery-insight, cache-insight, network-dependency-tree-insight) in place of the older opportunity IDs.",
-    "DataForSEO check has_micromarkup returns false on all 6 URLs; this is a false negative for JSON-LD. Schema was verified directly from the served HTML and parses as valid JSON-LD on all 6 pages."
+    "Audited the apex production origin, so the staging noindex correction does not apply and SEO counts toward the verdict.",
+    "Lighthouse run DESKTOP (formFactor=desktop, lighthouseVersion 13.4.0). Mobile scores typically run 10-20 performance points lower and were not measured.",
+    "This MCP build exposes only the generic dataforseo api_request tool, not the on_page_lighthouse / on_page_instant_pages wrappers. Calls were made directly to /v3/on_page/lighthouse/live/json and /v3/on_page/instant_pages with responses piped to disk. The raw API DOES expose a for_mobile parameter that the MCP wrapper did not; desktop was kept this run to preserve month-over-month comparability with the July baseline.",
+    "Service-area slot re-baselined. The July audit measured /service-areas/bakersfield-ca/, which 301-redirects to the homepage and is not a distinct page; its July green row actually scored homepage content. url-plan.json contains no Bakersfield area page and no service-area entry has primary:true, so this run used the plan's first area slug, /service-areas/oildale-ca/.",
+    "/services/emergency-plumbing/ returned a DataForSEO Internal Error (50000) on the first Lighthouse attempt and was retried successfully; the failed attempt was not billed."
   ],
   "audited_urls": [
     {
@@ -19,79 +21,99 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 100,
         "accessibility": 93,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 867,
-        "CLS": 0.0174,
+        "LCP_ms": 627,
+        "CLS": 0.0151,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 174445,
-          "category": "performance"
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
         },
         {
-          "id": "link-in-text-block",
-          "title": "Links rely on color to be distinguishable",
-          "severity": "high",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "accessibility"
+          "category": "performance"
         },
         {
           "id": "network-dependency-tree-insight",
           "title": "Network dependency tree",
           "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "performance"
         },
         {
           "id": "render-blocking-insight",
-          "title": "Render blocking requests",
-          "severity": "medium",
-          "estimated_savings_ms": 55,
-          "estimated_savings_bytes": null,
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
           "category": "performance"
         },
         {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 287,
+          "estimated_savings_ms": 0,
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
+          "id": "schema_sameas_entity_mismatch",
+          "severity": "medium",
+          "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+        },
+        {
+          "id": "schema_localbusiness_relative_image_url",
+          "severity": "medium",
+          "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+        },
+        {
+          "id": "schema_localbusiness_empty_required_fields",
+          "severity": "medium",
+          "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+        },
+        {
           "id": "meta_description_length_off",
-          "title": "Meta description is 170 chars (target 70-160)",
-          "severity": "medium"
+          "severity": "medium",
+          "title": "Meta description is 170 chars (target 70-160)"
+        },
+        {
+          "id": "high_loading_time",
+          "severity": "medium",
+          "title": "DataForSEO flags high page loading time"
         },
         {
           "id": "has_render_blocking_resources",
-          "title": "Page has render-blocking resources",
-          "severity": "low"
+          "severity": "low",
+          "title": "Render-blocking script and stylesheet in the document head"
         },
         {
-          "id": "no_image_title",
-          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
-          "severity": "low"
+          "id": "low_content_rate",
+          "severity": "low",
+          "title": "Low text-to-HTML ratio"
         },
         {
           "id": "content_below_target_word_count",
-          "title": "Word count 1173 is below the archetype target of 1200",
-          "severity": "low"
+          "severity": "low",
+          "title": "Word count 1173 below plan target 1200"
+        },
+        {
+          "id": "no_image_title",
+          "severity": "low",
+          "title": "Images missing the title attribute"
         }
       ]
     },
@@ -101,122 +123,146 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 91,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 871,
-        "CLS": 0.0264,
+        "LCP_ms": 1096,
+        "CLS": 0.0252,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
           "estimated_savings_ms": 100,
-          "estimated_savings_bytes": 323877,
           "category": "performance"
         },
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
-          "severity": "high",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "accessibility"
         },
         {
           "id": "link-in-text-block",
-          "title": "Links rely on color to be distinguishable",
-          "severity": "high",
+          "title": "Links rely on color to be distinguishable.",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
         },
         {
           "id": "lcp-discovery-insight",
           "title": "LCP request discovery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
           "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
+          "id": "schema_sameas_entity_mismatch",
+          "severity": "medium",
+          "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+        },
+        {
+          "id": "schema_localbusiness_relative_image_url",
+          "severity": "medium",
+          "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+        },
+        {
+          "id": "schema_localbusiness_empty_required_fields",
+          "severity": "medium",
+          "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "severity": "medium",
+          "title": "Micromarkup validation errors reported on the FAQPage block"
+        },
+        {
           "id": "meta_description_length_off",
-          "title": "Meta description is 173 chars (target 70-160)",
-          "severity": "medium"
+          "severity": "medium",
+          "title": "Meta description is 173 chars (target 70-160)"
+        },
+        {
+          "id": "high_loading_time",
+          "severity": "medium",
+          "title": "DataForSEO flags high page loading time"
         },
         {
           "id": "has_render_blocking_resources",
-          "title": "Page has render-blocking resources",
-          "severity": "low"
+          "severity": "low",
+          "title": "Render-blocking script and stylesheet in the document head"
         },
         {
           "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio (image-heavy service grid markup)",
-          "severity": "low"
+          "severity": "low",
+          "title": "Low text-to-HTML ratio"
         },
         {
           "id": "no_image_title",
-          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
-          "severity": "low"
+          "severity": "low",
+          "title": "Images missing the title attribute"
         }
       ]
     },
     {
       "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
       "archetype": "service-landing",
-      "verdict": "green",
+      "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 97,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 796,
-        "CLS": 0.0541,
-        "TBT_ms": 0,
+        "LCP_ms": 1049,
+        "CLS": 0.0518,
+        "TBT_ms": 98,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "render-blocking-insight",
-          "title": "Render blocking requests",
-          "severity": "high",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": null,
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 80,
           "category": "performance"
         },
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
-          "severity": "high",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
         },
         {
           "id": "lcp-discovery-insight",
           "title": "LCP request discovery",
-          "severity": "high",
+          "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "performance"
         },
         {
@@ -224,40 +270,46 @@
           "title": "Network dependency tree",
           "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 290,
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
-          "id": "has_render_blocking_resources",
-          "title": "Page has render-blocking resources",
-          "severity": "low"
+          "id": "schema_sameas_entity_mismatch",
+          "severity": "medium",
+          "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
         },
         {
-          "id": "high_loading_time",
-          "title": "High loading time on the DataForSEO single-fetch probe (cold cache; Lighthouse measured 87ms server response on the same page)",
-          "severity": "low"
+          "id": "schema_localbusiness_relative_image_url",
+          "severity": "medium",
+          "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+        },
+        {
+          "id": "schema_localbusiness_empty_required_fields",
+          "severity": "medium",
+          "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "severity": "medium",
+          "title": "Micromarkup validation errors reported on the FAQPage block"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "severity": "low",
+          "title": "Render-blocking script and stylesheet in the document head"
         },
         {
           "id": "no_image_title",
-          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
-          "severity": "low"
+          "severity": "low",
+          "title": "Images missing the title attribute"
         }
       ]
     },
     {
       "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
       "archetype": "service-landing",
-      "verdict": "green",
+      "verdict": "amber",
       "error_reason": null,
       "scores": {
         "performance": 99,
@@ -266,98 +318,125 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 852,
-        "CLS": 0.0053,
+        "LCP_ms": 974,
+        "CLS": 0.003,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
           "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 175352,
           "category": "performance"
         },
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
-          "severity": "high",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "accessibility"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
         },
         {
           "id": "lcp-discovery-insight",
           "title": "LCP request discovery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
           "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 290,
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
+          "id": "schema_sameas_entity_mismatch",
+          "severity": "medium",
+          "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+        },
+        {
+          "id": "schema_localbusiness_relative_image_url",
+          "severity": "medium",
+          "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+        },
+        {
+          "id": "schema_localbusiness_empty_required_fields",
+          "severity": "medium",
+          "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "severity": "medium",
+          "title": "Micromarkup validation errors reported on the FAQPage block"
+        },
+        {
           "id": "has_render_blocking_resources",
-          "title": "Page has render-blocking resources",
-          "severity": "low"
+          "severity": "low",
+          "title": "Render-blocking script and stylesheet in the document head"
         },
         {
           "id": "no_image_title",
-          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
-          "severity": "low"
+          "severity": "low",
+          "title": "Images missing the title attribute"
         }
       ]
     },
     {
-      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/",
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/",
       "archetype": "service-area",
-      "verdict": "green",
+      "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 98,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 807,
-        "CLS": 0.0259,
-        "TBT_ms": 0,
+        "LCP_ms": 958,
+        "CLS": 0.0031,
+        "TBT_ms": 65,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
-          "severity": "high",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
         },
         {
           "id": "lcp-discovery-insight",
           "title": "LCP request discovery",
-          "severity": "high",
+          "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "performance"
         },
         {
@@ -365,120 +444,138 @@
           "title": "Network dependency tree",
           "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 11843,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 155706,
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
-          "id": "has_render_blocking_resources",
-          "title": "Page has render-blocking resources",
-          "severity": "low"
+          "id": "schema_sameas_entity_mismatch",
+          "severity": "medium",
+          "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
         },
         {
-          "id": "frame",
-          "title": "Page embeds an iframe (Google Maps)",
-          "severity": "low"
+          "id": "schema_localbusiness_relative_image_url",
+          "severity": "medium",
+          "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+        },
+        {
+          "id": "schema_localbusiness_empty_required_fields",
+          "severity": "medium",
+          "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "severity": "medium",
+          "title": "Micromarkup validation errors reported on the FAQPage block"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "severity": "low",
+          "title": "Render-blocking script and stylesheet in the document head"
         },
         {
           "id": "no_image_title",
-          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
-          "severity": "low"
+          "severity": "low",
+          "title": "Images missing the title attribute"
+        },
+        {
+          "id": "frame",
+          "severity": "low",
+          "title": "Page contains an iframe"
         }
       ]
     },
     {
       "url": "https://allproplumbingheatingandair.com/contact/",
       "archetype": "contact",
-      "verdict": "green",
+      "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 92,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 652,
-        "CLS": 0.0162,
+        "LCP_ms": 993,
+        "CLS": 0.0039,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 100,
-          "estimated_savings_bytes": 166840,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render blocking requests",
-          "severity": "high",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": null,
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 60,
           "category": "performance"
         },
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
-          "severity": "high",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "accessibility"
         },
         {
           "id": "link-in-text-block",
-          "title": "Links rely on color to be distinguishable",
-          "severity": "high",
+          "title": "Links rely on color to be distinguishable.",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
         },
         {
           "id": "lcp-discovery-insight",
           "title": "LCP request discovery",
-          "severity": "high",
+          "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
+          "id": "schema_sameas_entity_mismatch",
+          "severity": "medium",
+          "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+        },
+        {
+          "id": "schema_localbusiness_relative_image_url",
+          "severity": "medium",
+          "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+        },
+        {
+          "id": "schema_localbusiness_empty_required_fields",
+          "severity": "medium",
+          "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "severity": "medium",
+          "title": "Micromarkup validation errors reported on the FAQPage block"
+        },
+        {
           "id": "has_render_blocking_resources",
-          "title": "Page has render-blocking resources",
-          "severity": "low"
+          "severity": "low",
+          "title": "Render-blocking script and stylesheet in the document head"
         },
         {
           "id": "no_image_title",
-          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
-          "severity": "low"
+          "severity": "low",
+          "title": "Images missing the title attribute"
         }
       ]
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 99.3,
+      "performance": 98.5,
       "accessibility": 93.5,
       "best_practices": 100.0,
       "seo": 100.0
@@ -486,71 +583,101 @@
     "verdict": "amber",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 4,
-      "amber": 2,
+      "green": 0,
+      "amber": 6,
       "red": 0,
       "error": 0
     },
     "template_issues": [
       {
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "affected_urls": 6,
-        "severity": "high"
+        "id": "has_render_blocking_resources",
+        "title": "Render-blocking script and stylesheet in the document head",
+        "severity": "low",
+        "affected_urls": 6
       },
       {
-        "id": "render-blocking-insight",
-        "title": "Render blocking requests",
-        "affected_urls": 6,
-        "severity": "high"
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "severity": "low",
+        "affected_urls": 6
+      },
+      {
+        "id": "no_image_title",
+        "title": "Images missing the title attribute",
+        "severity": "low",
+        "affected_urls": 6
+      },
+      {
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "severity": "low",
+        "affected_urls": 6
       },
       {
         "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio",
-        "affected_urls": 5,
-        "severity": "high"
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "severity": "medium",
+        "affected_urls": 5
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validation errors reported on the FAQPage block",
+        "severity": "medium",
+        "affected_urls": 5
       },
       {
         "id": "lcp-discovery-insight",
         "title": "LCP request discovery",
-        "affected_urls": 5,
-        "severity": "high"
+        "severity": "low",
+        "affected_urls": 5
       },
       {
         "id": "link-in-text-block",
-        "title": "Links rely on color to be distinguishable",
-        "affected_urls": 3,
-        "severity": "high"
-      },
-      {
-        "id": "meta_description_length_off",
-        "title": "Meta description is 170 chars (target 70-160)",
-        "affected_urls": 2,
-        "severity": "medium"
+        "title": "Links rely on color to be distinguishable.",
+        "severity": "medium",
+        "affected_urls": 3
       },
       {
         "id": "network-dependency-tree-insight",
         "title": "Network dependency tree",
-        "affected_urls": 6,
-        "severity": "low"
+        "severity": "low",
+        "affected_urls": 3
       },
       {
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "affected_urls": 6,
-        "severity": "low"
+        "id": "high_loading_time",
+        "title": "DataForSEO flags high page loading time",
+        "severity": "medium",
+        "affected_urls": 2
       },
       {
-        "id": "has_render_blocking_resources",
-        "title": "Page has render-blocking resources",
-        "affected_urls": 6,
-        "severity": "low"
+        "id": "low_content_rate",
+        "title": "Low text-to-HTML ratio",
+        "severity": "low",
+        "affected_urls": 2
       },
       {
-        "id": "no_image_title",
-        "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
-        "affected_urls": 6,
-        "severity": "low"
+        "id": "meta_description_length_off",
+        "title": "Meta description is 170 chars (target 70-160)",
+        "severity": "medium",
+        "affected_urls": 2
       }
     ],
     "money_page_alerts": [
@@ -558,22 +685,402 @@
         "url": "https://allproplumbingheatingandair.com/",
         "archetype": "home",
         "verdict": "amber",
-        "main_issue": "Meta description is 170 chars (target 70-160)"
+        "main_issue": "perf 100, a11y 93, LCP 627ms; medium on-page: schema_sameas_entity_mismatch, schema_localbusiness_relative_image_url, schema_localbusiness_empty_required_fields, meta_description_length_off, high_loading_time"
       },
       {
         "url": "https://allproplumbingheatingandair.com/services/",
         "archetype": "services-hub",
         "verdict": "amber",
-        "main_issue": "Meta description is 173 chars (target 70-160)"
+        "main_issue": "perf 98, a11y 91, LCP 1096ms; medium on-page: schema_sameas_entity_mismatch, schema_localbusiness_relative_image_url, schema_localbusiness_empty_required_fields, has_micromarkup_errors, meta_description_length_off, high_loading_time"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "perf 97, a11y 95, LCP 1049ms; medium on-page: schema_sameas_entity_mismatch, schema_localbusiness_relative_image_url, schema_localbusiness_empty_required_fields, has_micromarkup_errors"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "perf 99, a11y 95, LCP 974ms; medium on-page: schema_sameas_entity_mismatch, schema_localbusiness_relative_image_url, schema_localbusiness_empty_required_fields, has_micromarkup_errors"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "archetype": "contact",
+        "verdict": "amber",
+        "main_issue": "perf 99, a11y 92, LCP 993ms; medium on-page: schema_sameas_entity_mismatch, schema_localbusiness_relative_image_url, schema_localbusiness_empty_required_fields, has_micromarkup_errors"
       }
     ]
   },
   "regression": {
-    "prior_run_at": null,
-    "score_deltas": null,
-    "verdict_transitions": [],
-    "new_issues": [],
-    "resolved_issues": [],
-    "note": "First audit for this client - no comparison data."
+    "prior_run_at": "2026-07-30T17:39:11Z",
+    "score_deltas": {
+      "performance": -0.8,
+      "accessibility": 0.0,
+      "best_practices": 0.0,
+      "seo": 0.0
+    },
+    "verdict_transitions": [
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "from": "green",
+        "to": "amber"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "from": "green",
+        "to": "amber"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "from": "green",
+        "to": "amber"
+      }
+    ],
+    "category_regressions": [],
+    "core_web_vitals_regressions": [
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "metric": "LCP_ms",
+        "prior": 871,
+        "current": 1096,
+        "delta": 225
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "metric": "LCP_ms",
+        "prior": 796,
+        "current": 1049,
+        "delta": 253
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "metric": "LCP_ms",
+        "prior": 652,
+        "current": 993,
+        "delta": 341
+      }
+    ],
+    "new_issues": [
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "high_loading_time",
+        "title": "DataForSEO flags high page loading time"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "low_content_rate",
+        "title": "Low text-to-HTML ratio"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validation errors reported on the FAQPage block"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "high_loading_time",
+        "title": "DataForSEO flags high page loading time"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validation errors reported on the FAQPage block"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validation errors reported on the FAQPage block"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validation errors reported on the FAQPage block"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      }
+    ],
+    "resolved_issues": [
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "high_loading_time",
+        "title": "High loading time on the DataForSEO single-fetch probe (cold cache; Lighthouse measured 87ms server response on the same page)"
+      }
+    ],
+    "url_set_changes": {
+      "added": [
+        "https://allproplumbingheatingandair.com/service-areas/oildale-ca/"
+      ],
+      "dropped": [
+        "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/"
+      ]
+    },
+    "interpretation": "Verdict transitions this month are driven by newly-detected pre-existing LocalBusiness schema defects (sameAs entity mismatch, relative image URLs, empty address/geo fields), not by new breakage: Lighthouse category scores are flat within +-2 points and no category regressed by the 5-point threshold. On-page new/resolved lists are reliable because the prior run stored the full on-page set. Lighthouse 'resolved' entries were verified against the current FULL failing-audit set, not the top-5 capture, so they are real. Lighthouse 'new' entries are compared against the prior top-5 capture only, so an audit that was failing in July below rank 5 can surface here without being a real regression.",
+    "new_issues_onpage": [
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "high_loading_time",
+        "title": "DataForSEO flags high page loading time"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "low_content_rate",
+        "title": "Low text-to-HTML ratio"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validation errors reported on the FAQPage block"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "high_loading_time",
+        "title": "DataForSEO flags high page loading time"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validation errors reported on the FAQPage block"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validation errors reported on the FAQPage block"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validation errors reported on the FAQPage block"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "id": "schema_localbusiness_empty_required_fields",
+        "title": "LocalBusiness emits empty strings for streetAddress, postalCode, geo.latitude, geo.longitude, foundingDate"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "id": "schema_localbusiness_relative_image_url",
+        "title": "LocalBusiness image and logo use relative paths; structured data requires absolute URLs"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "id": "schema_sameas_entity_mismatch",
+        "title": "LocalBusiness/Organization sameAs links point to unrelated businesses (Oceanside CA / Ontario CA)"
+      }
+    ],
+    "new_issues_lighthouse": [
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/contact/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      }
+    ],
+    "resolved_issues_onpage": [
+      {
+        "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+        "id": "high_loading_time",
+        "title": "High loading time on the DataForSEO single-fetch probe (cold cache; Lighthouse measured 87ms server response on the same page)"
+      }
+    ],
+    "resolved_issues_lighthouse": []
   }
 }
