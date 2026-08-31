@@ -29,7 +29,7 @@ export const brand = {
   imagesBase: "https://images.restorationxpress.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-YMWBHG8Y4F",
   clarityProjectId: "",
   logoUrl: "/images/logo.png",
   licenseNumbers: ["1057"] as string[],
