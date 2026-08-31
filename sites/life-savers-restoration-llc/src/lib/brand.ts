@@ -35,7 +35,7 @@ export const brand = {
   imagesBase: "https://images.None",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-EGE48LYQVZ",
   clarityProjectId: "",
   logoUrl: "/images/logo.png",
   licenseNumbers: ["0091001"] as string[],
