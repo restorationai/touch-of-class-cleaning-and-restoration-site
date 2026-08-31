@@ -29,7 +29,7 @@ export const brand = {
   imagesBase: "https://images.prorestorationca.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-LQE0DXHG08",
   clarityProjectId: "",
   logoUrl: "/images/logo.svg", // preview: switch to images.prorestorationca.com/brand/... at production cutover
   licenseNumbers: ["960566"] as string[],
