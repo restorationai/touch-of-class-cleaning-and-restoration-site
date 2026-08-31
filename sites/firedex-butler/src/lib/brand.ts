@@ -29,7 +29,7 @@ export const brand = {
   imagesBase: "https://images.firedex.net",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-65LP4WBQWM",
   clarityProjectId: "",
   logoUrl: "/images/logo.png",
   licenseNumbers: ["PA001913"] as string[],
