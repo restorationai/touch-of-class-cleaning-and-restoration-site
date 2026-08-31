@@ -1,6 +1,29 @@
 {
   "slug": "restoration-groups",
   "assets": {
+    "crew:trg-fleet-branded": {
+      "source": "crew",
+      "storage": "job-photos/trg-fleet-branded.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/trg-fleet-branded.png",
+      "width": 1376,
+      "height": 768,
+      "bytes": 739756,
+      "sha1": "499a2c0973b3a0fd",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Three branded white Ford Transit vans in parking lot",
+      "quality": 92,
+      "slots": {
+        "hero": 88,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clean, sharp, wide fleet shot with office backdrop; excellent hero candidate.",
+      "triaged_at": "2026-08-31T18:09:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM180Rhs-QXQvHjAXPC08mnuJ48sEcUMGre48LX": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM180Rhs-QXQvHjAXPC08mnuJ48sEcUMGre48LX.jpg",
@@ -24,6 +47,35 @@
       "flags": [],
       "reason": "Real uniform signage on hoodie; good action shot for contents pack-out service card.",
       "triaged_at": "2026-08-31T17:05:14Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipM3t8PqpHPqbsIBvzjYkUFTosv4B9qGYghuwtF3": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM3t8PqpHPqbsIBvzjYkUFTosv4B9qGYghuwtF3.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipM3t8PqpHPqbsIBvzjYkUFTosv4B9qGYghuwtF3.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 103852,
+      "sha1": "60b03f18bf8b2326",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in PPE holding two air movers beside branded van",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 68,
+        "services": 78
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good services shot; portrait crop and busy van text limit hero use.",
+      "triaged_at": "2026-08-31T18:09:01Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipM59n3h9opQ2gRzpwJbODfO_JX33Q7uOEhuFtx_": {
@@ -648,6 +700,31 @@
       "triaged_at": "2026-08-31T17:06:02Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipN-avWt91U36YGQd5Aak63HDTLZYhev-JZDQURP": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN-avWt91U36YGQd5Aak63HDTLZYhev-JZDQURP.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipN-avWt91U36YGQd5Aak63HDTLZYhev-JZDQURP.jpg",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 818149,
+      "sha1": "12102277b8b5c8c3",
+      "exif": {},
+      "category": "crew",
+      "subject": "Five crew members in blue shirts beside branded box truck",
+      "quality": 68,
+      "slots": {
+        "hero": 30,
+        "team": 80,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Solid team group shot; overcast and cluttered background reduce hero score.",
+      "triaged_at": "2026-08-31T18:09:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipN2GNg0YoKvMvOFX2chQ2QmkYcUnoHilYU4OEZd": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipN2GNg0YoKvMvOFX2chQ2QmkYcUnoHilYU4OEZd.jpg",
@@ -792,6 +869,17 @@
       "reason": "Good active-service shot; face not visible, slightly cluttered composition.",
       "triaged_at": "2026-08-31T17:06:17Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNSjXaF4r5J0GeqFFhqdH3kBmlZBjwVmJbpT2pV": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNSjXaF4r5J0GeqFFhqdH3kBmlZBjwVmJbpT2pV.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipNSjXaF4r5J0GeqFFhqdH3kBmlZBjwVmJbpT2pV.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 66419,
+      "sha1": "bf0c5276b5682c51",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipMnOg28vyvrJA0RZiMhqvmGOZA7Z8oP0DvsVCXG"
     },
     "gbp:gbp-AF1QipNVAgGhcPSXNcnaU_bTQMjhi0QuQR8H3_wIlGzn": {
       "source": "gbp",
@@ -1189,6 +1277,32 @@
       "triaged_at": "2026-08-31T17:07:05Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipO0AYq5poFmN0s-WUISaFChBa2dpXbrvuYzei1-": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO0AYq5poFmN0s-WUISaFChBa2dpXbrvuYzei1-.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipO0AYq5poFmN0s-WUISaFChBa2dpXbrvuYzei1-.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 88968,
+      "sha1": "2c6ab02df4c1eb48",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Attic mold on rafters with suited technician inspecting, collage of three",
+      "quality": 58,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 72
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "mold-inspection-testing"
+      ],
+      "flags": [],
+      "reason": "Multi-panel collage layout; strong services evidence but not hero quality.",
+      "triaged_at": "2026-08-31T18:09:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipO1f8PfgpHRJ4RGSZy1LDp--D5riws_G-c93Ghx": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipO1f8PfgpHRJ4RGSZy1LDp--D5riws_G-c93Ghx.jpg",
@@ -1355,6 +1469,31 @@
       "triaged_at": "2026-08-31T17:07:23Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOQRcPtLjaKR4TAQ2tLuszuAZ7H_O3PameFfmjW": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOQRcPtLjaKR4TAQ2tLuszuAZ7H_O3PameFfmjW.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipOQRcPtLjaKR4TAQ2tLuszuAZ7H_O3PameFfmjW.jpg",
+      "width": 1000,
+      "height": 750,
+      "bytes": 208559,
+      "sha1": "27cd377c8b6f87be",
+      "exif": {},
+      "category": "crew",
+      "subject": "Large full team group photo in front of two branded box trucks",
+      "quality": 65,
+      "slots": {
+        "hero": 28,
+        "team": 88,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Best team photo; overcast, cluttered background and low res limit hero use.",
+      "triaged_at": "2026-08-31T18:09:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOUgkStt-OGlTRLIk78XzQqu9lLVcZJJil_YSpL": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOUgkStt-OGlTRLIk78XzQqu9lLVcZJJil_YSpL.jpg",
@@ -1461,6 +1600,34 @@
       "flags": [],
       "reason": "Shows readiness and real gear; messy van interior and snow foreground reduce polish.",
       "triaged_at": "2026-08-31T17:07:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOhqRZauq7MaIUhzVAT5skyOS1ZcU__IQPa76iJ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOhqRZauq7MaIUhzVAT5skyOS1ZcU__IQPa76iJ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipOhqRZauq7MaIUhzVAT5skyOS1ZcU__IQPa76iJ.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 99327,
+      "sha1": "98069d90c8bcf88e",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Three-panel fire damage collage including active house fire image",
+      "quality": 45,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Composite collage of stock fire images; not the client's own job photography.",
+      "triaged_at": "2026-08-31T18:09:01Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOi0rwrRlAC6tV_cDqU3AZDKXbkqSIphWpIdM2p": {
@@ -2154,5 +2321,5 @@
       "note": "client-correction override (Michael 2026-08-31): real branded van; below auto hero gate on GBP resolution only"
     }
   },
-  "triaged_at": "2026-08-31T17:08:21Z"
+  "triaged_at": "2026-08-31T18:09:01Z"
 }

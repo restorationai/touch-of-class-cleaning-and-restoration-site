@@ -1,5 +1,32 @@
 {
   "slug": "arch-enviornmental-group-llc",
-  "assets": {},
-  "slots": {}
+  "assets": {
+    "gbp:gbp-AF1QipP_oOaq_QKclHVY_CyyHUCdSM40YaPiLMwkcI2L": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP_oOaq_QKclHVY_CyyHUCdSM40YaPiLMwkcI2L.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/job-photos/posted/gbp-AF1QipP_oOaq_QKclHVY_CyyHUCdSM40YaPiLMwkcI2L.jpg",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 113773,
+      "sha1": "a721f804522a8ab3",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Arch Environmental Group company logo on white background",
+      "quality": 85,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Pure logo lockup; no photographic content, unsuitable for any content slot.",
+      "triaged_at": "2026-08-31T18:09:14Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-31T18:09:14Z"
 }
