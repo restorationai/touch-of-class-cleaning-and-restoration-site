@@ -14,7 +14,7 @@
   "status": "active",
   "company_id": "CO-1783527517866",
   "created_at": "2026-07-10T00:00:00+00:00",
-  "updated_at": "2026-08-31T14:57:34.914708+00:00",
+  "updated_at": "2026-08-31T17:11:38.969156+00:00",
   "nap": {
     "name": "The Restoration Group",
     "street": "500 S 31st St",
@@ -65,8 +65,8 @@
     "preview_url": "https://the-restoration-group-preview.pages.dev",
     "preview_pages_project": "the-restoration-group-preview",
     "github_repo": "restorationai/restoration-groups-site",
-    "last_pushed_staging_at": "2026-08-19T03:41:40.423257+00:00",
-    "last_pushed_main_at": "2026-08-31T14:57:34.914667+00:00"
+    "last_pushed_staging_at": "2026-08-31T17:11:23.998377+00:00",
+    "last_pushed_main_at": "2026-08-31T17:11:38.969134+00:00"
   },
   "build_status": "pushed_main",
   "license_numbers": [

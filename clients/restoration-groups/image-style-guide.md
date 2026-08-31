@@ -3,6 +3,18 @@
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
+
+## CLIENT DIRECTION (Michael, 2026-08-31 call — NON-NEGOTIABLE)
+
+Client said: "replace images with provided branded photos." He rejected the generic AI-looking imagery, specifically the plain blue, unbranded vans in the old hero.
+
+1. **Real photos win over generation for this client.** The client's own branded truck and job photos (harvested to `harvested/`, triaged in `photo-manifest.json`) fill the hero, team, services and service cards wherever quality allows. Do not generate over a slot a real photo holds.
+2. **The REAL fleet defines the vehicles — never invent generic vans.** Their real vehicles are WHITE Ford Transit vans and a blue/teal box truck, each wrapped in "The Restoration Group / Water, Fire & Mold Experts" livery with the ring-dot logo mark and an IICRC Certified Firm badge. AUTOMATIC REJECT: plain blue or unbranded vans, or any invented livery that does not match the reference photos below.
+3. **Logo mark only on any generated wrap — no readable wrap text.** If a vehicle image is ever generated, reproduce only the ring-dot mark and brand colours from the reference; never render the phone number, URL or "Water, Fire & Mold Experts" lettering (it garbles). Fall back to a defocused decal rather than invented text.
+
+VAN-OVERRIDE: a fleet of white Ford Transit vans plus a blue/teal box truck in The Restoration Group livery, matching the reference photos exactly — the ring-dot logo mark and brand-colour panels only, no readable wrap lettering, phone number or URL.
+LIVERY-REFERENCE: harvested/real-van-branded.jpg
+LIVERY-REFERENCE: harvested/real-box-truck-branded.jpg
 ---
 
 ## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client

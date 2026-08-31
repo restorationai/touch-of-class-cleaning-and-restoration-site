@@ -2108,6 +2108,51 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {},
+  "slots": {
+    "team": {
+      "asset": "gbp:gbp-AF1QipOi0rwrRlAC6tV_cDqU3AZDKXbkqSIphWpIdM2p",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipOi0rwrRlAC6tV_cDqU3AZDKXbkqSIphWpIdM2p.jpg",
+      "category": "crew",
+      "subject": "Branded technician spraying mold-covered basement wall on knees",
+      "installed_at": "2026-08-31T17:17:02Z",
+      "file": "/images/team.webp"
+    },
+    "services": {
+      "asset": "gbp:gbp-AF1QipMmITt3F7JHGJHEii5KxMbbPnr5CTPIavCZdCfh",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipMmITt3F7JHGJHEii5KxMbbPnr5CTPIavCZdCfh.jpg",
+      "category": "equipment",
+      "subject": "Large pile of air movers and dehumidifiers staged outside garage",
+      "installed_at": "2026-08-31T17:17:03Z",
+      "file": "/images/services.webp"
+    },
+    "service:commercial-restoration": {
+      "asset": "gbp:gbp-AF1QipNpy1anxQVP8SiLUlxmRDEzHCEnFS9nLzl9A_6-",
+      "source": "gbp",
+      "category": "equipment",
+      "subject": "Multiple air movers and dehumidifier deployed in open room",
+      "file": "/images/services/commercial-restoration.webp",
+      "installed_at": "2026-08-31T17:17:04Z"
+    },
+    "service:flood-damage-restoration": {
+      "asset": "gbp:gbp-AF1QipMDfte4tR3C9f7RYpze2An2W9PrLRZ1BJt5lHxe",
+      "source": "gbp",
+      "category": "equipment",
+      "subject": "Blue air movers and dehumidifier deployed in stripped water-damaged room",
+      "file": "/images/services/flood-damage-restoration.webp",
+      "installed_at": "2026-08-31T17:17:04Z"
+    },
+    "hero": {
+      "asset": "gbp:gbp-AF1QipMnOg28vyvrJA0RZiMhqvmGOZA7Z8oP0DvsVCXG",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipMnOg28vyvrJA0RZiMhqvmGOZA7Z8oP0DvsVCXG.jpg",
+      "category": "fleet",
+      "subject": "Branded Restoration Group van with suited technician beside it",
+      "installed_at": "2026-08-31T17:22:11Z",
+      "file": "/images/hero-bg.webp",
+      "note": "client-correction override (Michael 2026-08-31): real branded van; below auto hero gate on GBP resolution only"
+    }
+  },
   "triaged_at": "2026-08-31T17:08:21Z"
 }
