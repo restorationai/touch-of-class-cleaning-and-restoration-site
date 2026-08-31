@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "id": "2026-08-31-water-damage-restoration-cost-tx",
+      "status": "written",
+      "queued_at": "2026-08-31T21:35:13Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-tx",
+      "primary_keyword": "water damage restoration cost TX",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "abilene-tx",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Abilene",
+        "state": "TX",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in TX",
+        "water damage restoration price TX",
+        "average cost of water damage restoration TX",
+        "water damage cleanup TX",
+        "water cleanup TX",
+        "water removal TX"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-31T21:37:10Z",
+      "post_url": "https://aircarerestoration.com/blog/water-damage-restoration-cost-tx/"
+    },
+    {
       "id": "2026-08-17-best-water-damage-restoration-in-abilene-tx",
       "status": "written",
       "queued_at": "2026-08-17T17:06:01Z",
