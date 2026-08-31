@@ -490,10 +490,10 @@
     },
     {
       "id": "2026-07-16-when-is-mold-remediation-required",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-16T20:20:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-31T23:25:47Z",
+      "post_url": "https://homepriderestorationandcleaning.com/blog/when-is-mold-remediation-required/",
       "primary_keyword": "when is mold remediation required",
       "intent": "informational",
       "volume": 480,
