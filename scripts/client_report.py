@@ -114,13 +114,16 @@ def gsc_section(domain: str, at: str) -> dict | None:
     pi, pc = tot(prev)
     if ci == 0 and pi == 0:
         return None          # brand-new property, nothing to show yet
+    daily = q(p_start, end, ["date"], 60) or {}
+    series = [int(r.get("impressions", 0)) for r in (daily.get("rows") or [])]
     top = q(start, end, ["query"], 6) or {}
     queries = [{"q": r["keys"][0], "impr": int(r["impressions"]),
                 "clicks": int(r["clicks"]), "pos": round(r["position"], 1)}
                for r in (top.get("rows") or [])
                if r.get("impressions", 0) >= 5]
     return {"impr": ci, "clicks": cc, "impr_prev": pi, "clicks_prev": pc,
-            "start": str(start), "end": str(end), "queries": queries[:5]}
+            "start": str(start), "end": str(end), "queries": queries[:5],
+            "series": series}
 
 
 # ------------------------------------------------------------- data gathers
@@ -278,6 +281,25 @@ def _fmt(n) -> str:
     return f"{n:,}"
 
 
+def _sparkline(series: list[int], width: int = 720, height: int = 64) -> str:
+    """Inline SVG area sparkline of daily impressions (8 weeks). Simple,
+    self-contained, theme-safe via currentColor-independent fill."""
+    pts = [v for v in series if v >= 0]
+    if len(pts) < 8:
+        return ""
+    mx = max(pts) or 1
+    step = width / (len(pts) - 1)
+    coords = [(round(i * step, 1), round(height - (v / mx) * (height - 6) - 2, 1))
+              for i, v in enumerate(pts)]
+    line = " ".join(f"{x},{y}" for x, y in coords)
+    area = f"0,{height} " + line + f" {width},{height}"
+    return (f'<svg viewBox="0 0 {width} {height}" preserveAspectRatio="none" '
+            f'style="width:100%;height:{height}px;display:block;margin:.4rem 0 .2rem">'
+            f'<polygon points="{area}" fill="#1863A8" opacity="0.14"/>'
+            f'<polyline points="{line}" fill="none" stroke="#1863A8" stroke-width="2"/>'
+            f'<circle cx="{coords[-1][0]}" cy="{coords[-1][1]}" r="3" fill="#1863A8"/></svg>')
+
+
 def _delta_chip(cur: int, prev: int) -> str:
     if prev <= 0:
         return ""
@@ -325,8 +347,8 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
   <div class="stat"><div class="lbl">Clicks to your website</div>
     <div class="num">{_fmt(gsc['clicks'])}{_delta_chip(gsc['clicks'], gsc['clicks_prev'])}</div>
     <div class="from">previous four weeks: {_fmt(gsc['clicks_prev'])}</div></div>
-</div>{qtable}
-<p class="note">Four weeks ending {e(gsc['end'])}, compared with the four weeks before. Source: Google Search Console.</p>
+</div>{_sparkline(gsc.get("series") or [])}{qtable}
+<p class="note">Daily impressions over the last eight weeks, then the four weeks ending {e(gsc['end'])} compared with the four weeks before. Source: Google Search Console.</p>
 </section>""")
 
     if rev:
@@ -388,7 +410,26 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
     gbp_lines = "".join(
         f"<li><b>{cnt}</b> {e(_GBP_LABELS.get(t, t.replace('_', ' ') + ' updates'))}</li>"
         for t, cnt in sorted(work["gbp_counts"].items(), key=lambda kv: -kv[1]) if cnt)
-    work_lines = "".join(
+    rich = []
+    if pages and pages["services"]:
+        svc_bullets = "".join(
+            f"<li>{e(sv)}: <b>{_fmt(pages['per'])}</b> pages, one for every service area</li>"
+            for sv in pages["services"])
+        rich.append(
+            f"<li><b>{_fmt(pages['total'])} website pages published</b> across "
+            f"{len(pages['services'])} services, every page with full on-page SEO: "
+            f"structured data (JSON-LD), AI-assistant files (llms.txt), instant "
+            f"search-engine submission (IndexNow + sitemaps), and internal linking."
+            f"<ul style='margin:.5rem 0 0;padding-left:1.1rem'>{svc_bullets}</ul></li>")
+    if lst and lst["live"]:
+        bullets = "".join(
+            (f"<li>{e(n)}" + (f" &#183; <a href='{e(u)}' target='_blank' rel='noopener'>view listing</a>" if u else "")
+             + "</li>") for n, u in lst["entries"])
+        rich.append(
+            f"<li><b>{lst['live']} business listings live</b> on tracked directories "
+            f"(consistent listings are how Google and AI assistants verify your business)."
+            f"<ul style='margin:.5rem 0 0;padding-left:1.1rem'>{bullets}</ul></li>")
+    work_lines = "".join(rich) + "".join(
         f"<li>{e(w['msg'])} <span class='when'>{e(w['when'])}</span></li>"
         for w in work["items"])
     if gbp_lines or work_lines:
@@ -398,27 +439,7 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
 {f"<ul class='worklist'>{work_lines}</ul>" if work_lines else ""}
 </section>""")
 
-    if pages and pages["services"]:
-        svc_lines = "".join(
-            f"<li><b>{e(sv)}</b><span class='when'>{_fmt(pages['per'])} pages, one for every service area</span></li>"
-            for sv in pages["services"])
-        parts.append(f"""
-<section><h2>New website pages published</h2>
-<div class="stats"><div class="stat"><div class="lbl">Pages added this month</div>
-<div class="num">{_fmt(pages['total'])}</div>
-<div class="from">{len(pages['services'])} new services, each with a dedicated page in all {_fmt(pages['ring'] + 1)} service areas</div></div></div>
-<ul class="worklist">{svc_lines}</ul>
-</section>""")
 
-    if lst and lst["live"]:
-        bullets = "".join(
-            (f"<li><b>{e(n)}</b>" + (f" <a href='{e(u)}' target='_blank' rel='noopener'>view your listing</a>" if u else "")
-             + "</li>") for n, u in lst["entries"])
-        parts.append(f"""
-<section><h2>Business listings</h2>
-<p>Your business is on <b>{lst['live']}</b> tracked directories. Consistent listings strengthen how Google and AI assistants verify your business.</p>
-<details><summary>See every listing</summary><ul class="worklist" style="margin-top:.8rem">{bullets}</ul></details>
-</section>""")
 
     if activity:
         act_lines = "".join(
