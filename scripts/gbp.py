@@ -496,6 +496,13 @@ def import_gbp_media(slug: str, cap: int = 40) -> str:
     place = brand.get("place_id") or _place_id_from_connection(cid)
     loc = find_location(token, place or "")
     if not loc:
+        # brand place_id can name a listing the connected account does NOT
+        # manage (TRG: plan-input says Kenilworth, the connection manages
+        # Fair Lawn) — fall back to the connection's own selected listing.
+        conn_place = _place_id_from_connection(cid)
+        if conn_place and conn_place != place:
+            loc = find_location(token, conn_place)
+    if not loc:
         return f"{slug}: no GBP location"
     acct = _g(f"{ACCT_API}/accounts", token)["accounts"][0]["name"]
     hdrs = {"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}"}
