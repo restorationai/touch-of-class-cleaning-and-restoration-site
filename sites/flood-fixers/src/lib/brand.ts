@@ -35,7 +35,7 @@ export const brand = {
   imagesBase: "https://images.flood-fixers.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-BPB9R60M10",
   clarityProjectId: "",
   logoUrl: "/images/logo.webp",
   licenseNumbers: [] as string[],
