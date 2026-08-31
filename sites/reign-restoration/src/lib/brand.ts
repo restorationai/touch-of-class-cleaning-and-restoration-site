@@ -29,7 +29,7 @@ export const brand = {
   imagesBase: "https://images.None",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-NBFCYGQXJY",
   clarityProjectId: "",
   logoUrl: "/images/logo.png", // real logo from branding bucket (CO-1785771354136/brand); switch to images.{domain}/brand/logo.png at production cutover once the domain + R2 bucket exist
   licenseNumbers: ["MRC2276"] as string[],
