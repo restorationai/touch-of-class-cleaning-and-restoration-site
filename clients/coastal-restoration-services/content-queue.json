@@ -170,10 +170,10 @@
     },
     {
       "id": "2026-08-10-roof-leaks-in-heavy-rain",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-10T17:42:32Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-31T22:32:24Z",
+      "post_url": "https://None/blog/roof-leaks-in-heavy-rain/",
       "primary_keyword": "roof leaks in heavy rain",
       "intent": "informational",
       "volume": 720,
