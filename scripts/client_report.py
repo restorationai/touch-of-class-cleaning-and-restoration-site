@@ -52,7 +52,8 @@ BUCKET = "client-reports"
 # so reports are served through the Railway API front door instead.
 REPORT_BASE = "https://rank-ai-api-production.up.railway.app/report"
 
-_INACTIVE = {"paused", "cancelled", "canceled", "churned", "inactive", "archived"}
+_INACTIVE = {"paused", "cancelled", "canceled", "churned", "inactive", "archived",
+             "suspended"}
 
 
 def _sb(path: str):
@@ -124,6 +125,109 @@ def gsc_section(domain: str, at: str) -> dict | None:
     return {"impr": ci, "clicks": cc, "impr_prev": pi, "clicks_prev": pc,
             "start": str(start), "end": str(end), "queries": queries[:5],
             "series": series}
+
+
+def rankings_section(cid: str, domain: str | None, at: str | None) -> dict | None:
+    """Where the client ranks (Santino 2026-08-31: 'ai search rankings and any
+    other outstanding rankings'). Three measured sources, zero estimates:
+      - GSC: search terms on page 1 (position <= 10, 5+ impressions) and count
+        of site pages Google actually showed searchers, each vs prior 28 days
+      - marketing_geogrid_scans: live map-pack position per keyword per grid
+        city (latest scan per pair, 60-day recency) + the rendered heat map PNG
+      - marketing_ai_search_history/-scans: share of AI-assistant answers that
+        cite the client, plus real example queries where they were recommended
+    Every subpart is optional; returns None when no source has data."""
+    out: dict = {}
+    if domain and at:
+        site = requests.utils.quote(f"sc-domain:{domain}", safe="")
+        end = dt.date.today() - dt.timedelta(days=2)
+        start = end - dt.timedelta(days=27)
+        p_end = start - dt.timedelta(days=1)
+        p_start = p_end - dt.timedelta(days=27)
+
+        def q(s, e, dims, limit):
+            r = requests.post(
+                f"https://www.googleapis.com/webmasters/v3/sites/{site}/searchAnalytics/query",
+                headers={"Authorization": f"Bearer {at}"},
+                json={"startDate": str(s), "endDate": str(e),
+                      "dimensions": dims, "rowLimit": limit}, timeout=30)
+            return (r.json().get("rows") or []) if r.ok else []
+
+        def page1(rows):
+            return sum(1 for r in rows
+                       if r.get("position", 99) <= 10.5 and r.get("impressions", 0) >= 5)
+
+        qc = q(start, end, ["query"], 1000)
+        pc = q(start, end, ["page"], 2000)
+        if qc or pc:
+            out["page1"] = {"cur": page1(qc),
+                            "prev": page1(q(p_start, p_end, ["query"], 1000))}
+            out["pages"] = {"cur": len(pc),
+                            "prev": len(q(p_start, p_end, ["page"], 2000))}
+
+    cutoff = (dt.datetime.now(dt.timezone.utc) -
+              dt.timedelta(days=60)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    scans = _sb(f"marketing_geogrid_scans?company_id=eq.{cid}"
+                f"&scanned_at=gte.{cutoff}&avg_rank=not.is.null"
+                f"&order=scanned_at.desc&limit=60"
+                f"&select=keyword,city_label,avg_rank,pct_in_top3,scanned_at,image_url")
+    seen: set = set()
+    grid: list[dict] = []
+    for s in scans:
+        k = (s["keyword"], s.get("city_label"))
+        if k in seen:
+            continue
+        seen.add(k)
+        prev = next((r for r in scans
+                     if (r["keyword"], r.get("city_label")) == k
+                     and (r["scanned_at"] or "")[:10] < (s["scanned_at"] or "")[:10]),
+                    None)
+        grid.append({"kw": s["keyword"], "city": s.get("city_label") or "",
+                     "rank": float(s["avg_rank"]),
+                     "top3": float(s["pct_in_top3"] or 0),
+                     "prev_rank": float(prev["avg_rank"]) if prev else None,
+                     "date": (s["scanned_at"] or "")[:10],
+                     "img": s.get("image_url")})
+    if grid:
+        grid.sort(key=lambda g: g["rank"])
+        best_img = max((g for g in grid if g.get("img")),
+                       key=lambda g: g["top3"], default=None)
+        out["grid"] = grid[:8]
+        if best_img:
+            out["grid_img"] = {"url": best_img["img"], "date": best_img["date"],
+                               "label": f"{best_img['kw']} around {best_img['city']}"
+                               if best_img["city"] else best_img["kw"]}
+
+    hist = _sb(f"marketing_ai_search_history?company_id=eq.{cid}"
+               f"&order=scanned_at.desc&limit=12")
+    if hist:
+        cur = hist[0]
+        base = next((h for h in hist[1:]
+                     if (cur["scanned_at"] or "")[:10] > (h["scanned_at"] or "")[:10]
+                     and (dt.date.fromisoformat((cur["scanned_at"] or "")[:10]) -
+                          dt.date.fromisoformat((h["scanned_at"] or "")[:10])).days >= 14),
+                    None)
+        cited_rows = _sb(f"marketing_ai_search_scans?company_id=eq.{cid}"
+                         f"&cited=eq.true&order=scanned_at.desc&limit=20"
+                         f"&select=query,engine,client_rank")
+        ex, seen_q = [], set()
+        for r in cited_rows:
+            qq = (r.get("query") or "").strip()
+            if not qq or qq.lower() in seen_q:
+                continue
+            seen_q.add(qq.lower())
+            ex.append({"q": qq, "engine": r.get("engine") or "",
+                       "rank": r.get("client_rank")})
+        ex.sort(key=lambda x: (x["rank"] is None, x["rank"] or 99))
+        out["ai"] = {"pct": int(cur.get("visibility_pct") or 0),
+                     "cited": int(cur.get("cited") or 0),
+                     "total": int(cur.get("total") or 0),
+                     "top": int(cur.get("top_picks") or 0),
+                     "date": (cur.get("scanned_at") or "")[:10],
+                     "prev_pct": int(base["visibility_pct"]) if base else None,
+                     "examples": ex[:4]}
+
+    return out or None
 
 
 # ------------------------------------------------------------- data gathers
@@ -321,10 +425,15 @@ def _dur(sec) -> str:
     return f"{sec // 60}:{sec % 60:02d}"
 
 
+_ENGINE_LABELS = {"chatgpt": "ChatGPT", "gemini": "Google Gemini",
+                  "perplexity": "Perplexity", "google_ai": "Google AI Overviews",
+                  "ai_overview": "Google AI Overviews", "copilot": "Bing Copilot"}
+
+
 def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
                 work: dict, lst: dict | None, calls: dict | None = None,
                 activity: list[dict] | None = None, gbp: dict | None = None,
-                pages: dict | None = None) -> str:
+                pages: dict | None = None, rank: dict | None = None) -> str:
     e = html.escape
     parts: list[str] = []
     month_label = dt.datetime.strptime(period, "%Y-%m").strftime("%B %Y")
@@ -349,6 +458,86 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
     <div class="from">previous four weeks: {_fmt(gsc['clicks_prev'])}</div></div>
 </div><p class="lbl" style="margin:.9rem 0 0">DAILY TIMES SHOWN IN GOOGLE, LAST 8 WEEKS</p>{_sparkline(gsc.get("series") or [])}{qtable}
 <p class="note">Daily impressions over the last eight weeks, then the four weeks ending {e(gsc['end'])} compared with the four weeks before. Source: Google Search Console.</p>
+</section>""")
+
+    if rank:
+        rstats = []
+        if "page1" in rank:
+            p1 = rank["page1"]
+            rstats.append(
+                f"<div class='stat'><div class='lbl'>Search terms on page 1</div>"
+                f"<div class='num'>{_fmt(p1['cur'])}{_delta_chip(p1['cur'], p1['prev'])}</div>"
+                f"<div class='from'>ranking in Google's top 10, previous four weeks: {_fmt(p1['prev'])}</div></div>")
+        if "pages" in rank:
+            pg = rank["pages"]
+            rstats.append(
+                f"<div class='stat'><div class='lbl'>Pages shown in Google</div>"
+                f"<div class='num'>{_fmt(pg['cur'])}{_delta_chip(pg['cur'], pg['prev'])}</div>"
+                f"<div class='from'>pages of your site Google put in front of searchers</div></div>")
+        ai = rank.get("ai")
+        if ai:
+            top_bit = f", the #1 pick in {ai['top']}" if ai["top"] else ""
+            trend = ""
+            if ai.get("prev_pct") is not None:
+                d = ai["pct"] - ai["prev_pct"]
+                if d > 0:
+                    trend = f'<span class="delta">up {d} pts</span>'
+                elif d < 0:
+                    trend = f'<span class="delta down">down {abs(d)} pts</span>'
+            rstats.append(
+                f"<div class='stat'><div class='lbl'>AI assistant visibility</div>"
+                f"<div class='num'>{ai['pct']}<span class='of'>%</span>{trend}</div>"
+                f"<div class='from'>named in {ai['cited']} of {ai['total']} AI answers "
+                f"we tested{top_bit}</div></div>")
+        grid_html = ""
+        if rank.get("grid"):
+            grows = []
+            for g in rank["grid"]:
+                if g["prev_rank"] is None:
+                    tr = "<span class='of'>first scan</span>"
+                elif g["prev_rank"] - g["rank"] >= 0.5:
+                    tr = "<span style='color:var(--good);font-weight:700'>&#9650; improved</span>"
+                elif g["rank"] - g["prev_rank"] >= 0.5:
+                    tr = "<span style='color:var(--bad);font-weight:700'>&#9660; slipped</span>"
+                else:
+                    tr = "<span class='of'>steady</span>"
+                grows.append(
+                    f"<tr><td>{e(g['kw'])}</td><td>{e(g['city'])}</td>"
+                    f"<td class='n'>#{g['rank']:.0f}</td>"
+                    f"<td class='n'>{g['top3']:.0f}%</td><td>{tr}</td></tr>")
+            grid_html = (
+                f"<p class='lbl' style='margin:1rem 0 .4rem'>GOOGLE MAPS POSITIONS ACROSS YOUR SERVICE AREA</p>"
+                f"<div class='twrap'><table><tr><th>Keyword</th><th>Scanned around</th>"
+                f"<th class='n'>Average map position</th><th class='n'>Area in top 3</th>"
+                f"<th>Trend</th></tr>{''.join(grows)}</table></div>")
+            gi = rank.get("grid_img")
+            if gi:
+                grid_html += (
+                    f"<img src='{e(gi['url'])}' alt='Map ranking heat map: {e(gi['label'])}' "
+                    f"loading='lazy' style='width:100%;max-width:560px;border:1px solid var(--line);"
+                    f"border-radius:12px;margin:.9rem 0 .2rem;display:block'>"
+                    f"<p class='note'>Heat map for &ldquo;{e(gi['label'])}&rdquo;, scanned {e(gi['date'])}. "
+                    f"Each dot is a real Google Maps search run from that spot; the number is your position.</p>")
+        ai_html = ""
+        if ai and ai.get("examples"):
+            ex_parts = []
+            for x in ai["examples"]:
+                eng = _ENGINE_LABELS.get((x["engine"] or "").lower(),
+                                         (x["engine"] or "").title())
+                suffix = f", recommended #{int(x['rank'])}" if x.get("rank") else ""
+                ex_parts.append(f"<li>&ldquo;{e(x['q'])}&rdquo; "
+                                f"<span class='when'>{e(eng + suffix)}</span></li>")
+            ex_lines = "".join(ex_parts)
+            ai_html = (
+                f"<p class='lbl' style='margin:1rem 0 .4rem'>AI ASSISTANTS RECOMMENDED YOU FOR</p>"
+                f"<ul class='worklist'>{ex_lines}</ul>")
+        if rstats or grid_html or ai_html:
+            parts.append(f"""
+<section><h2>Where you rank</h2>
+{f'<div class="stats">{"".join(rstats)}</div>' if rstats else ''}
+{grid_html}
+{ai_html}
+<p class="note">Map positions come from live scans of Google Maps results at a grid of points around your service area. AI visibility is measured by asking ChatGPT, Gemini and other assistants the questions your customers actually ask, then checking whether they name your business.</p>
 </section>""")
 
     if rev:
@@ -496,7 +685,7 @@ footer{{color:var(--sub);font-size:.83rem;border-top:1px solid var(--line);paddi
   <div class="meta">{e(month_label)}. Prepared by Rank AI.</div>
 </header>
 {body}
-<footer>Questions? Text us any time. This page updates monthly and the numbers come straight from Google Search Console, your review campaign, and our work ledger.</footer>
+<footer>Questions? Text us any time. This page updates monthly and the numbers come straight from Google Search Console, live map scans, AI assistant checks, your review campaign, and our work ledger.</footer>
 </main>
 """
 
@@ -560,9 +749,10 @@ def build_one(co: dict, slug: str | None, period: str, at: str | None,
     activity = activity_section(cid, period)
     gbp = gbp_section(cid)
     pages = pages_section(cid, slug)
-    if not (gsc or rev or calls or gbp or work["items"] or work["gbp_counts"] or (lst and lst["live"])):
+    rank = rankings_section(cid, domain, at)
+    if not (gsc or rev or calls or gbp or rank or work["items"] or work["gbp_counts"] or (lst and lst["live"])):
         return f"{name}: nothing reportable yet, skipped"
-    page = render_html(name, period, gsc, rev, work, lst, calls, activity, gbp, pages)
+    page = render_html(name, period, gsc, rev, work, lst, calls, activity, gbp, pages, rank)
     if dry:
         return f"{name}: would publish ({len(page)} bytes; gsc={'y' if gsc else 'n'} rev={'y' if rev else 'n'} work={len(work['items'])})"
 

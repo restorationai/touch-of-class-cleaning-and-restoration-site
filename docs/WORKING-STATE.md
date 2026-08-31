@@ -1,6 +1,31 @@
 # Working State — leave-and-resume doc
 
-Updated: 2026-08-29 (PT). Keep this current when a work thread pauses.
+Updated: 2026-08-30 late (PT). Keep this current when a work thread pauses.
+
+## 2026-08-30 (Sun night) — reports v2.3 + Burley suspension
+
+- **Burley SUSPENDED for non-payment** (CO-1785945543613, Russ Burley,
+  Restoration 1 franchisee): trial ended Aug 12, $997 invoice open, 9 failed
+  Link charges, Stripe dunning exhausted + subscription auto-canceled.
+  companies.status=Suspended (drops him from ops-sync/Monica/reports gates).
+  **DECISION 2026-09-30: delete the account if still unpaid** (ops note filed,
+  needs Santino's explicit go; hosted pay link is in the note if Russ returns).
+- **Reports: "Where you rank" section SHIPPED** (client_report.py
+  rankings_section): GSC page-1 terms + pages-shown (28d vs prior), geo-grid
+  map table (latest per keyword+city, 60d recency, trend arrows) + embedded
+  R2 heat-map PNG, AI visibility % from marketing_ai_search_history + real
+  cited-query examples. TRG shows 44 page-1 terms / 714 pages / 53% AI.
+  All 27 reports regenerated (same URLs).
+- **Sweep FDA FIXED + VERIFIED**: Santino re-granted Full Disk Access to
+  /bin/zsh; launchd-spawned zsh read the Desktop .env in a live test.
+  STILL PENDING (Santino, needs password):
+  `sudo pmset repeat wakeorpoweron MTWRFSU 21:28:00` (Mac must be awake at
+  21:30; pmset -g sched shows no repeat event yet).
+- **Paul Davis logo**: official franchisor logo fetched from pauldavis.com,
+  in branding bucket CO-1783462003421/brand/logo-pauldavis-official.png
+  (citations gate reads bucket; no site dir exists for them yet).
+- Houzz all-pro-plumbing still owed Monday AM (3rd same-day signup bounces):
+  `python3 -m browser_agent.playbooks.houzz_state_machine all-pro-plumbing`
 
 ## 2026-08-29 (Sat) — citations day + auto-apply flip
 
