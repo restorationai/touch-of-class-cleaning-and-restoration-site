@@ -40,7 +40,7 @@ export const brand = {
   imagesBase: "https://images.californiarestorationwest.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-5DKZE0DK8C",
   clarityProjectId: "",
   logoUrl: "/images/logo.png",
   licenseNumbers: [] as string[],
