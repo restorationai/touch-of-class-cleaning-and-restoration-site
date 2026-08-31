@@ -43,7 +43,7 @@ export const brand = {
   certifications: ["IICRC WRT (WATER)", "IICRC CERTIFIED FIRM", "IICRC AMRT (MOLD)", "IICRC FSRT (FIRE & SMOKE)"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://maps.google.com/maps?cid=14377718436563742188", "https://www.yelp.com/biz/reign-restoration-royse-city", "https://www.facebook.com/61591068899558/", "https://homeguide.com/tx/rockwall/water-damage-restoration/reign-restoration-tZsy5e6u9"] as string[],
+  sameAsUrls: ["https://www.facebook.com/61591068899558/", "https://maps.google.com/maps?cid=14377718436563742188", "https://www.yelp.com/biz/reign-restoration-royse-city", "https://www.bing.com/maps?ss=ypid.YN8BC576B5532C1A42", "https://homeguide.com/tx/rockwall/water-damage-restoration/reign-restoration-tZsy5e6u9"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
