@@ -29,7 +29,7 @@ export const brand = {
   imagesBase: "https://images.None",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-FB7ZB4MR6V",
   clarityProjectId: "",
   // local file until the client's domain + R2 bucket exist; switch to
   // images.{domain}/brand/logo.png at production cutover
