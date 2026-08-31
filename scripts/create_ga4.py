@@ -113,9 +113,26 @@ def has_ga4(slug: str) -> bool:
     return bool(m and m.group(1))
 
 
+_SKIP_STATUSES = {"suspended", "paused", "inactive", "cancelled", "canceled", "churned"}
+
+
 def create_for(slug: str, token: str, account_id: str, push: bool, force: bool) -> int:
     if has_ga4(slug) and not force:
         print(f"  {slug}: already has a GA4 id — skipping (use --force to recreate)")
+        return 0
+    # Gate BEFORE creating the property: no scaffolded site means nowhere to
+    # put the tag (Burley 2026-08-31 got an orphan property this way), and
+    # suspended/paused clients get nothing new provisioned.
+    status = ""
+    try:
+        status = str(json.loads((CLIENTS / f"{slug}.json").read_text()).get("status") or "")
+    except Exception:
+        pass
+    if status.lower() in _SKIP_STATUSES:
+        print(f"  {slug}: status '{status}' — skipping")
+        return 0
+    if not (SITES / slug / "src" / "lib" / "brand.ts").exists():
+        print(f"  {slug}: no scaffolded site (no brand.ts) — skipping")
         return 0
     meta = client_meta(slug)
     # 1) property
@@ -175,7 +192,11 @@ def main() -> int:
         return 1
     rc = 0
     for s in slugs:
-        rc |= create_for(s, token, account_id, args.push, args.force)
+        try:
+            rc |= create_for(s, token, account_id, args.push, args.force)
+        except Exception as ex:  # noqa: BLE001 — one client never sinks the fleet
+            print(f"  {s}: ERROR {type(ex).__name__}: {str(ex)[:140]}", file=sys.stderr)
+            rc = 1
     return rc
 
 
