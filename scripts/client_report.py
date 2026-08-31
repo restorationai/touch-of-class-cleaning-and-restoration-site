@@ -147,7 +147,9 @@ def work_section(cid: str, days: int = 31) -> dict:
              - dt.timedelta(days=days)).strftime('%Y-%m-%dT%H:%M:%SZ')
     logs = _sb(f"marketing_work_log?company_id=eq.{cid}"
                f"&ts=gte.{since}&order=ts.desc"
-               "&category=neq.reporting"   # a report never lists itself as work
+               # never the report itself, never outreach — "Texted Bobby..."
+               # is conversation, not delivered work (Santino 2026-08-31)
+               "&category=not.in.(reporting,outreach)"
                "&select=detail,category,ts&limit=60")
     changes = _sb(f"marketing_gbp_changes?company_id=eq.{cid}"
                   f"&changed_at=gte.{since}&select=change_type&limit=1000")
@@ -158,6 +160,8 @@ def work_section(cid: str, days: int = 31) -> dict:
     # de-dupe near-identical ledger lines (daily crons repeat phrasing)
     seen, items = set(), []
     for lg in logs:
+        if re.match(r"\s*(texted|messaged|emailed)\b", str(lg.get("detail") or ""), re.I):
+            continue
         key = re.sub(r"\d+", "#", str(lg.get("detail") or ""))[:80]
         if key in seen:
             continue
@@ -167,6 +171,26 @@ def work_section(cid: str, days: int = 31) -> dict:
         if len(items) >= 10:
             break
     return {"items": items, "gbp_counts": by_type}
+
+
+def gbp_section(cid: str, days: int = 31) -> dict | None:
+    """Google Business Profile stats (Santino 2026-08-31): rating, reviews,
+    and what we published to the profile this period."""
+    prof = _sb(f"marketing_gbp_profiles?company_id=eq.{cid}"
+               "&select=rating,review_count&limit=1")
+    since = (dt.datetime.now(dt.timezone.utc)
+             - dt.timedelta(days=days)).strftime('%Y-%m-%dT%H:%M:%SZ')
+    posts = _count(f"marketing_gbp_posts?company_id=eq.{cid}&select=id"
+                   f"&posted_at=gte.{since}&limit=1")
+    changes = _sb(f"marketing_gbp_changes?company_id=eq.{cid}"
+                  f"&changed_at=gte.{since}&select=change_type&limit=1000")
+    photos = sum(1 for c in changes if c.get("change_type") == "photo")
+    svc_adds = sum(1 for c in changes if c.get("change_type") == "service_add")
+    r = (prof[0] if prof else {}) or {}
+    if not (r.get("rating") or posts or photos or svc_adds):
+        return None
+    return {"rating": r.get("rating"), "reviews": r.get("review_count"),
+            "posts": posts, "photos": photos, "svc_adds": svc_adds}
 
 
 def calls_section(cid: str, days: int = 31) -> dict | None:
@@ -200,13 +224,44 @@ def activity_section(cid: str, period: str) -> list[dict]:
     return items[:200]
 
 
-def listings_section(cid: str) -> dict | None:
-    rows = _sb(f"citation_listings?company_id=eq.{cid}&select=directory,status,listing_url")
-    live = [r for r in rows if r.get("status") == "live"]
+def pages_section(cid: str, slug: str | None, days: int = 31) -> dict | None:
+    """New website pages, itemized per service (Santino 2026-08-31: "itemize
+    that out a little bit more"). Page counts derive from the client's own
+    service-area ring: one dedicated page per area plus the service page."""
+    since = (dt.datetime.now(dt.timezone.utc)
+             - dt.timedelta(days=days)).strftime('%Y-%m-%dT%H:%M:%SZ')
+    rows = _sb(f"marketing_page_requests?company_id=eq.{cid}&status=eq.built"
+               f"&built_at=gte.{since}&select=service,service_slug")
     if not rows:
         return None
-    return {"live": len(live), "total": len(rows),
-            "names": sorted({r["directory"].replace("_", " ").title() for r in live})[:10]}
+    ring = 0
+    if slug:
+        try:
+            pi = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
+            ring = sum(1 for a in (pi.get("service_areas") or []) if not a.get("primary"))
+        except Exception:  # noqa: BLE001
+            pass
+    per = 1 + ring
+    # dedupe on service_slug — "Water Removal" and "Water Cleanup" resolve to
+    # the SAME page set, and double-counting overstates the total (TRG showed
+    # 318 for what is 6 unique services; accuracy beats impressiveness).
+    by_slug: dict[str, str] = {}
+    for r in rows:
+        sl = (r.get("service_slug") or r.get("service") or "").strip()
+        if sl and sl not in by_slug:
+            by_slug[sl] = (r.get("service") or sl).strip()
+    svcs = sorted(by_slug.values())
+    return {"services": svcs, "per": per, "total": per * len(svcs), "ring": ring}
+
+
+def listings_section(cid: str) -> dict | None:
+    rows = _sb(f"citation_listings?company_id=eq.{cid}&select=directory,status,listing_url")
+    live = [r for r in rows if r.get("status") in ("live", "created")]
+    if not rows:
+        return None
+    entries = sorted({(r["directory"].replace("_", " ").title(),
+                       (r.get("listing_url") or "").strip()) for r in live})
+    return {"live": len(live), "total": len(rows), "entries": entries}
 
 
 # ------------------------------------------------------------------ render
@@ -246,7 +301,8 @@ def _dur(sec) -> str:
 
 def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
                 work: dict, lst: dict | None, calls: dict | None = None,
-                activity: list[dict] | None = None) -> str:
+                activity: list[dict] | None = None, gbp: dict | None = None,
+                pages: dict | None = None) -> str:
     e = html.escape
     parts: list[str] = []
     month_label = dt.datetime.strptime(period, "%Y-%m").strftime("%B %Y")
@@ -285,6 +341,29 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
     <div class="from">{rev['click_rate']}% of those messaged</div></div>
 </div></section>""")
 
+    if gbp:
+        bits = []
+        if gbp.get("rating"):
+            bits.append(f"<div class='stat'><div class='lbl'>Google rating</div>"
+                        f"<div class='num'>{gbp['rating']}<span class='of'> stars</span></div>"
+                        f"<div class='from'>{_fmt(gbp.get('reviews') or 0)} public reviews</div></div>")
+        pub = []
+        if gbp.get("posts"):
+            pub.append(f"{gbp['posts']} Google posts")
+        if gbp.get("photos"):
+            pub.append(f"{gbp['photos']} photos")
+        if gbp.get("svc_adds"):
+            pub.append(f"{gbp['svc_adds']} services added")
+        if pub:
+            bits.append(f"<div class='stat'><div class='lbl'>Published to your profile</div>"
+                        f"<div class='num'>{_fmt(gbp.get('posts') or 0) if gbp.get('posts') else ''}"
+                        f"<span class='of'>{' posts this month' if gbp.get('posts') else ''}</span></div>"
+                        f"<div class='from'>{e(', '.join(pub))}</div></div>")
+        if bits:
+            parts.append(f"""
+<section><h2>Google Business Profile</h2>
+<div class="stats">{''.join(bits)}</div></section>""")
+
     if calls:
         rows_html = "".join(
             f"<tr><td>{str(r.get('started_at') or '')[:10]}</td>"
@@ -303,6 +382,7 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
     <div class="from">every call rings straight to your line and is recorded</div></div>
 </div>
 <div class='twrap'><table><tr><th>Date</th><th>Source</th><th class='n'>Caller</th><th class='n'>Length</th></tr>{rows_html}</table></div>
+<p class="note">Call recordings are available any time in your account at app.restorationai.io.</p>
 </section>""")
 
     gbp_lines = "".join(
@@ -318,11 +398,26 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
 {f"<ul class='worklist'>{work_lines}</ul>" if work_lines else ""}
 </section>""")
 
+    if pages and pages["services"]:
+        svc_lines = "".join(
+            f"<li><b>{e(sv)}</b><span class='when'>{_fmt(pages['per'])} pages, one for every service area</span></li>"
+            for sv in pages["services"])
+        parts.append(f"""
+<section><h2>New website pages published</h2>
+<div class="stats"><div class="stat"><div class="lbl">Pages added this month</div>
+<div class="num">{_fmt(pages['total'])}</div>
+<div class="from">{len(pages['services'])} new services, each with a dedicated page in all {_fmt(pages['ring'] + 1)} service areas</div></div></div>
+<ul class="worklist">{svc_lines}</ul>
+</section>""")
+
     if lst and lst["live"]:
-        names = ", ".join(html.escape(n) for n in lst["names"])
+        bullets = "".join(
+            (f"<li><b>{e(n)}</b>" + (f" <a href='{e(u)}' target='_blank' rel='noopener'>view your listing</a>" if u else "")
+             + "</li>") for n, u in lst["entries"])
         parts.append(f"""
 <section><h2>Business listings</h2>
-<p>Your business is live on <b>{lst['live']}</b> tracked directories{f" including {names}" if names else ""}. Consistent listings strengthen how Google and AI assistants verify your business.</p>
+<p>Your business is on <b>{lst['live']}</b> tracked directories. Consistent listings strengthen how Google and AI assistants verify your business.</p>
+<details><summary>See every listing</summary><ul class="worklist" style="margin-top:.8rem">{bullets}</ul></details>
 </section>""")
 
     if activity:
@@ -442,9 +537,11 @@ def build_one(co: dict, slug: str | None, period: str, at: str | None,
     lst = listings_section(cid)
     calls = calls_section(cid)
     activity = activity_section(cid, period)
-    if not (gsc or rev or calls or work["items"] or work["gbp_counts"] or (lst and lst["live"])):
+    gbp = gbp_section(cid)
+    pages = pages_section(cid, slug)
+    if not (gsc or rev or calls or gbp or work["items"] or work["gbp_counts"] or (lst and lst["live"])):
         return f"{name}: nothing reportable yet, skipped"
-    page = render_html(name, period, gsc, rev, work, lst, calls, activity)
+    page = render_html(name, period, gsc, rev, work, lst, calls, activity, gbp, pages)
     if dry:
         return f"{name}: would publish ({len(page)} bytes; gsc={'y' if gsc else 'n'} rev={'y' if rev else 'n'} work={len(work['items'])})"
 
