@@ -239,10 +239,10 @@
     },
     {
       "id": "2026-07-30-air-conditioner-not-cooling",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-30T17:27:39Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-31T21:40:27Z",
+      "post_url": "https://allproplumbingheatingandair.com/blog/air-conditioner-not-cooling/",
       "primary_keyword": "air conditioner not cooling",
       "intent": "informational",
       "volume": 5400,
@@ -272,7 +272,18 @@
       "external_authority_candidates": [
         "https://www.energy.gov/energysaver/air-conditioning"
       ],
-      "notes": "Peak-season Bakersfield hub post: 100F+ stretches make this the highest-volume AC symptom query in the bank. Lead with the fan-runs-but-no-cold-air split (thermostat, filter, breaker, capacitor, refrigerant, dirty condenser coil). Kern County dust and triple-digit heat load the condenser hard, so give outdoor-coil cleaning its own section."
+      "notes": "Peak-season Bakersfield hub post: 100F+ stretches make this the highest-volume AC symptom query in the bank. Lead with the fan-runs-but-no-cold-air split (thermostat, filter, breaker, capacitor, refrigerant, dirty condenser coil). Kern County dust and triple-digit heat load the condenser hard, so give outdoor-coil cleaning its own section.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/air-conditioner-not-cooling.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "certified technician",
+          "context": "n608), refrigerant must be handled by a certified technician. It cannot legally be purchased or char",
+          "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
+        }
+      ]
     },
     {
       "id": "2026-07-30-how-much-does-ac-repair-cost",
