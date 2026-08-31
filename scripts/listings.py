@@ -71,6 +71,11 @@ PLATFORMS: dict[str, tuple[str, tuple[str, ...]]] = {
     # DISCOVERS via `site:yellowpages.com` only, so a yellowpagesdirectory
     # listing has to be entered by hand rather than found automatically.
     "yellowpages": ("YellowPages", ("yellowpages.com", "yellowpagesdirectory.com")),
+    "threebestrated": ("ThreeBestRated", ("threebestrated.com",)),
+    "trustanalytica": ("TrustAnalytica", ("trustanalytica.com",)),
+    "contractorsranked": ("ContractorsRanked", ("contractorsranked.com",)),
+    "foursquare": ("Foursquare", ("foursquare.com", "4sq.com")),
+    "mapquest": ("MapQuest", ("mapquest.com",)),
 }
 
 
