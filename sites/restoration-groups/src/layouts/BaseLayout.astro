@@ -156,10 +156,15 @@ const ctx: PageSchemaContext = {
     </style>
   </head>
   <body class="min-h-screen flex flex-col">
+    {/* CLIENT DIRECTION (Michael, 2026-08-31): the top banner must NOT be
+        headlined to a single city ("Fair Lawn, NJ Restoration Specialists")
+        — that implied a tight local response radius while the company covers
+        NJ, the NYC metro and eastern PA. Keep this regional; do not reintroduce
+        {brand.primaryCity} here. NAP/schema still use the address fields. */}
     <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
       {isLicensed
-        ? <>Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState} Restoration Specialists</>
-        : <>{brand.primaryCity}, {brand.primaryState} Restoration Specialists &mdash; {is247 ? "24/7 Emergency Response" : "Rapid Emergency Response"}</>}
+        ? <>Licensed &amp; Insured &mdash; NJ, NY &amp; PA Restoration Specialists</>
+        : <>NJ, NY &amp; PA Restoration Specialists &mdash; {is247 ? "24/7 Emergency Response" : "Rapid Emergency Response"}</>}
     </div>
     <Header />
     <Breadcrumb trail={breadcrumb} />
