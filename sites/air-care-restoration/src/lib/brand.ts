@@ -35,7 +35,7 @@ export const brand = {
   imagesBase: "https://images.aircarerestoration.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-FW5QLBCH24",
   clarityProjectId: "",
   logoUrl: "/images/logo.png",
   // Sarha 2026-08-21: company license and personal license kept SEPARATE —
