@@ -1,317 +1,319 @@
 {
- "items": [
-  {
-   "id": "2026-08-27-water-damage-restoration-cost-ms",
-   "status": "queued",
-   "queued_at": "2026-08-27T03:31:42Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-ms",
-   "primary_keyword": "water damage restoration cost MS",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "gulfport-ms",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Gulfport",
-    "state": "MS",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in MS",
-    "water damage restoration price MS",
-    "average cost of water damage restoration MS",
-    "water damage cleanup MS",
-    "water cleanup MS",
-    "water removal MS"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-08-07-best-water-damage-restoration-in-gulfport-ms",
-   "status": "written",
-   "queued_at": "2026-08-07T03:43:01Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-gulfport-ms",
-   "primary_keyword": "best water damage restoration company in Gulfport, MS",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "gulfport-ms",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Gulfport",
-    "state": "MS",
-    "competitors": [
-     {
-      "name": "1-800 WATER DAMAGE of the Mississippi Gulf Coast",
-      "google_rating": 5,
-      "review_count": 11
-     },
-     {
-      "name": "PuroClean of Ocean Springs",
-      "google_rating": 4.8,
-      "review_count": 42
-     },
-     {
-      "name": "AFS Foundation & Waterproofing Specialists Gulfport",
-      "google_rating": 5,
-      "review_count": 53
-     },
-     {
-      "name": "EnviroTech Services, LLC",
-      "google_rating": 5,
-      "review_count": 65
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Gulfport",
-    "top rated water damage restoration Gulfport MS",
-    "who is the best water damage restoration company in Gulfport",
-    "water damage cleanup Gulfport",
-    "water damage repair Gulfport",
-    "water cleanup Gulfport"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-27T02:46:28Z",
-   "post_url": "https://None/blog/best-water-damage-restoration-company-in-gulfport-ms/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
-     "part": "body",
-     "family": "service-scope",
-     "severity": "review",
-     "matched": "roofing services",
-     "context": "ny with a focus on foundation and waterproofing services. For homeowners dealing with water intr",
-     "reason": "names the 'roof' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, sewage-cleanup, general-contracting"
+      "id": "2026-08-27-water-damage-restoration-cost-ms",
+      "status": "written",
+      "queued_at": "2026-08-27T03:31:42Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-ms",
+      "primary_keyword": "water damage restoration cost MS",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "gulfport-ms",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Gulfport",
+        "state": "MS",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in MS",
+        "water damage restoration price MS",
+        "average cost of water damage restoration MS",
+        "water damage cleanup MS",
+        "water cleanup MS",
+        "water removal MS"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-31T23:19:10Z",
+      "post_url": "https://None/blog/water-damage-restoration-cost-ms/"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "20 reviews",
-     "context": "n Gulfport, you don't have time to read 20 reviews. You need a certified crew with real eq",
-     "reason": "listicle review-count 20 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-07-best-water-damage-restoration-in-gulfport-ms",
+      "status": "written",
+      "queued_at": "2026-08-07T03:43:01Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-gulfport-ms",
+      "primary_keyword": "best water damage restoration company in Gulfport, MS",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "gulfport-ms",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Gulfport",
+        "state": "MS",
+        "competitors": [
+          {
+            "name": "1-800 WATER DAMAGE of the Mississippi Gulf Coast",
+            "google_rating": 5,
+            "review_count": 11
+          },
+          {
+            "name": "PuroClean of Ocean Springs",
+            "google_rating": 4.8,
+            "review_count": 42
+          },
+          {
+            "name": "AFS Foundation & Waterproofing Specialists Gulfport",
+            "google_rating": 5,
+            "review_count": 53
+          },
+          {
+            "name": "EnviroTech Services, LLC",
+            "google_rating": 5,
+            "review_count": 65
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Gulfport",
+        "top rated water damage restoration Gulfport MS",
+        "who is the best water damage restoration company in Gulfport",
+        "water damage cleanup Gulfport",
+        "water damage repair Gulfport",
+        "water cleanup Gulfport"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-27T02:46:28Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-gulfport-ms/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "roofing services",
+          "context": "ny with a focus on foundation and waterproofing services. For homeowners dealing with water intr",
+          "reason": "names the 'roof' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, sewage-cleanup, general-contracting"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "20 reviews",
+          "context": "n Gulfport, you don't have time to read 20 reviews. You need a certified crew with real eq",
+          "reason": "listicle review-count 20 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "65 reviews",
+          "context": "s, LLC holds a 5.0 Google rating across 65 reviews, the highest review volume among the co",
+          "reason": "listicle review-count 65 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "11 reviews",
+          "context": "Coast holds a 5.0 Google rating across 11 reviews. They are a franchise-affiliated water",
+          "reason": "listicle review-count 11 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "65 reviews",
-     "context": "s, LLC holds a 5.0 Google rating across 65 reviews, the highest review volume among the co",
-     "reason": "listicle review-count 65 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-27-water-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-08-27T02:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "average cost of water damage restoration",
+        "how much does water damage restoration cost",
+        "water damage restoration cost calculator",
+        "water damage restoration price sheet",
+        "what affects water damage restoration cost"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water damage restoration cost: what Gulf Coast homeowners actually pay in 2026",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/gulfport-ms/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Pillar page for the whole cost cluster: fold cost-per-square-foot, average cost, calculator and price-sheet variations in as H2s rather than separate posts. Give real dollar ranges by category and class, and separate mitigation (drying) pricing from reconstruction. Anchor examples to Gulfport and the MS Gulf Coast. Note that most jobs are billed to the insurer via Xactimate, not to the homeowner directly.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "11 reviews",
-     "context": "Coast holds a 5.0 Google rating across 11 reviews. They are a franchise-affiliated water",
-     "reason": "listicle review-count 11 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-27-water-damage-insurance-claim-tips",
+      "status": "queued",
+      "queued_at": "2026-08-27T02:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage insurance claim tips",
+      "intent": "informational",
+      "volume": 480,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to file a water damage insurance claim",
+        "how to document water damage for insurance",
+        "water damage insurance adjuster tips",
+        "what does homeowners insurance not cover water damage",
+        "flood insurance vs homeowners insurance water damage",
+        "how long do i have to file a water damage claim"
+      ],
+      "suggested_slug": "water-damage-insurance-claim-tips",
+      "suggested_title": "Water damage insurance claim tips: how to document damage and get paid",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Distinct from the existing coverage blog post: that one answers whether you are covered, this one is the claim mechanics (photograph before touching anything, log the loss date, keep damaged materials, get the mitigation invoice). Cross-link the two. Mississippi Gulf Coast angle: separate NFIP flood policies from homeowners policies, because storm surge and rising water are excluded from standard HO policies here.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-27-how-long-before-mold-grows-after-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-27T02:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long before mold grows after water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how fast does mold grow after a leak",
+        "mold after water damage signs",
+        "does drying prevent mold",
+        "humidity and mold growth after flooding",
+        "do i need mold remediation after water damage",
+        "what temperature and humidity does mold grow in"
+      ],
+      "suggested_slug": "how-long-before-mold-grows-after-water-damage",
+      "suggested_title": "How long before mold grows after water damage? The 24 to 48 hour window",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "Highest-urgency angle for this client: coastal Mississippi runs high ambient humidity year round, so the standard 24 to 48 hour mold window is effectively the short end. Lead with the timeline, then why fans and a shop vac alone do not stop it. Links naturally into the mold remediation service page.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-27-how-long-to-dry-out-a-flooded-house",
+      "status": "queued",
+      "queued_at": "2026-08-27T02:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does it take to dry out a flooded house",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how long does water damage take to dry",
+        "how long do air movers need to run",
+        "structural drying timeline",
+        "how do you know when a house is dry",
+        "why does drying take longer after a hurricane",
+        "dehumidifier vs air mover for flood drying"
+      ],
+      "suggested_slug": "how-long-to-dry-out-a-flooded-house",
+      "suggested_title": "How long does it take to dry out a flooded house? A realistic timeline",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/contents-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "storm-damage-restoration",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Answer the question in the first two sentences (typically 3 to 5 days for structural drying, longer for saturated hardwood or plaster) so AI assistants can lift the passage. Then break down what changes the timeline: water category, materials, humidity, equipment count. Tie to hurricane and storm surge events on the Gulf Coast where drying runs long.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-27-diy-water-damage-restoration-vs-hiring-a-pro",
+      "status": "queued",
+      "queued_at": "2026-08-27T02:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "can i do water damage restoration myself",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what does a water damage restoration company do",
+        "do i need to replace drywall after water damage",
+        "diy water damage cleanup mistakes",
+        "when to call a water damage restoration company",
+        "what equipment do restoration companies use",
+        "will insurance pay if i do the cleanup myself"
+      ],
+      "suggested_slug": "diy-water-damage-restoration-vs-hiring-a-pro",
+      "suggested_title": "Can I do water damage restoration myself? DIY vs hiring a pro",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Be genuinely useful about what a homeowner CAN do (shut off water, document, move contents, run fans on clean category 1 water) before explaining where DIY fails: trapped moisture in wall cavities, no moisture meters, and insurers often declining claims without a documented professional dry-out. Fold the 'what does a restoration company do' and drywall-replacement questions in as H2s.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
     }
-   ]
-  },
-  {
-   "id": "2026-08-27-water-damage-restoration-cost",
-   "status": "queued",
-   "queued_at": "2026-08-27T02:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 880,
-   "kd": 3,
-   "fan_out_cluster": [
-    "water damage restoration cost per square foot",
-    "average cost of water damage restoration",
-    "how much does water damage restoration cost",
-    "water damage restoration cost calculator",
-    "water damage restoration price sheet",
-    "what affects water damage restoration cost"
-   ],
-   "suggested_slug": "water-damage-restoration-cost",
-   "suggested_title": "Water damage restoration cost: what Gulf Coast homeowners actually pay in 2026",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/service-areas/gulfport-ms/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Pillar page for the whole cost cluster: fold cost-per-square-foot, average cost, calculator and price-sheet variations in as H2s rather than separate posts. Give real dollar ranges by category and class, and separate mitigation (drying) pricing from reconstruction. Anchor examples to Gulfport and the MS Gulf Coast. Note that most jobs are billed to the insurer via Xactimate, not to the homeowner directly.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration"
-  },
-  {
-   "id": "2026-08-27-water-damage-insurance-claim-tips",
-   "status": "queued",
-   "queued_at": "2026-08-27T02:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "water damage insurance claim tips",
-   "intent": "informational",
-   "volume": 480,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how to file a water damage insurance claim",
-    "how to document water damage for insurance",
-    "water damage insurance adjuster tips",
-    "what does homeowners insurance not cover water damage",
-    "flood insurance vs homeowners insurance water damage",
-    "how long do i have to file a water damage claim"
-   ],
-   "suggested_slug": "water-damage-insurance-claim-tips",
-   "suggested_title": "Water damage insurance claim tips: how to document damage and get paid",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/storm-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "storm-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.floodsmart.gov/",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Distinct from the existing coverage blog post: that one answers whether you are covered, this one is the claim mechanics (photograph before touching anything, log the loss date, keep damaged materials, get the mitigation invoice). Cross-link the two. Mississippi Gulf Coast angle: separate NFIP flood policies from homeowners policies, because storm surge and rising water are excluded from standard HO policies here.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration"
-  },
-  {
-   "id": "2026-08-27-how-long-before-mold-grows-after-water-damage",
-   "status": "queued",
-   "queued_at": "2026-08-27T02:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how long before mold grows after water damage",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "how fast does mold grow after a leak",
-    "mold after water damage signs",
-    "does drying prevent mold",
-    "humidity and mold growth after flooding",
-    "do i need mold remediation after water damage",
-    "what temperature and humidity does mold grow in"
-   ],
-   "suggested_slug": "how-long-before-mold-grows-after-water-damage",
-   "suggested_title": "How long before mold grows after water damage? The 24 to 48 hour window",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/blog/signs-of-hidden-mold/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home",
-    "https://www.iicrc.org/page/IICRCS520"
-   ],
-   "notes": "Highest-urgency angle for this client: coastal Mississippi runs high ambient humidity year round, so the standard 24 to 48 hour mold window is effectively the short end. Lead with the timeline, then why fans and a shop vac alone do not stop it. Links naturally into the mold remediation service page.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration"
-  },
-  {
-   "id": "2026-08-27-how-long-to-dry-out-a-flooded-house",
-   "status": "queued",
-   "queued_at": "2026-08-27T02:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how long does it take to dry out a flooded house",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "how long does water damage take to dry",
-    "how long do air movers need to run",
-    "structural drying timeline",
-    "how do you know when a house is dry",
-    "why does drying take longer after a hurricane",
-    "dehumidifier vs air mover for flood drying"
-   ],
-   "suggested_slug": "how-long-to-dry-out-a-flooded-house",
-   "suggested_title": "How long does it take to dry out a flooded house? A realistic timeline",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/storm-damage-restoration/",
-    "/services/contents-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "storm-damage-restoration",
-    "contents-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Answer the question in the first two sentences (typically 3 to 5 days for structural drying, longer for saturated hardwood or plaster) so AI assistants can lift the passage. Then break down what changes the timeline: water category, materials, humidity, equipment count. Tie to hurricane and storm surge events on the Gulf Coast where drying runs long.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration"
-  },
-  {
-   "id": "2026-08-27-diy-water-damage-restoration-vs-hiring-a-pro",
-   "status": "queued",
-   "queued_at": "2026-08-27T02:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "can i do water damage restoration myself",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "what does a water damage restoration company do",
-    "do i need to replace drywall after water damage",
-    "diy water damage cleanup mistakes",
-    "when to call a water damage restoration company",
-    "what equipment do restoration companies use",
-    "will insurance pay if i do the cleanup myself"
-   ],
-   "suggested_slug": "diy-water-damage-restoration-vs-hiring-a-pro",
-   "suggested_title": "Can I do water damage restoration myself? DIY vs hiring a pro",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/blog/choosing-a-restoration-company/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Be genuinely useful about what a homeowner CAN do (shut off water, document, move contents, run fans on clean category 1 water) before explaining where DIY fails: trapped moisture in wall cavities, no moisture meters, and insurers often declining claims without a documented professional dry-out. Fold the 'what does a restoration company do' and drywall-replacement questions in as H2s.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration"
-  }
- ]
+  ]
 }
