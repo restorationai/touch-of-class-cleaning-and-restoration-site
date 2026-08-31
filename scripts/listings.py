@@ -76,6 +76,8 @@ PLATFORMS: dict[str, tuple[str, tuple[str, ...]]] = {
     "contractorsranked": ("ContractorsRanked", ("contractorsranked.com",)),
     "foursquare": ("Foursquare", ("foursquare.com", "4sq.com")),
     "mapquest": ("MapQuest", ("mapquest.com",)),
+    "linkedin": ("LinkedIn Company Page", ("linkedin.com",)),
+    "chamberofcommerce": ("ChamberofCommerce.com", ("chamberofcommerce.com",)),
 }
 
 
