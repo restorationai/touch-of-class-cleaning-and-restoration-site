@@ -73,7 +73,12 @@ def _oauth_client() -> dict:
 # localhost:5173/oauth/callback is a REGISTERED redirect on this web-type
 # OAuth client (create_ga4.py proved it); bare localhost:8765 400ed with
 # redirect_uri_mismatch — web clients only accept registered URIs.
-_REDIRECT = "http://localhost:5173/oauth/callback"
+# The one redirect PROVEN registered on this web client: the production
+# app connect callback (every client GBP connect uses it). localhost
+# variants all 400 with redirect_uri_mismatch. Flow: user approves,
+# lands on the app callback, pastes the landed URL back; --auth CODE
+# exchanges it (redirect_uri must match exactly).
+_REDIRECT = "https://app.restorationai.io/connect/google/callback"
 
 
 def auth_url() -> str:
