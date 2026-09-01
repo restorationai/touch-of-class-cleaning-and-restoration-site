@@ -1,225 +1,242 @@
 {
-  "/images/crew.webp": {
-    "width": 1600,
-    "height": 1200,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/hero-bg.webp": {
-    "width": 720,
-    "height": 405,
-    "variants": [
-      480
-    ]
-  },
-  "/images/services.webp": {
-    "width": 1080,
-    "height": 720,
-    "variants": [
-      480,
-      768
-    ]
-  },
-  "/images/services/appliance-leak-cleanup.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/basement-flooding-cleanup.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/burst-pipe-repair.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/commercial-restoration.webp": {
-    "width": 720,
-    "height": 480,
-    "variants": [
-      480
-    ]
-  },
-  "/images/services/emergency-board-up-tarping.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/fire-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/flood-damage-restoration.webp": {
-    "width": 720,
-    "height": 480,
-    "variants": [
-      480
-    ]
-  },
-  "/images/services/general-contracting.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/mold-inspection-testing.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/mold-remediation.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/odor-removal.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/reconstruction.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/sewage-cleanup.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/smoke-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/storm-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/water-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/team.webp": {
-    "width": 1254,
-    "height": 836,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/work/job-1.webp": {
-    "width": 1600,
-    "height": 1200,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/work/job-2.webp": {
-    "width": 1600,
-    "height": 1200,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/work/job-3.webp": {
-    "width": 1200,
-    "height": 1600,
-    "variants": [
-      480,
-      768
-    ]
-  },
-  "/images/work/job-4.webp": {
-    "width": 1200,
-    "height": 1600,
-    "variants": [
-      480,
-      768
-    ]
-  },
-  "/images/work/job-5.webp": {
-    "width": 1199,
-    "height": 1600,
-    "variants": [
-      480,
-      768
-    ]
-  },
-  "/images/work/job-6.webp": {
-    "width": 1200,
-    "height": 1600,
-    "variants": [
-      480,
-      768
-    ]
-  }
+ "/images/crew.webp": {
+  "height": 1200,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1600
+ },
+ "/images/hero-bg.webp": {
+  "height": 405,
+  "variants": [
+   480
+  ],
+  "width": 720
+ },
+ "/images/services.webp": {
+  "height": 720,
+  "variants": [
+   480,
+   768
+  ],
+  "width": 1080
+ },
+ "/images/services/appliance-leak-cleanup.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/basement-flood-cleanup.webp": {
+  "height": 480,
+  "variants": [
+   480
+  ],
+  "width": 720
+ },
+ "/images/services/basement-flooding-cleanup.webp": {
+  "height": 480,
+  "variants": [
+   480
+  ],
+  "width": 720
+ },
+ "/images/services/burst-pipe-repair.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/commercial-restoration.webp": {
+  "height": 480,
+  "variants": [
+   480
+  ],
+  "width": 720
+ },
+ "/images/services/contents-restoration-pack-out.webp": {
+  "height": 480,
+  "variants": [
+   480
+  ],
+  "width": 720
+ },
+ "/images/services/emergency-board-up-tarping.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/fire-damage-restoration.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/flood-damage-restoration.webp": {
+  "height": 480,
+  "variants": [
+   480
+  ],
+  "width": 720
+ },
+ "/images/services/general-contracting.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/mold-inspection-testing.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/mold-remediation.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/odor-removal.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/reconstruction.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/sewage-cleanup.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/smoke-damage-restoration.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/storm-damage-restoration.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/water-cleanup.webp": {
+  "height": 480,
+  "variants": [
+   480
+  ],
+  "width": 720
+ },
+ "/images/services/water-damage-restoration.webp": {
+  "height": 480,
+  "variants": [
+   480
+  ],
+  "width": 720
+ },
+ "/images/team.webp": {
+  "height": 836,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1254
+ },
+ "/images/work/job-1.webp": {
+  "height": 1200,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1600
+ },
+ "/images/work/job-2.webp": {
+  "height": 1200,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1600
+ },
+ "/images/work/job-3.webp": {
+  "height": 1600,
+  "variants": [
+   480,
+   768
+  ],
+  "width": 1200
+ },
+ "/images/work/job-4.webp": {
+  "height": 1600,
+  "variants": [
+   480,
+   768
+  ],
+  "width": 1200
+ },
+ "/images/work/job-5.webp": {
+  "height": 1600,
+  "variants": [
+   480,
+   768
+  ],
+  "width": 1199
+ },
+ "/images/work/job-6.webp": {
+  "height": 1600,
+  "variants": [
+   480,
+   768
+  ],
+  "width": 1200
+ }
 }
