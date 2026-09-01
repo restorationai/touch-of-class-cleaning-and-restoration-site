@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-09-01T17:38:12Z",
+  "cursor": "2026-09-01T18:30:38Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -107,7 +107,8 @@
     "a91e9233-4d77-4f48-a63b-53490cd56dd6",
     "61e01bca-e920-4030-81c9-dd39892c80a4",
     "4d3140d0-d532-4991-9bd5-c16abe1451b6",
-    "2b7b2993-1574-45b4-8f30-45b5d4dfadac"
+    "2b7b2993-1574-45b4-8f30-45b5d4dfadac",
+    "3cf7ae7b-a85c-4350-8778-5b8d532182bb"
   ],
   "processed_plan_events": [
     "80fd3777-f57b-4a61-9cf4-dc4e7d243cd1:done",
@@ -165,7 +166,8 @@
     "45eeb673-d2ee-40f2-bcf3-456accbc7b66:approved",
     "f5a1f813-a874-4779-bf6d-7166a4cde07b:approved",
     "6c818691-7b90-4488-bad9-c990c4106250:done",
-    "c8cffdc2-4348-4e74-8dad-91aebdc69ac7:done"
+    "c8cffdc2-4348-4e74-8dad-91aebdc69ac7:done",
+    "092c2744-adbf-482c-9eee-d450af606dec:resolved"
   ],
-  "last_run_at": "2026-09-01T17:38:12.010971+00:00"
+  "last_run_at": "2026-09-01T18:30:38.739917+00:00"
 }
