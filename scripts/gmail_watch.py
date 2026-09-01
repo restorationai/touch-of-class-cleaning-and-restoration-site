@@ -70,7 +70,10 @@ def _oauth_client() -> dict:
     return {"client_id": cfg["client_id"], "client_secret": cfg["client_secret"]}
 
 
-_REDIRECT = "http://localhost:8765"
+# localhost:5173/oauth/callback is a REGISTERED redirect on this web-type
+# OAuth client (create_ga4.py proved it); bare localhost:8765 400ed with
+# redirect_uri_mismatch — web clients only accept registered URIs.
+_REDIRECT = "http://localhost:5173/oauth/callback"
 
 
 def auth_url() -> str:
@@ -120,11 +123,17 @@ def auth_local() -> None:
         def log_message(self, *a):  # noqa: D102
             pass
 
-    srv = http.server.HTTPServer(("127.0.0.1", 8765), H)
+    srv = http.server.HTTPServer(("127.0.0.1", 5173), H)
     threading.Thread(target=srv.handle_request, daemon=True).start()
     url = auth_url()
     print("opening browser for consent:", url)
-    webbrowser.open(url)
+    import subprocess
+    try:
+        # fresh incognito window — no logged-in personal account to default to
+        subprocess.run(["open", "-na", "Google Chrome", "--args",
+                        "--incognito", url], check=True)
+    except Exception:
+        webbrowser.open(url)
     import time
     for _ in range(1800):
         if code_box.get("code"):
