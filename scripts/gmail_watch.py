@@ -70,20 +70,26 @@ def _oauth_client() -> dict:
     return {"client_id": cfg["client_id"], "client_secret": cfg["client_secret"]}
 
 
+_REDIRECT = "http://localhost:8765"
+
+
 def auth_url() -> str:
+    # Google retired the urn:ietf:wg:oauth:2.0:oob copy-paste flow (Santino hit
+    # its error page 2026-09-01); desktop clients now use a loopback redirect.
     c = _oauth_client()
     return ("https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode({
         "client_id": c["client_id"],
-        "redirect_uri": "urn:ietf:wg:oauth:2.0:oob",
+        "redirect_uri": _REDIRECT,
         "response_type": "code", "scope": SCOPE,
-        "access_type": "offline", "prompt": "consent"}))
+        "access_type": "offline", "prompt": "select_account consent",
+        "login_hint": "contact@restorationai.io"}))
 
 
 def auth_exchange(code: str) -> None:
     c = _oauth_client()
     r = requests.post("https://oauth2.googleapis.com/token", data={
         **c, "code": code.strip(),
-        "redirect_uri": "urn:ietf:wg:oauth:2.0:oob",
+        "redirect_uri": _REDIRECT,
         "grant_type": "authorization_code"}, timeout=30)
     r.raise_for_status()
     tok = r.json()
@@ -92,6 +98,42 @@ def auth_exchange(code: str) -> None:
     TOKEN_PATH.parent.mkdir(parents=True, exist_ok=True)
     TOKEN_PATH.write_text(json.dumps({"refresh_token": tok["refresh_token"]}))
     print(f"saved {TOKEN_PATH}")
+
+
+def auth_local() -> None:
+    """One-shot local flow: open the consent URL, catch the redirect on
+    localhost:8765, exchange, save. Santino just clicks Allow."""
+    import http.server
+    import threading
+    import webbrowser
+    code_box: dict = {}
+
+    class H(http.server.BaseHTTPRequestHandler):
+        def do_GET(self):  # noqa: N802
+            qs = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
+            code_box["code"] = (qs.get("code") or [""])[0]
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html")
+            self.end_headers()
+            self.wfile.write(b"<h2>Gmail watcher authorized. You can close this tab.</h2>")
+
+        def log_message(self, *a):  # noqa: D102
+            pass
+
+    srv = http.server.HTTPServer(("127.0.0.1", 8765), H)
+    threading.Thread(target=srv.handle_request, daemon=True).start()
+    url = auth_url()
+    print("opening browser for consent:", url)
+    webbrowser.open(url)
+    import time
+    for _ in range(1800):
+        if code_box.get("code"):
+            break
+        time.sleep(1)
+    srv.server_close()
+    if not code_box.get("code"):
+        sys.exit("timed out waiting for consent (5 min)")
+    auth_exchange(code_box["code"])
 
 
 def access_token() -> str:
@@ -219,8 +261,13 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--auth-url", action="store_true")
     ap.add_argument("--auth", metavar="CODE")
+    ap.add_argument("--auth-local", action="store_true",
+                    help="open browser, catch redirect on localhost:8765, save token")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+    if args.auth_local:
+        auth_local()
+        return 0
     if args.auth_url:
         print(auth_url())
         return 0
