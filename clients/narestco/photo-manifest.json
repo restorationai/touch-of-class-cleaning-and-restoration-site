@@ -1541,6 +1541,35 @@
       "triaged_at": "2026-08-05T05:56:57Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPEjDIjv4bW_TyEbkuF2wWzHLkj2HGXHKuY_Pp7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPEjDIjv4bW_TyEbkuF2wWzHLkj2HGXHKuY_Pp7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipPEjDIjv4bW_TyEbkuF2wWzHLkj2HGXHKuY_Pp7.jpg",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 424241,
+      "sha1": "90d9e5edc2bd0dc7",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing collage water emergency response Seattle WA",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "appliance-leak-cleanup"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card"
+      ],
+      "reason": "Designed marketing card with overlaid headlines, captions, and logo lockup composited in.",
+      "triaged_at": "2026-09-01T14:07:51Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPG6e8BVc3rHiOh1oEPElUMTgljM10YduVDK9Fw": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPG6e8BVc3rHiOh1oEPElUMTgljM10YduVDK9Fw.jpg",
@@ -1828,6 +1857,35 @@
       "triaged_at": "2026-08-05T05:57:15Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPnrhGdTek6fmIPO0fGM7twuMyqCfsXMmEQ5xsE": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPnrhGdTek6fmIPO0fGM7twuMyqCfsXMmEQ5xsE.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1771290587387/job-photos/posted/gbp-AF1QipPnrhGdTek6fmIPO0fGM7twuMyqCfsXMmEQ5xsE.jpg",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 493878,
+      "sha1": "f8caf6bd16fb954c",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing collage basement water damage extraction dry-out Seattle",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card"
+      ],
+      "reason": "Designed marketing collage with overlaid text, location tags, and logo lockup composited in.",
+      "triaged_at": "2026-09-01T14:07:51Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPqCnb3jnvWwA2KovMOczqOpZ2uL4rhHxMBZl-C": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPqCnb3jnvWwA2KovMOczqOpZ2uL4rhHxMBZl-C.jpg",
@@ -1978,5 +2036,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-23T14:05:53Z"
+  "triaged_at": "2026-09-01T14:07:51Z"
 }

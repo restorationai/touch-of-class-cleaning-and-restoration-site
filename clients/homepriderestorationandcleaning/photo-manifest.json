@@ -735,6 +735,33 @@
       "triaged_at": "2026-08-05T06:00:37Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMBnNTYLWLebkDIqpMRK06x7dWqz0Hb4fTIfYJb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMBnNTYLWLebkDIqpMRK06x7dWqz0Hb4fTIfYJb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMBnNTYLWLebkDIqpMRK06x7dWqz0Hb4fTIfYJb.jpg",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 830955,
+      "sha1": "28bec5f9d3946b90",
+      "exif": {},
+      "category": "equipment",
+      "subject": "dehumidifiers and air movers set up in bedroom closet area",
+      "quality": 62,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Drying equipment deployed in residential room; useful services card, poor hero.",
+      "triaged_at": "2026-09-01T14:07:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMCFljn8fxyDdVdPMAn5r89UjFVeufpn7_hqsGR": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMCFljn8fxyDdVdPMAn5r89UjFVeufpn7_hqsGR.jpg",
@@ -5066,5 +5093,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-30T14:06:57Z"
+  "triaged_at": "2026-09-01T14:07:28Z"
 }
