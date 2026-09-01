@@ -38,8 +38,12 @@ export const brand = {
   ga4MeasurementId: "G-G8PLTS9XDN",
   clarityProjectId: "",
   logoUrl: "/images/logo-dark-bg.png",
-  licenseNumbers: [] as string[],
-  licenseAuthority: "",
+  // Fran's 08-28 email ("Quality contractor license and EIN"), confirmed on
+  // the 09-01 support call: licenses + EIN belong on the site.
+  licenseNumbers: ["MA CS-074311", "MA HIC 141641", "RI GC-15795",
+                   "CT HIC 0627494", "EPA NAT-25403-4", "Lead Safe LR002146",
+                   "EIN 04-3553992"] as string[],
+  licenseAuthority: "Licensed in MA, RI & CT",
   // State license-verification page — the footer links the license number here.
   licenseLookupUrl: "",
   licenseType: "",

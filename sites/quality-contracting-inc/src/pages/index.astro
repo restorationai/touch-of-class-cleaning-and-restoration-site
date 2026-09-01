@@ -47,11 +47,14 @@ const services = (allServices as CollectionEntry<"services">[])
       dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
   <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" />
 
-  {/* Fran (08-21 email): "add language to the home page: We accept all
-      insurance. Direct insurance billing." */}
-  <div class="bg-primary-50 border-y border-primary-100 py-3 px-4 text-center">
-    <p class="text-sm sm:text-base font-semibold text-primary-800">
-      We accept all insurance. Direct insurance billing.
+  {/* Fran (08-21 email + 09-01 call): insurance compatibility as a PROMINENT
+      full-width banner, not fine print — per his screenshot example. */}
+  <div class="bg-primary-700 py-5 px-4 text-center">
+    <p class="text-xl sm:text-2xl font-extrabold tracking-tight text-white uppercase">
+      We work with all insurance companies
+    </p>
+    <p class="mt-1 text-sm sm:text-base font-medium text-white/90">
+      Direct insurance billing &middot; Xactimate estimates &middot; We handle the claim with your carrier from start to finish
     </p>
   </div>
 
