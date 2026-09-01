@@ -1,155 +1,155 @@
 {
-  "/images/hero-bg.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/air-duct-cleaning.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/asbestos-abatement.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/biohazard-cleanup.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/carpet-cleaning.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/contents-restoration.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/crawl-space-encapsulation.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/emergency-board-up-tarping.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/fire-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/general-contracting.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/mold-remediation.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/post-construction-cleaning.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/sewage-cleanup.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/storm-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/water-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/team.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  }
+ "/images/hero-bg.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/air-duct-cleaning.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/asbestos-abatement.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/biohazard-cleanup.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/carpet-cleaning.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/contents-restoration.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/crawl-space-encapsulation.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/emergency-board-up-tarping.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/fire-damage-restoration.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/general-contracting.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/mold-remediation.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/post-construction-cleaning.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/sewage-cleanup.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/storm-damage-restoration.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/services/water-damage-restoration.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ },
+ "/images/team.webp": {
+  "height": 768,
+  "variants": [
+   480,
+   768,
+   1200
+  ],
+  "width": 1376
+ }
 }

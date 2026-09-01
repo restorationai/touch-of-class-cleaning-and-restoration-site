@@ -47,13 +47,21 @@ const services = (allServices as CollectionEntry<"services">[])
       dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
   <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" />
 
+  {/* Fran (08-21 email): "add language to the home page: We accept all
+      insurance. Direct insurance billing." */}
+  <div class="bg-primary-50 border-y border-primary-100 py-3 px-4 text-center">
+    <p class="text-sm sm:text-base font-semibold text-primary-800">
+      We accept all insurance. Direct insurance billing.
+    </p>
+  </div>
+
   <TrustStrip />
 
   <ReviewsStrip />
 
   <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
     <p>
-      {brand.displayName} has been serving {brand.primaryCity} and the surrounding {brand.primaryState} area since {brand.foundedYear}. We specialize in rapid-response disaster restoration—handling everything from water and fire damage to biohazard cleanup and full reconstruction. When disaster strikes, our certified professionals are standing by 24/7 to return your property to its pre-loss condition quickly and safely.
+      {brand.displayName} has been serving {brand.primaryCity} and the surrounding {brand.primaryState} area since {brand.foundedYear}. We specialize in rapid-response disaster restoration, handling everything from water and fire damage to biohazard cleanup and full reconstruction. When disaster strikes, our certified professionals are standing by 24/7 to return your property to its pre-loss condition quickly and safely.
     </p>
   </AboutSection>
 
