@@ -1,5 +1,755 @@
 {
   "slug": "frontline-fire-flood",
-  "assets": {},
-  "slots": {}
+  "assets": {
+    "gbp:gbp-AF1QipM127XuHtOfp1i2v_S4-QJkcygQftikJn9pE9xQ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM127XuHtOfp1i2v_S4-QJkcygQftikJn9pE9xQ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipM127XuHtOfp1i2v_S4-QJkcygQftikJn9pE9xQ.jpg",
+      "width": 1083,
+      "height": 1080,
+      "bytes": 1045318,
+      "sha1": "7693a15297f00d5c",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Frontline Fire and Flood branded van parked by waterfront",
+      "quality": 88,
+      "slots": {
+        "hero": 85,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Crisp, well-lit hero fleet shot with iconic skyline and mountain backdrop.",
+      "triaged_at": "2026-09-01T23:15:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipM1nSwSgj8vipY_-_c-K4TJGRymE3P8dJBA7K9M": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM1nSwSgj8vipY_-_c-K4TJGRymE3P8dJBA7K9M.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipM1nSwSgj8vipY_-_c-K4TJGRymE3P8dJBA7K9M.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 1195473,
+      "sha1": "aed9672fe7998bf0",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Moisture meter on subfloor with large yellow text overlay",
+      "quality": 52,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Large composited yellow caption text dominates; GPS timestamp also overlaid.",
+      "triaged_at": "2026-09-01T23:15:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMOj2uQdZU3GWFoA2QBK-pwH3vucpDwZDyfJrgN": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMOj2uQdZU3GWFoA2QBK-pwH3vucpDwZDyfJrgN.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipMOj2uQdZU3GWFoA2QBK-pwH3vucpDwZDyfJrgN.jpg",
+      "width": 1440,
+      "height": 944,
+      "bytes": 877815,
+      "sha1": "6c1018b889deb613",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severely fire-damaged two-storey residential home exterior",
+      "quality": 62,
+      "slots": {
+        "hero": 22,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear fire damage documentation; good services card but grim for hero.",
+      "triaged_at": "2026-09-01T23:15:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMQNCRFvM9UXQBbVpOjMoRtmv4RdP4v8UyGCe__": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMQNCRFvM9UXQBbVpOjMoRtmv4RdP4v8UyGCe__.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipMQNCRFvM9UXQBbVpOjMoRtmv4RdP4v8UyGCe__.jpg",
+      "width": 720,
+      "height": 1280,
+      "bytes": 251861,
+      "sha1": "1850e0fe805ed2b4",
+      "exif": {
+        "taken_at": "2022:11:21 11:17:30"
+      },
+      "category": "job_progress",
+      "subject": "Fire-damaged garage door and scorched car on driveway",
+      "quality": 65,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Authentic fire damage scene; GPS timestamp is real scene data, not overlay.",
+      "triaged_at": "2026-09-01T23:15:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMeA8Ta-zrmoirjiFupMWnb8To6QPK-Y_iYxqQE": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMeA8Ta-zrmoirjiFupMWnb8To6QPK-Y_iYxqQE.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipMeA8Ta-zrmoirjiFupMWnb8To6QPK-Y_iYxqQE.jpg",
+      "width": 1440,
+      "height": 950,
+      "bytes": 780241,
+      "sha1": "a2e2f1a6adac33ab",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Close-up green and yellow mould growth on ceiling surface",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Soft focus and dark; useful for mould services card but low overall quality.",
+      "triaged_at": "2026-09-01T23:15:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMtVOU2OA1B8TDoI_kgLkR1LIapY5jwbtXvArYB": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMtVOU2OA1B8TDoI_kgLkR1LIapY5jwbtXvArYB.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipMtVOU2OA1B8TDoI_kgLkR1LIapY5jwbtXvArYB.jpg",
+      "width": 1440,
+      "height": 960,
+      "bytes": 1314196,
+      "sha1": "85cd2a0dc636c8d0",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Open roof rafters with blown-in insulation removed during remediation",
+      "quality": 66,
+      "slots": {
+        "hero": 28,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Well-lit structural progress shot; good for services but no crew or branding.",
+      "triaged_at": "2026-09-01T23:15:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMzzKftSyH3ExXTja0CgvkfK00KgcAREhg_fTO_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMzzKftSyH3ExXTja0CgvkfK00KgcAREhg_fTO_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipMzzKftSyH3ExXTja0CgvkfK00KgcAREhg_fTO_.jpg",
+      "width": 810,
+      "height": 1080,
+      "bytes": 843755,
+      "sha1": "63fee1ffaa42f204",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in uniform operating air mover in bathroom doorway",
+      "quality": 72,
+      "slots": {
+        "hero": 28,
+        "team": 62,
+        "services": 78
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good action shot; portrait crop and doorframe limit hero use.",
+      "triaged_at": "2026-09-01T23:15:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipN1SQ0FJ13YCqQd6I0gOtjcTVytFoCMVBv2hCQE": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN1SQ0FJ13YCqQd6I0gOtjcTVytFoCMVBv2hCQE.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipN1SQ0FJ13YCqQd6I0gOtjcTVytFoCMVBv2hCQE.jpg",
+      "width": 1440,
+      "height": 950,
+      "bytes": 911652,
+      "sha1": "f413cd544edc5784",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in full PPE suit working in crawl space",
+      "quality": 68,
+      "slots": {
+        "hero": 22,
+        "team": 70,
+        "services": 80
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Compelling PPE shot; dark confined space limits hero but strong for services.",
+      "triaged_at": "2026-09-01T23:15:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipN45os89icFp1f8x9atnAcxhYI9Tj0qR4bB9_RQ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN45os89icFp1f8x9atnAcxhYI9Tj0qR4bB9_RQ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipN45os89icFp1f8x9atnAcxhYI9Tj0qR4bB9_RQ.jpg",
+      "width": 1440,
+      "height": 811,
+      "bytes": 895905,
+      "sha1": "9772d45a91dd3630",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Heavy mold growth on crawl space wood beam close-up",
+      "quality": 52,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Camera timestamp visible; graphic mold detail useful for mold service card only.",
+      "triaged_at": "2026-09-01T23:15:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNLjXYk4YiqCxtRYIGBxRiU7UhtS4wWwN_svkRV": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNLjXYk4YiqCxtRYIGBxRiU7UhtS4wWwN_svkRV.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipNLjXYk4YiqCxtRYIGBxRiU7UhtS4wWwN_svkRV.jpg",
+      "width": 1440,
+      "height": 960,
+      "bytes": 1255637,
+      "sha1": "d10516aa168f55e2",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Mold-covered crawl space floor joists and subfloor wide view",
+      "quality": 60,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 62
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Better framed than image 2; shows mold extent well for a services card.",
+      "triaged_at": "2026-09-01T23:15:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNfoh9H8oPXqLJoJDskCNhY8rJ7NZGhS4d4IvXD": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNfoh9H8oPXqLJoJDskCNhY8rJ7NZGhS4d4IvXD.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipNfoh9H8oPXqLJoJDskCNhY8rJ7NZGhS4d4IvXD.jpg",
+      "width": 1440,
+      "height": 997,
+      "bytes": 978478,
+      "sha1": "8309a08724adda35",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Restored shiny hardwood living room floor after drying",
+      "quality": 78,
+      "slots": {
+        "hero": 45,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clean, well-lit after result; product jugs in corner slightly distract from hero use.",
+      "triaged_at": "2026-09-01T23:15:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNkgVOGQ3wZWvja29pqukXNu0D_rIzqn3oqAYKV": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNkgVOGQ3wZWvja29pqukXNu0D_rIzqn3oqAYKV.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipNkgVOGQ3wZWvja29pqukXNu0D_rIzqn3oqAYKV.jpg",
+      "width": 1440,
+      "height": 960,
+      "bytes": 1177979,
+      "sha1": "e786805a1972687b",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air movers and dehumidifier drying equipment deployed on carpet",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear equipment deployment shot; camera timestamp and cluttered cords limit hero score.",
+      "triaged_at": "2026-09-01T23:15:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNq-Q0D5bChTUQ13EUFeULaJh3pOvEzWoIvxpo4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNq-Q0D5bChTUQ13EUFeULaJh3pOvEzWoIvxpo4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipNq-Q0D5bChTUQ13EUFeULaJh3pOvEzWoIvxpo4.jpg",
+      "width": 864,
+      "height": 1080,
+      "bytes": 576324,
+      "sha1": "9c47e3926f13efa0",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Close-up of frozen outdoor brass spigot with ice",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Polished stock-style macro; no crew, equipment, or job context.",
+      "triaged_at": "2026-09-01T23:15:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO-4dNe0_uxDT2J9N4GpkYqCtkXY2EyDVHsDy6Y": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO-4dNe0_uxDT2J9N4GpkYqCtkXY2EyDVHsDy6Y.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipO-4dNe0_uxDT2J9N4GpkYqCtkXY2EyDVHsDy6Y.jpg",
+      "width": 1440,
+      "height": 960,
+      "bytes": 524301,
+      "sha1": "131520cf49599f7c",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Technician hand holding FLIR thermal camera showing moisture scan",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 10,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Real diagnostic tool in use; good services context but cramped composition.",
+      "triaged_at": "2026-09-01T23:15:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO9E8E50h3xgnkjxYlny1Ls3p_vF0SMOqbKWkTN": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO9E8E50h3xgnkjxYlny1Ls3p_vF0SMOqbKWkTN.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipO9E8E50h3xgnkjxYlny1Ls3p_vF0SMOqbKWkTN.jpg",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 1277190,
+      "sha1": "8897ba0dab8bed84",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Large Flagro propane heater with duct hose outside residential property",
+      "quality": 48,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Authentic job-site equipment photo; timestamp visible, composition mediocre.",
+      "triaged_at": "2026-09-01T23:15:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOBAe3T7ndAiOCMYIA934Vkc-Pvzk7CoIzjkh1c": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOBAe3T7ndAiOCMYIA934Vkc-Pvzk7CoIzjkh1c.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipOBAe3T7ndAiOCMYIA934Vkc-Pvzk7CoIzjkh1c.jpg",
+      "width": 1440,
+      "height": 950,
+      "bytes": 1035827,
+      "sha1": "4d0c1196fa0313f6",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severely water-damaged saturated insulation dripping in crawlspace",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Compelling damage documentation; dark and tight but strong services card use.",
+      "triaged_at": "2026-09-01T23:15:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOF9xgC5vYEnEwKU5jAJ6BGYqv9sJWCvCnXMCiX": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOF9xgC5vYEnEwKU5jAJ6BGYqv9sJWCvCnXMCiX.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipOF9xgC5vYEnEwKU5jAJ6BGYqv9sJWCvCnXMCiX.jpg",
+      "width": 1080,
+      "height": 720,
+      "bytes": 850951,
+      "sha1": "5c0b0f0c06ff27f2",
+      "exif": {},
+      "category": "crew",
+      "subject": "Full Frontline Fire and Flood team posed in uniform under company sign",
+      "quality": 88,
+      "slots": {
+        "hero": 75,
+        "team": 95,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Professional group shot in branded polos; sign with real phone number is in-scene signage.",
+      "triaged_at": "2026-09-01T23:15:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOQcH-LAEhw1VTbWLZPhI2yUVFnyck5eIxu6EnG": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOQcH-LAEhw1VTbWLZPhI2yUVFnyck5eIxu6EnG.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipOQcH-LAEhw1VTbWLZPhI2yUVFnyck5eIxu6EnG.jpg",
+      "width": 1440,
+      "height": 967,
+      "bytes": 691817,
+      "sha1": "3b93f4be07944070",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Kitchen interior mid-renovation with stripped drywall and open cabinets",
+      "quality": 70,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Overly clean and well-lit for a damage site; appears stock or staged renovation image.",
+      "triaged_at": "2026-09-01T23:15:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOXMvtgP-vDDuAoLK0mXNadGlLXaffb00RAIo1G": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOXMvtgP-vDDuAoLK0mXNadGlLXaffb00RAIo1G.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipOXMvtgP-vDDuAoLK0mXNadGlLXaffb00RAIo1G.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 976060,
+      "sha1": "3bf739ae7c9920cd",
+      "exif": {
+        "taken_at": "2021:03:18 13:41:54"
+      },
+      "category": "crew",
+      "subject": "Technician in PPE suit lifting mold-covered flooring material",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 55,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "graphic_content"
+      ],
+      "reason": "Strong mold remediation action shot but graphic damage and portrait crop limit hero use.",
+      "triaged_at": "2026-09-01T23:16:11Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOifyjPoBT5YHUWg4p91qeMHTIdOkxKAv39WHQZ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOifyjPoBT5YHUWg4p91qeMHTIdOkxKAv39WHQZ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipOifyjPoBT5YHUWg4p91qeMHTIdOkxKAv39WHQZ.jpg",
+      "width": 1440,
+      "height": 960,
+      "bytes": 979192,
+      "sha1": "5d7c2d69a8cc90ea",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Fire-damaged garage door with soot and char marks",
+      "quality": 63,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear fire damage evidence; decent composition but residential address visible in scene.",
+      "triaged_at": "2026-09-01T23:16:11Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOoL6B-RWuz8aSvR_ZJR3UMjJMLlWnyKmZpDaqQ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOoL6B-RWuz8aSvR_ZJR3UMjJMLlWnyKmZpDaqQ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipOoL6B-RWuz8aSvR_ZJR3UMjJMLlWnyKmZpDaqQ.jpg",
+      "width": 2560,
+      "height": 1685,
+      "bytes": 946646,
+      "sha1": "221fa57e22b436e3",
+      "exif": {},
+      "category": "crew",
+      "subject": "Nine-person crew posed before AdvantaClean branded van with equipment",
+      "quality": 72,
+      "slots": {
+        "hero": 20,
+        "team": 15,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [
+        "competitor_brand"
+      ],
+      "reason": "Competitor brand AdvantaClean prominently displayed; unusable for Frontline Fire & Flood marketing.",
+      "triaged_at": "2026-09-01T23:16:11Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOs42Z6ZOv1_VM9t9JY7nl0KXVDbR6RdX3vVi2e": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOs42Z6ZOv1_VM9t9JY7nl0KXVDbR6RdX3vVi2e.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipOs42Z6ZOv1_VM9t9JY7nl0KXVDbR6RdX3vVi2e.jpg",
+      "width": 1080,
+      "height": 810,
+      "bytes": 873883,
+      "sha1": "7b3bf4ff717247a1",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two technicians deploying air movers and dehumidifiers in commercial space",
+      "quality": 70,
+      "slots": {
+        "hero": 35,
+        "team": 60,
+        "services": 72
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good services scene with crew and equipment deployed; wide enough for moderate hero use.",
+      "triaged_at": "2026-09-01T23:16:11Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP4XfwXEqY5nx9_t4Hba3oQ3wdk-RztwbfzZy2Q": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP4XfwXEqY5nx9_t4Hba3oQ3wdk-RztwbfzZy2Q.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipP4XfwXEqY5nx9_t4Hba3oQ3wdk-RztwbfzZy2Q.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 884165,
+      "sha1": "90b0a1821870fb4c",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Wall cutout with yellow annotated arrows and instructional text overlaid",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Diagnostic annotation text composited over photo makes this a graphic, not a usable marketing image.",
+      "triaged_at": "2026-09-01T23:16:11Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP53ZkDYpoMOPvAJUOIEiBiQNA7oPOuFDue8stF": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP53ZkDYpoMOPvAJUOIEiBiQNA7oPOuFDue8stF.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipP53ZkDYpoMOPvAJUOIEiBiQNA7oPOuFDue8stF.jpg",
+      "width": 1440,
+      "height": 1046,
+      "bytes": 913703,
+      "sha1": "d3f2d21824344fe7",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Hardwood floor mid-restoration with open wall cavity and drying equipment",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Honest work-in-progress shot; cluttered wall opening limits hero appeal but serves services context.",
+      "triaged_at": "2026-09-01T23:16:11Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP7ANBju-hJW2TkOHBMbjoigiTRiui7PmEODDhL": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP7ANBju-hJW2TkOHBMbjoigiTRiui7PmEODDhL.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipP7ANBju-hJW2TkOHBMbjoigiTRiui7PmEODDhL.jpg",
+      "width": 960,
+      "height": 720,
+      "bytes": 97974,
+      "sha1": "148c655fd0906cc0",
+      "exif": {
+        "taken_at": "2022:11:28 09:53:25"
+      },
+      "category": "job_progress",
+      "subject": "Green and brown mold growth on wood ceiling surface",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Close-up mold damage, soft focus, timestamp overlay, good evidence shot only.",
+      "triaged_at": "2026-09-01T23:16:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPRMozdiD34yPa0QyKk885RMawjMjq4oM3kbnAQ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPRMozdiD34yPa0QyKk885RMawjMjq4oM3kbnAQ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipPRMozdiD34yPa0QyKk885RMawjMjq4oM3kbnAQ.jpg",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 408324,
+      "sha1": "c91158f875b60556",
+      "exif": {
+        "taken_at": "2022:03:24 15:18:49"
+      },
+      "category": "equipment",
+      "subject": "Orange air movers and blue dehumidifier in empty carpeted room",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear drying equipment setup; timestamp watermark is in-camera, decent services card.",
+      "triaged_at": "2026-09-01T23:16:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPSlqSW0b7VSKtSHgXvHxZLvoGVaa8Rqv5zUKXh": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPSlqSW0b7VSKtSHgXvHxZLvoGVaa8Rqv5zUKXh.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipPSlqSW0b7VSKtSHgXvHxZLvoGVaa8Rqv5zUKXh.jpg",
+      "width": 1048,
+      "height": 1080,
+      "bytes": 1131893,
+      "sha1": "5d7a01eb7945d173",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air movers and dehumidifier deployed in large commercial gym space",
+      "quality": 72,
+      "slots": {
+        "hero": 45,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Well-lit commercial job showing restoration equipment in situ; strong services image.",
+      "triaged_at": "2026-09-01T23:16:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPV7mrZvKOTiHVxHGUcoHxgz21ZTwkXApEcq-xI": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPV7mrZvKOTiHVxHGUcoHxgz21ZTwkXApEcq-xI.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipPV7mrZvKOTiHVxHGUcoHxgz21ZTwkXApEcq-xI.jpg",
+      "width": 1440,
+      "height": 1014,
+      "bytes": 759092,
+      "sha1": "b8c99774f5de402c",
+      "exif": {},
+      "category": "crew",
+      "subject": "Ten uniformed staff in blue polos posing playfully outdoors",
+      "quality": 58,
+      "slots": {
+        "hero": 30,
+        "team": 88,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Great team group shot; lower resolution and casual pose limit hero use.",
+      "triaged_at": "2026-09-01T23:16:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPancz-x9CSCguN4LpFMjqjfCdSa6WOoi93XdUq": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPancz-x9CSCguN4LpFMjqjfCdSa6WOoi93XdUq.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipPancz-x9CSCguN4LpFMjqjfCdSa6WOoi93XdUq.jpg",
+      "width": 1440,
+      "height": 964,
+      "bytes": 787708,
+      "sha1": "cc1dc0df84476b8f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in full hazmat suit and respirator working in crawlspace",
+      "quality": 70,
+      "slots": {
+        "hero": 35,
+        "team": 62,
+        "services": 78
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Dramatic remediation scene; dark environment but strong profession authenticity.",
+      "triaged_at": "2026-09-01T23:16:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPiASNkDTVlXhqgSj4FLn64alGHDXvIitVITYYt": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPiASNkDTVlXhqgSj4FLn64alGHDXvIitVITYYt.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipPiASNkDTVlXhqgSj4FLn64alGHDXvIitVITYYt.jpg",
+      "width": 1440,
+      "height": 950,
+      "bytes": 917693,
+      "sha1": "65736f7cb67b2efb",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Yellow drying hoses and floor mat system on hardwood in living room",
+      "quality": 76,
+      "slots": {
+        "hero": 52,
+        "team": 0,
+        "services": 80
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Bright, well-composed injectidry system shot; best services card in the set.",
+      "triaged_at": "2026-09-01T23:16:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPnnRpj0TgvHBQ6ldeShmi5e8xe2d8kk1aBOb8z": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPnnRpj0TgvHBQ6ldeShmi5e8xe2d8kk1aBOb8z.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipPnnRpj0TgvHBQ6ldeShmi5e8xe2d8kk1aBOb8z.jpg",
+      "width": 1197,
+      "height": 1080,
+      "bytes": 975961,
+      "sha1": "79627f3ceac96aff",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Multiple air movers and dehumidifier deployed in gutted kitchen",
+      "quality": 72,
+      "slots": {
+        "hero": 45,
+        "team": 0,
+        "services": 78
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Good drying setup shot; cluttered but clearly shows restoration equipment in action.",
+      "triaged_at": "2026-09-01T23:16:35Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-09-01T23:16:35Z"
 }
