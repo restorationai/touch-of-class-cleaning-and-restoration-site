@@ -57,6 +57,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from datetime import date, datetime, timedelta, timezone
@@ -454,7 +455,42 @@ def publish_report(cid: str, since: date, until: date, md: str,
 # ---------------------------------------------------------------- CLI
 
 
+_DB_INACTIVE = {"inactive", "suspended", "paused", "cancelled", "canceled",
+                "churned", "archived"}
+
+
 def active_clients() -> list[dict]:
+    """Active Rank AI clients — the APP DB is the source of truth. The old
+    version trusted clients/{slug}.json status, where 23 of 35 files still
+    said 'onboarding' from setup day, so --all silently covered only ~7
+    clients and most Monthly Report cards stayed empty (Kyle/Crew,
+    Santino 2026-09-01). Falls back to the file scan if the DB is
+    unreachable."""
+    try:
+        import urllib.request
+        cmap = json.loads((CLIENTS_DIR / "company_map.json").read_text())
+        slug_by_cid = {v: k for k, v in cmap.items()}
+        url = (os.environ["SUPABASE_URL"].rstrip("/") +
+               "/rest/v1/companies?select=id,name,status,plan&plan=ilike.rank%20ai")
+        key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+        req = urllib.request.Request(url, headers={
+            "apikey": key, "Authorization": f"Bearer {key}"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            cos = json.loads(r.read())
+        out = []
+        for co in cos:
+            if str(co.get("status") or "").strip().lower() in _DB_INACTIVE:
+                continue
+            slug = slug_by_cid.get(co["id"])
+            if not slug or not (CLIENTS_DIR / f"{slug}.json").exists():
+                continue
+            c = json.loads((CLIENTS_DIR / f"{slug}.json").read_text())
+            c.setdefault("slug", slug)
+            out.append(c)
+        if out:
+            return out
+    except Exception as e:  # noqa: BLE001
+        print(f"  [warn] DB roster unavailable ({str(e)[:80]}) — file fallback")
     out = []
     for path in sorted(CLIENTS_DIR.glob("*.json")):
         if path.name == "company_map.json":
@@ -463,7 +499,7 @@ def active_clients() -> list[dict]:
             c = json.loads(path.read_text())
         except (json.JSONDecodeError, OSError):
             continue
-        if isinstance(c, dict) and c.get("status") == "active":
+        if isinstance(c, dict) and c.get("status") in ("active", "live", "onboarding"):
             c.setdefault("slug", path.stem)
             out.append(c)
     return out
