@@ -1,6 +1,10 @@
 {
  "brand": {
-  "display_name": "Paul Davis Restoration of Charleston"
+  "display_name": "Paul Davis Restoration of Charleston",
+  "place_id": "ChIJkYy3631v_ogRjyTdLSlEueU",
+  "google_cid": "16553336849030784143",
+  "lat": 32.9026784,
+  "lng": -79.9179674
  },
  "services": [
   "water-damage-restoration",
