@@ -1,6 +1,222 @@
 {
   "slug": "diss-restoration",
   "assets": {
+    "gbp:gbp-AF1QipNC59tZSs1CXTxBBXNgXunlC8sa6N7d1cUFPxoG": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNC59tZSs1CXTxBBXNgXunlC8sa6N7d1cUFPxoG.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785868576271/job-photos/posted/gbp-AF1QipNC59tZSs1CXTxBBXNgXunlC8sa6N7d1cUFPxoG.jpg",
+      "width": 860,
+      "height": 1147,
+      "bytes": 245275,
+      "sha1": "eab81113d399dc97",
+      "exif": {},
+      "category": "graphic",
+      "subject": "BBB A+ Accredited Business logo badge graphic",
+      "quality": 70,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Pure third-party logo graphic; no photographic content, unusable as a site image slot.",
+      "triaged_at": "2026-09-02T15:20:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO2k8Ix5Maklj1GYBuqEX8FdO289H8QcGbB7KlM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO2k8Ix5Maklj1GYBuqEX8FdO289H8QcGbB7KlM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785868576271/job-photos/posted/gbp-AF1QipO2k8Ix5Maklj1GYBuqEX8FdO289H8QcGbB7KlM.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 900269,
+      "sha1": "48d15539807bc14f",
+      "exif": {
+        "taken_at": "2024:05:24 10:43:14"
+      },
+      "category": "crew",
+      "subject": "Technician in yellow hazmat suit scrubbing exposed wall studs",
+      "quality": 78,
+      "slots": {
+        "hero": 35,
+        "team": 62,
+        "services": 82
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Strong action shot of tech in PPE; portrait crop limits hero use but excellent for services card.",
+      "triaged_at": "2026-09-02T15:20:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOLacKwvMvL533S5YelSpnUh3ysc_Si8bgwHog6": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOLacKwvMvL533S5YelSpnUh3ysc_Si8bgwHog6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785868576271/job-photos/posted/gbp-AF1QipOLacKwvMvL533S5YelSpnUh3ysc_Si8bgwHog6.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1009307,
+      "sha1": "73ed595b21c21806",
+      "exif": {
+        "taken_at": "2026:01:27 08:35:14"
+      },
+      "category": "fleet",
+      "subject": "DISS branded box truck parked in snowy parking lot",
+      "quality": 60,
+      "slots": {
+        "hero": 42,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Real branded fleet vehicle; overcast winter scene and competitor signage reduce hero appeal.",
+      "triaged_at": "2026-09-02T15:20:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP6iLSDuaAwMih1nO8EdqvnIzvSw4L6jx2ldlGP": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP6iLSDuaAwMih1nO8EdqvnIzvSw4L6jx2ldlGP.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785868576271/job-photos/posted/gbp-AF1QipP6iLSDuaAwMih1nO8EdqvnIzvSw4L6jx2ldlGP.jpg",
+      "width": 1086,
+      "height": 895,
+      "bytes": 786868,
+      "sha1": "bd70e545f8a30aff",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Stock composite fire-damaged house beside restored house exterior",
+      "quality": 45,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Obvious stock/composite imagery; not this company's crew or work, unusable for authentic marketing.",
+      "triaged_at": "2026-09-02T15:20:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPioZ3aEi7jVRI7_lTKt-TuUfJcyo4Cj8p5gsmV": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPioZ3aEi7jVRI7_lTKt-TuUfJcyo4Cj8p5gsmV.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785868576271/job-photos/posted/gbp-AF1QipPioZ3aEi7jVRI7_lTKt-TuUfJcyo4Cj8p5gsmV.jpg",
+      "width": 500,
+      "height": 333,
+      "bytes": 39934,
+      "sha1": "b1f880e988cd0d6b",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Flooded basement interior with standing water and clutter",
+      "quality": 38,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo",
+        "indoor_clutter"
+      ],
+      "reason": "Appears to be stock photography; poor exposure, no company presence, cluttered composition.",
+      "triaged_at": "2026-09-02T15:20:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPkvZkvSDfeUVSgIgJJFWaB39yJooqXcsiGYILi": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPkvZkvSDfeUVSgIgJJFWaB39yJooqXcsiGYILi.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785868576271/job-photos/posted/gbp-AF1QipPkvZkvSDfeUVSgIgJJFWaB39yJooqXcsiGYILi.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2342508,
+      "sha1": "6c65227401ad0183",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Technician with blue hose and dehumidifiers on wet floor",
+      "quality": 55,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "AI-generated or polished stock render; overly perfect lighting and generic setting, not authentic.",
+      "triaged_at": "2026-09-02T15:20:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPlLn3diiMKfTSyp8Pxg7AsDXnlVDKIad0rLcgl": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPlLn3diiMKfTSyp8Pxg7AsDXnlVDKIad0rLcgl.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785868576271/job-photos/posted/gbp-AF1QipPlLn3diiMKfTSyp8Pxg7AsDXnlVDKIad0rLcgl.jpg",
+      "width": 1206,
+      "height": 1083,
+      "bytes": 308389,
+      "sha1": "4218f4a48b9c9f0f",
+      "exif": {},
+      "category": "graphic",
+      "subject": "DISS Restoration logo shield with phone number and services",
+      "quality": 72,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card",
+        "phone_number"
+      ],
+      "reason": "Designed logo lockup with phone number; not a photograph of real work.",
+      "triaged_at": "2026-09-02T15:20:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPuhhWvnSV64Y3hR3CHsn69_hZA4djCLjPmjXhk": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPuhhWvnSV64Y3hR3CHsn69_hZA4djCLjPmjXhk.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785868576271/job-photos/posted/gbp-AF1QipPuhhWvnSV64Y3hR3CHsn69_hZA4djCLjPmjXhk.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 189190,
+      "sha1": "578886a2425aeaed",
+      "exif": {
+        "taken_at": "2025:06:27 12:34:46"
+      },
+      "category": "equipment",
+      "subject": "Air mover and drying hoses set up in residential kitchen",
+      "quality": 62,
+      "slots": {
+        "hero": 22,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "indoor_clutter"
+      ],
+      "reason": "Date-stamp overlay added in camera app; cluttered kitchen limits hero use but shows drying work clearly.",
+      "triaged_at": "2026-09-02T15:20:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "web:1cddb52b2f5e3be9": {
       "source": "website",
       "storage": "site-assets/web/web-1cddb52b2f5e3be9.png",
@@ -722,5 +938,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-05T07:06:23Z"
+  "triaged_at": "2026-09-02T15:20:40Z"
 }
