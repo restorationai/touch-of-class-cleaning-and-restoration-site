@@ -39,10 +39,13 @@ export const brand = {
   clarityProjectId: "",
   logoUrl: "/images/logo-dark-bg.png",
   // Fran's 08-28 email ("Quality contractor license and EIN"), confirmed on
-  // the 09-01 support call: licenses + EIN belong on the site.
+  // the 09-01 support call: licenses + EIN belong on the site. The EIN is a
+  // federal tax ID, not a contractor license, so it is kept out of the
+  // license-number list and rendered as its own labeled line (previously it
+  // showed as "#EIN 04-3553992" under the "License" heading).
   licenseNumbers: ["MA CS-074311", "MA HIC 141641", "RI GC-15795",
-                   "CT HIC 0627494", "EPA NAT-25403-4", "Lead Safe LR002146",
-                   "EIN 04-3553992"] as string[],
+                   "CT HIC 0627494", "EPA NAT-25403-4", "Lead Safe LR002146"] as string[],
+  ein: "04-3553992",
   licenseAuthority: "Licensed in MA, RI & CT",
   // State license-verification page — the footer links the license number here.
   licenseLookupUrl: "",

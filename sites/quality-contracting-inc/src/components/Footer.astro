@@ -99,6 +99,12 @@ const year = new Date().getFullYear();
           )}
         </>
       )}
+      {(brand as { ein?: string }).ein && (
+        <>
+          <span class="text-navy-900/70" aria-hidden="true">·</span>
+          <span>EIN {(brand as { ein?: string }).ein}</span>
+        </>
+      )}
     </div>
   </div>
 </footer>
