@@ -1,6 +1,35 @@
 # Working State — leave-and-resume doc
 
-Updated: 2026-08-30 late (PT). Keep this current when a work thread pauses.
+Updated: 2026-09-02 early AM (PT). Keep this current when a work thread pauses.
+
+## 2026-09-02 — geogrid self-running end to end + BrightLocal API live
+
+- **Geogrid is now fully native/server-side, all VERIFIED with live runs**:
+  signup (stripe-webhook) and BOTH Google-connect edge fns dispatch
+  client-ops-sync.yml; app "Refresh scan" button (geogrid-refresh edge fn,
+  6h cooldown) + geogrid-scan.yml; bi-weekly fleet cron MOVED Railway →
+  GitHub Actions (1st+15th 09:00 UTC — Railway image was stale: Aug 15 run
+  saw 5 clients, Sept 1 crashed mid-narestco). Same-day dedupe in
+  geogrid_cron makes reruns/overlap $0. **Santino: delete Railway
+  geogrid-cron service (one click, obsolete).** Fleet run = 532 scans
+  ≈ $180/run ≈ $360/mo — flagged to Santino, trim on request.
+- **DryCor incident closed** (see memory zero-scan-guard.md): 5 actives had
+  zero scans ever; DryCor/Paul Davis/MCC healed + scanned (MCC listing is
+  named "Masters Carpet Cleaning..." — ranks ~0 for restoration terms,
+  client conversation); davis-construction has NO findable GBP, xtreme-clean
+  has no NAP — both fire daily *** NO MAP DATA *** digest lines (tripwire
+  verified live in run 33606056124) until resolved.
+- **"Suspended" status now inactive in ALL 9 roster gates** (geogrid, gbp,
+  citations, concierge-mute, press, scheduler, analyzer, service-trim,
+  report) — Burley + Coastal were still being scanned/messaged.
+- **BrightLocal key LIVE** (memory brightlocal-api.md): x-api-key,
+  /manage/v1; locations CRUD + citation-builder + credits(500) verified.
+  Plan delivered in-session: brightlocal_sync.py location upsert → CB
+  campaigns (skip live/browser-agent/client-owned dirs) → nightly status
+  poll into citation_listings source='brightlocal' → existing Listings view
+  + sameAs sync + NAP audit inherit. First order = supervised, on draft
+  campaign 996268 (Restoration AI itself). NO auto-ordering; email Harry
+  for Listings-API path + Quick-credit auto-draw (awaiting Santino's go).
 
 ## 2026-08-30 (Sun night) — reports v2.3 + Burley suspension
 
