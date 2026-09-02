@@ -52,6 +52,31 @@ def run_client(sb, slug: str, dry_run: bool) -> dict:
     # for metro home cities). "miles_list" on a city entry; absent = [9.5].
     pairs = [(kw, c, m) for kw in keywords for c in cities
              for m in (c.get("miles_list") or [9.5])]
+
+    # SAME-DAY DEDUPE (2026-09-02): the Sept 1 fleet run died 20 scans into
+    # narestco and there was no way to re-run without paying for the 20 again.
+    # Skipping any (keyword, city, radius) already scanned in the last 20h
+    # makes a crashed run resumable by simply dispatching it again, and makes
+    # overlapping schedulers (Railway cron + GitHub cron) spend-safe.
+    if sb is not None:
+        try:
+            cid = COMPANY_MAP.get(slug)
+            from datetime import datetime, timedelta, timezone
+            cutoff = (datetime.now(timezone.utc) - timedelta(hours=20)).isoformat()
+            recent = (sb.table("marketing_geogrid_scans")
+                      .select("keyword,city_label,miles")
+                      .eq("company_id", cid).gte("scanned_at", cutoff)
+                      .execute().data or [])
+            done = {(r["keyword"], (r.get("city_label") or "").strip(),
+                     float(r.get("miles") or 0)) for r in recent}
+            before = len(pairs)
+            pairs = [(kw, c, m) for kw, c, m in pairs
+                     if (kw, c["label"].strip(), float(m)) not in done]
+            if len(pairs) < before:
+                print(f"  [{slug}] {before - len(pairs)} scan(s) already done "
+                      "in the last 20h — skipping those")
+        except Exception as e:  # noqa: BLE001 — dedupe must never kill the run
+            print(f"  [{slug}] dedupe check failed ({str(e)[:80]}) — running all pairs")
     print(f"  [{slug}] {len(keywords)} keywords × {len(cities)} cities/radii = {len(pairs)} scans")
     if dry_run:
         for kw, c, m in pairs:

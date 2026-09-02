@@ -21,6 +21,12 @@ on:
         description: 'Optional: ISO cursor override (e.g. 2026-07-01)'
         required: false
 
+# Connect-triggered dispatches (google-oauth-exchange / connect-link-exchange
+# / stripe-webhook) can stack up; one pass at a time, extras queue.
+concurrency:
+  group: client-ops-sync
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest

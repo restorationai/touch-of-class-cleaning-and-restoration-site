@@ -1,21 +1,34 @@
-name: Geogrid Scan (on demand)
+name: Geogrid Scan
 
-# Cloud geo-grid scan for one client — fired by the app's "Refresh scan"
-# button (geogrid-refresh edge fn) and by the signup flow, so map data
-# propagates natively without anyone's laptop (Santino 2026-09-02: "I don't
-# want to have to come back here and ask for manual runs").
+# Cloud geo-grid scans — three triggers, one script:
+#   1. workflow_dispatch with a slug — the app's "Refresh scan" button
+#      (geogrid-refresh edge fn) and the signup flow.
+#   2. workflow_dispatch without a slug — full fleet run on demand.
+#   3. schedule (1st + 15th, 09:00 UTC) — the bi-weekly fleet scan. This
+#      replaced the Railway geogrid-cron service 2026-09-02: Railway bakes
+#      clients/ into the image at deploy time, so its Aug 15 run only saw the
+#      5 clients that existed at its last deploy, and its Sept 1 run crashed
+#      mid-narestco. Actions checks out fresh main every run, and the
+#      same-day dedupe inside geogrid_cron makes reruns and scheduler
+#      overlap spend-safe.
 
 on:
+  schedule:
+    - cron: '0 9 1,15 * *'   # bi-weekly fleet scan, ~1-2am PT
   workflow_dispatch:
     inputs:
       slug:
-        description: "Client slug (clients/{slug}/geogrid-*.json must exist)"
-        required: true
+        description: "Client slug (empty = full fleet)"
+        required: false
+
+concurrency:
+  group: geogrid-scan
+  cancel-in-progress: false
 
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,12 +44,17 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID:     ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_R2_API_TOKEN:   ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
         run: |
-          python3 scripts/geogrid_cron.py --slug "${{ github.event.inputs.slug }}"
+          SLUG="${{ github.event.inputs.slug }}"
+          if [ -n "$SLUG" ]; then
+            python3 scripts/geogrid_cron.py --slug "$SLUG"
+          else
+            python3 scripts/geogrid_cron.py
+          fi
       - name: Alert on failure
         if: failure()
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: |
           python3 scripts/notify_failure.py \
-            --subject "[Rank AI] geogrid-scan failed: ${{ github.event.inputs.slug }}" \
+            --subject "[Rank AI] geogrid-scan failed: ${{ github.event.inputs.slug || 'FLEET' }}" \
             --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
