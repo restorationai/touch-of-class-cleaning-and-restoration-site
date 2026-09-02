@@ -118,7 +118,7 @@ def main() -> int:
                 .in_("id", [COMPANY_MAP[s] for s in slugs if s in COMPANY_MAP])
                 .execute().data or [])
         inactive = {"paused", "cancelled", "canceled", "churned", "inactive",
-                    "archived"}
+                    "archived", "suspended"}
         bad = {r["id"] for r in rows
                if str(r.get("status") or "").strip().lower() in inactive}
         for s in [s for s in slugs if COMPANY_MAP.get(s) in bad]:

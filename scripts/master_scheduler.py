@@ -158,7 +158,7 @@ QUEUE_ALERT_THRESHOLD = 2
 # local file, so the DB is authoritative for departure and the local status is
 # only a hint. Fail OPEN on the DB read — never stop a paying client's systems
 # because of an API hiccup.
-DEPARTED = {"archived", "churned", "paused", "cancelled", "canceled", "inactive"}
+DEPARTED = {"archived", "churned", "paused", "cancelled", "canceled", "inactive", "suspended"}
 
 
 def _db_departed_ids() -> set:

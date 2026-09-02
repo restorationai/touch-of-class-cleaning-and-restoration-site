@@ -420,7 +420,7 @@ def _norm_email(e: str) -> str:
     return (e or "").strip().lower()
 
 
-DEPARTED_STATUSES = {"archived", "churned", "paused", "cancelled", "inactive"}
+DEPARTED_STATUSES = {"archived", "churned", "paused", "cancelled", "inactive", "suspended"}
 _ALLOW_CACHE: dict = {"at": None, "value": None}
 
 
@@ -2299,7 +2299,7 @@ def company_inactive(company: dict | None) -> str | None:
     unknown/empty statuses stay contactable (legacy rows predate status)."""
     st = str((company or {}).get("status") or "").strip().lower()
     if st in ("paused", "cancelled", "canceled", "churned", "inactive",
-              "archived"):
+              "archived", "suspended"):
         return f"account status is '{st}' — concierge muted for this company"
     return None
 

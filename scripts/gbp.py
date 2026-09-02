@@ -1791,7 +1791,7 @@ def _clients(args) -> list[str]:
         # Fail-open: if the read errors, run the full roster.
         try:
             inactive = {"paused", "cancelled", "canceled", "churned",
-                        "inactive", "archived"}
+                        "inactive", "archived", "suspended"}
             ids = ",".join(f'"{c}"' for c in cmap.values())
             bad = {r["id"] for r in _sb(f"companies?id=in.({ids})&select=id,status")
                    if str(r.get("status") or "").strip().lower() in inactive}

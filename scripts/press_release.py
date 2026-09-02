@@ -403,7 +403,7 @@ def active_slugs() -> dict[str, str]:
     for every client from day one — pending/onboarding included. Only truly
     departed clients are excluded (2026-07-22: the old status=='active'
     whitelist silently skipped every pre-launch client)."""
-    DEPARTED = {"archived", "churned", "paused", "cancelled"}
+    DEPARTED = {"archived", "churned", "paused", "cancelled", "canceled", "inactive", "suspended"}
     cmap = json.loads((CLIENTS_DIR / "company_map.json").read_text())
     out = {}
     for slug, company_id in cmap.items():
