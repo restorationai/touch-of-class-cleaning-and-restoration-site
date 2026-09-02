@@ -638,6 +638,60 @@
       "triaged_at": "2026-08-09T21:14:50Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipM-pLrQa_S8HRZf4jGW9Uz90c6VF7l0xpmHt30p": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM-pLrQa_S8HRZf4jGW9Uz90c6VF7l0xpmHt30p.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipM-pLrQa_S8HRZf4jGW9Uz90c6VF7l0xpmHt30p.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 1315607,
+      "sha1": "7951cd1413ae4df5",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two RT Olson technicians unloading drain snake from service van",
+      "quality": 82,
+      "slots": {
+        "hero": 55,
+        "team": 78,
+        "services": 80
+      },
+      "service_slugs": [
+        "drain-cleaning"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp, well-composed crew shot with branded uniforms and drain equipment visible.",
+      "triaged_at": "2026-09-02T18:11:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipM0O3vBDQJdrmlPHyfVgRPu_nk7OAu7E1Sha3qs": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM0O3vBDQJdrmlPHyfVgRPu_nk7OAu7E1Sha3qs.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipM0O3vBDQJdrmlPHyfVgRPu_nk7OAu7E1Sha3qs.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 1373623,
+      "sha1": "0d3b11510899a5d9",
+      "exif": {
+        "taken_at": "2021:03:24 11:30:29"
+      },
+      "category": "equipment",
+      "subject": "Patriot hydro-jet machine with green hose reel on driveway",
+      "quality": 70,
+      "slots": {
+        "hero": 22,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "drain-cleaning"
+      ],
+      "flags": [],
+      "reason": "Clear equipment shot; low hero value due to tight crop and no crew present.",
+      "triaged_at": "2026-09-02T18:11:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM7LAf2oSL2clupUcysBIlQ-AaxuctgOEjHkPrs": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM7LAf2oSL2clupUcysBIlQ-AaxuctgOEjHkPrs.jpg",
@@ -741,6 +795,33 @@
       ],
       "reason": "Overhead snapshot, cluttered floor, poor lighting; limited marketing value.",
       "triaged_at": "2026-09-02T17:18:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMFVZDTOOdwXFAqG5L7bSfIcOJtq7JaKyqiC7xu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMFVZDTOOdwXFAqG5L7bSfIcOJtq7JaKyqiC7xu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMFVZDTOOdwXFAqG5L7bSfIcOJtq7JaKyqiC7xu.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1109929,
+      "sha1": "42a711dee6fe1fc1",
+      "exif": {
+        "taken_at": "2020:11:20 11:00:20"
+      },
+      "category": "job_progress",
+      "subject": "Completed tiled shower interior with decorative mosaic border",
+      "quality": 72,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Finished bathroom tile unrelated to any listed plumbing or HVAC service slug.",
+      "triaged_at": "2026-09-02T18:11:30Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMGfEK8u_yX98Wmhibgr-RA7jtCxe4MTGvNmkwI": {
@@ -847,6 +928,59 @@
       "flags": [],
       "reason": "Clear product install shot; unfinished wall surroundings reduce polish but show real work.",
       "triaged_at": "2026-09-02T17:45:45Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMM0QI62FOAoU3sUaHNCJ-VNeip8gQ9QR2omq6_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMM0QI62FOAoU3sUaHNCJ-VNeip8gQ9QR2omq6_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMM0QI62FOAoU3sUaHNCJ-VNeip8gQ9QR2omq6_.jpg",
+      "width": 2016,
+      "height": 1512,
+      "bytes": 1582950,
+      "sha1": "599a6dbb91ed5f98",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Root mass pulled from drain line by hydro-jet nozzle",
+      "quality": 65,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "drain-cleaning"
+      ],
+      "flags": [],
+      "reason": "Vivid proof-of-work shot for drain cleaning; too gritty and close for hero use.",
+      "triaged_at": "2026-09-02T18:11:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMNCvDgs2fErnOyj2druqc7zhIOkuYIdWB-Q-0M": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMNCvDgs2fErnOyj2druqc7zhIOkuYIdWB-Q-0M.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMNCvDgs2fErnOyj2druqc7zhIOkuYIdWB-Q-0M.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 1315822,
+      "sha1": "9acabde6c7affe09",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician operating sewer camera inspection equipment at cleanout",
+      "quality": 80,
+      "slots": {
+        "hero": 42,
+        "team": 65,
+        "services": 85
+      },
+      "service_slugs": [
+        "leak-detection",
+        "drain-cleaning"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Well-lit action shot clearly showing camera inspection work; strong services card image.",
+      "triaged_at": "2026-09-02T18:11:30Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMNZYMmoXuXAmdq_js6UxWZREulxKLlAOlG0gEY": {
@@ -978,6 +1112,58 @@
       "triaged_at": "2026-09-02T17:18:40Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMUA8Rvb0s0ZNxfyc_reyV-HOmCgF4ktwyCoRLz": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMUA8Rvb0s0ZNxfyc_reyV-HOmCgF4ktwyCoRLz.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMUA8Rvb0s0ZNxfyc_reyV-HOmCgF4ktwyCoRLz.jpg",
+      "width": 600,
+      "height": 450,
+      "bytes": 59199,
+      "sha1": "2042fbe10ba68a8d",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two technicians working excavated trench in residential front yard",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 58,
+        "services": 65
+      },
+      "service_slugs": [
+        "leak-detection",
+        "emergency-plumbing"
+      ],
+      "flags": [
+        "people_faces",
+        "low_res"
+      ],
+      "reason": "Authentic job site scene but lower resolution and compressed; usable for services cards.",
+      "triaged_at": "2026-09-02T18:11:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMWWzTHpyYz0l6r6_WuGufKW327ELGEsRG-PEGE": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMWWzTHpyYz0l6r6_WuGufKW327ELGEsRG-PEGE.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMWWzTHpyYz0l6r6_WuGufKW327ELGEsRG-PEGE.jpg",
+      "width": 1707,
+      "height": 2560,
+      "bytes": 495437,
+      "sha1": "0c8c35279a9f4fb5",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two technicians in RT Olson hoodies loading service van",
+      "quality": 82,
+      "slots": {
+        "hero": 55,
+        "team": 78,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Strong branded uniform shot; portrait crop and backs-turned limit hero use.",
+      "triaged_at": "2026-09-02T18:11:45Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMWvuBrhJP3XE5Heow6X9oC-aAx5LPzG8TT8NLO": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMWvuBrhJP3XE5Heow6X9oC-aAx5LPzG8TT8NLO.jpg",
@@ -1078,6 +1264,83 @@
       "flags": [],
       "reason": "Clean install shot, good light, slightly tight crop limits hero use.",
       "triaged_at": "2026-09-02T17:18:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipM_GpprtEBMShPyuj_lycSrzfvGYyd15fcmt2T8": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM_GpprtEBMShPyuj_lycSrzfvGYyd15fcmt2T8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipM_GpprtEBMShPyuj_lycSrzfvGYyd15fcmt2T8.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 1725475,
+      "sha1": "ce27638b0f27dd02",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician using drain snake in residential kitchen sink",
+      "quality": 72,
+      "slots": {
+        "hero": 28,
+        "team": 58,
+        "services": 72
+      },
+      "service_slugs": [
+        "drain-cleaning"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Good action shot for drain-cleaning; cluttered counter and tight crop hurt hero score.",
+      "triaged_at": "2026-09-02T18:11:45Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMaxYsLQrrBYJa-XWk7Pt7nXz4Zlcgj73JhfST1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMaxYsLQrrBYJa-XWk7Pt7nXz4Zlcgj73JhfST1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMaxYsLQrrBYJa-XWk7Pt7nXz4Zlcgj73JhfST1.jpg",
+      "width": 600,
+      "height": 450,
+      "bytes": 51312,
+      "sha1": "72593c6ad70f6031",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician trenching front yard for underground pipe work",
+      "quality": 65,
+      "slots": {
+        "hero": 35,
+        "team": 55,
+        "services": 68
+      },
+      "service_slugs": [
+        "leak-detection"
+      ],
+      "flags": [],
+      "reason": "Decent action scene; lower resolution and busy background reduce overall quality.",
+      "triaged_at": "2026-09-02T18:11:45Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMcNlOpRAX9MWcA4g6yvdx6wt1XB5mQIyOVLPNQ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMcNlOpRAX9MWcA4g6yvdx6wt1XB5mQIyOVLPNQ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMcNlOpRAX9MWcA4g6yvdx6wt1XB5mQIyOVLPNQ.jpg",
+      "width": 510,
+      "height": 383,
+      "bytes": 48059,
+      "sha1": "8f63b64fde64edd7",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dual-tank water softener system installed outdoors near AC unit",
+      "quality": 68,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-softeners-filtration"
+      ],
+      "flags": [],
+      "reason": "Clear finished-install shot; cluttered surroundings and tight framing limit hero use.",
+      "triaged_at": "2026-09-02T18:11:45Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMcspeaS8iZewlfm2r8X8AgqtIt_TW-z2QeqjdJ": {
@@ -1371,6 +1634,31 @@
       "triaged_at": "2026-09-02T17:46:00Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMwLvSx7LMHC8JmtZi2zQ1kXueDu5wzH7Jj_8mO": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMwLvSx7LMHC8JmtZi2zQ1kXueDu5wzH7Jj_8mO.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMwLvSx7LMHC8JmtZi2zQ1kXueDu5wzH7Jj_8mO.jpg",
+      "width": 640,
+      "height": 480,
+      "bytes": 76482,
+      "sha1": "5343d4c59815a435",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dual-tank water softener system cleanly installed against stucco wall",
+      "quality": 78,
+      "slots": {
+        "hero": 42,
+        "team": 0,
+        "services": 80
+      },
+      "service_slugs": [
+        "water-softeners-filtration"
+      ],
+      "flags": [],
+      "reason": "Cleaner composition and better light than image 3; best water-softener service card photo.",
+      "triaged_at": "2026-09-02T18:11:45Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMy0Xgcv3jhCkb58q-wtfe9QufXtimDKC3LM3CW": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMy0Xgcv3jhCkb58q-wtfe9QufXtimDKC3LM3CW.jpg",
@@ -1399,6 +1687,32 @@
       "triaged_at": "2026-09-02T17:18:57Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipN-ZMljzcZUoZOGiH9ZjBd7fYbabhUUUfKTwFF_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN-ZMljzcZUoZOGiH9ZjBd7fYbabhUUUfKTwFF_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipN-ZMljzcZUoZOGiH9ZjBd7fYbabhUUUfKTwFF_.jpg",
+      "width": 510,
+      "height": 383,
+      "bytes": 20971,
+      "sha1": "cf656969afb76854",
+      "exif": {},
+      "category": "crew",
+      "subject": "RT Olson technician inspecting dual water heater installation",
+      "quality": 76,
+      "slots": {
+        "hero": 45,
+        "team": 62,
+        "services": 82
+      },
+      "service_slugs": [
+        "water-heater-installation",
+        "water-heater-repair"
+      ],
+      "flags": [],
+      "reason": "Branded uniform, clear subject matter; back-turned pose and square crop limit hero score.",
+      "triaged_at": "2026-09-02T18:11:45Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipN-pmxm3KevKTt9XqgmLL5FRNYGqcH4z5A7Lajj": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipN-pmxm3KevKTt9XqgmLL5FRNYGqcH4z5A7Lajj.jpg",
@@ -1425,6 +1739,32 @@
       ],
       "reason": "Casual indoor snapshot; good customer-satisfaction story but poor composition and lighting.",
       "triaged_at": "2026-08-09T21:15:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipN1k_JNWuDOD6iUaIskA_J-kJaTi-38KfeVEWiC": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN1k_JNWuDOD6iUaIskA_J-kJaTi-38KfeVEWiC.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipN1k_JNWuDOD6iUaIskA_J-kJaTi-38KfeVEWiC.jpg",
+      "width": 660,
+      "height": 662,
+      "bytes": 44911,
+      "sha1": "12f2677502d9445c",
+      "exif": {},
+      "category": "crew",
+      "subject": "Male plumber in RT Olson hoodie posed outdoors by water",
+      "quality": 72,
+      "slots": {
+        "hero": 20,
+        "team": 78,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "people_faces"
+      ],
+      "reason": "Name/title caption composited over photo; portrait crop limits hero use.",
+      "triaged_at": "2026-09-02T18:12:01Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipN2oeVYk0Ln87HboYlevSjrpwUwVjwAJ8gp9mOK": {
@@ -1477,6 +1817,32 @@
       "triaged_at": "2026-09-02T17:46:00Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipN8iJ-3rdY-TPcx8VVRXxPYONKU6D0X6R6NM1lH": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN8iJ-3rdY-TPcx8VVRXxPYONKU6D0X6R6NM1lH.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipN8iJ-3rdY-TPcx8VVRXxPYONKU6D0X6R6NM1lH.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 1982212,
+      "sha1": "749d18829498a8ff",
+      "exif": {},
+      "category": "crew",
+      "subject": "Olson technician kneeling working on outdoor water valves",
+      "quality": 78,
+      "slots": {
+        "hero": 35,
+        "team": 60,
+        "services": 72
+      },
+      "service_slugs": [
+        "leak-detection",
+        "emergency-plumbing"
+      ],
+      "flags": [],
+      "reason": "Good action shot; branded hoodie visible; portrait crop limits hero score.",
+      "triaged_at": "2026-09-02T18:12:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipN8rLcsh1tF03WRuCHo2BE_JklxP23U6Ec4-AbC": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipN8rLcsh1tF03WRuCHo2BE_JklxP23U6Ec4-AbC.jpg",
@@ -1500,6 +1866,31 @@
       ],
       "reason": "Clean portrait against van wrap; good branding but portrait crop limits hero use.",
       "triaged_at": "2026-08-09T21:15:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNArcVtwTvH24-bNgSpDUKnlRi34MUBU6Omvpfj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNArcVtwTvH24-bNgSpDUKnlRi34MUBU6Omvpfj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNArcVtwTvH24-bNgSpDUKnlRi34MUBU6Omvpfj.jpg",
+      "width": 510,
+      "height": 383,
+      "bytes": 54195,
+      "sha1": "8aef7793560338b6",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician sorting plumbing parts and fittings on lawn",
+      "quality": 62,
+      "slots": {
+        "hero": 22,
+        "team": 45,
+        "services": 55
+      },
+      "service_slugs": [
+        "emergency-plumbing"
+      ],
+      "flags": [],
+      "reason": "Casual prep scene; cluttered layout, no clear task focus; decent candid.",
+      "triaged_at": "2026-09-02T18:12:01Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNB4nUgQJp5MYwNOejInrHu0LpgyGOEA4Yrf7w6": {
@@ -1601,6 +1992,34 @@
       "triaged_at": "2026-08-09T21:15:39Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNHbrPW6kRw7cJs5WNvsJ0FKzwj9g2GBiZTZllW": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNHbrPW6kRw7cJs5WNvsJ0FKzwj9g2GBiZTZllW.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNHbrPW6kRw7cJs5WNvsJ0FKzwj9g2GBiZTZllW.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 766618,
+      "sha1": "cf4bb02165689b22",
+      "exif": {
+        "taken_at": "2021:01:20 09:51:54"
+      },
+      "category": "job_progress",
+      "subject": "Hand connecting hose to Honeywell water heater gas valve",
+      "quality": 65,
+      "slots": {
+        "hero": 10,
+        "team": 20,
+        "services": 68
+      },
+      "service_slugs": [
+        "water-heater-repair",
+        "water-heater-installation"
+      ],
+      "flags": [],
+      "reason": "Clear close-up of water heater work; useful for service card, not hero.",
+      "triaged_at": "2026-09-02T18:12:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNK2sqUiN4FWJtSC_IZmIhJPXOO9qWqBncCUf3j": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNK2sqUiN4FWJtSC_IZmIhJPXOO9qWqBncCUf3j.jpg",
@@ -1626,6 +2045,33 @@
       ],
       "reason": "Clear service result photo but cluttered garage context reduces overall appeal.",
       "triaged_at": "2026-09-02T17:18:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNKOkMPa2v1WBMn0Fh3gtodZm1wqvqwCxjDsRhy": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNKOkMPa2v1WBMn0Fh3gtodZm1wqvqwCxjDsRhy.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNKOkMPa2v1WBMn0Fh3gtodZm1wqvqwCxjDsRhy.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 548777,
+      "sha1": "1ec215de8bdec17b",
+      "exif": {
+        "taken_at": "2020:12:22 08:19:56"
+      },
+      "category": "equipment",
+      "subject": "FLIR thermal camera held up showing moisture in hallway floor",
+      "quality": 70,
+      "slots": {
+        "hero": 18,
+        "team": 5,
+        "services": 65
+      },
+      "service_slugs": [
+        "leak-detection"
+      ],
+      "flags": [],
+      "reason": "Effective leak detection visual; awkward angle limits hero; good services card.",
+      "triaged_at": "2026-09-02T18:12:01Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNKzqPiDwUkqMrjIvnSklfWjXWQ7i3JS1p5tewf": {
@@ -1803,6 +2249,33 @@
       "triaged_at": "2026-09-02T17:46:00Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNQ7VvrXsvlNZn67NJl1jDr6BjHlI4nKjqqSYaj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNQ7VvrXsvlNZn67NJl1jDr6BjHlI4nKjqqSYaj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNQ7VvrXsvlNZn67NJl1jDr6BjHlI4nKjqqSYaj.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 749375,
+      "sha1": "4597d2b4a1774548",
+      "exif": {
+        "taken_at": "2021:03:26 09:48:46"
+      },
+      "category": "crew",
+      "subject": "Technician snaking open floor drain in tiled bathroom",
+      "quality": 74,
+      "slots": {
+        "hero": 28,
+        "team": 62,
+        "services": 78
+      },
+      "service_slugs": [
+        "drain-cleaning"
+      ],
+      "flags": [],
+      "reason": "Phone number and URL are real printed van-wrap signage on jacket; strong services shot.",
+      "triaged_at": "2026-09-02T18:12:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNRcxFaB0o6esYR2wr16GIVph9jp04d04K4R0PD": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNRcxFaB0o6esYR2wr16GIVph9jp04d04K4R0PD.jpg",
@@ -1853,6 +2326,32 @@
       "triaged_at": "2026-08-09T21:15:39Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNUfCYe3sltgMbsh5YbDSAwAdRQ0zKOBTYrpmr0": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNUfCYe3sltgMbsh5YbDSAwAdRQ0zKOBTYrpmr0.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNUfCYe3sltgMbsh5YbDSAwAdRQ0zKOBTYrpmr0.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 577564,
+      "sha1": "cbcc1e774d7128ce",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Copper outdoor spigot and pipe assembly at house foundation",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "leak-detection",
+        "emergency-plumbing"
+      ],
+      "flags": [],
+      "reason": "Clear close-up of completed outdoor plumbing work; no crew, modest composition.",
+      "triaged_at": "2026-09-02T18:12:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNUijpurgk-geQ4QTIRD21NijnTpYTQD1dcrB0w": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNUijpurgk-geQ4QTIRD21NijnTpYTQD1dcrB0w.jpg",
@@ -1889,6 +2388,60 @@
       "sha1": "7410d08d521a7506",
       "exif": {},
       "duplicate_of": "gbp:gbp-AF1QipMYpRSMuFH9u8gHA-fDVUJOcvAGFX1wrUbx6-O1"
+    },
+    "gbp:gbp-AF1QipNWp9xo-o4raaORKfliDIP_w5xVV4TadpOmsup7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNWp9xo-o4raaORKfliDIP_w5xVV4TadpOmsup7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNWp9xo-o4raaORKfliDIP_w5xVV4TadpOmsup7.jpg",
+      "width": 1707,
+      "height": 2560,
+      "bytes": 511938,
+      "sha1": "7b56d905e54c86c6",
+      "exif": {},
+      "category": "crew",
+      "subject": "RT Olson technician in branded hoodie stocking service van shelves",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 62,
+        "services": 58
+      },
+      "service_slugs": [
+        "emergency-plumbing"
+      ],
+      "flags": [],
+      "reason": "Real branded uniform visible; portrait crop and dark interior limit hero use.",
+      "triaged_at": "2026-09-02T18:12:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNZEPFZ9IrQWd60RmIRIvoDfNzbWXp7Z3CZrp4J": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNZEPFZ9IrQWd60RmIRIvoDfNzbWXp7Z3CZrp4J.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNZEPFZ9IrQWd60RmIRIvoDfNzbWXp7Z3CZrp4J.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 1678958,
+      "sha1": "a1ae70f25ff5e0a5",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in Olson cap inspecting kitchen sink and cabinet",
+      "quality": 76,
+      "slots": {
+        "hero": 30,
+        "team": 60,
+        "services": 72
+      },
+      "service_slugs": [
+        "drain-cleaning",
+        "garbage-disposal",
+        "leak-detection"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Good action shot but cluttered countertop and backlit window reduce polish.",
+      "triaged_at": "2026-09-02T18:12:25Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNZF2NF53SbtiMLjlxxgG-qb83Oied9gd0rRfZe": {
       "source": "gbp",
@@ -1972,6 +2525,32 @@
       ],
       "reason": "Designed promotional graphic with large burnt-in text; not usable as a photo asset.",
       "triaged_at": "2026-09-02T17:19:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNcXhasNeVShdWBFYVOki_nkEwc12KwIGKIfRw7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNcXhasNeVShdWBFYVOki_nkEwc12KwIGKIfRw7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNcXhasNeVShdWBFYVOki_nkEwc12KwIGKIfRw7.jpg",
+      "width": 510,
+      "height": 383,
+      "bytes": 55740,
+      "sha1": "4d229cc2ed984d28",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician digging trench in front yard with power tool",
+      "quality": 70,
+      "slots": {
+        "hero": 42,
+        "team": 58,
+        "services": 65
+      },
+      "service_slugs": [
+        "leak-detection",
+        "emergency-plumbing"
+      ],
+      "flags": [],
+      "reason": "Authentic outdoor work scene; decent light but informal composition limits hero score.",
+      "triaged_at": "2026-09-02T18:12:25Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNfsEi8qvGMIQLTpiYjNS1WjBrQjvRveG79lR5G": {
@@ -2111,7 +2690,8 @@
       ],
       "reason": "Good action work shot; lower resolution and compressed framing reduce hero suitability.",
       "triaged_at": "2026-08-09T21:15:39Z",
-      "triage_model": "claude-sonnet-4-6"
+      "triage_model": "claude-sonnet-4-6",
+      "duplicate_of": "gbp:gbp-AF1QipMaxYsLQrrBYJa-XWk7Pt7nXz4Zlcgj73JhfST1"
     },
     "gbp:gbp-AF1QipNnFkIK5dQbb3jwTasA7DEVNFj-J5Ucnz-as1RK": {
       "source": "gbp",
@@ -2330,6 +2910,31 @@
       "triaged_at": "2026-09-02T17:19:33Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNzwZ4T4TQEE3lyyauQatGbzgXjygvBH_BWWqEW": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNzwZ4T4TQEE3lyyauQatGbzgXjygvBH_BWWqEW.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNzwZ4T4TQEE3lyyauQatGbzgXjygvBH_BWWqEW.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 1022572,
+      "sha1": "463e9df873f8a282",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Hands removing toilet tank lid exposing inner mechanism",
+      "quality": 74,
+      "slots": {
+        "hero": 15,
+        "team": 10,
+        "services": 70
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Sharp, well-lit close-up clearly reads as toilet repair; no face or branding visible.",
+      "triaged_at": "2026-09-02T18:12:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipO-DGNGNXNhhAPSL2DgaspZHeS6T-zvYv03ka4M": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipO-DGNGNXNhhAPSL2DgaspZHeS6T-zvYv03ka4M.jpg",
@@ -2448,6 +3053,32 @@
       "triaged_at": "2026-09-02T17:19:33Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipO3evT2X-EnZ6xwPdshAIQiLVpY_fNv0T8ohPd9": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO3evT2X-EnZ6xwPdshAIQiLVpY_fNv0T8ohPd9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipO3evT2X-EnZ6xwPdshAIQiLVpY_fNv0T8ohPd9.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 1726329,
+      "sha1": "a8beecb8338cd488",
+      "exif": {},
+      "category": "crew",
+      "subject": "RT Olson plumber working under kitchen cabinet with water filtration system",
+      "quality": 78,
+      "slots": {
+        "hero": 25,
+        "team": 60,
+        "services": 80
+      },
+      "service_slugs": [
+        "water-softeners-filtration",
+        "leak-detection"
+      ],
+      "flags": [],
+      "reason": "Branded shirt legible; filtration unit clearly visible; tight indoor space limits hero.",
+      "triaged_at": "2026-09-02T18:12:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipO76s7aFejE4lBOdfkcvpBKdvF8nsVzX7k7HqA3": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipO76s7aFejE4lBOdfkcvpBKdvF8nsVzX7k7HqA3.jpg",
@@ -2498,6 +3129,31 @@
       ],
       "reason": "Clean uniform shot with van wrap visible; good individual team portrait.",
       "triaged_at": "2026-09-02T17:19:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOAkmCcbH_fgtZPq6KiCKq07SKVsc-fFvTS14Qa": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOAkmCcbH_fgtZPq6KiCKq07SKVsc-fFvTS14Qa.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOAkmCcbH_fgtZPq6KiCKq07SKVsc-fFvTS14Qa.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 969666,
+      "sha1": "8da13ea83b33dfeb",
+      "exif": {},
+      "category": "crew",
+      "subject": "RT Olson technician working on porch with drain snake",
+      "quality": 78,
+      "slots": {
+        "hero": 35,
+        "team": 62,
+        "services": 75
+      },
+      "service_slugs": [
+        "drain-cleaning"
+      ],
+      "flags": [],
+      "reason": "Sharp action shot, branded uniform clearly visible, drain equipment present.",
+      "triaged_at": "2026-09-02T18:12:40Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOBAM97XOjtEZ_RAayyteiqexRLjWKB_4H9ogDT": {
@@ -2601,6 +3257,32 @@
       "triaged_at": "2026-08-09T21:16:12Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOGAUcozvGDvxqaf9tIcwwwvhMPQISgi9guW2Fo": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOGAUcozvGDvxqaf9tIcwwwvhMPQISgi9guW2Fo.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOGAUcozvGDvxqaf9tIcwwwvhMPQISgi9guW2Fo.jpg",
+      "width": 640,
+      "height": 480,
+      "bytes": 163502,
+      "sha1": "e55ec7706f16bfa7",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Excavated clay pipe packed with tree roots",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "drain-cleaning",
+        "leak-detection"
+      ],
+      "flags": [],
+      "reason": "Good close-up evidence shot of root intrusion; no crew or branding visible.",
+      "triaged_at": "2026-09-02T18:12:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOGDuqhF4w2sLW93khLyHZ-wZe20Tvys4NY7NA-": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOGDuqhF4w2sLW93khLyHZ-wZe20Tvys4NY7NA-.jpg",
@@ -2637,6 +3319,58 @@
       "flags": [],
       "reason": "Strong fleet and crew shot; van wrap with real signage is desirable branding.",
       "triaged_at": "2026-09-02T17:46:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOK26MyvBf3JNNAkniuv9YHlCLmiC9c0K4Y70G2": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOK26MyvBf3JNNAkniuv9YHlCLmiC9c0K4Y70G2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOK26MyvBf3JNNAkniuv9YHlCLmiC9c0K4Y70G2.jpg",
+      "width": 660,
+      "height": 658,
+      "bytes": 42946,
+      "sha1": "178e46d220409348",
+      "exif": {},
+      "category": "crew",
+      "subject": "Bob Olson owner plumber headshot in branded hoodie",
+      "quality": 82,
+      "slots": {
+        "hero": 20,
+        "team": 88,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "people_faces"
+      ],
+      "reason": "Professional headshot with name caption overlaid; excellent for team/about page.",
+      "triaged_at": "2026-09-02T18:12:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOMme7HY422iZxeUUyjTnQOQ-MoUeUXjnUuqnaS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOMme7HY422iZxeUUyjTnQOQ-MoUeUXjnUuqnaS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOMme7HY422iZxeUUyjTnQOQ-MoUeUXjnUuqnaS.jpg",
+      "width": 660,
+      "height": 661,
+      "bytes": 45206,
+      "sha1": "c1fb736eac5d30df",
+      "exif": {},
+      "category": "crew",
+      "subject": "Rudy Valencia plumber headshot in branded hoodie",
+      "quality": 78,
+      "slots": {
+        "hero": 15,
+        "team": 85,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "people_faces"
+      ],
+      "reason": "Professional headshot with name caption overlaid; excellent for team/about page.",
+      "triaged_at": "2026-09-02T18:12:40Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipORlm06PUIbNjnkWgLfmoSPnvxL7DH_neHkSy45": {
@@ -2813,6 +3547,62 @@
       "triaged_at": "2026-09-02T17:46:32Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOa6qr0yzGo7LF64Th6_kMWxrCDjGqpMJ0r8buo": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOa6qr0yzGo7LF64Th6_kMWxrCDjGqpMJ0r8buo.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOa6qr0yzGo7LF64Th6_kMWxrCDjGqpMJ0r8buo.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 1819287,
+      "sha1": "1af689ded9e216a5",
+      "exif": {
+        "taken_at": "2021:02:15 09:32:53"
+      },
+      "category": "crew",
+      "subject": "RT Olson technician kneeling in excavated pipe trench",
+      "quality": 74,
+      "slots": {
+        "hero": 40,
+        "team": 60,
+        "services": 72
+      },
+      "service_slugs": [
+        "drain-cleaning",
+        "leak-detection",
+        "emergency-plumbing"
+      ],
+      "flags": [],
+      "reason": "Good real-work shot with branded hoodie; wide framing shows full job context.",
+      "triaged_at": "2026-09-02T18:12:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOanBESc-YycJJXlXWm9n2B1EQO6f-vyekTx2kC": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOanBESc-YycJJXlXWm9n2B1EQO6f-vyekTx2kC.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOanBESc-YycJJXlXWm9n2B1EQO6f-vyekTx2kC.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 528624,
+      "sha1": "65591519a751e9ea",
+      "exif": {
+        "taken_at": "2020:11:05 16:28:04"
+      },
+      "category": "equipment",
+      "subject": "FLIR thermal camera aimed at bathroom interior",
+      "quality": 68,
+      "slots": {
+        "hero": 22,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "leak-detection"
+      ],
+      "flags": [],
+      "reason": "Clear leak-detection tool in use; cluttered bathroom background limits hero appeal.",
+      "triaged_at": "2026-09-02T18:12:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOe8W69koeBU1nOmHjrL4RGNdNrVtUCWtD-op3z": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOe8W69koeBU1nOmHjrL4RGNdNrVtUCWtD-op3z.jpg",
@@ -2861,6 +3651,31 @@
       ],
       "reason": "Real signage on van is desirable; solid crew portrait with fleet branding visible.",
       "triaged_at": "2026-08-09T21:16:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOhuWGRGxvQ2E4q3VXcK3K5SwbsJXuKVOSueOr1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOhuWGRGxvQ2E4q3VXcK3K5SwbsJXuKVOSueOr1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOhuWGRGxvQ2E4q3VXcK3K5SwbsJXuKVOSueOr1.jpg",
+      "width": 600,
+      "height": 450,
+      "bytes": 42483,
+      "sha1": "011cb67ceacf53ea",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Hand holding blue corroded mineral buildup over red bucket",
+      "quality": 52,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-softeners-filtration"
+      ],
+      "flags": [],
+      "reason": "Close-up of corrosion/scale buildup; useful context but low composition value.",
+      "triaged_at": "2026-09-02T18:12:56Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOjDI1whPnklQdSza3TkWg-FnEDtf0twUDtbca8": {
@@ -3315,6 +4130,34 @@
       "triaged_at": "2026-09-02T17:47:05Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipP99dNAL-HBkiAmfO-5xU3V1O7Fnk1hSHBZoyXh": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP99dNAL-HBkiAmfO-5xU3V1O7Fnk1hSHBZoyXh.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipP99dNAL-HBkiAmfO-5xU3V1O7Fnk1hSHBZoyXh.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 1624158,
+      "sha1": "5e1cba6cff712e9f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two RT Olson technicians installing water filtration under kitchen sink",
+      "quality": 72,
+      "slots": {
+        "hero": 30,
+        "team": 72,
+        "services": 78
+      },
+      "service_slugs": [
+        "water-softeners-filtration"
+      ],
+      "flags": [
+        "indoor_clutter",
+        "people_faces"
+      ],
+      "reason": "Strong real-work crew shot; cluttered kitchen background limits hero use.",
+      "triaged_at": "2026-09-02T18:12:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipP9yVOmIlNwn-k2eDVdfGRSNdQenq41gsoHrUjk": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP9yVOmIlNwn-k2eDVdfGRSNdQenq41gsoHrUjk.jpg",
@@ -3342,6 +4185,33 @@
       "triaged_at": "2026-09-02T17:47:05Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPE3w_AzxC-dKbA3TrTBvj0KGKrWVZxZHaGRTAa": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPE3w_AzxC-dKbA3TrTBvj0KGKrWVZxZHaGRTAa.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPE3w_AzxC-dKbA3TrTBvj0KGKrWVZxZHaGRTAa.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 606589,
+      "sha1": "e401996b8eff97ba",
+      "exif": {
+        "taken_at": "2021:03:24 08:37:32"
+      },
+      "category": "equipment",
+      "subject": "Patriot hydro-jetting drain machine with hose reels outside home",
+      "quality": 58,
+      "slots": {
+        "hero": 22,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "drain-cleaning"
+      ],
+      "flags": [],
+      "reason": "Clear drain-cleaning equipment shot; modest composition, no crew present.",
+      "triaged_at": "2026-09-02T18:12:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPEHhN8nJotGrzlcemb41Emw8R7PVcnpprYoqQb": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPEHhN8nJotGrzlcemb41Emw8R7PVcnpprYoqQb.jpg",
@@ -3365,6 +4235,32 @@
       "flags": [],
       "reason": "Clean finished result photo; no crew or branding, weak hero composition.",
       "triaged_at": "2026-08-09T21:16:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPF2rMTTK1OkKoS3PxgrYtJJ_JRYB32xKkmt8Ry": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPF2rMTTK1OkKoS3PxgrYtJJ_JRYB32xKkmt8Ry.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPF2rMTTK1OkKoS3PxgrYtJJ_JRYB32xKkmt8Ry.jpg",
+      "width": 510,
+      "height": 383,
+      "bytes": 34531,
+      "sha1": "73eb1c68a6550305",
+      "exif": {},
+      "category": "crew",
+      "subject": "RT Olson technician inspecting dual water heater installation",
+      "quality": 68,
+      "slots": {
+        "hero": 38,
+        "team": 60,
+        "services": 80
+      },
+      "service_slugs": [
+        "water-heater-installation",
+        "water-heater-repair"
+      ],
+      "flags": [],
+      "reason": "Good branded uniform, clear service context; dim lighting limits hero score.",
+      "triaged_at": "2026-09-02T18:12:56Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipPGcI8xZ0saobf0e7taziPSGhgUBornvOVWjB-z": {
@@ -3667,6 +4563,31 @@
       "triaged_at": "2026-08-09T21:16:45Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPYzsfr51dKFaJ5pv218YXIKoLSaRuQdilxvdkR": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPYzsfr51dKFaJ5pv218YXIKoLSaRuQdilxvdkR.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPYzsfr51dKFaJ5pv218YXIKoLSaRuQdilxvdkR.jpg",
+      "width": 1800,
+      "height": 1200,
+      "bytes": 1506409,
+      "sha1": "435df6948763a915",
+      "exif": {},
+      "category": "crew",
+      "subject": "RT Olson technician reviewing paperwork with smiling female customer",
+      "quality": 74,
+      "slots": {
+        "hero": 48,
+        "team": 65,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Warm customer-service scene; no specific service shown, good trust imagery.",
+      "triaged_at": "2026-09-02T18:12:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPZKEA9KSkmVfBAZKZkuYbbpT4GSv-LCxTfc9jX": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPZKEA9KSkmVfBAZKZkuYbbpT4GSv-LCxTfc9jX.jpg",
@@ -3679,6 +4600,33 @@
         "taken_at": "2025:03:26 07:16:47"
       },
       "duplicate_of": "gbp:gbp-AF1QipMm7lfosCrlsdJbLfpZVrFl3UvtFadpfMG-yzgz"
+    },
+    "gbp:gbp-AF1QipP_3A_FEw-PeUPWXrPGJsH3XZpNtsQRfPc8moOl": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP_3A_FEw-PeUPWXrPGJsH3XZpNtsQRfPc8moOl.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipP_3A_FEw-PeUPWXrPGJsH3XZpNtsQRfPc8moOl.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 583965,
+      "sha1": "0e68e81afdef08cc",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Newly installed A.O. Smith water heater in utility room",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-heater-installation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Serviceable water heater install result photo; cluttered garage setting limits appeal.",
+      "triaged_at": "2026-09-02T18:12:56Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipP_dftblpTHrGRfS-AZrGhVexXppSgjkfUufN04": {
       "source": "gbp",
@@ -3738,6 +4686,63 @@
       ],
       "reason": "Well-lit professional crew portrait; portrait crop limits hero use.",
       "triaged_at": "2026-09-02T17:20:07Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPcEBUFVZzF_gT7u3RAp1iz0WvzqjeJKFIigszp": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPcEBUFVZzF_gT7u3RAp1iz0WvzqjeJKFIigszp.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPcEBUFVZzF_gT7u3RAp1iz0WvzqjeJKFIigszp.jpg",
+      "width": 600,
+      "height": 450,
+      "bytes": 50626,
+      "sha1": "62dfb32444512338",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician kneeling outdoors cutting copper pipe in lawn",
+      "quality": 68,
+      "slots": {
+        "hero": 42,
+        "team": 62,
+        "services": 72
+      },
+      "service_slugs": [
+        "leak-detection",
+        "emergency-plumbing"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good action shot outdoors; portrait crop limits hero use, faces partially visible.",
+      "triaged_at": "2026-09-02T18:13:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPdWveW94ErRYG1siR0l2JcJL0e-oKYQfeVWU5K": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPdWveW94ErRYG1siR0l2JcJL0e-oKYQfeVWU5K.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPdWveW94ErRYG1siR0l2JcJL0e-oKYQfeVWU5K.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 469477,
+      "sha1": "2af547c61b76f121",
+      "exif": {
+        "taken_at": "2021:03:02 12:03:13"
+      },
+      "category": "equipment",
+      "subject": "Thermal imaging camera held up in cluttered living room",
+      "quality": 55,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "leak-detection"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Useful leak-detection service shot but cluttered background and portrait crop limit appeal.",
+      "triaged_at": "2026-09-02T18:13:08Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipPdZmFX5J71gYSiczGE5_2eXfA4d9_Tj4B-ZWtA": {
@@ -3917,6 +4922,31 @@
       "triaged_at": "2026-09-02T17:47:10Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPkUYue7upSeAvblDwePH0KxP9S2FCGGVbKvI7n": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPkUYue7upSeAvblDwePH0KxP9S2FCGGVbKvI7n.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPkUYue7upSeAvblDwePH0KxP9S2FCGGVbKvI7n.jpg",
+      "width": 810,
+      "height": 1080,
+      "bytes": 65395,
+      "sha1": "99e7b68a43a703f1",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Newly renovated bathroom with white vanity toilet and shower",
+      "quality": 72,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Clean after-state bathroom; good services card, too tight for hero, no crew present.",
+      "triaged_at": "2026-09-02T18:13:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPnSKg56RCt32lEbDFv7jl4XhFCpqTic1st7fiA": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPnSKg56RCt32lEbDFv7jl4XhFCpqTic1st7fiA.jpg",
@@ -4017,6 +5047,33 @@
       "sha1": "ef421eaf7357f54b",
       "exif": {},
       "duplicate_of": "gbp:gbp-AF1QipOjvWPgBHwEEHxyeJHtZ_W9qX-1DX0VNgXkfBmC"
+    },
+    "gbp:gbp-AF1QipPyL_5Ikh5QYXqKNfDuEgrfkf5gd3JP1yJc9X2g": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPyL_5Ikh5QYXqKNfDuEgrfkf5gd3JP1yJc9X2g.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPyL_5Ikh5QYXqKNfDuEgrfkf5gd3JP1yJc9X2g.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 391311,
+      "sha1": "47b34f257b39595d",
+      "exif": {
+        "taken_at": "2021:01:08 10:19:37"
+      },
+      "category": "equipment",
+      "subject": "Tankless water heater with copper pipe and gas line installed",
+      "quality": 60,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "water-heater-installation"
+      ],
+      "flags": [],
+      "reason": "Clear water-heater install detail; overexposed left edge and tight frame lower quality.",
+      "triaged_at": "2026-09-02T18:13:08Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:2ffb115266a0d2ea": {
       "source": "website",
@@ -4391,5 +5448,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-02T17:47:10Z"
+  "triaged_at": "2026-09-02T18:13:08Z"
 }
