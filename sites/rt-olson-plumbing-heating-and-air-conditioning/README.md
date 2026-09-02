@@ -37,7 +37,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Corona` / `CA` | derived from primary area | `Federal Way` / `WA` |
 | `9064 Pulsar Ct. Suite J` / `92883` | brand.street_address / brand.postal_code | |
 | `33.8752945` / `-117.566444` | brand.lat / brand.lng | from GBP |
-| `ChIJEXHd9pfR3IARQ_LumANTVG8` / `` | brand.place_id / brand.google_cid | from GBP |
+| `ChIJrwzUDFa23IARkhGQxTSJGY8` / `` | brand.place_id / brand.google_cid | from GBP |
 | `["997337"]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
 | `[]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
