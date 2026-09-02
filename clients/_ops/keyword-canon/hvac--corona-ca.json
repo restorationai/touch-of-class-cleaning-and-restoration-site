@@ -1,0 +1,3415 @@
+{
+ "vertical": "hvac",
+ "geo": "Corona, Corona,California,United States",
+ "pulled_at": "2026-09-02T06:51:02.752713+00:00",
+ "terms": [
+  {
+   "term": "dryer cleaner near me",
+   "volume": 480,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ac repair near me",
+   "volume": 210,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air conditioner repair near me",
+   "volume": 210,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "aircon repair near me",
+   "volume": 210,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac repair",
+   "volume": 170,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "air conditioning repair",
+   "volume": 170,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "ac fix",
+   "volume": 170,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "fix air conditioner",
+   "volume": 170,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "aircon repair",
+   "volume": 170,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "furnace repair",
+   "volume": 140,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "hvac company",
+   "volume": 110,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "ac installation",
+   "volume": 110,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "air conditioner installation",
+   "volume": 110,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "aircon installation",
+   "volume": 110,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mini splits ac",
+   "volume": 110,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heating and cooling near me",
+   "volume": 90,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "dryer vent cleaning",
+   "volume": 90,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "dryer duct cleaning",
+   "volume": 90,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "dryer vent duct cleaning",
+   "volume": 90,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "dryer air duct cleaning",
+   "volume": 90,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "dryer exhaust vent cleaning",
+   "volume": 90,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water heater repair near me",
+   "volume": 70,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac companies near me",
+   "volume": 50,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "dryer vent cleaning service",
+   "volume": 50,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "hvac contractors near me",
+   "volume": 40,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "ac unit maintenance",
+   "volume": 40,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "air conditioner maintenance",
+   "volume": 40,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac repair",
+   "volume": 30,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "ac service near me",
+   "volume": 30,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air conditioning service near me",
+   "volume": 30,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "furnace repair near me",
+   "volume": 30,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac service",
+   "volume": 30,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "aircon service near me",
+   "volume": 30,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac repair service",
+   "volume": 30,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "air conditioner repair service near me",
+   "volume": 30,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "hvac installation",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": true
+  },
+  {
+   "term": "hvac repair near me",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "air conditioning unit",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac service",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mini split installation",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "aircon servicing",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heating and air repair near me",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mini split ac installation",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "ac unit repair",
+   "volume": 20,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "air con servicing",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "carrier air conditioning",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mini split air conditioner installation",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "hvac supply",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "nexgen heating and air",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "duct cleaning near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "vent cleaning near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "vent cleaning services near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ductwork cleaning near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "duct cleaning companies near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "duct and vent cleaning near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "cleaning ducts near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "duct vent cleaning near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "vent cleaning companies near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "clean air duct cleaning",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "air duct vent cleaning near me",
+   "volume": 20,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heating repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "emergency ac repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "heat pump repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "hvac service near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "four seasons heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heater repair near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "heating and cooling",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "hot water heater replacement",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac company near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "furnace replacement",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "boiler repair near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ac tune up near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air conditioning companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "abc heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac installation near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "ac maintenance near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "emergency ac repair near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "heating and cooling companies near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac maintenance near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "duct cleaning services",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "heating company near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "stanley steemer air duct cleaning",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "water heater replacement near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hot water heater repair near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "furnace tune up near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "boiler repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "furnace replacement cost",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "emergency boiler repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "heat and air near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "commercial hvac companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac tune up specials near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac tune up",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "ac tune up cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "hvac replacement cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "emergency ac service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac installers near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air conditioning companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ac replacement cost",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac fix near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heating service near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac technician near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "same day ac repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "heating and air companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water heater installation near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "tankless water heater repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac companies",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "24 hour ac repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mini split installation near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "best hvac companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "affordable hvac repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "24 hour ac service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "comfort heating and air",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency air conditioner repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ac unit repair near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "carrier hvac",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air conditioner installation near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "air conditioner maintenance near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "best residential hvac companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating and air conditioning service",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "24 7 ac repair",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "emergency air conditioning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "american standard hvac",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "heating and cooling repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency hvac service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "emergency water heater repair",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "best hvac system",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "tankless water heater installation near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating contractors near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency air conditioning service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "best ac repair near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "hvac installation cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "central air repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating and cooling company",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "commercial ac repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating and air conditioning service near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "boiler installation near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "oil furnace service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air conditioner replacement cost",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "local hvac companies",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "central air conditioner repair",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "ac unit replacement cost",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "24 hour air conditioning service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "service experts heating & air conditioning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency ac service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heat pump service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac contractors near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "best air duct cleaning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "hvac replacement near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "24 hour air conditioning repair",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "24 hour hvac near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac contractors",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "24 hour ac repair",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "air conditioner tune up near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac maintenance services",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "best ac company near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "gas furnace replacement cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mitsubishi hvac",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hot water heater installation near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "heating and ac repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating and cooling services near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "capital heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency heating repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "home ac repair near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water heater maintenance near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "24 hour heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating and air companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "furnace service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac tune up near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water heater technician",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "local air conditioning companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating cooling near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "boiler servicing",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "carrier heating and cooling",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac unit installation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace tune up cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace and ac replacement cost",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "affordable ac repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "24 hour heating and air conditioning repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "gas water heater repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "tankless water heater repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "emergency furnace repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "heating and air conditioning companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency ac",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac unit replacement",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "commercial heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hot water heater replacement near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ac repair service near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "ductless air conditioner cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "same day ac service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac specialist near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "valley heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "trane hvac",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "heating repair companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning services",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "heat pump repair near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "home depot hvac installation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best ac service near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac and heating repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "abc heating and air conditioning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heat and air repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "carrier ac service",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "home ac service near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heater repair service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency hvac service near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ac replacement near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "24 hour hvac",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "24 7 hvac service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "trane air conditioning",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "care heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace maintenance",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "emergency air conditioner repair near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "gas furnace replacement",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac unit service",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "central air conditioner installation",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "all seasons heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "split ac unit cost",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "same day air conditioning repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "home air conditioner repair near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "comfort heating and cooling",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "four seasons heating and air",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "central ac installation cost",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ac specialist near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air conditioner installation cost",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "emergency hvac repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air conditioner replacement near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "home ac repair",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ductless air conditioner installation",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "heating and air service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "cool air mechanical",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac emergency repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "24 7 heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "local ac companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home depot hvac service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "commercial ac repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ace heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac heating and cooling",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "abc hvac",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "local hvac repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "comfort air conditioning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heating system repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best air conditioning service near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "hvac unit replacement cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "24 hour air conditioning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "alpine heating and cooling",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "heater tune up near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "summit heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "nexgen air conditioning",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "ac repair cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "precision heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating and air conditioning companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "lennox authorized repair service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "local ac repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "24 hour furnace repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "24 hour furnace repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating technician near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "split ac installation cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct repair",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "central ac repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac unit service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "oil furnace repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "central air repair",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water heater repair service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home depot ac installation",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "commercial hvac repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mini split ac installation near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "lowes hvac installation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home heater repair near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "furnace companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air conditioner maintenance service",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "central air service near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "daikin hvac",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "commercial air conditioning companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "24 7 air conditioning repair",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "hvac system repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "duct repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air conditioning contractors near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "top hvac companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "affordable ac repair near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "hvac service cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating & cooling near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "same day ac repair near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "best furnace repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac repair company near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "hot water heater maintenance",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "cost to install hvac system with ductwork",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "same day furnace repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "24 hour hvac service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best heating and air conditioning companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "cost to install central air",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "commercial air conditioner repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac specialist",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "local ac repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "carrier ac repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "a1 heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heater maintenance near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "commercial heating and cooling near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "american standard heating and air conditioning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "apex heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "local air conditioning repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "split ac installation",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "24 hour hvac service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating and cooling systems",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "residential hvac contractors near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "4 seasons heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac duct repair",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac repair companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hot water replacement near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ac compressor replacement cost",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "aircon installation near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "ac heater repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "we care heating and air",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "nexgen hvac",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "gas heater repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air conditioning contractors",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "superior heating and air",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "comfort air heating and cooling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "split air conditioner installation",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "home ac service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "same day air conditioning service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "emergency water heater replacement",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ac guys near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heater repair service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "wall heater repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "same day water heater repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "advanced heating and air",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating & air conditioning service near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "furnace technician",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water heater technician near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heating & air conditioning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "24 hour ac",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fix my ac",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "ac heater repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home depot air conditioner installation",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "home depot hvac installation cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home air conditioning repair",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heating and cooling service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "heating & cooling service near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water heater tune up",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "residential ac repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "best hvac near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "commercial hvac service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "boiler technician near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air conditioner repair cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "furnace services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "goodman furnace repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "24 hour hvac repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "duct cleaning",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": true
+  },
+  {
+   "term": "dryer vent cleaning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "vent cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "$99 air duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air vent cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "stanley steemer duct cleaning",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "hvac cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "$99 air duct cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac cleaning service",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "hvac cleaning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac vent cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "furnace cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "duck cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer duct cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac duct cleaning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "duct cleaning cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "air vent cleaning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "vent cleaning services",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ductwork cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "coit duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "duct cleaning services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer vent cleaning cost",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "furnace duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "duck cleaning services",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "hvac vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "stanley steemer duct cleaning cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "hvac duct cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "stanley steemer air duct cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air conditioning duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "house vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "affordable air duct cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home depot duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning prices",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac duct cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "vent cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer vent cleaning service near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "coit air duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heating duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning specials",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning services near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "best duct cleaning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "home duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "commercial duct cleaning",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "air duct",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "dryer vent wizard near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "duct cleaning companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "clean ducts and vents",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "coit dryer vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "house duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac vent cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct and dryer vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold in air ducts",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "professional dryer vent cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "residential duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace cleaning cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "air conditioner vent cleaning",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "dryer vent cleaning company",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "pure air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "average cost of duct cleaning",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "vent duct cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac cleaning services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace and duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "stanley steemer dryer vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fresh air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "stanley air duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "clean dryer vent near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "duct cleaning price",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "residential air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "whole house duct cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "stanley steemer vent cleaning cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "ac air duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "average cost of air duct cleaning",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "air conditioning cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "heater vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "clean air vents in house",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning cost near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace cleaning service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac air duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "furnace cleaning specials near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "stanley duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ventilation cleaning service",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "groupon duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "stanley steamers duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer duct",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air vent cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning near me prices",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air conditioning cleaning service",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "best dryer vent cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac duct",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "commercial air duct cleaning",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "professional air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "stanley steemer duct cleaning prices",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home depot air duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "vent cleaning company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer cleaning service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home duct cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer vent cleaning price",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "duct cleaning specials",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "air conditioner duct cleaning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "nadca certified duct cleaning",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "servpro duct cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best air duct cleaning company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "rotobrush duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac cleaning service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "coit vent cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ventilation cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "whole house duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer vent cleaning companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "professional duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "clean sweep duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "house vent cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "vent hood cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "iaq cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best vent cleaning services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac cleaning service near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "home vent cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "commercial duct cleaning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "home air vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold in ac vents",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "groupon air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac duct cleaning service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "local dryer vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air dryer vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "duct cleaning cost near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "house duct cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "roof dryer vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace cleaning and inspection",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "industrial duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "house duct cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac duct cleaning price",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "nikro duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "commercial dryer vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct sanitizing",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer air duct cleaning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "stanley cleaners duct cleaning",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "hood vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer duct cleaning cost",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "local air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer vent cleaning cost near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home air duct cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "local duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "coit duct cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "vent hood cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "duct and vent cleaning of america",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ductwork cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "residential vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "house air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "carpet and duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air vent cleaning service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "servpro air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "duck duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "clean ac vents in house",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best duct cleaning company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold in ductwork",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "coit duct cleaning prices",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "clean out air ducts",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning and sanitizing",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold in hvac ducts",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct specialists",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace and air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "duct cleaning and sanitizing",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac ducts",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "air conditioner duct cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home duct cleaning services",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ac vent cleaning services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer vent duct",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct and vent cleaning near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "ac mold cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac and duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "hvac clean out",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best air duct cleaning services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "furnace and vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home ac duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "power vac",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "duct cleaning services cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct cleaning cost per square foot",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct dryer vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "bathroom vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct and carpet cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac and duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "heating and air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "clean out vents in house",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac pro vent and duct cleaner",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "duct cleaning business",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "elite duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "pro air duct cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "stanley steemer air duct cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac cleaning company",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac vent cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fogging air ducts for mold",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "central air vent cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air conditioner duct cleaning service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "rotobrush air duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac mold",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ventilation duct cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "clean my air ducts",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "local duct cleaning companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac duct cleaning services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "dryer vent specialist near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "vent cleaning price",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac cleaning price",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  }
+ ]
+}

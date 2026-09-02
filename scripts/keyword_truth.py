@@ -245,6 +245,8 @@ def main() -> int:
     p.add_argument("--vertical", default="restoration",
                    choices=sorted(VERTICAL_SEEDS))
     p.add_argument("--seed", default="", help="comma-separated extra terms")
+    c = sub.add_parser("canon")
+    c.add_argument("--vertical", default="restoration", choices=sorted(VERTICAL_SEEDS))
     a = ap.parse_args()
     if a.cmd == "gbp-terms":
         if not a.slug and not a.all:
@@ -255,7 +257,85 @@ def main() -> int:
             except Exception as e:  # noqa: BLE001
                 print(f"  {slug}: ERROR {str(e)[:100]}")
         return 0
+    if a.cmd == "canon":
+        return build_canon(a.vertical)
     return planner(a.geo, a.vertical, [s.strip() for s in a.seed.split(",") if s.strip()])
+
+
+
+
+# ---------------------------------------------------------------- canon
+def build_canon(vertical: str) -> int:
+    """Blend every pulled metro's Planner volumes with the fleet's REAL
+    GBP search terms and GSC queries into one ranked vertical canon:
+    clients/_ops/keyword-canon/canons/{vertical}.json. Score = median
+    normalized Planner volume across metros, with real-world bonuses when
+    the term (or a close variant) actually appears in GBP/GSC data."""
+    import statistics
+    canon_dir = ROOT / "clients" / "_ops" / "keyword-canon"
+    pulls = list(canon_dir.glob(f"{vertical}--*.json"))
+    if not pulls:
+        print(f"no planner pulls for {vertical} — run `planner` first")
+        return 1
+    per_metro: dict[str, dict[str, int]] = {}
+    for p in pulls:
+        d = json.loads(p.read_text())
+        per_metro[p.stem] = {t["term"]: t["volume"] for t in d.get("terms", [])}
+
+    def norm(term: str) -> str:
+        t = re.sub(r"\b(near me|close to me|nearby|service|services|company|companies)\b", "", term)
+        return re.sub(r"\s+", " ", t).strip()
+
+    # cluster by normalized phrase, volume summed within a metro's cluster
+    clusters: dict[str, dict[str, int]] = {}
+    label: dict[str, str] = {}
+    for metro, terms in per_metro.items():
+        for term, vol in terms.items():
+            key = norm(term)
+            if not key:
+                continue
+            clusters.setdefault(key, {}).setdefault(metro, 0)
+            clusters[key][metro] += vol
+            if key not in label or (term == key):
+                label[key] = key
+    # real-world evidence
+    gbp_rows = requests.get(f"{SB_URL}/rest/v1/marketing_gbp_search_terms?select=keyword,impressions",
+                            headers=HDR, timeout=30).json()
+    gsc_rows = requests.get(f"{SB_URL}/rest/v1/marketing_gsc_queries?select=query,impressions&limit=10000",
+                            headers=HDR, timeout=30).json()
+    gbp_txt = " | ".join(str(r.get("keyword", "")) for r in gbp_rows)
+    gsc_txt = " | ".join(str(r.get("query", "")) for r in gsc_rows)
+
+    out = []
+    n_metros = len(per_metro)
+    for key, metros in clusters.items():
+        vols = [metros.get(m, 0) for m in per_metro]
+        med = statistics.median(vols)
+        breadth = sum(1 for v in vols if v > 0) / n_metros
+        gbp_hit = key in gbp_txt
+        gsc_hit = key in gsc_txt
+        score = med * (0.5 + 0.5 * breadth) * (1.3 if gbp_hit else 1) * (1.15 if gsc_hit else 1)
+        if score <= 0:
+            continue
+        out.append({"term": label[key], "score": round(score, 1),
+                    "median_vol": med, "metro_breadth": round(breadth, 2),
+                    "seen_in_gbp": gbp_hit, "seen_in_gsc": gsc_hit,
+                    "by_metro": metros})
+    out.sort(key=lambda r: -r["score"])
+    dest = canon_dir / "canons"
+    dest.mkdir(exist_ok=True)
+    path = dest / f"{vertical}.json"
+    path.write_text(json.dumps({
+        "vertical": vertical, "metros": sorted(per_metro),
+        "built_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "terms": out[:60]}, indent=1))
+    print(f"CANON: {vertical} ({n_metros} metros)\n")
+    print(f"{'term':34} {'score':>7} {'med vol':>8}  breadth  gbp gsc")
+    for r in out[:20]:
+        print(f"{r['term'][:34]:34} {r['score']:>7} {r['median_vol']:>8}  "
+              f"{r['metro_breadth']:>6}   {'Y' if r['seen_in_gbp'] else '-'}   {'Y' if r['seen_in_gsc'] else '-'}")
+    print(f"\nwrote {path.relative_to(ROOT)}")
+    return 0
 
 
 if __name__ == "__main__":

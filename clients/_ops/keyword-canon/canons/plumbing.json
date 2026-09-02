@@ -1,0 +1,730 @@
+{
+ "vertical": "plumbing",
+ "metros": [
+  "plumbing--bakersfield-ca",
+  "plumbing--corona-ca"
+ ],
+ "built_at": "2026-09-02T06:50:02.271512+00:00",
+ "terms": [
+  {
+   "term": "plumbers",
+   "score": 2212.6,
+   "median_vol": 1480.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 2000,
+    "plumbing--corona-ca": 960
+   }
+  },
+  {
+   "term": "plumber",
+   "score": 897.0,
+   "median_vol": 600.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 880,
+    "plumbing--corona-ca": 320
+   }
+  },
+  {
+   "term": "plumbing",
+   "score": 456.0,
+   "median_vol": 305.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 470,
+    "plumbing--corona-ca": 140
+   }
+  },
+  {
+   "term": "drain cleaning",
+   "score": 299.0,
+   "median_vol": 200.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 260,
+    "plumbing--corona-ca": 140
+   }
+  },
+  {
+   "term": "water heater repair",
+   "score": 231.7,
+   "median_vol": 155.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 180,
+    "plumbing--corona-ca": 130
+   }
+  },
+  {
+   "term": "emergency plumber",
+   "score": 172.5,
+   "median_vol": 150.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 200,
+    "plumbing--corona-ca": 100
+   }
+  },
+  {
+   "term": "drain",
+   "score": 127.1,
+   "median_vol": 85.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 130,
+    "plumbing--corona-ca": 40
+   }
+  },
+  {
+   "term": "fergusons plumbing",
+   "score": 95.0,
+   "median_vol": 95.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 140,
+    "plumbing--corona-ca": 50
+   }
+  },
+  {
+   "term": "leak detection",
+   "score": 90.0,
+   "median_vol": 90.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 60,
+    "plumbing--corona-ca": 120
+   }
+  },
+  {
+   "term": "water heater installation",
+   "score": 85.0,
+   "median_vol": 85.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 140,
+    "plumbing--corona-ca": 30
+   }
+  },
+  {
+   "term": "water heater replacement",
+   "score": 84.5,
+   "median_vol": 65.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 80,
+    "plumbing--corona-ca": 50
+   }
+  },
+  {
+   "term": "gas leak detection",
+   "score": 65.0,
+   "median_vol": 65.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 90,
+    "plumbing--corona-ca": 40
+   }
+  },
+  {
+   "term": "water leak repair",
+   "score": 65.0,
+   "median_vol": 65.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 80,
+    "plumbing--corona-ca": 50
+   }
+  },
+  {
+   "term": "tankless water heater install",
+   "score": 60.0,
+   "median_vol": 60.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 90,
+    "plumbing--corona-ca": 30
+   }
+  },
+  {
+   "term": "plumbing repair",
+   "score": 60.0,
+   "median_vol": 60.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 90,
+    "plumbing--corona-ca": 30
+   }
+  },
+  {
+   "term": "hot water tank repair",
+   "score": 60.0,
+   "median_vol": 60.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 40,
+    "plumbing--corona-ca": 80
+   }
+  },
+  {
+   "term": "water leak detection",
+   "score": 60.0,
+   "median_vol": 60.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 50,
+    "plumbing--corona-ca": 70
+   }
+  },
+  {
+   "term": "hot water repair",
+   "score": 55.0,
+   "median_vol": 55.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 40,
+    "plumbing--corona-ca": 70
+   }
+  },
+  {
+   "term": "24 hour plumber",
+   "score": 51.7,
+   "median_vol": 45.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 60
+   }
+  },
+  {
+   "term": "clogged drain",
+   "score": 51.7,
+   "median_vol": 45.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 50,
+    "plumbing--corona-ca": 40
+   }
+  },
+  {
+   "term": "water heater replacement cost",
+   "score": 45.0,
+   "median_vol": 45.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 70,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "rheem water heater repair",
+   "score": 45.0,
+   "median_vol": 45.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 70,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "plumber for toilet repair",
+   "score": 45.0,
+   "median_vol": 45.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 70,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "water heater maintenance",
+   "score": 45.0,
+   "median_vol": 45.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 60,
+    "plumbing--corona-ca": 30
+   }
+  },
+  {
+   "term": "sewer line repair",
+   "score": 45.0,
+   "median_vol": 45.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 60
+   }
+  },
+  {
+   "term": "all pro plumbing",
+   "score": 44.8,
+   "median_vol": 30.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 10,
+    "plumbing--corona-ca": 50
+   }
+  },
+  {
+   "term": "toilet replacement",
+   "score": 40.2,
+   "median_vol": 35.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 50,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "tankless water heater maintenance",
+   "score": 40.0,
+   "median_vol": 40.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 60,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "tankless water heater repair",
+   "score": 40.0,
+   "median_vol": 40.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 60,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "sewer cleaning",
+   "score": 39.0,
+   "median_vol": 30.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 30
+   }
+  },
+  {
+   "term": "slab leak",
+   "score": 37.4,
+   "median_vol": 25.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 10,
+    "plumbing--corona-ca": 40
+   }
+  },
+  {
+   "term": "tankless water heater cost",
+   "score": 35.0,
+   "median_vol": 35.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 50,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "tankless water heater installation cost",
+   "score": 35.0,
+   "median_vol": 35.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 50,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "hydro jetting",
+   "score": 35.0,
+   "median_vol": 35.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 40,
+    "plumbing--corona-ca": 30
+   }
+  },
+  {
+   "term": "drain clearing",
+   "score": 35.0,
+   "median_vol": 35.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 40,
+    "plumbing--corona-ca": 30
+   }
+  },
+  {
+   "term": "toilet repair",
+   "score": 35.0,
+   "median_vol": 35.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 50,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "unclog toilet",
+   "score": 34.5,
+   "median_vol": 30.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 50,
+    "plumbing--corona-ca": 10
+   }
+  },
+  {
+   "term": "unclog drain",
+   "score": 34.5,
+   "median_vol": 30.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 40,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "a1 plumbing",
+   "score": 30.0,
+   "median_vol": 30.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 50,
+    "plumbing--corona-ca": 10
+   }
+  },
+  {
+   "term": "plumber for clogged toilet",
+   "score": 30.0,
+   "median_vol": 30.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 50,
+    "plumbing--corona-ca": 10
+   }
+  },
+  {
+   "term": "water leak detector",
+   "score": 30.0,
+   "median_vol": 30.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 40,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "cheap plumbers",
+   "score": 30.0,
+   "median_vol": 30.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 30
+   }
+  },
+  {
+   "term": "affordable plumbers",
+   "score": 30.0,
+   "median_vol": 30.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 30
+   }
+  },
+  {
+   "term": "sewer and drain cleaning",
+   "score": 30.0,
+   "median_vol": 30.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 30
+   }
+  },
+  {
+   "term": "water heater",
+   "score": 29.9,
+   "median_vol": 20.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 20,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "plumbing and heating",
+   "score": 29.9,
+   "median_vol": 20.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 20,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "slab leak repair",
+   "score": 29.9,
+   "median_vol": 20.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 20,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "emergency plumbing",
+   "score": 28.7,
+   "median_vol": 25.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "tankless water heater",
+   "score": 26.0,
+   "median_vol": 20.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": true,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 20,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "unclog shower drain",
+   "score": 25.0,
+   "median_vol": 25.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 40,
+    "plumbing--corona-ca": 10
+   }
+  },
+  {
+   "term": "nearest plumber",
+   "score": 25.0,
+   "median_vol": 25.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 40,
+    "plumbing--corona-ca": 10
+   }
+  },
+  {
+   "term": "shower drain clogged",
+   "score": 25.0,
+   "median_vol": 25.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 40,
+    "plumbing--corona-ca": 10
+   }
+  },
+  {
+   "term": "gas water heater repair",
+   "score": 25.0,
+   "median_vol": 25.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 40,
+    "plumbing--corona-ca": 10
+   }
+  },
+  {
+   "term": "hydro jet",
+   "score": 25.0,
+   "median_vol": 25.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "hot water heater replacement",
+   "score": 25.0,
+   "median_vol": 25.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "roto rooter plumbing",
+   "score": 25.0,
+   "median_vol": 25.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "commercial plumbing",
+   "score": 25.0,
+   "median_vol": 25.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": false,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 30,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "repipe",
+   "score": 23.0,
+   "median_vol": 20.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 20,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "24 7 plumber",
+   "score": 23.0,
+   "median_vol": 20.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 20,
+    "plumbing--corona-ca": 20
+   }
+  },
+  {
+   "term": "rooter",
+   "score": 23.0,
+   "median_vol": 20.0,
+   "metro_breadth": 1.0,
+   "seen_in_gbp": false,
+   "seen_in_gsc": true,
+   "by_metro": {
+    "plumbing--bakersfield-ca": 20,
+    "plumbing--corona-ca": 20
+   }
+  }
+ ]
+}

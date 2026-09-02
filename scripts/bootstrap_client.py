@@ -310,13 +310,41 @@ def main():
     ct_f = cdir / "geogrid-cities.json"
     if not kw_f.exists():
         full = sb("GET", "/rest/v1/companies?id=eq.{}&select=services,city,state".format(co["id"]))[0]
-        services = [x.lower() for x in (full.get("services") or [])][:2] or ["water damage restoration"]
-        kw_f.write_text("\n".join(services) + "\n")
+        # Keywords from the DATA-VALIDATED vertical canon (keyword_truth.py:
+        # Keyword Planner volumes x fleet GBP/GSC evidence), not a blind
+        # services[:2] slice — Frontline bootstrapped with ONE keyword that
+        # way (Santino 2026-09-02). Canon seed terms ranked by real score,
+        # top 5; services list only as a last-resort fallback.
+        vertical = "restoration"
+        try:
+            vertical = (json.loads((ROOT / "clients" / f"{slug}.json").read_text())
+                        .get("vertical") or "restoration")
+        except Exception:
+            pass
+        keywords = []
+        canon_f = ROOT / "clients" / "_ops" / "keyword-canon" / "canons" / f"{vertical}.json"
+        if canon_f.exists():
+            try:
+                from keyword_truth import VERTICAL_SEEDS
+                canon = {t["term"]: t["score"]
+                         for t in json.loads(canon_f.read_text()).get("terms", [])}
+                seeds = VERTICAL_SEEDS.get(vertical, [])
+                keywords = sorted((s for s in seeds if canon.get(s)),
+                                  key=lambda s: -canon[s])[:5]
+            except Exception as e:
+                print(f"  [canon] unavailable ({str(e)[:60]}) — falling back to services")
+        if not keywords:
+            keywords = [x.lower() for x in (full.get("services") or [])][:2] or ["water damage restoration"]
+        kw_f.write_text("\n".join(keywords) + "\n")
         cities = []
         if full.get("city"):
             ll = la.geocode(full["city"], full.get("state") or "")
             if ll:
-                cities = [{"label": full["city"], "lat": ll[0], "lng": ll[1]}]
+                # Home city gets the three standard grid sizes (6.5 tight /
+                # 9.5 standard / 15 metro-wide) so Map Rankings shows the
+                # multi-radius picture from day one.
+                cities = [{"label": full["city"], "lat": ll[0], "lng": ll[1],
+                           "miles_list": [6.5, 9.5, 15]}]
                 d2 = json.loads(pi.read_text())
                 d2.setdefault("brand", {})
                 d2["brand"].setdefault("lat", ll[0])

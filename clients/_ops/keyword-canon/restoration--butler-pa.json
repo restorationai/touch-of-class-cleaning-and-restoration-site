@@ -1,0 +1,2527 @@
+{
+ "vertical": "restoration",
+ "geo": "Butler County, Butler County,Pennsylvania,United States",
+ "pulled_at": "2026-09-02T06:49:02.843257+00:00",
+ "terms": [
+  {
+   "term": "mold removal service",
+   "volume": 50,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold clean up services",
+   "volume": 50,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water restoration near me",
+   "volume": 40,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water damage restoration near me",
+   "volume": 40,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water damage restoration services near me",
+   "volume": 40,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water damage restoration companies near me",
+   "volume": 40,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water damage restoration service near me",
+   "volume": 40,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold remediation",
+   "volume": 40,
+   "competition": "MEDIUM",
+   "seed": true
+  },
+  {
+   "term": "emergency water removal near me",
+   "volume": 30,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "emergency water cleanup near me",
+   "volume": 30,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold removal",
+   "volume": 30,
+   "competition": "HIGH",
+   "seed": true
+  },
+  {
+   "term": "mold mitigation",
+   "volume": 30,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "professional mold removal",
+   "volume": 30,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold clean up",
+   "volume": 30,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water mitigation near me",
+   "volume": 20,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold remediation near me",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold remediation companies near me",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold removal near me",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold mitigation near me",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold abatement near me",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold treatment near me",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold cleanup near me",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold removal specialist",
+   "volume": 20,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold remediation specialist",
+   "volume": 20,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mould removal near me",
+   "volume": 20,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "water damage restoration",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "water damage repair",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": true
+  },
+  {
+   "term": "flood damage restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": true
+  },
+  {
+   "term": "flood cleanup",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "water removal",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "water cleanup",
+   "volume": 10,
+   "competition": null,
+   "seed": true
+  },
+  {
+   "term": "basement flood cleanup",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": true
+  },
+  {
+   "term": "water mitigation",
+   "volume": 10,
+   "competition": null,
+   "seed": true
+  },
+  {
+   "term": "water extraction",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": true
+  },
+  {
+   "term": "fire damage restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": true
+  },
+  {
+   "term": "water restoration",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "water mitigation company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water removal services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water restoration companies",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water remediation near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flood restoration near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "fire restoration company",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water damage ceiling",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flood clean up services",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "basement flooding repair",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "fire damage clean up",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage clean up",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water restoration companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water damage cleanup near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water mitigation company near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "roof leak",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "water damage companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flooded basement cleanup companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water clean up services",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water removal from basement",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage repair near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water extraction services",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water removal services near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water extraction from carpet",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "fire restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire clean up",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "24 7 restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water cleanup near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "fire restoration companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "restoration company water damage",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "smoke damage clean up",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "smoke remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "restoration water damage experts",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water remediation company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire clean up services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flood cleanup near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mitigation company near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency water clean up",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage mitigation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage restoration service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "ceiling water damage repair",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "servpro mold remediation cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home water damage repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewage cleanup near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "emergency water removal services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "basement water cleanup",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flood restoration companies near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water clean up companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "smoke removal service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flood remediation near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "flood cleaning services near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water damage remediation near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water damage contractor",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flood remediation company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency water extraction",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "carpet water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage restoration cost",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water damage services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water restoration services",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water damage ceiling repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water extraction near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire and water restoration",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "smoke damage cleaning service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "restoration services water damage",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water leak restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency sewage cleanup",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damaged floor repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "drywall water damage repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flood restoration companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "servpro water mitigation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best water damage restoration near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "service pro water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage ceiling repair cost",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "fire restoration near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water removal near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water damage contractors near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency water damage repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water remediation company near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency water extraction near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "after fire cleaning services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "emergency water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": true
+  },
+  {
+   "term": "fire clean up services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flood restoration services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire and water damage restoration companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "basement water damage repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water clean up service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency water restoration",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "emergency basement flooding service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage floor repair cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage carpet cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire restoration contractors",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hardwood floor repair water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "roto rooter water restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ceiling water damage repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage house repair costs",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage wall repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "repair drywall ceiling water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewage spill cleanup",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water and mold remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro water damage cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewage cleanup",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "damage restoration service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flood cleanup services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "carpet water damage repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "leaking ceiling repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage repair cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "smoke remediation near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water mitigation services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro water restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flooded basement repair cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewage cleanup services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "restoration companies near me water damage",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "residential water damage restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water clean up and restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hot water extractor",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage remediation companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water intrusion repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water mitigation services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage specialists",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage carpet drying",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro fire restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fix ceiling water damage",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water leak remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage repair company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire water restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hot water extraction carpet cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro smoke removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water remediation cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "basement restoration water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "contractor to repair water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "drywall water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "house water damage repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage and restoration",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "restoration companies in my area",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire and water restoration near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water leak ceiling",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "smoke restoration near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water disaster cleanup",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage pros",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "24 hour flood pros",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "wet drywall repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage professional",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water extraction services near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "pipe burst cleanup",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "smoke damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "damage restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "basement cleaning after flood",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water and mold restoration near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "crack in basement wall leaking water",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage clean",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water and fire damage restoration",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "restoration cleaning company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "bathroom floor repair water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewage cleanup service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "repair water damaged wood",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "smoke remediation cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire and water restoration companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage repair contractors",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "flood restoration services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage cleanup companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water leak mitigation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water leak in wall repair cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water remediation services",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "emergency flood service",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "smoke damage cleaning cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire damage restoration cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "contractor for water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best water damage restoration company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire clean up company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "roof repair water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water leak on carpet",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency water extraction services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "basement flooding remediation",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "fire water restoration services",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "water mitigation and restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "basement restoration companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water and mold restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "cleaning after fire smoke damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servicemaster water mitigation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "leak damage repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water damage and restoration companies",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "basement clean up services",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "servpro water remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "paul davis mold remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "wall water damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire cleanup near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire water damage restoration company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire and water restoration companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water leak damage",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewage backup in basement cleanup",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "water and mold remediation near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold and water remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "fire and smoke restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "smoke damage restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": true
+  },
+  {
+   "term": "storm damage repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "biohazard cleanup",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "restoration company",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": true
+  },
+  {
+   "term": "servpro near me",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold inspection",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "black mold removal",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "restoration companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold specialist near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold removal company",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold remediation cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "coit carpet cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "servpro cleaning",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold removal cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold cleaning services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "911 restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold removal company near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold experts near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "basement flood clean up",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "restoration services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold specialist",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro restoration",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold treatment",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "black mold removal cost",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold abatement",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "tilex mold and mildew",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "best mold removal companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro mold",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold and mildew remover",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold restoration near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "sewage cleaning services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "restoration contractors near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold detection",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "remediation company",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewer backup cleanup",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "sewage clean up service",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold removal services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold experts",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "black mold removal near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold detection company",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold treatment cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold cleaning services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "restoration contractors",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "sewage backup cleanup cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "bathroom mold removal",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "servpro mold remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "restoration cleaning services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "basement mold removal",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold professional near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold abatement cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "black mold remediation",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "servpro company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold in attic",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold remediation companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold repair near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold repair",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "crawl space mold remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "attic mold removal cost",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "black mold testing near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "house mold removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home restoration companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "attic mold removal",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "black mold inspection",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold remediation services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "disaster restoration companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "basement mold removal cost",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "remediation company near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold control",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "attic mold remediation",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "removing mold from walls",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "crdn restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home restoration companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency clean up services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold restoration company",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "belfor company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "superior restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold inspection and removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "cleaning black mold",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "pure maintenance mold removal",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "cleaning mold off walls",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "black mold inspection near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "disaster restoration services",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "sewage cleaning services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best mold remover",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold inspections near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "servpro mold removal cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "black mold testing",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewer clean up",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold in crawl space removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home mold removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "attic mold remediation cost",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "black mold treatment",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "total restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "basement mold remediation",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold detection services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold and mildew remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "remove mold from wood",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "astonish mould and mildew",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "clorox mold and mildew",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewage clean out",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "epic restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold restoration companies near me",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold professional",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewage cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "attic mold removal near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "disaster cleaning services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "shower mold removal",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water clean up near me",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "professional mold removal cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "clorox tilex mold and mildew",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold and mildew",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "emergency restoration company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "getting rid of mold in house",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold removal specialist near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold inspection companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "service master restoration",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "property restoration companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold treatment companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold assessor",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold remediation contractors near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro mold removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "companies like servpro",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home restoration services near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "professional restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "cost of mold inspection",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold mitigation cost",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold removal and restoration",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "sewage clean up service near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "steamatic carpet cleaning",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold mildew remover",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "servpro restoration services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold contractor near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "puroclean near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold abatement companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "roof mold removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "average cost of mold remediation",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mildew removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold mitigation companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "hvac mold removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "sewage removal services",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "hvac mold removal cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "rmr86",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "paul davis company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro cleaning services",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best restoration companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "disaster restoration companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "crawl space mold removal cost",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "black mold in shower",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "storm damage repair near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "ac mold removal",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "mold remediation specialist near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "paul davis water restoration",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold testing and remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "restoration builders",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servicepro restoration",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "home restoration contractors",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "hvac mold remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mould testing",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "best mold remediation companies near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "roof damage repair",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "mold detection and removal",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "clorox tilex",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "water damage repair companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "air duct mold removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "residential mold removal",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "local restoration companies",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "mold inspection and remediation",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold inspection companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro cleaning near me",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "restoration business",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "servpro cleaning company",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold abatement companies",
+   "volume": 10,
+   "competition": "LOW",
+   "seed": false
+  },
+  {
+   "term": "best way to get rid of mold",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "carpet mold removal",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "killing black mold",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "bathroom mold",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "best mold remediation companies",
+   "volume": 10,
+   "competition": null,
+   "seed": false
+  },
+  {
+   "term": "mold remediation cost per sq ft",
+   "volume": 10,
+   "competition": "MEDIUM",
+   "seed": false
+  },
+  {
+   "term": "servicemasters",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  },
+  {
+   "term": "servicemaster water damage",
+   "volume": 10,
+   "competition": "HIGH",
+   "seed": false
+  }
+ ]
+}
