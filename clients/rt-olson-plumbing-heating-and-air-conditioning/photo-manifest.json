@@ -770,6 +770,33 @@
       "triaged_at": "2026-09-02T17:45:45Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMFC28cQL3VTvmCx-FbW4V_GfvstGrJIQxjw6VR": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMFC28cQL3VTvmCx-FbW4V_GfvstGrJIQxjw6VR.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMFC28cQL3VTvmCx-FbW4V_GfvstGrJIQxjw6VR.jpg",
+      "width": 1000,
+      "height": 750,
+      "bytes": 78486,
+      "sha1": "d1d526808c756148",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician using drill to work on bathtub surround",
+      "quality": 52,
+      "slots": {
+        "hero": 15,
+        "team": 55,
+        "services": 60
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Decent action shot but dark, cramped composition limits hero use.",
+      "triaged_at": "2026-09-02T19:00:19Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMFKGRLqLiaFUNgugOY0tAUE54D8KGOnToB6dFe": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMFKGRLqLiaFUNgugOY0tAUE54D8KGOnToB6dFe.jpg",
@@ -1293,6 +1320,31 @@
       "triaged_at": "2026-09-02T18:11:45Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipM_jsDpEZSYLozmRczeEdwIiK10aV42dpWt2t5i": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM_jsDpEZSYLozmRczeEdwIiK10aV42dpWt2t5i.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipM_jsDpEZSYLozmRczeEdwIiK10aV42dpWt2t5i.jpg",
+      "width": 1080,
+      "height": 810,
+      "bytes": 75843,
+      "sha1": "c2aa613333c64d8f",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "New white bathtub installed in open-stud bathroom framing",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Shows plumbing rough-in progress; no crew, adequate sharpness.",
+      "triaged_at": "2026-09-02T19:00:19Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMaxYsLQrrBYJa-XWk7Pt7nXz4Zlcgj73JhfST1": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMaxYsLQrrBYJa-XWk7Pt7nXz4Zlcgj73JhfST1.jpg",
@@ -1368,6 +1420,32 @@
       "flags": [],
       "reason": "Sharp, well-lit finished faucet install; portrait crop and tight framing limit hero suitability.",
       "triaged_at": "2026-09-02T17:45:45Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMf4qR8tIOqSS8HOuPIXuvRQkKA2KWQHUf8ySNu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMf4qR8tIOqSS8HOuPIXuvRQkKA2KWQHUf8ySNu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMf4qR8tIOqSS8HOuPIXuvRQkKA2KWQHUf8ySNu.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 559925,
+      "sha1": "59796aa3507bcca4",
+      "exif": {},
+      "category": "crew",
+      "subject": "RT Olson Plumbing technician accessing wall pipe in closet",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 60,
+        "services": 70
+      },
+      "service_slugs": [
+        "leak-detection",
+        "emergency-plumbing"
+      ],
+      "flags": [],
+      "reason": "Clear branded uniform and purposeful action; cluttered background limits hero score.",
+      "triaged_at": "2026-09-02T19:00:19Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMffE6I3X4Rr2RE1D9XoPSdh6ZpiovrmIRgLH-f": {
@@ -1603,6 +1681,31 @@
       "triaged_at": "2026-09-02T17:45:45Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMvAY6BTF58bnGqFVBHeqIpkF-YhpzHSakfFQX1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMvAY6BTF58bnGqFVBHeqIpkF-YhpzHSakfFQX1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMvAY6BTF58bnGqFVBHeqIpkF-YhpzHSakfFQX1.jpg",
+      "width": 810,
+      "height": 1080,
+      "bytes": 50628,
+      "sha1": "79fccf3bc0d20537",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Freshly installed vessel sink and tall chrome faucet",
+      "quality": 72,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Clean finished-work photo; portrait crop and no people limit hero use.",
+      "triaged_at": "2026-09-02T19:00:19Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMvxpDteY2zdbgCwnmEwlKwCcIOG2TtYD056KRi": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMvxpDteY2zdbgCwnmEwlKwCcIOG2TtYD056KRi.jpg",
@@ -1817,6 +1920,31 @@
       "triaged_at": "2026-09-02T17:46:00Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipN7HvVP_80sHdnY0uKqZvVlksJSwYAYZvMcRZN5": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN7HvVP_80sHdnY0uKqZvVlksJSwYAYZvMcRZN5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipN7HvVP_80sHdnY0uKqZvVlksJSwYAYZvMcRZN5.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 589377,
+      "sha1": "eec173bc12d72cd1",
+      "exif": {},
+      "category": "equipment",
+      "subject": "AO Smith water heater installed with copper piping and straps",
+      "quality": 70,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "water-heater-installation"
+      ],
+      "flags": [],
+      "reason": "Sharp, well-lit finished installation; ideal for services card.",
+      "triaged_at": "2026-09-02T19:00:19Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipN8iJ-3rdY-TPcx8VVRXxPYONKU6D0X6R6NM1lH": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipN8iJ-3rdY-TPcx8VVRXxPYONKU6D0X6R6NM1lH.jpg",
@@ -1866,6 +1994,32 @@
       ],
       "reason": "Clean portrait against van wrap; good branding but portrait crop limits hero use.",
       "triaged_at": "2026-08-09T21:15:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipN9nZC81x3wGnm4GjRrWHL8AOlO7Jq3Ozkqb7Un": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN9nZC81x3wGnm4GjRrWHL8AOlO7Jq3Ozkqb7Un.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipN9nZC81x3wGnm4GjRrWHL8AOlO7Jq3Ozkqb7Un.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 705856,
+      "sha1": "619052cf17f0c9b5",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Outdoor tankless water heater valve and pipe manifold box",
+      "quality": 68,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-heater-installation",
+        "water-heater-repair"
+      ],
+      "flags": [],
+      "reason": "Detailed plumbing work visible; tight crop and complexity limit broad appeal.",
+      "triaged_at": "2026-09-02T19:00:19Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNArcVtwTvH24-bNgSpDUKnlRi34MUBU6Omvpfj": {
@@ -1918,6 +2072,31 @@
       "triaged_at": "2026-09-02T17:18:57Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNBf21YRp_28jFuTGGr3fCPhL1I70XejfdMxccn": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNBf21YRp_28jFuTGGr3fCPhL1I70XejfdMxccn.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNBf21YRp_28jFuTGGr3fCPhL1I70XejfdMxccn.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 318421,
+      "sha1": "db0fedb1412846a6",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Newly installed double bathroom vanity with two sinks",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Clean finished result but portrait crop and indoor setting limit hero use.",
+      "triaged_at": "2026-09-02T19:00:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNBnWLHV2vBL8A4Pv8OgcM3LCoix7Za6qhdl4Tx": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNBnWLHV2vBL8A4Pv8OgcM3LCoix7Za6qhdl4Tx.jpg",
@@ -1939,6 +2118,58 @@
       "flags": [],
       "reason": "Clean finished installation; useful services card image but tight composition.",
       "triaged_at": "2026-08-09T21:15:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNDSE1C-sKAhjIcvDLLDNJuEDGUIt679wBdH2P_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNDSE1C-sKAhjIcvDLLDNJuEDGUIt679wBdH2P_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNDSE1C-sKAhjIcvDLLDNJuEDGUIt679wBdH2P_.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 476602,
+      "sha1": "800dc640c0f6d266",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Pfister shower valve and tub spout close-up",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Dark, tight crop on worn fixture; limited professional appeal.",
+      "triaged_at": "2026-09-02T19:00:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNDgpyTbasluTHD3PddKcExK9dVSOaw2PGRC1IE": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNDgpyTbasluTHD3PddKcExK9dVSOaw2PGRC1IE.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNDgpyTbasluTHD3PddKcExK9dVSOaw2PGRC1IE.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 531114,
+      "sha1": "bd219fa2d4261c13",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "White dual-flush toilet installed in dark corner",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Underlit, cramped composition; serviceable product shot at best.",
+      "triaged_at": "2026-09-02T19:00:34Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNEe7fmVI5xjoXGuB0U6MYKcbinn7Q-gYlqpw9w": {
@@ -2167,6 +2398,31 @@
       "triaged_at": "2026-08-09T21:15:39Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNMO0r8VytJN-GAlBBNWABJzmDNvAHbQHXnHDge": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNMO0r8VytJN-GAlBBNWABJzmDNvAHbQHXnHDge.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNMO0r8VytJN-GAlBBNWABJzmDNvAHbQHXnHDge.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1130182,
+      "sha1": "a2fef74699a781c3",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Decorative patterned tile shower surround with rain head",
+      "quality": 68,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Visually striking tile but portrait crop and no context limits hero use.",
+      "triaged_at": "2026-09-02T19:00:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNO3rjqd223TfPAxP7JOPGXUWxW4jmELxI_e-pz": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNO3rjqd223TfPAxP7JOPGXUWxW4jmELxI_e-pz.jpg",
@@ -2274,6 +2530,56 @@
       "flags": [],
       "reason": "Phone number and URL are real printed van-wrap signage on jacket; strong services shot.",
       "triaged_at": "2026-09-02T18:12:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNR2hNfdKFPLC5EF7lv3dRp4_bTXN7mlIGKYRpb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNR2hNfdKFPLC5EF7lv3dRp4_bTXN7mlIGKYRpb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNR2hNfdKFPLC5EF7lv3dRp4_bTXN7mlIGKYRpb.jpg",
+      "width": 1089,
+      "height": 1936,
+      "bytes": 136361,
+      "sha1": "d52089c93dc41077",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Brushed nickel handheld shower bar and valve installed",
+      "quality": 52,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Dim lighting and tight crop make this a marginal services image only.",
+      "triaged_at": "2026-09-02T19:00:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNRFnBxwcBvMQUIDu8Jl5m9poroIGAQppLr2PWM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNRFnBxwcBvMQUIDu8Jl5m9poroIGAQppLr2PWM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNRFnBxwcBvMQUIDu8Jl5m9poroIGAQppLr2PWM.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 346037,
+      "sha1": "c3e2d716ddf347f2",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Chrome handheld shower on marble tile with glass door",
+      "quality": 74,
+      "slots": {
+        "hero": 28,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Clean, well-lit finished install; best shower photo of the set.",
+      "triaged_at": "2026-09-02T19:00:34Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNRcxFaB0o6esYR2wr16GIVph9jp04d04K4R0PD": {
@@ -2667,6 +2973,33 @@
       "triaged_at": "2026-09-02T17:46:16Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNkDBrLgh5isxqP-i0WgnOA1YH-gsplyNHT4lKS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNkDBrLgh5isxqP-i0WgnOA1YH-gsplyNHT4lKS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNkDBrLgh5isxqP-i0WgnOA1YH-gsplyNHT4lKS.jpg",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 336360,
+      "sha1": "9a71feb8ffa076c0",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Newly tiled bathroom floor with white toilet installed",
+      "quality": 52,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Decent after shot but tight corridor crop limits hero use.",
+      "triaged_at": "2026-09-02T19:00:50Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNmd1_t8GGpy3UD2Py5bKmVSdmST_g2FezkgSRb": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNmd1_t8GGpy3UD2Py5bKmVSdmST_g2FezkgSRb.jpg",
@@ -2749,6 +3082,33 @@
       ],
       "reason": "Dark, cramped attic; low visual appeal but relevant to ductwork services.",
       "triaged_at": "2026-09-02T17:46:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNs1ZGTaN5DVCb-b5nZqTx528-PV7Ka6i0JBMAF": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNs1ZGTaN5DVCb-b5nZqTx528-PV7Ka6i0JBMAF.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNs1ZGTaN5DVCb-b5nZqTx528-PV7Ka6i0JBMAF.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 340231,
+      "sha1": "e11c4713099818e1",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Close-up of worn chrome shower faucet and tub spout",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Extreme close-up, grungy fixture, poor composition for marketing.",
+      "triaged_at": "2026-09-02T19:00:50Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNuUrIZULLxZj3AdKAFuYCUra8yC0SIeWK7qx7F": {
@@ -2883,6 +3243,31 @@
       ],
       "reason": "Pure logo graphic; no photographic content, unsuitable for any photo slot.",
       "triaged_at": "2026-08-09T21:15:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNyOjr73C-5_N7YKgDgAzRvH50R8h4f-_TmTrjA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNyOjr73C-5_N7YKgDgAzRvH50R8h4f-_TmTrjA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNyOjr73C-5_N7YKgDgAzRvH50R8h4f-_TmTrjA.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 401434,
+      "sha1": "8040d0a21ad4ae91",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "New tub installed in open wall framing with copper pipes exposed",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "emergency-plumbing"
+      ],
+      "flags": [],
+      "reason": "Shows skilled rough-in work; mold-stained framing limits appeal.",
+      "triaged_at": "2026-09-02T19:00:50Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNz6gELp6eh9bkUZ2OQmGCJ2VCLEerSppSxfiep": {
@@ -3131,6 +3516,31 @@
       "triaged_at": "2026-09-02T17:19:33Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOASy-NV7eT5fThjKQOlEoSs-GlNnwGHnQZfGqM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOASy-NV7eT5fThjKQOlEoSs-GlNnwGHnQZfGqM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOASy-NV7eT5fThjKQOlEoSs-GlNnwGHnQZfGqM.jpg",
+      "width": 821,
+      "height": 1080,
+      "bytes": 40141,
+      "sha1": "9edbfaa2a4acc4df",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "New modern white dual-flush toilet installed in dark corner",
+      "quality": 60,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Clean install shot but portrait crop and dark floor limit versatility.",
+      "triaged_at": "2026-09-02T19:00:50Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOAkmCcbH_fgtZPq6KiCKq07SKVsc-fFvTS14Qa": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOAkmCcbH_fgtZPq6KiCKq07SKVsc-fFvTS14Qa.jpg",
@@ -3154,6 +3564,31 @@
       "flags": [],
       "reason": "Sharp action shot, branded uniform clearly visible, drain equipment present.",
       "triaged_at": "2026-09-02T18:12:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOAwKvdA09tmfNtzbGbx6a4JZR7Y5AulTqMSd0h": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOAwKvdA09tmfNtzbGbx6a4JZR7Y5AulTqMSd0h.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOAwKvdA09tmfNtzbGbx6a4JZR7Y5AulTqMSd0h.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 804648,
+      "sha1": "a91f4062569b68a4",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "New bathtub set in open wood framing of new construction",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "emergency-plumbing"
+      ],
+      "flags": [],
+      "reason": "Good context showing rough-in plumbing skill; usable for services card.",
+      "triaged_at": "2026-09-02T19:00:50Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOBAM97XOjtEZ_RAayyteiqexRLjWKB_4H9ogDT": {
@@ -3371,6 +3806,108 @@
       ],
       "reason": "Professional headshot with name caption overlaid; excellent for team/about page.",
       "triaged_at": "2026-09-02T18:12:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipON1IWDo2-b0Ld1b3---iYZm-eKNzQ1p7rH8BMr": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipON1IWDo2-b0Ld1b3---iYZm-eKNzQ1p7rH8BMr.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipON1IWDo2-b0Ld1b3---iYZm-eKNzQ1p7rH8BMr.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 804697,
+      "sha1": "609f080bf1f26486",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Double white vanity with dual faucets installed in bathroom",
+      "quality": 62,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Nice install but personal items on counter reduce professionalism.",
+      "triaged_at": "2026-09-02T19:00:50Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipONCywhKAJRUEHr65DN9Ca_qUbB_gykW1QkWlLw": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipONCywhKAJRUEHr65DN9Ca_qUbB_gykW1QkWlLw.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipONCywhKAJRUEHr65DN9Ca_qUbB_gykW1QkWlLw.jpg",
+      "width": 2448,
+      "height": 2448,
+      "bytes": 421077,
+      "sha1": "ab67fb4c92d27a7b",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Newly installed white tub-shower unit in unfinished framing",
+      "quality": 58,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Decent install shot but exposed framing looks unfinished; portrait crop limits hero use.",
+      "triaged_at": "2026-09-02T19:01:11Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOOa_peUpIf6o60xGu-W8-gYpAlPfQgxKsWcApL": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOOa_peUpIf6o60xGu-W8-gYpAlPfQgxKsWcApL.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOOa_peUpIf6o60xGu-W8-gYpAlPfQgxKsWcApL.jpg",
+      "width": 720,
+      "height": 960,
+      "bytes": 43093,
+      "sha1": "59ecb3b832c77437",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Modern oval vessel sink with wall-mount black faucet installed",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Clean install result but tight portrait crop and soap bottle reduce professionalism.",
+      "triaged_at": "2026-09-02T19:01:11Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOP3GBVoRGPBwTIy-t8cbtwAKB5IuMoE8PXOnid": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOP3GBVoRGPBwTIy-t8cbtwAKB5IuMoE8PXOnid.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOP3GBVoRGPBwTIy-t8cbtwAKB5IuMoE8PXOnid.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 771570,
+      "sha1": "2298f5745189493b",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Farmhouse apron sink with spring faucet on dark countertop",
+      "quality": 65,
+      "slots": {
+        "hero": 22,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Attractive finished install; backlit window creates exposure challenge, decent services card.",
+      "triaged_at": "2026-09-02T19:01:11Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipORlm06PUIbNjnkWgLfmoSPnvxL7DH_neHkSy45": {
@@ -3628,6 +4165,31 @@
       "triaged_at": "2026-09-02T17:19:51Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOer0-BdxILZ82ygCPeo6Y13nbAxlu-fQGHYLPm": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOer0-BdxILZ82ygCPeo6Y13nbAxlu-fQGHYLPm.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOer0-BdxILZ82ygCPeo6Y13nbAxlu-fQGHYLPm.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 385328,
+      "sha1": "b5c58468942bd1d1",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Chrome tub-shower valve and spout close-up on tile wall",
+      "quality": 60,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Extreme close-up limits versatility; shows completed faucet work adequately for services card.",
+      "triaged_at": "2026-09-02T19:01:11Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOgpEHuJSBJxx5e0-xo7LUbcdHnEpjtOAcofBR5": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOgpEHuJSBJxx5e0-xo7LUbcdHnEpjtOAcofBR5.jpg",
@@ -3797,6 +4359,31 @@
       ],
       "reason": "Casual customer selfie, not professional; low hero and services value.",
       "triaged_at": "2026-09-02T17:46:48Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOpjuBToKIqxXySV51dSMC9az1Q8LaVQIJTKll7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOpjuBToKIqxXySV51dSMC9az1Q8LaVQIJTKll7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipOpjuBToKIqxXySV51dSMC9az1Q8LaVQIJTKll7.jpg",
+      "width": 1081,
+      "height": 740,
+      "bytes": 45382,
+      "sha1": "8061ea889eba3bf0",
+      "exif": {},
+      "category": "equipment",
+      "subject": "AO Smith ProLine water heater installed in exterior alcove",
+      "quality": 70,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-heater-installation"
+      ],
+      "flags": [],
+      "reason": "Well-composed real job photo clearly showing water heater install; good services card candidate.",
+      "triaged_at": "2026-09-02T19:01:11Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOqbrXf7M3CS57inuqfKA0jBtAfY3DD1ZWWHt7M": {
@@ -4050,6 +4637,31 @@
       "triaged_at": "2026-09-02T17:47:05Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipP-yB5sGSv_adlx96-YtEtXpTq9dKKxXvJjpxga": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP-yB5sGSv_adlx96-YtEtXpTq9dKKxXvJjpxga.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipP-yB5sGSv_adlx96-YtEtXpTq9dKKxXvJjpxga.jpg",
+      "width": 810,
+      "height": 1080,
+      "bytes": 50640,
+      "sha1": "05d7fd16b739f6e0",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Square white vessel sink with tall chrome faucet installed",
+      "quality": 66,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Clean modern install shot; angled composition and portrait crop limit hero suitability.",
+      "triaged_at": "2026-09-02T19:01:11Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipP1TmymsSRrBozrhZ2bUgmCId3IbVvxk5ZOvvtD": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP1TmymsSRrBozrhZ2bUgmCId3IbVvxk5ZOvvtD.jpg",
@@ -4079,6 +4691,33 @@
       "triaged_at": "2026-09-02T17:19:51Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipP1uA4FOs2GEsHsJwgE3bvRlNYFvr_QWCE_CYhF": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP1uA4FOs2GEsHsJwgE3bvRlNYFvr_QWCE_CYhF.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipP1uA4FOs2GEsHsJwgE3bvRlNYFvr_QWCE_CYhF.jpg",
+      "width": 720,
+      "height": 960,
+      "bytes": 50823,
+      "sha1": "18a1d0cb0f361724",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bathtub installed in open wall framing with exposed plumbing",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark, cluttered framing shot; shows rough-in plumbing work in progress.",
+      "triaged_at": "2026-09-02T19:01:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipP3qT9T4LB9bJUFGCATLIuJqxtlaB9CM7T3yu7r": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP3qT9T4LB9bJUFGCATLIuJqxtlaB9CM7T3yu7r.jpg",
@@ -4105,6 +4744,33 @@
       "triage_model": "claude-sonnet-4-6",
       "duplicate_of": "gbp:gbp-AF1QipNL1UHfW9UItY4kxrS1NVHhrfuzMlSSN9iJQwMJ"
     },
+    "gbp:gbp-AF1QipP5IZBFv4aQNuM0i2yBPO7ASudrtatfoiBvVV73": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP5IZBFv4aQNuM0i2yBPO7ASudrtatfoiBvVV73.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipP5IZBFv4aQNuM0i2yBPO7ASudrtatfoiBvVV73.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 531491,
+      "sha1": "54cf401c7a181ea5",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bathtub rough-in with exposed framing wiring and plumbing",
+      "quality": 40,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered rough-in scene; dark and compositionally weak for marketing use.",
+      "triaged_at": "2026-09-02T19:01:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipP5i79xlMnrfekLxVhGEYWH6jxE1tOLAke7uQbj": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP5i79xlMnrfekLxVhGEYWH6jxE1tOLAke7uQbj.jpg",
@@ -4128,6 +4794,31 @@
       "flags": [],
       "reason": "Decent close-up of plumbing work; no crew, tight crop limits hero scoring.",
       "triaged_at": "2026-09-02T17:47:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP5jT5T4ELiUXdhWabG-wrBFaMFmHOL2b7OQGhs": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP5jT5T4ELiUXdhWabG-wrBFaMFmHOL2b7OQGhs.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipP5jT5T4ELiUXdhWabG-wrBFaMFmHOL2b7OQGhs.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 255949,
+      "sha1": "0072a0a2cacc39ea",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Clean white undermount bathroom sink with brushed nickel faucet",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [],
+      "reason": "Decent finished result shot; portrait crop limits hero use but serviceable for services card.",
+      "triaged_at": "2026-09-02T19:01:27Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipP99dNAL-HBkiAmfO-5xU3V1O7Fnk1hSHBZoyXh": {
@@ -4437,6 +5128,31 @@
       "exif": {},
       "duplicate_of": "gbp:gbp-AF1QipMkb9SQoVFmnq0prIpMQ8Os5urQ654k_ywZjZOU"
     },
+    "gbp:gbp-AF1QipPNdGUO87Wpf17FS3VHNaiXLft2oIgRLeni-aGg": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPNdGUO87Wpf17FS3VHNaiXLft2oIgRLeni-aGg.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPNdGUO87Wpf17FS3VHNaiXLft2oIgRLeni-aGg.jpg",
+      "width": 816,
+      "height": 1080,
+      "bytes": 70748,
+      "sha1": "16c0a5f073955d2b",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Rheem tankless water heater mounted on exterior brick wall",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "water-heater-installation"
+      ],
+      "flags": [],
+      "reason": "Sharp, well-lit finished install shot; strong services card candidate for water heater page.",
+      "triaged_at": "2026-09-02T19:01:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPP08ylbdHYp_9QDwqRD7pEpVed1Yps1bUCBpzQ": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPP08ylbdHYp_9QDwqRD7pEpVed1Yps1bUCBpzQ.jpg",
@@ -4460,6 +5176,33 @@
       "flags": [],
       "reason": "Clean completed install shot; awkward angle limits hero potential.",
       "triaged_at": "2026-09-02T17:20:07Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPP6fFlwX2KbBmenY0zKkTVu_LwCwyIIoRVQ2UZ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPP6fFlwX2KbBmenY0zKkTVu_LwCwyIIoRVQ2UZ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPP6fFlwX2KbBmenY0zKkTVu_LwCwyIIoRVQ2UZ.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 322950,
+      "sha1": "244ec86c7d387f9b",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Toilet in narrow bathroom alcove with storage cabinet above",
+      "quality": 42,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "toilet-faucet-repair"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark, cramped composition with personal items visible; low marketing value.",
+      "triaged_at": "2026-09-02T19:01:27Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipPQEh0RGIsQBjRRcQvLPxzneUqfYFaoOMIxH83T": {
@@ -4509,6 +5252,31 @@
       "flags": [],
       "reason": "Diagnostic detail shot; dark and cluttered, limited composition value.",
       "triaged_at": "2026-09-02T17:20:07Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPU4Pcmn9UE8JxrSWYgh-H8dq8YHAbTZK6KPt--": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPU4Pcmn9UE8JxrSWYgh-H8dq8YHAbTZK6KPt--.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPU4Pcmn9UE8JxrSWYgh-H8dq8YHAbTZK6KPt--.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 708899,
+      "sha1": "4fa37592e353311e",
+      "exif": {},
+      "category": "equipment",
+      "subject": "White tankless water heater mounted on exterior stucco wall",
+      "quality": 68,
+      "slots": {
+        "hero": 38,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-heater-installation"
+      ],
+      "flags": [],
+      "reason": "Clean daylight exterior install shot; good services card but portrait crop limits hero use.",
+      "triaged_at": "2026-09-02T19:01:27Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipPWtLHhKMG-1__Rkk8n0XY1YjczhczZdQDQGQoG": {
@@ -5448,5 +6216,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-02T18:13:08Z"
+  "triaged_at": "2026-09-02T19:01:27Z"
 }

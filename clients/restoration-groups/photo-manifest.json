@@ -644,6 +644,34 @@
       "triaged_at": "2026-08-31T17:06:02Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMrmDh0WtXqYlP9kkfRmOS39YTziMN1YUyBKiN3": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMrmDh0WtXqYlP9kkfRmOS39YTziMN1YUyBKiN3.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipMrmDh0WtXqYlP9kkfRmOS39YTziMN1YUyBKiN3.jpg",
+      "width": 640,
+      "height": 640,
+      "bytes": 527137,
+      "sha1": "499446c0bae99f13",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in respirator operating air mover in attic",
+      "quality": 82,
+      "slots": {
+        "hero": 45,
+        "team": 62,
+        "services": 88
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Well-lit, branded uniform and equipment; strong services card image, limited hero use.",
+      "triaged_at": "2026-09-02T18:59:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMvoHGaKTO8HcN54K2WFazXElSGtnTt7vxlZqUP": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMvoHGaKTO8HcN54K2WFazXElSGtnTt7vxlZqUP.jpg",
@@ -1441,6 +1469,34 @@
       "flags": [],
       "reason": "Clear task and damage context; square crop and back-to-camera limit hero use.",
       "triaged_at": "2026-08-31T17:07:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOKahQMSb_AIsG4VND5MWULWT9oPg6p1_jd-s1x": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOKahQMSb_AIsG4VND5MWULWT9oPg6p1_jd-s1x.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipOKahQMSb_AIsG4VND5MWULWT9oPg6p1_jd-s1x.jpg",
+      "width": 640,
+      "height": 640,
+      "bytes": 538455,
+      "sha1": "8fbae278bcfc8fba",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician inspecting mold-covered attic rafters with torch",
+      "quality": 74,
+      "slots": {
+        "hero": 28,
+        "team": 55,
+        "services": 85
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Visible mold damage and branded PPE; dark exposure limits hero use, excellent services card.",
+      "triaged_at": "2026-09-02T18:59:08Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOKp0b3_85DOy4W0afL6qbhizJUMD-H1RmXzUZg": {
@@ -2321,5 +2377,5 @@
       "note": "client-correction override (Michael 2026-08-31): real branded van; below auto hero gate on GBP resolution only"
     }
   },
-  "triaged_at": "2026-08-31T18:09:01Z"
+  "triaged_at": "2026-09-02T18:59:08Z"
 }
