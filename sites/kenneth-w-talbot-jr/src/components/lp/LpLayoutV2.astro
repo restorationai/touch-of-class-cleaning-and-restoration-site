@@ -1,0 +1,429 @@
+---
+/*
+ * ════════════════════════════════════════════════════════════════════════
+ * SPLIT-TEST CHAMPION v1  —  "TrustedRestorationPros" style
+ * ════════════════════════════════════════════════════════════════════════
+ * This is the current best-performing ad landing page design, stored in the
+ * ads-landing-page skill as the canonical champion. New split-test winners
+ * replace this file (and bump the version) so every new session starts from
+ * the proven baseline.
+ *
+ * Design: hot-pink (#f01e5a) + light gray, image-driven, full-height centered
+ * hero, insurance strip, feature/why/process sections, dark urgency banner,
+ * image-backed closing section, scroll-triggered floating call bar.
+ *
+ * Self-contained palette (does NOT use the brand `primary` token) — only the
+ * brand name / phone / logo are dynamic, so the design stays consistent across
+ * clients while the copy + imagery are client-specific.
+ *
+ * DEPLOY: copy this file into a client site as
+ *   sites/{slug}/src/components/lp/LpLayoutV2.astro
+ * (the lp/[slug].astro router renders it for manifest entries with
+ *  "variant": "v2"). Then generate the 4 client photos from image-prompts.json
+ * and wire heroImageUrl / featureImageUrl / supportImageUrl / closingImageUrl
+ * into the manifest entry. Requires ~/styles/global.css + ~/lib/brand (present
+ * in every scaffolded site) and @lucide/astro.
+ * ════════════════════════════════════════════════════════════════════════
+ */
+import "~/styles/global.css";
+import { brand } from "~/lib/brand";
+import Analytics from "~/components/Analytics.astro";
+import { Phone, Bell, ShieldCheck, Quote, Star, Sparkles, Headphones, FileCheck, BadgeCheck, HousePlus } from "@lucide/astro";
+
+interface BodyContent {
+  heading: string;
+  intro: string;
+  bullets: string[];
+  callout: string | null;
+}
+
+interface ProcessStep {
+  title: string;
+  body: string;
+}
+
+interface Props {
+  h1: string;
+  metaTitle: string;
+  metaDescription: string;
+  heroSubtitle: string;
+  serviceLabel: string;
+  city: string | null;
+  state: string | null;
+  bodyContent: BodyContent;
+  processSteps?: ProcessStep[];
+  heroImageUrl?: string;
+  featureImageUrl?: string;
+  supportImageUrl?: string;
+  closingImageUrl?: string;
+}
+
+const {
+  h1,
+  metaTitle,
+  metaDescription,
+  heroSubtitle,
+  serviceLabel,
+  city,
+  state,
+  bodyContent,
+  processSteps: customSteps,
+  heroImageUrl,
+  featureImageUrl,
+  supportImageUrl,
+  closingImageUrl,
+} = Astro.props;
+
+const locationLabel = city && state ? `${city}, ${state}` : (city ?? "");
+
+const steps: ProcessStep[] = customSteps ?? [
+  { title: "Call Our Team Anytime", body: "Our dedicated team is available around the clock — call us anytime, 24/7, for support whenever you need it." },
+  { title: "On-Site Home Assessment & Estimate", body: "Get connected with a local professional to schedule an assessment and discuss your options." },
+  { title: "Damage Mitigation & Restoration", body: "Expert team responds immediately to assess the situation, prevent further damage, and begin the restoration process without delay." },
+  { title: "Get Updates Until the Job is Done", body: "From the initial assessment to the final walkthrough, you'll receive regular updates on progress, timelines, and next steps." },
+];
+
+const whyItems = [
+  { Icon: Bell, label: "24/7 Emergency Response" },
+  { Icon: HousePlus, label: "We Help You Find Experts Who Know What to Do in an Emergency" },
+  { Icon: ShieldCheck, label: "Insurance-Friendly Support" },
+  { Icon: BadgeCheck, label: "High-Quality Services" },
+  { Icon: FileCheck, label: "On-Site Home Assessments" },
+  { Icon: Headphones, label: "Instant Access to Restoration Pros" },
+];
+
+const heroTrust = [
+  { Icon: Bell, label: "24/7 Emergency Response" },
+  { Icon: Sparkles, label: `Complete ${serviceLabel}` },
+  { Icon: ShieldCheck, label: "Trusted Local Teams" },
+  { Icon: Quote, label: "Risk-Free Quotes" },
+];
+
+const carriers = ["Chubb", "Allstate", "Farmers", "Liberty Mutual", "State Farm", "Travelers", "Nationwide"];
+
+// Palette
+const PINK = "#f01e5a";
+
+// Google Ads click-to-call tracking — populated by ads-tracking into brand.ts.
+// Accessed defensively so the template is valid before the fields exist (no-ops if absent).
+const gadsId = (brand as any).gadsId as string | undefined;
+const gadsCallConversionLabel = (brand as any).gadsCallConversionLabel as string | undefined;
+
+// Call-tracking number swap — populated by ads-call-tracking into brand.ts.
+// LP-only: falls back to the real brand phone so the main site / NAP is untouched.
+const displayPhone = (brand as any).adsTrackingPhone ?? brand.phone;
+const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
+---
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>{metaTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- Google Ads global site tag (loads only once gadsId is wired into brand.ts) -->
+    {gadsId && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${gadsId}`}></script>
+        <script is:inline define:vars={{ gadsId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+      window.gtag = gtag;  // expose globally: define:vars wraps scripts in IIFEs; tel-click handler needs it
+          gtag('js', new Date());
+          gtag('config', gadsId);
+        </script>
+      </>
+    )}
+      <Analytics />
+  </head>
+  <body class="min-h-screen flex flex-col bg-white font-sans antialiased">
+
+    <!-- Header: white, logo + phone -->
+    <header class="bg-white border-b border-gray-200 px-6 py-3">
+      <div class="container-wide flex items-center justify-between">
+        <!-- Wordmark (text, not logo image — cleaner on the white header + scales on mobile) -->
+        <a href="/" aria-label={brand.displayName} class="no-underline font-black uppercase tracking-tight leading-[1.05] text-sm md:text-lg text-gray-900 max-w-[55%] md:max-w-none">
+          {brand.displayName}
+        </a>
+        <div class="flex items-center gap-3 md:gap-4 shrink-0">
+          <span class="hidden sm:inline text-xs text-gray-500 font-medium">Available 24/7</span>
+          <a href={`tel:${displayPhoneRaw}`} class="flex items-center gap-2 font-bold no-underline text-sm whitespace-nowrap" style={`color:${PINK}`}>
+            <Phone size={15} stroke-width={2.5} />
+            {displayPhone}
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1">
+
+      <!-- Hero: bg image + dark overlay, CENTERED content, full-height -->
+      <section id="lp-hero" class="relative text-white overflow-hidden min-h-[90vh] flex items-center">
+        {heroImageUrl
+          ? (
+            <div class="absolute inset-0 z-0">
+              <img src={heroImageUrl} alt="" aria-hidden="true" class="w-full h-full object-cover object-center" />
+              <div class="absolute inset-0 bg-gray-950/40"></div>
+            </div>
+          )
+          : <div class="absolute inset-0 z-0 bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800"></div>
+        }
+        <div class="relative z-10 container-wide py-20 md:py-24 text-center flex flex-col items-center w-full [text-shadow:0_1px_12px_rgba(0,0,0,0.55)]">
+          {locationLabel && (
+            <div class="text-base md:text-lg font-bold tracking-wide mb-5 pb-1 border-b-2" style={`border-color:${PINK}`}>{locationLabel}</div>
+          )}
+          <h1 class="text-4xl md:text-6xl lg:text-7xl font-black leading-[1.05] mb-6 text-white max-w-5xl">{h1}</h1>
+          <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl leading-snug">{heroSubtitle}</p>
+          <p class="text-base md:text-lg font-semibold text-white/85 mb-5">
+            Call Now: <span style={`color:${PINK}`}>{displayPhone}</span>
+          </p>
+          <a
+            href={`tel:${displayPhoneRaw}`}
+            class="inline-flex items-center justify-center gap-2 text-white font-bold text-lg px-12 py-5 rounded-md shadow-xl transition-transform hover:-translate-y-0.5 no-underline mb-6"
+            style={`background:${PINK}`}
+          >
+            <Phone size={20} stroke-width={2.5} />
+            Get Help Now
+          </a>
+          <div class="flex items-center gap-1.5 mb-14 text-yellow-400">
+            {[1,2,3,4,5].map(() => <Star size={22} fill="currentColor" stroke-width={0} />)}
+          </div>
+
+          <!-- 4 trust icons (no boxes) -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-10 w-full max-w-4xl">
+            {heroTrust.map(({ Icon, label }) => (
+              <div class="flex flex-col items-center text-center gap-3">
+                <Icon size={36} stroke-width={1.5} class="text-white" />
+                <span class="text-sm font-bold text-white/95 leading-tight uppercase tracking-wide">{label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- Insurance strip -->
+      <section class="bg-gray-50 py-12 border-b border-gray-200">
+        <div class="container-wide text-center">
+          <h2 class="text-gray-900 text-2xl md:text-3xl font-black mb-8 mt-0">Insurance May Cover 100%</h2>
+          <div class="flex flex-wrap justify-center items-center gap-x-10 gap-y-5">
+            {carriers.map((name) => (
+              <span class="text-gray-400 font-black text-lg md:text-xl tracking-tight">{name}</span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature: image left + content right -->
+      <section class="bg-gray-100 py-16 md:py-20">
+        <div class="container-wide grid md:grid-cols-2 gap-10 items-center">
+          <div class="rounded-lg overflow-hidden bg-gray-200 aspect-[4/3]">
+            {featureImageUrl
+              ? <img src={featureImageUrl} alt={`${serviceLabel} team and equipment`} class="w-full h-full object-cover" loading="lazy" />
+              : <div class="w-full h-full flex items-center justify-center text-gray-400 text-sm">Service Photo</div>
+            }
+          </div>
+          <div>
+            <div class="text-xs font-black uppercase tracking-widest mb-2" style={`color:${PINK}`}>24/7 Support</div>
+            <h2 class="text-gray-900 text-2xl md:text-3xl font-black mb-4 mt-0 leading-tight">{bodyContent.heading}</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">{bodyContent.intro}</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center justify-center gap-2 text-white font-bold px-6 py-3 rounded-md text-sm no-underline transition-colors" style={`background:${PINK}`}>
+                <Phone size={15} stroke-width={2.5} /> Call {displayPhone}
+              </a>
+              <a href="#process" class="inline-flex items-center justify-center font-bold px-6 py-3 rounded-md text-sm no-underline border-2 transition-colors" style={`color:${PINK};border-color:${PINK}`}>
+                Book Your Home Assessment
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why choose us: text + image left, bullet list + paragraph right -->
+      <section class="bg-white py-16 md:py-20">
+        <div class="container-wide grid md:grid-cols-2 gap-12 items-start">
+          <div>
+            <div class="text-xs font-black uppercase tracking-widest mb-2" style={`color:${PINK}`}>Why Choose Us</div>
+            <h2 class="text-gray-900 text-2xl md:text-3xl font-black mb-4 mt-0">Support You Can Rely On</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Disasters don't wait for convenient timing — and neither do we. We connect you with trusted, licensed professionals who respond to water, fire, mold, and storm emergencies with speed and expertise. From your first call, you'll speak with a knowledgeable team member who provides clear guidance.
+            </p>
+            <div class="rounded-lg overflow-hidden bg-gray-200 aspect-[4/3]">
+              {supportImageUrl
+                ? <img src={supportImageUrl} alt={`${serviceLabel} drying equipment`} class="w-full h-full object-cover" loading="lazy" />
+                : <div class="w-full h-full flex items-center justify-center text-gray-400 text-sm">Equipment Photo</div>
+              }
+            </div>
+          </div>
+          <div>
+            <ul class="space-y-4 list-none pl-0 mb-6">
+              {whyItems.map(({ Icon, label }) => (
+                <li class="flex items-start gap-3">
+                  <Icon size={20} stroke-width={1.75} class="flex-shrink-0 mt-0.5" style={`color:${PINK}`} />
+                  <span class="text-gray-800 text-sm font-semibold leading-snug">{label}</span>
+                </li>
+              ))}
+            </ul>
+            <p class="text-gray-600 mb-6 leading-relaxed text-sm">
+              When disaster strikes, every moment matters. We help homeowners get connected quickly with trusted restoration professionals who can act fast to protect your home and prevent further damage — from water leaks to fire and storm recovery.
+            </p>
+            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-white font-bold px-6 py-3 rounded-md text-sm no-underline transition-colors" style={`background:${PINK}`}>
+              <Phone size={15} stroke-width={2.5} /> Call {displayPhone}
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works: text + step cards -->
+      <section id="process" class="bg-gray-100 py-16 md:py-20">
+        <div class="container-wide grid md:grid-cols-2 gap-10 items-start">
+          <div>
+            <div class="text-xs font-black uppercase tracking-widest mb-2" style={`color:${PINK}`}>How It Works</div>
+            <h2 class="text-gray-900 text-2xl md:text-3xl font-black mb-4 mt-0">An Easy Process With Support</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              From your first call, we connect you with local restoration experts who assess the damage and begin recovery. You'll be connected with professionals who guide you through what to expect and answer your questions.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center justify-center gap-2 text-white font-bold px-6 py-3 rounded-md text-sm no-underline" style={`background:${PINK}`}>
+                <Phone size={15} stroke-width={2.5} /> Call {displayPhone}
+              </a>
+              <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center justify-center font-bold px-6 py-3 rounded-md text-sm no-underline border-2" style={`color:${PINK};border-color:${PINK}`}>
+                Book Your Home Assessment
+              </a>
+            </div>
+          </div>
+          <ol class="space-y-4 list-none pl-0 mb-0">
+            {steps.map((step, i) => (
+              <li class="bg-white rounded-xl border border-gray-200 shadow-sm p-5 flex gap-4">
+                <span class="flex-shrink-0 w-8 h-8 rounded-full text-white text-sm font-black flex items-center justify-center" style={`background:${PINK}`}>
+                  {i + 1}
+                </span>
+                <div>
+                  <div class="font-black text-sm mb-1" style={`color:${PINK}`}>{step.title}</div>
+                  <div class="text-sm text-gray-600 leading-snug">{step.body}</div>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <!-- Dark urgency banner -->
+      <section class="bg-gray-100 pb-16">
+        <div class="container-wide">
+          <div class="bg-gray-900 rounded-lg px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+              <div class="text-xs font-black uppercase tracking-widest mb-2" style={`color:${PINK}`}>Don't Wait — Get Help Now</div>
+              <p class="text-white font-semibold text-lg mb-0 max-w-xl">
+                Speak with a restoration specialist who can assess your situation and connect you with emergency services right away.
+              </p>
+            </div>
+            <a href={`tel:${displayPhoneRaw}`} class="flex-shrink-0 inline-flex items-center gap-2 text-white font-bold px-8 py-4 rounded-md whitespace-nowrap no-underline" style={`background:${PINK}`}>
+              <Phone size={16} stroke-width={2.5} /> Call {displayPhone}
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Closing two-col with bg image -->
+      <section class="relative overflow-hidden">
+        {closingImageUrl
+          ? (
+            <div class="absolute inset-0 z-0">
+              <img src={closingImageUrl} alt="" aria-hidden="true" class="w-full h-full object-cover object-center" />
+              <div class="absolute inset-0 bg-gray-950/55"></div>
+            </div>
+          )
+          : <div class="absolute inset-0 z-0 bg-gradient-to-br from-gray-800 to-gray-950"></div>
+        }
+        <div class="relative z-10 container-wide py-16 md:py-24 grid md:grid-cols-2 gap-8 items-center">
+          <div class="bg-white rounded-lg p-8 shadow-xl">
+            <h2 class="text-gray-900 text-xl md:text-2xl font-black mb-3 mt-0">Your Property Won't Wait — Why Should You?</h2>
+            <p class="text-gray-600 text-sm leading-relaxed mb-0">
+              {bodyContent.callout ?? "When your home is hit by water, fire, or storm damage, acting quickly can make all the difference. Don't wait — protect your home and start restoring peace of mind today."}
+            </p>
+          </div>
+          <div class="text-white">
+            <h3 class="text-white text-xl md:text-2xl font-black mb-2 mt-0">
+              Our Services in {locationLabel || "Your Area"}
+            </h3>
+            <p class="text-white/80 text-sm mb-5">
+              Get connected with a licensed {serviceLabel.toLowerCase()} professional who can help protect your home today.
+            </p>
+            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-white font-bold px-8 py-4 rounded-md no-underline" style={`background:${PINK}`}>
+              <Phone size={16} stroke-width={2.5} /> Call {displayPhone}
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-white/40 text-xs py-8 px-6">
+      <div class="container-wide">
+        <div class="flex flex-col sm:flex-row justify-between items-center gap-2 mb-4">
+          <span>© {new Date().getFullYear()} {brand.legalName ?? brand.displayName}. All rights reserved.</span>
+          <div class="flex gap-4">
+            <a href="/privacy/" class="text-white/40 hover:text-white/70 no-underline">Privacy Policy</a>
+            <a href="/terms/" class="text-white/40 hover:text-white/70 no-underline">Terms of Service</a>
+            <a href="/privacy/" class="text-white/40 hover:text-white/70 no-underline">Do Not Sell</a>
+          </div>
+        </div>
+        <p class="text-white/25 leading-relaxed max-w-4xl mb-0 text-[11px]">
+          {brand.displayName} connects homeowners with licensed local restoration professionals. All work is performed by independent, licensed and insured contractors. Response times are estimates and may vary based on conditions and availability.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Floating call bar — appears once the hero scrolls out of view (all breakpoints) -->
+    <div id="lp-floating-cta" class="fixed bottom-0 inset-x-0 z-50 translate-y-full transition-transform duration-300 ease-out bg-white border-t border-gray-200 shadow-[0_-4px_24px_rgba(0,0,0,0.12)]">
+      <div class="container-wide flex items-center justify-between py-3 gap-4">
+        <a href={`tel:${displayPhoneRaw}`} class="flex items-center gap-2 font-black text-gray-900 no-underline">
+          <span class="flex items-center justify-center w-9 h-9 rounded-full" style={`background:${PINK}`}>
+            <Phone size={16} stroke-width={2.5} class="text-white" />
+          </span>
+          <span class="text-sm md:text-base">Get Help Now</span>
+        </a>
+        <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-white font-bold px-5 md:px-8 py-3 rounded-md no-underline whitespace-nowrap" style={`background:${PINK}`}>
+          <Phone size={16} stroke-width={2.5} /> Call {displayPhone}
+        </a>
+      </div>
+    </div>
+
+    <script is:inline>
+      (function () {
+        var bar = document.getElementById('lp-floating-cta');
+        var hero = document.getElementById('lp-hero');
+        if (!bar || !hero) return;
+        if ('IntersectionObserver' in window) {
+          var io = new IntersectionObserver(function (entries) {
+            if (entries[0].isIntersecting) {
+              bar.classList.add('translate-y-full');
+            } else {
+              bar.classList.remove('translate-y-full');
+            }
+          }, { rootMargin: '-80px 0px 0px 0px', threshold: 0 });
+          io.observe(hero);
+        } else {
+          bar.classList.remove('translate-y-full');
+        }
+      })();
+    </script>
+
+    <!-- Click-to-call conversion — fires on any phone CTA tap (no-op until label is wired) -->
+    {gadsCallConversionLabel && (
+      <script is:inline define:vars={{ label: gadsCallConversionLabel }}>
+        document.addEventListener('click', function (e) {
+          var link = e.target.closest && e.target.closest('a[href^="tel:"]');
+          if (link && typeof window.gtag === 'function') {
+            gtag('event', 'conversion', { send_to: label, transport_type: 'beacon' });
+          }
+        });
+      </script>
+    )}
+
+  </body>
+</html>
