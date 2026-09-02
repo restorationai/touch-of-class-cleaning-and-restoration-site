@@ -1130,7 +1130,7 @@ def _gg_ensure_roster(slug: str, cid: str) -> bool:
         return False
 
 
-def _gg_heal_config(slug: str) -> tuple[int, int]:
+def _gg_heal_config(slug: str, cid: str) -> tuple[int, int]:
     """Generate geogrid-keywords.txt + geogrid-cities.json from plan-input, the
     same derivation geogrid_setup uses. Returns (keywords, cities) written.
 
@@ -1149,6 +1149,38 @@ def _gg_heal_config(slug: str) -> tuple[int, int]:
 
     plan = json.loads((CLIENTS_DIR / slug / "plan-input.json").read_text())
     brand = plan.get("brand") or {}
+    # HOME-CITY FALLBACK (DryCor 2026-09-02): a client with a verified listing
+    # but no service_areas yet (site plan not run) used to be un-healable —
+    # blocked on a card while their Map Rankings tab sat blank. One home-city
+    # ring is always derivable: the brand center if plan-input has it, else a
+    # geocode of the company's own city. The full multi-city ring still
+    # arrives when the site plan writes service_areas; this gets DATA on the
+    # tab from the first overnight pass.
+    if not (plan.get("service_areas") or []):
+        label = None
+        try:
+            co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+                      "&select=city,state", prefer="return=representation") or [{}])[0]
+            label = (co.get("city") or "").strip() or None
+        except Exception:
+            co = {}
+        lat = lng = None
+        if brand.get("lat") and brand.get("lng"):
+            lat, lng = float(brand["lat"]), float(brand["lng"])
+        elif label:
+            geo = gsetup.geocode_city(label, (co.get("state") or "").strip())
+            if geo:
+                lat, lng = geo
+        if lat is not None and label:
+            keywords = gsetup.derive_keywords(slug, _GG_MAX_KEYWORDS)
+            if keywords:
+                d = CLIENTS_DIR / slug
+                (d / "geogrid-keywords.txt").write_text("\n".join(keywords) + "\n")
+                (d / "geogrid-cities.json").write_text(json.dumps(
+                    [{"label": label, "lat": lat, "lng": lng,
+                      "miles_list": [6.5, 9.5, 15]}], indent=2) + "\n")
+                return len(keywords), 1
+        return 0, 0
     areas, seen = [], set()
     for a in plan.get("service_areas") or []:
         label = f"{a.get('city')}, {a.get('state')}"
@@ -1229,12 +1261,14 @@ def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
         google_connected = bool(gi)
         healed_now = False
 
-        # AUTO-HEAL: identity + a service-area list is everything the
-        # generator needs. No human input exists that we are waiting on.
-        if not (n_kw and n_ct) and has_ident and has_areas \
+        # AUTO-HEAL: identity is the only hard requirement. With service
+        # areas the generator builds the full spread ring; without them it
+        # falls back to a home-city 3-radius grid (DryCor 2026-09-02) so the
+        # client's Map Rankings tab has data while the site plan catches up.
+        if not (n_kw and n_ct) and has_ident \
                 and not dry_run and _HEALS.get("ggconfig", 0) > 0:
             _HEALS["ggconfig"] -= 1
-            n_kw, n_ct = _gg_heal_config(slug)
+            n_kw, n_ct = _gg_heal_config(slug, cid)
             healed_now = bool(n_kw and n_ct)
             if healed_now:
                 attention.append(f"{slug}: map-rankings config GENERATED "
@@ -1255,8 +1289,10 @@ def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
 
         status, kind, title, detail = "done", "auto", "Map ranks are being tracked", None
         if not (n_kw and n_ct):
-            if has_ident and has_areas:
-                # heal budget spent this pass — next run picks it up
+            if has_ident:
+                # heal budget spent this pass (or home-city fallback found no
+                # city on the company row — the ops digest's NO MAP DATA line
+                # is the alarm for that) — next run picks it up
                 status, kind = "open", "auto"
                 title = "Map rank tracking is being set up"
                 detail = ("Their map-rank tracking has no city grid yet. It "

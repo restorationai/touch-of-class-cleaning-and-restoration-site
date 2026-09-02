@@ -308,8 +308,13 @@ def main():
     # grid centered on the company's city until a storefront is known.
     kw_f = cdir / "geogrid-keywords.txt"
     ct_f = cdir / "geogrid-cities.json"
-    if not kw_f.exists():
-        full = sb("GET", "/rest/v1/companies?id=eq.{}&select=services,city,state".format(co["id"]))[0]
+    # Keywords and cities are seeded INDEPENDENTLY. Gating both on kw_f used
+    # to strand half-bootstrapped clients forever: DryCor's geocode failed
+    # (DB city typo), the cities file was left absent per the AAA guard, and
+    # every later bootstrap run skipped the whole block because the keywords
+    # file existed (2026-09-02).
+    if not (kw_f.exists() and ct_f.exists()):
+        full = sb("GET", "/rest/v1/companies?id=eq.{}&select=services,city,state,address".format(co["id"]))[0]
         # Keywords from the DATA-VALIDATED vertical canon (keyword_truth.py:
         # Keyword Planner volumes x fleet GBP/GSC evidence), not a blind
         # services[:2] slice — Frontline bootstrapped with ONE keyword that
@@ -335,10 +340,19 @@ def main():
                 print(f"  [canon] unavailable ({str(e)[:60]}) — falling back to services")
         if not keywords:
             keywords = [x.lower() for x in (full.get("services") or [])][:2] or ["water damage restoration"]
-        kw_f.write_text("\n".join(keywords) + "\n")
+        if not kw_f.exists():
+            kw_f.write_text("\n".join(keywords) + "\n")
         cities = []
-        if full.get("city"):
+        if ct_f.exists():
+            pass  # already configured — only keywords were missing
+        elif full.get("city"):
             ll = la.geocode(full["city"], full.get("state") or "")
+            if not ll and full.get("address"):
+                # City-only geocode can fail on a typo'd or hyper-local town
+                # name ("Thonotosasa"); the street address usually still
+                # resolves and centers the grid on the business itself.
+                ll = la.geocode("{}, {}".format(full["address"], full["city"]),
+                                full.get("state") or "")
             if ll:
                 # Home city gets the three standard grid sizes (6.5 tight /
                 # 9.5 standard / 15 metro-wide) so Map Rankings shows the
@@ -361,9 +375,11 @@ def main():
             ct_f.write_text(json.dumps(cities, indent=1) + "\n")
             subprocess.run([sys.executable, str(ROOT / "scripts" / "geogrid_cron.py"),
                             "--slug", slug])
-        else:
+        elif not ct_f.exists():
             print("geo-grid: could not geocode '{}' — leaving the city ring "
-                  "UNwritten so setup_ledger seeds a real one".format(full.get("city")))
+                  "UNwritten; setup_ledger heals it overnight and the ops "
+                  "digest carries a NO MAP DATA alarm until scans exist"
+                  .format(full.get("city")))
 
     # 6. GBP sync (needs place_id)
     if place_id:

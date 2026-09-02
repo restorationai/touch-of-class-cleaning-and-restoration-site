@@ -582,14 +582,40 @@ def ensure_baseline_scans(dry_run: bool, cid_to_slug: dict) -> list[str]:
         return tail[-1][:110] if tail else "no output"
 
     out: list[str] = []
-    active = _sb("GET", "/rest/v1/companies?status=ilike.active&select=id",
+    active = _sb("GET", "/rest/v1/companies?status=ilike.active&select=id,plan,name",
                  prefer="return=representation") or []
+    _rank_ai = {c["id"] for c in active
+                if (c.get("plan") or "") == "Rank AI"
+                and not (c.get("name") or "").lower().startswith("test")}
     conns = {c["client_id"] for c in (_sb(
         "GET", "/rest/v1/user_integrations?provider=eq.google&select=client_id",
         prefer="return=representation") or []) if c.get("client_id")}
     def _company_pass(cid, slug):
         kw_f = CLIENTS_DIR / slug / "geogrid-keywords.txt"
         ct_f = CLIENTS_DIR / slug / "geogrid-cities.json"
+        # TRIPWIRE (DryCor 2026-09-02): a half-written config (keywords but no
+        # cities, or vice versa) fails the exists()-pair check below, so the
+        # client is invisible to this heal AND to the cron — and the only sign
+        # anywhere was an amber ledger card. Five actives had zero scans ever,
+        # two since early July. Config gaps must be a LOUD digest line, not a
+        # silent skip; setup_ledger heals what it can, this line is the alarm
+        # that fires until the client actually has scan data.
+        cfg_ok, n_kw, n_ct = False, 0, 0
+        try:
+            n_kw = len([l for l in kw_f.read_text().splitlines() if l.strip()]) if kw_f.exists() else 0
+            n_ct = len(json.loads(ct_f.read_text()) or []) if ct_f.exists() else 0
+            cfg_ok = bool(n_kw and n_ct)
+        except Exception:
+            pass
+        if not cfg_ok:
+            if cid in _rank_ai:
+                scans0 = _sb("GET", f"/rest/v1/marketing_geogrid_scans?company_id=eq.{cid}"
+                             "&select=id&limit=1", prefer="return=representation") or []
+                if not scans0:
+                    out.append(f"{slug}: *** NO MAP DATA — geo-grid config missing/empty "
+                               f"({n_kw} kw, {n_ct} cities) and ZERO scans ever. "
+                               "Client-facing Map Rankings is blank. ***")
+            return
         if kw_f.exists() and ct_f.exists():
             scans = _sb("GET", f"/rest/v1/marketing_geogrid_scans?company_id=eq.{cid}"
                         "&select=id&limit=1", prefer="return=representation") or []
