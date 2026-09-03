@@ -147,6 +147,11 @@ scene, wrong region.
    (`--redo` is the client-correction opt-out of "never overwrite"; without it
    an existing image cannot be replaced). Core set: drop `--services`, add
    `--force`.
+2a. **AI-generated imagery is the house standard (Santino 2026-09-03: "the
+   AI images are beating the real photos 99% of the time").** Default to
+   generated scenes in the client's style guide. Install a client's real
+   photo only when the card explicitly asks for that photo. (Reversal of the
+   older real-photos-first instinct — taste won.)
 2b. **Smallest change that satisfies the feedback (Santino 2026-09-03,
    RT Olson).** When the client LIKED an existing image and asked for one
    attribute to change ("the hood should be blue", "swap the shirt color"),
