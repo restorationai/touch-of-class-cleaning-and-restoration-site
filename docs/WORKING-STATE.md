@@ -1,5 +1,42 @@
 # Working State — leave-and-resume doc
 
+## 2026-09-03 EVENING — scale-up shipped + stress test in flight
+
+Santino away; agent stress test running (run 33812348268, 2 buckets on the
+11-card real load: Bobby uniform batch -> production, Kenny full brand
+pass, DISS/morning cards). Verify on completion: bucket jobs both green,
+Bobby's flags real, Kenny hero/palette applied.
+
+SHIPPED TODAY (all pushed + verified):
+- Perception window COMPLETE: reveal ask waits 7d (ledger), app preview
+  locked 7d in SiteBuildCard AND the Site tab (superadmins bypass, see
+  lock note). Kenny/Veterans = pilot, reveal 2026-09-09. "share now" note
+  releases early; dated holds auto-expire (shipped yesterday).
+- Brand pass FULLY AUTOMATIC: auto-built sites self-file their [DEV] brand
+  card; harvest_logo_from_web (brand_assets.py, browser UA, uploads always
+  outrank harvest by name sort) + LOGO SOAK RETIRED — builds never wait.
+- Dev-agent scale-up: 2-bucket matrix (md5 per-client claiming, verified
+  disjoint), runs 2:07am + 1:07pm weekdays; render-heavy tasks dispatch
+  via scripts/dispatch_render.py -> site-render.yml (e2e tested); nightly
+  3:07am render sweep (render_sweep.py, 400-page cap, deploys to the
+  branch each site lives on).
+- Ops Attention v2: per-client tab bar Tasks/Notes/Build Stages (stage
+  strip derived from build-stages payload); slide-in panel retired.
+- Monica: Santino notes ALWAYS trump answered-suppression; Greg photo ask
+  SENT 12:17pm; Jonathan allowlisted + truthful address reply SENT; agent
+  rule 2f (deploy where the client looks, never claim done early).
+- RT Olson: 424-page site + blue-hood hero/ac-repair + founders About +
+  in-hero quote form RESTORED (re-scaffold had clobbered it) — all LIVE on
+  production. Uniform batch card queued (in stress-test run now).
+- Stripe reconciliation sweep LIVE in daily ops (first run healed 17 more
+  invoices; second run 0 = idempotent).
+
+NEXT QUEUE: recaps + inbound-ack SLA -> BrightLocal -> Monica checklist
+(DISS pilot). Small: rating freshness (ProRest 105 vs 107), view-as-client
+toggle. Parked w/ Santino: DISS town list -> Monica ask?, CRW cutover
+(Jimmy), fleet multi-radius pricing, GHL screenshots, Railway
+geogrid-cron delete.
+
 Updated: 2026-09-03 ~1:30 AM (PT). Keep this current when a work thread pauses.
 
 ## 2026-09-03 — QUEUE SAVED (resume here in the morning)
