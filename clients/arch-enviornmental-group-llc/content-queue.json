@@ -1,3 +1,280 @@
 {
- "items": []
+  "items": [
+    {
+      "id": "2026-09-03-best-mold-inspection-testing-in-kingsburg-ca",
+      "status": "written",
+      "queued_at": "2026-09-03T19:23:38Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-mold-inspection-testing-in-kingsburg-ca",
+      "primary_keyword": "best mold inspection testing company in Kingsburg, CA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "kingsburg-ca",
+      "best_of": {
+        "service": "mold-inspection-testing",
+        "service_pretty": "Mold Inspection Testing",
+        "city": "Kingsburg",
+        "state": "CA",
+        "competitors": [
+          {
+            "name": "Fast Mold Testing - Fresno",
+            "google_rating": 5,
+            "review_count": 10
+          },
+          {
+            "name": "Mold Test Sacramento",
+            "google_rating": 5,
+            "review_count": 94
+          },
+          {
+            "name": "Kingsburg Water & Fire Damage Restoration",
+            "google_rating": 5,
+            "review_count": 2
+          },
+          {
+            "name": "Green Valley Inspections",
+            "google_rating": 4.9,
+            "review_count": 441
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best mold inspection testing companies Kingsburg",
+        "top rated mold inspection testing Kingsburg CA",
+        "who is the best mold inspection testing company in Kingsburg"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-03T19:35:52Z",
+      "post_url": "https://archenviroservice.com/blog/best-mold-inspection-testing-company-in-kingsburg-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-mold-inspection-testing-company-in-kingsburg-ca.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Fire Damage Restoration",
+          "context": "0 | 94 | --- ### 4. Kingsburg Water & Fire Damage Restoration Kingsburg Water & Fire Damage Restorat",
+          "reason": "names the 'fire' service family but plan-input services are only: mold-inspection-testing"
+        },
+        {
+          "file": "src/content/blog/best-mold-inspection-testing-company-in-kingsburg-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "10 reviews",
+          "context": "company with a 5.0 Google rating across 10 reviews. As the name suggests, their focus is o",
+          "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-mold-inspection-testing-company-in-kingsburg-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "2 reviews",
+          "context": "estoration has a 5.0 Google rating from 2 reviews. As a restoration company rather than a",
+          "reason": "listicle review-count 2 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-mold-inspection-testing-company-in-kingsburg-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "441 reviews",
+          "context": "ctions carries a 4.9 Google rating from 441 reviews, the largest review count in this compa",
+          "reason": "listicle review-count 441 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-03-mold-inspection-cost",
+      "status": "queued",
+      "queued_at": "2026-09-03T19:32:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold inspection cost",
+      "intent": "commercial",
+      "volume": 5400,
+      "kd": 0,
+      "fan_out_cluster": [
+        "mold inspection price",
+        "mold inspection cost near me",
+        "how much does a mold inspection cost in california",
+        "mold inspection cost for apartment",
+        "how much does mold testing cost",
+        "professional mold testing"
+      ],
+      "suggested_slug": "mold-inspection-cost",
+      "suggested_title": "Mold inspection cost in 2026: what Central Valley homeowners actually pay",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-testing-or-sampling",
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/HESIS/Pages/mold.aspx"
+      ],
+      "notes": "Highest-value new term this run (5400/mo, KD 0, CPC $12.00). California price bands pulled from the ChatGPT decomposition: spot inspection $150-300, whole-home $300-700, inspection plus 2-3 lab samples $500-1000, clearance $300-600. Anchor the examples to Kingsburg and Fresno County home sizes. Do not publish a fixed price the client has not confirmed: present ranges and drivers (square footage, crawl space or attic access, number of samples, thermal imaging).",
+      "source": "keyword-researcher",
+      "seed": "mold inspection"
+    },
+    {
+      "id": "2026-09-03-mold-air-test",
+      "status": "queued",
+      "queued_at": "2026-09-03T19:32:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold air test",
+      "intent": "commercial",
+      "volume": 3600,
+      "kd": 14,
+      "fan_out_cluster": [
+        "mold air sample test",
+        "air sample mold test",
+        "mold testing labs",
+        "how do mold tests work",
+        "how to read mold test results",
+        "do i need mold testing if i can see mold"
+      ],
+      "suggested_slug": "mold-air-test",
+      "suggested_title": "Mold air test: when air sampling is worth paying for (and when it is not)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-testing-or-sampling",
+        "https://www.epa.gov/mold/who-can-test-my-home-or-clean-fix-and-remediate-my-home-mold"
+      ],
+      "notes": "Lead with the EPA and CDPH position that sampling is not automatically necessary when mold is already visible and the moisture source is known: that honesty is the trust hook for an inspection-only firm. Brand holds the NIOSH 582 microscopist credential, so the lab-analysis section can go deeper than competitors. Explain spore counts, indoor-versus-outdoor control samples, and why a report without a moisture finding is incomplete.",
+      "source": "keyword-researcher",
+      "seed": "mold inspection"
+    },
+    {
+      "id": "2026-09-03-how-to-get-a-free-mold-inspection",
+      "status": "queued",
+      "queued_at": "2026-09-03T19:32:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to get a free mold inspection",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 0,
+      "fan_out_cluster": [
+        "free mold inspection",
+        "free mold inspection near me",
+        "is a free mold inspection worth it",
+        "are free mold inspections legit",
+        "free mold testing",
+        "free mold inspection california"
+      ],
+      "suggested_slug": "how-to-get-a-free-mold-inspection",
+      "suggested_title": "How to get a free mold inspection, and when free ends up costing more",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/who-can-test-my-home-or-clean-fix-and-remediate-my-home-mold",
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/HESIS/Pages/mold.aspx"
+      ],
+      "notes": "The free-inspection cluster carries CPCs of $13 to $28, so competitors are paying real money here. Angle straight from the ChatGPT answer: when the company doing the free inspection also sells the remediation, it has an incentive to find a problem. Cover the legitimate free routes (insurance adjuster visit, landlord obligation, some county programs) and position the paid independent inspection with a written report as the cheaper outcome. Avoid promising a free inspection the client does not offer.",
+      "source": "keyword-researcher",
+      "seed": "mold inspection"
+    },
+    {
+      "id": "2026-09-03-what-happens-during-a-mold-inspection",
+      "status": "queued",
+      "queued_at": "2026-09-03T19:32:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what happens during a mold inspection",
+      "intent": "informational",
+      "volume": 10,
+      "kd": 37,
+      "fan_out_cluster": [
+        "what does a mold inspector look for",
+        "what does a mold inspection report include",
+        "how long does a mold inspection take",
+        "how often should you get a mold inspection",
+        "does a home inspection include mold",
+        "mold inspection before buying a house"
+      ],
+      "suggested_slug": "what-happens-during-a-mold-inspection",
+      "suggested_title": "What happens during a mold inspection: a step by step walkthrough",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing"
+      ],
+      "city_anchor": "kingsburg-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/who-can-test-my-home-or-clean-fix-and-remediate-my-home-mold",
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/HESIS/Pages/mold.aspx"
+      ],
+      "notes": "Low Google volume, high AI-retrieval value: ChatGPT structured its entire mold-inspection answer around this sequence (interview and history, visual inspection, moisture meter and thermal imaging, hidden-source investigation, sampling only if warranted, written report). Mirror those six stages as H2s so the passages are liftable. Add a Kingsburg and Fresno County note on what inspectors check in slab-on-grade homes and swamp-cooler humidity.",
+      "source": "keyword-researcher",
+      "seed": "mold inspection"
+    },
+    {
+      "id": "2026-09-03-does-homeowners-insurance-cover-mold-testing",
+      "status": "queued",
+      "queued_at": "2026-09-03T19:32:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover mold testing",
+      "intent": "informational",
+      "volume": null,
+      "kd": 8,
+      "fan_out_cluster": [
+        "does homeowners insurance cover mold inspection",
+        "do landlords have to pay for mold testing",
+        "mold inspection cost for apartment",
+        "free mold inspection for renters near me",
+        "how much does mold testing cost"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold-testing",
+      "suggested_title": "Does homeowners insurance cover mold testing? What California policies usually pay for",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/HESIS/Pages/mold.aspx",
+        "https://www.epa.gov/mold/who-can-test-my-home-or-clean-fix-and-remediate-my-home-mold"
+      ],
+      "notes": "Carried over from the 2026-08-31 mold testing run, where it was banked at priority 1 but held because the truth table was missing. Decision-stage insurance queries convert 24 to 48 hours before a homeowner hires anyone. Cover the covered-peril versus long-term-leak distinction, mold sublimits, and the California habitability angle for renters. Stay descriptive: no coverage promises, no legal advice, tell readers to check their own policy and to document the loss date.",
+      "source": "keyword-researcher",
+      "seed": "mold inspection"
+    }
+  ]
 }
