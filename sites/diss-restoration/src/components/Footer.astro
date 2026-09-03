@@ -18,7 +18,7 @@ const year = new Date().getFullYear();
       <p class="mt-4 text-navy-900/70 text-sm leading-relaxed mb-0">{brand.tagline}</p>
       <address class="not-italic mt-6 text-sm text-navy-900/80 leading-relaxed">
         <div>{brand.streetAddress}</div>
-        <div>{brand.primaryCity}, {brand.primaryState} {brand.postalCode}</div>
+        <div>{brand.addressCity}, {brand.addressState} {brand.postalCode}</div>
         <div class="mt-3"><a href={`tel:${brand.phoneRaw}`} class="text-primary font-bold no-underline hover:underline">{brand.phone}</a></div>
         <div><a href={`mailto:${brand.email}`} class="text-primary no-underline hover:underline">{brand.email}</a></div>
       </address>

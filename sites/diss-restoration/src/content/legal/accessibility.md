@@ -40,7 +40,7 @@ If a page or feature is not working as expected with your assistive technology, 
 
 - **Phone:** (724) 981-1441
 - **Email:** info@dissrestoration.com
-- **Mailing address:** 712 Spearman Avenue, Youngstown, OH 16121
+- **Mailing address:** 712 Spearman Avenue, Farrell, PA 16121
 
 When you contact us, please describe the page you were visiting, the assistive technology or browser you were using, and what you were trying to do. That detail helps us reproduce and resolve the issue faster.
 

@@ -45,7 +45,7 @@ GDPR (the European Union's General Data Protection Regulation) is unlikely to ap
 If you have questions about how your information is handled, want to request access to or deletion of your data, or need to report a concern, reach out directly:
 
 **DISS Restoration**  
-712 Spearman Avenue, Youngstown, OH 16121  
+712 Spearman Avenue, Farrell, PA 16121  
 Phone: (724) 981-1441  
 Email: info@dissrestoration.com
 
