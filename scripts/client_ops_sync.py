@@ -1636,6 +1636,43 @@ def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
     return lines
 
 
+def ensure_company_owner(dry_run: bool, cid_to_slug: dict) -> list[str]:
+    """Every company must have at least one owner/admin (Santino 2026-09-03).
+    Frontline and DISS were invisible to the superadmin account switcher
+    because ALL their users were plain members - the switcher only lists
+    companies via owner/admin/superadmin profiles, and several features gate
+    on those roles. The auth trigger now makes the first account of a
+    company its owner, but profiles also arrive via invites and ghl-sync;
+    this nightly pass is the guarantee: any active company with users but
+    no owner/admin gets its earliest-created profile promoted to owner,
+    with a digest line so the promotion is visible."""
+    out: list[str] = []
+    cos = _sb("GET", "/rest/v1/companies?status=ilike.active&select=id,name",
+              prefer="return=representation") or []
+    for co in cos:
+        cid = co["id"]
+        profs = _sb("GET", f"/rest/v1/profiles?company_id=eq.{cid}"
+                    "&select=id,role,email,updated_at&order=updated_at.asc",
+                    prefer="return=representation") or []
+        if not profs:
+            continue
+        if any((p.get("role") or "") in ("owner", "admin", "superadmin")
+               for p in profs):
+            continue
+        first = profs[0]
+        slug = cid_to_slug.get(cid, co.get("name") or cid)
+        if dry_run:
+            out.append(f"{slug}: WOULD promote {first.get('email')} to owner "
+                       "(company had no owner/admin)")
+            continue
+        _sb("PATCH", f"/rest/v1/profiles?id=eq.{first['id']}"
+            f"&company_id=eq.{cid}", {"role": "owner"})
+        out.append(f"{slug}: {first.get('email')} promoted to OWNER — company "
+                   "had no owner/admin and was invisible to the account "
+                   "switcher")
+    return out
+
+
 def expire_dated_holds(dry_run: bool, cid_to_slug: dict) -> list[str]:
     """Auto-resolve hold notes whose own deadline has passed (Santino
     2026-09-03: "shouldn't the whole note resolve itself once the date
@@ -1712,7 +1749,7 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
 
     ensure_bootstrapped(dry_run, do_send, cid_to_slug)
     sweep_lines: list[str] = []   # "{slug}: what happened" from every pass
-    for fn in (expire_dated_holds,
+    for fn in (ensure_company_owner, expire_dated_holds,
                ensure_google_connect_asks, ensure_gbp_first_sync,
                ensure_gbp_manager_access, ensure_ads_mcc_access,
                ensure_baseline_scans, ensure_ads_first_sync,
