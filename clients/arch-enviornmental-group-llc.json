@@ -11,18 +11,18 @@
     "template": "restoration",
     "template_version": "0.3.0",
     "url_count": 27,
-    "generated_at": "2026-09-03T14:05:24.688659+00:00"
+    "generated_at": "2026-09-03T16:29:41.385683+00:00"
   },
-  "updated_at": "2026-09-03T14:05:36.583734+00:00",
+  "updated_at": "2026-09-03T16:29:45.509335+00:00",
   "indexnow_key": "2c6c0206ffe44f7e93d6ab9b17168a31",
   "build": {
-    "scaffolded_at": "2026-09-03T14:05:36.583620+00:00",
+    "scaffolded_at": "2026-09-03T16:29:45.509180+00:00",
     "github_repo": "restorationai/arch-enviornmental-group-llc-site",
     "pages_project": "rankai-arch-enviornmental-group-llc",
     "starter_version": "0.1.0",
     "url_count": 27,
-    "pages_status": "created",
-    "last_rendered_at": "2026-09-03T14:09:53.040456+00:00"
+    "pages_status": "exists",
+    "last_rendered_at": "2026-09-03T16:34:04.227923+00:00"
   },
   "build_status": "content_partial"
 }
