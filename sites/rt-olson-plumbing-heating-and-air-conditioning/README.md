@@ -66,7 +66,32 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Ontario, CA](https://rtolsonplumbing.com/service-areas/ontario-ca/)
 - [Chino, CA](https://rtolsonplumbing.com/service-areas/chino-ca/)
 - [Norco, CA](https://rtolsonplumbing.com/service-areas/norco-ca/)
-- [Yorba Linda, CA](https://rtolsonplumbing.com/service-areas/yorba-linda-ca/)` / `Available on request` / `Greater Corona region` | computed at scaffold from plan + brand | |
+- [Yorba Linda, CA](https://rtolsonplumbing.com/service-areas/yorba-linda-ca/)
+- [Eastvale, CA](https://rtolsonplumbing.com/service-areas/eastvale-ca/)
+- [Lake Elsinore, CA](https://rtolsonplumbing.com/service-areas/lake-elsinore-ca/)
+- [Jurupa Valley, CA](https://rtolsonplumbing.com/service-areas/jurupa-valley-ca/)
+- [Mira Loma, CA](https://rtolsonplumbing.com/service-areas/mira-loma-ca/)
+- [Wildomar, CA](https://rtolsonplumbing.com/service-areas/wildomar-ca/)
+- [Temecula, CA](https://rtolsonplumbing.com/service-areas/temecula-ca/)
+- [Murrieta, CA](https://rtolsonplumbing.com/service-areas/murrieta-ca/)
+- [Menifee, CA](https://rtolsonplumbing.com/service-areas/menifee-ca/)
+- [Canyon Lake, CA](https://rtolsonplumbing.com/service-areas/canyon-lake-ca/)
+- [Sun City, CA](https://rtolsonplumbing.com/service-areas/sun-city-ca/)
+- [French Valley, CA](https://rtolsonplumbing.com/service-areas/french-valley-ca/)
+- [Winchester, CA](https://rtolsonplumbing.com/service-areas/winchester-ca/)
+- [Ontario Ranch, CA](https://rtolsonplumbing.com/service-areas/ontario-ranch-ca/)
+- [Chino Hills, CA](https://rtolsonplumbing.com/service-areas/chino-hills-ca/)
+- [Fontana, CA](https://rtolsonplumbing.com/service-areas/fontana-ca/)
+- [Upland, CA](https://rtolsonplumbing.com/service-areas/upland-ca/)
+- [Claremont, CA](https://rtolsonplumbing.com/service-areas/claremont-ca/)
+- [Pomona, CA](https://rtolsonplumbing.com/service-areas/pomona-ca/)
+- [Montclair, CA](https://rtolsonplumbing.com/service-areas/montclair-ca/)
+- [Bloomington, CA](https://rtolsonplumbing.com/service-areas/bloomington-ca/)
+- [Rialto, CA](https://rtolsonplumbing.com/service-areas/rialto-ca/)
+- [Diamond Bar, CA](https://rtolsonplumbing.com/service-areas/diamond-bar-ca/)
+- [San Bernardino, CA](https://rtolsonplumbing.com/service-areas/san-bernardino-ca/)
+- [Hemet, CA](https://rtolsonplumbing.com/service-areas/hemet-ca/)
+- [San Jacinto, CA](https://rtolsonplumbing.com/service-areas/san-jacinto-ca/)` / `Available on request` / `Greater Corona region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

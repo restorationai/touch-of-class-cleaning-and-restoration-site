@@ -12,8 +12,6 @@ import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
 import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
 import RecentWork from "~/components/RecentWork.astro";
-import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
-import VideoTestimonials from "~/components/ui/VideoTestimonials.astro";
 import ProudlyServing from "~/components/ui/ProudlyServing.astro";
 import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
@@ -41,22 +39,19 @@ const services = (allServices as CollectionEntry<"services">[])
   schema_ctx={{ archetype: "home" }}
   faq={data.faq}
 >
-  {/* Hero background = the REAL crew photo from rtolsonplumbing.com (eight
-      techs in front of a branded van) — Santino 2026-08-29: real fleet/team
-      beats the generated scene here. The quote form rides IN the hero
-      (right column, eladiosdemolition.com pattern) and satisfies Bobby's
-      2026-08-18 "top-of-page lead form" item one screen higher than before. */}
-  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp">
-    <FreeEstimateForm bare slot="aside" />
-  </Hero>
+  {/* Homepage hero background. DEFAULT for new builds: a branded small-fleet
+      scene (3-5 matched vehicles in the client's brand-color livery, region-
+      matched street, golden hour, calm left third for the headline) generated
+      per the client's image-style-guide.md "Homepage hero" spec, uploaded to
+      R2 at brand/hero-fleet.webp and referenced via brand.imagesBase — or
+      dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
+  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" />
 
   <TrustStrip />
 
   <ReviewsStrip />
 
-  <VideoTestimonials />
-
-  <AboutSection imageSrc="/images/founders.webp" imageAlt={`${brand.displayName} technicians in front of a branded service van`}>
+  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} technician loading a branded service van`}>
     <p>
       {/* Vertical copy — never hardcode a trade phrase here (industry-bleed
           audit 2026-07-31: this paragraph shipped All Pro's plumbing identity
