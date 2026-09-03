@@ -168,6 +168,13 @@ scene, wrong region.
    camera (same geometry), paste the original pixels back over the text
    region with PIL and quality-check the seam. Two failed prompt retries on
    lettering = switch to the composite.
+2d. **The client's real fleet/brand photos are your reference material.**
+   Before editing or generating any vehicle or branded scene, check
+   clients/{slug}/harvested/ for real photos of their trucks, signage and
+   people, and pass them as reference images so wraps, colors and phone
+   numbers match the client's ACTUAL livery (ProRestoration 2026-09-03:
+   hero vans got the real wrap + 661 number this way). Local geography must
+   match reality too — Bakersfield is flat; no invented hills.
 3. **Quality-gate every image before you accept it.** Look at the file. Reject
    and regenerate on: garbled or invented lettering on a wrap or a uniform,
    anatomy errors (extra/merged limbs, wrong shoulder, rubbery arms), the
