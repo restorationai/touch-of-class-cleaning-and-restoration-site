@@ -1,0 +1,23 @@
+---
+export const prerender = true;
+import LpLayoutV2 from "~/components/lp/LpLayoutV2.astro";
+import LpLayoutV1 from "~/components/lp/LpLayoutV1.astro";
+import LpLayoutV3 from "~/components/lp/LpLayoutV3.astro";
+import rawManifest from "~/data/lp-manifest.json";
+
+export function getStaticPaths() {
+  return (rawManifest as any[]).map((page) => ({
+    params: { slug: page.slug },
+    props: page,
+  }));
+}
+
+const page = Astro.props as any;
+---
+
+{page.variant === "v1"
+  ? <LpLayoutV1 {...page} />
+  : page.variant === "v3"
+  ? <LpLayoutV3 {...page} />
+  : <LpLayoutV2 {...page} />
+}

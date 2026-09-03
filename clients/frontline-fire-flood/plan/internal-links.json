@@ -1,0 +1,1020 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/emergency-board-up-tarping/",
+    "/services/asbestos-abatement/",
+    "/services/contents-restoration-storage/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/university-place-wa/"
+  ],
+  "/services/": [
+    "/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/emergency-board-up-tarping/",
+    "/services/asbestos-abatement/",
+    "/services/contents-restoration-storage/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/university-place-wa/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/fire-damage-restoration-process/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/water-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/service-areas/olympia-wa/water-damage-restoration/",
+    "/service-areas/parkland-wa/water-damage-restoration/",
+    "/service-areas/puyallup-wa/water-damage-restoration/",
+    "/service-areas/spanaway-wa/water-damage-restoration/",
+    "/service-areas/tacoma-wa/water-damage-restoration/",
+    "/service-areas/university-place-wa/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/fire-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/service-areas/parkland-wa/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/"
+  ],
+  "/services/mold-remediation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/service-areas/parkland-wa/mold-remediation/",
+    "/service-areas/puyallup-wa/mold-remediation/",
+    "/service-areas/spanaway-wa/mold-remediation/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/services/storm-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/dupont-wa/storm-damage-restoration/",
+    "/service-areas/lacey-wa/storm-damage-restoration/",
+    "/service-areas/olympia-wa/storm-damage-restoration/",
+    "/service-areas/parkland-wa/storm-damage-restoration/",
+    "/service-areas/puyallup-wa/storm-damage-restoration/",
+    "/service-areas/spanaway-wa/storm-damage-restoration/",
+    "/service-areas/tacoma-wa/storm-damage-restoration/",
+    "/service-areas/university-place-wa/storm-damage-restoration/"
+  ],
+  "/services/sewage-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/dupont-wa/sewage-cleanup/",
+    "/service-areas/lacey-wa/sewage-cleanup/",
+    "/service-areas/olympia-wa/sewage-cleanup/",
+    "/service-areas/parkland-wa/sewage-cleanup/",
+    "/service-areas/puyallup-wa/sewage-cleanup/",
+    "/service-areas/spanaway-wa/sewage-cleanup/",
+    "/service-areas/tacoma-wa/sewage-cleanup/",
+    "/service-areas/university-place-wa/sewage-cleanup/"
+  ],
+  "/services/asbestos-abatement/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/dupont-wa/asbestos-abatement/",
+    "/service-areas/lacey-wa/asbestos-abatement/",
+    "/service-areas/olympia-wa/asbestos-abatement/",
+    "/service-areas/parkland-wa/asbestos-abatement/",
+    "/service-areas/puyallup-wa/asbestos-abatement/",
+    "/service-areas/spanaway-wa/asbestos-abatement/",
+    "/service-areas/tacoma-wa/asbestos-abatement/",
+    "/service-areas/university-place-wa/asbestos-abatement/"
+  ],
+  "/services/emergency-board-up-tarping/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/dupont-wa/emergency-board-up-tarping/",
+    "/service-areas/lacey-wa/emergency-board-up-tarping/",
+    "/service-areas/olympia-wa/emergency-board-up-tarping/",
+    "/service-areas/parkland-wa/emergency-board-up-tarping/",
+    "/service-areas/puyallup-wa/emergency-board-up-tarping/",
+    "/service-areas/spanaway-wa/emergency-board-up-tarping/",
+    "/service-areas/tacoma-wa/emergency-board-up-tarping/",
+    "/service-areas/university-place-wa/emergency-board-up-tarping/"
+  ],
+  "/services/contents-restoration-storage/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/dupont-wa/contents-restoration-storage/",
+    "/service-areas/lacey-wa/contents-restoration-storage/",
+    "/service-areas/olympia-wa/contents-restoration-storage/",
+    "/service-areas/parkland-wa/contents-restoration-storage/",
+    "/service-areas/puyallup-wa/contents-restoration-storage/",
+    "/service-areas/spanaway-wa/contents-restoration-storage/",
+    "/service-areas/tacoma-wa/contents-restoration-storage/",
+    "/service-areas/university-place-wa/contents-restoration-storage/"
+  ],
+  "/services/water-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/dupont-wa/water-cleanup/",
+    "/service-areas/lacey-wa/water-cleanup/",
+    "/service-areas/olympia-wa/water-cleanup/",
+    "/service-areas/parkland-wa/water-cleanup/",
+    "/service-areas/puyallup-wa/water-cleanup/",
+    "/service-areas/spanaway-wa/water-cleanup/",
+    "/service-areas/tacoma-wa/water-cleanup/",
+    "/service-areas/university-place-wa/water-cleanup/"
+  ],
+  "/service-areas/tacoma-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/tacoma-wa/water-damage-restoration/",
+    "/service-areas/tacoma-wa/sewage-cleanup/",
+    "/service-areas/tacoma-wa/storm-damage-restoration/",
+    "/service-areas/tacoma-wa/water-cleanup/",
+    "/service-areas/tacoma-wa/emergency-board-up-tarping/",
+    "/service-areas/tacoma-wa/asbestos-abatement/",
+    "/service-areas/tacoma-wa/contents-restoration-storage/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/olympia-wa/"
+  ],
+  "/service-areas/puyallup-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/puyallup-wa/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/mold-remediation/",
+    "/service-areas/puyallup-wa/water-damage-restoration/",
+    "/service-areas/puyallup-wa/sewage-cleanup/",
+    "/service-areas/puyallup-wa/storm-damage-restoration/",
+    "/service-areas/puyallup-wa/water-cleanup/",
+    "/service-areas/puyallup-wa/emergency-board-up-tarping/",
+    "/service-areas/puyallup-wa/asbestos-abatement/",
+    "/service-areas/puyallup-wa/contents-restoration-storage/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/olympia-wa/"
+  ],
+  "/service-areas/university-place-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/service-areas/university-place-wa/water-damage-restoration/",
+    "/service-areas/university-place-wa/sewage-cleanup/",
+    "/service-areas/university-place-wa/storm-damage-restoration/",
+    "/service-areas/university-place-wa/water-cleanup/",
+    "/service-areas/university-place-wa/emergency-board-up-tarping/",
+    "/service-areas/university-place-wa/asbestos-abatement/",
+    "/service-areas/university-place-wa/contents-restoration-storage/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/olympia-wa/"
+  ],
+  "/service-areas/lacey-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/service-areas/lacey-wa/sewage-cleanup/",
+    "/service-areas/lacey-wa/storm-damage-restoration/",
+    "/service-areas/lacey-wa/water-cleanup/",
+    "/service-areas/lacey-wa/emergency-board-up-tarping/",
+    "/service-areas/lacey-wa/asbestos-abatement/",
+    "/service-areas/lacey-wa/contents-restoration-storage/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/parkland-wa/"
+  ],
+  "/service-areas/olympia-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/service-areas/olympia-wa/water-damage-restoration/",
+    "/service-areas/olympia-wa/sewage-cleanup/",
+    "/service-areas/olympia-wa/storm-damage-restoration/",
+    "/service-areas/olympia-wa/water-cleanup/",
+    "/service-areas/olympia-wa/emergency-board-up-tarping/",
+    "/service-areas/olympia-wa/asbestos-abatement/",
+    "/service-areas/olympia-wa/contents-restoration-storage/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/parkland-wa/"
+  ],
+  "/service-areas/spanaway-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/spanaway-wa/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/mold-remediation/",
+    "/service-areas/spanaway-wa/water-damage-restoration/",
+    "/service-areas/spanaway-wa/sewage-cleanup/",
+    "/service-areas/spanaway-wa/storm-damage-restoration/",
+    "/service-areas/spanaway-wa/water-cleanup/",
+    "/service-areas/spanaway-wa/emergency-board-up-tarping/",
+    "/service-areas/spanaway-wa/asbestos-abatement/",
+    "/service-areas/spanaway-wa/contents-restoration-storage/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/olympia-wa/"
+  ],
+  "/service-areas/parkland-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/parkland-wa/fire-damage-restoration/",
+    "/service-areas/parkland-wa/mold-remediation/",
+    "/service-areas/parkland-wa/water-damage-restoration/",
+    "/service-areas/parkland-wa/sewage-cleanup/",
+    "/service-areas/parkland-wa/storm-damage-restoration/",
+    "/service-areas/parkland-wa/water-cleanup/",
+    "/service-areas/parkland-wa/emergency-board-up-tarping/",
+    "/service-areas/parkland-wa/asbestos-abatement/",
+    "/service-areas/parkland-wa/contents-restoration-storage/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/olympia-wa/"
+  ],
+  "/service-areas/dupont-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/sewage-cleanup/",
+    "/service-areas/dupont-wa/storm-damage-restoration/",
+    "/service-areas/dupont-wa/water-cleanup/",
+    "/service-areas/dupont-wa/emergency-board-up-tarping/",
+    "/service-areas/dupont-wa/asbestos-abatement/",
+    "/service-areas/dupont-wa/contents-restoration-storage/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/parkland-wa/"
+  ],
+  "/service-areas/tacoma-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tacoma-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/tacoma-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tacoma-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/tacoma-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/dupont-wa/storm-damage-restoration/",
+    "/service-areas/lacey-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tacoma-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/dupont-wa/sewage-cleanup/",
+    "/service-areas/lacey-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/tacoma-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/dupont-wa/asbestos-abatement/",
+    "/service-areas/lacey-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/tacoma-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/dupont-wa/emergency-board-up-tarping/",
+    "/service-areas/lacey-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/tacoma-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/dupont-wa/contents-restoration-storage/",
+    "/service-areas/lacey-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/tacoma-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-cleanup/",
+    "/service-areas/lacey-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/puyallup-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/puyallup-wa/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/puyallup-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/puyallup-wa/mold-remediation/",
+    "/service-areas/puyallup-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/puyallup-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/puyallup-wa/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/puyallup-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/puyallup-wa/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/mold-remediation/",
+    "/service-areas/dupont-wa/storm-damage-restoration/",
+    "/service-areas/lacey-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/puyallup-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/puyallup-wa/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/mold-remediation/",
+    "/service-areas/dupont-wa/sewage-cleanup/",
+    "/service-areas/lacey-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/puyallup-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/puyallup-wa/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/mold-remediation/",
+    "/service-areas/dupont-wa/asbestos-abatement/",
+    "/service-areas/lacey-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/puyallup-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/puyallup-wa/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/mold-remediation/",
+    "/service-areas/dupont-wa/emergency-board-up-tarping/",
+    "/service-areas/lacey-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/puyallup-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/puyallup-wa/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/mold-remediation/",
+    "/service-areas/dupont-wa/contents-restoration-storage/",
+    "/service-areas/lacey-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/puyallup-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/puyallup-wa/",
+    "/service-areas/puyallup-wa/fire-damage-restoration/",
+    "/service-areas/puyallup-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-cleanup/",
+    "/service-areas/lacey-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/university-place-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/university-place-wa/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/university-place-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/university-place-wa/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/service-areas/university-place-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/university-place-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/university-place-wa/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/university-place-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/university-place-wa/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/service-areas/dupont-wa/storm-damage-restoration/",
+    "/service-areas/lacey-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/university-place-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/university-place-wa/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/service-areas/dupont-wa/sewage-cleanup/",
+    "/service-areas/lacey-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/university-place-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/university-place-wa/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/service-areas/dupont-wa/asbestos-abatement/",
+    "/service-areas/lacey-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/university-place-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/university-place-wa/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/service-areas/dupont-wa/emergency-board-up-tarping/",
+    "/service-areas/lacey-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/university-place-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/university-place-wa/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/service-areas/dupont-wa/contents-restoration-storage/",
+    "/service-areas/lacey-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/university-place-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/university-place-wa/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-cleanup/",
+    "/service-areas/lacey-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lacey-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/olympia-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lacey-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lacey-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/lacey-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/dupont-wa/storm-damage-restoration/",
+    "/service-areas/olympia-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lacey-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/dupont-wa/sewage-cleanup/",
+    "/service-areas/olympia-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lacey-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/dupont-wa/asbestos-abatement/",
+    "/service-areas/olympia-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/lacey-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/dupont-wa/emergency-board-up-tarping/",
+    "/service-areas/olympia-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/lacey-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/dupont-wa/contents-restoration-storage/",
+    "/service-areas/olympia-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/lacey-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/lacey-wa/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-cleanup/",
+    "/service-areas/olympia-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/olympia-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/olympia-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/service-areas/olympia-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/olympia-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/olympia-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/service-areas/dupont-wa/storm-damage-restoration/",
+    "/service-areas/lacey-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/olympia-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/service-areas/dupont-wa/sewage-cleanup/",
+    "/service-areas/lacey-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/olympia-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/service-areas/dupont-wa/asbestos-abatement/",
+    "/service-areas/lacey-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/olympia-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/service-areas/dupont-wa/emergency-board-up-tarping/",
+    "/service-areas/lacey-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/olympia-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/service-areas/dupont-wa/contents-restoration-storage/",
+    "/service-areas/lacey-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/olympia-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/olympia-wa/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-cleanup/",
+    "/service-areas/lacey-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/spanaway-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/spanaway-wa/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/spanaway-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/spanaway-wa/mold-remediation/",
+    "/service-areas/spanaway-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/spanaway-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/spanaway-wa/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/spanaway-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/spanaway-wa/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/mold-remediation/",
+    "/service-areas/dupont-wa/storm-damage-restoration/",
+    "/service-areas/lacey-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/spanaway-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/spanaway-wa/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/mold-remediation/",
+    "/service-areas/dupont-wa/sewage-cleanup/",
+    "/service-areas/lacey-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/spanaway-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/spanaway-wa/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/mold-remediation/",
+    "/service-areas/dupont-wa/asbestos-abatement/",
+    "/service-areas/lacey-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/spanaway-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/spanaway-wa/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/mold-remediation/",
+    "/service-areas/dupont-wa/emergency-board-up-tarping/",
+    "/service-areas/lacey-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/spanaway-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/spanaway-wa/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/mold-remediation/",
+    "/service-areas/dupont-wa/contents-restoration-storage/",
+    "/service-areas/lacey-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/spanaway-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/spanaway-wa/",
+    "/service-areas/spanaway-wa/fire-damage-restoration/",
+    "/service-areas/spanaway-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-cleanup/",
+    "/service-areas/lacey-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/parkland-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/parkland-wa/fire-damage-restoration/",
+    "/service-areas/parkland-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/parkland-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/parkland-wa/mold-remediation/",
+    "/service-areas/parkland-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/parkland-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/parkland-wa/fire-damage-restoration/",
+    "/service-areas/parkland-wa/water-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/parkland-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/parkland-wa/fire-damage-restoration/",
+    "/service-areas/parkland-wa/mold-remediation/",
+    "/service-areas/dupont-wa/storm-damage-restoration/",
+    "/service-areas/lacey-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/parkland-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/parkland-wa/fire-damage-restoration/",
+    "/service-areas/parkland-wa/mold-remediation/",
+    "/service-areas/dupont-wa/sewage-cleanup/",
+    "/service-areas/lacey-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/parkland-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/parkland-wa/fire-damage-restoration/",
+    "/service-areas/parkland-wa/mold-remediation/",
+    "/service-areas/dupont-wa/asbestos-abatement/",
+    "/service-areas/lacey-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/parkland-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/parkland-wa/fire-damage-restoration/",
+    "/service-areas/parkland-wa/mold-remediation/",
+    "/service-areas/dupont-wa/emergency-board-up-tarping/",
+    "/service-areas/lacey-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/parkland-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/parkland-wa/fire-damage-restoration/",
+    "/service-areas/parkland-wa/mold-remediation/",
+    "/service-areas/dupont-wa/contents-restoration-storage/",
+    "/service-areas/lacey-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/parkland-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/parkland-wa/",
+    "/service-areas/parkland-wa/fire-damage-restoration/",
+    "/service-areas/parkland-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-cleanup/",
+    "/service-areas/lacey-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/dupont-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/water-damage-restoration/",
+    "/service-areas/olympia-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dupont-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/lacey-wa/fire-damage-restoration/",
+    "/service-areas/olympia-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dupont-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/dupont-wa/water-damage-restoration/",
+    "/service-areas/lacey-wa/mold-remediation/",
+    "/service-areas/olympia-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/dupont-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/storm-damage-restoration/",
+    "/service-areas/olympia-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dupont-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/sewage-cleanup/",
+    "/service-areas/olympia-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/dupont-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/asbestos-abatement/",
+    "/service-areas/olympia-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/dupont-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/emergency-board-up-tarping/",
+    "/service-areas/olympia-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/dupont-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/contents-restoration-storage/",
+    "/service-areas/olympia-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/dupont-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/dupont-wa/",
+    "/service-areas/dupont-wa/fire-damage-restoration/",
+    "/service-areas/dupont-wa/mold-remediation/",
+    "/service-areas/lacey-wa/water-cleanup/",
+    "/service-areas/olympia-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/blog/what-to-do-first-24-hours-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/burst-pipe-emergency-checklist/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/does-homeowners-insurance-cover-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/signs-of-hidden-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/how-to-test-for-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/fire-damage-restoration-process/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/choosing-a-restoration-company/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/black-mold-vs-regular-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}
