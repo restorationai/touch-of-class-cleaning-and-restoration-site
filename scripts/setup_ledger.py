@@ -2029,10 +2029,39 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         # this class of miss can't recur whatever built the site.
         try:
             _site = _sb("GET", f"/rest/v1/marketing_sites?company_id=eq.{cid}"
-                        "&select=build_status,cloudflare_pages_url&limit=1",
+                        "&select=build_status,cloudflare_pages_url,"
+                        "last_pushed_staging_at,apex_live&limit=1",
                         prefer="return=representation") or []
             _site = _site[0] if _site else {}
-            if _site.get("build_status") in ("preview_ready", "pushed_staging"):
+            # PERCEPTION WINDOW (Santino 2026-09-03, Kenny/Veterans pilot):
+            # the reveal waits 7 days from the first staging push, so the
+            # brand pass finishes and the build reads as crafted, not
+            # instant. An open note matching "share now|release early"
+            # overrides; Santino's dated holds still extend it the other way.
+            import datetime as _dtmod
+            _staged = str(_site.get("last_pushed_staging_at") or "")[:10]
+            _in_window = False
+            if _staged and not _site.get("apex_live"):
+                try:
+                    _age = (_dtmod.date.today()
+                            - _dtmod.date.fromisoformat(_staged)).days
+                    _in_window = _age < 7
+                except ValueError:
+                    pass
+            if _in_window:
+                _release = any(
+                    re.search(r"share\s+now|release\s+early|reveal\s+now",
+                              str(n.get("body", "")), re.I)
+                    for n in _sb("GET", "/rest/v1/marketing_ops_notes"
+                                 f"?company_id=eq.{cid}&status=eq.open"
+                                 "&select=body&limit=20",
+                                 prefer="return=representation") or [])
+                if not _release:
+                    attention.append(
+                        f"{slug}: site in the 7-day perception window "
+                        f"(staged {_staged}) — preview reveal holds until "
+                        "day 7; note 'share now' to release early")
+            if not _in_window and _site.get("build_status") in ("preview_ready", "pushed_staging"):
                 fb_key = f"site-preview-feedback-{slug}"
                 _ever = _sb("GET", "/rest/v1/marketing_action_plan"
                             f"?company_id=eq.{cid}&action_key=eq.{fb_key}"
