@@ -47,6 +47,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -68,6 +69,18 @@ from feedback_router import (compose_done_directive, parse_origin,  # noqa: E402
 INBOX_PAGE = 1000
 
 
+def _bucket_of(company_id: str) -> int:
+    """Stable client->bucket assignment for parallel agent runs (Santino
+    2026-09-03 scale-up). md5 so the split survives restarts and every
+    client's tasks always land in the SAME bucket — two agents never touch
+    the same client's files in the same run."""
+    import hashlib as _hl
+    buckets = max(1, int(os.environ.get("DEV_BUCKETS", "1") or 1))
+    if buckets == 1:
+        return 0
+    return int(_hl.md5((company_id or "").encode()).hexdigest(), 16) % buckets
+
+
 def open_devs() -> list[dict]:
     # EXPLICIT page + a loud warning when it fills (2026-08-05). The query
     # had no limit, so it inherited PostgREST's server cap — and with
@@ -84,8 +97,12 @@ def open_devs() -> list[dict]:
               file=sys.stderr)
     smap = slug_map()
     out = []
+    my_bucket = int(os.environ.get("DEV_BUCKET", "0") or 0)
+    buckets = max(1, int(os.environ.get("DEV_BUCKETS", "1") or 1))
     for n in notes:
         if not n["body"].startswith("[DEV]"):
+            continue
+        if buckets > 1 and _bucket_of(n["company_id"] or "") != my_bucket:
             continue
         out.append({"id": n["id"], "company_id": n["company_id"],
                     "slug": smap.get(n["company_id"]),

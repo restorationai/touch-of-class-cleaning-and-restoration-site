@@ -18,12 +18,26 @@ on:
                            # same-day instead of waiting for the overnight run)
   workflow_dispatch: {}
 
+concurrency:
+  group: dev-agent
+  cancel-in-progress: false
+
 jobs:
   dev-agent:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      # PARALLEL BUCKETS (Santino 2026-09-03 scale-up): two agents per run,
+      # clients hashed to a stable bucket so the same client's files are
+      # never touched by both. Scale by raising the matrix + DEV_BUCKETS.
+      matrix:
+        bucket: [0, 1]
     # 80, not 55 (2026-08-05): an imagery correction is 3-4 generate+inspect
     # rounds per image, and a half-finished image task is worse than a punt.
     timeout-minutes: 170   # raised from 80 (Santino 2026-09-03: stress-test night — 4 clients' cards incl. image generation)
+    env:
+      DEV_BUCKET: ${{ matrix.bucket }}
+      DEV_BUCKETS: "2"
 
     steps:
       - name: Checkout repo
@@ -53,7 +67,7 @@ jobs:
         run: |
           COUNT=$(python3 scripts/dev_inbox.py count)
           echo "count=$COUNT" >> "$GITHUB_OUTPUT"
-          echo "Open [DEV] tasks: $COUNT"
+          echo "Open [DEV] tasks in bucket ${DEV_BUCKET}: $COUNT"
 
       - name: Configure git identity
         if: steps.inbox.outputs.count != '0'
@@ -93,5 +107,5 @@ jobs:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: |
           python3 scripts/notify_failure.py \
-            --subject "[Rank AI] CI failure: Dev Agent run #${{ github.run_number }}" \
+            --subject "[Rank AI] CI failure: Dev Agent run #${{ github.run_number }} (bucket ${{ matrix.bucket }})" \
             --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true

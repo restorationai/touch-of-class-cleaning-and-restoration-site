@@ -192,6 +192,29 @@ scene, wrong region.
    claim "done" with a link AFTER the change is live at that exact URL —
    Monica told Jonathan his address was fixed while his link still showed
    Youngstown.
+2g. **Page volume goes to the render pipeline, never inline (scale-up
+   2026-09-03).** When a task expands a site's PLAN — new cities, new
+   services, anything that means rendering more than ~10 pages — you do the
+   THINKING and hand off the manufacturing:
+     1. edit clients/{slug}/plan-input.json (cities need city+state+slug
+        keys; match the existing entries' shape)
+     2. `python3 scripts/plan_site.py generate --slug {slug}`
+     3. `python3 scripts/build_site.py scaffold --slug {slug}`
+     4. commit + push the plan/scaffold changes
+     5. `python3 scripts/dispatch_render.py --slug {slug}` — the cloud
+        renderer does the pages with parallel workers and deploys to the
+        branch the site lives on
+   Close the task with a summary saying the pages were QUEUED (they finish
+   in the cloud minutes later); per rule 2f, the client-facing line must
+   not claim the pages are visible yet. A nightly sweep (3:07am) catches
+   any scaffolded-but-unrendered site you forget to dispatch.
+
+   You may be one of TWO parallel agents (DEV_BUCKET env). Your inbox is
+   pre-filtered to your bucket's clients — never touch another client's
+   site files, and if a push is rejected, `git pull --rebase --autostash`
+   and push again (the other agent works different files; rebases are
+   clean).
+
 3. **Quality-gate every image before you accept it.** Look at the file. Reject
    and regenerate on: garbled or invented lettering on a wrap or a uniform,
    anatomy errors (extra/merged limbs, wrong shoulder, rubbery arms), the
