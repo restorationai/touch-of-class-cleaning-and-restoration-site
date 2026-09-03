@@ -175,6 +175,15 @@ scene, wrong region.
    numbers match the client's ACTUAL livery (ProRestoration 2026-09-03:
    hero vans got the real wrap + 661 number this way). Local geography must
    match reality too — Bakersfield is flat; no invented hills.
+2e. **Vehicles: mockup first, then propagate (Santino 2026-09-03).** For any
+   client whose images show their fleet: build ONE canonical van/truck mockup
+   from their real harvested photos (exact body style, exact wrap, phone
+   number), save it as clients/{slug}/van-wrap-mockup.jpg, and use it as the
+   reference image for every scene that includes a vehicle. One source of
+   truth ends per-image wrap drift. Also: for pure COLOR changes (a shirt,
+   a hood) prefer a deterministic pixel recolor (PIL hue-shift, region-
+   masked) over an AI edit — zero text risk, zero recompose risk; the AI
+   edit is for changes that need real redrawing.
 3. **Quality-gate every image before you accept it.** Look at the file. Reject
    and regenerate on: garbled or invented lettering on a wrap or a uniform,
    anatomy errors (extra/merged limbs, wrong shoulder, rubbery arms), the

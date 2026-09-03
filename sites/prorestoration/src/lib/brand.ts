@@ -47,12 +47,12 @@ export const brand = {
   gbpRatingValue: "4.8",
   gbpReviewCount: "105",
   gbpReviews: [
+    { author: "Akmaral", rating: 5, text: "I’ve used ProRestoration twice for water damage in my bathroom, and both experiences were excellent. Angie and Shana were wonderful to work with—reliable, professional, and great at communicating with my insurance company. Carlos and his team also did an amazing job with the repairs. I highly…", when: "August 2026" },
     { author: "Luis", rating: 5, text: "Friendly, knowledgeable and reliable person", when: "July 2026" },
     { author: "Aubrey", rating: 5, text: "Was in contact with Jack, he was able to answer all my questions regarding restoration. Very pleased with his service! such a great company to work with. Thank you Jack!", when: "June 2026" },
     { author: "Pedro", rating: 5, text: "I am writing to express my sincere gratitude for the exceptional service your team has provided. I have been a customer since the beginning of 2023, when I first found your company through a Google search following water damage in my home. I was very happy with the service and the quick turnaround…", when: "June 2026" },
     { author: "Emily", rating: 5, text: "Wonderful staff. Understanding and helpful. We appreciate your team!", when: "May 2026" },
     { author: "Sheila", rating: 5, text: "Carlos just put up the drywall in my kitchen after water damage. He did a very good job. He covered everything and blocked off the kitchen when he did some sanding. I’m very happy with the job he did. The first guys that came to remove the damaged drywall were terrible. They didn’t cover my stove…", when: "May 2026" },
-    { author: "Ed", rating: 5, text: "Fantastic Work. Great People. Highly recommend.", when: "April 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Bakersfield, CA.",
   ctaLabel: "24/7 Emergency Hotline",
