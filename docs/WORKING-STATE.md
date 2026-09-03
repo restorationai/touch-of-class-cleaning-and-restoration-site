@@ -1,6 +1,90 @@
 # Working State — leave-and-resume doc
 
-Updated: 2026-09-02 early AM (PT). Keep this current when a work thread pauses.
+Updated: 2026-09-03 ~1:30 AM (PT). Keep this current when a work thread pauses.
+
+## 2026-09-03 — QUEUE SAVED (resume here in the morning)
+
+### Morning schedule (Thu Sep 3, all PT)
+- ~7:00 daily ops lane: 4 unblocked auto site-builds fire (Frontline, DRYCOR,
+  Arch, Xtreme — payment gate healed via Stripe backfill; Xtreme will stall on
+  no-NAP, that's expected)
+- 9:00 **Bobby** (RT Olson): review staging (blue-hood fleet hero, founders
+  About, toilet-scene edit, ac-repair blue hood, "best plumber in Corona";
+  424-URL 34-city expansion already LIVE on production). On his OK: promote
+  staging visuals to main + run the remaining minimal-edit batch (9 images:
+  gray pants + flag patches, 2 tan→blue shirts on leak-detection +
+  indoor-air-quality, swap industrial pump on emergency-plumbing). His
+  filtration flyer + DBA/GMB-name decision still owed by him.
+- 9:07 Monica sends **Jimmy (Cal-West)** the site PREVIEW ask (hold note
+  resolved; reveal = preview for approval, cutover only after his OK +
+  Santino's typed domain).
+- 10:00 **Shana** (Pro Restoration): everything live on
+  rankai-prorestoration.pages.dev — hero with real ProMaster fleet from the
+  canonical mockup (clients/prorestoration/van-wrap-mockup.jpg), Jack-at-sign
+  About, all 13 red-shirt service images now navy, services banner navy.
+  Known nits: tiny roundel text on far hero vans imperfect; flood-damage
+  van text was flawed in the ORIGINAL (regen from mockup if she flags).
+  Meta launch still blocked on Jack's payment method + budget.
+- 11:00 **Josiah** (HomeLyft): prep BEFORE call — JobTread integration plan
+  (direct API vs GHL bridge), LSA brand-search filter + flag miscategorized
+  calls, tell him A2P/SMS registration is FIXED (UseCaseCategories enum) so
+  he can resubmit. His side: card update link, domain access via Emily/
+  Dwayne, customer list + team selfie, phone forwarding.
+- **Greg** (PuroClean): Santino launched review campaign himself overnight
+  (verify); still ours: smoke-damage GBP service (quick API add), trauma PPC
+  plan for approval, press release, 40 citations (= BrightLocal first order).
+  Billing paused (resumes Oct 4). Sep 5 11am check-in booked.
+
+### Build queue (order agreed with Santino)
+1. **Stripe reconciliation sweep** — nightly Stripe-paid-invoices vs
+   billing_invoices diff + backfill (webhook race fix + 10-row backfill
+   already LIVE; sweep is the self-heal layer). Include ProRest "daily
+   rating freshness" sub-item: rating/count refresh daily via DFS fallback
+   (their GBP API returns 0 reviews — count stuck at 105 vs real 107),
+   deploy only on change.
+2. **Ops Attention revamp + client side panel** — collapse/minimize notes
+   (402-item Today tab unusable), GHL-style condensed per-client slide-in
+   with tabs Notes / To-dos (checkbox worklist both humans and agents write
+   to, via marketing_ops_notes worklist flag) / Activity. WAITING on
+   Santino's GoHighLevel reference screenshots for design pass.
+3. **Perception-window pieces** — 7-day site-reveal grace as system default
+   (note mechanism = override; dated-hold auto-expiry already SHIPPED) +
+   hide in-app preview link until day 7 + image ROLE metadata guard (the
+   review-campaign face can never be wired into a site slot again — the
+   RT Olson About regression).
+4. **Content-now / brand-later builds** — build sites immediately at signup;
+   logo auto-harvest from client's old site (fallback franchisor → Monica
+   ask); colors via brand_colors_sync on logo arrival; logo soak stops
+   delaying content.
+5. **Dev-agent scale-up** — agent dispatches render-heavy cards to the build
+   pipeline; nightly render sweep for changed plans; 2-bucket parallel
+   matrix with per-client claiming (staging→production promotion stays
+   human by design). Brief now carries image rules 2a-2e (AI-standard,
+   smallest-change, composite-text, real-photo references + real geography,
+   canonical vehicle mockup + deterministic recolor first).
+6. **Post-meeting recap messages** — "what we're doing / what we need from
+   you" after every call off fathom_sync extraction + stale-item nudges.
+7. **BrightLocal citations** — Phase 1 location sync (free) → supervised
+   first order on draft campaign 996268 → Greg's 40 → fleet. Key live,
+   500 credits. Still owed: Harry email (Listings API path + credit draw).
+8. **LAST: Monica campaign-activation checklist** — full auto-launch intake
+   (list parsed, selfie or explicit skip, name-spelling confirm, review-link
+   verification, sender + pace), reply-to-checklist matching (the Jared
+   gap); DISS = pilot (list uploaded, account active), Frontline = second.
+
+### Standing decisions parked with Santino
+- Fleet multi-radius pricing: full standard ~$700/mo vs home-radii ~$500/mo
+  vs tiered (24 clients still single-radius)
+- CRW cutover (after Jimmy approves preview; type the domain)
+- Delete Railway geogrid-cron service (obsolete, replaced by GH Actions)
+- GHL screenshots for Ops Attention redesign
+- Payment link confirmed staying $997/mo (the $1,297 link also exists)
+
+### Standing watch/trace
+- GSC spam property (baginda168/garuda55), Gmail OAuth consent paste,
+  Kenny stats send, Scott growth-plan OK, Randy/EIN replies, DISS PA-city
+  ring proposal awaiting confirm, Davis Construction has NO findable GBP
+  (Greg D. conversation), Xtreme Clean has no NAP.
 
 ## 2026-09-02 — geogrid self-running end to end + BrightLocal API live
 
