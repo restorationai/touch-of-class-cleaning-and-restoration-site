@@ -4562,6 +4562,14 @@ MEETING INTEL RULES (apply when a "Meeting intel" block is provided):
   Report every filtered item in "intel_resolved" with its item id and a
   one-line reason. These exclusions override every other instruction about
   covering the items.
+  (3) EXCEPTION THAT BEATS BOTH RULES ABOVE: an item that comes from an
+      explicit note/directive Santino wrote (a BOSS DIRECTIVE in the
+      prompt) is NEVER excluded as answered or in-progress. He wrote the
+      note KNOWING the current state, so his instruction is newer and more
+      informed than any intel or history conclusion — if intel appears to
+      contradict his note, the note wins and the ask goes in the body
+      (Santino 2026-09-03: his PuroClean photo ask was wrongly suppressed
+      by a stale "profile already has photos" auto-note).
 - The intel is our team's INTERNAL notes. Never quote it and never recite
   private discussion details back to the client.
 - Use the intel for natural phrasing context — when it shows a recent
