@@ -2689,24 +2689,34 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
             has_logo = bool(_r.ok and _r.json())
         except Exception:  # noqa: BLE001 — a storage hiccup must not stall builds
             has_logo = True
-        if not has_logo:
-            created = str(co.get("created_at") or "")[:10]
-            import datetime as _dt
+        # SOAK RETIRED (Santino 2026-09-03, content-now/brand-later): the
+        # build NEVER waits on a logo anymore. No upload -> harvest one from
+        # the client's existing website right here (brand_assets.
+        # harvest_logo_from_web; a real hub upload always outranks the
+        # harvest by filename sort). Still nothing -> build with neutral
+        # brand anyway and keep Monica's logo ask alive — the 7-day
+        # perception window hides every intermediate state from the client.
+        if not has_logo and not dry_run:
             try:
-                age_d = (_dt.date.today() - _dt.date.fromisoformat(created)).days
-            except ValueError:
-                age_d = 99
-            if age_d < 7:
-                out.append(f"{slug}: build waiting on their logo "
-                           f"(day {age_d} of 7 — builds anyway after a week)")
-                _seed_build_blocker_ask(
-                    cid, slug, dry_run, "logo",
-                    "Send over your logo so we can build your website around it",
-                    "Their website build is being held for their real logo "
-                    "(all site imagery is generated from the brand assets). "
-                    "Ask them to upload the logo via their hub link. If a "
-                    "week passes with no logo, the build starts anyway.")
-                continue
+                import brand_assets as _ba
+                _site_url = (co.get("website") or "").strip()
+                if _site_url and _ba.harvest_logo_from_web(cid, _site_url):
+                    has_logo = True
+                    out.append(f"{slug}: logo HARVESTED from {_site_url} "
+                               "into the brand bucket (upload still wins if "
+                               "one arrives)")
+            except Exception:  # noqa: BLE001 — harvest failure must not stall builds
+                pass
+        if not has_logo:
+            _seed_build_blocker_ask(
+                cid, slug, dry_run, "logo",
+                "Send over your logo so we can make your website match your brand",
+                "We could not find a usable logo on their existing website "
+                "and nothing is uploaded yet. The site build proceeds with "
+                "a neutral look; ask them to upload the logo via their hub "
+                "link so the brand pass can repaint before the day-7 reveal.")
+            out.append(f"{slug}: no logo found anywhere — building with "
+                       "neutral brand; Monica logo ask seeded")
         if dry_run:
             out.append(f"{slug}: WOULD auto-build preview site ({len(services)} services)")
             built += 1
