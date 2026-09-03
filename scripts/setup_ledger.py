@@ -3005,11 +3005,40 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                 has_brand_asset = r_.status_code == 200 and bool(r_.json())
             except Exception:
                 pass
+            # BRAND PASS IS AUTOMATIC (Santino 2026-09-03, Kenny pilot):
+            # instead of only FLAGGING the built site for a human, file the
+            # [DEV] brand-pass card right here — the twice-daily dev agent
+            # (2:07am + 1:07pm) generates hero + per-service imagery, applies
+            # the logo/palette when a brand upload exists, all inside the
+            # 7-day perception window. No logo on file yet -> the card says
+            # to harvest one from the client's existing website first, with
+            # Monica's logo ask as the fallback.
+            try:
+                _brand_card = (
+                    f"[DEV] AUTO brand pass for the freshly built {slug} site: "
+                    "run gen_site_images (hero + per-service set + team) per "
+                    "the image style guide"
+                    + ("; client brand upload EXISTS in branding/" + cid +
+                       "/brand — apply logo (favicon_sync) + derive palette "
+                       "(brand_colors_sync)" if has_brand_asset else
+                       "; NO brand upload yet — first try harvesting the logo "
+                       "from their existing live website (header img / "
+                       "og:image / favicon), save it to branding/" + cid +
+                       "/brand/, then apply; if none found, leave the Monica "
+                       "logo ask in place and generate imagery in neutral "
+                       "palette")
+                    + f". Finish BEFORE the day-7 preview reveal. "
+                    f"SITE: sites/{slug} — staging")
+                _sb("POST", "/rest/v1/marketing_ops_notes",
+                    {"company_id": cid, "body": _brand_card, "status": "open"})
+            except Exception:  # noqa: BLE001 — card filing must not fail the build report
+                pass
             out.append(f"{slug}: AUTO-BUILT preview site ({len(svc_slugs)} services) — "
-                       "NEEDS imagery pass (hero + per-service) + human once-over"
-                       + (f"; client brand upload EXISTS (branding/{cid}/brand) — "
-                          "use it for logo + palette" if has_brand_asset else
-                          "; no brand upload yet — ask for their logo"))
+                       "brand-pass card auto-filed for the next agent run"
+                       + (f"; client brand upload EXISTS (branding/{cid}/brand)"
+                          if has_brand_asset else
+                          "; no brand upload yet — agent will try harvesting "
+                          "from their old site"))
         except Exception as e:
             out.append(f"{slug}: auto-build FAILED — {str(e)[:140]}")
     out += _reconcile_marketing_sites(dry_run, cos, cid_to_slug)
