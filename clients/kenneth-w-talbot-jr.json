@@ -1,7 +1,7 @@
 {
   "slug": "kenneth-w-talbot-jr",
   "display_name": "Veterans Remediation & Restoration ",
-  "domain": null,
+  "domain": "veteransremediation.com",
   "tier": "standard",
   "vertical": "restoration",
   "contact": "veteranspcusa@gmail.com",
@@ -10,19 +10,19 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 70,
-    "generated_at": "2026-09-02T20:43:59.409432+00:00"
+    "url_count": 76,
+    "generated_at": "2026-09-03T22:41:58.346418+00:00"
   },
-  "updated_at": "2026-09-02T20:44:07.175012+00:00",
+  "updated_at": "2026-09-03T22:42:07.744413+00:00",
   "indexnow_key": "75dd8f9a32634e4eb180216d9935a31c",
   "build": {
-    "scaffolded_at": "2026-09-02T20:44:07.174903+00:00",
+    "scaffolded_at": "2026-09-03T22:42:07.744312+00:00",
     "github_repo": "restorationai/kenneth-w-talbot-jr-site",
     "pages_project": "rankai-kenneth-w-talbot-jr",
     "starter_version": "0.1.0",
-    "url_count": 70,
-    "pages_status": "created",
+    "url_count": 76,
+    "pages_status": "exists",
     "last_rendered_at": "2026-09-02T20:57:20.753871+00:00"
   },
-  "build_status": "content_rendered"
+  "build_status": "scaffolded"
 }

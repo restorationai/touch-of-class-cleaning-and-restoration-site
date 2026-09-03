@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://kenneth-w-talbot-jr.invalid/
+# Site: https://veteransremediation.com/
 # Maintainer: Veterans Remediation & Restoration 
 # Contact: veteranspcusa@gmail.com
-# Sitemap: https://kenneth-w-talbot-jr.invalid/sitemap-index.xml
-# LLM index: https://kenneth-w-talbot-jr.invalid/llms.txt
+# Sitemap: https://veteransremediation.com/sitemap-index.xml
+# LLM index: https://veteransremediation.com/llms.txt

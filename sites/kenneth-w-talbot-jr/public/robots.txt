@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kenneth-w-talbot-jr.invalid/sitemap-index.xml
+Sitemap: https://veteransremediation.com/sitemap-index.xml

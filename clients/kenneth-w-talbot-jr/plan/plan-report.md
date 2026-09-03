@@ -1,20 +1,20 @@
 # Site Plan Report — Veterans Remediation & Restoration 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-02T20:43:59.409238+00:00
+- Generated: 2026-09-03T22:41:58.346213+00:00
 - Domain: `None`
 - Services selected: 5 of 60 catalog entries
-- Service areas: 9
+- Service areas: 10
 - Cross-product enabled: True
-- Total URLs: **70**
-- Total internal links: 505 (avg 7.2 per page)
+- Total URLs: **76**
+- Total internal links: 557 (avg 7.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 40 |
-| `service-area` | 8 |
+| `service-area-service` | 45 |
+| `service-area` | 9 |
 | `blog-post` | 8 |
 | `service-landing` | 5 |
 | `legal` | 3 |
@@ -41,6 +41,7 @@
 - `santa-rosa-beach-fl` — Santa Rosa Beach, FL
 - `niceville-fl` — Niceville, FL
 - `fort-walton-beach-fl` — Fort Walton Beach, FL
+- `panama-city-beach-fl` — Panama City Beach, FL
 - `crestview-fl` — Crestview, FL
 - `defuniak-springs-fl` — DeFuniak Springs, FL
 - `valparaiso-fl` — Valparaiso, FL

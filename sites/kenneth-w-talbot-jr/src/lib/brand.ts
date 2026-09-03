@@ -7,8 +7,8 @@ export const brand = {
   displayName: "Veterans Remediation & Restoration ",
   shortName: "Veterans Remediation & Restoration ",
   legalName: "Veterans Remediation & Restoration ",
-  domain: "kenneth-w-talbot-jr.invalid",
-  canonicalUrl: "https://kenneth-w-talbot-jr.invalid",
+  domain: "veteransremediation.com",
+  canonicalUrl: "https://veteransremediation.com",
   phone: "(337) 344-1248",
   phoneRaw: "+13373441248",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
@@ -37,12 +37,12 @@ export const brand = {
   lng: "-86.1360517",
   placeId: "",
   googleCid: "",
-  imagesBase: "https://images.kenneth-w-talbot-jr.invalid",
+  imagesBase: "https://images.veteransremediation.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "https://images.kenneth-w-talbot-jr.invalid/brand/logo.png",
+  logoUrl: "/images/logo.png",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.
@@ -54,7 +54,7 @@ export const brand = {
   certifications: ["OSHA TRAINED"] as string[],
   trustBadges: ["Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://veteransremediation.com/"] as string[],
+  sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",

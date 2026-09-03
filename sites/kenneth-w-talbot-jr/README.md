@@ -28,8 +28,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Veterans Remediation & Restoration ` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `Veterans Remediation & Restoration ` | plan-input `brand.short_name` | `NARESTCO` |
 | `Veterans Remediation & Restoration ` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `kenneth-w-talbot-jr.invalid` | client record `domain` | `narestco.com` |
-| `https://kenneth-w-talbot-jr.invalid` | derived | `https://narestco.com` |
+| `veteransremediation.com` | client record `domain` | `narestco.com` |
+| `https://veteransremediation.com` | derived | `https://narestco.com` |
 | `(337) 344-1248` / `+13373441248` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `veteranspcusa@gmail.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
@@ -46,21 +46,22 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `24/7 restoration services in Freeport, FL.` | brand.tagline | short marketing line |
 | `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.kenneth-w-talbot-jr.invalid/brand/logo.png` / `VR` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.kenneth-w-talbot-jr.invalid` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://kenneth-w-talbot-jr.invalid/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://kenneth-w-talbot-jr.invalid/services/fire-damage-restoration/)
-- [Mold Remediation](https://kenneth-w-talbot-jr.invalid/services/mold-remediation/)
-- [Storm Damage Restoration](https://kenneth-w-talbot-jr.invalid/services/storm-damage-restoration/)
-- [Water Cleanup](https://kenneth-w-talbot-jr.invalid/services/water-cleanup/)` / `- [Freeport, FL](https://kenneth-w-talbot-jr.invalid/service-areas/freeport-fl/)
-- [Destin, FL](https://kenneth-w-talbot-jr.invalid/service-areas/destin-fl/)
-- [Miramar Beach, FL](https://kenneth-w-talbot-jr.invalid/service-areas/miramar-beach-fl/)
-- [Santa Rosa Beach, FL](https://kenneth-w-talbot-jr.invalid/service-areas/santa-rosa-beach-fl/)
-- [Niceville, FL](https://kenneth-w-talbot-jr.invalid/service-areas/niceville-fl/)
-- [Fort Walton Beach, FL](https://kenneth-w-talbot-jr.invalid/service-areas/fort-walton-beach-fl/)
-- [Crestview, FL](https://kenneth-w-talbot-jr.invalid/service-areas/crestview-fl/)
-- [DeFuniak Springs, FL](https://kenneth-w-talbot-jr.invalid/service-areas/defuniak-springs-fl/)
-- [Valparaiso, FL](https://kenneth-w-talbot-jr.invalid/service-areas/valparaiso-fl/)` / `OSHA TRAINED` / `Greater Freeport region` | computed at scaffold from plan + brand | |
+| `/images/logo.png` / `VR` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.veteransremediation.com` | `https://images.{domain}` | |
+| `- [Water Damage Restoration](https://veteransremediation.com/services/water-damage-restoration/)
+- [Fire Damage Restoration](https://veteransremediation.com/services/fire-damage-restoration/)
+- [Mold Remediation](https://veteransremediation.com/services/mold-remediation/)
+- [Storm Damage Restoration](https://veteransremediation.com/services/storm-damage-restoration/)
+- [Water Cleanup](https://veteransremediation.com/services/water-cleanup/)` / `- [Freeport, FL](https://veteransremediation.com/service-areas/freeport-fl/)
+- [Destin, FL](https://veteransremediation.com/service-areas/destin-fl/)
+- [Miramar Beach, FL](https://veteransremediation.com/service-areas/miramar-beach-fl/)
+- [Santa Rosa Beach, FL](https://veteransremediation.com/service-areas/santa-rosa-beach-fl/)
+- [Niceville, FL](https://veteransremediation.com/service-areas/niceville-fl/)
+- [Fort Walton Beach, FL](https://veteransremediation.com/service-areas/fort-walton-beach-fl/)
+- [Panama City Beach, FL](https://veteransremediation.com/service-areas/panama-city-beach-fl/)
+- [Crestview, FL](https://veteransremediation.com/service-areas/crestview-fl/)
+- [DeFuniak Springs, FL](https://veteransremediation.com/service-areas/defuniak-springs-fl/)
+- [Valparaiso, FL](https://veteransremediation.com/service-areas/valparaiso-fl/)` / `OSHA TRAINED` / `Greater Freeport region` | computed at scaffold from plan + brand | |
 
 ## File layout
 
