@@ -1,7 +1,7 @@
 {
   "/images/hero-bg.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 1920,
+    "height": 1080,
     "variants": [
       480,
       768,
@@ -9,8 +9,8 @@
     ]
   },
   "/images/services.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 1440,
+    "height": 960,
     "variants": [
       480,
       768,
@@ -18,16 +18,16 @@
     ]
   },
   "/images/services/appliance-leak-cleanup.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 920,
+    "height": 613,
     "variants": [
       480,
       768
     ]
   },
   "/images/services/burst-pipe-repair.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 1080,
+    "height": 720,
     "variants": [
       480,
       768
@@ -38,55 +38,62 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/fire-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 1920,
+    "height": 1280,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/flood-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 1440,
+    "height": 960,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/general-contracting.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 1920,
+    "height": 1280,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/home-remodeling.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 2000,
+    "height": 1333,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/mold-inspection-testing.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 1440,
+    "height": 960,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/mold-remediation.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 1440,
+    "height": 960,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/odor-removal.webp": {
@@ -94,31 +101,34 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/reconstruction.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 2000,
+    "height": 1333,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/sewage-cleanup.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 989,
+    "height": 659,
     "variants": [
       480,
       768
     ]
   },
   "/images/services/smoke-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 1943,
+    "height": 1295,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/soot-removal.webp": {
@@ -126,31 +136,35 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/storm-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 2000,
+    "height": 1333,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/water-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
+    "width": 1440,
+    "height": 960,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/team.webp": {
-    "width": 1200,
-    "height": 896,
+    "width": 1440,
+    "height": 960,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   }
 }
