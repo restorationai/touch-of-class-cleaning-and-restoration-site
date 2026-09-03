@@ -5001,6 +5001,31 @@
       "triaged_at": "2026-08-05T06:07:52Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPqyPkduS4wEahsrCISOdF88KQkQGI3AjxAOaDC": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPqyPkduS4wEahsrCISOdF88KQkQGI3AjxAOaDC.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipPqyPkduS4wEahsrCISOdF88KQkQGI3AjxAOaDC.jpg",
+      "width": 1080,
+      "height": 1009,
+      "bytes": 1166468,
+      "sha1": "7d444829831160bf",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Removed flooring planks stacked on tarp outside in snow",
+      "quality": 42,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Casually shot debris removal scene; poor composition, glare, no crew or branding.",
+      "triaged_at": "2026-09-03T19:03:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPsB4HutRZ2eCplQ5XuY_zx-TaEC7BbseRMoZOS": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPsB4HutRZ2eCplQ5XuY_zx-TaEC7BbseRMoZOS.jpg",
@@ -5122,5 +5147,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-03T14:11:36Z"
+  "triaged_at": "2026-09-03T19:03:40Z"
 }

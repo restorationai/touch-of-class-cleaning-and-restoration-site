@@ -288,7 +288,7 @@
     },
     {
       "id": "2026-07-30-how-much-does-ac-repair-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-30T17:27:39Z",
       "written_at": "2026-09-03T19:22:21Z",
       "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-ac-repair-cost/",
@@ -320,7 +320,8 @@
       "external_authority_candidates": [
         "https://www.energystar.gov/products/heating_cooling"
       ],
-      "notes": "KD 5 on a 1,000/mo informational term: best difficulty-to-volume ratio in this run. Cover diagnostic fee, common part-level costs (capacitor, contactor, fan motor, coil, compressor), then the repair-vs-replace math. Distinct from the existing /blog/how-much-does-a-new-ac-cost/ post (that one is replacement pricing) - link the two rather than repeating the equipment-cost table."
+      "notes": "KD 5 on a 1,000/mo informational term: best difficulty-to-volume ratio in this run. Cover diagnostic fee, common part-level costs (capacitor, contactor, fan motor, coil, compressor), then the repair-vs-replace math. Distinct from the existing /blog/how-much-does-a-new-ac-cost/ post (that one is replacement pricing) - link the two rather than repeating the equipment-cost table.",
+      "published_verified_at": "2026-09-03T19:23:36Z"
     },
     {
       "id": "2026-07-30-why-is-my-ac-not-turning-on",

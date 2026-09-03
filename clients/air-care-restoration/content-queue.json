@@ -183,7 +183,7 @@
     },
     {
       "id": "2026-08-17-category-3-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-17T17:12:13Z",
       "written_at": "2026-09-03T19:18:36Z",
       "post_url": "https://aircarerestoration.com/blog/category-3-water-damage/",
@@ -220,7 +220,8 @@
       ],
       "notes": "390/mo, KD 0, CPC $33.24, zero editorial coverage. This is the IICRC S500 category definition query and it is pure AI-retrieval fuel: define all three categories in a lift-ready passage near the top. Air Care is an IICRC Certified Firm with WRT, so lean on that credential.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "published_verified_at": "2026-09-03T19:20:19Z"
     },
     {
       "id": "2026-08-17-how-soon-does-mold-grow-after-water-damage",

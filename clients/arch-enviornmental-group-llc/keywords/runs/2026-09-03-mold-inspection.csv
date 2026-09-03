@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+california mold testing,transactional,210,10,8.79,1,mold inspection,California,,no
+free mold inspection near me,transactional,1900,0,25.87,2,mold inspection,,,no
+free mold inspection,transactional,720,0,28.15,2,mold inspection,,,no
+mold inspection california,transactional,210,14,8.79,2,mold inspection,California,,no
+mold inspection near me,transactional,33100,5,26.51,3,mold inspection,,/services/mold-inspection-testing/,no
+mold testing company,transactional,2400,9,37.16,3,mold inspection,,/services/mold-inspection-testing/,no
+mold testing services,transactional,2400,8,7.43,3,mold inspection,,/services/mold-inspection-testing/,no
+mold inspection and testing,transactional,1300,19,12.03,3,mold inspection,,/services/mold-inspection-testing/,no
+mold testing companies,transactional,880,8,19.07,3,mold inspection,,/services/mold-inspection-testing/,no
+mold inspection fresno,transactional,390,0,13.39,3,mold inspection,Fresno,/service-areas/fresno-ca/mold-inspection-testing/,no
+mold inspector fresno,transactional,390,,13.39,3,mold inspection,Fresno,/service-areas/fresno-ca/mold-inspection-testing/,no
+mold inspection visalia,transactional,20,0,8.59,3,mold inspection,Visalia,/service-areas/visalia-ca/mold-inspection-testing/,no
+mold inspection cost,commercial,5400,0,12.0,1,mold inspection,,,yes
+mold air test,commercial,3600,14,5.84,1,mold inspection,,,yes
+how to get a free mold inspection,commercial,880,0,13.17,1,mold inspection,,,yes
+mold testing labs,commercial,880,13,6.61,1,mold inspection,,,no
+mold clearance test,commercial,110,11,9.4,1,mold inspection,,,no
+home inspection mold testing,commercial,110,10,5.14,1,mold inspection,,,no
+post mold remediation testing,commercial,50,,112.84,1,mold inspection,,,no
+professional mold testing,commercial,5400,22,16.03,2,mold inspection,,,no
+mold inspection price,commercial,5400,0,12.0,2,mold inspection,,,no
+mold assessment,commercial,880,25,21.26,2,mold inspection,,,no
+mold lab testing,commercial,880,3,6.61,2,mold inspection,,,no
+mold testing lab,commercial,880,4,6.61,2,mold inspection,,,no
+environmental mold testing,commercial,390,4,14.81,2,mold inspection,,,no
+residential mold testing,commercial,260,10,10.46,2,mold inspection,,,no
+best mold inspection near me,commercial,210,4,8.2,2,mold inspection,,,no
+mold remediation testing,commercial,170,36,15.29,2,mold inspection,,,no
+residential mold inspection,commercial,110,19,27.07,2,mold inspection,,,no
+what happens during a mold inspection,informational,10,37,,1,mold inspection,,,yes
+mold air sample test,informational,210,29,4.94,2,mold inspection,,,no
+basement mold test,informational,170,14,13.37,2,mold inspection,,,no
+how do mold tests work,informational,110,4,11.38,2,mold inspection,,,no
+how long does it take to get mold test results,informational,20,,12.22,2,mold inspection,,,no
+does a home inspection include mold,informational,10,1,,2,mold inspection,,,no
+is a free mold inspection worth it,informational,,,,2,mold inspection,,,no
+what does a mold inspector look for,informational,,,,2,mold inspection,,,no
+does homeowners insurance cover mold inspection,informational,,,,2,mold inspection,,,no
+house mold test,informational,1300,34,8.67,3,mold inspection,,/blog/how-to-test-for-mold/,no
+diy mold test,informational,720,2,1.49,3,mold inspection,,/blog/how-to-test-for-mold/,no
