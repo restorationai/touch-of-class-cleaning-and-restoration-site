@@ -209,10 +209,10 @@
     },
     {
       "id": "2026-08-10-water-damage-insurance-claim-tips",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-10T17:42:32Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-03T20:00:40Z",
+      "post_url": "https://None/blog/water-damage-insurance-claim-tips/",
       "primary_keyword": "water damage insurance claim tips",
       "intent": "informational",
       "volume": 590,
