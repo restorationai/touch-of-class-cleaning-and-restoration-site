@@ -112,10 +112,10 @@
     },
     {
       "id": "2026-08-26-does-renters-insurance-cover-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T23:35:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-03T20:21:57Z",
+      "post_url": "https://None/blog/does-renters-insurance-cover-water-damage/",
       "primary_keyword": "does renters insurance cover water damage",
       "intent": "informational",
       "volume": 1000,
