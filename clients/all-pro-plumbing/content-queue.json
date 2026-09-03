@@ -288,10 +288,10 @@
     },
     {
       "id": "2026-07-30-how-much-does-ac-repair-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-30T17:27:39Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-03T19:22:21Z",
+      "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-ac-repair-cost/",
       "primary_keyword": "how much does ac repair cost",
       "intent": "informational",
       "volume": 1000,
