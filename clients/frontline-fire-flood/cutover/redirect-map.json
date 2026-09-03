@@ -1,0 +1,15 @@
+{
+ "generated_at": "2026-09-03T14:17:03+00:00",
+ "domain": "frontlinefireflood.com",
+ "routes": 109,
+ "map": {
+  "/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp_website": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/article/cost-management-strategies-in-asbestos-removal": {
+   "target": "/services/asbestos-abatement/",
+   "how": "claude"
+  }
+ }
+}

@@ -3,6 +3,75 @@
   "display_name": "Arch Enviornmental Group LLC",
   "lat": 36.5138398,
   "lng": -119.5538929,
-  "place_id": "ChIJw9aO0Idq82sRNFXGkfL6roA"
- }
+  "place_id": "ChIJw9aO0Idq82sRNFXGkfL6roA",
+  "phone": "(559) 296-2088",
+  "email": "info@archenviroservice.com",
+  "street_address": "2453 16th Ave",
+  "city": "Kingsburg",
+  "state": "CA",
+  "postal_code": "93631",
+  "theme": "light",
+  "certifications": [
+   "CERTIFIED ASBESTOS CONSULTANT - LEAD INSPECTOR ASSESSOR - NIOSH 582 MICROSCOPIST"
+  ],
+  "licensed_insured_attested": true,
+  "founded_year": "2026",
+  "trust_badges": [
+   "Licensed & Insured",
+   "Locally Owned & Operated"
+  ]
+ },
+ "services": [
+  "mold-inspection-testing"
+ ],
+ "service_areas": [
+  {
+   "city": "Kingsburg",
+   "state": "CA",
+   "slug": "kingsburg-ca",
+   "primary": true
+  },
+  {
+   "city": "Fresno",
+   "state": "CA",
+   "slug": "fresno-ca"
+  },
+  {
+   "city": "Visalia",
+   "state": "CA",
+   "slug": "visalia-ca"
+  },
+  {
+   "city": "Clovis",
+   "state": "CA",
+   "slug": "clovis-ca"
+  },
+  {
+   "city": "Selma",
+   "state": "CA",
+   "slug": "selma-ca"
+  },
+  {
+   "city": "Reedley",
+   "state": "CA",
+   "slug": "reedley-ca"
+  },
+  {
+   "city": "Dinuba",
+   "state": "CA",
+   "slug": "dinuba-ca"
+  },
+  {
+   "city": "Sanger",
+   "state": "CA",
+   "slug": "sanger-ca"
+  },
+  {
+   "city": "Fowler",
+   "state": "CA",
+   "slug": "fowler-ca"
+  }
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
 }

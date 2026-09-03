@@ -1,0 +1,186 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/mold-inspection-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/selma-ca/",
+    "/service-areas/visalia-ca/"
+  ],
+  "/services/": [
+    "/",
+    "/services/mold-inspection-testing/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/selma-ca/",
+    "/service-areas/visalia-ca/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/how-to-test-for-mold/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/mold-inspection-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/blog/how-to-test-for-mold/"
+  ],
+  "/service-areas/fresno-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/fowler-ca/"
+  ],
+  "/service-areas/visalia-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/fowler-ca/"
+  ],
+  "/service-areas/clovis-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fresno-ca/"
+  ],
+  "/service-areas/selma-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/fowler-ca/"
+  ],
+  "/service-areas/reedley-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/fowler-ca/"
+  ],
+  "/service-areas/dinuba-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fresno-ca/"
+  ],
+  "/service-areas/sanger-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/fowler-ca/"
+  ],
+  "/service-areas/fowler-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/fresno-ca/"
+  ],
+  "/service-areas/fresno-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/selma-ca/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/blog/how-to-test-for-mold/": [
+    "/blog/",
+    "/services/mold-inspection-testing/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}

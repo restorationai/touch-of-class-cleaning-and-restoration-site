@@ -3021,6 +3021,35 @@
       "triaged_at": "2026-08-05T06:05:05Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNyAO7WM0n28AF45GFUw-_0BE61qdYcLNwgUmWO": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNyAO7WM0n28AF45GFUw-_0BE61qdYcLNwgUmWO.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipNyAO7WM0n28AF45GFUw-_0BE61qdYcLNwgUmWO.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 95994,
+      "sha1": "a5b04c6de01b3f09",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Flooded living room with collapsed ceiling and standing water",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "flags": [
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Logo pasted over centre; scene appears too polished/art-directed to be genuine job photo.",
+      "triaged_at": "2026-09-03T14:11:36Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNz0QI2UvyFt2pnxqu3ZhS3OO67r2MQt1798saj": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNz0QI2UvyFt2pnxqu3ZhS3OO67r2MQt1798saj.jpg",
@@ -5093,5 +5122,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-01T14:07:28Z"
+  "triaged_at": "2026-09-03T14:11:36Z"
 }
