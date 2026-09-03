@@ -102,6 +102,7 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
           ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          FATHOM_API_KEY:            ${{ secrets.FATHOM_API_KEY }}
           GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
           GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
           CONCIERGE_ALLOWLIST:       ${{ secrets.CONCIERGE_ALLOWLIST }}
@@ -130,6 +131,11 @@ jobs:
               python3 scripts/email_inbox_sync.py || true
             # Daily routine: answer replies first, then outreach.
             python3 scripts/client_concierge.py inbound --poll $SEND_FLAG || true
+            # Meeting sync + post-meeting recaps (Santino 2026-09-03). CI
+            # backstop for the Railway 30-min cycle — Actions checks out
+            # fresh main, so recaps run even if the Railway image goes stale
+            # (the geogrid-cron lesson). Idempotent via fathom-sync-state.
+            python3 scripts/fathom_sync.py sync $SEND_FLAG || true
             python3 scripts/client_concierge.py compose --all $SEND_FLAG
           fi
 
