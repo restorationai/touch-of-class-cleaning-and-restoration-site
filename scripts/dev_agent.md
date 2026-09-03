@@ -184,6 +184,14 @@ scene, wrong region.
    a hood) prefer a deterministic pixel recolor (PIL hue-shift, region-
    masked) over an AI edit — zero text risk, zero recompose risk; the AI
    edit is for changes that need real redrawing.
+2f. **Deploy where the CLIENT is looking (DISS 2026-09-03).** A client whose
+   site has no custom domain yet sees the MAIN pages.dev build — that IS
+   their preview. Business-fact fixes (address, phone, hours, legal) for
+   preview-only clients deploy to MAIN, not staging; staging is for
+   review-gated visual work on LIVE sites. And close-the-loop may only
+   claim "done" with a link AFTER the change is live at that exact URL —
+   Monica told Jonathan his address was fixed while his link still showed
+   Youngstown.
 3. **Quality-gate every image before you accept it.** Look at the file. Reject
    and regenerate on: garbled or invented lettering on a wrap or a uniform,
    anatomy errors (extra/merged limbs, wrong shoulder, rubbery arms), the
