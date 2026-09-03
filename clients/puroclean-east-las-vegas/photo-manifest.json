@@ -149,8 +149,8 @@
     },
     "gbp:gbp-AF1QipMKNqp4Tm51EPer0lAGeIlio54ISEBhYaya9r3t": {
       "source": "gbp",
-      "storage": "job-photos/posted/gbp-AF1QipMKNqp4Tm51EPer0lAGeIlio54ISEBhYaya9r3t.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/gbp-AF1QipMKNqp4Tm51EPer0lAGeIlio54ISEBhYaya9r3t.jpg",
+      "storage": "job-photos/posted/r1788466357_gbp-AF1QipMKNqp4Tm51EPer0lAGeIlio54ISEBhYaya9r3t.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/r1788466357_gbp-AF1QipMKNqp4Tm51EPer0lAGeIlio54ISEBhYaya9r3t.jpg",
       "width": 1440,
       "height": 1103,
       "bytes": 390042,
@@ -1908,6 +1908,31 @@
       "triaged_at": "2026-08-05T05:50:05Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:sms-1788466647989-2b10bd9b": {
+      "source": "gbp",
+      "storage": "job-photos/posted/sms-1788466647989-2b10bd9b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/sms-1788466647989-2b10bd9b.jpg",
+      "width": 1079,
+      "height": 974,
+      "bytes": 74559,
+      "sha1": "c0e4d75e73a01c78",
+      "exif": {},
+      "category": "crew",
+      "subject": "Male owner or technician headshot in dark polo shirt",
+      "quality": 78,
+      "slots": {
+        "hero": 10,
+        "team": 72,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clean professional headshot; good for team/about page, poor for hero or services.",
+      "triaged_at": "2026-09-03T21:12:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "web:01f4db36d8bd9472": {
       "source": "website",
       "storage": "site-assets/web/web-01f4db36d8bd9472.jpg",
@@ -2350,5 +2375,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-08-06T14:04:25Z"
+  "triaged_at": "2026-09-03T21:12:29Z"
 }
