@@ -1,5 +1,44 @@
 # RT Olson Plumbing, Heating and Air Conditioning: Image Style Guide
 
+## CLIENT DIRECTION — NON-NEGOTIABLE (Bobby Olson, 2026-09-02 call)
+
+> **This block outranks everything below the first horizontal rule** — that is
+> canonical boilerplate. Where it disagrees, THIS BLOCK WINS. Every rule below is
+> a hard gate: a frame that breaks it is REJECTED and regenerated, never shipped.
+
+1. **FULL BLUE HOODS ON THE VANS — never white.** Bobby, verbatim: *"Update hero
+   truck imagery to full blue hoods; keep trucks consistent."* The entire front
+   hood/bonnet of every van is solid blue, matching the blue upper body. A van
+   with a white or two-tone hood is a REJECTED image. See VAN-OVERRIDE below.
+2. **ONE IDENTICAL VAN FLEET, EVERYWHERE.** Bobby: *"keep trucks consistent."*
+   Every image that shows a vehicle shows the SAME van — same make (Mercedes
+   Sprinter-style high-roof panel van), same blue-hood two-tone paint, same logo.
+   No white Ford Transit, no mismatched body styles across pages. Mixing van
+   types or colours across the site = REJECTED.
+3. **NO READABLE TEXT ON THE VANS.** The RT Olson logo mark only — no phone
+   number, no website URL, no "www.rtolsonplumbing.com", no readable lettering
+   beyond the mark itself. AI-rendered van text is a REJECTED image.
+4. **UNIFORM: NAVY-BLUE SHIRT, GRAY PANTS, FLAG PATCH.** Bobby, verbatim:
+   *"Uniforms: gray pants, blue shirts; add American flag patches on sleeves."*
+   This is the crew's REAL uniform (see harvested/uniform-crew-tim.jpg): a
+   navy-blue button-up work shirt with the RT Olson logo on the left chest, gray
+   work pants, and a small American flag patch on the sleeve. A tan/khaki shirt,
+   dark non-gray pants, or a missing flag patch = REJECTED image. This is the ONE
+   uniform for the whole site — no drift between pages. See CREW-OVERRIDE.
+5. **RESIDENTIAL SCENES AND GEAR ONLY.** Bobby: *"Replace any commercial-only gear
+   imagery (e.g., hydrostatic pump) with appropriate residential visuals."* No
+   commercial-only equipment (hydrostatic test pumps, trailer jetters, commercial
+   fixtures). Toilet, faucet and fixture work happens INSIDE a residential
+   bathroom on a finished floor — NEVER outdoors on a driveway or against an
+   exterior wall. A toilet or fixture being serviced outside is a REJECTED image.
+
+VAN-OVERRIDE: RT Olson's real high-roof Mercedes Sprinter van with a FULL SOLID BLUE HOOD and blue front (the entire hood is blue, never white), a white body panel crossed by a red diagonal accent stripe, and the RT Olson crossed-pipe-wrench logo mark — matching harvested/van-sprinter-blue-hood-007.jpg; carry only the logo mark with NO phone number, NO website URL and NO readable text anywhere on the vehicle, and keep every van in the site identical to this one
+CREW-OVERRIDE: the technician wears a navy-blue button-up work shirt with the RT Olson logo on the left chest, gray work pants, and a small American flag patch on the sleeve, the identical uniform in every image, never a tan or khaki shirt and never dark non-gray pants
+EQUIPMENT-OVERRIDE: residential service gear only in a residential setting — no commercial-only equipment such as hydrostatic test pumps or trailer-mounted jetters, and toilet, faucet and fixture work is shown inside a residential bathroom, never outdoors
+LIVERY-REFERENCE: harvested/van-sprinter-blue-hood-007.jpg
+
+---
+
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous service day. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are plumbing-vertical canonical and shared across all Rank AI clients.

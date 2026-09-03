@@ -279,13 +279,13 @@
       "subject": "RT Olson branded blue Sprinter van parked at residential home",
       "quality": 88,
       "slots": {
-        "hero": 82,
+        "hero": 95,
         "team": 0,
         "services": 40
       },
       "service_slugs": [],
       "flags": [],
-      "reason": "Excellent branded fleet shot; sharp, well-lit, strong hero candidate.",
+      "reason": "Excellent branded fleet shot; sharp, well-lit, strong hero candidate. | hero score raised to 95 (2026-09-03): Bobby Olson asked for \"full blue hoods, keep trucks consistent\" \u2014 this real Sprinter #007 has the full blue hood and is the correct hero.",
       "triaged_at": "2026-08-09T21:13:57Z",
       "triage_model": "claude-sonnet-4-6"
     },
@@ -465,7 +465,7 @@
       "subject": "RT Olson branded Ford Transit van side profile on sunny street",
       "quality": 90,
       "slots": {
-        "hero": 82,
+        "hero": 70,
         "team": 0,
         "services": 25
       },
@@ -6189,21 +6189,21 @@
   },
   "slots": {
     "hero": {
-      "asset": "gbp:gbp-AF1QipNTVTlJo659YHqxrr-PwJQPLTwOeyNaoScevLvC",
+      "asset": "crew:1786296296105-d9534e30",
       "source": "gbp",
-      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipNTVTlJo659YHqxrr-PwJQPLTwOeyNaoScevLvC.jpg",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/1786296296105-d9534e30.jpg",
       "category": "fleet",
-      "subject": "Branded RT Olson blue Sprinter van parked in residential driveway",
-      "installed_at": "2026-08-18T16:45:25Z",
+      "subject": "RT Olson branded blue Sprinter van parked at residential home",
+      "installed_at": "2026-09-03T04:27:41Z",
       "file": "/images/hero-bg.webp"
     },
     "team": {
-      "asset": "crew:1786296463125-7ed8dac8",
-      "source": "crew",
-      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/1786296463125-7ed8dac8.jpg",
+      "asset": "gbp:gbp-AF1QipMpFKecT0bEoE7Mx2rvu_YU2LusLUAXe5xCtiuj",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipMpFKecT0bEoE7Mx2rvu_YU2LusLUAXe5xCtiuj.jpg",
       "category": "crew",
-      "subject": "Smiling male technician in uniform posing in front of RT Olson van",
-      "installed_at": "2026-08-18T16:45:31Z",
+      "subject": "Eight uniformed technicians posed in front of branded company van",
+      "installed_at": "2026-09-03T04:27:26Z",
       "file": "/images/team.webp"
     },
     "services": {
