@@ -772,7 +772,7 @@
     },
     {
       "id": "2026-07-23-how-to-plan-a-home-remodel",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-23T17:18:06Z",
       "written_at": "2026-09-03T20:11:36Z",
       "post_url": "https://davisconstructioncontractors.com/blog/how-to-plan-a-home-remodel/",
@@ -804,7 +804,8 @@
         "https://www.nahb.org/",
         "https://www.houzz.com/"
       ],
-      "notes": "Walk through budgeting, design, permits, contractor selection, and timeline. Frame around a homeowner checklist and tie to Davis's design-build process. Local note: HOA architectural review in newer Madison and Hampton Cove subdivisions."
+      "notes": "Walk through budgeting, design, permits, contractor selection, and timeline. Frame around a homeowner checklist and tie to Davis's design-build process. Local note: HOA architectural review in newer Madison and Hampton Cove subdivisions.",
+      "published_verified_at": "2026-09-03T20:11:56Z"
     },
     {
       "id": "2026-08-10-how-much-does-a-home-addition-cost",

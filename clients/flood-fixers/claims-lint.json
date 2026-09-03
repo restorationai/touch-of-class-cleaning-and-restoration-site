@@ -1,6 +1,6 @@
 {
   "slug": "flood-fixers",
-  "generated_at": "2026-08-31T22:27:29Z",
+  "generated_at": "2026-09-03T20:08:48Z",
   "truth": {
     "hours": "24/7 Emergency Service",
     "is_247": true,
@@ -16,7 +16,7 @@
     "gbp_review_count": 9,
     "vertical": "restoration"
   },
-  "errors": 0,
+  "errors": 1,
   "review_flags": 133,
   "violations": [
     {
@@ -162,6 +162,15 @@
       "matched": "mold remediation",
       "context": ",000 water damage job becomes a $15,000 mold remediation. ## When to Call a Professional DIY d",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/blog/water-damage-repair.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "20 reviews",
+      "context": "right now, you don't have time to read 20 reviews and compare websites. You need a compan",
+      "reason": "claims 20 reviews but synced gbpReviewCount is 9 (allowed \u00b120%: 7-10)"
     },
     {
       "file": "src/content/blog/what-happens-if-water-damage-is-left-untreated.md",

@@ -1,6 +1,6 @@
 {
   "slug": "restoration-groups",
-  "generated_at": "2026-08-31T22:27:31Z",
+  "generated_at": "2026-09-03T20:08:50Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -16,7 +16,7 @@
     "vertical": "restoration"
   },
   "errors": 9,
-  "review_flags": 23,
+  "review_flags": 12,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
@@ -100,42 +100,6 @@
       "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "file": "src/content/locations/clark-nj__general-contracting.md",
-      "part": "frontmatter",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "ation, or ceiling texture. New Jersey's lead-safe renovation rules require certified prac",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/clark-nj__general-contracting.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "78 surface, which triggers New Jersey's lead-safe renovation rules under the NJ Division",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/east-orange-nj__general-contracting.md",
-      "part": "frontmatter",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "8 construction is prevalent, so EPA RRP lead-safe rules are a factor to plan for in any r",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/east-orange-nj__general-contracting.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "978 buildings falls under the EPA's RRP lead-safe rules, and that requirement gets built",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
       "file": "src/content/locations/edison-nj__mold-remediation.md",
       "part": "frontmatter",
       "family": "certification",
@@ -163,49 +127,13 @@
       "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
     },
     {
-      "file": "src/content/locations/hackensack-nj__general-contracting.md",
+      "file": "src/content/locations/garfield-nj__commercial-restoration.md",
       "part": "body",
-      "family": "certification",
+      "family": "service-scope",
       "severity": "review",
-      "matched": "lead-safe",
-      "context": "eps the job compliant with New Jersey's lead-safe renovation rules. Call (855) 650-7422",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/hillside-nj__general-contracting.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "ome was built before 1978, ask us about lead-safe work practices before demo begins \u2014 it",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/irvington-nj__reconstruction.md",
-      "part": "frontmatter",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "surfaces. Work must be performed using lead-safe practices, and documentation of complia",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/irvington-nj__reconstruction.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "t and plaster**: Pre-1978 homes require lead-safe work practices under EPA RRP rules. Man",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/linden-nj__reconstruction.md",
-      "part": "frontmatter",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "West End \\u2014 may also fall under EPA lead-safe renovation rules before demolition begi",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+      "matched": "structural reconstruction",
+      "context": "itial emergency mitigation through full structural reconstruction so business owners can focus on reopeni",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
     },
     {
       "file": "src/content/locations/manhattan-ny__fire-damage-restoration.md",
@@ -226,76 +154,13 @@
       "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
     },
     {
-      "file": "src/content/locations/new-brunswick-nj__general-contracting.md",
+      "file": "src/content/locations/ridgewood-nj__fire-damage-restoration.md",
       "part": "frontmatter",
-      "family": "certification",
+      "family": "service-scope",
       "severity": "review",
-      "matched": "lead-safe",
-      "context": "ted surface in pre-1978 homes to follow lead-safe work practices, including containment a",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/new-brunswick-nj__general-contracting.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "n of Consumer Affairs, we follow proper lead-safe work practices and can walk you through",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/newark-nj__general-contracting.md",
-      "part": "frontmatter",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "painted surfaces also triggers EPA RRP lead-safe requirements, which affect how we prep",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/newark-nj__general-contracting.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "Newark also sits within Essex County's lead-safe renovation jurisdiction, and the city's",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/paterson-nj__general-contracting.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "s Department of Health requirements for lead-safe work practices apply to any renovation",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/union-nj__general-contracting.md",
-      "part": "frontmatter",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "in that corridor.\"}, {\"question\": \"What lead-safe requirements apply to renovation work i",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/union-nj__general-contracting.md",
-      "part": "frontmatter",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "Repair and Painting (RRP) rules require lead-safe work practices on homes built before 19",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/union-nj__general-contracting.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "A Renovation, Repair and Painting (RRP) lead-safe protocols. - **Demolition and rough-in*",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+      "matched": "structural reconstruction",
+      "context": "andle that?\", \"answer\": \"Yes \\u2014 any structural reconstruction following fire damage in Ridgewood requ",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
     },
     {
       "file": "src/content/locations/wayne-nj__smoke-damage-restoration.md",
@@ -305,6 +170,42 @@
       "matched": "lead-safe",
       "context": "built before 1978 triggers New Jersey's lead-safe renovation rules if painted surfaces ar",
       "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/roselle-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "ion, fire and smoke damage cleanup, and structural reconstruction in-house for Roselle properties. We don",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/roselle-nj.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "moke damage, mold remediation, and full structural reconstruction for homeowners and property managers ac",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/teaneck-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "backup and biohazard cleanup, and full structural reconstruction with our own crews. We do not hand off",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/teaneck-nj.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "e, mold remediation, sewer backups, and structural reconstruction for homeowners, landlords, and commerci",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
     }
   ]
 }

@@ -230,7 +230,7 @@
     },
     {
       "id": "2026-08-09-water-damage-restoration-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-09T22:32:00Z",
       "written_at": "2026-09-03T20:07:23Z",
       "post_url": "https://crew3r.com/blog/water-damage-restoration-cost/",
@@ -263,7 +263,8 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "KD 3 with $20 CPC. Break out by water category and affected area (Class 1 room vs finished basement). Explain what insurance typically absorbs vs the deductible. Cross-link the duration post.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "published_verified_at": "2026-09-03T20:09:40Z"
     },
     {
       "id": "2026-08-09-how-to-prevent-pipes-from-freezing",
