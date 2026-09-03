@@ -138,10 +138,10 @@
     },
     {
       "id": "2026-08-26-commercial-water-damage-restoration",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T14:05:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-03T19:52:44Z",
+      "post_url": "https://californiarestorationwest.com/blog/commercial-water-damage-restoration/",
       "primary_keyword": "commercial water damage restoration",
       "intent": "transactional",
       "volume": 590,
