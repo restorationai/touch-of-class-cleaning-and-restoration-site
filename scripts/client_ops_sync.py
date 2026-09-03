@@ -1636,6 +1636,70 @@ def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
     return lines
 
 
+def expire_dated_holds(dry_run: bool, cid_to_slug: dict) -> list[str]:
+    """Auto-resolve hold notes whose own deadline has passed (Santino
+    2026-09-03: "shouldn't the whole note resolve itself once the date
+    hits?"). A prohibitive ops note like "Hold off telling Jimmy ... until
+    September 2" suppresses concierge asks for as long as it stays OPEN —
+    but nothing ever read the date, so CRW's reveal sat suppressed a day
+    past its own window until a human noticed. This pass parses "until
+    <date>" out of open notes that read like holds and resolves them once
+    the date is behind us, with a digest line so the release is visible.
+
+    Conservative on purpose: only notes containing both a hold-ish verb and
+    an "until <date>" phrase; only dates parsed with confidence; only dates
+    in the PAST but within the last 90 days (guards against year-wrap
+    misreads turning "until January 5" into an instant release in December).
+    """
+    import re as _re
+    from datetime import date as _date
+    out: list[str] = []
+    MONTHS = {m.lower(): i for i, m in enumerate(
+        ["January", "February", "March", "April", "May", "June", "July",
+         "August", "September", "October", "November", "December"], 1)}
+    for m in list(MONTHS):
+        MONTHS[m[:3]] = MONTHS[m]
+        MONTHS[m[:4]] = MONTHS[m]
+    holdish = _re.compile(r"hold off|do not|don'?t|stop |wait |until", _re.I)
+    pat_word = _re.compile(r"until\s+([A-Za-z]{3,9})\.?\s+(\d{1,2})", _re.I)
+    pat_iso = _re.compile(r"until\s+(\d{4})-(\d{2})-(\d{2})")
+    notes = _sb("GET", "/rest/v1/marketing_ops_notes?status=eq.open"
+                "&select=id,company_id,body&limit=500",
+                prefer="return=representation") or []
+    today = _date.today()
+    for n in notes:
+        body = n.get("body") or ""
+        if not holdish.search(body):
+            continue
+        due = None
+        mw = pat_word.search(body)
+        mi = pat_iso.search(body)
+        if mi:
+            try:
+                due = _date(int(mi.group(1)), int(mi.group(2)), int(mi.group(3)))
+            except ValueError:
+                pass
+        elif mw and mw.group(1).lower() in MONTHS:
+            try:
+                due = _date(today.year, MONTHS[mw.group(1).lower()], int(mw.group(2)))
+            except ValueError:
+                pass
+        if not due or not (0 < (today - due).days <= 90):
+            continue
+        slug = cid_to_slug.get(n.get("company_id"), n.get("company_id") or "?")
+        if dry_run:
+            out.append(f"{slug}: WOULD auto-expire hold note (was 'until {due}')")
+            continue
+        _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{n['id']}",
+            {"status": "resolved",
+             "body": body + f"\n\nAUTO-EXPIRED {today}: the note's own 'until "
+                            f"{due}' deadline passed, so the hold released "
+                            "itself (dated holds self-resolve as of 2026-09-03)."})
+        out.append(f"{slug}: hold note AUTO-EXPIRED (deadline {due} passed) — "
+                   "suppressed asks release on the next concierge run")
+    return out
+
+
 def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     run_start = datetime.now(timezone.utc)
     cursor_out = run_start.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -1648,7 +1712,8 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
 
     ensure_bootstrapped(dry_run, do_send, cid_to_slug)
     sweep_lines: list[str] = []   # "{slug}: what happened" from every pass
-    for fn in (ensure_google_connect_asks, ensure_gbp_first_sync,
+    for fn in (expire_dated_holds,
+               ensure_google_connect_asks, ensure_gbp_first_sync,
                ensure_gbp_manager_access, ensure_ads_mcc_access,
                ensure_baseline_scans, ensure_ads_first_sync,
                ensure_internal_launch_tasks,
