@@ -17,6 +17,15 @@
       1200
     ]
   },
+  "/images/services/basement-flood-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/biohazard-cleanup.webp": {
     "width": 1376,
     "height": 768,
@@ -26,7 +35,61 @@
       1200
     ]
   },
+  "/images/services/burst-frozen-pipes.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/commercial-fire-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/commercial-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/contents-restoration-pack-out.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/contents-restoration-storage.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/fire-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/mold-inspection-testing.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -45,6 +108,15 @@
     ]
   },
   "/images/services/sewage-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-cleanup.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
