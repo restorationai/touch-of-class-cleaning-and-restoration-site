@@ -270,6 +270,19 @@ jobs:
               --month "$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)" || true
           fi
 
+      - name: Stripe payment-record reconciliation
+        # Nightly self-heal: Stripe's paid invoices vs our billing_invoices.
+        # The webhook race dropped records for 11 clients before 2026-09-03
+        # (payment gate wrongly blocked their site builds); the first sweep
+        # found 17 MORE missing invoices. Non-fatal: a Stripe hiccup must
+        # not take down the ops pass.
+        env:
+          STRIPE_SECRET_KEY:         ${{ secrets.STRIPE_SECRET_KEY }}
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python3 scripts/stripe_reconcile.py || echo "stripe-reconcile failed (non-fatal)"
+
       - name: Commit refreshed client data
         run: |
           # sites/ too: the auto-build path (setup_ledger.ensure_auto_site_build)
