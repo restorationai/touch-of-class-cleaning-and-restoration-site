@@ -147,6 +147,15 @@ scene, wrong region.
    (`--redo` is the client-correction opt-out of "never overwrite"; without it
    an existing image cannot be replaced). Core set: drop `--services`, add
    `--force`.
+2b. **Smallest change that satisfies the feedback (Santino 2026-09-03,
+   RT Olson).** When the client LIKED an existing image and asked for one
+   attribute to change ("the hood should be blue", "swap the shirt color"),
+   EDIT that image (targeted edit / inpaint via the image tool's edit mode on
+   the existing file) instead of regenerating the whole scene — Bobby liked
+   his hero and got a completely different picture back. Full regeneration is
+   for images the client rejected outright, images that violate the brand
+   rules, or scenes that don't exist yet. When in doubt whether they liked
+   the original, the origin quote on the card usually says so.
 3. **Quality-gate every image before you accept it.** Look at the file. Reject
    and regenerate on: garbled or invented lettering on a wrap or a uniform,
    anatomy errors (extra/merged limbs, wrong shoulder, rubbery arms), the
