@@ -12,7 +12,10 @@ name: Rank AI Dev Agent
 # tell the client it is done (scripts/dev_inbox.py close_the_loop).
 on:
   schedule:
-    - cron: '7 9 * * *'   # 2:07 AM PT nightly
+    - cron: '7 9 * * *'    # 2:07 AM PT nightly
+    - cron: '7 20 * * 1-5' # 1:07 PM PT weekdays (Santino 2026-09-03: client-
+                           # requested fixes from morning calls/messages land
+                           # same-day instead of waiting for the overnight run)
   workflow_dispatch: {}
 
 jobs:
