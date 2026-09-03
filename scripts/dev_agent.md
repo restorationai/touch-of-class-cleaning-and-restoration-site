@@ -161,6 +161,13 @@ scene, wrong region.
    for images the client rejected outright, images that violate the brand
    rules, or scenes that don't exist yet. When in doubt whether they liked
    the original, the origin quote on the card usually says so.
+2c. **Text survives edits via composite, not prompts.** Edit models redraw
+   any lettering near an edited region and reliably garble it ("RT OLSON
+   PLUMBING" came back "PL LINBING" twice, 2026-09-03). When an edit is
+   otherwise clean but text got mangled AND the edit did not move the
+   camera (same geometry), paste the original pixels back over the text
+   region with PIL and quality-check the seam. Two failed prompt retries on
+   lettering = switch to the composite.
 3. **Quality-gate every image before you accept it.** Look at the file. Reject
    and regenerate on: garbled or invented lettering on a wrap or a uniform,
    anatomy errors (extra/merged limbs, wrong shoulder, rubbery arms), the
