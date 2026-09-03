@@ -1,21 +1,21 @@
 # Site Plan Report — RT Olson Plumbing, Heating and Air Conditioning
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-08-18T12:11:12.411820+00:00
+- Generated: 2026-09-03T03:01:26.577465+00:00
 - Domain: `rtolsonplumbing.com`
 - Services selected: 11 of 22 catalog entries
-- Service areas: 9
+- Service areas: 34
 - Cross-product enabled: True
-- Total URLs: **124**
-- Total internal links: 945 (avg 7.6 per page)
+- Total URLs: **424**
+- Total internal links: 3364 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 88 |
+| `service-area-service` | 363 |
+| `service-area` | 33 |
 | `service-landing` | 11 |
-| `service-area` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -50,6 +50,31 @@
 - `chino-ca` — Chino, CA
 - `norco-ca` — Norco, CA
 - `yorba-linda-ca` — Yorba Linda, CA
+- `eastvale-ca` — Eastvale, CA
+- `lake-elsinore-ca` — Lake Elsinore, CA
+- `jurupa-valley-ca` — Jurupa Valley, CA
+- `mira-loma-ca` — Mira Loma, CA
+- `wildomar-ca` — Wildomar, CA
+- `temecula-ca` — Temecula, CA
+- `murrieta-ca` — Murrieta, CA
+- `menifee-ca` — Menifee, CA
+- `canyon-lake-ca` — Canyon Lake, CA
+- `sun-city-ca` — Sun City, CA
+- `french-valley-ca` — French Valley, CA
+- `winchester-ca` — Winchester, CA
+- `ontario-ranch-ca` — Ontario Ranch, CA
+- `chino-hills-ca` — Chino Hills, CA
+- `fontana-ca` — Fontana, CA
+- `upland-ca` — Upland, CA
+- `claremont-ca` — Claremont, CA
+- `pomona-ca` — Pomona, CA
+- `montclair-ca` — Montclair, CA
+- `bloomington-ca` — Bloomington, CA
+- `rialto-ca` — Rialto, CA
+- `diamond-bar-ca` — Diamond Bar, CA
+- `san-bernardino-ca` — San Bernardino, CA
+- `hemet-ca` — Hemet, CA
+- `san-jacinto-ca` — San Jacinto, CA
 
 ## Top 10 priority pages
 

@@ -1,7 +1,7 @@
 {
   "brand": {
     "display_name": "RT Olson Plumbing, Heating and Air Conditioning",
-    "place_id": "ChIJEXHd9pfR3IARQ_LumANTVG8",
+    "place_id": "ChIJrwzUDFa23IARkhGQxTSJGY8",
     "lat": 33.8752945,
     "lng": -117.566444,
     "phone": "(951) 344-5596",
@@ -21,7 +21,8 @@
       "Licensed & Insured",
       "24/7 Emergency Service",
       "Locally Owned & Operated"
-    ]
+    ],
+    "ga4_measurement_id": "G-D2RXDRWJ8D"
   },
   "services": [
     "emergency-plumbing",
@@ -82,6 +83,106 @@
       "city": "Yorba Linda",
       "state": "CA",
       "slug": "yorba-linda-ca"
+    },
+    {
+      "city": "Eastvale",
+      "state": "CA"
+    },
+    {
+      "city": "Lake Elsinore",
+      "state": "CA"
+    },
+    {
+      "city": "Jurupa Valley",
+      "state": "CA"
+    },
+    {
+      "city": "Mira Loma",
+      "state": "CA"
+    },
+    {
+      "city": "Wildomar",
+      "state": "CA"
+    },
+    {
+      "city": "Temecula",
+      "state": "CA"
+    },
+    {
+      "city": "Murrieta",
+      "state": "CA"
+    },
+    {
+      "city": "Menifee",
+      "state": "CA"
+    },
+    {
+      "city": "Canyon Lake",
+      "state": "CA"
+    },
+    {
+      "city": "Sun City",
+      "state": "CA"
+    },
+    {
+      "city": "French Valley",
+      "state": "CA"
+    },
+    {
+      "city": "Winchester",
+      "state": "CA"
+    },
+    {
+      "city": "Ontario Ranch",
+      "state": "CA"
+    },
+    {
+      "city": "Chino Hills",
+      "state": "CA"
+    },
+    {
+      "city": "Fontana",
+      "state": "CA"
+    },
+    {
+      "city": "Upland",
+      "state": "CA"
+    },
+    {
+      "city": "Claremont",
+      "state": "CA"
+    },
+    {
+      "city": "Pomona",
+      "state": "CA"
+    },
+    {
+      "city": "Montclair",
+      "state": "CA"
+    },
+    {
+      "city": "Bloomington",
+      "state": "CA"
+    },
+    {
+      "city": "Rialto",
+      "state": "CA"
+    },
+    {
+      "city": "Diamond Bar",
+      "state": "CA"
+    },
+    {
+      "city": "San Bernardino",
+      "state": "CA"
+    },
+    {
+      "city": "Hemet",
+      "state": "CA"
+    },
+    {
+      "city": "San Jacinto",
+      "state": "CA"
     }
   ],
   "template": "plumbing",

@@ -16,12 +16,37 @@
     "/services/water-softeners-filtration/",
     "/services/garbage-disposal/",
     "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/",
     "/service-areas/chino-ca/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/french-valley-ca/",
     "/service-areas/fullerton-ca/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/murrieta-ca/",
     "/service-areas/norco-ca/",
     "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/rialto-ca/",
     "/service-areas/riverside-ca/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-jacinto-ca/",
     "/service-areas/santa-ana-ca/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/upland-ca/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/winchester-ca/",
     "/service-areas/yorba-linda-ca/"
   ],
   "/services/": [
@@ -41,12 +66,37 @@
   "/service-areas/": [
     "/",
     "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/",
     "/service-areas/chino-ca/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/french-valley-ca/",
     "/service-areas/fullerton-ca/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/murrieta-ca/",
     "/service-areas/norco-ca/",
     "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/rialto-ca/",
     "/service-areas/riverside-ca/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-jacinto-ca/",
     "/service-areas/santa-ana-ca/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/upland-ca/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/winchester-ca/",
     "/service-areas/yorba-linda-ca/"
   ],
   "/blog/": [
@@ -74,26 +124,34 @@
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/service-areas/canyon-lake-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/chino-hills-ca/emergency-plumbing/",
+    "/service-areas/claremont-ca/emergency-plumbing/",
+    "/service-areas/diamond-bar-ca/emergency-plumbing/",
+    "/service-areas/eastvale-ca/emergency-plumbing/",
+    "/service-areas/fontana-ca/emergency-plumbing/",
+    "/service-areas/french-valley-ca/emergency-plumbing/",
     "/service-areas/fullerton-ca/emergency-plumbing/",
-    "/service-areas/norco-ca/emergency-plumbing/",
-    "/service-areas/ontario-ca/emergency-plumbing/",
-    "/service-areas/riverside-ca/emergency-plumbing/",
-    "/service-areas/santa-ana-ca/emergency-plumbing/",
-    "/service-areas/yorba-linda-ca/emergency-plumbing/",
+    "/service-areas/hemet-ca/emergency-plumbing/",
     "/blog/what-to-do-burst-pipe/"
   ],
   "/services/leak-detection/": [
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/service-areas/canyon-lake-ca/leak-detection/",
     "/service-areas/chino-ca/leak-detection/",
+    "/service-areas/chino-hills-ca/leak-detection/",
+    "/service-areas/claremont-ca/leak-detection/",
+    "/service-areas/diamond-bar-ca/leak-detection/",
+    "/service-areas/eastvale-ca/leak-detection/",
+    "/service-areas/fontana-ca/leak-detection/",
+    "/service-areas/french-valley-ca/leak-detection/",
     "/service-areas/fullerton-ca/leak-detection/",
-    "/service-areas/norco-ca/leak-detection/",
-    "/service-areas/ontario-ca/leak-detection/",
-    "/service-areas/riverside-ca/leak-detection/",
-    "/service-areas/santa-ana-ca/leak-detection/",
-    "/service-areas/yorba-linda-ca/leak-detection/",
+    "/service-areas/hemet-ca/leak-detection/",
     "/blog/low-water-pressure-causes/",
     "/blog/signs-of-a-slab-leak/"
   ],
@@ -101,13 +159,17 @@
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
     "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
     "/service-areas/fullerton-ca/drain-cleaning/",
-    "/service-areas/norco-ca/drain-cleaning/",
-    "/service-areas/ontario-ca/drain-cleaning/",
-    "/service-areas/riverside-ca/drain-cleaning/",
-    "/service-areas/santa-ana-ca/drain-cleaning/",
-    "/service-areas/yorba-linda-ca/drain-cleaning/",
+    "/service-areas/hemet-ca/drain-cleaning/",
     "/blog/drain-cleaning-diy-vs-pro/",
     "/blog/hydro-jetting-vs-snaking/"
   ],
@@ -115,26 +177,34 @@
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/service-areas/canyon-lake-ca/water-heater-repair/",
     "/service-areas/chino-ca/water-heater-repair/",
+    "/service-areas/chino-hills-ca/water-heater-repair/",
+    "/service-areas/claremont-ca/water-heater-repair/",
+    "/service-areas/diamond-bar-ca/water-heater-repair/",
+    "/service-areas/eastvale-ca/water-heater-repair/",
+    "/service-areas/fontana-ca/water-heater-repair/",
+    "/service-areas/french-valley-ca/water-heater-repair/",
     "/service-areas/fullerton-ca/water-heater-repair/",
-    "/service-areas/norco-ca/water-heater-repair/",
-    "/service-areas/ontario-ca/water-heater-repair/",
-    "/service-areas/riverside-ca/water-heater-repair/",
-    "/service-areas/santa-ana-ca/water-heater-repair/",
-    "/service-areas/yorba-linda-ca/water-heater-repair/",
+    "/service-areas/hemet-ca/water-heater-repair/",
     "/blog/water-heater-lifespan-repair-or-replace/"
   ],
   "/services/water-heater-installation/": [
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/service-areas/canyon-lake-ca/water-heater-installation/",
     "/service-areas/chino-ca/water-heater-installation/",
+    "/service-areas/chino-hills-ca/water-heater-installation/",
+    "/service-areas/claremont-ca/water-heater-installation/",
+    "/service-areas/diamond-bar-ca/water-heater-installation/",
+    "/service-areas/eastvale-ca/water-heater-installation/",
+    "/service-areas/fontana-ca/water-heater-installation/",
+    "/service-areas/french-valley-ca/water-heater-installation/",
     "/service-areas/fullerton-ca/water-heater-installation/",
-    "/service-areas/norco-ca/water-heater-installation/",
-    "/service-areas/ontario-ca/water-heater-installation/",
-    "/service-areas/riverside-ca/water-heater-installation/",
-    "/service-areas/santa-ana-ca/water-heater-installation/",
-    "/service-areas/yorba-linda-ca/water-heater-installation/",
+    "/service-areas/hemet-ca/water-heater-installation/",
     "/blog/tankless-vs-tank-water-heater/",
     "/blog/water-heater-lifespan-repair-or-replace/"
   ],
@@ -142,74 +212,98 @@
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/service-areas/canyon-lake-ca/toilet-faucet-repair/",
     "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/service-areas/chino-hills-ca/toilet-faucet-repair/",
+    "/service-areas/claremont-ca/toilet-faucet-repair/",
+    "/service-areas/diamond-bar-ca/toilet-faucet-repair/",
+    "/service-areas/eastvale-ca/toilet-faucet-repair/",
+    "/service-areas/fontana-ca/toilet-faucet-repair/",
+    "/service-areas/french-valley-ca/toilet-faucet-repair/",
     "/service-areas/fullerton-ca/toilet-faucet-repair/",
-    "/service-areas/norco-ca/toilet-faucet-repair/",
-    "/service-areas/ontario-ca/toilet-faucet-repair/",
-    "/service-areas/riverside-ca/toilet-faucet-repair/",
-    "/service-areas/santa-ana-ca/toilet-faucet-repair/",
-    "/service-areas/yorba-linda-ca/toilet-faucet-repair/"
+    "/service-areas/hemet-ca/toilet-faucet-repair/"
   ],
   "/services/garbage-disposal/": [
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/service-areas/canyon-lake-ca/garbage-disposal/",
     "/service-areas/chino-ca/garbage-disposal/",
+    "/service-areas/chino-hills-ca/garbage-disposal/",
+    "/service-areas/claremont-ca/garbage-disposal/",
+    "/service-areas/diamond-bar-ca/garbage-disposal/",
+    "/service-areas/eastvale-ca/garbage-disposal/",
+    "/service-areas/fontana-ca/garbage-disposal/",
+    "/service-areas/french-valley-ca/garbage-disposal/",
     "/service-areas/fullerton-ca/garbage-disposal/",
-    "/service-areas/norco-ca/garbage-disposal/",
-    "/service-areas/ontario-ca/garbage-disposal/",
-    "/service-areas/riverside-ca/garbage-disposal/",
-    "/service-areas/santa-ana-ca/garbage-disposal/",
-    "/service-areas/yorba-linda-ca/garbage-disposal/"
+    "/service-areas/hemet-ca/garbage-disposal/"
   ],
   "/services/water-softeners-filtration/": [
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/service-areas/canyon-lake-ca/water-softeners-filtration/",
     "/service-areas/chino-ca/water-softeners-filtration/",
+    "/service-areas/chino-hills-ca/water-softeners-filtration/",
+    "/service-areas/claremont-ca/water-softeners-filtration/",
+    "/service-areas/diamond-bar-ca/water-softeners-filtration/",
+    "/service-areas/eastvale-ca/water-softeners-filtration/",
+    "/service-areas/fontana-ca/water-softeners-filtration/",
+    "/service-areas/french-valley-ca/water-softeners-filtration/",
     "/service-areas/fullerton-ca/water-softeners-filtration/",
-    "/service-areas/norco-ca/water-softeners-filtration/",
-    "/service-areas/ontario-ca/water-softeners-filtration/",
-    "/service-areas/riverside-ca/water-softeners-filtration/",
-    "/service-areas/santa-ana-ca/water-softeners-filtration/",
-    "/service-areas/yorba-linda-ca/water-softeners-filtration/"
+    "/service-areas/hemet-ca/water-softeners-filtration/"
   ],
   "/services/ac-repair/": [
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
     "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/french-valley-ca/ac-repair/",
     "/service-areas/fullerton-ca/ac-repair/",
-    "/service-areas/norco-ca/ac-repair/",
-    "/service-areas/ontario-ca/ac-repair/",
-    "/service-areas/riverside-ca/ac-repair/",
-    "/service-areas/santa-ana-ca/ac-repair/",
-    "/service-areas/yorba-linda-ca/ac-repair/"
+    "/service-areas/hemet-ca/ac-repair/"
   ],
   "/services/furnace-repair/": [
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/service-areas/canyon-lake-ca/furnace-repair/",
     "/service-areas/chino-ca/furnace-repair/",
+    "/service-areas/chino-hills-ca/furnace-repair/",
+    "/service-areas/claremont-ca/furnace-repair/",
+    "/service-areas/diamond-bar-ca/furnace-repair/",
+    "/service-areas/eastvale-ca/furnace-repair/",
+    "/service-areas/fontana-ca/furnace-repair/",
+    "/service-areas/french-valley-ca/furnace-repair/",
     "/service-areas/fullerton-ca/furnace-repair/",
-    "/service-areas/norco-ca/furnace-repair/",
-    "/service-areas/ontario-ca/furnace-repair/",
-    "/service-areas/riverside-ca/furnace-repair/",
-    "/service-areas/santa-ana-ca/furnace-repair/",
-    "/service-areas/yorba-linda-ca/furnace-repair/",
+    "/service-areas/hemet-ca/furnace-repair/",
     "/blog/furnace-repair-or-replace/"
   ],
   "/services/indoor-air-quality/": [
     "/services/",
     "/contact/",
     "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/service-areas/canyon-lake-ca/indoor-air-quality/",
     "/service-areas/chino-ca/indoor-air-quality/",
+    "/service-areas/chino-hills-ca/indoor-air-quality/",
+    "/service-areas/claremont-ca/indoor-air-quality/",
+    "/service-areas/diamond-bar-ca/indoor-air-quality/",
+    "/service-areas/eastvale-ca/indoor-air-quality/",
+    "/service-areas/fontana-ca/indoor-air-quality/",
+    "/service-areas/french-valley-ca/indoor-air-quality/",
     "/service-areas/fullerton-ca/indoor-air-quality/",
-    "/service-areas/norco-ca/indoor-air-quality/",
-    "/service-areas/ontario-ca/indoor-air-quality/",
-    "/service-areas/riverside-ca/indoor-air-quality/",
-    "/service-areas/santa-ana-ca/indoor-air-quality/",
-    "/service-areas/yorba-linda-ca/indoor-air-quality/"
+    "/service-areas/hemet-ca/indoor-air-quality/"
   ],
   "/service-areas/riverside-ca/": [
     "/service-areas/",
@@ -226,8 +320,8 @@
     "/service-areas/riverside-ca/water-softeners-filtration/",
     "/service-areas/riverside-ca/garbage-disposal/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/",
-    "/service-areas/fullerton-ca/"
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
   ],
   "/service-areas/anaheim-ca/": [
     "/service-areas/",
@@ -243,9 +337,9 @@
     "/service-areas/anaheim-ca/indoor-air-quality/",
     "/service-areas/anaheim-ca/water-softeners-filtration/",
     "/service-areas/anaheim-ca/garbage-disposal/",
-    "/service-areas/chino-ca/",
-    "/service-areas/fullerton-ca/",
-    "/service-areas/norco-ca/"
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/chino-ca/"
   ],
   "/service-areas/santa-ana-ca/": [
     "/service-areas/",
@@ -262,8 +356,8 @@
     "/service-areas/santa-ana-ca/water-softeners-filtration/",
     "/service-areas/santa-ana-ca/garbage-disposal/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/",
-    "/service-areas/fullerton-ca/"
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
   ],
   "/service-areas/fullerton-ca/": [
     "/service-areas/",
@@ -280,8 +374,8 @@
     "/service-areas/fullerton-ca/water-softeners-filtration/",
     "/service-areas/fullerton-ca/garbage-disposal/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/",
-    "/service-areas/norco-ca/"
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
   ],
   "/service-areas/ontario-ca/": [
     "/service-areas/",
@@ -298,8 +392,8 @@
     "/service-areas/ontario-ca/water-softeners-filtration/",
     "/service-areas/ontario-ca/garbage-disposal/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/",
-    "/service-areas/fullerton-ca/"
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
   ],
   "/service-areas/chino-ca/": [
     "/service-areas/",
@@ -316,8 +410,8 @@
     "/service-areas/chino-ca/water-softeners-filtration/",
     "/service-areas/chino-ca/garbage-disposal/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/fullerton-ca/",
-    "/service-areas/norco-ca/"
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
   ],
   "/service-areas/norco-ca/": [
     "/service-areas/",
@@ -334,8 +428,8 @@
     "/service-areas/norco-ca/water-softeners-filtration/",
     "/service-areas/norco-ca/garbage-disposal/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/",
-    "/service-areas/fullerton-ca/"
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
   ],
   "/service-areas/yorba-linda-ca/": [
     "/service-areas/",
@@ -352,8 +446,458 @@
     "/service-areas/yorba-linda-ca/water-softeners-filtration/",
     "/service-areas/yorba-linda-ca/garbage-disposal/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/",
-    "/service-areas/fullerton-ca/"
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/eastvale-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/eastvale-ca/emergency-plumbing/",
+    "/service-areas/eastvale-ca/water-heater-repair/",
+    "/service-areas/eastvale-ca/furnace-repair/",
+    "/service-areas/eastvale-ca/water-heater-installation/",
+    "/service-areas/eastvale-ca/leak-detection/",
+    "/service-areas/eastvale-ca/toilet-faucet-repair/",
+    "/service-areas/eastvale-ca/indoor-air-quality/",
+    "/service-areas/eastvale-ca/water-softeners-filtration/",
+    "/service-areas/eastvale-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/lake-elsinore-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/lake-elsinore-ca/emergency-plumbing/",
+    "/service-areas/lake-elsinore-ca/water-heater-repair/",
+    "/service-areas/lake-elsinore-ca/furnace-repair/",
+    "/service-areas/lake-elsinore-ca/water-heater-installation/",
+    "/service-areas/lake-elsinore-ca/leak-detection/",
+    "/service-areas/lake-elsinore-ca/toilet-faucet-repair/",
+    "/service-areas/lake-elsinore-ca/indoor-air-quality/",
+    "/service-areas/lake-elsinore-ca/water-softeners-filtration/",
+    "/service-areas/lake-elsinore-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/jurupa-valley-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/jurupa-valley-ca/emergency-plumbing/",
+    "/service-areas/jurupa-valley-ca/water-heater-repair/",
+    "/service-areas/jurupa-valley-ca/furnace-repair/",
+    "/service-areas/jurupa-valley-ca/water-heater-installation/",
+    "/service-areas/jurupa-valley-ca/leak-detection/",
+    "/service-areas/jurupa-valley-ca/toilet-faucet-repair/",
+    "/service-areas/jurupa-valley-ca/indoor-air-quality/",
+    "/service-areas/jurupa-valley-ca/water-softeners-filtration/",
+    "/service-areas/jurupa-valley-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/mira-loma-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/mira-loma-ca/emergency-plumbing/",
+    "/service-areas/mira-loma-ca/water-heater-repair/",
+    "/service-areas/mira-loma-ca/furnace-repair/",
+    "/service-areas/mira-loma-ca/water-heater-installation/",
+    "/service-areas/mira-loma-ca/leak-detection/",
+    "/service-areas/mira-loma-ca/toilet-faucet-repair/",
+    "/service-areas/mira-loma-ca/indoor-air-quality/",
+    "/service-areas/mira-loma-ca/water-softeners-filtration/",
+    "/service-areas/mira-loma-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/wildomar-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/wildomar-ca/emergency-plumbing/",
+    "/service-areas/wildomar-ca/water-heater-repair/",
+    "/service-areas/wildomar-ca/furnace-repair/",
+    "/service-areas/wildomar-ca/water-heater-installation/",
+    "/service-areas/wildomar-ca/leak-detection/",
+    "/service-areas/wildomar-ca/toilet-faucet-repair/",
+    "/service-areas/wildomar-ca/indoor-air-quality/",
+    "/service-areas/wildomar-ca/water-softeners-filtration/",
+    "/service-areas/wildomar-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/temecula-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/temecula-ca/emergency-plumbing/",
+    "/service-areas/temecula-ca/water-heater-repair/",
+    "/service-areas/temecula-ca/furnace-repair/",
+    "/service-areas/temecula-ca/water-heater-installation/",
+    "/service-areas/temecula-ca/leak-detection/",
+    "/service-areas/temecula-ca/toilet-faucet-repair/",
+    "/service-areas/temecula-ca/indoor-air-quality/",
+    "/service-areas/temecula-ca/water-softeners-filtration/",
+    "/service-areas/temecula-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/murrieta-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/murrieta-ca/emergency-plumbing/",
+    "/service-areas/murrieta-ca/water-heater-repair/",
+    "/service-areas/murrieta-ca/furnace-repair/",
+    "/service-areas/murrieta-ca/water-heater-installation/",
+    "/service-areas/murrieta-ca/leak-detection/",
+    "/service-areas/murrieta-ca/toilet-faucet-repair/",
+    "/service-areas/murrieta-ca/indoor-air-quality/",
+    "/service-areas/murrieta-ca/water-softeners-filtration/",
+    "/service-areas/murrieta-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/menifee-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/menifee-ca/emergency-plumbing/",
+    "/service-areas/menifee-ca/water-heater-repair/",
+    "/service-areas/menifee-ca/furnace-repair/",
+    "/service-areas/menifee-ca/water-heater-installation/",
+    "/service-areas/menifee-ca/leak-detection/",
+    "/service-areas/menifee-ca/toilet-faucet-repair/",
+    "/service-areas/menifee-ca/indoor-air-quality/",
+    "/service-areas/menifee-ca/water-softeners-filtration/",
+    "/service-areas/menifee-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/canyon-lake-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/canyon-lake-ca/emergency-plumbing/",
+    "/service-areas/canyon-lake-ca/water-heater-repair/",
+    "/service-areas/canyon-lake-ca/furnace-repair/",
+    "/service-areas/canyon-lake-ca/water-heater-installation/",
+    "/service-areas/canyon-lake-ca/leak-detection/",
+    "/service-areas/canyon-lake-ca/toilet-faucet-repair/",
+    "/service-areas/canyon-lake-ca/indoor-air-quality/",
+    "/service-areas/canyon-lake-ca/water-softeners-filtration/",
+    "/service-areas/canyon-lake-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/chino-ca/"
+  ],
+  "/service-areas/sun-city-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/sun-city-ca/emergency-plumbing/",
+    "/service-areas/sun-city-ca/water-heater-repair/",
+    "/service-areas/sun-city-ca/furnace-repair/",
+    "/service-areas/sun-city-ca/water-heater-installation/",
+    "/service-areas/sun-city-ca/leak-detection/",
+    "/service-areas/sun-city-ca/toilet-faucet-repair/",
+    "/service-areas/sun-city-ca/indoor-air-quality/",
+    "/service-areas/sun-city-ca/water-softeners-filtration/",
+    "/service-areas/sun-city-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/french-valley-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/french-valley-ca/emergency-plumbing/",
+    "/service-areas/french-valley-ca/water-heater-repair/",
+    "/service-areas/french-valley-ca/furnace-repair/",
+    "/service-areas/french-valley-ca/water-heater-installation/",
+    "/service-areas/french-valley-ca/leak-detection/",
+    "/service-areas/french-valley-ca/toilet-faucet-repair/",
+    "/service-areas/french-valley-ca/indoor-air-quality/",
+    "/service-areas/french-valley-ca/water-softeners-filtration/",
+    "/service-areas/french-valley-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/winchester-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/winchester-ca/emergency-plumbing/",
+    "/service-areas/winchester-ca/water-heater-repair/",
+    "/service-areas/winchester-ca/furnace-repair/",
+    "/service-areas/winchester-ca/water-heater-installation/",
+    "/service-areas/winchester-ca/leak-detection/",
+    "/service-areas/winchester-ca/toilet-faucet-repair/",
+    "/service-areas/winchester-ca/indoor-air-quality/",
+    "/service-areas/winchester-ca/water-softeners-filtration/",
+    "/service-areas/winchester-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/ontario-ranch-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/ontario-ranch-ca/emergency-plumbing/",
+    "/service-areas/ontario-ranch-ca/water-heater-repair/",
+    "/service-areas/ontario-ranch-ca/furnace-repair/",
+    "/service-areas/ontario-ranch-ca/water-heater-installation/",
+    "/service-areas/ontario-ranch-ca/leak-detection/",
+    "/service-areas/ontario-ranch-ca/toilet-faucet-repair/",
+    "/service-areas/ontario-ranch-ca/indoor-air-quality/",
+    "/service-areas/ontario-ranch-ca/water-softeners-filtration/",
+    "/service-areas/ontario-ranch-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/chino-hills-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/chino-hills-ca/emergency-plumbing/",
+    "/service-areas/chino-hills-ca/water-heater-repair/",
+    "/service-areas/chino-hills-ca/furnace-repair/",
+    "/service-areas/chino-hills-ca/water-heater-installation/",
+    "/service-areas/chino-hills-ca/leak-detection/",
+    "/service-areas/chino-hills-ca/toilet-faucet-repair/",
+    "/service-areas/chino-hills-ca/indoor-air-quality/",
+    "/service-areas/chino-hills-ca/water-softeners-filtration/",
+    "/service-areas/chino-hills-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/fontana-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/fontana-ca/emergency-plumbing/",
+    "/service-areas/fontana-ca/water-heater-repair/",
+    "/service-areas/fontana-ca/furnace-repair/",
+    "/service-areas/fontana-ca/water-heater-installation/",
+    "/service-areas/fontana-ca/leak-detection/",
+    "/service-areas/fontana-ca/toilet-faucet-repair/",
+    "/service-areas/fontana-ca/indoor-air-quality/",
+    "/service-areas/fontana-ca/water-softeners-filtration/",
+    "/service-areas/fontana-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/upland-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/upland-ca/emergency-plumbing/",
+    "/service-areas/upland-ca/water-heater-repair/",
+    "/service-areas/upland-ca/furnace-repair/",
+    "/service-areas/upland-ca/water-heater-installation/",
+    "/service-areas/upland-ca/leak-detection/",
+    "/service-areas/upland-ca/toilet-faucet-repair/",
+    "/service-areas/upland-ca/indoor-air-quality/",
+    "/service-areas/upland-ca/water-softeners-filtration/",
+    "/service-areas/upland-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/claremont-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/claremont-ca/emergency-plumbing/",
+    "/service-areas/claremont-ca/water-heater-repair/",
+    "/service-areas/claremont-ca/furnace-repair/",
+    "/service-areas/claremont-ca/water-heater-installation/",
+    "/service-areas/claremont-ca/leak-detection/",
+    "/service-areas/claremont-ca/toilet-faucet-repair/",
+    "/service-areas/claremont-ca/indoor-air-quality/",
+    "/service-areas/claremont-ca/water-softeners-filtration/",
+    "/service-areas/claremont-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/pomona-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/pomona-ca/emergency-plumbing/",
+    "/service-areas/pomona-ca/water-heater-repair/",
+    "/service-areas/pomona-ca/furnace-repair/",
+    "/service-areas/pomona-ca/water-heater-installation/",
+    "/service-areas/pomona-ca/leak-detection/",
+    "/service-areas/pomona-ca/toilet-faucet-repair/",
+    "/service-areas/pomona-ca/indoor-air-quality/",
+    "/service-areas/pomona-ca/water-softeners-filtration/",
+    "/service-areas/pomona-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/montclair-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/montclair-ca/emergency-plumbing/",
+    "/service-areas/montclair-ca/water-heater-repair/",
+    "/service-areas/montclair-ca/furnace-repair/",
+    "/service-areas/montclair-ca/water-heater-installation/",
+    "/service-areas/montclair-ca/leak-detection/",
+    "/service-areas/montclair-ca/toilet-faucet-repair/",
+    "/service-areas/montclair-ca/indoor-air-quality/",
+    "/service-areas/montclair-ca/water-softeners-filtration/",
+    "/service-areas/montclair-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/bloomington-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/chino-ca/"
+  ],
+  "/service-areas/rialto-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/rialto-ca/emergency-plumbing/",
+    "/service-areas/rialto-ca/water-heater-repair/",
+    "/service-areas/rialto-ca/furnace-repair/",
+    "/service-areas/rialto-ca/water-heater-installation/",
+    "/service-areas/rialto-ca/leak-detection/",
+    "/service-areas/rialto-ca/toilet-faucet-repair/",
+    "/service-areas/rialto-ca/indoor-air-quality/",
+    "/service-areas/rialto-ca/water-softeners-filtration/",
+    "/service-areas/rialto-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/diamond-bar-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/diamond-bar-ca/emergency-plumbing/",
+    "/service-areas/diamond-bar-ca/water-heater-repair/",
+    "/service-areas/diamond-bar-ca/furnace-repair/",
+    "/service-areas/diamond-bar-ca/water-heater-installation/",
+    "/service-areas/diamond-bar-ca/leak-detection/",
+    "/service-areas/diamond-bar-ca/toilet-faucet-repair/",
+    "/service-areas/diamond-bar-ca/indoor-air-quality/",
+    "/service-areas/diamond-bar-ca/water-softeners-filtration/",
+    "/service-areas/diamond-bar-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/san-bernardino-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/san-bernardino-ca/emergency-plumbing/",
+    "/service-areas/san-bernardino-ca/water-heater-repair/",
+    "/service-areas/san-bernardino-ca/furnace-repair/",
+    "/service-areas/san-bernardino-ca/water-heater-installation/",
+    "/service-areas/san-bernardino-ca/leak-detection/",
+    "/service-areas/san-bernardino-ca/toilet-faucet-repair/",
+    "/service-areas/san-bernardino-ca/indoor-air-quality/",
+    "/service-areas/san-bernardino-ca/water-softeners-filtration/",
+    "/service-areas/san-bernardino-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/hemet-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/hemet-ca/emergency-plumbing/",
+    "/service-areas/hemet-ca/water-heater-repair/",
+    "/service-areas/hemet-ca/furnace-repair/",
+    "/service-areas/hemet-ca/water-heater-installation/",
+    "/service-areas/hemet-ca/leak-detection/",
+    "/service-areas/hemet-ca/toilet-faucet-repair/",
+    "/service-areas/hemet-ca/indoor-air-quality/",
+    "/service-areas/hemet-ca/water-softeners-filtration/",
+    "/service-areas/hemet-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
+  ],
+  "/service-areas/san-jacinto-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/san-jacinto-ca/emergency-plumbing/",
+    "/service-areas/san-jacinto-ca/water-heater-repair/",
+    "/service-areas/san-jacinto-ca/furnace-repair/",
+    "/service-areas/san-jacinto-ca/water-heater-installation/",
+    "/service-areas/san-jacinto-ca/leak-detection/",
+    "/service-areas/san-jacinto-ca/toilet-faucet-repair/",
+    "/service-areas/san-jacinto-ca/indoor-air-quality/",
+    "/service-areas/san-jacinto-ca/water-softeners-filtration/",
+    "/service-areas/san-jacinto-ca/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/canyon-lake-ca/"
   ],
   "/service-areas/riverside-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
@@ -361,7 +905,7 @@
     "/service-areas/riverside-ca/ac-repair/",
     "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/leak-detection/": [
@@ -370,7 +914,7 @@
     "/service-areas/riverside-ca/ac-repair/",
     "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
-    "/service-areas/chino-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/drain-cleaning/": [
@@ -379,7 +923,7 @@
     "/service-areas/riverside-ca/ac-repair/",
     "/service-areas/riverside-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/water-heater-repair/": [
@@ -388,7 +932,7 @@
     "/service-areas/riverside-ca/ac-repair/",
     "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-repair/",
-    "/service-areas/chino-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/water-heater-installation/": [
@@ -397,7 +941,7 @@
     "/service-areas/riverside-ca/ac-repair/",
     "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-installation/",
-    "/service-areas/chino-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/toilet-faucet-repair/": [
@@ -406,7 +950,7 @@
     "/service-areas/riverside-ca/ac-repair/",
     "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/toilet-faucet-repair/",
-    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/garbage-disposal/": [
@@ -415,7 +959,7 @@
     "/service-areas/riverside-ca/ac-repair/",
     "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/garbage-disposal/",
-    "/service-areas/chino-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/water-softeners-filtration/": [
@@ -424,7 +968,7 @@
     "/service-areas/riverside-ca/ac-repair/",
     "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-softeners-filtration/",
-    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/ac-repair/": [
@@ -433,7 +977,7 @@
     "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/riverside-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/ac-repair/",
-    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/furnace-repair/": [
@@ -442,7 +986,7 @@
     "/service-areas/riverside-ca/ac-repair/",
     "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/furnace-repair/",
-    "/service-areas/chino-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/indoor-air-quality/": [
@@ -451,7 +995,7 @@
     "/service-areas/riverside-ca/ac-repair/",
     "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/indoor-air-quality/",
-    "/service-areas/chino-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/emergency-plumbing/": [
@@ -459,8 +1003,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/ac-repair/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/emergency-plumbing/",
-    "/service-areas/fullerton-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/service-areas/canyon-lake-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/leak-detection/": [
@@ -468,8 +1012,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/ac-repair/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/leak-detection/",
-    "/service-areas/fullerton-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/service-areas/canyon-lake-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/drain-cleaning/": [
@@ -477,8 +1021,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/ac-repair/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/chino-ca/drain-cleaning/",
-    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/water-heater-repair/": [
@@ -486,8 +1030,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/ac-repair/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/water-heater-repair/",
-    "/service-areas/fullerton-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/service-areas/canyon-lake-ca/water-heater-repair/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/water-heater-installation/": [
@@ -495,8 +1039,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/ac-repair/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/water-heater-installation/",
-    "/service-areas/fullerton-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/service-areas/canyon-lake-ca/water-heater-installation/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/toilet-faucet-repair/": [
@@ -504,8 +1048,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/ac-repair/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/toilet-faucet-repair/",
-    "/service-areas/fullerton-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/service-areas/canyon-lake-ca/toilet-faucet-repair/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/garbage-disposal/": [
@@ -513,8 +1057,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/ac-repair/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/garbage-disposal/",
-    "/service-areas/fullerton-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/service-areas/canyon-lake-ca/garbage-disposal/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/water-softeners-filtration/": [
@@ -522,8 +1066,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/ac-repair/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/water-softeners-filtration/",
-    "/service-areas/fullerton-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/service-areas/canyon-lake-ca/water-softeners-filtration/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/ac-repair/": [
@@ -531,8 +1075,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/chino-ca/ac-repair/",
-    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/furnace-repair/": [
@@ -540,8 +1084,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/ac-repair/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/furnace-repair/",
-    "/service-areas/fullerton-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/service-areas/canyon-lake-ca/furnace-repair/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/indoor-air-quality/": [
@@ -549,8 +1093,8 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/ac-repair/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/indoor-air-quality/",
-    "/service-areas/fullerton-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/service-areas/canyon-lake-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/emergency-plumbing/": [
@@ -559,7 +1103,7 @@
     "/service-areas/santa-ana-ca/ac-repair/",
     "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/leak-detection/": [
@@ -568,7 +1112,7 @@
     "/service-areas/santa-ana-ca/ac-repair/",
     "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
-    "/service-areas/chino-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/drain-cleaning/": [
@@ -577,7 +1121,7 @@
     "/service-areas/santa-ana-ca/ac-repair/",
     "/service-areas/santa-ana-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/water-heater-repair/": [
@@ -586,7 +1130,7 @@
     "/service-areas/santa-ana-ca/ac-repair/",
     "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-repair/",
-    "/service-areas/chino-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/water-heater-installation/": [
@@ -595,7 +1139,7 @@
     "/service-areas/santa-ana-ca/ac-repair/",
     "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-installation/",
-    "/service-areas/chino-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/toilet-faucet-repair/": [
@@ -604,7 +1148,7 @@
     "/service-areas/santa-ana-ca/ac-repair/",
     "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/toilet-faucet-repair/",
-    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/garbage-disposal/": [
@@ -613,7 +1157,7 @@
     "/service-areas/santa-ana-ca/ac-repair/",
     "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/garbage-disposal/",
-    "/service-areas/chino-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/water-softeners-filtration/": [
@@ -622,7 +1166,7 @@
     "/service-areas/santa-ana-ca/ac-repair/",
     "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-softeners-filtration/",
-    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/ac-repair/": [
@@ -631,7 +1175,7 @@
     "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/santa-ana-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/ac-repair/",
-    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/furnace-repair/": [
@@ -640,7 +1184,7 @@
     "/service-areas/santa-ana-ca/ac-repair/",
     "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/furnace-repair/",
-    "/service-areas/chino-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/indoor-air-quality/": [
@@ -649,7 +1193,7 @@
     "/service-areas/santa-ana-ca/ac-repair/",
     "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/indoor-air-quality/",
-    "/service-areas/chino-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/emergency-plumbing/": [
@@ -658,7 +1202,7 @@
     "/service-areas/fullerton-ca/ac-repair/",
     "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/leak-detection/": [
@@ -667,7 +1211,7 @@
     "/service-areas/fullerton-ca/ac-repair/",
     "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
-    "/service-areas/chino-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/drain-cleaning/": [
@@ -676,7 +1220,7 @@
     "/service-areas/fullerton-ca/ac-repair/",
     "/service-areas/fullerton-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/water-heater-repair/": [
@@ -685,7 +1229,7 @@
     "/service-areas/fullerton-ca/ac-repair/",
     "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-repair/",
-    "/service-areas/chino-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/water-heater-installation/": [
@@ -694,7 +1238,7 @@
     "/service-areas/fullerton-ca/ac-repair/",
     "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-installation/",
-    "/service-areas/chino-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/toilet-faucet-repair/": [
@@ -703,7 +1247,7 @@
     "/service-areas/fullerton-ca/ac-repair/",
     "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/toilet-faucet-repair/",
-    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/garbage-disposal/": [
@@ -712,7 +1256,7 @@
     "/service-areas/fullerton-ca/ac-repair/",
     "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/garbage-disposal/",
-    "/service-areas/chino-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/water-softeners-filtration/": [
@@ -721,7 +1265,7 @@
     "/service-areas/fullerton-ca/ac-repair/",
     "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-softeners-filtration/",
-    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/ac-repair/": [
@@ -730,7 +1274,7 @@
     "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/fullerton-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/ac-repair/",
-    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/furnace-repair/": [
@@ -739,7 +1283,7 @@
     "/service-areas/fullerton-ca/ac-repair/",
     "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/furnace-repair/",
-    "/service-areas/chino-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/indoor-air-quality/": [
@@ -748,7 +1292,7 @@
     "/service-areas/fullerton-ca/ac-repair/",
     "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/indoor-air-quality/",
-    "/service-areas/chino-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/emergency-plumbing/": [
@@ -757,7 +1301,7 @@
     "/service-areas/ontario-ca/ac-repair/",
     "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/leak-detection/": [
@@ -766,7 +1310,7 @@
     "/service-areas/ontario-ca/ac-repair/",
     "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
-    "/service-areas/chino-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/drain-cleaning/": [
@@ -775,7 +1319,7 @@
     "/service-areas/ontario-ca/ac-repair/",
     "/service-areas/ontario-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/water-heater-repair/": [
@@ -784,7 +1328,7 @@
     "/service-areas/ontario-ca/ac-repair/",
     "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-repair/",
-    "/service-areas/chino-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/water-heater-installation/": [
@@ -793,7 +1337,7 @@
     "/service-areas/ontario-ca/ac-repair/",
     "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-installation/",
-    "/service-areas/chino-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/toilet-faucet-repair/": [
@@ -802,7 +1346,7 @@
     "/service-areas/ontario-ca/ac-repair/",
     "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/toilet-faucet-repair/",
-    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/garbage-disposal/": [
@@ -811,7 +1355,7 @@
     "/service-areas/ontario-ca/ac-repair/",
     "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/garbage-disposal/",
-    "/service-areas/chino-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/water-softeners-filtration/": [
@@ -820,7 +1364,7 @@
     "/service-areas/ontario-ca/ac-repair/",
     "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-softeners-filtration/",
-    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/ac-repair/": [
@@ -829,7 +1373,7 @@
     "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/ontario-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/ac-repair/",
-    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/furnace-repair/": [
@@ -838,7 +1382,7 @@
     "/service-areas/ontario-ca/ac-repair/",
     "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/furnace-repair/",
-    "/service-areas/chino-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/indoor-air-quality/": [
@@ -847,7 +1391,7 @@
     "/service-areas/ontario-ca/ac-repair/",
     "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/indoor-air-quality/",
-    "/service-areas/chino-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/chino-ca/emergency-plumbing/": [
@@ -856,7 +1400,7 @@
     "/service-areas/chino-ca/ac-repair/",
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/fullerton-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/chino-ca/leak-detection/": [
@@ -865,7 +1409,7 @@
     "/service-areas/chino-ca/ac-repair/",
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
-    "/service-areas/fullerton-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/chino-ca/drain-cleaning/": [
@@ -874,7 +1418,7 @@
     "/service-areas/chino-ca/ac-repair/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
     "/contact/"
   ],
   "/service-areas/chino-ca/water-heater-repair/": [
@@ -883,7 +1427,7 @@
     "/service-areas/chino-ca/ac-repair/",
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-repair/",
-    "/service-areas/fullerton-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
     "/contact/"
   ],
   "/service-areas/chino-ca/water-heater-installation/": [
@@ -892,7 +1436,7 @@
     "/service-areas/chino-ca/ac-repair/",
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-installation/",
-    "/service-areas/fullerton-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
     "/contact/"
   ],
   "/service-areas/chino-ca/toilet-faucet-repair/": [
@@ -901,7 +1445,7 @@
     "/service-areas/chino-ca/ac-repair/",
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/toilet-faucet-repair/",
-    "/service-areas/fullerton-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
     "/contact/"
   ],
   "/service-areas/chino-ca/garbage-disposal/": [
@@ -910,7 +1454,7 @@
     "/service-areas/chino-ca/ac-repair/",
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/garbage-disposal/",
-    "/service-areas/fullerton-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
     "/contact/"
   ],
   "/service-areas/chino-ca/water-softeners-filtration/": [
@@ -919,7 +1463,7 @@
     "/service-areas/chino-ca/ac-repair/",
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-softeners-filtration/",
-    "/service-areas/fullerton-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
     "/contact/"
   ],
   "/service-areas/chino-ca/ac-repair/": [
@@ -928,7 +1472,7 @@
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/ac-repair/",
-    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
     "/contact/"
   ],
   "/service-areas/chino-ca/furnace-repair/": [
@@ -937,7 +1481,7 @@
     "/service-areas/chino-ca/ac-repair/",
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/furnace-repair/",
-    "/service-areas/fullerton-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
     "/contact/"
   ],
   "/service-areas/chino-ca/indoor-air-quality/": [
@@ -946,7 +1490,7 @@
     "/service-areas/chino-ca/ac-repair/",
     "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/indoor-air-quality/",
-    "/service-areas/fullerton-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/norco-ca/emergency-plumbing/": [
@@ -955,7 +1499,7 @@
     "/service-areas/norco-ca/ac-repair/",
     "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/norco-ca/leak-detection/": [
@@ -964,7 +1508,7 @@
     "/service-areas/norco-ca/ac-repair/",
     "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
-    "/service-areas/chino-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/norco-ca/drain-cleaning/": [
@@ -973,7 +1517,7 @@
     "/service-areas/norco-ca/ac-repair/",
     "/service-areas/norco-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
     "/contact/"
   ],
   "/service-areas/norco-ca/water-heater-repair/": [
@@ -982,7 +1526,7 @@
     "/service-areas/norco-ca/ac-repair/",
     "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-repair/",
-    "/service-areas/chino-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
     "/contact/"
   ],
   "/service-areas/norco-ca/water-heater-installation/": [
@@ -991,7 +1535,7 @@
     "/service-areas/norco-ca/ac-repair/",
     "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-installation/",
-    "/service-areas/chino-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
     "/contact/"
   ],
   "/service-areas/norco-ca/toilet-faucet-repair/": [
@@ -1000,7 +1544,7 @@
     "/service-areas/norco-ca/ac-repair/",
     "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/toilet-faucet-repair/",
-    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
     "/contact/"
   ],
   "/service-areas/norco-ca/garbage-disposal/": [
@@ -1009,7 +1553,7 @@
     "/service-areas/norco-ca/ac-repair/",
     "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/garbage-disposal/",
-    "/service-areas/chino-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
     "/contact/"
   ],
   "/service-areas/norco-ca/water-softeners-filtration/": [
@@ -1018,7 +1562,7 @@
     "/service-areas/norco-ca/ac-repair/",
     "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-softeners-filtration/",
-    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
     "/contact/"
   ],
   "/service-areas/norco-ca/ac-repair/": [
@@ -1027,7 +1571,7 @@
     "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/norco-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/ac-repair/",
-    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
     "/contact/"
   ],
   "/service-areas/norco-ca/furnace-repair/": [
@@ -1036,7 +1580,7 @@
     "/service-areas/norco-ca/ac-repair/",
     "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/furnace-repair/",
-    "/service-areas/chino-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
     "/contact/"
   ],
   "/service-areas/norco-ca/indoor-air-quality/": [
@@ -1045,7 +1589,7 @@
     "/service-areas/norco-ca/ac-repair/",
     "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/indoor-air-quality/",
-    "/service-areas/chino-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/emergency-plumbing/": [
@@ -1054,7 +1598,7 @@
     "/service-areas/yorba-linda-ca/ac-repair/",
     "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/leak-detection/": [
@@ -1063,7 +1607,7 @@
     "/service-areas/yorba-linda-ca/ac-repair/",
     "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
-    "/service-areas/chino-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/drain-cleaning/": [
@@ -1072,7 +1616,7 @@
     "/service-areas/yorba-linda-ca/ac-repair/",
     "/service-areas/yorba-linda-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/drain-cleaning/",
-    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/water-heater-repair/": [
@@ -1081,7 +1625,7 @@
     "/service-areas/yorba-linda-ca/ac-repair/",
     "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-repair/",
-    "/service-areas/chino-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/water-heater-installation/": [
@@ -1090,7 +1634,7 @@
     "/service-areas/yorba-linda-ca/ac-repair/",
     "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-heater-installation/",
-    "/service-areas/chino-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/toilet-faucet-repair/": [
@@ -1099,7 +1643,7 @@
     "/service-areas/yorba-linda-ca/ac-repair/",
     "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/toilet-faucet-repair/",
-    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/garbage-disposal/": [
@@ -1108,7 +1652,7 @@
     "/service-areas/yorba-linda-ca/ac-repair/",
     "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/garbage-disposal/",
-    "/service-areas/chino-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/water-softeners-filtration/": [
@@ -1117,7 +1661,7 @@
     "/service-areas/yorba-linda-ca/ac-repair/",
     "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/water-softeners-filtration/",
-    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/ac-repair/": [
@@ -1126,7 +1670,7 @@
     "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/yorba-linda-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/ac-repair/",
-    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/furnace-repair/": [
@@ -1135,7 +1679,7 @@
     "/service-areas/yorba-linda-ca/ac-repair/",
     "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/furnace-repair/",
-    "/service-areas/chino-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/indoor-air-quality/": [
@@ -1144,7 +1688,2482 @@
     "/service-areas/yorba-linda-ca/ac-repair/",
     "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/indoor-air-quality/",
-    "/service-areas/chino-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/eastvale-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/ac-repair/",
+    "/service-areas/eastvale-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/lake-elsinore-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/lake-elsinore-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/lake-elsinore-ca/",
+    "/service-areas/lake-elsinore-ca/ac-repair/",
+    "/service-areas/lake-elsinore-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/jurupa-valley-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/ac-repair/",
+    "/service-areas/jurupa-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/mira-loma-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mira-loma-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/mira-loma-ca/",
+    "/service-areas/mira-loma-ca/ac-repair/",
+    "/service-areas/mira-loma-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/wildomar-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wildomar-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/wildomar-ca/",
+    "/service-areas/wildomar-ca/ac-repair/",
+    "/service-areas/wildomar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/temecula-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/temecula-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/temecula-ca/",
+    "/service-areas/temecula-ca/ac-repair/",
+    "/service-areas/temecula-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/murrieta-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/murrieta-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/murrieta-ca/",
+    "/service-areas/murrieta-ca/ac-repair/",
+    "/service-areas/murrieta-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/menifee-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/menifee-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/menifee-ca/",
+    "/service-areas/menifee-ca/ac-repair/",
+    "/service-areas/menifee-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/canyon-lake-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/canyon-lake-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/canyon-lake-ca/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/sun-city-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/sun-city-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/sun-city-ca/",
+    "/service-areas/sun-city-ca/ac-repair/",
+    "/service-areas/sun-city-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/french-valley-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/french-valley-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/french-valley-ca/",
+    "/service-areas/french-valley-ca/ac-repair/",
+    "/service-areas/french-valley-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/winchester-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/winchester-ca/",
+    "/service-areas/winchester-ca/ac-repair/",
+    "/service-areas/winchester-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/ontario-ranch-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ranch-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/ontario-ranch-ca/",
+    "/service-areas/ontario-ranch-ca/ac-repair/",
+    "/service-areas/ontario-ranch-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/chino-hills-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/ac-repair/",
+    "/service-areas/chino-hills-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/fontana-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/fontana-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/ac-repair/",
+    "/service-areas/fontana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/upland-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/upland-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/upland-ca/",
+    "/service-areas/upland-ca/ac-repair/",
+    "/service-areas/upland-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/claremont-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/claremont-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/claremont-ca/",
+    "/service-areas/claremont-ca/ac-repair/",
+    "/service-areas/claremont-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/pomona-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/ac-repair/",
+    "/service-areas/pomona-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/montclair-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/ac-repair/",
+    "/service-areas/montclair-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/canyon-lake-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/canyon-lake-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/canyon-lake-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/canyon-lake-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/canyon-lake-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/canyon-lake-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/canyon-lake-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/canyon-lake-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/canyon-lake-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/canyon-lake-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/bloomington-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/bloomington-ca/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/canyon-lake-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/rialto-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/rialto-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/rialto-ca/",
+    "/service-areas/rialto-ca/ac-repair/",
+    "/service-areas/rialto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/diamond-bar-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/diamond-bar-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/diamond-bar-ca/",
+    "/service-areas/diamond-bar-ca/ac-repair/",
+    "/service-areas/diamond-bar-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/san-bernardino-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/san-bernardino-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/san-bernardino-ca/",
+    "/service-areas/san-bernardino-ca/ac-repair/",
+    "/service-areas/san-bernardino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/hemet-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/hemet-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/hemet-ca/",
+    "/service-areas/hemet-ca/ac-repair/",
+    "/service-areas/hemet-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/bloomington-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/bloomington-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/bloomington-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/bloomington-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/bloomington-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/bloomington-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/bloomington-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/bloomington-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/san-jacinto-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/bloomington-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/bloomington-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/san-jacinto-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/san-jacinto-ca/",
+    "/service-areas/san-jacinto-ca/ac-repair/",
+    "/service-areas/san-jacinto-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/bloomington-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/blog/what-to-do-burst-pipe/": [

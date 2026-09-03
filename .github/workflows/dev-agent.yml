@@ -6,7 +6,7 @@ name: Rank AI Dev Agent
 # approved call proposals, and — since 2026-08-05 — client feedback routed
 # straight off their own text messages by scripts/feedback_router.py).
 # Guardrails live in scripts/dev_agent.md: deploy target follows the task's
-# SITE: line, claims lint, max 3 tasks/run, punt-when-unsure.
+# SITE: line, claims lint, max 5 tasks per CLIENT per run, punt-when-unsure.
 # Every outcome files a [TODO-SANTINO] review row into the Today tab, and a
 # client-originated task also files the [FROM SANTINO] note that has Monica
 # tell the client it is done (scripts/dev_inbox.py close_the_loop).
@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     # 80, not 55 (2026-08-05): an imagery correction is 3-4 generate+inspect
     # rounds per image, and a half-finished image task is worse than a punt.
-    timeout-minutes: 80
+    timeout-minutes: 170   # raised from 80 (Santino 2026-09-03: stress-test night — 4 clients' cards incl. image generation)
 
     steps:
       - name: Checkout repo
