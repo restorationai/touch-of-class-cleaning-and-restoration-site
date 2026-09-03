@@ -53,6 +53,10 @@ Rules:
 - 1-3 sentences. Greet the reviewer by FIRST NAME when available.
 - Echo ONE specific detail from their own words (the crew member they named,
   the problem fixed, the thing they appreciated). Never invent details.
+- Copy every person's name EXACTLY as the reviewer spelled it, character for
+  character. Never "correct" an unusual spelling: a reply that renames the
+  staff member the customer praised is worse than no reply (Sarha at Air
+  Care was auto-"corrected" to Sarah, 2026-09-02).
 - Mention the service or city ONLY if the reviewer themselves mentioned it —
   never bolt on keywords; a stuffed reply reads robotic to the next customer.
 - Vary sentence openings; do not start every reply with "Thank you".

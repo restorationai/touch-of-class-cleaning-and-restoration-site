@@ -1,8 +1,12 @@
 name: Meeting debrief watcher
 
+# RETIRED from schedule 2026-09-03 (Santino): fathom_sync (Railway ops-worker,
+# every 30 min) is the one post-meeting watcher — it caught all 6 calls on
+# Sep 2 while this one's conservative matcher matched zero and filed nothing.
+# Kept as manual dispatch only for one-off transcript-depth debriefs
+# (--meeting-url); if fathom_sync ever under-captures, port this script's
+# whole-transcript + mandatory-quote approach into it rather than rescheduling.
 on:
-  schedule:
-    - cron: '20 */2 * * *'   # every 2 hours
   workflow_dispatch:
 
 jobs:
