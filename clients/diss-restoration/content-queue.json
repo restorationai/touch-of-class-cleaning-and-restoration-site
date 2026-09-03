@@ -197,10 +197,10 @@
     },
     {
       "id": "2026-08-10-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-10T18:35:34Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-03T20:14:06Z",
+      "post_url": "https://dissrestoration.com/blog/water-damage-restoration-cost/",
       "primary_keyword": "water damage restoration cost",
       "intent": "commercial",
       "volume": 880,
