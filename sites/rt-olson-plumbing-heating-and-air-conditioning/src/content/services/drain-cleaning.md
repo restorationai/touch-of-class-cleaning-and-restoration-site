@@ -49,21 +49,6 @@ On sewer lateral calls, skipping the camera is the other frequent shortcut. Root
 
 For hydro jetting specifically, pressure selection matters. Running full pressure through a pipe with existing cracks accelerates the damage. A pre-jetting camera inspection isn't optional on older pipe — it's how you avoid turning a cleaning call into an emergency excavation.
 
-## What does drain cleaning cost?
-
-Typical costs vary based on where the blockage is, what's causing it, and whether a camera inspection or hydro jetting is involved. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not a quote from RT Olson.
-
-| Scenario | Typical range |
-|---|---|
-| Single fixture clog (sink, shower, tub) | $150 – $350 |
-| Kitchen sink clog removal (grease, cable) | $175 – $400 |
-| Main sewer line rooter service | $250 – $500 |
-| Hydro jetting (residential line) | $350 – $800 |
-| Camera inspection (sewer lateral) | $200 – $450 |
-| Hydro jetting + camera inspection | $500 – $1,100 |
-
-Every situation is different, and RT Olson provides a written scope before work begins so there are no surprises. Standard drain cleaning is generally not covered by homeowners insurance — it's considered maintenance — but if a clog caused a backup that damaged flooring or cabinetry, that resulting water damage may be a covered loss depending on your policy.
-
 ## Seasonal and regional considerations
 
 Corona's dry summers concentrate grease and mineral deposits in drain lines that don't get flushed by regular rainfall. When the wet season arrives — typically late fall through early spring — increased groundwater raises the water table in parts of the Inland Empire, which can push roots more aggressively into sewer laterals seeking moisture. Homeowners in older neighborhoods near the Santa Ana River corridor or with mature trees (eucalyptus and ficus are common culprits) often see root-related backups spike after the first significant rains of the season.

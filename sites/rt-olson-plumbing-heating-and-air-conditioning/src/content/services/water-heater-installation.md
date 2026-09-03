@@ -51,21 +51,6 @@ For electric water heaters, failing to verify that the panel has capacity for th
 
 Anode rod condition is another detail that separates a thorough job from a rushed one. On a tank-to-tank swap, inspecting and replacing the anode rod at installation adds years to the new tank's life and costs very little relative to a premature tank failure.
 
-## What does water heater installation and replacement cost?
-
-Typical costs vary based on unit type, fuel source, and whether any infrastructure upgrades are needed. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not a quote from RT Olson Plumbing, Heating and Air Conditioning.
-
-| Scenario | Typical range |
-|---|---|
-| Standard tank replacement (gas, same size, no upgrades) | $900 – $1,800 |
-| 50-gallon water heater install (gas, permit included) | $1,100 – $2,200 |
-| Electric tank replacement (standard swap) | $800 – $1,600 |
-| Tankless water heater installation (gas, no gas line upgrade) | $2,500 – $4,500 |
-| Tankless installation with gas line upgrade | $3,500 – $6,500 |
-| Tankless installation with electrical service upgrade | $4,000 – $7,500 |
-
-Every job is different — a water heater tucked into an attic with a long flue run costs more to service than one in an open garage. RT Olson provides a written scope before work begins so you know exactly what's included. Homeowners insurance typically does not cover the cost of a water heater replacement due to age or normal wear, but if a failed unit caused water damage to surrounding structure, that secondary damage is often a covered loss — worth a call to your carrier.
-
 ## Seasonal and regional considerations
 
 Southern California's hard water is one of the biggest factors shortening water heater life in the Inland Empire. Corona's municipal water supply, sourced through the Metropolitan Water District, carries dissolved minerals that accelerate sediment buildup inside tank-style heaters. That sediment layer acts as insulation between the burner and the water, forcing the unit to run longer and hotter to reach temperature — which stresses the tank lining and shortens the anode rod's effective life. Annual flushing slows this process; a whole-home water softener or a scale-inhibiting filter on a tankless unit can extend equipment life significantly.

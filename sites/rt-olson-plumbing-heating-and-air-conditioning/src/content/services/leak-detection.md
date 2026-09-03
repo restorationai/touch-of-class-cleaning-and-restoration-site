@@ -51,20 +51,6 @@ For slab leaks specifically, the depth and routing of the embedded pipe matters.
 
 Good documentation also separates a useful leak detection report from a useless one. Photos of thermal anomalies, acoustic signal maps, and pressure readings give an adjuster something to work with. A verbal summary of "we think it's under the hall" does not.
 
-## What does leak detection cost?
-
-Typical costs for professional leak detection run from a few hundred dollars for a straightforward acoustic scan to several thousand when underground line tracing, thermal imaging, and slab confirmation are all required. The table below reflects industry-typical ranges — not a quote from RT Olson Plumbing, Heating and Air Conditioning.
-
-| Scenario | Typical industry range |
-|---|---|
-| Acoustic scan, accessible interior plumbing | $150 – $400 |
-| Thermal imaging sweep, single-story home | $200 – $500 |
-| Slab leak detection, electronic + thermal | $500 – $1,200 |
-| Underground service line or irrigation main | $400 – $900 |
-| Full diagnostic (acoustic + thermal + pressure test + report) | $600 – $1,500 |
-
-Every loss is different, and RT Olson Plumbing, Heating and Air Conditioning provides a written scope before any work begins so there are no surprises. Homeowners insurance often covers the cost of locating a hidden leak and the resulting water damage repair — the detection service itself may or may not be a covered line item depending on your policy language, which is one reason the written findings report matters.
-
 ## Seasonal and regional considerations
 
 Corona and the surrounding Inland Empire communities sit in a hard-water zone — water from the region's groundwater supply carries mineral content that accelerates scale buildup inside pipes and contributes to pinhole corrosion in copper over time. Homes built in the 1970s through 1990s on slab foundations are the most common candidates for slab leak calls, particularly as original copper lines approach or exceed their service life.

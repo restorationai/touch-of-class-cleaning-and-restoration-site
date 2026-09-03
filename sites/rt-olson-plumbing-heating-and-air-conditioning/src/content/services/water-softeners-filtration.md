@@ -53,21 +53,6 @@ For filtration systems, **mismatched media** is the recurring problem. Activated
 
 For RO systems, **membrane neglect** is the long-term failure mode. Membranes have a finite service life and need replacement on a schedule tied to your TDS load. An expired membrane passes more and more dissolved solids while still appearing to work, and most homeowners have no way to know without periodic TDS testing at the RO tap.
 
-## What does water softener and filtration system installation cost?
-
-Typical costs vary significantly based on system type, water quality, and the complexity of the installation point. The figures below reflect industry-typical ranges for the Inland Empire market — they are not RT Olson Plumbing, Heating and Air Conditioning quotes, and every installation is scoped individually before work begins.
-
-| Scenario | Typical industry range |
-|---|---|
-| Basic single-tank ion-exchange softener, standard install | $800 – $1,800 |
-| High-capacity softener for large household or high hardness | $1,500 – $3,000 |
-| Whole-house carbon/sediment filtration system | $600 – $1,500 |
-| Softener + whole-house filtration combo | $1,800 – $4,000 |
-| Under-sink reverse osmosis system (4–6 stage) | $400 – $900 |
-| RO with refrigerator line connection | $500 – $1,200 |
-
-Homeowners insurance does not typically cover elective water treatment equipment purchases or installation. However, if a failed or improperly installed water softener causes a water damage loss — a brine line connection that lets go, for example — the resulting damage to flooring or cabinetry may fall under your dwelling coverage, subject to your deductible and policy terms. RT Olson Plumbing provides a written scope before any work begins so you know exactly what you are authorizing.
-
 ## Seasonal and regional considerations
 
 Southern California's water hardness is not constant year-round. During wet winters when local reservoirs contribute more to the municipal blend, hardness levels can drop modestly. During dry stretches when the system leans harder on Colorado River imports, hardness climbs. If your softener was programmed during a wet season and never adjusted, it may be under-treating during summer months when the hardness load peaks.

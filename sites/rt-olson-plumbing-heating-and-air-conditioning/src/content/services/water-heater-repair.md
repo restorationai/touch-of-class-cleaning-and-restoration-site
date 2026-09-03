@@ -47,21 +47,6 @@ On gas units, venting is frequently overlooked. A partially blocked flue or a ba
 
 For tankless units, scale on the heat exchanger is the most commonly missed issue. A technician who clears an error code without descaling the unit will see the same lockout error within months, especially in a hard-water area like Corona.
 
-## What does water heater repair cost?
-
-Typical costs depend heavily on what failed, the unit type, and whether the tank itself needs replacement. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not RT Olson Plumbing quotes, and every job is different based on parts availability, unit age, and access.
-
-| Scenario | Typical range |
-|---|---|
-| Thermostat replacement (electric) | $150 – $300 |
-| Heating element replacement | $200 – $400 |
-| Anode rod replacement | $150 – $250 |
-| Gas control valve / thermocouple | $200 – $500 |
-| Tankless descaling service | $150 – $350 |
-| T&P relief valve replacement | $100 – $250 |
-
-RT Olson Plumbing provides a written scope before any work begins so you know exactly what you're approving. Homeowners insurance typically does not cover water heater repair or replacement due to normal wear and age, but if a sudden failure caused water damage to surrounding flooring or walls, that secondary damage may be covered under your dwelling policy — worth a call to your carrier.
-
 ## Seasonal and regional considerations
 
 Corona and the surrounding Inland Empire cities sit in a climate that doesn't produce the hard freezes that burst pipes in colder regions, but the area's water hardness is a year-round factor. Units that aren't flushed periodically accumulate sediment faster here than in areas with softer municipal water. During winter months, incoming cold water temperatures drop enough that a struggling water heater — one with a weakened element or heavy sediment load — that was keeping up in summer may fall short in December and January. That seasonal shift is often what prompts the first call.

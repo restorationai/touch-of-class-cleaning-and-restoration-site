@@ -47,20 +47,6 @@ Heat exchanger inspection is the other area where shortcuts create real risk. A 
 
 Finally, good furnace repair accounts for the whole system. A repaired furnace running against a clogged filter, undersized return, or disconnected duct will fail again faster than it should.
 
-## What does furnace repair cost?
-
-Typical furnace repair costs vary significantly depending on what failed and how accessible the components are. Most homeowners pay somewhere in the ranges below for common repairs — these are industry-typical figures, not quotes from RT Olson Plumbing, Heating and Air Conditioning, and every situation is different; RT Olson provides a written scope of the work before anything is done. Homeowners insurance generally does not cover furnace repair from normal wear and tear, though sudden and accidental mechanical breakdowns may be covered under an equipment breakdown endorsement or a home warranty — check your specific policy.
-
-| Scenario | Typical industry range |
-|---|---|
-| Diagnostic / service call | $75 – $150 |
-| Flame sensor cleaning or replacement | $80 – $200 |
-| Igniter replacement | $150 – $300 |
-| Blower motor capacitor replacement | $150 – $350 |
-| Control board replacement | $300 – $650 |
-| Blower motor replacement | $400 – $800 |
-| Heat exchanger replacement | $800 – $2,000+ |
-
 ## Seasonal and regional considerations
 
 Corona and the surrounding Inland Empire communities see sharp overnight temperature drops in late October and November — often the first time a furnace runs all season. That first cold snap is when deferred maintenance shows itself: igniters that were marginal last spring crack under thermal shock, flame sensors that oxidized over the summer fail to read a flame, and blower capacitors that weakened in the summer heat finally give out under load.

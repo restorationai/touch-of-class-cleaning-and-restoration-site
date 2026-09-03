@@ -51,21 +51,6 @@ Less experienced operators also miss biological growth on the evaporator coil �
 
 Finally, filter bypass is a persistent problem in retrofit installations. A media cabinet that does not seal tightly to the air handler cabinet allows unfiltered air to pull around the filter edge. The filter looks clean because the dirty air never touched it.
 
-## What does Indoor Air Quality Services cost?
-
-Typical costs for indoor air quality services vary considerably depending on what the diagnostic reveals and which equipment is appropriate for the home. Most homeowners pay somewhere in the ranges below for common scenarios — these are industry-typical figures, not RT Olson quotes.
-
-| Scenario | Typical industry range |
-|---|---|
-| HVAC filtration upgrade (media cabinet, installed) | $300 – $700 |
-| UV-C germicidal lamp installation (coil-mounted) | $400 – $900 |
-| Whole house air purifier (electronic or polarized media) | $700 – $1,800 |
-| Whole home humidifier installation (bypass or fan-powered) | $500 – $1,200 |
-| Full IAQ assessment with particle and VOC testing | $150 – $400 |
-| Combined system (filtration + UV + humidifier) | $1,400 – $3,200 |
-
-Every home is different — duct configuration, existing equipment, and access all affect the final scope. RT Olson Plumbing, Heating and Air Conditioning provides a written scope of work before any installation begins so there are no surprises. Standard homeowners insurance does not typically cover elective IAQ upgrades, though equipment installed as part of a documented mold remediation or water damage claim may be partially covered depending on your policy — check with your carrier.
-
 ## Seasonal and regional considerations
 
 Corona and the Inland Empire sit in a basin that traps particulates during temperature inversions, which are most frequent in fall and winter. Wildfire smoke events — increasingly common across Southern California — push PM2.5 levels well above outdoor air quality thresholds and drive those particles indoors through normal infiltration. Homes without enhanced filtration during a smoke event are recirculating outdoor air that may be many times above safe particulate levels.

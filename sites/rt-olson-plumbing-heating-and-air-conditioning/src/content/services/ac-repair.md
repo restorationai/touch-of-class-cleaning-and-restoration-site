@@ -45,21 +45,6 @@ A second common failure point is misdiagnosing an electrical problem as a refrig
 
 For systems still running R-22 (common in Corona homes built before 2010), parts availability and refrigerant cost are real factors. A technician should be honest about the repair-versus-replace calculus on an aging R-22 system rather than performing a costly repair on equipment that's nearing the end of its serviceable life.
 
-## What does air conditioning repair cost?
-
-Typical costs vary widely depending on what's actually wrong. Most homeowners pay somewhere between $150 and $600 for a diagnostic plus a straightforward repair like a capacitor or contactor. More involved repairs — refrigerant leak detection and recharge, coil replacement, or control board replacement — run higher. Every system and every loss is different, and RT Olson Plumbing, Heating and Air Conditioning provides a written scope before any work begins so you know exactly what you're authorizing.
-
-| Scenario | Typical industry range |
-|---|---|
-| Diagnostic / service call | $75 – $150 |
-| Capacitor or contactor replacement | $150 – $350 |
-| Refrigerant recharge (R-410A, minor top-off) | $200 – $400 |
-| Refrigerant leak repair + recharge | $400 – $1,500 |
-| Evaporator or condenser coil cleaning | $150 – $450 |
-| Blower motor replacement | $400 – $900 |
-
-Homeowners insurance typically does not cover mechanical breakdown of HVAC equipment, but it may cover AC damage caused by a covered peril — a power surge, storm damage, or a fire. If your system was damaged by an external event, document it and contact your carrier before authorizing repairs.
-
 ## Seasonal and regional considerations
 
 Corona's climate means air conditioners run hard from May through October, and the Santa Ana wind events that push through the Inland Empire in fall and spring carry fine particulate that clogs condenser coils faster than in coastal climates. Systems that haven't had coils cleaned in two or more seasons often show their worst performance exactly when demand peaks — late June through August. Scheduling a diagnostic early in the cooling season, before the first heat wave, avoids the longest wait times and catches refrigerant or electrical issues before they become emergency calls on a 108°F afternoon.

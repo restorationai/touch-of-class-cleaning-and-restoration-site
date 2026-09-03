@@ -47,21 +47,6 @@ On leak calls specifically, the dishwasher drain connection is frequently overlo
 
 For replacement jobs, matching the horsepower rating to actual kitchen use matters. A ½ HP unit is adequate for light use in a smaller household; households that cook frequently or process fibrous foods regularly are better served by a ¾ HP or 1 HP motor, which runs cooler under load and lasts longer between resets.
 
-## What does garbage disposal repair and installation cost?
-
-Typical costs for disposal work depend primarily on whether the unit can be repaired or needs full replacement, and on the horsepower and brand of the replacement unit. Most homeowners pay somewhere in the ranges below — these are industry-typical figures, not a quote from RT Olson Plumbing.
-
-| Scenario | Typical range |
-|---|---|
-| Jam clearing and reset (no parts) | $75 – $150 |
-| Leak repair — flange or gasket replacement | $100 – $200 |
-| Disposal replacement, ½ HP unit (parts + labor) | $200 – $350 |
-| Disposal replacement, ¾ HP unit (parts + labor) | $280 – $450 |
-| Disposal replacement, 1 HP unit (parts + labor) | $350 – $550 |
-| Drain line or P-trap correction at same visit | $80 – $180 additional |
-
-Every job is different, and RT Olson Plumbing provides a written scope before any work begins so there are no surprises. Standard garbage disposal repair and installation is generally not covered by homeowners insurance unless the failure resulted from a covered peril such as sudden accidental discharge or a related water loss — routine mechanical wear is typically excluded, so it's worth a quick call to your carrier if water damage is involved.
-
 ## Seasonal and regional considerations
 
 In the Inland Empire, disposal strain tends to spike around the holidays when kitchens are processing heavier loads — citrus rinds, fibrous vegetables, cooking grease — more frequently than the unit was sized for. Corona's hard water also accelerates mineral buildup inside the grinding chamber and on the impellers, which reduces efficiency over time and can make a marginal motor fail sooner than it would in a softer-water area. If your disposal has been running sluggishly or resetting more often heading into a busy cooking season, that's worth addressing before the problem becomes a full stoppage.

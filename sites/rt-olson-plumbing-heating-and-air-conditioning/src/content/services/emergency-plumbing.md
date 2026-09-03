@@ -47,21 +47,6 @@ A thorough emergency response confirms the source with camera or pressure testin
 
 On the documentation side: adjusters want to see the failure point photographed before it's repaired, the affected square footage noted, and any secondary water migration identified. A repair invoice that says only "fixed pipe" gives an adjuster nothing to work with.
 
-## What does emergency plumbing cost?
-
-Typical costs for emergency plumbing repairs vary significantly based on what failed, where it is, and how long the water ran before it was stopped. Most homeowners pay somewhere in the ranges below for the repair itself — separate from any water damage remediation that may follow.
-
-| Scenario | Typical industry range |
-|---|---|
-| Burst supply line (accessible location) | $300 – $800 |
-| Slab leak detection and reroute | $2,000 – $5,000 |
-| Main sewer line clearing (hydro-jet) | $350 – $900 |
-| Water heater emergency replacement (40–50 gal) | $1,100 – $2,200 |
-| Toilet or fixture supply line failure | $150 – $450 |
-| Pressure regulator replacement | $300 – $700 |
-
-These are typical industry figures — every situation is different, and RT Olson Plumbing, Heating and Air Conditioning provides a written scope before any work begins so there are no surprises. Homeowners insurance commonly covers sudden and accidental water damage from a burst pipe, though gradual leaks and deferred maintenance are typically excluded; your policy language controls what applies.
-
 ## Seasonal and regional considerations
 
 Corona sits in a climate that rarely freezes hard, but the occasional cold snap — temperatures dipping into the upper 20s in elevated neighborhoods or during a sharp Santa Ana reversal — is enough to freeze an uninsulated line in an exterior wall or an exposed hose bib. Those freezes are fast and unexpected, which means pipes that have never been a concern suddenly split overnight.

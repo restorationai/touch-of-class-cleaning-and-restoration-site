@@ -47,21 +47,6 @@ Shower valve repair is where the technical gap shows most clearly. Pressure-bala
 
 On fixture installations, the detail that gets skipped most often is confirming the shut-off valve condition before committing to the job. An angle stop that's been untouched for 20 years may not close fully — or may fail when turned. Addressing that before removing the old fixture prevents a minor repair from becoming a water-damage event.
 
-## What does toilet, faucet and fixture services cost?
-
-Typical costs vary widely based on fixture type, parts required, and whether any supply-line or valve work is needed alongside the primary repair. Most homeowners pay somewhere in these ranges for common scenarios — these are industry-typical figures, not a quote from RT Olson Plumbing, Heating and Air Conditioning:
-
-| Scenario | Typical industry range |
-|---|---|
-| Running toilet repair (flapper, fill valve, or flush valve) | $95 – $275 |
-| Toilet replacement (standard two-piece, labor and basic fixture) | $275 – $600 |
-| Faucet cartridge or O-ring replacement | $100 – $250 |
-| Kitchen or bathroom faucet replacement (labor only, owner-supplied fixture) | $150 – $350 |
-| Shower valve cartridge replacement | $175 – $400 |
-| Shower valve replacement (pressure-balancing, including trim) | $350 – $750 |
-
-Every job is different, and RT Olson Plumbing, Heating and Air Conditioning provides a written scope before work begins so you know exactly what's included. Homeowners insurance typically does not cover routine fixture repair or replacement — but if a failed fixture caused water damage to surrounding structure, that secondary damage may be a covered loss under your policy's sudden-and-accidental water damage provision.
-
 ## Seasonal and regional considerations
 
 Corona and the surrounding Inland Empire sit in a hard-water zone. The water delivered through local municipal systems carries elevated calcium and magnesium levels that deposit inside valve bodies, cartridge housings, and aerator screens over time. That mineral scale is a primary driver of faucets that won't shut off cleanly, shower valves that lose temperature precision, and fill valves that cycle constantly. If you're replacing a fixture that failed earlier than expected, scale buildup inside the supply lines and valve seats is worth inspecting before the new unit goes in.
