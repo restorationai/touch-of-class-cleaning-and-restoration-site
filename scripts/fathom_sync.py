@@ -415,6 +415,93 @@ def route_meeting_work(company: dict, slug: str, m: dict, *, title: str,
     return tally
 
 
+RECAP_SYSTEM = """\
+You write the post-meeting recap TEXT MESSAGE a marketing agency sends its
+client an hour or so after a call. Warm, plain, human. HARD RULES:
+- Never use em dashes or en dashes. No emojis. No corporate cliches.
+- 350-550 characters total. Plain sentences and simple bullets using "-".
+- Structure: one short opener that references the call naturally; then
+  "Here's what we're on:" with up to 4 of OUR commitments in the client's
+  words (no file names, no jargon); then, ONLY if the client owes things,
+  "When you get a chance:" with up to 3 of THEIR items; then close with
+  EXACTLY this sentence: "Is there anything else we may have missed?"
+- Commitments must come from the provided summary. Never invent, never
+  promise dates, never say a change is DONE.
+Return ONLY JSON: {"sms": "..."}"""
+
+
+def recap_contact(company: dict) -> dict | None:
+    """Preferred contact card -> the dict send_message needs."""
+    ints = company.get("integration_settings") or {}
+    if isinstance(ints, str):
+        try:
+            ints = json.loads(ints)
+        except (ValueError, TypeError):
+            ints = {}
+    cards = ints.get("contacts") or []
+    card = next((c for c in cards if c.get("preferred")), cards[0] if cards else None)
+    phone = (card or {}).get("cell") or (card or {}).get("phone") or company.get("phone")
+    gid = ghl_contact_for(company)
+    if not (gid and phone):
+        return None
+    return {"id": gid, "phone": phone, "email": (card or {}).get("email") or company.get("email")}
+
+
+def send_meeting_recap(company: dict, slug: str, m: dict, *, title: str,
+                       when: str, summary_md: str, dry_run: bool,
+                       state: dict) -> None:
+    """The recap SMS (Santino 2026-09-03): what we're on / what we need /
+    "anything we missed?". Sent via the concierge pipe so every guard
+    (allowlist, quiet window, holds, link gate) applies. A quiet-window
+    block right after the call is EXPECTED and good - the 30-min Railway
+    cycle retries until it lands, so the recap arrives about an hour after
+    the meeting instead of during Santino's goodbye text."""
+    rid = str(m.get("recording_id"))
+    recaps = state.setdefault("recaps", {})
+    if recaps.get(rid) == "sent":
+        return
+    # never recap stale meetings (backfills / --since re-mining)
+    try:
+        _w = datetime.fromisoformat(when.replace("Z", "+00:00"))
+        if _w.tzinfo is None:
+            _w = _w.replace(tzinfo=timezone.utc)
+        age_h = (datetime.now(timezone.utc) - _w).total_seconds() / 3600
+    except (ValueError, TypeError):
+        age_h = 999
+    if age_h > 30:
+        recaps[rid] = "too-old"
+        return
+    contact = recap_contact(company)
+    if not contact:
+        recaps[rid] = "no-contact"
+        print("    recap: no sendable contact — skipped")
+        return
+    try:
+        out = anthropic_json(
+            RECAP_SYSTEM,
+            f"Client: {company.get('name')}\nMeeting: {title} on {when}\n\n"
+            f"Action items:\n{action_items_text(m) or '(none)'}\n\n"
+            f"Summary:\n{summary_md[:7000]}")
+        sms = (out.get("sms") or "").strip()
+        if not (200 <= len(sms) <= 700) or "\u2014" in sms or "—" in sms:
+            recaps[rid] = "compose-rejected"
+            print(f"    recap: compose rejected ({len(sms)} chars)")
+            return
+    except Exception as e:  # noqa: BLE001
+        print(f"    recap compose failed ({str(e)[:80]}) — retry next cycle")
+        return
+    if dry_run:
+        print(f"    [dry-run] recap SMS would send:\n      {sms[:300]}")
+        return
+    try:
+        import client_concierge as cc
+        cc.send_message(contact, "sms", sms, company=company)
+        recaps[rid] = "sent"
+        print(f"    recap SENT to {contact['phone']}")
+    except Exception as e:  # noqa: BLE001 — quiet window/holds: retry next cycle
+        print(f"    recap blocked ({str(e)[:110]}) — retrying next cycle")
+
+
 def write_heartbeat(run: dict, dry_run: bool) -> None:
     """The proof-of-life `watch` reads. Never fails the run."""
     if dry_run:
@@ -555,6 +642,10 @@ def cmd_sync(args) -> int:
             print(f"    board: {tally['site_auto']} auto [DEV], "
                   f"{tally['site_proposed']} site proposals, "
                   f"{tally['ops']} ops proposals")
+            if not already_done:
+                send_meeting_recap(company, slug, m, title=title, when=when,
+                                   summary_md=summary_md, dry_run=dry_run,
+                                   state=state)
             state["processed"][rid] = slug
             save_state(state, dry_run)
         except Exception as e:  # noqa: BLE001 — one meeting, not the run

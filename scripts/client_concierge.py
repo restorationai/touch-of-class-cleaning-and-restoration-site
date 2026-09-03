@@ -9297,6 +9297,67 @@ def cmd_inbound(args) -> int:
 
     if not handled_any:
         print("  no new inbound messages for tracked contacts.")
+
+    # ------------------------------------------------------------------
+    # ACK SLA SWEEP (Santino 2026-09-03, the Jonathan case): the guarantee
+    # layer over the best-effort ack machinery above. Any substantive
+    # client message still owed a reply after ACK_SLA_MINUTES gets a safe
+    # holding line NO MATTER which soft guard swallowed the original
+    # attempt (intel suppression, quiet-window timing, compose skips).
+    # Hard gates still apply inside send_message (canary allowlist, holds,
+    # paused). One SLA ack per client message, keyed in company state.
+    # ------------------------------------------------------------------
+    ACK_SLA_MINUTES = 90
+    try:
+        by_company = {}
+        for c_id, comp_id in tracked.items():
+            if c_id != OPS_PING_CONTACT_ID:
+                by_company.setdefault(comp_id, c_id)
+        for comp_id, c_id in by_company.items():
+            company = companies.get(comp_id)
+            if not company or company_inactive(company):
+                continue
+            cs = company_state(state, comp_id)
+            history = fetch_history(c_id, max_msgs=25)
+            owed = pending_client_message(cs, history, state)
+            if not owed:
+                continue
+            at = owed.get("at")
+            at_dt = at if hasattr(at, "strftime") else None
+            if at_dt is None and at:
+                try:
+                    at_dt = datetime.fromisoformat(str(at).replace("Z", "+00:00"))
+                except ValueError:
+                    at_dt = None
+            if at_dt and at_dt.tzinfo is None:
+                at_dt = at_dt.replace(tzinfo=timezone.utc)
+            if not at_dt or (run_start - at_dt).total_seconds() < ACK_SLA_MINUTES * 60:
+                continue
+            key = _reply_key(owed)
+            if cs.get("ack_sla_sent") == key:
+                continue
+            body = ("Got it, thanks for flagging this. We're on it and will "
+                    "follow up with you shortly.")
+            print(f"  [ack-SLA] {company.get('name')}: reply owed for "
+                  f">{ACK_SLA_MINUTES}min ({str(owed.get('body'))[:60]!r}) — "
+                  "sending the holding line")
+            if dry_run:
+                continue
+            try:
+                contact_payload = {"id": c_id,
+                                   "phone": (company.get("phone") or ""),
+                                   "email": company.get("email")}
+                sent = send_message(contact_payload, owed.get("channel") or "sms",
+                                    body, company=company, reply_to=key)
+                record_sent_message(state, sent)
+                cs["ack_sla_sent"] = key
+            except SendBlocked as e:
+                print(f"  [ack-SLA] blocked ({str(e)[:100]}) — retry next poll")
+            except Exception as e:  # noqa: BLE001 — SLA sweep must never kill the poll
+                print(f"  [ack-SLA] failed ({str(e)[:100]})")
+    except Exception as e:  # noqa: BLE001
+        print(f"  [ack-SLA] sweep errored ({str(e)[:100]})")
+
     state["inbound_cursor"] = run_start.isoformat()
     save_state(state, dry_run)
     print(f"cursor -> {run_start.isoformat()}"
