@@ -183,10 +183,10 @@
     },
     {
       "id": "2026-08-17-category-3-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-17T17:12:13Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-03T19:18:36Z",
+      "post_url": "https://aircarerestoration.com/blog/category-3-water-damage/",
       "primary_keyword": "category 3 water damage",
       "intent": "informational",
       "volume": 390,
