@@ -1,0 +1,1020 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/general-contracting/",
+    "/services/emergency-board-up-tarping/",
+    "/services/contents-restoration-storage/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/dover-fl/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/zephyrhills-fl/"
+  ],
+  "/services/": [
+    "/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/general-contracting/",
+    "/services/emergency-board-up-tarping/",
+    "/services/contents-restoration-storage/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/dover-fl/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/zephyrhills-fl/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/fire-damage-restoration-process/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/water-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/service-areas/lakeland-fl/water-damage-restoration/",
+    "/service-areas/plant-city-fl/water-damage-restoration/",
+    "/service-areas/seffner-fl/water-damage-restoration/",
+    "/service-areas/tampa-fl/water-damage-restoration/",
+    "/service-areas/temple-terrace-fl/water-damage-restoration/",
+    "/service-areas/zephyrhills-fl/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/fire-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/fire-damage-restoration/",
+    "/service-areas/seffner-fl/fire-damage-restoration/",
+    "/service-areas/tampa-fl/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/"
+  ],
+  "/services/mold-remediation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/service-areas/plant-city-fl/mold-remediation/",
+    "/service-areas/seffner-fl/mold-remediation/",
+    "/service-areas/tampa-fl/mold-remediation/",
+    "/service-areas/temple-terrace-fl/mold-remediation/",
+    "/service-areas/zephyrhills-fl/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/services/contents-restoration-storage/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/brandon-fl/contents-restoration-storage/",
+    "/service-areas/dover-fl/contents-restoration-storage/",
+    "/service-areas/lakeland-fl/contents-restoration-storage/",
+    "/service-areas/plant-city-fl/contents-restoration-storage/",
+    "/service-areas/seffner-fl/contents-restoration-storage/",
+    "/service-areas/tampa-fl/contents-restoration-storage/",
+    "/service-areas/temple-terrace-fl/contents-restoration-storage/",
+    "/service-areas/zephyrhills-fl/contents-restoration-storage/"
+  ],
+  "/services/general-contracting/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/brandon-fl/general-contracting/",
+    "/service-areas/dover-fl/general-contracting/",
+    "/service-areas/lakeland-fl/general-contracting/",
+    "/service-areas/plant-city-fl/general-contracting/",
+    "/service-areas/seffner-fl/general-contracting/",
+    "/service-areas/tampa-fl/general-contracting/",
+    "/service-areas/temple-terrace-fl/general-contracting/",
+    "/service-areas/zephyrhills-fl/general-contracting/"
+  ],
+  "/services/storm-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/brandon-fl/storm-damage-restoration/",
+    "/service-areas/dover-fl/storm-damage-restoration/",
+    "/service-areas/lakeland-fl/storm-damage-restoration/",
+    "/service-areas/plant-city-fl/storm-damage-restoration/",
+    "/service-areas/seffner-fl/storm-damage-restoration/",
+    "/service-areas/tampa-fl/storm-damage-restoration/",
+    "/service-areas/temple-terrace-fl/storm-damage-restoration/",
+    "/service-areas/zephyrhills-fl/storm-damage-restoration/"
+  ],
+  "/services/water-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/brandon-fl/water-cleanup/",
+    "/service-areas/dover-fl/water-cleanup/",
+    "/service-areas/lakeland-fl/water-cleanup/",
+    "/service-areas/plant-city-fl/water-cleanup/",
+    "/service-areas/seffner-fl/water-cleanup/",
+    "/service-areas/tampa-fl/water-cleanup/",
+    "/service-areas/temple-terrace-fl/water-cleanup/",
+    "/service-areas/zephyrhills-fl/water-cleanup/"
+  ],
+  "/services/sewage-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/brandon-fl/sewage-cleanup/",
+    "/service-areas/dover-fl/sewage-cleanup/",
+    "/service-areas/lakeland-fl/sewage-cleanup/",
+    "/service-areas/plant-city-fl/sewage-cleanup/",
+    "/service-areas/seffner-fl/sewage-cleanup/",
+    "/service-areas/tampa-fl/sewage-cleanup/",
+    "/service-areas/temple-terrace-fl/sewage-cleanup/",
+    "/service-areas/zephyrhills-fl/sewage-cleanup/"
+  ],
+  "/services/emergency-board-up-tarping/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/brandon-fl/emergency-board-up-tarping/",
+    "/service-areas/dover-fl/emergency-board-up-tarping/",
+    "/service-areas/lakeland-fl/emergency-board-up-tarping/",
+    "/service-areas/plant-city-fl/emergency-board-up-tarping/",
+    "/service-areas/seffner-fl/emergency-board-up-tarping/",
+    "/service-areas/tampa-fl/emergency-board-up-tarping/",
+    "/service-areas/temple-terrace-fl/emergency-board-up-tarping/",
+    "/service-areas/zephyrhills-fl/emergency-board-up-tarping/"
+  ],
+  "/service-areas/tampa-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/tampa-fl/fire-damage-restoration/",
+    "/service-areas/tampa-fl/mold-remediation/",
+    "/service-areas/tampa-fl/water-damage-restoration/",
+    "/service-areas/tampa-fl/sewage-cleanup/",
+    "/service-areas/tampa-fl/storm-damage-restoration/",
+    "/service-areas/tampa-fl/water-cleanup/",
+    "/service-areas/tampa-fl/general-contracting/",
+    "/service-areas/tampa-fl/emergency-board-up-tarping/",
+    "/service-areas/tampa-fl/contents-restoration-storage/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/dover-fl/",
+    "/service-areas/lakeland-fl/"
+  ],
+  "/service-areas/brandon-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/sewage-cleanup/",
+    "/service-areas/brandon-fl/storm-damage-restoration/",
+    "/service-areas/brandon-fl/water-cleanup/",
+    "/service-areas/brandon-fl/general-contracting/",
+    "/service-areas/brandon-fl/emergency-board-up-tarping/",
+    "/service-areas/brandon-fl/contents-restoration-storage/",
+    "/service-areas/dover-fl/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/plant-city-fl/"
+  ],
+  "/service-areas/plant-city-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/plant-city-fl/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/mold-remediation/",
+    "/service-areas/plant-city-fl/water-damage-restoration/",
+    "/service-areas/plant-city-fl/sewage-cleanup/",
+    "/service-areas/plant-city-fl/storm-damage-restoration/",
+    "/service-areas/plant-city-fl/water-cleanup/",
+    "/service-areas/plant-city-fl/general-contracting/",
+    "/service-areas/plant-city-fl/emergency-board-up-tarping/",
+    "/service-areas/plant-city-fl/contents-restoration-storage/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/dover-fl/",
+    "/service-areas/lakeland-fl/"
+  ],
+  "/service-areas/temple-terrace-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/mold-remediation/",
+    "/service-areas/temple-terrace-fl/water-damage-restoration/",
+    "/service-areas/temple-terrace-fl/sewage-cleanup/",
+    "/service-areas/temple-terrace-fl/storm-damage-restoration/",
+    "/service-areas/temple-terrace-fl/water-cleanup/",
+    "/service-areas/temple-terrace-fl/general-contracting/",
+    "/service-areas/temple-terrace-fl/emergency-board-up-tarping/",
+    "/service-areas/temple-terrace-fl/contents-restoration-storage/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/dover-fl/",
+    "/service-areas/lakeland-fl/"
+  ],
+  "/service-areas/lakeland-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/service-areas/lakeland-fl/water-damage-restoration/",
+    "/service-areas/lakeland-fl/sewage-cleanup/",
+    "/service-areas/lakeland-fl/storm-damage-restoration/",
+    "/service-areas/lakeland-fl/water-cleanup/",
+    "/service-areas/lakeland-fl/general-contracting/",
+    "/service-areas/lakeland-fl/emergency-board-up-tarping/",
+    "/service-areas/lakeland-fl/contents-restoration-storage/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/dover-fl/",
+    "/service-areas/plant-city-fl/"
+  ],
+  "/service-areas/seffner-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/seffner-fl/fire-damage-restoration/",
+    "/service-areas/seffner-fl/mold-remediation/",
+    "/service-areas/seffner-fl/water-damage-restoration/",
+    "/service-areas/seffner-fl/sewage-cleanup/",
+    "/service-areas/seffner-fl/storm-damage-restoration/",
+    "/service-areas/seffner-fl/water-cleanup/",
+    "/service-areas/seffner-fl/general-contracting/",
+    "/service-areas/seffner-fl/emergency-board-up-tarping/",
+    "/service-areas/seffner-fl/contents-restoration-storage/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/dover-fl/",
+    "/service-areas/lakeland-fl/"
+  ],
+  "/service-areas/zephyrhills-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/mold-remediation/",
+    "/service-areas/zephyrhills-fl/water-damage-restoration/",
+    "/service-areas/zephyrhills-fl/sewage-cleanup/",
+    "/service-areas/zephyrhills-fl/storm-damage-restoration/",
+    "/service-areas/zephyrhills-fl/water-cleanup/",
+    "/service-areas/zephyrhills-fl/general-contracting/",
+    "/service-areas/zephyrhills-fl/emergency-board-up-tarping/",
+    "/service-areas/zephyrhills-fl/contents-restoration-storage/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/dover-fl/",
+    "/service-areas/lakeland-fl/"
+  ],
+  "/service-areas/dover-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/service-areas/dover-fl/sewage-cleanup/",
+    "/service-areas/dover-fl/storm-damage-restoration/",
+    "/service-areas/dover-fl/water-cleanup/",
+    "/service-areas/dover-fl/general-contracting/",
+    "/service-areas/dover-fl/emergency-board-up-tarping/",
+    "/service-areas/dover-fl/contents-restoration-storage/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/plant-city-fl/"
+  ],
+  "/service-areas/tampa-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/tampa-fl/fire-damage-restoration/",
+    "/service-areas/tampa-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tampa-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/tampa-fl/mold-remediation/",
+    "/service-areas/tampa-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tampa-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/tampa-fl/fire-damage-restoration/",
+    "/service-areas/tampa-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/tampa-fl/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/tampa-fl/fire-damage-restoration/",
+    "/service-areas/tampa-fl/mold-remediation/",
+    "/service-areas/brandon-fl/contents-restoration-storage/",
+    "/service-areas/dover-fl/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/tampa-fl/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/tampa-fl/fire-damage-restoration/",
+    "/service-areas/tampa-fl/mold-remediation/",
+    "/service-areas/brandon-fl/general-contracting/",
+    "/service-areas/dover-fl/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/tampa-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/tampa-fl/fire-damage-restoration/",
+    "/service-areas/tampa-fl/mold-remediation/",
+    "/service-areas/brandon-fl/storm-damage-restoration/",
+    "/service-areas/dover-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tampa-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/tampa-fl/fire-damage-restoration/",
+    "/service-areas/tampa-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-cleanup/",
+    "/service-areas/dover-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/tampa-fl/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/tampa-fl/fire-damage-restoration/",
+    "/service-areas/tampa-fl/mold-remediation/",
+    "/service-areas/brandon-fl/sewage-cleanup/",
+    "/service-areas/dover-fl/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/tampa-fl/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/tampa-fl/",
+    "/service-areas/tampa-fl/fire-damage-restoration/",
+    "/service-areas/tampa-fl/mold-remediation/",
+    "/service-areas/brandon-fl/emergency-board-up-tarping/",
+    "/service-areas/dover-fl/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/brandon-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/service-areas/lakeland-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/brandon-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/brandon-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/brandon-fl/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/contents-restoration-storage/",
+    "/service-areas/lakeland-fl/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/brandon-fl/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/general-contracting/",
+    "/service-areas/lakeland-fl/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/brandon-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/storm-damage-restoration/",
+    "/service-areas/lakeland-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/brandon-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/water-cleanup/",
+    "/service-areas/lakeland-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/brandon-fl/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/sewage-cleanup/",
+    "/service-areas/lakeland-fl/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/brandon-fl/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/brandon-fl/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/emergency-board-up-tarping/",
+    "/service-areas/lakeland-fl/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/plant-city-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/plant-city-fl/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/plant-city-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/plant-city-fl/mold-remediation/",
+    "/service-areas/plant-city-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/plant-city-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/plant-city-fl/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/plant-city-fl/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/plant-city-fl/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/mold-remediation/",
+    "/service-areas/brandon-fl/contents-restoration-storage/",
+    "/service-areas/dover-fl/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/plant-city-fl/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/plant-city-fl/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/mold-remediation/",
+    "/service-areas/brandon-fl/general-contracting/",
+    "/service-areas/dover-fl/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/plant-city-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/plant-city-fl/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/mold-remediation/",
+    "/service-areas/brandon-fl/storm-damage-restoration/",
+    "/service-areas/dover-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/plant-city-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/plant-city-fl/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-cleanup/",
+    "/service-areas/dover-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/plant-city-fl/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/plant-city-fl/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/mold-remediation/",
+    "/service-areas/brandon-fl/sewage-cleanup/",
+    "/service-areas/dover-fl/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/plant-city-fl/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/plant-city-fl/",
+    "/service-areas/plant-city-fl/fire-damage-restoration/",
+    "/service-areas/plant-city-fl/mold-remediation/",
+    "/service-areas/brandon-fl/emergency-board-up-tarping/",
+    "/service-areas/dover-fl/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/temple-terrace-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/temple-terrace-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/temple-terrace-fl/mold-remediation/",
+    "/service-areas/temple-terrace-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/temple-terrace-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/temple-terrace-fl/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/mold-remediation/",
+    "/service-areas/brandon-fl/contents-restoration-storage/",
+    "/service-areas/dover-fl/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/temple-terrace-fl/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/mold-remediation/",
+    "/service-areas/brandon-fl/general-contracting/",
+    "/service-areas/dover-fl/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/temple-terrace-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/mold-remediation/",
+    "/service-areas/brandon-fl/storm-damage-restoration/",
+    "/service-areas/dover-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/temple-terrace-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-cleanup/",
+    "/service-areas/dover-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/temple-terrace-fl/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/mold-remediation/",
+    "/service-areas/brandon-fl/sewage-cleanup/",
+    "/service-areas/dover-fl/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/temple-terrace-fl/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/temple-terrace-fl/",
+    "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+    "/service-areas/temple-terrace-fl/mold-remediation/",
+    "/service-areas/brandon-fl/emergency-board-up-tarping/",
+    "/service-areas/dover-fl/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/lakeland-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lakeland-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/service-areas/lakeland-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lakeland-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/lakeland-fl/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/service-areas/brandon-fl/contents-restoration-storage/",
+    "/service-areas/dover-fl/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/lakeland-fl/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/service-areas/brandon-fl/general-contracting/",
+    "/service-areas/dover-fl/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/lakeland-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/service-areas/brandon-fl/storm-damage-restoration/",
+    "/service-areas/dover-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lakeland-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-cleanup/",
+    "/service-areas/dover-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lakeland-fl/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/service-areas/brandon-fl/sewage-cleanup/",
+    "/service-areas/dover-fl/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lakeland-fl/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/lakeland-fl/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/service-areas/brandon-fl/emergency-board-up-tarping/",
+    "/service-areas/dover-fl/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/seffner-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/seffner-fl/fire-damage-restoration/",
+    "/service-areas/seffner-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/seffner-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/seffner-fl/mold-remediation/",
+    "/service-areas/seffner-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/seffner-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/seffner-fl/fire-damage-restoration/",
+    "/service-areas/seffner-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/seffner-fl/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/seffner-fl/fire-damage-restoration/",
+    "/service-areas/seffner-fl/mold-remediation/",
+    "/service-areas/brandon-fl/contents-restoration-storage/",
+    "/service-areas/dover-fl/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/seffner-fl/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/seffner-fl/fire-damage-restoration/",
+    "/service-areas/seffner-fl/mold-remediation/",
+    "/service-areas/brandon-fl/general-contracting/",
+    "/service-areas/dover-fl/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/seffner-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/seffner-fl/fire-damage-restoration/",
+    "/service-areas/seffner-fl/mold-remediation/",
+    "/service-areas/brandon-fl/storm-damage-restoration/",
+    "/service-areas/dover-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/seffner-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/seffner-fl/fire-damage-restoration/",
+    "/service-areas/seffner-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-cleanup/",
+    "/service-areas/dover-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/seffner-fl/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/seffner-fl/fire-damage-restoration/",
+    "/service-areas/seffner-fl/mold-remediation/",
+    "/service-areas/brandon-fl/sewage-cleanup/",
+    "/service-areas/dover-fl/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/seffner-fl/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/seffner-fl/",
+    "/service-areas/seffner-fl/fire-damage-restoration/",
+    "/service-areas/seffner-fl/mold-remediation/",
+    "/service-areas/brandon-fl/emergency-board-up-tarping/",
+    "/service-areas/dover-fl/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/zephyrhills-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/zephyrhills-fl/",
+    "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/zephyrhills-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/",
+    "/service-areas/zephyrhills-fl/mold-remediation/",
+    "/service-areas/zephyrhills-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/zephyrhills-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/zephyrhills-fl/",
+    "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/zephyrhills-fl/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/zephyrhills-fl/",
+    "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/mold-remediation/",
+    "/service-areas/brandon-fl/contents-restoration-storage/",
+    "/service-areas/dover-fl/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/zephyrhills-fl/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/zephyrhills-fl/",
+    "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/mold-remediation/",
+    "/service-areas/brandon-fl/general-contracting/",
+    "/service-areas/dover-fl/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/zephyrhills-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/zephyrhills-fl/",
+    "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/mold-remediation/",
+    "/service-areas/brandon-fl/storm-damage-restoration/",
+    "/service-areas/dover-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/zephyrhills-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/zephyrhills-fl/",
+    "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-cleanup/",
+    "/service-areas/dover-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/zephyrhills-fl/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/zephyrhills-fl/",
+    "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/mold-remediation/",
+    "/service-areas/brandon-fl/sewage-cleanup/",
+    "/service-areas/dover-fl/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/zephyrhills-fl/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/zephyrhills-fl/",
+    "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+    "/service-areas/zephyrhills-fl/mold-remediation/",
+    "/service-areas/brandon-fl/emergency-board-up-tarping/",
+    "/service-areas/dover-fl/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/dover-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/dover-fl/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-damage-restoration/",
+    "/service-areas/lakeland-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dover-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/dover-fl/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/fire-damage-restoration/",
+    "/service-areas/lakeland-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dover-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/dover-fl/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/water-damage-restoration/",
+    "/service-areas/brandon-fl/mold-remediation/",
+    "/service-areas/lakeland-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/dover-fl/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/dover-fl/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/brandon-fl/contents-restoration-storage/",
+    "/service-areas/lakeland-fl/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/dover-fl/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/dover-fl/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/brandon-fl/general-contracting/",
+    "/service-areas/lakeland-fl/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/dover-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/dover-fl/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/brandon-fl/storm-damage-restoration/",
+    "/service-areas/lakeland-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dover-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/dover-fl/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/brandon-fl/water-cleanup/",
+    "/service-areas/lakeland-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/dover-fl/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/dover-fl/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/brandon-fl/sewage-cleanup/",
+    "/service-areas/lakeland-fl/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/dover-fl/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/dover-fl/",
+    "/service-areas/dover-fl/fire-damage-restoration/",
+    "/service-areas/dover-fl/mold-remediation/",
+    "/service-areas/brandon-fl/emergency-board-up-tarping/",
+    "/service-areas/lakeland-fl/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/blog/what-to-do-first-24-hours-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/burst-pipe-emergency-checklist/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/does-homeowners-insurance-cover-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/signs-of-hidden-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/how-to-test-for-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/fire-damage-restoration-process/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/choosing-a-restoration-company/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/black-mold-vs-regular-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}

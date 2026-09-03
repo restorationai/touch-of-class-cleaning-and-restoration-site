@@ -1,0 +1,95 @@
+{
+  "brand": {
+    "display_name": "DRYCOR RESTORE",
+    "place_id": "ChIJ--4aNxtJuIURz7eqWifJBM4",
+    "google_cid": "14845211442582042575",
+    "lat": 28.0655281,
+    "lng": -82.294789,
+    "phone": "(813) 829-1091",
+    "email": "team@drycor.com",
+    "street_address": "10798 Florence Ave",
+    "city": "Thonotosassa",
+    "state": "FL",
+    "postal_code": "33592",
+    "certifications": [
+      "IICRC CERTIFIED FIRM",
+      "IICRC WRT (WATER)",
+      "EPA LEAD-SAFE CERTIFIED",
+      "OSHA TRAINED",
+      "NAERMC-(MOLD)"
+    ],
+    "license_numbers": [
+      "CBC1253966"
+    ],
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "founded_year": "2005",
+    "trust_badges": [
+      "IICRC Certified Firm",
+      "Licensed & Insured",
+      "24/7 Emergency Service",
+      "Locally Owned & Operated"
+    ]
+  },
+  "services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "contents-restoration-storage",
+    "general-contracting",
+    "storm-damage-restoration",
+    "water-cleanup",
+    "sewage-cleanup",
+    "emergency-board-up-tarping"
+  ],
+  "service_areas": [
+    {
+      "city": "Thonotosasa",
+      "state": "FL",
+      "slug": "thonotosasa-fl",
+      "primary": true
+    },
+    {
+      "city": "Tampa",
+      "state": "FL",
+      "slug": "tampa-fl"
+    },
+    {
+      "city": "Brandon",
+      "state": "FL",
+      "slug": "brandon-fl"
+    },
+    {
+      "city": "Plant City",
+      "state": "FL",
+      "slug": "plant-city-fl"
+    },
+    {
+      "city": "Temple Terrace",
+      "state": "FL",
+      "slug": "temple-terrace-fl"
+    },
+    {
+      "city": "Lakeland",
+      "state": "FL",
+      "slug": "lakeland-fl"
+    },
+    {
+      "city": "Seffner",
+      "state": "FL",
+      "slug": "seffner-fl"
+    },
+    {
+      "city": "Zephyrhills",
+      "state": "FL",
+      "slug": "zephyrhills-fl"
+    },
+    {
+      "city": "Dover",
+      "state": "FL",
+      "slug": "dover-fl"
+    }
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
+}

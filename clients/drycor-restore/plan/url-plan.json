@@ -1,0 +1,4521 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-09-03T11:18:11.639619+00:00",
+  "input_summary": {
+    "service_count": 9,
+    "service_area_count": 9,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "DRYCOR RESTORE | Restoration Services in Thonotosasa, FL",
+      "h1": "24/7 Restoration Services in Thonotosasa",
+      "meta_description": "DRYCOR RESTORE provides 24/7 water, fire, mold, and storm damage restoration across Thonotosasa and surrounding areas. Licensed, insured, IICRC-certified. Call (813) 829-1091.",
+      "primary_keyword": "restoration services thonotosasa",
+      "secondary_keywords": [
+        "restoration company near me",
+        "24/7 damage restoration",
+        "emergency restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/general-contracting/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration-storage/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/dover-fl/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/zephyrhills-fl/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Thonotosasa | DRYCOR RESTORE",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Thonotosasa: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (813) 829-1091.",
+      "primary_keyword": "restoration services thonotosasa",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/general-contracting/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration-storage/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | DRYCOR RESTORE Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "DRYCOR RESTORE provides 24/7 restoration services across Thonotosasa and the surrounding region. Find your city.",
+      "primary_keyword": "drycor restore service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/dover-fl/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/zephyrhills-fl/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | DRYCOR RESTORE",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from DRYCOR RESTORE on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog thonotosasa",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About DRYCOR RESTORE | Thonotosasa Restoration Company",
+      "h1": "About DRYCOR RESTORE",
+      "meta_description": "DRYCOR RESTORE has served Thonotosasa since 2005. Meet our IICRC-certified restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "drycor restore thonotosasa",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact DRYCOR RESTORE | 24/7 Restoration in Thonotosasa",
+      "h1": "Contact DRYCOR RESTORE",
+      "meta_description": "Call (813) 829-1091 for 24/7 emergency restoration in Thonotosasa and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "drycor restore contact",
+      "secondary_keywords": [
+        "restoration company contact",
+        "24/7 restoration phone",
+        "emergency restoration near me"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in Thonotosasa | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Thonotosasa",
+      "meta_description": "24/7 water damage restoration in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration thonotosasa",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/service-areas/lakeland-fl/water-damage-restoration/",
+        "/service-areas/plant-city-fl/water-damage-restoration/",
+        "/service-areas/seffner-fl/water-damage-restoration/",
+        "/service-areas/tampa-fl/water-damage-restoration/",
+        "/service-areas/temple-terrace-fl/water-damage-restoration/",
+        "/service-areas/zephyrhills-fl/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Thonotosasa | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Thonotosasa",
+      "meta_description": "24/7 fire damage restoration in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration thonotosasa",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/fire-damage-restoration/",
+        "/service-areas/seffner-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-remediation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Remediation in Thonotosasa | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Thonotosasa",
+      "meta_description": "24/7 mold remediation in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation thonotosasa",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/service-areas/plant-city-fl/mold-remediation/",
+        "/service-areas/seffner-fl/mold-remediation/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/temple-terrace-fl/mold-remediation/",
+        "/service-areas/zephyrhills-fl/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/contents-restoration-storage/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Thonotosasa | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Thonotosasa",
+      "meta_description": "24/7 contents restoration & storage in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage thonotosasa",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/brandon-fl/contents-restoration-storage/",
+        "/service-areas/dover-fl/contents-restoration-storage/",
+        "/service-areas/lakeland-fl/contents-restoration-storage/",
+        "/service-areas/plant-city-fl/contents-restoration-storage/",
+        "/service-areas/seffner-fl/contents-restoration-storage/",
+        "/service-areas/tampa-fl/contents-restoration-storage/",
+        "/service-areas/temple-terrace-fl/contents-restoration-storage/",
+        "/service-areas/zephyrhills-fl/contents-restoration-storage/"
+      ]
+    },
+    {
+      "url_path": "/services/general-contracting/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Thonotosasa | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Thonotosasa",
+      "meta_description": "24/7 renovations, remodels and general contracting in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting thonotosasa",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/brandon-fl/general-contracting/",
+        "/service-areas/dover-fl/general-contracting/",
+        "/service-areas/lakeland-fl/general-contracting/",
+        "/service-areas/plant-city-fl/general-contracting/",
+        "/service-areas/seffner-fl/general-contracting/",
+        "/service-areas/tampa-fl/general-contracting/",
+        "/service-areas/temple-terrace-fl/general-contracting/",
+        "/service-areas/zephyrhills-fl/general-contracting/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Thonotosasa | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Thonotosasa",
+      "meta_description": "24/7 storm damage restoration in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration thonotosasa",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/brandon-fl/storm-damage-restoration/",
+        "/service-areas/dover-fl/storm-damage-restoration/",
+        "/service-areas/lakeland-fl/storm-damage-restoration/",
+        "/service-areas/plant-city-fl/storm-damage-restoration/",
+        "/service-areas/seffner-fl/storm-damage-restoration/",
+        "/service-areas/tampa-fl/storm-damage-restoration/",
+        "/service-areas/temple-terrace-fl/storm-damage-restoration/",
+        "/service-areas/zephyrhills-fl/storm-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Cleanup in Thonotosasa | DRYCOR RESTORE",
+      "h1": "Water Cleanup in Thonotosasa",
+      "meta_description": "24/7 water cleanup in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water cleanup thonotosasa",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/brandon-fl/water-cleanup/",
+        "/service-areas/dover-fl/water-cleanup/",
+        "/service-areas/lakeland-fl/water-cleanup/",
+        "/service-areas/plant-city-fl/water-cleanup/",
+        "/service-areas/seffner-fl/water-cleanup/",
+        "/service-areas/tampa-fl/water-cleanup/",
+        "/service-areas/temple-terrace-fl/water-cleanup/",
+        "/service-areas/zephyrhills-fl/water-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/sewage-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Thonotosasa | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Thonotosasa",
+      "meta_description": "24/7 sewage cleanup and sanitization in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization thonotosasa",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/brandon-fl/sewage-cleanup/",
+        "/service-areas/dover-fl/sewage-cleanup/",
+        "/service-areas/lakeland-fl/sewage-cleanup/",
+        "/service-areas/plant-city-fl/sewage-cleanup/",
+        "/service-areas/seffner-fl/sewage-cleanup/",
+        "/service-areas/tampa-fl/sewage-cleanup/",
+        "/service-areas/temple-terrace-fl/sewage-cleanup/",
+        "/service-areas/zephyrhills-fl/sewage-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-board-up-tarping/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Thonotosasa | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Thonotosasa",
+      "meta_description": "24/7 emergency board-up and tarping in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping thonotosasa",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/brandon-fl/emergency-board-up-tarping/",
+        "/service-areas/dover-fl/emergency-board-up-tarping/",
+        "/service-areas/lakeland-fl/emergency-board-up-tarping/",
+        "/service-areas/plant-city-fl/emergency-board-up-tarping/",
+        "/service-areas/seffner-fl/emergency-board-up-tarping/",
+        "/service-areas/tampa-fl/emergency-board-up-tarping/",
+        "/service-areas/temple-terrace-fl/emergency-board-up-tarping/",
+        "/service-areas/zephyrhills-fl/emergency-board-up-tarping/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tampa-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Tampa",
+      "meta_description": "Serving Tampa, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services tampa",
+      "secondary_keywords": [
+        "tampa restoration company",
+        "damage restoration tampa",
+        "tampa disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/tampa-fl/water-damage-restoration/",
+        "/service-areas/tampa-fl/sewage-cleanup/",
+        "/service-areas/tampa-fl/storm-damage-restoration/",
+        "/service-areas/tampa-fl/water-cleanup/",
+        "/service-areas/tampa-fl/general-contracting/",
+        "/service-areas/tampa-fl/emergency-board-up-tarping/",
+        "/service-areas/tampa-fl/contents-restoration-storage/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/dover-fl/",
+        "/service-areas/lakeland-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Brandon",
+      "meta_description": "Serving Brandon, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services brandon",
+      "secondary_keywords": [
+        "brandon restoration company",
+        "damage restoration brandon",
+        "brandon disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/sewage-cleanup/",
+        "/service-areas/brandon-fl/storm-damage-restoration/",
+        "/service-areas/brandon-fl/water-cleanup/",
+        "/service-areas/brandon-fl/general-contracting/",
+        "/service-areas/brandon-fl/emergency-board-up-tarping/",
+        "/service-areas/brandon-fl/contents-restoration-storage/",
+        "/service-areas/dover-fl/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/plant-city-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plant-city-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Plant City, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Plant City",
+      "meta_description": "Serving Plant City, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services plant city",
+      "secondary_keywords": [
+        "plant city restoration company",
+        "damage restoration plant city",
+        "plant city disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/plant-city-fl/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/mold-remediation/",
+        "/service-areas/plant-city-fl/water-damage-restoration/",
+        "/service-areas/plant-city-fl/sewage-cleanup/",
+        "/service-areas/plant-city-fl/storm-damage-restoration/",
+        "/service-areas/plant-city-fl/water-cleanup/",
+        "/service-areas/plant-city-fl/general-contracting/",
+        "/service-areas/plant-city-fl/emergency-board-up-tarping/",
+        "/service-areas/plant-city-fl/contents-restoration-storage/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/dover-fl/",
+        "/service-areas/lakeland-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temple-terrace-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Temple Terrace, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Temple Terrace",
+      "meta_description": "Serving Temple Terrace, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services temple terrace",
+      "secondary_keywords": [
+        "temple terrace restoration company",
+        "damage restoration temple terrace",
+        "temple terrace disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/mold-remediation/",
+        "/service-areas/temple-terrace-fl/water-damage-restoration/",
+        "/service-areas/temple-terrace-fl/sewage-cleanup/",
+        "/service-areas/temple-terrace-fl/storm-damage-restoration/",
+        "/service-areas/temple-terrace-fl/water-cleanup/",
+        "/service-areas/temple-terrace-fl/general-contracting/",
+        "/service-areas/temple-terrace-fl/emergency-board-up-tarping/",
+        "/service-areas/temple-terrace-fl/contents-restoration-storage/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/dover-fl/",
+        "/service-areas/lakeland-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lakeland-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Lakeland, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Lakeland",
+      "meta_description": "Serving Lakeland, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services lakeland",
+      "secondary_keywords": [
+        "lakeland restoration company",
+        "damage restoration lakeland",
+        "lakeland disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/service-areas/lakeland-fl/water-damage-restoration/",
+        "/service-areas/lakeland-fl/sewage-cleanup/",
+        "/service-areas/lakeland-fl/storm-damage-restoration/",
+        "/service-areas/lakeland-fl/water-cleanup/",
+        "/service-areas/lakeland-fl/general-contracting/",
+        "/service-areas/lakeland-fl/emergency-board-up-tarping/",
+        "/service-areas/lakeland-fl/contents-restoration-storage/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/dover-fl/",
+        "/service-areas/plant-city-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seffner-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Seffner, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Seffner",
+      "meta_description": "Serving Seffner, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services seffner",
+      "secondary_keywords": [
+        "seffner restoration company",
+        "damage restoration seffner",
+        "seffner disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/seffner-fl/fire-damage-restoration/",
+        "/service-areas/seffner-fl/mold-remediation/",
+        "/service-areas/seffner-fl/water-damage-restoration/",
+        "/service-areas/seffner-fl/sewage-cleanup/",
+        "/service-areas/seffner-fl/storm-damage-restoration/",
+        "/service-areas/seffner-fl/water-cleanup/",
+        "/service-areas/seffner-fl/general-contracting/",
+        "/service-areas/seffner-fl/emergency-board-up-tarping/",
+        "/service-areas/seffner-fl/contents-restoration-storage/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/dover-fl/",
+        "/service-areas/lakeland-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zephyrhills-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Zephyrhills, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Zephyrhills",
+      "meta_description": "Serving Zephyrhills, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services zephyrhills",
+      "secondary_keywords": [
+        "zephyrhills restoration company",
+        "damage restoration zephyrhills",
+        "zephyrhills disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/mold-remediation/",
+        "/service-areas/zephyrhills-fl/water-damage-restoration/",
+        "/service-areas/zephyrhills-fl/sewage-cleanup/",
+        "/service-areas/zephyrhills-fl/storm-damage-restoration/",
+        "/service-areas/zephyrhills-fl/water-cleanup/",
+        "/service-areas/zephyrhills-fl/general-contracting/",
+        "/service-areas/zephyrhills-fl/emergency-board-up-tarping/",
+        "/service-areas/zephyrhills-fl/contents-restoration-storage/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/dover-fl/",
+        "/service-areas/lakeland-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dover-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Dover, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Dover",
+      "meta_description": "Serving Dover, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services dover",
+      "secondary_keywords": [
+        "dover restoration company",
+        "damage restoration dover",
+        "dover disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/service-areas/dover-fl/sewage-cleanup/",
+        "/service-areas/dover-fl/storm-damage-restoration/",
+        "/service-areas/dover-fl/water-cleanup/",
+        "/service-areas/dover-fl/general-contracting/",
+        "/service-areas/dover-fl/emergency-board-up-tarping/",
+        "/service-areas/dover-fl/contents-restoration-storage/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/plant-city-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tampa-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Tampa",
+      "meta_description": "24/7 water damage restoration in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration tampa",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tampa-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Tampa",
+      "meta_description": "24/7 fire damage restoration in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration tampa",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/tampa-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tampa-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Tampa",
+      "meta_description": "24/7 mold remediation in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation tampa",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tampa-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Tampa",
+      "meta_description": "24/7 contents restoration & storage in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage tampa",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/brandon-fl/contents-restoration-storage/",
+        "/service-areas/dover-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tampa-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Tampa",
+      "meta_description": "24/7 renovations, remodels and general contracting in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting tampa",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/brandon-fl/general-contracting/",
+        "/service-areas/dover-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tampa-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Tampa",
+      "meta_description": "24/7 storm damage restoration in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration tampa",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/brandon-fl/storm-damage-restoration/",
+        "/service-areas/dover-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tampa-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Water Cleanup in Tampa",
+      "meta_description": "24/7 water cleanup in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water cleanup tampa",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-cleanup/",
+        "/service-areas/dover-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tampa-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Tampa",
+      "meta_description": "24/7 sewage cleanup and sanitization in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization tampa",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/brandon-fl/sewage-cleanup/",
+        "/service-areas/dover-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tampa-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Tampa",
+      "meta_description": "24/7 emergency board-up and tarping in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping tampa",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/brandon-fl/emergency-board-up-tarping/",
+        "/service-areas/dover-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Brandon",
+      "meta_description": "24/7 water damage restoration in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration brandon",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/service-areas/lakeland-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Brandon",
+      "meta_description": "24/7 fire damage restoration in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration brandon",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Brandon",
+      "meta_description": "24/7 mold remediation in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation brandon",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Brandon",
+      "meta_description": "24/7 contents restoration & storage in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage brandon",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/contents-restoration-storage/",
+        "/service-areas/lakeland-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Brandon",
+      "meta_description": "24/7 renovations, remodels and general contracting in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting brandon",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/general-contracting/",
+        "/service-areas/lakeland-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Brandon",
+      "meta_description": "24/7 storm damage restoration in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration brandon",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/storm-damage-restoration/",
+        "/service-areas/lakeland-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Water Cleanup in Brandon",
+      "meta_description": "24/7 water cleanup in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water cleanup brandon",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/water-cleanup/",
+        "/service-areas/lakeland-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Brandon",
+      "meta_description": "24/7 sewage cleanup and sanitization in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization brandon",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/sewage-cleanup/",
+        "/service-areas/lakeland-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Brandon",
+      "meta_description": "24/7 emergency board-up and tarping in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping brandon",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/emergency-board-up-tarping/",
+        "/service-areas/lakeland-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plant-city-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Plant City, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Plant City",
+      "meta_description": "24/7 water damage restoration in Plant City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration plant city",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/plant-city-fl/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plant-city-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Plant City, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Plant City",
+      "meta_description": "24/7 fire damage restoration in Plant City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration plant city",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/plant-city-fl/mold-remediation/",
+        "/service-areas/plant-city-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plant-city-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Plant City, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Plant City",
+      "meta_description": "24/7 mold remediation in Plant City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation plant city",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/plant-city-fl/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plant-city-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Plant City, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Plant City",
+      "meta_description": "24/7 contents restoration & storage in Plant City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage plant city",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/plant-city-fl/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/mold-remediation/",
+        "/service-areas/brandon-fl/contents-restoration-storage/",
+        "/service-areas/dover-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plant-city-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Plant City, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Plant City",
+      "meta_description": "24/7 renovations, remodels and general contracting in Plant City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting plant city",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/plant-city-fl/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/mold-remediation/",
+        "/service-areas/brandon-fl/general-contracting/",
+        "/service-areas/dover-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plant-city-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Plant City, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Plant City",
+      "meta_description": "24/7 storm damage restoration in Plant City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration plant city",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/plant-city-fl/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/mold-remediation/",
+        "/service-areas/brandon-fl/storm-damage-restoration/",
+        "/service-areas/dover-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plant-city-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Plant City, FL | DRYCOR RESTORE",
+      "h1": "Water Cleanup in Plant City",
+      "meta_description": "24/7 water cleanup in Plant City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water cleanup plant city",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/plant-city-fl/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-cleanup/",
+        "/service-areas/dover-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plant-city-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Plant City, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Plant City",
+      "meta_description": "24/7 sewage cleanup and sanitization in Plant City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization plant city",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/plant-city-fl/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/mold-remediation/",
+        "/service-areas/brandon-fl/sewage-cleanup/",
+        "/service-areas/dover-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plant-city-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Plant City, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Plant City",
+      "meta_description": "24/7 emergency board-up and tarping in Plant City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping plant city",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/plant-city-fl/",
+        "/service-areas/plant-city-fl/fire-damage-restoration/",
+        "/service-areas/plant-city-fl/mold-remediation/",
+        "/service-areas/brandon-fl/emergency-board-up-tarping/",
+        "/service-areas/dover-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temple-terrace-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Temple Terrace, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Temple Terrace",
+      "meta_description": "24/7 water damage restoration in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration temple terrace",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Temple Terrace, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Temple Terrace",
+      "meta_description": "24/7 fire damage restoration in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration temple terrace",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/temple-terrace-fl/mold-remediation/",
+        "/service-areas/temple-terrace-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temple-terrace-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Temple Terrace, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Temple Terrace",
+      "meta_description": "24/7 mold remediation in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation temple terrace",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temple-terrace-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Temple Terrace, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Temple Terrace",
+      "meta_description": "24/7 contents restoration & storage in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage temple terrace",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/mold-remediation/",
+        "/service-areas/brandon-fl/contents-restoration-storage/",
+        "/service-areas/dover-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temple-terrace-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Temple Terrace, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Temple Terrace",
+      "meta_description": "24/7 renovations, remodels and general contracting in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting temple terrace",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/mold-remediation/",
+        "/service-areas/brandon-fl/general-contracting/",
+        "/service-areas/dover-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temple-terrace-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Temple Terrace, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Temple Terrace",
+      "meta_description": "24/7 storm damage restoration in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration temple terrace",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/mold-remediation/",
+        "/service-areas/brandon-fl/storm-damage-restoration/",
+        "/service-areas/dover-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temple-terrace-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Temple Terrace, FL | DRYCOR RESTORE",
+      "h1": "Water Cleanup in Temple Terrace",
+      "meta_description": "24/7 water cleanup in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water cleanup temple terrace",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-cleanup/",
+        "/service-areas/dover-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temple-terrace-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Temple Terrace, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Temple Terrace",
+      "meta_description": "24/7 sewage cleanup and sanitization in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization temple terrace",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/mold-remediation/",
+        "/service-areas/brandon-fl/sewage-cleanup/",
+        "/service-areas/dover-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temple-terrace-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Temple Terrace, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Temple Terrace",
+      "meta_description": "24/7 emergency board-up and tarping in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping temple terrace",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/temple-terrace-fl/",
+        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+        "/service-areas/temple-terrace-fl/mold-remediation/",
+        "/service-areas/brandon-fl/emergency-board-up-tarping/",
+        "/service-areas/dover-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lakeland-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Lakeland, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Lakeland",
+      "meta_description": "24/7 water damage restoration in Lakeland, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration lakeland",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lakeland-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Lakeland, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Lakeland",
+      "meta_description": "24/7 fire damage restoration in Lakeland, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration lakeland",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/service-areas/lakeland-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lakeland-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Lakeland, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Lakeland",
+      "meta_description": "24/7 mold remediation in Lakeland, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation lakeland",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lakeland-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Lakeland, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Lakeland",
+      "meta_description": "24/7 contents restoration & storage in Lakeland, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage lakeland",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/service-areas/brandon-fl/contents-restoration-storage/",
+        "/service-areas/dover-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lakeland-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Lakeland, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Lakeland",
+      "meta_description": "24/7 renovations, remodels and general contracting in Lakeland, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting lakeland",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/service-areas/brandon-fl/general-contracting/",
+        "/service-areas/dover-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lakeland-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Lakeland, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Lakeland",
+      "meta_description": "24/7 storm damage restoration in Lakeland, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration lakeland",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/service-areas/brandon-fl/storm-damage-restoration/",
+        "/service-areas/dover-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lakeland-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Lakeland, FL | DRYCOR RESTORE",
+      "h1": "Water Cleanup in Lakeland",
+      "meta_description": "24/7 water cleanup in Lakeland, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water cleanup lakeland",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-cleanup/",
+        "/service-areas/dover-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lakeland-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Lakeland, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Lakeland",
+      "meta_description": "24/7 sewage cleanup and sanitization in Lakeland, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization lakeland",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/service-areas/brandon-fl/sewage-cleanup/",
+        "/service-areas/dover-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lakeland-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Lakeland, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Lakeland",
+      "meta_description": "24/7 emergency board-up and tarping in Lakeland, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping lakeland",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/lakeland-fl/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/service-areas/brandon-fl/emergency-board-up-tarping/",
+        "/service-areas/dover-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seffner-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Seffner, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Seffner",
+      "meta_description": "24/7 water damage restoration in Seffner, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration seffner",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/seffner-fl/fire-damage-restoration/",
+        "/service-areas/seffner-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seffner-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Seffner, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Seffner",
+      "meta_description": "24/7 fire damage restoration in Seffner, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration seffner",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/seffner-fl/mold-remediation/",
+        "/service-areas/seffner-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seffner-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Seffner, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Seffner",
+      "meta_description": "24/7 mold remediation in Seffner, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation seffner",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/seffner-fl/fire-damage-restoration/",
+        "/service-areas/seffner-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seffner-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Seffner, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Seffner",
+      "meta_description": "24/7 contents restoration & storage in Seffner, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage seffner",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/seffner-fl/fire-damage-restoration/",
+        "/service-areas/seffner-fl/mold-remediation/",
+        "/service-areas/brandon-fl/contents-restoration-storage/",
+        "/service-areas/dover-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seffner-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Seffner, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Seffner",
+      "meta_description": "24/7 renovations, remodels and general contracting in Seffner, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting seffner",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/seffner-fl/fire-damage-restoration/",
+        "/service-areas/seffner-fl/mold-remediation/",
+        "/service-areas/brandon-fl/general-contracting/",
+        "/service-areas/dover-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seffner-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Seffner, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Seffner",
+      "meta_description": "24/7 storm damage restoration in Seffner, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration seffner",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/seffner-fl/fire-damage-restoration/",
+        "/service-areas/seffner-fl/mold-remediation/",
+        "/service-areas/brandon-fl/storm-damage-restoration/",
+        "/service-areas/dover-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seffner-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Seffner, FL | DRYCOR RESTORE",
+      "h1": "Water Cleanup in Seffner",
+      "meta_description": "24/7 water cleanup in Seffner, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water cleanup seffner",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/seffner-fl/fire-damage-restoration/",
+        "/service-areas/seffner-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-cleanup/",
+        "/service-areas/dover-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seffner-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Seffner, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Seffner",
+      "meta_description": "24/7 sewage cleanup and sanitization in Seffner, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization seffner",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/seffner-fl/fire-damage-restoration/",
+        "/service-areas/seffner-fl/mold-remediation/",
+        "/service-areas/brandon-fl/sewage-cleanup/",
+        "/service-areas/dover-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seffner-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Seffner, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Seffner",
+      "meta_description": "24/7 emergency board-up and tarping in Seffner, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping seffner",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/seffner-fl/",
+        "/service-areas/seffner-fl/fire-damage-restoration/",
+        "/service-areas/seffner-fl/mold-remediation/",
+        "/service-areas/brandon-fl/emergency-board-up-tarping/",
+        "/service-areas/dover-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zephyrhills-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Zephyrhills, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Zephyrhills",
+      "meta_description": "24/7 water damage restoration in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration zephyrhills",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/zephyrhills-fl/",
+        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Zephyrhills, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Zephyrhills",
+      "meta_description": "24/7 fire damage restoration in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration zephyrhills",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/",
+        "/service-areas/zephyrhills-fl/mold-remediation/",
+        "/service-areas/zephyrhills-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zephyrhills-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Zephyrhills, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Zephyrhills",
+      "meta_description": "24/7 mold remediation in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation zephyrhills",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/zephyrhills-fl/",
+        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zephyrhills-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Zephyrhills, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Zephyrhills",
+      "meta_description": "24/7 contents restoration & storage in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage zephyrhills",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/zephyrhills-fl/",
+        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/mold-remediation/",
+        "/service-areas/brandon-fl/contents-restoration-storage/",
+        "/service-areas/dover-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zephyrhills-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Zephyrhills, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Zephyrhills",
+      "meta_description": "24/7 renovations, remodels and general contracting in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting zephyrhills",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/zephyrhills-fl/",
+        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/mold-remediation/",
+        "/service-areas/brandon-fl/general-contracting/",
+        "/service-areas/dover-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zephyrhills-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Zephyrhills, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Zephyrhills",
+      "meta_description": "24/7 storm damage restoration in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration zephyrhills",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/zephyrhills-fl/",
+        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/mold-remediation/",
+        "/service-areas/brandon-fl/storm-damage-restoration/",
+        "/service-areas/dover-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zephyrhills-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Zephyrhills, FL | DRYCOR RESTORE",
+      "h1": "Water Cleanup in Zephyrhills",
+      "meta_description": "24/7 water cleanup in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water cleanup zephyrhills",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/zephyrhills-fl/",
+        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-cleanup/",
+        "/service-areas/dover-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zephyrhills-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Zephyrhills, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Zephyrhills",
+      "meta_description": "24/7 sewage cleanup and sanitization in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization zephyrhills",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/zephyrhills-fl/",
+        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/mold-remediation/",
+        "/service-areas/brandon-fl/sewage-cleanup/",
+        "/service-areas/dover-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zephyrhills-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Zephyrhills, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Zephyrhills",
+      "meta_description": "24/7 emergency board-up and tarping in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping zephyrhills",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/zephyrhills-fl/",
+        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+        "/service-areas/zephyrhills-fl/mold-remediation/",
+        "/service-areas/brandon-fl/emergency-board-up-tarping/",
+        "/service-areas/dover-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dover-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Dover, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Dover",
+      "meta_description": "24/7 water damage restoration in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration dover",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/dover-fl/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-damage-restoration/",
+        "/service-areas/lakeland-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dover-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Dover, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Dover",
+      "meta_description": "24/7 fire damage restoration in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration dover",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/dover-fl/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/lakeland-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dover-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Dover, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Dover",
+      "meta_description": "24/7 mold remediation in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation dover",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/dover-fl/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/water-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/lakeland-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dover-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Dover, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Dover",
+      "meta_description": "24/7 contents restoration & storage in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage dover",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/dover-fl/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/brandon-fl/contents-restoration-storage/",
+        "/service-areas/lakeland-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dover-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Dover, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Dover",
+      "meta_description": "24/7 renovations, remodels and general contracting in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting dover",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/dover-fl/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/brandon-fl/general-contracting/",
+        "/service-areas/lakeland-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dover-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Dover, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Dover",
+      "meta_description": "24/7 storm damage restoration in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration dover",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/dover-fl/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/brandon-fl/storm-damage-restoration/",
+        "/service-areas/lakeland-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dover-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Dover, FL | DRYCOR RESTORE",
+      "h1": "Water Cleanup in Dover",
+      "meta_description": "24/7 water cleanup in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water cleanup dover",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/dover-fl/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/brandon-fl/water-cleanup/",
+        "/service-areas/lakeland-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dover-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Dover, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Dover",
+      "meta_description": "24/7 sewage cleanup and sanitization in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization dover",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/dover-fl/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/brandon-fl/sewage-cleanup/",
+        "/service-areas/lakeland-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dover-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Dover, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Dover",
+      "meta_description": "24/7 emergency board-up and tarping in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping dover",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/dover-fl/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/brandon-fl/emergency-board-up-tarping/",
+        "/service-areas/lakeland-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe emergency checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/signs-of-hidden-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "h1": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "meta_description": "",
+      "primary_keyword": "7 signs you have hidden mold and what to do next",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/fire-damage-restoration-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Fire Damage Restoration Process, Explained",
+      "h1": "The Fire Damage Restoration Process, Explained",
+      "meta_description": "",
+      "primary_keyword": "the fire damage restoration process explained",
+      "secondary_keywords": [
+        "fire damage restoration",
+        "smoke damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/black-mold-vs-regular-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "h1": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "meta_description": "",
+      "primary_keyword": "black mold vs regular mold how to tell the difference",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | DRYCOR RESTORE",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "drycor restore privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | DRYCOR RESTORE",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "drycor restore terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | DRYCOR RESTORE",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "drycor restore accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}
