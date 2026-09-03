@@ -772,10 +772,10 @@
     },
     {
       "id": "2026-07-23-how-to-plan-a-home-remodel",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-23T17:18:06Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-03T20:11:36Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/how-to-plan-a-home-remodel/",
       "primary_keyword": "how to plan a home remodel",
       "intent": "informational",
       "volume": null,
