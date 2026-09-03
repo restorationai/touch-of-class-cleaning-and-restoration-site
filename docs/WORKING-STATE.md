@@ -1,11 +1,27 @@
 # Working State — leave-and-resume doc
 
-## 2026-09-03 EVENING — scale-up shipped + stress test in flight
+## 2026-09-03 LATE EVENING — stress test PASSED + Bobby uniform batch SHIPPED
 
-Santino away; agent stress test running (run 33812348268, 2 buckets on the
-11-card real load: Bobby uniform batch -> production, Kenny full brand
-pass, DISS/morning cards). Verify on completion: bucket jobs both green,
-Bobby's flags real, Kenny hero/palette applied.
+Stress test run 33812348268: both buckets GREEN on the 11-card real load.
+Agent punted the uniform batch honestly (PIL method artifacts) — I finished
+it myself with nanobanana targeted edits + pixel composites: all 9 RT Olson
+people-images have gray pants + flag patches (emergency-plumbing pump ->
+residential tool bag too), faces verified per-image, garbled lettering
+composited back from originals (bags/back prints were garbled in the
+ORIGINALS — parity, not regression). Deployed + byte-verified on production
+pages.dev (apex rtolsonplumbing.com is still Bobby's legacy WordPress — NO
+cutover yet; the pages.dev build is where he looks). Batch card + logo punt
++ PIL punt all resolved; Monica told to tell Bobby (close_the_loop, link
+included). Furnace-visual-accuracy punt NARROWED (a9112a54): outdoor
+condenser on furnace-repair page, awaiting Santino's word to re-scene.
+Kenny brand pass verified (hero/team/mold strong); smudged water-damage
+face FIXED + redeployed to staging. Recaps + ack-SLA shipped earlier
+tonight (commits 42a10078 + a8cd0421).
+
+WATCH: scheduled dev-agent run 33813305696 (bucket 1 in flight, started
+BEFORE the batch ship) — after it ends, verify RT Olson service images
+still match commit 4a387fe3 (agent clone may be stale; re-push finals from
+scratchpad rto-uni/ if clobbered).
 
 SHIPPED TODAY (all pushed + verified):
 - Perception window COMPLETE: reveal ask waits 7d (ledger), app preview
