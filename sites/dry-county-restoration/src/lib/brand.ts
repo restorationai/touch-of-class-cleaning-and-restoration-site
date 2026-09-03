@@ -53,14 +53,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "70",
+  gbpReviewCount: "72",
   gbpReviews: [
+    { author: "Jo", rating: 5, text: "They did a great job and cleaned up afterwards. Very happy with the job.", when: "August 2026" },
     { author: "Rula", rating: 5, text: "We highly recommend Dry County Restoration we had a leak in our downstairs bathroom! We fixed the issue but we used them for the remediation! They were very honest upfront and their crew worked hard and kept us informed specially worked closely with Roberto! Highly recommend Dry County!", when: "August 2026" },
     { author: "Donna", rating: 5, text: "Bob did a great job getting help with insurance coverage, thank you", when: "June 2026" },
     { author: "Mateki", rating: 5, text: "Easy to communicate with and service is top tier!", when: "December 2025" },
     { author: "Lily", rating: 5, text: "Stephen was a breeze to work with!! Responded promptly and got the job done!! 10/10 recommend!", when: "November 2025" },
     { author: "Mitch", rating: 5, text: "Stephen and his crew were great! Not only did they do a professional job, they helped us deal with the insurance company and achieve a much more reasonable resolution of our claim than what insurance initially offered. Thank you for all the great advice! Hot tip: Hire Dry County Restoration and…", when: "October 2025" },
-    { author: "Evi", rating: 5, text: "Stephen and did a wonderful job for us! He was very informed and responsive, and they got out to take a look at what was going on the very next morning. Thankfully they didn't find anything serious in terms of water damage, and were extremely up front about the fact that there wouldn't need to be…", when: "October 2025" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",

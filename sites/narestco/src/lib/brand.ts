@@ -51,8 +51,8 @@ export const brand = {
   sameAsUrls: ["https://www.google.com/maps?cid=12984564642744438542", "https://www.facebook.com/narestco", "https://www.instagram.com/narestco", "https://www.tiktok.com/@narestco", "https://twitter.com/narestco", "https://www.yelp.com/biz/national-restoration-construction-federal-way-3", "https://www.bbb.org/us/wa/federal-way/profile/fire-water-damage-restoration/national-restoration-construction-llc-1296-1000167537", "https://www.angi.com/companylist/us/wa/federal-way/national-restoration-construction-llc-reviews-1.htm", "https://www.homeadvisor.com/rated.NationalRestoration.118159482.html", "https://www.thumbtack.com/wa/federal-way/water-damage/national-restoration-construction/service/515297469726908420", "https://www.bing.com/maps?ss=ypid.YN5DEE2A36AED87F3B", "https://www.houzz.com/professionals/environmental-services-and-restoration/national-restoration-construction-pfvwus-pf~819253451", "https://homeguide.com/wa/federal-way/water-damage-restoration/national-restoration-construction-A8aisT6gf"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "4.9",
-  gbpReviewCount: "64",
+  gbpRatingValue: "5.0",
+  gbpReviewCount: "63",
   gbpReviews: [
     { author: "Julia", rating: 5, text: "Jose and his team were very helpful and did a great job! Super happy with their work!", when: "August 2026" },
     { author: "Benjamin", rating: 5, text: "Had a water emergency on site. These guys showed up the next day and started taking care of business! took a few days to get all the water out/ damage ripped out. Those guys worked hard! Communication with the guys in the office was easy and fast. Overall, very happy. Would recommend.", when: "August 2026" },
