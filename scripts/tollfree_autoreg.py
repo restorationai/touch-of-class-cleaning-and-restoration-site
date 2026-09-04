@@ -635,6 +635,92 @@ def attempt_auto_resubmit(r: dict, ver: dict, apply: bool) -> bool:
     return True
 
 
+# ------------------------------------------------------------- doc EIN scan
+
+_DOC_EXTS = {".jpg": "image/jpeg", ".jpeg": "image/jpeg",
+             ".png": "image/png", ".webp": "image/webp",
+             ".pdf": "application/pdf"}
+
+
+def _scan_docs_for_ein(r: dict) -> str | None:
+    """Hub-uploaded paperwork answer to the EIN ask: list the client's docs
+    folders, read the newest few files with Claude, extract the EIN.
+    Read-only; the caller decides whether to write."""
+    cid = r["id"]
+    sb = os.environ["SUPABASE_URL"].rstrip("/")
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    akey = os.environ.get("ANTHROPIC_API_KEY")
+    if not akey:
+        return None
+    files: list[str] = []
+    for folder in (f"{cid}/docs/inbox", f"{cid}/docs/other", f"{cid}/docs"):
+        req = urllib.request.Request(
+            f"{sb}/storage/v1/object/list/branding", method="POST",
+            data=json.dumps({"prefix": folder, "limit": 10,
+                             "sortBy": {"column": "created_at",
+                                        "order": "desc"}}).encode(),
+            headers={"Authorization": f"Bearer {key}",
+                     "Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                for o in json.load(resp) or []:
+                    name = o.get("name") or ""
+                    ext = os.path.splitext(name)[1].lower()
+                    if o.get("id") and ext in _DOC_EXTS:
+                        files.append(f"{folder}/{name}")
+        except Exception:  # noqa: BLE001
+            continue
+    for path in files[:5]:
+        ext = os.path.splitext(path)[1].lower()
+        media = _DOC_EXTS[ext]
+        try:
+            req = urllib.request.Request(
+                f"{sb}/storage/v1/object/branding/{path}",
+                headers={"Authorization": f"Bearer {key}"})
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                blob = resp.read()
+        except Exception:  # noqa: BLE001
+            continue
+        if len(blob) > 8_000_000:
+            continue
+        block = ({"type": "document",
+                  "source": {"type": "base64", "media_type": media,
+                             "data": base64.b64encode(blob).decode()}}
+                 if media == "application/pdf" else
+                 {"type": "image",
+                  "source": {"type": "base64", "media_type": media,
+                             "data": base64.b64encode(blob).decode()}})
+        body = {
+            "model": "claude-haiku-4-5-20251001", "max_tokens": 200,
+            "system": "You read one business document. Find the US federal "
+                      "EIN (9 digits, usually XX-XXXXXXX). Reply with ONLY "
+                      'a JSON object: {"ein": "XX-XXXXXXX"} or '
+                      '{"ein": null}. Never guess digits.',
+            "messages": [{"role": "user", "content": [
+                block, {"type": "text", "text": "Extract the EIN."}]}],
+        }
+        try:
+            req = urllib.request.Request(
+                "https://api.anthropic.com/v1/messages", method="POST",
+                data=json.dumps(body).encode(),
+                headers={"x-api-key": akey,
+                         "anthropic-version": "2023-06-01",
+                         "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                res = json.load(resp)
+            text = "".join(b.get("text", "")
+                           for b in res.get("content") or [])
+            m = re.search(r"(\d{2})-?(\d{7})", text)
+            if m and not m.group(1).startswith("00"):
+                ein = f"{m.group(1)}-{m.group(2)}"
+                print(f"  [{r['company']['name']}] EIN {ein} read from "
+                      f"uploaded document {path.split('/')[-1]}")
+                return ein
+        except Exception as e:  # noqa: BLE001
+            print(f"  (doc-scan {path.split('/')[-1]}: {str(e)[:80]})")
+    return None
+
+
 # --------------------------------------------------------------------- watch
 
 def sync_pending_statuses(fleet: list[dict], apply: bool) -> None:
@@ -723,6 +809,27 @@ def cmd_watch(args) -> int:
                 submitted += 1
             continue
         if v != "ASK-EIN":
+            continue
+        # Before asking (or re-asking): maybe the answer is already sitting
+        # in their uploaded documents — never ask for what we hold.
+        found = _scan_docs_for_ein(r)
+        if found:
+            if args.apply:
+                _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}",
+                    {"business_ein": found}, prefer="return=minimal")
+                _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}&ein=is.null",
+                    {"ein": found}, prefer="return=minimal")
+                _sb("POST", "/rest/v1/marketing_work_log", {
+                    "company_id": cid, "actor": "tollfree_autoreg",
+                    "category": "compliance", "action": "ein-captured",
+                    "detail": f"EIN {found} read from an uploaded document; "
+                              "submitting toll-free verification"},
+                    prefer="return=minimal")
+                r["business_ein"] = found
+                if assess(r)[0] == "READY" and submit_one(r, True):
+                    submitted += 1
+            else:
+                print(f"  [dry-run] would write EIN {found} and submit")
             continue
         marker = f"EIN-ASK-{cid}"
         prior = _sb("GET", "/rest/v1/marketing_ops_notes?"

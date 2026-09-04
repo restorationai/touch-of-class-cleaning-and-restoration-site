@@ -296,10 +296,12 @@ jobs:
       - name: Toll-free auto-registration watch
         # Rank AI plan actives: submit Twilio TFV the moment a client is
         # ready; file the Monica EIN ask (once/30d) for those missing it.
-        # EIN capture from client texts lives in client_concierge.
+        # EIN capture from client texts lives in client_concierge; the watch
+        # also reads EINs off hub-uploaded documents (ANTHROPIC key).
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python3 scripts/tollfree_autoreg.py watch --apply || echo "tollfree watch failed (non-fatal)"
 

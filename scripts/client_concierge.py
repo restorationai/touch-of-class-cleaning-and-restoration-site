@@ -7222,6 +7222,10 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                 elif cls == "document":
                     # paperwork (insurance, licenses, bills) — never GBP media
                     path, kind = f"{cid}/docs/inbox/sms-{stamp}.jpg", "documents"
+                    # Clients answer the EIN ask with a photo of the CP-575 /
+                    # W-9 as often as with digits (Santino 2026-09-04) —
+                    # read the number off the document right here.
+                    _maybe_capture_ein_from_document(company, raw, dry_run)
                 elif cls == "job_photo":
                     path, kind = f"{cid}/job-photos/sms-{stamp}.jpg", "photos"
                 elif h and w / h < 0.5:             # classifier failed: screenshot-shaped
@@ -8228,6 +8232,74 @@ def _record_handled(state: dict, msg_id: str) -> None:
         del ids[:-HANDLED_IDS_MAX]   # bound the ledger, keep the newest
 
 
+def _ein_ask_pending(company: dict) -> bool:
+    """True when we asked this client for their EIN and still lack one."""
+    try:
+        cid = company["id"]
+        setup = (_sb("GET", f"/rest/v1/company_phone_setup?id=eq.{cid}"
+                     "&select=business_ein") or [None])[0]
+        if not setup or setup.get("business_ein"):
+            return False
+        return bool(_sb("GET", "/rest/v1/marketing_ops_notes?"
+                        f"company_id=eq.{cid}&body=like.*EIN-ASK-{cid}*"
+                        "&select=id&limit=1"))
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def _write_captured_ein(company: dict, ein: str, source: str,
+                        dry_run: bool) -> None:
+    """One write path for every EIN capture (text or document): both stores
+    (phone setup = compliance pipeline, companies.ein = the app's Business
+    Verification card) + one activity line. companies.ein only fills a
+    blank, never overwrites a human entry."""
+    cid = company["id"]
+    print(f"  [ein-capture] {company.get('name')}: EIN {ein} "
+          f"captured from {source}" + (" [dry-run]" if dry_run else ""))
+    if dry_run:
+        return
+    _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}",
+        {"business_ein": ein}, prefer="return=minimal")
+    _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}&ein=is.null",
+        {"ein": ein}, prefer="return=minimal")
+    _sb("POST", "/rest/v1/marketing_work_log", {
+        "company_id": cid, "actor": "concierge",
+        "category": "compliance", "action": "ein-captured",
+        "detail": f"EIN {ein} captured from {source}; toll-free "
+                  "verification submits on the next watch cycle"},
+        prefer="return=minimal")
+
+
+def _maybe_capture_ein_from_document(company: dict, jpeg_bytes: bytes,
+                                     dry_run: bool) -> None:
+    """Clients answer the EIN ask with a photo of the IRS CP-575 / W-9 as
+    often as with typed digits — read the number off the document. Gated
+    exactly like the text capture (we asked + still missing). Never fatal."""
+    try:
+        if not _ein_ask_pending(company):
+            return
+        import base64 as _b64
+        out = anthropic_json(
+            "You read one photographed/scanned business document. Find the "
+            "US federal EIN (Employer Identification Number, 9 digits, "
+            'usually formatted XX-XXXXXXX). Reply ONE JSON object: '
+            '{"ein": "XX-XXXXXXX"} or {"ein": null} if no EIN is clearly '
+            "visible. Never guess digits.",
+            "Extract the EIN if present.",
+            max_tokens=600,
+            images=[{"media_type": "image/jpeg",
+                     "data": _b64.b64encode(jpeg_bytes).decode()}])
+        m = _EIN_RE.search(str(out.get("ein") or ""))
+        if not m:
+            return
+        ein = f"{m.group(1)}-{m.group(2)}"
+        if ein.startswith("00"):
+            return
+        _write_captured_ein(company, ein, "a document they sent", dry_run)
+    except Exception as e:  # noqa: BLE001
+        print(f"  [ein-capture-doc] failed: {str(e)[:120]}")
+
+
 _EIN_RE = re.compile(r"\b(\d{2})[- ]?(\d{7})\b")
 
 
@@ -8256,23 +8328,7 @@ def _maybe_capture_ein(company: dict, msgs: list[dict], dry_run: bool) -> None:
             ein = f"{hit.group(1)}-{hit.group(2)}"
             if ein.startswith("00"):
                 continue
-            print(f"  [ein-capture] {company.get('name')}: EIN {ein} "
-                  f"captured from inbound text"
-                  + (" [dry-run]" if dry_run else ""))
-            if not dry_run:
-                _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}",
-                    {"business_ein": ein}, prefer="return=minimal")
-                # companies.ein is what the app's Business Verification card
-                # reads/edits — keep both stores in step (Curt/Home Pride
-                # 2026-09-04: captured EIN was invisible in the app)
-                _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}&ein=is.null",
-                    {"ein": ein}, prefer="return=minimal")
-                _sb("POST", "/rest/v1/marketing_work_log", {
-                    "company_id": cid, "actor": "concierge",
-                    "category": "compliance", "action": "ein-captured",
-                    "detail": f"EIN {ein} captured from client text; "
-                              "toll-free verification submits on the next "
-                              "watch cycle"}, prefer="return=minimal")
+            _write_captured_ein(company, ein, "their text message", dry_run)
             return
     except Exception as e:  # noqa: BLE001
         print(f"  [ein-capture] failed: {str(e)[:120]}")
