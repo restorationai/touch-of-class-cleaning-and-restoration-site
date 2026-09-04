@@ -1,0 +1,175 @@
+{
+ "domain": "veteransremediation.com",
+ "harvested_at": "2026-09-04T14:16:20+00:00",
+ "counts": {
+  "total": 18,
+  "sitemap": 18,
+  "crawl": 0,
+  "backlinked": 1,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://veteransremediation.com/",
+   "path": "/",
+   "title": "",
+   "backlinks": 12,
+   "referring_domains": 12,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://veteransremediation.com/About",
+   "path": "/About",
+   "title": "About | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/AirQuality",
+   "path": "/AirQuality",
+   "title": "Air Quality | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/AsbestosRemoval",
+   "path": "/AsbestosRemoval",
+   "title": "Asbestos Removal | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/BiohazardCleanup",
+   "path": "/BiohazardCleanup",
+   "title": "Biohazard Cleanup | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/Contact",
+   "path": "/Contact",
+   "title": "Contact | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/FireDamage",
+   "path": "/FireDamage",
+   "title": "Fire Damage | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/FormsHub",
+   "path": "/FormsHub",
+   "title": "Forms Hub | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/LeadAbatement",
+   "path": "/LeadAbatement",
+   "title": "Lead Abatement | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/LeadsAdmin",
+   "path": "/LeadsAdmin",
+   "title": "Leads Admin | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/MoldRemediation",
+   "path": "/MoldRemediation",
+   "title": "Mold Remediation | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/NewFieldReport",
+   "path": "/NewFieldReport",
+   "title": "New Field Report | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/Profile",
+   "path": "/Profile",
+   "title": "Profile | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/Reviews",
+   "path": "/Reviews",
+   "title": "Reviews | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/StormDamage",
+   "path": "/StormDamage",
+   "title": "Storm Damage | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/TechFormDetail",
+   "path": "/TechFormDetail",
+   "title": "Tech Form Detail | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/TechForms",
+   "path": "/TechForms",
+   "title": "Tech Forms | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://veteransremediation.com/WaterDamage",
+   "path": "/WaterDamage",
+   "title": "Water Damage | Veterans Remediation",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  }
+ ]
+}

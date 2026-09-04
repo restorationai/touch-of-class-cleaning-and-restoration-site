@@ -25,5 +25,13 @@
     "last_rendered_at": "2026-09-02T20:57:20.753871+00:00",
     "last_pushed_staging_at": "2026-09-03T22:54:08.046416+00:00"
   },
-  "build_status": "pushed_staging"
+  "build_status": "pushed_staging",
+  "cutover_prep": {
+    "domain": "veteransremediation.com",
+    "harvested_at": "2026-09-04T14:16:20+00:00",
+    "url_count": 18,
+    "backlinked_count": 1,
+    "redirects_added": 14,
+    "mapped_at": "2026-09-04T14:16:26+00:00"
+  }
 }

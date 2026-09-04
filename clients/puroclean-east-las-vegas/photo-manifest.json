@@ -27,6 +27,31 @@
       "triaged_at": "2026-08-06T14:04:25Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "crew:sms-1788472206428-d25afb03": {
+      "source": "crew",
+      "storage": "job-photos/sms-1788472206428-d25afb03.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/sms-1788472206428-d25afb03.jpg",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 223702,
+      "sha1": "c5cc083d344480b9",
+      "exif": {},
+      "category": "crew",
+      "subject": "Smiling male technician selfie in front of PuroClean van",
+      "quality": 62,
+      "slots": {
+        "hero": 18,
+        "team": 60,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait selfie crop limits hero use; decent crew/brand identity shot.",
+      "triaged_at": "2026-09-04T14:12:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM4tHZNVU4p3G3FzaNRZbmdF9Qdsx1YP1O-DPoS": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM4tHZNVU4p3G3FzaNRZbmdF9Qdsx1YP1O-DPoS.jpg",
@@ -2375,5 +2400,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-03T21:12:29Z"
+  "triaged_at": "2026-09-04T14:12:23Z"
 }

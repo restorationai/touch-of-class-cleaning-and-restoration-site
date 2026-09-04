@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-09-04T14:16:26+00:00",
+ "domain": "veteransremediation.com",
+ "routes": 79,
+ "map": {
+  "/AirQuality": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/AsbestosRemoval": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/BiohazardCleanup": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/FireDamage": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/FormsHub": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/LeadAbatement": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/LeadsAdmin": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/MoldRemediation": {
+   "target": "/services/mold-remediation/",
+   "how": "claude"
+  },
+  "/NewFieldReport": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/Profile": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/StormDamage": {
+   "target": "/services/storm-damage-restoration/",
+   "how": "claude"
+  },
+  "/TechFormDetail": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/TechForms": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/WaterDamage": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  }
+ }
+}
