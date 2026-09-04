@@ -136,6 +136,7 @@ jobs:
             # fresh main, so recaps run even if the Railway image goes stale
             # (the geogrid-cron lesson). Idempotent via fathom-sync-state.
             python3 scripts/fathom_sync.py sync $SEND_FLAG || true
+          python3 scripts/client_concierge.py watchdog || true
             python3 scripts/client_concierge.py compose --all $SEND_FLAG
           fi
 

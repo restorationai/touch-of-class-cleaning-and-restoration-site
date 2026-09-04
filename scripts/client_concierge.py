@@ -10707,6 +10707,60 @@ def cmd_selfcheck(_args) -> int:
     return 1 if fails else 0
 
 
+def cmd_watchdog(_args) -> int:
+    """Directive-latency alarm (Santino 2026-09-04). Sarha's LSA ask and
+    Jimmy's launch text both sat OPEN for hours with nothing telling anyone
+    which guard held them. There are NO numeric send caps — silence comes
+    from guards firing on stale context, or slot handoffs dropping a company
+    from rotation. This makes that state loud: any open [FROM SANTINO]/
+    [FOR MONICA]/[SEND-PREVIEW] note older than 2 hours is listed and
+    emailed to ops. Runs in every CI slot, even when the send pass defers
+    to another Monica."""
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=2)).strftime(
+        "%Y-%m-%dT%H:%M:%SZ")
+    rows = _sb("GET", "/rest/v1/marketing_ops_notes?status=eq.open"
+               f"&created_at=lt.{cutoff}&select=id,company_id,body,created_at"
+               "&order=created_at.asc&limit=200") or []
+    stuck = [r for r in rows if any(
+        r["body"].lstrip().startswith(t) for t in _DIRECTIVE_TAGS)]
+    if not stuck:
+        print("watchdog: no directives older than 2h — clean")
+        return 0
+    companies = fetch_companies(sorted({r["company_id"] for r in stuck
+                                        if r.get("company_id")}))
+    lines = []
+    for r in stuck:
+        c = companies.get(r.get("company_id") or "", {})
+        age_h = "?"
+        try:
+            ts = re.sub(r"\.\d+", "", r["created_at"]).replace(" ", "T")
+            if ts.endswith("+00"):
+                ts += ":00"
+            age_h = f"{(datetime.now(timezone.utc) - datetime.fromisoformat(ts)).total_seconds() / 3600:.1f}"
+        except (ValueError, TypeError):
+            pass
+        lines.append(f"- {c.get('name') or r.get('company_id')}: unsent for "
+                     f"{age_h}h: {r['body'][:140]!r} (note {r['id']})")
+    report = (f"{len(stuck)} DIRECTIVE(S) STUCK UNSENT >2h:\n"
+              + "\n".join(lines))
+    print(report)
+    key = os.environ.get("SENDGRID_API_KEY")
+    if key:
+        try:
+            requests.post("https://api.sendgrid.com/v3/mail/send", timeout=20,
+                headers={"Authorization": f"Bearer {key}",
+                         "Content-Type": "application/json"},
+                json={"personalizations": [{"to": [{"email": "contact@restorationai.io"}]}],
+                      "from": {"email": "no-reply@restorationai.io",
+                               "name": "Rank AI Watchdog"},
+                      "subject": f"[Rank AI] {len(stuck)} Monica directive(s) stuck unsent >2h",
+                      "content": [{"type": "text/plain", "value": report}]})
+            print("watchdog: alert email sent")
+        except Exception as e:  # noqa: BLE001
+            print(f"watchdog: email failed ({str(e)[:80]})")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -10741,6 +10795,8 @@ def main() -> int:
     # The runs-API dedupe on the Railway side can't see a cron that arrives
     # late, so the lock lives here, across ALL trigger sources: exit 0 =
     # acquired (run may proceed), exit 1 = another Monica ran too recently.
+    sub.add_parser("watchdog", help="loud alarm for directives stuck unsent "
+                   ">2h (Sarha/Jimmy class silence, 2026-09-04)")
     pl = sub.add_parser("runlock", help="acquire the daily-pass slot lock")
     pl.add_argument("--window-minutes", type=int, default=100,
                     help="skip if a pass started within this many minutes "
@@ -10782,6 +10838,7 @@ def main() -> int:
               file=sys.stderr)
     ret = {"status": cmd_status, "compose": cmd_compose,
            "inbound": cmd_inbound, "canary": cmd_canary,
+           "watchdog": cmd_watchdog,
            "selfcheck": cmd_selfcheck}[args.cmd](args)
     if args.cmd in ("compose", "inbound"):
         flush_ops_pings(dry_run=not getattr(args, "send", False))
