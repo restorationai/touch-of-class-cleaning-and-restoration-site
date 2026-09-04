@@ -23,7 +23,10 @@
    This is the crew's REAL uniform (see harvested/uniform-crew-tim.jpg): a
    navy-blue button-up work shirt with the RT Olson logo on the left chest, gray
    work pants, and a small American flag patch on the sleeve. A tan/khaki shirt,
-   dark non-gray pants, or a missing flag patch = REJECTED image. This is the ONE
+   dark non-gray pants, a missing flag patch, or a two-tone/raglan athletic
+   pullover or T-shirt in place of the button-up shirt = REJECTED image (Bobby,
+   2026-09-04: *"The emergency plumber is not in our uniform."* — an athletic
+   pullover had slipped onto the emergency-plumbing card). This is the ONE
    uniform for the whole site — no drift between pages. See CREW-OVERRIDE.
 5. **RESIDENTIAL SCENES AND GEAR ONLY.** Bobby: *"Replace any commercial-only gear
    imagery (e.g., hydrostatic pump) with appropriate residential visuals."* No
@@ -33,7 +36,7 @@
    exterior wall. A toilet or fixture being serviced outside is a REJECTED image.
 
 VAN-OVERRIDE: RT Olson's real high-roof Mercedes Sprinter van with a FULL SOLID BLUE HOOD and blue front (the entire hood is blue, never white), a white body panel crossed by a red diagonal accent stripe, and the RT Olson crossed-pipe-wrench logo mark — matching harvested/van-sprinter-blue-hood-007.jpg; carry only the logo mark with NO phone number, NO website URL and NO readable text anywhere on the vehicle, and keep every van in the site identical to this one
-CREW-OVERRIDE: the technician wears a navy-blue button-up work shirt with the RT Olson logo on the left chest, gray work pants, and a small American flag patch on the sleeve, the identical uniform in every image, never a tan or khaki shirt and never dark non-gray pants
+CREW-OVERRIDE: the technician wears a SOLID navy-blue button-up short-sleeve work shirt (collar and button placket, the body and sleeves the same solid navy) with the RT Olson logo on the left chest, gray work pants, and a small American flag patch on the sleeve, the identical uniform in every image, never a tan or khaki shirt, never dark non-gray pants, and never a two-tone or raglan-sleeve athletic pullover/T-shirt in place of the button-up shirt
 EQUIPMENT-OVERRIDE: residential service gear only in a residential setting — no commercial-only equipment such as hydrostatic test pumps or trailer-mounted jetters, and toilet, faucet and fixture work is shown inside a residential bathroom, never outdoors
 LIVERY-REFERENCE: harvested/van-sprinter-blue-hood-007.jpg
 
