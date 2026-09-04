@@ -91,7 +91,8 @@ def owner_card(contacts) -> dict | None:
 def fetch_fleet() -> list[dict]:
     rows = _sb("GET", "/rest/v1/company_phone_setup?select=id,agent_phone_1,"
                "compliance_status,business_ein,twilio_subaccount_sid,"
-               "twilio_auth_token,twilio_phone_number_sid,opt_in_image_url"
+               "twilio_auth_token,twilio_phone_number_sid,opt_in_image_url,"
+               "legal_business_name,tollfree_resubmit"
                "&limit=1000") or []
     comps = {c["id"]: c for c in (_sb("GET", "/rest/v1/companies?select=id,"
              "name,status,plan,ein,address,city,state,postal_code,website,phone,"
@@ -143,9 +144,9 @@ def assess(r: dict) -> tuple[str, list[str]]:
 # ---------------------------------------------------------------- opt-in card
 
 def render_optin_card(name: str, tf_display: str, address_line: str,
-                      website: str) -> bytes:
+                      website: str, variant: int = 1) -> bytes:
     from PIL import Image, ImageDraw, ImageFont
-    W, H = 1200, 1660
+    W, H = 1200, 1660 + (220 if variant >= 2 else 0)
     img = Image.new("RGB", (W, H), "#ffffff")
     d = ImageDraw.Draw(img)
 
@@ -220,14 +221,31 @@ def render_optin_card(name: str, tf_display: str, address_line: str,
     for line in slines:
         d.text((M + 80, sy), line, font=F(27), fill="#1d4d2a"); sy += 42
     y += sh + 52
-    for line in wrap("Opt-outs are honored automatically: replying STOP "
-                     "immediately stops all future messages. This toll-free "
-                     "number is used exclusively for customer-care "
-                     "conversations with customers who have requested them "
-                     "(appointment updates, arrival times, and service "
-                     "follow-ups). No marketing lists are used and phone "
-                     "numbers are never shared or sold.", body, W - 2 * M):
-        d.text((M, y), line, font=body, fill="#333b47"); y += 42
+    if variant >= 2:
+        d.text((M, y), "THE OPT-IN FLOW, STEP BY STEP:", font=F(28, True),
+               fill="#0f2547"); y += 52
+        steps = [
+            f"1.  A customer calls {name} needing service.",
+            "2.  The receptionist reads the consent request above, "
+            "including the frequency, rate, and STOP/HELP disclosures.",
+            "3.  Only if the caller clearly answers YES is the number "
+            "marked opted-in and the confirmation text sent.",
+            "4.  Replying STOP at any time halts all messages immediately; "
+            "HELP returns assistance. Numbers are never shared or sold.",
+        ]
+        for s in steps:
+            for line in wrap(s, body, W - 2 * M - 40):
+                d.text((M + 20, y), line, font=body, fill="#333b47"); y += 42
+            y += 6
+    else:
+        for line in wrap("Opt-outs are honored automatically: replying STOP "
+                         "immediately stops all future messages. This toll-free "
+                         "number is used exclusively for customer-care "
+                         "conversations with customers who have requested them "
+                         "(appointment updates, arrival times, and service "
+                         "follow-ups). No marketing lists are used and phone "
+                         "numbers are never shared or sold.", body, W - 2 * M):
+            d.text((M, y), line, font=body, fill="#333b47"); y += 42
     d.rectangle([0, H - 110, W, H], fill="#f2f4f8")
     d.text((M, H - 78), f"{name}  •  {address_line}  •  {website}",
            font=F(24), fill="#5a6474")
@@ -465,6 +483,158 @@ def cmd_provision(args) -> int:
     return 0
 
 
+# ---------------------------------------------------------- auto-resubmission
+
+MAX_AUTO_RESUBMITS = 2
+
+# rejection-reason keyword -> (strategy name, one-line description)
+_STRATEGIES = [
+    (("opt in", "opt-in", "optin", "consent", "image"),
+     "optin-v2", "richer opt-in evidence: step-by-step consent-flow card"),
+    (("website", "url", "web site"),
+     "website-fix", "normalized/verified BusinessWebsite variant"),
+    (("sample", "use case", "usecase", "message"),
+     "usecase-detail", "expanded UseCaseSummary + explicit flow description"),
+    (("business name", "registration", "ein", "tax", "legal"),
+     "legal-name", "swap to the vaulted legal business name"),
+]
+
+
+def _pick_strategy(reason: str, used: list[str]) -> tuple[str, str] | None:
+    low = (reason or "").lower()
+    for keys, sname, desc in _STRATEGIES:
+        if sname in used:
+            continue
+        if any(k in low for k in keys):
+            return sname, desc
+    return None
+
+
+def _website_variant(website: str) -> str | None:
+    """Return a reachable variant of the site URL (https, then www)."""
+    base = (website or "").strip()
+    if not base:
+        return None
+    host = re.sub(r"^https?://", "", base).strip("/")
+    for cand in (f"https://{host}/", f"https://www.{host}/"):
+        try:
+            req = urllib.request.Request(cand, method="HEAD",
+                headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                if resp.status < 400:
+                    return cand
+        except Exception:  # noqa: BLE001
+            continue
+    return None
+
+
+def attempt_auto_resubmit(r: dict, ver: dict, apply: bool) -> bool:
+    """One rung of the resubmission ladder (Santino 2026-09-03): classify
+    Twilio's rejection reason, apply the matching fix, and UPDATE the
+    rejected verification in place (Twilio allows edits in TWILIO_REJECTED).
+    Each strategy is used at most once and the ladder is capped at
+    MAX_AUTO_RESUBMITS — after that (or on an unrecognized reason) the
+    rejection escalates to a human. Returns True when a resubmit went in."""
+    c = r["company"]
+    cid, name = r["id"], (c.get("name") or "").strip()
+    reason = str(ver.get("rejection_reason") or "")
+    track = r.get("tollfree_resubmit") or {}
+    attempts = track.get("attempts") or []
+    if len(attempts) >= MAX_AUTO_RESUBMITS:
+        print(f"  [{name}] resubmit ladder exhausted "
+              f"({len(attempts)} attempts) — escalating")
+        return False
+    picked = _pick_strategy(reason, [a.get("strategy") for a in attempts])
+    if not picked:
+        print(f"  [{name}] no unused strategy matches the rejection reason "
+              "— escalating")
+        return False
+    sname, desc = picked
+    print(f"  [{name}] auto-resubmit strategy: {sname} ({desc})"
+          + ("" if apply else "  [dry-run]"))
+    if not apply:
+        return True
+
+    fields: dict[str, str] = {}
+    if sname == "optin-v2":
+        website = (c.get("website") or "").strip()
+        if website and not website.startswith("http"):
+            website = "https://" + website
+        addr_line = (f"{c.get('address')}, {c.get('city')}, "
+                     f"{c.get('state')} {c.get('postal_code')}")
+        png = render_optin_card(name, _tf_display(r["agent_phone_1"]),
+                                addr_line, website, variant=2)
+        sb = os.environ["SUPABASE_URL"].rstrip("/")
+        key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+        path = f"branding/{cid}/compliance/sms-optin-consent-v2.png"
+        req = urllib.request.Request(f"{sb}/storage/v1/object/{path}",
+            method="POST", data=png,
+            headers={"Authorization": f"Bearer {key}",
+                     "Content-Type": "image/png", "x-upsert": "true"})
+        urllib.request.urlopen(req)
+        fields["OptInImageUrls"] = f"{sb}/storage/v1/object/public/{path}"
+    elif sname == "website-fix":
+        good = _website_variant(c.get("website") or "")
+        if not good:
+            print("  website-fix: no reachable variant — escalating")
+            return False
+        fields["BusinessWebsite"] = good
+    elif sname == "usecase-detail":
+        fields["UseCaseSummary"] = (
+            f"{name} is a local property-restoration company. Customers "
+            "call the business needing emergency or scheduled service; "
+            "during the call the receptionist asks for and records verbal "
+            "consent to text. Messages are strictly customer care for that "
+            "customer's own job: appointment confirmations, technician "
+            "arrival times, and service follow-ups. No marketing, no "
+            "lists, opt-out honored instantly via STOP.")
+    elif sname == "legal-name":
+        legal = (r.get("legal_business_name") or "").strip()
+        if not legal or legal.lower() == name.lower():
+            print("  legal-name: no distinct vaulted legal name — "
+                  "escalating")
+            return False
+        fields["BusinessName"] = legal
+
+    auth = base64.b64encode(
+        f"{r['twilio_subaccount_sid']}:{r['twilio_auth_token']}"
+        .encode()).decode()
+    req = urllib.request.Request(
+        f"https://messaging.twilio.com/v1/Tollfree/Verifications/{ver['sid']}",
+        data=urllib.parse.urlencode(fields).encode(),
+        headers={"Authorization": "Basic " + auth,
+                 "Content-Type": "application/x-www-form-urlencoded"})
+    try:
+        with urllib.request.urlopen(req) as resp:
+            res = json.load(resp)
+    except urllib.error.HTTPError as e:
+        print(f"  resubmit update REJECTED by API ({e.code}): "
+              f"{e.read().decode()[:200]} — escalating")
+        return False
+    attempts.append({"at": datetime.now(timezone.utc).isoformat(),
+                     "sid": ver["sid"], "strategy": sname,
+                     "reason": reason[:300]})
+    _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}", {
+        "compliance_status": "pending",
+        "tollfree_resubmit": {"attempts": attempts},
+    }, prefer="return=minimal")
+    try:
+        _sb("POST", "/rest/v1/marketing_work_log", {
+            "company_id": cid, "actor": "tollfree_autoreg",
+            "category": "compliance",
+            "action": "tollfree-verification-resubmitted",
+            "detail": f"Rejection ('{reason[:120]}') auto-resubmitted with "
+                      f"strategy {sname}; attempt "
+                      f"{len(attempts)}/{MAX_AUTO_RESUBMITS}; now "
+                      f"{res.get('status')}",
+        }, prefer="return=minimal")
+    except urllib.error.HTTPError:
+        pass
+    print(f"  resubmitted ({res.get('status')}) — attempt "
+          f"{len(attempts)}/{MAX_AUTO_RESUBMITS}")
+    return True
+
+
 # --------------------------------------------------------------------- watch
 
 def sync_pending_statuses(fleet: list[dict], apply: bool) -> None:
@@ -515,6 +685,9 @@ def sync_pending_statuses(fleet: list[dict], apply: bool) -> None:
             reason = (mine[0].get("rejection_reason") or "no reason given")
             print(f"[{c['name']}] {r['agent_phone_1']} REJECTED: "
                   f"{str(reason)[:120]}" + ("" if apply else "  [dry-run]"))
+            # resubmission ladder first — escalate only when it declines
+            if attempt_auto_resubmit(r, mine[0], apply):
+                continue
             if apply:
                 _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{r['id']}",
                     {"compliance_status": "rejected"},
