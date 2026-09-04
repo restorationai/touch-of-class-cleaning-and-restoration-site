@@ -18,7 +18,7 @@ rendered: true
 ---
 ## Who We Are and What This Page Covers
 
-These Terms of Service apply to your use of the Arch Environmental Group LLC website at archenviroservice.com and to any service relationship that begins through it. Arch Environmental Group LLC operates out of Kingsburg, CA and provides environmental and restoration services throughout the surrounding region. By using this site or requesting services, you agree to the terms described here.
+These Terms of Service apply to your use of the Arch Environmental Group LLC website at archenviroservice.com and to any service relationship that begins through it. Arch Environmental Group LLC operates out of Kingsburg, CA and provides independent environmental testing and inspection services throughout the surrounding region. By using this site or requesting services, you agree to the terms described here.
 
 If you have questions about anything on this page, reach us at info@archenviroservice.com or (559) 296-2088.
 

@@ -20,7 +20,7 @@ state: "CA"
 service_display: "HVAC and Duct System Assessments"
 rendered: true
 ---
-Fresno's Central Valley climate is one of the most demanding environments for HVAC systems in California. Triple-digit summer heat pushes air conditioners to run nearly around the clock from June through September, and that relentless cycling draws dust, agricultural particulates, and outdoor allergens deep into ductwork. When a system that works this hard also develops a moisture problem, from a slow condensate drain leak, a poorly insulated supply line sweating in the attic, or even residual humidity from a past water loss, the interior of the duct system can become a hidden reservoir for mold, bacteria, and accumulated debris that circulates through every room in the house.
+Fresno's Central Valley climate is one of the most demanding environments for HVAC systems in California. Triple-digit summer heat pushes air conditioners to run almost continuously from June through September, and that relentless cycling draws dust, agricultural particulates, and outdoor allergens deep into ductwork. When a system that works this hard also develops a moisture problem, from a slow condensate drain leak, a poorly insulated supply line sweating in the attic, or even residual humidity from a past water loss, the interior of the duct system can become a hidden reservoir for mold, bacteria, and accumulated debris that circulates through every room in the house.
 
 ## Why Fresno Properties See HVAC and Duct Contamination Issues
 
