@@ -117,6 +117,10 @@ def assess(r: dict) -> tuple[str, list[str]]:
         return "SKIP", [f"plan={c.get('plan') or 'unset'}"]
     if (r.get("compliance_status") or "not_started") in ("approved", "pending"):
         return "SUBMITTED", []
+    if (r.get("compliance_status") or "") == "rejected":
+        # A rejection needs a human to fix the flagged item first — the
+        # watch cycle must never blind-resubmit the same package.
+        return "SKIP", ["rejected — human resubmit"]
     missing = []
     if not TF_RE.match(r.get("agent_phone_1") or ""):
         missing.append("toll-free agent line")
@@ -463,6 +467,70 @@ def cmd_provision(args) -> int:
 
 # --------------------------------------------------------------------- watch
 
+def sync_pending_statuses(fleet: list[dict], apply: bool) -> None:
+    """Poll Twilio for every compliance_status=pending client and record the
+    verdict. Approvals: stamp + work-log (the dispatch fn's self-heal handles
+    the actual sender cutover with the mid-drip guard). Rejections: stamp +
+    file a [TODO-SANTINO] row with Twilio's reason so a human decides the
+    resubmission."""
+    for r in fleet:
+        if (r.get("compliance_status") or "") != "pending":
+            continue
+        if not (r.get("twilio_subaccount_sid") and r.get("twilio_auth_token")
+                and r.get("agent_phone_1")):
+            continue
+        c = r["company"]
+        auth = base64.b64encode(
+            f"{r['twilio_subaccount_sid']}:{r['twilio_auth_token']}"
+            .encode()).decode()
+        req = urllib.request.Request(
+            "https://messaging.twilio.com/v1/Tollfree/Verifications?PageSize=20",
+            headers={"Authorization": "Basic " + auth})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                vs = json.load(resp).get("verifications") or []
+        except (urllib.error.HTTPError, urllib.error.URLError, OSError):
+            continue
+        mine = [v for v in vs
+                if v.get("tollfree_phone_number") == r["agent_phone_1"]]
+        if not mine:
+            continue
+        status = mine[0].get("status")
+        if status == "TWILIO_APPROVED":
+            print(f"[{c['name']}] {r['agent_phone_1']} APPROVED"
+                  + ("" if apply else "  [dry-run]"))
+            if apply:
+                _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{r['id']}",
+                    {"compliance_status": "approved"},
+                    prefer="return=minimal")
+                _sb("POST", "/rest/v1/marketing_work_log", {
+                    "company_id": r["id"], "actor": "tollfree_autoreg",
+                    "category": "compliance",
+                    "action": "tollfree-verification-approved",
+                    "detail": f"Toll-free {r['agent_phone_1']} approved by "
+                              "Twilio; sender cutover proceeds via dispatch "
+                              "self-heal once no contacts are mid-drip",
+                }, prefer="return=minimal")
+        elif status == "TWILIO_REJECTED":
+            reason = (mine[0].get("rejection_reason") or "no reason given")
+            print(f"[{c['name']}] {r['agent_phone_1']} REJECTED: "
+                  f"{str(reason)[:120]}" + ("" if apply else "  [dry-run]"))
+            if apply:
+                _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{r['id']}",
+                    {"compliance_status": "rejected"},
+                    prefer="return=minimal")
+                _sb("POST", "/rest/v1/marketing_ops_notes", {
+                    "company_id": r["id"],
+                    "body": f"[TODO-SANTINO] Toll-free verification REJECTED "
+                            f"for {c['name']} ({r['agent_phone_1']}). Twilio "
+                            f"reason: {str(reason)[:300]}. Fix the flagged "
+                            "item and resubmit via tollfree_autoreg submit "
+                            f"--company {r['id']} --apply.",
+                }, prefer="return=minimal")
+            # local update so this run's ASK/READY pass sees the rejection
+            r["compliance_status"] = "rejected" if apply else "pending"
+
+
 def cmd_watch(args) -> int:
     """The recurring loop (CI): for every active Rank AI client with a
     toll-free dispatcher line —
@@ -472,6 +540,7 @@ def cmd_watch(args) -> int:
     EIN capture happens in client_concierge (_maybe_capture_ein) when the
     client texts it back; this cycle then finds them READY and submits."""
     fleet = fetch_fleet()
+    sync_pending_statuses(fleet, args.apply)
     asked = submitted = 0
     for r in fleet:
         v, _missing = assess(r)
@@ -487,10 +556,11 @@ def cmd_watch(args) -> int:
                     f"company_id=eq.{cid}&body=like.*{marker}*"
                     "&select=id,created_at&order=created_at.desc&limit=1") or []
         if prior:
+            ts = re.sub(r"\.\d+", "", prior[0]["created_at"]).replace(" ", "T")
+            if ts.endswith("+00"):
+                ts += ":00"
             age = (datetime.now(timezone.utc)
-                   - datetime.fromisoformat(
-                       prior[0]["created_at"].replace(" ", "T")
-                       .replace("+00", "+00:00"))).days
+                   - datetime.fromisoformat(ts)).days
             if age < 30:
                 continue
         card = owner_card(
