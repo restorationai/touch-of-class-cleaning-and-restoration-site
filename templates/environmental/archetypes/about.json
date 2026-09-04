@@ -1,0 +1,20 @@
+{
+  "name": "About",
+  "fixed_ref": "about",
+  "path_pattern": "/about/",
+  "title_template": "About {brand.display_name} | {brand.primary_city} Environmental Testing Company",
+  "h1_template": "About {brand.display_name}",
+  "meta_description_template": "{brand.display_name} has served {brand.primary_city} since {brand.founded_year}. Meet our certified environmental inspection team. Independent, licensed, locally owned.",
+  "primary_keyword_template": "{brand.display_name|lower} {brand.primary_city|lower}",
+  "secondary_keywords": [
+    "local environmental testing company",
+    "certified environmental inspector",
+    "independent environmental consultant"
+  ],
+  "search_intent_default": "navigational_trust",
+  "target_word_count": 700,
+  "image_roles": ["hero", "og", "inline-1"],
+  "schema_stubs": ["organization", "website", "local-business", "aggregate-rating", "breadcrumb-list"],
+  "linking_rules_ref": "about",
+  "required_brand_fields": ["display_name", "founded_year", "primary_city", "certifications"]
+}

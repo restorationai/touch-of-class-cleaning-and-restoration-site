@@ -1,0 +1,118 @@
+{
+  "version": "0.1.0",
+  "note": "Ranked seed blog topics for environmental-testing sites. Skill 2 plans the first N (default 12) at launch; Skill 4's routine consumes the remainder over time. priority is 1-10 (higher = sooner). title_template supports {primary_city} substitution where geographic anchoring helps SEO. Positioning: the client is an INDEPENDENT tester, never the remediation contractor. Topics that touch remediation frame it as 'what to expect from the contractor you hire next', not as our work.",
+  "topics": [
+    {
+      "slug": "do-i-need-mold-test-before-buying-house",
+      "title_template": "Do I Need a Mold Test Before Buying a House? (When It's Worth It)",
+      "services": ["mold-inspection-testing"],
+      "intent": "commercial_decision",
+      "priority": 10
+    },
+    {
+      "slug": "how-much-does-mold-inspection-cost",
+      "title_template": "How Much Does a Mold Inspection Cost? What Drives the Price Up or Down",
+      "services": ["mold-inspection-testing"],
+      "intent": "commercial_decision",
+      "priority": 10
+    },
+    {
+      "slug": "air-sampling-vs-surface-sampling",
+      "title_template": "Air Sampling vs Surface Sampling for Mold: Which One Do You Actually Need?",
+      "services": ["mold-inspection-testing"],
+      "intent": "informational_process",
+      "priority": 9
+    },
+    {
+      "slug": "diy-mold-test-kits-vs-professional-inspection",
+      "title_template": "DIY Mold Test Kits vs a Professional Inspection: What the Lab Report Won't Tell You",
+      "services": ["mold-inspection-testing"],
+      "intent": "commercial_decision",
+      "priority": 9
+    },
+    {
+      "slug": "signs-of-bad-indoor-air-quality",
+      "title_template": "7 Signs of Bad Indoor Air Quality (and Which Tests Confirm Each One)",
+      "services": ["indoor-air-quality-testing"],
+      "intent": "informational_health",
+      "priority": 9
+    },
+    {
+      "slug": "asbestos-test-before-renovation",
+      "title_template": "Why You Need an Asbestos Test Before Renovation (and What Happens If You Skip It)",
+      "services": ["asbestos-testing"],
+      "intent": "informational_health",
+      "priority": 9
+    },
+    {
+      "slug": "where-asbestos-hides-in-older-homes",
+      "title_template": "Where Asbestos Hides in Homes Built Before 1990",
+      "services": ["asbestos-testing"],
+      "intent": "informational_health",
+      "priority": 8
+    },
+    {
+      "slug": "what-is-clearance-testing",
+      "title_template": "What Is Clearance Testing? How Post-Remediation Verification Protects You",
+      "services": ["clearance-testing"],
+      "intent": "informational_process",
+      "priority": 8
+    },
+    {
+      "slug": "why-independent-mold-testing-matters",
+      "title_template": "Why Your Mold Tester Should Never Be Your Mold Remover",
+      "services": ["mold-inspection-testing", "clearance-testing"],
+      "intent": "informational_trust",
+      "priority": 9
+    },
+    {
+      "slug": "lead-paint-testing-older-homes",
+      "title_template": "Lead Paint Testing in Pre-1978 Homes: What Buyers and Landlords Need To Know",
+      "services": ["lead-paint-testing"],
+      "intent": "informational_health",
+      "priority": 8
+    },
+    {
+      "slug": "how-to-read-mold-lab-report",
+      "title_template": "How To Read a Mold Lab Report: Spore Counts, Species, and What's Actually Normal",
+      "services": ["mold-inspection-testing"],
+      "intent": "informational_process",
+      "priority": 8
+    },
+    {
+      "slug": "mold-testing-after-water-damage",
+      "title_template": "How Soon Should You Test for Mold After Water Damage?",
+      "services": ["post-flood-mold-assessment", "mold-inspection-testing"],
+      "intent": "informational_emergency",
+      "priority": 9
+    },
+    {
+      "slug": "sewage-backup-contamination-testing",
+      "title_template": "After a Sewage Backup: How Testing Confirms Your Home Is Actually Safe Again",
+      "services": ["sewage-contamination-assessment", "clearance-testing"],
+      "intent": "informational_health",
+      "priority": 7
+    },
+    {
+      "slug": "phase-1-esa-explained",
+      "title_template": "Phase 1 Environmental Site Assessments, Explained for Property Buyers",
+      "services": ["environmental-site-assessments"],
+      "intent": "informational_b2b",
+      "priority": 7
+    },
+    {
+      "slug": "radon-testing-home-buying",
+      "title_template": "Radon Testing When Buying a Home: Levels, Costs, and What To Do About a High Result",
+      "services": ["radon-testing"],
+      "intent": "informational_health",
+      "priority": 7
+    },
+    {
+      "slug": "choosing-environmental-testing-company",
+      "title_template": "How To Choose an Environmental Testing Company in {primary_city} (Without a Conflict of Interest)",
+      "services": ["mold-inspection-testing", "indoor-air-quality-testing", "asbestos-testing"],
+      "intent": "commercial_decision",
+      "priority": 9
+    }
+  ]
+}

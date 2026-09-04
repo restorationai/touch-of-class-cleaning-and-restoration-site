@@ -1,0 +1,37 @@
+{
+  "name": "Legal",
+  "fixed_refs": ["privacy", "terms", "accessibility"],
+  "instances": [
+    {
+      "ref": "privacy",
+      "path": "/privacy/",
+      "title": "Privacy Policy | {brand.display_name}",
+      "h1": "Privacy Policy",
+      "target_word_count": 600
+    },
+    {
+      "ref": "terms",
+      "path": "/terms/",
+      "title": "Terms of Service | {brand.display_name}",
+      "h1": "Terms of Service",
+      "target_word_count": 600
+    },
+    {
+      "ref": "accessibility",
+      "path": "/accessibility/",
+      "title": "Accessibility Statement | {brand.display_name}",
+      "h1": "Accessibility Statement",
+      "target_word_count": 400
+    }
+  ],
+  "meta_description_template": "{instance.title}.",
+  "primary_keyword_template": "{brand.display_name|lower} {instance.ref}",
+  "secondary_keywords": [],
+  "search_intent_default": "navigational_legal",
+  "image_roles": ["og"],
+  "schema_stubs": [],
+  "linking_rules_ref": "legal",
+  "required_brand_fields": ["display_name"],
+  "indexability": "index,follow",
+  "noindex_if_template_only": false
+}

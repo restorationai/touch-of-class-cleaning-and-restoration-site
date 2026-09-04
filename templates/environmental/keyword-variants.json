@@ -1,0 +1,16 @@
+{
+  "_comment": "Customer-language phrasing variants per catalog service. System 0 volume-ranks these (DataForSEO) and feeds the winners as secondary keywords; titles keep the canonical household phrasing (Santino 2026-07-23). Environmental note: homeowners say 'mold test' and 'air quality check' far more than 'indoor environmental assessment' — variants stay in plain buyer language.",
+  "mold-inspection-testing": ["mold test", "mold testing near me", "mold inspection near me", "house mold inspection", "black mold testing", "mold check", "mold air test"],
+  "indoor-air-quality-testing": ["air quality test", "air quality testing near me", "home air quality check", "air quality inspection", "indoor air test"],
+  "asbestos-testing": ["asbestos test", "asbestos testing near me", "asbestos check", "popcorn ceiling test", "asbestos sample testing"],
+  "lead-paint-testing": ["lead test", "lead paint test", "lead testing near me", "lead paint check", "lead home inspection"],
+  "water-quality-testing": ["water test", "water testing near me", "well water test", "tap water testing", "drinking water test"],
+  "clearance-testing": ["mold clearance test", "clearance air test", "post remediation testing", "final clearance inspection"],
+  "environmental-site-assessments": ["phase 1 ESA", "environmental assessment", "property environmental report", "environmental inspection commercial property"],
+  "radon-testing": ["radon test", "radon testing near me", "radon check", "radon home test"],
+  "voc-formaldehyde-testing": ["VOC test", "formaldehyde test", "chemical smell in house testing", "off gassing testing"],
+  "sewage-contamination-assessment": ["sewage testing", "sewage backup inspection", "sewage contamination test"],
+  "post-flood-mold-assessment": ["mold test after flood", "mold inspection after leak", "water damage mold test"],
+  "allergen-testing": ["allergen test", "dust mite testing", "home allergen inspection"],
+  "hvac-duct-assessments": ["duct inspection", "HVAC inspection for mold", "air duct mold test", "AC mold inspection"]
+}

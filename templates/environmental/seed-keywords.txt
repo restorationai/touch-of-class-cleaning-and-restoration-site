@@ -1,0 +1,63 @@
+# Rank AI — Environmental vertical seed keywords
+# These seeds are SHARED across all Rank AI environmental-testing clients (we're
+# an industry-specific productized service). Per-client variation comes from the
+# client's primary city + service areas, which the keyword-researcher prompt
+# incorporates into fan-out.
+#
+# Format: one seed per non-comment line. Comments start with #.
+# Order: roughly by SEO importance (top = highest volume + commercial intent).
+#
+# Skill 1 (rank-ai-keyword-researcher) picks the seed whose last_researched date
+# in the client's keyword-bank.json is oldest (or never). Over time we cycle
+# through all seeds, building up a per-client content queue of ~150-300
+# priority-1 keywords across 12-18 months of monthly runs.
+#
+# To add a seed: just add a line. To deprecate: prefix with #.
+
+# === Core testing services ===
+mold inspection
+mold testing
+indoor air quality testing
+asbestos testing
+asbestos inspection
+lead paint testing
+water quality testing
+mold clearance testing
+environmental site assessment
+
+# === Specialty / sub-services ===
+radon testing
+VOC testing
+formaldehyde testing
+sewage contamination testing
+mold testing after water damage
+allergen testing
+HVAC mold inspection
+air duct inspection
+black mold testing
+crawl space mold inspection
+attic mold inspection
+well water testing
+
+# === Commercial / B2B ===
+phase 1 environmental site assessment
+commercial air quality testing
+commercial mold inspection
+pre-demolition asbestos survey
+workplace air monitoring
+remediation oversight
+
+# === Real estate / transaction-stage ===
+mold inspection before buying a house
+asbestos test before renovation
+lead inspection before renovation
+radon test when buying a home
+
+# === Informational / decision-stage (high intent for blog content) ===
+do I need a mold test before buying a house
+how much does a mold inspection cost
+air quality testing cost
+how to test for asbestos in your home
+what does a mold inspection include
+is black mold dangerous
+signs of bad indoor air quality

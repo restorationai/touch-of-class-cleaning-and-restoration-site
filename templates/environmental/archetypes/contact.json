@@ -1,0 +1,20 @@
+{
+  "name": "Contact",
+  "fixed_ref": "contact",
+  "path_pattern": "/contact/",
+  "title_template": "Contact {brand.display_name} | Environmental Testing in {brand.primary_city}",
+  "h1_template": "Contact {brand.display_name}",
+  "meta_description_template": "Call {brand.phone} to schedule mold, air quality, asbestos, or lead testing in {brand.primary_city} and surrounding areas. Independent inspections, clear written reports.",
+  "primary_keyword_template": "{brand.display_name|lower} contact",
+  "secondary_keywords": [
+    "environmental testing company contact",
+    "schedule a mold inspection",
+    "environmental inspection near me"
+  ],
+  "search_intent_default": "navigational_action",
+  "target_word_count": 400,
+  "image_roles": ["hero", "og"],
+  "schema_stubs": ["organization", "website", "local-business", "breadcrumb-list"],
+  "linking_rules_ref": "contact",
+  "required_brand_fields": ["display_name", "phone", "email", "hours", "primary_city"]
+}

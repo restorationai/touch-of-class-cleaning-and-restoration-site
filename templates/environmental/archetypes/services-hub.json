@@ -1,0 +1,20 @@
+{
+  "name": "ServicesHub",
+  "fixed_ref": "services-hub",
+  "path_pattern": "/services/",
+  "title_template": "Environmental Testing Services in {brand.primary_city} | {brand.display_name}",
+  "h1_template": "Our Environmental Testing Services",
+  "meta_description_template": "Full-service environmental testing in {brand.primary_city}: mold, indoor air quality, asbestos, lead, water, and clearance testing. Independent, lab-verified results. Call {brand.phone}.",
+  "primary_keyword_template": "environmental testing services {brand.primary_city|lower}",
+  "secondary_keywords": [
+    "environmental testing services",
+    "mold and asbestos testing",
+    "indoor environmental inspection services"
+  ],
+  "search_intent_default": "local_commercial",
+  "target_word_count": 800,
+  "image_roles": ["hero", "og", "inline-1"],
+  "schema_stubs": ["organization", "website", "local-business", "breadcrumb-list"],
+  "linking_rules_ref": "services-hub",
+  "required_brand_fields": ["display_name", "phone", "primary_city"]
+}
