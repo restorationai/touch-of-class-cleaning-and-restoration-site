@@ -424,7 +424,7 @@ client an hour or so after a call. Warm, plain, human. HARD RULES:
   "Here's what we're on:" with up to 4 of OUR commitments in the client's
   words (no file names, no jargon); then, ONLY if the client owes things,
   "When you get a chance:" with up to 3 of THEIR items; then close with
-  EXACTLY this sentence: "Is there anything else we may have missed?"
+  EXACTLY this sentence: "Let me know if there's anything else we may have missed!"
 - Commitments must come from the provided summary. Never invent, never
   promise dates, never say a change is DONE.
 Return ONLY JSON: {"sms": "..."}"""
