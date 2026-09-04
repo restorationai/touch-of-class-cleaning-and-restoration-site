@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-09-04T14:01:14Z",
+  "cursor": "2026-09-04T16:35:21Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -117,7 +117,8 @@
     "197b69d5-531f-4f07-9075-026ea6c92340",
     "60f2361b-ed57-412f-8397-f585099a5766",
     "a8ca4696-facd-4dab-b1c5-1d3374106645",
-    "1b945493-7850-4784-a594-2ef1e26c664c"
+    "1b945493-7850-4784-a594-2ef1e26c664c",
+    "42173668-c822-4861-b690-88ef950047ba"
   ],
   "processed_plan_events": [
     "80fd3777-f57b-4a61-9cf4-dc4e7d243cd1:done",
@@ -179,7 +180,21 @@
     "092c2744-adbf-482c-9eee-d450af606dec:resolved",
     "ba88fdc9-66e1-4c30-aecc-b0752961a78b:resolved",
     "df9b5ad6-1ba5-41d4-9047-3251d5890aad:resolved",
-    "fae38371-e5da-4c7d-98ca-49073f64848c:resolved"
+    "fae38371-e5da-4c7d-98ca-49073f64848c:resolved",
+    "fa4c555b-2100-4ad3-9c4b-59406ad182c9:approved",
+    "73bb2e9a-5c0f-4542-a3c5-53b876684fc3:approved",
+    "f71b84c1-6cdd-452a-ab76-2098f13b584f:approved",
+    "b820f039-cc8b-470b-b0cd-6f13f3053cb1:dismissed",
+    "cae392ef-17d7-411f-978c-b1c99dd4acac:approved",
+    "19a59563-4947-4064-b9cd-f17094fdfbf4:approved",
+    "2dbc70d2-8820-4b9a-bb03-c8174d262ec1:approved",
+    "85c79e09-949a-4a8e-856f-0416bbc14444:dismissed",
+    "a886ef52-5a3d-4bb1-bd1a-28f70e347699:dismissed",
+    "fae38371-e5da-4c7d-98ca-49073f64848c:dismissed",
+    "584dc543-26dc-4c47-8491-4b2bbba05588:approved",
+    "1d582ac3-e99d-4833-b8d7-14cd6b6109df:approved",
+    "1aa554a7-cf3a-422e-9ef8-d6ad4419cc98:approved",
+    "4c8725a7-ded2-4c61-9ebd-80098f88cc1d:approved"
   ],
-  "last_run_at": "2026-09-04T14:01:14.258856+00:00"
+  "last_run_at": "2026-09-04T16:35:21.040698+00:00"
 }
