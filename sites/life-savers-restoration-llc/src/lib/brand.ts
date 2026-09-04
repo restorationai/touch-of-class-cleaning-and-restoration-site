@@ -7,8 +7,8 @@ export const brand = {
   displayName: "Life Savers Restoration LLC",
   shortName: "Life Savers Restoration LLC",
   legalName: "Life Savers Restoration LLC",
-  domain: "",
-  canonicalUrl: "https://None",
+  domain: "lifesaversrestorationvegas.com",
+  canonicalUrl: "https://lifesaversrestorationvegas.com",
   phone: "(702) 845-1325",
   phoneRaw: "+17028451325",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
@@ -32,7 +32,7 @@ export const brand = {
   lng: "-114.9822716",
   placeId: "",
   googleCid: "",
-  imagesBase: "https://images.None",
+  imagesBase: "https://images.lifesaversrestorationvegas.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-EGE48LYQVZ",

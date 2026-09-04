@@ -29,7 +29,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Life Savers Restoration LLC` | plan-input `brand.short_name` | `NARESTCO` |
 | `Life Savers Restoration LLC` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
 | `` | client record `domain` | `narestco.com` |
-| `https://None` | derived | `https://narestco.com` |
+| `https://lifesaversrestorationvegas.com` | derived | `https://narestco.com` |
 | `(702) 845-1325` / `+17028451325` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `info@lifesaversrestoration.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
@@ -46,23 +46,23 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `24/7 restoration services in Henderson, NV.` | brand.tagline | short marketing line |
 | `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.None/brand/logo.png` / `LS` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.None` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Fire Damage Restoration](https://None/services/fire-damage-restoration/)
-- [Storm Damage Restoration](https://None/services/storm-damage-restoration/)
-- [Sewage Cleanup and Sanitization](https://None/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://None/services/biohazard-cleanup/)
-- [Contents Restoration and Storage](https://None/services/contents-restoration/)` / `- [Henderson, NV](https://None/service-areas/henderson-nv/)
-- [Las Vegas, NV](https://None/service-areas/las-vegas-nv/)
-- [North Las Vegas, NV](https://None/service-areas/north-las-vegas-nv/)
-- [Paradise, NV](https://None/service-areas/paradise-nv/)
-- [Spring Valley, NV](https://None/service-areas/spring-valley-nv/)
-- [Enterprise, NV](https://None/service-areas/enterprise-nv/)
-- [Sunrise Manor, NV](https://None/service-areas/sunrise-manor-nv/)
-- [Boulder City, NV](https://None/service-areas/boulder-city-nv/)
-- [Whitney, NV](https://None/service-areas/whitney-nv/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), IICRC AMRT (MOLD), IICRC FSRT (FIRE & SMOKE), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED` / `Greater Henderson region` | computed at scaffold from plan + brand | |
+| `https://images.lifesaversrestorationvegas.com/brand/logo.png` / `LS` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.lifesaversrestorationvegas.com` | `https://images.{domain}` | |
+| `- [Water Damage Restoration](https://lifesaversrestorationvegas.com/services/water-damage-restoration/)
+- [Mold Remediation](https://lifesaversrestorationvegas.com/services/mold-remediation/)
+- [Fire Damage Restoration](https://lifesaversrestorationvegas.com/services/fire-damage-restoration/)
+- [Storm Damage Restoration](https://lifesaversrestorationvegas.com/services/storm-damage-restoration/)
+- [Sewage Cleanup and Sanitization](https://lifesaversrestorationvegas.com/services/sewage-cleanup/)
+- [Biohazard Cleanup](https://lifesaversrestorationvegas.com/services/biohazard-cleanup/)
+- [Contents Restoration and Storage](https://lifesaversrestorationvegas.com/services/contents-restoration/)` / `- [Henderson, NV](https://lifesaversrestorationvegas.com/service-areas/henderson-nv/)
+- [Las Vegas, NV](https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/)
+- [North Las Vegas, NV](https://lifesaversrestorationvegas.com/service-areas/north-las-vegas-nv/)
+- [Paradise, NV](https://lifesaversrestorationvegas.com/service-areas/paradise-nv/)
+- [Spring Valley, NV](https://lifesaversrestorationvegas.com/service-areas/spring-valley-nv/)
+- [Enterprise, NV](https://lifesaversrestorationvegas.com/service-areas/enterprise-nv/)
+- [Sunrise Manor, NV](https://lifesaversrestorationvegas.com/service-areas/sunrise-manor-nv/)
+- [Boulder City, NV](https://lifesaversrestorationvegas.com/service-areas/boulder-city-nv/)
+- [Whitney, NV](https://lifesaversrestorationvegas.com/service-areas/whitney-nv/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), IICRC AMRT (MOLD), IICRC FSRT (FIRE & SMOKE), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED` / `Greater Henderson region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

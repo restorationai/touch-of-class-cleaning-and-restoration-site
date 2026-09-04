@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://None/
+# Site: https://lifesaversrestorationvegas.com/
 # Maintainer: Life Savers Restoration LLC
 # Contact: info@lifesaversrestoration.com
-# Sitemap: https://None/sitemap-index.xml
-# LLM index: https://None/llms.txt
+# Sitemap: https://lifesaversrestorationvegas.com/sitemap-index.xml
+# LLM index: https://lifesaversrestorationvegas.com/llms.txt
