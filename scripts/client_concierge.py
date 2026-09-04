@@ -8262,6 +8262,11 @@ def _maybe_capture_ein(company: dict, msgs: list[dict], dry_run: bool) -> None:
             if not dry_run:
                 _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}",
                     {"business_ein": ein}, prefer="return=minimal")
+                # companies.ein is what the app's Business Verification card
+                # reads/edits — keep both stores in step (Curt/Home Pride
+                # 2026-09-04: captured EIN was invisible in the app)
+                _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}&ein=is.null",
+                    {"ein": ein}, prefer="return=minimal")
                 _sb("POST", "/rest/v1/marketing_work_log", {
                     "company_id": cid, "actor": "concierge",
                     "category": "compliance", "action": "ein-captured",
