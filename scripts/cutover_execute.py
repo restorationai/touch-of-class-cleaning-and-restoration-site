@@ -193,6 +193,18 @@ def sb_get(path: str) -> list:
     return r.json()
 
 
+def sb_post(path: str, body: dict) -> None:
+    url, key = _supa()
+    if not (url and key):
+        raise RuntimeError("SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY unset")
+    r = requests.post(url + path, json=body, timeout=20,
+                      headers={"apikey": key, "Authorization": f"Bearer {key}",
+                               "Content-Type": "application/json",
+                               "Prefer": "return=minimal"})
+    if r.status_code not in (200, 201, 204):
+        raise RuntimeError(f"supabase POST {path} -> {r.status_code} {r.text[:200]}")
+
+
 def sb_patch(path: str, body: dict) -> None:
     url, key = _supa()
     if not (url and key):
@@ -809,6 +821,25 @@ def phase_verify(slug: str, domain: str, apply: bool) -> Phase:
                  "with email records preserved and the launch verified from outside.",
                  evidence={"slug": slug, "domain": domain, "verified_ip": ok_ip},
                  source="cutover_execute.py")
+        # Launch text to the client (Santino 2026-09-04, after the CRW
+        # app-button cutover): Monica delivers it with every guard intact;
+        # the [FROM SANTINO] directive tag makes it land same-day instead of
+        # waiting out cooldowns. Best-effort — a note failure must never
+        # fail a completed cutover.
+        try:
+            sb_post("/rest/v1/marketing_ops_notes", {
+                "company_id": company_id_for_slug(slug),
+                "body": ("[FROM SANTINO] Text the client this, word for "
+                         "word: Big news! Your new website is officially "
+                         f"live on your domain at https://{domain}/ Take a "
+                         "look when you get a chance and let me know what "
+                         "you think. Google will start picking it up over "
+                         "the next few days and we handle all of that for "
+                         "you.")})
+            ph.note("launch text queued for Monica")
+        except Exception as e:  # noqa: BLE001
+            ph.fail(f"launch-text note failed (cutover itself is DONE): "
+                    f"{str(e)[:120]}")
     else:
         ph.note("(dry run — would stamp cut_over_at + apex_live now)")
     return ph
