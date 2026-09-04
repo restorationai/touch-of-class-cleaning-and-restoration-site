@@ -58,7 +58,7 @@ const tight = compact || bare;
             Name *
             <input
               type="text" name="name" required autocomplete="name" maxlength="120"
-              class="rounded-md border border-slate-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none"
+              class="w-full min-w-0 rounded-md border border-slate-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none"
               placeholder="Your name"
             />
           </label>
@@ -66,7 +66,7 @@ const tight = compact || bare;
             Phone *
             <input
               type="tel" name="phone" required autocomplete="tel" maxlength="30"
-              class="rounded-md border border-slate-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none"
+              class="w-full min-w-0 rounded-md border border-slate-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none"
               placeholder="(555) 555-5555"
             />
           </label>
@@ -76,7 +76,7 @@ const tight = compact || bare;
             City / ZIP *
             <input
               type="text" name="city" required autocomplete="postal-code" maxlength="80"
-              class="rounded-md border border-slate-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none"
+              class="w-full min-w-0 rounded-md border border-slate-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none"
               placeholder={`${brand.primaryCity} or ZIP`}
             />
           </label>
@@ -84,7 +84,7 @@ const tight = compact || bare;
             Email <span class="normal-case font-normal tracking-normal text-white/60">(optional)</span>
             <input
               type="email" name="email" autocomplete="email" maxlength="160"
-              class="rounded-md border border-slate-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none"
+              class="w-full min-w-0 rounded-md border border-slate-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none"
               placeholder="you@example.com"
             />
           </label>
@@ -93,7 +93,7 @@ const tight = compact || bare;
           What happened?
           <textarea
             name="description" rows={tight ? 3 : 4} maxlength="2000"
-            class="rounded-md border border-slate-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none resize-y"
+            class="w-full min-w-0 rounded-md border border-slate-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-slate-900 placeholder-slate-400 focus:border-blue-500 focus:outline-none resize-y"
             placeholder="Briefly describe the damage — e.g. burst pipe in the kitchen, standing water in the basement…"
           ></textarea>
         </label>
