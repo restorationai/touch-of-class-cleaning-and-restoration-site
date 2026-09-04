@@ -211,9 +211,26 @@ def cmd_order(args) -> int:
     if not args.apply:
         print("  [dry-run] would confirm with credits")
         return 0
+    picked: list[str] = []
+    if args.pick_top:
+        # Hand-pick: highest domain-authority SAB-supported sites first
+        # (Santino 2026-09-03: we choose the sources, not their picker)
+        avail = _bl("GET", f"/citation-builder/{cid}/citations").get("data") or []
+        ranked = sorted(
+            (a for a in avail if a.get("is_sab_supported") is not False),
+            key=lambda a: -(a.get("domain_authority") or 0))
+        picked = [a["domain"] for a in ranked[:cost]]
+        print(f"  hand-picked top {len(picked)} by DA: "
+              + ", ".join(picked[:8]) + (" ..." if len(picked) > 8 else ""))
+        if len(picked) < cost:
+            print(f"  only {len(picked)} SAB-suitable sites available — "
+                  "refusing (drop the package size)")
+            return 1
+    publishers = [p.strip() for p in (args.publishers or "").split(",")
+                  if p.strip()]
     _bl("PUT", f"/citation-builder/{cid}/confirm", {
-        "package_id": args.package, "auto_select": True,
-        "citations": [], "publishers": [],
+        "package_id": args.package, "auto_select": not picked,
+        "citations": picked, "publishers": publishers,
         "remove_duplicates": False, "express": bool(args.express),
         "notes": "Service-area business (SAB): hide the street address on "
                  "directories where possible.",
@@ -381,6 +398,12 @@ def main() -> int:
     po.add_argument("--slug", required=True)
     po.add_argument("--package", required=True)
     po.add_argument("--express", action="store_true")
+    po.add_argument("--pick-top", action="store_true",
+                    help="hand-pick highest-DA SAB sites instead of "
+                         "BrightLocal auto-select")
+    po.add_argument("--publishers", default="",
+                    help="comma list: dataaxle,neustar,foursquare,"
+                         "gpsnetwork,ypnetwork")
     po.add_argument("--apply", action="store_true")
     pt = sub.add_parser("status")
     pt.add_argument("--slug")
