@@ -227,10 +227,10 @@ def cmd_order(args) -> int:
     save_client(slug, c)
     cid = _company_id(slug)
     if cid:
-        _work_log(cid, "citations-ordered",
-                  f"Ordered {cost} new business listings (directory "
-                  "citations) — each will appear in your Listings view as "
-                  "it goes live over the next 2-6 weeks",
+        _work_log(cid, "citations-building",
+                  f"Building {cost} new business listings for your company. "
+                  "Each one will be listed here and in your Listings view "
+                  "as it goes live over the next few weeks",
                   {"campaign_id": bl["campaign_id"],
                    "package_id": args.package, "credits_spent": cost})
     return 0
@@ -252,7 +252,7 @@ def _work_log(cid: str, action: str, detail: str, evidence=None) -> None:
         req = urllib.request.Request(
             os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/marketing_work_log",
             data=json.dumps({
-                "company_id": cid, "actor": "brightlocal",
+                "company_id": cid, "actor": "restoration-ai",
                 "category": "citations", "action": action,
                 "detail": detail, "evidence": evidence or {},
             }).encode(),
@@ -315,7 +315,7 @@ def cmd_sync(_args) -> int:
                         print(f"  (record_listing {domain}: {str(e)[:80]})")
                 if not logged:
                     _work_log(cid, "citation-live",
-                              f"New business listing live on {domain}"
+                              f"New business listing built for you on {domain}"
                               + (f": {url}" if url else ""),
                               {"domain": domain, "url": url,
                                "campaign_id": bl["campaign_id"]})
