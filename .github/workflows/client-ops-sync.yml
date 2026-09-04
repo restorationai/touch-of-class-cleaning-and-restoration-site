@@ -283,6 +283,16 @@ jobs:
         run: |
           python3 scripts/stripe_reconcile.py || echo "stripe-reconcile failed (non-fatal)"
 
+      - name: Citation Builder live-sync
+        # Every newly LIVE BrightLocal citation lands in the activity feed +
+        # the app's Business Listings card (record_listing). Idempotent.
+        env:
+          BRIGHTLOCAL_API_KEY:       ${{ secrets.BRIGHTLOCAL_API_KEY }}
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python3 scripts/brightlocal.py sync || echo "brightlocal sync failed (non-fatal)"
+
       - name: Toll-free auto-registration watch
         # Rank AI plan actives: submit Twilio TFV the moment a client is
         # ready; file the Monica EIN ask (once/30d) for those missing it.

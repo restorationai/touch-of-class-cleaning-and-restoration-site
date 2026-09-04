@@ -225,6 +225,104 @@ def cmd_order(args) -> int:
     bl["package_id"] = args.package
     c["brightlocal"] = bl
     save_client(slug, c)
+    cid = _company_id(slug)
+    if cid:
+        _work_log(cid, "citations-ordered",
+                  f"Ordered {cost} new business listings (directory "
+                  "citations) — each will appear in your Listings view as "
+                  "it goes live over the next 2-6 weeks",
+                  {"campaign_id": bl["campaign_id"],
+                   "package_id": args.package, "credits_spent": cost})
+    return 0
+
+
+def _company_id(slug: str) -> str | None:
+    try:
+        cmap = json.loads((CLIENTS / "company_map.json").read_text())
+        return cmap.get(slug)
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def _work_log(cid: str, action: str, detail: str, evidence=None) -> None:
+    """One client-readable activity line — the same feed the app's activity
+    view and monthly summaries read. Never fatal."""
+    try:
+        key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+        req = urllib.request.Request(
+            os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/marketing_work_log",
+            data=json.dumps({
+                "company_id": cid, "actor": "brightlocal",
+                "category": "citations", "action": action,
+                "detail": detail, "evidence": evidence or {},
+            }).encode(),
+            headers={"apikey": key, "Authorization": f"Bearer {key}",
+                     "Content-Type": "application/json",
+                     "Prefer": "return=minimal"})
+        urllib.request.urlopen(req, timeout=20)
+    except Exception as e:  # noqa: BLE001
+        print(f"  (work_log failed: {str(e)[:80]})")
+
+
+def cmd_sync(_args) -> int:
+    """Nightly: poll every ordered campaign's per-citation status; log every
+    NEWLY LIVE citation to the activity feed and the app's Business Listings
+    card (listings.record_listing). Idempotent via the synced_live ledger in
+    clients/{slug}.json brightlocal state."""
+    sys.path.insert(0, str(ROOT / "scripts"))
+    try:
+        from listings import record_listing
+    except ImportError:
+        record_listing = None
+    for f in sorted(CLIENTS.glob("*.json")):
+        try:
+            c = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(c, dict):
+            continue
+        bl = c.get("brightlocal") or {}
+        if not bl.get("campaign_id") or not bl.get("ordered_at"):
+            continue
+        slug = f.stem
+        cid = _company_id(slug)
+        d = _bl("GET", f"/citation-builder/{bl['campaign_id']}")
+        camp = d["campaigns"][0]
+        synced = set(bl.get("synced_live") or [])
+        new_live = []
+        for cit in camp.get("citations") or []:
+            if not isinstance(cit, dict):
+                continue
+            domain = cit.get("domain") or cit.get("site")
+            status = str(cit.get("status") or "").lower()
+            url = cit.get("url") or cit.get("live_url") or ""
+            if domain and status in ("live", "updated") and domain not in synced:
+                new_live.append((domain, url))
+        if not new_live:
+            continue
+        print(f"[{slug}] {len(new_live)} newly live citation(s)")
+        for domain, url in new_live:
+            if cid:
+                # record_listing writes BOTH the app Listings card entry and
+                # its own client-readable work-ledger line; the plain
+                # work_log is the no-URL fallback so the activity feed never
+                # misses a live citation.
+                logged = False
+                if record_listing and url:
+                    try:
+                        logged = record_listing(cid, domain, url)
+                    except Exception as e:  # noqa: BLE001
+                        print(f"  (record_listing {domain}: {str(e)[:80]})")
+                if not logged:
+                    _work_log(cid, "citation-live",
+                              f"New business listing live on {domain}"
+                              + (f": {url}" if url else ""),
+                              {"domain": domain, "url": url,
+                               "campaign_id": bl["campaign_id"]})
+            synced.add(domain)
+        bl["synced_live"] = sorted(synced)
+        c["brightlocal"] = bl
+        save_client(slug, c)
     return 0
 
 
@@ -286,6 +384,7 @@ def main() -> int:
     po.add_argument("--apply", action="store_true")
     pt = sub.add_parser("status")
     pt.add_argument("--slug")
+    sub.add_parser("sync")
     args = ap.parse_args()
     if args.cmd == "setup":
         return cmd_setup(args)
@@ -293,6 +392,8 @@ def main() -> int:
         return cmd_order(args)
     if args.cmd == "status":
         return cmd_status(args)
+    if args.cmd == "sync":
+        return cmd_sync(args)
     return cmd_audit(args)
 
 
