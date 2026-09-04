@@ -6,7 +6,7 @@
   "vertical": "restoration",
   "contact": "eastlasvegas@puroclean.com",
   "status": "live",
-  "notes": "Closed 2026-07-20 (Fathom 754188680). Domain purocleaneastlasvegas.com is CLEARED \u2014 the PuroClean Brand Identity Guide p31 + FDD require the franchisor's written approval for a domain outside PuroClean.com, and Greg has it (Santino saw the written approval directly, confirmed 2026-08-05). Resolved, not an open conflict; full record in clients/puroclean-east-las-vegas/plan-input.json brand.brand_kit.resolved_conflict. Franchise page: puroclean.com/eastlasvegas",
+  "notes": "Closed 2026-07-20 (Fathom 754188680). Domain purocleaneastlasvegas.com is CLEARED — the PuroClean Brand Identity Guide p31 + FDD require the franchisor's written approval for a domain outside PuroClean.com, and Greg has it (Santino saw the written approval directly, confirmed 2026-08-05). Resolved, not an open conflict; full record in clients/puroclean-east-las-vegas/plan-input.json brand.brand_kit.resolved_conflict. Franchise page: puroclean.com/eastlasvegas",
   "created_at": "2026-07-21T00:45:08+00:00",
   "plan_status": "planned",
   "plan": {
@@ -57,5 +57,9 @@
     "last_audit_at": "2026-08-27T06:05:00Z",
     "last_audit_verdict": "green",
     "last_audit_report_path": "audit-runs/2026-08-27-onsite-audit.md"
+  },
+  "brightlocal": {
+    "location_id": 4147029,
+    "campaign_id": 997242
   }
 }
