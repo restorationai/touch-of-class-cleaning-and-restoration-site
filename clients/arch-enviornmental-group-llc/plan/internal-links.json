@@ -4,7 +4,22 @@
     "/service-areas/",
     "/contact/",
     "/about/",
+    "/services/indoor-air-quality-testing/",
     "/services/mold-inspection-testing/",
+    "/services/asbestos-testing/",
+    "/services/clearance-testing/",
+    "/services/environmental-site-assessments/",
+    "/services/lead-paint-testing/",
+    "/services/water-quality-testing/",
+    "/services/post-flood-mold-assessment/",
+    "/services/radon-testing/",
+    "/services/sewage-contamination-assessment/",
+    "/services/hvac-duct-assessments/",
+    "/services/remediation-oversight/",
+    "/services/voc-formaldehyde-testing/",
+    "/services/allergen-testing/",
+    "/services/compliance-consulting/",
+    "/services/litigation-support-sampling/",
     "/service-areas/clovis-ca/",
     "/service-areas/dinuba-ca/",
     "/service-areas/fowler-ca/",
@@ -16,7 +31,22 @@
   ],
   "/services/": [
     "/",
-    "/services/mold-inspection-testing/"
+    "/services/indoor-air-quality-testing/",
+    "/services/mold-inspection-testing/",
+    "/services/asbestos-testing/",
+    "/services/clearance-testing/",
+    "/services/environmental-site-assessments/",
+    "/services/lead-paint-testing/",
+    "/services/water-quality-testing/",
+    "/services/post-flood-mold-assessment/",
+    "/services/radon-testing/",
+    "/services/sewage-contamination-assessment/",
+    "/services/hvac-duct-assessments/",
+    "/services/remediation-oversight/",
+    "/services/voc-formaldehyde-testing/",
+    "/services/allergen-testing/",
+    "/services/compliance-consulting/",
+    "/services/litigation-support-sampling/"
   ],
   "/service-areas/": [
     "/",
@@ -31,7 +61,14 @@
   ],
   "/blog/": [
     "/",
-    "/blog/how-to-test-for-mold/"
+    "/blog/do-i-need-mold-test-before-buying-house/",
+    "/blog/how-much-does-mold-inspection-cost/",
+    "/blog/air-sampling-vs-surface-sampling/",
+    "/blog/asbestos-test-before-renovation/",
+    "/blog/diy-mold-test-kits-vs-professional-inspection/",
+    "/blog/mold-testing-after-water-damage/",
+    "/blog/signs-of-bad-indoor-air-quality/",
+    "/blog/why-independent-mold-testing-matters/"
   ],
   "/about/": [
     "/",
@@ -54,12 +91,213 @@
     "/service-areas/sanger-ca/mold-inspection-testing/",
     "/service-areas/selma-ca/mold-inspection-testing/",
     "/service-areas/visalia-ca/mold-inspection-testing/",
-    "/blog/how-to-test-for-mold/"
+    "/blog/do-i-need-mold-test-before-buying-house/",
+    "/blog/how-much-does-mold-inspection-cost/",
+    "/blog/air-sampling-vs-surface-sampling/"
+  ],
+  "/services/indoor-air-quality-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/blog/signs-of-bad-indoor-air-quality/"
+  ],
+  "/services/asbestos-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/asbestos-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
+    "/service-areas/fowler-ca/asbestos-testing/",
+    "/service-areas/fresno-ca/asbestos-testing/",
+    "/service-areas/reedley-ca/asbestos-testing/",
+    "/service-areas/sanger-ca/asbestos-testing/",
+    "/service-areas/selma-ca/asbestos-testing/",
+    "/service-areas/visalia-ca/asbestos-testing/",
+    "/blog/asbestos-test-before-renovation/"
+  ],
+  "/services/lead-paint-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/lead-paint-testing/",
+    "/service-areas/dinuba-ca/lead-paint-testing/",
+    "/service-areas/fowler-ca/lead-paint-testing/",
+    "/service-areas/fresno-ca/lead-paint-testing/",
+    "/service-areas/reedley-ca/lead-paint-testing/",
+    "/service-areas/sanger-ca/lead-paint-testing/",
+    "/service-areas/selma-ca/lead-paint-testing/",
+    "/service-areas/visalia-ca/lead-paint-testing/"
+  ],
+  "/services/water-quality-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/water-quality-testing/",
+    "/service-areas/dinuba-ca/water-quality-testing/",
+    "/service-areas/fowler-ca/water-quality-testing/",
+    "/service-areas/fresno-ca/water-quality-testing/",
+    "/service-areas/reedley-ca/water-quality-testing/",
+    "/service-areas/sanger-ca/water-quality-testing/",
+    "/service-areas/selma-ca/water-quality-testing/",
+    "/service-areas/visalia-ca/water-quality-testing/"
+  ],
+  "/services/clearance-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/clearance-testing/",
+    "/service-areas/dinuba-ca/clearance-testing/",
+    "/service-areas/fowler-ca/clearance-testing/",
+    "/service-areas/fresno-ca/clearance-testing/",
+    "/service-areas/reedley-ca/clearance-testing/",
+    "/service-areas/sanger-ca/clearance-testing/",
+    "/service-areas/selma-ca/clearance-testing/",
+    "/service-areas/visalia-ca/clearance-testing/",
+    "/blog/why-independent-mold-testing-matters/"
+  ],
+  "/services/environmental-site-assessments/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/environmental-site-assessments/",
+    "/service-areas/dinuba-ca/environmental-site-assessments/",
+    "/service-areas/fowler-ca/environmental-site-assessments/",
+    "/service-areas/fresno-ca/environmental-site-assessments/",
+    "/service-areas/reedley-ca/environmental-site-assessments/",
+    "/service-areas/sanger-ca/environmental-site-assessments/",
+    "/service-areas/selma-ca/environmental-site-assessments/",
+    "/service-areas/visalia-ca/environmental-site-assessments/"
+  ],
+  "/services/radon-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/radon-testing/",
+    "/service-areas/dinuba-ca/radon-testing/",
+    "/service-areas/fowler-ca/radon-testing/",
+    "/service-areas/fresno-ca/radon-testing/",
+    "/service-areas/reedley-ca/radon-testing/",
+    "/service-areas/sanger-ca/radon-testing/",
+    "/service-areas/selma-ca/radon-testing/",
+    "/service-areas/visalia-ca/radon-testing/"
+  ],
+  "/services/voc-formaldehyde-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+    "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
+    "/service-areas/fowler-ca/voc-formaldehyde-testing/",
+    "/service-areas/fresno-ca/voc-formaldehyde-testing/",
+    "/service-areas/reedley-ca/voc-formaldehyde-testing/",
+    "/service-areas/sanger-ca/voc-formaldehyde-testing/",
+    "/service-areas/selma-ca/voc-formaldehyde-testing/",
+    "/service-areas/visalia-ca/voc-formaldehyde-testing/"
+  ],
+  "/services/sewage-contamination-assessment/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/sewage-contamination-assessment/",
+    "/service-areas/dinuba-ca/sewage-contamination-assessment/",
+    "/service-areas/fowler-ca/sewage-contamination-assessment/",
+    "/service-areas/fresno-ca/sewage-contamination-assessment/",
+    "/service-areas/reedley-ca/sewage-contamination-assessment/",
+    "/service-areas/sanger-ca/sewage-contamination-assessment/",
+    "/service-areas/selma-ca/sewage-contamination-assessment/",
+    "/service-areas/visalia-ca/sewage-contamination-assessment/"
+  ],
+  "/services/post-flood-mold-assessment/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/post-flood-mold-assessment/",
+    "/service-areas/dinuba-ca/post-flood-mold-assessment/",
+    "/service-areas/fowler-ca/post-flood-mold-assessment/",
+    "/service-areas/fresno-ca/post-flood-mold-assessment/",
+    "/service-areas/reedley-ca/post-flood-mold-assessment/",
+    "/service-areas/sanger-ca/post-flood-mold-assessment/",
+    "/service-areas/selma-ca/post-flood-mold-assessment/",
+    "/service-areas/visalia-ca/post-flood-mold-assessment/",
+    "/blog/mold-testing-after-water-damage/"
+  ],
+  "/services/allergen-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/allergen-testing/",
+    "/service-areas/dinuba-ca/allergen-testing/",
+    "/service-areas/fowler-ca/allergen-testing/",
+    "/service-areas/fresno-ca/allergen-testing/",
+    "/service-areas/reedley-ca/allergen-testing/",
+    "/service-areas/sanger-ca/allergen-testing/",
+    "/service-areas/selma-ca/allergen-testing/",
+    "/service-areas/visalia-ca/allergen-testing/"
+  ],
+  "/services/hvac-duct-assessments/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/hvac-duct-assessments/",
+    "/service-areas/dinuba-ca/hvac-duct-assessments/",
+    "/service-areas/fowler-ca/hvac-duct-assessments/",
+    "/service-areas/fresno-ca/hvac-duct-assessments/",
+    "/service-areas/reedley-ca/hvac-duct-assessments/",
+    "/service-areas/sanger-ca/hvac-duct-assessments/",
+    "/service-areas/selma-ca/hvac-duct-assessments/",
+    "/service-areas/visalia-ca/hvac-duct-assessments/"
+  ],
+  "/services/remediation-oversight/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/remediation-oversight/",
+    "/service-areas/dinuba-ca/remediation-oversight/",
+    "/service-areas/fowler-ca/remediation-oversight/",
+    "/service-areas/fresno-ca/remediation-oversight/",
+    "/service-areas/reedley-ca/remediation-oversight/",
+    "/service-areas/sanger-ca/remediation-oversight/",
+    "/service-areas/selma-ca/remediation-oversight/",
+    "/service-areas/visalia-ca/remediation-oversight/"
+  ],
+  "/services/compliance-consulting/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/compliance-consulting/",
+    "/service-areas/dinuba-ca/compliance-consulting/",
+    "/service-areas/fowler-ca/compliance-consulting/",
+    "/service-areas/fresno-ca/compliance-consulting/",
+    "/service-areas/reedley-ca/compliance-consulting/",
+    "/service-areas/sanger-ca/compliance-consulting/",
+    "/service-areas/selma-ca/compliance-consulting/",
+    "/service-areas/visalia-ca/compliance-consulting/"
+  ],
+  "/services/litigation-support-sampling/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/clovis-ca/litigation-support-sampling/",
+    "/service-areas/dinuba-ca/litigation-support-sampling/",
+    "/service-areas/fowler-ca/litigation-support-sampling/",
+    "/service-areas/fresno-ca/litigation-support-sampling/",
+    "/service-areas/reedley-ca/litigation-support-sampling/",
+    "/service-areas/sanger-ca/litigation-support-sampling/",
+    "/service-areas/selma-ca/litigation-support-sampling/",
+    "/service-areas/visalia-ca/litigation-support-sampling/"
   ],
   "/service-areas/fresno-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
     "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/fresno-ca/asbestos-testing/",
+    "/service-areas/fresno-ca/clearance-testing/",
+    "/service-areas/fresno-ca/environmental-site-assessments/",
+    "/service-areas/fresno-ca/lead-paint-testing/",
+    "/service-areas/fresno-ca/water-quality-testing/",
+    "/service-areas/fresno-ca/post-flood-mold-assessment/",
+    "/service-areas/fresno-ca/radon-testing/",
+    "/service-areas/fresno-ca/sewage-contamination-assessment/",
+    "/service-areas/fresno-ca/hvac-duct-assessments/",
+    "/service-areas/fresno-ca/remediation-oversight/",
+    "/service-areas/fresno-ca/voc-formaldehyde-testing/",
+    "/service-areas/fresno-ca/allergen-testing/",
+    "/service-areas/fresno-ca/compliance-consulting/",
+    "/service-areas/fresno-ca/litigation-support-sampling/",
     "/service-areas/clovis-ca/",
     "/service-areas/dinuba-ca/",
     "/service-areas/fowler-ca/"
@@ -67,7 +305,22 @@
   "/service-areas/visalia-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
     "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/visalia-ca/asbestos-testing/",
+    "/service-areas/visalia-ca/clearance-testing/",
+    "/service-areas/visalia-ca/environmental-site-assessments/",
+    "/service-areas/visalia-ca/lead-paint-testing/",
+    "/service-areas/visalia-ca/water-quality-testing/",
+    "/service-areas/visalia-ca/post-flood-mold-assessment/",
+    "/service-areas/visalia-ca/radon-testing/",
+    "/service-areas/visalia-ca/sewage-contamination-assessment/",
+    "/service-areas/visalia-ca/hvac-duct-assessments/",
+    "/service-areas/visalia-ca/remediation-oversight/",
+    "/service-areas/visalia-ca/voc-formaldehyde-testing/",
+    "/service-areas/visalia-ca/allergen-testing/",
+    "/service-areas/visalia-ca/compliance-consulting/",
+    "/service-areas/visalia-ca/litigation-support-sampling/",
     "/service-areas/clovis-ca/",
     "/service-areas/dinuba-ca/",
     "/service-areas/fowler-ca/"
@@ -75,7 +328,22 @@
   "/service-areas/clovis-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
     "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/asbestos-testing/",
+    "/service-areas/clovis-ca/clearance-testing/",
+    "/service-areas/clovis-ca/environmental-site-assessments/",
+    "/service-areas/clovis-ca/lead-paint-testing/",
+    "/service-areas/clovis-ca/water-quality-testing/",
+    "/service-areas/clovis-ca/post-flood-mold-assessment/",
+    "/service-areas/clovis-ca/radon-testing/",
+    "/service-areas/clovis-ca/sewage-contamination-assessment/",
+    "/service-areas/clovis-ca/hvac-duct-assessments/",
+    "/service-areas/clovis-ca/remediation-oversight/",
+    "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+    "/service-areas/clovis-ca/allergen-testing/",
+    "/service-areas/clovis-ca/compliance-consulting/",
+    "/service-areas/clovis-ca/litigation-support-sampling/",
     "/service-areas/dinuba-ca/",
     "/service-areas/fowler-ca/",
     "/service-areas/fresno-ca/"
@@ -83,7 +351,22 @@
   "/service-areas/selma-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
     "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/selma-ca/asbestos-testing/",
+    "/service-areas/selma-ca/clearance-testing/",
+    "/service-areas/selma-ca/environmental-site-assessments/",
+    "/service-areas/selma-ca/lead-paint-testing/",
+    "/service-areas/selma-ca/water-quality-testing/",
+    "/service-areas/selma-ca/post-flood-mold-assessment/",
+    "/service-areas/selma-ca/radon-testing/",
+    "/service-areas/selma-ca/sewage-contamination-assessment/",
+    "/service-areas/selma-ca/hvac-duct-assessments/",
+    "/service-areas/selma-ca/remediation-oversight/",
+    "/service-areas/selma-ca/voc-formaldehyde-testing/",
+    "/service-areas/selma-ca/allergen-testing/",
+    "/service-areas/selma-ca/compliance-consulting/",
+    "/service-areas/selma-ca/litigation-support-sampling/",
     "/service-areas/clovis-ca/",
     "/service-areas/dinuba-ca/",
     "/service-areas/fowler-ca/"
@@ -91,7 +374,22 @@
   "/service-areas/reedley-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
     "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/reedley-ca/asbestos-testing/",
+    "/service-areas/reedley-ca/clearance-testing/",
+    "/service-areas/reedley-ca/environmental-site-assessments/",
+    "/service-areas/reedley-ca/lead-paint-testing/",
+    "/service-areas/reedley-ca/water-quality-testing/",
+    "/service-areas/reedley-ca/post-flood-mold-assessment/",
+    "/service-areas/reedley-ca/radon-testing/",
+    "/service-areas/reedley-ca/sewage-contamination-assessment/",
+    "/service-areas/reedley-ca/hvac-duct-assessments/",
+    "/service-areas/reedley-ca/remediation-oversight/",
+    "/service-areas/reedley-ca/voc-formaldehyde-testing/",
+    "/service-areas/reedley-ca/allergen-testing/",
+    "/service-areas/reedley-ca/compliance-consulting/",
+    "/service-areas/reedley-ca/litigation-support-sampling/",
     "/service-areas/clovis-ca/",
     "/service-areas/dinuba-ca/",
     "/service-areas/fowler-ca/"
@@ -99,7 +397,22 @@
   "/service-areas/dinuba-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
     "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
+    "/service-areas/dinuba-ca/clearance-testing/",
+    "/service-areas/dinuba-ca/environmental-site-assessments/",
+    "/service-areas/dinuba-ca/lead-paint-testing/",
+    "/service-areas/dinuba-ca/water-quality-testing/",
+    "/service-areas/dinuba-ca/post-flood-mold-assessment/",
+    "/service-areas/dinuba-ca/radon-testing/",
+    "/service-areas/dinuba-ca/sewage-contamination-assessment/",
+    "/service-areas/dinuba-ca/hvac-duct-assessments/",
+    "/service-areas/dinuba-ca/remediation-oversight/",
+    "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
+    "/service-areas/dinuba-ca/allergen-testing/",
+    "/service-areas/dinuba-ca/compliance-consulting/",
+    "/service-areas/dinuba-ca/litigation-support-sampling/",
     "/service-areas/clovis-ca/",
     "/service-areas/fowler-ca/",
     "/service-areas/fresno-ca/"
@@ -107,7 +420,22 @@
   "/service-areas/sanger-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
     "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/sanger-ca/asbestos-testing/",
+    "/service-areas/sanger-ca/clearance-testing/",
+    "/service-areas/sanger-ca/environmental-site-assessments/",
+    "/service-areas/sanger-ca/lead-paint-testing/",
+    "/service-areas/sanger-ca/water-quality-testing/",
+    "/service-areas/sanger-ca/post-flood-mold-assessment/",
+    "/service-areas/sanger-ca/radon-testing/",
+    "/service-areas/sanger-ca/sewage-contamination-assessment/",
+    "/service-areas/sanger-ca/hvac-duct-assessments/",
+    "/service-areas/sanger-ca/remediation-oversight/",
+    "/service-areas/sanger-ca/voc-formaldehyde-testing/",
+    "/service-areas/sanger-ca/allergen-testing/",
+    "/service-areas/sanger-ca/compliance-consulting/",
+    "/service-areas/sanger-ca/litigation-support-sampling/",
     "/service-areas/clovis-ca/",
     "/service-areas/dinuba-ca/",
     "/service-areas/fowler-ca/"
@@ -115,7 +443,22 @@
   "/service-areas/fowler-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
     "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/fowler-ca/asbestos-testing/",
+    "/service-areas/fowler-ca/clearance-testing/",
+    "/service-areas/fowler-ca/environmental-site-assessments/",
+    "/service-areas/fowler-ca/lead-paint-testing/",
+    "/service-areas/fowler-ca/water-quality-testing/",
+    "/service-areas/fowler-ca/post-flood-mold-assessment/",
+    "/service-areas/fowler-ca/radon-testing/",
+    "/service-areas/fowler-ca/sewage-contamination-assessment/",
+    "/service-areas/fowler-ca/hvac-duct-assessments/",
+    "/service-areas/fowler-ca/remediation-oversight/",
+    "/service-areas/fowler-ca/voc-formaldehyde-testing/",
+    "/service-areas/fowler-ca/allergen-testing/",
+    "/service-areas/fowler-ca/compliance-consulting/",
+    "/service-areas/fowler-ca/litigation-support-sampling/",
     "/service-areas/clovis-ca/",
     "/service-areas/dinuba-ca/",
     "/service-areas/fresno-ca/"
@@ -123,62 +466,1206 @@
   "/service-areas/fresno-ca/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/asbestos-testing/",
     "/service-areas/clovis-ca/mold-inspection-testing/",
     "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/indoor-air-quality-testing/": [
+    "/services/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/fresno-ca/asbestos-testing/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/asbestos-testing/": [
+    "/services/asbestos-testing/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/asbestos-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/lead-paint-testing/": [
+    "/services/lead-paint-testing/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/lead-paint-testing/",
+    "/service-areas/dinuba-ca/lead-paint-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/water-quality-testing/": [
+    "/services/water-quality-testing/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/water-quality-testing/",
+    "/service-areas/dinuba-ca/water-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/clearance-testing/": [
+    "/services/clearance-testing/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/clearance-testing/",
+    "/service-areas/dinuba-ca/clearance-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/environmental-site-assessments/": [
+    "/services/environmental-site-assessments/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/environmental-site-assessments/",
+    "/service-areas/dinuba-ca/environmental-site-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/radon-testing/": [
+    "/services/radon-testing/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/radon-testing/",
+    "/service-areas/dinuba-ca/radon-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/voc-formaldehyde-testing/": [
+    "/services/voc-formaldehyde-testing/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+    "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/sewage-contamination-assessment/": [
+    "/services/sewage-contamination-assessment/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/sewage-contamination-assessment/",
+    "/service-areas/dinuba-ca/sewage-contamination-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/post-flood-mold-assessment/": [
+    "/services/post-flood-mold-assessment/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/post-flood-mold-assessment/",
+    "/service-areas/dinuba-ca/post-flood-mold-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/allergen-testing/": [
+    "/services/allergen-testing/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/allergen-testing/",
+    "/service-areas/dinuba-ca/allergen-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/hvac-duct-assessments/": [
+    "/services/hvac-duct-assessments/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/hvac-duct-assessments/",
+    "/service-areas/dinuba-ca/hvac-duct-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/remediation-oversight/": [
+    "/services/remediation-oversight/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/remediation-oversight/",
+    "/service-areas/dinuba-ca/remediation-oversight/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/compliance-consulting/": [
+    "/services/compliance-consulting/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/compliance-consulting/",
+    "/service-areas/dinuba-ca/compliance-consulting/",
+    "/contact/"
+  ],
+  "/service-areas/fresno-ca/litigation-support-sampling/": [
+    "/services/litigation-support-sampling/",
+    "/service-areas/fresno-ca/",
+    "/service-areas/fresno-ca/indoor-air-quality-testing/",
+    "/service-areas/fresno-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/litigation-support-sampling/",
+    "/service-areas/dinuba-ca/litigation-support-sampling/",
     "/contact/"
   ],
   "/service-areas/visalia-ca/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/asbestos-testing/",
     "/service-areas/clovis-ca/mold-inspection-testing/",
     "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/indoor-air-quality-testing/": [
+    "/services/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/visalia-ca/asbestos-testing/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/asbestos-testing/": [
+    "/services/asbestos-testing/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/asbestos-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/lead-paint-testing/": [
+    "/services/lead-paint-testing/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/lead-paint-testing/",
+    "/service-areas/dinuba-ca/lead-paint-testing/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/water-quality-testing/": [
+    "/services/water-quality-testing/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/water-quality-testing/",
+    "/service-areas/dinuba-ca/water-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/clearance-testing/": [
+    "/services/clearance-testing/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/clearance-testing/",
+    "/service-areas/dinuba-ca/clearance-testing/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/environmental-site-assessments/": [
+    "/services/environmental-site-assessments/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/environmental-site-assessments/",
+    "/service-areas/dinuba-ca/environmental-site-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/radon-testing/": [
+    "/services/radon-testing/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/radon-testing/",
+    "/service-areas/dinuba-ca/radon-testing/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/voc-formaldehyde-testing/": [
+    "/services/voc-formaldehyde-testing/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+    "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/sewage-contamination-assessment/": [
+    "/services/sewage-contamination-assessment/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/sewage-contamination-assessment/",
+    "/service-areas/dinuba-ca/sewage-contamination-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/post-flood-mold-assessment/": [
+    "/services/post-flood-mold-assessment/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/post-flood-mold-assessment/",
+    "/service-areas/dinuba-ca/post-flood-mold-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/allergen-testing/": [
+    "/services/allergen-testing/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/allergen-testing/",
+    "/service-areas/dinuba-ca/allergen-testing/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/hvac-duct-assessments/": [
+    "/services/hvac-duct-assessments/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/hvac-duct-assessments/",
+    "/service-areas/dinuba-ca/hvac-duct-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/remediation-oversight/": [
+    "/services/remediation-oversight/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/remediation-oversight/",
+    "/service-areas/dinuba-ca/remediation-oversight/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/compliance-consulting/": [
+    "/services/compliance-consulting/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/compliance-consulting/",
+    "/service-areas/dinuba-ca/compliance-consulting/",
+    "/contact/"
+  ],
+  "/service-areas/visalia-ca/litigation-support-sampling/": [
+    "/services/litigation-support-sampling/",
+    "/service-areas/visalia-ca/",
+    "/service-areas/visalia-ca/indoor-air-quality-testing/",
+    "/service-areas/visalia-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/litigation-support-sampling/",
+    "/service-areas/dinuba-ca/litigation-support-sampling/",
     "/contact/"
   ],
   "/service-areas/clovis-ca/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/asbestos-testing/",
     "/service-areas/dinuba-ca/mold-inspection-testing/",
     "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/indoor-air-quality-testing/": [
+    "/services/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/asbestos-testing/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/asbestos-testing/": [
+    "/services/asbestos-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
+    "/service-areas/fowler-ca/asbestos-testing/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/lead-paint-testing/": [
+    "/services/lead-paint-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/lead-paint-testing/",
+    "/service-areas/fowler-ca/lead-paint-testing/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/water-quality-testing/": [
+    "/services/water-quality-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/water-quality-testing/",
+    "/service-areas/fowler-ca/water-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/clearance-testing/": [
+    "/services/clearance-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/clearance-testing/",
+    "/service-areas/fowler-ca/clearance-testing/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/environmental-site-assessments/": [
+    "/services/environmental-site-assessments/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/environmental-site-assessments/",
+    "/service-areas/fowler-ca/environmental-site-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/radon-testing/": [
+    "/services/radon-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/radon-testing/",
+    "/service-areas/fowler-ca/radon-testing/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/voc-formaldehyde-testing/": [
+    "/services/voc-formaldehyde-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
+    "/service-areas/fowler-ca/voc-formaldehyde-testing/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/sewage-contamination-assessment/": [
+    "/services/sewage-contamination-assessment/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/sewage-contamination-assessment/",
+    "/service-areas/fowler-ca/sewage-contamination-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/post-flood-mold-assessment/": [
+    "/services/post-flood-mold-assessment/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/post-flood-mold-assessment/",
+    "/service-areas/fowler-ca/post-flood-mold-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/allergen-testing/": [
+    "/services/allergen-testing/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/allergen-testing/",
+    "/service-areas/fowler-ca/allergen-testing/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/hvac-duct-assessments/": [
+    "/services/hvac-duct-assessments/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/hvac-duct-assessments/",
+    "/service-areas/fowler-ca/hvac-duct-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/remediation-oversight/": [
+    "/services/remediation-oversight/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/remediation-oversight/",
+    "/service-areas/fowler-ca/remediation-oversight/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/compliance-consulting/": [
+    "/services/compliance-consulting/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/compliance-consulting/",
+    "/service-areas/fowler-ca/compliance-consulting/",
+    "/contact/"
+  ],
+  "/service-areas/clovis-ca/litigation-support-sampling/": [
+    "/services/litigation-support-sampling/",
+    "/service-areas/clovis-ca/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/clovis-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/litigation-support-sampling/",
+    "/service-areas/fowler-ca/litigation-support-sampling/",
     "/contact/"
   ],
   "/service-areas/selma-ca/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/asbestos-testing/",
     "/service-areas/clovis-ca/mold-inspection-testing/",
     "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/indoor-air-quality-testing/": [
+    "/services/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/selma-ca/asbestos-testing/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/asbestos-testing/": [
+    "/services/asbestos-testing/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/asbestos-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/lead-paint-testing/": [
+    "/services/lead-paint-testing/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/lead-paint-testing/",
+    "/service-areas/dinuba-ca/lead-paint-testing/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/water-quality-testing/": [
+    "/services/water-quality-testing/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/water-quality-testing/",
+    "/service-areas/dinuba-ca/water-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/clearance-testing/": [
+    "/services/clearance-testing/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/clearance-testing/",
+    "/service-areas/dinuba-ca/clearance-testing/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/environmental-site-assessments/": [
+    "/services/environmental-site-assessments/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/environmental-site-assessments/",
+    "/service-areas/dinuba-ca/environmental-site-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/radon-testing/": [
+    "/services/radon-testing/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/radon-testing/",
+    "/service-areas/dinuba-ca/radon-testing/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/voc-formaldehyde-testing/": [
+    "/services/voc-formaldehyde-testing/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+    "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/sewage-contamination-assessment/": [
+    "/services/sewage-contamination-assessment/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/sewage-contamination-assessment/",
+    "/service-areas/dinuba-ca/sewage-contamination-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/post-flood-mold-assessment/": [
+    "/services/post-flood-mold-assessment/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/post-flood-mold-assessment/",
+    "/service-areas/dinuba-ca/post-flood-mold-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/allergen-testing/": [
+    "/services/allergen-testing/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/allergen-testing/",
+    "/service-areas/dinuba-ca/allergen-testing/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/hvac-duct-assessments/": [
+    "/services/hvac-duct-assessments/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/hvac-duct-assessments/",
+    "/service-areas/dinuba-ca/hvac-duct-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/remediation-oversight/": [
+    "/services/remediation-oversight/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/remediation-oversight/",
+    "/service-areas/dinuba-ca/remediation-oversight/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/compliance-consulting/": [
+    "/services/compliance-consulting/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/compliance-consulting/",
+    "/service-areas/dinuba-ca/compliance-consulting/",
+    "/contact/"
+  ],
+  "/service-areas/selma-ca/litigation-support-sampling/": [
+    "/services/litigation-support-sampling/",
+    "/service-areas/selma-ca/",
+    "/service-areas/selma-ca/indoor-air-quality-testing/",
+    "/service-areas/selma-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/litigation-support-sampling/",
+    "/service-areas/dinuba-ca/litigation-support-sampling/",
     "/contact/"
   ],
   "/service-areas/reedley-ca/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/asbestos-testing/",
     "/service-areas/clovis-ca/mold-inspection-testing/",
     "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/indoor-air-quality-testing/": [
+    "/services/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/reedley-ca/asbestos-testing/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/asbestos-testing/": [
+    "/services/asbestos-testing/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/asbestos-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/lead-paint-testing/": [
+    "/services/lead-paint-testing/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/lead-paint-testing/",
+    "/service-areas/dinuba-ca/lead-paint-testing/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/water-quality-testing/": [
+    "/services/water-quality-testing/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/water-quality-testing/",
+    "/service-areas/dinuba-ca/water-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/clearance-testing/": [
+    "/services/clearance-testing/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/clearance-testing/",
+    "/service-areas/dinuba-ca/clearance-testing/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/environmental-site-assessments/": [
+    "/services/environmental-site-assessments/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/environmental-site-assessments/",
+    "/service-areas/dinuba-ca/environmental-site-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/radon-testing/": [
+    "/services/radon-testing/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/radon-testing/",
+    "/service-areas/dinuba-ca/radon-testing/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/voc-formaldehyde-testing/": [
+    "/services/voc-formaldehyde-testing/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+    "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/sewage-contamination-assessment/": [
+    "/services/sewage-contamination-assessment/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/sewage-contamination-assessment/",
+    "/service-areas/dinuba-ca/sewage-contamination-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/post-flood-mold-assessment/": [
+    "/services/post-flood-mold-assessment/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/post-flood-mold-assessment/",
+    "/service-areas/dinuba-ca/post-flood-mold-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/allergen-testing/": [
+    "/services/allergen-testing/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/allergen-testing/",
+    "/service-areas/dinuba-ca/allergen-testing/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/hvac-duct-assessments/": [
+    "/services/hvac-duct-assessments/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/hvac-duct-assessments/",
+    "/service-areas/dinuba-ca/hvac-duct-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/remediation-oversight/": [
+    "/services/remediation-oversight/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/remediation-oversight/",
+    "/service-areas/dinuba-ca/remediation-oversight/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/compliance-consulting/": [
+    "/services/compliance-consulting/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/compliance-consulting/",
+    "/service-areas/dinuba-ca/compliance-consulting/",
+    "/contact/"
+  ],
+  "/service-areas/reedley-ca/litigation-support-sampling/": [
+    "/services/litigation-support-sampling/",
+    "/service-areas/reedley-ca/",
+    "/service-areas/reedley-ca/indoor-air-quality-testing/",
+    "/service-areas/reedley-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/litigation-support-sampling/",
+    "/service-areas/dinuba-ca/litigation-support-sampling/",
     "/contact/"
   ],
   "/service-areas/dinuba-ca/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
     "/service-areas/clovis-ca/mold-inspection-testing/",
     "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/indoor-air-quality-testing/": [
+    "/services/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/asbestos-testing/": [
+    "/services/asbestos-testing/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/asbestos-testing/",
+    "/service-areas/fowler-ca/asbestos-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/lead-paint-testing/": [
+    "/services/lead-paint-testing/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/lead-paint-testing/",
+    "/service-areas/fowler-ca/lead-paint-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/water-quality-testing/": [
+    "/services/water-quality-testing/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/water-quality-testing/",
+    "/service-areas/fowler-ca/water-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/clearance-testing/": [
+    "/services/clearance-testing/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/clearance-testing/",
+    "/service-areas/fowler-ca/clearance-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/environmental-site-assessments/": [
+    "/services/environmental-site-assessments/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/environmental-site-assessments/",
+    "/service-areas/fowler-ca/environmental-site-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/radon-testing/": [
+    "/services/radon-testing/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/radon-testing/",
+    "/service-areas/fowler-ca/radon-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/voc-formaldehyde-testing/": [
+    "/services/voc-formaldehyde-testing/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+    "/service-areas/fowler-ca/voc-formaldehyde-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/sewage-contamination-assessment/": [
+    "/services/sewage-contamination-assessment/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/sewage-contamination-assessment/",
+    "/service-areas/fowler-ca/sewage-contamination-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/post-flood-mold-assessment/": [
+    "/services/post-flood-mold-assessment/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/post-flood-mold-assessment/",
+    "/service-areas/fowler-ca/post-flood-mold-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/allergen-testing/": [
+    "/services/allergen-testing/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/allergen-testing/",
+    "/service-areas/fowler-ca/allergen-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/hvac-duct-assessments/": [
+    "/services/hvac-duct-assessments/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/hvac-duct-assessments/",
+    "/service-areas/fowler-ca/hvac-duct-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/remediation-oversight/": [
+    "/services/remediation-oversight/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/remediation-oversight/",
+    "/service-areas/fowler-ca/remediation-oversight/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/compliance-consulting/": [
+    "/services/compliance-consulting/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/compliance-consulting/",
+    "/service-areas/fowler-ca/compliance-consulting/",
+    "/contact/"
+  ],
+  "/service-areas/dinuba-ca/litigation-support-sampling/": [
+    "/services/litigation-support-sampling/",
+    "/service-areas/dinuba-ca/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/litigation-support-sampling/",
+    "/service-areas/fowler-ca/litigation-support-sampling/",
     "/contact/"
   ],
   "/service-areas/sanger-ca/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/asbestos-testing/",
     "/service-areas/clovis-ca/mold-inspection-testing/",
     "/service-areas/dinuba-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/indoor-air-quality-testing/": [
+    "/services/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/sanger-ca/asbestos-testing/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/asbestos-testing/": [
+    "/services/asbestos-testing/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/asbestos-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/lead-paint-testing/": [
+    "/services/lead-paint-testing/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/lead-paint-testing/",
+    "/service-areas/dinuba-ca/lead-paint-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/water-quality-testing/": [
+    "/services/water-quality-testing/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/water-quality-testing/",
+    "/service-areas/dinuba-ca/water-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/clearance-testing/": [
+    "/services/clearance-testing/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/clearance-testing/",
+    "/service-areas/dinuba-ca/clearance-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/environmental-site-assessments/": [
+    "/services/environmental-site-assessments/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/environmental-site-assessments/",
+    "/service-areas/dinuba-ca/environmental-site-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/radon-testing/": [
+    "/services/radon-testing/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/radon-testing/",
+    "/service-areas/dinuba-ca/radon-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/voc-formaldehyde-testing/": [
+    "/services/voc-formaldehyde-testing/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+    "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/sewage-contamination-assessment/": [
+    "/services/sewage-contamination-assessment/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/sewage-contamination-assessment/",
+    "/service-areas/dinuba-ca/sewage-contamination-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/post-flood-mold-assessment/": [
+    "/services/post-flood-mold-assessment/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/post-flood-mold-assessment/",
+    "/service-areas/dinuba-ca/post-flood-mold-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/allergen-testing/": [
+    "/services/allergen-testing/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/allergen-testing/",
+    "/service-areas/dinuba-ca/allergen-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/hvac-duct-assessments/": [
+    "/services/hvac-duct-assessments/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/hvac-duct-assessments/",
+    "/service-areas/dinuba-ca/hvac-duct-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/remediation-oversight/": [
+    "/services/remediation-oversight/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/remediation-oversight/",
+    "/service-areas/dinuba-ca/remediation-oversight/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/compliance-consulting/": [
+    "/services/compliance-consulting/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/compliance-consulting/",
+    "/service-areas/dinuba-ca/compliance-consulting/",
+    "/contact/"
+  ],
+  "/service-areas/sanger-ca/litigation-support-sampling/": [
+    "/services/litigation-support-sampling/",
+    "/service-areas/sanger-ca/",
+    "/service-areas/sanger-ca/indoor-air-quality-testing/",
+    "/service-areas/sanger-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/litigation-support-sampling/",
+    "/service-areas/dinuba-ca/litigation-support-sampling/",
     "/contact/"
   ],
   "/service-areas/fowler-ca/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/asbestos-testing/",
     "/service-areas/clovis-ca/mold-inspection-testing/",
     "/service-areas/dinuba-ca/mold-inspection-testing/",
     "/contact/"
   ],
-  "/blog/how-to-test-for-mold/": [
+  "/service-areas/fowler-ca/indoor-air-quality-testing/": [
+    "/services/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/fowler-ca/asbestos-testing/",
+    "/service-areas/clovis-ca/indoor-air-quality-testing/",
+    "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/asbestos-testing/": [
+    "/services/asbestos-testing/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/asbestos-testing/",
+    "/service-areas/dinuba-ca/asbestos-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/lead-paint-testing/": [
+    "/services/lead-paint-testing/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/lead-paint-testing/",
+    "/service-areas/dinuba-ca/lead-paint-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/water-quality-testing/": [
+    "/services/water-quality-testing/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/water-quality-testing/",
+    "/service-areas/dinuba-ca/water-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/clearance-testing/": [
+    "/services/clearance-testing/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/clearance-testing/",
+    "/service-areas/dinuba-ca/clearance-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/environmental-site-assessments/": [
+    "/services/environmental-site-assessments/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/environmental-site-assessments/",
+    "/service-areas/dinuba-ca/environmental-site-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/radon-testing/": [
+    "/services/radon-testing/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/radon-testing/",
+    "/service-areas/dinuba-ca/radon-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/voc-formaldehyde-testing/": [
+    "/services/voc-formaldehyde-testing/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+    "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/sewage-contamination-assessment/": [
+    "/services/sewage-contamination-assessment/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/sewage-contamination-assessment/",
+    "/service-areas/dinuba-ca/sewage-contamination-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/post-flood-mold-assessment/": [
+    "/services/post-flood-mold-assessment/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/post-flood-mold-assessment/",
+    "/service-areas/dinuba-ca/post-flood-mold-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/allergen-testing/": [
+    "/services/allergen-testing/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/allergen-testing/",
+    "/service-areas/dinuba-ca/allergen-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/hvac-duct-assessments/": [
+    "/services/hvac-duct-assessments/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/hvac-duct-assessments/",
+    "/service-areas/dinuba-ca/hvac-duct-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/remediation-oversight/": [
+    "/services/remediation-oversight/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/remediation-oversight/",
+    "/service-areas/dinuba-ca/remediation-oversight/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/compliance-consulting/": [
+    "/services/compliance-consulting/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/compliance-consulting/",
+    "/service-areas/dinuba-ca/compliance-consulting/",
+    "/contact/"
+  ],
+  "/service-areas/fowler-ca/litigation-support-sampling/": [
+    "/services/litigation-support-sampling/",
+    "/service-areas/fowler-ca/",
+    "/service-areas/fowler-ca/indoor-air-quality-testing/",
+    "/service-areas/fowler-ca/mold-inspection-testing/",
+    "/service-areas/clovis-ca/litigation-support-sampling/",
+    "/service-areas/dinuba-ca/litigation-support-sampling/",
+    "/contact/"
+  ],
+  "/blog/do-i-need-mold-test-before-buying-house/": [
     "/blog/",
-    "/services/mold-inspection-testing/"
+    "/services/mold-inspection-testing/",
+    "/blog/how-much-does-mold-inspection-cost/",
+    "/blog/air-sampling-vs-surface-sampling/",
+    "/blog/diy-mold-test-kits-vs-professional-inspection/"
+  ],
+  "/blog/how-much-does-mold-inspection-cost/": [
+    "/blog/",
+    "/services/mold-inspection-testing/",
+    "/blog/do-i-need-mold-test-before-buying-house/",
+    "/blog/air-sampling-vs-surface-sampling/",
+    "/blog/diy-mold-test-kits-vs-professional-inspection/"
+  ],
+  "/blog/air-sampling-vs-surface-sampling/": [
+    "/blog/",
+    "/services/mold-inspection-testing/",
+    "/blog/do-i-need-mold-test-before-buying-house/",
+    "/blog/how-much-does-mold-inspection-cost/",
+    "/blog/diy-mold-test-kits-vs-professional-inspection/"
+  ],
+  "/blog/diy-mold-test-kits-vs-professional-inspection/": [
+    "/blog/",
+    "/services/mold-inspection-testing/",
+    "/blog/do-i-need-mold-test-before-buying-house/",
+    "/blog/how-much-does-mold-inspection-cost/",
+    "/blog/air-sampling-vs-surface-sampling/"
+  ],
+  "/blog/signs-of-bad-indoor-air-quality/": [
+    "/blog/",
+    "/services/indoor-air-quality-testing/"
+  ],
+  "/blog/asbestos-test-before-renovation/": [
+    "/blog/",
+    "/services/asbestos-testing/"
+  ],
+  "/blog/why-independent-mold-testing-matters/": [
+    "/blog/",
+    "/services/mold-inspection-testing/",
+    "/services/clearance-testing/",
+    "/blog/do-i-need-mold-test-before-buying-house/",
+    "/blog/how-much-does-mold-inspection-cost/",
+    "/blog/air-sampling-vs-surface-sampling/"
+  ],
+  "/blog/mold-testing-after-water-damage/": [
+    "/blog/",
+    "/services/mold-inspection-testing/",
+    "/services/post-flood-mold-assessment/",
+    "/blog/do-i-need-mold-test-before-buying-house/",
+    "/blog/how-much-does-mold-inspection-cost/",
+    "/blog/air-sampling-vs-surface-sampling/"
   ],
   "/privacy/": [],
   "/terms/": [],

@@ -43,12 +43,27 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `["CERTIFIED ASBESTOS CONSULTANT - LEAD INSPECTOR ASSESSOR - NIOSH 582 MICROSCOPIST"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
-| `24/7 restoration services in Kingsburg, CA.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `Independent environmental testing and inspections in Kingsburg, CA.` | brand.tagline | short marketing line |
+| `#113361` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.png` / `AE` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.archenviroservice.com` | `https://images.{domain}` | |
-| `- [Mold Inspection and Testing](https://archenviroservice.com/services/mold-inspection-testing/)` / `- [Kingsburg, CA](https://archenviroservice.com/service-areas/kingsburg-ca/)
+| `- [Mold Inspection and Testing](https://archenviroservice.com/services/mold-inspection-testing/)
+- [Indoor Air Quality Testing](https://archenviroservice.com/services/indoor-air-quality-testing/)
+- [Asbestos Testing and Inspection](https://archenviroservice.com/services/asbestos-testing/)
+- [Lead Paint Testing and Inspection](https://archenviroservice.com/services/lead-paint-testing/)
+- [Water Quality Testing](https://archenviroservice.com/services/water-quality-testing/)
+- [Clearance Testing and Post-Remediation Verification](https://archenviroservice.com/services/clearance-testing/)
+- [Environmental Site Assessments](https://archenviroservice.com/services/environmental-site-assessments/)
+- [Radon Testing](https://archenviroservice.com/services/radon-testing/)
+- [VOC and Formaldehyde Testing](https://archenviroservice.com/services/voc-formaldehyde-testing/)
+- [Sewage Contamination Assessment](https://archenviroservice.com/services/sewage-contamination-assessment/)
+- [Post-Flood Mold Assessment](https://archenviroservice.com/services/post-flood-mold-assessment/)
+- [Allergen Testing](https://archenviroservice.com/services/allergen-testing/)
+- [HVAC and Duct System Assessments](https://archenviroservice.com/services/hvac-duct-assessments/)
+- [Remediation Oversight and Project Management](https://archenviroservice.com/services/remediation-oversight/)
+- [Environmental Compliance Consulting](https://archenviroservice.com/services/compliance-consulting/)
+- [Litigation Support and Forensic Sampling](https://archenviroservice.com/services/litigation-support-sampling/)` / `- [Kingsburg, CA](https://archenviroservice.com/service-areas/kingsburg-ca/)
 - [Fresno, CA](https://archenviroservice.com/service-areas/fresno-ca/)
 - [Visalia, CA](https://archenviroservice.com/service-areas/visalia-ca/)
 - [Clovis, CA](https://archenviroservice.com/service-areas/clovis-ca/)

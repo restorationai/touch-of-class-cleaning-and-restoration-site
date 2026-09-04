@@ -47,10 +47,20 @@ def pending_pages(slug: str) -> int:
     n = 0
     for p in base.rglob("*.md"):
         try:
-            head = p.read_text(errors="ignore")[:600]
+            raw = p.read_text(errors="ignore")
         except OSError:
             continue
-        if re.search(r"^rendered:\s*false\b", head, re.M):
+        # Examine the WHOLE frontmatter block (FAQ/link arrays run past any
+        # fixed head window — a 600-char peek marked live sites pending).
+        # Pending = frontmatter NOT carrying rendered:true, matching
+        # build_site render's own skip logic (fresh scaffolds carry no
+        # rendered: key at all — Arch 2026-09-04).
+        fm = raw
+        if raw.startswith("---"):
+            end = raw.find("\n---", 3)
+            if end != -1:
+                fm = raw[:end + 4]
+        if not re.search(r"^rendered:\s*true\b", fm, re.M):
             n += 1
     return n
 
@@ -115,6 +125,14 @@ def main() -> int:
     for d in sorted(SITES.iterdir()):
         if not (d / "src").is_dir():
             continue
+        # never spend render budget on paused/suspended accounts
+        try:
+            status = str(json.loads((CLIENTS / f"{d.name}.json").read_text())
+                         .get("status") or "").lower()
+            if status in ("paused", "suspended", "inactive", "cancelled"):
+                continue
+        except (OSError, json.JSONDecodeError):
+            pass
         n = pending_pages(d.name)
         if n:
             inventory.append((d.name, n))

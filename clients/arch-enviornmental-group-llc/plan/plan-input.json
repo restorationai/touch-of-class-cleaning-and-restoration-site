@@ -19,10 +19,28 @@
     "trust_badges": [
       "Licensed & Insured",
       "Locally Owned & Operated"
-    ]
+    ],
+    "primary_color": "#113361",
+    "accent_color": "#4f7a5f",
+    "dark_color": "#111827"
   },
   "services": [
-    "mold-inspection-testing"
+    "mold-inspection-testing",
+    "indoor-air-quality-testing",
+    "asbestos-testing",
+    "lead-paint-testing",
+    "water-quality-testing",
+    "clearance-testing",
+    "environmental-site-assessments",
+    "radon-testing",
+    "voc-formaldehyde-testing",
+    "sewage-contamination-assessment",
+    "post-flood-mold-assessment",
+    "allergen-testing",
+    "hvac-duct-assessments",
+    "remediation-oversight",
+    "compliance-consulting",
+    "litigation-support-sampling"
   ],
   "service_areas": [
     {
@@ -72,6 +90,6 @@
       "slug": "fowler-ca"
     }
   ],
-  "template": "restoration",
+  "template": "environmental",
   "blog_seed_count": 8
 }
