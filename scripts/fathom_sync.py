@@ -441,7 +441,10 @@ def recap_contact(company: dict) -> dict | None:
     cards = ints.get("contacts") or []
     card = next((c for c in cards if c.get("preferred")), cards[0] if cards else None)
     phone = (card or {}).get("cell") or (card or {}).get("phone") or company.get("phone")
-    gid = ghl_contact_for(company)
+    # The chosen card's OWN GHL contact id — ghl_contact_for returns the
+    # first card's id, which routed Josiah's recap into Terry's thread
+    # (HomeLyft 2026-09-04: phone from the preferred card, id from another).
+    gid = (card or {}).get("ghl_contact_id") or ghl_contact_for(company)
     if not (gid and phone):
         return None
     return {"id": gid, "phone": phone, "email": (card or {}).get("email") or company.get("email")}
