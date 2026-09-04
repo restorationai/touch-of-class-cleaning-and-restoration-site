@@ -1,5 +1,26 @@
 # Working State — leave-and-resume doc
 
+## 2026-09-03 NIGHT — toll-free auto-registration pipeline LIVE end to end
+
+Full loop shipped in one evening (Santino approved each stage): DISS TFV
+submitted by hand-iteration (learned Twilio's new BusinessType/EIN triple),
+recipe baked into twilio-tollfree edge fn + wizard (visible phone field,
+owner-card contact, Business Type select, branded sample). Then
+scripts/tollfree_autoreg.py: audit / submit / provision (system n8n flow) /
+watch. TONIGHT: Frontline+Crew+HomeLyft+LifeSavers TFV submitted (5 pending
+w/ DISS); PD/QCI/LifeSavers got OWN dispatcher toll-frees (+18773527138 /
++18445432719 / +18557294418 — in Retell, NO inbound agent yet); 7 Monica
+EIN asks filed ([FOR MONICA], marker EIN-ASK-{cid}, 30d re-ask);
+watch --apply in nightly client-ops-sync; EIN capture from client texts in
+concierge (_maybe_capture_ein); QUEUED CUTOVER in dispatch-review-requests
+self-heal (pin clears only at zero mid-drip — deployed); rejections file
+TODO-SANTINO, never blind-resubmit. Scope: active Rank AI plan only
+("paused" now counts inactive). Also: cloud note scheduling
+(status=scheduled + send_after, promoted by live cycles — Sarha's LSA ask
+fires 09-04 6:57am PT); Air Care Ads acct 651-449-5227 under MCC; Retell
+cost audit (~$4/day; ProRest+Orl uncovered; DriPro/HomePride/Davis negative
+wallets = failed recharges, unaddressed).
+
 ## 2026-09-03 LATE EVENING — stress test PASSED + Bobby uniform batch SHIPPED
 
 Stress test run 33812348268: both buckets GREEN on the 11-card real load.
