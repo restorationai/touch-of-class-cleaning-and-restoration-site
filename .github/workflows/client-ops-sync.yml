@@ -283,6 +283,16 @@ jobs:
         run: |
           python3 scripts/stripe_reconcile.py || echo "stripe-reconcile failed (non-fatal)"
 
+      - name: Toll-free auto-registration watch
+        # Rank AI plan actives: submit Twilio TFV the moment a client is
+        # ready; file the Monica EIN ask (once/30d) for those missing it.
+        # EIN capture from client texts lives in client_concierge.
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python3 scripts/tollfree_autoreg.py watch --apply || echo "tollfree watch failed (non-fatal)"
+
       - name: Commit refreshed client data
         run: |
           # sites/ too: the auto-build path (setup_ledger.ensure_auto_site_build)

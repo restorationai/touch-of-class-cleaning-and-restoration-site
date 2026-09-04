@@ -46,7 +46,7 @@ import urllib.request
 from datetime import datetime, timezone
 
 TF_RE = re.compile(r"^\+1(800|833|844|855|866|877|888)")
-INACTIVE = {"inactive", "cancelled", "canceled", "suspended"}
+INACTIVE = {"inactive", "cancelled", "canceled", "suspended", "paused"}
 
 
 def _sb(method: str, path: str, body=None, prefer="return=representation"):
@@ -94,7 +94,7 @@ def fetch_fleet() -> list[dict]:
                "twilio_auth_token,twilio_phone_number_sid,opt_in_image_url"
                "&limit=1000") or []
     comps = {c["id"]: c for c in (_sb("GET", "/rest/v1/companies?select=id,"
-             "name,status,ein,address,city,state,postal_code,website,phone,"
+             "name,status,plan,ein,address,city,state,postal_code,website,phone,"
              "integration_settings&limit=1000") or [])}
     out = []
     for r in rows:
@@ -111,6 +111,10 @@ def assess(r: dict) -> tuple[str, list[str]]:
     c = r["company"]
     if str(c.get("status") or "").strip().lower() in INACTIVE:
         return "SKIP", ["inactive"]
+    # Santino 2026-09-03: the pipeline targets the Rank AI plan only —
+    # Leakproof / Rapid Response era accounts are out of scope.
+    if (c.get("plan") or "").strip().lower() != "rank ai":
+        return "SKIP", [f"plan={c.get('plan') or 'unset'}"]
     if (r.get("compliance_status") or "not_started") in ("approved", "pending"):
         return "SUBMITTED", []
     missing = []
@@ -349,12 +353,163 @@ def submit_one(r: dict, apply: bool) -> bool:
             "line1": c["address"], "city": c["city"], "state": c["state"],
             "zip": c["postal_code"], "country": "US"}),
     }, prefer="return=minimal")
-    _sb("POST", "/rest/v1/marketing_work_log", {
-        "company_id": cid, "kind": "tollfree-verification-submitted",
-        "summary": f"Toll-free SMS verification submitted for {tf} "
-                   f"({res.get('sid')})",
-    }, prefer="return=minimal")
+    try:
+        _sb("POST", "/rest/v1/marketing_work_log", {
+            "company_id": cid, "actor": "tollfree_autoreg",
+            "category": "compliance", "action": "tollfree-verification-submitted",
+            "detail": f"Toll-free SMS verification submitted for {tf} "
+                      f"({res.get('sid')})",
+        }, prefer="return=minimal")
+    except urllib.error.HTTPError as e:
+        print(f"  (work_log line failed: {e.code} — submission itself is in)")
     return True
+
+
+# ---------------------------------------------------------------- provision
+
+N8N = "https://restorationai.app.n8n.cloud/webhook"
+
+
+def _n8n(path: str, body: dict, timeout: int = 300):
+    req = urllib.request.Request(f"{N8N}/{path}",
+        data=json.dumps(body).encode(),
+        headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        raw = r.read()
+        try:
+            return json.loads(raw) if raw else None
+        except json.JSONDecodeError:
+            return raw.decode()[:200]
+
+
+def cmd_provision(args) -> int:
+    """Purchase a toll-free dispatcher line for one company through the SAME
+    n8n orchestration the app's ProvisionNumberModal uses (subaccount + SIP
+    trunk on the first line, number purchase, Retell wiring), then write the
+    company_phone_numbers row the modal writes. Initial lines only — no
+    overage webhook (that path is for lines beyond the plan allowance)."""
+    cid = args.company
+    comp = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=id,name,plan,"
+                "status,transfer_primary,transfer_secondary,transfer_third")
+            or [None])[0]
+    if not comp:
+        print(f"no company {cid}")
+        return 1
+    name = comp["name"].strip()
+    if str(comp.get("status") or "").lower() in INACTIVE:
+        print(f"[{name}] inactive — refusing")
+        return 1
+    if (comp.get("plan") or "").strip().lower() != "rank ai":
+        print(f"[{name}] plan={comp.get('plan')} — Rank AI only, refusing")
+        return 1
+    existing = _sb("GET", "/rest/v1/company_phone_numbers?"
+                   f"company_id=eq.{cid}&select=phone_number") or []
+    setup = (_sb("GET", f"/rest/v1/company_phone_setup?id=eq.{cid}"
+                 "&select=agent_phone_1") or [None])[0]
+    if existing or (setup and setup.get("agent_phone_1")):
+        print(f"[{name}] already has a line "
+              f"({existing or setup.get('agent_phone_1')}) — refusing "
+              "(one dispatcher line per client; a second is a human call)")
+        return 1
+    found = _n8n("find-twilio-numbers",
+                 {"companyId": cid, "search": "", "type": "tollFree",
+                  "timestamp": datetime.now(timezone.utc).isoformat()},
+                 timeout=60)
+    nums = []
+    if isinstance(found, list) and found and isinstance(found[0], dict) \
+            and "value" in found[0]:
+        nums = found
+    elif isinstance(found, list) and found and isinstance(found[0], dict):
+        nums = found[0].get("numbers") or []
+    elif isinstance(found, dict):
+        nums = found.get("numbers") or []
+    elif isinstance(found, list):
+        nums = found
+    if not nums:
+        print(f"[{name}] no toll-free numbers returned by search")
+        return 1
+    pick = nums[0]["value"] if isinstance(nums[0], dict) else nums[0]
+    print(f"[{name}] picked {pick}")
+    if not args.apply:
+        print("  [dry-run] would provision via n8n phone-number-setup "
+              "(subaccount + trunk + purchase + Retell) and write the "
+              "primary company_phone_numbers row")
+        return 0
+    res = _n8n("phone-number-setup",
+               {"companyId": cid, "phone": pick, "isInitialLine": True,
+                "timestamp": datetime.now(timezone.utc).isoformat()})
+    print(f"  n8n phone-number-setup -> {str(res)[:120]}")
+    _sb("POST", "/rest/v1/company_phone_numbers", {
+        "company_id": cid, "phone_number": pick, "is_primary": True,
+        "label": "Main Line",
+        "transfer_primary": comp.get("transfer_primary"),
+        "transfer_secondary": comp.get("transfer_secondary"),
+        "transfer_third": comp.get("transfer_third"),
+        "standard_outcome": "book_appointment",
+        "emergency_outcome": "immediate_dispatch",
+        "book_appointments_enabled": True,
+        "verify_insurance_enabled": True,
+        "mention_ai_identity_enabled": False,
+        "collect_email_enabled": False,
+        "call_acceptance_protocol": None,
+        "rapid_disqualification_enabled": False,
+    }, prefer="return=minimal")
+    after = (_sb("GET", f"/rest/v1/company_phone_setup?id=eq.{cid}"
+                 "&select=agent_phone_1,twilio_subaccount_sid") or [None])[0]
+    print(f"  phone_setup after: agent_phone_1={after and after.get('agent_phone_1')} "
+          f"subaccount={'yes' if after and after.get('twilio_subaccount_sid') else 'NO'}")
+    return 0
+
+
+# --------------------------------------------------------------------- watch
+
+def cmd_watch(args) -> int:
+    """The recurring loop (CI): for every active Rank AI client with a
+    toll-free dispatcher line —
+      * missing ONLY the EIN  -> file the Monica ask once (marker
+        EIN-ASK-{cid}; re-ask no sooner than 30 days)
+      * READY                 -> submit the Twilio verification
+    EIN capture happens in client_concierge (_maybe_capture_ein) when the
+    client texts it back; this cycle then finds them READY and submits."""
+    fleet = fetch_fleet()
+    asked = submitted = 0
+    for r in fleet:
+        v, _missing = assess(r)
+        c, cid = r["company"], r["id"]
+        if v == "READY":
+            if submit_one(r, args.apply):
+                submitted += 1
+            continue
+        if v != "ASK-EIN":
+            continue
+        marker = f"EIN-ASK-{cid}"
+        prior = _sb("GET", "/rest/v1/marketing_ops_notes?"
+                    f"company_id=eq.{cid}&body=like.*{marker}*"
+                    "&select=id,created_at&order=created_at.desc&limit=1") or []
+        if prior:
+            age = (datetime.now(timezone.utc)
+                   - datetime.fromisoformat(
+                       prior[0]["created_at"].replace(" ", "T")
+                       .replace("+00", "+00:00"))).days
+            if age < 30:
+                continue
+        card = owner_card(
+            (c.get("integration_settings") or {}).get("contacts")) or {}
+        first = card.get("first_name") or "there"
+        body = (f"[FOR MONICA] Ask {first} for the business federal EIN "
+                "(tax ID, the 9-digit XX-XXXXXXX number) so we can register "
+                "their new business texting line with the phone carriers - "
+                "it is a compliance requirement and takes them ten seconds. "
+                "They can just text the number back here. "
+                f"(ref {marker})")
+        print(f"[{c['name']}] filing EIN ask"
+              + ("" if args.apply else "  [dry-run]"))
+        if args.apply:
+            _sb("POST", "/rest/v1/marketing_ops_notes",
+                {"company_id": cid, "body": body}, prefer="return=minimal")
+            asked += 1
+    print(f"\nwatch done: {submitted} submitted, {asked} EIN ask(s) filed")
+    return 0
 
 
 # --------------------------------------------------------------------- audit
@@ -392,7 +547,16 @@ def main() -> int:
     ps.add_argument("--apply", action="store_true")
     pr = sub.add_parser("submit-ready")
     pr.add_argument("--apply", action="store_true")
+    pv = sub.add_parser("provision")
+    pv.add_argument("--company", required=True)
+    pv.add_argument("--apply", action="store_true")
+    pw = sub.add_parser("watch")
+    pw.add_argument("--apply", action="store_true")
     args = ap.parse_args()
+    if args.cmd == "provision":
+        return cmd_provision(args)
+    if args.cmd == "watch":
+        return cmd_watch(args)
     if args.cmd in (None, "audit"):
         return cmd_audit(args)
     fleet = fetch_fleet()

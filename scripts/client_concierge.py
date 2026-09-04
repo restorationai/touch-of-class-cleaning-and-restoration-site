@@ -8228,6 +8228,51 @@ def _record_handled(state: dict, msg_id: str) -> None:
         del ids[:-HANDLED_IDS_MAX]   # bound the ledger, keep the newest
 
 
+_EIN_RE = re.compile(r"\b(\d{2})[- ]?(\d{7})\b")
+
+
+def _maybe_capture_ein(company: dict, msgs: list[dict], dry_run: bool) -> None:
+    """Toll-free auto-registration loop (Santino 2026-09-03): when we've
+    asked a client for their EIN (an EIN-ASK-{cid} marker note exists) and
+    their phone setup still lacks one, scan their inbound texts for it and
+    write it to the account. tollfree_autoreg.py's watch cycle then submits
+    the Twilio verification automatically. Never fatal — a capture failure
+    must not break inbound processing."""
+    try:
+        cid = company["id"]
+        setup = (_sb("GET", f"/rest/v1/company_phone_setup?id=eq.{cid}"
+                     "&select=business_ein") or [None])[0]
+        if not setup or setup.get("business_ein"):
+            return
+        asked = _sb("GET", "/rest/v1/marketing_ops_notes?"
+                    f"company_id=eq.{cid}&body=like.*EIN-ASK-{cid}*"
+                    "&select=id&limit=1")
+        if not asked:
+            return
+        for m in msgs:
+            hit = _EIN_RE.search(str(m.get("body") or ""))
+            if not hit:
+                continue
+            ein = f"{hit.group(1)}-{hit.group(2)}"
+            if ein.startswith("00"):
+                continue
+            print(f"  [ein-capture] {company.get('name')}: EIN {ein} "
+                  f"captured from inbound text"
+                  + (" [dry-run]" if dry_run else ""))
+            if not dry_run:
+                _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}",
+                    {"business_ein": ein}, prefer="return=minimal")
+                _sb("POST", "/rest/v1/marketing_work_log", {
+                    "company_id": cid, "actor": "concierge",
+                    "category": "compliance", "action": "ein-captured",
+                    "detail": f"EIN {ein} captured from client text; "
+                              "toll-free verification submits on the next "
+                              "watch cycle"}, prefer="return=minimal")
+            return
+    except Exception as e:  # noqa: BLE001
+        print(f"  [ein-capture] failed: {str(e)[:120]}")
+
+
 def process_inbound_messages(state: dict, company: dict, contact_id: str,
                              msgs: list[dict], do_send: bool, dry_run: bool,
                              compose_next: bool = False) -> dict:
@@ -8259,6 +8304,8 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
            "queued": 0, "feedback_seen": 0}
     handled = set(state.get("handled_msg_ids") or [])
     msgs = [m for m in msgs if m["id"] not in handled]
+    if msgs:
+        _maybe_capture_ein(company, msgs, dry_run)
     if not msgs:
         return out
     open_items = gather_items(company_id)
