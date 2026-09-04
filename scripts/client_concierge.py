@@ -9157,11 +9157,32 @@ def webhook_inbound(contact_id: str, do_send: bool = True) -> dict:
             "compose_ran": composed}
 
 
+def promote_scheduled_notes() -> None:
+    """Cloud-side note scheduling (Santino 2026-09-03): a note inserted with
+    status='scheduled' and a send_after timestamp is invisible to every
+    reader (they all filter status=eq.open) until a cloud cycle promotes it
+    here. This replaces one-shot launchd jobs on Santino's Mac — the queue
+    lives in Supabase and any cycle (Railway 30-min or the GH workflow)
+    promotes on time, laptop closed or not."""
+    # Z-form timestamp — an isoformat "+00:00" offset reads as a space in the
+    # query string and 400s the PATCH
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    rows = _sb("PATCH",
+               "/rest/v1/marketing_ops_notes?status=eq.scheduled"
+               f"&send_after=lte.{now}&select=id,company_id",
+               {"status": "open"}) or []
+    for r in rows:
+        print(f"[scheduled-note promoted to open: {r['id']} "
+              f"({r.get('company_id')})]")
+
+
 def cmd_inbound(args) -> int:
     if not args.poll:
         print("inbound: pass --poll", file=sys.stderr)
         return 1
     dry_run = not args.send
+    if not dry_run:
+        promote_scheduled_notes()
     state = load_state()
     run_start = datetime.now(timezone.utc)
     cursor = state.get("inbound_cursor")
