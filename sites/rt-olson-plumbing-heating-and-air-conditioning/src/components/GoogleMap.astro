@@ -29,7 +29,12 @@ const servingLine = remote
 // Free Google Maps embed of the client's REAL Business Profile — no API key needed,
 // so it always renders (the old Embed-API path showed nothing without a key). Name-
 // first query so Google matches the GBP and shows the business info card + rating.
-const mapQuery = encodeURIComponent(`${brand.displayName} ${hqCity} ${hqState}`);
+// place_id-first (Bobby 2026-09-04: the name+city query matched the WRONG
+// RT Olson listing — a 43-review namesake — while brand.placeId held the
+// real 580-review profile). Name query only as fallback when no placeId.
+const mapQuery = brand.placeId
+  ? `place_id:${brand.placeId}`
+  : encodeURIComponent(`${brand.displayName} ${hqCity} ${hqState}`);
 const embedSrc = `https://www.google.com/maps?q=${mapQuery}&output=embed`;
 
 const fullAddress = `${brand.streetAddress}, ${hqCity}, ${hqState} ${brand.postalCode}`;
