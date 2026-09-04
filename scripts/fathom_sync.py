@@ -502,6 +502,264 @@ def send_meeting_recap(company: dict, slug: str, m: dict, *, title: str,
         print(f"    recap blocked ({str(e)[:110]}) — retrying next cycle")
 
 
+# ---------------------------------------------------------------- auto-booking
+
+LIVE_SUPPORT_CAL = "BhEoJmoyowCaOpALMn61"     # Restoration AI - LIVE Support Call
+FOLLOWUP_CAL = "uZ7whcPD6NFDqcSu0hCf"         # Restoration AI - Follow Up Calendar
+CONFLICT_SCAN_CALS = (LIVE_SUPPORT_CAL, FOLLOWUP_CAL,
+                      "47qZ23NkTjsoyUhIKZPV",  # Santino personal
+                      "DcoatVel3rEw01lKoGlA", "f6zNXUVXpPVdZtlknNNF")  # kickoffs
+GHL_ASSIGNED_USER = os.environ.get("GHL_ASSIGNED_USER_ID", "xTuHtBz8G7Z4fyhAJ9kJ")
+
+BOOKING_SYSTEM = """\
+You read the END of a call transcript between a marketing agency (Santino)
+and a client, deciding whether a SPECIFIC follow-up meeting time was
+verbally CONFIRMED BY BOTH SIDES.
+
+Rules:
+- Book ONLY a concrete, mutually confirmed day+time. Relative references
+  ("Friday of next week, same time", "tomorrow at 2") ARE concrete: resolve
+  them against the provided call start datetime. "Sometime next week",
+  "I'll send you times", or an unanswered proposal are NOT agreements.
+- "Same time" means the same clock time as this call's start.
+- A bare clock time ("1 PM") is in the CLIENT's timezone unless the words
+  say otherwise.
+- Tentative language followed by a firm pin-down and acknowledgment
+  ("let's do Friday, same time" ... "Cool") IS confirmed.
+Return ONLY JSON:
+{"agreed": true|false,
+ "start_iso": "YYYY-MM-DDTHH:MM:SS-07:00 or null",
+ "quote": "the exact exchange you relied on (both speakers), or null",
+ "confidence": "high"|"low"}
+start_iso must carry the correct UTC offset for the timezone you resolved.
+Never guess: if the day or time is ambiguous, agreed=false."""
+
+
+def _ghl_api(method: str, path: str, body=None):
+    r = requests.request(
+        method, f"https://services.leadconnectorhq.com{path}", json=body,
+        headers={"Authorization": f"Bearer {os.environ['GHL_API_KEY']}",
+                 "Version": "2021-07-28"}, timeout=30)
+    r.raise_for_status()
+    return r.json() if r.content else {}
+
+
+def fathom_transcript_tail(rid: str, chars: int = 9000) -> str:
+    r = requests.get(f"{FATHOM_API}/recordings/{rid}/transcript",
+                     headers={"X-Api-Key": os.environ["FATHOM_API_KEY"]},
+                     timeout=60)
+    r.raise_for_status()
+    lines = []
+    for seg in r.json().get("transcript") or []:
+        who = ((seg.get("speaker") or {}).get("display_name") or "?")
+        lines.append(f"{who}: {seg.get('text') or ''}")
+    return "\n".join(lines)[-chars:]
+
+
+def _overlap_is_same_client(events: list, contact: dict, company: dict) -> bool:
+    """True when an overlapping calendar event belongs to THIS client —
+    matched by contact id or by any client-name token pair in the title."""
+    tokens = set()
+    ints = company.get("integration_settings") or {}
+    if isinstance(ints, str):
+        try:
+            ints = json.loads(ints)
+        except (ValueError, TypeError):
+            ints = {}
+    for c in ints.get("contacts") or []:
+        full = f"{c.get('first_name', '')} {c.get('last_name', '')}".strip()
+        if len(full) > 4:
+            tokens.add(full.lower())
+    for k in ("account_owner_name", "name"):
+        v = str(company.get(k) or "").strip()
+        if len(v) > 4:
+            tokens.add(v.lower())
+    for e in events:
+        if e.get("contactId") == contact.get("id"):
+            return True
+        t = str(e.get("title") or "").lower()
+        if any(tok in t for tok in tokens):
+            return True
+    return False
+
+
+def book_agreed_followup(company: dict, slug: str, m: dict, *, title: str,
+                         dry_run: bool, state: dict) -> None:
+    """Verbal scheduling agreements become real appointments (Santino
+    2026-09-04, Josiah + Scott cases). Concrete mutually-confirmed times
+    only; timezone resolved against the call's own start; conflicts checked
+    against the REAL calendars (round-robin availability lies); confirmed
+    Rank AI clients land on the Live Support Call calendar, everyone else
+    on the Follow Up calendar. Idempotent per recording."""
+    rid = str(m.get("recording_id"))
+    bookings = state.setdefault("bookings", {})
+    if bookings.get(rid):
+        return
+    start_raw = m.get("recording_start_time") or m.get("created_at") or ""
+    try:
+        call_start = datetime.fromisoformat(start_raw.replace("Z", "+00:00"))
+        if call_start.tzinfo is None:
+            call_start = call_start.replace(tzinfo=timezone.utc)
+    except (ValueError, TypeError):
+        bookings[rid] = "no-start-time"
+        return
+    if (datetime.now(timezone.utc) - call_start).total_seconds() > 30 * 3600:
+        bookings[rid] = "too-old"
+        return
+    contact = recap_contact(company)
+    if not contact:
+        bookings[rid] = "no-contact"
+        return
+    client_tz = "unknown"
+    try:
+        cd = _ghl_api("GET", f"/contacts/{contact['id']}")
+        client_tz = ((cd.get("contact") or {}).get("timezone")
+                     or (cd.get("contact") or {}).get("timeZone") or "unknown")
+    except Exception:  # noqa: BLE001
+        pass
+    try:
+        tail = fathom_transcript_tail(rid)
+    except Exception as e:  # noqa: BLE001 — transcript lags recording; retry
+        print(f"    booking: transcript not ready ({str(e)[:60]}) — next cycle")
+        return
+    if not tail.strip():
+        bookings[rid] = "no-transcript"
+        return
+    pt = call_start.astimezone(timezone(timedelta(hours=-7)))
+    try:
+        out = anthropic_json(
+            BOOKING_SYSTEM,
+            f"Call start: {pt.strftime('%A %Y-%m-%d %H:%M')} Pacific Time "
+            f"({call_start.isoformat()}).\n"
+            f"Client: {company.get('name')} — client timezone: {client_tz}.\n\n"
+            f"End of transcript:\n{tail}")
+    except Exception as e:  # noqa: BLE001
+        print(f"    booking: extract failed ({str(e)[:80]}) — next cycle")
+        return
+    if not (out.get("agreed") and out.get("start_iso")
+            and out.get("confidence") == "high" and out.get("quote")):
+        bookings[rid] = "no-agreement"
+        print("    booking: no confirmed follow-up time on this call")
+        return
+    try:
+        target = datetime.fromisoformat(str(out["start_iso"]))
+        assert target.tzinfo is not None
+    except (ValueError, AssertionError):
+        bookings[rid] = "bad-iso"
+        return
+    now = datetime.now(timezone.utc)
+    if not (now + timedelta(hours=1) <= target <= now + timedelta(days=45)):
+        bookings[rid] = "window-rejected"
+        print(f"    booking: {target.isoformat()} outside sane window — skipped")
+        return
+    if not (6 <= target.hour <= 21):
+        bookings[rid] = "odd-hour"
+        print(f"    booking: {target.isoformat()} is an odd hour — flagged, not booked")
+        if dry_run:
+            return
+        sb_insert_note(company["id"],
+                       f"[TODO-SANTINO] The {title} call agreed on a follow-up "
+                       f"at {out['start_iso']} which looks like an odd hour. "
+                       f"Quote: {str(out.get('quote'))[:200]}. Book by hand.")
+        return
+    # duplicate: an existing non-cancelled appointment within 90 min?
+    try:
+        evs = _ghl_api("GET", f"/contacts/{contact['id']}/appointments"
+                       ).get("events") or []
+        for e in evs:
+            st = str(e.get("startTime") or "")
+            if not st or e.get("appointmentStatus") == "cancelled":
+                continue
+            try:
+                est = datetime.fromisoformat(st.replace(" ", "T"))
+                if est.tzinfo is None:
+                    est = est.replace(tzinfo=timezone(timedelta(hours=-7)))
+            except ValueError:
+                continue
+            if abs((est - target).total_seconds()) <= 90 * 60:
+                bookings[rid] = "already-booked"
+                print(f"    booking: appointment already exists at {st} — done")
+                return
+    except Exception:  # noqa: BLE001
+        pass
+    # conflict: anything real on Santino's calendars overlapping the slot?
+    s_ms = int((target - timedelta(minutes=15)).timestamp() * 1000)
+    e_ms = int((target + timedelta(minutes=45)).timestamp() * 1000)
+    loc = os.environ["GHL_LOCATION_ID"]
+    for cal in CONFLICT_SCAN_CALS:
+        try:
+            evs = _ghl_api("GET", f"/calendars/events?locationId={loc}"
+                           f"&calendarId={cal}&startTime={s_ms}&endTime={e_ms}"
+                           ).get("events") or []
+        except Exception:  # noqa: BLE001
+            continue
+        live = [e for e in evs if e.get("appointmentStatus") != "cancelled"]
+        if not live:
+            continue
+        # An overlapping event for THIS client is a duplicate (someone —
+        # possibly a human — already booked it), not a conflict. Clients can
+        # have multiple GHL contacts (Josiah 2026-09-04: appointments on one,
+        # concierge card on another), so match by contact OR by name.
+        if _overlap_is_same_client(live, contact, company):
+            bookings[rid] = "already-booked"
+            print(f"    booking: '{live[0].get('title')}' already on the "
+                  "calendar for this client — done")
+            return
+        bookings[rid] = "conflict"
+        print(f"    booking: CONFLICT with '{live[0].get('title')}' — flagged")
+        if not dry_run:
+            sb_insert_note(company["id"],
+                           f"[TODO-SANTINO] {company.get('name')} verbally agreed "
+                           f"to a follow-up at {out['start_iso']} on the {title} "
+                           f"call, but that slot conflicts with "
+                           f"'{live[0].get('title')}'. Quote: "
+                           f"{str(out.get('quote'))[:200]}. Rebook by hand.")
+        return
+    is_client = ((company.get("plan") or "").strip().lower() == "rank ai"
+                 and str(company.get("status") or "").strip().lower()
+                 not in ("inactive", "cancelled", "canceled", "suspended",
+                         "paused"))
+    cal_id = LIVE_SUPPORT_CAL if is_client else FOLLOWUP_CAL
+    dur_min = 30 if is_client else 15
+    ints = company.get("integration_settings") or {}
+    if isinstance(ints, str):
+        try:
+            ints = json.loads(ints)
+        except (ValueError, TypeError):
+            ints = {}
+    card = next((c for c in (ints.get("contacts") or []) if c.get("preferred")),
+                None) or {}
+    who = (f"{card.get('first_name', '')} {card.get('last_name', '')}".strip()
+           or company.get("account_owner_name") or company.get("name"))
+    appt_title = (f"{who} - LIVE Support Call" if is_client
+                  else f"{who} - Follow Up Call")
+    if dry_run:
+        print(f"    [dry-run] would BOOK {appt_title} at {out['start_iso']} "
+              f"on {'Live Support' if is_client else 'Follow Up'} calendar\n"
+              f"      quote: {str(out.get('quote'))[:180]}")
+        return
+    try:
+        res = _ghl_api("POST", "/calendars/events/appointments", {
+            "calendarId": cal_id, "locationId": loc,
+            "contactId": contact["id"],
+            "startTime": out["start_iso"],
+            "endTime": (target + timedelta(minutes=dur_min)).isoformat(),
+            "title": appt_title, "assignedUserId": GHL_ASSIGNED_USER,
+            "appointmentStatus": "confirmed",
+            "ignoreFreeSlotValidation": True,
+        })
+        bookings[rid] = "booked"
+        print(f"    booking: BOOKED {appt_title} at {out['start_iso']} "
+              f"({res.get('id')})")
+    except Exception as e:  # noqa: BLE001
+        print(f"    booking failed ({str(e)[:110]}) — flagged for a human")
+        sb_insert_note(company["id"],
+                       f"[TODO-SANTINO] Could not auto-book the follow-up "
+                       f"{company.get('name')} agreed to at {out['start_iso']} "
+                       f"({title} call). Book by hand. Error: {str(e)[:120]}")
+        bookings[rid] = "book-failed"
+
+
 def write_heartbeat(run: dict, dry_run: bool) -> None:
     """The proof-of-life `watch` reads. Never fails the run."""
     if dry_run:
@@ -646,6 +904,8 @@ def cmd_sync(args) -> int:
                 send_meeting_recap(company, slug, m, title=title, when=when,
                                    summary_md=summary_md, dry_run=dry_run,
                                    state=state)
+                book_agreed_followup(company, slug, m, title=title,
+                                     dry_run=dry_run, state=state)
             state["processed"][rid] = slug
             save_state(state, dry_run)
         except Exception as e:  # noqa: BLE001 — one meeting, not the run
