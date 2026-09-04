@@ -253,6 +253,41 @@ def cmd_order(args) -> int:
     return 0
 
 
+
+def _sb_req(method: str, path: str, body=None, prefer="return=representation"):
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    req = urllib.request.Request(
+        os.environ["SUPABASE_URL"].rstrip("/") + path, method=method,
+        data=json.dumps(body).encode() if body is not None else None,
+        headers={"apikey": key, "Authorization": f"Bearer {key}",
+                 "Content-Type": "application/json", "Prefer": prefer})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        raw = r.read()
+        return json.loads(raw) if raw else None
+
+
+def _merge_citations_meta(cid: str, mutate) -> None:
+    """Read-modify-write the company's citations integration metadata (the
+    same row the app's Business Listings card reads). mutate(md) edits in
+    place. Creates the row when missing. Never clobbers keys it doesn't
+    touch."""
+    now = datetime.now(timezone.utc).isoformat()
+    rows = _sb_req("GET", "/rest/v1/user_integrations?client_id=eq." + cid
+                   + "&provider=eq.citations&select=id,connection_metadata") or []
+    if rows:
+        md = rows[0].get("connection_metadata") or {}
+        mutate(md)
+        _sb_req("PATCH", f"/rest/v1/user_integrations?id=eq.{rows[0]['id']}",
+                {"connection_metadata": md, "updated_at": now},
+                prefer="return=minimal")
+    else:
+        md = {}
+        mutate(md)
+        _sb_req("POST", "/rest/v1/user_integrations", {
+            "client_id": cid, "provider": "citations", "status": "active",
+            "connection_metadata": md}, prefer="return=minimal")
+
+
 def _company_id(slug: str) -> str | None:
     try:
         cmap = json.loads((CLIENTS / "company_map.json").read_text())
@@ -286,11 +321,6 @@ def cmd_sync(_args) -> int:
     NEWLY LIVE citation to the activity feed and the app's Business Listings
     card (listings.record_listing). Idempotent via the synced_live ledger in
     clients/{slug}.json brightlocal state."""
-    sys.path.insert(0, str(ROOT / "scripts"))
-    try:
-        from listings import record_listing
-    except ImportError:
-        record_listing = None
     for f in sorted(CLIENTS.glob("*.json")):
         try:
             c = json.loads(f.read_text())
@@ -306,36 +336,65 @@ def cmd_sync(_args) -> int:
         d = _bl("GET", f"/citation-builder/{bl['campaign_id']}")
         camp = d["campaigns"][0]
         synced = set(bl.get("synced_live") or [])
-        new_live = []
+        ordered_rows, new_live = [], []
         for cit in camp.get("citations") or []:
             if not isinstance(cit, dict):
                 continue
             domain = cit.get("domain") or cit.get("site")
+            if not domain:
+                continue
             status = str(cit.get("status") or "").lower()
             url = cit.get("url") or cit.get("live_url") or ""
-            if domain and status in ("live", "updated") and domain not in synced:
+            ordered_rows.append({"domain": domain, "status": status,
+                                 "url": url})
+            if status in ("live", "updated") and domain not in synced:
                 new_live.append((domain, url))
+        # availability menu (for the superadmin ranked panel), DA descending
+        try:
+            avail = _bl("GET", f"/citation-builder/{bl['campaign_id']}"
+                        "/citations").get("data") or []
+        except RuntimeError:
+            avail = []
+        avail_rows = sorted(
+            ({"domain": a.get("domain"),
+              "da": a.get("domain_authority") or 0,
+              "sab": a.get("is_sab_supported"),
+              "type": a.get("type")}
+             for a in avail if a.get("domain")),
+            key=lambda r: -r["da"])
+        if cid:
+            now = datetime.now(timezone.utc).isoformat()
+
+            def mut(md, _now=now, _ordered=ordered_rows, _avail=avail_rows,
+                    _live=new_live):
+                built = dict(md.get("built_listings") or {})
+                for domain, url in _live:
+                    prev = built.get(domain) or {}
+                    built[domain] = {
+                        "url": url or prev.get("url") or "",
+                        "status": "live",
+                        "created_at": prev.get("created_at") or _now,
+                        "source": "restoration_ai",
+                    }
+                md["built_listings"] = built
+                md["bl_ordered"] = _ordered
+                md["bl_available"] = _avail
+                md["bl_available_updated_at"] = _now
+
+            try:
+                _merge_citations_meta(cid, mut)
+            except Exception as e:  # noqa: BLE001
+                print(f"  (citations meta merge failed: {str(e)[:100]})")
         if not new_live:
             continue
         print(f"[{slug}] {len(new_live)} newly live citation(s)")
         for domain, url in new_live:
             if cid:
-                # record_listing writes BOTH the app Listings card entry and
-                # its own client-readable work-ledger line; the plain
-                # work_log is the no-URL fallback so the activity feed never
-                # misses a live citation.
-                logged = False
-                if record_listing and url:
-                    try:
-                        logged = record_listing(cid, domain, url)
-                    except Exception as e:  # noqa: BLE001
-                        print(f"  (record_listing {domain}: {str(e)[:80]})")
-                if not logged:
-                    _work_log(cid, "citation-live",
-                              f"New business listing built for you on {domain}"
-                              + (f": {url}" if url else ""),
-                              {"domain": domain, "url": url,
-                               "campaign_id": bl["campaign_id"]})
+                _work_log(cid, "citation-live",
+                          f"New business listing built for you on {domain}"
+                          + (f": {url}" if url else ""),
+                          {"domain": domain, "url": url,
+                           "campaign_id": bl["campaign_id"]})
             synced.add(domain)
         bl["synced_live"] = sorted(synced)
         c["brightlocal"] = bl
