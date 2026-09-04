@@ -23,9 +23,9 @@
     "starter_version": "0.1.0",
     "url_count": 169,
     "pages_status": "exists",
-    "last_rendered_at": "2026-09-03T16:34:04.227923+00:00",
+    "last_rendered_at": "2026-09-04T23:37:50.044315+00:00",
     "last_pushed_main_at": "2026-09-04T22:37:45.667927+00:00",
     "last_pushed_staging_at": "2026-09-04T22:37:37.825783+00:00"
   },
-  "build_status": "scaffolded"
+  "build_status": "content_partial"
 }
