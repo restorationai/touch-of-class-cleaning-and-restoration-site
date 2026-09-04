@@ -27,6 +27,13 @@ const badges: string[] =
         ...(sinceLabel ? [sinceLabel] : []),
         ...(isLicensed ? ["Licensed & Insured"] : []),
         ...(is247 ? ["24/7 Emergency Service"] : []),
+        // Value-forward fourth badge (Santino 2026-09-04): the strip should
+        // offer the customer something, not just describe us. Gated on the
+        // template actually shipping the free-estimate form; verticals that
+        // charge for the visit (environmental testing) override via
+        // brand.trustBadges instead.
+        ...((brand as { freeEstimates?: boolean }).freeEstimates !== false
+          ? ["Free Estimates"] : []),
         ...certBadges,
       ];
 
