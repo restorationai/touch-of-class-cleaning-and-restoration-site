@@ -1,0 +1,22 @@
+{
+ "domain": "archenviroservice.com",
+ "harvested_at": "2026-09-05T00:57:21+00:00",
+ "counts": {
+  "total": 1,
+  "sitemap": 0,
+  "crawl": 1,
+  "backlinked": 1,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://archenviroservice.com/",
+   "path": "/",
+   "title": "",
+   "backlinks": 20,
+   "referring_domains": 20,
+   "gsc_clicks": 0,
+   "source": "crawl,backlinks"
+  }
+ ]
+}
