@@ -22,10 +22,10 @@
     "starter_version": "0.1.0",
     "url_count": 76,
     "pages_status": "exists",
-    "last_rendered_at": "2026-09-02T20:57:20.753871+00:00",
+    "last_rendered_at": "2026-09-05T13:29:19.798061+00:00",
     "last_pushed_staging_at": "2026-09-05T05:05:06.744554+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "content_rendered",
   "cutover_prep": {
     "domain": "veteransremediation.com",
     "harvested_at": "2026-09-04T14:16:20+00:00",
