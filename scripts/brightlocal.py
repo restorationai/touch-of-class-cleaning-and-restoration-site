@@ -388,13 +388,33 @@ def cmd_sync(_args) -> int:
         if not new_live:
             continue
         print(f"[{slug}] {len(new_live)} newly live citation(s)")
+        # domains matching a NAMED app slot (Yelp, Apple Maps, BBB...) fill
+        # that slot via record_listing (URL input + audit entry + its own
+        # ledger line); everything else logs here and lives in
+        # built_listings (Santino 2026-09-04: live URLs must land in the
+        # right citation source automatically).
+        try:
+            sys.path.insert(0, str(ROOT / "scripts"))
+            from listings import PLATFORMS as _APP_SLOTS, record_listing
+        except ImportError:
+            _APP_SLOTS, record_listing = {}, None
         for domain, url in new_live:
             if cid:
-                _work_log(cid, "citation-live",
-                          f"New business listing built for you on {domain}"
-                          + (f": {url}" if url else ""),
-                          {"domain": domain, "url": url,
-                           "campaign_id": bl["campaign_id"]})
+                slot = next((k for k, (_lbl, doms) in _APP_SLOTS.items()
+                             if any(d in domain or domain in d
+                                    for d in doms)), None)
+                slotted = False
+                if slot and url and record_listing:
+                    try:
+                        slotted = record_listing(cid, slot, url)
+                    except Exception as e:  # noqa: BLE001
+                        print(f"  (slot write {slot}: {str(e)[:80]})")
+                if not slotted:
+                    _work_log(cid, "citation-live",
+                              f"New business listing built for you on {domain}"
+                              + (f": {url}" if url else ""),
+                              {"domain": domain, "url": url,
+                               "campaign_id": bl["campaign_id"]})
             synced.add(domain)
         bl["synced_live"] = sorted(synced)
         c["brightlocal"] = bl
