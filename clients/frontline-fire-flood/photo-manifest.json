@@ -750,6 +750,25 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {},
+  "slots": {
+    "team": {
+      "asset": "gbp:gbp-AF1QipOF9xgC5vYEnEwKU5jAJ6BGYqv9sJWCvCnXMCiX",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipOF9xgC5vYEnEwKU5jAJ6BGYqv9sJWCvCnXMCiX.jpg",
+      "category": "crew",
+      "subject": "Full Frontline Fire and Flood team posed in uniform under company sign",
+      "installed_at": "2026-09-05T04:34:58Z",
+      "file": "/images/team.webp"
+    },
+    "services": {
+      "asset": "gbp:gbp-AF1QipPiASNkDTVlXhqgSj4FLn64alGHDXvIitVITYYt",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipPiASNkDTVlXhqgSj4FLn64alGHDXvIitVITYYt.jpg",
+      "category": "equipment",
+      "subject": "Yellow drying hoses and floor mat system on hardwood in living room",
+      "installed_at": "2026-09-05T04:34:59Z",
+      "file": "/images/services.webp"
+    }
+  },
   "triaged_at": "2026-09-01T23:16:35Z"
 }
