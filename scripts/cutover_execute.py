@@ -287,6 +287,30 @@ def resolve_domain_soft(slug: str) -> str | None:
     return None
 
 
+def nudge_zone_activation(zone: dict | None) -> bool:
+    """NS correct at the registry but the zone still `pending` -> ask
+    Cloudflare to re-verify NOW instead of on its lazy schedule (Arch launch
+    2026-09-05: Santino's transfer was done, readiness stayed red for hours,
+    and the fix was one activation_check call). Returns True when the zone
+    reports active afterwards. Harmless to repeat, changes no config."""
+    if not zone or zone.get("status") == "active":
+        return bool(zone and zone.get("status") == "active")
+    try:
+        cf("PUT", f"/zones/{zone['id']}/activation_check")
+    except Exception:  # noqa: BLE001 — rate-limited repeats etc.; never fatal
+        pass
+    import time as _t
+    for _ in range(3):
+        _t.sleep(4)
+        try:
+            z = cf("GET", f"/zones/{zone['id']}").get("result") or {}
+            if z.get("status") == "active":
+                return True
+        except Exception:  # noqa: BLE001
+            break
+    return False
+
+
 def find_zone(domain: str) -> dict | None:
     res = cf("GET", f"/zones?name={domain}").get("result") or []
     return res[0] if res else None
@@ -618,6 +642,12 @@ def phase_ns(domain: str, zone: dict | None) -> Phase:
     ph.note(f"required NS: {', '.join(expected)}")
     if current == expected:
         ph.note("nameservers point at our Cloudflare zone")
+        if (zone or {}).get("status") != "active":
+            if nudge_zone_activation(zone):
+                ph.note("zone was pending — activation re-check flipped it ACTIVE")
+            else:
+                ph.note("zone still pending on Cloudflare's side — activation "
+                        "re-check triggered; safe to continue (NS verified)")
     else:
         ph.fail("waiting on nameserver transfer — the client must set exactly: "
                 + ", ".join(expected))
@@ -1210,6 +1240,11 @@ def cmd_status(slug: str) -> int:
         except Exception:
             pass
     ns_ready = bool(expected_ns) and current_ns == expected_ns
+    if ns_ready and zone and zone.get("status") != "active":
+        # self-heal: the transfer is done, Cloudflare just hasn't noticed —
+        # nudge it so the app's green arrives without a human in the loop
+        if nudge_zone_activation(zone):
+            zone["status"] = "active"
     # Top-level nameserver facts for the app's reference block (Santino
     # 2026-08-17: "Check launch readiness" never showed WHICH nameservers the
     # client must set). `required` is the zone's ASSIGNED pair — it only
