@@ -1,6 +1,6 @@
 {
  "domain": "archenviroservice.com",
- "captured_at": "2026-09-05T00:55:09+00:00",
+ "captured_at": "2026-09-05T00:57:37+00:00",
  "authoritative": {
   "ns": [
    "ns-cloud-d1.googledomains.com",
@@ -32,8 +32,11 @@
   "www_cname": []
  },
  "cf_zone": {
-  "zone_id": null,
-  "name_servers": [],
+  "zone_id": "c4bf5dbb30dc88a8723f49da33bb5bc6",
+  "name_servers": [
+   "daisy.ns.cloudflare.com",
+   "henry.ns.cloudflare.com"
+  ],
   "records": []
  }
 }
