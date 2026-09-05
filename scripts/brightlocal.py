@@ -329,7 +329,9 @@ def cmd_sync(_args) -> int:
         if not isinstance(c, dict):
             continue
         bl = c.get("brightlocal") or {}
-        if not bl.get("campaign_id") or not bl.get("ordered_at"):
+        # campaign without an order still syncs its acquirable-directory menu
+        # (fleet rollout 2026-09-04: every client's card shows the menu)
+        if not bl.get("campaign_id"):
             continue
         slug = f.stem
         cid = _company_id(slug)
