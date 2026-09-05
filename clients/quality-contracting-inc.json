@@ -48,5 +48,9 @@
     "last_audit_origin_source": "staging",
     "last_audit_form_factor": "desktop",
     "last_audit_seo_status": "inconclusive - staging noindex artifact, re-audit after apex cutover"
+  },
+  "brightlocal": {
+    "location_id": 4147630,
+    "campaign_id": 997471
   }
 }

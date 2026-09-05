@@ -86,7 +86,7 @@
     {
       "key": "lsa_not_serving",
       "title": "Google LSA not serving (verification stalled)",
-      "detail": "Local Services Ads aren't showing despite high bids/budget. Verification/background-check artifacts pending \u2014 needs manual follow-up with Google LSA support.",
+      "detail": "Local Services Ads aren't showing despite high bids/budget. Verification/background-check artifacts pending — needs manual follow-up with Google LSA support.",
       "severity": "high",
       "system": "ads",
       "status": "open"
@@ -119,5 +119,9 @@
     "backlinked_count": 1,
     "redirects_added": 1,
     "mapped_at": "2026-08-12T15:42:35+00:00"
+  },
+  "brightlocal": {
+    "location_id": 4147628,
+    "campaign_id": 997469
   }
 }

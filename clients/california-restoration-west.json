@@ -43,5 +43,9 @@
     "last_audit_origin_source": "staging",
     "last_audit_form_factor": "desktop",
     "last_audit_seo_inconclusive": true
+  },
+  "brightlocal": {
+    "location_id": 4147620,
+    "campaign_id": 997461
   }
 }

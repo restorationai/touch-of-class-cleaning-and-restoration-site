@@ -43,7 +43,7 @@
     "w9_address": "10805 W. NC Hwy 97, Middlesex, NC 27557",
     "source": "signed W-9 (rev 3-2024) provided by Todd to Santino 2026-08-12",
     "discrepancies": [
-      "EIN on W-9 (81-2229774) differs from the EIN Todd texted 2026-08-11 (81-2229721) \u2014 trust the signed W-9",
+      "EIN on W-9 (81-2229774) differs from the EIN Todd texted 2026-08-11 (81-2229721) — trust the signed W-9",
       "W-9 address (Middlesex 27557) differs from the GBP listing address (505 Gay Rd, Zebulon 27597)"
     ]
   },
@@ -55,5 +55,9 @@
     "last_audit_at": "2026-08-27T02:36:01Z",
     "last_audit_verdict": "green",
     "last_audit_report_path": "audit-runs/2026-08-27-onsite-audit.md"
+  },
+  "brightlocal": {
+    "location_id": 4147625,
+    "campaign_id": 997466
   }
 }

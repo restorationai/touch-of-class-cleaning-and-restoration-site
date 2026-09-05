@@ -57,5 +57,9 @@
     "last_audit_at": "2026-08-26T13:30:57Z",
     "last_audit_verdict": "amber",
     "last_audit_report_path": "audit-runs/2026-08-26-onsite-audit.md"
+  },
+  "brightlocal": {
+    "location_id": 4147618,
+    "campaign_id": 997459
   }
 }
