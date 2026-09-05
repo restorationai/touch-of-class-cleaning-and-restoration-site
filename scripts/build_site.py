@@ -112,17 +112,22 @@ def slugify(text: str) -> str:
 DEFAULTS = {
     # Canonical palette matching the narestco visual reference (dark + red).
     # Per-client overrides flow through plan-input.json's brand block.
+    # Default palette is STANDARDIZED BLACK (Santino 2026-09-04: "instead of it
+    # being red, make the color black and standardized"). Real clients almost
+    # never see it: scaffold auto-extracts the palette from the client's logo
+    # (see _palette_from_logo) and plan-input overrides always win. The black
+    # default is the no-logo/no-colors fallback only.
     "BRAND_DARK_COLOR": "#111827",      # dark.DEFAULT — dominant background (gray-900)
-    "BRAND_PRIMARY_COLOR": "#dc2626",   # primary.DEFAULT — the client's ACTUAL brand hex
-    "BRAND_PRIMARY_CTA": "#dc2626",     # primary-600 — solid fills that carry WHITE text
-    "BRAND_PRIMARY_DARK": "#b91c1c",    # primary-700 — hover state
-    "BRAND_PRIMARY_LIGHT": "#fecaca",   # primary-200 — light tint
+    "BRAND_PRIMARY_COLOR": "#171717",   # primary.DEFAULT — the client's ACTUAL brand hex
+    "BRAND_PRIMARY_CTA": "#171717",     # primary-600 — solid fills that carry WHITE text
+    "BRAND_PRIMARY_DARK": "#000000",    # primary-700 — hover state
+    "BRAND_PRIMARY_LIGHT": "#e5e5e5",   # primary-200 — light tint
     # cta.* — the SOLID-FILL pair (button background + the label on it),
     # resolved together so the pair always clears AA. See resolve_tokens.
-    "BRAND_CTA_FILL": "#dc2626",        # cta.DEFAULT — every call-to-action fill
+    "BRAND_CTA_FILL": "#171717",        # cta.DEFAULT — every call-to-action fill
     "BRAND_CTA_FG": "#ffffff",          # cta.fg      — the label ON that fill
-    "BRAND_CTA_HOVER": "#b91c1c",       # cta.hover
-    "BRAND_ACCENT_COLOR": "#ef4444",    # accent — urgent highlights
+    "BRAND_CTA_HOVER": "#000000",       # cta.hover
+    "BRAND_ACCENT_COLOR": "#525252",    # accent — urgent highlights
     "BRAND_ACCENT_FG": "#ffffff",       # accent.fg — label on the accent fill
     "BRAND_FONT_SANS": "Inter",
     "BRAND_FONT_DISPLAY": "Inter",
@@ -1715,6 +1720,64 @@ def _company_domain_from_app(cid: str | None) -> tuple[str | None, str | None]:
     return None, None
 
 
+
+def _palette_from_logo(logo_path) -> dict | None:
+    """Auto-extract a brand palette from the client's logo (Santino 2026-09-04:
+    Frontline scaffolded default-red under an orange/blue logo — brand colors
+    must be automatic, not a step someone remembers).
+
+    Clusters saturated pixels by hue: the biggest cluster's weighted mean is
+    primary, the second (when it holds >= 12% of colored pixels) is accent, and
+    dark is a deep shade of primary so page surfaces stay on-brand. Returns
+    None — leaving the standardized black default — when the logo is missing,
+    effectively monochrome, or PIL is unavailable (CI without Pillow)."""
+    try:
+        import colorsys as _cs
+        from collections import defaultdict
+        from PIL import Image
+    except ImportError:
+        print("      palette: Pillow not installed — keeping standardized default")
+        return None
+    try:
+        im = Image.open(logo_path).convert("RGBA")
+        im.thumbnail((300, 300))
+        clusters: dict[int, list[float]] = defaultdict(lambda: [0.0, 0.0, 0.0, 0.0])
+        colored = 0
+        for r, g, b, a in im.getdata():
+            if a < 200:
+                continue
+            h, l, sat = _cs.rgb_to_hls(r / 255, g / 255, b / 255)
+            if sat < 0.25 or l > 0.92 or l < 0.08:
+                continue  # grey / white / black pixels are not brand hues
+            colored += 1
+            c = clusters[int(h * 12) % 12]  # 30-degree hue buckets
+            c[0] += r; c[1] += g; c[2] += b; c[3] += 1
+        if colored < 150:  # logo is essentially monochrome — black default is right
+            return None
+        ranked = sorted(clusters.values(), key=lambda c: -c[3])
+
+        def _hex(c):
+            n = c[3]
+            return "#%02x%02x%02x" % (round(c[0] / n), round(c[1] / n), round(c[2] / n))
+
+        primary = _hex(ranked[0])
+        accent = None
+        if len(ranked) > 1 and ranked[1][3] >= colored * 0.12:
+            accent = _hex(ranked[1])
+        # dark surface = a deep shade of primary (same hue, L=0.13) so heroes
+        # and footers read as the brand's own dark, not generic charcoal
+        h, l, sat = _cs.rgb_to_hls(*(int(primary[i:i + 2], 16) / 255 for i in (1, 3, 5)))
+        dark = "#%02x%02x%02x" % tuple(
+            round(v * 255) for v in _cs.hls_to_rgb(h, 0.13, min(sat, 0.7)))
+        out = {"primary_color": primary, "dark_color": dark}
+        if accent:
+            out["accent_color"] = accent
+        return out
+    except Exception as e:  # noqa: BLE001 — never fail a scaffold over colors
+        print(f"      palette: extraction errored ({str(e)[:80]}) — keeping default")
+        return None
+
+
 def cmd_scaffold(args) -> int:
     slug = args.slug
     client = load_json(CLIENTS_DIR / f"{slug}.json")
@@ -1807,6 +1870,18 @@ def cmd_scaffold(args) -> int:
         brand_block.setdefault("logo_url", f"/images/{pulled_logo}")
         print(f"      logo: pulled from branding bucket -> public/images/{pulled_logo} "
               f"(logoUrl {brand_block['logo_url']})")
+        # Auto-palette (2026-09-04): no colors anywhere -> read them off the
+        # logo and PERSIST to plan-input.json so retint and re-scaffolds agree.
+        has_colors = bool(brand_block.get("primary_color")
+                          or (brand_block.get("colors") or {}).get("primary"))
+        if not has_colors:
+            pal = _palette_from_logo(SITES_DIR / slug / "public" / "images" / pulled_logo)
+            if pal:
+                brand_block.update(pal)
+                save_json(plan_input_path, {k: v for k, v in plan_input.items()
+                                            if k != "_slug"})
+                print(f"      palette: auto-extracted from logo — primary {pal['primary_color']}"
+                      f" accent {pal.get('accent_color', '(none)')} dark {pal['dark_color']}")
     else:
         print(f"      NOTE: no logo in branding bucket for {cid or slug} — scaffolding "
               "with the default logoUrl.")

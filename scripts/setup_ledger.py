@@ -1473,6 +1473,35 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         if not built:
             attention.append(f"{slug}: SITE NOT BUILT" + (f" — {detail}" if detail and "CRITICAL" in detail else ""))
 
+        # ---- site-finished (2026-09-04, Frontline: a rendered site shipped
+        # grey placeholder heroes + the default palette for a day and only
+        # Santino's eyeballs caught it). A BUILT site stays "open" here until
+        # its finishing pass is done: real images on disk and a real brand
+        # palette in plan-input. The nightly render sweep auto-fills images;
+        # colors auto-extract from the logo at scaffold — this row is the
+        # backstop that makes any survivor visible on Ops Attention.
+        if built:
+            unfinished = []
+            if not (SITES_DIR / slug / "public" / "images" / "hero-bg.webp").exists():
+                unfinished.append("images (no hero-bg.webp)")
+            try:
+                _pi = json.loads((CLIENTS_DIR / slug / "plan-input.json").read_text())
+                _pb = _pi.get("brand") or {}
+                if not (_pb.get("primary_color") or (_pb.get("colors") or {}).get("primary")):
+                    unfinished.append("brand colors (default palette)")
+            except (OSError, json.JSONDecodeError):
+                pass
+            rows.append({"company_id": cid, "item_key": "site-finished", "kind": "us_owed",
+                         "status": "open" if unfinished else "done",
+                         "title": "Site finishing pass (images + brand colors)",
+                         "detail": (f"Built site still missing: {', '.join(unfinished)}. "
+                                    "Images auto-fill on the nightly render sweep; colors: "
+                                    "set plan-input brand colors (or re-pull logo) then "
+                                    "build_site.py retint." if unfinished else None),
+                         "evidence": {"unfinished": unfinished}})
+            if unfinished:
+                attention.append(f"{slug}: SITE UNFINISHED — {', '.join(unfinished)}")
+
         # ---- THE LAUNCH CARD: domain access + going live, ONE truth --------
         # Santino 2026-08-05: Crew showed THREE items telling one story —
         # "Registrar / domain access", "Live on real domain", and a duplicate

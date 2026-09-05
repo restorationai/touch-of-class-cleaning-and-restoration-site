@@ -65,6 +65,29 @@ def pending_pages(slug: str) -> int:
     return n
 
 
+def images_missing(slug: str) -> bool:
+    """A rendered site without its image pass ships grey placeholder heroes
+    (Frontline 2026-09-04). Cheap check: the core hero is the sentinel —
+    gen_site_images is idempotent and fills whatever else is missing."""
+    return not (SITES / slug / "public" / "images" / "hero-bg.webp").exists()
+
+
+def run_image_pass(slug: str) -> bool:
+    """Core + per-service images, each capped so one silent API hang cannot
+    stall the sweep (the 25-min gen_site_images hang, 2026-09-03)."""
+    ok = True
+    for extra in ([], ["--services"]):
+        try:
+            rc = run([sys.executable, str(ROOT / "scripts" / "gen_site_images.py"),
+                      "--slug", slug, *extra], timeout=1800)
+            ok = ok and rc == 0
+        except subprocess.TimeoutExpired:
+            print(f"[{slug}] image pass timed out (30 min) — next sweep resumes "
+                  "(generation skips existing files)")
+            ok = False
+    return ok
+
+
 def deploy_branch(slug: str) -> str:
     """The branch this site's audience actually sees (rule 2f)."""
     try:
@@ -83,12 +106,17 @@ def run(cmd: list[str], timeout: int = 7200) -> int:
 
 def render_one(slug: str, workers: int) -> bool:
     n = pending_pages(slug)
-    if n == 0:
+    if n == 0 and not images_missing(slug):
         print(f"[{slug}] nothing pending — skip")
         return True
+    if n == 0:
+        print(f"[{slug}] pages rendered but images missing — image pass only")
+        run_image_pass(slug)
     print(f"[{slug}] {n} pending page(s) — rendering")
     rc = run([sys.executable, str(ROOT / "scripts" / "build_site.py"),
               "render", "--slug", slug, "--workers", str(workers)])
+    if images_missing(slug):
+        run_image_pass(slug)
     if rc != 0:
         print(f"[{slug}] render exited {rc} (partial progress is committed anyway; "
               "the next sweep resumes the remainder)")
@@ -136,6 +164,9 @@ def main() -> int:
         n = pending_pages(d.name)
         if n:
             inventory.append((d.name, n))
+        elif images_missing(d.name) and (d / "src" / "lib" / "brand.ts").exists():
+            # fully rendered but never imaged — backstop pass + redeploy
+            inventory.append((d.name, 0))
     if not inventory:
         print("render sweep: nothing pending anywhere — clean")
         return 0
