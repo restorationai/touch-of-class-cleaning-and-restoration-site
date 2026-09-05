@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Spanaway, WA | Frontline Fire & Flood"
 h1: "Restoration Services in Spanaway"
-meta_description: "Serving Spanaway, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +12532000503."
+meta_description: "Serving Spanaway, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503."
 primary_keyword: "restoration services spanaway"
 secondary_keywords: ["spanaway restoration company", "damage restoration spanaway", "spanaway disaster restoration"]
 search_intent: "local_commercial"

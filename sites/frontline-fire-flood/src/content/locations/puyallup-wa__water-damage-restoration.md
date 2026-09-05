@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Puyallup, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Puyallup"
-meta_description: "24/7 water damage restoration in Puyallup, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Puyallup, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration puyallup"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Most homeowner policies cover sudden and accidental water damage, a burst pipe, 
 
 Puyallup homes built in the postwar decades frequently used a combination of plaster ceilings and early drywall on walls, a hybrid assembly that behaves unpredictably under moisture. The plaster ceiling will show no staining or soft spots while the drywall below a leak is already compromised at the paper face. When we scope a water loss in one of these older Puyallup homes, we probe both materials independently rather than treating the room as a single assembly. Missing that distinction is one of the more common reasons a homeowner gets a mold call six weeks after a restoration was supposedly completed.
 
-If water has reached your home or property in Puyallup, the window to limit structural damage and prevent secondary mold growth is short. Call Frontline Fire & Flood at +12532000503, we're available 24 hours a day and can begin water removal and structural drying the same day you call.
+If water has reached your home or property in Puyallup, the window to limit structural damage and prevent secondary mold growth is short. Call Frontline Fire & Flood at (253) 200-0503, we're available 24 hours a day and can begin water removal and structural drying the same day you call.

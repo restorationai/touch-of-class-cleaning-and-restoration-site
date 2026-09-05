@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Lacey, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Lacey"
-meta_description: "24/7 emergency board-up and tarping in Lacey, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping lacey"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -60,4 +60,4 @@ If your property is in a planned community or HOA-governed development, and Lace
 
 Lacey's growth over the past three decades means many neighborhoods have homes built on expansive clay soils common to the South Puget Sound lowlands. After a roof breach or a fire that requires exterior board-up, crews staging equipment on saturated ground need to be mindful of soft spots near foundations and drainage swales, particularly after a prolonged wet stretch. We carry plywood ground protection for equipment staging on properties where soil conditions are a concern, which prevents secondary damage to landscaping and keeps our crew safe during what is already a stressful situation for everyone on site.
 
-If your home or property in Lacey has been damaged and is sitting open to the elements, call Frontline Fire & Flood at +12532000503. We are available around the clock, and emergency board-up and tarping is one of the fastest ways to stop a manageable loss from becoming a catastrophic one.
+If your home or property in Lacey has been damaged and is sitting open to the elements, call Frontline Fire & Flood at (253) 200-0503. We are available around the clock, and emergency board-up and tarping is one of the fastest ways to stop a manageable loss from becoming a catastrophic one.

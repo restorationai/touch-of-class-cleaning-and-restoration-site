@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Spanaway, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Spanaway"
-meta_description: "24/7 mold remediation in Spanaway, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Spanaway, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation spanaway"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -48,4 +48,4 @@ Whether mold is covered under a homeowner's policy depends heavily on the cause.
 
 Crawl spaces in Spanaway-area homes built before the mid-1990s often have inadequate cross-ventilation, fewer vents than current code recommends, and in some cases vents that have been blocked by landscaping or insulation added during energy upgrades. When we inspect these spaces, we frequently find that the mold problem visible near a floor register or along a baseboard is actually sourced from below, not from a plumbing issue inside the living space. Addressing the crawl space, improving ventilation, installing or replacing the ground cover vapor barrier, is often as important as the remediation work itself. Skipping that step is one of the most common reasons mold returns after a remediation.
 
-If you're seeing signs of mold in your Spanaway home, discoloration on walls or ceilings, a persistent musty odor, or unexplained respiratory irritation that improves when you leave the house, call Frontline Fire & Flood at +12532000503. We'll assess the situation, explain what we find, and give you a clear path forward.
+If you're seeing signs of mold in your Spanaway home, discoloration on walls or ceilings, a persistent musty odor, or unexplained respiratory irritation that improves when you leave the house, call Frontline Fire & Flood at (253) 200-0503. We'll assess the situation, explain what we find, and give you a clear path forward.

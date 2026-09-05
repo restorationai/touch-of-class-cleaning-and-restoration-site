@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Puyallup, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Puyallup"
-meta_description: "24/7 mold remediation in Puyallup, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Puyallup, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation puyallup"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -46,4 +46,4 @@ Mold remediation coverage varies significantly depending on the cause of loss. W
 
 In Puyallup's older subdivisions near the river plain, crawl space encapsulation is often absent or was installed with a thin, single-layer poly sheeting that has since torn or shifted. When remediation uncovers active mold in the crawl, the source is frequently that degraded vapor barrier rather than a plumbing leak, and simply treating the mold without addressing the barrier means the problem returns within a season or two. The remediation scope should include a full assessment of the crawl space membrane, and any replacement should meet current Washington State Energy Code standards for ground cover in vented crawl spaces.
 
-If you are seeing signs of mold growth anywhere in your Puyallup home, a persistent musty odor, unexplained respiratory irritation, or visible discoloration on walls or ceilings, call Frontline Fire & Flood at +12532000503. The team is available around the clock, and an assessment can be scheduled before the problem spreads further into your structure.
+If you are seeing signs of mold growth anywhere in your Puyallup home, a persistent musty odor, unexplained respiratory irritation, or visible discoloration on walls or ceilings, call Frontline Fire & Flood at (253) 200-0503. The team is available around the clock, and an assessment can be scheduled before the problem spreads further into your structure.

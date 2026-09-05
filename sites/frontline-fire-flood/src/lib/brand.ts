@@ -9,8 +9,8 @@ export const brand = {
   legalName: "Frontline Fire & Flood",
   domain: "frontlinefireflood.com",
   canonicalUrl: "https://frontlinefireflood.com",
-  phone: "+12532000503",
-  phoneRaw: "+112532000503",
+  phone: "(253) 200-0503",
+  phoneRaw: "+12532000503",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,

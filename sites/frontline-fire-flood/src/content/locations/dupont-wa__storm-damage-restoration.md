@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in DuPont, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in DuPont"
-meta_description: "24/7 storm damage restoration in DuPont, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in DuPont, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration dupont"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

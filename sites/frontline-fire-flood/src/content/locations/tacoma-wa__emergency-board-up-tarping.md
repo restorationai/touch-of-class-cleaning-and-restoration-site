@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Tacoma, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Tacoma"
-meta_description: "24/7 emergency board-up and tarping in Tacoma, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping tacoma"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Board-up and tarping costs are typically covered under the "mitigation" or "prot
 
 Tacoma's older neighborhoods contain a meaningful number of homes with balloon-frame construction, a framing style common before the 1940s where wall cavities run continuously from the foundation to the roof without the fire blocking found in platform-frame buildings. After a fire in a balloon-frame home, heat and smoke can travel vertically through wall cavities in ways that aren't obvious from the exterior. When we board up a fire-damaged balloon-frame structure, we note this for the restoration team and the adjuster, because the visible damage footprint often understates what's happening inside the walls. It's the kind of detail that changes the scope of a claim.
 
-If a fire, storm, or break-in has left your Tacoma property exposed, call Frontline Fire & Flood at +12532000503. We're available around the clock, and we'll have a crew moving toward your address while you're still on the phone.
+If a fire, storm, or break-in has left your Tacoma property exposed, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and we'll have a crew moving toward your address while you're still on the phone.

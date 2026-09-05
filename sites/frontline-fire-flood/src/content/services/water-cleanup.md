@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Water Cleanup in Lakewood | Frontline Fire & Flood"
 h1: "Water Cleanup in Lakewood"
-meta_description: "24/7 water cleanup in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water cleanup in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water cleanup lakewood"
 secondary_keywords: ["water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"

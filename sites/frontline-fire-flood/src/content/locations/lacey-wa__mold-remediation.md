@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Lacey, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Lacey"
-meta_description: "24/7 mold remediation in Lacey, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation lacey"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -52,4 +52,4 @@ For homeowners in planned communities or HOA-governed developments, mold remedia
 
 One pattern we see repeatedly in Lacey's crawlspace-foundation homes: the visible mold on the underside of the subfloor is often the trailing indicator, not the leading one. By the time black or gray growth is visible on floor joists, the insulation above has usually been holding moisture for weeks or months. Homeowners sometimes focus remediation efforts on the visible growth and miss the saturated insulation that will re-inoculate the space if it's left in place. In Lacey's climate, crawlspace insulation that has been wet long enough to support mold growth should be removed and replaced, not dried in place, because the material structure has been compromised and it will not perform as a vapor or thermal barrier once it has collapsed.
 
-If you're seeing signs of mold growth in your Lacey home, musty odors, discoloration on walls or ceilings, or a history of water intrusion you haven't fully resolved, call Frontline Fire & Flood at +12532000503. We'll assess what's actually happening, explain what remediation involves for your specific situation, and help you move through the process without guesswork.
+If you're seeing signs of mold growth in your Lacey home, musty odors, discoloration on walls or ceilings, or a history of water intrusion you haven't fully resolved, call Frontline Fire & Flood at (253) 200-0503. We'll assess what's actually happening, explain what remediation involves for your specific situation, and help you move through the process without guesswork.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Lacey, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Lacey"
-meta_description: "24/7 asbestos abatement in Lacey, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement lacey"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -50,4 +50,4 @@ For renovation-triggered abatement in Lacey, Washington State requires notificat
 
 One pattern that comes up in Lacey's older neighborhoods: homes built in the late 1960s and early 1970s sometimes have two layers of flooring, the original vinyl tile on the subfloor, then a second layer of sheet vinyl or hardwood installed on top during a later remodel. The top layer looks clean and modern, so owners don't think twice about it. But when water damage or a renovation requires removing the upper floor, the original tile underneath is often the 9×9-inch asbestos-containing variety. Testing before any flooring demo in a home of that era is a straightforward precaution that prevents a much larger disruption later.
 
-If you're dealing with suspect materials in Lacey, whether you're mid-renovation, responding to storm or water damage, or preparing a property for sale, call Frontline Fire & Flood at +12532000503. The team is EPA Lead-Safe Certified and OSHA trained, and can walk you through sampling, abatement, and clearance from the first call to the final air test.
+If you're dealing with suspect materials in Lacey, whether you're mid-renovation, responding to storm or water damage, or preparing a property for sale, call Frontline Fire & Flood at (253) 200-0503. The team is EPA Lead-Safe Certified and OSHA trained, and can walk you through sampling, abatement, and clearance from the first call to the final air test.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in DuPont, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in DuPont"
-meta_description: "24/7 water damage restoration in DuPont, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in DuPont, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration dupont"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

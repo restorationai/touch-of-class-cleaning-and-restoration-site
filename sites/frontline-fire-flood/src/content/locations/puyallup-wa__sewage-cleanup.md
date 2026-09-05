@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Puyallup, WA | Frontline Fire & Flood"
 h1: "Sewage Cleanup and Sanitization in Puyallup"
-meta_description: "24/7 sewage cleanup and sanitization in Puyallup, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 sewage cleanup and sanitization in Puyallup, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization puyallup"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -62,4 +62,4 @@ If your policy doesn't include sewer backup coverage, we'll tell you plainly bef
 
 Puyallup's downtown core and the neighborhoods immediately surrounding it include a number of homes built on pier-and-beam foundations rather than full basements, a construction style common in the valley through the mid-20th century. When sewage backs up under a pier-and-beam floor, it pools in the crawl space, which is often vented but rarely accessed. The confined space, the standing effluent, and the vapor barrier condition all affect how we stage equipment and how long drying takes. Crawl space sewage jobs in this part of Puyallup routinely require a confined-space protocol and a longer remediation window than a finished-basement loss of the same volume, something worth knowing before you accept a quote that doesn't account for it.
 
-If raw sewage has backed up into your Puyallup home or business, the window for limiting structural damage and microbial growth is short. Call Frontline Fire & Flood at +12532000503, we're available around the clock, and our crews carry the extraction, disinfection, and drying equipment to begin work on arrival.
+If raw sewage has backed up into your Puyallup home or business, the window for limiting structural damage and microbial growth is short. Call Frontline Fire & Flood at (253) 200-0503, we're available around the clock, and our crews carry the extraction, disinfection, and drying equipment to begin work on arrival.

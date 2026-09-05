@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Lacey, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Lacey"
-meta_description: "24/7 water damage restoration in Lacey, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration lacey"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ If your Lacey property is in a managed HOA community, check your CC&Rs before wo
 
 Homes built on the flatter sections of Lacey near the Martin Way corridor frequently have slab-on-grade foundations rather than crawl spaces. When water migrates under a concrete slab, from a slab leak or from exterior water intrusion, it doesn't evaporate the way it would through a wood subfloor assembly. Drying a slab-on-grade loss requires desiccant dehumidification and sometimes specialty drying mats placed directly on the concrete surface to draw moisture up through the slab. It takes longer and requires different equipment than a standard crawl space or above-grade loss, and skipping that step leaves moisture that will eventually telegraph through flooring finishes above.
 
-If you're dealing with water damage anywhere in Lacey, whether it's a crawl space flood, a failed supply line, or water behind your walls after a storm, call Frontline Fire & Flood at +12532000503. The crew is available 24/7, and the sooner moisture mapping begins, the narrower the scope of the repair.
+If you're dealing with water damage anywhere in Lacey, whether it's a crawl space flood, a failed supply line, or water behind your walls after a storm, call Frontline Fire & Flood at (253) 200-0503. The crew is available 24/7, and the sooner moisture mapping begins, the narrower the scope of the repair.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in Spanaway, WA | Frontline Fire & Flood"
 h1: "Water Cleanup in Spanaway"
-meta_description: "24/7 water cleanup in Spanaway, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water cleanup in Spanaway, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water cleanup spanaway"
 secondary_keywords: ["water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -53,4 +53,4 @@ Most homeowner policies cover sudden and accidental water damage, a burst pipe, 
 
 Crawl spaces in Spanaway's older neighborhoods frequently have vapor barriers that have shifted, torn, or were never installed to modern standards. When groundwater or a plumbing leak enters the crawl, it pools on bare soil or deteriorated plastic sheeting and drives humidity up through the subfloor into the living space above, sometimes showing up first as buckled hardwood or a musty smell in the main rooms rather than visible water. If you're noticing those signs without an obvious source, the crawl space is worth inspecting before the problem migrates further into the structure.
 
-If you're dealing with standing water, wet walls, or a crawl space that's taken on moisture, call Frontline Fire & Flood at +12532000503. We'll map the damage, start extraction, and walk you through what comes next, including the insurance side, so you're not figuring it out alone.
+If you're dealing with standing water, wet walls, or a crawl space that's taken on moisture, call Frontline Fire & Flood at (253) 200-0503. We'll map the damage, start extraction, and walk you through what comes next, including the insurance side, so you're not figuring it out alone.

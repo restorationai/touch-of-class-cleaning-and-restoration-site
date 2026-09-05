@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in University Place, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in University Place"
-meta_description: "24/7 fire damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration university place"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Fire restoration in University Place triggers two parallel administrative tracks
 
 Homes along the western edge of University Place, particularly those with views toward the Sound, tend to have crawl spaces that are shallower and less ventilated than Pierce County code now requires, a legacy of older grading practices on the plateau's slope. After a fire, suppression water finds those crawl spaces fast, and the limited airflow means standard drying timelines don't apply. Crews working these addresses typically need to deploy additional low-profile desiccant units and extend monitoring by several days beyond what a flat-lot job in the same square footage would require.
 
-If you're dealing with fire or smoke damage in University Place, the decisions made in the first 24 to 48 hours determine how much of the structure is salvageable and how long the claim stays open. Call Frontline Fire & Flood at +12532000503, available any hour, to get a crew to your University Place property and start the assessment before secondary damage compounds the loss.
+If you're dealing with fire or smoke damage in University Place, the decisions made in the first 24 to 48 hours determine how much of the structure is salvageable and how long the claim stays open. Call Frontline Fire & Flood at (253) 200-0503, available any hour, to get a crew to your University Place property and start the assessment before secondary damage compounds the loss.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in University Place, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in University Place"
-meta_description: "24/7 contents restoration & storage in University Place, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage university place"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -54,4 +54,4 @@ If your policy includes ALE (additional living expense) coverage, off-site stora
 
 Homes in University Place built during the 1960s and 1970s, a common era in the Chambers Bay and Grandview corridor areas, frequently used particleboard shelving and furniture cores rather than solid wood. Particleboard absorbs water rapidly and swells irreversibly within 24 to 48 hours of saturation, which means the window for salvage is shorter than it would be for solid-wood pieces. If you're in one of those mid-century homes and you've had any standing water reach a bookshelf, cabinet, or entertainment unit, the clock on those items is ticking faster than you might expect. Getting a contents crew on-site quickly isn't just about convenience, it's about what can actually be saved.
 
-If your home in University Place has been hit by water, fire, or smoke damage and your belongings are at risk, call Frontline Fire & Flood at +12532000503. Our IICRC-certified team is available 24/7 and can begin the inventory and pack-out process as soon as we arrive.
+If your home in University Place has been hit by water, fire, or smoke damage and your belongings are at risk, call Frontline Fire & Flood at (253) 200-0503. Our IICRC-certified team is available 24/7 and can begin the inventory and pack-out process as soon as we arrive.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Lacey, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Lacey"
-meta_description: "24/7 contents restoration & storage in Lacey, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage lacey"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -38,7 +38,7 @@ Secure storage continues until your home passes drying verification and reconstr
 
 ## Reaching Lacey from Lakewood
 
-Frontline Fire & Flood operates out of Lakewood, and Lacey sits roughly 20 miles to the southeast via I-5. That corridor stays open and well-lit year-round, which matters when a loss happens at 2 a.m. on a January night. Our team is available around the clock, so when you call +12532000503, you reach someone who can dispatch, not a voicemail that waits until morning.
+Frontline Fire & Flood operates out of Lakewood, and Lacey sits roughly 20 miles to the southeast via I-5. That corridor stays open and well-lit year-round, which matters when a loss happens at 2 a.m. on a January night. Our team is available around the clock, so when you call (253) 200-0503, you reach someone who can dispatch, not a voicemail that waits until morning.
 
 Once on site, our IICRC-certified crew assesses the scope of contents involvement alongside the structural damage, so the pack-out process starts as soon as it's safe to enter the affected areas rather than waiting for a separate appointment.
 
@@ -52,4 +52,4 @@ We bill carriers directly for restoration services and communicate with adjuster
 
 Lacey's proximity to Joint Base Lewis-McChord means a meaningful share of local homeowners are active-duty military families living in base-adjacent neighborhoods. Military families often have a specific challenge during a contents loss: they may be mid-PCS, have belongings in multiple locations, or face lease timelines that don't flex easily. If that describes your situation, mention it when you call, we can prioritize the inventory and pack-out to align with your move or housing transition rather than treating it as a standard residential timeline.
 
-Call Frontline Fire & Flood at +12532000503 any time your Lacey home has taken damage that threatens the belongings inside. The sooner contents are inventoried, packed, and treated, the more of them come back.
+Call Frontline Fire & Flood at (253) 200-0503 any time your Lacey home has taken damage that threatens the belongings inside. The sooner contents are inventoried, packed, and treated, the more of them come back.

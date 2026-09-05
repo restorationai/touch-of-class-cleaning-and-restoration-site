@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Spanaway, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Spanaway"
-meta_description: "24/7 asbestos abatement in Spanaway, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Spanaway, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement spanaway"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -54,4 +54,4 @@ Asbestos abatement triggered by a covered loss, a pipe burst that soaks vermicul
 
 Homes in Spanaway's older residential sections, particularly those built on slab foundations in the 1950s and 1960s, frequently have 9×9 inch vinyl floor tiles throughout the main living areas. That tile size is a reliable indicator of the era, and the adhesive mastic beneath it almost always contains asbestos. The tile itself may also be asbestos-containing. Homeowners planning to install new flooring sometimes learn this mid-project when a contractor stops work after seeing the tile pattern. If you're planning a remodel and your home dates to that period, testing before demolition begins is far less disruptive, and far less expensive, than stopping a job in progress and calling for emergency abatement.
 
-For asbestos testing, removal, or a full abatement scope in Spanaway, call Frontline Fire & Flood at +12532000503. We're licensed (#CCFRONTFF761CB) and available any hour, because the right time to address asbestos is before anyone spends more time in a compromised space.
+For asbestos testing, removal, or a full abatement scope in Spanaway, call Frontline Fire & Flood at (253) 200-0503. We're licensed (#CCFRONTFF761CB) and available any hour, because the right time to address asbestos is before anyone spends more time in a compromised space.

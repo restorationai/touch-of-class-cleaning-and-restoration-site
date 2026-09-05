@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Olympia, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Olympia"
-meta_description: "24/7 emergency board-up and tarping in Olympia, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Olympia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping olympia"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ For properties in the areas surrounding downtown Olympia and the west side neigh
 
 Olympia has a meaningful number of homes clad in original cedar lap siding or early-era T1-11 panels that are already weathered and sometimes partially delaminated. On these surfaces, driving standard deck screws to anchor board-up panels can split the siding substrate and create new water entry points around the fastener holes. We carry a range of fastener types and backing plates specifically to address this, including techniques that anchor to the framing behind the siding rather than through it, so the board-up itself doesn't cause the kind of damage it's meant to prevent. It's a small detail that makes a real difference when the adjuster walks the property later.
 
-If your property has been damaged and is sitting open to Olympia's weather right now, call Frontline Fire & Flood at +12532000503. We'll assess the openings, secure the structure, and document everything your insurance carrier needs, so you can focus on what comes next instead of watching the damage grow.
+If your property has been damaged and is sitting open to Olympia's weather right now, call Frontline Fire & Flood at (253) 200-0503. We'll assess the openings, secure the structure, and document everything your insurance carrier needs, so you can focus on what comes next instead of watching the damage grow.

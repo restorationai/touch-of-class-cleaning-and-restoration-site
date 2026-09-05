@@ -78,4 +78,4 @@ If you're seeing two or more of the signs above, especially if there's a history
 
 Frontline Fire & Flood handles mold remediation in Lakewood and the surrounding South Sound area. If you're not sure whether what you're seeing warrants a call, call anyway, a conversation costs nothing, and waiting on mold rarely makes the situation cheaper or simpler.
 
-Phone: [(253) 200-0503](tel:+12532000503)
+Phone: [(253) 200-0503](tel:(253) 200-0503)

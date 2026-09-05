@@ -2,7 +2,7 @@
 archetype: "services-hub"
 title: "Restoration Services in Lakewood | Frontline Fire & Flood"
 h1: "Our Restoration Services"
-meta_description: "Full-service restoration in Lakewood: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call +12532000503."
+meta_description: "Full-service restoration in Lakewood: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (253) 200-0503."
 primary_keyword: "restoration services lakewood"
 secondary_keywords: ["damage restoration services", "property restoration services", "disaster restoration"]
 search_intent: "local_commercial"

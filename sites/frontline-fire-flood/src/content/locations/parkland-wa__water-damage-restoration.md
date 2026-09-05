@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Parkland, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Parkland"
-meta_description: "24/7 water damage restoration in Parkland, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Parkland, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration parkland"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Most standard homeowners' policies cover sudden and accidental water losses, a b
 
 One pattern worth knowing about in Parkland: homes with concrete slab foundations, particularly those built in the 1980s and early 1990s, often have copper supply lines embedded in or running beneath the slab. A pinhole leak in that configuration can saturate the slab and wick moisture up through flooring for weeks before a water bill spike or a warm spot on the floor gives it away. By the time the flooring is removed, the slab itself may need extended drying time with specialty drying mats before any new flooring can go down. If you notice an unexplained increase in your water bill alongside any soft or discolored flooring, that combination is worth investigating before it becomes a larger project.
 
-If water damage has reached your Parkland home, whether it's a supply line failure, a roof leak that found the wall cavity, or a crawl space that's been holding moisture all winter, call Frontline Fire & Flood at +12532000503. The assessment starts the moment we arrive, and the drying plan is built around your specific structure, not a generic checklist.
+If water damage has reached your Parkland home, whether it's a supply line failure, a roof leak that found the wall cavity, or a crawl space that's been holding moisture all winter, call Frontline Fire & Flood at (253) 200-0503. The assessment starts the moment we arrive, and the drying plan is built around your specific structure, not a generic checklist.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in Lacey, WA | Frontline Fire & Flood"
 h1: "Water Cleanup in Lacey"
-meta_description: "24/7 water cleanup in Lacey, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water cleanup in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water cleanup lacey"
 secondary_keywords: ["water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ For rental properties and multi-family units in Lacey, we can coordinate separat
 
 Lacey's growth over the past two decades has produced a large number of homes with engineered wood subfloor, OSB rather than traditional plywood. OSB is more moisture-sensitive than plywood and begins to swell and delaminate faster once it gets wet. In a crawl-space intrusion or a dishwasher leak that sits overnight, OSB subfloor can reach the point of structural compromise before the surface flooring shows any visible damage. When we respond to water calls in Lacey, we probe subfloor material type early in the inspection, because the drying timeline and the threshold for replacement are different than they would be in a home with plywood or concrete.
 
-If you're dealing with standing water, wet walls, or a soaked crawl space anywhere in Lacey, call Frontline Fire & Flood at +12532000503. We'll assess the full extent of the damage, start extraction immediately, and carry the documentation through to your insurance settlement, so you're not managing the paperwork while your home is still wet.
+If you're dealing with standing water, wet walls, or a soaked crawl space anywhere in Lacey, call Frontline Fire & Flood at (253) 200-0503. We'll assess the full extent of the damage, start extraction immediately, and carry the documentation through to your insurance settlement, so you're not managing the paperwork while your home is still wet.

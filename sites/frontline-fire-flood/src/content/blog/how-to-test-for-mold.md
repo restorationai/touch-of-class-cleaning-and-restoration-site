@@ -84,4 +84,4 @@ If a professional inspection confirms active mold growth, the next step is a rem
 
 ---
 
-If you're in the Lakewood area and you've found something you're not sure about, a stain, a smell, a room that never quite dried out after a plumbing issue, Frontline Fire & Flood offers professional mold inspection and testing that gives you a real answer, not just a lab result without context. Call [(253) 200-0503](tel:+12532000503) to talk through what you're seeing.
+If you're in the Lakewood area and you've found something you're not sure about, a stain, a smell, a room that never quite dried out after a plumbing issue, Frontline Fire & Flood offers professional mold inspection and testing that gives you a real answer, not just a lab result without context. Call [(253) 200-0503](tel:(253) 200-0503) to talk through what you're seeing.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Spanaway, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Spanaway"
-meta_description: "24/7 storm damage restoration in Spanaway, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Spanaway, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration spanaway"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Most storm damage claims in this area run through standard homeowner's policies,
 
 Crawl-space flooding is one of the most underreported storm consequences in Spanaway's older ranch-style and split-level homes. Because crawl spaces aren't living areas, homeowners often don't discover saturation until they smell the mildew weeks later, by which point the floor joists and subfloor sheathing may already show early fungal growth. After any significant storm event, it's worth pulling the crawl access hatch and looking for standing water or condensation on the vapor barrier before assuming the structure came through clean. If you see either, call before you start drying it yourself, improper airflow in a confined crawl space can spread spores rather than eliminate them.
 
-If your Spanaway home has taken storm damage, whether it's a tree through the roof, a flooded crawl space, or wind-driven water behind your siding, call Frontline Fire & Flood at +12532000503. We are available 24 hours a day, and we carry license #CCFRONTFF761CB so your insurer has the documentation they need from the first conversation.
+If your Spanaway home has taken storm damage, whether it's a tree through the roof, a flooded crawl space, or wind-driven water behind your siding, call Frontline Fire & Flood at (253) 200-0503. We are available 24 hours a day, and we carry license #CCFRONTFF761CB so your insurer has the documentation they need from the first conversation.

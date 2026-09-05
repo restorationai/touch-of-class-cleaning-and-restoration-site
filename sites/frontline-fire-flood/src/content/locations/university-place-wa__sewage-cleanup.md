@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in University Place, WA | Frontline Fire & Flood"
 h1: "Sewage Cleanup and Sanitization in University Place"
-meta_description: "24/7 sewage cleanup and sanitization in University Place, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 sewage cleanup and sanitization in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization university place"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -38,7 +38,7 @@ For homes with crawl spaces, a common configuration in University Place, the cra
 
 ## Reaching University Place from Lakewood
 
-Frontline Fire & Flood is headquartered in Lakewood, which puts University Place a short drive away via Bridgeport Way or Steilacoom Boulevard, routes the crew travels regularly. Because the team is available around the clock, a call at 2 a.m. gets the same response as a call at noon. When you call +12532000503, dispatch starts immediately; there is no answering service to route through first.
+Frontline Fire & Flood is headquartered in Lakewood, which puts University Place a short drive away via Bridgeport Way or Steilacoom Boulevard, routes the crew travels regularly. Because the team is available around the clock, a call at 2 a.m. gets the same response as a call at noon. When you call (253) 200-0503, dispatch starts immediately; there is no answering service to route through first.
 
 ## University Place Insurance Coordination
 
@@ -48,4 +48,4 @@ Sewage backup coverage is often a separate endorsement on a standard homeowner's
 
 In University Place, homes built on the steeper lots closer to the Puget Sound bluff sometimes have sewer laterals that run at unusually long horizontal distances before connecting to the street main. That extra length means more opportunity for root intrusion and more pipe to inspect after a backup. If your home sits on one of the bluff-side streets and you've had more than one backup in recent years, the lateral itself, not just the blockage, may need evaluation by a licensed plumber with a camera scope. Frontline can coordinate that inspection alongside the cleanup so you're not managing two separate contractors during an already stressful event.
 
-If your home in University Place is dealing with sewage backup right now, call Frontline Fire & Flood at +12532000503. The crew is available 24/7, carries full IICRC certification for water and microbial work, and is licensed and insured (#CCFRONTFF761CB) to work in Pierce County. The sooner extraction begins, the less structural damage and secondary contamination you'll face.
+If your home in University Place is dealing with sewage backup right now, call Frontline Fire & Flood at (253) 200-0503. The crew is available 24/7, carries full IICRC certification for water and microbial work, and is licensed and insured (#CCFRONTFF761CB) to work in Pierce County. The sooner extraction begins, the less structural damage and secondary contamination you'll face.

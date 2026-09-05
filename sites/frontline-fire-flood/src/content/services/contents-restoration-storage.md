@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Contents Restoration & Storage in Lakewood | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Lakewood"
-meta_description: "24/7 contents restoration & storage in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage lakewood"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -74,4 +74,4 @@ In the South Puget Sound region, the wet season runs roughly October through Apr
 
 Frontline Fire & Flood is based in Lakewood, WA and provides contents restoration and storage services throughout the surrounding area, including Tacoma, University Place, Puyallup, Gig Harbor, Spanaway, Parkland, and Federal Way. City-specific pages link back here for full process detail.
 
-If your home or property has been affected by water, fire, or sewage damage and you need items packed out, cleaned, and stored safely while repairs happen, call Frontline Fire & Flood at +12532000503. We'll walk through what's restorable, document everything for your carrier, and keep your belongings secure until you're ready for them back.
+If your home or property has been affected by water, fire, or sewage damage and you need items packed out, cleaned, and stored safely while repairs happen, call Frontline Fire & Flood at (253) 200-0503. We'll walk through what's restorable, document everything for your carrier, and keep your belongings secure until you're ready for them back.

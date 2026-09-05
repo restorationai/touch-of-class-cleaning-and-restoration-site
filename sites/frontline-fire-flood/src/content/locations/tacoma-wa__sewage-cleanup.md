@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Tacoma, WA | Frontline Fire & Flood"
 h1: "Sewage Cleanup and Sanitization in Tacoma"
-meta_description: "24/7 sewage cleanup and sanitization in Tacoma, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 sewage cleanup and sanitization in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization tacoma"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -53,4 +53,4 @@ Sewage backup coverage in Washington is not automatic, it's typically a rider on
 
 In Tacoma's older craftsman and Victorian-era homes, particularly those in the North End and Stadium District, cast iron drain stacks are common. Cast iron corrodes from the inside out over decades, and a sewage backup event can reveal pinhole failures or partial collapses that were invisible before the line pressurized. During the cleanup inspection, we note any visible pipe condition issues and flag them for your plumber, because a sanitized crawl space that drains into a failing stack will back up again before the drywall is even replaced. Getting the pipe assessed before reconstruction closes everything back up saves a second remediation.
 
-If sewage has backed up into your Tacoma property, call Frontline Fire & Flood at +12532000503. We're available around the clock, and the sooner containment starts, the smaller the final scope of work, and the bill, will be.
+If sewage has backed up into your Tacoma property, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and the sooner containment starts, the smaller the final scope of work, and the bill, will be.

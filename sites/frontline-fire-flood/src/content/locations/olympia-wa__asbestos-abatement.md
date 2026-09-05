@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Olympia, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Olympia"
-meta_description: "24/7 asbestos abatement in Olympia, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Olympia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement olympia"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -56,4 +56,4 @@ For renovation-driven abatement, Thurston County building permits for demolition
 
 Olympia's older bungalows and split-level homes, particularly those built in the 1950s and 1960s in established residential areas, frequently have multiple generations of flooring layered on top of each other. It is common to find original hardwood, then a layer of asbestos-containing vinyl tile, then a later laminate installation on top of that. When a water loss soaks through to the subfloor, the flooring has to come up, and what looks like a straightforward floor replacement becomes an abatement project the moment that middle layer is identified. Knowing to look for the layering pattern before demolition begins saves significant time and avoids accidental fiber release during what a contractor might otherwise treat as routine tear-out.
 
-If you have a property in Olympia that was built before 1985 and you are planning any renovation, dealing with water damage, or preparing for a sale inspection, call Frontline Fire & Flood at +12532000503. The assessment starts the process, and knowing what you are working with is always better than finding out mid-demolition.
+If you have a property in Olympia that was built before 1985 and you are planning any renovation, dealing with water damage, or preparing for a sale inspection, call Frontline Fire & Flood at (253) 200-0503. The assessment starts the process, and knowing what you are working with is always better than finding out mid-demolition.

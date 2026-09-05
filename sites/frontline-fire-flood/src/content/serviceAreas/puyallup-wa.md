@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Puyallup, WA | Frontline Fire & Flood"
 h1: "Restoration Services in Puyallup"
-meta_description: "Serving Puyallup, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +12532000503."
+meta_description: "Serving Puyallup, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503."
 primary_keyword: "restoration services puyallup"
 secondary_keywords: ["puyallup restoration company", "damage restoration puyallup", "puyallup disaster restoration"]
 search_intent: "local_commercial"
@@ -55,4 +55,4 @@ When water or fire damage is significant enough to require structural repair, th
 
 ---
 
-If you are dealing with an active loss in Puyallup, the right move is to call before the damage spreads further. Frontline Fire & Flood can be reached at [(253) 200-0503](tel:+12532000503) any time of day or night. Document what you can safely photograph, avoid disturbed areas if there is any structural concern, and let the assessment drive the scope.
+If you are dealing with an active loss in Puyallup, the right move is to call before the damage spreads further. Frontline Fire & Flood can be reached at [(253) 200-0503](tel:(253) 200-0503) any time of day or night. Document what you can safely photograph, avoid disturbed areas if there is any structural concern, and let the assessment drive the scope.

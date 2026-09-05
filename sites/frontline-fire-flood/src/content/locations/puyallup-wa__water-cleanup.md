@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in Puyallup, WA | Frontline Fire & Flood"
 h1: "Water Cleanup in Puyallup"
-meta_description: "24/7 water cleanup in Puyallup, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water cleanup in Puyallup, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water cleanup puyallup"
 secondary_keywords: ["water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Most homeowner policies cover sudden and accidental water losses, a burst pipe, 
 
 Puyallup's valley-floor neighborhoods include a notable number of homes with original cast-iron drain lines that have corroded or shifted over decades of soil movement. When a drain backs up and floods a lower level, the cleanup crew sometimes finds that the drain itself is partially collapsed, meaning the water cleanup scope and the plumbing repair scope have to be sequenced carefully. We flag those conditions during the initial assessment and coordinate with licensed plumbers before sealing up walls, so the repair isn't undone by the next heavy rain.
 
-If standing water is in your home right now, call Frontline Fire & Flood at +12532000503. We dispatch to Puyallup around the clock, and the sooner extraction begins, the narrower the window for secondary mold growth, which in the valley's humid winters can begin colonizing wet framing within 24 to 48 hours of a loss.
+If standing water is in your home right now, call Frontline Fire & Flood at (253) 200-0503. We dispatch to Puyallup around the clock, and the sooner extraction begins, the narrower the window for secondary mold growth, which in the valley's humid winters can begin colonizing wet framing within 24 to 48 hours of a loss.

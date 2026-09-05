@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in University Place, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in University Place"
-meta_description: "24/7 storm damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration university place"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -40,7 +40,7 @@ Tree debris removal and structural patching, temporary or permanent, are coordin
 
 Frontline's Lakewood headquarters puts University Place within a short drive via Bridgeport Way or 27th Street West, depending on where in the city the loss is located. For properties in the western portions of University Place closer to Chambers Creek, we typically route through Cirque Drive West. The geography is straightforward, no major interchange delays between Lakewood and University Place, which matters when a tree has just come through a roof and rain is still falling.
 
-Because we operate 24/7, a storm that peaks at 2 a.m. on a Tuesday gets the same response as a Saturday afternoon event. Call +12532000503 and a crew can be dispatched immediately.
+Because we operate 24/7, a storm that peaks at 2 a.m. on a Tuesday gets the same response as a Saturday afternoon event. Call (253) 200-0503 and a crew can be dispatched immediately.
 
 ## University Place Insurance Coordination
 
@@ -52,4 +52,4 @@ If your property falls under an HOA with exterior repair guidelines, some of the
 
 In University Place, the combination of clay soils and a high water table near Chambers Creek means that storm-driven ground saturation can push water into crawl spaces and lower-level framing even when the roof and walls appear intact. Homes in the western parts of the city, particularly those on lots that slope toward the creek corridor, sometimes show crawl space flooding 24 to 48 hours after a major rain event, well after the storm has passed and a homeowner assumes the risk window has closed. If your property is in that drainage zone and you had a significant storm, it's worth having the crawl space checked even if you don't see interior water damage yet.
 
-Storm damage doesn't always announce itself loudly. Sometimes it's a slow drip behind insulation that shows up as a mold problem three weeks later. Frontline Fire & Flood serves University Place around the clock, call +12532000503 the moment something looks wrong, and we'll assess it before the damage compounds.
+Storm damage doesn't always announce itself loudly. Sometimes it's a slow drip behind insulation that shows up as a mold problem three weeks later. Frontline Fire & Flood serves University Place around the clock, call (253) 200-0503 the moment something looks wrong, and we'll assess it before the damage compounds.

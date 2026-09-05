@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Spanaway, WA | Frontline Fire & Flood"
 h1: "Sewage Cleanup and Sanitization in Spanaway"
-meta_description: "24/7 sewage cleanup and sanitization in Spanaway, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 sewage cleanup and sanitization in Spanaway, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization spanaway"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -56,4 +56,4 @@ For properties on private septic, there's an additional layer: Pierce County may
 
 Spanaway properties built in the 1970s and 1980s, a common era in many of the area's established neighborhoods, frequently used ABS plastic drain lines inside the home connected to older clay tile laterals running to the street or to the septic tank. That transition joint between plastic and clay is a common failure point: roots find it, ground movement cracks it, and the result is a slow leak that can saturate soil under a slab for months before a full backup occurs. When we're scoping a sewage loss on a home of that vintage, we flag this pattern for the homeowner so they can have a plumber camera the lateral before we close out, otherwise the backup is likely to recur.
 
-If you're dealing with sewage backup or septic overflow at a Spanaway property, call Frontline Fire & Flood at +12532000503. We're available 24/7, IICRC certified, and licensed (#CCFRONTFF761CB) to handle the full scope of contamination removal, sanitization, and structural drying, so you're not managing multiple contractors through one of the more stressful situations a property owner can face.
+If you're dealing with sewage backup or septic overflow at a Spanaway property, call Frontline Fire & Flood at (253) 200-0503. We're available 24/7, IICRC certified, and licensed (#CCFRONTFF761CB) to handle the full scope of contamination removal, sanitization, and structural drying, so you're not managing multiple contractors through one of the more stressful situations a property owner can face.

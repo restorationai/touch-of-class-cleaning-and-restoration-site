@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Tacoma, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Tacoma"
-meta_description: "24/7 water damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration tacoma"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Most standard homeowner policies in Washington cover sudden and accidental water
 
 Tacoma's North End contains a significant concentration of homes with original fir subfloor over unconditioned crawl spaces, a construction detail that matters during drying. Fir is denser than modern engineered wood and holds moisture longer, but it also tolerates careful, controlled drying better than OSB or particleboard, which can swell and delaminate quickly. The practical difference: we run drying equipment longer in these homes, but the floors are often salvageable where a newer material might not be. Knowing that before we set equipment saves the homeowner from an unnecessary flooring replacement conversation.
 
-If you're dealing with water damage in Tacoma right now, call Frontline Fire & Flood at +12532000503. We'll walk you through the immediate steps on the phone and get a crew moving toward your address.
+If you're dealing with water damage in Tacoma right now, call Frontline Fire & Flood at (253) 200-0503. We'll walk you through the immediate steps on the phone and get a crew moving toward your address.

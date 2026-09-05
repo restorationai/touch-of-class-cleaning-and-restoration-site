@@ -85,4 +85,4 @@ Fixing the mold without understanding the moisture pathway means you'll be back 
 
 ---
 
-If you've found mold after a water event, or you can smell something you can't locate, the team at Frontline Fire & Flood handles mold remediation in Lakewood and the surrounding area. Reach out at +12532000503 to talk through what you're seeing and whether a professional assessment makes sense for your situation.
+If you've found mold after a water event, or you can smell something you can't locate, the team at Frontline Fire & Flood handles mold remediation in Lakewood and the surrounding area. Reach out at (253) 200-0503 to talk through what you're seeing and whether a professional assessment makes sense for your situation.

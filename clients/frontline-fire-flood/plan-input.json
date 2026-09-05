@@ -1,97 +1,100 @@
 {
- "brand": {
-  "display_name": "Frontline Fire & Flood",
-  "lat": 47.1717649,
-  "lng": -122.518458,
-  "place_id": "ChIJK-c9495UkFQRpJu9uz3VE20",
-  "phone": "+12532000503",
-  "email": "service@frontlinefireflood.com",
-  "street_address": "9520 Front St",
-  "city": "Lakewood",
-  "state": "WA",
-  "postal_code": "98499",
-  "theme": "light",
-  "certifications": [
-   "IICRC CERTIFIED FIRM",
-   "IICRC AMRT (MOLD)",
-   "IICRC WRT (WATER)",
-   "IICRC FSRT (FIRE & SMOKE)",
-   "IICRC ASD (STRUCTURAL DRYING)",
-   "EPA LEAD-SAFE CERTIFIED",
-   "OSHA TRAINED"
+  "brand": {
+    "display_name": "Frontline Fire & Flood",
+    "lat": 47.1717649,
+    "lng": -122.518458,
+    "place_id": "ChIJK-c9495UkFQRpJu9uz3VE20",
+    "phone": "+12532000503",
+    "email": "service@frontlinefireflood.com",
+    "street_address": "9520 Front St",
+    "city": "Lakewood",
+    "state": "WA",
+    "postal_code": "98499",
+    "theme": "light",
+    "certifications": [
+      "IICRC CERTIFIED FIRM",
+      "IICRC AMRT (MOLD)",
+      "IICRC WRT (WATER)",
+      "IICRC FSRT (FIRE & SMOKE)",
+      "IICRC ASD (STRUCTURAL DRYING)",
+      "EPA LEAD-SAFE CERTIFIED",
+      "OSHA TRAINED"
+    ],
+    "license_numbers": [
+      "CCFRONTFF761CB"
+    ],
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "founded_year": "2014",
+    "trust_badges": [
+      "IICRC Certified Firm",
+      "Licensed & Insured",
+      "24/7 Emergency Service",
+      "Locally Owned & Operated"
+    ],
+    "primary_color": "#0052b8",
+    "dark_color": "#0b1f3a",
+    "accent_color": "#f08000"
+  },
+  "services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "storm-damage-restoration",
+    "sewage-cleanup",
+    "asbestos-abatement",
+    "emergency-board-up-tarping",
+    "contents-restoration-storage",
+    "water-cleanup"
   ],
-  "license_numbers": [
-   "CCFRONTFF761CB"
+  "service_areas": [
+    {
+      "city": "Lakewood",
+      "state": "WA",
+      "slug": "lakewood-wa",
+      "primary": true
+    },
+    {
+      "city": "Tacoma",
+      "state": "WA",
+      "slug": "tacoma-wa"
+    },
+    {
+      "city": "Puyallup",
+      "state": "WA",
+      "slug": "puyallup-wa"
+    },
+    {
+      "city": "University Place",
+      "state": "WA",
+      "slug": "university-place-wa"
+    },
+    {
+      "city": "Lacey",
+      "state": "WA",
+      "slug": "lacey-wa"
+    },
+    {
+      "city": "Olympia",
+      "state": "WA",
+      "slug": "olympia-wa"
+    },
+    {
+      "city": "Spanaway",
+      "state": "WA",
+      "slug": "spanaway-wa"
+    },
+    {
+      "city": "Parkland",
+      "state": "WA",
+      "slug": "parkland-wa"
+    },
+    {
+      "city": "DuPont",
+      "state": "WA",
+      "slug": "dupont-wa"
+    }
   ],
-  "hours": "24/7",
-  "licensed_insured_attested": true,
-  "founded_year": "2014",
-  "trust_badges": [
-   "IICRC Certified Firm",
-   "Licensed & Insured",
-   "24/7 Emergency Service",
-   "Locally Owned & Operated"
-  ]
- },
- "services": [
-  "water-damage-restoration",
-  "fire-damage-restoration",
-  "mold-remediation",
-  "storm-damage-restoration",
-  "sewage-cleanup",
-  "asbestos-abatement",
-  "emergency-board-up-tarping",
-  "contents-restoration-storage",
-  "water-cleanup"
- ],
- "service_areas": [
-  {
-   "city": "Lakewood",
-   "state": "WA",
-   "slug": "lakewood-wa",
-   "primary": true
-  },
-  {
-   "city": "Tacoma",
-   "state": "WA",
-   "slug": "tacoma-wa"
-  },
-  {
-   "city": "Puyallup",
-   "state": "WA",
-   "slug": "puyallup-wa"
-  },
-  {
-   "city": "University Place",
-   "state": "WA",
-   "slug": "university-place-wa"
-  },
-  {
-   "city": "Lacey",
-   "state": "WA",
-   "slug": "lacey-wa"
-  },
-  {
-   "city": "Olympia",
-   "state": "WA",
-   "slug": "olympia-wa"
-  },
-  {
-   "city": "Spanaway",
-   "state": "WA",
-   "slug": "spanaway-wa"
-  },
-  {
-   "city": "Parkland",
-   "state": "WA",
-   "slug": "parkland-wa"
-  },
-  {
-   "city": "DuPont",
-   "state": "WA",
-   "slug": "dupont-wa"
-  }
- ],
- "template": "restoration",
- "blog_seed_count": 8
+  "template": "restoration",
+  "blog_seed_count": 8
 }

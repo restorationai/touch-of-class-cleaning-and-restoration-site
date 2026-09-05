@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Olympia, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Olympia"
-meta_description: "24/7 storm damage restoration in Olympia, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Olympia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration olympia"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ If your policy includes a separate wind or storm deductible, knowing that number
 
 One thing that catches homeowners off guard in Olympia: the Douglas fir and big-leaf maple trees that make the city's older neighborhoods beautiful are also some of the most damaging trees in a windstorm. Firs in particular develop shallow root systems in the glacial till soil common throughout the area, which means a sustained 50-mph gust can topple a tree that looked perfectly healthy the day before. When a root ball pulls up, it often takes a section of foundation drainage or a buried downspout line with it, damage that isn't visible until water starts appearing in the crawl space weeks later. If a tree came down on or near your home, it's worth having the area around the root zone inspected even if the tree itself missed the structure.
 
-If your home has been hit by a storm and you're not sure how far the damage goes, call Frontline Fire & Flood at +12532000503. The team is available now, and getting eyes on the structure early is the single most effective thing you can do to limit what comes next.
+If your home has been hit by a storm and you're not sure how far the damage goes, call Frontline Fire & Flood at (253) 200-0503. The team is available now, and getting eyes on the structure early is the single most effective thing you can do to limit what comes next.

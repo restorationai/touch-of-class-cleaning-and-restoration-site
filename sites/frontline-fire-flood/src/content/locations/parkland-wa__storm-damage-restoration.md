@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Parkland, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Parkland"
-meta_description: "24/7 storm damage restoration in Parkland, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Parkland, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration parkland"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Most homeowner policies cover sudden and accidental storm damage, wind, hail, fa
 
 Parkland has a notable concentration of homes with attached carports rather than fully enclosed garages, a common design choice in mid-century Pacific Northwest residential construction. In a windstorm, carport roofs are among the first structures to fail because they lack the triangulated framing of a full garage. When a carport collapses or partially detaches, it can pull the attached wall of the main structure with it, exposing interior rooms to weather. If your home has this configuration and you're calling after a storm, mention it when you reach us, it changes how we stage equipment and assess structural risk before anyone steps under that roofline.
 
-If storm damage has hit your Parkland property, call Frontline Fire & Flood at +12532000503. We're available around the clock, we know the neighborhood, and we'll have eyes on your loss before the next weather system moves through.
+If storm damage has hit your Parkland property, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, we know the neighborhood, and we'll have eyes on your loss before the next weather system moves through.

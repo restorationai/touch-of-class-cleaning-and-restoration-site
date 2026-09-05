@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Lacey, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Lacey"
-meta_description: "24/7 storm damage restoration in Lacey, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration lacey"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ If your property is in a planned community or HOA-governed development, common i
 
 One pattern we see specifically in Lacey's crawl-space homes after wind-driven rain events: water enters not through the roof but through foundation vents that face the prevailing southwest wind. The crawl space floods or reaches very high humidity, the subfloor absorbs moisture from below, and the homeowner doesn't notice until flooring starts to cup or a musty odor develops weeks later. If your home took a hit from a storm and you haven't had the crawl space checked, that's the first place to look, surface dryness upstairs tells you very little about what's happening underneath.
 
-If a storm has left your Lacey home with a breached roof, standing water, or structural damage you're not sure how to assess, call Frontline Fire & Flood at +12532000503. Our IICRC-certified team is available around the clock to stabilize the loss, document it thoroughly, and walk you through every step of the restoration from first response to final inspection.
+If a storm has left your Lacey home with a breached roof, standing water, or structural damage you're not sure how to assess, call Frontline Fire & Flood at (253) 200-0503. Our IICRC-certified team is available around the clock to stabilize the loss, document it thoroughly, and walk you through every step of the restoration from first response to final inspection.

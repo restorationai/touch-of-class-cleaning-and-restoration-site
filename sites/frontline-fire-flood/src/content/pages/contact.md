@@ -2,7 +2,7 @@
 archetype: "contact"
 title: "Contact Frontline Fire & Flood | 24/7 Restoration in Lakewood"
 h1: "Contact Frontline Fire & Flood"
-meta_description: "Call +12532000503 for 24/7 emergency restoration in Lakewood and surrounding areas. Free estimates. Direct insurance billing."
+meta_description: "Call (253) 200-0503 for 24/7 emergency restoration in Lakewood and surrounding areas. Free estimates. Direct insurance billing."
 primary_keyword: "frontline fire & flood contact"
 secondary_keywords: ["restoration company contact", "24/7 restoration phone", "emergency restoration near me"]
 search_intent: "navigational_action"

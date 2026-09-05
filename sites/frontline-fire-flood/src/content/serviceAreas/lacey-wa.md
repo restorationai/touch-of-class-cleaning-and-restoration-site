@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Lacey, WA | Frontline Fire & Flood"
 h1: "Restoration Services in Lacey"
-meta_description: "Serving Lacey, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +12532000503."
+meta_description: "Serving Lacey, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503."
 primary_keyword: "restoration services lacey"
 secondary_keywords: ["lacey restoration company", "damage restoration lacey", "lacey disaster restoration"]
 search_intent: "local_commercial"

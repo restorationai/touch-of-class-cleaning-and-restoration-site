@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in DuPont, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in DuPont"
-meta_description: "24/7 contents restoration & storage in DuPont, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in DuPont, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage dupont"
 secondary_keywords: []
 search_intent: "local_specialty"

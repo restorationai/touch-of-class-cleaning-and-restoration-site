@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Storm Damage Restoration in Lakewood | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Lakewood"
-meta_description: "24/7 storm damage restoration in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration lakewood"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

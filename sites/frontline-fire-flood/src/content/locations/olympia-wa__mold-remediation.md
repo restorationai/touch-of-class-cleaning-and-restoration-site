@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Olympia, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Olympia"
-meta_description: "24/7 mold remediation in Olympia, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Olympia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation olympia"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"

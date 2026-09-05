@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Olympia, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Olympia"
-meta_description: "24/7 fire damage restoration in Olympia, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Olympia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration olympia"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -57,4 +57,4 @@ Fire claims in Washington are generally handled under the dwelling and other str
 
 Olympia's frequent overcast and the way marine air settles into low-lying areas near Capitol Lake and the inlet means that even in summer, post-fire structures dry more slowly than they would in eastern Washington or a drier climate. We account for this by running dehumidification longer than national baseline drying standards might suggest, and by checking ambient relative humidity against outdoor conditions before we close out the drying phase. A structure that reads within acceptable moisture content on a dry afternoon can rebound overnight when marine air moves back in. That extra verification step matters in this climate.
 
-If your home or business in Olympia has been affected by fire, call Frontline Fire & Flood at +12532000503. We'll assess the full scope of the loss, structural damage, smoke penetration, suppression water, and all, and walk you through every step of the path back to a livable, safe property.
+If your home or business in Olympia has been affected by fire, call Frontline Fire & Flood at (253) 200-0503. We'll assess the full scope of the loss, structural damage, smoke penetration, suppression water, and all, and walk you through every step of the path back to a livable, safe property.

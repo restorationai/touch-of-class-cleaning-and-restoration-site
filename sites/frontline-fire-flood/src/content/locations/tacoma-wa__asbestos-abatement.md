@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Tacoma, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Tacoma"
-meta_description: "24/7 asbestos abatement in Tacoma, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement tacoma"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -36,10 +36,10 @@ Once testing confirms the presence of asbestos, the work area is isolated with n
 
 ## Reaching Tacoma from Lakewood
 
-Frontline Fire & Flood is based in Lakewood, directly adjacent to Tacoma's southern border. I-5 and SR-512 both provide direct access into the city, and our crews are familiar with the surface streets that connect Lakewood to neighborhoods across Tacoma, from the South End along Pacific Avenue to the Stadium District and beyond. Because we operate 24/7, scheduling around your contractor's timeline or a pre-listing inspection deadline is straightforward. Call +12532000503 to discuss your project window.
+Frontline Fire & Flood is based in Lakewood, directly adjacent to Tacoma's southern border. I-5 and SR-512 both provide direct access into the city, and our crews are familiar with the surface streets that connect Lakewood to neighborhoods across Tacoma, from the South End along Pacific Avenue to the Stadium District and beyond. Because we operate 24/7, scheduling around your contractor's timeline or a pre-listing inspection deadline is straightforward. Call (253) 200-0503 to discuss your project window.
 
 ## Local Note
 
 One thing that catches Tacoma homeowners off guard: properties in the North End and Hilltop areas frequently have multiple generations of flooring layered on top of each other, original hardwood, then a layer of felt-backed vinyl from the 1950s or 60s, then a more recent laminate installed over both. The middle layer is often the one that contains asbestos, and it only becomes apparent once the top layer is pulled. If you are planning a flooring replacement in a home built before 1980, have the subsurface materials tested before any demo begins, not after the old floor is already in a dumpster.
 
-Frontline Fire & Flood's team is EPA Lead-Safe Certified and OSHA trained, and we carry the licensing required to perform abatement work in Washington State (license #CCFRONTFF761CB). If you have a renovation, a real estate transaction, or a damage-related project that may involve asbestos, the right time to call is before the work starts. Reach us at +12532000503, we serve Tacoma and the surrounding Pierce County area and can help you understand what testing, notification, and abatement will actually involve for your specific property.
+Frontline Fire & Flood's team is EPA Lead-Safe Certified and OSHA trained, and we carry the licensing required to perform abatement work in Washington State (license #CCFRONTFF761CB). If you have a renovation, a real estate transaction, or a damage-related project that may involve asbestos, the right time to call is before the work starts. Reach us at (253) 200-0503, we serve Tacoma and the surrounding Pierce County area and can help you understand what testing, notification, and abatement will actually involve for your specific property.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Spanaway, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Spanaway"
-meta_description: "24/7 water damage restoration in Spanaway, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Spanaway, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration spanaway"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ If your loss involves a slow leak that went undetected, coverage can be more com
 
 In Spanaway's crawl-space homes, particularly those built in the 1970s near the Bresemann Forest corridor, original vapor barriers are often thin polyethylene sheeting that has degraded or shifted over the decades. When a plumbing leak or groundwater intrusion event occurs, that compromised barrier means moisture reaches the wood framing directly. We routinely find that the crawl space requires full barrier replacement as part of the drying scope, not just extraction and air movement. If your restoration contractor skips a crawl space inspection after a water loss in this part of Pierce County, the drying job is likely incomplete.
 
-If you're dealing with standing water, wet flooring, or the musty smell that signals hidden moisture, call Frontline Fire & Flood at +12532000503. We serve Spanaway and the surrounding Pierce County communities around the clock, and we can begin water extraction and structural drying the same day you call.
+If you're dealing with standing water, wet flooring, or the musty smell that signals hidden moisture, call Frontline Fire & Flood at (253) 200-0503. We serve Spanaway and the surrounding Pierce County communities around the clock, and we can begin water extraction and structural drying the same day you call.

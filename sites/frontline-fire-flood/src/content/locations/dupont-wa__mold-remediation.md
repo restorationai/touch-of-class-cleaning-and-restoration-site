@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in DuPont, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in DuPont"
-meta_description: "24/7 mold remediation in DuPont, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in DuPont, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation dupont"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"

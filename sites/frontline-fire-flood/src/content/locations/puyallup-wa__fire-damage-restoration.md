@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Puyallup, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Puyallup"
-meta_description: "24/7 fire damage restoration in Puyallup, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Puyallup, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration puyallup"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ Pierce County fire losses, especially in older residential neighborhoods, tend t
 
 In Puyallup's older residential areas, many homes still have original cast-iron or galvanized steel heating ducts. After a fire, these ducts act as a distribution system for smoke particulate, the same forced air that once heated the home pushes soot into every register in the building. Before any HVAC system in one of these homes is turned back on post-fire, the duct network needs to be inspected and cleaned separately from the room-by-room restoration. Skipping that step and running the furnace to dry out the structure is one of the most common ways a contained fire loss becomes a whole-house odor problem.
 
-If you are dealing with fire or smoke damage anywhere in Puyallup, call Frontline Fire & Flood at +12532000503. The sooner the structure is assessed and secured, the smaller the gap between what can be restored and what has to be replaced.
+If you are dealing with fire or smoke damage anywhere in Puyallup, call Frontline Fire & Flood at (253) 200-0503. The sooner the structure is assessed and secured, the smaller the gap between what can be restored and what has to be replaced.

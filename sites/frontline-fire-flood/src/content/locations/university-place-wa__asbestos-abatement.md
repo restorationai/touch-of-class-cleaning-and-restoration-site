@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in University Place, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in University Place"
-meta_description: "24/7 asbestos abatement in University Place, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement university place"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"

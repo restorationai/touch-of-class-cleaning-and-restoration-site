@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Puyallup, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Puyallup"
-meta_description: "24/7 contents restoration & storage in Puyallup, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Puyallup, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage puyallup"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -42,7 +42,7 @@ Once your home's structural drying and repairs are complete, contents are return
 
 ## Reaching Puyallup from Lakewood
 
-Our team operates out of Lakewood, and Puyallup is a regular part of our service area, accessible via SR-512 or Canyon Road depending on traffic and time of day. We're available around the clock, so whether a pipe bursts on a Tuesday afternoon or a fire suppression system triggers at 2 a.m. you can reach us at +12532000503 and get a crew in motion.
+Our team operates out of Lakewood, and Puyallup is a regular part of our service area, accessible via SR-512 or Canyon Road depending on traffic and time of day. We're available around the clock, so whether a pipe bursts on a Tuesday afternoon or a fire suppression system triggers at 2 a.m. you can reach us at (253) 200-0503 and get a crew in motion.
 
 For properties in the areas surrounding downtown Puyallup and the South Hill corridor, we factor in routing when dispatching so the right vehicle, pack-out truck, drying equipment, or both, arrives in a single trip rather than multiple runs.
 
@@ -56,4 +56,4 @@ We work directly with most major carriers and can communicate with your assigned
 
 Puyallup's valley location means that even after a loss is mitigated, the ambient outdoor humidity during fall and winter can slow the re-acclimation of restored contents. Wood furniture and hardbound books returned to a home in November may take longer to stabilize than the same items returned in July. We account for this when scheduling pack-back, if your home's HVAC hasn't fully normalized post-repair, we'll flag it before returning moisture-sensitive items, rather than delivering them into conditions that could undo the restoration work.
 
-If your home in Puyallup has been affected by water damage, fire, or mold and your belongings need professional attention, call Frontline Fire & Flood at +12532000503. We'll assess what's restorable, document everything for your claim, and keep your contents secure until your home is ready.
+If your home in Puyallup has been affected by water damage, fire, or mold and your belongings need professional attention, call Frontline Fire & Flood at (253) 200-0503. We'll assess what's restorable, document everything for your claim, and keep your contents secure until your home is ready.

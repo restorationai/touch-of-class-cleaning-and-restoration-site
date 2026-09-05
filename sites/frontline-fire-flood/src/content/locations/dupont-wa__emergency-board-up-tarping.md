@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in DuPont, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in DuPont"
-meta_description: "24/7 emergency board-up and tarping in DuPont, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in DuPont, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping dupont"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"

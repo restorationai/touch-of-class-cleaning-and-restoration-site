@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in DuPont, WA | Frontline Fire & Flood"
 h1: "Restoration Services in DuPont"
-meta_description: "Serving DuPont, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +12532000503."
+meta_description: "Serving DuPont, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503."
 primary_keyword: "restoration services dupont"
 secondary_keywords: ["dupont restoration company", "damage restoration dupont", "dupont disaster restoration"]
 search_intent: "local_commercial"
