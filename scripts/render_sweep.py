@@ -131,7 +131,10 @@ def render_one(slug: str, workers: int) -> bool:
         print(f"[{slug}] render exited {rc} (partial progress is committed anyway; "
               "the next sweep resumes the remainder)")
     # commit whatever rendered — idempotency means a re-run only does the rest
-    run(["git", "add", f"sites/{slug}/", f"clients/{slug}.json"])
+    # clients/{slug}/ too: the image pass writes photo-manifest.json there,
+    # and an unstaged manifest left the tree dirty -> sync-deploy refused
+    # (2026-09-05 sweep failure)
+    run(["git", "add", f"sites/{slug}/", f"clients/{slug}.json", f"clients/{slug}/"])
     if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
         run(["git", "commit", "-m",
              f"render sweep: {slug} pending pages [automated]"])
