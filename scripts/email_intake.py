@@ -247,6 +247,40 @@ def sender_to_company(sender_email: str, companies: dict) -> tuple[str, dict] | 
     return None
 
 
+def _capture_ein_from_email(cid: str, subject: str, body: str,
+                            dry_run: bool) -> None:
+    """EIN in an email body dual-stores into company_phone_setup + companies
+    (Fran Carlo 2026-08-28: EIN 04-3553992 sat unread in a thread while the
+    toll-free pipeline was about to ask him for it). Unlike the SMS path this
+    does NOT require an EIN-ASK marker — a client emailing their EIN is
+    always deliberate. Only fires when nothing is stored yet."""
+    import requests as _req
+    m = re.search(r"\b(\d{2})-?(\d{7})\b", body)
+    if not m:
+        return
+    context = (subject + " " + body).lower()
+    if "ein" not in context and "tax id" not in context and "employer id" not in context:
+        return  # a bare 9-digit pattern without EIN wording could be anything
+    ein = f"{m.group(1)}-{m.group(2)}"
+    base = os.environ["SUPABASE_URL"].rstrip("/")
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    hdr = {"apikey": key, "Authorization": f"Bearer {key}"}
+    cur = _req.get(f"{base}/rest/v1/company_phone_setup?id=eq.{cid}"
+                   "&select=business_ein", headers=hdr, timeout=20).json()
+    if cur and cur[0].get("business_ein"):
+        return  # already on file — never overwrite
+    print(f"    EIN captured from email body: {ein}"
+          + (" [dry-run]" if dry_run else " -> dual-stored"))
+    if dry_run:
+        return
+    _req.patch(f"{base}/rest/v1/company_phone_setup?id=eq.{cid}",
+               json={"business_ein": ein}, timeout=20,
+               headers={**hdr, "Prefer": "return=minimal"})
+    _req.patch(f"{base}/rest/v1/companies?id=eq.{cid}&ein=is.null",
+               json={"ein": ein}, timeout=20,
+               headers={**hdr, "Prefer": "return=minimal"})
+
+
 def cmd_poll(args) -> int:
     dry_run = not args.send
     tok = access_token()
@@ -306,6 +340,10 @@ def cmd_poll(args) -> int:
             continue
         company_id, company = match
         print(f"    matched -> {company.get('name')} ({company_id})")
+        try:
+            _capture_ein_from_email(company_id, subject, body_text, dry_run)
+        except Exception as e:  # noqa: BLE001
+            print(f"    (ein capture errored: {str(e)[:80]})")
 
         # attachments: classify and file into branding/{cid}/docs — the shelf
         # the EIN scanner, site builds and LSA prep already read. Duplicates
