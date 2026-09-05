@@ -1472,6 +1472,32 @@
       "triaged_at": "2026-08-05T06:01:29Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMkmBIH1Gdp-6vWyO07KsNJz1rzSlLUrAdW1oc2": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMkmBIH1Gdp-6vWyO07KsNJz1rzSlLUrAdW1oc2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMkmBIH1Gdp-6vWyO07KsNJz1rzSlLUrAdW1oc2.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 102818,
+      "sha1": "58afbf4e9954a96d",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Multiple air movers and dehumidifiers deployed in damaged basement room",
+      "quality": 62,
+      "slots": {
+        "hero": 45,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "flags": [],
+      "reason": "Good equipment shot showing active drying setup; slightly dark, no people.",
+      "triaged_at": "2026-09-05T14:09:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMoCpB8Pz4dYbRmKq6w0K6jV6hIGSW9oWZGkufR": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMoCpB8Pz4dYbRmKq6w0K6jV6hIGSW9oWZGkufR.jpg",
@@ -5147,5 +5173,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-03T19:03:40Z"
+  "triaged_at": "2026-09-05T14:09:21Z"
 }
