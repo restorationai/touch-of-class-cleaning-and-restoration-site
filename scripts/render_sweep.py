@@ -115,8 +115,8 @@ def render_one(slug: str, workers: int) -> bool:
     # Per-site nightly drip (Santino 2026-09-04): a brand-new site should not
     # publish its whole 100+ page plan in one shot. Money pages render first
     # (build_site orders by priority), then ~SITE_CAP pages land per night
-    # until the plan is done — a 106-page site rolls out over ~4 nights.
-    site_cap = int(os.environ.get("RENDER_SWEEP_SITE_CAP", "30"))
+    # until the plan is done — every site finishes inside 7 nights (10 for 250+ page builds).
+    site_cap = int(os.environ.get("RENDER_SWEEP_SITE_CAP", "50"))
     if n > site_cap:
         print(f"[{slug}] {n} pending page(s) — rendering top-priority {site_cap} "
               f"tonight (drip; ~{-(-n // site_cap)} night(s) to finish)")
