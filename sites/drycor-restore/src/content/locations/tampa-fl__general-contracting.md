@@ -34,9 +34,9 @@ Every project starts with a scope-of-work walkthrough that accounts for what's v
 
 From there, the process moves through permitting, material procurement, demolition, and phased construction with inspections built into the schedule rather than treated as interruptions. Because DRYCOR RESTORE is both an IICRC Certified Firm and a licensed general contractor, post-damage rebuilds, where restoration work transitions directly into remodel work, can be managed under a single contract rather than handed off between separate companies. That matters when you're dealing with an insurance claim and need one point of contact who can speak to both the remediation scope and the rebuild scope.
 
-## Reaching Tampa from Our Thonotosasa Home Base
+## Reaching Tampa from Our Thonotosassa Home Base
 
-DRYCOR RESTORE operates out of Thonotosasa, which sits just northeast of Tampa off I-4 and US-301, a straightforward run into most of the metro area. South Tampa neighborhoods, the Westshore corridor, and areas around Ybor City are all accessible without navigating the worst of downtown congestion when scheduling allows. For project consultations and scheduled renovation work, we coordinate arrival windows that account for Tampa's notoriously compressed rush-hour patterns on I-275 and the Selmon Expressway. We're available 24/7 for emergency calls, and renovation project scheduling is handled directly through our office at (813) 829-1091.
+DRYCOR RESTORE operates out of Thonotosassa, which sits just northeast of Tampa off I-4 and US-301, a straightforward run into most of the metro area. South Tampa neighborhoods, the Westshore corridor, and areas around Ybor City are all accessible without navigating the worst of downtown congestion when scheduling allows. For project consultations and scheduled renovation work, we coordinate arrival windows that account for Tampa's notoriously compressed rush-hour patterns on I-275 and the Selmon Expressway. We're available 24/7 for emergency calls, and renovation project scheduling is handled directly through our office at (813) 829-1091.
 
 ## Local Note: What Opens Walls in Tampa Often Reveals
 

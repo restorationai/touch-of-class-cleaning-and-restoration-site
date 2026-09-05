@@ -40,9 +40,9 @@ Contaminated materials, drywall, insulation, flooring, framing if affected, are 
 
 For homes with lead-based paint, a real consideration in Lakeland properties built before 1978, our EPA Lead-Safe Certified status means remediation work that disturbs painted surfaces is handled under the appropriate containment and cleanup protocols.
 
-## Reaching Lakeland from Thonotosasa
+## Reaching Lakeland from Thonotosassa
 
-DRYCOR RESTORE is based in Thonotosasa, which puts Lakeland well within our regular service area. The most direct route runs west on I-4 and drops into Lakeland in under an hour under normal conditions, less during off-peak hours. We're available around the clock, so if you're calling at 2 a.m. after discovering a leak that's been running behind a wall, you're not waiting until morning to get a response.
+DRYCOR RESTORE is based in Thonotosassa, which puts Lakeland well within our regular service area. The most direct route runs west on I-4 and drops into Lakeland in under an hour under normal conditions, less during off-peak hours. We're available around the clock, so if you're calling at 2 a.m. after discovering a leak that's been running behind a wall, you're not waiting until morning to get a response.
 
 ## Local Note
 

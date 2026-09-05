@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Emergency Board-Up and Tarping in Thonotosasa | DRYCOR RESTORE"
-h1: "Emergency Board-Up and Tarping in Thonotosasa"
-meta_description: "24/7 emergency board-up and tarping in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "Emergency Board-Up and Tarping in Thonotosassa | DRYCOR RESTORE"
+h1: "Emergency Board-Up and Tarping in Thonotosassa"
+meta_description: "24/7 emergency board-up and tarping in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency board-up and tarping thonotosasa"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -68,10 +68,10 @@ Homeowners insurance typically covers emergency board-up and tarping as a mitiga
 
 ## Seasonal and regional considerations
 
-Thonotosasa and the broader Hillsborough County area sit squarely in Florida's hurricane and severe-storm corridor. The Atlantic hurricane season runs June through November, but fast-moving afternoon thunderstorms capable of producing microbursts and localized wind damage occur year-round. Roof decking in many of the area's older neighborhoods, particularly homes built before updated wind-load requirements took effect, is more vulnerable to uplift than newer construction. After any named storm makes landfall within several hundred miles, demand for emergency tarping spikes sharply and material availability tightens; having a contractor relationship in place before a storm is always preferable to searching during one.
+Thonotosassa and the broader Hillsborough County area sit squarely in Florida's hurricane and severe-storm corridor. The Atlantic hurricane season runs June through November, but fast-moving afternoon thunderstorms capable of producing microbursts and localized wind damage occur year-round. Roof decking in many of the area's older neighborhoods, particularly homes built before updated wind-load requirements took effect, is more vulnerable to uplift than newer construction. After any named storm makes landfall within several hundred miles, demand for emergency tarping spikes sharply and material availability tightens; having a contractor relationship in place before a storm is always preferable to searching during one.
 
 ## Service area
 
-DRYCOR RESTORE is based in Thonotosasa and responds to emergency board-up and tarping calls throughout the surrounding area, including Tampa, Brandon, Seffner, Mango, Lutz, Land O' Lakes, and neighboring Hillsborough and Pasco County communities. Dedicated service-area pages cover specific cities, each links back here for the full service detail.
+DRYCOR RESTORE is based in Thonotosassa and responds to emergency board-up and tarping calls throughout the surrounding area, including Tampa, Brandon, Seffner, Mango, Lutz, Land O' Lakes, and neighboring Hillsborough and Pasco County communities. Dedicated service-area pages cover specific cities, each links back here for the full service detail.
 
 If a storm, fire, or impact has left your structure open right now, call (813) 829-1091. DRYCOR RESTORE operates 24/7, the crew that secures your property tonight also documents the loss for your adjuster tomorrow.

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Thonotosasa | DRYCOR RESTORE"
-h1: "Fire Damage Restoration in Thonotosasa"
-meta_description: "24/7 fire damage restoration in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "Fire Damage Restoration in Thonotosassa | DRYCOR RESTORE"
+h1: "Fire Damage Restoration in Thonotosassa"
+meta_description: "24/7 fire damage restoration in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "fire damage restoration thonotosasa"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -45,7 +45,7 @@ The most common failure in post-fire restoration is treating it as a cleaning jo
 
 Insurance adjusters look for documented scope, a line-item inventory of affected materials, moisture readings, soot testing notes, and photographic evidence at each phase. A restoration company that cannot produce this documentation creates gaps in the claim that adjusters will use to reduce or deny line items. Thorough documentation protects the homeowner's settlement, not just the contractor's invoice.
 
-OHSA-trained technicians working in post-fire environments also recognize hazards that are easy to overlook: compromised structural members that look intact, residual carbon monoxide in enclosed spaces, and lead or asbestos in pre-1980s materials disturbed by fire and suppression water. Homes in Thonotosasa and the broader Hillsborough County area include a significant number of structures built before modern material standards, and disturbing those materials without proper protocols creates liability for everyone involved. DRYCOR RESTORE holds EPA Lead-Safe Certification and carries license #CBC1253966.
+OHSA-trained technicians working in post-fire environments also recognize hazards that are easy to overlook: compromised structural members that look intact, residual carbon monoxide in enclosed spaces, and lead or asbestos in pre-1980s materials disturbed by fire and suppression water. Homes in Thonotosassa and the broader Hillsborough County area include a significant number of structures built before modern material standards, and disturbing those materials without proper protocols creates liability for everyone involved. DRYCOR RESTORE holds EPA Lead-Safe Certification and carries license #CBC1253966.
 
 ## What does fire damage restoration cost?
 
@@ -70,7 +70,7 @@ Dry-season fires, typically November through April in this part of Florida, tend
 
 ## Service area
 
-DRYCOR RESTORE is based in Thonotosasa and serves communities throughout Hillsborough County and the surrounding region, including Tampa, Brandon, Valrico, Seffner, Plant City, Lutz, Land O' Lakes, and New Tampa. Dedicated service-area pages for each city link back to this page for the full technical detail on fire and smoke restoration.
+DRYCOR RESTORE is based in Thonotosassa and serves communities throughout Hillsborough County and the surrounding region, including Tampa, Brandon, Valrico, Seffner, Plant City, Lutz, Land O' Lakes, and New Tampa. Dedicated service-area pages for each city link back to this page for the full technical detail on fire and smoke restoration.
 
 ---
 

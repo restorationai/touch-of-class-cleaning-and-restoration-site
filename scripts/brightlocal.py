@@ -125,7 +125,9 @@ def nap_for(slug: str, c: dict) -> dict | None:
     name = b.get("displayName") or c.get("display_name")
     phone = b.get("phone")
     line1 = b.get("streetAddress")
-    city = b.get("primaryCity")
+    # NAP = physical location: addressCity when the brand splits the two
+    # (DryCor: primaryCity carried a typo; addressCity was right)
+    city = b.get("addressCity") or b.get("primaryCity")
     region_code = b.get("primaryState")
     postcode = b.get("postalCode")
     website = b.get("domain") or c.get("domain")

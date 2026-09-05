@@ -40,7 +40,7 @@ If a page is difficult to read, a form is hard to complete, or any feature of th
 
 - **Email:** team@drycor.com
 - **Phone:** (813) 829-1091
-- **Mail:** 10798 Florence Ave, Thonotosasa, FL 33592
+- **Mail:** 10798 Florence Ave, Thonotosassa, FL 33592
 
 Describe the page you were on, the assistive technology or browser you were using, and what you were trying to do. We will acknowledge your message promptly and aim to address or work around the reported issue within a reasonable timeframe. If the fix requires a development change, we will let you know the expected timeline.
 

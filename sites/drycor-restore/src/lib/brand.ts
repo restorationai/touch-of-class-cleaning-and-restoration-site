@@ -23,7 +23,7 @@ export const brand = {
   email: "team@drycor.com",
   hours: "24/7",
   foundedYear: "2005",
-  primaryCity: "Thonotosasa",
+  primaryCity: "Thonotosassa",
   primaryState: "FL",
   // primaryCity/primaryState = the #1 MARKETING city (headlines, coverage
   // copy). addressCity/addressState = where the business PHYSICALLY is.
@@ -67,7 +67,7 @@ export const brand = {
     { author: "Cindy", rating: 5, text: "I highly recommend Drycor Restore, and Showalter Construction and Restoration. I had a plumbing issue that allowed water to run unseen throughout the house for months, damaging all of my floors, and leaving mold in my bathroom and bedroom. The slab had to be dried throughout, sealed, and new floors…", when: "May 2026" },
     { author: "Josh", rating: 5, text: "After our rental property in Land O' Lakes flooded in winter 2025 (sewage drain clog), we needed more than just cleanup. We needed a strategic partner. Drycor Restore delivered exactly that. Robert arrived first, incredibly knowledgeable, calm, and walked us through every step. He guided us on…", when: "May 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
-  tagline: "24/7 restoration services in Thonotosasa, FL.",
+  tagline: "24/7 restoration services in Thonotosassa, FL.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
@@ -75,7 +75,7 @@ export const brand = {
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",
-  homeAboutBlurb: "DRYCOR RESTORE serves Thonotosasa and the surrounding FL area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
+  homeAboutBlurb: "DRYCOR RESTORE serves Thonotosassa and the surrounding FL area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

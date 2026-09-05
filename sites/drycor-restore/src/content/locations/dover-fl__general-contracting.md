@@ -36,9 +36,9 @@ From there, the process moves through permitting with Hillsborough County's Buil
 
 Kitchen and bathroom remodels are among the most common requests we handle in this area. Both involve plumbing tie-ins, electrical upgrades, and ventilation work, all of which require permits and inspections in Hillsborough County. We pull the permits, schedule the inspections, and don't hand you the keys until the county signs off.
 
-## Reaching Dover from Our Thonotosasa Base
+## Reaching Dover from Our Thonotosassa Base
 
-DRYCOR RESTORE is headquartered in Thonotosasa, which puts Dover well within our primary service corridor. The drive along US-92 or through the County Road 579 corridor is straightforward, and our team is available around the clock, so whether a storm tears through overnight or a pipe failure turns a planned weekend project into an emergency rebuild, we can mobilize without delay.
+DRYCOR RESTORE is headquartered in Thonotosassa, which puts Dover well within our primary service corridor. The drive along US-92 or through the County Road 579 corridor is straightforward, and our team is available around the clock, so whether a storm tears through overnight or a pipe failure turns a planned weekend project into an emergency rebuild, we can mobilize without delay.
 
 ## Local Note
 

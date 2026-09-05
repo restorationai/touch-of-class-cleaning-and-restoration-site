@@ -20,7 +20,7 @@ state: "FL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
-Seffner sits in a corridor of Hillsborough County that funnels Gulf-born storms straight inland along I-4, and when a named storm or fast-moving squall line rolls through, the damage it leaves behind is rarely simple. Wind-driven rain finds every gap in a roof deck, oak limbs drop onto screened enclosures and carports, and the sandy-loam soil saturates quickly, turning yards into temporary ponds that push water toward foundations and slab edges. DRYCOR RESTORE responds 24/7 from nearby Thonotosasa to assess, secure, and restore storm-damaged properties before secondary damage compounds the original loss.
+Seffner sits in a corridor of Hillsborough County that funnels Gulf-born storms straight inland along I-4, and when a named storm or fast-moving squall line rolls through, the damage it leaves behind is rarely simple. Wind-driven rain finds every gap in a roof deck, oak limbs drop onto screened enclosures and carports, and the sandy-loam soil saturates quickly, turning yards into temporary ponds that push water toward foundations and slab edges. DRYCOR RESTORE responds 24/7 from nearby Thonotosassa to assess, secure, and restore storm-damaged properties before secondary damage compounds the original loss.
 
 ## Why Seffner Properties See Significant Storm Damage
 
@@ -41,9 +41,9 @@ From there, the process follows a documented sequence:
 
 All drying is performed to IICRC S500 and S520 standards, with daily moisture logs that become part of the insurance documentation package.
 
-## Reaching Seffner from Thonotosasa
+## Reaching Seffner from Thonotosassa
 
-DRYCOR RESTORE's base in Thonotosasa puts Seffner well within a short drive under normal conditions, the two communities share the same stretch of Hillsborough County, connected directly by Thonotosassa Road and the US-92 corridor. Because the office is local rather than dispatched from Tampa proper, crews are not fighting the I-275 or I-4 interchange backups that slow response from downtown Tampa after a major storm event. That proximity matters most in the hours immediately after a storm, when getting a tarp on a roof before the next afternoon thunderstorm is the difference between a contained loss and a total interior replacement.
+DRYCOR RESTORE's base in Thonotosassa puts Seffner well within a short drive under normal conditions, the two communities share the same stretch of Hillsborough County, connected directly by Thonotosassa Road and the US-92 corridor. Because the office is local rather than dispatched from Tampa proper, crews are not fighting the I-275 or I-4 interchange backups that slow response from downtown Tampa after a major storm event. That proximity matters most in the hours immediately after a storm, when getting a tarp on a roof before the next afternoon thunderstorm is the difference between a contained loss and a total interior replacement.
 
 ## Seffner Insurance Coordination
 

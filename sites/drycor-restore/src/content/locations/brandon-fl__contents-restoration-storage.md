@@ -36,9 +36,9 @@ Salvageable contents are packed and transported to a climate-controlled facility
 
 Once your home is cleared for move-back, contents are returned, unwrapped, and placed according to your original room layout. Nothing is marked as complete until you've walked through and confirmed the inventory matches.
 
-## Reaching Brandon from Thonotosasa
+## Reaching Brandon from Thonotosassa
 
-Drycor Restore operates out of Thonotosasa, which puts Brandon well within a short drive, typically via US-301 South or the I-75 corridor depending on traffic and the specific part of Brandon involved. The team is available around the clock, so a call at 2 a.m. after a pipe bursts or a kitchen fire gets suppressed reaches a live dispatcher, not a voicemail. (813) 829-1091 connects you directly.
+Drycor Restore operates out of Thonotosassa, which puts Brandon well within a short drive, typically via US-301 South or the I-75 corridor depending on traffic and the specific part of Brandon involved. The team is available around the clock, so a call at 2 a.m. after a pipe bursts or a kitchen fire gets suppressed reaches a live dispatcher, not a voicemail. (813) 829-1091 connects you directly.
 
 ## Brandon Insurance Coordination
 

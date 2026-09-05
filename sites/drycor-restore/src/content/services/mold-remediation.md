@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Mold Remediation in Thonotosasa | DRYCOR RESTORE"
-h1: "Mold Remediation in Thonotosasa"
-meta_description: "24/7 mold remediation in Thonotosasa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "Mold Remediation in Thonotosassa | DRYCOR RESTORE"
+h1: "Mold Remediation in Thonotosassa"
+meta_description: "24/7 mold remediation in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "mold remediation thonotosasa"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -73,7 +73,7 @@ Every loss is different, and DRYCOR RESTORE provides a written scope of work bef
 
 ## Seasonal and regional considerations
 
-Thonotosasa and the broader Hillsborough County area present some of the most mold-favorable conditions in the continental United States. The combination of subtropical humidity, a rainy season that runs roughly June through September, and housing stock that includes both older block construction and newer wood-frame builds creates persistent risk.
+Thonotosassa and the broader Hillsborough County area present some of the most mold-favorable conditions in the continental United States. The combination of subtropical humidity, a rainy season that runs roughly June through September, and housing stock that includes both older block construction and newer wood-frame builds creates persistent risk.
 
 Block and stucco construction common throughout the Tampa Bay region can trap moisture at the wall cavity level, especially where stucco has cracked or where window and door flashing has failed. Wood-frame homes with inadequate vapor barriers in crawl spaces are particularly vulnerable after heavy rain events. HVAC systems running nearly year-round create condensation risk at air handler units and ductwork, a frequently overlooked mold source in Florida homes.
 
@@ -81,4 +81,4 @@ Post-hurricane and post-tropical-storm periods are the highest-risk windows. Roo
 
 ## Service area
 
-DRYCOR RESTORE is based in Thonotosasa and serves communities throughout Hillsborough County and surrounding areas, including Tampa, Brandon, Seffner, Plant City, Valrico, Lutz, Land O' Lakes, and New Tampa. City-specific pages for mold remediation in each community link back to this page for full process and technical detail.
+DRYCOR RESTORE is based in Thonotosassa and serves communities throughout Hillsborough County and surrounding areas, including Tampa, Brandon, Seffner, Plant City, Valrico, Lutz, Land O' Lakes, and New Tampa. City-specific pages for mold remediation in each community link back to this page for full process and technical detail.

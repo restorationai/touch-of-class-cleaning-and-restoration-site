@@ -68,7 +68,7 @@ The EPA's general guidance for homeowners is that mold patches smaller than abou
 
 In Hillsborough County's climate, where summer humidity regularly stays above 70% and afternoon thunderstorms can push water into any gap in an envelope, the "contained single event" scenario is less common than homeowners expect. A roof leak that seems minor in May can create conditions for mold by June.
 
-DRYCOR RESTORE handles mold remediation in the Thonotosasa area and surrounding Hillsborough County communities. If you're not sure whether what you're seeing warrants a professional assessment, a call to (813) 829-1091 costs nothing and can help you decide.
+DRYCOR RESTORE handles mold remediation in the Thonotosassa area and surrounding Hillsborough County communities. If you're not sure whether what you're seeing warrants a professional assessment, a call to (813) 829-1091 costs nothing and can help you decide.
 
 ## What Professional Mold Remediation Actually Involves
 
@@ -82,4 +82,4 @@ The moisture source that allowed mold to grow must also be corrected before reme
 
 ---
 
-If you've found mold in your home and you're not sure what you're looking at or how serious it is, the safest first step is a professional assessment, not a DIY test kit from a hardware store, and not a bleach scrub. DRYCOR RESTORE serves Thonotosasa and the surrounding Hillsborough County area. Reach the team at (813) 829-1091.
+If you've found mold in your home and you're not sure what you're looking at or how serious it is, the safest first step is a professional assessment, not a DIY test kit from a hardware store, and not a bleach scrub. DRYCOR RESTORE serves Thonotosassa and the surrounding Hillsborough County area. Reach the team at (813) 829-1091.

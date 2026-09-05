@@ -20,7 +20,7 @@ state: "FL"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Lakeland's mix of mid-century ranch homes, postwar bungalows, and newer subdivisions built on the region's notoriously sandy, moisture-prone soils creates a renovation landscape that's genuinely different from most of Florida. Whether you're updating a 1960s kitchen in the Dixieland historic district, rebuilding after storm or water damage, or taking on a full general contracting project from permit to punch-list, the conditions here, humidity that rarely relents, a high water table that complicates foundation and subfloor work, and Polk County's specific permitting timeline, shape every decision a contractor makes. Drycor Restore (license #CBC1253966) has been handling this work since 2005, operating out of Thonotosasa and serving Lakeland properties across the full spectrum of renovation and rebuild.
+Lakeland's mix of mid-century ranch homes, postwar bungalows, and newer subdivisions built on the region's notoriously sandy, moisture-prone soils creates a renovation landscape that's genuinely different from most of Florida. Whether you're updating a 1960s kitchen in the Dixieland historic district, rebuilding after storm or water damage, or taking on a full general contracting project from permit to punch-list, the conditions here, humidity that rarely relents, a high water table that complicates foundation and subfloor work, and Polk County's specific permitting timeline, shape every decision a contractor makes. Drycor Restore (license #CBC1253966) has been handling this work since 2005, operating out of Thonotosassa and serving Lakeland properties across the full spectrum of renovation and rebuild.
 
 ## Why Lakeland's Housing Stock and Climate Shape Every Renovation
 
@@ -36,9 +36,9 @@ Permit coordination runs through Polk County's building department, and timeline
 
 Our IICRC-certified background means that when a renovation uncovers hidden damage, saturated wall cavities, microbial growth behind tile backer, or compromised structural members, we can assess and address it in-house rather than stopping work to bring in a separate contractor.
 
-## Reaching Lakeland from Thonotosasa
+## Reaching Lakeland from Thonotosassa
 
-From our Thonotosasa base, Lakeland is a straightforward run west on I-4, putting us within practical reach of properties throughout the city. The I-4 corridor connects directly to central Lakeland, and US-98 provides access to neighborhoods on the south and east sides of the city. For project consultations and scheduled renovation work, we coordinate arrival windows that account for the I-4 interchange traffic patterns that can affect mid-morning and late-afternoon travel times on that stretch.
+From our Thonotosassa base, Lakeland is a straightforward run west on I-4, putting us within practical reach of properties throughout the city. The I-4 corridor connects directly to central Lakeland, and US-98 provides access to neighborhoods on the south and east sides of the city. For project consultations and scheduled renovation work, we coordinate arrival windows that account for the I-4 interchange traffic patterns that can affect mid-morning and late-afternoon travel times on that stretch.
 
 Because Drycor Restore operates 24/7, we're also reachable for urgent situations, a mid-renovation discovery of hidden mold, a pipe failure that interrupts an active remodel, without waiting for the next business day.
 

@@ -40,9 +40,9 @@ At the facility, contents go through a triage process: ultrasonic cleaning for h
 
 The IICRC-certified team at Drycor Restore follows documented standards for each material category, not a one-size approach, because a cast-iron lamp and a linen tablecloth don't respond to the same treatment.
 
-## Reaching Lakeland from Thonotosasa
+## Reaching Lakeland from Thonotosassa
 
-Drycor Restore operates out of Thonotosasa, which puts the crew on I-4 westbound toward Lakeland in a straightforward run, typically a direct shot with no major interchange complications outside of peak commute windows. The team is available around the clock, so a call at 2 a.m. after a pipe bursts or a storm pushes water through the roof gets the same response as a daytime call. Lakeland's spread-out geography means different parts of the city have different access patterns, but the I-4 corridor gives a reliable primary route into the core of the city.
+Drycor Restore operates out of Thonotosassa, which puts the crew on I-4 westbound toward Lakeland in a straightforward run, typically a direct shot with no major interchange complications outside of peak commute windows. The team is available around the clock, so a call at 2 a.m. after a pipe bursts or a storm pushes water through the roof gets the same response as a daytime call. Lakeland's spread-out geography means different parts of the city have different access patterns, but the I-4 corridor gives a reliable primary route into the core of the city.
 
 ## Local Note
 

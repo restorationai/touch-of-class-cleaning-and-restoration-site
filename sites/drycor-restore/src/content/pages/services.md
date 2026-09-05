@@ -1,8 +1,8 @@
 ---
 archetype: "services-hub"
-title: "Restoration Services in Thonotosasa | DRYCOR RESTORE"
+title: "Restoration Services in Thonotosassa | DRYCOR RESTORE"
 h1: "Our Restoration Services"
-meta_description: "Full-service restoration in Thonotosasa: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (813) 829-1091."
+meta_description: "Full-service restoration in Thonotosassa: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (813) 829-1091."
 primary_keyword: "restoration services thonotosasa"
 secondary_keywords: ["damage restoration services", "property restoration services", "disaster restoration"]
 search_intent: "local_commercial"

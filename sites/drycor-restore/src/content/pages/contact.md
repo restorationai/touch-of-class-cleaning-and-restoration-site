@@ -1,8 +1,8 @@
 ---
 archetype: "contact"
-title: "Contact DRYCOR RESTORE | 24/7 Restoration in Thonotosasa"
+title: "Contact DRYCOR RESTORE | 24/7 Restoration in Thonotosassa"
 h1: "Contact DRYCOR RESTORE"
-meta_description: "Call (813) 829-1091 for 24/7 emergency restoration in Thonotosasa and surrounding areas. Free estimates. Direct insurance billing."
+meta_description: "Call (813) 829-1091 for 24/7 emergency restoration in Thonotosassa and surrounding areas. Free estimates. Direct insurance billing."
 primary_keyword: "drycor restore contact"
 secondary_keywords: ["restoration company contact", "24/7 restoration phone", "emergency restoration near me"]
 search_intent: "navigational_action"
@@ -27,4 +27,4 @@ If the situation is stable and you need a damage assessment, a scope of work for
 
 ## Where we're located
 
-DRYCOR RESTORE operates out of Thonotosasa, FL, centrally positioned in eastern Hillsborough County at 10798 Florence Ave, Thonotosasa, FL 33592. That location puts us close to Tampa, Brandon, Plant City, Valrico, Lutz, Wesley Chapel, and the surrounding communities. Hillsborough County's wet summers and aging housing stock mean water and storm damage calls come in fast; being based here rather than routing crews from across the metro keeps response times tight. If you're unsure whether your address falls within our service area, call or email, we'll tell you straight.
+DRYCOR RESTORE operates out of Thonotosassa, FL, centrally positioned in eastern Hillsborough County at 10798 Florence Ave, Thonotosassa, FL 33592. That location puts us close to Tampa, Brandon, Plant City, Valrico, Lutz, Wesley Chapel, and the surrounding communities. Hillsborough County's wet summers and aging housing stock mean water and storm damage calls come in fast; being based here rather than routing crews from across the metro keeps response times tight. If you're unsure whether your address falls within our service area, call or email, we'll tell you straight.

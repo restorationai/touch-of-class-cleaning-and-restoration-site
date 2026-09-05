@@ -47,9 +47,9 @@ Renovation work in Brandon falls under Hillsborough County's building department
 
 Many of Brandon's planned communities also carry HOA architectural review requirements. Exterior changes, rooflines, window replacements, door styles, even paint colors, may require written approval before work begins. We've worked through enough of these review processes to know that submitting complete documentation upfront, including material specs and color samples, moves approvals faster than a vague description and a follow-up call.
 
-## Reaching Brandon from Thonotosasa
+## Reaching Brandon from Thonotosassa
 
-DRYCOR RESTORE is based in Thonotosasa, which puts Brandon well within our regular service area, the two communities share a border along the eastern edge of Hillsborough County. From our location, Brandon is a straightforward run west on Dr. Martin Luther King Jr. Boulevard or south via US-301, with most of the community reachable without significant transit time. We're available around the clock, so whether a post-storm assessment needs to happen on a Sunday morning or a project walkthrough fits better in the evening, scheduling isn't the obstacle.
+DRYCOR RESTORE is based in Thonotosassa, which puts Brandon well within our regular service area, the two communities share a border along the eastern edge of Hillsborough County. From our location, Brandon is a straightforward run west on Dr. Martin Luther King Jr. Boulevard or south via US-301, with most of the community reachable without significant transit time. We're available around the clock, so whether a post-storm assessment needs to happen on a Sunday morning or a project walkthrough fits better in the evening, scheduling isn't the obstacle.
 
 ## Local Note
 

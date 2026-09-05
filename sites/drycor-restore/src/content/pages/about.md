@@ -1,8 +1,8 @@
 ---
 archetype: "about"
-title: "About DRYCOR RESTORE | Thonotosasa Restoration Company"
+title: "About DRYCOR RESTORE | Thonotosassa Restoration Company"
 h1: "About DRYCOR RESTORE"
-meta_description: "DRYCOR RESTORE has served Thonotosasa since 2005. Meet our IICRC-certified restoration team. Licensed, insured, locally owned."
+meta_description: "DRYCOR RESTORE has served Thonotosassa since 2005. Meet our IICRC-certified restoration team. Licensed, insured, locally owned."
 primary_keyword: "drycor restore thonotosasa"
 secondary_keywords: ["local restoration company", "iicrc certified restoration", "licensed restoration contractor"]
 search_intent: "navigational_trust"
@@ -12,7 +12,7 @@ generated_at: "2026-09-03T11:38:54.832655+00:00"
 manual_override: false
 internal_links: ["/", "/services/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "About"}]
-faq: [{"question": "How long has DRYCOR RESTORE been in business?", "answer": "DRYCOR RESTORE was founded in 2005, giving the company close to two decades of experience in water damage restoration, fire and smoke cleanup, mold remediation, and related services. That history spans a wide range of loss types, property ages, and insurance carriers across the greater Tampa Bay area."}, {"question": "What areas does DRYCOR RESTORE serve?", "answer": "We're based in Thonotosasa, FL and serve communities throughout Hillsborough, Pasco, and Polk counties, including Tampa, Brandon, Plant City, Wesley Chapel, Zephyrhills, and surrounding areas. If you're unsure whether your property falls within our service area, call us at (813) 829-1091 and we can confirm quickly."}, {"question": "What do DRYCOR RESTORE's certifications actually mean for my project?", "answer": "Our IICRC certifications mean the drying and restoration work on your property follows the industry's published technical standards, not guesswork. EPA Lead-Safe certification means we're federally authorized to work on pre-1978 homes without creating a lead exposure hazard. NAERMC mold certification reflects specific training in mold assessment and remediation protocols beyond general contracting."}]
+faq: [{"question": "How long has DRYCOR RESTORE been in business?", "answer": "DRYCOR RESTORE was founded in 2005, giving the company close to two decades of experience in water damage restoration, fire and smoke cleanup, mold remediation, and related services. That history spans a wide range of loss types, property ages, and insurance carriers across the greater Tampa Bay area."}, {"question": "What areas does DRYCOR RESTORE serve?", "answer": "We're based in Thonotosassa, FL and serve communities throughout Hillsborough, Pasco, and Polk counties, including Tampa, Brandon, Plant City, Wesley Chapel, Zephyrhills, and surrounding areas. If you're unsure whether your property falls within our service area, call us at (813) 829-1091 and we can confirm quickly."}, {"question": "What do DRYCOR RESTORE's certifications actually mean for my project?", "answer": "Our IICRC certifications mean the drying and restoration work on your property follows the industry's published technical standards, not guesswork. EPA Lead-Safe certification means we're federally authorized to work on pre-1978 homes without creating a lead exposure hazard. NAERMC mold certification reflects specific training in mold assessment and remediation protocols beyond general contracting."}]
 rendered: true
 ---
 DRYCOR RESTORE has been working through water intrusions, fire damage, mold discoveries, and the chaos that follows all three since 2005. That's nearly two decades of arriving at homes and commercial properties after something has gone wrong, often badly wrong, and helping owners understand what happened, what it will take to fix it, and how to move through an insurance claim without losing their footing.
@@ -35,6 +35,6 @@ We are also licensed and insured (#CBC1253966).
 
 ## Where we work
 
-Our home base is Thonotosasa, FL, which puts us in the northeast corner of Hillsborough County, close to the I-4 and I-75 interchange and within a practical drive of a wide stretch of the Tampa Bay region. We serve communities throughout Hillsborough, Pasco, and Polk counties, including Tampa, Brandon, Plant City, Zephyrhills, Wesley Chapel, and the surrounding areas.
+Our home base is Thonotosassa, FL, which puts us in the northeast corner of Hillsborough County, close to the I-4 and I-75 interchange and within a practical drive of a wide stretch of the Tampa Bay region. We serve communities throughout Hillsborough, Pasco, and Polk counties, including Tampa, Brandon, Plant City, Zephyrhills, Wesley Chapel, and the surrounding areas.
 
 Florida's climate makes water damage a year-round concern here, not a seasonal one. The combination of high humidity, afternoon storm activity through the long summer months, and an aging housing stock in many established neighborhoods means moisture problems surface often, and move fast when they do.

@@ -36,9 +36,9 @@ Extraction comes next: truck-mounted and portable units pull standing waste from
 
 Once the structure is cleared of bulk waste, the crew applies EPA-registered disinfectants to all contact surfaces, followed by HEPA air scrubbing to address aerosolized pathogens. Drying equipment runs until moisture readings confirm the subfloor and wall cavities have returned to normal levels, in Zephyrhills's humid subtropical climate, that monitoring phase matters more than it would in a drier region, because residual moisture at elevated humidity accelerates mold colonization within 24 to 48 hours.
 
-## Reaching Zephyrhills from Thonotosasa
+## Reaching Zephyrhills from Thonotosassa
 
-DRYCOR RESTORE's base in Thonotosasa puts the crew on State Road 54 heading northeast, a direct corridor into Zephyrhills that avoids the congestion of I-4 interchange traffic. SR 54 connects to the heart of the city and branches toward the residential areas along Eiland Boulevard and the communities further north. Because DRYCOR operates 24/7, dispatch goes out immediately regardless of when the call comes in, there is no wait for business hours on a sewage backup that is actively spreading.
+DRYCOR RESTORE's base in Thonotosassa puts the crew on State Road 54 heading northeast, a direct corridor into Zephyrhills that avoids the congestion of I-4 interchange traffic. SR 54 connects to the heart of the city and branches toward the residential areas along Eiland Boulevard and the communities further north. Because DRYCOR operates 24/7, dispatch goes out immediately regardless of when the call comes in, there is no wait for business hours on a sewage backup that is actively spreading.
 
 ## Zephyrhills Insurance Coordination
 
