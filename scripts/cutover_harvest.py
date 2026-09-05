@@ -804,7 +804,7 @@ def cmd_map(slug: str, apply: bool, commit: bool) -> int:
                   if p in claimed or (p != "/" and p + "/" in claimed))
     print(f"  _redirects: +{added} paths ({len(lines)} rules incl. trailing-slash "
           f"variants), {dropped} dropped for the {CF_STATIC_REDIRECT_CAP}-rule cap, "
-          f"total now {count_rules(red_path.read_text())} rules, "
+          f"total now {count_rules(red_path.read_text()) if red_path.exists() else 0} rules, "
           f"{covered}/{len(mapping)} mapped paths covered")
 
     # --- cutover_prep summary on the client record --------------------------
