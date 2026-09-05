@@ -64,6 +64,37 @@ from client_ops_sync import (  # noqa: E402
     DOMAIN_ACCESS_INVITE_EMAIL, DOMAIN_ACCESS_TRUTH, _sb, slug_map)
 
 
+
+def _site_unfinished_bits(slug: str) -> list[str]:
+    """Cheap finishing-pass check shared by the site-finished ledger item and
+    the preview reveal gate: images on disk, real palette, no pages still
+    dripping. (2026-09-04: with the nightly render drip, day 7 can arrive
+    before the long tail has rendered — the reveal must wait for BOTH.)"""
+    bits = []
+    if not (SITES_DIR / slug / "public" / "images" / "hero-bg.webp").exists():
+        bits.append("images")
+    try:
+        _pi = json.loads((CLIENTS_DIR / slug / "plan-input.json").read_text())
+        _pb = _pi.get("brand") or {}
+        if not (_pb.get("primary_color") or (_pb.get("colors") or {}).get("primary")):
+            bits.append("brand colors")
+    except (OSError, json.JSONDecodeError):
+        pass
+    pend = 0
+    base = SITES_DIR / slug / "src" / "content"
+    if base.is_dir():
+        for _md in base.rglob("*.md"):
+            try:
+                _raw = _md.read_text(errors="ignore")
+            except OSError:
+                continue
+            _fm = _raw[:_raw.find("\n---", 3) + 4] if _raw.startswith("---") else _raw
+            if not re.search(r"^rendered:\s*true\b", _fm, re.M):
+                pend += 1
+    if pend:
+        bits.append(f"{pend} page(s) still rendering")
+    return bits
+
 def _norm_domain(d: str | None) -> str:
     d = (d or "").strip().lower()
     d = re.sub(r"^https?://", "", d).strip("/ ")
@@ -2090,6 +2121,12 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                     _in_window = _age < 7
                 except ValueError:
                     pass
+                # Drip-aware (2026-09-04): the reveal waits for the LATER of
+                # day 7 and the finishing pass (all pages rendered, images,
+                # colors). A 12-day build reveals at day 12, not day 7 with a
+                # placeholder long tail. "share now" still overrides both.
+                if not _in_window and _site_unfinished_bits(slug):
+                    _in_window = True
             if _in_window:
                 _release = any(
                     re.search(r"share\s+now|release\s+early|reveal\s+now",
