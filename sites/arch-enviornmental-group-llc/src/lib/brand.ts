@@ -18,8 +18,8 @@ export const brand = {
   // keep the canonical NAP number above — humans dial the tracked line,
   // Google sees consistent NAP. Empty = feature off (default at scaffold;
   // filled by the call-tracking provisioning step).
-  trackingPhone: "",
-  trackingPhoneRaw: "",
+  trackingPhone: "(559) 254-4763",
+  trackingPhoneRaw: "+15592544763",
   email: "info@archenviroservice.com",
   hours: "24/7",
   foundedYear: "2026",
