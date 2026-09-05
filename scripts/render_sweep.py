@@ -112,9 +112,19 @@ def render_one(slug: str, workers: int) -> bool:
     if n == 0:
         print(f"[{slug}] pages rendered but images missing — image pass only")
         run_image_pass(slug)
-    print(f"[{slug}] {n} pending page(s) — rendering")
+    # Per-site nightly drip (Santino 2026-09-04): a brand-new site should not
+    # publish its whole 100+ page plan in one shot. Money pages render first
+    # (build_site orders by priority), then ~SITE_CAP pages land per night
+    # until the plan is done — a 106-page site rolls out over ~4 nights.
+    site_cap = int(os.environ.get("RENDER_SWEEP_SITE_CAP", "30"))
+    if n > site_cap:
+        print(f"[{slug}] {n} pending page(s) — rendering top-priority {site_cap} "
+              f"tonight (drip; ~{-(-n // site_cap)} night(s) to finish)")
+    else:
+        print(f"[{slug}] {n} pending page(s) — rendering")
     rc = run([sys.executable, str(ROOT / "scripts" / "build_site.py"),
-              "render", "--slug", slug, "--workers", str(workers)])
+              "render", "--slug", slug, "--workers", str(workers),
+              "--limit", str(site_cap)])
     if images_missing(slug):
         run_image_pass(slug)
     if rc != 0:

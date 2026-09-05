@@ -1491,6 +1491,19 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                     unfinished.append("brand colors (default palette)")
             except (OSError, json.JSONDecodeError):
                 pass
+            # pages still dripping out (nightly render cap) — informational
+            # until done, and a hard block on cutover
+            _pend = 0
+            for _md in (SITES_DIR / slug / "src" / "content").rglob("*.md"):
+                try:
+                    _raw = _md.read_text(errors="ignore")
+                except OSError:
+                    continue
+                _fm = _raw[:_raw.find("\n---", 3) + 4] if _raw.startswith("---") else _raw
+                if not re.search(r"^rendered:\s*true\b", _fm, re.M):
+                    _pend += 1
+            if _pend:
+                unfinished.append(f"{_pend} page(s) still rendering (nightly drip)")
             rows.append({"company_id": cid, "item_key": "site-finished", "kind": "us_owed",
                          "status": "open" if unfinished else "done",
                          "title": "Site finishing pass (images + brand colors)",
