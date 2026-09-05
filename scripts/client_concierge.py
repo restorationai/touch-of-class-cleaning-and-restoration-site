@@ -8303,6 +8303,33 @@ def _maybe_capture_ein_from_document(company: dict, jpeg_bytes: bytes,
 _EIN_RE = re.compile(r"\b(\d{2})[- ]?(\d{7})\b")
 
 
+def _maybe_email_lookback(company: dict, msgs: list[dict], dry_run: bool) -> None:
+    """SMS says "I already emailed it" -> search the mailbox history for that
+    client's past mail, file what we find (attachments, EIN), and leave a
+    note so the reply thread can say "found it" instead of re-asking
+    (Santino 2026-09-05; Fran Carlo case). Never fatal."""
+    try:
+        blob = " ".join(str(m.get("body") or "") for m in msgs)[:1500]
+        import email_intake  # lazy: email_intake imports this module at load
+        if not email_intake._CLAIM_RE.search(blob):
+            return
+        verdict = anthropic_json(email_intake.CLAIM_SYSTEM, blob)
+        if not verdict.get("claim"):
+            return
+        print(f"  [{company.get('name')}] says they emailed it — searching "
+              "mailbox history")
+        notes = email_intake.email_lookback(
+            company["id"], company, verdict.get("keywords") or [], dry_run)
+        if notes and not dry_run:
+            _sb("POST", "/rest/v1/marketing_ops_notes",
+                {"company_id": company["id"], "status": "open",
+                 "body": "[EMAIL-LOOKBACK] Client said they emailed it; found "
+                         "and filed: " + " | ".join(notes)[:800]},
+                prefer="return=minimal")
+    except Exception as e:  # noqa: BLE001
+        print(f"  (email lookback errored: {str(e)[:100]})")
+
+
 def _maybe_capture_ein(company: dict, msgs: list[dict], dry_run: bool) -> None:
     """Toll-free auto-registration loop (Santino 2026-09-03): when we've
     asked a client for their EIN (an EIN-ASK-{cid} marker note exists) and
@@ -8367,6 +8394,7 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     msgs = [m for m in msgs if m["id"] not in handled]
     if msgs:
         _maybe_capture_ein(company, msgs, dry_run)
+        _maybe_email_lookback(company, msgs, dry_run)
     if not msgs:
         return out
     open_items = gather_items(company_id)

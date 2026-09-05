@@ -247,6 +247,110 @@ def sender_to_company(sender_email: str, companies: dict) -> tuple[str, dict] | 
     return None
 
 
+def _file_attachments(tok: str, msg_id: str, parsed: dict, company_id: str,
+                      subject: str, body_text: str, dry_run: bool):
+    """Classify + file one message's attachments; returns (saved, filed_notes).
+    Shared by the live poll and the lookback sweep."""
+    saved, filed_notes = [], []
+    atts = [a for a in parsed.get("attachments", []) if a.get("attachmentId")]
+    existing = _storage_names(f"{company_id}/docs") if atts else set()
+    for a in atts:
+        blob = _g(tok, f"/messages/{msg_id}/attachments/{a['attachmentId']}")
+        data = base64.urlsafe_b64decode(blob["data"])
+        fname = a["filename"]
+        low = fname.lower()
+        if (low in ("image.png", "image001.png", "image002.png")
+                or low.startswith("outlook-") or low.endswith(".ics")):
+            continue  # signature imagery / calendar invites, never documents
+        try:
+            klass = anthropic_json(
+                CLASSIFY_DOC_SYSTEM,
+                f"Filename: {fname}\nSubject: {subject}\n"
+                f"Body excerpt:\n{body_text[:800]}")
+        except Exception:  # noqa: BLE001
+            klass = {}
+        kind = (klass.get("kind") or "other_doc").strip()
+        if fname in existing:
+            filed_notes.append(f"{fname} (already on file — no action)")
+            print(f"    attachment: {fname} [{kind}] DUPLICATE — already "
+                  "in branding docs")
+            saved.append(fname)
+            continue
+        if not dry_run:
+            if kind in DOC_KINDS:
+                _storage_put(f"{company_id}/docs/{fname}", data,
+                             a.get("mimeType") or "application/octet-stream",
+                             bucket="branding")
+            # everything (docs included) also lands in the raw email-intake
+            # bucket as the untouched original
+            _storage_put(f"{company_id}/{msg_id}/{fname}", data,
+                         a.get("mimeType") or "application/octet-stream")
+        saved.append(fname)
+        filed_notes.append(f"{fname} ({kind.replace('_', ' ')})")
+        print(f"    attachment: {fname} [{kind}]"
+              + ("" if dry_run else
+                 (f" -> branding/{company_id}/docs/" if kind in DOC_KINDS
+                  else f" -> email-intake/{company_id}/{msg_id}/")))
+    return saved, filed_notes
+
+
+_CLAIM_RE = re.compile(
+    r"\b(sent|emailed|e-mailed|forwarded|attached|shared)\b[^.!?]{0,60}"
+    r"\b(email|over|already|before|last week|last month|earlier|to you)\b"
+    r"|\balready (sent|emailed|shared|provided)\b", re.I)
+
+CLAIM_SYSTEM = """A client of a marketing agency wrote the message below. Does
+it claim they ALREADY sent the agency something by email in the PAST (not a
+promise to send later, and not this same message's own attachments)? Reply as
+JSON only: {"claim": true|false, "keywords": ["<1-3 search words for what
+they sent, e.g. COI, insurance, license, customer list>"]}"""
+
+
+def email_lookback(company_id: str, company: dict, keywords: list[str],
+                   dry_run: bool) -> list[str]:
+    """Search the mailbox HISTORY (180 days) for mail from this client's known
+    addresses, run every hit through the same filing + EIN capture as live
+    mail, and return human-readable notes of what was found. The 'I already
+    sent it' reflex (Fran Carlo 2026-08-28: EIN + licenses sat 8 days in a
+    thread while the pipeline prepared to re-ask)."""
+    tok = access_token()
+    addrs = [(c.get("email") or "").strip() for c in
+             ((company.get("integration_settings") or {}).get("contacts")) or []]
+    addrs = [a for a in addrs if a]
+    if not addrs:
+        return []
+    frm = "{" + " ".join(f"from:{a}" for a in addrs) + "}"
+    kw = " ".join(keywords[:3])
+    found_notes: list[str] = []
+    seen: set[str] = set()
+    for q in ([f"{frm} newer_than:180d {kw}"] if kw else []) +              [f"{frm} newer_than:180d has:attachment"]:
+        stubs = _g(tok, f"/messages?q={urllib.parse.quote(q)}&maxResults=5"
+                   ).get("messages", []) or []
+        for stub in stubs:
+            if stub["id"] in seen:
+                continue
+            seen.add(stub["id"])
+            m = _g(tok, f"/messages/{stub['id']}?format=full")
+            hdrs = {h["name"].lower(): h["value"]
+                    for h in m.get("payload", {}).get("headers", [])}
+            subj = hdrs.get("subject", "(no subject)")
+            parsed: dict = {}
+            _walk_parts(m.get("payload", {}), parsed)
+            body = "\n".join(parsed.get("text", []))[:4000]
+            print(f"    lookback hit: {subj!r} ({hdrs.get('date', '')[:16]})")
+            saved, notes = _file_attachments(tok, stub["id"], parsed,
+                                             company_id, subj, body, dry_run)
+            try:
+                _capture_ein_from_email(company_id, subj, body, dry_run)
+            except Exception:  # noqa: BLE001
+                pass
+            if notes:
+                found_notes.append(f"email {subj!r}: {'; '.join(notes)}")
+        if found_notes:
+            break  # keyword pass found it — skip the broad pass
+    return found_notes
+
+
 def _capture_ein_from_email(cid: str, subject: str, body: str,
                             dry_run: bool) -> None:
     """EIN in an email body dual-stores into company_phone_setup + companies
@@ -345,45 +449,25 @@ def cmd_poll(args) -> int:
         except Exception as e:  # noqa: BLE001
             print(f"    (ein capture errored: {str(e)[:80]})")
 
+        # "I already sent it" -> search the mailbox history and file what we
+        # find, so the reply can say "found it" instead of re-asking.
+        lookback_notes: list[str] = []
+        if _CLAIM_RE.search(body_text or ""):
+            try:
+                verdict = anthropic_json(CLAIM_SYSTEM, body_text[:1200])
+            except Exception:  # noqa: BLE001
+                verdict = {}
+            if verdict.get("claim"):
+                print("    claim detected: they say they already emailed it — "
+                      "searching history")
+                lookback_notes = email_lookback(
+                    company_id, company, verdict.get("keywords") or [], dry_run)
+
         # attachments: classify and file into branding/{cid}/docs — the shelf
         # the EIN scanner, site builds and LSA prep already read. Duplicates
         # (same filename already on the shelf) are recognized, not re-filed.
-        saved, filed_notes = [], []
-        atts = [a for a in parsed.get("attachments", []) if a.get("attachmentId")]
-        existing = _storage_names(f"{company_id}/docs") if atts else set()
-        for a in atts:
-            blob = _g(tok, f"/messages/{stub['id']}/attachments/{a['attachmentId']}")
-            data = base64.urlsafe_b64decode(blob["data"])
-            fname = a["filename"]
-            try:
-                klass = anthropic_json(
-                    CLASSIFY_DOC_SYSTEM,
-                    f"Filename: {fname}\nSubject: {subject}\n"
-                    f"Body excerpt:\n{body_text[:800]}")
-            except Exception:  # noqa: BLE001
-                klass = {}
-            kind = (klass.get("kind") or "other_doc").strip()
-            if fname in existing:
-                filed_notes.append(f"{fname} (already on file — no action)")
-                print(f"    attachment: {fname} [{kind}] DUPLICATE — already "
-                      "in branding docs")
-                saved.append(fname)
-                continue
-            if not dry_run:
-                if kind in DOC_KINDS:
-                    _storage_put(f"{company_id}/docs/{fname}", data,
-                                 a.get("mimeType") or "application/octet-stream",
-                                 bucket="branding")
-                # everything (docs included) also lands in the raw email-intake
-                # bucket as the untouched original
-                _storage_put(f"{company_id}/{stub['id']}/{fname}", data,
-                             a.get("mimeType") or "application/octet-stream")
-            saved.append(fname)
-            filed_notes.append(f"{fname} ({kind.replace('_', ' ')})")
-            print(f"    attachment: {fname} [{kind}]"
-                  + ("" if dry_run else
-                     (f" -> branding/{company_id}/docs/" if kind in DOC_KINDS
-                      else f" -> email-intake/{company_id}/{stub['id']}/")))
+        saved, filed_notes = _file_attachments(
+            tok, stub["id"], parsed, company_id, subject, body_text, dry_run)
 
         items = gather_items(company_id)
         if not items and not saved:
@@ -461,6 +545,10 @@ def cmd_poll(args) -> int:
                        f"Their email body:\n{body_text[:1500]}\n"
                        + (f"\nWe just filed these attachments: "
                           f"{'; '.join(filed_notes)}\n" if filed_notes else "")
+                       + (f"\nThey said they had emailed something before; we "
+                          f"searched and found + filed: "
+                          f"{' | '.join(lookback_notes)}\n" if lookback_notes
+                          else "")
                        + (f"\nAnswers we recorded from this email: "
                           + "; ".join(str(h.get("value"))[:60] for h in
                                       (result.get("matches") or []))
@@ -552,8 +640,19 @@ def main() -> int:
     pp.add_argument("--send", action="store_true",
                     help="really record/label/ping (default: dry run)")
     sub.add_parser("install-cron", help="launchd every 5 min")
+    lb = sub.add_parser("lookback", help="search mailbox history for a client's past mail and file it")
+    lb.add_argument("--company-id", required=True)
+    lb.add_argument("--keywords", default="", help="space-separated search hints (COI, license...)")
+    lb.add_argument("--send", action="store_true")
     args = ap.parse_args()
     load_env()
+    if args.cmd == "lookback":
+        cos = fetch_companies()
+        co = cos.get(args.company_id) or {"id": args.company_id}
+        notes = email_lookback(args.company_id, co,
+                               args.keywords.split(), not args.send)
+        print("\n".join(notes) if notes else "(nothing found)")
+        return 0
     return {"auth": cmd_auth, "poll": cmd_poll,
             "install-cron": cmd_install_cron}[args.cmd](args)
 
