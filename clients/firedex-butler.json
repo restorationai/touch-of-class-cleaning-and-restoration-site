@@ -10,7 +10,7 @@
   "r2": null,
   "status": "pending",
   "created_at": "2026-07-08T22:00:00+00:00",
-  "updated_at": "2026-09-04T14:13:01.673453+00:00",
+  "updated_at": "2026-09-05T05:13:37.258489+00:00",
   "company_id": "CO-1783443032282",
   "nap": {
     "name": "FireDEX Butler, Inc.",
@@ -26,19 +26,19 @@
     "google_cid": "14805396469301132499",
     "rating": 3.8,
     "review_count": 11,
-    "note": "3.8/11 — NEVER quote rating in site copy; review reactivation planned before any rating surfaces",
+    "note": "3.8/11 \u2014 NEVER quote rating in site copy; review reactivation planned before any rating surfaces",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJ4zqdqGF9NIgR0zyEf6VVd80"
   },
   "onboarding_notes": {
     "dns_warning": "firedex.net runs a LIVE 2020-frozen WordPress site. DO NOT touch DNS, zone, or registrar. Preview build only (firedex-butler-preview.pages.dev) until Robert approves cutover.",
-    "zone_not_created": "rank-ai-onboard intentionally NOT run yet — no Cloudflare zone, no R2 bucket. Run at cutover time.",
+    "zone_not_created": "rank-ai-onboard intentionally NOT run yet \u2014 no Cloudflare zone, no R2 bucket. Run at cutover time.",
     "redirect_map": "clients/firedex-butler/redirect-map.json maps all 23 legacy WordPress URLs (page-sitemap.xml crawl 2026-07-08) to new-plan URLs for production cutover 301s.",
-    "brand_positioning": "WATER-FIRST despite the fire name (audit verdict 4/10 water difficulty). Tagline: Water • Fire • Storm Restoration.",
+    "brand_positioning": "WATER-FIRST despite the fire name (audit verdict 4/10 water difficulty). Tagline: Water \u2022 Fire \u2022 Storm Restoration.",
     "namesake_warning": "Two brand collisions: Fire-Dex (turnout gear, Medina OH) and FireDEX of Pittsburgh (Gibsonia, 2.3-star, now BMS CAT). Do not disambiguate publicly until Robert answers relationship question.",
     "awaiting_intake": [
-      "IICRC / RIA membership confirmation (claimed on legacy site — badges held until confirmed)",
+      "IICRC / RIA membership confirmation (claimed on legacy site \u2014 badges held until confirmed)",
       "licensed & insured attestation",
-      "logo file (none on record — site ships without logo image)",
+      "logo file (none on record \u2014 site ships without logo image)",
       "namesake relationship / franchise history",
       "fate of COVID + employment + general-contracting legacy pages",
       "team photos / certs"
@@ -60,7 +60,7 @@
     "github_repo": "restorationai/firedex-butler-site",
     "last_pushed_staging_at": "2026-08-20T09:35:34.732812+00:00",
     "preview_url": "https://firedex-butler-preview.pages.dev",
-    "last_pushed_main_at": "2026-09-04T14:13:01.673421+00:00"
+    "last_pushed_main_at": "2026-09-05T05:13:37.258447+00:00"
   },
   "build_status": "pushed_main",
   "cutover_prep": {
