@@ -144,9 +144,14 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
     <!-- Header: white, logo + phone -->
     <header class="bg-white border-b border-gray-200 px-6 py-3">
       <div class="container-wide flex items-center justify-between">
-        <!-- Wordmark (text, not logo image — cleaner on the white header + scales on mobile) -->
-        <a href="/" aria-label={brand.displayName} class="no-underline font-black uppercase tracking-tight leading-[1.05] text-sm md:text-lg text-gray-900 max-w-[55%] md:max-w-none">
-          {brand.displayName}
+        <!-- Logo + wordmark (Santino 2026-09-04); logo hidden gracefully when the brand has none -->
+        <a href="/" aria-label={brand.displayName} class="no-underline flex items-center gap-3 max-w-[55%] md:max-w-none">
+          {brand.logoUrl && (
+            <img src={brand.logoUrl} alt="" class="h-9 md:h-11 w-auto shrink-0" loading="eager" />
+          )}
+          <span class="font-black uppercase tracking-tight leading-[1.05] text-sm md:text-lg text-gray-900">
+            {brand.displayName}
+          </span>
         </a>
         <div class="flex items-center gap-3 md:gap-4 shrink-0">
           <span class="hidden sm:inline text-xs text-gray-500 font-medium">Available 24/7</span>
