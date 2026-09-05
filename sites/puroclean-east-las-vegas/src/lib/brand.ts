@@ -11,6 +11,9 @@ export const brand = {
   canonicalUrl: "https://purocleaneastlasvegas.com",
   phone: "+17025513040",
   phoneRaw: "+17025513040",
+  // LP-only display pair (replaced by a dedicated ads tracking number when provisioned)
+  adsTrackingPhone: "(702) 551-3040",
+  adsTrackingPhoneRaw: "+17025513040",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
   // Schema/NAP keep the canonical number above.
   trackingPhone: "(725) 500-0996",
