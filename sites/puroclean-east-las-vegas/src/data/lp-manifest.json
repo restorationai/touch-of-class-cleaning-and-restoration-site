@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "slug": "crime-scene-trauma-cleanup-las-vegas",
+    "variant": "v2",
+    "serviceLabel": "Crime Scene & Trauma Cleanup",
+    "city": "Las Vegas",
+    "state": "NV",
+    "intent": "service",
+    "h1": "Crime Scene & Trauma Cleanup in Las Vegas, NV",
+    "metaTitle": "Crime Scene & Trauma Cleanup Las Vegas | Discreet, 24/7",
+    "metaDescription": "Discreet, compassionate crime scene and trauma cleanup in Las Vegas and Henderson. Certified biohazard remediation, unmarked vehicles, 24/7 response. Call now.",
+    "heroSubtitle": "Compassionate, Discreet Cleanup When Your Family Needs It Most. Unmarked Vehicles. Available Day or Night.",
+    "heroImageUrl": "/images/hero-bg.webp",
+    "featureImageUrl": "/images/team.webp",
+    "supportImageUrl": "/images/services/biohazard-cleanup.webp",
+    "closingImageUrl": "/images/services/sewage-cleanup.webp",
+    "bodyContent": {
+      "heading": "You Should Never Have to Clean This Yourself",
+      "intro": "After a traumatic event, the last thing your family should face is the cleanup. Our trained technicians handle crime scene, unattended death, and trauma scene remediation with complete discretion, arriving in unmarked vehicles, working quietly, and restoring the space to a safe, fully sanitized condition so you never have to see it again.",
+      "bullets": [
+        "Discreet response: unmarked vehicles and quiet, respectful crews",
+        "Full biohazard remediation with hospital-grade disinfection and odor removal",
+        "We work directly with property managers, families, and estate representatives",
+        "Guidance on insurance: many homeowner policies cover trauma scene cleanup"
+      ],
+      "callout": "One phone call and it is handled. Compassionate help is available right now, day or night."
+    }
+  },
+  {
+    "slug": "biohazard-cleanup-las-vegas",
+    "variant": "v2",
+    "serviceLabel": "Biohazard Cleanup",
+    "city": "Las Vegas",
+    "state": "NV",
+    "intent": "service",
+    "h1": "Biohazard Cleanup in Las Vegas, NV",
+    "metaTitle": "Biohazard Cleanup Las Vegas | Certified, Discreet, 24/7",
+    "metaDescription": "Professional biohazard cleanup in Las Vegas and Henderson: bodily fluids, sewage backups, sharps, hoarding, and unattended death remediation. Discreet 24/7 response.",
+    "heroSubtitle": "Certified Biohazard Remediation for Homes and Businesses. Safe, Sanitized, and Handled With Care.",
+    "heroImageUrl": "/images/hero-bg.webp",
+    "featureImageUrl": "/images/services/biohazard-cleanup.webp",
+    "supportImageUrl": "/images/services/sewage-cleanup.webp",
+    "closingImageUrl": "/images/team.webp",
+    "bodyContent": {
+      "heading": "Hazards Handled Safely, the First Time",
+      "intro": "Bodily fluids, sewage backups, sharps, and other biohazards carry real health risks that household cleaning cannot address. Our technicians contain the area, remove contaminated materials safely, and disinfect to a verified sanitary standard, protecting your family or employees from exposure.",
+      "bullets": [
+        "Bodily fluid, sewage, sharps, hoarding, and unattended death cleanup",
+        "Full containment, safe disposal, and hospital-grade disinfection",
+        "Discreet service for homes, rentals, and commercial properties",
+        "Clear, upfront pricing before any work begins"
+      ],
+      "callout": "Do not risk exposure by cleaning it yourself. Call now and we will make the area safe again."
+    }
+  }
+]

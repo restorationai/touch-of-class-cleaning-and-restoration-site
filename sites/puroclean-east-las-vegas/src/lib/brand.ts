@@ -10,7 +10,7 @@ export const brand = {
   domain: "purocleaneastlasvegas.com",
   canonicalUrl: "https://purocleaneastlasvegas.com",
   phone: "+17025513040",
-  phoneRaw: "+117025513040",
+  phoneRaw: "+17025513040",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
   // Schema/NAP keep the canonical number above.
   trackingPhone: "(725) 500-0996",
