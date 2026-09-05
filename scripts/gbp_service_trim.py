@@ -63,7 +63,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TRIM_SEED = "gbp-parity-trim"   # gbp_site_parity.seed_trim_card's action_key seed
 # The exact line shape seed_trim_card writes: - "Name" (12/mo, reason)
 SERVICE_LINE = re.compile(r'^\s*-\s+"(.+?)"\s+\(\d+/mo', re.M)
-INACTIVE = {"paused", "cancelled", "canceled", "churned", "inactive", "archived", "suspended"}
+INACTIVE = {"paused", "suspended", "cancelled", "canceled", "churned", "inactive", "archived", "suspended"}
 
 
 # --------------------------------------------------------------------------- #

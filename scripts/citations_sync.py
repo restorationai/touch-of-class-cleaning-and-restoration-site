@@ -94,7 +94,7 @@ _POST_BITS = ("/posts/", "/photos/", "/videos/", "/reel", "/watch",
 _NAME_STOP = {"the", "and", "of", "inc", "llc", "corp", "company"}
 
 # Skip statuses where we should not touch the site at all.
-_SKIP_STATUS = {"paused", "cancelled", "canceled", "churned", "inactive", "archived", "suspended"}
+_SKIP_STATUS = {"paused", "suspended", "cancelled", "canceled", "churned", "inactive", "archived", "suspended"}
 
 _STATE_NAMES = {
     "alabama": "al", "alaska": "ak", "arizona": "az", "arkansas": "ar",

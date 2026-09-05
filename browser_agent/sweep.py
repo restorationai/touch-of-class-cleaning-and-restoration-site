@@ -215,12 +215,19 @@ def _name_key(name: str) -> str:
 
 
 def _company_by_name() -> dict:
-    """{normalized name: company_id} across every company we track (paused
-    included — Mold Solutionz is paused and still has a live Bing import)."""
+    """{normalized name: company_id} for ACTIVE companies. Suspended/paused
+    clients are excluded (Santino 2026-09-05: the daily sweep was still
+    ledgering Mold Solutionz — Suspended — because the old comment's "paused
+    included" rationale outlived the account). Their dashboard rows now go
+    unattributed and untouched."""
     out: dict[str, str] = {}
+    inactive = {"paused", "suspended", "cancelled", "canceled", "churned",
+                "inactive", "archived"}
     try:
-        for c in _sb("GET", "/rest/v1/companies?select=id,name",
+        for c in _sb("GET", "/rest/v1/companies?select=id,name,status",
                      prefer="return=representation") or []:
+            if str(c.get("status") or "").lower() in inactive:
+                continue
             key = _name_key(c.get("name") or "")
             if key:
                 out.setdefault(key, c["id"])

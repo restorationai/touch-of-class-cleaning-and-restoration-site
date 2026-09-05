@@ -52,7 +52,7 @@ BUCKET = "client-reports"
 # so reports are served through the Railway API front door instead.
 REPORT_BASE = "https://rank-ai-api-production.up.railway.app/report"
 
-_INACTIVE = {"paused", "cancelled", "canceled", "churned", "inactive", "archived",
+_INACTIVE = {"paused", "suspended", "cancelled", "canceled", "churned", "inactive", "archived",
              "suspended"}
 
 

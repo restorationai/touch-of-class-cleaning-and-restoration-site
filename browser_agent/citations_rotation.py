@@ -109,7 +109,7 @@ def rotate(dry_run: bool = False) -> list[str]:
         d["priority"] = max(d["priority"], int(t.get("priority") or 0))
     cos = {c["id"]: c for c in _get(
         "companies?select=id,name,status,created_at&plan=ilike.rank%20ai")}
-    inactive = {"paused", "cancelled", "canceled", "churned", "inactive", "archived"}
+    inactive = {"paused", "suspended", "cancelled", "canceled", "churned", "inactive", "archived"}
     # wrong_data first, then fewest live listings; newest clients break ties
     def _created_ts(cid: str) -> float:
         try:

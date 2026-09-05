@@ -300,7 +300,7 @@ def main() -> int:
     if a.all:
         smap = _slug_map()
         cos = {c["id"]: c for c in _get("companies?select=id,status&plan=ilike.rank%20ai")}
-        inact = {"paused", "cancelled", "canceled", "churned", "inactive", "archived", "suspended"}
+        inact = {"paused", "suspended", "cancelled", "canceled", "churned", "inactive", "archived", "suspended"}
         cutoff = (datetime.now(timezone.utc) - timedelta(days=12)).isoformat()
         recent = set()
         if a.if_due:

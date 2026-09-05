@@ -354,7 +354,7 @@ def main() -> None:
         die(f"company {company_id} not found")
     co = companies[0]
     if str(co.get("status", "")).strip().lower() in (
-            "paused", "cancelled", "canceled", "churned", "inactive", "archived"):
+            "paused", "suspended", "cancelled", "canceled", "churned", "inactive", "archived"):
         die(f"company status is '{co['status']}' — dispatcher would never send")
 
     sender, sender_mode = sender_preflight(sb, company_id, args.fallback_from)
