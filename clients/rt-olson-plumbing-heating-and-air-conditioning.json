@@ -13,7 +13,7 @@
     "url_count": 424,
     "generated_at": "2026-09-03T03:01:26.578066+00:00"
   },
-  "updated_at": "2026-09-05T03:01:59.752587+00:00",
+  "updated_at": "2026-09-05T04:54:59.908189+00:00",
   "indexnow_key": "86c3afe660ff4fa0a7fce519ce3c93ec",
   "build": {
     "scaffolded_at": "2026-09-03T03:02:00.367952+00:00",
@@ -24,7 +24,7 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-09-03T04:08:35.885844+00:00",
     "last_pushed_staging_at": "2026-09-04T22:21:31.392208+00:00",
-    "last_pushed_main_at": "2026-09-05T03:01:59.752557+00:00"
+    "last_pushed_main_at": "2026-09-05T04:54:59.908159+00:00"
   },
   "build_status": "pushed_main",
   "gbp": {
