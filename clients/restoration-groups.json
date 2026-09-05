@@ -14,7 +14,7 @@
   "status": "active",
   "company_id": "CO-1783527517866",
   "created_at": "2026-07-10T00:00:00+00:00",
-  "updated_at": "2026-08-31T17:11:38.969156+00:00",
+  "updated_at": "2026-09-05T05:16:02.026901+00:00",
   "nap": {
     "name": "The Restoration Group",
     "street": "500 S 31st St",
@@ -30,12 +30,12 @@
     "rating": 4.9,
     "review_count": 259,
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJfZMnExzVxiIRkevldLILJW8",
-    "_note": "GBP still displays the OLD name 'Elite Restoration Group' — rebrand to 'The Restoration Group' underway per 7/8 onboarding call. gbpRating fields in brand.ts stay empty until scripts/sync_brand_reviews.py runs."
+    "_note": "GBP still displays the OLD name 'Elite Restoration Group' \u2014 rebrand to 'The Restoration Group' underway per 7/8 onboarding call. gbpRating fields in brand.ts stay empty until scripts/sync_brand_reviews.py runs."
   },
   "onboarding_notes": {
-    "rebrand": "DBA of Schwarz Enterprises; brand 'The Restoration Group' (7/8 onboarding call OVERRIDES the audit's 'Elite Restoration Group'). Old site restorationgroups.com (WordPress, 209 pages) stays live until cutover — full 301 map needed at production.",
-    "domain": "DOMAIN DECIDED 7/15: therestorationgroup.com (take over right away per Santino/client). GoDaddy delegate access confirmed for restorationgroups.com only — CONFIRMED 7/18: GoDaddy access covers BOTH therestorationgroup.com and restorationgroups.com (they own both). Old restorationgroups.com (209pg) AND old therestorationgroup.com WP (274pg) both need 301 maps into the new build.",
-    "phone_discipline": "ONE phone everywhere: GBP line (855) 650-7422. Old site has 8+ rogue tracking numbers — never reuse any of them.",
+    "rebrand": "DBA of Schwarz Enterprises; brand 'The Restoration Group' (7/8 onboarding call OVERRIDES the audit's 'Elite Restoration Group'). Old site restorationgroups.com (WordPress, 209 pages) stays live until cutover \u2014 full 301 map needed at production.",
+    "domain": "DOMAIN DECIDED 7/15: therestorationgroup.com (take over right away per Santino/client). GoDaddy delegate access confirmed for restorationgroups.com only \u2014 CONFIRMED 7/18: GoDaddy access covers BOTH therestorationgroup.com and restorationgroups.com (they own both). Old restorationgroups.com (209pg) AND old therestorationgroup.com WP (274pg) both need 301 maps into the new build.",
+    "phone_discipline": "ONE phone everywhere: GBP line (855) 650-7422. Old site has 8+ rogue tracking numbers \u2014 never reuse any of them.",
     "license_pending": "RESOLVED 7/15 call: NJ HIC 13VH05488600 (prior capture missed a 5). Owner-confirmed on live call; safe to print on the site.",
     "ny_metro": "Brooklyn + Manhattan included as secondary metro service-area pages (template handles per-area state cleanly; NY areas simply get no NJ nearby-city cross-links).",
     "awaiting_intake": [
@@ -43,11 +43,11 @@
       "social profile URLs post-rebrand for same_as_urls",
       "GBP rename Elite Restoration Group -> The Restoration Group",
       "301 map from restorationgroups.com (209 URLs) at production cutover",
-      "legal entity CONFIRMED: Schwartz Enterprises Inc (S-Corp) — note spelling Schwartz per call"
+      "legal entity CONFIRMED: Schwartz Enterprises Inc (S-Corp) \u2014 note spelling Schwartz per call"
     ],
     "domain_decision_2026_07_15": "NEW SITE DOMAIN = therestorationgroup.com (Michael confirmed on 7/15 call; NOT restorationgroups.com). Old WordPress site stays on restorationgroups.com until strategy decided; email stays office@restorationgroups.com.",
-    "territory_2026_07_15": "Adi: coverage is NJ + PA + NY (~30M people); current 14-area plan is 'completely wrong' — wants ALL NJ towns, many PA towns, some NY. Prefers town-level pages for rankings. TWO GBPs total: Kenilworth NJ + one in PA (heard as Fairland/Furlong on call — verify). Adi prefers NOT showing addresses (SAB style). Multi-site vs one-site strategy decision owed to them by Monday call.",
-    "gbp_inventory_2026_07_15": "FIVE claimed listings across their two domains: Elite Restoration Group Kenilworth NJ 4.9/256 (cid 8008820373441604497) + Elite Group Farmingdale NY 4.9/47 (cid 14098628719844328740) on restorationgroups.com; The Group Fair Lawn NJ 4.8/145 (cid 5612453956771500683, APP-CONNECTED+SELECTED) + The Group of Central Highland Park NJ 4.9/39 (cid 10195055290620292855) + The Restoration Group of Staten Island 4.8/25 (cid 9248345680724928737) on therestorationgroup.com. 512 total reviews. Connected Google account does NOT manage the Kenilworth listing — need that account connected too. CAUTION: unifying all five names/NAP at once risks duplicate-listing suspensions; migrate in stages, distinct location names."
+    "territory_2026_07_15": "Adi: coverage is NJ + PA + NY (~30M people); current 14-area plan is 'completely wrong' \u2014 wants ALL NJ towns, many PA towns, some NY. Prefers town-level pages for rankings. TWO GBPs total: Kenilworth NJ + one in PA (heard as Fairland/Furlong on call \u2014 verify). Adi prefers NOT showing addresses (SAB style). Multi-site vs one-site strategy decision owed to them by Monday call.",
+    "gbp_inventory_2026_07_15": "FIVE claimed listings across their two domains: Elite Restoration Group Kenilworth NJ 4.9/256 (cid 8008820373441604497) + Elite Group Farmingdale NY 4.9/47 (cid 14098628719844328740) on restorationgroups.com; The Group Fair Lawn NJ 4.8/145 (cid 5612453956771500683, APP-CONNECTED+SELECTED) + The Group of Central Highland Park NJ 4.9/39 (cid 10195055290620292855) + The Restoration Group of Staten Island 4.8/25 (cid 9248345680724928737) on therestorationgroup.com. 512 total reviews. Connected Google account does NOT manage the Kenilworth listing \u2014 need that account connected too. CAUTION: unifying all five names/NAP at once risks duplicate-listing suspensions; migrate in stages, distinct location names."
   },
   "plan_status": "planned",
   "plan": {
@@ -66,7 +66,7 @@
     "preview_pages_project": "the-restoration-group-preview",
     "github_repo": "restorationai/restoration-groups-site",
     "last_pushed_staging_at": "2026-08-31T17:11:23.998377+00:00",
-    "last_pushed_main_at": "2026-08-31T17:11:38.969134+00:00"
+    "last_pushed_main_at": "2026-09-05T05:16:02.026859+00:00"
   },
   "build_status": "pushed_main",
   "license_numbers": [
