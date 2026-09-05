@@ -47,7 +47,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "IICRC AMRT (MOLD)", "EPA LEAD-SAFE CERTIFIED", "OSHA TRAINED", "IICRC ASD (STRUCTURAL DRYING)"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://www.bbb.org/us/pa/farrell/profile/fire-water-damage-restoration/diss-restoration-0141-10835", "https://www.facebook.com/DISSRestoration/"] as string[],
+  sameAsUrls: ["https://www.facebook.com/DISSRestoration/", "https://maps.google.com/maps?cid=3976360707548162480", "https://www.bbb.org/us/pa/farrell/profile/fire-water-damage-restoration/diss-restoration-0141-10835"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.6",
