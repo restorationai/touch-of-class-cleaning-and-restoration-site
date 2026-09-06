@@ -1,8 +1,8 @@
 ---
 archetype: "home"
-title: "Quality Contracting, Inc. | Restoration Services in Auburn, MA"
-h1: "Restoration Services in Auburn"
-meta_description: "Quality Contracting, Inc. Provides water, fire, mold, and storm damage restoration across Auburn and surrounding areas. Call (508) 756-8800."
+title: "Quality Contracting, Inc. | Restoration Services in Central Massachusetts"
+h1: "Restoration Services Across Central Massachusetts"
+meta_description: "Quality Contracting, Inc. provides water, fire, mold, and storm damage restoration across Central Massachusetts and Greater Worcester. Call (508) 756-8800."
 primary_keyword: "restoration services auburn"
 secondary_keywords: ["restoration company near me"]
 search_intent: "local_commercial"
@@ -15,7 +15,7 @@ breadcrumb: [{"name": "Home", "url": "/"}]
 faq: [{"question": "How quickly can someone be at my property?", "answer": "Response time depends on current job volume and your location within the service area. Call (508) 756-8800 directly and describe the situation \u2014 the team can give you an honest estimate of when someone can arrive rather than a generic promise. For active water intrusion, getting extraction started as soon as possible is the priority."}, {"question": "Do you bill my insurance company directly?", "answer": "Yes. Quality Contracting, Inc. works with most major homeowners insurance carriers and documents losses in the format adjusters require \u2014 photos, moisture readings, written scope of work. This reduces the back-and-forth and helps ensure you're not out of pocket waiting for the claim to settle. You'll want to have your policy number and carrier contact handy when you call."}, {"question": "What should I do while I'm waiting for the crew to arrive?", "answer": "For water damage, shut off the source if you can reach the main valve safely, and move valuables off wet flooring. For fire or smoke damage, avoid running the HVAC system \u2014 it circulates soot through the ductwork and makes deodorization harder. Do not attempt to clean smoke residue with household products, as some cleaners can set stains permanently. Document what you see with your phone camera before anything is moved or cleaned."}, {"question": "How do I verify that you're licensed and insured?", "answer": "You should always verify contractor credentials before work begins on your property. Call (508) 756-8800 and ask directly \u2014 the team can provide license and insurance documentation before any agreement is signed. Your insurance carrier may also require proof of contractor licensure as part of the claims process."}, {"question": "Is the initial assessment or estimate free?", "answer": "Call (508) 756-8800 to ask about the assessment process for your specific type of loss. For insurance claims, the scope and documentation are typically part of the job itself. Getting a clear picture of the damage early \u2014 before secondary damage sets in \u2014 is always worth the conversation."}]
 rendered: true
 ---
-When water backs up into a basement, smoke settles into the walls, or a storm tears through a roof, the clock starts immediately. Quality Contracting, Inc. handles commercial and residential restoration work from Auburn across central Massachusetts and the MetroWest corridor — water damage, fire and smoke damage, mold remediation, and storm damage recovery — for apartment and multifamily owners, hotels, offices, and homeowners who need a crew that shows up, does the work right, and helps them get back to normal.
+When water backs up into a basement, smoke settles into the walls, or a storm tears through a roof, the clock starts immediately. Quality Contracting, Inc. handles commercial and residential restoration work across Central Massachusetts and Greater Worcester — headquartered in Auburn and responding out through the MetroWest corridor — with water damage, fire and smoke damage, mold remediation, and storm damage recovery — for apartment and multifamily owners, hotels, offices, and homeowners who need a crew that shows up, does the work right, and helps them get back to normal.
 
 ## Services we handle
 
@@ -39,7 +39,7 @@ When you call (508) 756-8800, you reach people who can give you a straight answe
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA, and serves property owners across Southern New England, with crews responding across a 50 mile radius of Auburn. That includes Worcester, Shrewsbury, and the corridor east toward Boston — Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston — along with neighboring communities. If you're not sure whether your address falls within the service area, a quick call will confirm it.
+Quality Contracting, Inc. serves property owners across Central Massachusetts and Greater Worcester, with crews responding across a 50 mile radius of its Auburn, MA headquarters. That includes Worcester, Shrewsbury, and the corridor east toward Boston — Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston — along with neighboring communities. If you're not sure whether your address falls within the service area, a quick call will confirm it.
 
 Central Massachusetts presents specific challenges — older housing stock with plaster walls and balloon framing, basements that sit in high water-table zones, and winters that push pipes to their limits. Local experience matters when the structure you're working in wasn't built to modern standards.
 
