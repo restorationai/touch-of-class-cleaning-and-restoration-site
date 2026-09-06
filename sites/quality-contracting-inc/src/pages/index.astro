@@ -45,7 +45,7 @@ const services = (allServices as CollectionEntry<"services">[])
       per the client's image-style-guide.md "Homepage hero" spec, uploaded to
       R2 at brand/hero-fleet.webp and referenced via brand.imagesBase — or
       dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
-  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" />
+  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" showInsuranceNote={false} />
 
   {/* Fran (08-21 email + 09-01 call): insurance compatibility as a PROMINENT
       full-width banner, not fine print — per his screenshot example. */}
