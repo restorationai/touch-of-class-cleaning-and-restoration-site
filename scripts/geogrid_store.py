@@ -303,7 +303,23 @@ def scan_and_store(
             for fut in cf.as_completed(futs):
                 results[futs[fut]] = fut.result()
 
-    _run(range(len(pts)))
+    # TASK-QUEUE MODE default (2026-09-06): ~$0.10/scan vs live's ~$0.34 —
+    # a background report has no need for live latency. GEOGRID_LIVE=1
+    # restores the old per-point live path; any task-mode failure also
+    # falls back to live so a queue outage cannot blank a scheduled scan.
+    if os.environ.get("GEOGRID_LIVE"):
+        _run(range(len(pts)))
+    else:
+        try:
+            tasked = gs.scan_points_tasked(auth, keyword, pts, biz, zoom, max_rank)
+            by_rc = {(r["row"], r["col"]): r for r in tasked}
+            for k, p_ in enumerate(pts):
+                results[k] = by_rc.get((p_["row"], p_["col"])) or {
+                    **p_, "rank": None, "found": False, "cost": 0.0}
+        except Exception as e:
+            sys.stderr.write(f"  task-mode failed ({str(e)[:120]}) — falling "
+                             "back to live scan\n")
+            _run(range(len(pts)))
 
     # A point whose DataForSEO call ERRORED bills $0 and returns found=False. A point
     # that simply didn't contain the listing still bills >$0. So $0-cost, not-found

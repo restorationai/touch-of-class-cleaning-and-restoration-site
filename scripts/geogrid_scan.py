@@ -39,6 +39,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DFS_URL = "https://api.dataforseo.com/v3/serp/google/maps/live/advanced"
+# Task-queue mode (Santino 2026-09-06, "get that cost down"): standard-queue
+# tasks cost ~$0.0006/point vs live's ~$0.002 — a 13x13 scan drops from
+# ~$0.34 to ~$0.10. Background scans have zero need for live latency.
+# GEOGRID_LIVE=1 forces the old live path (debug / emergencies).
+DFS_TASK_POST = "https://api.dataforseo.com/v3/serp/google/maps/task_post"
+DFS_TASKS_READY = "https://api.dataforseo.com/v3/serp/google/maps/tasks_ready"
+DFS_TASK_GET = "https://api.dataforseo.com/v3/serp/google/maps/task_get/advanced/"
 MILES_PER_DEG_LAT = 69.0
 
 
@@ -110,6 +117,106 @@ def build_grid(lat: float, lng: float, n: int, miles: float) -> list[dict]:
     return pts
 
 
+def _match_rank(items: list, biz: dict, max_rank: int):
+    """Find the business's rank in a maps SERP item list (shared by live and
+    task modes — identical matching semantics)."""
+    rank = None
+    for it in items or []:
+        if not isinstance(it, dict):
+            continue
+        cid = str(it.get("cid")) if it.get("cid") is not None else None
+        title = (it.get("title") or "").lower()
+        match = (
+            (biz["cid"] and cid == biz["cid"]) or
+            (biz["place_id"] and it.get("place_id") == biz["place_id"]) or
+            (biz["name"].lower() in title)
+        )
+        if match:
+            rank = it.get("rank_absolute") or it.get("rank_group")
+            break
+    if rank is not None and rank > max_rank:
+        rank = None
+    return rank
+
+
+def _dfs_post(url: str, auth: str, payload: list) -> dict:
+    req = urllib.request.Request(url, data=json.dumps(payload).encode(), method="POST",
+        headers={"Authorization": f"Basic {auth}", "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=90) as r:
+        return json.loads(r.read())
+
+
+def _dfs_get(url: str, auth: str) -> dict:
+    req = urllib.request.Request(url, headers={"Authorization": f"Basic {auth}"})
+    with urllib.request.urlopen(req, timeout=90) as r:
+        return json.loads(r.read())
+
+
+def scan_points_tasked(auth: str, keyword: str, pts: list[dict], biz: dict,
+                       zoom: int, max_rank: int,
+                       timeout_s: int = 1500) -> list[dict]:
+    """Task-queue scan of all grid points: batch task_post (<=100/request),
+    poll tasks_ready, task_get each result. Points whose task never completes
+    inside timeout come back rank=None (cost already incurred at post)."""
+    import time as _t
+    id_to_pt: dict[str, dict] = {}
+    total_cost = 0.0
+    for i in range(0, len(pts), 100):
+        batch = pts[i:i + 100]
+        payload = [{
+            "keyword": keyword,
+            "location_coordinate": f"{p['lat']},{p['lng']},{zoom}z",
+            "language_code": "en",
+            "device": "desktop",
+            "tag": f"{p['row']},{p['col']}",
+        } for p in batch]
+        resp = _dfs_post(DFS_TASK_POST, auth, payload)
+        for t in resp.get("tasks") or []:
+            total_cost += float(t.get("cost") or 0.0)
+            tid = t.get("id")
+            tag = ((t.get("data") or {}).get("tag")) or ""
+            if tid and t.get("status_code") in (20000, 20100):
+                row_col = tag.split(",")
+                for p in batch:
+                    if len(row_col) == 2 and p["row"] == int(row_col[0]) and p["col"] == int(row_col[1]):
+                        id_to_pt[tid] = p
+                        break
+    results: dict[str, dict] = {}
+    deadline = _t.time() + timeout_s
+    pending = set(id_to_pt)
+    per_pt_cost = (total_cost / len(pts)) if pts else 0.0
+    while pending and _t.time() < deadline:
+        _t.sleep(12)
+        try:
+            ready = _dfs_get(DFS_TASKS_READY, auth)
+        except Exception:
+            continue
+        ready_ids = []
+        for t in (ready.get("tasks") or []):
+            for r in (t.get("result") or []):
+                if r.get("id") in pending:
+                    ready_ids.append(r["id"])
+        for tid in ready_ids:
+            try:
+                got = _dfs_get(DFS_TASK_GET + tid, auth)
+                task = (got.get("tasks") or [{}])[0]
+                items = ((task.get("result") or [{}])[0] or {}).get("items") or []
+                pt = id_to_pt[tid]
+                rank = _match_rank(items, biz, max_rank)
+                results[tid] = {**pt, "rank": rank, "found": rank is not None,
+                                "cost": per_pt_cost}
+                pending.discard(tid)
+            except Exception as e:
+                sys.stderr.write(f"  WARN task_get {tid}: {str(e)[:100]}\n")
+    if pending:
+        sys.stderr.write(f"  WARN {len(pending)} task(s) never completed inside "
+                         f"{timeout_s}s — those points read as not-found\n")
+        for tid in pending:
+            pt = id_to_pt[tid]
+            results[tid] = {**pt, "rank": None, "found": False, "cost": per_pt_cost}
+    return list(results.values())
+
+
 def rank_at_point(auth: str, keyword: str, pt: dict, biz: dict, zoom: int, max_rank: int) -> dict:
     body = json.dumps([{
         "keyword": keyword,
@@ -126,23 +233,9 @@ def rank_at_point(auth: str, keyword: str, pt: dict, biz: dict, zoom: int, max_r
         task = (resp.get("tasks") or [{}])[0]
         cost = float(task.get("cost") or 0.0)
         items = ((task.get("result") or [{}])[0] or {}).get("items") or []
-        for it in items:
-            if not isinstance(it, dict):
-                continue
-            cid = str(it.get("cid")) if it.get("cid") is not None else None
-            title = (it.get("title") or "").lower()
-            match = (
-                (biz["cid"] and cid == biz["cid"]) or
-                (biz["place_id"] and it.get("place_id") == biz["place_id"]) or
-                (biz["name"].lower() in title)
-            )
-            if match:
-                rank = it.get("rank_absolute") or it.get("rank_group")
-                break
+        rank = _match_rank(items, biz, max_rank)
     except Exception as e:
         sys.stderr.write(f"  WARN point ({pt['row']},{pt['col']}): {str(e)[:120]}\n")
-    if rank is not None and rank > max_rank:
-        rank = None
     return {**pt, "rank": rank, "found": rank is not None, "cost": cost}
 
 
