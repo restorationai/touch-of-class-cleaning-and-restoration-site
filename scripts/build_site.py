@@ -573,6 +573,13 @@ def build_llms_substitutions(plan_input: dict, client: dict,
         # certifications we actually have on file (hardcoded-claims audit).
         "LLMS_CERTIFICATIONS": ", ".join(certs) if certs else "Available on request",
         "LLMS_SERVICE_RADIUS": radius,
+        # Official profiles (2026-09-05): the same sameAs set schema carries,
+        # surfaced for AI ingestion — socials AND directory profiles both
+        # corroborate the entity here.
+        "LLMS_SAME_AS_INDEX": "\n".join(
+            f"- {u}" for u in (plan_input.get("brand", {}).get("same_as_urls")
+                               or plan_input.get("same_as_urls") or [])) or
+            "(profiles listed in page schema)",
     }
 
 

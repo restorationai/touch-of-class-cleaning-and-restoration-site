@@ -18,6 +18,9 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Blog]({{BRAND_CANONICAL_URL}}/blog/): Restoration guides and local resources
 - [About]({{BRAND_CANONICAL_URL}}/about/): Company background and credentials
 - [Contact]({{BRAND_CANONICAL_URL}}/contact/): Phone, email, and service request form
+
+### Official profiles
+{{LLMS_SAME_AS_INDEX}}
 - [Emergency]({{BRAND_CANONICAL_URL}}/emergency/): 24/7 emergency water damage response
 
 ## Key facts

@@ -12,7 +12,11 @@
     "theme": "dark",
     "primary_color": "#dc0a0e",
     "place_id": "ChIJ9wuzUNMF5IkR23w7vv0t_Hc",
-    "ga4_measurement_id": "G-G8PLTS9XDN"
+    "ga4_measurement_id": "G-G8PLTS9XDN",
+    "same_as_urls": [
+      "https://www.facebook.com/qualcon534/",
+      "https://www.linkedin.com/company/quality-contracting-inc-"
+    ]
   },
   "services": [
     "water-damage-restoration",
