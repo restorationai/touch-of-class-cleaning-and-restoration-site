@@ -782,6 +782,31 @@ def phase_stamp(slug: str, domain: str, zone: dict | None, apply: bool) -> Phase
                        cwd=str(ROOT), capture_output=True, text=True, timeout=600)
     tail = (r.stdout + r.stderr).strip().splitlines()[-2:]
     ph.note("indexnow: " + " | ".join(tail))
+    # Images infra (2026-09-05): every launch gets its R2 bucket + the
+    # images.{domain} custom hostname, so blog heroes never fall back to
+    # broken imagesBase URLs again (the https://images.None class). Fail-soft:
+    # a hosting hiccup must not block a launch.
+    try:
+        acc = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
+        bucket = f"rankai-{slug}"
+        rb = cf("POST", f"/accounts/{acc}/r2/buckets", {"name": bucket})
+        made = rb.get("success")
+    except Exception as e:  # noqa: BLE001
+        made = "exists" if "already exists" in str(e).lower() else False
+    try:
+        if zone:
+            cf("POST", f"/accounts/{os.environ.get('CLOUDFLARE_ACCOUNT_ID', '')}"
+               f"/r2/buckets/rankai-{slug}/domains/custom",
+               {"domain": f"images.{domain}", "zoneId": zone["id"],
+                "enabled": True})
+            ph.note(f"images.{domain} -> R2 bucket rankai-{slug} "
+                    f"(bucket {'created' if made is True else 'existing'})")
+    except Exception as e:  # noqa: BLE001
+        if "already" in str(e).lower():
+            ph.note(f"images.{domain} already attached")
+        else:
+            ph.note(f"images domain attach skipped: {str(e)[:100]} (non-fatal)")
+
     return ph
 
 
