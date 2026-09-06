@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "2026-09-06-best-water-damage-restoration-in-lakewood-wa",
+      "status": "written",
+      "queued_at": "2026-09-06T13:44:42Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-lakewood-wa",
+      "primary_keyword": "best water damage restoration company in Lakewood, WA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "lakewood-wa",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Lakewood",
+        "state": "WA",
+        "competitors": [
+          {
+            "name": "ProRevive Restoration",
+            "google_rating": 5,
+            "review_count": 26
+          },
+          {
+            "name": "SERVPRO of University Place/Lakewood West",
+            "google_rating": 4.7,
+            "review_count": 73
+          },
+          {
+            "name": "Seatown Restoration LLC",
+            "google_rating": 5,
+            "review_count": 22
+          },
+          {
+            "name": "Washington Restorer LLC",
+            "google_rating": 4.4,
+            "review_count": 122
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Lakewood",
+        "top rated water damage restoration Lakewood WA",
+        "who is the best water damage restoration company in Lakewood",
+        "water damage cleanup Lakewood",
+        "water damage repair Lakewood",
+        "water cleanup Lakewood"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-06T13:46:54Z",
+      "post_url": "https://frontlinefireflood.com/blog/best-water-damage-restoration-company-in-lakewood-wa/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-lakewood-wa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "26 reviews",
+          "context": "olds a perfect 5.0 Google rating across 26 reviews, which signals strong customer satisfac",
+          "reason": "listicle review-count 26 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-lakewood-wa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "26 reviews",
+          "context": "greater Tacoma and Lakewood area. With 26 reviews, their sample size is smaller than some",
+          "reason": "listicle review-count 26 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-lakewood-wa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "73 reviews",
+          "context": "d West carries a 4.7 Google rating from 73 reviews, one of the larger review pools on this",
+          "reason": "listicle review-count 73 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-lakewood-wa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "22 reviews",
+          "context": "tion LLC holds a 5.0 Google rating from 22 reviews. They are an established local restorat",
+          "reason": "listicle review-count 22 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
+    }
+  ]
+}
