@@ -14,7 +14,9 @@ name: Geogrid Scan
 
 on:
   schedule:
-    - cron: '0 9 1,15 * *'   # bi-weekly fleet scan, ~1-2am PT
+    - cron: '0 9 1 * *'      # MONTHLY fleet scan (Santino 2026-09-06: biweekly
+                             # at full-depth configs ≈ $400+/mo DFS; monthly +
+                             # one on-demand rescan per client per month)
   workflow_dispatch:
     inputs:
       slug:

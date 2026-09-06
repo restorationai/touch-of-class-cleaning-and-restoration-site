@@ -106,6 +106,30 @@ def main() -> int:
     args = ap.parse_args()
 
     slugs = [args.slug] if args.slug else list(COMPANY_MAP.keys())
+    # ON-DEMAND QUOTA (Santino 2026-09-06): the monthly fleet run is the
+    # baseline; a single-slug dispatch (the app's Refresh button / manual
+    # dispatch) is limited to ONE per client per calendar month. Full-depth
+    # configs cost ~$6-10 per client per run, so unlimited refreshes would
+    # quietly rebuild the biweekly bill. GEOGRID_FORCE=1 bypasses (ops use).
+    if args.slug and not args.dry_run and not os.environ.get("GEOGRID_FORCE"):
+        try:
+            from datetime import datetime, timezone
+            month_start = datetime.now(timezone.utc).strftime("%Y-%m-01")
+            cid = COMPANY_MAP.get(args.slug)
+            recent = (sb_client().table("marketing_geogrid_scans")
+                      .select("id,scanned_at").eq("company_id", cid)
+                      .gte("scanned_at", month_start).limit(200)
+                      .execute().data or [])
+            # >5 scans this month = the fleet run or a prior refresh already
+            # covered them (a config test run is a handful at most)
+            days = {str(r["scanned_at"])[:10] for r in recent}
+            if len(recent) > 5 and len(days) >= 2:
+                print(f"  [{args.slug}] REFUSED — monthly on-demand rescan "
+                      f"already used ({len(recent)} scans across {len(days)} "
+                      "day(s) this month). GEOGRID_FORCE=1 overrides.")
+                return 0
+        except Exception as e:  # noqa: BLE001 — quota must never kill a scan
+            print(f"  (quota check errored, proceeding: {str(e)[:80]})")
     # ACCOUNT-STATUS GATE (Santino 2026-08-04: Mold Solutionz paused — it has
     # geo-grid config + a company_map entry, so the cron would have kept
     # burning DataForSEO spend on a cancelled client). companies.status is
