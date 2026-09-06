@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://None/
+# Site: https://dry-county-restoration.invalid/
 # Maintainer: Dry County Restoration
 # Contact: stephen@drycountyrestoration.com
-# Sitemap: https://None/sitemap-index.xml
-# LLM index: https://None/llms.txt
+# Sitemap: https://dry-county-restoration.invalid/sitemap-index.xml
+# LLM index: https://dry-county-restoration.invalid/llms.txt
