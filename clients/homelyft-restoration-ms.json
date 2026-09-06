@@ -13,7 +13,7 @@
     "url_count": 702,
     "generated_at": "2026-08-10T10:44:08.030777+00:00"
   },
-  "updated_at": "2026-09-05T05:12:12.619795+00:00",
+  "updated_at": "2026-09-06T05:55:03.218016+00:00",
   "build": {
     "scaffolded_at": "2026-08-01T20:18:36.299156+00:00",
     "github_repo": "restorationai/homelyft-restoration-ms-site",
@@ -23,7 +23,7 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-08-01T23:17:02.052583+00:00",
     "last_pushed_staging_at": "2026-08-19T03:19:27.969829+00:00",
-    "last_pushed_main_at": "2026-09-05T05:12:12.619761+00:00"
+    "last_pushed_main_at": "2026-09-06T05:55:03.217988+00:00"
   },
   "build_status": "pushed_main",
   "gbp": {
