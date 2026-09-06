@@ -1,6 +1,45 @@
 {
   "items": [
     {
+      "id": "2026-09-06-deodorization",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "deodorization",
+      "primary_keyword": "deodorization",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "ballinger-tx",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-bio-hazard-and-trauma-clean-up",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "bio-hazard-and-trauma-clean-up",
+      "primary_keyword": "bio-hazard and trauma clean up",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "anson-tx",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-fire-soot-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-soot-restoration",
+      "primary_keyword": "fire/soot restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "albany-tx",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
       "id": "2026-08-31-water-damage-restoration-cost-tx",
       "status": "published",
       "queued_at": "2026-08-31T21:35:13Z",

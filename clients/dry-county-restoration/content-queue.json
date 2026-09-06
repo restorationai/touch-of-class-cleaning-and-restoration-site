@@ -1,6 +1,58 @@
 {
   "items": [
     {
+      "id": "2026-09-06-reconstruction",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "reconstruction",
+      "primary_keyword": "Reconstruction",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "fullerton-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-mold",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "mold",
+      "primary_keyword": "Mold",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chino-hills-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage",
+      "primary_keyword": "Water damage",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chino-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-leak-detection",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "leak-detection",
+      "primary_keyword": "Leak Detection",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "anaheim-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
       "id": "2026-08-26-best-water-damage-restoration-in-corona-ca",
       "status": "written",
       "queued_at": "2026-08-26T23:31:10Z",

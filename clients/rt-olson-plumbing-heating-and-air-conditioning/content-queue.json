@@ -1,6 +1,71 @@
 {
   "items": [
     {
+      "id": "2026-09-06-duct-cleaning",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "duct-cleaning",
+      "primary_keyword": "Duct Cleaning",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chino-hills-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-cooling",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "cooling",
+      "primary_keyword": "Cooling",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chino-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-heating",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "heating",
+      "primary_keyword": "Heating",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "canyon-lake-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-water-treatment",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-treatment",
+      "primary_keyword": "Water treatment",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "bloomington-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-water-heaters",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-heaters",
+      "primary_keyword": "Water Heaters",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "anaheim-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
       "id": "2026-08-28-local-plumber-vs-national-chain",
       "status": "written",
       "queued_at": "2026-08-28T01:35:00Z",

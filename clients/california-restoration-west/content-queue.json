@@ -1,6 +1,45 @@
 {
   "items": [
     {
+      "id": "2026-09-06-contents-restoration-storage",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "contents-restoration-storage",
+      "primary_keyword": "Contents Restoration & Storage",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "ojai-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-odor-control-deodorization",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "odor-control-deodorization",
+      "primary_keyword": "Odor Control & Deodorization",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "fillmore-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-storm-wind-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-wind-damage-restoration",
+      "primary_keyword": "Storm & Wind Damage Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "camarillo-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
       "id": "2026-08-26-best-water-damage-restoration-in-ventura-ca",
       "status": "written",
       "queued_at": "2026-08-26T13:57:55Z",

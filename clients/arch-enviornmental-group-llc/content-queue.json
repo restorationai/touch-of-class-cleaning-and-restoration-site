@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "2026-09-06-mold-testing",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "mold-testing",
+      "primary_keyword": "Mold Testing",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "dinuba-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-lead-testing",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "lead-testing",
+      "primary_keyword": "Lead Testing",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "clovis-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
       "id": "2026-09-03-best-mold-inspection-testing-in-kingsburg-ca",
       "status": "written",
       "queued_at": "2026-09-03T19:23:38Z",

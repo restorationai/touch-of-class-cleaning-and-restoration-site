@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "2026-09-06-water-damage-and-mold-and-fire",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage-and-mold-and-fire",
+      "primary_keyword": "water damage and mold and fire",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "arroyo-grande-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
       "id": "2026-08-26-water-damage-restoration-cost-ca",
       "status": "written",
       "queued_at": "2026-08-26T14:12:29Z",

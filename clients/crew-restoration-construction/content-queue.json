@@ -1,6 +1,58 @@
 {
   "items": [
     {
+      "id": "2026-09-06-exterior-and-interior-commercial-and-residential",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "exterior-and-interior-commercial-and-residential",
+      "primary_keyword": "Exterior and Interior. Commercial and Residential",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "baltic-sd",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-mold-restoration-reconstruction-services-of-all-types",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "mold-restoration-reconstruction-services-of-all-types",
+      "primary_keyword": "Mold Restoration. Reconstruction Services of all types",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "alton-ia",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-fire-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-restoration",
+      "primary_keyword": "Fire Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "akron-ia",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-water-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-restoration",
+      "primary_keyword": "Water Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "adrian-mn",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
       "id": "2026-08-26-water-damage-restoration-cost-sd",
       "status": "published",
       "queued_at": "2026-08-26T14:38:58Z",
