@@ -579,12 +579,93 @@ def access_sweep(dry_run: bool = False) -> None:
         print(f"   gbp-seat pass failed: {str(e)[:160]}")
 
 
+
+def lsa_phone_sweep(s) -> list[str]:
+    """READ-ONLY: capture the phone Google actually serves on each LSA
+    profile into integration_settings.lsa.dashboard_phone (Santino
+    2026-09-05, ProRestoration: our app showed the number WE wanted while
+    LSA still rang the old one — always store what the dashboard has).
+    Navigation pattern proven in-session 2026-09-05: the MCC live-accounts
+    table -> click business name -> hamburger -> Profile & budget -> Phone."""
+    import re as _re
+    out: list[str] = []
+    rows = _sb("GET", "/rest/v1/user_integrations?provider=eq.google"
+               "&select=profile_id,connection_metadata",
+               prefer="return=representation") or []
+    # profile -> company map
+    profs = {p["id"]: p.get("company_id") for p in
+             (_sb("GET", "/rest/v1/profiles?select=id,company_id",
+                  prefer="return=representation") or [])}
+    conames = {c["id"]: c.get("name") or "" for c in
+               (_sb("GET", "/rest/v1/companies?select=id,name",
+                    prefer="return=representation") or [])}
+    targets = []
+    for r in rows:
+        md = r.get("connection_metadata") or {}
+        lsa_cid = md.get("lsa_customer_id") or (
+            md.get("selected_ads_customer_id")
+            if md.get("lsa_link_status") == "ACTIVE" else None)
+        cid = profs.get(r.get("profile_id"))
+        if lsa_cid and cid and conames.get(cid):
+            targets.append((cid, str(lsa_cid), conames[cid]))
+    if not targets:
+        return ["no LSA-linked clients to scan"]
+    page = s.page
+    for cid, ext, coname in targets:
+        fmt = f"{ext[:3]}-{ext[3:6]}-{ext[6:]}"
+        try:
+            page.goto("https://ads.google.com/localservices/", timeout=60000)
+            page.wait_for_timeout(7000)
+            # the MCC live-accounts table: clicking the business NAME opens
+            # that account (proven RT Olson 2026-09-05); fall back to the
+            # formatted customer-id text for name mismatches
+            try:
+                page.click(f"text={coname}", timeout=10000)
+            except Exception:  # noqa: BLE001
+                page.evaluate(
+                    "(f) => { const el = Array.from(document.querySelectorAll('a,div,span'))"
+                    ".find(e => e.children.length === 0 && (e.textContent || '').includes(f));"
+                    " if (el) el.closest('tr, [role=row], a, div').click(); }", fmt)
+            page.wait_for_timeout(7000)
+            page.click("[aria-label='Main menu'], button:has-text('menu')", timeout=15000)
+            page.wait_for_timeout(2000)
+            page.click("text=Profile & budget", timeout=15000)
+            page.wait_for_timeout(7000)
+            body = page.evaluate("() => document.body.innerText")
+            m = _re.search(r"Phone\s*\n?\s*(\(\d{3}\)\s*\d{3}-\d{4})", body)
+            if not m:
+                out.append(f"{cid} ({fmt}): phone not found on profile page")
+                continue
+            phone = m.group(1)
+        except Exception as e:  # noqa: BLE001
+            out.append(f"{cid} ({fmt}): scrape failed {str(e)[:80]}")
+            continue
+        # merge into integration_settings.lsa via RPC-less read-modify-write
+        try:
+            co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+                      "&select=integration_settings",
+                      prefer="return=representation") or [{}])[0]
+            ints = co.get("integration_settings") or {}
+            lsa = ints.setdefault("lsa", {})
+            lsa["dashboard_phone"] = phone
+            from datetime import datetime, timezone as _tzz
+            lsa["dashboard_phone_checked_at"] = datetime.now(_tzz.utc).isoformat()
+            _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                body={"integration_settings": ints})
+            out.append(f"{cid} ({fmt}): dashboard phone {phone} stored")
+        except Exception as e:  # noqa: BLE001
+            out.append(f"{cid} ({fmt}): store failed {str(e)[:80]}")
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--queue-dry-run", action="store_true",
                     help="print tonight's creation-queue selection and exit "
                          "(no browser, no writes)")
     ap.add_argument("--skip-bing", action="store_true")
+    ap.add_argument("--lsa-phones-only", action="store_true",
+                    help="run ONLY the read-only LSA dashboard-phone capture")
     ap.add_argument("--skip-access", action="store_true",
                     help="skip the Google access pass (Ads manager links + "
                          "GBP agency seat)")
@@ -633,6 +714,16 @@ def main() -> int:
         print(f"sweep skipped — kill switch: {why}")
         return 0
 
+    if a.lsa_phones_only:
+        s = Session(playbook="lsa-phones", slug=None, live=True).start(headless=True)
+        try:
+            for ln in lsa_phone_sweep(s):
+                print("  LSA-PHONE:", ln)
+            ledger(None, "lsa-phones", "dashboard-phone-capture", "done")
+        finally:
+            s.stop()
+        return 0
+
     if not a.skip_bing:
         s = Session(playbook="nightly-sweep", slug=None, live=True).start(headless=False)
         try:
@@ -657,6 +748,11 @@ def main() -> int:
                 if attention:
                     detail += " | ATTENTION: " + ", ".join(attention)
             print("bing:", detail)
+            try:
+                for ln in lsa_phone_sweep(s):
+                    print("  LSA-PHONE:", ln)
+            except Exception as _pe:  # noqa: BLE001
+                print(f"  LSA-PHONE: sweep errored: {str(_pe)[:100]}")
             if pending:
                 # Bing-side publish queue (7-12 day ETA, verification already
                 # done). Informational — nobody should action these.
