@@ -2172,7 +2172,39 @@ def _rehydrate_domain(slug: str, site_dir: Path, mono: Path) -> None:
     if not client_path.exists():
         return
     domain = str(json.loads(client_path.read_text()).get("domain") or "").strip()
-    if not domain or domain.lower() == "none" or domain.endswith(".invalid"):
+    no_domain = (not domain or domain.lower() == "none"
+                 or domain.endswith(".invalid"))
+    if no_domain:
+        # No real domain to heal FROM — but a served "https://None" host is
+        # strictly worse than the sanctioned {slug}.invalid placeholder
+        # (which THIS guard swaps for the real domain the moment one lands).
+        # 2026-09-05 fleet scan: coastal/dry-county/homelyft/mold-solutionz
+        # sat poisoned for weeks precisely because this branch returned.
+        placeholder = f"{slug}.invalid"
+        changed = []
+        for rel in _REHYDRATE_TARGETS:
+            p = site_dir / rel
+            if not p.exists():
+                continue
+            s = p.read_text()
+            healed = (s.replace("https://images.None", f"https://images.{placeholder}")
+                       .replace("https://images.none", f"https://images.{placeholder}")
+                       .replace("https://None", f"https://{placeholder}")
+                       .replace("https://none/", f"https://{placeholder}/")
+                       .replace('domain: "None"', f'domain: "{placeholder}"'))
+            if healed != s:
+                p.write_text(healed)
+                changed.append(rel)
+        if changed:
+            rels = [f"sites/{slug}/{c}" for c in changed]
+            git(["add", *rels], mono)
+            git(["commit", "-m",
+                 f"{slug}: quarantine stale https://None host behind the "
+                 f"{placeholder} placeholder (no real domain on record yet)",
+                 "--", *rels], mono)
+            print(f"    [rehydrate] NO DOMAIN on record — https://None "
+                  f"quarantined as {placeholder}; attach the real domain and "
+                  "the next deploy heals it")
         return
     changed = []
     for rel in _REHYDRATE_TARGETS:
@@ -2180,7 +2212,10 @@ def _rehydrate_domain(slug: str, site_dir: Path, mono: Path) -> None:
         if not p.exists():
             continue
         s = p.read_text()
-        healed = (s.replace("https://None", f"https://{domain}")
+        healed = (s.replace("https://images.None", f"https://images.{domain}")
+                   .replace("https://images.none", f"https://images.{domain}")
+                   .replace(f"https://images.{slug}.invalid", f"https://images.{domain}")
+                   .replace("https://None", f"https://{domain}")
                    .replace("https://none/", f"https://{domain}/")
                    .replace('domain: "None"', f'domain: "{domain}"')
                    .replace(f"{slug}.invalid", domain))
