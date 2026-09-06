@@ -8,7 +8,7 @@ export const brand = {
   shortName: "HomeLyft Restoration MS",
   legalName: "HomeLyft Restoration MS",
   domain: "",
-  canonicalUrl: "https://None",
+  canonicalUrl: "https://homelyft-restoration-ms.invalid",
   phone: "+12282845200",
   phoneRaw: "+112282845200",
   // Sitewide call-tracking display number (DNI — see BaseLayout).
@@ -26,7 +26,7 @@ export const brand = {
   lng: "",
   placeId: "",
   googleCid: "",
-  imagesBase: "https://images.None",
+  imagesBase: "https://images.homelyft-restoration-ms.invalid",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-CY001B6T82",
