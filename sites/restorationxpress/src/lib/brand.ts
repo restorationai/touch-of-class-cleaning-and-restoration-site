@@ -45,14 +45,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "129",
+  gbpReviewCount: "131",
   gbpReviews: [
+    { author: "Roy", rating: 5, text: "Restoration Xpress did an outstanding job restoring our property after a recent fire. Their team responded immediately, worked efficiently, and treated our property with the utmost respect. They managed everything from soot and odor removal to final drywall and structural repairs seamlessly. What…", when: "September 2026" },
     { author: "Piero", rating: 5, text: "Shadi and Chris were very helpful, all the expensive furniture was placed on foam blocks to prevent damage. The place was left dry. Very grateful would recommend.", when: "August 2026" },
     { author: "Jonathan", rating: 5, text: "I highly recommend this restoration company! They did an outstanding job repairing and restoring my bathroom. From start to finish, the team was professional, reliable, and courteous. They kept me informed throughout the process, showed up when they said they would, and paid close attention to…", when: "July 2026" },
     { author: "Cheryl", rating: 5, text: "Shadi and Chris were professional, kind, thoughtful and patient under a very difficult circumstance. I appreciate how much they went above and beyond to be certain all was taken care in the correct way.", when: "June 2026" },
     { author: "Shmuel", rating: 5, text: "Shadi and chris did a great job", when: "June 2026" },
     { author: "Lilach", rating: 5, text: "⭐⭐⭐⭐⭐ I cannot say enough good things about Restoration Xpress, Issac, and the entire team. After we experienced water damage in our home, they handled everything from the mitigation process to the reconstruction of our kitchen and the final post-construction cleaning. The entire process was…", when: "June 2026" },
-    { author: "Marilyn", rating: 5, text: "We chose Restoration Express to do our mold remediation. They are such an amazing company. They are so professional not only in their work ethic, but they communicated with me daily. They worked with me as far as pricing. they are extremely fair. they are clean. they removed every spec of mold from…", when: "June 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Davie, FL.",
   ctaLabel: "24/7 Emergency Line",

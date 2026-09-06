@@ -58,7 +58,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "21",
+  gbpReviewCount: "22",
   gbpReviews: [
     { author: "Bobbie", rating: 5, text: "I can’t say enough wonderful things about Drycor Company! When a pipe broke in my home and caused water and mold problems, they responded so quickly and were there when I needed them most. Their promptness, professionalism, and genuine concern made a very stressful situation so much easier to…", when: "August 2026" },
     { author: "Shane", rating: 5, text: "A company with a long track record! Willow is great to deal with and really cares. No one wants to use the service but can not mess around with having mold in Florida", when: "July 2026" },
