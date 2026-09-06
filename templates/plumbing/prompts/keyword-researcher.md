@@ -272,7 +272,7 @@ Rules:
 - `fan_out_cluster` has 4-8 supporting variations from the same seed family. These become H2/H3 sections in the post.
 - `suggested_title` must contain the primary keyword.
 - `service_tags` — slug from `templates/plumbing/services.json` so the blog post can link to the correct service pages.
-- `city_anchor` — if the primary keyword is location-modified (e.g., "water heater repair Ontario"), this is the city slug ("ontario-ca"). Otherwise null. Used by the writer to pull local context.
+- `city_anchor` — if the primary keyword is location-modified (e.g., "water heater repair Ontario"), this is the city slug ("ontario-ca"). Otherwise null. Used by the writer to pull local context. DEFAULT TO ANCHORED (Santino 2026-09-05): even for keywords that are not location-modified, SET a city_anchor from the client's target areas (rotate across them; primary city most often) so the post publishes as "... in {City}". Leave city_anchor null ONLY where localization reads absurd.
 - **Cap: 10 queued items per run.** If more priority-1 keywords exist, they stay in the bank with `priority: 1` and get queued in future runs (the queue intentionally drains slowly — content velocity should be predictable, not bursty).
 
 ### Step 8: Write the per-run CSV (audit trail)
