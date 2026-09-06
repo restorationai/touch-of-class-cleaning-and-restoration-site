@@ -71,6 +71,22 @@ def main() -> int:
         q = json.loads(q_path.read_text())
         items = q.setdefault("items", [])
         combo = _slugify(r["term"])
+        # A term the client's SERVICE PAGE already targets head-on should not
+        # also become a blog post competing with it (onboarding mirrors whole
+        # service lists here). Mark it accepted — the research systems build
+        # the informational variants around it — and only queue direct posts
+        # for terms with no dedicated page.
+        svc_dir = ROOT / "sites" / slug / "src" / "content" / "services"
+        page_covered = (svc_dir / f"{combo}.md").exists() if svc_dir.is_dir() else False
+        if page_covered:
+            print(f"  {slug}: {r['term']!r} covered by its service page — no "
+                  "direct post (research variants continue)")
+            if not args.dry_run:
+                requests.patch(
+                    f"{SB}/rest/v1/marketing_target_terms?id=eq.{r['id']}",
+                    headers={**HDR, "Prefer": "return=minimal"},
+                    json={"status": "accepted", "queued_at": now}, timeout=20)
+            continue
         existing = next((i for i in items if i.get("combo_key") == combo), None)
         if not existing:
             items.insert(0, {
