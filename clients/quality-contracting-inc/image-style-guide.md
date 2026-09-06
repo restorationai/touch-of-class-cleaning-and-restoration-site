@@ -1,5 +1,34 @@
 # Quality Contracting, Inc.: Image Style Guide
 
+<!-- ===================== CLIENT DIRECTION ===================== -->
+
+## CLIENT DIRECTION — approved van livery is non-negotiable, site-wide
+
+Fran (email 2026-09-02): *"There are van images through out the site but they
+don't have the same branding."* Every vehicle in every image on this site
+must carry the SAME approved livery that already appears on the homepage hero
+fleet — no red side stripes, no simplified "QUALITY" wordmark, no drift.
+
+1. **Vehicle:** clean all-WHITE Ford Transit-style cargo van, medium roof. A
+   fleet of matching vans, all facing the same direction, wrap reading
+   identically across every vehicle. NO coloured side stripe or panel.
+2. **The approved wrap (copy the reference image exactly):** on the white body
+   side, top to bottom — the wood-grain textured **"QUALITY"** wordmark inside
+   a thin red outline rule with **"CONTRACTING, INC."** beneath it; a red
+   **"INSURANCE RESTORATION"** line under that; then a row of four small flat
+   icons with labels beneath — blue water droplet **WATER**, red flame
+   **FIRE**, green spore **MOLD**, blue house-over-waves **FLOOD**. Reproduce
+   this artwork faithfully; render no other lettering, no phone number, no URL.
+3. **AUTOMATIC REJECT:** any van with a red/coloured side stripe, a plain or
+   different "QUALITY" logo, a wrong body style, or wrap artwork that does not
+   match the reference image. Distant/background vans must still be all-white
+   with the wordmark, never a stripe-liveried van.
+
+LIVERY-REFERENCE: harvested/van-livery-approved.png
+VAN-OVERRIDE: a fleet of two-three matching clean all-WHITE Ford Transit-style cargo vans, all facing the same direction, each side wrapped in EXACTLY the livery in the reference image — wood-grain "QUALITY" wordmark in a thin red outline rule with "CONTRACTING, INC." beneath, a red "INSURANCE RESTORATION" line, and a row of four small labelled icons (blue droplet WATER, red flame FIRE, green spore MOLD, blue house-over-waves FLOOD); NO coloured side stripe, no other lettering, no phone number, no URL, reproduced identically on every van
+
+<!-- =================== END CLIENT DIRECTION =================== -->
+
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
