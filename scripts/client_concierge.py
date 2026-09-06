@@ -9061,6 +9061,69 @@ def _upload_ack_text(counts: dict) -> str:
     return f"{got} It's received and being incorporated."
 
 
+
+_PHOTO_ROUTE_SYSTEM = """A client uploaded this image under a generic
+"documents" category. Decide where it belongs for a damage-restoration
+marketing pipeline. Reply JSON only:
+{"route": "job_photos"|"keep_docs", "why": "<6 words>"}
+job_photos = real photography: job sites, crews, equipment, branded
+vehicles/fleet, team, finished work, before/after.
+keep_docs = anything document-like: scans, screenshots of paperwork,
+certificates, forms, ID cards, insurance paperwork, or images you cannot
+confidently call business photography."""
+
+
+def _route_misfiled_photos(cid: str, rels: list[str], dry_run: bool) -> list[str]:
+    """Images uploaded under docs/other (the "Other" button) get a vision
+    look and, when they are clearly real photos, move to job-photos/ so the
+    GBP drain + site imagery can use them (Laura/DryCor 2026-09-06: 12
+    fleet/job photos sat dead in docs/other). Document-ish images STAY in
+    docs — and even a misroute is caught later by the GBP drain's quality
+    gate, which holds document scans. Returns rels (possibly rewritten) so
+    the ack text counts them as photos."""
+    out = []
+    for rel in rels:
+        if not (rel.startswith("docs/other/")
+                and rel.lower().endswith((".jpg", ".jpeg", ".png", ".heic", ".webp"))):
+            out.append(rel)
+            continue
+        try:
+            img = requests.get(
+                f"{os.environ['SUPABASE_URL'].rstrip('/')}/storage/v1/object/"
+                f"branding/{cid}/{rel}",
+                headers={"apikey": os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                         "Authorization": "Bearer "
+                         + os.environ["SUPABASE_SERVICE_ROLE_KEY"]},
+                timeout=45).content
+            if len(img) > 4_500_000:
+                out.append(rel)
+                continue
+            import base64 as _b64
+            media = "image/png" if rel.lower().endswith(".png") else "image/jpeg"
+            v = anthropic_json(_PHOTO_ROUTE_SYSTEM, "Route this image.",
+                               images=[{"media_type": media,
+                                        "data": _b64.b64encode(img).decode()}])
+            if v.get("route") != "job_photos":
+                out.append(rel)
+                continue
+            new_rel = "job-photos/" + rel.rsplit("/", 1)[-1]
+            if not dry_run:
+                requests.post(
+                    f"{os.environ['SUPABASE_URL'].rstrip('/')}/storage/v1/object/move",
+                    headers={"apikey": os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                             "Authorization": "Bearer "
+                             + os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                             "Content-Type": "application/json"},
+                    json={"bucketId": "branding",
+                          "sourceKey": f"{cid}/{rel}",
+                          "destinationKey": f"{cid}/{new_rel}"}, timeout=30)
+            print(f"    [route] {rel} -> {new_rel} ({v.get('why', '')})")
+            out.append(new_rel)
+        except Exception:  # noqa: BLE001 — routing is best-effort
+            out.append(rel)
+    return out
+
+
 def upload_event(objects: list | None, do_send: bool = True) -> dict:
     """UPLOAD ACKNOWLEDGMENTS (2026-08-20, Monica email evolution 2e — the
     Robert's-logo class: he uploaded his logo 08-17 and heard nothing).
@@ -9092,6 +9155,9 @@ def upload_event(objects: list | None, do_send: bool = True) -> dict:
             continue
         if _upload_kind(rel):
             per_company.setdefault(cid, []).append(rel)
+    for cid in list(per_company):
+        per_company[cid] = _route_misfiled_photos(
+            cid, per_company[cid], dry_run=not do_send)
     for cid, rels in per_company.items():
         cs = company_state(state, cid)
         acked = set(cs.get("upload_acked_paths") or [])
