@@ -47,7 +47,11 @@ def list_pending(cid: str) -> list[str]:
     for f in r.json():
         n = f.get("name") or ""
         # list returns files at this level; the posted/ archive shows as a folder entry (id=None)
-        if f.get("id") and n.lower().endswith((".jpg", ".jpeg", ".png")):
+        if f.get("id") and n.lower().endswith(
+                (".jpg", ".jpeg", ".png", ".mp4", ".mov")):
+            # videos ride the same drain (Santino 2026-09-05: the hub accepts
+            # them but nothing consumed them); GBP caps video at ~75MB/30s and
+            # rejects oversized ones per-file, which fail-soft below.
             out.append(n)
     return out
 
@@ -76,7 +80,8 @@ def resolve(slug: str):
 
 
 def upload_photo(tok: str, acct: str, locid: str, url: str) -> dict:
-    body = {"mediaFormat": "PHOTO", "locationAssociation": {"category": "ADDITIONAL"}, "sourceUrl": url}
+    fmt = "VIDEO" if url.lower().endswith((".mp4", ".mov")) else "PHOTO"
+    body = {"mediaFormat": fmt, "locationAssociation": {"category": "ADDITIONAL"}, "sourceUrl": url}
     r = requests.post(f"{GBP_V4}/{acct}/locations/{locid}/media",
                       headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json"}, json=body)
     if r.status_code not in (200, 201):
