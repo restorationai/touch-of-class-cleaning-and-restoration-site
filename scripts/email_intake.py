@@ -440,6 +440,15 @@ def cmd_poll(args) -> int:
     ).get("messages", []) or []]
     msgs = [{"id": i} for i in list(setup_ids) +
             [b for b in broad_ids if b not in setup_ids]]
+    # Backstop (Fran Carlo 2026-09-02: his reply predated this system's
+    # deploy and sat unanswered 3 days): matched client mail that is TOO OLD
+    # for an auto-reply but never got processed pings Santino instead of
+    # rotting quietly. Labeled after the ping so it fires once.
+    q_stale = (f"in:inbox -label:{PROCESSED_LABEL} older_than:2d newer_than:14d "
+               "-from:me -category:promotions -category:social")
+    stale_ids = [m["id"] for m in _g(
+        tok, f"/messages?q={urllib.parse.quote(q_stale)}&maxResults=30"
+    ).get("messages", []) or []]
     print(f"email intake poll: {len(msgs)} unprocessed message(s) "
           f"({len(setup_ids)} setup@, {len(msgs) - len(setup_ids)} broad)"
           f"{' [DRY RUN]' if dry_run else ''}")
@@ -447,6 +456,27 @@ def cmd_poll(args) -> int:
         return 0
 
     companies = fetch_companies()
+    for sid in stale_ids:
+        try:
+            sm = _g(tok, f"/messages/{sid}?format=metadata")
+            shdr = {h["name"].lower(): h["value"]
+                    for h in sm.get("payload", {}).get("headers", [])}
+            ssender = re.search(r"[\w.+-]+@[\w.-]+", shdr.get("from", ""))
+            ssender = ssender.group(0) if ssender else "?"
+            smatch = sender_to_company(ssender, companies)
+            if not smatch:
+                continue
+            _, sco = smatch
+            append_escalation(sco, None,
+                              f"STALE CLIENT EMAIL never processed: from {ssender}, "
+                              f"subject {shdr.get('subject', '(none)')!r}, "
+                              f"date {shdr.get('date', '?')[:22]} — needs a human "
+                              "reply (too old for an auto-reply)",
+                              dry_run, ping=True)
+            if not dry_run:
+                _g_post(tok, f"/messages/{sid}/modify", {"addLabelIds": [label_id]})
+        except Exception as e:  # noqa: BLE001
+            print(f"  (stale sweep error: {str(e)[:80]})")
     for stub in msgs:
         m = _g(tok, f"/messages/{stub['id']}?format=full")
         headers = {h["name"].lower(): h["value"]
