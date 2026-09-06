@@ -10,7 +10,7 @@ import { brand } from "~/lib/brand";
 const studies = (await getCollection("caseStudies"))
   .sort((a, b) => (b.data.published_at || "").localeCompare(a.data.published_at || ""));
 const cities = [...new Set(studies.map((s) => s.data.city).filter(Boolean))] as string[];
-const heroImage = `${brand.imagesBase}/brand/hero.webp`;
+const heroImage = "/images/hero-bg.webp";
 const title = `Case Studies | Real ${brand.primaryCity} Jobs by ${brand.displayName}`;
 const meta = `Real projects completed by ${brand.displayName}: what happened, what we did, and how it turned out. Photos and details from actual jobs in ${brand.primaryCity} and surrounding areas.`;
 const breadcrumb = [{ name: "Home", url: "/" }, { name: "Case Studies" }];

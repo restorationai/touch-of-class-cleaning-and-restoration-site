@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
-const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+const heroImage = data.hero || "/images/hero-bg.webp";
 const dateStr = new Date(data.published_at).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
 const where = [data.city, data.state].filter(Boolean).join(", ");
 ---
