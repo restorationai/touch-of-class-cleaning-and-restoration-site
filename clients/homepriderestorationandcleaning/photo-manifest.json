@@ -3564,6 +3564,31 @@
       "triaged_at": "2026-08-05T06:05:39Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOLFhME4fy2kAFH_ijSF7BCgDy48s2pZJLF6n8b": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOLFhME4fy2kAFH_ijSF7BCgDy48s2pZJLF6n8b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipOLFhME4fy2kAFH_ijSF7BCgDy48s2pZJLF6n8b.jpg",
+      "width": 1080,
+      "height": 1080,
+      "bytes": 558936,
+      "sha1": "0f266784cc2750c9",
+      "exif": {},
+      "category": "crew",
+      "subject": "Smiling middle-aged man in black shirt, portrait selfie",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 60,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Owner/team headshot; usable for About or Team page, not hero or services.",
+      "triaged_at": "2026-09-06T14:06:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOLO17pOZQo7sJ9orRHexY1jiuGN2CMp7ZeY8T0": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOLO17pOZQo7sJ9orRHexY1jiuGN2CMp7ZeY8T0.jpg",
@@ -5173,5 +5198,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-05T14:09:21Z"
+  "triaged_at": "2026-09-06T14:06:21Z"
 }
