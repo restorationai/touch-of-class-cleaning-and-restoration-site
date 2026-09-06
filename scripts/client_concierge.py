@@ -9002,6 +9002,13 @@ _UPLOAD_KINDS = (
     ("team/", "photo"),
     ("brand/logo", "logo"),
     ("docs/brand-kit/", "brand kit"),
+    # Category-specific receipts (Santino 2026-09-06): the ack names what
+    # the button they used says it is — still zero LLM.
+    ("docs/customerlist/", "customer list"),
+    ("docs/customer-lists/", "customer list"),
+    ("docs/legal/", "legal docs"),
+    ("docs/insurance/", "insurance docs"),
+    ("docs/license", "license docs"),
     ("docs/", "file"),
 )
 _UPLOAD_ACK_MAX_PATHS = 500      # rolling dedupe ledger per company
@@ -9022,14 +9029,18 @@ def _upload_ack_text(counts: dict) -> str:
     message is a receipt, and receipts must never hallucinate. Keeps to one
     SMS segment for the common cases."""
     parts = []
-    for kind in ("photo", "video", "logo", "brand kit", "file"):
+    for kind in ("photo", "video", "logo", "brand kit", "customer list",
+                 "legal docs", "insurance docs", "license docs", "file"):
         n = counts.get(kind) or 0
         if not n:
             continue
         if kind == "logo":
             parts.append("the logo" if n == 1 else f"{n} logo files")
-        elif kind == "brand kit":
-            parts.append("the brand kit files")
+        elif kind in ("brand kit", "legal docs", "insurance docs",
+                      "license docs"):
+            parts.append(f"the {kind}" + (" files" if kind == "brand kit" else ""))
+        elif kind == "customer list":
+            parts.append("your customer list")
         else:
             parts.append(f"the {kind}" if n == 1 else f"{n} {kind}s")
     if not parts:
@@ -9043,7 +9054,11 @@ def _upload_ack_text(counts: dict) -> str:
                 "and website.")
     if counts.get("logo") or counts.get("brand kit"):
         return f"{got} We'll get it onto your site and profiles."
-    return f"{got} Passing this along to the team now."
+    if counts.get("customer list"):
+        return f"{got} We're loading it in for your review campaign."
+    # "Passing this along to the team" retired 2026-09-06 (Santino: "we ARE
+    # the team") — a receipt says received + being incorporated, period.
+    return f"{got} It's received and being incorporated."
 
 
 def upload_event(objects: list | None, do_send: bool = True) -> dict:
