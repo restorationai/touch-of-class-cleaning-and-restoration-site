@@ -8,7 +8,7 @@ export const brand = {
   shortName: "Coastal Restoration Services Inc",
   legalName: "Coastal Restoration Services Inc",
   domain: "",
-  canonicalUrl: "https://None",
+  canonicalUrl: "https://coastal-restoration-services.invalid",
   phone: "(805) 345-7440",
   phoneRaw: "+18053457440",
   email: "tony@callcrs.com",
@@ -22,7 +22,7 @@ export const brand = {
   lng: "-120.435857",
   placeId: "ChIJgb6Gdhxh4wYRjbzm6ELYT38",
   googleCid: "",
-  imagesBase: "https://images.None",
+  imagesBase: "https://images.coastal-restoration-services.invalid",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-VHZE6NYBPE",
