@@ -505,6 +505,23 @@ def cmd_run_due(args) -> int:
     if not clients:
         print("No active clients to process.")
         return 0
+    if args.all:
+        # STALENESS-FIRST (2026-09-05, the narestco starvation): the workflow
+        # step has a 60-minute budget and alphabetical order meant aaa->crew
+        # consumed it EVERY run, so d-z clients never got a System 2 turn
+        # (narestco: 9 days without a post while the scheduler looked green).
+        # Hungriest-first means a truncated run always feeds whoever waited
+        # longest, and rotation emerges naturally.
+        def _hunger(c: dict):
+            try:
+                lr = last_run_at(c, 2)
+            except Exception:  # noqa: BLE001
+                lr = None
+            return lr or datetime(1970, 1, 1, tzinfo=timezone.utc)
+
+        clients = sorted(clients, key=_hunger)
+        print("run-due order (staleness-first): "
+              + ", ".join(c["slug"] for c in clients[:8]) + ", ...")
     any_action = False
     for c in clients:
         slug = c["slug"]
