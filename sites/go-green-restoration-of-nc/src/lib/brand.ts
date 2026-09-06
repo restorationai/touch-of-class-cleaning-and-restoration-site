@@ -26,7 +26,7 @@ export const brand = {
   lng: "-78.2039124",
   placeId: "",
   googleCid: "",
-  imagesBase: "https://images.None",
+  imagesBase: "https://images.gogreenrestorationofnc.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-FB7ZB4MR6V",
