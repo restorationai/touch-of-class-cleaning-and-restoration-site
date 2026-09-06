@@ -54,7 +54,7 @@
     },
     {
       "id": "2026-09-03-best-water-damage-restoration-in-thonotosasa-fl",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-03T20:26:46Z",
       "priority": 1,
       "prioritized": true,
@@ -100,7 +100,47 @@
         "water cleanup Thonotosasa",
         "water removal Thonotosasa"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-06T10:26:30Z",
+      "post_url": "https://drycor.com/blog/best-water-damage-restoration-company-in-thonotosasa-fl/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "45 Google reviews",
+          "context": "ny with a strong 4.8-star rating across 45 Google reviews. A 4.8 average with that volume reflect",
+          "reason": "listicle review-count 45 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "870 reviews",
+          "context": "ration company in the Tampa Bay area, 1,870 reviews at a 4.9 average is a meaningful signal",
+          "reason": "listicle review-count 870 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "91 reviews",
+          "context": "toration holds a 4.9-star rating across 91 reviews, which is a strong signal for a company",
+          "reason": "listicle review-count 91 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-thonotosasa-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "196 reviews",
+          "context": "rk. They carry a 4.9-star rating across 196 reviews. As a franchise, they operate under SER",
+          "reason": "listicle review-count 196 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
     },
     {
       "id": "2026-09-03-water-damage-restoration-cost",
