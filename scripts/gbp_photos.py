@@ -60,6 +60,62 @@ def public_url(cid: str, name: str) -> str:
     return f"{SB_URL}/storage/v1/object/public/{BUCKET}/{cid}/job-photos/{name}"
 
 
+
+QUALITY_SYSTEM = """You screen a field crew's uploaded photo before it is
+posted PUBLICLY to a business's Google Business Profile gallery. The business
+does damage restoration / trades work. Approve real job-site photos, crews at
+work, equipment in use, team shots, finished results, branded vehicles.
+REJECT: blurry or too dark to read, accidental pocket shots, memes or
+screenshots of screens/text threads, documents or paperwork (PII risk),
+anything showing identifiable children, gore or graphic biohazard imagery,
+interiors so messy or off-topic they would embarrass the business, and photos
+with no plausible business relevance. Borderline job photos APPROVE (real
+beats polished). Reply JSON only:
+{"post": true|false, "reason": "<8 words>"}"""
+
+
+def _quality_gate(cid: str, name: str) -> tuple[bool, str]:
+    """Vision screen before anything hits the public gallery (Santino
+    2026-09-05: nothing checked content before upload). Videos pass through
+    ungated for now (no frame extraction in CI). Fail-open on API errors —
+    a screening outage must not stall the pipeline, and crews' uploads are
+    already deliberate."""
+    if name.lower().endswith((".mp4", ".mov")):
+        return True, "video (ungated v1)"
+    try:
+        img = requests.get(public_url(cid, name), timeout=45).content
+        if len(img) > 4_500_000:  # anthropic image cap headroom
+            return True, "too large to screen; passing"
+        import base64 as _b
+        media = "image/png" if name.lower().endswith(".png") else "image/jpeg"
+        r = requests.post("https://api.anthropic.com/v1/messages", timeout=60,
+                          headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"],
+                                   "anthropic-version": "2023-06-01",
+                                   "Content-Type": "application/json"},
+                          json={"model": "claude-haiku-4-5-20251001",
+                                "max_tokens": 200,
+                                "system": QUALITY_SYSTEM,
+                                "messages": [{"role": "user", "content": [
+                                    {"type": "image", "source": {
+                                        "type": "base64", "media_type": media,
+                                        "data": _b.b64encode(img).decode()}},
+                                    {"type": "text", "text": "Screen this photo."}]}]})
+        txt = "".join(b.get("text", "") for b in r.json().get("content", []))
+        import re as _re
+        m = _re.search(r"\{.*\}", txt, _re.S)
+        v = json.loads(m.group(0)) if m else {}
+        return bool(v.get("post", True)), str(v.get("reason", ""))[:80]
+    except Exception as e:  # noqa: BLE001
+        return True, f"gate error ({str(e)[:40]}) — passing"
+
+
+def mark_held(cid: str, name: str) -> None:
+    """Rejected uploads park in held/ for human review, never deleted."""
+    requests.post(f"{SB_URL}/storage/v1/object/move", headers=_sb_headers(),
+                  json={"bucketId": BUCKET, "sourceKey": f"{cid}/job-photos/{name}",
+                        "destinationKey": f"{cid}/job-photos/held/{name}"})
+
+
 def mark_posted(cid: str, name: str) -> None:
     requests.post(f"{SB_URL}/storage/v1/object/move", headers=_sb_headers(),
                   json={"bucketId": BUCKET, "sourceKey": f"{cid}/job-photos/{name}",
@@ -105,6 +161,11 @@ def run_for(slug: str, limit: int, dry_run: bool) -> None:
     tok, acct, locid = resolve(slug)
     posted = 0
     for n in batch:
+        ok, why = _quality_gate(cid, n)
+        if not ok:
+            mark_held(cid, n)
+            print(f"  ✗ HELD (not posted): {n} — {why}")
+            continue
         try:
             upload_photo(tok, acct, locid, public_url(cid, n))
             mark_posted(cid, n)
