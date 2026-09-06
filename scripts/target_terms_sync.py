@@ -88,6 +88,17 @@ def main() -> int:
                     json={"status": "accepted", "queued_at": now}, timeout=20)
             continue
         existing = next((i for i in items if i.get("combo_key") == combo), None)
+        # City anchoring (Santino 2026-09-05: "the blog should really be
+        # '... in [City Name]'"): rotate requested terms through the client's
+        # service areas, primary city first, least-used next — the writer
+        # localizes title, neighborhoods and imagery off this field.
+        anchor = None
+        sa_dir = ROOT / "sites" / slug / "src" / "content" / "serviceAreas"
+        if sa_dir.is_dir():
+            areas = sorted(a.stem for a in sa_dir.glob("*.md"))
+            if areas:
+                used = [i.get("city_anchor") for i in items if i.get("city_anchor")]
+                anchor = min(areas, key=lambda a: used.count(a))
         if not existing:
             items.insert(0, {
                 "id": f"{now[:10]}-{combo}",
@@ -99,7 +110,7 @@ def main() -> int:
                 "primary_keyword": r["term"],
                 "intent": "commercial",
                 "target_word_count": 1400,
-                "city_anchor": None,
+                "city_anchor": anchor,
                 "source": f"app target-term ({r.get('added_by') or 'client'})",
             })
             print(f"  {slug}: queued priority-1 item for {r['term']!r}")
