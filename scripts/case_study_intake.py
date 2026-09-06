@@ -248,6 +248,14 @@ def blog_dir(slug: str) -> Path:
     return SITES_DIR / slug / "src" / "content" / "blog"
 
 
+def cs_dir(slug: str) -> Path:
+    """Publish target since 2026-09-05: the dedicated caseStudies collection
+    (/case-studies/ URLs) instead of the blog. Falls back to blog for sites
+    scaffolded before the collection existed (fleet rollout adds it)."""
+    d = SITES_DIR / slug / "src" / "content" / "caseStudies"
+    return d if d.exists() else blog_dir(slug)
+
+
 def eligible_slugs() -> list[str]:
     """Clients that can receive a case-study page: scaffolded blog dir and a
     known company_id."""
@@ -307,7 +315,9 @@ def orphan_pages(slug: str) -> list[dict]:
 
 
 def live_case_study_count(slug: str) -> int:
-    return len(list(blog_dir(slug).glob("case-study*.md")))
+    return (len(list(blog_dir(slug).glob("case-study*.md")))
+            + len(list(cs_dir(slug).glob("*.md"))
+                  if cs_dir(slug).name == "caseStudies" else []))
 
 
 def client_context(slug: str) -> dict:
@@ -439,7 +449,7 @@ def publish_study(slug: str, sub: dict, *, photos: list[tuple[str, bytes]],
     if not base.startswith("case-study"):
         base = f"case-study-{base}"
     post_slug, n = base, 2
-    while (blog_dir(slug) / f"{post_slug}.md").exists():
+    while (cs_dir(slug) / f"{post_slug}.md").exists() or (blog_dir(slug) / f"{post_slug}.md").exists():
         post_slug, n = f"{base}-{n}", n + 1
 
     # Hero: real job photos first (re-hosted), generated editorial imagery as
@@ -481,6 +491,15 @@ def publish_study(slug: str, sub: dict, *, photos: list[tuple[str, bytes]],
         hero_url = ""
 
     path = cw.write_markdown(slug, item, content, hero_url)
+    # Relocate into the caseStudies collection when the site has it
+    # (2026-09-05): write_markdown targets blog/; the dedicated section
+    # owns /case-studies/ URLs with its own breadcrumbs + index.
+    target = cs_dir(slug)
+    if target.name == "caseStudies":
+        target.mkdir(parents=True, exist_ok=True)
+        newp = target / path.name
+        path.rename(newp)
+        path = newp
     if preserved_date:
         set_published_at(path, preserved_date)
 
@@ -499,7 +518,9 @@ def publish_study(slug: str, sub: dict, *, photos: list[tuple[str, bytes]],
 
     domain = cw.load_json(CLIENTS_DIR / f"{slug}.json")["domain"]
     return {"status": "published", "path": path, "title": content["title"],
-            "url": f"https://{domain}/blog/{post_slug}/",
+            "url": (f"https://{domain}/case-studies/{post_slug}/"
+                    if cs_dir(slug).name == "caseStudies"
+                    else f"https://{domain}/blog/{post_slug}/"),
             "flags": flags}
 
 

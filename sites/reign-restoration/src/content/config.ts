@@ -95,6 +95,25 @@ const blog = defineCollection({
   }),
 });
 
+// Case studies (Santino 2026-09-05): real jobs from the crew hub's Job
+// Story card + client-emailed write-ups, published under /case-studies/
+// instead of the blog — a browsable proof section with its own breadcrumbs
+// and CollectionPage schema. Shape mirrors blog so case_study_intake's
+// rendering conventions carry over unchanged.
+const caseStudies = defineCollection({
+  type: "content",
+  schema: seoFields.merge(imageFields).merge(planFields).extend({
+    published_at: z.string(),
+    updated_at: z.string().optional(),
+    city: z.string().optional(),
+    state: z.string().optional(),
+    services: z.array(z.string()).default([]),
+    internal_links: internalLinks,
+    breadcrumb: breadcrumb.optional(),
+    faq: z.array(faqItem).default([]),
+  }),
+});
+
 const legal = defineCollection({
   type: "content",
   schema: seoFields.merge(imageFields).merge(planFields).extend({
@@ -104,4 +123,4 @@ const legal = defineCollection({
   }),
 });
 
-export const collections = { pages, services, serviceAreas, locations, blog, legal };
+export const collections = { pages, services, serviceAreas, locations, blog, caseStudies, legal };
