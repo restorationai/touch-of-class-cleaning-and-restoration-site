@@ -351,6 +351,42 @@ def email_lookback(company_id: str, company: dict, keywords: list[str],
     return found_notes
 
 
+def _gmail_vision(tok: str, msg_id: str, parsed: dict) -> list[dict]:
+    """Image attachments (screenshots, photos) as vision blocks so the email
+    brain SEES them the way SMS Monica does (Santino 2026-09-05). Inline
+    Gmail images arrive as cid: attachments, so the parts walk covers both."""
+    out: list[dict] = []
+    for a in parsed.get("attachments", []):
+        if len(out) >= 4:
+            break
+        if not (a.get("mimeType") or "").startswith("image/"):
+            continue
+        low = (a.get("filename") or "").lower()
+        if low.startswith("outlook-") or low in ("image001.png", "image002.png"):
+            continue  # signature imagery
+        if not a.get("attachmentId"):
+            continue
+        try:
+            blob = _g(tok, f"/messages/{msg_id}/attachments/{a['attachmentId']}")
+            data = base64.urlsafe_b64decode(blob["data"])
+            if len(data) < 8000:
+                continue  # pixels / logos
+            from io import BytesIO
+            from PIL import Image
+            img = Image.open(BytesIO(data)).convert("RGB")
+            w, h = img.size
+            if max(w, h) > 1568:
+                sc = 1568 / max(w, h)
+                img = img.resize((round(w * sc), round(h * sc)))
+            buf = BytesIO()
+            img.save(buf, "JPEG", quality=80)
+            out.append({"media_type": "image/jpeg",
+                        "data": base64.b64encode(buf.getvalue()).decode()})
+        except Exception:  # noqa: BLE001
+            continue
+    return out
+
+
 def _capture_ein_from_email(cid: str, subject: str, body: str,
                             dry_run: bool) -> None:
     """EIN in an email body dual-stores into company_phone_setup + companies
@@ -468,6 +504,9 @@ def cmd_poll(args) -> int:
         # (same filename already on the shelf) are recognized, not re-filed.
         saved, filed_notes = _file_attachments(
             tok, stub["id"], parsed, company_id, subject, body_text, dry_run)
+        vision = _gmail_vision(tok, stub["id"], parsed)
+        if vision:
+            print(f"    [vision] {len(vision)} image(s) will ride the analysis")
 
         items = gather_items(company_id)
         if not items and not saved:
@@ -483,7 +522,7 @@ def cmd_poll(args) -> int:
                                 f"{i.get('question') or i.get('title')}"
                                 for i in items)
                     + f"\n\nClient email body:\n{body_text}")
-            result = anthropic_json(CLASSIFY_SYSTEM, user)
+            result = anthropic_json(CLASSIFY_SYSTEM, user, images=vision or None)
             for hit in result.get("matches", []) or []:
                 print(f"    ANSWER item {hit['item_id'][:8]} = {hit['value']!r}")
                 apply_answer(hit["item_id"], hit["value"], dry_run)
@@ -554,7 +593,7 @@ def cmd_poll(args) -> int:
                                       (result.get("matches") or []))
                           if result.get("matches") else ""))
                 try:
-                    draft = anthropic_json(REPLY_SYSTEM, ctx)
+                    draft = anthropic_json(REPLY_SYSTEM, ctx, images=vision or None)
                 except Exception as e:  # noqa: BLE001
                     draft = {}
                     print(f"    reply: draft failed ({str(e)[:80]})")

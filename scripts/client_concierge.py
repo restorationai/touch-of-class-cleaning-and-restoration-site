@@ -8185,6 +8185,44 @@ def handle_reschedule_reply(company: dict, contact: dict, msg: dict,
 VISION_MAX_IMAGES = 2
 
 
+def _email_inline_vision(msg: dict) -> list[dict]:
+    """Inline <img> images from a GHL email message -> vision blocks.
+    GHL serves them behind the API bearer, so plain downloads 403."""
+    try:
+        mid = (((msg.get("meta") or {}).get("email") or {}).get("messageIds")
+               or [None])[0]
+        if not mid:
+            return []
+        em = _ghl("GET", f"/conversations/messages/email/{mid}")
+        body = (em.get("emailMessage") or em).get("body") or ""
+        srcs = re.findall(r'<img[^>]+src="(https?://[^"]+)"', body)[:VISION_MAX_IMAGES]
+        out: list[dict] = []
+        for u in srcs:
+            try:
+                r = requests.get(u, timeout=45, headers={
+                    "Authorization": f"Bearer {os.environ['GHL_API_KEY']}",
+                    "Version": GHL_VERSION})
+                if not r.ok or len(r.content) < 8000:
+                    continue  # tracking pixels / tiny signature marks
+                from io import BytesIO
+                from PIL import Image
+                img = Image.open(BytesIO(r.content)).convert("RGB")
+                w, h = img.size
+                if max(w, h) > 1568:
+                    sc = 1568 / max(w, h)
+                    img = img.resize((round(w * sc), round(h * sc)))
+                buf = BytesIO()
+                img.save(buf, "JPEG", quality=80)
+                import base64 as _b64
+                out.append({"media_type": "image/jpeg",
+                            "data": _b64.b64encode(buf.getvalue()).decode()})
+            except Exception:  # noqa: BLE001
+                continue
+        return out
+    except Exception:  # noqa: BLE001
+        return []
+
+
 def _vision_blocks(attachments: list | None) -> list[dict]:
     """Download up to VISION_MAX_IMAGES image attachments (GHL CDN URLs)
     and prep them for anthropic_json(images=...). Never fatal."""
@@ -8556,6 +8594,13 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # Vision: the analysis SEES what they texted (screenshots, photos).
         vision = (_vision_blocks(msg.get("attachments"))
                   if msg.get("attachments") else [])
+        # Emails carry screenshots INLINE in the HTML body, not in the
+        # attachments array (Bobby Olson 2026-09-05: "It says Robert" +
+        # an inline screenshot that named a different company's drip).
+        if not vision and msg.get("messageType") == "TYPE_EMAIL":
+            vision = _email_inline_vision(msg)
+            if vision:
+                print(f"    [vision] {len(vision)} inline email image(s) attached")
         if vision:
             print(f"    [vision] {len(vision)} image(s) attached to analysis")
         result = anthropic_json(
