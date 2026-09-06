@@ -71,7 +71,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Reedley, CA](https://archenviroservice.com/service-areas/reedley-ca/)
 - [Dinuba, CA](https://archenviroservice.com/service-areas/dinuba-ca/)
 - [Sanger, CA](https://archenviroservice.com/service-areas/sanger-ca/)
-- [Fowler, CA](https://archenviroservice.com/service-areas/fowler-ca/)` / `CERTIFIED ASBESTOS CONSULTANT - LEAD INSPECTOR ASSESSOR - NIOSH 582 MICROSCOPIST` / `Greater Kingsburg region` | computed at scaffold from plan + brand | |
+- [Fowler, CA](https://archenviroservice.com/service-areas/fowler-ca/)
+- [Bakersfield, CA](https://archenviroservice.com/service-areas/bakersfield-ca/)` / `CERTIFIED ASBESTOS CONSULTANT - LEAD INSPECTOR ASSESSOR - NIOSH 582 MICROSCOPIST` / `Greater Kingsburg region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

@@ -1,10 +1,10 @@
 {
   "template": "environmental",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-04T23:01:37.384348+00:00",
+  "generated_at": "2026-09-06T17:54:17.748588+00:00",
   "input_summary": {
     "service_count": 16,
-    "service_area_count": 9,
+    "service_area_count": 10,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -60,6 +60,7 @@
         "/services/allergen-testing/",
         "/services/compliance-consulting/",
         "/services/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/clovis-ca/",
         "/service-areas/dinuba-ca/",
         "/service-areas/fowler-ca/",
@@ -147,6 +148,7 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/clovis-ca/",
         "/service-areas/dinuba-ca/",
         "/service-areas/fowler-ca/",
@@ -298,6 +300,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
@@ -347,6 +350,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
@@ -394,6 +398,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
         "/service-areas/clovis-ca/asbestos-testing/",
         "/service-areas/dinuba-ca/asbestos-testing/",
         "/service-areas/fowler-ca/asbestos-testing/",
@@ -441,6 +446,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
         "/service-areas/clovis-ca/lead-paint-testing/",
         "/service-areas/dinuba-ca/lead-paint-testing/",
         "/service-areas/fowler-ca/lead-paint-testing/",
@@ -487,6 +493,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
         "/service-areas/clovis-ca/water-quality-testing/",
         "/service-areas/dinuba-ca/water-quality-testing/",
         "/service-areas/fowler-ca/water-quality-testing/",
@@ -533,6 +540,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
         "/service-areas/clovis-ca/clearance-testing/",
         "/service-areas/dinuba-ca/clearance-testing/",
         "/service-areas/fowler-ca/clearance-testing/",
@@ -580,6 +588,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
         "/service-areas/clovis-ca/environmental-site-assessments/",
         "/service-areas/dinuba-ca/environmental-site-assessments/",
         "/service-areas/fowler-ca/environmental-site-assessments/",
@@ -626,6 +635,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/radon-testing/",
         "/service-areas/clovis-ca/radon-testing/",
         "/service-areas/dinuba-ca/radon-testing/",
         "/service-areas/fowler-ca/radon-testing/",
@@ -672,6 +682,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
         "/service-areas/clovis-ca/voc-formaldehyde-testing/",
         "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
         "/service-areas/fowler-ca/voc-formaldehyde-testing/",
@@ -718,6 +729,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
         "/service-areas/clovis-ca/sewage-contamination-assessment/",
         "/service-areas/dinuba-ca/sewage-contamination-assessment/",
         "/service-areas/fowler-ca/sewage-contamination-assessment/",
@@ -764,6 +776,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
         "/service-areas/clovis-ca/post-flood-mold-assessment/",
         "/service-areas/dinuba-ca/post-flood-mold-assessment/",
         "/service-areas/fowler-ca/post-flood-mold-assessment/",
@@ -811,6 +824,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
         "/service-areas/clovis-ca/allergen-testing/",
         "/service-areas/dinuba-ca/allergen-testing/",
         "/service-areas/fowler-ca/allergen-testing/",
@@ -857,6 +871,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
         "/service-areas/clovis-ca/hvac-duct-assessments/",
         "/service-areas/dinuba-ca/hvac-duct-assessments/",
         "/service-areas/fowler-ca/hvac-duct-assessments/",
@@ -903,6 +918,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
         "/service-areas/clovis-ca/remediation-oversight/",
         "/service-areas/dinuba-ca/remediation-oversight/",
         "/service-areas/fowler-ca/remediation-oversight/",
@@ -949,6 +965,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
         "/service-areas/clovis-ca/compliance-consulting/",
         "/service-areas/dinuba-ca/compliance-consulting/",
         "/service-areas/fowler-ca/compliance-consulting/",
@@ -995,6 +1012,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/clovis-ca/litigation-support-sampling/",
         "/service-areas/dinuba-ca/litigation-support-sampling/",
         "/service-areas/fowler-ca/litigation-support-sampling/",
@@ -1053,9 +1071,9 @@
         "/service-areas/fresno-ca/allergen-testing/",
         "/service-areas/fresno-ca/compliance-consulting/",
         "/service-areas/fresno-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/clovis-ca/",
-        "/service-areas/dinuba-ca/",
-        "/service-areas/fowler-ca/"
+        "/service-areas/dinuba-ca/"
       ]
     },
     {
@@ -1106,9 +1124,9 @@
         "/service-areas/visalia-ca/allergen-testing/",
         "/service-areas/visalia-ca/compliance-consulting/",
         "/service-areas/visalia-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/clovis-ca/",
-        "/service-areas/dinuba-ca/",
-        "/service-areas/fowler-ca/"
+        "/service-areas/dinuba-ca/"
       ]
     },
     {
@@ -1159,9 +1177,9 @@
         "/service-areas/clovis-ca/allergen-testing/",
         "/service-areas/clovis-ca/compliance-consulting/",
         "/service-areas/clovis-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/dinuba-ca/",
-        "/service-areas/fowler-ca/",
-        "/service-areas/fresno-ca/"
+        "/service-areas/fowler-ca/"
       ]
     },
     {
@@ -1212,9 +1230,9 @@
         "/service-areas/selma-ca/allergen-testing/",
         "/service-areas/selma-ca/compliance-consulting/",
         "/service-areas/selma-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/clovis-ca/",
-        "/service-areas/dinuba-ca/",
-        "/service-areas/fowler-ca/"
+        "/service-areas/dinuba-ca/"
       ]
     },
     {
@@ -1265,9 +1283,9 @@
         "/service-areas/reedley-ca/allergen-testing/",
         "/service-areas/reedley-ca/compliance-consulting/",
         "/service-areas/reedley-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/clovis-ca/",
-        "/service-areas/dinuba-ca/",
-        "/service-areas/fowler-ca/"
+        "/service-areas/dinuba-ca/"
       ]
     },
     {
@@ -1318,9 +1336,9 @@
         "/service-areas/dinuba-ca/allergen-testing/",
         "/service-areas/dinuba-ca/compliance-consulting/",
         "/service-areas/dinuba-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/clovis-ca/",
-        "/service-areas/fowler-ca/",
-        "/service-areas/fresno-ca/"
+        "/service-areas/fowler-ca/"
       ]
     },
     {
@@ -1371,9 +1389,9 @@
         "/service-areas/sanger-ca/allergen-testing/",
         "/service-areas/sanger-ca/compliance-consulting/",
         "/service-areas/sanger-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/clovis-ca/",
-        "/service-areas/dinuba-ca/",
-        "/service-areas/fowler-ca/"
+        "/service-areas/dinuba-ca/"
       ]
     },
     {
@@ -1424,9 +1442,62 @@
         "/service-areas/fowler-ca/allergen-testing/",
         "/service-areas/fowler-ca/compliance-consulting/",
         "/service-areas/fowler-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/clovis-ca/",
+        "/service-areas/dinuba-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Environmental Testing in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Testing in Bakersfield",
+      "meta_description": "Serving Bakersfield, CA with independent mold, air quality, asbestos, lead, and water testing. Certified inspectors, accredited labs. Call (559) 296-2088.",
+      "primary_keyword": "environmental testing bakersfield",
+      "secondary_keywords": [
+        "bakersfield environmental testing company",
+        "mold testing bakersfield",
+        "bakersfield air quality testing"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
+        "/service-areas/bakersfield-ca/radon-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/clovis-ca/",
         "/service-areas/dinuba-ca/",
-        "/service-areas/fresno-ca/"
+        "/service-areas/fowler-ca/"
       ]
     },
     {
@@ -1468,8 +1539,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
-        "/service-areas/dinuba-ca/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -1512,8 +1583,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
         "/service-areas/fresno-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
-        "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/contact/"
       ]
     },
@@ -1556,8 +1627,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
         "/service-areas/clovis-ca/asbestos-testing/",
-        "/service-areas/dinuba-ca/asbestos-testing/",
         "/contact/"
       ]
     },
@@ -1600,8 +1671,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
         "/service-areas/clovis-ca/lead-paint-testing/",
-        "/service-areas/dinuba-ca/lead-paint-testing/",
         "/contact/"
       ]
     },
@@ -1644,8 +1715,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
         "/service-areas/clovis-ca/water-quality-testing/",
-        "/service-areas/dinuba-ca/water-quality-testing/",
         "/contact/"
       ]
     },
@@ -1688,8 +1759,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
         "/service-areas/clovis-ca/clearance-testing/",
-        "/service-areas/dinuba-ca/clearance-testing/",
         "/contact/"
       ]
     },
@@ -1732,8 +1803,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
         "/service-areas/clovis-ca/environmental-site-assessments/",
-        "/service-areas/dinuba-ca/environmental-site-assessments/",
         "/contact/"
       ]
     },
@@ -1776,8 +1847,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
         "/service-areas/clovis-ca/radon-testing/",
-        "/service-areas/dinuba-ca/radon-testing/",
         "/contact/"
       ]
     },
@@ -1820,8 +1891,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
         "/service-areas/clovis-ca/voc-formaldehyde-testing/",
-        "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
         "/contact/"
       ]
     },
@@ -1864,8 +1935,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
         "/service-areas/clovis-ca/sewage-contamination-assessment/",
-        "/service-areas/dinuba-ca/sewage-contamination-assessment/",
         "/contact/"
       ]
     },
@@ -1908,8 +1979,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
         "/service-areas/clovis-ca/post-flood-mold-assessment/",
-        "/service-areas/dinuba-ca/post-flood-mold-assessment/",
         "/contact/"
       ]
     },
@@ -1952,8 +2023,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
         "/service-areas/clovis-ca/allergen-testing/",
-        "/service-areas/dinuba-ca/allergen-testing/",
         "/contact/"
       ]
     },
@@ -1996,8 +2067,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
         "/service-areas/clovis-ca/hvac-duct-assessments/",
-        "/service-areas/dinuba-ca/hvac-duct-assessments/",
         "/contact/"
       ]
     },
@@ -2040,8 +2111,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
         "/service-areas/clovis-ca/remediation-oversight/",
-        "/service-areas/dinuba-ca/remediation-oversight/",
         "/contact/"
       ]
     },
@@ -2084,8 +2155,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
         "/service-areas/clovis-ca/compliance-consulting/",
-        "/service-areas/dinuba-ca/compliance-consulting/",
         "/contact/"
       ]
     },
@@ -2128,8 +2199,8 @@
         "/service-areas/fresno-ca/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/clovis-ca/litigation-support-sampling/",
-        "/service-areas/dinuba-ca/litigation-support-sampling/",
         "/contact/"
       ]
     },
@@ -2172,8 +2243,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
-        "/service-areas/dinuba-ca/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -2216,8 +2287,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
         "/service-areas/visalia-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
-        "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/contact/"
       ]
     },
@@ -2260,8 +2331,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
         "/service-areas/clovis-ca/asbestos-testing/",
-        "/service-areas/dinuba-ca/asbestos-testing/",
         "/contact/"
       ]
     },
@@ -2304,8 +2375,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
         "/service-areas/clovis-ca/lead-paint-testing/",
-        "/service-areas/dinuba-ca/lead-paint-testing/",
         "/contact/"
       ]
     },
@@ -2348,8 +2419,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
         "/service-areas/clovis-ca/water-quality-testing/",
-        "/service-areas/dinuba-ca/water-quality-testing/",
         "/contact/"
       ]
     },
@@ -2392,8 +2463,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
         "/service-areas/clovis-ca/clearance-testing/",
-        "/service-areas/dinuba-ca/clearance-testing/",
         "/contact/"
       ]
     },
@@ -2436,8 +2507,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
         "/service-areas/clovis-ca/environmental-site-assessments/",
-        "/service-areas/dinuba-ca/environmental-site-assessments/",
         "/contact/"
       ]
     },
@@ -2480,8 +2551,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
         "/service-areas/clovis-ca/radon-testing/",
-        "/service-areas/dinuba-ca/radon-testing/",
         "/contact/"
       ]
     },
@@ -2524,8 +2595,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
         "/service-areas/clovis-ca/voc-formaldehyde-testing/",
-        "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
         "/contact/"
       ]
     },
@@ -2568,8 +2639,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
         "/service-areas/clovis-ca/sewage-contamination-assessment/",
-        "/service-areas/dinuba-ca/sewage-contamination-assessment/",
         "/contact/"
       ]
     },
@@ -2612,8 +2683,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
         "/service-areas/clovis-ca/post-flood-mold-assessment/",
-        "/service-areas/dinuba-ca/post-flood-mold-assessment/",
         "/contact/"
       ]
     },
@@ -2656,8 +2727,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
         "/service-areas/clovis-ca/allergen-testing/",
-        "/service-areas/dinuba-ca/allergen-testing/",
         "/contact/"
       ]
     },
@@ -2700,8 +2771,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
         "/service-areas/clovis-ca/hvac-duct-assessments/",
-        "/service-areas/dinuba-ca/hvac-duct-assessments/",
         "/contact/"
       ]
     },
@@ -2744,8 +2815,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
         "/service-areas/clovis-ca/remediation-oversight/",
-        "/service-areas/dinuba-ca/remediation-oversight/",
         "/contact/"
       ]
     },
@@ -2788,8 +2859,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
         "/service-areas/clovis-ca/compliance-consulting/",
-        "/service-areas/dinuba-ca/compliance-consulting/",
         "/contact/"
       ]
     },
@@ -2832,8 +2903,8 @@
         "/service-areas/visalia-ca/",
         "/service-areas/visalia-ca/indoor-air-quality-testing/",
         "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/clovis-ca/litigation-support-sampling/",
-        "/service-areas/dinuba-ca/litigation-support-sampling/",
         "/contact/"
       ]
     },
@@ -2876,8 +2947,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
-        "/service-areas/fowler-ca/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -2920,8 +2991,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
-        "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/contact/"
       ]
     },
@@ -2964,8 +3035,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
         "/service-areas/dinuba-ca/asbestos-testing/",
-        "/service-areas/fowler-ca/asbestos-testing/",
         "/contact/"
       ]
     },
@@ -3008,8 +3079,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
         "/service-areas/dinuba-ca/lead-paint-testing/",
-        "/service-areas/fowler-ca/lead-paint-testing/",
         "/contact/"
       ]
     },
@@ -3052,8 +3123,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
         "/service-areas/dinuba-ca/water-quality-testing/",
-        "/service-areas/fowler-ca/water-quality-testing/",
         "/contact/"
       ]
     },
@@ -3096,8 +3167,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
         "/service-areas/dinuba-ca/clearance-testing/",
-        "/service-areas/fowler-ca/clearance-testing/",
         "/contact/"
       ]
     },
@@ -3140,8 +3211,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
         "/service-areas/dinuba-ca/environmental-site-assessments/",
-        "/service-areas/fowler-ca/environmental-site-assessments/",
         "/contact/"
       ]
     },
@@ -3184,8 +3255,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
         "/service-areas/dinuba-ca/radon-testing/",
-        "/service-areas/fowler-ca/radon-testing/",
         "/contact/"
       ]
     },
@@ -3228,8 +3299,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
         "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
-        "/service-areas/fowler-ca/voc-formaldehyde-testing/",
         "/contact/"
       ]
     },
@@ -3272,8 +3343,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
         "/service-areas/dinuba-ca/sewage-contamination-assessment/",
-        "/service-areas/fowler-ca/sewage-contamination-assessment/",
         "/contact/"
       ]
     },
@@ -3316,8 +3387,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
         "/service-areas/dinuba-ca/post-flood-mold-assessment/",
-        "/service-areas/fowler-ca/post-flood-mold-assessment/",
         "/contact/"
       ]
     },
@@ -3360,8 +3431,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
         "/service-areas/dinuba-ca/allergen-testing/",
-        "/service-areas/fowler-ca/allergen-testing/",
         "/contact/"
       ]
     },
@@ -3404,8 +3475,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
         "/service-areas/dinuba-ca/hvac-duct-assessments/",
-        "/service-areas/fowler-ca/hvac-duct-assessments/",
         "/contact/"
       ]
     },
@@ -3448,8 +3519,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
         "/service-areas/dinuba-ca/remediation-oversight/",
-        "/service-areas/fowler-ca/remediation-oversight/",
         "/contact/"
       ]
     },
@@ -3492,8 +3563,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
         "/service-areas/dinuba-ca/compliance-consulting/",
-        "/service-areas/fowler-ca/compliance-consulting/",
         "/contact/"
       ]
     },
@@ -3536,8 +3607,8 @@
         "/service-areas/clovis-ca/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/dinuba-ca/litigation-support-sampling/",
-        "/service-areas/fowler-ca/litigation-support-sampling/",
         "/contact/"
       ]
     },
@@ -3580,8 +3651,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
-        "/service-areas/dinuba-ca/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -3624,8 +3695,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/mold-inspection-testing/",
         "/service-areas/selma-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
-        "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/contact/"
       ]
     },
@@ -3668,8 +3739,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
         "/service-areas/clovis-ca/asbestos-testing/",
-        "/service-areas/dinuba-ca/asbestos-testing/",
         "/contact/"
       ]
     },
@@ -3712,8 +3783,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
         "/service-areas/clovis-ca/lead-paint-testing/",
-        "/service-areas/dinuba-ca/lead-paint-testing/",
         "/contact/"
       ]
     },
@@ -3756,8 +3827,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
         "/service-areas/clovis-ca/water-quality-testing/",
-        "/service-areas/dinuba-ca/water-quality-testing/",
         "/contact/"
       ]
     },
@@ -3800,8 +3871,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
         "/service-areas/clovis-ca/clearance-testing/",
-        "/service-areas/dinuba-ca/clearance-testing/",
         "/contact/"
       ]
     },
@@ -3844,8 +3915,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
         "/service-areas/clovis-ca/environmental-site-assessments/",
-        "/service-areas/dinuba-ca/environmental-site-assessments/",
         "/contact/"
       ]
     },
@@ -3888,8 +3959,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
         "/service-areas/clovis-ca/radon-testing/",
-        "/service-areas/dinuba-ca/radon-testing/",
         "/contact/"
       ]
     },
@@ -3932,8 +4003,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
         "/service-areas/clovis-ca/voc-formaldehyde-testing/",
-        "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
         "/contact/"
       ]
     },
@@ -3976,8 +4047,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
         "/service-areas/clovis-ca/sewage-contamination-assessment/",
-        "/service-areas/dinuba-ca/sewage-contamination-assessment/",
         "/contact/"
       ]
     },
@@ -4020,8 +4091,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
         "/service-areas/clovis-ca/post-flood-mold-assessment/",
-        "/service-areas/dinuba-ca/post-flood-mold-assessment/",
         "/contact/"
       ]
     },
@@ -4064,8 +4135,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
         "/service-areas/clovis-ca/allergen-testing/",
-        "/service-areas/dinuba-ca/allergen-testing/",
         "/contact/"
       ]
     },
@@ -4108,8 +4179,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
         "/service-areas/clovis-ca/hvac-duct-assessments/",
-        "/service-areas/dinuba-ca/hvac-duct-assessments/",
         "/contact/"
       ]
     },
@@ -4152,8 +4223,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
         "/service-areas/clovis-ca/remediation-oversight/",
-        "/service-areas/dinuba-ca/remediation-oversight/",
         "/contact/"
       ]
     },
@@ -4196,8 +4267,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
         "/service-areas/clovis-ca/compliance-consulting/",
-        "/service-areas/dinuba-ca/compliance-consulting/",
         "/contact/"
       ]
     },
@@ -4240,8 +4311,8 @@
         "/service-areas/selma-ca/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/clovis-ca/litigation-support-sampling/",
-        "/service-areas/dinuba-ca/litigation-support-sampling/",
         "/contact/"
       ]
     },
@@ -4284,8 +4355,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
-        "/service-areas/dinuba-ca/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -4328,8 +4399,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
         "/service-areas/reedley-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
-        "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/contact/"
       ]
     },
@@ -4372,8 +4443,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
         "/service-areas/clovis-ca/asbestos-testing/",
-        "/service-areas/dinuba-ca/asbestos-testing/",
         "/contact/"
       ]
     },
@@ -4416,8 +4487,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
         "/service-areas/clovis-ca/lead-paint-testing/",
-        "/service-areas/dinuba-ca/lead-paint-testing/",
         "/contact/"
       ]
     },
@@ -4460,8 +4531,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
         "/service-areas/clovis-ca/water-quality-testing/",
-        "/service-areas/dinuba-ca/water-quality-testing/",
         "/contact/"
       ]
     },
@@ -4504,8 +4575,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
         "/service-areas/clovis-ca/clearance-testing/",
-        "/service-areas/dinuba-ca/clearance-testing/",
         "/contact/"
       ]
     },
@@ -4548,8 +4619,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
         "/service-areas/clovis-ca/environmental-site-assessments/",
-        "/service-areas/dinuba-ca/environmental-site-assessments/",
         "/contact/"
       ]
     },
@@ -4592,8 +4663,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
         "/service-areas/clovis-ca/radon-testing/",
-        "/service-areas/dinuba-ca/radon-testing/",
         "/contact/"
       ]
     },
@@ -4636,8 +4707,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
         "/service-areas/clovis-ca/voc-formaldehyde-testing/",
-        "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
         "/contact/"
       ]
     },
@@ -4680,8 +4751,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
         "/service-areas/clovis-ca/sewage-contamination-assessment/",
-        "/service-areas/dinuba-ca/sewage-contamination-assessment/",
         "/contact/"
       ]
     },
@@ -4724,8 +4795,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
         "/service-areas/clovis-ca/post-flood-mold-assessment/",
-        "/service-areas/dinuba-ca/post-flood-mold-assessment/",
         "/contact/"
       ]
     },
@@ -4768,8 +4839,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
         "/service-areas/clovis-ca/allergen-testing/",
-        "/service-areas/dinuba-ca/allergen-testing/",
         "/contact/"
       ]
     },
@@ -4812,8 +4883,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
         "/service-areas/clovis-ca/hvac-duct-assessments/",
-        "/service-areas/dinuba-ca/hvac-duct-assessments/",
         "/contact/"
       ]
     },
@@ -4856,8 +4927,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
         "/service-areas/clovis-ca/remediation-oversight/",
-        "/service-areas/dinuba-ca/remediation-oversight/",
         "/contact/"
       ]
     },
@@ -4900,8 +4971,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
         "/service-areas/clovis-ca/compliance-consulting/",
-        "/service-areas/dinuba-ca/compliance-consulting/",
         "/contact/"
       ]
     },
@@ -4944,8 +5015,8 @@
         "/service-areas/reedley-ca/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/clovis-ca/litigation-support-sampling/",
-        "/service-areas/dinuba-ca/litigation-support-sampling/",
         "/contact/"
       ]
     },
@@ -4988,8 +5059,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
-        "/service-areas/fowler-ca/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -5032,8 +5103,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
         "/service-areas/dinuba-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
-        "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/contact/"
       ]
     },
@@ -5076,8 +5147,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
         "/service-areas/clovis-ca/asbestos-testing/",
-        "/service-areas/fowler-ca/asbestos-testing/",
         "/contact/"
       ]
     },
@@ -5120,8 +5191,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
         "/service-areas/clovis-ca/lead-paint-testing/",
-        "/service-areas/fowler-ca/lead-paint-testing/",
         "/contact/"
       ]
     },
@@ -5164,8 +5235,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
         "/service-areas/clovis-ca/water-quality-testing/",
-        "/service-areas/fowler-ca/water-quality-testing/",
         "/contact/"
       ]
     },
@@ -5208,8 +5279,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
         "/service-areas/clovis-ca/clearance-testing/",
-        "/service-areas/fowler-ca/clearance-testing/",
         "/contact/"
       ]
     },
@@ -5252,8 +5323,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
         "/service-areas/clovis-ca/environmental-site-assessments/",
-        "/service-areas/fowler-ca/environmental-site-assessments/",
         "/contact/"
       ]
     },
@@ -5296,8 +5367,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
         "/service-areas/clovis-ca/radon-testing/",
-        "/service-areas/fowler-ca/radon-testing/",
         "/contact/"
       ]
     },
@@ -5340,8 +5411,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
         "/service-areas/clovis-ca/voc-formaldehyde-testing/",
-        "/service-areas/fowler-ca/voc-formaldehyde-testing/",
         "/contact/"
       ]
     },
@@ -5384,8 +5455,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
         "/service-areas/clovis-ca/sewage-contamination-assessment/",
-        "/service-areas/fowler-ca/sewage-contamination-assessment/",
         "/contact/"
       ]
     },
@@ -5428,8 +5499,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
         "/service-areas/clovis-ca/post-flood-mold-assessment/",
-        "/service-areas/fowler-ca/post-flood-mold-assessment/",
         "/contact/"
       ]
     },
@@ -5472,8 +5543,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
         "/service-areas/clovis-ca/allergen-testing/",
-        "/service-areas/fowler-ca/allergen-testing/",
         "/contact/"
       ]
     },
@@ -5516,8 +5587,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
         "/service-areas/clovis-ca/hvac-duct-assessments/",
-        "/service-areas/fowler-ca/hvac-duct-assessments/",
         "/contact/"
       ]
     },
@@ -5560,8 +5631,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
         "/service-areas/clovis-ca/remediation-oversight/",
-        "/service-areas/fowler-ca/remediation-oversight/",
         "/contact/"
       ]
     },
@@ -5604,8 +5675,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
         "/service-areas/clovis-ca/compliance-consulting/",
-        "/service-areas/fowler-ca/compliance-consulting/",
         "/contact/"
       ]
     },
@@ -5648,8 +5719,8 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/clovis-ca/litigation-support-sampling/",
-        "/service-areas/fowler-ca/litigation-support-sampling/",
         "/contact/"
       ]
     },
@@ -5692,8 +5763,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
-        "/service-areas/dinuba-ca/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -5736,8 +5807,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
         "/service-areas/sanger-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
-        "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/contact/"
       ]
     },
@@ -5780,8 +5851,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
         "/service-areas/clovis-ca/asbestos-testing/",
-        "/service-areas/dinuba-ca/asbestos-testing/",
         "/contact/"
       ]
     },
@@ -5824,8 +5895,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
         "/service-areas/clovis-ca/lead-paint-testing/",
-        "/service-areas/dinuba-ca/lead-paint-testing/",
         "/contact/"
       ]
     },
@@ -5868,8 +5939,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
         "/service-areas/clovis-ca/water-quality-testing/",
-        "/service-areas/dinuba-ca/water-quality-testing/",
         "/contact/"
       ]
     },
@@ -5912,8 +5983,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
         "/service-areas/clovis-ca/clearance-testing/",
-        "/service-areas/dinuba-ca/clearance-testing/",
         "/contact/"
       ]
     },
@@ -5956,8 +6027,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
         "/service-areas/clovis-ca/environmental-site-assessments/",
-        "/service-areas/dinuba-ca/environmental-site-assessments/",
         "/contact/"
       ]
     },
@@ -6000,8 +6071,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
         "/service-areas/clovis-ca/radon-testing/",
-        "/service-areas/dinuba-ca/radon-testing/",
         "/contact/"
       ]
     },
@@ -6044,8 +6115,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
         "/service-areas/clovis-ca/voc-formaldehyde-testing/",
-        "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
         "/contact/"
       ]
     },
@@ -6088,8 +6159,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
         "/service-areas/clovis-ca/sewage-contamination-assessment/",
-        "/service-areas/dinuba-ca/sewage-contamination-assessment/",
         "/contact/"
       ]
     },
@@ -6132,8 +6203,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
         "/service-areas/clovis-ca/post-flood-mold-assessment/",
-        "/service-areas/dinuba-ca/post-flood-mold-assessment/",
         "/contact/"
       ]
     },
@@ -6176,8 +6247,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
         "/service-areas/clovis-ca/allergen-testing/",
-        "/service-areas/dinuba-ca/allergen-testing/",
         "/contact/"
       ]
     },
@@ -6220,8 +6291,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
         "/service-areas/clovis-ca/hvac-duct-assessments/",
-        "/service-areas/dinuba-ca/hvac-duct-assessments/",
         "/contact/"
       ]
     },
@@ -6264,8 +6335,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
         "/service-areas/clovis-ca/remediation-oversight/",
-        "/service-areas/dinuba-ca/remediation-oversight/",
         "/contact/"
       ]
     },
@@ -6308,8 +6379,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
         "/service-areas/clovis-ca/compliance-consulting/",
-        "/service-areas/dinuba-ca/compliance-consulting/",
         "/contact/"
       ]
     },
@@ -6352,8 +6423,8 @@
         "/service-areas/sanger-ca/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/clovis-ca/litigation-support-sampling/",
-        "/service-areas/dinuba-ca/litigation-support-sampling/",
         "/contact/"
       ]
     },
@@ -6396,8 +6467,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/mold-inspection-testing/",
-        "/service-areas/dinuba-ca/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -6440,8 +6511,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
         "/service-areas/fowler-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
         "/service-areas/clovis-ca/indoor-air-quality-testing/",
-        "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/contact/"
       ]
     },
@@ -6484,8 +6555,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
         "/service-areas/clovis-ca/asbestos-testing/",
-        "/service-areas/dinuba-ca/asbestos-testing/",
         "/contact/"
       ]
     },
@@ -6528,8 +6599,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
         "/service-areas/clovis-ca/lead-paint-testing/",
-        "/service-areas/dinuba-ca/lead-paint-testing/",
         "/contact/"
       ]
     },
@@ -6572,8 +6643,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
         "/service-areas/clovis-ca/water-quality-testing/",
-        "/service-areas/dinuba-ca/water-quality-testing/",
         "/contact/"
       ]
     },
@@ -6616,8 +6687,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
         "/service-areas/clovis-ca/clearance-testing/",
-        "/service-areas/dinuba-ca/clearance-testing/",
         "/contact/"
       ]
     },
@@ -6660,8 +6731,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
         "/service-areas/clovis-ca/environmental-site-assessments/",
-        "/service-areas/dinuba-ca/environmental-site-assessments/",
         "/contact/"
       ]
     },
@@ -6704,8 +6775,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
         "/service-areas/clovis-ca/radon-testing/",
-        "/service-areas/dinuba-ca/radon-testing/",
         "/contact/"
       ]
     },
@@ -6748,8 +6819,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
         "/service-areas/clovis-ca/voc-formaldehyde-testing/",
-        "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
         "/contact/"
       ]
     },
@@ -6792,8 +6863,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
         "/service-areas/clovis-ca/sewage-contamination-assessment/",
-        "/service-areas/dinuba-ca/sewage-contamination-assessment/",
         "/contact/"
       ]
     },
@@ -6836,8 +6907,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
         "/service-areas/clovis-ca/post-flood-mold-assessment/",
-        "/service-areas/dinuba-ca/post-flood-mold-assessment/",
         "/contact/"
       ]
     },
@@ -6880,8 +6951,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
         "/service-areas/clovis-ca/allergen-testing/",
-        "/service-areas/dinuba-ca/allergen-testing/",
         "/contact/"
       ]
     },
@@ -6924,8 +6995,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
         "/service-areas/clovis-ca/hvac-duct-assessments/",
-        "/service-areas/dinuba-ca/hvac-duct-assessments/",
         "/contact/"
       ]
     },
@@ -6968,8 +7039,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
         "/service-areas/clovis-ca/remediation-oversight/",
-        "/service-areas/dinuba-ca/remediation-oversight/",
         "/contact/"
       ]
     },
@@ -7012,8 +7083,8 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
         "/service-areas/clovis-ca/compliance-consulting/",
-        "/service-areas/dinuba-ca/compliance-consulting/",
         "/contact/"
       ]
     },
@@ -7056,6 +7127,710 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
+        "/service-areas/clovis-ca/litigation-support-sampling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Mold Inspection and Testing in Bakersfield",
+      "meta_description": "Certified mold inspection and testing in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "mold inspection and testing bakersfield",
+      "secondary_keywords": [
+        "mold inspection near me",
+        "mold testing",
+        "mold spore testing",
+        "air sampling for mold",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
+        "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/service-areas/dinuba-ca/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Testing in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Indoor Air Quality Testing in Bakersfield",
+      "meta_description": "Certified indoor air quality testing in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "indoor air quality testing bakersfield",
+      "secondary_keywords": [
+        "indoor air quality testing",
+        "air quality testing near me",
+        "air quality inspection",
+        "home air quality test",
+        "air quality testing cost"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
+        "/service-areas/clovis-ca/indoor-air-quality-testing/",
+        "/service-areas/dinuba-ca/indoor-air-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/asbestos-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Testing and Inspection in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Asbestos Testing and Inspection in Bakersfield",
+      "meta_description": "Certified asbestos testing and inspection in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "asbestos testing and inspection bakersfield",
+      "secondary_keywords": [
+        "asbestos testing near me",
+        "asbestos inspection",
+        "asbestos test before renovation",
+        "popcorn ceiling asbestos test",
+        "asbestos survey"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-testing/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/asbestos-testing/",
+        "/service-areas/dinuba-ca/asbestos-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/lead-paint-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Lead Paint Testing and Inspection in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Lead Paint Testing and Inspection in Bakersfield",
+      "meta_description": "Certified lead paint testing and inspection in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "lead paint testing and inspection bakersfield",
+      "secondary_keywords": [
+        "lead paint testing",
+        "lead paint inspection",
+        "XRF lead testing",
+        "lead risk assessment",
+        "lead test before renovation"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/lead-paint-testing/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/lead-paint-testing/",
+        "/service-areas/dinuba-ca/lead-paint-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/water-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Quality Testing in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Water Quality Testing in Bakersfield",
+      "meta_description": "Certified water quality testing in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "water quality testing bakersfield",
+      "secondary_keywords": [
+        "water quality testing near me",
+        "well water testing",
+        "drinking water testing",
+        "lead in water test",
+        "bacteria water test"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-quality-testing/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/water-quality-testing/",
+        "/service-areas/dinuba-ca/water-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/clearance-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Clearance Testing and Post-Remediation Verification in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Clearance Testing and Post-Remediation Verification in Bakersfield",
+      "meta_description": "Certified clearance testing and post-remediation verification in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "clearance testing and post-remediation verification bakersfield",
+      "secondary_keywords": [
+        "mold clearance testing",
+        "post remediation verification",
+        "clearance air testing",
+        "asbestos clearance testing",
+        "remediation clearance letter"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/clearance-testing/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/clearance-testing/",
+        "/service-areas/dinuba-ca/clearance-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/environmental-site-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Site Assessments in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Site Assessments in Bakersfield",
+      "meta_description": "Certified environmental site assessments in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental site assessments bakersfield",
+      "secondary_keywords": [
+        "phase 1 environmental site assessment",
+        "phase 2 environmental site assessment",
+        "environmental due diligence",
+        "commercial property environmental assessment",
+        "ESA report"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/environmental-site-assessments/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/environmental-site-assessments/",
+        "/service-areas/dinuba-ca/environmental-site-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/radon-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Radon Testing in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Radon Testing in Bakersfield",
+      "meta_description": "Certified radon testing in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "radon testing bakersfield",
+      "secondary_keywords": [
+        "radon testing near me",
+        "radon test for home",
+        "radon inspection",
+        "radon levels in house",
+        "continuous radon monitoring"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/radon-testing/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/radon-testing/",
+        "/service-areas/dinuba-ca/radon-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "VOC and Formaldehyde Testing in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "VOC and Formaldehyde Testing in Bakersfield",
+      "meta_description": "Certified voc and formaldehyde testing in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "voc and formaldehyde testing bakersfield",
+      "secondary_keywords": [
+        "VOC testing",
+        "formaldehyde testing",
+        "chemical odor testing",
+        "off-gassing test",
+        "new construction air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/voc-formaldehyde-testing/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+        "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Contamination Assessment in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Sewage Contamination Assessment in Bakersfield",
+      "meta_description": "Certified sewage contamination assessment in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "sewage contamination assessment bakersfield",
+      "secondary_keywords": [
+        "sewage backup testing",
+        "sewage contamination testing",
+        "category 3 water testing",
+        "bacterial contamination testing",
+        "sewage cleanup verification testing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-contamination-assessment/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/sewage-contamination-assessment/",
+        "/service-areas/dinuba-ca/sewage-contamination-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Flood Mold Assessment in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Post-Flood Mold Assessment in Bakersfield",
+      "meta_description": "Certified post-flood mold assessment in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "post-flood mold assessment bakersfield",
+      "secondary_keywords": [
+        "mold testing after flood",
+        "water damage mold inspection",
+        "mold assessment after water damage",
+        "flood damage air testing",
+        "moisture mapping inspection"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-flood-mold-assessment/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/post-flood-mold-assessment/",
+        "/service-areas/dinuba-ca/post-flood-mold-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/allergen-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Allergen Testing in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Allergen Testing in Bakersfield",
+      "meta_description": "Certified allergen testing in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "allergen testing bakersfield",
+      "secondary_keywords": [
+        "indoor allergen testing",
+        "dust mite allergen test",
+        "pet dander testing",
+        "allergen screening for home",
+        "dust sample allergen analysis"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/allergen-testing/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/allergen-testing/",
+        "/service-areas/dinuba-ca/allergen-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/hvac-duct-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "HVAC and Duct System Assessments in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "HVAC and Duct System Assessments in Bakersfield",
+      "meta_description": "Certified hvac and duct system assessments in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "hvac and duct system assessments bakersfield",
+      "secondary_keywords": [
+        "HVAC mold inspection",
+        "air duct inspection",
+        "duct contamination testing",
+        "HVAC air quality assessment",
+        "ductwork mold testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hvac-duct-assessments/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/hvac-duct-assessments/",
+        "/service-areas/dinuba-ca/hvac-duct-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/remediation-oversight/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Remediation Oversight and Project Management in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Remediation Oversight and Project Management in Bakersfield",
+      "meta_description": "Certified remediation oversight and project management in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "remediation oversight and project management bakersfield",
+      "secondary_keywords": [
+        "remediation project management",
+        "mold remediation protocol",
+        "third party remediation oversight",
+        "abatement project monitoring",
+        "remediation scope of work"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/remediation-oversight/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/remediation-oversight/",
+        "/service-areas/dinuba-ca/remediation-oversight/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/compliance-consulting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Compliance Consulting in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Compliance Consulting in Bakersfield",
+      "meta_description": "Certified environmental compliance consulting in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental compliance consulting bakersfield",
+      "secondary_keywords": [
+        "environmental compliance consulting",
+        "AHERA compliance inspection",
+        "OSHA air monitoring",
+        "environmental compliance audit",
+        "workplace exposure assessment"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/compliance-consulting/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/compliance-consulting/",
+        "/service-areas/dinuba-ca/compliance-consulting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bakersfield-ca/litigation-support-sampling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Litigation Support and Forensic Sampling in Bakersfield, CA | Arch Enviornmental Group LLC",
+      "h1": "Litigation Support and Forensic Sampling in Bakersfield",
+      "meta_description": "Certified litigation support and forensic sampling in Bakersfield, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "litigation support and forensic sampling bakersfield",
+      "secondary_keywords": [
+        "expert witness environmental testing",
+        "forensic mold investigation",
+        "litigation support sampling",
+        "tenant landlord mold dispute testing",
+        "habitability testing"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/litigation-support-sampling/",
         "/service-areas/dinuba-ca/litigation-support-sampling/",
         "/contact/"

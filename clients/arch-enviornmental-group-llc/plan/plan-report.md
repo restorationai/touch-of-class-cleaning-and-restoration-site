@@ -1,21 +1,21 @@
 # Site Plan Report — Arch Enviornmental Group LLC
 
 - Template: `environmental` v0.1.0
-- Generated: 2026-09-04T23:01:37.393518+00:00
+- Generated: 2026-09-06T17:54:17.759831+00:00
 - Domain: `archenviroservice.com`
 - Services selected: 16 of 16 catalog entries
-- Service areas: 9
+- Service areas: 10
 - Cross-product enabled: True
-- Total URLs: **169**
-- Total internal links: 1336 (avg 7.9 per page)
+- Total URLs: **186**
+- Total internal links: 1487 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 128 |
+| `service-area-service` | 144 |
 | `service-landing` | 16 |
-| `service-area` | 8 |
+| `service-area` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -55,6 +55,7 @@
 - `dinuba-ca` — Dinuba, CA
 - `sanger-ca` — Sanger, CA
 - `fowler-ca` — Fowler, CA
+- `bakersfield-ca` — Bakersfield, CA
 
 ## Top 10 priority pages
 
@@ -67,9 +68,9 @@
 | `/services/environmental-site-assessments/` | `service-landing` | 7.2 | environmental site assessments kingsburg |
 | `/services/lead-paint-testing/` | `service-landing` | 7.2 | lead paint testing and inspection kingsburg |
 | `/services/water-quality-testing/` | `service-landing` | 7.2 | water quality testing kingsburg |
+| `/service-areas/bakersfield-ca/indoor-air-quality-testing/` | `service-area-service` | 7.0 | indoor air quality testing bakersfield |
+| `/service-areas/bakersfield-ca/mold-inspection-testing/` | `service-area-service` | 7.0 | mold inspection and testing bakersfield |
 | `/service-areas/clovis-ca/indoor-air-quality-testing/` | `service-area-service` | 7.0 | indoor air quality testing clovis |
-| `/service-areas/clovis-ca/mold-inspection-testing/` | `service-area-service` | 7.0 | mold inspection and testing clovis |
-| `/service-areas/dinuba-ca/indoor-air-quality-testing/` | `service-area-service` | 7.0 | indoor air quality testing dinuba |
 
 ## Validation
 

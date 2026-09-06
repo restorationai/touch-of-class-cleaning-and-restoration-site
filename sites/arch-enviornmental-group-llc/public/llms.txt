@@ -36,16 +36,19 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Dinuba, CA](https://archenviroservice.com/service-areas/dinuba-ca/)
 - [Sanger, CA](https://archenviroservice.com/service-areas/sanger-ca/)
 - [Fowler, CA](https://archenviroservice.com/service-areas/fowler-ca/)
+- [Bakersfield, CA](https://archenviroservice.com/service-areas/bakersfield-ca/)
 
 ### Resources
 - [Blog](https://archenviroservice.com/blog/): Restoration guides and local resources
 - [About](https://archenviroservice.com/about/): Company background and credentials
 - [Contact](https://archenviroservice.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
 - [Emergency](https://archenviroservice.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 
-- Rated 5.0/5 from 30 Google reviews
 - **Founded:** 2026
 - **Licenses:**  · 
 - **Certifications:** CERTIFIED ASBESTOS CONSULTANT - LEAD INSPECTOR ASSESSOR - NIOSH 582 MICROSCOPIST

@@ -88,6 +88,11 @@
       "city": "Fowler",
       "state": "CA",
       "slug": "fowler-ca"
+    },
+    {
+      "city": "Bakersfield",
+      "state": "CA",
+      "slug": "bakersfield-ca"
     }
   ],
   "template": "environmental",
