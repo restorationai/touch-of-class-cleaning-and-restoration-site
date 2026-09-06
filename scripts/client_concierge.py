@@ -741,7 +741,16 @@ def is_internal_sender(msg: dict) -> bool:
     on: real people carry it, Monica's API sends and true client messages
     never do (fleet sample 08-20: 371 inbound rows across 13 clients, 7
     carried a userId, every readable one was ours — two external-mailbox
-    emails, the rest empty email stubs and one human-answered call)."""
+    emails, the rest empty email stubs and one human-answered call).
+
+    EXCEPT workflow sends (2026-09-06, Mike Luna): GHL calendar-reminder
+    workflows run under Santino's user, so their messages CARRY his userId —
+    an automated "your call is tomorrow" email deferred Monica for 12 hours
+    while Mike's Bakersfield request sat unanswered. GHL stamps
+    source="workflow" on those rows and source="app" on genuinely human
+    sends; a workflow row is a robot whatever userId it wears."""
+    if str(msg.get("source") or "").lower() == "workflow":
+        return False
     return bool(msg.get("userId"))
 
 
