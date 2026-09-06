@@ -13,7 +13,7 @@
     "url_count": 159,
     "generated_at": "2026-08-11T15:53:46.828873+00:00"
   },
-  "updated_at": "2026-09-06T00:48:01.472121+00:00",
+  "updated_at": "2026-09-06T13:02:35.493340+00:00",
   "build": {
     "scaffolded_at": "2026-07-28T14:55:43.298632+00:00",
     "github_repo": "restorationai/quality-contracting-inc-site",
@@ -22,10 +22,10 @@
     "url_count": 46,
     "pages_status": "created",
     "last_rendered_at": "2026-08-11T17:49:16.619771+00:00",
-    "last_pushed_staging_at": "2026-08-20T12:22:14.261782+00:00",
+    "last_pushed_staging_at": "2026-09-06T13:02:35.493322+00:00",
     "last_pushed_main_at": "2026-09-06T00:48:01.472075+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "pushed_staging",
   "company_id": "CO-1785180744028",
   "gbp": {
     "place_id": "ChIJ9wuzUNMF5IkR23w7vv0t_Hc",
