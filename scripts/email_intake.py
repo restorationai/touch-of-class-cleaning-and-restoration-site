@@ -609,7 +609,32 @@ def cmd_poll(args) -> int:
                                               "owner" in str(c.get("role", "")).lower()):
                             first = c["name"].split()[0]
                             break
-                ctx = (f"Client first name: {first}\n"
+                site_facts = ""
+                try:
+                    import requests as _rq
+                    _srow = _rq.get(
+                        os.environ["SUPABASE_URL"].rstrip("/")
+                        + f"/rest/v1/marketing_sites?company_id=eq.{company_id}"
+                        "&select=apex_live,domain,cloudflare_pages_url&limit=1",
+                        headers={"apikey": os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                                 "Authorization": "Bearer "
+                                 + os.environ["SUPABASE_SERVICE_ROLE_KEY"]},
+                        timeout=15).json()
+                    if _srow:
+                        _sr = _srow[0]
+                        if _sr.get("apex_live") and _sr.get("domain"):
+                            site_facts = (f"\nSite facts: their new website IS LIVE at "
+                                          f"https://{_sr['domain']}/\n")
+                        elif _sr.get("cloudflare_pages_url"):
+                            _pv = _sr["cloudflare_pages_url"].replace(
+                                "https://", "https://staging.")
+                            site_facts = ("\nSite facts: the new website is NOT live yet; "
+                                          f"the preview link to share is {_pv} ; their "
+                                          "current domain still shows their OLD site until "
+                                          "launch.\n")
+                except Exception:  # noqa: BLE001
+                    pass
+                ctx = (site_facts + f"Client first name: {first}\n"
                        f"Their email subject: {subject}\n"
                        f"Their email body:\n{body_text[:1500]}\n"
                        + (f"\nWe just filed these attachments: "
