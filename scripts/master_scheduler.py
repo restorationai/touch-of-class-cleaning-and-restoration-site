@@ -436,7 +436,9 @@ def cmd_status(args) -> int:
         print(f"=== {slug} — {name}")
         print(f"    apex_cutover:    {cutover or 'NOT CUT OVER (staging only)'}")
         print(f"    build_status:    {c.get('build_status')}")
-        for sys_id in (0, 1, 2, 3, 4):
+        wanted = tuple(int(x) for x in str(getattr(args, "systems", "") or "").split(",")
+                       if x.strip().isdigit()) or (0, 1, 2, 3, 4)
+        for sys_id in wanted:
             due, reason = is_due(c, sys_id)
             sched = SCHEDULE_DEFAULTS[sys_id]
             marker = "DUE  " if due else "ok   "
@@ -526,7 +528,9 @@ def cmd_run_due(args) -> int:
     for c in clients:
         slug = c["slug"]
         print(f"\n=== {slug} ===")
-        for sys_id in (0, 1, 2, 3, 4):
+        wanted = tuple(int(x) for x in str(getattr(args, "systems", "") or "").split(",")
+                       if x.strip().isdigit()) or (0, 1, 2, 3, 4)
+        for sys_id in wanted:
             due, reason = is_due(c, sys_id)
             if not due:
                 print(f"  System {sys_id}: {reason}")
@@ -905,6 +909,8 @@ def build_parser() -> argparse.ArgumentParser:
     pr.add_argument("--dry-run", action="store_true", help="Print actions, don't execute")
     pr.add_argument("--headless", action="store_true",
                     help="CI mode: invoke claude -p for agent-driven systems instead of printing prompts")
+    pr.add_argument("--systems", default="",
+                    help="Comma-separated system ids to run (e.g. 0,2). Empty = all.")
     pr.set_defaults(func=cmd_run_due)
 
     pf = sub.add_parser("force-run", help="Force-run one system on one client regardless of schedule")

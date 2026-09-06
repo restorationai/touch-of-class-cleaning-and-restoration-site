@@ -48,6 +48,9 @@ WORKFLOW_DISPATCH_JOBS = [
     # it (client-ops-sync writes the ledger state before Monica's first
     # pass), so a dropped 14:00 cron degrades her too.
     ("ops-sync", "client-ops-sync.yml", ["14:00"], False, {}),
+    # Daily content lane (2026-09-05): "must run punctually for every single
+    # client" — GH cron alone drops runs, so the worker guarantees the slot.
+    ("content-daily", "content-daily.yml", ["10:23"], False, {}),
 ]
 # How long after a slot we still fire a missed dispatch (worker restarts).
 DISPATCH_CATCHUP = timedelta(hours=3)
