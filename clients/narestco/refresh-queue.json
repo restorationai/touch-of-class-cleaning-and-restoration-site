@@ -3,7 +3,7 @@
   "slug": "narestco",
   "site": "narestco.com",
   "origin": "https://narestco.com",
-  "generated_at": "2026-07-30T18:06:06Z",
+  "generated_at": "2026-09-06T01:15:54Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
@@ -11,7 +11,8 @@
       "refresh": 0,
       "audit_then_decide": 0,
       "request_indexing": 0,
-      "fix_canonical": 0
+      "fix_canonical": 0,
+      "title-meta-rewrite": 0
     },
     "by_priority": {
       "1": 0,
@@ -25,6 +26,8 @@
     "URLs skipped because already in content-queue: 0 (none)",
     "URLs where date extraction failed: 0 (none)",
     "URLs skipped because fresh (age < 305d, no flags): 120",
-    "v1 limitations: no GSC indexing flags (sitemap + page-date scoring only)"
+    "v1 limitations: no GSC indexing flags (sitemap + page-date scoring only)",
+    "Spec gap (no effect this run, zero actions): the money-page archetype list is home, contact, services-hub, service-landing, service-area. It does not include service-area-service, which is 70 of the 120 live URLs and is this site's main commercial inventory. Once those pages age past 305 days they will score priority 4 (blog tier) rather than 1 or 3. Worth widening the list before the first run that produces real actions.",
+    "22 planned service-landing pages (/services/*) are absent from the sitemap entirely, so they were never evaluated. Build coverage, out of scope for this skill, but it is why no service-landing archetype appears above."
   ]
 }

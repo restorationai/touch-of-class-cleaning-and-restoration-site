@@ -24,7 +24,7 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-09-05T04:45:22.981551+00:00",
+  "updated_at": "2026-09-06T01:15:54Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -40,7 +40,7 @@
     "url_count": 229,
     "pages_status": "created",
     "last_rendered_at": "2026-07-15T05:38:19.287586+00:00",
-    "last_pushed_main_at": "2026-09-05T04:45:22.981516+00:00",
+    "last_pushed_main_at": "2026-09-06T01:11:21.057909+00:00",
     "last_pushed_staging_at": "2026-08-19T03:58:40.545317+00:00"
   },
   "build_status": "pushed_main",
@@ -61,10 +61,10 @@
     "legacy_origin": "195.250.27.181 (LiteSpeed)"
   },
   "refresh": {
-    "last_run_at": "2026-07-30T18:06:06Z",
+    "last_run_at": "2026-09-06T01:15:54Z",
     "last_run_total_actions": 0,
     "last_run_top_action": "none",
-    "last_run_report_path": "clients/narestco/refresh-runs/2026-07-30-refresh-recommender.md"
+    "last_run_report_path": "clients/narestco/refresh-runs/2026-09-06-refresh-recommender.md"
   },
   "cloudflare": {
     "zone_id": "30f8272d671672a14bae7ed64e0d4d71"
