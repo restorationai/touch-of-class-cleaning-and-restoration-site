@@ -506,10 +506,32 @@ def process_meeting(m: dict, *, dry_run: bool,
     followup = title_is_followup(title)
     print(f"    demo call{' (follow up)' if followup else ''}: {title!r}")
 
-    summary_md = ((m.get("default_summary") or {})
-                  .get("markdown_formatted") or "")
-    if not summary_md:
-        print("    no summary/transcript yet — leaving for next run")
+    # Readiness = a real TRANSCRIPT, not a summary (2026-09-07: Levi's
+    # no-show demos are ~60s recordings whose transcript is "Thank you." —
+    # Fathom never summarizes those, and the discernment/compose steps run
+    # off the transcript anyway). Trivial transcript: defer while fresh,
+    # close as no-content once the recording is clearly finished (>2h old)
+    # — a no-show needs no email package.
+    try:
+        tail = transcript_tail(m, chars=24000)
+    except Exception:  # noqa: BLE001  transcript not ready at all
+        tail = ""
+    if len(tail) < 500:
+        ended = m.get("recording_end_time") or ""
+        age_h = 999.0
+        if ended:
+            try:
+                age_h = (_dt.datetime.now(_dt.timezone.utc)
+                         - _dt.datetime.fromisoformat(
+                             ended.replace("Z", "+00:00"))
+                         ).total_seconds() / 3600
+            except ValueError:
+                pass
+        if age_h > 2:
+            print(f"    trivial transcript ({len(tail)} chars) and the "
+                  "recording ended hours ago — no-show, closing")
+            return "no-content"
+        print("    transcript not ready yet — leaving for next run")
         return "defer"
 
     rep = rep_for(m)
@@ -558,7 +580,6 @@ def process_meeting(m: dict, *, dry_run: bool,
 
     # Transcript discernment — ANY failure here means nothing sends.
     try:
-        tail = transcript_tail(m, chars=24000)
         client = la._claude()
         verdict, _ = la.claude_json(
             client, DISCERN_SYSTEM,
