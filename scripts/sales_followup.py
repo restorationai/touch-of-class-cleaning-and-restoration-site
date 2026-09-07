@@ -265,8 +265,13 @@ def name_from_title(title: str) -> str | None:
     """'Rank #1 On Google And Chat GPT - Bryan Almeida' -> 'Bryan Almeida'.
     GHL-booked Zoom demos often have NO prospect on the calendar invite
     (kickoff_prep learned this first), but the appointment title carries
-    the contact's name."""
+    the contact's name. Levi's calendar titles carry brand boilerplate
+    instead ('... Guarantee with Restoration AI') — strip it so it can
+    never masquerade as a prospect name; those calls resolve via invitee."""
     t = _TITLE_PHRASE_RE.sub(" ", title or "")
+    t = re.sub(r"guarantee\s+with\s+restoration\s+ai|with\s+restoration\s+ai"
+               r"|restoration\s+ai|rank\s+ai|guarantee",
+               " ", t, flags=re.I)
     t = re.sub(r"follow[\s-]*up", " ", t, flags=re.I)
     t = re.sub(r"[-–—|:·(),]+", " ", t)
     t = re.sub(r"\s+", " ", t).strip()
