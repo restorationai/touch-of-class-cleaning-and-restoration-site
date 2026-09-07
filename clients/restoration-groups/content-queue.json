@@ -242,10 +242,10 @@
     },
     {
       "id": "2026-07-27-condo-insurance-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-27T18:39:36Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-07T20:34:28Z",
+      "post_url": "https://therestorationgroup.com/blog/condo-insurance-water-damage/",
       "primary_keyword": "condo insurance water damage",
       "intent": "informational",
       "volume": 1000,
