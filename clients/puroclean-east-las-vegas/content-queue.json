@@ -15,7 +15,7 @@
     },
     {
       "id": "2026-08-28-fire-damage-restoration-cost-nv",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-28T01:05:33Z",
       "priority": 1,
       "prioritized": true,
@@ -40,7 +40,74 @@
         "smoke damage cleanup NV",
         "fire restoration NV"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-07T20:24:05Z",
+      "post_url": "https://purocleaneastlasvegas.com/blog/fire-damage-restoration-cost-nv/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "reate disputes over what was damaged. A certified restoration company will document everything before",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Structural reconstruction",
+          "context": "ther than eliminated will return. 7. **Structural reconstruction.** Charred or compromised materials are",
+          "reason": "names the 'reconstruction' service family but plan-input services are only: fire-damage-restoration, mold-remediation, water-damage-restoration, sewage-cleanup, biohazard-cleanup, burst-frozen-pipes"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "all must be extracted and dried to the [IICRC S500 standard](https://www.iicrc.org) b",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "moisture meters until readings meet the IICRC S500 drying standard. 4. **Soot and sm",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "ce company to open a claim, then call a certified restoration company to begin the assessment before",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "as** PuroClean of East Las Vegas is an IICRC-certified restoration company serving L",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company serving Las Vegas, NV and the s",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-08-07-best-mold-remediation-in-las-vegas-nv",
