@@ -1,6 +1,346 @@
 {
   "slug": "drycor-restore",
   "assets": {
+    "crew:1788553875268-BOXTRUCK": {
+      "source": "crew",
+      "storage": "job-photos/1788553875268-BOXTRUCK.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553875268-BOXTRUCK.png",
+      "width": 1600,
+      "height": 1080,
+      "bytes": 3110896,
+      "sha1": "10c701e6f535bdef",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Red Drycor Restore box truck parked outside multi-story building",
+      "quality": 82,
+      "slots": {
+        "hero": 78,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "fire-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Sharp, well-lit branded truck with clean urban backdrop; strong hero candidate.",
+      "triaged_at": "2026-09-07T03:51:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788553890436-Kitchen_Fire": {
+      "source": "crew",
+      "storage": "job-photos/1788553890436-Kitchen_Fire.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553890436-Kitchen_Fire.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 3025849,
+      "sha1": "e6b91ff80f9d57be",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severely fire-damaged kitchen with charred ceiling and debris",
+      "quality": 88,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 82
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Dramatic, sharp before-state fire damage; excellent services card for fire restoration.",
+      "triaged_at": "2026-09-07T03:51:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788553903118-Madeira_Enhanced": {
+      "source": "crew",
+      "storage": "job-photos/1788553903118-Madeira_Enhanced.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553903118-Madeira_Enhanced.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2791743,
+      "sha1": "59d9f4ab44a8eaec",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Large stack of air movers and dehumidifiers on building porch",
+      "quality": 80,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Well-lit equipment array; good services visual showing drying capacity.",
+      "triaged_at": "2026-09-07T03:51:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788553914559-DEHUMIDIFICATION": {
+      "source": "crew",
+      "storage": "job-photos/1788553914559-DEHUMIDIFICATION.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553914559-DEHUMIDIFICATION.png",
+      "width": 500,
+      "height": 333,
+      "bytes": 254267,
+      "sha1": "e405eb2fcbf51385",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Open-wall dried home interior with multiple air movers deployed",
+      "quality": 74,
+      "slots": {
+        "hero": 38,
+        "team": 0,
+        "services": 78
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Competent but slightly generic composition; likely stock or highly staged scene.",
+      "triaged_at": "2026-09-07T03:51:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788553951803-Drycor_Van": {
+      "source": "crew",
+      "storage": "job-photos/1788553951803-Drycor_Van.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553951803-Drycor_Van.jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 4217865,
+      "sha1": "746ca284d2cbe666",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Red Drycor Restore box van parked under moss-draped trees",
+      "quality": 76,
+      "slots": {
+        "hero": 68,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "fire-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Good three-quarter angle on branded van; overcast light slightly flat but usable.",
+      "triaged_at": "2026-09-07T03:51:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788553986711-Cleaning": {
+      "source": "crew",
+      "storage": "job-photos/1788553986711-Cleaning.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553986711-Cleaning.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2599013,
+      "sha1": "ab470eceec5665d6",
+      "exif": {},
+      "category": "crew",
+      "subject": "Three technicians in Tyvek suits spraying remediation treatment on studs",
+      "quality": 85,
+      "slots": {
+        "hero": 42,
+        "team": 72,
+        "services": 88
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Sharp, active crew shot in full PPE; excellent services card for mold or water work.",
+      "triaged_at": "2026-09-07T03:51:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788553994977-Drying_Equipment_Air_Tunnel_COMM": {
+      "source": "crew",
+      "storage": "job-photos/1788553994977-Drying_Equipment_Air_Tunnel_COMM.JPG",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553994977-Drying_Equipment_Air_Tunnel_COMM.JPG",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 3170109,
+      "sha1": "c158c6c009e26734",
+      "exif": {
+        "taken_at": "2020:12:02 09:29:38",
+        "camera": "Apple iPhone XS Max",
+        "gps": {
+          "lat": 28.000622,
+          "lng": -82.304428
+        }
+      },
+      "category": "equipment",
+      "subject": "Air movers and dehumidifiers deployed inside large inflatable drying tent",
+      "quality": 72,
+      "slots": {
+        "hero": 55,
+        "team": 0,
+        "services": 78
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Dramatic large-loss drying setup; unique visual but portrait-ish and no crew.",
+      "triaged_at": "2026-09-07T03:51:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788553999815-Drying_Equipment_Set_COMM": {
+      "source": "crew",
+      "storage": "job-photos/1788553999815-Drying_Equipment_Set_COMM.JPG",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553999815-Drying_Equipment_Set_COMM.JPG",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 3643445,
+      "sha1": "975771368e9b5684",
+      "exif": {
+        "taken_at": "2020:11:30 15:32:43",
+        "camera": "Apple iPhone XS Max",
+        "gps": {
+          "lat": 28.000653,
+          "lng": -82.304558
+        }
+      },
+      "category": "equipment",
+      "subject": "Gymnasium floor covered with air movers and dehumidifiers drying setup",
+      "quality": 78,
+      "slots": {
+        "hero": 65,
+        "team": 0,
+        "services": 82
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Wide well-lit commercial drying scene; strong services card, decent hero candidate.",
+      "triaged_at": "2026-09-07T03:51:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788554010857-Heavy_Duty_Drying": {
+      "source": "crew",
+      "storage": "job-photos/1788554010857-Heavy_Duty_Drying.JPG",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788554010857-Heavy_Duty_Drying.JPG",
+      "width": 2333,
+      "height": 3024,
+      "bytes": 1603687,
+      "sha1": "4fd5d258015ae0ce",
+      "exif": {
+        "taken_at": "2020:11:30 08:56:04",
+        "camera": "Apple iPhone XS Max",
+        "gps": {
+          "lat": 28.000758,
+          "lng": -82.30445
+        }
+      },
+      "category": "equipment",
+      "subject": "Large yellow extraction hoses and generator truck on rainy job site",
+      "quality": 68,
+      "slots": {
+        "hero": 42,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "water-cleanup",
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Atmospheric storm scene but overcast and cluttered; good services, weak hero.",
+      "triaged_at": "2026-09-07T03:51:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788554028652-Masonry": {
+      "source": "crew",
+      "storage": "job-photos/1788554028652-Masonry.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788554028652-Masonry.jpg",
+      "width": 4032,
+      "height": 3024,
+      "bytes": 1511678,
+      "sha1": "0330f8de00ed7348",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Two-storey cinder block building with scaffolding under reconstruction",
+      "quality": 74,
+      "slots": {
+        "hero": 52,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "general-contracting",
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean exterior reconstruction shot; usable for general contracting service card.",
+      "triaged_at": "2026-09-07T03:51:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788554122387-Flood_Madeira": {
+      "source": "crew",
+      "storage": "job-photos/1788554122387-Flood_Madeira.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788554122387-Flood_Madeira.jpg",
+      "width": 3024,
+      "height": 4032,
+      "bytes": 1373563,
+      "sha1": "0af127df210ce55a",
+      "exif": {
+        "taken_at": "2024:10:04 09:56:30",
+        "camera": "Apple iPhone 15 Pro Max",
+        "gps": {
+          "lat": 27.788178,
+          "lng": -82.780961
+        }
+      },
+      "category": "job_progress",
+      "subject": "Flood-damaged apartment doorway with stripped floors and tide-line walls",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clear flood damage evidence; good before-state services image, poor hero crop.",
+      "triaged_at": "2026-09-07T03:51:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788554175857-Box_Truck_Isuzu": {
+      "source": "crew",
+      "storage": "job-photos/1788554175857-Box_Truck_Isuzu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788554175857-Box_Truck_Isuzu.jpg",
+      "width": 5712,
+      "height": 3213,
+      "bytes": 3892640,
+      "sha1": "8ed349459c7ad6fe",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Two red Drycor Restore branded box trucks parked under trees",
+      "quality": 82,
+      "slots": {
+        "hero": 78,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Strong branded fleet shot; real vehicle signage, good hero candidate, well composed.",
+      "triaged_at": "2026-09-07T03:51:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM-EJTmErat75ZoriQEw-n1rPwCDbmVjvzfi9J7": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM-EJTmErat75ZoriQEw-n1rPwCDbmVjvzfi9J7.jpg",
@@ -1286,5 +1626,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-03T19:08:09Z"
+  "triaged_at": "2026-09-07T03:51:56Z"
 }
