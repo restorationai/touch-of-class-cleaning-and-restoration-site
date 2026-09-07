@@ -335,6 +335,16 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python3 scripts/cron_heartbeat.py || echo "heartbeat errored (non-fatal)"
 
+      - name: Backlink + DR snapshots (self-gating monthly)
+        if: always()
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DATAFORSEO_USERNAME:        ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:        ${{ secrets.DATAFORSEO_PASSWORD }}
+          AHREFS_API_KEY:             ${{ secrets.AHREFS_API_KEY }}
+        run: python3 scripts/backlink_tracker.py || true
+
       - name: Email intake + Monica email replies
         if: always()
         env:
