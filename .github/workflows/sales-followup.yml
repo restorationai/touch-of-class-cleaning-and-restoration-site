@@ -1,0 +1,45 @@
+# Post-demo sales automation (2026-09-06). Dispatched by the fathom-webhook
+# edge function the minute a demo recording is ready, so the recap + audit +
+# proposal reach the rep while the call is still warm. The Railway ops-worker
+# also runs sales_followup.py every 30 min as the self-healing backstop
+# (missed webhooks, edge-function downtime); the ops_kv claim lock makes the
+# two paths collision-safe.
+name: Sales Followup
+
+on:
+  workflow_dispatch: {}
+
+concurrency:
+  group: sales-followup
+  cancel-in-progress: false
+
+jobs:
+  followup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -q -r requirements.txt
+      - name: Process new demo recordings
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          FATHOM_API_KEY:            ${{ secrets.FATHOM_API_KEY }}
+          # Levi's (and future reps') own Fathom keys, comma-separated —
+          # demos record under THEIR accounts, invisible to the agency key.
+          FATHOM_SALES_API_KEYS:     ${{ secrets.FATHOM_SALES_API_KEYS }}
+          GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
+          GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
+          DATAFORSEO_USERNAME:       ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:       ${{ secrets.DATAFORSEO_PASSWORD }}
+          GOOGLE_AI_API_KEY:         ${{ secrets.GOOGLE_AI_API_KEY }}
+          CLOUDFLARE_R2_API_TOKEN:   ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN:      ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID:     ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SALES_FOLLOWUP_AUTOSEND:   ${{ vars.SALES_FOLLOWUP_AUTOSEND }}
+        run: python3 scripts/sales_followup.py sync --send

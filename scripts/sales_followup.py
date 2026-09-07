@@ -737,6 +737,24 @@ def main() -> int:
         rid = str(m.get("recording_id"))
         title = m.get("title") or m.get("meeting_title") or "?"
         print(f"\n--- {meeting_when(m)} {title!r} (recording {rid})")
+        # CLAIM before processing (2026-09-06): the Fathom webhook dispatch
+        # and the Railway 30-min poll can run concurrently, and an audit
+        # takes minutes — plenty of window for a double-send. A fresh state
+        # read + an immediate "processing:" stamp shrinks that window to
+        # seconds. Stale claims (>2h, crashed run) are reprocessable.
+        if not dry_run:
+            fresh = ((kv_get(STATE_KEY) or {}).get("processed") or {})
+            cur = fresh.get(rid)
+            if cur and not (isinstance(cur, str) and cur.startswith("processing:")
+                            and cur[11:] < (_dt.datetime.now(_dt.timezone.utc)
+                                            - _dt.timedelta(hours=2)).isoformat()):
+                if cur != state["processed"].get(rid):
+                    print("    claimed by a concurrent run — skipping")
+                    state["processed"][rid] = cur
+                    continue
+            state["processed"][rid] = ("processing:"
+                                       + _dt.datetime.now(_dt.timezone.utc).isoformat())
+            kv_set(STATE_KEY, state)
         try:
             status = process_meeting(m, dry_run=dry_run, client_ids=client_ids)
         except Exception as e:  # noqa: BLE001  one bad meeting != whole run
@@ -744,7 +762,12 @@ def main() -> int:
             status = "error"
         print(f"    -> {status}")
         if status == "defer":
-            continue  # summary not ready; retry next pass
+            # summary not ready; release the claim so the next pass retries
+            if not dry_run and str(state["processed"].get(rid, "")
+                                   ).startswith("processing:"):
+                state["processed"].pop(rid, None)
+                kv_set(STATE_KEY, state)
+            continue
         if args.cmd == "one" and dry_run:
             continue  # dry single-shot leaves state untouched for a real run
         state["processed"][rid] = status
