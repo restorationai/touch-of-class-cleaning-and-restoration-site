@@ -176,6 +176,11 @@ JOBS = [
                     "poll", "--send"]),
     ("fathom", 1800, [sys.executable, str(HERE / "fathom_sync.py"),
                       "sync", "--send"]),
+    # Post-demo sales automation (2026-09-06): recap + full audit + proposal
+    # from whichever rep ran the demo. Approval mode by default — flip with
+    # SALES_FOLLOWUP_AUTOSEND=1 on the worker once the drafts earn trust.
+    ("sales-followup", 1800, [sys.executable, str(HERE / "sales_followup.py"),
+                              "sync", "--send"]),
     ("nudge", 3600, [sys.executable, str(HERE / "client_concierge.py"),
                      "compose", "--all", "--send"]),
 ]
