@@ -39,3 +39,4 @@ node_modules/
 landing-page/dist/
 kpi-dashboard/*.log
 landing-page/
+clients/*/podcast-work/
