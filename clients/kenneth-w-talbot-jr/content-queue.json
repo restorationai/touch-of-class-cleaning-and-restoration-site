@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "2026-09-07-fire-smoke-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-07T15:56:45Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-smoke-restoration",
+      "primary_keyword": "Fire & Smoke Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "defuniak-springs-fl",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-07-storm-wind-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-07T15:56:45Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-wind-damage-restoration",
+      "primary_keyword": "Storm & Wind Damage Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "crestview-fl",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
       "id": "2026-09-07-best-mold-remediation-in-freeport-fl",
       "status": "written",
       "queued_at": "2026-09-07T10:24:12Z",
