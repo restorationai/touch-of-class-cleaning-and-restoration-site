@@ -104,6 +104,16 @@ def cmd_backup() -> int:
                      timeout=60)
     r.raise_for_status()
     print(f"encrypted backup uploaded: r2://{BUCKET}/{key} ({len(blob)} bytes)")
+    # Santino 2026-09-06: "I'd rather [store] in GitHub" — the CIPHERTEXT
+    # also lands in the repo (secrets-vault/), so a fresh machine needs only
+    # a git clone + the passphrase. Plaintext secrets stay banned from git;
+    # this blob without the passphrase is noise. Stable filename so history
+    # doesn't accumulate one blob per day.
+    vault = ROOT / "secrets-vault" / "vault.tar.gz.enc"
+    vault.parent.mkdir(exist_ok=True)
+    vault.write_bytes(blob)
+    print(f"ciphertext also written to {vault.relative_to(ROOT)} — commit it "
+          "to make the GitHub copy current.")
     print("passphrase is NOT stored anywhere — keep it in your password manager.")
     return 0
 
@@ -119,14 +129,22 @@ def cmd_list() -> int:
 
 
 def cmd_restore(stamp: str | None) -> int:
-    key = f"{PREFIX}/{stamp or date.today().isoformat()}.tar.gz.enc"
-    r = requests.get(_obj_url(key), headers=_headers(), timeout=60)
-    if r.status_code == 404:
-        print(f"no backup at {key} — run 'list' to see available stamps")
-        return 1
-    r.raise_for_status()
+    # Prefer the in-repo vault (works right after a bare git clone, no
+    # Cloudflare credentials needed); R2 remains the dated fallback.
+    vault = ROOT / "secrets-vault" / "vault.tar.gz.enc"
+    if vault.exists() and not stamp:
+        print(f"restoring from in-repo vault {vault.relative_to(ROOT)}")
+        blob = vault.read_bytes()
+    else:
+        key = f"{PREFIX}/{stamp or date.today().isoformat()}.tar.gz.enc"
+        r = requests.get(_obj_url(key), headers=_headers(), timeout=60)
+        if r.status_code == 404:
+            print(f"no backup at {key} — run 'list' to see available stamps")
+            return 1
+        r.raise_for_status()
+        blob = r.content
     pw = passphrase(confirm=False)
-    raw = openssl(["-d"], r.content, pw)
+    raw = openssl(["-d"], blob, pw)
     by_arc = {arc: path for path, arc in TARGETS}
     with tarfile.open(fileobj=io.BytesIO(raw), mode="r:gz") as tf:
         for m in tf.getmembers():
