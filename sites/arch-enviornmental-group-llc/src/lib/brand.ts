@@ -21,7 +21,7 @@ export const brand = {
   trackingPhone: "",
   trackingPhoneRaw: "",
   email: "info@archenviroservice.com",
-  hours: "24/7",
+  hours: "By appointment",
   foundedYear: "2026",
   primaryCity: "Kingsburg",
   primaryState: "CA",
@@ -67,7 +67,7 @@ export const brand = {
     { author: "Jack", rating: 5, text: "I have use Arch environmental for testing for lead as asbestos also Mold clearances. My experience has always been fast service and great communication.Definitely recommend Mike Luna and his team.", when: "July 2026" },
     { author: "Neri", rating: 5, text: "Would definitely give a five star review! I've worked with Arch Environmental, through the company I work for. My experience with Arch Environmental working with Mike Luna has always been pleasant, professional and great communication and service.", when: "July 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
-  tagline: "Independent environmental testing and inspections in Kingsburg, CA.",
+  tagline: "Independent environmental testing and inspections across California's Central Valley.",
   ctaLabel: "Schedule an Inspection",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
@@ -75,7 +75,7 @@ export const brand = {
   tradeNoun: "environmental testing",
   specialistPhrase: "Environmental Testing & Inspection Specialists",
   announcementSuffix: "Independent, Lab-Verified Testing",
-  homeAboutBlurb: "Arch Enviornmental Group LLC provides independent environmental testing and inspections for homes and businesses across Kingsburg and the surrounding CA area. From mold and air quality testing to asbestos, lead, and water testing, every assessment is backed by accredited laboratory analysis and a clear written report. Because we don't perform the remediation ourselves, our findings are unbiased: we have no incentive to find problems that aren't there.",
+  homeAboutBlurb: "Arch Enviornmental Group LLC provides independent environmental testing and inspections for homes and businesses across Kingsburg and communities throughout California's Central Valley. From mold and air quality testing to asbestos, lead, and water testing, every assessment is backed by accredited laboratory analysis and a clear written report. Because we don't perform the remediation ourselves, our findings are unbiased: we have no incentive to find problems that aren't there.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

@@ -38,7 +38,7 @@ const bestCompanyAnswer = [
     : "",
   is247
     ? `We answer calls 24/7 — call ${brand.phone} for immediate help.`
-    : `Call ${brand.phone} during business hours (${brand.hours}) for a free estimate.`,
+    : `Call ${brand.phone} to schedule ${serviceLower} or request a free estimate.`,
 ].filter(Boolean).join(" ");
 ---
 
@@ -96,7 +96,7 @@ const bestCompanyAnswer = [
     </div>
   </section>
 
-  <CtaBanner heading={`Need ${data.service_display} now?`} subheading={`We respond 24/7 across ${brand.primaryCity} and surrounding ${brand.primaryState} cities.`} />
+  <CtaBanner heading={`Schedule ${data.service_display}`} subheading={`Independent, lab-verified testing across ${brand.primaryCity} and California's Central Valley.`} />
 
   <InternalLinks paths={data.internal_links} heading="Related Coverage" eyebrow="Areas & Related Services" />
 </BaseLayout>

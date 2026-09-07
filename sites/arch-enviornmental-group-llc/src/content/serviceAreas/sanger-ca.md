@@ -19,7 +19,7 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Arch Environmental Group LLC provides environmental testing and restoration services to property owners throughout Sanger, from mold assessments and water intrusion investigations to air quality testing and hazardous material evaluations. Based in nearby Kingsburg, the team serves residential and commercial properties across the city, helping owners understand what is in their buildings and what needs to happen next.
+Arch Environmental Group LLC provides independent environmental testing and inspection services to property owners throughout Sanger, from mold inspection and water intrusion and moisture assessment to air quality testing, asbestos and lead testing, and hazardous material evaluations. Because the team tests and assesses conditions rather than performing the remediation itself, its findings stay unbiased. Based in nearby Kingsburg, the team serves residential and commercial properties across the city, helping owners understand what is in their buildings and what needs to happen next.
 
 ## Restoration emergencies common in Sanger
 

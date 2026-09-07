@@ -19,7 +19,7 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Arch Environmental Group LLC provides environmental testing and restoration services to property owners in Reedley, CA, covering mold assessment, water damage evaluation, air quality testing, and related remediation work. Based in nearby Kingsburg, the team reaches Reedley quickly via Highway 99 and Manning Avenue, making it a practical choice for both urgent evaluations and scheduled inspections across Fresno County's Kings River corridor.
+Arch Environmental Group LLC provides independent environmental testing and inspection services to property owners in Reedley, CA, covering mold inspection and testing, post-water-damage mold and moisture assessment, indoor air quality testing, asbestos and lead testing, and independent remediation oversight. Because the team tests and assesses conditions rather than performing the remediation itself, its findings stay unbiased. Based in nearby Kingsburg, the team reaches Reedley quickly via Highway 99 and Manning Avenue, making it a practical choice for both routine evaluations and scheduled inspections across Fresno County's Kings River corridor.
 
 ## Restoration emergencies common in Reedley
 

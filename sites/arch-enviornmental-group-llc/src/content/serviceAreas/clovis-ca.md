@@ -19,7 +19,7 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Arch Environmental Group LLC provides environmental testing and restoration services to property owners throughout Clovis, from mold assessments and air quality testing to water damage response and hazardous material evaluation. Based in Kingsburg, the team reaches Clovis via Highway 99 and Herndon Avenue, covering residential neighborhoods and commercial corridors across the city. If something in your home or building feels wrong, a musty smell after a plumbing leak, visible discoloration on drywall, or lingering air quality concerns after a nearby fire, this is the call to make.
+Arch Environmental Group LLC provides independent environmental testing and inspection services to property owners throughout Clovis, from mold inspection and air quality testing to post-water-damage mold and moisture assessment, asbestos and lead testing, and hazardous material evaluation. Because the team tests and assesses conditions rather than performing the remediation itself, its findings and any remediation oversight it provides stay unbiased. Based in Kingsburg, the team reaches Clovis via Highway 99 and Herndon Avenue, covering residential neighborhoods and commercial corridors across the city. If something in your home or building feels wrong, a musty smell after a plumbing leak, visible discoloration on drywall, or lingering air quality concerns after a nearby fire, this is the call to make.
 
 ## Restoration emergencies common in Clovis
 

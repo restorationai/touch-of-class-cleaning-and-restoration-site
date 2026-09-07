@@ -19,7 +19,7 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Arch Environmental Group LLC provides environmental testing and remediation services to property owners throughout Fresno, from pre-purchase inspections and indoor air quality assessments to mold testing and hazardous material surveys. Based in Kingsburg, we serve Fresno's residential and commercial properties with the kind of site-specific attention that a city this large and this varied in its building stock genuinely requires. If you have a concern about what's in your air, your walls, or your soil, this is the right starting point.
+Arch Environmental Group LLC provides independent environmental testing and inspection services to property owners throughout Fresno, from pre-purchase inspections and indoor air quality assessments to mold testing, post-water-damage moisture assessment, and hazardous material surveys. Because we test and assess conditions rather than performing the remediation ourselves, our findings and any remediation oversight we provide stay unbiased. Based in Kingsburg, we serve Fresno's residential and commercial properties with the kind of site-specific attention that a city this large and this varied in its building stock genuinely requires. If you have a concern about what's in your air, your walls, or your soil, this is the right starting point.
 
 ## Restoration emergencies common in Fresno
 

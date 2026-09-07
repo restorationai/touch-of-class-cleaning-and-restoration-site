@@ -18,7 +18,7 @@ rendered: true
 ---
 ## Our Commitment to Accessibility
 
-Arch Environmental Group LLC is committed to ensuring that our website is usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification tools. We believe access to information about environmental and restoration services should not depend on a visitor's physical or technological circumstances.
+Arch Environmental Group LLC is committed to ensuring that our website is usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification tools. We believe access to information about environmental testing and inspection services should not depend on a visitor's physical or technological circumstances.
 
 This site is built with the goal of conforming to the **Web Content Accessibility Guidelines (WCAG) 2.1, Level AA**, the widely recognized benchmark for digital accessibility. Those guidelines cover a range of recommendations designed to make web content more perceivable, operable, understandable, and robust for users with disabilities.
 

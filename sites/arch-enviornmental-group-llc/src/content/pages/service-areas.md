@@ -15,7 +15,7 @@ breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas"}]
 faq: [{"question": "How far will Arch Environmental Group travel for a job?", "answer": "The team regularly serves communities throughout Fresno, Tulare, and Kings counties, with the Kingsburg office as the dispatch point. For larger or more complex projects, coverage can extend beyond the standard service area, the best way to find out is to call and describe your situation."}, {"question": "Will response time be longer if I'm farther from Kingsburg?", "answer": "Yes, distance and drive time are real factors, especially for communities at the edge of the coverage area or in the foothills east of the Valley. Scheduling is handled on a case-by-case basis during business hours, and the team will give you an honest estimate of when they can be on-site rather than a generic promise."}, {"question": "Is there a mileage or travel charge for locations outside Kingsburg?", "answer": "Travel and mobilization costs vary by project scope and distance. That detail is best discussed when you call to schedule, **(559) 296-2088**, so there are no surprises before work begins."}]
 rendered: true
 ---
-Arch Environmental Group LLC is based in Kingsburg and serves property owners across the San Joaquin Valley and surrounding communities. Scheduling is handled during business hours, call **(559) 296-2088** to confirm availability and get your project on the calendar. Whether you're dealing with water intrusion, mold, or another environmental concern, the right first step is a quick conversation about where you are and what you're facing.
+Arch Environmental Group LLC is based in Kingsburg and serves property owners across the San Joaquin Valley and surrounding communities. Scheduling is handled during business hours, call **(559) 296-2088** to confirm availability and get your project on the calendar. Whether you need testing before a renovation, have a mold or air-quality concern, or another environmental question, the right first step is a quick conversation about where you are and what you're facing.
 
 ## Where we work
 
@@ -31,4 +31,4 @@ For any location, the honest answer on arrival timing comes from a phone call, n
 
 ## Don't see your city?
 
-The listed service areas aren't a hard boundary. For larger losses, significant water damage, extensive mold remediation, or commercial projects, the team will often travel beyond the standard coverage footprint. If your city isn't listed, call **(559) 296-2088** during business hours and describe the scope. The answer is almost always worth a two-minute conversation.
+The listed service areas aren't a hard boundary. For larger testing scopes, multi-building surveys, or commercial projects, the team will often travel beyond the standard coverage footprint. If your city isn't listed, call **(559) 296-2088** during business hours and describe the scope. The answer is almost always worth a two-minute conversation.

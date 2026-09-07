@@ -19,7 +19,7 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Arch Environmental Group LLC provides environmental testing and restoration services to property owners throughout Selma, from mold assessments and air quality testing to water damage evaluation and hazardous material identification. Based in nearby Kingsburg, the team reaches Selma properties promptly via Highway 99 and serves both residential homeowners and commercial property managers across the city's established neighborhoods and newer developments.
+Arch Environmental Group LLC provides independent environmental testing and inspection services to property owners throughout Selma, from mold inspection and air quality testing to post-water-damage mold and moisture assessment and hazardous material identification. Because the team tests and assesses conditions rather than performing the remediation itself, its findings stay unbiased. Based in nearby Kingsburg, the team reaches Selma properties promptly via Highway 99 and serves both residential homeowners and commercial property managers across the city's established neighborhoods and newer developments.
 
 ## Restoration emergencies common in Selma
 

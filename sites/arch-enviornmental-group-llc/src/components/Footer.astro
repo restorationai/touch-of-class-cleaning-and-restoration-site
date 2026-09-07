@@ -2,7 +2,6 @@
 import { brand } from "~/lib/brand";
 import { getCollection } from "astro:content";
 
-const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 const services = (await getCollection("services")).sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
 const areas = (await getCollection("serviceAreas")).sort((a, b) => Number(b.data.primary) - Number(a.data.primary));
 const year = new Date().getFullYear();
@@ -80,7 +79,6 @@ const year = new Date().getFullYear();
     <div class="lg:col-span-2">
       <div class="text-xs font-black uppercase tracking-widest text-navy-900 mb-4">Company</div>
       <ul class="space-y-2 text-sm list-none pl-0">
-        <li><a href="/emergency/" class="text-primary font-bold no-underline hover:underline">{is247 ? "24/7 Emergency" : "Emergency"}</a></li>
         <li><a href="/about/" class="text-navy-900/70 hover:text-primary no-underline">About</a></li>
         <li><a href="/reviews/" class="text-navy-900/70 hover:text-primary no-underline">Reviews</a></li>
         <li><a href="/certifications/" class="text-navy-900/70 hover:text-primary no-underline">Certifications</a></li>

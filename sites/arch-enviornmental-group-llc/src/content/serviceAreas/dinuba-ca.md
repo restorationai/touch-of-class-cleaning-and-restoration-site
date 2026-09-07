@@ -19,7 +19,7 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Arch Environmental Group LLC provides environmental testing and restoration services to property owners in Dinuba, CA, covering water damage assessment, mold testing, and related environmental consulting for homes and commercial buildings throughout the area. Based in nearby Kingsburg, the team reaches Dinuba via a short drive on CA-99 and local surface roads, making prompt scheduling realistic for both routine inspections and time-sensitive moisture or air-quality concerns.
+Arch Environmental Group LLC provides independent environmental testing and inspection services to property owners in Dinuba, CA, covering water intrusion and moisture assessment, mold testing, indoor air quality testing, asbestos and lead testing, and related environmental consulting for homes and commercial buildings throughout the area. Because the team tests and assesses conditions rather than performing the remediation itself, its findings stay unbiased and can be relied on by owners, insurers, and contractors alike. Based in nearby Kingsburg, the team reaches Dinuba via a short drive on CA-99 and local surface roads, making prompt scheduling realistic for both routine inspections and time-sensitive moisture or air-quality concerns.
 
 ## Restoration emergencies common in Dinuba
 

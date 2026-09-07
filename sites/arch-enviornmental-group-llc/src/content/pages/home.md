@@ -1,8 +1,8 @@
 ---
 archetype: "home"
-title: "Arch Enviornmental Group LLC | Environmental Testing in Kingsburg, CA"
-h1: "Environmental Testing in Kingsburg"
-meta_description: "Arch Enviornmental Group LLC provides independent mold, air quality, asbestos, lead, and water testing across Kingsburg and surrounding areas. Certified inspectors, accredited lab analysis. Call (559) 296-2088."
+title: "Arch Enviornmental Group LLC | Environmental Testing Across California's Central Valley"
+h1: "Environmental Testing Across the Central Valley"
+meta_description: "Arch Enviornmental Group LLC provides independent mold, air quality, asbestos, lead, and water testing across Fresno, Kingsburg, Visalia and California's Central Valley. Certified inspectors, accredited lab analysis. Call (559) 296-2088."
 primary_keyword: "environmental testing kingsburg"
 secondary_keywords: ["environmental testing company near me", "mold and air quality testing", "independent environmental inspection"]
 search_intent: "local_commercial"

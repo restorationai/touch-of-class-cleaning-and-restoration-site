@@ -42,7 +42,7 @@ Arch Environmental Group holds certifications as a Certified Asbestos Consultant
 
 ## Reaching Dinuba from Kingsburg
 
-Arch Environmental Group is based in Kingsburg, roughly 20 miles northwest of Dinuba via Highway 99 and State Route 201. Scheduling is handled by phone at (559) 296-2088. Because our hours are not listed as 24/7 emergency response, we encourage property owners to call as early as possible after a flood event, prompt scheduling matters when the 24-to-48-hour mold colonization window is already running.
+Arch Environmental Group is based in Kingsburg, roughly 20 miles northwest of Dinuba via Highway 99 and State Route 201. Scheduling is handled by phone at (559) 296-2088. Because we work by appointment rather than dispatching emergency crews, we encourage property owners to call as early as possible after a flood event, prompt scheduling matters when the 24-to-48-hour mold colonization window is already running.
 
 ## Dinuba Insurance Coordination
 

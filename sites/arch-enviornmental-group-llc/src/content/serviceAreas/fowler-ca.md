@@ -19,7 +19,7 @@ state: "CA"
 primary: false
 rendered: true
 ---
-Arch Environmental Group LLC provides environmental testing and restoration services to property owners in Fowler, CA, covering mold assessment, water damage evaluation, air quality testing, and related environmental consulting. Based in nearby Kingsburg, the team reaches Fowler quickly via Highway 99 and serves both residential and commercial properties throughout the area.
+Arch Environmental Group LLC provides independent environmental testing and inspection services to property owners in Fowler, CA, covering mold inspection and testing, post-water-damage mold and moisture assessment, indoor air quality testing, asbestos and lead testing, and related environmental consulting. Because the team tests and assesses conditions rather than performing the remediation itself, its findings stay unbiased. Based in nearby Kingsburg, the team reaches Fowler quickly via Highway 99 and serves both residential and commercial properties throughout the area.
 
 ## Restoration emergencies common in Fowler
 

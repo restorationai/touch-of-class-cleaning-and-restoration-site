@@ -12,23 +12,42 @@ generated_at: "2026-09-04T23:32:31.574519+00:00"
 manual_override: false
 internal_links: ["/", "/services/indoor-air-quality-testing/", "/services/mold-inspection-testing/", "/services/asbestos-testing/", "/services/clearance-testing/", "/services/environmental-site-assessments/", "/services/lead-paint-testing/", "/services/water-quality-testing/", "/services/post-flood-mold-assessment/", "/services/radon-testing/", "/services/sewage-contamination-assessment/", "/services/hvac-duct-assessments/", "/services/remediation-oversight/", "/services/voc-formaldehyde-testing/", "/services/allergen-testing/", "/services/compliance-consulting/", "/services/litigation-support-sampling/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services"}]
-faq: [{"question": "Do you work with both residential and commercial properties?", "answer": "Yes. Arch Environmental Group LLC serves single-family homes, rental units, multi-family buildings, and commercial facilities across the Central Valley. The scope and logistics differ, a commercial kitchen or office building has different access, code, and coordination requirements than a residence, but our crews are equipped for both."}, {"question": "What's the difference between mitigation and reconstruction?", "answer": "Mitigation is the emergency phase: stopping water from spreading, removing smoke-damaged materials, containing a biohazard, or drying out a structure before mold can establish. Reconstruction is what comes after, replacing what was removed and returning the space to a livable or usable condition. Many contractors handle one or the other; we handle both, which keeps your project moving without a gap between phases."}, {"question": "Do you handle insurance documentation and billing for all your services?", "answer": "We work with insurance claims across our restoration and mitigation services and can provide the documentation, moisture readings, photo records, scope of loss reports, that adjusters need to process a claim. The specifics of what a given carrier covers depend on your policy, so we'd encourage you to loop in your adjuster early. Our team can walk you through what we'll document and how."}]
+faq: [{"question": "Do you work with both residential and commercial properties?", "answer": "Yes. Arch Environmental Group LLC serves single-family homes, rental units, multi-family buildings, and commercial facilities across the Central Valley. The scope and logistics differ, a commercial building has different access, code, and coordination requirements than a residence, but we test and inspect both."}, {"question": "Do you perform the remediation or repairs after testing?", "answer": "No. Arch Environmental Group performs testing, inspection, and independent oversight only, we do not do the remediation or construction work ourselves. That separation is deliberate: because we have no financial stake in a remediation scope, our findings and clearance results stay objective. When work is warranted, we describe the appropriate scope in the written report, and we can perform post-remediation clearance testing after a contractor finishes to confirm the space meets standards."}, {"question": "Can your reports be used for an insurance claim?", "answer": "Often, yes. We provide the documentation adjusters commonly ask for, accredited laboratory results, chain-of-custody records, photographs, and a clear written assessment, so your carrier has a defensible basis for a decision. Whether the testing itself is a covered cost depends on your policy and the circumstances, so check with your carrier directly; we do not bill insurers on your behalf."}]
 rendered: true
 ---
-From a burst pipe soaking a Kingsburg living room to smoke damage in a Fresno commercial kitchen, Arch Environmental Group LLC handles the full arc of property loss, assessment, mitigation, and rebuild, under one roof. We work with homeowners, landlords, property managers, and commercial facility teams across the Central Valley, so the right crew and the right equipment reach your property without the handoff delays that come from juggling multiple contractors.
+Arch Environmental Group LLC is an independent environmental testing and inspection company serving homeowners, landlords, property managers, and commercial facility teams across California's Central Valley. We test, sample, and document, and we produce a clear written report backed by accredited laboratory analysis. Because we don't perform the remediation ourselves, our findings are unbiased: we have no incentive to find a problem that isn't there, or to miss one that is. Below is the full range of what we handle.
 
-## Emergency restoration services
+## Building hazard testing
 
-When water, fire, or an unexpected event damages a structure, the first hours determine how much of the building can be saved. Standing water under flooring begins warping subfloor panels within a day; smoke residue bonds to porous surfaces and becomes harder to neutralize the longer it sits; storm-driven moisture behind siding can stay hidden until mold colonizes the wall cavity. Arch Environmental Group LLC responds to water intrusion and flooding, fire and smoke damage, biohazard and trauma scene cleanup, and storm damage, each service backed by documented protocols and proper containment so secondary damage doesn't compound the original loss. Call (559) 296-2088 to reach our team and describe what you're dealing with; we'll tell you what the next step looks like before anyone gets in a truck.
+Before a renovation, demolition, or property sale, you need to know what's in the structure. Arch Environmental Group LLC holds certifications as a Certified Asbestos Consultant and Lead Inspector/Assessor, and our microscopists are NIOSH 582 credentialed, the credentials California and federal rules require before this work can be signed off on.
 
-## Reconstruction and renovation
+- **Asbestos testing and inspection**, pre-renovation and pre-demolition surveys, bulk sampling, and NIOSH 582 fiber analysis.
+- **Lead paint testing and inspection**, identification and risk assessment for pre-1978 buildings and child-occupied facilities.
+- **Clearance testing**, independent post-remediation verification that a space is ready for re-occupancy.
+- **Environmental site assessments**, Phase I due-diligence research and site evaluation for commercial and mixed-use properties.
 
-Mitigation stops the damage. Reconstruction brings the structure back. Once affected materials are removed and the building is dry and stable, our crews handle framing, drywall, flooring, cabinetry, painting, and finish work, the same scope a general contractor would manage, but performed by people who already know exactly what was removed and why. That continuity matters: a rebuild crew that wasn't part of the mitigation phase is working from reports and photos; our team is working from direct knowledge of the structure. We handle both residential and commercial reconstruction, including multi-family units where coordinating around occupied neighboring spaces is part of the job.
+## Air quality, mold, and allergens
 
-## Specialty services
+When the air in a home or building is causing symptoms, or a moisture problem may have seeded mold, testing tells you what's actually there before anyone spends money on a fix.
 
-Some property concerns sit outside the emergency-response category but carry real health and liability weight. Arch Environmental Group LLC holds certifications as a Certified Asbestos Consultant and Lead Inspector/Assessor, and our microscopists are NIOSH 582 credentialed, meaning we can perform the testing, sampling, and reporting that renovation projects, real estate transactions, and regulatory compliance situations require. We also provide mold inspection and assessment, odor source identification and removal, and board-up and temporary weatherproofing services when a structure needs to be secured before full restoration begins.
+- **Mold inspection and testing**, visual assessment plus air and surface sampling with laboratory analysis.
+- **Indoor air quality testing**, sampling to identify particulates, fibers, and other airborne concerns.
+- **VOC and formaldehyde testing**, laboratory panels for off-gassing from flooring, cabinetry, and finishes.
+- **Allergen testing** and **HVAC and duct system assessments**, evaluating what's circulating and where it's coming from.
+- **Post-flood mold assessment**, documenting moisture and mold conditions after a water event so remediation is scoped correctly.
+
+## Water, radon, and contamination
+
+- **Water quality testing**, laboratory analysis of drinking and source water.
+- **Radon testing**, measurement to determine whether levels warrant mitigation.
+- **Sewage contamination assessment**, independent documentation of Category 3 water conditions and contamination boundaries.
+
+## Consulting and oversight
+
+- **Remediation oversight**, independent monitoring and clearance of a remediation contractor's work, we oversee and verify, we don't perform the abatement.
+- **Environmental compliance consulting**, guidance on Cal/OSHA, EPA, and San Joaquin Valley Air Pollution Control District requirements.
+- **Litigation support and forensic sampling**, defensible sampling and reporting for disputes and claims.
 
 ---
 
-The advantage of working with a single company across mitigation, specialty testing, and reconstruction is straightforward: one point of contact, one consistent record of what happened to your property, and no gap between the crew that dried it and the crew that rebuilt it. If you're not sure which service applies to your situation, call (559) 296-2088 and describe what you're seeing, we'll point you in the right direction.
+Every one of these services ends the same way: with documentation you can act on and hand to a contractor, adjuster, or building department. If you're not sure which service applies to your situation, call (559) 296-2088 and describe what you're seeing, and we'll point you in the right direction.
