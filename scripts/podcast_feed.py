@@ -90,8 +90,10 @@ def load_manifest(slug: str) -> dict:
     return {
         "title": f"{name} | Restoration Talk",
         "description": (f"Straight answers about water, fire, mold and storm "
-                        f"damage from the {name} team in {city}. Real jobs, "
-                        "real costs, and what to do when it happens to you."),
+                        f"damage from the {name} team"
+                        + (f" in {city}" if city else "")
+                        + ". Real jobs, real costs, and what to do when it "
+                        "happens to you."),
         "link": f"https://{json.loads((ROOT / 'clients' / (slug + '.json')).read_text()).get('domain', '')}",
         "language": "en-us",
         "author": name,
