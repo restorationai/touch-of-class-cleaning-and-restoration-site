@@ -2,9 +2,9 @@
   "slug": "drycor-restore",
   "assets": {
     "crew:1788553875268-BOXTRUCK": {
-      "source": "crew",
-      "storage": "job-photos/1788553875268-BOXTRUCK.png",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553875268-BOXTRUCK.png",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788553875268-BOXTRUCK.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788553875268-BOXTRUCK.png",
       "width": 1600,
       "height": 1080,
       "bytes": 3110896,
@@ -29,9 +29,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1788553890436-Kitchen_Fire": {
-      "source": "crew",
-      "storage": "job-photos/1788553890436-Kitchen_Fire.png",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553890436-Kitchen_Fire.png",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788553890436-Kitchen_Fire.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788553890436-Kitchen_Fire.png",
       "width": 1448,
       "height": 1086,
       "bytes": 3025849,
@@ -54,9 +54,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1788553903118-Madeira_Enhanced": {
-      "source": "crew",
-      "storage": "job-photos/1788553903118-Madeira_Enhanced.png",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553903118-Madeira_Enhanced.png",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788553903118-Madeira_Enhanced.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788553903118-Madeira_Enhanced.png",
       "width": 1448,
       "height": 1086,
       "bytes": 2791743,
@@ -80,9 +80,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1788553914559-DEHUMIDIFICATION": {
-      "source": "crew",
-      "storage": "job-photos/1788553914559-DEHUMIDIFICATION.png",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553914559-DEHUMIDIFICATION.png",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788553914559-DEHUMIDIFICATION.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788553914559-DEHUMIDIFICATION.png",
       "width": 500,
       "height": 333,
       "bytes": 254267,
