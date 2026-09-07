@@ -1,10 +1,10 @@
 {
   "template": "environmental",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-06T17:54:17.748588+00:00",
+  "generated_at": "2026-09-07T23:08:22.593863+00:00",
   "input_summary": {
     "service_count": 16,
-    "service_area_count": 10,
+    "service_area_count": 14,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -65,9 +65,13 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/fowler-ca/",
         "/service-areas/fresno-ca/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/porterville-ca/",
         "/service-areas/reedley-ca/",
         "/service-areas/sanger-ca/",
         "/service-areas/selma-ca/",
+        "/service-areas/tulare-ca/",
         "/service-areas/visalia-ca/"
       ]
     },
@@ -153,9 +157,13 @@
         "/service-areas/dinuba-ca/",
         "/service-areas/fowler-ca/",
         "/service-areas/fresno-ca/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/porterville-ca/",
         "/service-areas/reedley-ca/",
         "/service-areas/sanger-ca/",
         "/service-areas/selma-ca/",
+        "/service-areas/tulare-ca/",
         "/service-areas/visalia-ca/"
       ]
     },
@@ -305,10 +313,13 @@
         "/service-areas/dinuba-ca/mold-inspection-testing/",
         "/service-areas/fowler-ca/mold-inspection-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
         "/service-areas/reedley-ca/mold-inspection-testing/",
         "/service-areas/sanger-ca/mold-inspection-testing/",
         "/service-areas/selma-ca/mold-inspection-testing/",
-        "/service-areas/visalia-ca/mold-inspection-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
         "/blog/do-i-need-mold-test-before-buying-house/",
         "/blog/how-much-does-mold-inspection-cost/",
         "/blog/air-sampling-vs-surface-sampling/"
@@ -355,10 +366,13 @@
         "/service-areas/dinuba-ca/indoor-air-quality-testing/",
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
         "/service-areas/reedley-ca/indoor-air-quality-testing/",
         "/service-areas/sanger-ca/indoor-air-quality-testing/",
         "/service-areas/selma-ca/indoor-air-quality-testing/",
-        "/service-areas/visalia-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
         "/blog/signs-of-bad-indoor-air-quality/"
       ]
     },
@@ -403,10 +417,13 @@
         "/service-areas/dinuba-ca/asbestos-testing/",
         "/service-areas/fowler-ca/asbestos-testing/",
         "/service-areas/fresno-ca/asbestos-testing/",
+        "/service-areas/hanford-ca/asbestos-testing/",
+        "/service-areas/lemoore-ca/asbestos-testing/",
+        "/service-areas/porterville-ca/asbestos-testing/",
         "/service-areas/reedley-ca/asbestos-testing/",
         "/service-areas/sanger-ca/asbestos-testing/",
         "/service-areas/selma-ca/asbestos-testing/",
-        "/service-areas/visalia-ca/asbestos-testing/",
+        "/service-areas/tulare-ca/asbestos-testing/",
         "/blog/asbestos-test-before-renovation/"
       ]
     },
@@ -451,10 +468,13 @@
         "/service-areas/dinuba-ca/lead-paint-testing/",
         "/service-areas/fowler-ca/lead-paint-testing/",
         "/service-areas/fresno-ca/lead-paint-testing/",
+        "/service-areas/hanford-ca/lead-paint-testing/",
+        "/service-areas/lemoore-ca/lead-paint-testing/",
+        "/service-areas/porterville-ca/lead-paint-testing/",
         "/service-areas/reedley-ca/lead-paint-testing/",
         "/service-areas/sanger-ca/lead-paint-testing/",
         "/service-areas/selma-ca/lead-paint-testing/",
-        "/service-areas/visalia-ca/lead-paint-testing/"
+        "/service-areas/tulare-ca/lead-paint-testing/"
       ]
     },
     {
@@ -498,10 +518,13 @@
         "/service-areas/dinuba-ca/water-quality-testing/",
         "/service-areas/fowler-ca/water-quality-testing/",
         "/service-areas/fresno-ca/water-quality-testing/",
+        "/service-areas/hanford-ca/water-quality-testing/",
+        "/service-areas/lemoore-ca/water-quality-testing/",
+        "/service-areas/porterville-ca/water-quality-testing/",
         "/service-areas/reedley-ca/water-quality-testing/",
         "/service-areas/sanger-ca/water-quality-testing/",
         "/service-areas/selma-ca/water-quality-testing/",
-        "/service-areas/visalia-ca/water-quality-testing/"
+        "/service-areas/tulare-ca/water-quality-testing/"
       ]
     },
     {
@@ -545,10 +568,13 @@
         "/service-areas/dinuba-ca/clearance-testing/",
         "/service-areas/fowler-ca/clearance-testing/",
         "/service-areas/fresno-ca/clearance-testing/",
+        "/service-areas/hanford-ca/clearance-testing/",
+        "/service-areas/lemoore-ca/clearance-testing/",
+        "/service-areas/porterville-ca/clearance-testing/",
         "/service-areas/reedley-ca/clearance-testing/",
         "/service-areas/sanger-ca/clearance-testing/",
         "/service-areas/selma-ca/clearance-testing/",
-        "/service-areas/visalia-ca/clearance-testing/",
+        "/service-areas/tulare-ca/clearance-testing/",
         "/blog/why-independent-mold-testing-matters/"
       ]
     },
@@ -593,10 +619,13 @@
         "/service-areas/dinuba-ca/environmental-site-assessments/",
         "/service-areas/fowler-ca/environmental-site-assessments/",
         "/service-areas/fresno-ca/environmental-site-assessments/",
+        "/service-areas/hanford-ca/environmental-site-assessments/",
+        "/service-areas/lemoore-ca/environmental-site-assessments/",
+        "/service-areas/porterville-ca/environmental-site-assessments/",
         "/service-areas/reedley-ca/environmental-site-assessments/",
         "/service-areas/sanger-ca/environmental-site-assessments/",
         "/service-areas/selma-ca/environmental-site-assessments/",
-        "/service-areas/visalia-ca/environmental-site-assessments/"
+        "/service-areas/tulare-ca/environmental-site-assessments/"
       ]
     },
     {
@@ -640,10 +669,13 @@
         "/service-areas/dinuba-ca/radon-testing/",
         "/service-areas/fowler-ca/radon-testing/",
         "/service-areas/fresno-ca/radon-testing/",
+        "/service-areas/hanford-ca/radon-testing/",
+        "/service-areas/lemoore-ca/radon-testing/",
+        "/service-areas/porterville-ca/radon-testing/",
         "/service-areas/reedley-ca/radon-testing/",
         "/service-areas/sanger-ca/radon-testing/",
         "/service-areas/selma-ca/radon-testing/",
-        "/service-areas/visalia-ca/radon-testing/"
+        "/service-areas/tulare-ca/radon-testing/"
       ]
     },
     {
@@ -687,10 +719,13 @@
         "/service-areas/dinuba-ca/voc-formaldehyde-testing/",
         "/service-areas/fowler-ca/voc-formaldehyde-testing/",
         "/service-areas/fresno-ca/voc-formaldehyde-testing/",
+        "/service-areas/hanford-ca/voc-formaldehyde-testing/",
+        "/service-areas/lemoore-ca/voc-formaldehyde-testing/",
+        "/service-areas/porterville-ca/voc-formaldehyde-testing/",
         "/service-areas/reedley-ca/voc-formaldehyde-testing/",
         "/service-areas/sanger-ca/voc-formaldehyde-testing/",
         "/service-areas/selma-ca/voc-formaldehyde-testing/",
-        "/service-areas/visalia-ca/voc-formaldehyde-testing/"
+        "/service-areas/tulare-ca/voc-formaldehyde-testing/"
       ]
     },
     {
@@ -734,10 +769,13 @@
         "/service-areas/dinuba-ca/sewage-contamination-assessment/",
         "/service-areas/fowler-ca/sewage-contamination-assessment/",
         "/service-areas/fresno-ca/sewage-contamination-assessment/",
+        "/service-areas/hanford-ca/sewage-contamination-assessment/",
+        "/service-areas/lemoore-ca/sewage-contamination-assessment/",
+        "/service-areas/porterville-ca/sewage-contamination-assessment/",
         "/service-areas/reedley-ca/sewage-contamination-assessment/",
         "/service-areas/sanger-ca/sewage-contamination-assessment/",
         "/service-areas/selma-ca/sewage-contamination-assessment/",
-        "/service-areas/visalia-ca/sewage-contamination-assessment/"
+        "/service-areas/tulare-ca/sewage-contamination-assessment/"
       ]
     },
     {
@@ -781,10 +819,13 @@
         "/service-areas/dinuba-ca/post-flood-mold-assessment/",
         "/service-areas/fowler-ca/post-flood-mold-assessment/",
         "/service-areas/fresno-ca/post-flood-mold-assessment/",
+        "/service-areas/hanford-ca/post-flood-mold-assessment/",
+        "/service-areas/lemoore-ca/post-flood-mold-assessment/",
+        "/service-areas/porterville-ca/post-flood-mold-assessment/",
         "/service-areas/reedley-ca/post-flood-mold-assessment/",
         "/service-areas/sanger-ca/post-flood-mold-assessment/",
         "/service-areas/selma-ca/post-flood-mold-assessment/",
-        "/service-areas/visalia-ca/post-flood-mold-assessment/",
+        "/service-areas/tulare-ca/post-flood-mold-assessment/",
         "/blog/mold-testing-after-water-damage/"
       ]
     },
@@ -829,10 +870,13 @@
         "/service-areas/dinuba-ca/allergen-testing/",
         "/service-areas/fowler-ca/allergen-testing/",
         "/service-areas/fresno-ca/allergen-testing/",
+        "/service-areas/hanford-ca/allergen-testing/",
+        "/service-areas/lemoore-ca/allergen-testing/",
+        "/service-areas/porterville-ca/allergen-testing/",
         "/service-areas/reedley-ca/allergen-testing/",
         "/service-areas/sanger-ca/allergen-testing/",
         "/service-areas/selma-ca/allergen-testing/",
-        "/service-areas/visalia-ca/allergen-testing/"
+        "/service-areas/tulare-ca/allergen-testing/"
       ]
     },
     {
@@ -876,10 +920,13 @@
         "/service-areas/dinuba-ca/hvac-duct-assessments/",
         "/service-areas/fowler-ca/hvac-duct-assessments/",
         "/service-areas/fresno-ca/hvac-duct-assessments/",
+        "/service-areas/hanford-ca/hvac-duct-assessments/",
+        "/service-areas/lemoore-ca/hvac-duct-assessments/",
+        "/service-areas/porterville-ca/hvac-duct-assessments/",
         "/service-areas/reedley-ca/hvac-duct-assessments/",
         "/service-areas/sanger-ca/hvac-duct-assessments/",
         "/service-areas/selma-ca/hvac-duct-assessments/",
-        "/service-areas/visalia-ca/hvac-duct-assessments/"
+        "/service-areas/tulare-ca/hvac-duct-assessments/"
       ]
     },
     {
@@ -923,10 +970,13 @@
         "/service-areas/dinuba-ca/remediation-oversight/",
         "/service-areas/fowler-ca/remediation-oversight/",
         "/service-areas/fresno-ca/remediation-oversight/",
+        "/service-areas/hanford-ca/remediation-oversight/",
+        "/service-areas/lemoore-ca/remediation-oversight/",
+        "/service-areas/porterville-ca/remediation-oversight/",
         "/service-areas/reedley-ca/remediation-oversight/",
         "/service-areas/sanger-ca/remediation-oversight/",
         "/service-areas/selma-ca/remediation-oversight/",
-        "/service-areas/visalia-ca/remediation-oversight/"
+        "/service-areas/tulare-ca/remediation-oversight/"
       ]
     },
     {
@@ -970,10 +1020,13 @@
         "/service-areas/dinuba-ca/compliance-consulting/",
         "/service-areas/fowler-ca/compliance-consulting/",
         "/service-areas/fresno-ca/compliance-consulting/",
+        "/service-areas/hanford-ca/compliance-consulting/",
+        "/service-areas/lemoore-ca/compliance-consulting/",
+        "/service-areas/porterville-ca/compliance-consulting/",
         "/service-areas/reedley-ca/compliance-consulting/",
         "/service-areas/sanger-ca/compliance-consulting/",
         "/service-areas/selma-ca/compliance-consulting/",
-        "/service-areas/visalia-ca/compliance-consulting/"
+        "/service-areas/tulare-ca/compliance-consulting/"
       ]
     },
     {
@@ -1017,10 +1070,13 @@
         "/service-areas/dinuba-ca/litigation-support-sampling/",
         "/service-areas/fowler-ca/litigation-support-sampling/",
         "/service-areas/fresno-ca/litigation-support-sampling/",
+        "/service-areas/hanford-ca/litigation-support-sampling/",
+        "/service-areas/lemoore-ca/litigation-support-sampling/",
+        "/service-areas/porterville-ca/litigation-support-sampling/",
         "/service-areas/reedley-ca/litigation-support-sampling/",
         "/service-areas/sanger-ca/litigation-support-sampling/",
         "/service-areas/selma-ca/litigation-support-sampling/",
-        "/service-areas/visalia-ca/litigation-support-sampling/"
+        "/service-areas/tulare-ca/litigation-support-sampling/"
       ]
     },
     {
@@ -1498,6 +1554,218 @@
         "/service-areas/clovis-ca/",
         "/service-areas/dinuba-ca/",
         "/service-areas/fowler-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Environmental Testing in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Testing in Hanford",
+      "meta_description": "Serving Hanford, CA with independent mold, air quality, asbestos, lead, and water testing. Certified inspectors, accredited labs. Call (559) 296-2088.",
+      "primary_keyword": "environmental testing hanford",
+      "secondary_keywords": [
+        "hanford environmental testing company",
+        "mold testing hanford",
+        "hanford air quality testing"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/hanford-ca/asbestos-testing/",
+        "/service-areas/hanford-ca/clearance-testing/",
+        "/service-areas/hanford-ca/environmental-site-assessments/",
+        "/service-areas/hanford-ca/lead-paint-testing/",
+        "/service-areas/hanford-ca/water-quality-testing/",
+        "/service-areas/hanford-ca/post-flood-mold-assessment/",
+        "/service-areas/hanford-ca/radon-testing/",
+        "/service-areas/hanford-ca/sewage-contamination-assessment/",
+        "/service-areas/hanford-ca/hvac-duct-assessments/",
+        "/service-areas/hanford-ca/remediation-oversight/",
+        "/service-areas/hanford-ca/voc-formaldehyde-testing/",
+        "/service-areas/hanford-ca/allergen-testing/",
+        "/service-areas/hanford-ca/compliance-consulting/",
+        "/service-areas/hanford-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/clovis-ca/",
+        "/service-areas/dinuba-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Environmental Testing in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Testing in Tulare",
+      "meta_description": "Serving Tulare, CA with independent mold, air quality, asbestos, lead, and water testing. Certified inspectors, accredited labs. Call (559) 296-2088.",
+      "primary_keyword": "environmental testing tulare",
+      "secondary_keywords": [
+        "tulare environmental testing company",
+        "mold testing tulare",
+        "tulare air quality testing"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/tulare-ca/asbestos-testing/",
+        "/service-areas/tulare-ca/clearance-testing/",
+        "/service-areas/tulare-ca/environmental-site-assessments/",
+        "/service-areas/tulare-ca/lead-paint-testing/",
+        "/service-areas/tulare-ca/water-quality-testing/",
+        "/service-areas/tulare-ca/post-flood-mold-assessment/",
+        "/service-areas/tulare-ca/radon-testing/",
+        "/service-areas/tulare-ca/sewage-contamination-assessment/",
+        "/service-areas/tulare-ca/hvac-duct-assessments/",
+        "/service-areas/tulare-ca/remediation-oversight/",
+        "/service-areas/tulare-ca/voc-formaldehyde-testing/",
+        "/service-areas/tulare-ca/allergen-testing/",
+        "/service-areas/tulare-ca/compliance-consulting/",
+        "/service-areas/tulare-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/clovis-ca/",
+        "/service-areas/dinuba-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Environmental Testing in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Testing in Lemoore",
+      "meta_description": "Serving Lemoore, CA with independent mold, air quality, asbestos, lead, and water testing. Certified inspectors, accredited labs. Call (559) 296-2088.",
+      "primary_keyword": "environmental testing lemoore",
+      "secondary_keywords": [
+        "lemoore environmental testing company",
+        "mold testing lemoore",
+        "lemoore air quality testing"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/lemoore-ca/asbestos-testing/",
+        "/service-areas/lemoore-ca/clearance-testing/",
+        "/service-areas/lemoore-ca/environmental-site-assessments/",
+        "/service-areas/lemoore-ca/lead-paint-testing/",
+        "/service-areas/lemoore-ca/water-quality-testing/",
+        "/service-areas/lemoore-ca/post-flood-mold-assessment/",
+        "/service-areas/lemoore-ca/radon-testing/",
+        "/service-areas/lemoore-ca/sewage-contamination-assessment/",
+        "/service-areas/lemoore-ca/hvac-duct-assessments/",
+        "/service-areas/lemoore-ca/remediation-oversight/",
+        "/service-areas/lemoore-ca/voc-formaldehyde-testing/",
+        "/service-areas/lemoore-ca/allergen-testing/",
+        "/service-areas/lemoore-ca/compliance-consulting/",
+        "/service-areas/lemoore-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/clovis-ca/",
+        "/service-areas/dinuba-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Environmental Testing in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Testing in Porterville",
+      "meta_description": "Serving Porterville, CA with independent mold, air quality, asbestos, lead, and water testing. Certified inspectors, accredited labs. Call (559) 296-2088.",
+      "primary_keyword": "environmental testing porterville",
+      "secondary_keywords": [
+        "porterville environmental testing company",
+        "mold testing porterville",
+        "porterville air quality testing"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/porterville-ca/asbestos-testing/",
+        "/service-areas/porterville-ca/clearance-testing/",
+        "/service-areas/porterville-ca/environmental-site-assessments/",
+        "/service-areas/porterville-ca/lead-paint-testing/",
+        "/service-areas/porterville-ca/water-quality-testing/",
+        "/service-areas/porterville-ca/post-flood-mold-assessment/",
+        "/service-areas/porterville-ca/radon-testing/",
+        "/service-areas/porterville-ca/sewage-contamination-assessment/",
+        "/service-areas/porterville-ca/hvac-duct-assessments/",
+        "/service-areas/porterville-ca/remediation-oversight/",
+        "/service-areas/porterville-ca/voc-formaldehyde-testing/",
+        "/service-areas/porterville-ca/allergen-testing/",
+        "/service-areas/porterville-ca/compliance-consulting/",
+        "/service-areas/porterville-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/clovis-ca/",
+        "/service-areas/dinuba-ca/"
       ]
     },
     {
@@ -7833,6 +8101,2822 @@
         "/service-areas/bakersfield-ca/mold-inspection-testing/",
         "/service-areas/clovis-ca/litigation-support-sampling/",
         "/service-areas/dinuba-ca/litigation-support-sampling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Mold Inspection and Testing in Hanford",
+      "meta_description": "Certified mold inspection and testing in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "mold inspection and testing hanford",
+      "secondary_keywords": [
+        "mold inspection near me",
+        "mold testing",
+        "mold spore testing",
+        "air sampling for mold",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/indoor-air-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Testing in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Indoor Air Quality Testing in Hanford",
+      "meta_description": "Certified indoor air quality testing in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "indoor air quality testing hanford",
+      "secondary_keywords": [
+        "indoor air quality testing",
+        "air quality testing near me",
+        "air quality inspection",
+        "home air quality test",
+        "air quality testing cost"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/hanford-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/clovis-ca/indoor-air-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/asbestos-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Testing and Inspection in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Asbestos Testing and Inspection in Hanford",
+      "meta_description": "Certified asbestos testing and inspection in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "asbestos testing and inspection hanford",
+      "secondary_keywords": [
+        "asbestos testing near me",
+        "asbestos inspection",
+        "asbestos test before renovation",
+        "popcorn ceiling asbestos test",
+        "asbestos survey"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-testing/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
+        "/service-areas/clovis-ca/asbestos-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/lead-paint-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Lead Paint Testing and Inspection in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Lead Paint Testing and Inspection in Hanford",
+      "meta_description": "Certified lead paint testing and inspection in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "lead paint testing and inspection hanford",
+      "secondary_keywords": [
+        "lead paint testing",
+        "lead paint inspection",
+        "XRF lead testing",
+        "lead risk assessment",
+        "lead test before renovation"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/lead-paint-testing/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
+        "/service-areas/clovis-ca/lead-paint-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/water-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Quality Testing in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Water Quality Testing in Hanford",
+      "meta_description": "Certified water quality testing in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "water quality testing hanford",
+      "secondary_keywords": [
+        "water quality testing near me",
+        "well water testing",
+        "drinking water testing",
+        "lead in water test",
+        "bacteria water test"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-quality-testing/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
+        "/service-areas/clovis-ca/water-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/clearance-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Clearance Testing and Post-Remediation Verification in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Clearance Testing and Post-Remediation Verification in Hanford",
+      "meta_description": "Certified clearance testing and post-remediation verification in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "clearance testing and post-remediation verification hanford",
+      "secondary_keywords": [
+        "mold clearance testing",
+        "post remediation verification",
+        "clearance air testing",
+        "asbestos clearance testing",
+        "remediation clearance letter"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/clearance-testing/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
+        "/service-areas/clovis-ca/clearance-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/environmental-site-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Site Assessments in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Site Assessments in Hanford",
+      "meta_description": "Certified environmental site assessments in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental site assessments hanford",
+      "secondary_keywords": [
+        "phase 1 environmental site assessment",
+        "phase 2 environmental site assessment",
+        "environmental due diligence",
+        "commercial property environmental assessment",
+        "ESA report"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/environmental-site-assessments/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
+        "/service-areas/clovis-ca/environmental-site-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/radon-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Radon Testing in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Radon Testing in Hanford",
+      "meta_description": "Certified radon testing in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "radon testing hanford",
+      "secondary_keywords": [
+        "radon testing near me",
+        "radon test for home",
+        "radon inspection",
+        "radon levels in house",
+        "continuous radon monitoring"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/radon-testing/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
+        "/service-areas/clovis-ca/radon-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/voc-formaldehyde-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "VOC and Formaldehyde Testing in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "VOC and Formaldehyde Testing in Hanford",
+      "meta_description": "Certified voc and formaldehyde testing in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "voc and formaldehyde testing hanford",
+      "secondary_keywords": [
+        "VOC testing",
+        "formaldehyde testing",
+        "chemical odor testing",
+        "off-gassing test",
+        "new construction air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/voc-formaldehyde-testing/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
+        "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/sewage-contamination-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Contamination Assessment in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Sewage Contamination Assessment in Hanford",
+      "meta_description": "Certified sewage contamination assessment in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "sewage contamination assessment hanford",
+      "secondary_keywords": [
+        "sewage backup testing",
+        "sewage contamination testing",
+        "category 3 water testing",
+        "bacterial contamination testing",
+        "sewage cleanup verification testing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-contamination-assessment/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
+        "/service-areas/clovis-ca/sewage-contamination-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/post-flood-mold-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Flood Mold Assessment in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Post-Flood Mold Assessment in Hanford",
+      "meta_description": "Certified post-flood mold assessment in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "post-flood mold assessment hanford",
+      "secondary_keywords": [
+        "mold testing after flood",
+        "water damage mold inspection",
+        "mold assessment after water damage",
+        "flood damage air testing",
+        "moisture mapping inspection"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-flood-mold-assessment/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
+        "/service-areas/clovis-ca/post-flood-mold-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/allergen-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Allergen Testing in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Allergen Testing in Hanford",
+      "meta_description": "Certified allergen testing in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "allergen testing hanford",
+      "secondary_keywords": [
+        "indoor allergen testing",
+        "dust mite allergen test",
+        "pet dander testing",
+        "allergen screening for home",
+        "dust sample allergen analysis"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/allergen-testing/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
+        "/service-areas/clovis-ca/allergen-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/hvac-duct-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "HVAC and Duct System Assessments in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "HVAC and Duct System Assessments in Hanford",
+      "meta_description": "Certified hvac and duct system assessments in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "hvac and duct system assessments hanford",
+      "secondary_keywords": [
+        "HVAC mold inspection",
+        "air duct inspection",
+        "duct contamination testing",
+        "HVAC air quality assessment",
+        "ductwork mold testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hvac-duct-assessments/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
+        "/service-areas/clovis-ca/hvac-duct-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/remediation-oversight/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Remediation Oversight and Project Management in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Remediation Oversight and Project Management in Hanford",
+      "meta_description": "Certified remediation oversight and project management in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "remediation oversight and project management hanford",
+      "secondary_keywords": [
+        "remediation project management",
+        "mold remediation protocol",
+        "third party remediation oversight",
+        "abatement project monitoring",
+        "remediation scope of work"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/remediation-oversight/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
+        "/service-areas/clovis-ca/remediation-oversight/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/compliance-consulting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Compliance Consulting in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Compliance Consulting in Hanford",
+      "meta_description": "Certified environmental compliance consulting in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental compliance consulting hanford",
+      "secondary_keywords": [
+        "environmental compliance consulting",
+        "AHERA compliance inspection",
+        "OSHA air monitoring",
+        "environmental compliance audit",
+        "workplace exposure assessment"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/compliance-consulting/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
+        "/service-areas/clovis-ca/compliance-consulting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanford-ca/litigation-support-sampling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Litigation Support and Forensic Sampling in Hanford, CA | Arch Enviornmental Group LLC",
+      "h1": "Litigation Support and Forensic Sampling in Hanford",
+      "meta_description": "Certified litigation support and forensic sampling in Hanford, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "litigation support and forensic sampling hanford",
+      "secondary_keywords": [
+        "expert witness environmental testing",
+        "forensic mold investigation",
+        "litigation support sampling",
+        "tenant landlord mold dispute testing",
+        "habitability testing"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/litigation-support-sampling/",
+        "/service-areas/hanford-ca/",
+        "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
+        "/service-areas/clovis-ca/litigation-support-sampling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Mold Inspection and Testing in Tulare",
+      "meta_description": "Certified mold inspection and testing in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "mold inspection and testing tulare",
+      "secondary_keywords": [
+        "mold inspection near me",
+        "mold testing",
+        "mold spore testing",
+        "air sampling for mold",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/indoor-air-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Testing in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Indoor Air Quality Testing in Tulare",
+      "meta_description": "Certified indoor air quality testing in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "indoor air quality testing tulare",
+      "secondary_keywords": [
+        "indoor air quality testing",
+        "air quality testing near me",
+        "air quality inspection",
+        "home air quality test",
+        "air quality testing cost"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/tulare-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/clovis-ca/indoor-air-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/asbestos-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Testing and Inspection in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Asbestos Testing and Inspection in Tulare",
+      "meta_description": "Certified asbestos testing and inspection in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "asbestos testing and inspection tulare",
+      "secondary_keywords": [
+        "asbestos testing near me",
+        "asbestos inspection",
+        "asbestos test before renovation",
+        "popcorn ceiling asbestos test",
+        "asbestos survey"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-testing/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
+        "/service-areas/clovis-ca/asbestos-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/lead-paint-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Lead Paint Testing and Inspection in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Lead Paint Testing and Inspection in Tulare",
+      "meta_description": "Certified lead paint testing and inspection in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "lead paint testing and inspection tulare",
+      "secondary_keywords": [
+        "lead paint testing",
+        "lead paint inspection",
+        "XRF lead testing",
+        "lead risk assessment",
+        "lead test before renovation"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/lead-paint-testing/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
+        "/service-areas/clovis-ca/lead-paint-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/water-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Quality Testing in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Water Quality Testing in Tulare",
+      "meta_description": "Certified water quality testing in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "water quality testing tulare",
+      "secondary_keywords": [
+        "water quality testing near me",
+        "well water testing",
+        "drinking water testing",
+        "lead in water test",
+        "bacteria water test"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-quality-testing/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
+        "/service-areas/clovis-ca/water-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/clearance-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Clearance Testing and Post-Remediation Verification in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Clearance Testing and Post-Remediation Verification in Tulare",
+      "meta_description": "Certified clearance testing and post-remediation verification in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "clearance testing and post-remediation verification tulare",
+      "secondary_keywords": [
+        "mold clearance testing",
+        "post remediation verification",
+        "clearance air testing",
+        "asbestos clearance testing",
+        "remediation clearance letter"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/clearance-testing/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
+        "/service-areas/clovis-ca/clearance-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/environmental-site-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Site Assessments in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Site Assessments in Tulare",
+      "meta_description": "Certified environmental site assessments in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental site assessments tulare",
+      "secondary_keywords": [
+        "phase 1 environmental site assessment",
+        "phase 2 environmental site assessment",
+        "environmental due diligence",
+        "commercial property environmental assessment",
+        "ESA report"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/environmental-site-assessments/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
+        "/service-areas/clovis-ca/environmental-site-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/radon-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Radon Testing in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Radon Testing in Tulare",
+      "meta_description": "Certified radon testing in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "radon testing tulare",
+      "secondary_keywords": [
+        "radon testing near me",
+        "radon test for home",
+        "radon inspection",
+        "radon levels in house",
+        "continuous radon monitoring"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/radon-testing/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
+        "/service-areas/clovis-ca/radon-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/voc-formaldehyde-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "VOC and Formaldehyde Testing in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "VOC and Formaldehyde Testing in Tulare",
+      "meta_description": "Certified voc and formaldehyde testing in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "voc and formaldehyde testing tulare",
+      "secondary_keywords": [
+        "VOC testing",
+        "formaldehyde testing",
+        "chemical odor testing",
+        "off-gassing test",
+        "new construction air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/voc-formaldehyde-testing/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
+        "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/sewage-contamination-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Contamination Assessment in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Sewage Contamination Assessment in Tulare",
+      "meta_description": "Certified sewage contamination assessment in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "sewage contamination assessment tulare",
+      "secondary_keywords": [
+        "sewage backup testing",
+        "sewage contamination testing",
+        "category 3 water testing",
+        "bacterial contamination testing",
+        "sewage cleanup verification testing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-contamination-assessment/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
+        "/service-areas/clovis-ca/sewage-contamination-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/post-flood-mold-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Flood Mold Assessment in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Post-Flood Mold Assessment in Tulare",
+      "meta_description": "Certified post-flood mold assessment in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "post-flood mold assessment tulare",
+      "secondary_keywords": [
+        "mold testing after flood",
+        "water damage mold inspection",
+        "mold assessment after water damage",
+        "flood damage air testing",
+        "moisture mapping inspection"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-flood-mold-assessment/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
+        "/service-areas/clovis-ca/post-flood-mold-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/allergen-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Allergen Testing in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Allergen Testing in Tulare",
+      "meta_description": "Certified allergen testing in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "allergen testing tulare",
+      "secondary_keywords": [
+        "indoor allergen testing",
+        "dust mite allergen test",
+        "pet dander testing",
+        "allergen screening for home",
+        "dust sample allergen analysis"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/allergen-testing/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
+        "/service-areas/clovis-ca/allergen-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/hvac-duct-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "HVAC and Duct System Assessments in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "HVAC and Duct System Assessments in Tulare",
+      "meta_description": "Certified hvac and duct system assessments in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "hvac and duct system assessments tulare",
+      "secondary_keywords": [
+        "HVAC mold inspection",
+        "air duct inspection",
+        "duct contamination testing",
+        "HVAC air quality assessment",
+        "ductwork mold testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hvac-duct-assessments/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
+        "/service-areas/clovis-ca/hvac-duct-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/remediation-oversight/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Remediation Oversight and Project Management in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Remediation Oversight and Project Management in Tulare",
+      "meta_description": "Certified remediation oversight and project management in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "remediation oversight and project management tulare",
+      "secondary_keywords": [
+        "remediation project management",
+        "mold remediation protocol",
+        "third party remediation oversight",
+        "abatement project monitoring",
+        "remediation scope of work"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/remediation-oversight/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
+        "/service-areas/clovis-ca/remediation-oversight/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/compliance-consulting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Compliance Consulting in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Compliance Consulting in Tulare",
+      "meta_description": "Certified environmental compliance consulting in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental compliance consulting tulare",
+      "secondary_keywords": [
+        "environmental compliance consulting",
+        "AHERA compliance inspection",
+        "OSHA air monitoring",
+        "environmental compliance audit",
+        "workplace exposure assessment"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/compliance-consulting/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
+        "/service-areas/clovis-ca/compliance-consulting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tulare-ca/litigation-support-sampling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Litigation Support and Forensic Sampling in Tulare, CA | Arch Enviornmental Group LLC",
+      "h1": "Litigation Support and Forensic Sampling in Tulare",
+      "meta_description": "Certified litigation support and forensic sampling in Tulare, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "litigation support and forensic sampling tulare",
+      "secondary_keywords": [
+        "expert witness environmental testing",
+        "forensic mold investigation",
+        "litigation support sampling",
+        "tenant landlord mold dispute testing",
+        "habitability testing"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/litigation-support-sampling/",
+        "/service-areas/tulare-ca/",
+        "/service-areas/tulare-ca/indoor-air-quality-testing/",
+        "/service-areas/tulare-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
+        "/service-areas/clovis-ca/litigation-support-sampling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Mold Inspection and Testing in Lemoore",
+      "meta_description": "Certified mold inspection and testing in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "mold inspection and testing lemoore",
+      "secondary_keywords": [
+        "mold inspection near me",
+        "mold testing",
+        "mold spore testing",
+        "air sampling for mold",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Testing in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Indoor Air Quality Testing in Lemoore",
+      "meta_description": "Certified indoor air quality testing in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "indoor air quality testing lemoore",
+      "secondary_keywords": [
+        "indoor air quality testing",
+        "air quality testing near me",
+        "air quality inspection",
+        "home air quality test",
+        "air quality testing cost"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/lemoore-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/clovis-ca/indoor-air-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/asbestos-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Testing and Inspection in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Asbestos Testing and Inspection in Lemoore",
+      "meta_description": "Certified asbestos testing and inspection in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "asbestos testing and inspection lemoore",
+      "secondary_keywords": [
+        "asbestos testing near me",
+        "asbestos inspection",
+        "asbestos test before renovation",
+        "popcorn ceiling asbestos test",
+        "asbestos survey"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-testing/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
+        "/service-areas/clovis-ca/asbestos-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/lead-paint-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Lead Paint Testing and Inspection in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Lead Paint Testing and Inspection in Lemoore",
+      "meta_description": "Certified lead paint testing and inspection in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "lead paint testing and inspection lemoore",
+      "secondary_keywords": [
+        "lead paint testing",
+        "lead paint inspection",
+        "XRF lead testing",
+        "lead risk assessment",
+        "lead test before renovation"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/lead-paint-testing/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
+        "/service-areas/clovis-ca/lead-paint-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/water-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Quality Testing in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Water Quality Testing in Lemoore",
+      "meta_description": "Certified water quality testing in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "water quality testing lemoore",
+      "secondary_keywords": [
+        "water quality testing near me",
+        "well water testing",
+        "drinking water testing",
+        "lead in water test",
+        "bacteria water test"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-quality-testing/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
+        "/service-areas/clovis-ca/water-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/clearance-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Clearance Testing and Post-Remediation Verification in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Clearance Testing and Post-Remediation Verification in Lemoore",
+      "meta_description": "Certified clearance testing and post-remediation verification in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "clearance testing and post-remediation verification lemoore",
+      "secondary_keywords": [
+        "mold clearance testing",
+        "post remediation verification",
+        "clearance air testing",
+        "asbestos clearance testing",
+        "remediation clearance letter"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/clearance-testing/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
+        "/service-areas/clovis-ca/clearance-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/environmental-site-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Site Assessments in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Site Assessments in Lemoore",
+      "meta_description": "Certified environmental site assessments in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental site assessments lemoore",
+      "secondary_keywords": [
+        "phase 1 environmental site assessment",
+        "phase 2 environmental site assessment",
+        "environmental due diligence",
+        "commercial property environmental assessment",
+        "ESA report"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/environmental-site-assessments/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
+        "/service-areas/clovis-ca/environmental-site-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/radon-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Radon Testing in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Radon Testing in Lemoore",
+      "meta_description": "Certified radon testing in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "radon testing lemoore",
+      "secondary_keywords": [
+        "radon testing near me",
+        "radon test for home",
+        "radon inspection",
+        "radon levels in house",
+        "continuous radon monitoring"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/radon-testing/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
+        "/service-areas/clovis-ca/radon-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/voc-formaldehyde-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "VOC and Formaldehyde Testing in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "VOC and Formaldehyde Testing in Lemoore",
+      "meta_description": "Certified voc and formaldehyde testing in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "voc and formaldehyde testing lemoore",
+      "secondary_keywords": [
+        "VOC testing",
+        "formaldehyde testing",
+        "chemical odor testing",
+        "off-gassing test",
+        "new construction air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/voc-formaldehyde-testing/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
+        "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/sewage-contamination-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Contamination Assessment in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Sewage Contamination Assessment in Lemoore",
+      "meta_description": "Certified sewage contamination assessment in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "sewage contamination assessment lemoore",
+      "secondary_keywords": [
+        "sewage backup testing",
+        "sewage contamination testing",
+        "category 3 water testing",
+        "bacterial contamination testing",
+        "sewage cleanup verification testing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-contamination-assessment/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
+        "/service-areas/clovis-ca/sewage-contamination-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/post-flood-mold-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Flood Mold Assessment in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Post-Flood Mold Assessment in Lemoore",
+      "meta_description": "Certified post-flood mold assessment in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "post-flood mold assessment lemoore",
+      "secondary_keywords": [
+        "mold testing after flood",
+        "water damage mold inspection",
+        "mold assessment after water damage",
+        "flood damage air testing",
+        "moisture mapping inspection"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-flood-mold-assessment/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
+        "/service-areas/clovis-ca/post-flood-mold-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/allergen-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Allergen Testing in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Allergen Testing in Lemoore",
+      "meta_description": "Certified allergen testing in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "allergen testing lemoore",
+      "secondary_keywords": [
+        "indoor allergen testing",
+        "dust mite allergen test",
+        "pet dander testing",
+        "allergen screening for home",
+        "dust sample allergen analysis"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/allergen-testing/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
+        "/service-areas/clovis-ca/allergen-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/hvac-duct-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "HVAC and Duct System Assessments in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "HVAC and Duct System Assessments in Lemoore",
+      "meta_description": "Certified hvac and duct system assessments in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "hvac and duct system assessments lemoore",
+      "secondary_keywords": [
+        "HVAC mold inspection",
+        "air duct inspection",
+        "duct contamination testing",
+        "HVAC air quality assessment",
+        "ductwork mold testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hvac-duct-assessments/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
+        "/service-areas/clovis-ca/hvac-duct-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/remediation-oversight/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Remediation Oversight and Project Management in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Remediation Oversight and Project Management in Lemoore",
+      "meta_description": "Certified remediation oversight and project management in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "remediation oversight and project management lemoore",
+      "secondary_keywords": [
+        "remediation project management",
+        "mold remediation protocol",
+        "third party remediation oversight",
+        "abatement project monitoring",
+        "remediation scope of work"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/remediation-oversight/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
+        "/service-areas/clovis-ca/remediation-oversight/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/compliance-consulting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Compliance Consulting in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Compliance Consulting in Lemoore",
+      "meta_description": "Certified environmental compliance consulting in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental compliance consulting lemoore",
+      "secondary_keywords": [
+        "environmental compliance consulting",
+        "AHERA compliance inspection",
+        "OSHA air monitoring",
+        "environmental compliance audit",
+        "workplace exposure assessment"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/compliance-consulting/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
+        "/service-areas/clovis-ca/compliance-consulting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lemoore-ca/litigation-support-sampling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Litigation Support and Forensic Sampling in Lemoore, CA | Arch Enviornmental Group LLC",
+      "h1": "Litigation Support and Forensic Sampling in Lemoore",
+      "meta_description": "Certified litigation support and forensic sampling in Lemoore, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "litigation support and forensic sampling lemoore",
+      "secondary_keywords": [
+        "expert witness environmental testing",
+        "forensic mold investigation",
+        "litigation support sampling",
+        "tenant landlord mold dispute testing",
+        "habitability testing"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/litigation-support-sampling/",
+        "/service-areas/lemoore-ca/",
+        "/service-areas/lemoore-ca/indoor-air-quality-testing/",
+        "/service-areas/lemoore-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
+        "/service-areas/clovis-ca/litigation-support-sampling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Mold Inspection and Testing in Porterville",
+      "meta_description": "Certified mold inspection and testing in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "mold inspection and testing porterville",
+      "secondary_keywords": [
+        "mold inspection near me",
+        "mold testing",
+        "mold spore testing",
+        "air sampling for mold",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/clovis-ca/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/indoor-air-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Testing in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Indoor Air Quality Testing in Porterville",
+      "meta_description": "Certified indoor air quality testing in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "indoor air quality testing porterville",
+      "secondary_keywords": [
+        "indoor air quality testing",
+        "air quality testing near me",
+        "air quality inspection",
+        "home air quality test",
+        "air quality testing cost"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/porterville-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/clovis-ca/indoor-air-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/asbestos-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Testing and Inspection in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Asbestos Testing and Inspection in Porterville",
+      "meta_description": "Certified asbestos testing and inspection in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "asbestos testing and inspection porterville",
+      "secondary_keywords": [
+        "asbestos testing near me",
+        "asbestos inspection",
+        "asbestos test before renovation",
+        "popcorn ceiling asbestos test",
+        "asbestos survey"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-testing/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
+        "/service-areas/clovis-ca/asbestos-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/lead-paint-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Lead Paint Testing and Inspection in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Lead Paint Testing and Inspection in Porterville",
+      "meta_description": "Certified lead paint testing and inspection in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "lead paint testing and inspection porterville",
+      "secondary_keywords": [
+        "lead paint testing",
+        "lead paint inspection",
+        "XRF lead testing",
+        "lead risk assessment",
+        "lead test before renovation"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/lead-paint-testing/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
+        "/service-areas/clovis-ca/lead-paint-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/water-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Quality Testing in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Water Quality Testing in Porterville",
+      "meta_description": "Certified water quality testing in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "water quality testing porterville",
+      "secondary_keywords": [
+        "water quality testing near me",
+        "well water testing",
+        "drinking water testing",
+        "lead in water test",
+        "bacteria water test"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-quality-testing/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
+        "/service-areas/clovis-ca/water-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/clearance-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Clearance Testing and Post-Remediation Verification in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Clearance Testing and Post-Remediation Verification in Porterville",
+      "meta_description": "Certified clearance testing and post-remediation verification in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "clearance testing and post-remediation verification porterville",
+      "secondary_keywords": [
+        "mold clearance testing",
+        "post remediation verification",
+        "clearance air testing",
+        "asbestos clearance testing",
+        "remediation clearance letter"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/clearance-testing/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
+        "/service-areas/clovis-ca/clearance-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/environmental-site-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Site Assessments in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Site Assessments in Porterville",
+      "meta_description": "Certified environmental site assessments in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental site assessments porterville",
+      "secondary_keywords": [
+        "phase 1 environmental site assessment",
+        "phase 2 environmental site assessment",
+        "environmental due diligence",
+        "commercial property environmental assessment",
+        "ESA report"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/environmental-site-assessments/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
+        "/service-areas/clovis-ca/environmental-site-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/radon-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Radon Testing in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Radon Testing in Porterville",
+      "meta_description": "Certified radon testing in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "radon testing porterville",
+      "secondary_keywords": [
+        "radon testing near me",
+        "radon test for home",
+        "radon inspection",
+        "radon levels in house",
+        "continuous radon monitoring"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/radon-testing/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
+        "/service-areas/clovis-ca/radon-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/voc-formaldehyde-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "VOC and Formaldehyde Testing in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "VOC and Formaldehyde Testing in Porterville",
+      "meta_description": "Certified voc and formaldehyde testing in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "voc and formaldehyde testing porterville",
+      "secondary_keywords": [
+        "VOC testing",
+        "formaldehyde testing",
+        "chemical odor testing",
+        "off-gassing test",
+        "new construction air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/voc-formaldehyde-testing/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
+        "/service-areas/clovis-ca/voc-formaldehyde-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/sewage-contamination-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Contamination Assessment in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Sewage Contamination Assessment in Porterville",
+      "meta_description": "Certified sewage contamination assessment in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "sewage contamination assessment porterville",
+      "secondary_keywords": [
+        "sewage backup testing",
+        "sewage contamination testing",
+        "category 3 water testing",
+        "bacterial contamination testing",
+        "sewage cleanup verification testing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-contamination-assessment/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
+        "/service-areas/clovis-ca/sewage-contamination-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/post-flood-mold-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Flood Mold Assessment in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Post-Flood Mold Assessment in Porterville",
+      "meta_description": "Certified post-flood mold assessment in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "post-flood mold assessment porterville",
+      "secondary_keywords": [
+        "mold testing after flood",
+        "water damage mold inspection",
+        "mold assessment after water damage",
+        "flood damage air testing",
+        "moisture mapping inspection"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-flood-mold-assessment/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
+        "/service-areas/clovis-ca/post-flood-mold-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/allergen-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Allergen Testing in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Allergen Testing in Porterville",
+      "meta_description": "Certified allergen testing in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "allergen testing porterville",
+      "secondary_keywords": [
+        "indoor allergen testing",
+        "dust mite allergen test",
+        "pet dander testing",
+        "allergen screening for home",
+        "dust sample allergen analysis"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/allergen-testing/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
+        "/service-areas/clovis-ca/allergen-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/hvac-duct-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "HVAC and Duct System Assessments in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "HVAC and Duct System Assessments in Porterville",
+      "meta_description": "Certified hvac and duct system assessments in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "hvac and duct system assessments porterville",
+      "secondary_keywords": [
+        "HVAC mold inspection",
+        "air duct inspection",
+        "duct contamination testing",
+        "HVAC air quality assessment",
+        "ductwork mold testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hvac-duct-assessments/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
+        "/service-areas/clovis-ca/hvac-duct-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/remediation-oversight/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Remediation Oversight and Project Management in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Remediation Oversight and Project Management in Porterville",
+      "meta_description": "Certified remediation oversight and project management in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "remediation oversight and project management porterville",
+      "secondary_keywords": [
+        "remediation project management",
+        "mold remediation protocol",
+        "third party remediation oversight",
+        "abatement project monitoring",
+        "remediation scope of work"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/remediation-oversight/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
+        "/service-areas/clovis-ca/remediation-oversight/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/compliance-consulting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Compliance Consulting in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Compliance Consulting in Porterville",
+      "meta_description": "Certified environmental compliance consulting in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental compliance consulting porterville",
+      "secondary_keywords": [
+        "environmental compliance consulting",
+        "AHERA compliance inspection",
+        "OSHA air monitoring",
+        "environmental compliance audit",
+        "workplace exposure assessment"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/compliance-consulting/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
+        "/service-areas/clovis-ca/compliance-consulting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/porterville-ca/litigation-support-sampling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Litigation Support and Forensic Sampling in Porterville, CA | Arch Enviornmental Group LLC",
+      "h1": "Litigation Support and Forensic Sampling in Porterville",
+      "meta_description": "Certified litigation support and forensic sampling in Porterville, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "litigation support and forensic sampling porterville",
+      "secondary_keywords": [
+        "expert witness environmental testing",
+        "forensic mold investigation",
+        "litigation support sampling",
+        "tenant landlord mold dispute testing",
+        "habitability testing"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/litigation-support-sampling/",
+        "/service-areas/porterville-ca/",
+        "/service-areas/porterville-ca/indoor-air-quality-testing/",
+        "/service-areas/porterville-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
+        "/service-areas/clovis-ca/litigation-support-sampling/",
         "/contact/"
       ]
     },

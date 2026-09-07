@@ -93,6 +93,26 @@
       "city": "Bakersfield",
       "state": "CA",
       "slug": "bakersfield-ca"
+    },
+    {
+      "city": "Hanford",
+      "state": "CA",
+      "slug": "hanford-ca"
+    },
+    {
+      "city": "Tulare",
+      "state": "CA",
+      "slug": "tulare-ca"
+    },
+    {
+      "city": "Lemoore",
+      "state": "CA",
+      "slug": "lemoore-ca"
+    },
+    {
+      "city": "Porterville",
+      "state": "CA",
+      "slug": "porterville-ca"
     }
   ],
   "template": "environmental",
