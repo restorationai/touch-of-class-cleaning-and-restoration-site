@@ -49,6 +49,12 @@ TARGETS = [
      "config/gmail_token.json"),
     (Path.home() / ".config" / "rankai" / "gmail_token_getrestorationai.json",
      "config/gmail_token_getrestorationai.json"),
+    # Browser-agent portal credentials (2026-09-06: surfaced as missing on
+    # the Mac Mini — anything a fresh machine needs belongs in this list).
+    (Path.home() / ".rankai" / "portal-creds.json",
+     "rankai/portal-creds.json"),
+    (Path.home() / ".rankai" / "domain-creds.key",
+     "rankai/domain-creds.key"),
 ]
 
 
