@@ -54,21 +54,17 @@ CATEGORY_TARGETS: dict[str, list[tuple[str, str, str, str]]] = {
         ("chamber", "Local Chamber of Commerce", "local",
          "Paid membership the owner signs off on; the best NAP + backlink "
          "combo available locally."),
-        ("dri-eaz", "Dri-Eaz / Legend Brands", "vendor",
-         "Featured-user / case-study page — offer a testimonial with photos "
-         "in exchange for the link."),
-        ("phoenix", "Phoenix (Therma-Stor)", "vendor",
-         "Drying equipment they may run — featured-user page."),
-        ("xpower", "XPOWER", "vendor",
-         "Air movers — testimonial-for-link."),
-        ("b-air", "B-Air", "vendor",
-         "Air movers / dehumidifiers — testimonial-for-link."),
-        ("injectidry", "Injectidry", "vendor",
-         "Specialty drying systems — featured-user page."),
-        ("aramsco", "Aramsco", "supplier", "Customer spotlight."),
-        ("jon-don", "Jon-Don", "supplier", "Customer spotlight."),
         ("contractor-connection", "Contractor Connection", "tpa",
          "TPA network profile — applies when they're enrolled."),
+        # Trimmed 2026-09-06 (Santino): the vendor/supplier testimonial
+        # targets (Dri-Eaz, Phoenix, XPOWER, B-Air, Injectidry, Aramsco,
+        # Jon-Don) never converted — replaced with the industry press pair.
+        ("rr-magazine", "R&R Magazine", "press",
+         "Restoration & Remediation (restorationandremediation.com) — "
+         "contributed article or company feature earns the link."),
+        ("cr-magazine", "C&R Magazine", "press",
+         "Cleaning & Restoration, RIA's magazine (candrmagazine.com) — "
+         "member article contribution."),
     ],
 }
 
