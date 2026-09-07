@@ -1,6 +1,71 @@
 {
   "items": [
     {
+      "id": "2026-09-07-storm-wind-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-07T10:24:01Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-wind-damage-restoration",
+      "primary_keyword": "Storm & Wind Damage Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "puyallup-wa",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-07-board-up-tarping-services",
+      "status": "queued",
+      "queued_at": "2026-09-07T10:24:01Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "board-up-tarping-services",
+      "primary_keyword": "Board-Up & Tarping Services",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "parkland-wa",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-07-asbestos-lead-abatement",
+      "status": "queued",
+      "queued_at": "2026-09-07T10:24:01Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "asbestos-lead-abatement",
+      "primary_keyword": "Asbestos & Lead Abatement",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "olympia-wa",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-07-sewage-cleanup-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-07T10:24:01Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "sewage-cleanup-remediation",
+      "primary_keyword": "Sewage Cleanup & Remediation",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "lacey-wa",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-07-fire-smoke-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-07T10:24:01Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-smoke-restoration",
+      "primary_keyword": "Fire & Smoke Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "dupont-wa",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
       "id": "2026-09-06-best-water-damage-restoration-in-lakewood-wa",
       "status": "written",
       "queued_at": "2026-09-06T13:44:42Z",
