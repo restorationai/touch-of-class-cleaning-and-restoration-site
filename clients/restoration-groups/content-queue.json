@@ -242,7 +242,7 @@
     },
     {
       "id": "2026-07-27-condo-insurance-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-27T18:39:36Z",
       "written_at": "2026-09-07T20:34:28Z",
       "post_url": "https://therestorationgroup.com/blog/condo-insurance-water-damage/",
@@ -274,7 +274,8 @@
       "external_authority_candidates": [
         "https://nj.gov/dobi/division_consumers/insurance/homeowner.htm"
       ],
-      "notes": "1,000/mo decision-stage insurance query with no blog coverage. Distinct from the existing homeowners-insurance post: this one is the HO-6 vs master-policy responsibility split. High relevance to the Hoboken, Jersey City, Fort Lee and Brooklyn high-rise segment of the service area. Do not give legal or coverage advice, describe how the policies usually divide and tell them to read their master deed."
+      "notes": "1,000/mo decision-stage insurance query with no blog coverage. Distinct from the existing homeowners-insurance post: this one is the HO-6 vs master-policy responsibility split. High relevance to the Hoboken, Jersey City, Fort Lee and Brooklyn high-rise segment of the service area. Do not give legal or coverage advice, describe how the policies usually divide and tell them to read their master deed.",
+      "published_verified_at": "2026-09-07T20:34:42Z"
     },
     {
       "id": "2026-07-27-water-damage-restoration-cost",

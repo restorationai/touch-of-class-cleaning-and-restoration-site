@@ -15,7 +15,7 @@
     },
     {
       "id": "2026-08-28-fire-damage-restoration-cost-nv",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-28T01:05:33Z",
       "priority": 1,
       "prioritized": true,
@@ -107,7 +107,8 @@
           "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company serving Las Vegas, NV and the s",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-07T20:24:19Z"
     },
     {
       "id": "2026-08-07-best-mold-remediation-in-las-vegas-nv",

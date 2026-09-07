@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+plumber for burst pipe,transactional,14800,0,3.33,2,burst pipe repair,,,no
+burst pipe repair,transactional,1300,5,18.5,2,burst pipe repair,,,no
+burst pipe repair near me,transactional,720,0,18.42,2,burst pipe repair,,,no
+burst water pipe outside house,transactional,320,0,6.41,2,burst pipe repair,,,no
+burst pipe water damage,transactional,170,8,27.39,2,burst pipe repair,,,no
+emergency pipe burst,transactional,50,0,35.0,2,burst pipe repair,,,no
+who to call for burst water pipe,transactional,20,4,41.41,2,burst pipe repair,,,no
+frozen pipe burst repair,transactional,20,,,2,burst pipe repair,,,no
+pipe burst repair cost,commercial,480,0,22.25,2,burst pipe repair,,,no
+cost to repair leaking pipe in wall,commercial,110,2,27.36,2,burst pipe repair,,,no
+busted water pipe repair cost,commercial,50,1,14.78,2,burst pipe repair,,,no
+pipe burst in house cost,commercial,40,0,,2,burst pipe repair,,,no
+burst water pipe outside house cost,commercial,20,,2.63,2,burst pipe repair,,,no
+pipe burst from freezing cost,commercial,20,,,2,burst pipe repair,,,no
+water pipe burst inside house,informational,590,1,36.76,2,burst pipe repair,,,no
+does homeowners insurance cover broken pipes under foundation,informational,260,13,11.29,2,burst pipe repair,,,no
+pipe burst in wall,informational,210,0,169.09,2,burst pipe repair,,,no
+how to prevent frozen pipes from bursting,informational,210,0,,2,burst pipe repair,,,no
+burst pipe insurance claim tips,informational,170,4,,2,burst pipe repair,,,no
+how to tell if a pipe burst underground,informational,170,0,2.3,2,burst pipe repair,,,no
+broken water pipe under house,informational,140,5,33.39,2,burst pipe repair,,,no
+water pipe burst in house what to do,informational,110,2,18.25,2,burst pipe repair,,,no
+how to tell if a pipe burst in the wall,informational,90,0,7.51,2,burst pipe repair,,,no
+does homeowners insurance cover broken pipes under slab,informational,90,3,16.83,2,burst pipe repair,,,no
+how do you know if your pipes burst from freezing,informational,70,0,,2,burst pipe repair,,,no
+what causes a pipe to burst in summer,informational,70,0,,2,burst pipe repair,,,no
+how to fix a broken water pipe underground,informational,70,0,,2,burst pipe repair,,,no
+what happens when a pipe bursts under your house,informational,50,10,,2,burst pipe repair,,,no
+how to fix a burst water pipe,informational,50,0,0.03,2,burst pipe repair,,,no
+how to fix burst water pipe outside house,informational,40,0,,2,burst pipe repair,,,no
+water pipe burst underground,informational,40,0,,2,burst pipe repair,,,no
+signs of burst pipe under house,informational,40,0,,2,burst pipe repair,,,no
+how to fix a broken water pipe outside,informational,40,0,0.13,2,burst pipe repair,,,no
+signs of a burst pipe outside,informational,30,0,,2,burst pipe repair,,,no
+leaking pipe in wall homeowners insurance,informational,30,24,,2,burst pipe repair,,,no
+does homeowners insurance cover burst pipes in yard,informational,10,,,2,burst pipe repair,,,no
+burst pipe repair time,informational,10,,,2,burst pipe repair,,,no
+how to fix a burst pipe in the wall,informational,10,63,102.67,2,burst pipe repair,,,no
+burst pipe water damage symptoms,informational,,,,2,burst pipe repair,,,no
+water pipe burst inside house symptoms,informational,,,,2,burst pipe repair,,,no

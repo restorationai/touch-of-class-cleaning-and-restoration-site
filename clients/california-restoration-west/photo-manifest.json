@@ -3383,6 +3383,228 @@
       "reason": "Photo of a screen showing a CMS permissions error; completely irrelevant.",
       "triaged_at": "2026-08-27T23:44:04Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "web:26ad93ff1eb2ab74": {
+      "source": "website",
+      "storage": "site-assets/web/web-26ad93ff1eb2ab74.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/site-assets/web/web-26ad93ff1eb2ab74.jpg",
+      "origin_url": "https://californiarestorationwest.com/images/services/contents-restoration.webp",
+      "found_on": "https://californiarestorationwest.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 119412,
+      "sha1": "26ad93ff1eb2ab74",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician packing contents into boxes beside branded van",
+      "quality": 82,
+      "slots": {
+        "hero": 55,
+        "team": 60,
+        "services": 78
+      },
+      "service_slugs": [
+        "contents-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Strong contents-restoration scene; back-to-camera limits team slot appeal.",
+      "triaged_at": "2026-09-07T19:36:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:27791d2e5d4e4d62": {
+      "source": "website",
+      "storage": "site-assets/web/web-27791d2e5d4e4d62.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/site-assets/web/web-27791d2e5d4e4d62.jpg",
+      "origin_url": "https://californiarestorationwest.com/images/services/water-damage-restoration.webp",
+      "found_on": "https://californiarestorationwest.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 118276,
+      "sha1": "27791d2e5d4e4d62",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician using moisture meter on water-damaged wall with equipment",
+      "quality": 88,
+      "slots": {
+        "hero": 45,
+        "team": 65,
+        "services": 92
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Excellent services shot; dehumidifier and air movers with branded equipment visible.",
+      "triaged_at": "2026-09-07T19:36:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:5c4f812e11d379cc": {
+      "source": "website",
+      "storage": "site-assets/web/web-5c4f812e11d379cc.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/site-assets/web/web-5c4f812e11d379cc.jpg",
+      "origin_url": "https://californiarestorationwest.com/images/hero-bg.webp",
+      "found_on": "https://californiarestorationwest.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 179228,
+      "sha1": "5c4f812e11d379cc",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Three branded California Restoration West vans parked on suburban street",
+      "quality": 91,
+      "slots": {
+        "hero": 92,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Outstanding hero image; golden hour, palm-lined street, three clean vans in formation.",
+      "triaged_at": "2026-09-07T19:36:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:615a17567c50f6c8": {
+      "source": "website",
+      "storage": "site-assets/web/web-615a17567c50f6c8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/site-assets/web/web-615a17567c50f6c8.jpg",
+      "origin_url": "https://californiarestorationwest.com/images/team.webp",
+      "found_on": "https://californiarestorationwest.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 199142,
+      "sha1": "615a17567c50f6c8",
+      "exif": {},
+      "category": "crew",
+      "subject": "Four uniformed crew members posed in front of two branded vans",
+      "quality": 89,
+      "slots": {
+        "hero": 72,
+        "team": 95,
+        "services": 25
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Best team shot; full crew in matching uniforms with fleet, golden hour backdrop.",
+      "triaged_at": "2026-09-07T19:36:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:8d14e384cde8f569": {
+      "source": "website",
+      "storage": "site-assets/web/web-8d14e384cde8f569.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/site-assets/web/web-8d14e384cde8f569.jpg",
+      "origin_url": "https://californiarestorationwest.com/images/services/water-cleanup.webp",
+      "found_on": "https://californiarestorationwest.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 124668,
+      "sha1": "8d14e384cde8f569",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician extracting water from flooded garage floor with equipment",
+      "quality": 87,
+      "slots": {
+        "hero": 50,
+        "team": 55,
+        "services": 93
+      },
+      "service_slugs": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Top services image; wet floor, air movers, branded extractor, dramatic backlight.",
+      "triaged_at": "2026-09-07T19:36:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:992ac28613f104f9": {
+      "source": "website",
+      "storage": "site-assets/web/web-992ac28613f104f9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/site-assets/web/web-992ac28613f104f9.jpg",
+      "origin_url": "https://californiarestorationwest.com/images/services/storm-damage-restoration.webp",
+      "found_on": "https://californiarestorationwest.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 218586,
+      "sha1": "992ac28613f104f9",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crew tarping storm-damaged roof with fallen tree debris and vans",
+      "quality": 84,
+      "slots": {
+        "hero": 62,
+        "team": 45,
+        "services": 85
+      },
+      "service_slugs": [
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Strong storm-damage scene; two branded vans, visible damage, and active roof work.",
+      "triaged_at": "2026-09-07T19:36:42Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:d6a60d71c0b4603f": {
+      "source": "website",
+      "storage": "site-assets/web/web-d6a60d71c0b4603f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/site-assets/web/web-d6a60d71c0b4603f.jpg",
+      "origin_url": "https://californiarestorationwest.com/images/services/crawl-space-encapsulation.webp",
+      "found_on": "https://californiarestorationwest.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 77728,
+      "sha1": "d6a60d71c0b4603f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician rolling vapor barrier sheet in crawl space",
+      "quality": 78,
+      "slots": {
+        "hero": 55,
+        "team": 62,
+        "services": 85
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Authentic dramatic crawl-space shot; strong services card, limited hero width.",
+      "triaged_at": "2026-09-07T19:36:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:dab39d30c4d71546": {
+      "source": "website",
+      "storage": "site-assets/web/web-dab39d30c4d71546.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/site-assets/web/web-dab39d30c4d71546.jpg",
+      "origin_url": "https://californiarestorationwest.com/images/services/mold-remediation.webp",
+      "found_on": "https://californiarestorationwest.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 101348,
+      "sha1": "dab39d30c4d71546",
+      "exif": {},
+      "category": "crew",
+      "subject": "Suited technician vacuuming black mold from wall in containment",
+      "quality": 85,
+      "slots": {
+        "hero": 60,
+        "team": 68,
+        "services": 92
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear PPE, branded vacuum, visible mold; excellent services card image.",
+      "triaged_at": "2026-09-07T19:36:52Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {
@@ -3396,5 +3618,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-08-27T23:44:04Z"
+  "triaged_at": "2026-09-07T19:36:52Z"
 }

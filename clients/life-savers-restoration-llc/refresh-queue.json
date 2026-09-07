@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "slug": "life-savers-restoration-llc",
+  "site": "lifesaversrestorationvegas.com",
+  "origin": "https://lifesaversrestorationvegas.com",
+  "generated_at": "2026-09-07T20:09:40Z",
+  "gsc_enabled": false,
+  "totals": {
+    "total_actions": 0,
+    "by_action": {
+      "refresh": 0,
+      "audit_then_decide": 0,
+      "request_indexing": 0,
+      "fix_canonical": 0
+    },
+    "by_priority": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    }
+  },
+  "items": [],
+  "notes": [
+    "URLs skipped because already in content-queue: none (all 11 active content-queue items are unpublished keyword targets with no live URL, so there is no overlap with the crawled URL set)",
+    "URLs where date extraction failed: none (94/94 URLs resolved a date; 0 HTML fetch failures)",
+    "v1 limitations: no GSC indexing flags (not_indexed / index_warning) and no demand signals (striking_queries / low_ctr); request_indexing, fix_canonical and title-meta-rewrite are unreachable this run",
+    "No actions queued: all 94 URLs are unflagged and below the 305-day aging threshold (oldest is 50 days). Site was scaffolded 2026-08-05 and cut over 2026-09-04, so nothing can be age-stale yet.",
+    "Archetype note: 56 URLs carry archetype 'service-area-service' and 1 carries 'service-areas-hub'; neither string is in the money-page matching list (home, contact, services-hub, service-landing, service-area), so they scored as non-money. Moot this run (zero actions) but worth confirming before the first run that produces aging flags.",
+    "6 crawled URLs are not in url-plan.json (/blog/best-water-damage-restoration-company-in-henderson-nv/, /blog/water-damage-restoration-cost-nv/, /case-studies/, /certifications/, /emergency/, /reviews/) and have a null archetype."
+  ]
+}

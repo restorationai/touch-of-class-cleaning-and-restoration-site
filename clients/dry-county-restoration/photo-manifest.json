@@ -2332,6 +2332,33 @@
       "triaged_at": "2026-08-26T12:39:26Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "web:214c36bd5025e4e2": {
+      "source": "website",
+      "storage": "site-assets/web/web-214c36bd5025e4e2.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/site-assets/web/web-214c36bd5025e4e2.png",
+      "origin_url": "https://www.drycountyrestoration.com/wp-content/uploads/2025/06/3-1.png",
+      "found_on": "https://www.drycountyrestoration.com/",
+      "width": 1080,
+      "height": 607,
+      "bytes": 331530,
+      "sha1": "214c36bd5025e4e2",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Room split between damaged and restored halves, before-after composite",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Polished stock/composite art-directed scene; not this contractor's real job photo.",
+      "triaged_at": "2026-09-07T19:38:24Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "web:7fb40250e4ff70e7": {
       "source": "website",
       "storage": "site-assets/web/web-7fb40250e4ff70e7.png",
@@ -2371,5 +2398,5 @@
       "note": "AI-FIRST doctrine exception: exceptional real photo (q=82, their best asset) holds this card; pinned by hand during the 2026-08-10 visual pass."
     }
   },
-  "triaged_at": "2026-08-31T21:21:05Z"
+  "triaged_at": "2026-09-07T19:38:24Z"
 }

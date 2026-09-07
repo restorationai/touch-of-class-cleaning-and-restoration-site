@@ -4,7 +4,7 @@
   "site": "therestorationgroup.com",
   "live_origin": "https://therestorationgroup.com",
   "live_origin_source": "apex",
-  "generated_at": "2026-07-30T18:31:01Z",
+  "generated_at": "2026-09-07T20:45:00Z",
   "audit_form_factor": "desktop",
   "lighthouse_version": "13.4.0",
   "audited_urls": [
@@ -14,52 +14,50 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 92,
         "accessibility": 93,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 860,
-        "CLS": 0.003,
+        "LCP_ms": 962,
+        "CLS": 0.155,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
+          "id": "cumulative-layout-shift",
+          "title": "Cumulative Layout Shift (0.155, poor: above the 0.1 good threshold)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "cls-culprits-insight",
+          "title": "Layout shift culprits: hero copy block (header > div.container-wide) reflows when the Inter web font loads",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery (hero-bg.webp 297 KB, team-768w.webp 106 KB oversized)",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
           "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 200325
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree: critical request chain via fonts.gstatic.com",
-          "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 40,
           "category": "performance"
         },
         {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 288
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests (/_astro/_slug_.8ogNlefX.css, ~8.7 KB)",
-          "severity": "low",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery (service card 480w webp files oversized for 383x256 slots, team-768w.webp 65 KB; est 67 KB)",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
         }
@@ -80,19 +78,7 @@
           "title": "Images are missing the title attribute",
           "severity": "low"
         }
-      ],
-      "derived_issues": [
-        {
-          "id": "meta_description_length_out_of_range",
-          "title": "Meta description is 188 characters (target 70-160); Google will truncate roughly the last 28 characters",
-          "severity": "medium",
-          "source": "rank-ai-derived"
-        }
-      ],
-      "content": {
-        "word_count": 1343,
-        "target_word_count": 1200
-      }
+      ]
     },
     {
       "url": "https://therestorationgroup.com/services/",
@@ -106,26 +92,18 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 886,
-        "CLS": 0.002,
+        "LCP_ms": 903,
+        "CLS": 0.0025,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery (hero-bg.webp + 12 service-card images oversized)",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 274102
         },
         {
           "id": "lcp-discovery-insight",
@@ -135,19 +113,25 @@
           "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree: critical request chain via fonts.gstatic.com",
-          "severity": "low",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery (hero-bg.webp 138 KB plus 13 oversized 480w service cards; est 179 KB)",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 288
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "category": "performance"
         }
       ],
       "onpage_issues": [
@@ -165,20 +149,13 @@
           "id": "no_image_title",
           "title": "Images are missing the title attribute",
           "severity": "low"
-        }
-      ],
-      "derived_issues": [
+        },
         {
-          "id": "word_count_below_target",
-          "title": "755 words against an 800-word target for this archetype (94 percent of target)",
-          "severity": "low",
-          "source": "rank-ai-derived"
+          "id": "low_character_count",
+          "title": "Body copy 615 words against the url-plan target of 800 for this hub",
+          "severity": "low"
         }
-      ],
-      "content": {
-        "word_count": 755,
-        "target_word_count": 800
-      }
+      ]
     },
     {
       "url": "https://therestorationgroup.com/services/water-damage-restoration/",
@@ -186,21 +163,21 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 770,
-        "CLS": 0.003,
+        "LCP_ms": 847,
+        "CLS": 0.0025,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
@@ -213,25 +190,24 @@
           "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree: critical request chain via fonts.gstatic.com",
-          "severity": "low",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery (water-damage-restoration.webp 70 KB under-compressed; est 36 KB)",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 288
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "category": "performance"
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests (/_astro/_slug_.8ogNlefX.css, ~8.7 KB)",
-          "severity": "low",
-          "estimated_savings_ms": null,
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": 0,
           "category": "performance"
         }
       ],
@@ -246,12 +222,7 @@
           "title": "Images are missing the title attribute",
           "severity": "low"
         }
-      ],
-      "derived_issues": [],
-      "content": {
-        "word_count": 1673,
-        "target_word_count": 1100
-      }
+      ]
     },
     {
       "url": "https://therestorationgroup.com/services/fire-damage-restoration/",
@@ -259,21 +230,21 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 98,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 787,
-        "CLS": 0.003,
+        "LCP_ms": 1147,
+        "CLS": 0.0024,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
@@ -286,23 +257,22 @@
           "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree: critical request chain via fonts.gstatic.com",
-          "severity": "low",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": 140,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 288
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests (/_astro/_slug_.8ogNlefX.css, ~8.7 KB)",
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree: critical request chain through fonts.googleapis.com then fonts.gstatic.com",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance"
@@ -319,15 +289,10 @@
           "title": "Images are missing the title attribute",
           "severity": "low"
         }
-      ],
-      "derived_issues": [],
-      "content": {
-        "word_count": 1697,
-        "target_word_count": 1100
-      }
+      ]
     },
     {
-      "url": "https://therestorationgroup.com/service-areas/kenilworth-nj/",
+      "url": "https://therestorationgroup.com/service-areas/union-nj/",
       "archetype": "service-area",
       "verdict": "green",
       "error_reason": null,
@@ -338,15 +303,15 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 824,
-        "CLS": 0.003,
+        "LCP_ms": 804,
+        "CLS": 0.0543,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
@@ -359,27 +324,25 @@
           "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree: critical request chain via fonts.gstatic.com",
-          "severity": "low",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery (hero-bg.webp 138 KB under-compressed; est 24 KB)",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
-          "severity": "low",
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 288
+          "category": "performance"
         },
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery (hero-bg.webp 297 KB, 183 KB wasted)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 187255
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": 20,
+          "category": "performance"
         }
       ],
       "onpage_issues": [
@@ -395,15 +358,15 @@
         },
         {
           "id": "frame",
-          "title": "Page contains an iframe (embedded map)",
+          "title": "Page contains an iframe (lazy-loaded Google Maps embed)",
+          "severity": "low"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "Crawler loading time above threshold (dom_complete 3991 ms, inflated by the lazy Maps iframe; Lighthouse TTI 794 ms and LCP 804 ms)",
           "severity": "low"
         }
-      ],
-      "derived_issues": [],
-      "content": {
-        "word_count": 1338,
-        "target_word_count": 900
-      }
+      ]
     },
     {
       "url": "https://therestorationgroup.com/contact/",
@@ -411,51 +374,51 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 95,
+        "performance": 99,
         "accessibility": 96,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 811,
-        "CLS": 0.127,
+        "LCP_ms": 859,
+        "CLS": 0.0312,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "cls-culprits-insight",
-          "title": "Layout shift culprits: section.section-first shifts 0.127 when the Inter web font swaps in",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "layout-shifts",
-          "title": "Avoid large layout shifts (single 0.127 shift on section.section-first)",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "cumulative-layout-shift",
-          "title": "Cumulative Layout Shift is 0.127, above the 0.1 good threshold",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests (/_astro/_slug_.8ogNlefX.css, ~8.7 KB)",
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: fetchpriority=high not applied to the LCP image",
           "severity": "medium",
-          "estimated_savings_ms": 55,
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery (hero-bg.webp 138 KB under-compressed; est 91 KB)",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": 30,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+          "severity": "medium",
+          "estimated_savings_ms": null,
           "category": "performance"
         }
       ],
@@ -470,18 +433,13 @@
           "title": "Images are missing the title attribute",
           "severity": "low"
         }
-      ],
-      "derived_issues": [],
-      "content": {
-        "word_count": 661,
-        "target_word_count": 400
-      }
+      ]
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 98.7,
-      "accessibility": 94.8,
+      "performance": 97.67,
+      "accessibility": 94.83,
       "best_practices": 100.0,
       "seo": 100.0
     },
@@ -495,26 +453,44 @@
     },
     "template_issues": [
       {
+        "id": "cumulative-layout-shift",
+        "title": "Hero copy block shifts when the Inter web font swaps in (CLS 0.155 home, 0.054 union-nj, 0.031 contact)",
+        "affected_urls": 3,
+        "severity": "high"
+      },
+      {
         "id": "color-contrast",
         "title": "Background and foreground colors do not have a sufficient contrast ratio",
         "affected_urls": 6,
         "severity": "medium"
       },
       {
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests (/_astro/_slug_.8ogNlefX.css, ~8.7 KB)",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript (GA4 gtag.js, 69 KB unused on every page)",
         "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery: fetchpriority=high not applied to the LCP image",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery (hero-bg.webp under-compressed, 480w service cards oversized for their slots)",
+        "affected_urls": 5,
         "severity": "medium"
       },
       {
         "id": "cache-insight",
         "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
-        "affected_urls": 6,
-        "severity": "low"
-      },
-      {
-        "id": "has_render_blocking_resources",
-        "title": "Page has render-blocking resources",
         "affected_urls": 6,
         "severity": "low"
       },
@@ -525,22 +501,22 @@
         "severity": "low"
       },
       {
+        "id": "has_render_blocking_resources",
+        "title": "Page has render-blocking resources",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
         "id": "no_image_title",
         "title": "Images are missing the title attribute",
         "affected_urls": 6,
         "severity": "low"
       },
       {
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery: fetchpriority=high not applied to the LCP image",
-        "affected_urls": 5,
-        "severity": "medium"
-      },
-      {
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery (hero-bg.webp 297 KB, team-768w.webp 106 KB oversized)",
-        "affected_urls": 4,
-        "severity": "medium"
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow (33-50 ms, unattributed script)",
+        "affected_urls": 3,
+        "severity": "low"
       },
       {
         "id": "low_content_rate",
@@ -554,66 +530,202 @@
         "url": "https://therestorationgroup.com/",
         "archetype": "home",
         "verdict": "amber",
-        "main_issue": "Meta description 188 chars (target 70-160); accessibility 93 from a 4.04:1 contrast failure on 5 trust-bar paragraphs"
+        "main_issue": "CLS regressed 0.003 to 0.155 (poor) from the hero copy block reflowing on Inter web-font load; performance 99 to 92; meta description still 188 chars against the 70-160 target; accessibility 93 from the 4.04:1 contrast failure"
       }
     ],
-    "template_issues_note": "affected_urls reflects the true failure count across all 6 audited URLs. Per-URL lighthouse_issues arrays are capped at the top 5 per the methodology, so a few of these issues appear in fewer per-URL lists than the count here."
+    "template_issues_note": "affected_urls reflects the true failure count across all 6 audited URLs. Per-URL lighthouse_issues arrays are capped at the top 5 per the methodology, so some issues appear in fewer per-URL lists than the count here."
   },
   "regression": {
-    "prior_run_at": null,
-    "score_deltas": null,
+    "prior_run_at": "2026-07-30T18:31:01Z",
+    "score_deltas": {
+      "performance": -1.03,
+      "accessibility": 0.03,
+      "best_practices": 0.0,
+      "seo": 0.0
+    },
     "verdict_transitions": [],
-    "new_issues": [],
-    "resolved_issues": [],
-    "note": "First audit for this client. No prior onsite-audit.json existed, so regression detection was skipped."
+    "cwv_regressions": [
+      {
+        "url": "https://therestorationgroup.com/",
+        "metric": "CLS",
+        "prior": 0.003,
+        "current": 0.155,
+        "delta": 0.152,
+        "cause": "Hero copy block (body > main > header > div.container-wide) reflows when https://fonts.gstatic.com/s/inter/v20/...woff2 loads. Reproduced identically on two consecutive Lighthouse runs, so this is not run-to-run noise."
+      },
+      {
+        "url": "https://therestorationgroup.com/services/fire-damage-restoration/",
+        "metric": "LCP_ms",
+        "prior": 787,
+        "current": 1147,
+        "delta": 360,
+        "cause": "LCP element still has no fetchpriority=high; page also carries the new 154 KB GA4 gtag.js on the critical path."
+      }
+    ],
+    "score_regressions": [
+      {
+        "url": "https://therestorationgroup.com/",
+        "category": "performance",
+        "prior": 99,
+        "current": 92,
+        "delta": -7
+      }
+    ],
+    "new_issues": [
+      {
+        "url": "https://therestorationgroup.com/",
+        "id": "unused-javascript",
+        "title": "GA4 gtag.js (G-E4FC6VR918) ships 154 KB, 69 KB unused"
+      },
+      {
+        "url": "https://therestorationgroup.com/",
+        "id": "cumulative-layout-shift",
+        "title": "CLS 0.155, above the 0.1 poor threshold"
+      },
+      {
+        "url": "https://therestorationgroup.com/",
+        "id": "cls-culprits-insight",
+        "title": "Layout shift culprit: hero copy block on web-font load"
+      },
+      {
+        "url": "https://therestorationgroup.com/",
+        "id": "layout-shifts",
+        "title": "Avoid large layout shifts (1 shift found, score 0.155)"
+      },
+      {
+        "url": "https://therestorationgroup.com/services/",
+        "id": "unused-javascript",
+        "title": "GA4 gtag.js, 69 KB unused"
+      },
+      {
+        "url": "https://therestorationgroup.com/services/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow, 33 ms"
+      },
+      {
+        "url": "https://therestorationgroup.com/services/water-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "GA4 gtag.js, 69 KB unused"
+      },
+      {
+        "url": "https://therestorationgroup.com/services/fire-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "GA4 gtag.js, 69 KB unused"
+      },
+      {
+        "url": "https://therestorationgroup.com/contact/",
+        "id": "unused-javascript",
+        "title": "GA4 gtag.js, 69 KB unused"
+      },
+      {
+        "url": "https://therestorationgroup.com/contact/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow, 50 ms"
+      }
+    ],
+    "resolved_issues": [
+      {
+        "url": "https://therestorationgroup.com/contact/",
+        "id": "cumulative-layout-shift",
+        "title": "CLS improved 0.127 to 0.031, now inside the good band"
+      },
+      {
+        "url": "https://therestorationgroup.com/contact/",
+        "id": "cls-culprits-insight",
+        "title": "No longer flagged on /contact/"
+      },
+      {
+        "url": "https://therestorationgroup.com/contact/",
+        "id": "layout-shifts",
+        "title": "No longer flagged on /contact/"
+      }
+    ],
+    "note": "Five of six URLs are comparable to the 2026-07-30 audit. The service-area slot changed: the July audit used /service-areas/kenilworth-nj/, which now 301-redirects because the 2026-08-29 url-plan regeneration replaced it with a 52-area NJ/NY/PA set. This run audits /service-areas/union-nj/ (first area in the plan, no primary:true entry and no Kenilworth page remains), so that slot has no prior baseline. Prior per-URL lighthouse_issues arrays were capped at the top 5, so an issue absent from a prior list is not proof it was absent from that run; resolved_issues above are limited to ones confirmed by metric movement."
   },
   "manual_findings": [
     {
       "id": "schema_nap_location_conflict",
       "severity": "high",
       "needs_owner_decision": true,
-      "title": "LocalBusiness schema publishes a Fair Lawn address while every audited page targets Kenilworth",
-      "detail": "JSON-LD LocalBusiness on all 6 pages sets streetAddress '8 Harlow Crescent, Fair Lawn, NJ 07410' and sameAs google.com/maps?cid=5612453956771500683 (the Fair Lawn GBP). The client record nap block says '500 S 31st St, Kenilworth, NJ 07033' and gbp.google_cid 8008820373441604497 (the Kenilworth GBP). Page titles, H1s and meta descriptions all target Kenilworth. Structured data and on-page targeting therefore point at two different locations.",
+      "status": "unresolved since 2026-07-30",
+      "title": "LocalBusiness schema and the service-area map embed both publish Fair Lawn while page titles and H1s target Kenilworth and Union",
+      "detail": "JSON-LD LocalBusiness on all 6 pages still sets streetAddress '8 Harlow Crescent, Fair Lawn, NJ 07410'. The client record nap block says '500 S 31st St, Kenilworth, NJ 07033'. New this month: sameAs now lists BOTH cids (5612453956771500683 Fair Lawn and 8008820373441604497 Kenilworth), which is partial progress but leaves two GBPs claimed by one schema block. Also new: the service-area map iframe on /service-areas/union-nj/ embeds 'The Restoration Group Fair Lawn NJ', so a Union NJ page renders a Fair Lawn map.",
       "affected_urls": 6,
-      "source": "manual verification of rendered JSON-LD, not a DataForSEO check id"
+      "source": "manual verification of rendered JSON-LD and iframe src, not a DataForSEO check id"
     },
     {
       "id": "phone_discipline_conflict",
       "severity": "high",
       "needs_owner_decision": true,
+      "status": "unresolved since 2026-07-30",
       "title": "Site publishes (908) 970-8533 site-wide, not the (855) 650-7422 GBP line named in the client record",
-      "detail": "All 6 pages render tel:+19089708533 (5 tel links on /contact/ alone) and schema telephone +19089708533. The client record onboarding_notes.phone_discipline states 'ONE phone everywhere: GBP line (855) 650-7422'. Verify which number is intended before citation building.",
+      "detail": "All 6 pages render tel:+19089708533 and schema telephone +19089708533, and all 6 meta descriptions print (908) 970-8533. The client record onboarding_notes.phone_discipline states 'ONE phone everywhere: GBP line (855) 650-7422'. Unchanged from the July audit. Resolve before the BrightLocal citation campaign (ordered 2026-09-04, campaign 997250) propagates the wrong number.",
       "affected_urls": 6,
       "source": "manual verification of rendered HTML and JSON-LD, not a DataForSEO check id"
+    },
+    {
+      "id": "home_meta_description_too_long",
+      "severity": "medium",
+      "needs_owner_decision": false,
+      "status": "unresolved since 2026-07-30",
+      "title": "Homepage meta description is 188 characters against the 70-160 target",
+      "detail": "188 chars: 'The Restoration Group provides 24/7 water, fire, mold and storm damage restoration across New Jersey, the NYC metro and eastern PA. Licensed, insured, IICRC-certified. Call (908) 970-8533.' Google will truncate around 160. The copy changed since July (Kenilworth to NJ/NYC/PA) but the length problem did not. This is the medium-severity issue that holds / at amber. DataForSEO has no description-length check id, so it is recorded here rather than as an onpage_issue.",
+      "affected_urls": 1,
+      "source": "measured from instant_pages meta.description, not a DataForSEO check id"
     },
     {
       "id": "prerebrand_social_sameas",
       "severity": "low",
       "needs_owner_decision": false,
+      "status": "unresolved since 2026-07-30",
       "title": "schema sameAs still points at pre-rebrand Elite Restoration Group social profiles",
-      "detail": "sameAs lists facebook.com/EliteRestorationGroups and instagram.com/eliterestorationgroup. The client record lists post-rebrand social URLs as still awaiting intake, so this is expected but should close out.",
+      "detail": "sameAs lists facebook.com/EliteRestorationGroups (also still http, not https) and instagram.com/eliterestorationgroup. The client record lists post-rebrand social URLs as still awaiting intake, so this is expected but should close out.",
       "affected_urls": 6,
       "source": "manual verification of rendered JSON-LD, not a DataForSEO check id"
+    },
+    {
+      "id": "hub_title_geo_mismatch",
+      "severity": "low",
+      "needs_owner_decision": false,
+      "status": "new 2026-09-07",
+      "title": "Homepage moved to NJ/NY/PA geo framing but the services hub title still says Kenilworth",
+      "detail": "Home title is now 'The Restoration Group | 24/7 Restoration in NJ, NY & PA' and H1 '24/7 Restoration Services Across NJ, NY & PA', while /services/ still titles 'Restoration Services in Kenilworth' and the service landings still H1 'in Kenilworth'. Flagging as a consistency observation only; geo/content strategy is System 4 territory, not this audit's call.",
+      "affected_urls": 4,
+      "source": "manual comparison of instant_pages title and h1 values"
     }
   ],
   "verified_non_issues": [
     {
       "id": "has_micromarkup",
-      "note": "DataForSEO reports has_micromarkup=false on all 6 pages. Manually verified that valid JSON-LD IS present on every page (LocalBusiness, Organization, Service, FAQPage, BreadcrumbList). The check only detects microdata/RDFa, so this is a detection artifact and NOT a missing-schema finding."
+      "note": "DataForSEO reports has_micromarkup=false on all 6 pages. Manually verified that valid JSON-LD IS present on every page (Organization, WebSite, LocalBusiness, Service, FAQPage, BreadcrumbList). The check only detects microdata/RDFa, so this is a detection artifact and NOT a missing-schema finding."
     },
     {
-      "id": "contact_form_placeholder_phone",
-      "note": "'(555) 555-5555' appears once on /contact/ as the phone input's placeholder attribute. This is intended form UX, not a leaked placeholder number."
+      "id": "no_image_alt",
+      "note": "Alt text coverage is 100 percent on all 6 pages (0 of 38 img tags missing or empty alt). The no_image_title flag is a separate, cosmetic title-attribute check and is not an accessibility requirement."
+    },
+    {
+      "id": "malformed_tel_link",
+      "note": "A raw scan for tel: hrefs surfaces the string 'tel:)' on every page. It is text inside a GA4 conversion-tracking JS comment ('every phone link (tel:) and form'), not a broken anchor. Every real anchor is tel:+19089708533."
+    },
+    {
+      "id": "high_loading_time_union_nj",
+      "note": "instant_pages flags high_loading_time on /service-areas/union-nj/ (dom_complete 3991 ms). Lighthouse on the same URL returns performance 99, TTI 794 ms, LCP 804 ms. The gap is the lazy-loaded Google Maps iframe finishing after the user-visible render, so it is graded low and does not flip the page to amber."
+    },
+    {
+      "id": "broken_links",
+      "note": "No 4xx or 5xx outlinks, no mixed content, no meta-refresh redirects, no duplicate titles or meta tags, and exactly one H1 on all 6 pages. is_broken, is_4xx_code, is_5xx_code and https_to_http_links are all false."
     }
   ],
   "environment_caveats": [
-    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). The DataForSEO MCP wrapper does not expose form_factor. Mobile performance would typically score 10-20 points lower.",
-    "Scores and Core Web Vitals in this file come from the full_data Lighthouse run (lighthouse 13.4.0). A first reduced-response run minutes earlier produced values within normal run-to-run variance (home performance 98 vs 99, home LCP 902 ms vs 860 ms).",
-    "Audited the apex production origin with no x-robots-tag noindex present, so the SEO category counts toward every verdict. The staging noindex correction did not apply."
+    "Lighthouse ran DESKTOP only (for_mobile=false, formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240), matching the July baseline so the deltas are like-for-like. Mobile performance would typically score 10-20 points lower, and the homepage CLS regression would likely be worse on mobile where the hero copy wraps to more lines.",
+    "The dedicated on_page_lighthouse and on_page_instant_pages MCP wrappers were not exposed in this environment. The audit called the DataForSEO REST API directly (POST /v3/on_page/lighthouse/live/json and POST /v3/on_page/instant_pages) with the same parameters, and responses were written to disk before parsing.",
+    "Homepage was audited twice to test whether the CLS regression was run-to-run noise. Run 1: performance 92, CLS 0.15490. Run 2: performance 93, CLS 0.15490, identical layout-shift culprit node. The state file records run 1. CLS is reproducible to five decimal places, so the regression is real.",
+    "Audited the apex production origin. curl -sI returned no x-robots-tag noindex, so the SEO category counts toward every verdict and the staging-noindex correction does not apply.",
+    "Lighthouse 13.4.0 also returns an 'agentic-browsing' category (home 91, others 99-100). It is outside the four methodology categories and is excluded from scores, averages and verdicts."
   ],
   "cost_usd": {
-    "lighthouse_full_data": 0.03,
-    "instant_pages": 0.011,
-    "total_estimated": 0.041
+    "lighthouse_live_json": 0.035,
+    "instant_pages": 0.0306,
+    "total_actual": 0.0656
   }
 }
