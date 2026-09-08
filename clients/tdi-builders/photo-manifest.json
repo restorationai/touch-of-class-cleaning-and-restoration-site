@@ -29,6 +29,61 @@
       "triaged_at": "2026-08-25T01:00:57Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMMRRQ8xjJ1Sk9voFTlYH_z2Y-5CzL773pe8nGS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMMRRQ8xjJ1Sk9voFTlYH_z2Y-5CzL773pe8nGS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/gbp-AF1QipMMRRQ8xjJ1Sk9voFTlYH_z2Y-5CzL773pe8nGS.jpg",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 610404,
+      "sha1": "a2d49a6ea5ede55d",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Workers inside large concrete commercial building under construction",
+      "quality": 72,
+      "slots": {
+        "hero": 25,
+        "team": 20,
+        "services": 30
+      },
+      "service_slugs": [
+        "commercial-construction",
+        "new-construction"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Too polished and art-directed; appears to be licensed stock imagery.",
+      "triaged_at": "2026-09-08T14:16:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMgUNTSVzwYsXfXIiQPYoPpTM7NKVrfMkfi1Jiq": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMgUNTSVzwYsXfXIiQPYoPpTM7NKVrfMkfi1Jiq.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/gbp-AF1QipMgUNTSVzwYsXfXIiQPYoPpTM7NKVrfMkfi1Jiq.jpg",
+      "width": 2000,
+      "height": 1250,
+      "bytes": 652389,
+      "sha1": "94fb6f3719d2c768",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Modern luxury living room with staircase and curved sofa",
+      "quality": 85,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "home-remodeling"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Overly polished interior render or stock photo; not this contractor's work.",
+      "triaged_at": "2026-09-08T14:16:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMmaoge1e_08KTcdQ1Fr2mrwRVATabOd6kmX5z7": {
       "source": "gbp",
       "storage": "job-photos/posted/r1788466416_gbp-AF1QipMmaoge1e_08KTcdQ1Fr2mrwRVATabOd6kmX5z7.jpg",
@@ -84,6 +139,33 @@
       "triaged_at": "2026-08-25T01:00:57Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipO-Icu2RRmkLVreJO2kTnlusbyHKge-FWTbpyy8": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO-Icu2RRmkLVreJO2kTnlusbyHKge-FWTbpyy8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/gbp-AF1QipO-Icu2RRmkLVreJO2kTnlusbyHKge-FWTbpyy8.jpg",
+      "width": 1098,
+      "height": 1368,
+      "bytes": 800796,
+      "sha1": "6dcf33cb666c221a",
+      "exif": {},
+      "category": "graphic",
+      "subject": "TDI Builders Our Vision marketing card with text overlay",
+      "quality": 60,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Marketing collage with large burnt-in text and logo over stock handshake photo.",
+      "triaged_at": "2026-09-08T14:16:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipO3kKgbcjsjR9QdxLaLf5n1knWOKwzIwSC-ZdSm": {
       "source": "gbp",
       "storage": "job-photos/posted/r1787882070_gbp-AF1QipO3kKgbcjsjR9QdxLaLf5n1knWOKwzIwSC-ZdSm.jpg",
@@ -136,6 +218,34 @@
       "triaged_at": "2026-08-25T01:00:57Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOynra5yE4QexLHIZb0RAuKOJvBpYpmy9iYF-Sy": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOynra5yE4QexLHIZb0RAuKOJvBpYpmy9iYF-Sy.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/gbp-AF1QipOynra5yE4QexLHIZb0RAuKOJvBpYpmy9iYF-Sy.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 620853,
+      "sha1": "b127c4e19a33c4a7",
+      "exif": {
+        "taken_at": "2026:04:15 11:02:28"
+      },
+      "category": "building",
+      "subject": "Clean modern commercial lobby interior with wood-panel accent wall",
+      "quality": 68,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "commercial-construction",
+        "general-contracting"
+      ],
+      "flags": [],
+      "reason": "Decent finished interior shot; usable as a completed commercial project example.",
+      "triaged_at": "2026-09-08T14:16:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPGvFQBJIjYpCq7h3iayTVTOSR7nypaNPq2Kgig": {
       "source": "gbp",
       "storage": "job-photos/posted/r1788375930_gbp-AF1QipPGvFQBJIjYpCq7h3iayTVTOSR7nypaNPq2Kgig.jpg",
@@ -165,5 +275,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-25T01:00:57Z"
+  "triaged_at": "2026-09-08T14:16:43Z"
 }
