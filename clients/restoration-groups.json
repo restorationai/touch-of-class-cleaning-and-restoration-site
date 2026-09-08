@@ -101,5 +101,11 @@
     "campaign_id": 997250,
     "ordered_at": "2026-09-04T06:14:56.707437+00:00",
     "package_id": "cb25"
+  },
+  "iicrc": {
+    "firm_number": "210213",
+    "type": "Certified Firm 2026",
+    "valid_through": "2026-12-31",
+    "source": "Michael Oren SMS images 2026-09-08"
   }
 }
