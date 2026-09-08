@@ -159,6 +159,29 @@ def append_journal(slug: str, text: str, *, kind: str = "note",
     else:
         content = _journal_header(slug) + "\n" + entry
     path.write_text(content)
+    # Mirror into the app's Activity feed (Santino 2026-09-08: "make sure
+    # everything we've done with the PPC setup is logged in the app, just as
+    # we do for all our other actions"). marketing_work_log category "ads" —
+    # work_report.py rolls these into the monthly report. Fail-soft: journal
+    # write never dies on an app outage.
+    try:
+        import requests as _rq
+        cmap = json.loads((CLIENTS_DIR / "company_map.json").read_text())
+        cid = cmap.get(slug)
+        sb = os.environ.get("SUPABASE_URL", "").rstrip("/")
+        key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+        if cid and sb and key:
+            _rq.post(f"{sb}/rest/v1/marketing_work_log",
+                     headers={"apikey": key, "Authorization": f"Bearer {key}",
+                              "Content-Type": "application/json",
+                              "Prefer": "return=minimal"},
+                     json={"company_id": cid, "actor": author,
+                           "category": "ads", "action": kind,
+                           "detail": text.strip()[:500],
+                           "evidence": {"slug": slug, "campaign": campaign}},
+                     timeout=15)
+    except Exception:  # noqa: BLE001
+        pass
     return path
 
 

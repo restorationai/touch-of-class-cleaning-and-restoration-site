@@ -88,6 +88,7 @@ CATEGORIES: dict[str, tuple[str, int, str]] = {
     "citations":        ("Directory listings and citations",     6, "directory listing action{s}"),
     "backlinks":        ("Backlinks",                            7, "new backlink{s} confirmed live"),
     "keyword-research": ("Keyword research",                     8, "keyword research refresh{es}"),
+    "ads":              ("Advertising",                          8, "ad campaign action{s}"),
     "press":            ("Press releases",                       9, "press release{s} prepared"),
     "reviews":          ("Review campaign",                     10, "review invitation{s} sent"),
     "outreach":         ("Communication",                       11, "coordination message{s} from our team"),
