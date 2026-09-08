@@ -1,5 +1,22 @@
 # Dry Bros Water & Fire Restoration: Image Style Guide
 
+## CLIENT DIRECTION (2026-09-08, Amin — phone call)
+
+1. **Van wrap hero: AWAITING CLIENT APPROVAL. Do NOT set a hero yet.** On the
+   2026-09-08 call Amin asked us to design AI van wrap concepts for the homepage
+   hero and send them for his approval. Three concepts were generated and shared
+   for review (`clients/dry-bros-water-fire-restoration/concepts/van-wrap-concept-1..3.png`,
+   served at `/van-wrap-concepts/` on staging). Until Amin picks one, DO NOT install
+   `public/images/hero-bg.webp` or overwrite these concepts — the direction is not
+   final. When he chooses, finalize that concept (add his real logo when we have it)
+   and set it as the hero.
+2. **Fleet livery direction (concept, unconfirmed):** deep-navy body (`#0d1b3e`) with
+   an orange (`#f97316`) accent graphic; a matched fleet of three vans per the standing
+   fleet-of-three rule. No client logo file on hand yet, so concepts carry NO wordmark —
+   the wrap graphic is a shape only. Add the real logo mark once received.
+
+---
+
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
