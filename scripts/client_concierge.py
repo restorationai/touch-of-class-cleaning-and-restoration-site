@@ -7023,6 +7023,25 @@ def fetch_inbound_since(contact_id: str, since: datetime) -> list[dict]:
                 continue
             body = (msg.get("body") or "").strip()
             attachments = msg.get("attachments") or []
+            # Inbound emails are SHELLS in the conversation feed (body AND
+            # attachments null) — the content sits behind the email endpoint.
+            # fetch_history got this hydration on 08-24 (Jaziel), but THIS
+            # collector kept dropping them as empty: Bob Olson's 2026-09-08
+            # 11pm reply about the flag photos vanished right here. Hydrate
+            # BEFORE the empty-drop check.
+            if not body and msg.get("messageType") == "TYPE_EMAIL":
+                email_ids = (((msg.get("meta") or {}).get("email") or {})
+                             .get("messageIds") or [])
+                if email_ids:
+                    try:
+                        full = _ghl("GET", "/conversations/messages/email/"
+                                    f"{email_ids[0]}") or {}
+                        e = full.get("emailMessage", full)
+                        raw = re.sub(r"<[^>]+>", " ", e.get("body") or "")
+                        body = re.sub(r"\s+", " ", raw).strip()
+                        attachments = attachments or (e.get("attachments") or [])
+                    except Exception as err:  # noqa: BLE001
+                        print(f"    [email-hydrate] failed: {str(err)[:80]}")
             # A photo-only MMS has an empty body — those are real client
             # messages too (the Jeff Sibley case, 2026-07-22).
             if not body and not attachments:
