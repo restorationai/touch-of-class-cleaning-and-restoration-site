@@ -157,6 +157,23 @@ const ctx: PageSchemaContext = {
         }
       }
     </style>
+    {/* BDA Digital Meta Pixel (Jared Shoemaker email 2026-09-08) — Bob's ads
+        agency runs Meta ads for RT Olson; pixel installed site-wide. */}
+    <script is:inline>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1305893268143028');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1305893268143028&ev=PageView&noscript=1"
+    /></noscript>
   </head>
   <body class="min-h-screen flex flex-col">
     <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
