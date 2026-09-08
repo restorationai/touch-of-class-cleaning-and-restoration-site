@@ -42,7 +42,7 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "https://images.bcp-flood-pros-allison-harris.invalid/brand/logo.png",
+  logoUrl: "/images/logo.webp", // preview: harvested from fixofutah.com; switch to images CDN at production cutover
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.

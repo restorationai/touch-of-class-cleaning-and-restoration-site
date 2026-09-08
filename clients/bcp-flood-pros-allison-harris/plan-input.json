@@ -10,6 +10,10 @@
   "state": "UT",
   "postal_code": "84003",
   "theme": "light",
+  "primary_color": "#ee4305",
+  "accent_color": "#f38c08",
+  "dark_color": "#38160a",
+  "logo_url": "/images/logo.webp",
   "licensed_insured_attested": true,
   "founded_year": "2012",
   "trust_badges": [
