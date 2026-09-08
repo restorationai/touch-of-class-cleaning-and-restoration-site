@@ -1,0 +1,69 @@
+{
+  "brand": {
+    "display_name": "Dry Bros Water & Fire Restoration",
+    "lat": 41.8755616,
+    "lng": -87.6244212,
+    "phone": "(877) 379-2767",
+    "email": "amin.mashouf@gmail.com",
+    "street_address": "3918 W 63rd ST",
+    "city": "chicago",
+    "state": "il",
+    "postal_code": "60629",
+    "theme": "light",
+    "licensed_insured_attested": true,
+    "trust_badges": [
+      "Licensed & Insured",
+      "Locally Owned & Operated"
+    ]
+  },
+  "services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation"
+  ],
+  "service_areas": [
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "slug": "chicago-il",
+      "primary": true
+    },
+    {
+      "city": "Naperville",
+      "state": "IL",
+      "slug": "naperville-il"
+    },
+    {
+      "city": "Cicero",
+      "state": "IL",
+      "slug": "cicero-il"
+    },
+    {
+      "city": "Evanston",
+      "state": "IL",
+      "slug": "evanston-il"
+    },
+    {
+      "city": "Oak Park",
+      "state": "IL",
+      "slug": "oak-park-il"
+    },
+    {
+      "city": "Skokie",
+      "state": "IL",
+      "slug": "skokie-il"
+    },
+    {
+      "city": "Berwyn",
+      "state": "IL",
+      "slug": "berwyn-il"
+    },
+    {
+      "city": "Des Plaines",
+      "state": "IL",
+      "slug": "des-plaines-il"
+    }
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
+}

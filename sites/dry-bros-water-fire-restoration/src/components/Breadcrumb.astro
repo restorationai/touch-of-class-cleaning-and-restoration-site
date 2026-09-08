@@ -1,0 +1,20 @@
+---
+type Crumb = { name: string; url?: string };
+type Props = { trail?: Crumb[] };
+const { trail = [] } = Astro.props;
+---
+
+{trail.length > 1 && (
+  <nav aria-label="Breadcrumb" class="container-wide py-4 text-xs uppercase tracking-widest text-dark/50">
+    <ol class="flex flex-wrap items-center gap-2 list-none pl-0 mb-0">
+      {trail.map((c, i) => (
+        <li class="flex items-center gap-2">
+          {i > 0 && <span aria-hidden="true" class="text-dark/30">/</span>}
+          {c.url && i < trail.length - 1
+            ? <a href={c.url} class="text-dark/50 hover:text-primary-700 no-underline transition-colors">{c.name}</a>
+            : <span class="text-dark-900">{c.name}</span>}
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}

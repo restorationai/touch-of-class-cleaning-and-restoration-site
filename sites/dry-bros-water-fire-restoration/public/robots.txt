@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dry-bros-water-fire-restoration.invalid/sitemap-index.xml

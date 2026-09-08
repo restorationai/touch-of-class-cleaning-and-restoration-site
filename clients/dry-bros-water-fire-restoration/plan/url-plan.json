@@ -1,0 +1,2291 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-09-08T20:19:47.652287+00:00",
+  "input_summary": {
+    "service_count": 4,
+    "service_area_count": 8,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "Dry Bros Water & Fire Restoration | Restoration Services in Chicago, IL",
+      "h1": "Restoration Services in Chicago",
+      "meta_description": "Dry Bros Water & Fire Restoration provides water, fire, mold, and storm damage restoration across Chicago and surrounding areas. Licensed, insured. Call (877) 379-2767.",
+      "primary_keyword": "restoration services chicago",
+      "secondary_keywords": [
+        "restoration company near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/",
+        "/service-areas/des-plaines-il/",
+        "/service-areas/evanston-il/",
+        "/service-areas/naperville-il/",
+        "/service-areas/oak-park-il/",
+        "/service-areas/skokie-il/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Chicago | Dry Bros Water & Fire Restoration",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Chicago: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (877) 379-2767.",
+      "primary_keyword": "restoration services chicago",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | Dry Bros Water & Fire Restoration Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "Dry Bros Water & Fire Restoration provides restoration services across Chicago and the surrounding region. Find your city.",
+      "primary_keyword": "dry bros water & fire restoration service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/",
+        "/service-areas/des-plaines-il/",
+        "/service-areas/evanston-il/",
+        "/service-areas/naperville-il/",
+        "/service-areas/oak-park-il/",
+        "/service-areas/skokie-il/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from Dry Bros Water & Fire Restoration on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog chicago",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About Dry Bros Water & Fire Restoration | Chicago Restoration Company",
+      "h1": "About Dry Bros Water & Fire Restoration",
+      "meta_description": "Dry Bros Water & Fire Restoration has served Chicago since. Meet our restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "dry bros water & fire restoration chicago",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact Dry Bros Water & Fire Restoration | Restoration in Chicago",
+      "h1": "Contact Dry Bros Water & Fire Restoration",
+      "meta_description": "Call (877) 379-2767 for restoration services in Chicago and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "dry bros water & fire restoration contact",
+      "secondary_keywords": [
+        "restoration company contact"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in Chicago | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Chicago",
+      "meta_description": "Water damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration chicago",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/service-areas/des-plaines-il/water-damage-restoration/",
+        "/service-areas/evanston-il/water-damage-restoration/",
+        "/service-areas/naperville-il/water-damage-restoration/",
+        "/service-areas/oak-park-il/water-damage-restoration/",
+        "/service-areas/skokie-il/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Chicago | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Chicago",
+      "meta_description": "Fire damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration chicago",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/service-areas/des-plaines-il/fire-damage-restoration/",
+        "/service-areas/evanston-il/fire-damage-restoration/",
+        "/service-areas/naperville-il/fire-damage-restoration/",
+        "/service-areas/oak-park-il/fire-damage-restoration/",
+        "/service-areas/skokie-il/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-remediation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Remediation in Chicago | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Chicago",
+      "meta_description": "Mold remediation in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation chicago",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/skokie-il/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Cleanup in Chicago | Dry Bros Water & Fire Restoration",
+      "h1": "Water Cleanup in Chicago",
+      "meta_description": "Water cleanup in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water cleanup chicago",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/service-areas/cicero-il/water-cleanup/",
+        "/service-areas/des-plaines-il/water-cleanup/",
+        "/service-areas/evanston-il/water-cleanup/",
+        "/service-areas/naperville-il/water-cleanup/",
+        "/service-areas/oak-park-il/water-cleanup/",
+        "/service-areas/skokie-il/water-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/naperville-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Naperville, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Naperville",
+      "meta_description": "Serving Naperville, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services naperville",
+      "secondary_keywords": [
+        "naperville restoration company",
+        "damage restoration naperville",
+        "naperville disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/naperville-il/fire-damage-restoration/",
+        "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/naperville-il/water-damage-restoration/",
+        "/service-areas/naperville-il/water-cleanup/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/",
+        "/service-areas/des-plaines-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cicero-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Cicero, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Cicero",
+      "meta_description": "Serving Cicero, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services cicero",
+      "secondary_keywords": [
+        "cicero restoration company",
+        "damage restoration cicero",
+        "cicero disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/service-areas/cicero-il/water-cleanup/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/des-plaines-il/",
+        "/service-areas/evanston-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/evanston-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Evanston, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Evanston",
+      "meta_description": "Serving Evanston, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services evanston",
+      "secondary_keywords": [
+        "evanston restoration company",
+        "damage restoration evanston",
+        "evanston disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/evanston-il/fire-damage-restoration/",
+        "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/evanston-il/water-damage-restoration/",
+        "/service-areas/evanston-il/water-cleanup/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/",
+        "/service-areas/des-plaines-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-park-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Oak Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Oak Park",
+      "meta_description": "Serving Oak Park, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services oak park",
+      "secondary_keywords": [
+        "oak park restoration company",
+        "damage restoration oak park",
+        "oak park disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/oak-park-il/fire-damage-restoration/",
+        "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/oak-park-il/water-damage-restoration/",
+        "/service-areas/oak-park-il/water-cleanup/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/",
+        "/service-areas/des-plaines-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/skokie-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Skokie, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Skokie",
+      "meta_description": "Serving Skokie, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services skokie",
+      "secondary_keywords": [
+        "skokie restoration company",
+        "damage restoration skokie",
+        "skokie disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/skokie-il/fire-damage-restoration/",
+        "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/skokie-il/water-damage-restoration/",
+        "/service-areas/skokie-il/water-cleanup/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/",
+        "/service-areas/des-plaines-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/berwyn-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Berwyn, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Berwyn",
+      "meta_description": "Serving Berwyn, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services berwyn",
+      "secondary_keywords": [
+        "berwyn restoration company",
+        "damage restoration berwyn",
+        "berwyn disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/service-areas/cicero-il/",
+        "/service-areas/des-plaines-il/",
+        "/service-areas/evanston-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/des-plaines-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Des Plaines, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Des Plaines",
+      "meta_description": "Serving Des Plaines, IL with water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services des plaines",
+      "secondary_keywords": [
+        "des plaines restoration company",
+        "damage restoration des plaines",
+        "des plaines disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/des-plaines-il/fire-damage-restoration/",
+        "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/des-plaines-il/water-damage-restoration/",
+        "/service-areas/des-plaines-il/water-cleanup/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/",
+        "/service-areas/evanston-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/naperville-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Naperville",
+      "meta_description": "Water damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration naperville",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/naperville-il/",
+        "/service-areas/naperville-il/fire-damage-restoration/",
+        "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/naperville-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Naperville",
+      "meta_description": "Fire damage restoration in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration naperville",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/naperville-il/",
+        "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/naperville-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/naperville-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Naperville, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Naperville",
+      "meta_description": "Mold remediation in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation naperville",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/naperville-il/",
+        "/service-areas/naperville-il/fire-damage-restoration/",
+        "/service-areas/naperville-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/naperville-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Naperville, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Cleanup in Naperville",
+      "meta_description": "Water cleanup in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water cleanup naperville",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/naperville-il/",
+        "/service-areas/naperville-il/fire-damage-restoration/",
+        "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/service-areas/cicero-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cicero-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Cicero",
+      "meta_description": "Water damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration cicero",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/cicero-il/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/des-plaines-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cicero-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Cicero",
+      "meta_description": "Fire damage restoration in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration cicero",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/cicero-il/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/des-plaines-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cicero-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Cicero, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Cicero",
+      "meta_description": "Mold remediation in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation cicero",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/cicero-il/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/des-plaines-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cicero-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Cicero, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Cleanup in Cicero",
+      "meta_description": "Water cleanup in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water cleanup cicero",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/cicero-il/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/service-areas/des-plaines-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/evanston-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Evanston",
+      "meta_description": "Water damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration evanston",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/evanston-il/",
+        "/service-areas/evanston-il/fire-damage-restoration/",
+        "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/evanston-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Evanston",
+      "meta_description": "Fire damage restoration in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration evanston",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/evanston-il/",
+        "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/evanston-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/evanston-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Evanston, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Evanston",
+      "meta_description": "Mold remediation in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation evanston",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/evanston-il/",
+        "/service-areas/evanston-il/fire-damage-restoration/",
+        "/service-areas/evanston-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/evanston-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Evanston, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Cleanup in Evanston",
+      "meta_description": "Water cleanup in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water cleanup evanston",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/evanston-il/",
+        "/service-areas/evanston-il/fire-damage-restoration/",
+        "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/service-areas/cicero-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-park-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Oak Park",
+      "meta_description": "Water damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration oak park",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/oak-park-il/",
+        "/service-areas/oak-park-il/fire-damage-restoration/",
+        "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-park-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Oak Park",
+      "meta_description": "Fire damage restoration in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration oak park",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/oak-park-il/",
+        "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/oak-park-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-park-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Oak Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Oak Park",
+      "meta_description": "Mold remediation in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation oak park",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/oak-park-il/",
+        "/service-areas/oak-park-il/fire-damage-restoration/",
+        "/service-areas/oak-park-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-park-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Oak Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Cleanup in Oak Park",
+      "meta_description": "Water cleanup in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water cleanup oak park",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/oak-park-il/",
+        "/service-areas/oak-park-il/fire-damage-restoration/",
+        "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/service-areas/cicero-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/skokie-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Skokie",
+      "meta_description": "Water damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration skokie",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/skokie-il/",
+        "/service-areas/skokie-il/fire-damage-restoration/",
+        "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/skokie-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Skokie",
+      "meta_description": "Fire damage restoration in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration skokie",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/skokie-il/",
+        "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/skokie-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/skokie-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Skokie, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Skokie",
+      "meta_description": "Mold remediation in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation skokie",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/skokie-il/",
+        "/service-areas/skokie-il/fire-damage-restoration/",
+        "/service-areas/skokie-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/skokie-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Skokie, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Cleanup in Skokie",
+      "meta_description": "Water cleanup in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water cleanup skokie",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/skokie-il/",
+        "/service-areas/skokie-il/fire-damage-restoration/",
+        "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/service-areas/cicero-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/berwyn-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Berwyn",
+      "meta_description": "Water damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration berwyn",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/service-areas/des-plaines-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/berwyn-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Berwyn",
+      "meta_description": "Fire damage restoration in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration berwyn",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/service-areas/des-plaines-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/berwyn-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Berwyn, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Berwyn",
+      "meta_description": "Mold remediation in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation berwyn",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/des-plaines-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/berwyn-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Berwyn, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Cleanup in Berwyn",
+      "meta_description": "Water cleanup in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water cleanup berwyn",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/cicero-il/water-cleanup/",
+        "/service-areas/des-plaines-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/des-plaines-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Des Plaines",
+      "meta_description": "Water damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration des plaines",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/des-plaines-il/",
+        "/service-areas/des-plaines-il/fire-damage-restoration/",
+        "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/des-plaines-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Des Plaines",
+      "meta_description": "Fire damage restoration in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration des plaines",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/des-plaines-il/",
+        "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/des-plaines-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/des-plaines-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Des Plaines, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Des Plaines",
+      "meta_description": "Mold remediation in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation des plaines",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/des-plaines-il/",
+        "/service-areas/des-plaines-il/fire-damage-restoration/",
+        "/service-areas/des-plaines-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/des-plaines-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Des Plaines, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Cleanup in Des Plaines",
+      "meta_description": "Water cleanup in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water cleanup des plaines",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/des-plaines-il/",
+        "/service-areas/des-plaines-il/fire-damage-restoration/",
+        "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/service-areas/cicero-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/signs-of-hidden-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "h1": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "meta_description": "",
+      "primary_keyword": "7 signs you have hidden mold and what to do next",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/fire-damage-restoration-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Fire Damage Restoration Process, Explained",
+      "h1": "The Fire Damage Restoration Process, Explained",
+      "meta_description": "",
+      "primary_keyword": "the fire damage restoration process explained",
+      "secondary_keywords": [
+        "fire damage restoration",
+        "smoke damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/black-mold-vs-regular-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "h1": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "meta_description": "",
+      "primary_keyword": "black mold vs regular mold how to tell the difference",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | Dry Bros Water & Fire Restoration",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "dry bros water & fire restoration privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | Dry Bros Water & Fire Restoration",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "dry bros water & fire restoration terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | Dry Bros Water & Fire Restoration",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "dry bros water & fire restoration accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}

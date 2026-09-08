@@ -1,0 +1,5306 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-09-08T20:30:44.449342+00:00",
+  "input_summary": {
+    "service_count": 11,
+    "service_area_count": 9,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "FIX Restoration | Restoration Services in American Fork, UT",
+      "h1": "Restoration Services in American Fork",
+      "meta_description": "FIX Restoration provides water, fire, mold, and storm damage restoration across American Fork and surrounding areas. Licensed, insured. Call (801) 930-9750.",
+      "primary_keyword": "restoration services american fork",
+      "secondary_keywords": [
+        "restoration company near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/biohazard-cleanup/",
+        "/services/general-contracting/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration-storage/",
+        "/services/flood-equipment-rental/",
+        "/service-areas/highland-ut/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/orem-ut/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/provo-ut/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/springville-ut/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in American Fork | FIX Restoration",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in American Fork: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (801) 930-9750.",
+      "primary_keyword": "restoration services american fork",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/biohazard-cleanup/",
+        "/services/general-contracting/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration-storage/",
+        "/services/flood-equipment-rental/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | FIX Restoration Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "FIX Restoration provides restoration services across American Fork and the surrounding region. Find your city.",
+      "primary_keyword": "fix restoration service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/highland-ut/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/orem-ut/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/provo-ut/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/springville-ut/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | FIX Restoration",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from FIX Restoration on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog american fork",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About FIX Restoration | American Fork Restoration Company",
+      "h1": "About FIX Restoration",
+      "meta_description": "FIX Restoration has served American Fork since 2012. Meet our restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "fix restoration american fork",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact FIX Restoration | Restoration in American Fork",
+      "h1": "Contact FIX Restoration",
+      "meta_description": "Call (801) 930-9750 for restoration services in American Fork and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "fix restoration contact",
+      "secondary_keywords": [
+        "restoration company contact"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in American Fork | FIX Restoration",
+      "h1": "Water Damage Restoration in American Fork",
+      "meta_description": "Water damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration american fork",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/orem-ut/water-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/water-damage-restoration/",
+        "/service-areas/provo-ut/water-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/water-damage-restoration/",
+        "/service-areas/spanish-fork-ut/water-damage-restoration/",
+        "/service-areas/springville-ut/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Storm Damage Restoration in American Fork | FIX Restoration",
+      "h1": "Storm Damage Restoration in American Fork",
+      "meta_description": "Storm damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration american fork",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/storm-damage-restoration/",
+        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/service-areas/orem-ut/storm-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/storm-damage-restoration/",
+        "/service-areas/provo-ut/storm-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/storm-damage-restoration/",
+        "/service-areas/spanish-fork-ut/storm-damage-restoration/",
+        "/service-areas/springville-ut/storm-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Fire Damage Restoration in American Fork | FIX Restoration",
+      "h1": "Fire Damage Restoration in American Fork",
+      "meta_description": "Fire damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration american fork",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/services/general-contracting/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in American Fork | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in American Fork",
+      "meta_description": "Renovations, remodels and general contracting in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting american fork",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/general-contracting/",
+        "/service-areas/lehi-ut/general-contracting/",
+        "/service-areas/orem-ut/general-contracting/",
+        "/service-areas/pleasant-grove-ut/general-contracting/",
+        "/service-areas/provo-ut/general-contracting/",
+        "/service-areas/saratoga-springs-ut/general-contracting/",
+        "/service-areas/spanish-fork-ut/general-contracting/",
+        "/service-areas/springville-ut/general-contracting/"
+      ]
+    },
+    {
+      "url_path": "/services/sewage-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in American Fork | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in American Fork",
+      "meta_description": "Sewage cleanup and sanitization in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization american fork",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/sewage-cleanup/",
+        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/service-areas/orem-ut/sewage-cleanup/",
+        "/service-areas/pleasant-grove-ut/sewage-cleanup/",
+        "/service-areas/provo-ut/sewage-cleanup/",
+        "/service-areas/saratoga-springs-ut/sewage-cleanup/",
+        "/service-areas/spanish-fork-ut/sewage-cleanup/",
+        "/service-areas/springville-ut/sewage-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-board-up-tarping/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Board-Up and Tarping in American Fork | FIX Restoration",
+      "h1": "Board-Up and Tarping in American Fork",
+      "meta_description": "Board-up and tarping in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping american fork",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/emergency-board-up-tarping/",
+        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/service-areas/orem-ut/emergency-board-up-tarping/",
+        "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/",
+        "/service-areas/provo-ut/emergency-board-up-tarping/",
+        "/service-areas/saratoga-springs-ut/emergency-board-up-tarping/",
+        "/service-areas/spanish-fork-ut/emergency-board-up-tarping/",
+        "/service-areas/springville-ut/emergency-board-up-tarping/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Cleanup in American Fork | FIX Restoration",
+      "h1": "Water Cleanup in American Fork",
+      "meta_description": "Water cleanup in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water cleanup american fork",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/water-cleanup/",
+        "/service-areas/lehi-ut/water-cleanup/",
+        "/service-areas/orem-ut/water-cleanup/",
+        "/service-areas/pleasant-grove-ut/water-cleanup/",
+        "/service-areas/provo-ut/water-cleanup/",
+        "/service-areas/saratoga-springs-ut/water-cleanup/",
+        "/service-areas/spanish-fork-ut/water-cleanup/",
+        "/service-areas/springville-ut/water-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-remediation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Remediation in American Fork | FIX Restoration",
+      "h1": "Mold Remediation in American Fork",
+      "meta_description": "Mold remediation in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation american fork",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/biohazard-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Biohazard Cleanup in American Fork | FIX Restoration",
+      "h1": "Biohazard Cleanup in American Fork",
+      "meta_description": "Biohazard cleanup in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup american fork",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/biohazard-cleanup/",
+        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/service-areas/orem-ut/biohazard-cleanup/",
+        "/service-areas/pleasant-grove-ut/biohazard-cleanup/",
+        "/service-areas/provo-ut/biohazard-cleanup/",
+        "/service-areas/saratoga-springs-ut/biohazard-cleanup/",
+        "/service-areas/spanish-fork-ut/biohazard-cleanup/",
+        "/service-areas/springville-ut/biohazard-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/contents-restoration-storage/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in American Fork | FIX Restoration",
+      "h1": "Contents Restoration & Storage in American Fork",
+      "meta_description": "Contents restoration & storage in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage american fork",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/contents-restoration-storage/",
+        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/service-areas/orem-ut/contents-restoration-storage/",
+        "/service-areas/pleasant-grove-ut/contents-restoration-storage/",
+        "/service-areas/provo-ut/contents-restoration-storage/",
+        "/service-areas/saratoga-springs-ut/contents-restoration-storage/",
+        "/service-areas/spanish-fork-ut/contents-restoration-storage/",
+        "/service-areas/springville-ut/contents-restoration-storage/"
+      ]
+    },
+    {
+      "url_path": "/services/flood-equipment-rental/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in American Fork | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in American Fork",
+      "meta_description": "Flood & drying equipment rental in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental american fork",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.7,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/highland-ut/flood-equipment-rental/",
+        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/service-areas/orem-ut/flood-equipment-rental/",
+        "/service-areas/pleasant-grove-ut/flood-equipment-rental/",
+        "/service-areas/provo-ut/flood-equipment-rental/",
+        "/service-areas/saratoga-springs-ut/flood-equipment-rental/",
+        "/service-areas/spanish-fork-ut/flood-equipment-rental/",
+        "/service-areas/springville-ut/flood-equipment-rental/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Provo, UT | FIX Restoration",
+      "h1": "Restoration Services in Provo",
+      "meta_description": "Serving Provo, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services provo",
+      "secondary_keywords": [
+        "provo restoration company",
+        "damage restoration provo",
+        "provo disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/provo-ut/water-damage-restoration/",
+        "/service-areas/provo-ut/sewage-cleanup/",
+        "/service-areas/provo-ut/storm-damage-restoration/",
+        "/service-areas/provo-ut/water-cleanup/",
+        "/service-areas/provo-ut/biohazard-cleanup/",
+        "/service-areas/provo-ut/general-contracting/",
+        "/service-areas/provo-ut/emergency-board-up-tarping/",
+        "/service-areas/provo-ut/contents-restoration-storage/",
+        "/service-areas/provo-ut/flood-equipment-rental/",
+        "/service-areas/highland-ut/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/orem-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Orem, UT | FIX Restoration",
+      "h1": "Restoration Services in Orem",
+      "meta_description": "Serving Orem, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services orem",
+      "secondary_keywords": [
+        "orem restoration company",
+        "damage restoration orem",
+        "orem disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/orem-ut/water-damage-restoration/",
+        "/service-areas/orem-ut/sewage-cleanup/",
+        "/service-areas/orem-ut/storm-damage-restoration/",
+        "/service-areas/orem-ut/water-cleanup/",
+        "/service-areas/orem-ut/biohazard-cleanup/",
+        "/service-areas/orem-ut/general-contracting/",
+        "/service-areas/orem-ut/emergency-board-up-tarping/",
+        "/service-areas/orem-ut/contents-restoration-storage/",
+        "/service-areas/orem-ut/flood-equipment-rental/",
+        "/service-areas/highland-ut/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/pleasant-grove-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Lehi, UT | FIX Restoration",
+      "h1": "Restoration Services in Lehi",
+      "meta_description": "Serving Lehi, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services lehi",
+      "secondary_keywords": [
+        "lehi restoration company",
+        "damage restoration lehi",
+        "lehi disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/service-areas/lehi-ut/water-cleanup/",
+        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/service-areas/lehi-ut/general-contracting/",
+        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/service-areas/highland-ut/",
+        "/service-areas/orem-ut/",
+        "/service-areas/pleasant-grove-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Restoration Services in Pleasant Grove",
+      "meta_description": "Serving Pleasant Grove, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services pleasant grove",
+      "secondary_keywords": [
+        "pleasant grove restoration company",
+        "damage restoration pleasant grove",
+        "pleasant grove disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/pleasant-grove-ut/water-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/sewage-cleanup/",
+        "/service-areas/pleasant-grove-ut/storm-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/water-cleanup/",
+        "/service-areas/pleasant-grove-ut/biohazard-cleanup/",
+        "/service-areas/pleasant-grove-ut/general-contracting/",
+        "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/",
+        "/service-areas/pleasant-grove-ut/contents-restoration-storage/",
+        "/service-areas/pleasant-grove-ut/flood-equipment-rental/",
+        "/service-areas/highland-ut/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/orem-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Spanish Fork, UT | FIX Restoration",
+      "h1": "Restoration Services in Spanish Fork",
+      "meta_description": "Serving Spanish Fork, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services spanish fork",
+      "secondary_keywords": [
+        "spanish fork restoration company",
+        "damage restoration spanish fork",
+        "spanish fork disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/spanish-fork-ut/water-damage-restoration/",
+        "/service-areas/spanish-fork-ut/sewage-cleanup/",
+        "/service-areas/spanish-fork-ut/storm-damage-restoration/",
+        "/service-areas/spanish-fork-ut/water-cleanup/",
+        "/service-areas/spanish-fork-ut/biohazard-cleanup/",
+        "/service-areas/spanish-fork-ut/general-contracting/",
+        "/service-areas/spanish-fork-ut/emergency-board-up-tarping/",
+        "/service-areas/spanish-fork-ut/contents-restoration-storage/",
+        "/service-areas/spanish-fork-ut/flood-equipment-rental/",
+        "/service-areas/highland-ut/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/orem-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Springville, UT | FIX Restoration",
+      "h1": "Restoration Services in Springville",
+      "meta_description": "Serving Springville, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services springville",
+      "secondary_keywords": [
+        "springville restoration company",
+        "damage restoration springville",
+        "springville disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/springville-ut/water-damage-restoration/",
+        "/service-areas/springville-ut/sewage-cleanup/",
+        "/service-areas/springville-ut/storm-damage-restoration/",
+        "/service-areas/springville-ut/water-cleanup/",
+        "/service-areas/springville-ut/biohazard-cleanup/",
+        "/service-areas/springville-ut/general-contracting/",
+        "/service-areas/springville-ut/emergency-board-up-tarping/",
+        "/service-areas/springville-ut/contents-restoration-storage/",
+        "/service-areas/springville-ut/flood-equipment-rental/",
+        "/service-areas/highland-ut/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/orem-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Restoration Services in Saratoga Springs",
+      "meta_description": "Serving Saratoga Springs, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services saratoga springs",
+      "secondary_keywords": [
+        "saratoga springs restoration company",
+        "damage restoration saratoga springs",
+        "saratoga springs disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/saratoga-springs-ut/water-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/sewage-cleanup/",
+        "/service-areas/saratoga-springs-ut/storm-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/water-cleanup/",
+        "/service-areas/saratoga-springs-ut/biohazard-cleanup/",
+        "/service-areas/saratoga-springs-ut/general-contracting/",
+        "/service-areas/saratoga-springs-ut/emergency-board-up-tarping/",
+        "/service-areas/saratoga-springs-ut/contents-restoration-storage/",
+        "/service-areas/saratoga-springs-ut/flood-equipment-rental/",
+        "/service-areas/highland-ut/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/orem-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Highland, UT | FIX Restoration",
+      "h1": "Restoration Services in Highland",
+      "meta_description": "Serving Highland, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services highland",
+      "secondary_keywords": [
+        "highland restoration company",
+        "damage restoration highland",
+        "highland disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/sewage-cleanup/",
+        "/service-areas/highland-ut/storm-damage-restoration/",
+        "/service-areas/highland-ut/water-cleanup/",
+        "/service-areas/highland-ut/biohazard-cleanup/",
+        "/service-areas/highland-ut/general-contracting/",
+        "/service-areas/highland-ut/emergency-board-up-tarping/",
+        "/service-areas/highland-ut/contents-restoration-storage/",
+        "/service-areas/highland-ut/flood-equipment-rental/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/orem-ut/",
+        "/service-areas/pleasant-grove-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Provo, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Provo",
+      "meta_description": "Water damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration provo",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Provo, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Provo",
+      "meta_description": "Storm damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration provo",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/highland-ut/storm-damage-restoration/",
+        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Provo, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Provo",
+      "meta_description": "Fire damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration provo",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/provo-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Provo, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Provo",
+      "meta_description": "Renovations, remodels and general contracting in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting provo",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/highland-ut/general-contracting/",
+        "/service-areas/lehi-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Provo, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Provo",
+      "meta_description": "Sewage cleanup and sanitization in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization provo",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/highland-ut/sewage-cleanup/",
+        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Provo, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Provo",
+      "meta_description": "Board-up and tarping in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping provo",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/highland-ut/emergency-board-up-tarping/",
+        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Provo, UT | FIX Restoration",
+      "h1": "Water Cleanup in Provo",
+      "meta_description": "Water cleanup in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water cleanup provo",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-cleanup/",
+        "/service-areas/lehi-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Provo, UT | FIX Restoration",
+      "h1": "Mold Remediation in Provo",
+      "meta_description": "Mold remediation in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation provo",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Provo, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Provo",
+      "meta_description": "Biohazard cleanup in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup provo",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/highland-ut/biohazard-cleanup/",
+        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Provo, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Provo",
+      "meta_description": "Contents restoration & storage in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage provo",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/highland-ut/contents-restoration-storage/",
+        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/provo-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Provo, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Provo",
+      "meta_description": "Flood & drying equipment rental in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental provo",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/highland-ut/flood-equipment-rental/",
+        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Orem, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Orem",
+      "meta_description": "Water damage restoration in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration orem",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Orem, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Orem",
+      "meta_description": "Storm damage restoration in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration orem",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/highland-ut/storm-damage-restoration/",
+        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Orem, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Orem",
+      "meta_description": "Fire damage restoration in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration orem",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/orem-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Orem, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Orem",
+      "meta_description": "Renovations, remodels and general contracting in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting orem",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/highland-ut/general-contracting/",
+        "/service-areas/lehi-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Orem, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Orem",
+      "meta_description": "Sewage cleanup and sanitization in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization orem",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/highland-ut/sewage-cleanup/",
+        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Orem, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Orem",
+      "meta_description": "Board-up and tarping in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping orem",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/highland-ut/emergency-board-up-tarping/",
+        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Orem, UT | FIX Restoration",
+      "h1": "Water Cleanup in Orem",
+      "meta_description": "Water cleanup in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water cleanup orem",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-cleanup/",
+        "/service-areas/lehi-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Orem, UT | FIX Restoration",
+      "h1": "Mold Remediation in Orem",
+      "meta_description": "Mold remediation in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation orem",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Orem, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Orem",
+      "meta_description": "Biohazard cleanup in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup orem",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/highland-ut/biohazard-cleanup/",
+        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Orem, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Orem",
+      "meta_description": "Contents restoration & storage in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage orem",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/highland-ut/contents-restoration-storage/",
+        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Orem, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Orem",
+      "meta_description": "Flood & drying equipment rental in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental orem",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/highland-ut/flood-equipment-rental/",
+        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Lehi, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Lehi",
+      "meta_description": "Water damage restoration in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration lehi",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/orem-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Lehi, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Lehi",
+      "meta_description": "Storm damage restoration in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration lehi",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/highland-ut/storm-damage-restoration/",
+        "/service-areas/orem-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Lehi, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Lehi",
+      "meta_description": "Fire damage restoration in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration lehi",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Lehi, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Lehi",
+      "meta_description": "Renovations, remodels and general contracting in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting lehi",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/highland-ut/general-contracting/",
+        "/service-areas/orem-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Lehi, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Lehi",
+      "meta_description": "Sewage cleanup and sanitization in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization lehi",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/highland-ut/sewage-cleanup/",
+        "/service-areas/orem-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Lehi, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Lehi",
+      "meta_description": "Board-up and tarping in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping lehi",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/highland-ut/emergency-board-up-tarping/",
+        "/service-areas/orem-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Lehi, UT | FIX Restoration",
+      "h1": "Water Cleanup in Lehi",
+      "meta_description": "Water cleanup in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water cleanup lehi",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-cleanup/",
+        "/service-areas/orem-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Lehi, UT | FIX Restoration",
+      "h1": "Mold Remediation in Lehi",
+      "meta_description": "Mold remediation in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation lehi",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Lehi, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Lehi",
+      "meta_description": "Biohazard cleanup in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup lehi",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/highland-ut/biohazard-cleanup/",
+        "/service-areas/orem-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Lehi, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Lehi",
+      "meta_description": "Contents restoration & storage in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage lehi",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/highland-ut/contents-restoration-storage/",
+        "/service-areas/orem-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Lehi, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Lehi",
+      "meta_description": "Flood & drying equipment rental in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental lehi",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/highland-ut/flood-equipment-rental/",
+        "/service-areas/orem-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Pleasant Grove",
+      "meta_description": "Water damage restoration in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration pleasant grove",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Pleasant Grove",
+      "meta_description": "Storm damage restoration in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration pleasant grove",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/highland-ut/storm-damage-restoration/",
+        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Pleasant Grove",
+      "meta_description": "Fire damage restoration in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration pleasant grove",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/pleasant-grove-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Pleasant Grove",
+      "meta_description": "Renovations, remodels and general contracting in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting pleasant grove",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/highland-ut/general-contracting/",
+        "/service-areas/lehi-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Pleasant Grove",
+      "meta_description": "Sewage cleanup and sanitization in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization pleasant grove",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/highland-ut/sewage-cleanup/",
+        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Pleasant Grove",
+      "meta_description": "Board-up and tarping in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping pleasant grove",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/highland-ut/emergency-board-up-tarping/",
+        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Water Cleanup in Pleasant Grove",
+      "meta_description": "Water cleanup in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water cleanup pleasant grove",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-cleanup/",
+        "/service-areas/lehi-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Mold Remediation in Pleasant Grove",
+      "meta_description": "Mold remediation in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation pleasant grove",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Pleasant Grove",
+      "meta_description": "Biohazard cleanup in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup pleasant grove",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/highland-ut/biohazard-cleanup/",
+        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Pleasant Grove",
+      "meta_description": "Contents restoration & storage in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage pleasant grove",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/highland-ut/contents-restoration-storage/",
+        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pleasant-grove-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Pleasant Grove, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Pleasant Grove",
+      "meta_description": "Flood & drying equipment rental in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental pleasant grove",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/highland-ut/flood-equipment-rental/",
+        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Spanish Fork, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Spanish Fork",
+      "meta_description": "Water damage restoration in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration spanish fork",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Spanish Fork, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Spanish Fork",
+      "meta_description": "Storm damage restoration in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration spanish fork",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/highland-ut/storm-damage-restoration/",
+        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Spanish Fork, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Spanish Fork",
+      "meta_description": "Fire damage restoration in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration spanish fork",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/spanish-fork-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Spanish Fork, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Spanish Fork",
+      "meta_description": "Renovations, remodels and general contracting in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting spanish fork",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/highland-ut/general-contracting/",
+        "/service-areas/lehi-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Spanish Fork, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Spanish Fork",
+      "meta_description": "Sewage cleanup and sanitization in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization spanish fork",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/highland-ut/sewage-cleanup/",
+        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Spanish Fork, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Spanish Fork",
+      "meta_description": "Board-up and tarping in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping spanish fork",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/highland-ut/emergency-board-up-tarping/",
+        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Spanish Fork, UT | FIX Restoration",
+      "h1": "Water Cleanup in Spanish Fork",
+      "meta_description": "Water cleanup in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water cleanup spanish fork",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-cleanup/",
+        "/service-areas/lehi-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Spanish Fork, UT | FIX Restoration",
+      "h1": "Mold Remediation in Spanish Fork",
+      "meta_description": "Mold remediation in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation spanish fork",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Spanish Fork, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Spanish Fork",
+      "meta_description": "Biohazard cleanup in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup spanish fork",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/highland-ut/biohazard-cleanup/",
+        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Spanish Fork, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Spanish Fork",
+      "meta_description": "Contents restoration & storage in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage spanish fork",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/highland-ut/contents-restoration-storage/",
+        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spanish-fork-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Spanish Fork, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Spanish Fork",
+      "meta_description": "Flood & drying equipment rental in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental spanish fork",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/spanish-fork-ut/",
+        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+        "/service-areas/spanish-fork-ut/mold-remediation/",
+        "/service-areas/highland-ut/flood-equipment-rental/",
+        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Springville, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Springville",
+      "meta_description": "Water damage restoration in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration springville",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Springville, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Springville",
+      "meta_description": "Storm damage restoration in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration springville",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/highland-ut/storm-damage-restoration/",
+        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Springville, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Springville",
+      "meta_description": "Fire damage restoration in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration springville",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/springville-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Springville, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Springville",
+      "meta_description": "Renovations, remodels and general contracting in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting springville",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/highland-ut/general-contracting/",
+        "/service-areas/lehi-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Springville, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Springville",
+      "meta_description": "Sewage cleanup and sanitization in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization springville",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/highland-ut/sewage-cleanup/",
+        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Springville, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Springville",
+      "meta_description": "Board-up and tarping in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping springville",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/highland-ut/emergency-board-up-tarping/",
+        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Springville, UT | FIX Restoration",
+      "h1": "Water Cleanup in Springville",
+      "meta_description": "Water cleanup in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water cleanup springville",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-cleanup/",
+        "/service-areas/lehi-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Springville, UT | FIX Restoration",
+      "h1": "Mold Remediation in Springville",
+      "meta_description": "Mold remediation in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation springville",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Springville, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Springville",
+      "meta_description": "Biohazard cleanup in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup springville",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/highland-ut/biohazard-cleanup/",
+        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Springville, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Springville",
+      "meta_description": "Contents restoration & storage in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage springville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/highland-ut/contents-restoration-storage/",
+        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springville-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Springville, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Springville",
+      "meta_description": "Flood & drying equipment rental in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental springville",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/springville-ut/",
+        "/service-areas/springville-ut/fire-damage-restoration/",
+        "/service-areas/springville-ut/mold-remediation/",
+        "/service-areas/highland-ut/flood-equipment-rental/",
+        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Saratoga Springs",
+      "meta_description": "Water damage restoration in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration saratoga springs",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Saratoga Springs",
+      "meta_description": "Storm damage restoration in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration saratoga springs",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/highland-ut/storm-damage-restoration/",
+        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Saratoga Springs",
+      "meta_description": "Fire damage restoration in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration saratoga springs",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/saratoga-springs-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Saratoga Springs",
+      "meta_description": "Renovations, remodels and general contracting in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting saratoga springs",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/highland-ut/general-contracting/",
+        "/service-areas/lehi-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Saratoga Springs",
+      "meta_description": "Sewage cleanup and sanitization in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization saratoga springs",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/highland-ut/sewage-cleanup/",
+        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Saratoga Springs",
+      "meta_description": "Board-up and tarping in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping saratoga springs",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/highland-ut/emergency-board-up-tarping/",
+        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Water Cleanup in Saratoga Springs",
+      "meta_description": "Water cleanup in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water cleanup saratoga springs",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-cleanup/",
+        "/service-areas/lehi-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Mold Remediation in Saratoga Springs",
+      "meta_description": "Mold remediation in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation saratoga springs",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/water-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Saratoga Springs",
+      "meta_description": "Biohazard cleanup in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup saratoga springs",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/highland-ut/biohazard-cleanup/",
+        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Saratoga Springs",
+      "meta_description": "Contents restoration & storage in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage saratoga springs",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/highland-ut/contents-restoration-storage/",
+        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saratoga-springs-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Saratoga Springs, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Saratoga Springs",
+      "meta_description": "Flood & drying equipment rental in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental saratoga springs",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/highland-ut/flood-equipment-rental/",
+        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Highland, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Highland",
+      "meta_description": "Water damage restoration in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration highland",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/orem-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Highland, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Highland",
+      "meta_description": "Storm damage restoration in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration highland",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/service-areas/orem-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Highland, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Highland",
+      "meta_description": "Fire damage restoration in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration highland",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Highland, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Highland",
+      "meta_description": "Renovations, remodels and general contracting in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting highland",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/general-contracting/",
+        "/service-areas/orem-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Highland, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Highland",
+      "meta_description": "Sewage cleanup and sanitization in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization highland",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/service-areas/orem-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Highland, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Highland",
+      "meta_description": "Board-up and tarping in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping highland",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/service-areas/orem-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Highland, UT | FIX Restoration",
+      "h1": "Water Cleanup in Highland",
+      "meta_description": "Water cleanup in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water cleanup highland",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/water-cleanup/",
+        "/service-areas/orem-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Highland, UT | FIX Restoration",
+      "h1": "Mold Remediation in Highland",
+      "meta_description": "Mold remediation in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation highland",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/water-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Highland, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Highland",
+      "meta_description": "Biohazard cleanup in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup highland",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/service-areas/orem-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Highland, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Highland",
+      "meta_description": "Contents restoration & storage in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage highland",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/service-areas/orem-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Highland, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Highland",
+      "meta_description": "Flood & drying equipment rental in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental highland",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/highland-ut/",
+        "/service-areas/highland-ut/fire-damage-restoration/",
+        "/service-areas/highland-ut/mold-remediation/",
+        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/service-areas/orem-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/signs-of-hidden-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "h1": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "meta_description": "",
+      "primary_keyword": "7 signs you have hidden mold and what to do next",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/fire-damage-restoration-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Fire Damage Restoration Process, Explained",
+      "h1": "The Fire Damage Restoration Process, Explained",
+      "meta_description": "",
+      "primary_keyword": "the fire damage restoration process explained",
+      "secondary_keywords": [
+        "fire damage restoration",
+        "smoke damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/black-mold-vs-regular-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "h1": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "meta_description": "",
+      "primary_keyword": "black mold vs regular mold how to tell the difference",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | FIX Restoration",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "fix restoration privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | FIX Restoration",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "fix restoration terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | FIX Restoration",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "fix restoration accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}

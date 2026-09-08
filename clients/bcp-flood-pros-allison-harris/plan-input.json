@@ -2,6 +2,82 @@
  "brand": {
   "display_name": "FIX Restoration",
   "lat": 40.3768064,
-  "lng": -111.7959146
- }
+  "lng": -111.7959146,
+  "phone": "(801) 930-9750",
+  "email": "scott.noland@gofloodpros.com",
+  "street_address": "250 W Main St",
+  "city": "American Fork",
+  "state": "UT",
+  "postal_code": "84003",
+  "theme": "light",
+  "licensed_insured_attested": true,
+  "founded_year": "2012",
+  "trust_badges": [
+   "Licensed & Insured",
+   "Locally Owned & Operated"
+  ]
+ },
+ "services": [
+  "water-damage-restoration",
+  "storm-damage-restoration",
+  "fire-damage-restoration",
+  "general-contracting",
+  "sewage-cleanup",
+  "emergency-board-up-tarping",
+  "water-cleanup",
+  "mold-remediation",
+  "biohazard-cleanup",
+  "contents-restoration-storage",
+  "flood-equipment-rental"
+ ],
+ "service_areas": [
+  {
+   "city": "American Fork",
+   "state": "UT",
+   "slug": "american-fork-ut",
+   "primary": true
+  },
+  {
+   "city": "Provo",
+   "state": "UT",
+   "slug": "provo-ut"
+  },
+  {
+   "city": "Orem",
+   "state": "UT",
+   "slug": "orem-ut"
+  },
+  {
+   "city": "Lehi",
+   "state": "UT",
+   "slug": "lehi-ut"
+  },
+  {
+   "city": "Pleasant Grove",
+   "state": "UT",
+   "slug": "pleasant-grove-ut"
+  },
+  {
+   "city": "Spanish Fork",
+   "state": "UT",
+   "slug": "spanish-fork-ut"
+  },
+  {
+   "city": "Springville",
+   "state": "UT",
+   "slug": "springville-ut"
+  },
+  {
+   "city": "Saratoga Springs",
+   "state": "UT",
+   "slug": "saratoga-springs-ut"
+  },
+  {
+   "city": "Highland",
+   "state": "UT",
+   "slug": "highland-ut"
+  }
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
 }

@@ -1,0 +1,1208 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/biohazard-cleanup/",
+    "/services/general-contracting/",
+    "/services/emergency-board-up-tarping/",
+    "/services/contents-restoration-storage/",
+    "/services/flood-equipment-rental/",
+    "/service-areas/highland-ut/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/orem-ut/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/provo-ut/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/springville-ut/"
+  ],
+  "/services/": [
+    "/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/biohazard-cleanup/",
+    "/services/general-contracting/",
+    "/services/emergency-board-up-tarping/",
+    "/services/contents-restoration-storage/",
+    "/services/flood-equipment-rental/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/highland-ut/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/orem-ut/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/provo-ut/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/springville-ut/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/fire-damage-restoration-process/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/water-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/service-areas/orem-ut/water-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/water-damage-restoration/",
+    "/service-areas/provo-ut/water-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/water-damage-restoration/",
+    "/service-areas/spanish-fork-ut/water-damage-restoration/",
+    "/service-areas/springville-ut/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/storm-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/storm-damage-restoration/",
+    "/service-areas/lehi-ut/storm-damage-restoration/",
+    "/service-areas/orem-ut/storm-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/storm-damage-restoration/",
+    "/service-areas/provo-ut/storm-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/storm-damage-restoration/",
+    "/service-areas/spanish-fork-ut/storm-damage-restoration/",
+    "/service-areas/springville-ut/storm-damage-restoration/"
+  ],
+  "/services/fire-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/"
+  ],
+  "/services/general-contracting/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/general-contracting/",
+    "/service-areas/lehi-ut/general-contracting/",
+    "/service-areas/orem-ut/general-contracting/",
+    "/service-areas/pleasant-grove-ut/general-contracting/",
+    "/service-areas/provo-ut/general-contracting/",
+    "/service-areas/saratoga-springs-ut/general-contracting/",
+    "/service-areas/spanish-fork-ut/general-contracting/",
+    "/service-areas/springville-ut/general-contracting/"
+  ],
+  "/services/sewage-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/sewage-cleanup/",
+    "/service-areas/lehi-ut/sewage-cleanup/",
+    "/service-areas/orem-ut/sewage-cleanup/",
+    "/service-areas/pleasant-grove-ut/sewage-cleanup/",
+    "/service-areas/provo-ut/sewage-cleanup/",
+    "/service-areas/saratoga-springs-ut/sewage-cleanup/",
+    "/service-areas/spanish-fork-ut/sewage-cleanup/",
+    "/service-areas/springville-ut/sewage-cleanup/"
+  ],
+  "/services/emergency-board-up-tarping/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/emergency-board-up-tarping/",
+    "/service-areas/lehi-ut/emergency-board-up-tarping/",
+    "/service-areas/orem-ut/emergency-board-up-tarping/",
+    "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/",
+    "/service-areas/provo-ut/emergency-board-up-tarping/",
+    "/service-areas/saratoga-springs-ut/emergency-board-up-tarping/",
+    "/service-areas/spanish-fork-ut/emergency-board-up-tarping/",
+    "/service-areas/springville-ut/emergency-board-up-tarping/"
+  ],
+  "/services/water-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/water-cleanup/",
+    "/service-areas/lehi-ut/water-cleanup/",
+    "/service-areas/orem-ut/water-cleanup/",
+    "/service-areas/pleasant-grove-ut/water-cleanup/",
+    "/service-areas/provo-ut/water-cleanup/",
+    "/service-areas/saratoga-springs-ut/water-cleanup/",
+    "/service-areas/spanish-fork-ut/water-cleanup/",
+    "/service-areas/springville-ut/water-cleanup/"
+  ],
+  "/services/mold-remediation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/services/biohazard-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/biohazard-cleanup/",
+    "/service-areas/lehi-ut/biohazard-cleanup/",
+    "/service-areas/orem-ut/biohazard-cleanup/",
+    "/service-areas/pleasant-grove-ut/biohazard-cleanup/",
+    "/service-areas/provo-ut/biohazard-cleanup/",
+    "/service-areas/saratoga-springs-ut/biohazard-cleanup/",
+    "/service-areas/spanish-fork-ut/biohazard-cleanup/",
+    "/service-areas/springville-ut/biohazard-cleanup/"
+  ],
+  "/services/contents-restoration-storage/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/contents-restoration-storage/",
+    "/service-areas/lehi-ut/contents-restoration-storage/",
+    "/service-areas/orem-ut/contents-restoration-storage/",
+    "/service-areas/pleasant-grove-ut/contents-restoration-storage/",
+    "/service-areas/provo-ut/contents-restoration-storage/",
+    "/service-areas/saratoga-springs-ut/contents-restoration-storage/",
+    "/service-areas/spanish-fork-ut/contents-restoration-storage/",
+    "/service-areas/springville-ut/contents-restoration-storage/"
+  ],
+  "/services/flood-equipment-rental/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/highland-ut/flood-equipment-rental/",
+    "/service-areas/lehi-ut/flood-equipment-rental/",
+    "/service-areas/orem-ut/flood-equipment-rental/",
+    "/service-areas/pleasant-grove-ut/flood-equipment-rental/",
+    "/service-areas/provo-ut/flood-equipment-rental/",
+    "/service-areas/saratoga-springs-ut/flood-equipment-rental/",
+    "/service-areas/spanish-fork-ut/flood-equipment-rental/",
+    "/service-areas/springville-ut/flood-equipment-rental/"
+  ],
+  "/service-areas/provo-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/provo-ut/water-damage-restoration/",
+    "/service-areas/provo-ut/sewage-cleanup/",
+    "/service-areas/provo-ut/storm-damage-restoration/",
+    "/service-areas/provo-ut/water-cleanup/",
+    "/service-areas/provo-ut/biohazard-cleanup/",
+    "/service-areas/provo-ut/general-contracting/",
+    "/service-areas/provo-ut/emergency-board-up-tarping/",
+    "/service-areas/provo-ut/contents-restoration-storage/",
+    "/service-areas/provo-ut/flood-equipment-rental/",
+    "/service-areas/highland-ut/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/orem-ut/"
+  ],
+  "/service-areas/orem-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/orem-ut/water-damage-restoration/",
+    "/service-areas/orem-ut/sewage-cleanup/",
+    "/service-areas/orem-ut/storm-damage-restoration/",
+    "/service-areas/orem-ut/water-cleanup/",
+    "/service-areas/orem-ut/biohazard-cleanup/",
+    "/service-areas/orem-ut/general-contracting/",
+    "/service-areas/orem-ut/emergency-board-up-tarping/",
+    "/service-areas/orem-ut/contents-restoration-storage/",
+    "/service-areas/orem-ut/flood-equipment-rental/",
+    "/service-areas/highland-ut/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/pleasant-grove-ut/"
+  ],
+  "/service-areas/lehi-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/service-areas/lehi-ut/sewage-cleanup/",
+    "/service-areas/lehi-ut/storm-damage-restoration/",
+    "/service-areas/lehi-ut/water-cleanup/",
+    "/service-areas/lehi-ut/biohazard-cleanup/",
+    "/service-areas/lehi-ut/general-contracting/",
+    "/service-areas/lehi-ut/emergency-board-up-tarping/",
+    "/service-areas/lehi-ut/contents-restoration-storage/",
+    "/service-areas/lehi-ut/flood-equipment-rental/",
+    "/service-areas/highland-ut/",
+    "/service-areas/orem-ut/",
+    "/service-areas/pleasant-grove-ut/"
+  ],
+  "/service-areas/pleasant-grove-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/pleasant-grove-ut/water-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/sewage-cleanup/",
+    "/service-areas/pleasant-grove-ut/storm-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/water-cleanup/",
+    "/service-areas/pleasant-grove-ut/biohazard-cleanup/",
+    "/service-areas/pleasant-grove-ut/general-contracting/",
+    "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/",
+    "/service-areas/pleasant-grove-ut/contents-restoration-storage/",
+    "/service-areas/pleasant-grove-ut/flood-equipment-rental/",
+    "/service-areas/highland-ut/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/orem-ut/"
+  ],
+  "/service-areas/spanish-fork-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/spanish-fork-ut/water-damage-restoration/",
+    "/service-areas/spanish-fork-ut/sewage-cleanup/",
+    "/service-areas/spanish-fork-ut/storm-damage-restoration/",
+    "/service-areas/spanish-fork-ut/water-cleanup/",
+    "/service-areas/spanish-fork-ut/biohazard-cleanup/",
+    "/service-areas/spanish-fork-ut/general-contracting/",
+    "/service-areas/spanish-fork-ut/emergency-board-up-tarping/",
+    "/service-areas/spanish-fork-ut/contents-restoration-storage/",
+    "/service-areas/spanish-fork-ut/flood-equipment-rental/",
+    "/service-areas/highland-ut/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/orem-ut/"
+  ],
+  "/service-areas/springville-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/springville-ut/water-damage-restoration/",
+    "/service-areas/springville-ut/sewage-cleanup/",
+    "/service-areas/springville-ut/storm-damage-restoration/",
+    "/service-areas/springville-ut/water-cleanup/",
+    "/service-areas/springville-ut/biohazard-cleanup/",
+    "/service-areas/springville-ut/general-contracting/",
+    "/service-areas/springville-ut/emergency-board-up-tarping/",
+    "/service-areas/springville-ut/contents-restoration-storage/",
+    "/service-areas/springville-ut/flood-equipment-rental/",
+    "/service-areas/highland-ut/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/orem-ut/"
+  ],
+  "/service-areas/saratoga-springs-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/saratoga-springs-ut/water-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/sewage-cleanup/",
+    "/service-areas/saratoga-springs-ut/storm-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/water-cleanup/",
+    "/service-areas/saratoga-springs-ut/biohazard-cleanup/",
+    "/service-areas/saratoga-springs-ut/general-contracting/",
+    "/service-areas/saratoga-springs-ut/emergency-board-up-tarping/",
+    "/service-areas/saratoga-springs-ut/contents-restoration-storage/",
+    "/service-areas/saratoga-springs-ut/flood-equipment-rental/",
+    "/service-areas/highland-ut/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/orem-ut/"
+  ],
+  "/service-areas/highland-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/sewage-cleanup/",
+    "/service-areas/highland-ut/storm-damage-restoration/",
+    "/service-areas/highland-ut/water-cleanup/",
+    "/service-areas/highland-ut/biohazard-cleanup/",
+    "/service-areas/highland-ut/general-contracting/",
+    "/service-areas/highland-ut/emergency-board-up-tarping/",
+    "/service-areas/highland-ut/contents-restoration-storage/",
+    "/service-areas/highland-ut/flood-equipment-rental/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/orem-ut/",
+    "/service-areas/pleasant-grove-ut/"
+  ],
+  "/service-areas/provo-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/provo-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/highland-ut/storm-damage-restoration/",
+    "/service-areas/lehi-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/provo-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/provo-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/provo-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/highland-ut/general-contracting/",
+    "/service-areas/lehi-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/provo-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/highland-ut/sewage-cleanup/",
+    "/service-areas/lehi-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/provo-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/highland-ut/emergency-board-up-tarping/",
+    "/service-areas/lehi-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/provo-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-cleanup/",
+    "/service-areas/lehi-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/provo-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/provo-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/highland-ut/biohazard-cleanup/",
+    "/service-areas/lehi-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/provo-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/highland-ut/contents-restoration-storage/",
+    "/service-areas/lehi-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/provo-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/provo-ut/",
+    "/service-areas/provo-ut/fire-damage-restoration/",
+    "/service-areas/provo-ut/mold-remediation/",
+    "/service-areas/highland-ut/flood-equipment-rental/",
+    "/service-areas/lehi-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/highland-ut/storm-damage-restoration/",
+    "/service-areas/lehi-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/orem-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/highland-ut/general-contracting/",
+    "/service-areas/lehi-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/highland-ut/sewage-cleanup/",
+    "/service-areas/lehi-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/highland-ut/emergency-board-up-tarping/",
+    "/service-areas/lehi-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-cleanup/",
+    "/service-areas/lehi-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/highland-ut/biohazard-cleanup/",
+    "/service-areas/lehi-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/highland-ut/contents-restoration-storage/",
+    "/service-areas/lehi-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/orem-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/orem-ut/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/service-areas/highland-ut/flood-equipment-rental/",
+    "/service-areas/lehi-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/orem-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/highland-ut/storm-damage-restoration/",
+    "/service-areas/orem-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/highland-ut/general-contracting/",
+    "/service-areas/orem-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/highland-ut/sewage-cleanup/",
+    "/service-areas/orem-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/highland-ut/emergency-board-up-tarping/",
+    "/service-areas/orem-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-cleanup/",
+    "/service-areas/orem-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/highland-ut/biohazard-cleanup/",
+    "/service-areas/orem-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/highland-ut/contents-restoration-storage/",
+    "/service-areas/orem-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/lehi-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/lehi-ut/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/highland-ut/flood-equipment-rental/",
+    "/service-areas/orem-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/highland-ut/storm-damage-restoration/",
+    "/service-areas/lehi-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/pleasant-grove-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/highland-ut/general-contracting/",
+    "/service-areas/lehi-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/highland-ut/sewage-cleanup/",
+    "/service-areas/lehi-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/highland-ut/emergency-board-up-tarping/",
+    "/service-areas/lehi-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-cleanup/",
+    "/service-areas/lehi-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/highland-ut/biohazard-cleanup/",
+    "/service-areas/lehi-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/highland-ut/contents-restoration-storage/",
+    "/service-areas/lehi-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-grove-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/pleasant-grove-ut/",
+    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+    "/service-areas/pleasant-grove-ut/mold-remediation/",
+    "/service-areas/highland-ut/flood-equipment-rental/",
+    "/service-areas/lehi-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/highland-ut/storm-damage-restoration/",
+    "/service-areas/lehi-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/spanish-fork-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/highland-ut/general-contracting/",
+    "/service-areas/lehi-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/highland-ut/sewage-cleanup/",
+    "/service-areas/lehi-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/highland-ut/emergency-board-up-tarping/",
+    "/service-areas/lehi-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-cleanup/",
+    "/service-areas/lehi-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/highland-ut/biohazard-cleanup/",
+    "/service-areas/lehi-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/highland-ut/contents-restoration-storage/",
+    "/service-areas/lehi-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/spanish-fork-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/spanish-fork-ut/",
+    "/service-areas/spanish-fork-ut/fire-damage-restoration/",
+    "/service-areas/spanish-fork-ut/mold-remediation/",
+    "/service-areas/highland-ut/flood-equipment-rental/",
+    "/service-areas/lehi-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/highland-ut/storm-damage-restoration/",
+    "/service-areas/lehi-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/springville-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/highland-ut/general-contracting/",
+    "/service-areas/lehi-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/highland-ut/sewage-cleanup/",
+    "/service-areas/lehi-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/highland-ut/emergency-board-up-tarping/",
+    "/service-areas/lehi-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-cleanup/",
+    "/service-areas/lehi-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/highland-ut/biohazard-cleanup/",
+    "/service-areas/lehi-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/highland-ut/contents-restoration-storage/",
+    "/service-areas/lehi-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/springville-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/springville-ut/",
+    "/service-areas/springville-ut/fire-damage-restoration/",
+    "/service-areas/springville-ut/mold-remediation/",
+    "/service-areas/highland-ut/flood-equipment-rental/",
+    "/service-areas/lehi-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/highland-ut/storm-damage-restoration/",
+    "/service-areas/lehi-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/saratoga-springs-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/highland-ut/general-contracting/",
+    "/service-areas/lehi-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/highland-ut/sewage-cleanup/",
+    "/service-areas/lehi-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/highland-ut/emergency-board-up-tarping/",
+    "/service-areas/lehi-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-cleanup/",
+    "/service-areas/lehi-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/water-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/highland-ut/biohazard-cleanup/",
+    "/service-areas/lehi-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/highland-ut/contents-restoration-storage/",
+    "/service-areas/lehi-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/saratoga-springs-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/saratoga-springs-ut/",
+    "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+    "/service-areas/saratoga-springs-ut/mold-remediation/",
+    "/service-areas/highland-ut/flood-equipment-rental/",
+    "/service-areas/lehi-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/service-areas/orem-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/storm-damage-restoration/",
+    "/service-areas/orem-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/orem-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/general-contracting/",
+    "/service-areas/orem-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/sewage-cleanup/",
+    "/service-areas/orem-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/emergency-board-up-tarping/",
+    "/service-areas/orem-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/water-cleanup/",
+    "/service-areas/orem-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/water-damage-restoration/",
+    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/orem-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/biohazard-cleanup/",
+    "/service-areas/orem-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/contents-restoration-storage/",
+    "/service-areas/orem-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/highland-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/highland-ut/",
+    "/service-areas/highland-ut/fire-damage-restoration/",
+    "/service-areas/highland-ut/mold-remediation/",
+    "/service-areas/lehi-ut/flood-equipment-rental/",
+    "/service-areas/orem-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/blog/what-to-do-first-24-hours-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/burst-pipe-emergency-checklist/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/does-homeowners-insurance-cover-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/signs-of-hidden-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/how-to-test-for-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/fire-damage-restoration-process/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/choosing-a-restoration-company/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/black-mold-vs-regular-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "dry-bros-water-fire-restoration",
+  "display_name": "Dry Bros Water & Fire Restoration",
+  "domain": null,
+  "tier": "standard",
+  "vertical": "restoration",
+  "contact": "amin.mashouf@gmail.com",
+  "status": "onboarding",
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.3.0",
+    "url_count": 56,
+    "generated_at": "2026-09-08T20:19:47.655705+00:00"
+  },
+  "updated_at": "2026-09-08T20:19:57.946909+00:00",
+  "indexnow_key": "c6ac0439f07d44adb611dfb90b41c8e1",
+  "build": {
+    "scaffolded_at": "2026-09-08T20:19:57.946792+00:00",
+    "github_repo": "restorationai/dry-bros-water-fire-restoration-site",
+    "pages_project": "rankai-dry-bros-water-fire-restoration",
+    "starter_version": "0.1.0",
+    "url_count": 56,
+    "pages_status": "created",
+    "last_rendered_at": "2026-09-08T20:30:40.319642+00:00"
+  },
+  "build_status": "content_partial"
+}

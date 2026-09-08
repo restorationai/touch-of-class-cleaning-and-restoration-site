@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bcp-flood-pros-allison-harris.invalid/sitemap-index.xml
