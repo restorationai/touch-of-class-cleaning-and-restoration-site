@@ -59,6 +59,10 @@ export const brand = {
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Las Vegas, NV.",
   ctaLabel: "24/7 Emergency Line",
+  // Google Ads click-to-call conversion (biohazard-division PPC launch
+  // 2026-09-08). The LP layouts load gtag + fire on tel: clicks when set.
+  gadsId: "AW-18217052718",
+  gadsCallConversionLabel: "AW-18217052718/YvXxCIn2s_EcEK7UyO5D",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

@@ -15,7 +15,7 @@
     "url_count": 132,
     "generated_at": "2026-08-29T16:23:49.883291+00:00"
   },
-  "updated_at": "2026-09-07T20:24:17.883185+00:00",
+  "updated_at": "2026-09-08T06:06:09.692737+00:00",
   "build": {
     "scaffolded_at": "2026-07-23T06:15:02.233709+00:00",
     "github_repo": "restorationai/puroclean-east-las-vegas-site",
@@ -25,7 +25,7 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-08-29T16:37:23.223685+00:00",
     "last_pushed_staging_at": "2026-09-03T04:57:02.434332+00:00",
-    "last_pushed_main_at": "2026-09-07T20:24:17.883162+00:00"
+    "last_pushed_main_at": "2026-09-08T06:06:09.692701+00:00"
   },
   "build_status": "pushed_main",
   "indexnow_key": "4ee9211aefa640b59f8a664f6e3f49ff",
@@ -61,5 +61,12 @@
   "brightlocal": {
     "location_id": 4147029,
     "campaign_id": 997242
+  },
+  "google_ads": {
+    "customer_id": "1813437945",
+    "google_ads_customer_id": "1813437945"
+  },
+  "brand": {
+    "google_ads_customer_id": "1813437945"
   }
 }
