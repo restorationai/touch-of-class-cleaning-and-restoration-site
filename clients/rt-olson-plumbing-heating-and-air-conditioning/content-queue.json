@@ -106,10 +106,10 @@
     },
     {
       "id": "2026-08-28-how-to-pick-the-best-plumber-near-me",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-28T01:35:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-08T14:52:23Z",
+      "post_url": "https://rtolsonplumbing.com/blog/how-to-pick-the-best-plumber-near-me/",
       "primary_keyword": "best plumber near me",
       "intent": "commercial",
       "volume": 14800,
