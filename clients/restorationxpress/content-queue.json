@@ -1,930 +1,952 @@
 {
- "items": [
-  {
-   "id": "2026-08-28-water-damage-restoration-cost-fl",
-   "status": "queued",
-   "queued_at": "2026-08-28T08:21:43Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-fl",
-   "primary_keyword": "water damage restoration cost FL",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "davie-fl",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Davie",
-    "state": "FL",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in FL",
-    "water damage restoration price FL",
-    "average cost of water damage restoration FL",
-    "water damage cleanup FL",
-    "water cleanup FL",
-    "water removal FL"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-08-07-best-water-damage-restoration-in-davie-fl",
-   "status": "published",
-   "queued_at": "2026-08-07T03:44:52Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-davie-fl",
-   "primary_keyword": "best water damage restoration company in Davie, FL",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "davie-fl",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Davie",
-    "state": "FL",
-    "competitors": [
-     {
-      "name": "PuroClean of Davie",
-      "google_rating": 5,
-      "review_count": 52
-     },
-     {
-      "name": "SERVPRO of East Davie/Cooper City",
-      "google_rating": 4.9,
-      "review_count": 89
-     },
-     {
-      "name": "Restoration Xpress",
-      "google_rating": 4.9,
-      "review_count": 132
-     },
-     {
-      "name": "Inovec Restoration & Construction",
-      "google_rating": 5,
-      "review_count": 53
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Davie",
-    "top rated water damage restoration Davie FL",
-    "who is the best water damage restoration company in Davie",
-    "water damage repair Davie",
-    "water damage cleanup Davie",
-    "water cleanup Davie"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-28T01:14:42Z",
-   "post_url": "https://restorationxpress.com/blog/best-water-damage-restoration-company-in-davie-fl/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "Google Rating | Reviews | Davie-Based | IICRC Certified | |---|---|---|---|---| | Res",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-08-28-water-damage-restoration-cost-fl",
+      "status": "written",
+      "queued_at": "2026-08-28T08:21:43Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-fl",
+      "primary_keyword": "water damage restoration cost FL",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "davie-fl",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Davie",
+        "state": "FL",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in FL",
+        "water damage restoration price FL",
+        "average cost of water damage restoration FL",
+        "water damage cleanup FL",
+        "water cleanup FL",
+        "water removal FL"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-08T10:30:23Z",
+      "post_url": "https://restorationxpress.com/blog/water-damage-restoration-cost-fl/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "you receive. **Water category.** The [IICRC S500 standard](https://www.iicrc.org) c",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "**Damage class.** Beyond category, the IICRC defines four classes of drying difficul",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "**Response speed** matters because the [IICRC S500 standard](https://www.iicrc.org) d",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-08-07-best-water-damage-restoration-in-davie-fl",
+      "status": "published",
+      "queued_at": "2026-08-07T03:44:52Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-davie-fl",
+      "primary_keyword": "best water damage restoration company in Davie, FL",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "davie-fl",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Davie",
+        "state": "FL",
+        "competitors": [
+          {
+            "name": "PuroClean of Davie",
+            "google_rating": 5,
+            "review_count": 52
+          },
+          {
+            "name": "SERVPRO of East Davie/Cooper City",
+            "google_rating": 4.9,
+            "review_count": 89
+          },
+          {
+            "name": "Restoration Xpress",
+            "google_rating": 4.9,
+            "review_count": 132
+          },
+          {
+            "name": "Inovec Restoration & Construction",
+            "google_rating": 5,
+            "review_count": 53
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Davie",
+        "top rated water damage restoration Davie FL",
+        "who is the best water damage restoration company in Davie",
+        "water damage repair Davie",
+        "water damage cleanup Davie",
+        "water cleanup Davie"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-28T01:14:42Z",
+      "post_url": "https://restorationxpress.com/blog/best-water-damage-restoration-company-in-davie-fl/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "Google Rating | Reviews | Davie-Based | IICRC Certified | |---|---|---|---|---| | Res",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "**Response speed** matters because the [IICRC S500 standard](https://www.iicrc.org) d",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "until the affected materials reach the IICRC S500's drying goals, not until the crew",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "daily, with target readings tied to the IICRC S500 standard, is the right answer. 4.",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "10 reviews",
+          "context": "is list, which matters: a 5.0 rating on 10 reviews and a 4.9 rating on 132 reviews are ver",
+          "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "52 Google reviews",
+          "context": "holds a perfect 5.0-star rating across 52 Google reviews, making them a well-regarded option for",
+          "reason": "listicle review-count 52 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "52 reviews",
+          "context": "satisfaction on the jobs reviewed. With 52 reviews, the sample size is smaller than Restor",
+          "reason": "listicle review-count 52 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "89 reviews",
+          "context": "or and carries a 4.9-star rating across 89 reviews. SERVPRO's national infrastructure mean",
+          "reason": "listicle review-count 89 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "53 Google reviews",
+          "context": "truction holds a 5.0-star rating across 53 Google reviews. Their name suggests a combined restora",
+          "reason": "listicle review-count 53 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "53 reviews",
+          "context": "airs after mitigation is complete. With 53 reviews at a perfect rating, Inovec is a well-r",
+          "reason": "listicle review-count 53 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ],
+      "published_verified_at": "2026-08-28T01:16:24Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "until the affected materials reach the IICRC S500's drying goals, not until the crew",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-08-09-mold-remediation-cost",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "mold remediation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": 3,
+      "fan_out_cluster": [
+        "mold removal cost",
+        "average cost of mold remediation",
+        "mold remediation cost per square foot",
+        "is mold remediation covered by insurance",
+        "mold remediation cost florida"
+      ],
+      "suggested_slug": "mold-remediation-cost",
+      "suggested_title": "Mold Remediation Cost in Davie, FL: What Broward County Homeowners Actually Pay",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/davie-fl/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "davie-fl",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/"
+      ],
+      "notes": "Highest-volume cost guide in the pool (9,900/mo, KD 3, $23 CPC). Give national ranges then Broward factors: year-round humidity, coastal salt air, HOA and condo approval steps. Florida licenses mold remediators through DBPR, so lead the trust section with that plus serving Broward since 2011. Mention typical policy mold sublimits and cross-link the testing and hidden mold posts.",
+      "source": "keyword-researcher"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "daily, with target readings tied to the IICRC S500 standard, is the right answer. 4.",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-08-09-water-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:41:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage repair cost",
+        "water damage restoration cost per square foot",
+        "water mitigation cost",
+        "ceiling water damage repair cost",
+        "water damage restoration price sheet"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water Damage Restoration Cost in Davie, FL: 2026 Price Factors",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/davie-fl/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "davie-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/",
+        "https://www.myfloridacfo.com/division/consumers/storm/general-disaster-faqs"
+      ],
+      "notes": "KD 3 with $20 CPC and $12 to $65 top-of-page bids: buyers pay real money here. Break out cost by water category (clean, gray, black per IICRC S500) and by scope (extraction, drying, drywall). South Florida factor: AC condensate leaks and roof leaks in storm season drive most residential losses. End with the insurance question and link the existing insurance post.",
+      "source": "keyword-researcher"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "10 reviews",
-     "context": "is list, which matters: a 5.0 rating on 10 reviews and a 4.9 rating on 132 reviews are ver",
-     "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-09-mold-inspection-cost",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:42:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "mold inspection cost",
+      "intent": "commercial",
+      "volume": 5400,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold testing cost",
+        "how much is a mold inspection",
+        "mold air quality test cost",
+        "free mold inspection red flags"
+      ],
+      "suggested_slug": "mold-inspection-cost",
+      "suggested_title": "Mold Inspection Cost in South Florida: What to Expect Before Remediation",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "davie-fl",
+      "external_authority_candidates": [
+        "https://www2.myfloridalicense.com/",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "5,400/mo with medium ad competition; KD unavailable in DFS for this term (null, not fabricated). Key Florida angle: state law separates licensed mold assessors from mold remediators, so explain who does the inspection, who does the work, and why the same firm should not bill you for both on one job. Cross-links the DIY testing post without cannibalizing it: this one is price-first.",
+      "source": "keyword-researcher"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "52 Google reviews",
-     "context": "holds a perfect 5.0-star rating across 52 Google reviews, making them a well-regarded option for",
-     "reason": "listicle review-count 52 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-09-fire-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:43:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": null,
+      "fan_out_cluster": [
+        "fire damage repair cost",
+        "smoke damage restoration cost",
+        "smoke damage cleanup cost",
+        "soot removal cost",
+        "fire damage insurance claim payout"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost",
+      "suggested_title": "Fire Damage Restoration Cost: What Drives the Price After a House Fire",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/smoke-odor-removal-techniques/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": "davie-fl",
+      "external_authority_candidates": [
+        "https://www.usfa.fema.gov/prevention/home-fires/recover-after/"
+      ],
+      "notes": "260/mo with LOW competition and top bids to $77; KD null in DFS. Cover the full spread from smoke-only cleanup to structural rebuild, and fold the smoke cost cluster in as H2s rather than a separate thin post. Insurance pays most real fire claims, so frame costs around deductibles and scope disputes, and link the existing process and smoke odor posts.",
+      "source": "keyword-researcher"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "52 reviews",
-     "context": "satisfaction on the jobs reviewed. With 52 reviews, the sample size is smaller than Restor",
-     "reason": "listicle review-count 52 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-09-hurricane-damage-repair-cost",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:44:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "hurricane damage repair cost",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "hurricane damage repair",
+        "storm damage repair cost",
+        "wind damage repair cost",
+        "hurricane deductible florida",
+        "roof damage from hurricane cost"
+      ],
+      "suggested_slug": "hurricane-damage-repair-cost",
+      "suggested_title": "Hurricane Damage Repair Cost in South Florida: Wind, Water, and What Insurance Pays",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
+        "/blog/storm-damage-insurance-claim-checklist/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "flood-damage-restoration"
+      ],
+      "city_anchor": "fort-lauderdale-fl",
+      "external_authority_candidates": [
+        "https://www.myfloridacfo.com/division/consumers/storm/general-disaster-faqs",
+        "https://www.floridadisaster.org/"
+      ],
+      "notes": "Volume null: the exact phrase is not in the DFS database, but parent term hurricane damage repair shows 110/mo and the related-keywords crawl surfaced the cost variant. Queued as a deliberate South Florida bet: this is the region's defining loss event and plan-input notes waterfront Fort Lauderdale homes see frequent storm damage. Anchor costs to the percentage-based Florida hurricane deductible and the wind versus flood coverage split per FLDFS.",
+      "source": "keyword-researcher"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "89 reviews",
-     "context": "or and carries a 4.9-star rating across 89 reviews. SERVPRO's national infrastructure mean",
-     "reason": "listicle review-count 89 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-09-does-homeowners-insurance-cover-mold",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "does homeowners insurance cover mold",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": 11,
+      "fan_out_cluster": [
+        "does homeowners insurance cover mold remediation",
+        "does flood insurance cover mold",
+        "mold damage insurance claim",
+        "florida mold insurance endorsement",
+        "mold sublimit homeowners policy"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold",
+      "suggested_title": "Does Homeowners Insurance Cover Mold? How Florida Policies Handle It",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.myfloridacfo.com/division/ica/fullcoverage/homeowners/policyendorsements",
+        "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/"
+      ],
+      "notes": "Companion to the existing water damage insurance post. Core distinction: mold from a sudden covered peril is often covered while gradual humidity mold is not, and Florida policies commonly carry mold sublimits with endorsements available at 25,000 or 50,000 dollars per FLDFS. Lead with the plain answer in the first 80 words for AI citation.",
+      "source": "keyword-researcher"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "53 Google reviews",
-     "context": "truction holds a 5.0-star rating across 53 Google reviews. Their name suggests a combined restora",
-     "reason": "listicle review-count 53 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-09-mold-in-ac-unit",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:46:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "mold in ac unit",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold in air ducts",
+        "mold in ac unit symptoms",
+        "black mold in ac unit",
+        "mold in ac vents health risks",
+        "how to prevent mold in air conditioner"
+      ],
+      "suggested_slug": "mold-in-ac-unit",
+      "suggested_title": "Mold in Your AC Unit: Symptoms, Health Risks, and What to Do",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold",
+        "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/"
+      ],
+      "notes": "5,400/mo primary with a monster support cluster: mold in air ducts 3,600/mo KD 2 and symptoms variant 480/mo KD 7. South Florida AC runs nearly year-round, so condensation plus dust makes air handlers a common mold source. Cover musty air on startup, visible growth on vents, when duct cleaning is enough versus remediation, per EPA guidance.",
+      "source": "keyword-researcher"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-davie-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "53 reviews",
-     "context": "airs after mitigation is complete. With 53 reviews at a perfect rating, Inovec is a well-r",
-     "reason": "listicle review-count 53 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-08-09-why-is-my-ac-leaking-water",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:47:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "why is my ac leaking water",
+      "intent": "informational",
+      "volume": 4400,
+      "kd": null,
+      "fan_out_cluster": [
+        "ac leaking water inside house",
+        "ac drain line clogged",
+        "water damage from ac leak",
+        "does insurance cover water damage from ac leak",
+        "how to unclog an ac drain line"
+      ],
+      "suggested_slug": "why-is-my-ac-leaking-water",
+      "suggested_title": "Why Is My AC Leaking Water? Causes, Fixes, and When It Becomes Water Damage",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/mold-after-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.energy.gov/energysaver/air-conditioner-maintenance"
+      ],
+      "notes": "4,400/mo primary plus ac drain line clogged at 4,400/mo KD 1. A clogged condensate line is one of the most common non-storm water losses in South Florida homes: pans overflow into ceilings and closets. Walk the diagnosis, then pivot to when soaked drywall and flooring need professional drying, and the sudden versus gradual insurance distinction.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-musty-smell-in-house",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:48:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "musty smell in house",
+      "intent": "informational",
+      "volume": 6600,
+      "kd": 4,
+      "fan_out_cluster": [
+        "musty smell but no visible mold",
+        "house smells musty after rain",
+        "how to get rid of musty smell",
+        "what does mold smell like",
+        "musty smell from air conditioner"
+      ],
+      "suggested_slug": "musty-smell-in-house",
+      "suggested_title": "Musty Smell in Your House? What It Means and How to Find the Source",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/how-to-test-for-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/",
+        "https://www.epa.gov/mold"
+      ],
+      "notes": "Highest-volume question in the pool (6,600/mo, KD 4). Smell-first diagnosis angle keeps it distinct from the existing hidden mold signs post: cross-link, do not duplicate. Florida DOH recommends keeping indoor humidity below 60 percent; work through AC, closets, and post-rain smells common in humid Broward homes.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-does-homeowners-insurance-cover-hurricane-damage",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:49:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "does homeowners insurance cover hurricane damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 10,
+      "fan_out_cluster": [
+        "what is a hurricane deductible",
+        "hurricane deductible florida",
+        "does homeowners insurance cover storm surge",
+        "wind vs flood damage insurance",
+        "hurricane windstorm coverage florida"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-hurricane-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Hurricane Damage in Florida? Wind vs Water Explained",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/flood-damage-restoration/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.myfloridacfo.com/division/consumers/storm/general-disaster-faqs"
+      ],
+      "notes": "Decision-stage question 24 to 48 hours before hiring. The FLDFS points homeowners must understand: wind damage is generally covered, storm surge and rising water are not without flood insurance, hurricane deductibles in Florida are percentage based, and one storm can produce both a wind claim and a flood claim. Hurricane deductible florida carries a $60 CPC, so fold it in as an H2.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-what-does-flood-insurance-cover",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "what does flood insurance cover",
+      "intent": "informational",
+      "volume": 1300,
+      "kd": 19,
+      "fan_out_cluster": [
+        "does flood insurance cover storm surge",
+        "flood insurance vs homeowners insurance",
+        "nfip coverage limits",
+        "does flood insurance cover mold",
+        "do i need flood insurance in florida"
+      ],
+      "suggested_slug": "what-does-flood-insurance-cover",
+      "suggested_title": "What Does Flood Insurance Cover? A Florida Homeowner's Guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.fema.gov/flood-insurance",
+        "https://www.floodsmart.gov/"
+      ],
+      "notes": "1,300/mo, KD 19. NFIP building versus contents coverage, what rising water means, storm surge counts as flood, and NFIP does not pay additional living expenses per the FLDFS toolkit. Regional grounding from plan-input: Sunrise homes near the Everglades edge flood after heavy summer rain and Fort Lauderdale waterfront homes see storm flooding.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-water-stain-on-ceiling",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:51:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "water stain on ceiling",
+      "intent": "informational",
+      "volume": 3600,
+      "kd": 18,
+      "fan_out_cluster": [
+        "ceiling water damage repair",
+        "ceiling water damage repair cost",
+        "brown water stain on ceiling",
+        "water stain on ceiling but no leak",
+        "ac leak ceiling stain"
+      ],
+      "suggested_slug": "water-stain-on-ceiling",
+      "suggested_title": "Water Stain on the Ceiling? What It Means and What to Do Next",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/mold-after-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/"
+      ],
+      "notes": "3,600/mo, KD 18, with ceiling water damage repair (1,900/mo, $37 CPC) and its cost variant (720/mo, KD 9) as H2s. South Florida cause ranking: AC air handler or condensate line in the attic, roof leaks after storms, upstairs bathrooms. Push moisture reading before repainting: a stain painted over is the classic hidden mold setup.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-who-pays-for-water-damage-in-a-condo",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:52:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "who pays for water damage in a condo",
+      "intent": "informational",
+      "volume": 40,
+      "kd": null,
+      "fan_out_cluster": [
+        "water leak from upstairs condo who pays",
+        "condo water damage responsibility",
+        "condo association water damage",
+        "hoa vs unit owner water damage florida",
+        "condo insurance water damage"
+      ],
+      "suggested_slug": "who-pays-for-water-damage-in-a-condo",
+      "suggested_title": "Who Pays for Water Damage in a Condo? Florida Rules for Owners and Associations",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "fort-lauderdale-fl",
+      "external_authority_candidates": [
+        "http://www.leg.state.fl.us/statutes/",
+        "https://www.myfloridacfo.com/division/consumers/understandingcoverage"
+      ],
+      "notes": "Volume 40 sits under the usual 50 threshold: queued anyway as a deliberate market bet because coastal Broward is one of the densest condo markets in Florida and no competitor content answers it locally. Ground it in the Florida Condominium Act (chapter 718) split between association property and unit interior, plus the upstairs neighbor leak scenario.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-sewage-backup-in-house",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:53:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "sewage backup in house",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 20,
+      "fan_out_cluster": [
+        "what to do when sewage backs up",
+        "sewage backup cleanup cost",
+        "is sewage backup covered by insurance",
+        "sewage backup health risks",
+        "sewage backup in bathtub"
+      ],
+      "suggested_slug": "sewage-backup-in-house",
+      "suggested_title": "Sewage Backup in Your House: First Steps, Health Risks, and Who to Call",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cdc.gov/",
+        "https://www.iicrc.org/"
+      ],
+      "notes": "260/mo, KD 20, $32 CPC. Category 3 water under IICRC S500: keep the tone factual, health-first. South Florida angle: intense summer downpours can overwhelm older sewer laterals. Cover the sewer backup insurance endorsement (usually optional, not automatic) and why gloves-and-bleach DIY is not enough for porous materials.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-mold-remediation-process",
+      "status": "queued",
+      "queued_at": "2026-08-10T00:54:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "mold remediation process",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 16,
+      "fan_out_cluster": [
+        "can you stay in your house during mold remediation",
+        "mold remediation steps",
+        "containment and negative air pressure",
+        "post remediation verification testing",
+        "how long does mold remediation take"
+      ],
+      "suggested_slug": "mold-remediation-process",
+      "suggested_title": "The Mold Remediation Process Step by Step (and Whether You Can Stay Home)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide-chapter-1",
+        "https://www2.myfloridalicense.com/"
+      ],
+      "notes": "720/mo, KD 16. Walk containment, negative air, removal, HEPA cleaning, and independent clearance testing, and answer the stay-home question early (10/mo but a real pre-hire anxiety). Florida licensure and the assessor versus remediator separation is the differentiator competitors skip.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-28-what-is-a-slab-leak",
+      "status": "queued",
+      "queued_at": "2026-08-28T01:12:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is a slab leak",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 4,
+      "fan_out_cluster": [
+        "slab leak symptoms",
+        "signs of a slab leak under a concrete floor",
+        "does homeowners insurance cover slab leak repair",
+        "how a slab leak causes hidden water damage",
+        "why slab leaks are common in South Florida homes",
+        "what to do first when you suspect a slab leak"
+      ],
+      "suggested_slug": "what-is-a-slab-leak",
+      "suggested_title": "What is a slab leak, and how do you know if you have one?",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/davie-fl/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "davie-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Highest-volume in-scope term from the burst pipe seed family (880/mo, KD 4). Broward County homes are almost all slab-on-grade with aging cast iron and copper under the slab, so this is a year-round local topic, not a seasonal one. Stay on the restoration side: RestorationXpress dries and remediates the damage a slab leak causes, it does not repair or reroute the pipe. Say that plainly and hand the plumbing step to a licensed plumber. Lead with the detection signs (warm floor spots, running water sound with everything off, unexplained water bill jump, baseboard staining) and close on the 24-48 hour mold window."
+    },
+    {
+      "id": "2026-08-28-burst-pipe-cleanup",
+      "status": "queued",
+      "queued_at": "2026-08-28T01:12:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "burst pipe cleanup",
+      "intent": "transactional",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water damage from burst pipe",
+        "pipe burst water damage",
+        "burst pipe water damage cleanup",
+        "emergency pipe burst",
+        "who to call for burst water pipe",
+        "how long does burst pipe cleanup take"
+      ],
+      "suggested_slug": "burst-pipe-cleanup",
+      "suggested_title": "Burst pipe cleanup: what happens after the water stops",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "davie-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Transactional, KD 0, 590/mo, CPC 11.71. This one converts: the reader already has water on the floor. Structure it as the actual mitigation sequence (extraction, demo of unsalvageable materials, air movers and dehumidifiers, moisture mapping, clearance readings) with realistic timelines. Distinguish it from the planned /blog/burst-pipe-emergency-checklist/ post, which covers the homeowner's first-hour actions: this post picks up where that one ends. Cross-link the two."
+    },
+    {
+      "id": "2026-08-28-does-homeowners-insurance-cover-plumbing-leaks",
+      "status": "queued",
+      "queued_at": "2026-08-28T01:12:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover plumbing leaks",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 13,
+      "fan_out_cluster": [
+        "sudden and accidental vs gradual water damage",
+        "does homeowners insurance cover slab leak repair",
+        "burst pipe insurance claim tips",
+        "does homeowners insurance cover plumbing leaks in walls",
+        "what a long-term leak exclusion means",
+        "how to document a plumbing leak for your adjuster"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-plumbing-leaks",
+      "suggested_title": "Does homeowners insurance cover plumbing leaks? Sudden vs gradual, explained",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-does-standard-homeowners-policy-cover",
+        "https://www.floir.com/consumers/homeowners-insurance"
+      ],
+      "notes": "590/mo, KD 13, CPC 30.93. Decision-stage insurance content, which the methodology flags as the highest-value informational tier. Must be clearly differentiated from the planned /blog/does-homeowners-insurance-cover-water-damage/ post: that one is the general water damage guide, this one is specifically the sudden-and-accidental vs gradual-seepage line that decides most denied plumbing claims. Add a Florida note on the 14-day and 35-day repeated-seepage limits that many FL carriers now write into policies. Do not give legal or coverage advice: describe how carriers typically treat these claims and tell the reader to read their own policy."
+    },
+    {
+      "id": "2026-08-28-pipe-burst-in-wall",
+      "status": "queued",
+      "queued_at": "2026-08-28T01:12:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "pipe burst in wall",
+      "intent": "transactional",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water pipe burst in wall",
+        "how to tell if a pipe burst in the wall",
+        "signs of burst pipe",
+        "hidden water leak behind drywall",
+        "how much drywall has to come out after a pipe burst",
+        "drying inside a wall cavity after a leak"
+      ],
+      "suggested_slug": "pipe-burst-in-wall",
+      "suggested_title": "Pipe burst in a wall: how to spot it and what the repair really involves",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/fort-lauderdale-fl/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "CPC 169.09, the highest in this entire fan-out set, at KD 0 and 210/mo. Advertisers are paying triple-digit clicks for this, which makes it worth owning organically. Cover in-wall detection (moisture meter and thermal imaging), why cavity drying needs injection or flood cuts rather than fans pointed at a wall, and the mold risk from an undetected in-wall leak in year-round South Florida humidity. Be explicit that pipe repair is a plumber's job and RestorationXpress handles the drying, demo, and remediation."
+    },
+    {
+      "id": "2026-08-28-burst-pipe-apartment",
+      "status": "queued",
+      "queued_at": "2026-08-28T01:12:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "burst pipe apartment",
+      "intent": "commercial",
+      "volume": 480,
+      "kd": 0,
+      "fan_out_cluster": [
+        "pipe burst in apartment who is responsible",
+        "renter vs landlord water damage responsibility",
+        "burst pipe damaged my neighbor's unit",
+        "does renters insurance cover a burst pipe",
+        "water damage in a condo building",
+        "who pays for water damage in a multi-unit building"
+      ],
+      "suggested_slug": "burst-pipe-apartment",
+      "suggested_title": "Burst pipe in an apartment: who is responsible and who pays",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/fort-lauderdale-fl/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/renters-insurance-basics",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "480/mo, KD 0, CPC 54.39. Multi-unit water losses are the biggest jobs in Broward's condo and rental stock. Split the piece three ways: tenant, landlord or HOA, and the downstairs neighbor. Coordinate with the already-queued 'who pays for water damage in a condo' item so the two do not overlap: this one is rentals and apartment buildings, that one is condo ownership and HOA bylaws. Cross-link them."
     }
-   ],
-   "published_verified_at": "2026-08-28T01:16:24Z"
-  },
-  {
-   "id": "2026-08-09-mold-remediation-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:40:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "mold remediation cost",
-   "intent": "commercial",
-   "volume": 9900,
-   "kd": 3,
-   "fan_out_cluster": [
-    "mold removal cost",
-    "average cost of mold remediation",
-    "mold remediation cost per square foot",
-    "is mold remediation covered by insurance",
-    "mold remediation cost florida"
-   ],
-   "suggested_slug": "mold-remediation-cost",
-   "suggested_title": "Mold Remediation Cost in Davie, FL: What Broward County Homeowners Actually Pay",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/service-areas/davie-fl/mold-remediation/",
-    "/blog/how-to-test-for-mold/",
-    "/blog/signs-of-hidden-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": "davie-fl",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home",
-    "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/"
-   ],
-   "notes": "Highest-volume cost guide in the pool (9,900/mo, KD 3, $23 CPC). Give national ranges then Broward factors: year-round humidity, coastal salt air, HOA and condo approval steps. Florida licenses mold remediators through DBPR, so lead the trust section with that plus serving Broward since 2011. Mention typical policy mold sublimits and cross-link the testing and hidden mold posts.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-water-damage-restoration-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:41:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 880,
-   "kd": 3,
-   "fan_out_cluster": [
-    "water damage repair cost",
-    "water damage restoration cost per square foot",
-    "water mitigation cost",
-    "ceiling water damage repair cost",
-    "water damage restoration price sheet"
-   ],
-   "suggested_slug": "water-damage-restoration-cost",
-   "suggested_title": "Water Damage Restoration Cost in Davie, FL: 2026 Price Factors",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/davie-fl/water-damage-restoration/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": "davie-fl",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/",
-    "https://www.myfloridacfo.com/division/consumers/storm/general-disaster-faqs"
-   ],
-   "notes": "KD 3 with $20 CPC and $12 to $65 top-of-page bids: buyers pay real money here. Break out cost by water category (clean, gray, black per IICRC S500) and by scope (extraction, drying, drywall). South Florida factor: AC condensate leaks and roof leaks in storm season drive most residential losses. End with the insurance question and link the existing insurance post.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-mold-inspection-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:42:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "mold inspection cost",
-   "intent": "commercial",
-   "volume": 5400,
-   "kd": null,
-   "fan_out_cluster": [
-    "mold testing cost",
-    "how much is a mold inspection",
-    "mold air quality test cost",
-    "free mold inspection red flags"
-   ],
-   "suggested_slug": "mold-inspection-cost",
-   "suggested_title": "Mold Inspection Cost in South Florida: What to Expect Before Remediation",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/blog/how-to-test-for-mold/",
-    "/blog/signs-of-hidden-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": "davie-fl",
-   "external_authority_candidates": [
-    "https://www2.myfloridalicense.com/",
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "5,400/mo with medium ad competition; KD unavailable in DFS for this term (null, not fabricated). Key Florida angle: state law separates licensed mold assessors from mold remediators, so explain who does the inspection, who does the work, and why the same firm should not bill you for both on one job. Cross-links the DIY testing post without cannibalizing it: this one is price-first.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-fire-damage-restoration-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:43:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "fire damage restoration cost",
-   "intent": "commercial",
-   "volume": 260,
-   "kd": null,
-   "fan_out_cluster": [
-    "fire damage repair cost",
-    "smoke damage restoration cost",
-    "smoke damage cleanup cost",
-    "soot removal cost",
-    "fire damage insurance claim payout"
-   ],
-   "suggested_slug": "fire-damage-restoration-cost",
-   "suggested_title": "Fire Damage Restoration Cost: What Drives the Price After a House Fire",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/smoke-damage-restoration/",
-    "/blog/fire-damage-restoration-process/",
-    "/blog/smoke-odor-removal-techniques/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "smoke-damage-restoration"
-   ],
-   "city_anchor": "davie-fl",
-   "external_authority_candidates": [
-    "https://www.usfa.fema.gov/prevention/home-fires/recover-after/"
-   ],
-   "notes": "260/mo with LOW competition and top bids to $77; KD null in DFS. Cover the full spread from smoke-only cleanup to structural rebuild, and fold the smoke cost cluster in as H2s rather than a separate thin post. Insurance pays most real fire claims, so frame costs around deductibles and scope disputes, and link the existing process and smoke odor posts.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-hurricane-damage-repair-cost",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:44:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "hurricane damage repair cost",
-   "intent": "commercial",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "hurricane damage repair",
-    "storm damage repair cost",
-    "wind damage repair cost",
-    "hurricane deductible florida",
-    "roof damage from hurricane cost"
-   ],
-   "suggested_slug": "hurricane-damage-repair-cost",
-   "suggested_title": "Hurricane Damage Repair Cost in South Florida: Wind, Water, and What Insurance Pays",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
-    "/blog/storm-damage-insurance-claim-checklist/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration",
-    "flood-damage-restoration"
-   ],
-   "city_anchor": "fort-lauderdale-fl",
-   "external_authority_candidates": [
-    "https://www.myfloridacfo.com/division/consumers/storm/general-disaster-faqs",
-    "https://www.floridadisaster.org/"
-   ],
-   "notes": "Volume null: the exact phrase is not in the DFS database, but parent term hurricane damage repair shows 110/mo and the related-keywords crawl surfaced the cost variant. Queued as a deliberate South Florida bet: this is the region's defining loss event and plan-input notes waterfront Fort Lauderdale homes see frequent storm damage. Anchor costs to the percentage-based Florida hurricane deductible and the wind versus flood coverage split per FLDFS.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-does-homeowners-insurance-cover-mold",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "does homeowners insurance cover mold",
-   "intent": "informational",
-   "volume": 5400,
-   "kd": 11,
-   "fan_out_cluster": [
-    "does homeowners insurance cover mold remediation",
-    "does flood insurance cover mold",
-    "mold damage insurance claim",
-    "florida mold insurance endorsement",
-    "mold sublimit homeowners policy"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-mold",
-   "suggested_title": "Does Homeowners Insurance Cover Mold? How Florida Policies Handle It",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/blog/mold-after-water-damage/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.myfloridacfo.com/division/ica/fullcoverage/homeowners/policyendorsements",
-    "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/"
-   ],
-   "notes": "Companion to the existing water damage insurance post. Core distinction: mold from a sudden covered peril is often covered while gradual humidity mold is not, and Florida policies commonly carry mold sublimits with endorsements available at 25,000 or 50,000 dollars per FLDFS. Lead with the plain answer in the first 80 words for AI citation.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-mold-in-ac-unit",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:46:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "mold in ac unit",
-   "intent": "informational",
-   "volume": 5400,
-   "kd": null,
-   "fan_out_cluster": [
-    "mold in air ducts",
-    "mold in ac unit symptoms",
-    "black mold in ac unit",
-    "mold in ac vents health risks",
-    "how to prevent mold in air conditioner"
-   ],
-   "suggested_slug": "mold-in-ac-unit",
-   "suggested_title": "Mold in Your AC Unit: Symptoms, Health Risks, and What to Do",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/blog/signs-of-hidden-mold/",
-    "/blog/black-mold-vs-regular-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold",
-    "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/"
-   ],
-   "notes": "5,400/mo primary with a monster support cluster: mold in air ducts 3,600/mo KD 2 and symptoms variant 480/mo KD 7. South Florida AC runs nearly year-round, so condensation plus dust makes air handlers a common mold source. Cover musty air on startup, visible growth on vents, when duct cleaning is enough versus remediation, per EPA guidance.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-why-is-my-ac-leaking-water",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:47:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "why is my ac leaking water",
-   "intent": "informational",
-   "volume": 4400,
-   "kd": null,
-   "fan_out_cluster": [
-    "ac leaking water inside house",
-    "ac drain line clogged",
-    "water damage from ac leak",
-    "does insurance cover water damage from ac leak",
-    "how to unclog an ac drain line"
-   ],
-   "suggested_slug": "why-is-my-ac-leaking-water",
-   "suggested_title": "Why Is My AC Leaking Water? Causes, Fixes, and When It Becomes Water Damage",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/mold-after-water-damage/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.energy.gov/energysaver/air-conditioner-maintenance"
-   ],
-   "notes": "4,400/mo primary plus ac drain line clogged at 4,400/mo KD 1. A clogged condensate line is one of the most common non-storm water losses in South Florida homes: pans overflow into ceilings and closets. Walk the diagnosis, then pivot to when soaked drywall and flooring need professional drying, and the sudden versus gradual insurance distinction.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-musty-smell-in-house",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:48:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "musty smell in house",
-   "intent": "informational",
-   "volume": 6600,
-   "kd": 4,
-   "fan_out_cluster": [
-    "musty smell but no visible mold",
-    "house smells musty after rain",
-    "how to get rid of musty smell",
-    "what does mold smell like",
-    "musty smell from air conditioner"
-   ],
-   "suggested_slug": "musty-smell-in-house",
-   "suggested_title": "Musty Smell in Your House? What It Means and How to Find the Source",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/blog/signs-of-hidden-mold/",
-    "/blog/how-to-test-for-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/",
-    "https://www.epa.gov/mold"
-   ],
-   "notes": "Highest-volume question in the pool (6,600/mo, KD 4). Smell-first diagnosis angle keeps it distinct from the existing hidden mold signs post: cross-link, do not duplicate. Florida DOH recommends keeping indoor humidity below 60 percent; work through AC, closets, and post-rain smells common in humid Broward homes.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-does-homeowners-insurance-cover-hurricane-damage",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:49:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "does homeowners insurance cover hurricane damage",
-   "intent": "informational",
-   "volume": 210,
-   "kd": 10,
-   "fan_out_cluster": [
-    "what is a hurricane deductible",
-    "hurricane deductible florida",
-    "does homeowners insurance cover storm surge",
-    "wind vs flood damage insurance",
-    "hurricane windstorm coverage florida"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-hurricane-damage",
-   "suggested_title": "Does Homeowners Insurance Cover Hurricane Damage in Florida? Wind vs Water Explained",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/services/flood-damage-restoration/",
-    "/blog/storm-damage-insurance-claim-checklist/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.myfloridacfo.com/division/consumers/storm/general-disaster-faqs"
-   ],
-   "notes": "Decision-stage question 24 to 48 hours before hiring. The FLDFS points homeowners must understand: wind damage is generally covered, storm surge and rising water are not without flood insurance, hurricane deductibles in Florida are percentage based, and one storm can produce both a wind claim and a flood claim. Hurricane deductible florida carries a $60 CPC, so fold it in as an H2.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-what-does-flood-insurance-cover",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:50:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "what does flood insurance cover",
-   "intent": "informational",
-   "volume": 1300,
-   "kd": 19,
-   "fan_out_cluster": [
-    "does flood insurance cover storm surge",
-    "flood insurance vs homeowners insurance",
-    "nfip coverage limits",
-    "does flood insurance cover mold",
-    "do i need flood insurance in florida"
-   ],
-   "suggested_slug": "what-does-flood-insurance-cover",
-   "suggested_title": "What Does Flood Insurance Cover? A Florida Homeowner's Guide",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/flood-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/blog/storm-damage-insurance-claim-checklist/"
-   ],
-   "service_tags": [
-    "flood-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.fema.gov/flood-insurance",
-    "https://www.floodsmart.gov/"
-   ],
-   "notes": "1,300/mo, KD 19. NFIP building versus contents coverage, what rising water means, storm surge counts as flood, and NFIP does not pay additional living expenses per the FLDFS toolkit. Regional grounding from plan-input: Sunrise homes near the Everglades edge flood after heavy summer rain and Fort Lauderdale waterfront homes see storm flooding.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-water-stain-on-ceiling",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:51:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "water stain on ceiling",
-   "intent": "informational",
-   "volume": 3600,
-   "kd": 18,
-   "fan_out_cluster": [
-    "ceiling water damage repair",
-    "ceiling water damage repair cost",
-    "brown water stain on ceiling",
-    "water stain on ceiling but no leak",
-    "ac leak ceiling stain"
-   ],
-   "suggested_slug": "water-stain-on-ceiling",
-   "suggested_title": "Water Stain on the Ceiling? What It Means and What to Do Next",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/mold-after-water-damage/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/"
-   ],
-   "notes": "3,600/mo, KD 18, with ceiling water damage repair (1,900/mo, $37 CPC) and its cost variant (720/mo, KD 9) as H2s. South Florida cause ranking: AC air handler or condensate line in the attic, roof leaks after storms, upstairs bathrooms. Push moisture reading before repainting: a stain painted over is the classic hidden mold setup.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-who-pays-for-water-damage-in-a-condo",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:52:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "who pays for water damage in a condo",
-   "intent": "informational",
-   "volume": 40,
-   "kd": null,
-   "fan_out_cluster": [
-    "water leak from upstairs condo who pays",
-    "condo water damage responsibility",
-    "condo association water damage",
-    "hoa vs unit owner water damage florida",
-    "condo insurance water damage"
-   ],
-   "suggested_slug": "who-pays-for-water-damage-in-a-condo",
-   "suggested_title": "Who Pays for Water Damage in a Condo? Florida Rules for Owners and Associations",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": "fort-lauderdale-fl",
-   "external_authority_candidates": [
-    "http://www.leg.state.fl.us/statutes/",
-    "https://www.myfloridacfo.com/division/consumers/understandingcoverage"
-   ],
-   "notes": "Volume 40 sits under the usual 50 threshold: queued anyway as a deliberate market bet because coastal Broward is one of the densest condo markets in Florida and no competitor content answers it locally. Ground it in the Florida Condominium Act (chapter 718) split between association property and unit interior, plus the upstairs neighbor leak scenario.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-sewage-backup-in-house",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:53:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "sewage backup in house",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 20,
-   "fan_out_cluster": [
-    "what to do when sewage backs up",
-    "sewage backup cleanup cost",
-    "is sewage backup covered by insurance",
-    "sewage backup health risks",
-    "sewage backup in bathtub"
-   ],
-   "suggested_slug": "sewage-backup-in-house",
-   "suggested_title": "Sewage Backup in Your House: First Steps, Health Risks, and Who to Call",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.cdc.gov/",
-    "https://www.iicrc.org/"
-   ],
-   "notes": "260/mo, KD 20, $32 CPC. Category 3 water under IICRC S500: keep the tone factual, health-first. South Florida angle: intense summer downpours can overwhelm older sewer laterals. Cover the sewer backup insurance endorsement (usually optional, not automatic) and why gloves-and-bleach DIY is not enough for porous materials.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-mold-remediation-process",
-   "status": "queued",
-   "queued_at": "2026-08-10T00:54:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "mold remediation process",
-   "intent": "informational",
-   "volume": 720,
-   "kd": 16,
-   "fan_out_cluster": [
-    "can you stay in your house during mold remediation",
-    "mold remediation steps",
-    "containment and negative air pressure",
-    "post remediation verification testing",
-    "how long does mold remediation take"
-   ],
-   "suggested_slug": "mold-remediation-process",
-   "suggested_title": "The Mold Remediation Process Step by Step (and Whether You Can Stay Home)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/blog/how-to-test-for-mold/",
-    "/blog/black-mold-vs-regular-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide-chapter-1",
-    "https://www2.myfloridalicense.com/"
-   ],
-   "notes": "720/mo, KD 16. Walk containment, negative air, removal, HEPA cleaning, and independent clearance testing, and answer the stay-home question early (10/mo but a real pre-hire anxiety). Florida licensure and the assessor versus remediator separation is the differentiator competitors skip.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-28-what-is-a-slab-leak",
-   "status": "queued",
-   "queued_at": "2026-08-28T01:12:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what is a slab leak",
-   "intent": "informational",
-   "volume": 880,
-   "kd": 4,
-   "fan_out_cluster": [
-    "slab leak symptoms",
-    "signs of a slab leak under a concrete floor",
-    "does homeowners insurance cover slab leak repair",
-    "how a slab leak causes hidden water damage",
-    "why slab leaks are common in South Florida homes",
-    "what to do first when you suspect a slab leak"
-   ],
-   "suggested_slug": "what-is-a-slab-leak",
-   "suggested_title": "What is a slab leak, and how do you know if you have one?",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/service-areas/davie-fl/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": "davie-fl",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Highest-volume in-scope term from the burst pipe seed family (880/mo, KD 4). Broward County homes are almost all slab-on-grade with aging cast iron and copper under the slab, so this is a year-round local topic, not a seasonal one. Stay on the restoration side: RestorationXpress dries and remediates the damage a slab leak causes, it does not repair or reroute the pipe. Say that plainly and hand the plumbing step to a licensed plumber. Lead with the detection signs (warm floor spots, running water sound with everything off, unexplained water bill jump, baseboard staining) and close on the 24-48 hour mold window."
-  },
-  {
-   "id": "2026-08-28-burst-pipe-cleanup",
-   "status": "queued",
-   "queued_at": "2026-08-28T01:12:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "burst pipe cleanup",
-   "intent": "transactional",
-   "volume": 590,
-   "kd": 0,
-   "fan_out_cluster": [
-    "water damage from burst pipe",
-    "pipe burst water damage",
-    "burst pipe water damage cleanup",
-    "emergency pipe burst",
-    "who to call for burst water pipe",
-    "how long does burst pipe cleanup take"
-   ],
-   "suggested_slug": "burst-pipe-cleanup",
-   "suggested_title": "Burst pipe cleanup: what happens after the water stops",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": "davie-fl",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Transactional, KD 0, 590/mo, CPC 11.71. This one converts: the reader already has water on the floor. Structure it as the actual mitigation sequence (extraction, demo of unsalvageable materials, air movers and dehumidifiers, moisture mapping, clearance readings) with realistic timelines. Distinguish it from the planned /blog/burst-pipe-emergency-checklist/ post, which covers the homeowner's first-hour actions: this post picks up where that one ends. Cross-link the two."
-  },
-  {
-   "id": "2026-08-28-does-homeowners-insurance-cover-plumbing-leaks",
-   "status": "queued",
-   "queued_at": "2026-08-28T01:12:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does homeowners insurance cover plumbing leaks",
-   "intent": "informational",
-   "volume": 590,
-   "kd": 13,
-   "fan_out_cluster": [
-    "sudden and accidental vs gradual water damage",
-    "does homeowners insurance cover slab leak repair",
-    "burst pipe insurance claim tips",
-    "does homeowners insurance cover plumbing leaks in walls",
-    "what a long-term leak exclusion means",
-    "how to document a plumbing leak for your adjuster"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-plumbing-leaks",
-   "suggested_title": "Does homeowners insurance cover plumbing leaks? Sudden vs gradual, explained",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/article/what-does-standard-homeowners-policy-cover",
-    "https://www.floir.com/consumers/homeowners-insurance"
-   ],
-   "notes": "590/mo, KD 13, CPC 30.93. Decision-stage insurance content, which the methodology flags as the highest-value informational tier. Must be clearly differentiated from the planned /blog/does-homeowners-insurance-cover-water-damage/ post: that one is the general water damage guide, this one is specifically the sudden-and-accidental vs gradual-seepage line that decides most denied plumbing claims. Add a Florida note on the 14-day and 35-day repeated-seepage limits that many FL carriers now write into policies. Do not give legal or coverage advice: describe how carriers typically treat these claims and tell the reader to read their own policy."
-  },
-  {
-   "id": "2026-08-28-pipe-burst-in-wall",
-   "status": "queued",
-   "queued_at": "2026-08-28T01:12:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "pipe burst in wall",
-   "intent": "transactional",
-   "volume": 210,
-   "kd": 0,
-   "fan_out_cluster": [
-    "water pipe burst in wall",
-    "how to tell if a pipe burst in the wall",
-    "signs of burst pipe",
-    "hidden water leak behind drywall",
-    "how much drywall has to come out after a pipe burst",
-    "drying inside a wall cavity after a leak"
-   ],
-   "suggested_slug": "pipe-burst-in-wall",
-   "suggested_title": "Pipe burst in a wall: how to spot it and what the repair really involves",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/service-areas/fort-lauderdale-fl/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "CPC 169.09, the highest in this entire fan-out set, at KD 0 and 210/mo. Advertisers are paying triple-digit clicks for this, which makes it worth owning organically. Cover in-wall detection (moisture meter and thermal imaging), why cavity drying needs injection or flood cuts rather than fans pointed at a wall, and the mold risk from an undetected in-wall leak in year-round South Florida humidity. Be explicit that pipe repair is a plumber's job and RestorationXpress handles the drying, demo, and remediation."
-  },
-  {
-   "id": "2026-08-28-burst-pipe-apartment",
-   "status": "queued",
-   "queued_at": "2026-08-28T01:12:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "burst pipe apartment",
-   "intent": "commercial",
-   "volume": 480,
-   "kd": 0,
-   "fan_out_cluster": [
-    "pipe burst in apartment who is responsible",
-    "renter vs landlord water damage responsibility",
-    "burst pipe damaged my neighbor's unit",
-    "does renters insurance cover a burst pipe",
-    "water damage in a condo building",
-    "who pays for water damage in a multi-unit building"
-   ],
-   "suggested_slug": "burst-pipe-apartment",
-   "suggested_title": "Burst pipe in an apartment: who is responsible and who pays",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/service-areas/fort-lauderdale-fl/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/article/renters-insurance-basics",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "480/mo, KD 0, CPC 54.39. Multi-unit water losses are the biggest jobs in Broward's condo and rental stock. Split the piece three ways: tenant, landlord or HOA, and the downstairs neighbor. Coordinate with the already-queued 'who pays for water damage in a condo' item so the two do not overlap: this one is rentals and apartment buildings, that one is condo ownership and HOA bylaws. Cross-link them."
-  }
- ]
+  ]
 }
