@@ -37,5 +37,13 @@
     "last_audit_origin_source": "staging",
     "last_audit_form_factor": "desktop"
   },
-  "indexnow_key": "e69401578f9142578bd2fc2a9d8bf283"
+  "indexnow_key": "e69401578f9142578bd2fc2a9d8bf283",
+  "cutover_prep": {
+    "domain": "callcrs.com",
+    "harvested_at": "2026-09-08T17:05:17+00:00",
+    "url_count": 22,
+    "backlinked_count": 1,
+    "redirects_added": 20,
+    "mapped_at": "2026-09-08T17:05:28+00:00"
+  }
 }

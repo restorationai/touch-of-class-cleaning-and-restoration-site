@@ -1,0 +1,87 @@
+{
+ "generated_at": "2026-09-08T17:05:28+00:00",
+ "domain": "callcrs.com",
+ "routes": 427,
+ "map": {
+  "/about-us": {
+   "target": "/about/",
+   "how": "heuristic"
+  },
+  "/areas-we-serve": {
+   "target": "/service-areas/",
+   "how": "heuristic"
+  },
+  "/cookie-policy": {
+   "target": "/privacy/",
+   "how": "claude"
+  },
+  "/emergency-board-up-services": {
+   "target": "/services/emergency-board-up-tarping/",
+   "how": "claude"
+  },
+  "/faqs": {
+   "target": "/",
+   "how": "heuristic"
+  },
+  "/fast-water-damage-restoration-in-santa-maria-when-every-minute-counts": {
+   "target": "/blog/best-water-damage-restoration-company-in-santa-maria-ca/",
+   "how": "claude"
+  },
+  "/fire-damage-restoration": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/key-steps-for-fire-damage-restoration-in-lompoc-after-an-emergency": {
+   "target": "/service-areas/lompoc-ca/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/mold-remediation": {
+   "target": "/services/mold-remediation/",
+   "how": "claude"
+  },
+  "/privacy-policy": {
+   "target": "/privacy/",
+   "how": "heuristic"
+  },
+  "/resources": {
+   "target": "/blog/",
+   "how": "heuristic"
+  },
+  "/service-area/arroyo-grande-ca": {
+   "target": "/service-areas/arroyo-grande-ca/",
+   "how": "heuristic"
+  },
+  "/service-area/lompoc-ca": {
+   "target": "/service-areas/lompoc-ca/",
+   "how": "heuristic"
+  },
+  "/service-area/paso-robles-ca": {
+   "target": "/service-areas/el-paso-de-robles-ca/",
+   "how": "claude"
+  },
+  "/service-area/san-luis-obispo-ca": {
+   "target": "/service-areas/san-luis-obispo-ca/",
+   "how": "heuristic"
+  },
+  "/service-area/santa-maria-ca": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/service-area/solvang-ca": {
+   "target": "/service-areas/solvang-ca/",
+   "how": "heuristic"
+  },
+  "/understanding-emergency-board-up-services-in-arroyo-grande-after-disaster": {
+   "target": "/service-areas/arroyo-grande-ca/emergency-board-up-tarping/",
+   "how": "claude"
+  },
+  "/water-damage-restoration": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/when-should-you-schedule-mold-remediation-in-san-luis-obispo": {
+   "target": "/service-areas/san-luis-obispo-ca/mold-remediation/",
+   "how": "claude"
+  }
+ }
+}
