@@ -1,21 +1,19 @@
 {
  "domain": "callcrs.com",
- "captured_at": "2026-09-08T17:46:38+00:00",
+ "captured_at": "2026-09-08T17:47:07+00:00",
  "authoritative": {
   "ns": [
-   "ns1.g10.cfdns.net",
-   "ns2.g10.cfdns.biz",
-   "ns3.g10.cfdns.info",
-   "ns4.g10.cfdns.co.uk"
+   "daisy.ns.cloudflare.com",
+   "henry.ns.cloudflare.com"
   ],
   "mx": [
    {
-    "priority": 5,
-    "exchange": "alt1.aspmx.l.google.com"
-   },
-   {
     "priority": 1,
     "exchange": "aspmx.l.google.com"
+   },
+   {
+    "priority": 10,
+    "exchange": "alt3.aspmx.l.google.com"
    },
    {
     "priority": 10,
@@ -23,17 +21,17 @@
    },
    {
     "priority": 5,
-    "exchange": "alt2.aspmx.l.google.com"
+    "exchange": "alt1.aspmx.l.google.com"
    },
    {
-    "priority": 10,
-    "exchange": "alt3.aspmx.l.google.com"
+    "priority": 5,
+    "exchange": "alt2.aspmx.l.google.com"
    }
   ],
   "apex_txt": [
+   "google-site-verification=iRj20KZXo6w2QoSGxREUQzYIasaPYhY2ZSZ8A8ZuVts",
    "v=spf1 include:_spf.mail.hostinger.com ~all",
-   "google-site-verification=ShLzSUrORtKoAnKrhm2BPcx-mOTYeTiKHGz_vWJ9T-0",
-   "google-site-verification=iRj20KZXo6w2QoSGxREUQzYIasaPYhY2ZSZ8A8ZuVts"
+   "google-site-verification=ShLzSUrORtKoAnKrhm2BPcx-mOTYeTiKHGz_vWJ9T-0"
   ],
   "dmarc_txt": [],
   "dkim": {},

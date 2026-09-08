@@ -13,7 +13,7 @@
     "url_count": 432,
     "generated_at": "2026-07-30T23:34:34.586554+00:00"
   },
-  "updated_at": "2026-09-08T17:07:40.465555+00:00",
+  "updated_at": "2026-09-08T17:47:10+00:00",
   "build": {
     "scaffolded_at": "2026-07-30T16:30:42.265700+00:00",
     "github_repo": "restorationai/coastal-restoration-services-site",
@@ -45,5 +45,17 @@
     "backlinked_count": 1,
     "redirects_added": 20,
     "mapped_at": "2026-09-08T17:05:28+00:00"
+  },
+  "zone": {
+    "id": "cfb84389fbedf0ea1f747d7c547d87b2",
+    "name": "callcrs.com",
+    "status": "active",
+    "name_servers": [
+      "daisy.ns.cloudflare.com",
+      "henry.ns.cloudflare.com"
+    ]
+  },
+  "apex_cutover": {
+    "legacy_origin": "100.24.208.97"
   }
 }
