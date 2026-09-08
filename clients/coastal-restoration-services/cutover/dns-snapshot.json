@@ -1,6 +1,6 @@
 {
  "domain": "callcrs.com",
- "captured_at": "2026-09-08T17:48:38+00:00",
+ "captured_at": "2026-09-08T17:52:45+00:00",
  "authoritative": {
   "ns": [
    "daisy.ns.cloudflare.com",
@@ -9,35 +9,35 @@
   "mx": [
    {
     "priority": 5,
+    "exchange": "alt2.aspmx.l.google.com"
+   },
+   {
+    "priority": 5,
     "exchange": "alt1.aspmx.l.google.com"
-   },
-   {
-    "priority": 1,
-    "exchange": "aspmx.l.google.com"
-   },
-   {
-    "priority": 10,
-    "exchange": "alt4.aspmx.l.google.com"
    },
    {
     "priority": 10,
     "exchange": "alt3.aspmx.l.google.com"
    },
    {
-    "priority": 5,
-    "exchange": "alt2.aspmx.l.google.com"
+    "priority": 10,
+    "exchange": "alt4.aspmx.l.google.com"
+   },
+   {
+    "priority": 1,
+    "exchange": "aspmx.l.google.com"
    }
   ],
   "apex_txt": [
    "v=spf1 include:_spf.mail.hostinger.com ~all",
-   "google-site-verification=ShLzSUrORtKoAnKrhm2BPcx-mOTYeTiKHGz_vWJ9T-0",
-   "google-site-verification=iRj20KZXo6w2QoSGxREUQzYIasaPYhY2ZSZ8A8ZuVts"
+   "google-site-verification=iRj20KZXo6w2QoSGxREUQzYIasaPYhY2ZSZ8A8ZuVts",
+   "google-site-verification=ShLzSUrORtKoAnKrhm2BPcx-mOTYeTiKHGz_vWJ9T-0"
   ],
   "dmarc_txt": [],
   "dkim": {},
   "apex_a": [
-   "172.67.177.148",
-   "104.21.51.83"
+   "104.21.51.83",
+   "172.67.177.148"
   ],
   "apex_cname": [],
   "www_cname": []

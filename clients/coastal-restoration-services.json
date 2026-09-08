@@ -13,7 +13,7 @@
     "url_count": 432,
     "generated_at": "2026-07-30T23:34:34.586554+00:00"
   },
-  "updated_at": "2026-09-08T17:47:10+00:00",
+  "updated_at": "2026-09-08T17:52:50+00:00",
   "build": {
     "scaffolded_at": "2026-07-30T16:30:42.265700+00:00",
     "github_repo": "restorationai/coastal-restoration-services-site",
@@ -56,6 +56,8 @@
     ]
   },
   "apex_cutover": {
-    "legacy_origin": "100.24.208.97"
-  }
+    "legacy_origin": "104.21.51.83",
+    "completed_at": "2026-09-08T17:52:50+00:00"
+  },
+  "cut_over_at": "2026-09-08T17:52:50+00:00"
 }
