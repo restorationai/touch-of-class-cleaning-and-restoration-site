@@ -351,6 +351,11 @@ def submit_one(r: dict, apply: bool) -> bool:
         "BusinessType": "PRIVATE_PROFIT",
         "BusinessRegistrationNumber": ein_fmt,
         "BusinessRegistrationAuthority": "EIN",
+        # DIS 2026-09-08: without BusinessRegistrationIdentifier Twilio
+        # treats the number as unclassified and rejects with "Business
+        # Registration Number Is Missing or Invalid" (30527) even when the
+        # EIN itself is present and correct. Authority alone is NOT enough.
+        "BusinessRegistrationIdentifier": "EIN",
         "BusinessRegistrationCountry": "US",
     }
     req = urllib.request.Request(
@@ -730,7 +735,12 @@ def sync_pending_statuses(fleet: list[dict], apply: bool) -> None:
     file a [TODO-SANTINO] row with Twilio's reason so a human decides the
     resubmission."""
     for r in fleet:
-        if (r.get("compliance_status") or "") != "pending":
+        # "rejected" included (2026-09-08, DIS): the twilio-status-callback
+        # webhook can stamp compliance_status=rejected BEFORE this cycle ever
+        # sees TWILIO_REJECTED — a pending-only filter meant those rows never
+        # entered the resubmission ladder and never got the TODO note. The
+        # ladder's own attempt cap keeps this from looping.
+        if (r.get("compliance_status") or "") not in ("pending", "rejected"):
             continue
         if not (r.get("twilio_subaccount_sid") and r.get("twilio_auth_token")
                 and r.get("agent_phone_1")):
@@ -778,14 +788,20 @@ def sync_pending_statuses(fleet: list[dict], apply: bool) -> None:
                 _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{r['id']}",
                     {"compliance_status": "rejected"},
                     prefer="return=minimal")
-                _sb("POST", "/rest/v1/marketing_ops_notes", {
-                    "company_id": r["id"],
-                    "body": f"[TODO-SANTINO] Toll-free verification REJECTED "
-                            f"for {c['name']} ({r['agent_phone_1']}). Twilio "
-                            f"reason: {str(reason)[:300]}. Fix the flagged "
-                            "item and resubmit via tollfree_autoreg submit "
-                            f"--company {r['id']} --apply.",
-                }, prefer="return=minimal")
+                # one open note per rejection, not one per daily cycle
+                dupe = _sb("GET", "/rest/v1/marketing_ops_notes?"
+                           f"company_id=eq.{r['id']}&status=eq.open"
+                           "&body=like.*verification%20REJECTED*"
+                           "&select=id&limit=1")
+                if not dupe:
+                    _sb("POST", "/rest/v1/marketing_ops_notes", {
+                        "company_id": r["id"],
+                        "body": f"[TODO-SANTINO] Toll-free verification REJECTED "
+                                f"for {c['name']} ({r['agent_phone_1']}). Twilio "
+                                f"reason: {str(reason)[:300]}. Fix the flagged "
+                                "item and resubmit via tollfree_autoreg submit "
+                                f"--company {r['id']} --apply.",
+                    }, prefer="return=minimal")
             # local update so this run's ASK/READY pass sees the rejection
             r["compliance_status"] = "rejected" if apply else "pending"
 
