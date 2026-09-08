@@ -8408,6 +8408,56 @@ def _maybe_capture_ein(company: dict, msgs: list[dict], dry_run: bool) -> None:
         print(f"  [ein-capture] failed: {str(e)[:120]}")
 
 
+# Inbound URLs -> backlink tracker (Santino 2026-09-08: Rob Carpenter sent
+# his RIA and Chamber listing links by SMS on consecutive days; Monica acked
+# "we'll keep it on file" both times but nothing stored them — both needed
+# manual capture). Domain fragment -> marketing_backlinks target_key.
+_BACKLINK_DOMAIN_MAP = {
+    "restorationindustry.org": "ria",
+    "chamber": "chamber",           # rosevillechamber.com, vegaschamber.com...
+    "iicrc": "iicrc",
+    "candrmagazine.com": "cr-magazine",
+    "restorationandremediation.com": "rr-magazine",
+    "contractorconnection.com": "contractor-connection",
+}
+_URL_RE = re.compile(r"https?://[^\s<>\"']+")
+
+
+def _maybe_capture_backlinks(company: dict, msgs: list[dict], dry_run: bool) -> None:
+    """When a client texts/emails a link to one of their backlink-target
+    listings (RIA profile, chamber directory page...), file it on the
+    matching marketing_backlinks row so 'we'll keep it on file' is true.
+    The daily checker flips the row live once the page links their domain.
+    Never fatal."""
+    try:
+        cid = company["id"]
+        for m in msgs:
+            for url in _URL_RE.findall(str(m.get("body") or "")):
+                host = url.split("/")[2].lower() if url.count("/") >= 2 else ""
+                key = next((k for frag, k in _BACKLINK_DOMAIN_MAP.items()
+                            if frag in host), None)
+                if not key:
+                    continue
+                row = (_sb("GET", "/rest/v1/marketing_backlinks?"
+                           f"company_id=eq.{cid}&target_key=eq.{key}"
+                           "&select=id,status,url") or [None])[0]
+                if not row or row.get("url"):  # no target row / already filed
+                    continue
+                if dry_run:
+                    print(f"  [backlink-capture] would file {key}: {url}")
+                    continue
+                _sb("PATCH", f"/rest/v1/marketing_backlinks?id=eq.{row['id']}",
+                    {"url": url,
+                     "status": ("requested" if row.get("status") == "target"
+                                else row.get("status")),
+                     "note": "Listing link sent in by the client; the daily "
+                             "checker flips this live once the page links "
+                             "their site."})
+                print(f"  [backlink-capture] filed {key} for {cid}: {url}")
+    except Exception as e:  # noqa: BLE001
+        print(f"  [backlink-capture] failed: {str(e)[:120]}")
+
+
 def process_inbound_messages(state: dict, company: dict, contact_id: str,
                              msgs: list[dict], do_send: bool, dry_run: bool,
                              compose_next: bool = False) -> dict:
@@ -8441,6 +8491,7 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     msgs = [m for m in msgs if m["id"] not in handled]
     if msgs:
         _maybe_capture_ein(company, msgs, dry_run)
+        _maybe_capture_backlinks(company, msgs, dry_run)
         _maybe_email_lookback(company, msgs, dry_run)
     if not msgs:
         return out
