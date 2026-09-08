@@ -5,7 +5,7 @@
   "tier": "standard",
   "vertical": "plumbing",
   "contact": "office@rtoplumbing.com",
-  "status": "onboarding",
+  "status": "active",
   "plan_status": "planned",
   "plan": {
     "template": "plumbing",
@@ -13,7 +13,7 @@
     "url_count": 424,
     "generated_at": "2026-09-03T03:01:26.578066+00:00"
   },
-  "updated_at": "2026-09-08T05:44:28+00:00",
+  "updated_at": "2026-09-08T05:45:16+00:00",
   "indexnow_key": "86c3afe660ff4fa0a7fce519ce3c93ec",
   "build": {
     "scaffolded_at": "2026-09-03T03:02:00.367952+00:00",
@@ -56,5 +56,13 @@
     "legacy_origin": "172.67.214.195",
     "completed_at": "2026-09-08T05:44:28+00:00"
   },
-  "cut_over_at": "2026-09-08T05:44:28+00:00"
+  "cut_over_at": "2026-09-08T05:44:28+00:00",
+  "cloudflare": {
+    "zone_id": "b4baf453f8059ba3bf232d86f3eae443"
+  },
+  "gsc": {
+    "property_url": "sc-domain:rtolsonplumbing.com",
+    "verified_at": "2026-09-08T05:45:16+00:00",
+    "sitemap_url": "https://rtolsonplumbing.com/sitemap-index.xml"
+  }
 }
