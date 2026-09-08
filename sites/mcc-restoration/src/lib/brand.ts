@@ -41,7 +41,7 @@ export const brand = {
   certifications: [] as string[],
   trustBadges: [] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://www.facebook.com/masterscarpetcleaningtx/", "https://homeguide.com/tx/duncanville/water-damage-restoration/mcc-restoration-and-contracting-services-aysz69Oct"] as string[],
+  sameAsUrls: ["https://www.facebook.com/masterscarpetcleaningtx/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",
