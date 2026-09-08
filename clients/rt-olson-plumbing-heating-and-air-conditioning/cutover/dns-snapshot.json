@@ -1,0 +1,55 @@
+{
+ "domain": "rtolsonplumbing.com",
+ "captured_at": "2026-09-08T05:44:24+00:00",
+ "authoritative": {
+  "ns": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
+  "mx": [],
+  "apex_txt": [],
+  "dmarc_txt": [
+   "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;"
+  ],
+  "dkim": {},
+  "apex_a": [
+   "172.67.214.195",
+   "104.21.91.88"
+  ],
+  "apex_cname": [],
+  "www_cname": []
+ },
+ "cf_zone": {
+  "zone_id": "b4baf453f8059ba3bf232d86f3eae443",
+  "name_servers": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
+  "records": [
+   {
+    "id": "424b888645def9f643e3b242f54e4faa",
+    "type": "CNAME",
+    "name": "rtolsonplumbing.com",
+    "content": "rankai-rt-olson-plumbing-heating-and-air-conditioning.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "77f90b4f1d2e1b0bfe096e8676c59a7e",
+    "type": "CNAME",
+    "name": "www.rtolsonplumbing.com",
+    "content": "rankai-rt-olson-plumbing-heating-and-air-conditioning.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "4e39007cfe87d09bc94651ed262a4def",
+    "type": "TXT",
+    "name": "_dmarc.rtolsonplumbing.com",
+    "content": "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;",
+    "priority": null,
+    "proxied": false
+   }
+  ]
+ }
+}

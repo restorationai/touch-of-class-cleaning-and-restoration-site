@@ -13,7 +13,7 @@
     "url_count": 424,
     "generated_at": "2026-09-03T03:01:26.578066+00:00"
   },
-  "updated_at": "2026-09-05T04:54:59.908189+00:00",
+  "updated_at": "2026-09-08T05:44:28+00:00",
   "indexnow_key": "86c3afe660ff4fa0a7fce519ce3c93ec",
   "build": {
     "scaffolded_at": "2026-09-03T03:02:00.367952+00:00",
@@ -24,7 +24,7 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-09-03T04:08:35.885844+00:00",
     "last_pushed_staging_at": "2026-09-04T22:21:31.392208+00:00",
-    "last_pushed_main_at": "2026-09-05T04:54:59.908159+00:00"
+    "last_pushed_main_at": "2026-09-08T05:42:32.056207+00:00"
   },
   "build_status": "pushed_main",
   "gbp": {
@@ -42,5 +42,19 @@
   "brightlocal": {
     "location_id": 4147633,
     "campaign_id": 997474
-  }
+  },
+  "zone": {
+    "id": "b4baf453f8059ba3bf232d86f3eae443",
+    "name": "rtolsonplumbing.com",
+    "status": "active",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ]
+  },
+  "apex_cutover": {
+    "legacy_origin": "172.67.214.195",
+    "completed_at": "2026-09-08T05:44:28+00:00"
+  },
+  "cut_over_at": "2026-09-08T05:44:28+00:00"
 }
