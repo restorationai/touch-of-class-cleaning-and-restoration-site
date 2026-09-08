@@ -4,6 +4,15 @@ This guide is consulted by every image-generation call (Skill 3 launch images, S
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are plumbing-vertical canonical and shared across all Rank AI clients.
 
+## CLIENT DIRECTION (Angie, 2026-09-08) — NON-NEGOTIABLE, homepage hero
+
+The homepage hero shipped with three vans parked beside a bare dirt lot. Angie: "There's a vacant lot next to the trucks and we only wanted two trucks. We don't want that many vehicles." This client OVERRIDES the standing multi-van fleet rule for the hero.
+
+1. **Exactly TWO company vans in the hero — never three or more.** No third van, no other vehicles (parked cars in the background included). AUTOMATIC REJECT: three or more vehicles of any kind anywhere in the frame.
+2. **No vacant/empty dirt lot in frame.** Stage the two vans in front of a tidy, occupied, single-story Bakersfield home with a green, maintained yard. Keep the calm left third as open sky or clean paved street — NOT an empty lot. AUTOMATIC REJECT: any vacant/undeveloped dirt lot, dead-grass field, or construction gap visible in the scene.
+
+VAN-OVERRIDE: exactly TWO matching clean WHITE All Pro Plumbing service vans and no other vehicles anywhere in frame (no third van, no parked cars in the background), both facing the same direction and photographed from the same side, each side panel carrying the round red-and-navy All Pro badge decal and a slim red-and-navy accent stripe, with no phone number, no URL and no other lettering
+
 ---
 
 ## STANDING BRAND RULES (Santino, 2026-07-11) — apply to EVERY image
