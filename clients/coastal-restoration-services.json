@@ -5,7 +5,7 @@
   "tier": "standard",
   "vertical": "restoration",
   "contact": "tony@callcrs.com",
-  "status": "active",
+  "status": "suspended",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
