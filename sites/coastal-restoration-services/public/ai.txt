@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://coastal-restoration-services.invalid/
+# Site: https://callcrs.com/
 # Maintainer: Coastal Restoration Services Inc
 # Contact: tony@callcrs.com
-# Sitemap: https://coastal-restoration-services.invalid/sitemap-index.xml
-# LLM index: https://coastal-restoration-services.invalid/llms.txt
+# Sitemap: https://callcrs.com/sitemap-index.xml
+# LLM index: https://callcrs.com/llms.txt
