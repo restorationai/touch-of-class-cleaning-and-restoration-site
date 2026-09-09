@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -103,9 +104,29 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Rank AI geo-grid bi-weekly cron")
     ap.add_argument("--slug", help="Run a single client (default: all configured)")
     ap.add_argument("--dry-run", action="store_true", help="List the work, scan nothing")
+    ap.add_argument("--baseline-only", action="store_true",
+                    help="Scan ONLY clients with zero stored scans (the "
+                         "new-signup catch-up lane: daily, task-mode, so a "
+                         "client bootstrapped Sep 9 sees heatmaps within 24h "
+                         "instead of waiting for the monthly on Oct 1)")
     args = ap.parse_args()
 
     slugs = [args.slug] if args.slug else list(COMPANY_MAP.keys())
+    if args.baseline_only:
+        try:
+            scanned = (sb_client().table("marketing_geogrid_scans")
+                       .select("company_id").limit(20000).execute().data or [])
+            have = {r["company_id"] for r in scanned}
+            slugs = [s for s in slugs if COMPANY_MAP.get(s) not in have]
+        except Exception as e:  # noqa: BLE001 — fail CLOSED here: a broken
+            # check must not turn the daily catch-up into a full fleet run
+            print(f"  [baseline-only] scan-history check failed "
+                  f"({str(e)[:80]}) — aborting rather than over-scanning")
+            return 0
+        if not slugs:
+            print("baseline-only: every configured client already has scans "
+                  "— nothing to do")
+            return 0
     # ON-DEMAND QUOTA (Santino 2026-09-06): the monthly fleet run is the
     # baseline; a single-slug dispatch (the app's Refresh button / manual
     # dispatch) is limited to ONE per client per calendar month. Full-depth
