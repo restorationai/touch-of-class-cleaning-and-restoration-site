@@ -35,12 +35,12 @@
         "#1A1A1A",
         "#F4F6F8"
       ],
-      "source": "TDI Branding Guidelines (client-supplied .ai/PDF, archived in clients/tdi-builders/docs/): TDI Blue #0080C4 primary/CTA, grey #A4B0BA connective only (never CTAs), white surfaces, dark text #1A1A1A, section bg #F4F6F8"
+      "source": "TDI Branding Guidelines (client-supplied .ai/PDF, archived in clients/tdi-builders/docs/): TDI Blue #0080C4 primary/CTA, grey #A4B0BA connective only (never CTAs), white surfaces, dark text #1A1A1A, section bg #F4F6F8. Confirmed 2026-09-09 against the client's texted logo (branding/CO-1787586121477/brand/refs/sms-1788970559564-b8608f9e.jpg): same TDI blue/white/grey palette; the texted JPEG renders a brighter screen-blue (~#31A0FC) but the guidelines spec #0080C4 remains authoritative."
     },
     "fonts": {
       "heading": "Jost",
       "body": "Inter",
-      "source": "Brand spec is Futura PT (licensed; license decision pending with Rob). Jost = closest free geometric substitute for headings; Inter is the SOP's own named fallback for body."
+      "source": "Brand spec is Futura PT Medium (per the client's Branding Guidelines PDF: 'Futura PT Font Family, or Similar Sans Serif Font Family' in Book/Demi/Medium/Bold; licensed, license decision pending with Rob). Jost = closest free geometric substitute for headings; Inter is the SOP's own named fallback for body."
     },
     "primary_color": "#0080C4",
     "dark_color": "#1A1A1A",
