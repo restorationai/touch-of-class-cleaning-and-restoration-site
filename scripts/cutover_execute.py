@@ -648,6 +648,16 @@ def phase_ns(domain: str, zone: dict | None) -> Phase:
             else:
                 ph.note("zone still pending on Cloudflare's side — activation "
                         "re-check triggered; safe to continue (NS verified)")
+    elif (zone or {}).get("status") == "active":
+        # QCI 2026-09-09: the registrar change was DONE (registry + Cloudflare
+        # both confirmed; zone ACTIVE) but public resolvers kept serving the
+        # old NS from cache (old records carried a 1-day TTL), so the DoH
+        # equality check parked the launch for hours. Cloudflare only flips a
+        # zone to active after ITS OWN authoritative NS check passes — that is
+        # a stronger signal than any cached resolver answer. Trust it.
+        ph.note("resolver caches still serving the old NS pair, but the zone "
+                "is ACTIVE — Cloudflare's authoritative check confirmed the "
+                "transfer; proceeding")
     else:
         ph.fail("waiting on nameserver transfer — the client must set exactly: "
                 + ", ".join(expected))
