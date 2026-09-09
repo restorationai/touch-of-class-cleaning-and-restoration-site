@@ -6,6 +6,8 @@ Worker redeploy. Run after adding a client (or wire into onboarding).
 Env: CLOUDFLARE_R2_API_TOKEN (the token with Workers/KV access on the restorationai.io
 account) + CLOUDFLARE_ACCOUNT_ID. KV namespace: 'upload-links' (created once).
 """
+from __future__ import annotations
+
 import json, os, sys, urllib.request
 from pathlib import Path
 
@@ -42,7 +44,7 @@ def client_name(slug: str) -> str:
     return slug
 
 
-_DB_PLACE_IDS: dict | None = None
+_DB_PLACE_IDS = None
 
 
 def _db_place_ids() -> dict:
