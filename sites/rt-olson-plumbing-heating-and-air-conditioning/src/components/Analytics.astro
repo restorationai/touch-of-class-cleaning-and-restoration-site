@@ -6,7 +6,19 @@
 import { brand } from "~/lib/brand";
 const ga4 = (brand as any).ga4MeasurementId || "";
 const clarity = (brand as any).clarityProjectId || "";
+// BDA Digital's GTM container (Belinda's PPC team, requested 2026-09-09).
+// Their tags fire through this; our no-number-swap policy still applies.
+const gtm = "GTM-PKJQHGRF";
 ---
+{gtm && (
+  <script is:inline define:vars={{ gtm }}>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer',gtm);
+  </script>
+)}
 {ga4 && (
   <Fragment>
     <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${ga4}`}></script>
