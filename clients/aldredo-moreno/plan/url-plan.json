@@ -1,0 +1,3005 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-09-09T01:36:33.910953+00:00",
+  "input_summary": {
+    "service_count": 6,
+    "service_area_count": 8,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "ACS Enterprise  | Restoration Services in Midland, TX",
+      "h1": "Restoration Services in Midland",
+      "meta_description": "ACS Enterprise provides water, fire, mold, and storm damage restoration across Midland and surrounding areas. Licensed, insured. Call (432) 847-4704.",
+      "primary_keyword": "restoration services midland",
+      "secondary_keywords": [
+        "restoration company near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/air-duct-cleaning/",
+        "/services/carpet-cleaning/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/goldsmith-tx/",
+        "/service-areas/greenwood-tx/",
+        "/service-areas/odessa-tx/",
+        "/service-areas/stanton-tx/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Midland | ACS Enterprise ",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Midland: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (432) 847-4704.",
+      "primary_keyword": "restoration services midland",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/air-duct-cleaning/",
+        "/services/carpet-cleaning/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | ACS Enterprise  Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "ACS Enterprise provides restoration services across Midland and the surrounding region. Find your city.",
+      "primary_keyword": "acs enterprise  service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/goldsmith-tx/",
+        "/service-areas/greenwood-tx/",
+        "/service-areas/odessa-tx/",
+        "/service-areas/stanton-tx/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | ACS Enterprise ",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from ACS Enterprise  on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog midland",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/how-long-does-water-damage-restoration-take/",
+        "/blog/mold-after-water-damage/",
+        "/blog/storm-damage-insurance-claim-checklist/",
+        "/blog/sewage-backup-health-risks/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About ACS Enterprise  | Midland Restoration Company",
+      "h1": "About ACS Enterprise ",
+      "meta_description": "ACS Enterprise has served Midland since 2019. Meet our restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "acs enterprise  midland",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact ACS Enterprise | Restoration in Midland",
+      "h1": "Contact ACS Enterprise ",
+      "meta_description": "Call (432) 847-4704 for restoration services in Midland and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "acs enterprise  contact",
+      "secondary_keywords": [
+        "restoration company contact"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in Midland | ACS Enterprise ",
+      "h1": "Water Damage Restoration in Midland",
+      "meta_description": "Water damage restoration in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water damage restoration midland",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/service-areas/gardendale-tx/water-damage-restoration/",
+        "/service-areas/goldsmith-tx/water-damage-restoration/",
+        "/service-areas/greenwood-tx/water-damage-restoration/",
+        "/service-areas/odessa-tx/water-damage-restoration/",
+        "/service-areas/stanton-tx/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/sewage-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Midland | ACS Enterprise ",
+      "h1": "Sewage Cleanup and Sanitization in Midland",
+      "meta_description": "Sewage cleanup and sanitization in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "sewage cleanup and sanitization midland",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/service-areas/gardendale-tx/sewage-cleanup/",
+        "/service-areas/goldsmith-tx/sewage-cleanup/",
+        "/service-areas/greenwood-tx/sewage-cleanup/",
+        "/service-areas/odessa-tx/sewage-cleanup/",
+        "/service-areas/stanton-tx/sewage-cleanup/",
+        "/blog/sewage-backup-health-risks/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Midland | ACS Enterprise ",
+      "h1": "Storm Damage Restoration in Midland",
+      "meta_description": "Storm damage restoration in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "storm damage restoration midland",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/service-areas/gardendale-tx/storm-damage-restoration/",
+        "/service-areas/goldsmith-tx/storm-damage-restoration/",
+        "/service-areas/greenwood-tx/storm-damage-restoration/",
+        "/service-areas/odessa-tx/storm-damage-restoration/",
+        "/service-areas/stanton-tx/storm-damage-restoration/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ]
+    },
+    {
+      "url_path": "/services/air-duct-cleaning/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Midland | ACS Enterprise ",
+      "h1": "Air Duct Cleaning in Midland",
+      "meta_description": "Air duct cleaning in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "air duct cleaning midland",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/andrews-tx/air-duct-cleaning/",
+        "/service-areas/big-spring-tx/air-duct-cleaning/",
+        "/service-areas/gardendale-tx/air-duct-cleaning/",
+        "/service-areas/goldsmith-tx/air-duct-cleaning/",
+        "/service-areas/greenwood-tx/air-duct-cleaning/",
+        "/service-areas/odessa-tx/air-duct-cleaning/",
+        "/service-areas/stanton-tx/air-duct-cleaning/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Cleanup in Midland | ACS Enterprise ",
+      "h1": "Water Cleanup in Midland",
+      "meta_description": "Water cleanup in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water cleanup midland",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/andrews-tx/water-cleanup/",
+        "/service-areas/big-spring-tx/water-cleanup/",
+        "/service-areas/gardendale-tx/water-cleanup/",
+        "/service-areas/goldsmith-tx/water-cleanup/",
+        "/service-areas/greenwood-tx/water-cleanup/",
+        "/service-areas/odessa-tx/water-cleanup/",
+        "/service-areas/stanton-tx/water-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/carpet-cleaning/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Carpet Cleaning in Midland | ACS Enterprise ",
+      "h1": "Carpet Cleaning in Midland",
+      "meta_description": "Carpet cleaning in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "carpet cleaning midland",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/andrews-tx/carpet-cleaning/",
+        "/service-areas/big-spring-tx/carpet-cleaning/",
+        "/service-areas/gardendale-tx/carpet-cleaning/",
+        "/service-areas/goldsmith-tx/carpet-cleaning/",
+        "/service-areas/greenwood-tx/carpet-cleaning/",
+        "/service-areas/odessa-tx/carpet-cleaning/",
+        "/service-areas/stanton-tx/carpet-cleaning/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/odessa-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Odessa, TX | ACS Enterprise ",
+      "h1": "Restoration Services in Odessa",
+      "meta_description": "Serving Odessa, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (432) 847-4704.",
+      "primary_keyword": "restoration services odessa",
+      "secondary_keywords": [
+        "odessa restoration company",
+        "damage restoration odessa",
+        "odessa disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/odessa-tx/water-damage-restoration/",
+        "/service-areas/odessa-tx/sewage-cleanup/",
+        "/service-areas/odessa-tx/storm-damage-restoration/",
+        "/service-areas/odessa-tx/water-cleanup/",
+        "/service-areas/odessa-tx/air-duct-cleaning/",
+        "/service-areas/odessa-tx/carpet-cleaning/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/gardendale-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/big-spring-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Big Spring, TX | ACS Enterprise ",
+      "h1": "Restoration Services in Big Spring",
+      "meta_description": "Serving Big Spring, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (432) 847-4704.",
+      "primary_keyword": "restoration services big spring",
+      "secondary_keywords": [
+        "big spring restoration company",
+        "damage restoration big spring",
+        "big spring disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/water-cleanup/",
+        "/service-areas/big-spring-tx/air-duct-cleaning/",
+        "/service-areas/big-spring-tx/carpet-cleaning/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/goldsmith-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stanton-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Stanton, TX | ACS Enterprise ",
+      "h1": "Restoration Services in Stanton",
+      "meta_description": "Serving Stanton, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (432) 847-4704.",
+      "primary_keyword": "restoration services stanton",
+      "secondary_keywords": [
+        "stanton restoration company",
+        "damage restoration stanton",
+        "stanton disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/stanton-tx/water-damage-restoration/",
+        "/service-areas/stanton-tx/sewage-cleanup/",
+        "/service-areas/stanton-tx/storm-damage-restoration/",
+        "/service-areas/stanton-tx/water-cleanup/",
+        "/service-areas/stanton-tx/air-duct-cleaning/",
+        "/service-areas/stanton-tx/carpet-cleaning/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/gardendale-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/andrews-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Andrews, TX | ACS Enterprise ",
+      "h1": "Restoration Services in Andrews",
+      "meta_description": "Serving Andrews, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (432) 847-4704.",
+      "primary_keyword": "restoration services andrews",
+      "secondary_keywords": [
+        "andrews restoration company",
+        "damage restoration andrews",
+        "andrews disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/water-cleanup/",
+        "/service-areas/andrews-tx/air-duct-cleaning/",
+        "/service-areas/andrews-tx/carpet-cleaning/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/goldsmith-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gardendale-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Gardendale, TX | ACS Enterprise ",
+      "h1": "Restoration Services in Gardendale",
+      "meta_description": "Serving Gardendale, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (432) 847-4704.",
+      "primary_keyword": "restoration services gardendale",
+      "secondary_keywords": [
+        "gardendale restoration company",
+        "damage restoration gardendale",
+        "gardendale disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/gardendale-tx/water-damage-restoration/",
+        "/service-areas/gardendale-tx/sewage-cleanup/",
+        "/service-areas/gardendale-tx/storm-damage-restoration/",
+        "/service-areas/gardendale-tx/water-cleanup/",
+        "/service-areas/gardendale-tx/air-duct-cleaning/",
+        "/service-areas/gardendale-tx/carpet-cleaning/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/goldsmith-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenwood-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Greenwood, TX | ACS Enterprise ",
+      "h1": "Restoration Services in Greenwood",
+      "meta_description": "Serving Greenwood, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (432) 847-4704.",
+      "primary_keyword": "restoration services greenwood",
+      "secondary_keywords": [
+        "greenwood restoration company",
+        "damage restoration greenwood",
+        "greenwood disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/greenwood-tx/water-damage-restoration/",
+        "/service-areas/greenwood-tx/sewage-cleanup/",
+        "/service-areas/greenwood-tx/storm-damage-restoration/",
+        "/service-areas/greenwood-tx/water-cleanup/",
+        "/service-areas/greenwood-tx/air-duct-cleaning/",
+        "/service-areas/greenwood-tx/carpet-cleaning/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/gardendale-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goldsmith-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Goldsmith, TX | ACS Enterprise ",
+      "h1": "Restoration Services in Goldsmith",
+      "meta_description": "Serving Goldsmith, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (432) 847-4704.",
+      "primary_keyword": "restoration services goldsmith",
+      "secondary_keywords": [
+        "goldsmith restoration company",
+        "damage restoration goldsmith",
+        "goldsmith disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/goldsmith-tx/water-damage-restoration/",
+        "/service-areas/goldsmith-tx/sewage-cleanup/",
+        "/service-areas/goldsmith-tx/storm-damage-restoration/",
+        "/service-areas/goldsmith-tx/water-cleanup/",
+        "/service-areas/goldsmith-tx/air-duct-cleaning/",
+        "/service-areas/goldsmith-tx/carpet-cleaning/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/gardendale-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/odessa-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Odessa, TX | ACS Enterprise ",
+      "h1": "Water Damage Restoration in Odessa",
+      "meta_description": "Water damage restoration in Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water damage restoration odessa",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/odessa-tx/",
+        "/service-areas/odessa-tx/sewage-cleanup/",
+        "/service-areas/odessa-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/odessa-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Odessa, TX | ACS Enterprise ",
+      "h1": "Sewage Cleanup and Sanitization in Odessa",
+      "meta_description": "Sewage cleanup and sanitization in Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "sewage cleanup and sanitization odessa",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/odessa-tx/",
+        "/service-areas/odessa-tx/water-damage-restoration/",
+        "/service-areas/odessa-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/odessa-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Odessa, TX | ACS Enterprise ",
+      "h1": "Storm Damage Restoration in Odessa",
+      "meta_description": "Storm damage restoration in Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "storm damage restoration odessa",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/odessa-tx/",
+        "/service-areas/odessa-tx/water-damage-restoration/",
+        "/service-areas/odessa-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/odessa-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Odessa, TX | ACS Enterprise ",
+      "h1": "Air Duct Cleaning in Odessa",
+      "meta_description": "Air duct cleaning in Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "air duct cleaning odessa",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/odessa-tx/",
+        "/service-areas/odessa-tx/water-damage-restoration/",
+        "/service-areas/odessa-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/air-duct-cleaning/",
+        "/service-areas/big-spring-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/odessa-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Odessa, TX | ACS Enterprise ",
+      "h1": "Water Cleanup in Odessa",
+      "meta_description": "Water cleanup in Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water cleanup odessa",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/odessa-tx/",
+        "/service-areas/odessa-tx/water-damage-restoration/",
+        "/service-areas/odessa-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/water-cleanup/",
+        "/service-areas/big-spring-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/odessa-tx/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Odessa, TX | ACS Enterprise ",
+      "h1": "Carpet Cleaning in Odessa",
+      "meta_description": "Carpet cleaning in Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "carpet cleaning odessa",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/odessa-tx/",
+        "/service-areas/odessa-tx/water-damage-restoration/",
+        "/service-areas/odessa-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/carpet-cleaning/",
+        "/service-areas/big-spring-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/big-spring-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Big Spring, TX | ACS Enterprise ",
+      "h1": "Water Damage Restoration in Big Spring",
+      "meta_description": "Water damage restoration in Big Spring, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water damage restoration big spring",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/gardendale-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/big-spring-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Big Spring, TX | ACS Enterprise ",
+      "h1": "Sewage Cleanup and Sanitization in Big Spring",
+      "meta_description": "Sewage cleanup and sanitization in Big Spring, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "sewage cleanup and sanitization big spring",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/gardendale-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/big-spring-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Big Spring, TX | ACS Enterprise ",
+      "h1": "Storm Damage Restoration in Big Spring",
+      "meta_description": "Storm damage restoration in Big Spring, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "storm damage restoration big spring",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/gardendale-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/big-spring-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Big Spring, TX | ACS Enterprise ",
+      "h1": "Air Duct Cleaning in Big Spring",
+      "meta_description": "Air duct cleaning in Big Spring, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "air duct cleaning big spring",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/air-duct-cleaning/",
+        "/service-areas/gardendale-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/big-spring-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Big Spring, TX | ACS Enterprise ",
+      "h1": "Water Cleanup in Big Spring",
+      "meta_description": "Water cleanup in Big Spring, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water cleanup big spring",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/water-cleanup/",
+        "/service-areas/gardendale-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/big-spring-tx/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Big Spring, TX | ACS Enterprise ",
+      "h1": "Carpet Cleaning in Big Spring",
+      "meta_description": "Carpet cleaning in Big Spring, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "carpet cleaning big spring",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/carpet-cleaning/",
+        "/service-areas/gardendale-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stanton-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Stanton, TX | ACS Enterprise ",
+      "h1": "Water Damage Restoration in Stanton",
+      "meta_description": "Water damage restoration in Stanton, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water damage restoration stanton",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/stanton-tx/",
+        "/service-areas/stanton-tx/sewage-cleanup/",
+        "/service-areas/stanton-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stanton-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Stanton, TX | ACS Enterprise ",
+      "h1": "Sewage Cleanup and Sanitization in Stanton",
+      "meta_description": "Sewage cleanup and sanitization in Stanton, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "sewage cleanup and sanitization stanton",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/stanton-tx/",
+        "/service-areas/stanton-tx/water-damage-restoration/",
+        "/service-areas/stanton-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stanton-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Stanton, TX | ACS Enterprise ",
+      "h1": "Storm Damage Restoration in Stanton",
+      "meta_description": "Storm damage restoration in Stanton, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "storm damage restoration stanton",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/stanton-tx/",
+        "/service-areas/stanton-tx/water-damage-restoration/",
+        "/service-areas/stanton-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stanton-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Stanton, TX | ACS Enterprise ",
+      "h1": "Air Duct Cleaning in Stanton",
+      "meta_description": "Air duct cleaning in Stanton, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "air duct cleaning stanton",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/stanton-tx/",
+        "/service-areas/stanton-tx/water-damage-restoration/",
+        "/service-areas/stanton-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/air-duct-cleaning/",
+        "/service-areas/big-spring-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stanton-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Stanton, TX | ACS Enterprise ",
+      "h1": "Water Cleanup in Stanton",
+      "meta_description": "Water cleanup in Stanton, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water cleanup stanton",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/stanton-tx/",
+        "/service-areas/stanton-tx/water-damage-restoration/",
+        "/service-areas/stanton-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/water-cleanup/",
+        "/service-areas/big-spring-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stanton-tx/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Stanton, TX | ACS Enterprise ",
+      "h1": "Carpet Cleaning in Stanton",
+      "meta_description": "Carpet cleaning in Stanton, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "carpet cleaning stanton",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/stanton-tx/",
+        "/service-areas/stanton-tx/water-damage-restoration/",
+        "/service-areas/stanton-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/carpet-cleaning/",
+        "/service-areas/big-spring-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/andrews-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Andrews, TX | ACS Enterprise ",
+      "h1": "Water Damage Restoration in Andrews",
+      "meta_description": "Water damage restoration in Andrews, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water damage restoration andrews",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/service-areas/gardendale-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/andrews-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Andrews, TX | ACS Enterprise ",
+      "h1": "Sewage Cleanup and Sanitization in Andrews",
+      "meta_description": "Sewage cleanup and sanitization in Andrews, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "sewage cleanup and sanitization andrews",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/service-areas/gardendale-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/andrews-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Andrews, TX | ACS Enterprise ",
+      "h1": "Storm Damage Restoration in Andrews",
+      "meta_description": "Storm damage restoration in Andrews, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "storm damage restoration andrews",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/service-areas/gardendale-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/andrews-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Andrews, TX | ACS Enterprise ",
+      "h1": "Air Duct Cleaning in Andrews",
+      "meta_description": "Air duct cleaning in Andrews, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "air duct cleaning andrews",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/air-duct-cleaning/",
+        "/service-areas/gardendale-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/andrews-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Andrews, TX | ACS Enterprise ",
+      "h1": "Water Cleanup in Andrews",
+      "meta_description": "Water cleanup in Andrews, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water cleanup andrews",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/water-cleanup/",
+        "/service-areas/gardendale-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/andrews-tx/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Andrews, TX | ACS Enterprise ",
+      "h1": "Carpet Cleaning in Andrews",
+      "meta_description": "Carpet cleaning in Andrews, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "carpet cleaning andrews",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/carpet-cleaning/",
+        "/service-areas/gardendale-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gardendale-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Gardendale, TX | ACS Enterprise ",
+      "h1": "Water Damage Restoration in Gardendale",
+      "meta_description": "Water damage restoration in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water damage restoration gardendale",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/gardendale-tx/sewage-cleanup/",
+        "/service-areas/gardendale-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gardendale-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Gardendale, TX | ACS Enterprise ",
+      "h1": "Sewage Cleanup and Sanitization in Gardendale",
+      "meta_description": "Sewage cleanup and sanitization in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "sewage cleanup and sanitization gardendale",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/gardendale-tx/water-damage-restoration/",
+        "/service-areas/gardendale-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gardendale-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Gardendale, TX | ACS Enterprise ",
+      "h1": "Storm Damage Restoration in Gardendale",
+      "meta_description": "Storm damage restoration in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "storm damage restoration gardendale",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/gardendale-tx/water-damage-restoration/",
+        "/service-areas/gardendale-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gardendale-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Gardendale, TX | ACS Enterprise ",
+      "h1": "Air Duct Cleaning in Gardendale",
+      "meta_description": "Air duct cleaning in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "air duct cleaning gardendale",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/gardendale-tx/water-damage-restoration/",
+        "/service-areas/gardendale-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/air-duct-cleaning/",
+        "/service-areas/big-spring-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gardendale-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Gardendale, TX | ACS Enterprise ",
+      "h1": "Water Cleanup in Gardendale",
+      "meta_description": "Water cleanup in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water cleanup gardendale",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/gardendale-tx/water-damage-restoration/",
+        "/service-areas/gardendale-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/water-cleanup/",
+        "/service-areas/big-spring-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gardendale-tx/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Gardendale, TX | ACS Enterprise ",
+      "h1": "Carpet Cleaning in Gardendale",
+      "meta_description": "Carpet cleaning in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "carpet cleaning gardendale",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/gardendale-tx/water-damage-restoration/",
+        "/service-areas/gardendale-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/carpet-cleaning/",
+        "/service-areas/big-spring-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenwood-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Greenwood, TX | ACS Enterprise ",
+      "h1": "Water Damage Restoration in Greenwood",
+      "meta_description": "Water damage restoration in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water damage restoration greenwood",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/greenwood-tx/",
+        "/service-areas/greenwood-tx/sewage-cleanup/",
+        "/service-areas/greenwood-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenwood-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Greenwood, TX | ACS Enterprise ",
+      "h1": "Sewage Cleanup and Sanitization in Greenwood",
+      "meta_description": "Sewage cleanup and sanitization in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "sewage cleanup and sanitization greenwood",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/greenwood-tx/",
+        "/service-areas/greenwood-tx/water-damage-restoration/",
+        "/service-areas/greenwood-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenwood-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Greenwood, TX | ACS Enterprise ",
+      "h1": "Storm Damage Restoration in Greenwood",
+      "meta_description": "Storm damage restoration in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "storm damage restoration greenwood",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/greenwood-tx/",
+        "/service-areas/greenwood-tx/water-damage-restoration/",
+        "/service-areas/greenwood-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenwood-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Greenwood, TX | ACS Enterprise ",
+      "h1": "Air Duct Cleaning in Greenwood",
+      "meta_description": "Air duct cleaning in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "air duct cleaning greenwood",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/greenwood-tx/",
+        "/service-areas/greenwood-tx/water-damage-restoration/",
+        "/service-areas/greenwood-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/air-duct-cleaning/",
+        "/service-areas/big-spring-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenwood-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Greenwood, TX | ACS Enterprise ",
+      "h1": "Water Cleanup in Greenwood",
+      "meta_description": "Water cleanup in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water cleanup greenwood",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/greenwood-tx/",
+        "/service-areas/greenwood-tx/water-damage-restoration/",
+        "/service-areas/greenwood-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/water-cleanup/",
+        "/service-areas/big-spring-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenwood-tx/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Greenwood, TX | ACS Enterprise ",
+      "h1": "Carpet Cleaning in Greenwood",
+      "meta_description": "Carpet cleaning in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "carpet cleaning greenwood",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/greenwood-tx/",
+        "/service-areas/greenwood-tx/water-damage-restoration/",
+        "/service-areas/greenwood-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/carpet-cleaning/",
+        "/service-areas/big-spring-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goldsmith-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Goldsmith, TX | ACS Enterprise ",
+      "h1": "Water Damage Restoration in Goldsmith",
+      "meta_description": "Water damage restoration in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water damage restoration goldsmith",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/goldsmith-tx/",
+        "/service-areas/goldsmith-tx/sewage-cleanup/",
+        "/service-areas/goldsmith-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goldsmith-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Goldsmith, TX | ACS Enterprise ",
+      "h1": "Sewage Cleanup and Sanitization in Goldsmith",
+      "meta_description": "Sewage cleanup and sanitization in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "sewage cleanup and sanitization goldsmith",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/goldsmith-tx/",
+        "/service-areas/goldsmith-tx/water-damage-restoration/",
+        "/service-areas/goldsmith-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goldsmith-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Goldsmith, TX | ACS Enterprise ",
+      "h1": "Storm Damage Restoration in Goldsmith",
+      "meta_description": "Storm damage restoration in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "storm damage restoration goldsmith",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/goldsmith-tx/",
+        "/service-areas/goldsmith-tx/water-damage-restoration/",
+        "/service-areas/goldsmith-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goldsmith-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Goldsmith, TX | ACS Enterprise ",
+      "h1": "Air Duct Cleaning in Goldsmith",
+      "meta_description": "Air duct cleaning in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "air duct cleaning goldsmith",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/goldsmith-tx/",
+        "/service-areas/goldsmith-tx/water-damage-restoration/",
+        "/service-areas/goldsmith-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/air-duct-cleaning/",
+        "/service-areas/big-spring-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goldsmith-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Goldsmith, TX | ACS Enterprise ",
+      "h1": "Water Cleanup in Goldsmith",
+      "meta_description": "Water cleanup in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water cleanup goldsmith",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/goldsmith-tx/",
+        "/service-areas/goldsmith-tx/water-damage-restoration/",
+        "/service-areas/goldsmith-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/water-cleanup/",
+        "/service-areas/big-spring-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goldsmith-tx/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Goldsmith, TX | ACS Enterprise ",
+      "h1": "Carpet Cleaning in Goldsmith",
+      "meta_description": "Carpet cleaning in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "carpet cleaning goldsmith",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/goldsmith-tx/",
+        "/service-areas/goldsmith-tx/water-damage-restoration/",
+        "/service-areas/goldsmith-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/carpet-cleaning/",
+        "/service-areas/big-spring-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/storm-damage-insurance-claim-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "h1": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "meta_description": "",
+      "primary_keyword": "storm damage insurance claim checklist use this before you call your insurer",
+      "secondary_keywords": [
+        "storm damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/storm-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-long-does-water-damage-restoration-take/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Long Does Water Damage Restoration Actually Take?",
+      "h1": "How Long Does Water Damage Restoration Actually Take?",
+      "meta_description": "",
+      "primary_keyword": "how long does water damage restoration actually take",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_process",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/mold-after-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Quickly Does Mold Grow After Water Damage?",
+      "h1": "How Quickly Does Mold Grow After Water Damage?",
+      "meta_description": "",
+      "primary_keyword": "how quickly does mold grow after water damage",
+      "secondary_keywords": [
+        "mold remediation",
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/sewage-backup-health-risks/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Why You Can't DIY Sewage Backup: The Health Risks Nobody Warns You About",
+      "h1": "Why You Can't DIY Sewage Backup: The Health Risks Nobody Warns You About",
+      "meta_description": "",
+      "primary_keyword": "why you cant diy sewage backup the health risks nobody warns you about",
+      "secondary_keywords": [
+        "sewage cleanup and sanitization"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/sewage-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | ACS Enterprise ",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "acs enterprise  privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | ACS Enterprise ",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "acs enterprise  terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | ACS Enterprise ",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "acs enterprise  accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}

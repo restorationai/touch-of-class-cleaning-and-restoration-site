@@ -1,0 +1,165 @@
+---
+/*
+ * BeforeAfterSection — "Our Work" drag-to-compare before/after slider.
+ *
+ * Stock-standard Rank AI component. Data-driven: pass `pairs` (usually from
+ * the client's `src/data/work.ts`). Renders nothing when `pairs` is empty, so
+ * it is safe to leave wired into every homepage.
+ *
+ * SERVICE-DRIVEN CONTENT RULE (keep pairs honest):
+ *   - Mitigation/restoration clients  -> water / fire / mold / sewage / storm pairs.
+ *   - Cleaning clients                -> add carpet / upholstery / tile & grout pairs.
+ *   - ONLY include remodel/renovation pairs (kitchen, bathroom, rebuild) if the
+ *     client actually does general contracting / remodeling. Otherwise omit them.
+ * Never show a before/after for a service the client does not perform.
+ */
+import { ArrowRight } from "@lucide/astro";
+import { srcsetFor } from "~/lib/images";
+
+export interface BeforeAfterPair {
+  label: string;
+  beforeSrc: string;
+  beforeAlt: string;
+  afterSrc: string;
+  afterAlt: string;
+}
+
+interface Props {
+  pairs?: BeforeAfterPair[];
+  eyebrow?: string;
+  heading?: string;
+  ctaHref?: string;
+  ctaLabel?: string;
+}
+
+const {
+  pairs = [],
+  eyebrow = "See why our customers love us",
+  heading = "Our Work",
+  ctaHref,
+  ctaLabel = "See All Photos",
+} = Astro.props;
+---
+
+{pairs.length > 0 && (
+  <section class="bg-white py-24 text-dark-900" aria-label="Before and after project results">
+    <div class="container-wide px-6 sm:px-10 lg:px-12">
+
+      {/* Header */}
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-8">
+        <div>
+          <span class="inline-block bg-black text-white px-4 py-1.5 text-xs font-black uppercase tracking-[0.3em] mb-4">{eyebrow}</span>
+          <div class="flex items-center gap-6">
+            <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter">{heading}</h2>
+            <div class="hidden md:block flex-grow h-px bg-dark/30 w-72"></div>
+          </div>
+        </div>
+        {ctaHref && (
+          <a
+            href={ctaHref}
+            class="bg-white text-dark font-black uppercase px-8 py-4 text-base flex items-center justify-center gap-3 hover:bg-primary-600 hover:text-white transition-all rounded-sm shadow-xl"
+          >
+            {ctaLabel} <ArrowRight size={20} />
+          </a>
+        )}
+      </div>
+
+      {/* 2-column slider grid */}
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {pairs.map((pair, i) => {
+          // Sliders are absolutely-positioned full-bleed inside an aspect-video
+          // box, so srcset/sizes only — the container controls layout size.
+          const beforeImg = srcsetFor(pair.beforeSrc);
+          const afterImg = srcsetFor(pair.afterSrc);
+          const sizes = "(min-width:768px) 50vw, 100vw";
+          return (
+          <div data-comparison-item>
+            <p class="text-sm font-black uppercase tracking-wider text-dark/60 mb-2">{pair.label}</p>
+
+            <div class="relative w-full aspect-video rounded-sm overflow-hidden shadow-2xl select-none border-4 border-dark/10 group transition-all duration-500 hover:border-primary-500">
+
+              {/* Base layer: BEFORE */}
+              <img
+                src={pair.beforeSrc}
+                srcset={beforeImg.srcset}
+                sizes={beforeImg.srcset ? sizes : undefined}
+                alt={pair.beforeAlt}
+                class="absolute inset-0 w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="absolute top-3 left-3 z-10 bg-dark-100/80 text-dark-900 text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
+                Before
+              </span>
+
+              {/* Top layer: AFTER */}
+              <div
+                data-after-layer
+                class="absolute inset-0"
+                style="clip-path: inset(0 0 0 50%)"
+              >
+                <img
+                  src={pair.afterSrc}
+                  srcset={afterImg.srcset}
+                  sizes={afterImg.srcset ? sizes : undefined}
+                  alt={pair.afterAlt}
+                  class="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="absolute top-3 right-3 bg-primary-600/90 text-white text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
+                  After
+                </span>
+              </div>
+
+              {/* Divider + handle */}
+              <div
+                data-handle
+                class="absolute top-0 bottom-0 z-20 w-0.5 bg-white shadow-[0_0_10px_rgba(0,0,0,0.5)] pointer-events-none"
+                style="left: 50%"
+                aria-hidden="true"
+              >
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white shadow-lg flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 9l-4 3 4 3M16 9l4 3-4 3" />
+                  </svg>
+                </div>
+              </div>
+
+              {/* Range input */}
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value="50"
+                step="0.5"
+                class="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-30 touch-none"
+                aria-label={`Drag to compare before and after: ${pair.label}`}
+                data-range
+              />
+            </div>
+          </div>
+          );
+        })}
+      </div>
+
+    </div>
+  </section>
+)}
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-comparison-item]').forEach(container => {
+    const range = container.querySelector<HTMLInputElement>('[data-range]');
+    const afterLayer = container.querySelector<HTMLElement>('[data-after-layer]');
+    const handle = container.querySelector<HTMLElement>('[data-handle]');
+    if (!range || !afterLayer || !handle) return;
+
+    function update(pos: string) {
+      afterLayer!.style.clipPath = `inset(0 0 0 ${pos}%)`;
+      handle!.style.left = `${pos}%`;
+    }
+
+    range.addEventListener('input', () => update(range.value));
+    range.addEventListener('touchstart', (e) => e.stopPropagation(), { passive: true });
+  });
+</script>

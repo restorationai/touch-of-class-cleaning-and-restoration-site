@@ -1,0 +1,28 @@
+{
+  "slug": "aldredo-moreno",
+  "display_name": "ACS Enterprise ",
+  "domain": null,
+  "tier": "standard",
+  "vertical": "restoration",
+  "contact": "elcabimero1971@gmail.com",
+  "status": "onboarding",
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.3.0",
+    "url_count": 72,
+    "generated_at": "2026-09-09T01:36:33.915596+00:00"
+  },
+  "updated_at": "2026-09-09T01:36:42.899080+00:00",
+  "indexnow_key": "93078ed3113c4f9cb49adcf2d6649af1",
+  "build": {
+    "scaffolded_at": "2026-09-09T01:36:42.898954+00:00",
+    "github_repo": "restorationai/aldredo-moreno-site",
+    "pages_project": "rankai-aldredo-moreno",
+    "starter_version": "0.1.0",
+    "url_count": 72,
+    "pages_status": "created",
+    "last_rendered_at": "2026-09-09T01:50:10.838976+00:00"
+  },
+  "build_status": "content_partial"
+}

@@ -1,0 +1,73 @@
+{
+ "brand": {
+  "display_name": "ACS Enterprise ",
+  "lat": 31.83688,
+  "lng": -102.0103767,
+  "phone": "(432) 847-4704",
+  "email": "elcabimero1971@gmail.com",
+  "street_address": "2318 Horizon Rd Midland",
+  "city": "Midland",
+  "state": "TX",
+  "postal_code": "70705",
+  "theme": "light",
+  "licensed_insured_attested": true,
+  "founded_year": "2019",
+  "trust_badges": [
+   "Licensed & Insured",
+   "Locally Owned & Operated"
+  ]
+ },
+ "services": [
+  "water-damage-restoration",
+  "sewage-cleanup",
+  "storm-damage-restoration",
+  "air-duct-cleaning",
+  "water-cleanup",
+  "carpet-cleaning"
+ ],
+ "service_areas": [
+  {
+   "city": "Midland",
+   "state": "TX",
+   "slug": "midland-tx",
+   "primary": true
+  },
+  {
+   "city": "Odessa",
+   "state": "TX",
+   "slug": "odessa-tx"
+  },
+  {
+   "city": "Big Spring",
+   "state": "TX",
+   "slug": "big-spring-tx"
+  },
+  {
+   "city": "Stanton",
+   "state": "TX",
+   "slug": "stanton-tx"
+  },
+  {
+   "city": "Andrews",
+   "state": "TX",
+   "slug": "andrews-tx"
+  },
+  {
+   "city": "Gardendale",
+   "state": "TX",
+   "slug": "gardendale-tx"
+  },
+  {
+   "city": "Greenwood",
+   "state": "TX",
+   "slug": "greenwood-tx"
+  },
+  {
+   "city": "Goldsmith",
+   "state": "TX",
+   "slug": "goldsmith-tx"
+  }
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
+}

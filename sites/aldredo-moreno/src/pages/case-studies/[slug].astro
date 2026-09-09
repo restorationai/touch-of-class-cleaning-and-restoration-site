@@ -1,0 +1,61 @@
+---
+// Case study detail — same rendering conventions as blog posts (truth-gated
+// content from case_study_intake), with city/service context up top.
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import FAQSection from "~/components/FAQSection.astro";
+import InternalLinks from "~/components/InternalLinks.astro";
+import { brand } from "~/lib/brand";
+
+export async function getStaticPaths() {
+  const studies = await getCollection("caseStudies");
+  return studies.map((s) => ({ params: { slug: s.slug }, props: { entry: s } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const data = entry.data;
+const heroImage = data.hero || "/images/hero-bg.webp";
+const dateStr = new Date(data.published_at).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+const where = [data.city, data.state].filter(Boolean).join(", ");
+---
+
+<BaseLayout
+  title={data.title}
+  meta_description={data.meta_description}
+  hero_image_url={heroImage}
+  schema_stubs={["blog-posting", "faq", "breadcrumb-list"]}
+  schema_ctx={{
+    archetype: "case-study",
+    post_published_at: data.published_at,
+    post_updated_at: data.updated_at,
+  }}
+  breadcrumb={data.breadcrumb || [{ name: "Home", url: "/" }, { name: "Case Studies", url: "/case-studies/" }, { name: data.title }]}
+  faq={data.faq}
+>
+  <section class="relative min-h-[420px] flex items-end overflow-hidden bg-navy border-b border-white/10">
+    <div class="absolute inset-0 z-0">
+      <img src={heroImage} alt={data.title} class="w-full h-full object-cover" loading="eager" />
+      <div class="absolute inset-0 bg-gradient-to-t from-navy via-navy/85 to-navy/40"></div>
+    </div>
+    <div class="container-wide relative z-10 py-16 max-w-4xl">
+      <div class="eyebrow">{where ? `${where} · ${dateStr}` : dateStr}</div>
+      <h1 class="mb-0">{data.title}</h1>
+    </div>
+  </section>
+
+  <article class="section-first bg-navy">
+    <div class="container-wide max-w-3xl mx-auto">
+      <div class="prose-body">
+        <Content />
+      </div>
+    </div>
+  </article>
+
+  <FAQSection faq={data.faq} />
+
+  <CtaBanner heading="Dealing with something similar?" subheading="Call us and we will walk you through it." />
+
+  <InternalLinks paths={data.internal_links} heading="More Real Jobs" eyebrow="Case Studies" />
+</BaseLayout>

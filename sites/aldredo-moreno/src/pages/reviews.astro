@@ -1,0 +1,50 @@
+---
+// Reviews — deterministic trust page: real synced Google reviews only
+// (brand.gbpReviews via sync_brand_reviews.py). Renders a graceful
+// read-us-on-Google fallback when no reviews are synced yet.
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import ReviewsSection from "~/components/ui/ReviewsSection.astro";
+import { brand } from "~/lib/brand";
+import { Star, ExternalLink } from "@lucide/astro";
+
+const rating = String(brand.gbpRatingValue || "");
+const count = String(brand.gbpReviewCount || "");
+const hasSynced = rating !== "" && count !== "";
+const mapsUrl = brand.placeId
+  ? `https://www.google.com/maps/place/?q=place_id:${brand.placeId}`
+  : (Array.isArray(brand.sameAsUrls) ? brand.sameAsUrls.find((u: string) => u.includes("google.com/maps")) : "") || "";
+
+const title = `Reviews | ${brand.displayName}`;
+const meta = hasSynced
+  ? `${brand.displayName} holds a ${rating}-star Google rating across ${count} reviews. Read what customers say about the work.`
+  : `Read customer reviews of ${brand.displayName} on Google.`;
+---
+
+<BaseLayout title={title} meta_description={meta}>
+  <section class="section-first">
+    <div class="container-wide max-w-3xl mx-auto py-14">
+      <h1>What Customers Say</h1>
+      {hasSynced ? (
+        <p class="text-lg opacity-80 mt-4 flex items-center gap-2">
+          <Star size={20} class="shrink-0" />
+          <span><strong>{rating}</strong> stars across <strong>{count}</strong> Google reviews — pulled directly from our Google Business Profile.</span>
+        </p>
+      ) : (
+        <p class="text-lg opacity-80 mt-4">
+          Our reviews live on Google, written by real customers on real jobs.
+        </p>
+      )}
+      {mapsUrl && (
+        <p class="mt-4">
+          <a href={mapsUrl} target="_blank" rel="noopener nofollow"
+             class="inline-flex items-center gap-1 underline decoration-dotted underline-offset-2 font-semibold">
+            Read all our reviews on Google <ExternalLink size={14} />
+          </a>
+        </p>
+      )}
+    </div>
+  </section>
+  <ReviewsSection />
+  <CtaBanner heading="Had a good experience with us?" subheading="A Google review helps your neighbors find honest help when they need it." />
+</BaseLayout>
