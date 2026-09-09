@@ -302,6 +302,9 @@ jobs:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          # thread-scan EIN capture reads client GHL conversations
+          GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
+          GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
         run: |
           python3 scripts/tollfree_autoreg.py watch --apply || echo "tollfree watch failed (non-fatal)"
 

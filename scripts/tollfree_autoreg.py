@@ -855,10 +855,24 @@ def cmd_watch(args) -> int:
                 submitted += 1
             continue
         if v != "ASK-EIN":
-            continue
+            # Wizard "don't have it handy" tap (Santino 2026-09-09): chase
+            # the EIN EARLY, before the number-activation stage exists —
+            # ein_followup_requested + no EIN behaves like ASK-EIN.
+            ints_f = c.get("integration_settings") or {}
+            if isinstance(ints_f, str):
+                try:
+                    ints_f = json.loads(ints_f)
+                except ValueError:
+                    ints_f = {}
+            ein_now = _ein_digits(r.get("business_ein") or c.get("ein") or "")
+            if not (ints_f.get("ein_followup_requested") and not ein_now):
+                continue
         # Before asking (or re-asking): maybe the answer is already sitting
-        # in their uploaded documents — never ask for what we hold.
-        found = _scan_docs_for_ein(r)
+        # in their uploaded documents or texted into ANY of their GHL
+        # threads — never ask for what we hold (Angie/ProRestoration
+        # 2026-09-09: she texted the EIN in direct reply to our ask and the
+        # tracked-conversation capture missed it for five days).
+        found = _scan_docs_for_ein(r) or _scan_threads_for_ein(r)
         if found:
             if args.apply:
                 _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}",
@@ -868,8 +882,9 @@ def cmd_watch(args) -> int:
                 _sb("POST", "/rest/v1/marketing_work_log", {
                     "company_id": cid, "actor": "tollfree_autoreg",
                     "category": "compliance", "action": "ein-captured",
-                    "detail": f"EIN {found} read from an uploaded document; "
-                              "submitting toll-free verification"},
+                    "detail": f"EIN {found} found in their uploaded docs or "
+                              "message threads; submitting toll-free "
+                              "verification"},
                     prefer="return=minimal")
                 r["business_ein"] = found
                 if assess(r)[0] == "READY" and submit_one(r, True):
@@ -906,6 +921,59 @@ def cmd_watch(args) -> int:
             asked += 1
     print(f"\nwatch done: {submitted} submitted, {asked} EIN ask(s) filed")
     return 0
+
+
+def _scan_threads_for_ein(r: dict) -> str | None:
+    """Recent inbound GHL messages of EVERY contact card, scanned for an
+    EIN. Two accepted shapes: XX-XXXXXXX anywhere in a message, or a short
+    message whose digits total exactly 9 (Roy 2026-09-04 sent his as
+    \"(452) 521-329\", phone-app formatted). Read-only; returns None
+    without GHL creds (CI needs GHL_API_KEY + GHL_LOCATION_ID)."""
+    key = os.environ.get("GHL_API_KEY")
+    loc = os.environ.get("GHL_LOCATION_ID")
+    if not (key and loc):
+        return None
+    ints = r["company"].get("integration_settings") or {}
+    if isinstance(ints, str):
+        try:
+            ints = json.loads(ints)
+        except ValueError:
+            return None
+    ids = [c.get("ghl_contact_id") for c in ints.get("contacts") or []
+           if c.get("ghl_contact_id")]
+    hdrs = {"Authorization": f"Bearer {key}", "Version": "2021-07-28",
+            "Accept": "application/json",
+            # GHL's edge 403s the default urllib UA
+            "User-Agent": "rank-ai-tollfree-autoreg/1.0"}
+    hyphen = re.compile(r"\b(\d{2})[- ](\d{7})\b")
+    for gcid in ids:
+        try:
+            q = urllib.parse.urlencode(
+                {"locationId": loc, "contactId": gcid, "limit": 5})
+            req = urllib.request.Request(
+                f"https://services.leadconnectorhq.com/conversations/search?{q}",
+                headers=hdrs)
+            convs = json.load(urllib.request.urlopen(req, timeout=30)
+                              ).get("conversations") or []
+            for cv in convs:
+                req2 = urllib.request.Request(
+                    "https://services.leadconnectorhq.com/conversations/"
+                    f"{cv['id']}/messages?limit=60", headers=hdrs)
+                data = json.load(urllib.request.urlopen(req2, timeout=30))
+                for m in (data.get("messages") or {}).get("messages") or []:
+                    if m.get("direction") != "inbound":
+                        continue
+                    body = str(m.get("body") or "")
+                    hit = hyphen.search(body)
+                    if hit and not hit.group(1).startswith("00"):
+                        return f"{hit.group(1)}-{hit.group(2)}"
+                    digits = re.sub(r"\D", "", body)
+                    if (len(body) <= 40 and len(digits) == 9
+                            and not digits.startswith("00")):
+                        return f"{digits[:2]}-{digits[2:]}"
+        except Exception:  # noqa: BLE001 — scan is best-effort per contact
+            continue
+    return None
 
 
 # --------------------------------------------------------------------- audit
