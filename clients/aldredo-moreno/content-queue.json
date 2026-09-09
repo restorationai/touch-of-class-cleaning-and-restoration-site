@@ -1,6 +1,58 @@
 {
   "items": [
     {
+      "id": "2026-09-09-carpet-upholstery-cleaning",
+      "status": "queued",
+      "queued_at": "2026-09-09T14:41:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "carpet-upholstery-cleaning",
+      "primary_keyword": "Carpet & Upholstery Cleaning",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "goldsmith-tx",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-09-09-air-duct-hvac-cleaning",
+      "status": "queued",
+      "queued_at": "2026-09-09T14:41:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "air-duct-hvac-cleaning",
+      "primary_keyword": "Air Duct & HVAC Cleaning",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "gardendale-tx",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-09-09-sewage-cleanup-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-09T14:41:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "sewage-cleanup-remediation",
+      "primary_keyword": "Sewage Cleanup & Remediation",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "big-spring-tx",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-09-09-storm-wind-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-09T14:41:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-wind-damage-restoration",
+      "primary_keyword": "Storm & Wind Damage Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "andrews-tx",
+      "source": "app target-term (onboarding)"
+    },
+    {
       "id": "2026-09-09-best-water-damage-restoration-in-midland-tx",
       "status": "written",
       "queued_at": "2026-09-09T10:23:55Z",
