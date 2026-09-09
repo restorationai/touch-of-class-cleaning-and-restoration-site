@@ -55,12 +55,30 @@ def seed_kind(company_id: str | None, slug: str | None,
         return None
     if ak == f"site-preview-feedback-{slug}":
         return "preview"
+    if ak.startswith("site-build-blocked-logo"):
+        return "logo"
     return {
         action_key(company_id, f"citations-logo-{slug}"): "logo",
         action_key(company_id, f"citations-nap-{slug}"): "nap",
         action_key(company_id, f"domain-access-{slug}"): "domain",
         action_key(company_id, f"domain-verify-{slug}"): "domain",
     }.get(ak)
+
+
+_LOGO_ASK_TITLE = __import__("re").compile(
+    r"(?i)\b(send|upload|share|provide)\b.{0,40}\blogo\b|"
+    r"\blogo\b.{0,40}\b(send|upload|share|provide)\b")
+
+
+def check_kind_by_title(title: str) -> str | None:
+    """Fallback identity for asks whose key the map doesn't know (ACS
+    2026-09-09: the signup audit seeds logo asks under hashed keys, and
+    Aldredo got re-asked for a logo the wizard had already uploaded —
+    revalidation returned None on the unknown key). Title text is the
+    stable signal across every seeding lane."""
+    if title and _LOGO_ASK_TITLE.search(title):
+        return "logo"
+    return None
 
 
 def _row_identity(company_id: str, plan_row: dict) -> tuple[str | None, str | None]:
@@ -166,6 +184,9 @@ def ask_still_valid(company_id: str, plan_row: dict) -> bool | None:
     try:
         ak, slug = _row_identity(company_id, plan_row)
         kind = seed_kind(company_id, slug, ak)
+        if kind is None:
+            kind = check_kind_by_title(
+                str(plan_row.get("title") or plan_row.get("text") or ""))
         if kind is None:
             return None
         why = {
