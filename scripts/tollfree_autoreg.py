@@ -151,8 +151,20 @@ def render_optin_card(name: str, tf_display: str, address_line: str,
     d = ImageDraw.Draw(img)
 
     def F(size, bold=False):
-        return ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc",
-                                  size, index=1 if bold else 0)
+        # macOS Helvetica first; ubuntu CI runners carry DejaVu instead —
+        # the hardcoded mac path crashed every CI submit run mid-batch and
+        # silently blocked all cloud submissions (found 2026-09-09).
+        candidates = [("/System/Library/Fonts/Helvetica.ttc",
+                       1 if bold else 0),
+                      ("/usr/share/fonts/truetype/dejavu/"
+                       + ("DejaVuSans-Bold.ttf" if bold
+                          else "DejaVuSans.ttf"), 0)]
+        for path, idx in candidates:
+            try:
+                return ImageFont.truetype(path, size, index=idx)
+            except OSError:
+                continue
+        return ImageFont.load_default()
 
     def wrap(text, font, maxw):
         words, lines, cur = text.split(), [], ""
@@ -492,7 +504,12 @@ def cmd_provision(args) -> int:
 
 MAX_AUTO_RESUBMITS = 2
 
-# rejection-reason keyword -> (strategy name, one-line description)
+# rejection-reason keyword -> (strategy name, one-line description).
+# ORDER MATTERS: first match wins. ein-identifier sits before legal-name so
+# the dominant 30527 class ("Business Registration Number Missing/Invalid")
+# gets the field-level fix — resubmits used to send only the strategy field,
+# so the identifier the 09-08 fresh-submit fix added never reached rows
+# already in the ladder (DIS re-rejected 09-09 exactly this way).
 _STRATEGIES = [
     (("opt in", "opt-in", "optin", "consent", "image"),
      "optin-v2", "richer opt-in evidence: step-by-step consent-flow card"),
@@ -500,7 +517,10 @@ _STRATEGIES = [
      "website-fix", "normalized/verified BusinessWebsite variant"),
     (("sample", "use case", "usecase", "message"),
      "usecase-detail", "expanded UseCaseSummary + explicit flow description"),
-    (("business name", "registration", "ein", "tax", "legal"),
+    (("registration", "ein", "tax", "30527"),
+     "ein-identifier", "re-stamp EIN as BusinessRegistrationNumber with "
+                       "Identifier=EIN (the 30527 fix)"),
+    (("business name", "legal"),
      "legal-name", "swap to the vaulted legal business name"),
 ]
 
@@ -593,6 +613,16 @@ def attempt_auto_resubmit(r: dict, ver: dict, apply: bool) -> bool:
             "customer's own job: appointment confirmations, technician "
             "arrival times, and service follow-ups. No marketing, no "
             "lists, opt-out honored instantly via STOP.")
+    elif sname == "ein-identifier":
+        ein9 = re.sub(r"\D", "",
+                      str(r.get("business_ein") or c.get("ein") or ""))
+        if len(ein9) != 9:
+            print("  ein-identifier: no 9-digit EIN on file — escalating")
+            return False
+        fields["BusinessRegistrationNumber"] = f"{ein9[:2]}-{ein9[2:]}"
+        fields["BusinessRegistrationAuthority"] = "EIN"
+        fields["BusinessRegistrationIdentifier"] = "EIN"
+        fields["BusinessRegistrationCountry"] = "US"
     elif sname == "legal-name":
         legal = (r.get("legal_business_name") or "").strip()
         if not legal or legal.lower() == name.lower():
