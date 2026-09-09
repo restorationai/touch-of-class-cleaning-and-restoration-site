@@ -614,9 +614,11 @@ def book_agreed_followup(company: dict, slug: str, m: dict, *, title: str,
     """Verbal scheduling agreements become real appointments (Santino
     2026-09-04, Josiah + Scott cases). Concrete mutually-confirmed times
     only; timezone resolved against the call's own start; conflicts checked
-    against the REAL calendars (round-robin availability lies); confirmed
-    Rank AI clients land on the Live Support Call calendar, everyone else
-    on the Follow Up calendar. Idempotent per recording."""
+    against the REAL calendars (round-robin availability lies); ANY signed-up
+    client (a live companies row, whatever the plan label) lands on the Live
+    Support Call calendar — the Follow Up calendar is only for companies that
+    are no longer active (Santino 2026-09-09, Aldredo case: a client must
+    never be booked as a follow-up). Idempotent per recording."""
     rid = str(m.get("recording_id"))
     bookings = state.setdefault("bookings", {})
     if bookings.get(rid):
@@ -741,8 +743,7 @@ def book_agreed_followup(company: dict, slug: str, m: dict, *, title: str,
                            f"'{live[0].get('title')}'. Quote: "
                            f"{str(out.get('quote'))[:200]}. Rebook by hand.")
         return
-    is_client = ((company.get("plan") or "").strip().lower() == "rank ai"
-                 and str(company.get("status") or "").strip().lower()
+    is_client = (str(company.get("status") or "").strip().lower()
                  not in ("inactive", "cancelled", "canceled", "suspended",
                          "paused"))
     cal_id = LIVE_SUPPORT_CAL if is_client else FOLLOWUP_CAL
