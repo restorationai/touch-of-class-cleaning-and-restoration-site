@@ -13,7 +13,7 @@
     "url_count": 159,
     "generated_at": "2026-08-11T15:53:46.828873+00:00"
   },
-  "updated_at": "2026-09-07T20:26:41.832081+00:00",
+  "updated_at": "2026-09-09T16:56:09+00:00",
   "build": {
     "scaffolded_at": "2026-07-28T14:55:43.298632+00:00",
     "github_repo": "restorationai/quality-contracting-inc-site",
@@ -52,5 +52,13 @@
   "brightlocal": {
     "location_id": 4147630,
     "campaign_id": 997471
+  },
+  "cloudflare": {
+    "zone_id": "41f6bce0d5f0025b262f4d0f5a4124e9"
+  },
+  "gsc": {
+    "property_url": "sc-domain:qualitycontracting.us",
+    "verified_at": "2026-09-09T16:56:09+00:00",
+    "sitemap_url": "https://qualitycontracting.us/sitemap-index.xml"
   }
 }
