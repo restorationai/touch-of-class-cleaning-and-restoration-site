@@ -3,8 +3,8 @@ import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
-import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
+import { Phone } from "@lucide/astro";
 import ServicesHubGrid from "~/components/ui/ServicesHubGrid.astro";
 import ServiceAreasHubGrid from "~/components/ui/ServiceAreasHubGrid.astro";
 import { brand } from "~/lib/brand";
@@ -65,9 +65,42 @@ const proseHeading =
   {archetype === "services-hub" && <ServicesHubGrid />}
   {archetype === "service-areas-hub" && <ServiceAreasHubGrid />}
 
-  {/* The form is the point of the contact page, so it renders
-      above the prose, not 1,500px below it (Santino 2026-08-07). */}
-  {archetype === "contact" && <FreeEstimateForm />}
+  {/* Contact page is optimized for direct calls, not lead-capture forms
+      (Amin 2026-09-08: "Forms are ineffective for emergency restoration;
+      the site is optimized for direct calls."). id="estimate" keeps the
+      existing /contact/#estimate CTAs scrolling to this call panel. */}
+  {archetype === "contact" && (
+    <section id="estimate" class="scroll-mt-24 bg-dark-50 border-y border-dark/10 py-20">
+      <div class="container-wide px-6">
+        <div class="mx-auto max-w-3xl bg-dark-900 rounded-2xl shadow-xl border border-dark/10 p-8 sm:p-12 text-center">
+          <p class="text-primary-400 text-xs font-black uppercase tracking-[0.2em] mb-3">24/7 Emergency Response</p>
+          <h2 class="font-black uppercase tracking-tighter text-white text-3xl md:text-4xl mb-4">Call Us Now</h2>
+          <p class="text-white/75 text-lg max-w-xl mx-auto mb-8">
+            The fastest way to get help is a phone call — a live person answers,
+            gets the details, and dispatches a crew. No forms, no waiting on a callback.
+          </p>
+          <a href={`tel:${brand.phoneRaw}`} class="inline-flex items-center justify-center gap-3 bg-primary-600 text-white font-black text-2xl md:text-3xl px-10 py-5 rounded-xl shadow-lg hover:bg-primary-700 transition-colors no-underline">
+            <Phone size={26} strokeWidth={2.5} /> {brand.phone}
+          </a>
+          <p class="mt-6 mb-0 text-white/60">
+            Prefer email? <a href={`mailto:${brand.email}`} class="font-bold text-white no-underline break-all">{brand.email}</a>
+          </p>
+          <p class="mt-2 mb-0 text-white/60 text-sm">
+            Serving {brand.primaryCity}, {brand.primaryState} and surrounding communities.
+          </p>
+          {brand.trustBadges.length > 0 && (
+            <ul class="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2.5">
+              {brand.trustBadges.map((b) => (
+                <li class="flex items-center gap-2 font-semibold text-sm text-white/90">
+                  <span class="text-primary-400 font-black">✓</span> {b}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- BODY -->
   <section class="section-first bg-white">
