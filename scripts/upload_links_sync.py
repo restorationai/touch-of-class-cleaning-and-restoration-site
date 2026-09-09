@@ -42,18 +42,52 @@ def client_name(slug: str) -> str:
     return slug
 
 
-def review_url(slug: str):
+_DB_PLACE_IDS: dict | None = None
+
+
+def _db_place_ids() -> dict:
+    """company_id -> place_id from the app's google connections. The ROOT
+    CAUSE of every missing hub QR (Reign 08-13, Arch 09-07, DryCor/DISS/
+    Frontline 09-09): the OAuth connect stores place_id in the app DB, but
+    nothing copied it into clients/{slug}.json, and review_url only read the
+    json. This fallback makes the DB the authority so a connected GBP ALWAYS
+    yields a QR, no stamping step required. Fail-soft: without Supabase env
+    the old json-only behavior remains."""
+    global _DB_PLACE_IDS
+    if _DB_PLACE_IDS is not None:
+        return _DB_PLACE_IDS
+    _DB_PLACE_IDS = {}
+    sb = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if sb and key:
+        try:
+            import requests as _rq
+            rows = _rq.get(
+                f"{sb}/rest/v1/user_integrations?provider=eq.google"
+                "&status=eq.active&select=client_id,connection_metadata",
+                headers={"apikey": key, "Authorization": f"Bearer {key}"},
+                timeout=30).json()
+            for r in rows:
+                pid = (r.get("connection_metadata") or {}).get("place_id")
+                if pid:
+                    _DB_PLACE_IDS[r["client_id"]] = pid
+        except Exception as e:  # noqa: BLE001
+            print(f"  [review-url] DB place_id fetch failed: {str(e)[:80]}")
+    return _DB_PLACE_IDS
+
+
+def review_url(slug: str, company_id: str | None = None):
     p = ROOT / "clients" / f"{slug}.json"
-    if not p.exists():
-        return None
-    g = json.loads(p.read_text()).get("gbp") or {}
+    g = json.loads(p.read_text()).get("gbp") if p.exists() else {}
+    g = g or {}
     # 2026-08-13 (Santino, Reign's hub had no QR): the review URL is fully
     # derivable from place_id, so a recorded place_id must ALWAYS yield the
     # QR card — hand-filled google_review_url was an early-client artifact.
     if g.get("google_review_url"):
         return g["google_review_url"]
-    if g.get("place_id"):
-        return f"https://search.google.com/local/writereview?placeid={g['place_id']}"
+    pid = g.get("place_id") or (_db_place_ids().get(company_id) if company_id else None)
+    if pid:
+        return f"https://search.google.com/local/writereview?placeid={pid}"
     return None
 
 
@@ -78,7 +112,7 @@ def main() -> int:
     bulk = []
     for slug, cid in m.items():
         v = {"cid": cid, "name": client_name(slug), "hub": hub_token(slug)}
-        ru = review_url(slug)
+        ru = review_url(slug, cid)
         if ru:
             v["review_url"] = ru
         bulk.append({"key": slug, "value": json.dumps(v)})
@@ -100,7 +134,7 @@ def main() -> int:
             hdr = {"apikey": sk, "Authorization": f"Bearer {sk}"}
             made = 0
             for slug, cid in m.items():
-                ru = review_url(slug)
+                ru = review_url(slug, cid)
                 if not ru:
                     continue
                 path = f"{cid}/brand/review-qr.png"
