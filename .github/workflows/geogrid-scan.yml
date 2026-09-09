@@ -17,6 +17,10 @@ on:
     - cron: '0 9 1 * *'      # MONTHLY fleet scan (Santino 2026-09-06: biweekly
                              # at full-depth configs ≈ $400+/mo DFS; monthly +
                              # one on-demand rescan per client per month)
+    - cron: '25 10 * * *'    # DAILY baseline catch-up (Santino 2026-09-09):
+                             # ONLY clients with zero stored scans — a signup
+                             # on the 9th sees heatmaps within 24h instead of
+                             # waiting for the 1st. No-op on quiet days.
   workflow_dispatch:
     inputs:
       slug:
@@ -49,6 +53,8 @@ jobs:
           SLUG="${{ github.event.inputs.slug }}"
           if [ -n "$SLUG" ]; then
             python3 scripts/geogrid_cron.py --slug "$SLUG"
+          elif [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%d)" != "01" ]; then
+            python3 scripts/geogrid_cron.py --baseline-only
           else
             python3 scripts/geogrid_cron.py
           fi
