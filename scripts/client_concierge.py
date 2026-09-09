@@ -1707,7 +1707,18 @@ California (West Coast, Pacific time). NEVER infer or state his location,
 timezone, or travel from a phone number's area code — his cell carries a
 Hawaii area code and he is NOT in Hawaii (live failure 2026-08-19: told Fran
 "he's based in Hawaii" and Fran caught the contradiction). When his location
-does not matter to the message, leave it out entirely."""
+does not matter to the message, leave it out entirely.
+LIST REMOVALS / OPT-OUTS — HARD RULE (Santino 2026-09-09, live failure:
+Roy at RestorationXpress asked to remove a customer from the review texts,
+Monica said "Got it, pulling Barbara off the list now", nothing removed her,
+and the customer got texted again a week later). The system removes people
+automatically the moment the request lands, IF it can identify them. You may
+say a removal is done ONLY when a directive in your context explicitly says
+it is done and verified. Without that directive you must NOT say "done",
+"removed", "pulling them off", "she won't get any more texts", or anything
+that sounds like the removal happened. Instead: ask for the person's full
+name and mobile number in one short line and say you are flagging it right
+now. Never guess which person a first name refers to."""
 
 # The other half of "say only true things" (Santino 2026-08-05, Reign): do
 # not contradict yourself. Single-sourced into every drafting prompt beside
@@ -8477,6 +8488,162 @@ def _maybe_capture_backlinks(company: dict, msgs: list[dict], dry_run: bool) -> 
         print(f"  [backlink-capture] failed: {str(e)[:120]}")
 
 
+# Review-list opt-outs (Santino 2026-09-09, RX/Barbara incident: Roy asked
+# to remove a review-campaign recipient, Monica answered "pulling Barbara
+# off the list now" with no tool behind the words, and the final drip step
+# fired a week later). This hook IS the tool: detect the ask, resolve the
+# person, execute the opt-out in the review engine, VERIFY it, and only
+# then file the [FOR MONICA] directive containing words she may say. An
+# unresolvable target (no phone, ambiguous first name — RX had THREE
+# Barbaras) never guesses: it asks for name+number and pings Santino.
+_OPTOUT_INTENT_RE = re.compile(
+    r"(?i)\b(remove\b.{0,40}\bfrom|take\b.{0,40}\boff|off\s+the\s+list|"
+    r"stop\s+(?:send|text|contact)\w*|no\s+more\s+(?:text|message)\w*|"
+    r"opt\s*[- ]?out|unsubscribe|don'?t\s+(?:send|text))")
+# The unresolved path pings Santino, so it needs this second signal too —
+# a resolved person is its own confirmation, loose phrasing alone is not.
+_OPTOUT_CONTEXT_RE = re.compile(
+    r"(?i)\b(lists?|texts?|texting|messages?|campaigns?|reviews?)\b")
+_OPTOUT_PHONE_RE = re.compile(r"\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}\b")
+
+
+def _optout_do(contact_row: dict, dry_run: bool) -> bool:
+    """Opt one contact out of the review engine and VERIFY the write.
+    True only when the re-read shows opted_out on the contact AND on every
+    review_requests row. False (never an exception) otherwise."""
+    ct_id = contact_row["id"]
+    if dry_run:
+        print(f"  [optout] would opt out {contact_row.get('name')} "
+              f"({contact_row.get('phone')})")
+        return True
+    _sb("PATCH", f"/rest/v1/review_requests?contact_id=eq.{ct_id}",
+        {"opted_out": True, "next_send_at": None})
+    _sb("PATCH", f"/rest/v1/contacts?id=eq.{ct_id}", {"opted_out": True})
+    ct = (_sb("GET", f"/rest/v1/contacts?id=eq.{ct_id}&select=opted_out")
+          or [{}])[0]
+    rrs = _sb("GET", f"/rest/v1/review_requests?contact_id=eq.{ct_id}"
+              "&select=opted_out") or []
+    ok = bool(ct.get("opted_out")) and all(r.get("opted_out") for r in rrs)
+    print(f"  [optout] {contact_row.get('name')} "
+          f"({contact_row.get('phone')}): "
+          f"{'DONE and verified' if ok else 'VERIFY FAILED'}")
+    return ok
+
+
+def _optout_directive(cid: str, marker: str, body: str,
+                      dry_run: bool) -> None:
+    """File a [FOR MONICA] directive once (marker-deduped, open notes only)."""
+    if _sb("GET", "/rest/v1/marketing_ops_notes?"
+           f"company_id=eq.{cid}&body=like.*{marker}*"
+           "&status=not.eq.resolved&select=id&limit=1"):
+        return
+    if dry_run:
+        print(f"  [optout] would file directive {marker}")
+        return
+    _sb("POST", "/rest/v1/marketing_ops_notes",
+        {"company_id": cid, "body": body, "author": "optout-hook",
+         "status": "open"})
+
+
+def _maybe_execute_optout(company: dict, msgs: list[dict],
+                          dry_run: bool) -> None:
+    """When an inbound client message asks to remove someone from the
+    review texts, actually remove them, verified, before anyone answers.
+    Never fatal — a failure here must not break inbound processing (the
+    unresolved path still escalates, so the ask can't silently die)."""
+    try:
+        cid = company["id"]
+        text = " ".join(str(m.get("body") or "") for m in msgs)
+        if not _OPTOUT_INTENT_RE.search(text):
+            return
+        sender_last10 = ""
+        for m in msgs:
+            frm = str(m.get("from") or m.get("contact_phone") or "")
+            digits = re.sub(r"\D", "", frm)
+            if len(digits) >= 10:
+                sender_last10 = digits[-10:]
+        # 1) phones named in the message that belong to a stored contact
+        targets: dict[str, dict] = {}
+        for raw in _OPTOUT_PHONE_RE.findall(text):
+            last10 = re.sub(r"\D", "", raw)[-10:]
+            if len(last10) != 10 or last10 == sender_last10:
+                continue
+            for row in _sb("GET", "/rest/v1/contacts?"
+                           f"client_id=eq.{cid}&phone=like.*{last10}"
+                           "&select=id,name,phone,opted_out") or []:
+                targets[row["id"]] = row
+        # 2) no phone matched: try a UNIQUE name match among this client's
+        # enrolled contacts (full-name or single-token, case-insensitive)
+        ambiguous = False
+        if not targets:
+            enrolled = _sb("GET", "/rest/v1/contacts?"
+                           f"client_id=eq.{cid}&select=id,name,phone,"
+                           "opted_out&limit=1000") or []
+            low = text.lower()
+            words = set(re.findall(r"[a-z]+", low))
+            stop = {"the", "and", "her", "him", "them", "please", "stop",
+                    "send", "sending", "texts", "list", "from", "remove",
+                    "customer", "more", "any"}
+            def _toks(r):
+                return [t for t in re.findall(
+                    r"[a-z]+", str(r.get("name") or "").strip().lower())
+                    if len(t) >= 3 and t not in stop]
+            def _full_hit(r):
+                name = str(r.get("name") or "").strip().lower()
+                return _toks(r) and len(name) >= 5 and name in low
+            # a full-name match beats first-name-token matches: "take
+            # Barbara Hess off" is Hess alone, not all three Barbaras
+            hits = [r for r in enrolled if _full_hit(r)]
+            if not hits:
+                hits = [r for r in enrolled
+                        if any(t in words for t in _toks(r))]
+            if len(hits) == 1:
+                targets[hits[0]["id"]] = hits[0]
+            elif len(hits) > 1:
+                ambiguous = True
+        if targets:
+            for row in targets.values():
+                if _optout_do(row, dry_run):
+                    toks = str(row.get("name") or "").split()
+                    first = toks[0] if toks else "they"
+                    _optout_directive(
+                        cid, f"OPTOUT-{row['id']}",
+                        f"[FOR MONICA] OPTOUT-{row['id']} done and "
+                        f"verified: {row.get('name')} ({row.get('phone')}) "
+                        "is permanently removed from the review text list. "
+                        "Confirm it to the client in one short line, e.g. "
+                        f"'Done, {first} is off the review list for good, "
+                        "verified on our end.' Nothing else.", dry_run)
+                else:
+                    append_escalation(
+                        company, msgs[-1] if msgs else None,
+                        f"OPT-OUT VERIFY FAILED for {row.get('name')} "
+                        f"({row.get('phone')}) — remove by hand NOW: "
+                        f"{text[:150]!r}", dry_run, ping=True)
+            return
+        # 3) unresolved: never guess, never confirm — ask + ping Santino
+        # (only with the second context signal, so a loose "don't send the
+        # invoice yet" can never generate a false opt-out escalation)
+        if not _OPTOUT_CONTEXT_RE.search(text):
+            return
+        digest = hashlib.sha1(text[:200].encode()).hexdigest()[:8]
+        _optout_directive(
+            cid, f"OPTOUT-ASK-{digest}",
+            f"[FOR MONICA] OPTOUT-ASK-{digest} a removal was requested but "
+            f"the person could not be identified"
+            + (" (several contacts share that name)" if ambiguous else "")
+            + ". Ask for their full name and mobile number in one short "
+            "line. Do NOT say anyone was removed.", dry_run)
+        append_escalation(
+            company, msgs[-1] if msgs else None,
+            "OPT-OUT REQUEST could not be auto-resolved"
+            + (" (multiple name matches)" if ambiguous else "")
+            + f" — identify and remove by hand: {text[:150]!r}",
+            dry_run, ping=True)
+    except Exception as e:  # noqa: BLE001
+        print(f"  [optout] failed: {str(e)[:120]}")
+
+
 def process_inbound_messages(state: dict, company: dict, contact_id: str,
                              msgs: list[dict], do_send: bool, dry_run: bool,
                              compose_next: bool = False) -> dict:
@@ -8511,6 +8678,7 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     if msgs:
         _maybe_capture_ein(company, msgs, dry_run)
         _maybe_capture_backlinks(company, msgs, dry_run)
+        _maybe_execute_optout(company, msgs, dry_run)
         _maybe_email_lookback(company, msgs, dry_run)
     if not msgs:
         return out
