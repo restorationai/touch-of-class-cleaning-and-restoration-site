@@ -1081,6 +1081,34 @@
       "triaged_at": "2026-08-05T06:00:53Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMPAQoR0CW-laohE06GmKua3k6qVDJwOSUT0o4Y": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMPAQoR0CW-laohE06GmKua3k6qVDJwOSUT0o4Y.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMPAQoR0CW-laohE06GmKua3k6qVDJwOSUT0o4Y.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 63036,
+      "sha1": "a8cafd9fedde6ed7",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Beige microfiber sectional sofa chair indoors on carpet",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "upholstery-cleaning"
+      ],
+      "flags": [
+        "low_res",
+        "indoor_clutter"
+      ],
+      "reason": "Dark borders, mediocre lighting, portrait crop; passable upholstery before-state only.",
+      "triaged_at": "2026-09-09T23:46:02Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMRQe7ke8Szl-TZ0T8xOCmgmDXCRNwZJCXTUSdq": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMRQe7ke8Szl-TZ0T8xOCmgmDXCRNwZJCXTUSdq.jpg",
@@ -5198,5 +5226,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-06T14:06:21Z"
+  "triaged_at": "2026-09-09T23:46:02Z"
 }

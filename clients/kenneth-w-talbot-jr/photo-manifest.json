@@ -260,8 +260,133 @@
       "reason": "Decent after-state shot; wide-angle distortion and angle reduce hero appeal.",
       "triaged_at": "2026-09-09T17:06:28Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788995645201-45cd7c2b": {
+      "source": "crew",
+      "storage": "job-photos/1788995645201-45cd7c2b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788995645201-45cd7c2b.jpg",
+      "width": 2000,
+      "height": 1326,
+      "bytes": 901036,
+      "sha1": "0f726ccebb511220",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Couple seated under large tree in casual attire",
+      "quality": 62,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Personal lifestyle portrait; no uniforms, no trade context, not usable professionally.",
+      "triaged_at": "2026-09-09T23:46:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788995646727-77d233f0": {
+      "source": "crew",
+      "storage": "job-photos/1788995646727-77d233f0.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788995646727-77d233f0.jpg",
+      "width": 1326,
+      "height": 2000,
+      "bytes": 992904,
+      "sha1": "47453f354768231f",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Couple standing on grass in casual summer clothing",
+      "quality": 60,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Personal portrait session; no company branding, uniform or trade relevance.",
+      "triaged_at": "2026-09-09T23:46:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788995648228-42f58c5c": {
+      "source": "crew",
+      "storage": "job-photos/1788995648228-42f58c5c.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788995648228-42f58c5c.jpg",
+      "width": 2000,
+      "height": 1326,
+      "bytes": 1158454,
+      "sha1": "f67db08db6067f10",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Large family group posed outdoors under oak trees",
+      "quality": 58,
+      "slots": {
+        "hero": 5,
+        "team": 8,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Family photo session; no uniforms, branding or work context for marketing use.",
+      "triaged_at": "2026-09-09T23:46:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788995649625-43c37c2d": {
+      "source": "crew",
+      "storage": "job-photos/1788995649625-43c37c2d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788995649625-43c37c2d.jpg",
+      "width": 2000,
+      "height": 1326,
+      "bytes": 1140990,
+      "sha1": "37813f004ef0726c",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Extended family group standing in park setting",
+      "quality": 57,
+      "slots": {
+        "hero": 5,
+        "team": 8,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Duplicate family portrait angle; no trade relevance or company branding visible.",
+      "triaged_at": "2026-09-09T23:46:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788995650932-ab0aace1": {
+      "source": "crew",
+      "storage": "job-photos/1788995650932-ab0aace1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788995650932-ab0aace1.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 1696130,
+      "sha1": "413763ee6a025a8c",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Four adults posed in wooded area in casual clothes",
+      "quality": 65,
+      "slots": {
+        "hero": 8,
+        "team": 20,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "No uniforms or branding; casual group photo not suitable for professional trade marketing.",
+      "triaged_at": "2026-09-09T23:46:58Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-09T17:06:28Z"
+  "triaged_at": "2026-09-09T23:46:58Z"
 }
