@@ -147,12 +147,22 @@ def find_location(token: str, place_id: str) -> dict | None:
     """
     if not place_id:
         return None
+    # An account can hold SEVERAL records for one placeId (ProRestoration
+    # 2026-09-09: a duplicateLocation shadow record matched first, so the
+    # phone flip landed on the dup and the Performance API 403'd while the
+    # live profile sat untouched). Collect every match and prefer the record
+    # Google actually serves: not marked duplicate, with Voice of Merchant.
+    matches: list[dict] = []
     for acct in _g(f"{ACCT_API}/accounts", token).get("accounts", []):
         url = f"{INFO_API}/{acct['name']}/locations?readMask={LOC_READ_MASK}&pageSize=100"
         for loc in _g(url, token).get("locations", []):
             if (loc.get("metadata", {}) or {}).get("placeId") == place_id:
-                return loc
-    return None
+                matches.append(loc)
+    def _rank(loc: dict) -> tuple:
+        md = loc.get("metadata", {}) or {}
+        return (bool(md.get("duplicateLocation")),
+                not md.get("hasVoiceOfMerchant"))
+    return sorted(matches, key=_rank)[0] if matches else None
 
 
 def summarize(loc: dict) -> dict:
