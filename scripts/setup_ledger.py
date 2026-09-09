@@ -1583,6 +1583,39 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             # ---- domain-access STATE MACHINE (2026-08-03) -------------------
             # none -> promised -> delegate_granted | creds_provided -> ns_live
             gap_open = bool(built and domain and not ours and not live)
+            # PREVIEW-FIRST GATE (Santino 2026-09-09, Frontline: "site is
+            # ready" landed with no link because the reveal lane was still
+            # in its 7-day window — the two lanes now merge AT THE END:
+            # reveal the preview -> client sees it -> THEN ask for domain
+            # access). The domain ask holds while the preview ask has not
+            # yet been seeded, or was seeded under 2 days ago with no
+            # client response (silence past 2 days releases the hold so a
+            # quiet client never blocks a launch). Access already promised/
+            # granted skips the gate — never un-ask what's in motion.
+            if gap_open and (da.get("domain_access_status") or "none") == "none":
+                try:
+                    _pv = _sb("GET", "/rest/v1/marketing_action_plan"
+                              f"?company_id=eq.{cid}"
+                              f"&action_key=eq.site-preview-feedback-{slug}"
+                              "&select=status,created_at&limit=1",
+                              prefer="return=representation") or []
+                    if not _pv:
+                        gap_open = False  # preview not even revealed yet
+                        attention.append(
+                            f"{slug}: domain-access ask HELD — preview not "
+                            "revealed yet (preview-first launch protocol)")
+                    elif _pv[0].get("status") in ("planned", "in_progress"):
+                        from datetime import datetime as _dt2
+                        _age = (datetime.now(timezone.utc) - _dt2.fromisoformat(
+                            str(_pv[0]["created_at"]).replace("Z", "+00:00"))).days
+                        if _age < 2:
+                            gap_open = False
+                            attention.append(
+                                f"{slug}: domain-access ask HELD — preview "
+                                f"sent {_age}d ago, waiting for the client's "
+                                "reaction (releases after 2 days)")
+                except Exception:  # noqa: BLE001 — gate must never kill the pass
+                    pass
             da = _domain_access_row(cid) or {}
             da_status = da.get("domain_access_status") or "none"
             try:

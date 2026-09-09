@@ -182,21 +182,42 @@ def load_state() -> dict:
     return state or {"processed": {}, "initialized_at": None}
 
 
+def _fathom_keys() -> list[str]:
+    """Santino's key + every rep's own (Aldredo/ACS 2026-09-08: his onboarding
+    call was recorded ONLY under Levi's Fathom, so the ops pipeline never saw
+    it — no intel, no auto-booked follow-up). FATHOM_SALES_API_KEYS is the
+    same comma-list the sales flow uses."""
+    keys = [os.environ.get("FATHOM_API_KEY", "")]
+    keys += (os.environ.get("FATHOM_SALES_API_KEYS") or "").split(",")
+    return [k.strip() for k in keys if k.strip()]
+
+
 def fathom_meetings(limit: int = 25) -> list[dict]:
-    """Recent recordings, newest first, with summary AND action items.
+    """Recent recordings across EVERY configured Fathom account, newest
+    first, with summary AND action items; each tagged with the key that can
+    fetch its transcript.
 
     Fathom's own action items are the richer signal: its notetaker catches
     asks the prose summary compresses away (2026-08-04 HomeLyft: 9 action
     items against a summary that yielded 4 tasks), and each one carries an
     assignee, which is how we tell OUR work from the client's homework.
     """
-    r = requests.get(f"{FATHOM_API}/meetings",
-                     params={"include_summary": "true",
-                             "include_action_items": "true", "limit": limit},
-                     headers={"X-Api-Key": os.environ["FATHOM_API_KEY"]},
-                     timeout=60)
-    r.raise_for_status()
-    return r.json().get("items", [])
+    items: list[dict] = []
+    for key in _fathom_keys():
+        try:
+            r = requests.get(f"{FATHOM_API}/meetings",
+                             params={"include_summary": "true",
+                                     "include_action_items": "true",
+                                     "limit": limit},
+                             headers={"X-Api-Key": key}, timeout=60)
+            r.raise_for_status()
+            for m in r.json().get("items", []):
+                m["_api_key"] = key
+                items.append(m)
+        except Exception as e:  # noqa: BLE001 — one dead key must not blind the sync
+            sys.stderr.write(f"  fathom key …{key[-4:]} failed: {str(e)[:100]}\n")
+    items.sort(key=lambda m: m.get("recording_start_time") or "", reverse=True)
+    return items
 
 
 def action_items_text(m: dict) -> str:
@@ -547,9 +568,11 @@ def _ghl_api(method: str, path: str, body=None):
     return r.json() if r.content else {}
 
 
-def fathom_transcript_tail(rid: str, chars: int = 9000) -> str:
+def fathom_transcript_tail(rid: str, chars: int = 9000,
+                           api_key: str | None = None) -> str:
     r = requests.get(f"{FATHOM_API}/recordings/{rid}/transcript",
-                     headers={"X-Api-Key": os.environ["FATHOM_API_KEY"]},
+                     headers={"X-Api-Key": api_key
+                              or os.environ["FATHOM_API_KEY"]},
                      timeout=60)
     r.raise_for_status()
     lines = []
@@ -621,7 +644,7 @@ def book_agreed_followup(company: dict, slug: str, m: dict, *, title: str,
     except Exception:  # noqa: BLE001
         pass
     try:
-        tail = fathom_transcript_tail(rid)
+        tail = fathom_transcript_tail(rid, api_key=m.get("_api_key"))
     except Exception as e:  # noqa: BLE001 — transcript lags recording; retry
         print(f"    booking: transcript not ready ({str(e)[:60]}) — next cycle")
         return
