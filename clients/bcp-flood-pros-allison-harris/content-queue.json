@@ -1,0 +1,121 @@
+{
+  "items": [
+    {
+      "id": "2026-09-09-best-water-damage-restoration-in-american-fork-ut",
+      "status": "written",
+      "queued_at": "2026-09-09T14:42:07Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-american-fork-ut",
+      "primary_keyword": "best water damage restoration company in American Fork, UT",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "american-fork-ut",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "American Fork",
+        "state": "UT",
+        "competitors": [
+          {
+            "name": "FIX Flood & Water Damage Pros",
+            "google_rating": 4.9,
+            "review_count": 558
+          },
+          {
+            "name": "Disaster Professionals",
+            "google_rating": 5,
+            "review_count": 4
+          },
+          {
+            "name": "ServiceMaster Restore by A3 Disaster Services",
+            "google_rating": 4.9,
+            "review_count": 484
+          },
+          {
+            "name": "Disaster Repair Team",
+            "google_rating": 4.9,
+            "review_count": 166
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies American Fork",
+        "top rated water damage restoration American Fork UT",
+        "who is the best water damage restoration company in American Fork",
+        "water damage cleanup American Fork",
+        "water cleanup American Fork",
+        "water removal American Fork"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-09T14:45:24Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-american-fork-ut/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | |---|---|---|---|---| | FIX",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "| - | - | Note: 24/7 availability and IICRC certification status for competitors we",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "readings across the drying period. The [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "558 reviews",
+          "context": "s holds a 4.9-star Google rating across 558 reviews, which is a substantial review base for",
+          "reason": "claims 558 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "484 reviews",
+          "context": "carries a 4.9-star Google rating across 484 reviews. ServiceMaster Restore is a national fr",
+          "reason": "claims 484 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "166 reviews",
+          "context": "m holds a 4.9-star Google rating across 166 reviews. A well-reviewed local restoration comp",
+          "reason": "claims 166 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "4 reviews",
+          "context": "t 5.0-star Google rating, though across 4 reviews. A perfect rating with very few reviews",
+          "reason": "claims 4 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    }
+  ]
+}
