@@ -9235,6 +9235,12 @@ _UPLOAD_KINDS = (
     # (2026-08-28). Order matters: the inbox rule must sit above the
     # job-photos/ prefix it shadows.
     ("job-photos/inbox/", None),
+    # job-photos/posted/ = gbp.py's media-import rider copying the photos
+    # ALREADY ON the client's Google listing into our rotation — system
+    # writes, never a client upload (Jim/CRW 2026-09-09: connecting his GBP
+    # imported 11 listing photos and he was thanked for "11 photos" he
+    # never sent; "I didnt que any photos. ?").
+    ("job-photos/posted/", None),
     ("job-photos/", "photo"),
     ("job-videos/", "video"),
     ("team/", "photo"),
