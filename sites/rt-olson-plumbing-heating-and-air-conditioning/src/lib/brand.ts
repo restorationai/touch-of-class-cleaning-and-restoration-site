@@ -18,8 +18,8 @@ export const brand = {
   // keep the canonical NAP number above — humans dial the tracked line,
   // Google sees consistent NAP. Empty = feature off (default at scaffold;
   // filled by the call-tracking provisioning step).
-  trackingPhone: "",
-  trackingPhoneRaw: "",
+  trackingPhone: "(951) 643-8514",
+  trackingPhoneRaw: "+19516438514",
   email: "office@rtoplumbing.com",
   hours: "24/7",
   foundedYear: "2014",
