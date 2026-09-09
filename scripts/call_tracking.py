@@ -112,8 +112,43 @@ def provision(slug: str, source: str) -> str:
     ct[source] = {"number": bought["phone_number"], "sid": bought["sid"],
                   "provisioned_at": bought.get("date_created")}
     _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}", {"integration_settings": ints})
-    return (f"{slug}/{source}: provisioned {bought['phone_number']} "
-            f"-> forwards to +1{real[-10:]}")
+    out = (f"{slug}/{source}: provisioned {bought['phone_number']} "
+           f"-> forwards to +1{real[-10:]}")
+    # AUTO-FLIP (Santino 2026-09-09): a gbp tracking number goes live on the
+    # profile the moment forwarding verifies — 12 clients had numbers sitting
+    # provisioned-but-never-flipped because the flip was a separate manual
+    # step. gbp.set_phone no-ops safely when the GBP isn't connected yet;
+    # gbp.py sync's backstop picks those up after connect.
+    if source == "gbp":
+        if verify_forwarding(cid, source):
+            try:
+                import gbp
+                out += " | " + gbp.set_phone(slug)
+            except Exception as e:  # noqa: BLE001 — flip failure never
+                out += f" | auto-flip failed: {str(e)[:80]}"  # kills provision
+        else:
+            out += " | forwarding check FAILED — GBP flip held"
+    return out
+
+
+def verify_forwarding(cid: str, source: str = "gbp") -> bool:
+    """POST the number's live TwiML route and confirm it dials the client's
+    real line (companies.phone). The automated replacement for the old
+    'human test call' gate — same check, no human in the loop."""
+    try:
+        co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=phone",
+                  prefer="return=representation") or [{}])[0]
+        real = re.sub(r"\D", "", co.get("phone") or "")[-10:]
+        if not real:
+            return False
+        req = urllib.request.Request(
+            f"{API_BASE}/call-tracking/twiml/{cid}/{source}",
+            data=b"", method="POST")
+        twiml = urllib.request.urlopen(req, timeout=20).read().decode()
+        m = re.search(r">(\+?[\d]+)</Dial>", twiml)
+        return bool(m) and re.sub(r"\D", "", m.group(1))[-10:] == real
+    except Exception:  # noqa: BLE001 — fail closed: no verify, no flip
+        return False
 
 
 def list_numbers(slug: str) -> str:

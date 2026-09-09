@@ -1,0 +1,44 @@
+name: Tollfree Watch
+
+# Toll-free verification watch every 2 hours (Santino 2026-09-09: submission
+# should be automatic "as soon as all needed info is provided" — the daily
+# client-ops-sync slot left up to a day between a client completing phone
+# activation / EIN capture and the Twilio submission going out). The script
+# is idempotent (status-gated, note-deduped), so overlap with the daily
+# client-ops-sync step is spend-safe. Twilio auth is per-client subaccount
+# creds from company_phone_setup — no master secret needed here.
+
+on:
+  schedule:
+    - cron: '10 */2 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: tollfree-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Tollfree verification watch
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 scripts/tollfree_autoreg.py watch --apply
+      - name: Alert on failure
+        if: failure()
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 scripts/notify_failure.py \
+            --subject "[Rank AI] tollfree-watch failed" \
+            --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true

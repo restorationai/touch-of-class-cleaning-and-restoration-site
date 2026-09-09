@@ -666,6 +666,28 @@ def sync(slug: str) -> str:
         " ".join(addr.get("addressLines", [])), addr.get("locality"),
         addr.get("administrativeArea"), addr.get("postalCode")]))
     phone = (loc.get("phoneNumbers", {}) or {}).get("primaryPhone")
+    # AUTO-FLIP BACKSTOP (Santino 2026-09-09): tracking numbers must be LIVE
+    # on the profile. Provision-time flips (call_tracking.provision) cover
+    # clients whose GBP is already connected; this catches connect-after-
+    # provision. Forwarding is re-verified before every flip; fail = no-op.
+    try:
+        co_row = _sb(f"companies?id=eq.{cid}&select=integration_settings")
+        ints = (co_row[0].get("integration_settings") or {}) if co_row else {}
+        if isinstance(ints, str):
+            ints = json.loads(ints)
+        tracking = ((ints.get("call_tracking") or {}).get("gbp")
+                    or {}).get("number")
+        track10 = re.sub(r"\D", "", tracking or "")[-10:]
+        prim10 = re.sub(r"\D", "", phone or "")[-10:]
+        if track10 and prim10 != track10:
+            import call_tracking as _ct
+            if _ct.verify_forwarding(cid, "gbp"):
+                print("  " + set_phone(slug))
+                phone = tracking
+            else:
+                print(f"  {slug}: tracking flip HELD — forwarding check failed")
+    except Exception as e:  # noqa: BLE001 — the flip never breaks a sync
+        print(f"  {slug}: tracking-flip backstop error: {str(e)[:80]}")
     now = dt.datetime.now(dt.timezone.utc).isoformat()
 
     _sb_upsert("marketing_gbp_profiles", [{
