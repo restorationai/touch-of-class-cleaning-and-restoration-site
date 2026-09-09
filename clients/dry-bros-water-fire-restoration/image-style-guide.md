@@ -6,14 +6,20 @@
    2026-09-08 call Amin asked us to design AI van wrap concepts for the homepage
    hero and send them for his approval. Three concepts were generated and shared
    for review (`clients/dry-bros-water-fire-restoration/concepts/van-wrap-concept-1..3.png`,
-   served at `/van-wrap-concepts/` on staging). Until Amin picks one, DO NOT install
-   `public/images/hero-bg.webp` or overwrite these concepts — the direction is not
-   final. When he chooses, finalize that concept (add his real logo when we have it)
-   and set it as the hero.
-2. **Fleet livery direction (concept, unconfirmed):** deep-navy body (`#0d1b3e`) with
-   an orange (`#f97316`) accent graphic; a matched fleet of three vans per the standing
-   fleet-of-three rule. No client logo file on hand yet, so concepts carry NO wordmark —
-   the wrap graphic is a shape only. Add the real logo mark once received.
+   served at `/van-wrap-concepts/` on staging). **REVISED 2026-09-08 (Amin
+   feedback, "We want this on white vans"):** all three concepts were
+   regenerated with WHITE van bodies (orange accent graphic unchanged) and
+   re-shared at the same URL. Until Amin picks one, DO NOT install
+   `public/images/hero-bg.webp` or overwrite these concepts further — the
+   direction is not final. When he chooses, finalize that concept (add his real
+   logo when we have it) and set it as the hero.
+2. **Fleet livery direction (concept, unconfirmed): WHITE body** — Amin
+   2026-09-08: "We want this on white vans." Clean glossy white van body with an
+   orange (`#f97316`) accent graphic; a matched fleet of three vans per the
+   standing fleet-of-three rule. (Superseded the earlier deep-navy `#0d1b3e`
+   body concept.) No client logo file on hand yet, so concepts carry NO
+   wordmark — the wrap graphic is a shape only. Add the real logo mark once
+   received.
 
 ---
 
