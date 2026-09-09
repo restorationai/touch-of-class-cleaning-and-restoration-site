@@ -1,6 +1,7 @@
 # Mini inbox — current assignments (newest at top)
 
-- [ ] **Bing sweep migration, step 1 of 2: readiness check** (can run
+- [ ] **ON HOLD (Santino 2026-09-09, do not start): Bing sweep migration,
+  step 1 of 2: readiness check** (can run
   unsupervised; report only, change nothing). The daily browser-agent sweep
   (`python3 -m browser_agent.sweep`) still runs on Santino's MacBook at
   11:30am PT and we are moving it to this machine. Before we install
