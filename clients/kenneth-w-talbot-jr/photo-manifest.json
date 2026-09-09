@@ -1,5 +1,267 @@
 {
   "slug": "kenneth-w-talbot-jr",
-  "assets": {},
-  "slots": {}
+  "assets": {
+    "crew:1788972327235-acaa8144": {
+      "source": "crew",
+      "storage": "job-photos/1788972327235-acaa8144.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788972327235-acaa8144.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 1174180,
+      "sha1": "b5bcc70fd3948159",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bathroom floor demolished showing rotted subfloor and tools",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered angle, no crew; shows scope of water damage demolition work.",
+      "triaged_at": "2026-09-09T17:06:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788972331603-45af8274": {
+      "source": "crew",
+      "storage": "job-photos/1788972331603-45af8274.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788972331603-45af8274.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 1412631,
+      "sha1": "6dfbc3156a829811",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Broken tile and rotted subfloor debris scattered on ground",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Low angle, chaotic debris; limited marketing value beyond documenting damage.",
+      "triaged_at": "2026-09-09T17:06:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788972333221-2877a3c7": {
+      "source": "crew",
+      "storage": "job-photos/1788972333221-2877a3c7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788972333221-2877a3c7.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 1205122,
+      "sha1": "230bd549e2024a76",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Exposed rotted floor joists with standing water below",
+      "quality": 58,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 62
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear view of severe water damage; good evidence shot for services page.",
+      "triaged_at": "2026-09-09T17:06:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788972334405-e26fa01b": {
+      "source": "crew",
+      "storage": "job-photos/1788972334405-e26fa01b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788972334405-e26fa01b.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 1209424,
+      "sha1": "6c713b26d001de08",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severely rotted bathroom floor joists fully exposed after demolition",
+      "quality": 60,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 63
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Well-framed damage documentation; useful for services page context.",
+      "triaged_at": "2026-09-09T17:06:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788972335466-7cf4391c": {
+      "source": "crew",
+      "storage": "job-photos/1788972335466-7cf4391c.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788972335466-7cf4391c.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 1085544,
+      "sha1": "d8f206e40c9bb0bd",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Close-up of rotted floor joists and standing water underneath",
+      "quality": 57,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Good damage detail but tight composition limits hero use.",
+      "triaged_at": "2026-09-09T17:06:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788972336979-d6243634": {
+      "source": "crew",
+      "storage": "job-photos/1788972336979-d6243634.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788972336979-d6243634.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 1068487,
+      "sha1": "89fd1e4005f2bacf",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Rotted floor joists close-up with extension cord and tools visible",
+      "quality": 50,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Tightly cropped and cluttered; weaker composition than images 2\u20134.",
+      "triaged_at": "2026-09-09T17:06:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788972338369-0db5b582": {
+      "source": "crew",
+      "storage": "job-photos/1788972338369-0db5b582.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788972338369-0db5b582.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 1420965,
+      "sha1": "8121a06f81713f5e",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Demolished bathroom floor joists exposing soil and pipes",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Useful mid-demo evidence shot; poor composition but reads as real damage work.",
+      "triaged_at": "2026-09-09T17:06:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788972339833-9fad18e4": {
+      "source": "crew",
+      "storage": "job-photos/1788972339833-9fad18e4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788972339833-9fad18e4.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 644854,
+      "sha1": "557f5b69f810de3d",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Plastic containment barriers with poles set up in hallway",
+      "quality": 63,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear containment setup signals professional remediation process well.",
+      "triaged_at": "2026-09-09T17:06:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788972340890-ba31b197": {
+      "source": "crew",
+      "storage": "job-photos/1788972340890-ba31b197.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788972340890-ba31b197.jpg",
+      "width": 2000,
+      "height": 1500,
+      "bytes": 566187,
+      "sha1": "06622285c2461c24",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Fully renovated master bathroom with freestanding tub dual vanities",
+      "quality": 78,
+      "slots": {
+        "hero": 45,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean after-state photo; strong restoration result evidence, good composition.",
+      "triaged_at": "2026-09-09T17:06:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1788972342017-9239cbca": {
+      "source": "crew",
+      "storage": "job-photos/1788972342017-9239cbca.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788378820811/job-photos/1788972342017-9239cbca.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 661632,
+      "sha1": "2557ad23a6d6b1cc",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Restored bathroom interior with tub vanity and glass shower",
+      "quality": 68,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Decent after-state shot; wide-angle distortion and angle reduce hero appeal.",
+      "triaged_at": "2026-09-09T17:06:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-09-09T17:06:28Z"
 }
