@@ -20,6 +20,16 @@
    body concept.) No client logo file on hand yet, so concepts carry NO
    wordmark — the wrap graphic is a shape only. Add the real logo mark once
    received.
+3. **HOUSE STYLE — no old-school Chicago houses (non-negotiable).** Amin
+   2026-09-09: "don't like the chicago old school houses ; either nice suburban
+   house or nice neighborhood modern houses in city." Every home shown on the
+   site — as the main subject OR visible through a window/doorway in an interior
+   scene — must be a NICE SUBURBAN HOME (brick/siding two-story with a garage,
+   trees, lawn) or a MODERN CITY-NEIGHBORHOOD HOME. AUTOMATIC REJECT: classic
+   Chicago bungalows, greystones, brick two-flats/three-flats, worker cottages,
+   or any dated/aged urban housing stock, in the foreground OR framed in a
+   window. When a scene needs a background home, default to the clean suburban
+   look already used in the hero, team and services images.
 
 ---
 
