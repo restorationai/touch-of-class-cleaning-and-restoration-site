@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "2026-09-09-best-water-damage-restoration-in-midland-tx",
+      "status": "written",
+      "queued_at": "2026-09-09T10:23:55Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-midland-tx",
+      "primary_keyword": "best water damage restoration company in Midland, TX",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "midland-tx",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Midland",
+        "state": "TX",
+        "competitors": [
+          {
+            "name": "ServiceMaster by A-Town/Hi-Tech - Midland",
+            "google_rating": 4.8,
+            "review_count": 24
+          },
+          {
+            "name": "SERVPRO of Midland Odessa",
+            "google_rating": 3.9,
+            "review_count": 17
+          },
+          {
+            "name": "Air First Mold Remediation",
+            "google_rating": 5,
+            "review_count": 3
+          },
+          {
+            "name": "Flood Masters",
+            "google_rating": 5,
+            "review_count": 1
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Midland",
+        "top rated water damage restoration Midland TX",
+        "who is the best water damage restoration company in Midland",
+        "water damage cleanup Midland",
+        "water cleanup Midland",
+        "water removal Midland"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-09T10:26:07Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-midland-tx/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Mold Remediation",
+          "context": "Odessa | 3.9 | 17 | - | - | | Air First Mold Remediation | 5.0 | 3 | - | - | | Flood Masters | 5",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, storm-damage-restoration, air-duct-cleaning, water-cleanup, carpet-cleaning"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "tation for your insurance carrier. The [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "24 reviews",
+          "context": "a. With a 4.8-star Google rating across 24 reviews, it is the most-reviewed option on this",
+          "reason": "claims 24 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "17 Google reviews",
+          "context": "restoration brand in the country. With 17 Google reviews and a 3.9-star rating, it has the most",
+          "reason": "claims 17 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "3 reviews",
+          "context": ".0-star Google rating, though with only 3 reviews, the sample size is small. The company",
+          "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    }
+  ]
+}
