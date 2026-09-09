@@ -1,5 +1,1098 @@
 {
   "slug": "aldredo-moreno",
-  "assets": {},
-  "slots": {}
+  "assets": {
+    "gbp:gbp-AF1QipM17HKitpXLYluDF_BiDe0sW5ZGsfXAaIl_JkBH": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM17HKitpXLYluDF_BiDe0sW5ZGsfXAaIl_JkBH.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipM17HKitpXLYluDF_BiDe0sW5ZGsfXAaIl_JkBH.jpg",
+      "width": 590,
+      "height": 1024,
+      "bytes": 136100,
+      "sha1": "8399e0e70edd23e1",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Carpet cleaning wand showing dirty vs clean carpet strip",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [],
+      "reason": "Clear before/after split on carpet with wand; portrait crop limits hero use.",
+      "triaged_at": "2026-09-09T14:22:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipM30IEgvTbVAEREIHo8DA6gH5O9UQVuGdb6ouSQ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM30IEgvTbVAEREIHo8DA6gH5O9UQVuGdb6ouSQ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipM30IEgvTbVAEREIHo8DA6gH5O9UQVuGdb6ouSQ.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 76442,
+      "sha1": "554fadf15e8a2d9f",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing card with tile cleaning stock photo and text overlay",
+      "quality": 45,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing graphic with pasted logo, caption bar, URL and stock photo.",
+      "triaged_at": "2026-09-09T14:22:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMCUFF7Ok95mhGPWa2Tta1UI8Fr5Zbbge5YNv6w": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMCUFF7Ok95mhGPWa2Tta1UI8Fr5Zbbge5YNv6w.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipMCUFF7Ok95mhGPWa2Tta1UI8Fr5Zbbge5YNv6w.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 181479,
+      "sha1": "61ae6f465e87fed5",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Clean carpet in living room with blue hose on floor",
+      "quality": 68,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [],
+      "reason": "Good result shot showing clean carpet; hose confirms active job context.",
+      "triaged_at": "2026-09-09T14:22:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMCllcskw33UXBfLDd5m-EZ8n-LX_Q6JH_Q0Be1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMCllcskw33UXBfLDd5m-EZ8n-LX_Q6JH_Q0Be1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipMCllcskw33UXBfLDd5m-EZ8n-LX_Q6JH_Q0Be1.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 170853,
+      "sha1": "06834b7f3a5e295b",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing card with carpet scrubber stock photo and text overlay",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing graphic with pasted logo, caption bar, URL and stock image.",
+      "triaged_at": "2026-09-09T14:22:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMXfhgyQvNalYIY7QVdX-ko3ejv6U1nW01ugzRs": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMXfhgyQvNalYIY7QVdX-ko3ejv6U1nW01ugzRs.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipMXfhgyQvNalYIY7QVdX-ko3ejv6U1nW01ugzRs.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 125823,
+      "sha1": "7a1e0fb22332e660",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Child's bedroom carpet before cleaning with furniture present",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered bedroom before shot; low professionalism, useful only as before reference.",
+      "triaged_at": "2026-09-09T14:22:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMcovNJhHZDKFr0LxJOtHo-JuXs08ktiT77Xkzm": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMcovNJhHZDKFr0LxJOtHo-JuXs08ktiT77Xkzm.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipMcovNJhHZDKFr0LxJOtHo-JuXs08ktiT77Xkzm.jpg",
+      "width": 414,
+      "height": 896,
+      "bytes": 26104,
+      "sha1": "6f467afb7ac536e7",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Stained bedroom carpet before cleaning, dark letterbox crop",
+      "quality": 38,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "low_res",
+        "indoor_clutter"
+      ],
+      "reason": "Dark, letterboxed, low-res before shot; marginal quality for any marketing slot.",
+      "triaged_at": "2026-09-09T14:22:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMeWQdNrctIKpyB-SA6jw4kIK-97bqA36iQkV2b": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMeWQdNrctIKpyB-SA6jw4kIK-97bqA36iQkV2b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipMeWQdNrctIKpyB-SA6jw4kIK-97bqA36iQkV2b.jpg",
+      "width": 1350,
+      "height": 1013,
+      "bytes": 461998,
+      "sha1": "bd3dead315b4faa8",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Overhead carpet cleaning shot with text caption bar added",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 5,
+        "services": 20
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing card with caption bar, website URL, and logo overlay; likely stock photo.",
+      "triaged_at": "2026-09-09T14:23:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMsak-WHiTgYqfk3pLwMQa6HU4jFA_AeRtt8PPX": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMsak-WHiTgYqfk3pLwMQa6HU4jFA_AeRtt8PPX.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipMsak-WHiTgYqfk3pLwMQa6HU4jFA_AeRtt8PPX.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 109181,
+      "sha1": "d56493023314e8e2",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Floor cleaning machine on tile with caption bar overlay",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing card with caption bar, URL, and logo pasted over likely stock image.",
+      "triaged_at": "2026-09-09T14:23:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMx7pMiGYGVaidwlrPamfyeB6AuHM7mU-dekdAJ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMx7pMiGYGVaidwlrPamfyeB6AuHM7mU-dekdAJ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipMx7pMiGYGVaidwlrPamfyeB6AuHM7mU-dekdAJ.jpg",
+      "width": 671,
+      "height": 516,
+      "bytes": 87564,
+      "sha1": "67fcb3e1d035884a",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Five crew members posed with vans and service text overlays",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 10
+      },
+      "service_slugs": [
+        "air-duct-cleaning",
+        "carpet-cleaning",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card"
+      ],
+      "reason": "Heavy graphic collage with burst background, large text, and composited vehicle cutouts.",
+      "triaged_at": "2026-09-09T14:23:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipN-sjfAGjyLDqu84jQtO6R9B-hxWOm_WGYBxpr6": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN-sjfAGjyLDqu84jQtO6R9B-hxWOm_WGYBxpr6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipN-sjfAGjyLDqu84jQtO6R9B-hxWOm_WGYBxpr6.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 90210,
+      "sha1": "04d2ede4673e8b89",
+      "exif": {},
+      "category": "crew",
+      "subject": "Masked technician on ladder inserting hose into ceiling air duct",
+      "quality": 72,
+      "slots": {
+        "hero": 30,
+        "team": 65,
+        "services": 80
+      },
+      "service_slugs": [
+        "air-duct-cleaning"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Authentic job photo; clear service context, good lighting, slightly tight portrait crop.",
+      "triaged_at": "2026-09-09T14:23:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipN8mhADavS-zwFJxY4wEaXDkB8vBqgQxVog_W4e": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN8mhADavS-zwFJxY4wEaXDkB8vBqgQxVog_W4e.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipN8mhADavS-zwFJxY4wEaXDkB8vBqgQxVog_W4e.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 1728323,
+      "sha1": "902634506748c4db",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing banner with stock carpet cleaner and phone number overlay",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [
+        "carpet-cleaning",
+        "water-damage-restoration",
+        "air-duct-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "phone_number",
+        "stock_photo",
+        "logo_card"
+      ],
+      "reason": "Fully designed ad card with burnt-in phone number, service list, and stock imagery; unusable as photo.",
+      "triaged_at": "2026-09-09T14:23:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNCBSZ6vM9mZc4zXBD73N_MFl4Pw4w4eu7YkfpX": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNCBSZ6vM9mZc4zXBD73N_MFl4Pw4w4eu7YkfpX.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipNCBSZ6vM9mZc4zXBD73N_MFl4Pw4w4eu7YkfpX.jpg",
+      "width": 623,
+      "height": 1024,
+      "bytes": 120839,
+      "sha1": "64165c230015e68c",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Carpet mid-clean showing dirty versus clean sections in progress",
+      "quality": 60,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [],
+      "reason": "Real job photo clearly showing cleaning contrast; good services card candidate, low hero value.",
+      "triaged_at": "2026-09-09T14:23:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNUufLnNzZ0Ls_CAWsfQwL9MdfpAc2cT0YnthAS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNUufLnNzZ0Ls_CAWsfQwL9MdfpAc2cT0YnthAS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipNUufLnNzZ0Ls_CAWsfQwL9MdfpAc2cT0YnthAS.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 258188,
+      "sha1": "3a6b39c556c0c33e",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Carpet cleaning wand working on beige shag carpet indoors",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 5,
+        "services": 55
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [],
+      "reason": "Real in-progress carpet cleaning shot; awkward angle limits hero use.",
+      "triaged_at": "2026-09-09T14:23:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNWQOw7Ta4l_sZxdy9yRlV7TY54GYUYz5JqbU-_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNWQOw7Ta4l_sZxdy9yRlV7TY54GYUYz5JqbU-_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipNWQOw7Ta4l_sZxdy9yRlV7TY54GYUYz5JqbU-_.jpg",
+      "width": 716,
+      "height": 1024,
+      "bytes": 155495,
+      "sha1": "f2e60f7824a084ed",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Chair cushion before and after upholstery cleaning side by side",
+      "quality": 68,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [],
+      "reason": "Effective before/after result; portrait crop rules out hero slot.",
+      "triaged_at": "2026-09-09T14:23:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNZQ-_sbad6K4ggjlA2_Q_QqwwOujs-8L05oauA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNZQ-_sbad6K4ggjlA2_Q_QqwwOujs-8L05oauA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipNZQ-_sbad6K4ggjlA2_Q_QqwwOujs-8L05oauA.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 102597,
+      "sha1": "b9c965bfa3bb6e12",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Stock photo cleaning supplies and mopper with ACS logo and URL overlay",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "stock_photo",
+        "logo_card"
+      ],
+      "reason": "Composited marketing card using stock image; not authentic company content.",
+      "triaged_at": "2026-09-09T14:23:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNeiP4Y8sWbsc2nhbvb4Lsz-BZUGkpoNFb14fYO": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNeiP4Y8sWbsc2nhbvb4Lsz-BZUGkpoNFb14fYO.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipNeiP4Y8sWbsc2nhbvb4Lsz-BZUGkpoNFb14fYO.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 1955983,
+      "sha1": "84e41572c9a60cd0",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing card with phone number service list and carpet cleaning stock photo",
+      "quality": 35,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "phone_number",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Fully composited ad card; burnt-in phone number and text disqualify all slots.",
+      "triaged_at": "2026-09-09T14:23:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNfYrvfKB6WSR6Dn4n18P0n8WQX_tE3KtoytTSG": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNfYrvfKB6WSR6Dn4n18P0n8WQX_tE3KtoytTSG.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipNfYrvfKB6WSR6Dn4n18P0n8WQX_tE3KtoytTSG.jpg",
+      "width": 1350,
+      "height": 1013,
+      "bytes": 104656,
+      "sha1": "f674deb154430803",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Stock photo gloved hands scrubbing tile with ACS logo and URL overlay",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "stock_photo",
+        "logo_card"
+      ],
+      "reason": "Composited marketing card over stock image; not authentic crew or location.",
+      "triaged_at": "2026-09-09T14:23:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNwRTojE7EFLoVt8CCGdWzhG7taSd9KOyXpQTSH": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNwRTojE7EFLoVt8CCGdWzhG7taSd9KOyXpQTSH.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipNwRTojE7EFLoVt8CCGdWzhG7taSd9KOyXpQTSH.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 125237,
+      "sha1": "23f08ce9c8362aa9",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Stock photo technician vacuuming sofa with ACS logo and URL overlay",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo",
+        "logo_card"
+      ],
+      "reason": "Composited marketing card over stock image; not authentic company content.",
+      "triaged_at": "2026-09-09T14:23:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO4S-eGVRQhULwP9UnTpifN-s2r4bDc1KiefPfm": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO4S-eGVRQhULwP9UnTpifN-s2r4bDc1KiefPfm.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipO4S-eGVRQhULwP9UnTpifN-s2r4bDc1KiefPfm.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 252167,
+      "sha1": "b2bf90b53f61c1c1",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Dirty carpet with stains and cleaning hose visible",
+      "quality": 58,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [],
+      "reason": "Decent real photo but awkward angle and mirror reflection reduce usability.",
+      "triaged_at": "2026-09-09T14:23:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO7KBPOiGLj853NpnVd7yNMbj4HiJsvslO6Zse3": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO7KBPOiGLj853NpnVd7yNMbj4HiJsvslO6Zse3.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipO7KBPOiGLj853NpnVd7yNMbj4HiJsvslO6Zse3.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 124351,
+      "sha1": "dddeb871f4d843e8",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Carpet half clean half heavily stained side by side",
+      "quality": 62,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [],
+      "reason": "Clear before-after split on carpet; good proof-of-work for services card.",
+      "triaged_at": "2026-09-09T14:23:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOQELqqhtb40ZQ31lE3GNHFqi63CfYGoYYFCWQA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOQELqqhtb40ZQ31lE3GNHFqi63CfYGoYYFCWQA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipOQELqqhtb40ZQ31lE3GNHFqi63CfYGoYYFCWQA.jpg",
+      "width": 1350,
+      "height": 1013,
+      "bytes": 197040,
+      "sha1": "c81983fa7c2688d1",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing card with mop on tile and overlaid text",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Designed marketing collage with stock mop photo, logo, URL, and caption text.",
+      "triaged_at": "2026-09-09T14:23:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOVsjN862AraPUeLRloA_hZl0Hyo5x2i-MedSW4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOVsjN862AraPUeLRloA_hZl0Hyo5x2i-MedSW4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipOVsjN862AraPUeLRloA_hZl0Hyo5x2i-MedSW4.jpg",
+      "width": 766,
+      "height": 1024,
+      "bytes": 121021,
+      "sha1": "da6e5c3f10123538",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in blue shirt steam cleaning large empty room carpet",
+      "quality": 68,
+      "slots": {
+        "hero": 45,
+        "team": 58,
+        "services": 72
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good real job photo; technician and cleaning wand clearly visible, decent composition.",
+      "triaged_at": "2026-09-09T14:23:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOdaApO0EBr2ShsRMfHa6ksQxToOPjljREDxvfd": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOdaApO0EBr2ShsRMfHa6ksQxToOPjljREDxvfd.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipOdaApO0EBr2ShsRMfHa6ksQxToOPjljREDxvfd.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 139925,
+      "sha1": "83d22733adc5e78b",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "White sofa cushion being cleaned with vacuum hose visible",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Close-up of upholstery cleaning; poor composition and low context limit usability.",
+      "triaged_at": "2026-09-09T14:23:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOmTivM8CFNGmcdpAfSYiuoU117j0UFk-Ugutkj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOmTivM8CFNGmcdpAfSYiuoU117j0UFk-Ugutkj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipOmTivM8CFNGmcdpAfSYiuoU117j0UFk-Ugutkj.jpg",
+      "width": 473,
+      "height": 1024,
+      "bytes": 49117,
+      "sha1": "798a8a1dc60b571c",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Phone screenshot of carpet with painted text overlay CLEAN NO CLEAN",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot",
+        "text_overlay"
+      ],
+      "reason": "Phone screenshot with large amateur painted text; completely unusable for marketing.",
+      "triaged_at": "2026-09-09T14:23:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOpmauiRGTk55xXr8AAbjr_clJXxRb9LX-IqnLj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOpmauiRGTk55xXr8AAbjr_clJXxRb9LX-IqnLj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipOpmauiRGTk55xXr8AAbjr_clJXxRb9LX-IqnLj.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 238863,
+      "sha1": "b682f2ec7a5cb34e",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Carpet cleaning wand on grey carpet with text overlay",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 10,
+        "services": 20
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing card with burnt-in tagline, URL, and logo over likely stock photo.",
+      "triaged_at": "2026-09-09T14:23:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP0PRp2VSsjykys95FK4cZGAL4OMidOnUwblcjN": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP0PRp2VSsjykys95FK4cZGAL4OMidOnUwblcjN.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipP0PRp2VSsjykys95FK4cZGAL4OMidOnUwblcjN.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 104249,
+      "sha1": "51d26d5ee3828b3c",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Rotary tile cleaning machine on white tile floor",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 5,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing card with burnt-in caption and URL; tile cleaning not in service list.",
+      "triaged_at": "2026-09-09T14:23:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP24x_xpUfu2pJmf_XvjZonQOQmnc_Tc68fMds2": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP24x_xpUfu2pJmf_XvjZonQOQmnc_Tc68fMds2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipP24x_xpUfu2pJmf_XvjZonQOQmnc_Tc68fMds2.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 73883,
+      "sha1": "aa534184007e3876",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Person in pink gloves steam cleaning white wall tiles",
+      "quality": 50,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing card; tile cleaning not a listed service; stock-style image.",
+      "triaged_at": "2026-09-09T14:23:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP6WiUo-7ceSc0TV4CP1Vvqp10xmIvkIoZXSjpb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP6WiUo-7ceSc0TV4CP1Vvqp10xmIvkIoZXSjpb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipP6WiUo-7ceSc0TV4CP1Vvqp10xmIvkIoZXSjpb.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 211723,
+      "sha1": "8cfa142e200e55ff",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Technician in blue uniform vacuuming grey carpet in living room",
+      "quality": 58,
+      "slots": {
+        "hero": 10,
+        "team": 15,
+        "services": 20
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing card with burnt-in tagline and URL over likely stock photo.",
+      "triaged_at": "2026-09-09T14:23:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPGdCR0RdXhsK0IWS8l1jEuDc0Rp_NOOCOAgaqj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPGdCR0RdXhsK0IWS8l1jEuDc0Rp_NOOCOAgaqj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPGdCR0RdXhsK0IWS8l1jEuDc0Rp_NOOCOAgaqj.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 107012,
+      "sha1": "9f261f079594665e",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Person with yellow gloves using yellow vacuum on hardwood floor",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 10,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing card; hardwood vacuuming not a listed service; clearly stock imagery.",
+      "triaged_at": "2026-09-09T14:23:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPKFWMDKlcYc_xPZmHyCdv3sBf9aTicKEXZnOHZ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPKFWMDKlcYc_xPZmHyCdv3sBf9aTicKEXZnOHZ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPKFWMDKlcYc_xPZmHyCdv3sBf9aTicKEXZnOHZ.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 197636,
+      "sha1": "a6b0f3607b5cacee",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Grey carpet mid-clean showing dirty and cleaned sections",
+      "quality": 62,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [],
+      "reason": "Authentic real job photo showing carpet cleaning progress; no people or added graphics.",
+      "triaged_at": "2026-09-09T14:23:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPKIuUS2LVsI56rFDuaRCTWBzVyBovy_eJ3f-N0": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPKIuUS2LVsI56rFDuaRCTWBzVyBovy_eJ3f-N0.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPKIuUS2LVsI56rFDuaRCTWBzVyBovy_eJ3f-N0.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 97167,
+      "sha1": "7b6983793a5893ce",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician on ladder cleaning ceiling air duct with hose",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 62,
+        "services": 82
+      },
+      "service_slugs": [
+        "air-duct-cleaning"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Strong service action shot; portrait crop limits hero use.",
+      "triaged_at": "2026-09-09T14:24:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPVpdSDDLSoIkXBT4Rb3lyHN0KlZE25l1Vxp09O": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPVpdSDDLSoIkXBT4Rb3lyHN0KlZE25l1Vxp09O.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPVpdSDDLSoIkXBT4Rb3lyHN0KlZE25l1Vxp09O.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 147437,
+      "sha1": "08bfa71779851182",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing card with carpet cleaning machine and text overlay",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing graphic with burnt-in text and website URL.",
+      "triaged_at": "2026-09-09T14:24:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPXjCf3gVkqKNn4hpaPR2k1N7N19IZmTHGhpQL4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPXjCf3gVkqKNn4hpaPR2k1N7N19IZmTHGhpQL4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPXjCf3gVkqKNn4hpaPR2k1N7N19IZmTHGhpQL4.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 189702,
+      "sha1": "e264cb062f9347df",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing card with floor scrub brush and text overlay",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing graphic; stock tile-cleaning photo with overlaid text.",
+      "triaged_at": "2026-09-09T14:24:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPdgd0CE-YrpeNtu1vGKzvblXLOOQFiqmQiU3br": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPdgd0CE-YrpeNtu1vGKzvblXLOOQFiqmQiU3br.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPdgd0CE-YrpeNtu1vGKzvblXLOOQFiqmQiU3br.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 317558,
+      "sha1": "99ef9ea2e5424902",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing card with carpet extractor wand and text overlay",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing graphic; stock carpet-cleaning photo with burnt-in text.",
+      "triaged_at": "2026-09-09T14:24:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPj_IkgFtxJng2uzcC-JOm6f2uOuLVv4jtcevFo": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPj_IkgFtxJng2uzcC-JOm6f2uOuLVv4jtcevFo.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPj_IkgFtxJng2uzcC-JOm6f2uOuLVv4jtcevFo.jpg",
+      "width": 320,
+      "height": 240,
+      "bytes": 83957,
+      "sha1": "5e69499952a9e500",
+      "exif": {
+        "taken_at": "2022:10:20 13:11:04"
+      },
+      "category": "crew",
+      "subject": "Five crew members posed in front of company trailers outdoors",
+      "quality": 65,
+      "slots": {
+        "hero": 55,
+        "team": 88,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Genuine team photo with fleet visible; good for team slot.",
+      "triaged_at": "2026-09-09T14:24:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPlG6gA997PY4-Yc_K902UTd__1vprF2jWY8Wpi": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPlG6gA997PY4-Yc_K902UTd__1vprF2jWY8Wpi.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPlG6gA997PY4-Yc_K902UTd__1vprF2jWY8Wpi.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 162437,
+      "sha1": "eea7d424559b3038",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Carpet half-cleaned showing dirty and clean sections side by side",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [],
+      "reason": "Clear before/after carpet result; low composition quality but useful for services.",
+      "triaged_at": "2026-09-09T14:24:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPmtEHnZUnb8Y8VIoJKUzCCANmTvjeV6MvF16A2": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPmtEHnZUnb8Y8VIoJKUzCCANmTvjeV6MvF16A2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPmtEHnZUnb8Y8VIoJKUzCCANmTvjeV6MvF16A2.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 143978,
+      "sha1": "20365d184838b000",
+      "exif": {},
+      "category": "graphic",
+      "subject": "carpet cleaning machine on purple rug with text overlay",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 5,
+        "services": 20
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing card with burnt-in tagline, website URL, and logo lockup.",
+      "triaged_at": "2026-09-09T14:24:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPuH7BrwfDqmJ1WkkdtjYvquX2KFSNi8lbvY_29": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPuH7BrwfDqmJ1WkkdtjYvquX2KFSNi8lbvY_29.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPuH7BrwfDqmJ1WkkdtjYvquX2KFSNi8lbvY_29.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 155858,
+      "sha1": "6e9da8509704627c",
+      "exif": {},
+      "category": "graphic",
+      "subject": "carpet scrubber machine on orange patterned rug overhead view",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing card with burnt-in tagline, website URL, and logo lockup.",
+      "triaged_at": "2026-09-09T14:24:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPx7HZI8Rf5wO_CFAEuK2hgK592rT-U7iGAWPsb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPx7HZI8Rf5wO_CFAEuK2hgK592rT-U7iGAWPsb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPx7HZI8Rf5wO_CFAEuK2hgK592rT-U7iGAWPsb.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 171923,
+      "sha1": "9cc875708591dd85",
+      "exif": {},
+      "category": "graphic",
+      "subject": "two cleaners in green uniforms vacuuming living room carpet",
+      "quality": 60,
+      "slots": {
+        "hero": 10,
+        "team": 15,
+        "services": 15
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Obvious stock photo wrapped in composited marketing card with URL and tagline.",
+      "triaged_at": "2026-09-09T14:24:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPzgXpapnHIzmXC5l089BauryzD88OUS09ImJAg": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPzgXpapnHIzmXC5l089BauryzD88OUS09ImJAg.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/posted/gbp-AF1QipPzgXpapnHIzmXC5l089BauryzD88OUS09ImJAg.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 161461,
+      "sha1": "4e9a9cfe6fa22186",
+      "exif": {},
+      "category": "graphic",
+      "subject": "carpet scrubber machine on orange patterned rug overhead view",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "carpet-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Duplicate stock image reused in a different composited marketing card layout.",
+      "triaged_at": "2026-09-09T14:24:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-09-09T14:24:12Z"
 }
