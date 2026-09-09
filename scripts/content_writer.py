@@ -405,6 +405,25 @@ def build_prompt_inputs(slug: str, item: dict) -> tuple[str, str]:
     style_guide_path = CLIENTS_DIR / slug / "image-style-guide.md"
     style_guide = style_guide_path.read_text() if style_guide_path.exists() else ""
 
+    # Per-client CONTENT GUIDANCE (Santino 2026-09-09, QCI "One Call Does It
+    # All"): brand phrasing the client/ops set in the app (companies.
+    # content_guidance, editable on the Content tab). Injected into every
+    # post so taglines and positioning compound across the whole site —
+    # the phrase-repetition signal AI answer engines learn brands from.
+    content_guidance = ""
+    try:
+        import requests as _rq
+        sb = os.environ.get("SUPABASE_URL", "").rstrip("/")
+        key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+        cid = (load_json(CLIENTS_DIR / "company_map.json") or {}).get(slug)
+        if sb and key and cid:
+            rows = _rq.get(f"{sb}/rest/v1/companies?id=eq.{cid}&select=content_guidance",
+                           headers={"apikey": key, "Authorization": f"Bearer {key}"},
+                           timeout=15).json()
+            content_guidance = (rows[0].get("content_guidance") or "") if rows else ""
+    except Exception:  # noqa: BLE001 — guidance is an enhancer, never a blocker
+        pass
+
     # Read the prompt template (source of truth) — resolved per client vertical,
     # fail-loud if the vertical's prompt asset doesn't exist.
     prompt_path = verticals.resolve_template(slug, CONTENT_WRITER_PROMPT_REL, client=client)
@@ -462,6 +481,8 @@ def build_prompt_inputs(slug: str, item: dict) -> tuple[str, str]:
         f"```json\n{json.dumps(context, indent=2)}\n```\n\n"
         "# Image style guide (consult for image_prompt construction)\n\n"
         f"{style_guide}\n\n"
+        + (f"# Brand voice and required phrasing (client-set, follow it)\n\n{content_guidance}\n\n" if content_guidance else "")
+        + 
         "# Your task\n\n"
         "Generate the JSON object per the prompt's contract. Return only the JSON, "
         "no surrounding prose, no code fences. Target ~"
