@@ -1,0 +1,442 @@
+{
+  "slug": "mold-solutionz-24-7-llc",
+  "assets": {
+    "gbp:gbp-AF1QipM4f9qWxJPPZpq-795JbPEu6l_1VnDoQwpueEf1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1788814489_gbp-AF1QipM4f9qWxJPPZpq-795JbPEu6l_1VnDoQwpueEf1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1788814489_gbp-AF1QipM4f9qWxJPPZpq-795JbPEu6l_1VnDoQwpueEf1.jpg",
+      "width": 443,
+      "height": 292,
+      "bytes": 118233,
+      "sha1": "381d3e4c15efe9e6",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Black mold growth in wall-window corner close-up",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Highly polished, art-directed stock shot; not this company's own property.",
+      "triaged_at": "2026-09-09T21:36:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMG1VIVaAmCb1tH1iH5xpOCEeImg3i1Fdrukx9L": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1787762604_gbp-AF1QipMG1VIVaAmCb1tH1iH5xpOCEeImg3i1Fdrukx9L.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1787762604_gbp-AF1QipMG1VIVaAmCb1tH1iH5xpOCEeImg3i1Fdrukx9L.jpg",
+      "width": 692,
+      "height": 456,
+      "bytes": 211869,
+      "sha1": "e0185f945c1e6dd6",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Black mold growth in wall-window corner close-up",
+      "quality": 70,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 28
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Nearly identical stock image to Image 0; not the client's own work.",
+      "triaged_at": "2026-09-09T21:36:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMGI_RAmmkGBKOrU1_JSuAW03JRPUpYw8EO8rbC": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1787741578_gbp-AF1QipMGI_RAmmkGBKOrU1_JSuAW03JRPUpYw8EO8rbC.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1787741578_gbp-AF1QipMGI_RAmmkGBKOrU1_JSuAW03JRPUpYw8EO8rbC.jpg",
+      "width": 721,
+      "height": 456,
+      "bytes": 331885,
+      "sha1": "1859e3cc8b3bbd6d",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Technician in Tyvek suit spraying mold-covered wall",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 40,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Too polished and generic; classic stock remediation scene, not client's crew.",
+      "triaged_at": "2026-09-09T21:36:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMg2DUPqrsopNQ_qdGyp6KrlPJwhzX82HYNUO5t": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1788375824_gbp-AF1QipMg2DUPqrsopNQ_qdGyp6KrlPJwhzX82HYNUO5t.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1788375824_gbp-AF1QipMg2DUPqrsopNQ_qdGyp6KrlPJwhzX82HYNUO5t.jpg",
+      "width": 708,
+      "height": 456,
+      "bytes": 206656,
+      "sha1": "fe2f36e0ad6bfdf7",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Ceiling mold damage before and after remediation",
+      "quality": 48,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Real client work with burnt-in Before/After labels; low resolution and dark exposure.",
+      "triaged_at": "2026-09-09T21:36:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMgH-NmRoV2eq8_-CVKPJvg9t35By-jDZzes_gZ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1788466317_gbp-AF1QipMgH-NmRoV2eq8_-CVKPJvg9t35By-jDZzes_gZ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1788466317_gbp-AF1QipMgH-NmRoV2eq8_-CVKPJvg9t35By-jDZzes_gZ.jpg",
+      "width": 395,
+      "height": 391,
+      "bytes": 158594,
+      "sha1": "dee30735b001ad46",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Bathroom wall mold before and after cleaning",
+      "quality": 55,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 52
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Authentic client before-after pair; decent composition but portrait crop limits hero use.",
+      "triaged_at": "2026-09-09T21:36:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMwlrb3Min6RWMDfFocrd-7jT3eaRGqo5MHMP7W": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1785609820_gbp-AF1QipMwlrb3Min6RWMDfFocrd-7jT3eaRGqo5MHMP7W.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1785609820_gbp-AF1QipMwlrb3Min6RWMDfFocrd-7jT3eaRGqo5MHMP7W.jpg",
+      "width": 2560,
+      "height": 1913,
+      "bytes": 518195,
+      "sha1": "789af2b2bb757518",
+      "exif": {},
+      "category": "crew",
+      "subject": "Woman in Mold Solutionz 24/7 branded polo shirt posed indoors",
+      "quality": 78,
+      "slots": {
+        "hero": 25,
+        "team": 72,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clear company branding on uniform; good portrait but tight crop limits hero use.",
+      "triaged_at": "2026-09-09T21:36:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipN65UDvArMoW2mhBkZwepAoKEuVbmKdNRsKfM64": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1787753023_gbp-AF1QipN65UDvArMoW2mhBkZwepAoKEuVbmKdNRsKfM64.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1787753023_gbp-AF1QipN65UDvArMoW2mhBkZwepAoKEuVbmKdNRsKfM64.jpg",
+      "width": 1081,
+      "height": 455,
+      "bytes": 408666,
+      "sha1": "32548e1e2980414d",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in Tyvek suit scrubbing mold from attic rafters",
+      "quality": 62,
+      "slots": {
+        "hero": 35,
+        "team": 60,
+        "services": 72
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Authentic remediation action shot; decent composition but low resolution and cropped.",
+      "triaged_at": "2026-09-09T21:36:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNHkovBsmH0Ws5HUacrhLEMOtIkFv9jdh_VlONs": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1787156340_gbp-AF1QipNHkovBsmH0Ws5HUacrhLEMOtIkFv9jdh_VlONs.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1787156340_gbp-AF1QipNHkovBsmH0Ws5HUacrhLEMOtIkFv9jdh_VlONs.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 631793,
+      "sha1": "b2533bedf950eee1",
+      "exif": {
+        "taken_at": "2025:03:18 14:33:28"
+      },
+      "category": "crew",
+      "subject": "Masked technician photographing mold damage at floor level",
+      "quality": 38,
+      "slots": {
+        "hero": 10,
+        "team": 40,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered low-angle composition, poor focus on foreground debris, unprofessional framing.",
+      "triaged_at": "2026-09-09T21:36:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNKymB_j3oYcWYxjERD8CmLsUheKH76Hpyydegi": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNKymB_j3oYcWYxjERD8CmLsUheKH76Hpyydegi.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipNKymB_j3oYcWYxjERD8CmLsUheKH76Hpyydegi.jpg",
+      "width": 1459,
+      "height": 1094,
+      "bytes": 100581,
+      "sha1": "83029d2942b28fc4",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severe black mold growth behind removed drywall framing",
+      "quality": 65,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear mold damage evidence shot; useful for services context but not hero material.",
+      "triaged_at": "2026-09-09T21:36:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNRPlKZ2VtfWXIbGgfgpjwtvSPcRFLplpnQ_gai": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1787881973_gbp-AF1QipNRPlKZ2VtfWXIbGgfgpjwtvSPcRFLplpnQ_gai.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1787881973_gbp-AF1QipNRPlKZ2VtfWXIbGgfgpjwtvSPcRFLplpnQ_gai.jpg",
+      "width": 456,
+      "height": 451,
+      "bytes": 185754,
+      "sha1": "2b447081d03c3b3b",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Bathroom wall mold before and after remediation side by side",
+      "quality": 58,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Effective before-after result; moderate quality, portrait crop limits hero use.",
+      "triaged_at": "2026-09-09T21:36:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNVrcBB6CNXuCqFt5i8Bb6ecLLVytO1FTXK1Fb-": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1788215408_gbp-AF1QipNVrcBB6CNXuCqFt5i8Bb6ecLLVytO1FTXK1Fb-.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1788215408_gbp-AF1QipNVrcBB6CNXuCqFt5i8Bb6ecLLVytO1FTXK1Fb-.jpg",
+      "width": 972,
+      "height": 456,
+      "bytes": 240862,
+      "sha1": "d3a4ce86d458c84b",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Before and after mold wall removal with overlaid text labels",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Bubble text labels composited over split image; treated as graphic, not usable as hero.",
+      "triaged_at": "2026-09-09T21:36:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNqlY9GQGigbHwzXcFM2MUKXlHAfCdYvJUt9_Fx": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNqlY9GQGigbHwzXcFM2MUKXlHAfCdYvJUt9_Fx.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipNqlY9GQGigbHwzXcFM2MUKXlHAfCdYvJUt9_Fx.jpg",
+      "width": 1459,
+      "height": 1094,
+      "bytes": 100581,
+      "sha1": "83029d2942b28fc4",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipNKymB_j3oYcWYxjERD8CmLsUheKH76Hpyydegi"
+    },
+    "gbp:gbp-AF1QipONjSNVqaLHnVZwjvk-CengLXyhV_SilL45iNnU": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipONjSNVqaLHnVZwjvk-CengLXyhV_SilL45iNnU.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipONjSNVqaLHnVZwjvk-CengLXyhV_SilL45iNnU.jpg",
+      "width": 1024,
+      "height": 683,
+      "bytes": 73143,
+      "sha1": "ddd2943ccbf35409",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bubbling peeling ceiling drywall from water damage intrusion",
+      "quality": 72,
+      "slots": {
+        "hero": 22,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Too clean and art-directed; likely licensed stock image, not contractor's own photo.",
+      "triaged_at": "2026-09-09T21:36:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOToLVunjdq-Ez1_gMVLescTFDv_lKVGUKXOL71": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOToLVunjdq-Ez1_gMVLescTFDv_lKVGUKXOL71.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipOToLVunjdq-Ez1_gMVLescTFDv_lKVGUKXOL71.jpg",
+      "width": 1459,
+      "height": 1094,
+      "bytes": 91659,
+      "sha1": "fa6eabcb368684a8",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Black mold growth on interior wall near ceiling",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Dark, angled, low-quality shot of mold damage; useful only as before evidence.",
+      "triaged_at": "2026-09-09T21:36:44Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOU_SPm9am7dD3dODYJyMr02TzKaGbq-4qQPDMw": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1787593468_gbp-AF1QipOU_SPm9am7dD3dODYJyMr02TzKaGbq-4qQPDMw.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1787593468_gbp-AF1QipOU_SPm9am7dD3dODYJyMr02TzKaGbq-4qQPDMw.jpg",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 457459,
+      "sha1": "620323fa65c3da99",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Air movers and hoses in water-damaged room with text overlay",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Burnt-in headline text and pasted logo lockup; underlying scene appears stock.",
+      "triaged_at": "2026-09-09T21:36:44Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOj48sKJ6GUChJkoHfLZ_prq8bFG3RjlTCCqSal": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOj48sKJ6GUChJkoHfLZ_prq8bFG3RjlTCCqSal.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipOj48sKJ6GUChJkoHfLZ_prq8bFG3RjlTCCqSal.jpg",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 663804,
+      "sha1": "b480d1b365c9775e",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Mold Solutionz 24/7 logo on dark textured background",
+      "quality": 72,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Pure logo lockup render; no photographic content usable in any slot.",
+      "triaged_at": "2026-09-09T21:36:44Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOlsckNlp6TT_qMIhIn2ucvSujurVRaiuLCVOqF": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1788980266_gbp-AF1QipOlsckNlp6TT_qMIhIn2ucvSujurVRaiuLCVOqF.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1788980266_gbp-AF1QipOlsckNlp6TT_qMIhIn2ucvSujurVRaiuLCVOqF.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 69815,
+      "sha1": "6a4f7157925efecc",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Stripped kitchen cabinet frame revealing plumbing and subfloor",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Poor composition, cluttered, low quality; marginally useful as remediation progress shot.",
+      "triaged_at": "2026-09-09T21:36:44Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPvykDdmrdd8BPsY0NGSLkeD6A_H4sLYp1WGGx7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1785782905_gbp-AF1QipPvykDdmrdd8BPsY0NGSLkeD6A_H4sLYp1WGGx7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1785782905_gbp-AF1QipPvykDdmrdd8BPsY0NGSLkeD6A_H4sLYp1WGGx7.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 832222,
+      "sha1": "70198b6d41013056",
+      "exif": {
+        "taken_at": "2025:07:24 14:22:28"
+      },
+      "category": "job_progress",
+      "subject": "Demolished drywall with heavy mold growth and debris",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 48
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear mold damage evidence but cluttered, angled; suits before documentation only.",
+      "triaged_at": "2026-09-09T21:36:44Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-09-09T21:36:44Z"
+}
