@@ -104,6 +104,7 @@ function organization() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
+    slogan: "One Call Does It All",
     "@id": `${brand.canonicalUrl}/#organization`,
     name: brand.legalName,
     alternateName: brand.shortName,

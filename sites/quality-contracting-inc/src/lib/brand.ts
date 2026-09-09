@@ -69,7 +69,7 @@ export const brand = {
     { author: "Erik", rating: 5, text: "I’ve been working with QCI for over 5 years. The always deliver a quality renovation and are easy to work with. Highly recommended.", when: "August 2026" },
     { author: "Gino", rating: 5, text: "I had a major main sewer line back up over the weekend that flooded out my finished cellar and had to get in touch with a hazmat company. I chose Quality Contracting. OMG what a lucky choice I made ! Everyone that I've dealt with from the company have been Wonderful. It all started with Amy in the…", when: "August 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
-  tagline: "24/7 restoration services in Auburn, MA.",
+  tagline: "One Call Does It All. 24/7 restoration across Central Massachusetts.",
   ctaLabel: "24/7 Emergency Line",
 } as const;
 
