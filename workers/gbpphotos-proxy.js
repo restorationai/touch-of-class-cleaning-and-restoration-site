@@ -296,6 +296,20 @@ export default {
         headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" } });
     }
 
+    // /qr/{key} → 302 to whatever URL KV holds under qr:{key}. Printed QR
+    // codes (business cards) encode this stable link, so the destination is
+    // editable forever with one KV write and no reprint (Tony/Coastal
+    // 2026-09-10 was the first).
+    const qr = url.pathname.match(/^\/qr\/([a-z0-9-]+)\/?$/i);
+    if (qr) {
+      let dest = null;
+      if (env && env.UPLOAD_MAP) {
+        try { dest = await env.UPLOAD_MAP.get("qr:" + qr[1].toLowerCase()); } catch (e) {}
+      }
+      if (dest) return Response.redirect(dest, 302);
+      return new Response("This QR link isn't set up.", { status: 404 });
+    }
+
     // /connect/{slug}[/{provider}] → 302 to a SIGNED connect URL for that
     // client. provider defaults to google; youtube supported (Santino
     // 2026-07-28: one short link shape for both). Token is minted fresh on
