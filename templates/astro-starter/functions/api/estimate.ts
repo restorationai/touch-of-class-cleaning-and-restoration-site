@@ -205,6 +205,19 @@ async function insertContact(env: Env, lead: Record<string, string>): Promise<st
     Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
     "Content-Type": "application/json",
   };
+  // EVERY submission is its own event row (Santino 2026-09-10: "every
+  // submission should get its dedicated line item") — the contacts row
+  // below stays deduped per phone for the CRM, but reporting reads this.
+  await fetch(`${env.SUPABASE_URL}/rest/v1/marketing_form_submissions`, {
+    method: "POST",
+    headers: { ...sbHeaders, Prefer: "return=minimal" },
+    body: JSON.stringify({
+      company_id: env.COMPANY_ID || null,
+      name: lead.name, phone: lead.phone, city: lead.city,
+      email: lead.email || null, description: lead.description || null,
+      lead_source: lead.lead_source, attribution: lead.attribution || null,
+    }),
+  }).catch(() => null);
   const r = await fetch(`${env.SUPABASE_URL}/rest/v1/contacts`, {
     method: "POST",
     headers: { ...sbHeaders, Prefer: "return=minimal" },
