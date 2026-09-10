@@ -5563,7 +5563,13 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     # compose context, not just the one-time preview share — otherwise a
     # "when do we go live?" gets an improvised stall two days post-launch.
     live_url = site_live_fact(company)
+    creds_on_file = credentials_fact(company)
     status_block = ""
+    if creds_on_file:
+        status_block += (
+            f"\nFACT: credentials already ON FILE for this client: "
+            f"{creds_on_file}. NEVER ask the client for any of these "
+            "numbers again; if relevant, confirm we have them.\n")
     if live_url:
         status_block = (
             f"\nFACT: this client's website is ALREADY LIVE at {live_url} "
@@ -8454,6 +8460,112 @@ def _maybe_email_lookback(company: dict, msgs: list[dict], dry_run: bool) -> Non
         print(f"  (email lookback errored: {str(e)[:100]})")
 
 
+
+def _maybe_capture_credentials(company: dict, msgs: list[dict], dry_run: bool) -> None:
+    """Images a client sends often ARE the answer (Michael Oren 2026-09-10:
+    his IICRC Certified Firm certificate photo got a generic "Got it, thanks"
+    three times while Monica kept re-asking for the number in text). Every
+    NEW inbound image runs through vision once; credential identifiers
+    (IICRC firm/tech numbers, state licenses, EINs, insurance certs) are
+    stored on companies.integration_settings.certifications, which composes
+    read as a standing FACT so the question can never come back. Each
+    attachment is scanned exactly once (vision_seen ledger). Never fatal."""
+    try:
+        import hashlib
+        urls: list[str] = []
+        for m in msgs:
+            if m.get("direction") != "inbound":
+                continue
+            for u in (m.get("attachments") or []):
+                ext = str(u).rsplit(".", 1)[-1].lower()
+                if ext in ("jpg", "jpeg", "png", "webp", "heic", "gif"):
+                    urls.append(str(u))
+        if not urls:
+            return
+        cid = company["id"]
+        co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+                  "&select=integration_settings") or [{}])[0]
+        ints = co.get("integration_settings") or {}
+        if isinstance(ints, str):
+            ints = json.loads(ints)
+        certs = ints.setdefault("certifications", {})
+        seen = ints.setdefault("vision_seen", [])
+        todo = []
+        for u in urls:
+            h = hashlib.md5(u.encode()).hexdigest()[:16]
+            if h not in seen:
+                todo.append((u, h))
+        if not todo:
+            return
+        changed = False
+        for u, h in todo[:4]:   # cost cap per run
+            blocks = _vision_blocks([u])
+            seen.append(h)
+            changed = True
+            if not blocks:
+                continue
+            try:
+                out = anthropic_json(
+                    "You read a photo a home-services business owner texted "
+                    "to their marketing team. Extract any credential "
+                    "identifiers visible: certification numbers, license or "
+                    "registration numbers, EINs, insurance policy numbers. "
+                    "Reply ONLY with JSON: {\"credentials\": [{\"kind\": "
+                    "one of iicrc_firm|iicrc_tech|state_license|ein|"
+                    "insurance|other, \"label\": what the document is, "
+                    "\"number\": the identifier exactly as printed, "
+                    "\"holder\": the name it is issued to or null, "
+                    "\"valid_through\": YYYY-MM-DD or null}]}. Empty list "
+                    "if the photo has no credential document.",
+                    "Extract credential identifiers from this photo.",
+                    max_tokens=1200, images=blocks)
+            except Exception as e:  # noqa: BLE001 — one bad image never stops the pass
+                print(f"  [cred-capture] vision failed for {u[-24:]}: {str(e)[:80]}")
+                continue
+            for cred in (out.get("credentials") or []):
+                num = str(cred.get("number") or "").strip()
+                kind = str(cred.get("kind") or "other").strip() or "other"
+                if not num:
+                    continue
+                key = kind if kind != "other" else re.sub(
+                    r"[^a-z0-9]+", "_", str(cred.get("label") or "other").lower())[:40]
+                if (certs.get(key) or {}).get("number") == num:
+                    continue
+                entry = {"number": num, "label": cred.get("label"),
+                         "holder": cred.get("holder"),
+                         "valid_through": cred.get("valid_through"),
+                         "source": "client photo (vision capture)",
+                         "captured_at": datetime.now(timezone.utc).isoformat()}
+                if dry_run:
+                    print(f"  [cred-capture] would store {key}: {num}")
+                    continue
+                certs[key] = entry
+                print(f"  [cred-capture] stored {key}: {num} "
+                      f"({cred.get('label')})")
+        if changed and not dry_run:
+            ints["vision_seen"] = seen[-100:]
+            _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                {"integration_settings": ints})
+    except Exception as e:  # noqa: BLE001
+        print(f"  [cred-capture] failed: {str(e)[:120]}")
+
+
+def credentials_fact(company: dict) -> str | None:
+    """Standing compose FACT line listing credentials already on file, so
+    Monica never asks for a number a client already sent (the Michael Oren
+    rule). Reads the same store _maybe_capture_credentials writes."""
+    try:
+        ints = company.get("integration_settings") or {}
+        if isinstance(ints, str):
+            ints = json.loads(ints)
+        certs = ints.get("certifications") or {}
+        parts = [f"{k.replace('_', ' ')} number {v.get('number')}"
+                 for k, v in certs.items() if v.get("number")]
+        return "; ".join(parts) if parts else None
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def _maybe_capture_ein(company: dict, msgs: list[dict], dry_run: bool) -> None:
     """Toll-free auto-registration loop (Santino 2026-09-03): when we've
     asked a client for their EIN (an EIN-ASK-{cid} marker note exists) and
@@ -8724,6 +8836,7 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     msgs = [m for m in msgs if m["id"] not in handled]
     if msgs:
         _maybe_capture_ein(company, msgs, dry_run)
+        _maybe_capture_credentials(company, msgs, dry_run)
         _maybe_capture_backlinks(company, msgs, dry_run)
         _maybe_execute_optout(company, msgs, dry_run)
         _maybe_email_lookback(company, msgs, dry_run)
