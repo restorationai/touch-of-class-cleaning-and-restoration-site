@@ -2321,6 +2321,33 @@ def optimize(slug: str) -> dict:
             and float(it.get("confidence", 0)) >= 0.85
             and (_matches(term, do) or _matches(term, dont)))
 
+    # CATEGORY PRECOMPUTE (Santino 2026-09-10): service ADD suggestions carry
+    # their best-fit category (resource name) in `canonical`, decided here at
+    # suggestion time so the click-time apply just honors it. Token overlap
+    # between service name and the readable gcid picks the fit; the edge
+    # function still headroom-checks and falls back if the slot is full.
+    _loc_cat_names = [c for c in
+                      [(loc.get("categories", {}).get("primaryCategory") or {}).get("name")]
+                      + [a.get("name") for a in
+                         (loc.get("categories", {}).get("additionalCategories") or [])]
+                      if c]
+
+    def _best_fit_category(svc_name: str) -> str | None:
+        stoks = {t for t in re.findall(r"[a-z]+", str(svc_name).lower()) if len(t) > 2}
+        best, best_n = None, 0
+        for cname in _loc_cat_names:
+            ctoks = {t for t in re.findall(r"[a-z]+",
+                     cname.replace("categories/gcid:", "").replace("_", " ")) if len(t) > 2}
+            n = len(stoks & ctoks)
+            if n > best_n:
+                best, best_n = cname, n
+        return best  # None -> apply-time heuristic decides
+
+    for it in items:
+        if (it.get("item_type") == "service" and it.get("verdict") == "ADD"
+                and not it.get("canonical")):
+            it["canonical"] = _best_fit_category(it.get("item", ""))
+
     rows = [{
         "company_id": cid, "item": it.get("item"), "item_type": it.get("item_type"),
         "source": it.get("source"), "verdict": it.get("verdict"), "reason": it.get("reason"),
