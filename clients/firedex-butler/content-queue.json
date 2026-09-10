@@ -1,6 +1,48 @@
 {
   "items": [
     {
+      "id": "2026-09-10-who-to-call-for-water-damage-restoration-in-cranberry-township-pa",
+      "status": "written",
+      "queued_at": "2026-09-10T19:48:26Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-water-damage-restoration-in-cranberry-township-pa",
+      "primary_keyword": "who to call for water damage restoration in Cranberry Township, PA",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "cranberry-township-pa",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Cranberry Township",
+        "state": "PA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for water damage restoration Cranberry Township",
+        "who do I call for water damage restoration in Cranberry Township",
+        "water damage restoration emergency number Cranberry Township PA",
+        "water damage cleanup Cranberry Township",
+        "water cleanup Cranberry Township",
+        "water removal Cranberry Township"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-10T19:58:44Z",
+      "post_url": "https://firedex.net/blog/who-to-call-for-water-damage-restoration-in-cranberry-township-pa/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-cranberry-township-pa.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "goal is to reach dry standard per the [IICRC S500](https://www.iicrc.org), the indus",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
       "id": "2026-08-27-water-damage-restoration-cost-pa",
       "status": "written",
       "queued_at": "2026-08-27T01:43:48Z",
@@ -354,6 +396,193 @@
       "notes": "Pillar explainer for the water-first pivot: FireDEX reads as a fire brand, so a plain-language water process page anchors the entity to water work for both readers and AI retrieval. Draw the mitigation/reconstruction line explicitly (extraction, structural drying, monitoring, then repairs) since the client does both under one roof, which most Butler County competitors do not. Differentiate from /blog/how-long-does-water-damage-restoration-take/ by covering scope rather than duration, and link to it for the timeline question.",
       "source": "keyword-researcher",
       "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-10-what-to-do-after-a-house-fire",
+      "status": "queued",
+      "queued_at": "2026-09-10T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "can you live in a house after a fire",
+        "can you stay in a house with smoke damage",
+        "how long does fire damage restoration take",
+        "house fire cleanup cranberry township pa",
+        "what is smoke damage"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire-cranberry-township",
+      "suggested_title": "What to do after a house fire in Cranberry Township, PA: the first 24 hours",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/services/soot-removal/",
+        "/service-areas/cranberry-township-pa/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration",
+        "soot-removal"
+      ],
+      "city_anchor": "cranberry-township-pa",
+      "external_authority_candidates": [
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
+        "https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance"
+      ],
+      "notes": "Cornerstone panic-search page for the fire seed family: KD 0 at 260/mo. Lead with the first-24-hours sequence (get out, call 911, do not re-enter until cleared, board up, call insurer, document contents). Emotionally sensitive topic, so keep the tone calm and practical, no urgency pressure tactics. The Marshall Rd shop is in Cranberry, so a same-day response angle is factual here. Claims guardrails: certifications list is EMPTY for this client, so no IICRC/RIA/'certified technicians' language and no EPA Lead-Safe badge until Robert confirms intake. Never quote the GBP rating or review count. licensed_insured_attested is false, so no 'licensed and insured' claim beyond PA HIC #001913."
+    },
+    {
+      "id": "2026-09-10-fire-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-09-10T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "fire damage restoration costs",
+        "smoke damage restoration cost",
+        "best fire damage restoration companies",
+        "residential fire damage restoration",
+        "commercial fire damage restoration"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-butler-pa",
+      "suggested_title": "Fire damage restoration cost in Butler, PA: what homeowners actually pay",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/reconstruction/",
+        "/services/smoke-damage-restoration/",
+        "/service-areas/butler-pa/fire-damage-restoration/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": "butler-pa",
+      "external_authority_candidates": [
+        "https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance"
+      ],
+      "notes": "KD 1 on a 260/mo money term with no coverage on the site: highest-leverage commercial gap in this seed family. Break cost out by loss size (single room, whole floor, full structure) and by phase (emergency board-up, soot and smoke cleanup, deodorization, reconstruction). Present ranges only, never a fixed quote, and anchor on the fact that most of it is insurance-paid. Triple-I puts average fire and lightning claim severity near $84k, which is a useful reference point. Claims guardrails: certifications list is EMPTY for this client, so no IICRC/RIA/'certified technicians' language and no EPA Lead-Safe badge until Robert confirms intake. Never quote the GBP rating or review count. licensed_insured_attested is false, so no 'licensed and insured' claim beyond PA HIC #001913."
+    },
+    {
+      "id": "2026-09-10-what-to-throw-away-after-smoke-damage",
+      "status": "queued",
+      "queued_at": "2026-09-10T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to throw away after smoke damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "smoke damage in home",
+        "what is smoke damage",
+        "can you stay in a house with smoke damage",
+        "smoke damage insurance claim",
+        "cigarette smoke damage"
+      ],
+      "suggested_slug": "what-to-throw-away-after-smoke-damage-cranberry-township",
+      "suggested_title": "What to throw away after smoke damage: a Cranberry Township, PA checklist",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/smoke-damage-restoration/",
+        "/services/soot-removal/",
+        "/services/odor-removal/",
+        "/service-areas/cranberry-township-pa/"
+      ],
+      "service_tags": [
+        "smoke-damage-restoration",
+        "soot-removal",
+        "odor-removal"
+      ],
+      "city_anchor": "cranberry-township-pa",
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality",
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
+      ],
+      "notes": "Near-zero competition: the ranking set averages 0.8 backlinks and 0.3 referring domains at 210/mo and $8.48 CPC. Structure as a discard-vs-salvage checklist (open food and pantry goods, medications, cosmetics, baby formula, mattresses and porous soft goods go; hard non-porous surfaces, most textiles and many contents are cleanable). Tie the list to the insurance contents inventory so it feeds the claim, and be clear that professional cleaning saves more than people expect. Claims guardrails: certifications list is EMPTY for this client, so no IICRC/RIA/'certified technicians' language and no EPA Lead-Safe badge until Robert confirms intake. Never quote the GBP rating or review count. licensed_insured_attested is false, so no 'licensed and insured' claim beyond PA HIC #001913."
+    },
+    {
+      "id": "2026-09-10-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-09-10T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "does insurance cover smoke damage",
+        "smoke damage insurance claim",
+        "fire damage restoration costs",
+        "how long does fire damage restoration take",
+        "what is smoke damage"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage-wexford-pa",
+      "suggested_title": "Does homeowners insurance cover fire damage? A Wexford, PA homeowner's guide",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/service-areas/wexford-pa/fire-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": "wexford-pa",
+      "external_authority_candidates": [
+        "https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance",
+        "https://www.pa.gov/en/agencies/insurance.html"
+      ],
+      "notes": "Decision-stage insurance query, the 24-to-48-hour window before a homeowner hires anyone. KD 30 is the hardest in this batch because national insurance publishers own the SERP, so win on Pennsylvania specifics and the local angle rather than generic policy copy: dwelling vs contents vs loss-of-use, smoke and soot as covered perils, ACV vs replacement cost, and the arson or vacancy exclusions. Wexford's high-value finished lower levels and strong policies make it the right anchor. Explain coverage in general terms only, no guarantees about any individual claim and no 'we handle your claim for you' language. Cross-link the existing water insurance post. Claims guardrails: certifications list is EMPTY for this client, so no IICRC/RIA/'certified technicians' language and no EPA Lead-Safe badge until Robert confirms intake. Never quote the GBP rating or review count. licensed_insured_attested is false, so no 'licensed and insured' claim beyond PA HIC #001913."
+    },
+    {
+      "id": "2026-09-10-how-to-clean-smoke-damage-on-walls-and-ceiling",
+      "status": "queued",
+      "queued_at": "2026-09-10T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to clean smoke damage on walls and ceiling",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what is smoke damage",
+        "smoke damage in home",
+        "how to get smoke smell out of house after fire",
+        "soot removal cranberry township pa",
+        "cigarette smoke damage"
+      ],
+      "suggested_slug": "how-to-clean-smoke-damage-on-walls-and-ceiling-mars-pa",
+      "suggested_title": "How to clean smoke damage on walls and ceiling (and when to call a pro in Mars, PA)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/soot-removal/",
+        "/services/smoke-damage-restoration/",
+        "/services/odor-removal/",
+        "/service-areas/mars-pa/soot-removal/"
+      ],
+      "service_tags": [
+        "soot-removal",
+        "smoke-damage-restoration",
+        "odor-removal"
+      ],
+      "city_anchor": "mars-pa",
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+      ],
+      "notes": "The ranking set averages 0.1 backlinks, so this is winnable on quality alone at 170/mo. Cover dry soot removal first (chemical sponge, HEPA vacuum, never wet-wipe dry soot), then degreaser and TSP alternatives, then sealing and priming. Warn explicitly against painting over soot without sealing and against DIY on protein or wet-smoke residue. Close with the DIY-vs-pro line: ceilings, HVAC runs and any structural charring are pro work. Claims guardrails: certifications list is EMPTY for this client, so no IICRC/RIA/'certified technicians' language and no EPA Lead-Safe badge until Robert confirms intake. Never quote the GBP rating or review count. licensed_insured_attested is false, so no 'licensed and insured' claim beyond PA HIC #001913."
     }
   ]
 }
