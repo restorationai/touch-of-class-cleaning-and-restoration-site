@@ -1,0 +1,49 @@
+{
+  "slug": "rt-olson-plumbing-heating-and-air-conditioning",
+  "generated_at": "2026-09-10T19:59:27Z",
+  "truth": {
+    "hours": "24/7",
+    "is_247": true,
+    "certifications": [],
+    "license_numbers": [
+      "997337"
+    ],
+    "licensed_ok": true,
+    "response_minutes": null,
+    "family_owned": false,
+    "founded_year": "2014",
+    "gbp_review_count": 587,
+    "vertical": "plumbing"
+  },
+  "errors": 0,
+  "review_flags": 3,
+  "violations": [
+    {
+      "file": "src/content/blog/signs-of-a-slab-leak.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "esulting damage \\u2014 warped flooring, mold remediation, drywall \\u2014 but not the cost of rep",
+      "reason": "names the 'mold' service family but plan-input services are only: emergency-plumbing, leak-detection, drain-cleaning, water-heater-repair, water-heater-installation, toilet-faucet-repair"
+    },
+    {
+      "file": "src/content/serviceAreas/santa-ana-ca.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "disturbs pre-1978 materials may require lead-safe handling practices.\"}, {\"question\": \"Ca",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/services/indoor-air-quality.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "le, UV treatment following a documented mold remediation after a water claim \\u2014 your carrier",
+      "reason": "names the 'mold' service family but plan-input services are only: emergency-plumbing, leak-detection, drain-cleaning, water-heater-repair, water-heater-installation, toilet-faucet-repair"
+    }
+  ]
+}

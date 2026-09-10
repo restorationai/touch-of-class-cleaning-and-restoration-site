@@ -1,6 +1,6 @@
 {
   "slug": "restoration-groups",
-  "generated_at": "2026-09-03T20:08:50Z",
+  "generated_at": "2026-09-10T19:59:26Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -12,92 +12,92 @@
     "response_minutes": 60,
     "family_owned": false,
     "founded_year": "2021",
-    "gbp_review_count": null,
+    "gbp_review_count": 158,
     "vertical": "restoration"
   },
-  "errors": 9,
-  "review_flags": 12,
+  "errors": 0,
+  "review_flags": 21,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
       "part": "frontmatter",
       "family": "reviews",
-      "severity": "error",
+      "severity": "review",
       "matched": "10 reviews",
       "context": "fic work. For companies with fewer than 10 reviews, treat the rating cautiously, a small s",
-      "reason": "claims 10 reviews but no synced gbpReviewCount exists for this site"
+      "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
       "part": "body",
       "family": "reviews",
-      "severity": "error",
+      "severity": "review",
       "matched": "83 reviews",
       "context": ". They carry a 5.0 Google rating across 83 reviews, a meaningful sample size that reflects",
-      "reason": "claims 83 reviews but no synced gbpReviewCount exists for this site"
+      "reason": "listicle review-count 83 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
       "part": "body",
       "family": "reviews",
-      "severity": "error",
+      "severity": "review",
       "matched": "83 reviews",
       "context": "f publication. **Google Rating:** 5.0 (83 reviews) --- ### #3, Eradicator Mold Remediat",
-      "reason": "claims 83 reviews but no synced gbpReviewCount exists for this site"
+      "reason": "listicle review-count 83 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
       "part": "body",
       "family": "reviews",
-      "severity": "error",
+      "severity": "review",
       "matched": "97 Google reviews",
       "context": "he highest review count on this list at 97 Google reviews and a 4.9 rating, strong evidence of a",
-      "reason": "claims 97 reviews but no synced gbpReviewCount exists for this site"
+      "reason": "listicle review-count 97 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
       "part": "body",
       "family": "reviews",
-      "severity": "error",
+      "severity": "review",
       "matched": "100 reviews",
       "context": "to a mold problem. A 4.9 across nearly 100 reviews is a credible signal. Specific availabi",
-      "reason": "claims 100 reviews but no synced gbpReviewCount exists for this site"
+      "reason": "listicle review-count 100 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
       "part": "body",
       "family": "reviews",
-      "severity": "error",
+      "severity": "review",
       "matched": "97 reviews",
       "context": "f publication. **Google Rating:** 4.9 (97 reviews) --- ### #4, NJ Experts NJ Experts c",
-      "reason": "claims 97 reviews but no synced gbpReviewCount exists for this site"
+      "reason": "listicle review-count 97 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
       "part": "body",
       "family": "reviews",
-      "severity": "error",
+      "severity": "review",
       "matched": "6 reviews",
       "context": "f publication. **Google Rating:** 5.0 (6 reviews) --- ### #5, Tanaka Water Repair Tan",
-      "reason": "claims 6 reviews but no synced gbpReviewCount exists for this site"
+      "reason": "listicle review-count 6 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
       "part": "body",
       "family": "reviews",
-      "severity": "error",
+      "severity": "review",
       "matched": "3 reviews",
       "context": "r Repair holds a 5.0 Google rating with 3 reviews. The rating is perfect but the sample i",
-      "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+      "reason": "listicle review-count 3 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
       "part": "body",
       "family": "reviews",
-      "severity": "error",
+      "severity": "review",
       "matched": "3 reviews",
       "context": "f publication. **Google Rating:** 5.0 (3 reviews) --- ## Comparison Table | Company |",
-      "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+      "reason": "listicle review-count 3 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
       "file": "src/content/locations/edison-nj__mold-remediation.md",

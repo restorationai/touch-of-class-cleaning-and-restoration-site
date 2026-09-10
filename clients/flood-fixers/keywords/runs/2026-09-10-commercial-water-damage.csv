@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+commercial water damage restoration,transactional,590,15,13.32,1,commercial water damage,,,yes
+commercial water damage,transactional,480,2,94.42,1,commercial water damage,,,no
+commercial water damage restoration near me,transactional,320,33,,1,commercial water damage,,,no
+water damage commercial,transactional,480,1,94.42,2,commercial water damage,,,no
+commercial water damage repair,transactional,40,17,1.83,2,commercial water damage,,,no
+commercial water damage restoration services,transactional,40,22,,2,commercial water damage,,,no
+commercial water damage clean up,transactional,20,5,,2,commercial water damage,,,no
+commercial water damage mitigation,transactional,10,,,2,commercial water damage,,,no
+commercial water damage restoration san diego,transactional,10,,,2,commercial water damage,San Diego,,no
+commercial water damage restoration in san diego,transactional,,,,2,commercial water damage,San Diego,,no
+san diego commercial water damage,transactional,,,,2,commercial water damage,San Diego,,no
+emergency commercial water damage restoration san diego,transactional,,,,2,commercial water damage,San Diego,,no
+commercial water damage restoration chula vista,transactional,,,,2,commercial water damage,Chula Vista,,no
+commercial water damage restoration oceanside,transactional,,,,2,commercial water damage,Oceanside,,no
+commercial water damage restoration carlsbad,transactional,,,,2,commercial water damage,Carlsbad,,no
+commercial water damage cleanup escondido,transactional,,,,2,commercial water damage,Escondido,,no
+commercial water damage repair el cajon,transactional,,,,2,commercial water damage,El Cajon,,no
+office water damage cleanup,transactional,,,,2,commercial water damage,,,no
+restaurant water damage cleanup,transactional,,,,2,commercial water damage,,,no
+warehouse water damage restoration,transactional,,,,2,commercial water damage,,,no
+commercial water damage companies,commercial,10,,,2,commercial water damage,,,no
+commercial property water damage,commercial,10,44,220.51,2,commercial water damage,,,no
+commercial water damage cost,commercial,10,,,2,commercial water damage,,,no
+commercial water damage claim,commercial,10,,,2,commercial water damage,,,no
+commercial property insurance water damage,commercial,10,0,,2,commercial water damage,,,no
+water damage commercial building,commercial,10,,,2,commercial water damage,,,no
+apartment building water damage,commercial,,,,2,commercial water damage,,,no
+how much does commercial water damage restoration cost,commercial,,,,2,commercial water damage,,,no
+how long does commercial water damage restoration take,commercial,,,,3,commercial water damage,,/blog/how-long-does-water-damage-restoration-take/,no
+does commercial property insurance cover water damage,informational,,,,1,commercial water damage,,,yes
+who is responsible for water damage in a rental property,informational,,,,1,commercial water damage,,,yes
+how to prevent water damage in a commercial building,informational,,,,1,commercial water damage,,,yes
+what to do when a pipe bursts in a commercial building,informational,,,,1,commercial water damage,,,yes
+does commercial insurance cover water damage,informational,10,0,,2,commercial water damage,,,no
+causes of commercial water damage,informational,10,,,2,commercial water damage,,,no
+what should a landlord do when a tenant has water damage,informational,,,,2,commercial water damage,,,no
+can water damage cause structural damage to a commercial building,informational,,,,2,commercial water damage,,,no
+how to file a commercial water damage insurance claim,informational,,,,2,commercial water damage,,,no
+what is the difference between clean gray and black water,informational,,,,3,commercial water damage,,/blog/what-is-category-3-water-damage/,no
+water damage business interruption,informational,,,,3,commercial water damage,,/blog/commercial-water-damage-business-continuity/,no

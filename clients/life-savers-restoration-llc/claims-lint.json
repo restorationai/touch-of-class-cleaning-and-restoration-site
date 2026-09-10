@@ -1,0 +1,102 @@
+{
+  "slug": "life-savers-restoration-llc",
+  "generated_at": "2026-09-10T19:59:24Z",
+  "truth": {
+    "hours": "24/7",
+    "is_247": true,
+    "certifications": [
+      "IICRC CERTIFIED FIRM",
+      "IICRC WRT (WATER)",
+      "IICRC ASD (STRUCTURAL DRYING)",
+      "IICRC AMRT (MOLD)",
+      "IICRC FSRT (FIRE & SMOKE)",
+      "EPA LEAD-SAFE CERTIFIED",
+      "OSHA TRAINED"
+    ],
+    "license_numbers": [
+      "0091001"
+    ],
+    "licensed_ok": true,
+    "response_minutes": null,
+    "family_owned": false,
+    "founded_year": "2019",
+    "gbp_review_count": 246,
+    "vertical": "restoration"
+  },
+  "errors": 0,
+  "review_flags": 8,
+  "violations": [
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "364 reviews",
+      "context": "der City **Google Rating:** 4.9 stars (364 reviews) | **24/7:** Unknown | **IICRC Certifie",
+      "reason": "listicle review-count 364 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "364 Google reviews",
+      "context": "ume reviewed company on this list, with 364 Google reviews at a 4.9-star average. That review dept",
+      "reason": "listicle review-count 364 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "49 reviews",
+      "context": "ssionals **Google Rating:** 5.0 stars (49 reviews) | **24/7:** Unknown | **IICRC Certifie",
+      "reason": "listicle review-count 49 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "49 reviews",
+      "context": "onals holds a perfect 5.0 rating across 49 reviews, which is a solid sample size for a sma",
+      "reason": "listicle review-count 49 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "10 reviews",
+      "context": "orations **Google Rating:** 5.0 stars (10 reviews) | **24/7:** Unknown | **IICRC Certifie",
+      "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "10 reviews",
+      "context": "Restorations has a perfect rating, but 10 reviews is a limited sample. That does not mean",
+      "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "7 reviews",
+      "context": "enderson **Google Rating:** 5.0 stars (7 reviews) | **24/7:** Unknown | **IICRC Certifie",
+      "reason": "listicle review-count 7 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/fire-damage-restoration-process.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "ng and repainting a single room to full structural reconstruction, depending on the extent of the loss. A",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, mold-remediation, fire-damage-restoration, storm-damage-restoration, sewage-cleanup, biohazard-cleanup"
+    }
+  ]
+}

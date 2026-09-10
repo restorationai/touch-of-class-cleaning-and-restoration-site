@@ -1,0 +1,362 @@
+{
+  "slug": "quality-contracting-inc",
+  "generated_at": "2026-09-10T19:59:25Z",
+  "truth": {
+    "hours": "",
+    "is_247": false,
+    "certifications": [],
+    "license_numbers": [],
+    "licensed_ok": false,
+    "response_minutes": null,
+    "family_owned": false,
+    "founded_year": "",
+    "gbp_review_count": 98,
+    "vertical": "restoration"
+  },
+  "errors": 16,
+  "review_flags": 22,
+  "violations": [
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": ", Inc. leads with local expertise, full IICRC-certified services, and a proven track",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "for water damage restoration. They are IICRC-certified, handle all water categories",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "s Worcester County with a full suite of IICRC-certified services including water extr",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "1 Southbridge Street, they are a local, IICRC-certified restoration contractor servin",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "certified restoration",
+      "context": "hbridge Street, they are a local, IICRC-certified restoration contractor serving Auburn and the surro",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "| Company | Google Rating | Reviews | IICRC Certified | Full-Service Restoration |",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "Certified Restoration",
+      "context": "Inc. | - | - | Yes | Yes | | PuroClean Certified Restoration Specialists | 4.9 | 192 | - | - | Both",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "already close when you need them. Their IICRC certification covers the standards that",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "matter most in water damage work: the [IICRC S500 Standard for Professional Water Da",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "for a proper close-out. Working with an IICRC-certified company protects your insuran",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "Certified Restoration",
+      "context": "call **(508) 756-8800**. ## PuroClean Certified Restoration Specialists: A Solid Regional Option P",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "Certified Restoration",
+      "context": "sts: A Solid Regional Option PuroClean Certified Restoration Specialists holds a 4.9 Google rating a",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "certified restoration",
+      "context": "locations across the region, and their certified restoration specialists designation reflects the fr",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "a more complicated insurance claim. **IICRC certification matters because it sets t",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ing standard.** A company drying to the IICRC S500 standard uses moisture meters, the",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "Inc.** Quality Contracting, Inc. is an IICRC-certified restoration and contracting c",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "certified restoration",
+      "context": "Quality Contracting, Inc. is an IICRC-certified restoration and contracting company headquartered a",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "192 reviews",
+      "context": "alists holds a 4.9 Google rating across 192 reviews, which is a strong signal of consistent",
+      "reason": "listicle review-count 192 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/burst-pipe-emergency-checklist.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ofessional drying typically follows the IICRC S500 standard, a technical framework th",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "hich of your technicians are trained to IICRC S500 and S520 standards?** The Institu",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "d smoke. A company can *say* it follows IICRC standards without holding the credentia",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/how-to-test-for-mold.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ars within 3 to 7 days. This is why the IICRC S520 standard for mold remediation emph",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-cost-ma.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "that cannot be adequately cleaned. The IICRC S500 standard defines these classificat",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-cost-ma.md",
+      "part": "body",
+      "family": "24/7",
+      "severity": "error",
+      "matched": "24 hours",
+      "context": "rted. A Category 1 loss caught in under 24 hours costs a fraction of the same loss disco",
+      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-cost-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "u receive. **Category of water.** The [IICRC S500 standard](https://www.iicrc.org) c",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/worcester-ma__sewage-cleanup.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ified as Category 3 (black water) under IICRC S500 guidelines, meaning it contains ba",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/pages/about.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "work?\", \"answer\": \"The company follows IICRC industry standards for water damage and",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/pages/about.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "or work in homes built before 1978, EPA lead-safe practices apply to any demolition or re",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/pages/about.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ndustry exist for specific reasons. The IICRC standards \u2014 set by the Institute of Ins",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/pages/home.md",
+      "part": "frontmatter",
+      "family": "license",
+      "severity": "review",
+      "matched": "licensed and insured",
+      "context": "question\": \"How do I verify that you're licensed and insured?\", \"answer\": \"You should always verify",
+      "reason": "licensing mention looks educational (how to verify a contractor) \u2014 confirm it is not a self-claim"
+    },
+    {
+      "file": "src/content/serviceAreas/framingham-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "faces, and dry structural assemblies to IICRC S500 standards before any rebuild work",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/natick-ma.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "on, or textured ceilings. Massachusetts lead-safe renovation rules apply to disturbing pa",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/natick-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "re-1978 homes falls under Massachusetts lead-safe renovation rules. When water, smoke, o",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/needham-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ble. Drying equipment is staged to meet IICRC S500 drying standards, and affected mat",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/worcester-ma.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "fire and smoke damage cleanup, and full structural reconstruction. For multi-unit properties \\u2014 commo",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, fire-damage-restoration, mold-remediation, sewage-cleanup, biohazard-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/worcester-ma.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "emediation, fire and smoke cleanup, and structural reconstruction for homeowners and property managers ac",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, fire-damage-restoration, mold-remediation, sewage-cleanup, biohazard-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/worcester-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "eters, and dry structural assemblies to IICRC S500 standards. We document the loss th",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/services/fire-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "molition of pre-1978 materials requires lead-safe work practices, and suspected asbestos-",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    }
+  ]
+}

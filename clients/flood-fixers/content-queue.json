@@ -368,7 +368,7 @@
     },
     {
       "id": "2026-07-13-is-flood-water-dangerous",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-13T18:01:06Z",
       "written_at": "2026-09-10T20:15:09Z",
       "post_url": "https://flood-fixers.com/blog/is-flood-water-dangerous/",
@@ -398,7 +398,8 @@
       "external_authority_candidates": [
         "https://www.cdc.gov/disasters/floods/index.html"
       ],
-      "notes": "Flood water is typically category 3 (black water): sewage, chemicals, pathogens. Cover contamination risks, PPE, why DIY cleanup is risky, when to evacuate. Keep health claims general and cite CDC. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
+      "notes": "Flood water is typically category 3 (black water): sewage, chemicals, pathogens. Cover contamination risks, PPE, why DIY cleanup is risky, when to evacuate. Keep health claims general and cite CDC. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
+      "published_verified_at": "2026-09-10T20:15:24Z"
     },
     {
       "id": "2026-07-20-how-to-prevent-mold-after-a-flood",
