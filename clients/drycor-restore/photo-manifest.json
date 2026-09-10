@@ -135,9 +135,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1788553986711-Cleaning": {
-      "source": "crew",
-      "storage": "job-photos/1788553986711-Cleaning.png",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553986711-Cleaning.png",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788553986711-Cleaning.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788553986711-Cleaning.png",
       "width": 1448,
       "height": 1086,
       "bytes": 2599013,
@@ -161,9 +161,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1788553994977-Drying_Equipment_Air_Tunnel_COMM": {
-      "source": "crew",
-      "storage": "job-photos/1788553994977-Drying_Equipment_Air_Tunnel_COMM.JPG",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553994977-Drying_Equipment_Air_Tunnel_COMM.JPG",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788553994977-Drying_Equipment_Air_Tunnel_COMM.JPG",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788553994977-Drying_Equipment_Air_Tunnel_COMM.JPG",
       "width": 4032,
       "height": 3024,
       "bytes": 3170109,
@@ -194,9 +194,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1788553999815-Drying_Equipment_Set_COMM": {
-      "source": "crew",
-      "storage": "job-photos/1788553999815-Drying_Equipment_Set_COMM.JPG",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788553999815-Drying_Equipment_Set_COMM.JPG",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788553999815-Drying_Equipment_Set_COMM.JPG",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788553999815-Drying_Equipment_Set_COMM.JPG",
       "width": 4032,
       "height": 3024,
       "bytes": 3643445,

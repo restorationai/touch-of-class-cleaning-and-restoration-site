@@ -2,9 +2,9 @@
   "slug": "restoration-groups",
   "assets": {
     "crew:trg-fleet-branded": {
-      "source": "crew",
-      "storage": "job-photos/trg-fleet-branded.png",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/trg-fleet-branded.png",
+      "source": "gbp",
+      "storage": "job-photos/posted/trg-fleet-branded.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/trg-fleet-branded.png",
       "width": 1376,
       "height": 768,
       "bytes": 739756,
