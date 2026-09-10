@@ -200,18 +200,38 @@ async function insertContact(env: Env, lead: Record<string, string>): Promise<st
   if (lead.email) row.email = lead.email;
   if (env.COMPANY_ID) row.client_id = env.COMPANY_ID;
 
+  const sbHeaders = {
+    apikey: env.SUPABASE_SERVICE_ROLE_KEY,
+    Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
+    "Content-Type": "application/json",
+  };
   const r = await fetch(`${env.SUPABASE_URL}/rest/v1/contacts`, {
     method: "POST",
-    headers: {
-      apikey: env.SUPABASE_SERVICE_ROLE_KEY,
-      Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
-      "Content-Type": "application/json",
-      Prefer: "return=minimal",
-    },
+    headers: { ...sbHeaders, Prefer: "return=minimal" },
     body: JSON.stringify(row),
   });
   if (r.ok) return "inserted";
-  return `error:${r.status}:${(await r.text()).slice(0, 200)}`;
+  const errText = (await r.text()).slice(0, 300);
+  // Repeat lead (2026-09-10, Santino's test vanished): contacts are unique
+  // per (client_id, phone), so a second submission from a known number 409s.
+  // Append to the existing row instead of dropping the lead on the floor.
+  if (r.status === 409 && env.COMPANY_ID) {
+    const q = `${env.SUPABASE_URL}/rest/v1/contacts?client_id=eq.${env.COMPANY_ID}` +
+      `&phone=eq.${encodeURIComponent(lead.phone)}&select=id,notes&limit=1`;
+    const existing = (await (await fetch(q, { headers: sbHeaders })).json()) as
+      { id: string; notes?: string }[];
+    if (existing?.[0]) {
+      const stamp = new Date().toISOString().slice(0, 10);
+      const addition = `[${stamp}] repeat form submission: ${row.notes}`;
+      const merged = `${existing[0].notes || ""}\n${addition}`.slice(0, 8000);
+      const u = await fetch(`${env.SUPABASE_URL}/rest/v1/contacts?id=eq.${existing[0].id}`, {
+        method: "PATCH", headers: { ...sbHeaders, Prefer: "return=minimal" },
+        body: JSON.stringify({ notes: merged }),
+      });
+      if (u.ok) return "updated-existing";
+    }
+  }
+  return `error:${r.status}:${errText}`;
 }
 
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
