@@ -3022,6 +3022,33 @@
       "triaged_at": "2026-08-22T14:07:53Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNqJUE1ImQT4QUKj_5U4D_QiUmbnWNjZRDiJPOl": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNqJUE1ImQT4QUKj_5U4D_QiUmbnWNjZRDiJPOl.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipNqJUE1ImQT4QUKj_5U4D_QiUmbnWNjZRDiJPOl.jpg",
+      "width": 810,
+      "height": 1080,
+      "bytes": 1162409,
+      "sha1": "4ef52854fcc8b836",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Blue extraction hose and wand cleaning upholstered sofa cushion",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "upholstery-cleaning"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Close-up of upholstery cleaning in progress; cluttered background limits hero use.",
+      "triaged_at": "2026-09-10T14:10:43Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNxNJgOE17t0H-RIQvgmMf1ZekmV2amY9S59jeg": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNxNJgOE17t0H-RIQvgmMf1ZekmV2amY9S59jeg.jpg",
@@ -5226,5 +5253,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-09T23:46:02Z"
+  "triaged_at": "2026-09-10T14:10:43Z"
 }
