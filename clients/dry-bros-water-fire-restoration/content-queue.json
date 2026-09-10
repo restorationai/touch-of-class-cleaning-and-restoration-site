@@ -1,0 +1,220 @@
+{
+  "items": [
+    {
+      "id": "2026-09-10-best-water-damage-restoration-in-chicago-il",
+      "status": "written",
+      "queued_at": "2026-09-10T10:24:27Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-chicago-il",
+      "primary_keyword": "best water damage restoration company in Chicago, IL",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "chicago-il",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Chicago",
+        "state": "IL",
+        "competitors": [
+          {
+            "name": "PuroClean of Downtown Chicago",
+            "google_rating": 4.9,
+            "review_count": 105
+          },
+          {
+            "name": "SERVPRO of Downtown Chicago/Team Nichols",
+            "google_rating": 4.7,
+            "review_count": 38
+          },
+          {
+            "name": "SERVPRO of West Loop / Bucktown / Greektown",
+            "google_rating": 4.7,
+            "review_count": 104
+          },
+          {
+            "name": "Restore It Chicago",
+            "google_rating": 4.9,
+            "review_count": 49
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Chicago",
+        "top rated water damage restoration Chicago IL",
+        "who is the best water damage restoration company in Chicago",
+        "flood cleanup Chicago",
+        "water damage repair Chicago",
+        "water damage cleanup Chicago"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-10T10:26:51Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-chicago-il/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "documentation. The process follows the IICRC S500 standard. Skipping moisture mappin",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## #3: Resto",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## #4: SERVP",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## #5: SERVP",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## Compariso",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | Licensed and Insured | |---",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "s. Dry Bros is licensed and insured. **IICRC certification.** The [IICRC S500 Standa",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "insured. **IICRC certification.** The [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "ore they leave. Ask whether the crew is IICRC-trained. **Insurance documentation.**",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "s a structured process governed by the [IICRC S500 standard](https://www.iicrc.org),",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "105 reviews",
+          "context": "o holds a 4.9-star Google rating across 105 reviews, making it one of the highest-rated res",
+          "reason": "claims 105 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "105 reviews",
+          "context": "ing processes. **Google rating:** 4.9 (105 reviews) **24/7 emergency:** Unknown **IICRC ce",
+          "reason": "claims 105 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "49 reviews",
+          "context": "o holds a 4.9-star Google rating across 49 reviews. That rating is strong, though the revi",
+          "reason": "claims 49 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "49 reviews",
+          "context": "hicago market. **Google rating:** 4.9 (49 reviews) **24/7 emergency:** Unknown **IICRC ce",
+          "reason": "claims 49 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "104 reviews",
+          "context": "n holds a 4.7-star Google rating across 104 reviews. SERVPRO is one of the largest restorat",
+          "reason": "claims 104 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "104 reviews",
+          "context": "wner-operator. **Google rating:** 4.7 (104 reviews) **24/7 emergency:** Unknown **IICRC ce",
+          "reason": "claims 104 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "38 reviews",
+          "context": "s holds a 4.7-star Google rating across 38 reviews. This is the lowest review count on thi",
+          "reason": "claims 38 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "38 reviews",
+          "context": "ional network. **Google rating:** 4.7 (38 reviews) **24/7 emergency:** Unknown **IICRC ce",
+          "reason": "claims 38 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    }
+  ]
+}
