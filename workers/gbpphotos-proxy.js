@@ -236,7 +236,7 @@ async function handleReviewRequest(client, body, env) {
         tracking_slug: tslug, status: "pending", step_number: 1, next_send_at: armAt }) });
     if (!rr2.ok) return { ok: false, error: "Could not queue the review request." };
   }
-  return { ok: true, note: "The marketing team has it from here." };
+  return { ok: true, note: "We'll text them a review link shortly." };
 }
 
 // "Add a Job Story": structured submission -> one [JOB STORY] ops note.
