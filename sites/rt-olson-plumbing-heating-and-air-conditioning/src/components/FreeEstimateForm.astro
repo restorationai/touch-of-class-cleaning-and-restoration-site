@@ -184,6 +184,23 @@ const tight = compact || bare;
         e.preventDefault();
         var data = {};
         new FormData(form).forEach(function (v, k) { data[k] = v; });
+        // Source attribution (2026-09-10): same persisted classification the
+        // DNI number swap uses, so form leads and calls attribute alike.
+        try {
+          data.lead_source = window.rankaiSource || "default";
+          var saved = JSON.parse(localStorage.getItem("rankai_src") || "null");
+          if (saved && saved.s) data.lead_source = saved.s;
+        } catch (err) { data.lead_source = data.lead_source || "default"; }
+        var q = new URLSearchParams(location.search);
+        ["utm_source", "utm_medium", "utm_campaign", "gclid", "msclkid", "fbclid"].forEach(function (k) {
+          if (q.get(k)) data[k] = q.get(k);
+        });
+        if (document.referrer) data.referrer = document.referrer;
+        data.landing_page = location.pathname;
+        try {
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({ event: "lead_form_submit", lead_source: data.lead_source });
+        } catch (err) {}
         if (!data.name || !data.phone || !data.city) {
           show("Please fill in your name, phone, and city/ZIP so we can reach you.", false);
           return;

@@ -79,6 +79,7 @@ async function sendEmail(env: Env, lead: Record<string, string>, toEmail: string
     `Phone:       ${lead.phone}`,
     `City/ZIP:    ${lead.city}`,
     `Email:       ${lead.email || "(not provided)"}`,
+    `Lead source: ${lead.lead_source}${lead.attribution ? ` (${lead.attribution})` : ""}`,
     "",
     "Description:",
     lead.description || "(none)",
@@ -193,7 +194,8 @@ async function insertContact(env: Env, lead: Record<string, string>): Promise<st
     pipeline_stage: "Inbound",
     role: "Other",
     tags: ["website", "free-estimate"],
-    notes: `${lead.description || "(no description)"} — via ${brand.domain} free estimate form`,
+    notes: `${lead.description || "(no description)"} — via ${brand.domain} free estimate form` +
+      ` [source: ${lead.lead_source}${lead.attribution ? `; ${lead.attribution}` : ""}]`,
   };
   if (lead.email) row.email = lead.email;
   if (env.COMPANY_ID) row.client_id = env.COMPANY_ID;
@@ -231,6 +233,18 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     city: clean(data.city, 80),
     email: clean(data.email, 160),
     description: clean(data.description, 2000),
+    // Source attribution (2026-09-10): the form ships the same persisted
+    // classification the DNI number swap uses, so leads attribute like calls.
+    lead_source: clean(data.lead_source, 40) || "default",
+    attribution: [
+      data.utm_source && `utm_source=${clean(data.utm_source, 80)}`,
+      data.utm_medium && `utm_medium=${clean(data.utm_medium, 80)}`,
+      data.utm_campaign && `utm_campaign=${clean(data.utm_campaign, 120)}`,
+      data.gclid && "gclid=present", data.msclkid && "msclkid=present",
+      data.fbclid && "fbclid=present",
+      data.referrer && `ref=${clean(data.referrer, 200)}`,
+      data.landing_page && `landing=${clean(data.landing_page, 200)}`,
+    ].filter(Boolean).join(" | "),
   };
   if (!lead.name || !lead.phone || !lead.city) {
     return json({ ok: false, error: "missing-required-fields" }, 400);

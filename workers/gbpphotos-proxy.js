@@ -304,6 +304,21 @@ export default {
         headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" } });
     }
 
+    // /dni/{slug}.json → per-client tracking-number map for the site's
+    // source-attribution DNI script (2026-09-10). KV key dni:{slug}, synced
+    // from integration_settings.call_tracking by scripts/dni_sync.py.
+    const dni = url.pathname.match(/^\/dni\/([a-z0-9-]+)\.json$/i);
+    if (dni) {
+      let v = null;
+      if (env && env.UPLOAD_MAP) {
+        try { v = await env.UPLOAD_MAP.get("dni:" + dni[1].toLowerCase()); } catch (e) {}
+      }
+      return new Response(v || "{}", { headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=300" } });
+    }
+
     // /qr/{key} → 302 to whatever URL KV holds under qr:{key}. Printed QR
     // codes (business cards) encode this stable link, so the destination is
     // editable forever with one KV write and no reprint (Tony/Coastal
