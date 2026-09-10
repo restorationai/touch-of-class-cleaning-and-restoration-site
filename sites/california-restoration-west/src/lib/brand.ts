@@ -18,8 +18,8 @@ export const brand = {
   // keep the canonical NAP number above — humans dial the tracked line,
   // Google sees consistent NAP. Empty = feature off (default at scaffold;
   // filled by the call-tracking provisioning step).
-  trackingPhone: "",
-  trackingPhoneRaw: "",
+  trackingPhone: "(805) 465-6397",
+  trackingPhoneRaw: "+18054656397",
   email: "Californiarestorationwest@gmail.com.com",
   hours: "24/7",
   foundedYear: "2025",
