@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "2026-09-10-who-to-call-for-water-damage-restoration-in-middlesex-nc",
+      "status": "written",
+      "queued_at": "2026-09-10T20:15:29Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-water-damage-restoration-in-middlesex-nc",
+      "primary_keyword": "who to call for water damage restoration in Middlesex, NC",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "middlesex-nc",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Middlesex",
+        "state": "NC",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for water damage restoration Middlesex",
+        "who do I call for water damage restoration in Middlesex",
+        "water damage restoration emergency number Middlesex NC",
+        "water damage cleanup Middlesex",
+        "water cleanup Middlesex",
+        "water removal Middlesex"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-10T20:24:50Z",
+      "post_url": "https://gogreenrestorationofnc.com/blog/who-to-call-for-water-damage-restoration-in-middlesex-nc/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-middlesex-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "d air movers, moisture mapping per the [IICRC S500 standard](https://www.iicrc.org),",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-middlesex-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "m. From there, the process follows the IICRC S500 standard for water damage restorat",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
       "id": "2026-09-06-att-and-crawlspace-insulation-removal-and-install",
       "status": "queued",
       "queued_at": "2026-09-06T10:23:57Z",
@@ -958,6 +1009,199 @@
         "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned"
       ],
       "notes": "KD 0 at 170 a month. Genuine how-to with a real stopping point: chemical sponge first and dry cleaning before any wet method, because water sets soot into a permanent stain. Distinguish the residue types (dry or protein or petroleum based) since they need different approaches. The honest hand-off is that surface cleaning does not touch odor held in the HVAC system, insulation, and framing, which is where the air duct cleaning page belongs."
+    },
+    {
+      "id": "2026-09-10-homeowners-insurance-storm-damage",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "homeowners insurance for storm damage",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 22,
+      "fan_out_cluster": [
+        "does homeowners insurance cover storm damage",
+        "storm damage insurance coverage",
+        "storm damage insurance",
+        "what storm damage is not covered by insurance",
+        "wind driven rain vs flood damage",
+        "hurricane deductible north carolina"
+      ],
+      "suggested_slug": "homeowners-insurance-for-storm-damage",
+      "suggested_title": "Homeowners insurance for storm damage in Middlesex, NC: what is covered and what is not",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/service-areas/middlesex-nc/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "middlesex-nc",
+      "external_authority_candidates": [
+        "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
+        "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open",
+        "https://www.floodsmart.gov/"
+      ],
+      "notes": "KD 22 at 590 a month, and the whole term is decision-stage: people read this before they call anyone. Do NOT rewrite the existing water damage insurance post: the storm angle is the separate-perils problem. Wind driven rain through a damaged roof is usually covered, rising surface water is not and needs a separate NFIP flood policy, and NC coastal and windstorm deductibles are a percentage of dwelling value rather than a flat number. Cite NC DOI, not a carrier blog. Link across to /blog/does-homeowners-insurance-cover-water-damage/ for the non-storm causes."
+    },
+    {
+      "id": "2026-09-10-storm-damage-insurance-claim",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "storm damage insurance claim",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 4,
+      "fan_out_cluster": [
+        "how to file a storm damage insurance claim",
+        "what to document for a storm damage claim",
+        "storm damage insurance claim denied",
+        "how long do i have to file a storm damage claim in nc",
+        "should i make temporary repairs before the adjuster comes",
+        "storm damage insurance claims"
+      ],
+      "suggested_slug": "storm-damage-insurance-claim",
+      "suggested_title": "How to file a storm damage insurance claim in Raleigh, NC (step by step)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/service-areas/raleigh-nc/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "raleigh-nc",
+      "external_authority_candidates": [
+        "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
+        "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open"
+      ],
+      "notes": "KD 4 with a 21 dollar CPC: the ads side is paying for this intent, so own it organically. Structure as the actual sequence: photograph everything before touching it, make temporary repairs only (tarp, board up, extract standing water) and keep receipts, do not make permanent repairs until the adjuster has agreed scope. Note that mitigation is a policy DUTY, so delaying drying can reduce the payout, which is the honest reason to call fast. Same-topic siblings 'how to file a storm damage insurance claim' stay in the bank as H2s."
+    },
+    {
+      "id": "2026-09-10-what-to-do-after-storm-damage",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after storm damage to your home",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is it safe to stay in a flooded house",
+        "how do i know if my home is safe after a storm",
+        "what to document for my insurance claim",
+        "should i hire a professional for storm damage assessment",
+        "how to prevent water damage during a storm",
+        "roof leak after storm what to do"
+      ],
+      "suggested_slug": "what-to-do-after-storm-damage",
+      "suggested_title": "What to do after storm damage to your home in Middlesex, NC (the first 24 hours)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/middlesex-nc/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "middlesex-nc",
+      "external_authority_candidates": [
+        "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Zero measured Google volume, queued on AI-retrieval demand: this was the top decomposition ChatGPT produced for a storm damage prompt, so it is the passage an assistant lifts. Safety first and concretely: downed lines, gas smell, sagging ceilings holding water. Then document, then temporary repairs only. Distinct from /blog/what-to-do-first-24-hours-water-damage/ because the storm version has an exterior-hazard and power-outage phase before any drying starts. Ties to the US-264 corridor and the Nash and Johnston county line for response time."
+    },
+    {
+      "id": "2026-09-10-how-to-dry-out-house-after-storm",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to dry out a house after a storm",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how long to dry out a house after flooding",
+        "how long after flooding does mold grow",
+        "wet drywall after storm",
+        "storm damage to ceiling",
+        "do i need to remove wet insulation",
+        "how long does storm damage restoration take"
+      ],
+      "suggested_slug": "how-to-dry-out-house-after-storm",
+      "suggested_title": "How to dry out a house after a storm in Rocky Mount, NC (and what fans alone will not fix)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/insulation-removal-installation/",
+        "/services/mold-remediation/",
+        "/service-areas/rocky-mount-nc/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "insulation-removal-installation",
+        "mold-remediation"
+      ],
+      "city_anchor": "rocky-mount-nc",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Rocky Mount is the right anchor: Tar River flooding history means this is a repeat local search. The honest technical spine is IICRC S500 structural drying: box fans move air but do not remove water vapor, so without dehumidification you just relocate moisture into cavities. Cover the 24 to 48 hour mold window, wet insulation as non-salvageable, and moisture readings behind drywall as the reason a dry-looking wall can still be wet. Feeds the insulation removal page naturally."
+    },
+    {
+      "id": "2026-09-10-signs-of-water-intrusion-in-walls",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "signs of water intrusion in walls",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what are the signs of water intrusion in a home",
+        "how to tell if there is water behind drywall",
+        "musty smell but no visible water",
+        "bubbling paint after heavy rain",
+        "what are the risks of mold after water intrusion",
+        "storm damage to ceiling"
+      ],
+      "suggested_slug": "signs-of-water-intrusion-in-walls",
+      "suggested_title": "Signs of water intrusion in walls: what Durham, NC homeowners miss after a storm",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/blog/signs-of-hidden-mold/",
+        "/service-areas/durham-nc/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "crawl-space-encapsulation"
+      ],
+      "city_anchor": "durham-nc",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Pulled from the ChatGPT decomposition ('what are the signs of water intrusion in my home'), no measured volume, queued as AI-retrieval fuel. Durham anchor because the older Trinity Park and Duke Park housing stock is where slow intrusion hides. Symptom-first structure so each H2 is liftable: staining and tide lines, bubbling or blistering paint, cool spots, musty odor with nothing visible, warped baseboard, crawl space humidity climbing. Complements /blog/signs-of-hidden-mold/ by staying on the water cause rather than the mold outcome."
     }
   ]
 }
