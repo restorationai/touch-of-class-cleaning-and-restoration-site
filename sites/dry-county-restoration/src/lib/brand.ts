@@ -52,15 +52,15 @@ export const brand = {
   sameAsUrls: ["https://www.facebook.com/drycountyrestoration/", "https://maps.google.com/maps?cid=2637755477782444584"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "5.0",
-  gbpReviewCount: "73",
+  gbpRatingValue: "4.9",
+  gbpReviewCount: "78",
   gbpReviews: [
+    { author: "Rachel", rating: 5, text: "They were very helpful and knowledgeable!", when: "September 2026" },
+    { author: "Efren", rating: 5, text: "The crew was knowledgeable & thorough. And customer friendly.", when: "September 2026" },
+    { author: "Jenny", rating: 5, text: "Everyone at Dry County have been so helpful and communicative. They helped make a difficult situation much more bareable. From beginning to end, everyone involved have been amazing.", when: "September 2026" },
     { author: "Darla", rating: 5, text: "These guys helped me out with drying up the water that flooded my house. They were here when they said they would be. It was a great experience.", when: "September 2026" },
     { author: "Jo", rating: 5, text: "They did a great job and cleaned up afterwards. Very happy with the job.", when: "August 2026" },
     { author: "Rula", rating: 5, text: "We highly recommend Dry County Restoration we had a leak in our downstairs bathroom! We fixed the issue but we used them for the remediation! They were very honest upfront and their crew worked hard and kept us informed specially worked closely with Roberto! Highly recommend Dry County!", when: "August 2026" },
-    { author: "Donna", rating: 5, text: "Bob did a great job getting help with insurance coverage, thank you", when: "June 2026" },
-    { author: "Mateki", rating: 5, text: "Easy to communicate with and service is top tier!", when: "December 2025" },
-    { author: "Lily", rating: 5, text: "Stephen was a breeze to work with!! Responded promptly and got the job done!! 10/10 recommend!", when: "November 2025" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",

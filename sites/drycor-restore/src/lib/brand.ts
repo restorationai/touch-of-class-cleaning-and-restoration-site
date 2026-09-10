@@ -58,14 +58,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "22",
+  gbpReviewCount: "23",
   gbpReviews: [
+    { author: "Charles", rating: 5, text: "Very detail oriented on the drying process. Works with all major insurance carriers & makes the entire process as smooth as possible. Definitely recommend", when: "September 2026" },
     { author: "Bobbie", rating: 5, text: "I can’t say enough wonderful things about Drycor Company! When a pipe broke in my home and caused water and mold problems, they responded so quickly and were there when I needed them most. Their promptness, professionalism, and genuine concern made a very stressful situation so much easier to…", when: "August 2026" },
     { author: "Shane", rating: 5, text: "A company with a long track record! Willow is great to deal with and really cares. No one wants to use the service but can not mess around with having mold in Florida", when: "July 2026" },
     { author: "Cora", rating: 5, text: "We have been working on our mold problem in our home for about a week with them and we are so grateful that we didn’t go with another “cheaper” company (it’s only cheaper because they aren’t doing the work right). If you are beginning your mold remediation experience you’ll learn quickly that a lot…", when: "July 2026" },
     { author: "Mark", rating: 5, text: "The Showalter Construction and Restoration Team as well as DryCor Restore have been a Great Help and Excellent Experience. From Initial assessment, Insurance navigation, Expert Advice, Execution of Restore have been spot on ! The Crew of Victor, Victor, Damen and Garrett are the best, Hard working…", when: "June 2026" },
     { author: "Cindy", rating: 5, text: "I highly recommend Drycor Restore, and Showalter Construction and Restoration. I had a plumbing issue that allowed water to run unseen throughout the house for months, damaging all of my floors, and leaving mold in my bathroom and bedroom. The slab had to be dried throughout, sealed, and new floors…", when: "May 2026" },
-    { author: "Josh", rating: 5, text: "After our rental property in Land O' Lakes flooded in winter 2025 (sewage drain clog), we needed more than just cleanup. We needed a strategic partner. Drycor Restore delivered exactly that. Robert arrived first, incredibly knowledgeable, calm, and walked us through every step. He guided us on…", when: "May 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Thonotosassa, FL.",
   ctaLabel: "24/7 Emergency Line",

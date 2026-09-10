@@ -58,14 +58,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "15",
+  gbpReviewCount: "20",
   gbpReviews: [
+    { author: "Adam", rating: 5, text: "Sarha with Air Care Restoration is a life savor. Our toilet overflowed causing sewage to flood our bathroom, hallway, and one of the bedrooms. Air Care Restoration answered our call, questions, and showed up in less than 45 minutes on a Friday night. This was our first time experiencing water…", when: "September 2026" },
+    { author: "Craig", rating: 5, text: "Sarha genuinely cares about her customers and the quality of work is second to none!", when: "September 2026" },
+    { author: "Untamablephoenix", rating: 5, text: "Sarha Boyd the owner of Air Care Restoration helped me so very much after I lost my mom. Sarha came promptly, was friendly, compassionate, and understanding. I can't thank Sarah enough for all that she did to help me and my family during such a horrific heartbreaking loss. She is an amazing person…", when: "September 2026" },
+    { author: "Alonzo", rating: 5, text: "⭐⭐⭐⭐⭐ One of the best companies I’ve had the opportunity to come across. From start to finish, their team was professional, caring, responsive, and truly committed to providing the best service possible. They went above and beyond to make sure everything was handled properly, and their attention to…", when: "September 2026" },
+    { author: "David", rating: 5, text: "Extremely professional crew, showed up quickly, answered all my questions and took care of business. would highly recommend to anyone! Thank you Sarha for everything!", when: "September 2026" },
     { author: "Clark", rating: 5, text: "Superb response time to water damage in Abilene, and professional industry knowledge. Professional prompt service and helped out with insurance guidance, and recommendations for remediation for a fire damaged home.", when: "August 2026" },
-    { author: "Rentl", rating: 5, text: "I cannot recommend Air Care Restoration enough! As a landlord, dealing with property emergencies is always stressful, but they have responded quickly to water leaks at two of my rental properties and handled everything flawlessly. Their team was fast, incredibly communicative, and went above and…", when: "August 2026" },
-    { author: "Kiki", rating: 5, text: "I had an outstanding experience with Air Care Restoration in Abilene, TX After dealing with breathing issues, I called them out to inspect my home for mold. They arrived right on time for our scheduled appointment and conducted a thorough inspection of all water sources in the house. They located…", when: "August 2026" },
-    { author: "Jody", rating: 5, text: "Air Care Restoration was professional prompt and kind. A storm caused significant damage to my brand new business. Insurance was very slow, Air Care Restoration was not. I will definitely use them in the future should I need too. Thank you!", when: "August 2026" },
-    { author: "Missy", rating: 5, text: "I am writing to provide professional feedback regarding my recent experience with Air Care Restoration. On August 11, I spoke with the owner, Sarha, who provided a detailed overview of her credentials and the company's capabilities. Her thoroughness in addressing my specific needs was a deciding…", when: "August 2026" },
-    { author: "Bayli", rating: 5, text: "I had an amazing experience with Air Care Restoration! From the moment I called, the team was professional, friendly, and quick to respond. They explained everything clearly, arrived on time, and treated my home with care and respect. Their attention to detail and quality of work exceeded my…", when: "August 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Abilene, TX.",
   ctaLabel: "24/7 Emergency Line",

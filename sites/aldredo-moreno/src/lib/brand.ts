@@ -57,9 +57,16 @@ export const brand = {
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "5.0",
+  gbpReviewCount: "361",
+  gbpReviews: [
+    { author: "Cami", rating: 5, text: "Mr. Moreno was very kind, easy to communicate with, and quick to complete the job. I would definitely use ASC Enterprise again and recommend them.", when: "September 2026" },
+    { author: "Brian", rating: 5, text: "Quick and easy, picked up same day", when: "August 2026" },
+    { author: "Kyle", rating: 5, text: "These guys are phenomenal!!! I bought a house recently and it had insulation issues and needed to be removed. The air ducts needed cleaning, as well. I called around to and was given the number for ACS. Alfredo’s guys showed up to work and that they did! They completed the job in a timely manner…", when: "July 2026" },
+    { author: "Rosa", rating: 5, text: "Very friendly, punctual nd helpful overall SUPER AWESOME!!! 💯👍", when: "July 2026" },
+    { author: "Vivian", rating: 5, text: "Great guys very professional extremely happy with the service", when: "July 2026" },
+    { author: "Hilary", rating: 5, text: "Fantastic experience. Great service. Job well done.", when: "July 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Midland, TX.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from

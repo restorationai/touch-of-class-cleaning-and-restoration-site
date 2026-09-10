@@ -58,14 +58,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "580",
+  gbpReviewCount: "587",
   gbpReviews: [
+    { author: "Roger", rating: 5, text: "I’m extremely pleased with the service that I received from Tim at Olson Plumbing for my HVAC system. He was extremely professional, responsive and very fair with pricing. I highly recommend them!", when: "September 2026" },
+    { author: "Emery", rating: 5, text: "Tim and Will were incredible. Concerned and courteous. They initially came out late in the evening to make sure our AC worked. Highly recommended.", when: "September 2026" },
+    { author: "Terri", rating: 5, text: "Alphonzo was very professional and throughout. He did a great job!", when: "September 2026" },
+    { author: "Ramil", rating: 5, text: "Excellent service, friendly, helpful people and quality workmanship are all you can expect from RT Olson.", when: "September 2026" },
+    { author: "Vince", rating: 5, text: "The technician went above and beyond and did not give up even when the job looked hopeless. He stuck with it until he was able to complete the job .", when: "September 2026" },
     { author: "Raymond", rating: 5, text: "Repair service was outstanding. The tech made absolutely no mess but cleaned everything regardless. The area around the toilet was spotless when he left.", when: "September 2026" },
-    { author: "Victoria", rating: 5, text: "Called for service in Spring and needed to make a second call in summer for a related issue. Very easy to schedule service and they responded immediately. Alphonso worked all day, made two trips buying parts, several calls to his super to attempt the remedy and have it done correctly, which they…", when: "August 2026" },
-    { author: "Minnie", rating: 5, text: "The plumber technician arrived on time. He was very polite. He reviewed the project and explained to me what he needed to do. I have no complaints. Job well done. I will always use this company. Thanks again.", when: "August 2026" },
-    { author: "Don", rating: 5, text: "On time. On budget. My kinda guys", when: "August 2026" },
-    { author: "Yong", rating: 5, text: "They did wonderful job. Mike was friendly and helpful with whole explanation.", when: "August 2026" },
-    { author: "Ann", rating: 5, text: "I have been using them for the past 5 years. When you have a problem they schedule quickly. All their techs are friendly and knowledgeable.", when: "August 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "Plumbing, heating & air services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",
