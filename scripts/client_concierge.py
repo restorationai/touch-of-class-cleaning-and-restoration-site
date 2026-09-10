@@ -4813,6 +4813,52 @@ def url_alive(url: str) -> bool:
     return ok
 
 
+
+_APEX_PROBE_CACHE: dict = {}
+
+
+def _apex_probe_heal(company_id: str | None) -> bool:
+    """LIVE probe for a stale-false apex_live (Fran/QCI 2026-09-10: Monica
+    told a client their launched site "is not live yet" because the flag was
+    never set when the domain was attached). Fingerprint: the apex serves the
+    same content-hashed /_astro asset as the client's Pages deploy, which is
+    proof it is OUR deploy and impossible on a legacy host. On success the
+    flag is healed in marketing_sites so every later reader agrees. Two GETs,
+    cached per run, and never raises."""
+    if not company_id:
+        return False
+    if company_id in _APEX_PROBE_CACHE:
+        return _APEX_PROBE_CACHE[company_id]
+    live = False
+    try:
+        rows = _sb("GET", "/rest/v1/marketing_sites?company_id=eq."
+                   f"{company_id}&select=domain,rank_ai_slug,apex_live&limit=1") or []
+        row = rows[0] if rows else {}
+        domain = str(row.get("domain") or "").strip().lower()
+        slug = str(row.get("rank_ai_slug") or "").strip().lower()
+        if domain and slug and "pages.dev" not in domain:
+            import re as _re
+            import urllib.request as _rq
+            def _get(u):
+                req = _rq.Request(u, headers={"User-Agent": "rank-ai-concierge-apexprobe/1.0"})
+                with _rq.urlopen(req, timeout=12) as r:
+                    return r.read(400_000).decode("utf-8", "replace")
+            assets = set(_re.findall(r"/_astro/[A-Za-z0-9_.-]+\.(?:css|js)",
+                                     _get(f"https://rankai-{slug}.pages.dev/")))
+            if assets:
+                apex_html = _get(f"https://{domain}/")
+                live = any(a in apex_html for a in assets)
+            if live and not row.get("apex_live"):
+                _sb("PATCH", f"/rest/v1/marketing_sites?company_id=eq.{company_id}",
+                    {"apex_live": True})
+                print(f"  [apex-probe] {slug}: apex verified LIVE, healed apex_live")
+    except Exception as e:  # noqa: BLE001 — a probe must never break a send
+        print(f"  [apex-probe] inconclusive for {company_id}: {str(e)[:70]}")
+        live = False
+    _APEX_PROBE_CACHE[company_id] = live
+    return live
+
+
 def live_site_url(company: dict) -> str | None:
     """The CURRENT preview/staging URL from marketing_sites — the source of
     truth a stale plan-row target is healed from."""
@@ -4826,7 +4872,7 @@ def live_site_url(company: dict) -> str | None:
     row = rows[0] if rows else {}
     # A live apex beats the staging URL once the domain has actually cut over.
     apex = str(row.get("domain") or "").strip()
-    if row.get("apex_live") and apex:
+    if apex and (row.get("apex_live") or _apex_probe_heal(company.get("id"))):
         return apex if apex.startswith("http") else f"https://{apex}"
     u = str(row.get("cloudflare_pages_url") or "").strip()
     return u if u.startswith("http") else None
@@ -4847,7 +4893,8 @@ def site_live_fact(company: dict) -> str | None:
         return None
     row = rows[0] if rows else {}
     apex = str(row.get("domain") or "").strip()
-    if row.get("apex_live") and apex and "none" not in apex.lower():
+    if apex and "none" not in apex.lower() and (
+            row.get("apex_live") or _apex_probe_heal(company.get("id"))):
         return apex if apex.startswith("http") else f"https://{apex}"
     return None
 
@@ -4882,7 +4929,7 @@ def site_live_claim_violation(company: dict, body: str,
         def live_lookup(company_id):  # noqa: ANN001
             rows = _sb("GET", "/rest/v1/marketing_sites"
                        f"?company_id=eq.{company_id}&select=apex_live") or []
-            return any(r.get("apex_live") for r in rows)
+            return any(r.get("apex_live") for r in rows) or _apex_probe_heal(company_id)
     try:
         if cid and live_lookup(cid):
             return None

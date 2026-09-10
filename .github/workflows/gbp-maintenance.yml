@@ -175,6 +175,11 @@ jobs:
             python3 scripts/gbp_face_audit.py
           fi
 
+      - name: Reconcile apex_live with reality (Fran/QCI incident backstop)
+        env:
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scripts/apex_live_sweep.py || true
+
       - name: Commit + push generated plan/content/catalog changes
         run: |
           git add clients/ sites/ templates/ 2>/dev/null || true
