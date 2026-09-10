@@ -47,7 +47,7 @@ function hubPage(slug, token, client) {
     : qrFallback;
   return `<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
-<title>${name} — Crew Hub</title>
+<title>${name} Crew Hub</title>
 <style>
 :root{color-scheme:light}*{box-sizing:border-box;margin:0}
 body{font-family:-apple-system,system-ui,sans-serif;background:#f1f5f9;color:#0f172a;min-height:100vh}
@@ -72,7 +72,7 @@ textarea{width:100%;padding:14px;border:1px solid #cbd5e1;border-radius:12px;fon
 .pick{width:100%;display:flex;flex-direction:column;align-items:center;gap:4px;border:2px dashed #cbd5e1;border-radius:12px;padding:16px;text-align:center;cursor:pointer;font-size:15px;font-weight:700;color:#334155}
 .pick span{font-weight:500;color:#64748b;font-size:12px}.pick input{display:none}
 </style></head><body><div class="wrap">
-<h1>${name}</h1><div class="sub">Crew hub — bookmark this page</div>
+<h1>${name}</h1><div class="sub">Crew hub, bookmark this page</div>
 ${reviewUrl ? `<button class="tile" onclick="document.getElementById('qr').classList.add('open')"><span class="ic">⭐</span>Show Review QR<small>Hand your phone to the customer to scan</small></button>` : ""}
 <button class="tile" onclick="document.getElementById('rr').classList.add('open')"><span class="ic">💬</span>Request a Review<small>We'll text the customer a review link for you</small></button>
 <a class="tile" href="/gbpphotos/${slug}"><span class="ic">📷</span>Upload Photos<small>Job shots, before &amp; afters, any photos &mdash; they go to Google and the website</small></a>
@@ -81,13 +81,13 @@ ${reviewUrl ? `<button class="tile" onclick="document.getElementById('qr').class
 <div id="qr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Scan to leave us a review</div>
 ${qrImg ? `<img src="${qrImg}" alt="Review QR code" onerror="this.onerror=null;this.src='${qrFallback}'">` : ""}
-<div class="qrsub">Opens our Google review page — takes about 20 seconds</div>
+<div class="qrsub">Opens our Google review page, takes about 20 seconds</div>
 <div class="qrsub" style="margin-top:6px;font-weight:600;color:#334155">If you can, mention the service we did and your city. It helps another neighbor find us.</div></div>
 <div id="rr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Request a review</div>
-<div class="qrsub">Enter the customer's name and cell — our system takes it from there.</div>
+<div class="qrsub">Enter the customer's name and cell, our system takes it from there.</div>
 <form id="rrf"><input name="name" placeholder="Customer name" required autocomplete="off">
-<input name="phone" placeholder="Cell number" type="tel" required autocomplete="off">
+<input name="phone" id="rrph" placeholder="Cell number" type="tel" inputmode="numeric" maxlength="14" required autocomplete="off">
 <button class="btn" type="submit">Send review request</button><div class="msg" id="rrmsg"></div></form></div>
 <div id="js"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Add a job story</div>
@@ -102,13 +102,21 @@ ${qrImg ? `<img src="${qrImg}" alt="Review QR code" onerror="this.onerror=null;t
 <label class="pick">＋ After photos (optional)<span id="jscounta">The finished result</span><input id="jsafter" type="file" accept="image/*" multiple></label>
 <button class="btn" type="submit" id="jsbtn">Send job story</button><div class="msg" id="jsmsg"></div></form></div>
 <script>
+// Phone field: digits only, live-formatted (XXX) XXX-XXXX. E.164 goes on
+// the wire (Santino 2026-09-10).
+var rrph = document.getElementById('rrph');
+function rrDigits(v){var d=String(v).replace(/\D/g,'');if(d.length===11&&d[0]==='1')d=d.slice(1);return d.slice(0,10);}
+function rrFormat(d){if(!d)return'';if(d.length<4)return'('+d;if(d.length<7)return'('+d.slice(0,3)+') '+d.slice(3);return'('+d.slice(0,3)+') '+d.slice(3,6)+'-'+d.slice(6);}
+rrph.addEventListener('input', function(){ rrph.value = rrFormat(rrDigits(rrph.value)); });
 document.getElementById('rrf').addEventListener('submit', async (e) => {
   e.preventDefault();
   const f = e.target, m = document.getElementById('rrmsg');
+  const dg = rrDigits(f.phone.value);
+  if (dg.length !== 10) { m.className='msg err'; m.textContent='Enter a 10-digit cell number.'; return; }
   m.className = 'msg'; m.textContent = 'Sending...';
   try {
     const r = await fetch(location.pathname, {method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({action:'review-request', name:f.name.value, phone:f.phone.value})});
+      body: JSON.stringify({action:'review-request', name:f.name.value, phone:'+1'+rrDigits(f.phone.value)})});
     const d = await r.json();
     if (d.ok) { m.className='msg ok'; m.textContent='Done! ' + (d.note || 'Review request queued.'); f.reset(); }
     else { m.className='msg err'; m.textContent = d.error || 'Something went wrong.'; }
