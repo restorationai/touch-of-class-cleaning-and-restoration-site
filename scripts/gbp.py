@@ -1358,11 +1358,15 @@ def service_descriptions(slug: str, apply: bool = False,
     back = find_location(token, place) or {}
     back_items = back.get("serviceItems", [])
     still = sum(1 for it in back_items if not _item_desc(it))
-    verb = "rewritten (city rotation)" if refresh_recent else "written"
-    log_change(cid, "service_description",
-               f"Descriptions {verb} for {len(accepted)} service(s) on the Google listing",
-               actor="optimizer",
-               meta={"services": [_item_name(items[i]) for i in accepted]})
+    # One client-visible line item PER description (Santino 2026-09-10:
+    # 10 descriptions written = 10 rows of proof in Reports, not one
+    # aggregate line the client can't count).
+    verb = "Refreshed" if refresh_recent else "Wrote"
+    for i in accepted:
+        log_change(cid, "service_description",
+                   f"{verb} the Google listing description for "
+                   f"'{_item_name(items[i])}'",
+                   actor="optimizer", meta={"service": _item_name(items[i])})
     if refresh_recent:
         return (f"{slug}: descriptions refreshed for {len(accepted)}/{len(targets)} "
                 f"recently-written service(s) ({still} of {len(back_items)} "

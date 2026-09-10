@@ -917,6 +917,21 @@
       ],
       "tier": "core",
       "priority": 7
+    },
+    {
+      "slug": "emergency-water-removal",
+      "display_name": "24/7 Emergency Water Removal",
+      "short_name": "Emergency Water Removal",
+      "primary_intent": "local_emergency",
+      "secondary_keywords": [
+        "emergency water removal",
+        "emergency water damage",
+        "24 hour water damage restoration",
+        "emergency flood service",
+        "emergency water extraction"
+      ],
+      "tier": "core",
+      "priority": 9
     }
   ]
 }
