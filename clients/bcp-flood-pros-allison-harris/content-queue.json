@@ -1,6 +1,58 @@
 {
   "items": [
     {
+      "id": "2026-09-10-storm-wind-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-10T10:24:15Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-wind-damage-restoration",
+      "primary_keyword": "Storm & Wind Damage Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "pleasant-grove-ut",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-09-10-sewage-cleanup-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-10T10:24:15Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "sewage-cleanup-remediation",
+      "primary_keyword": "Sewage Cleanup & Remediation",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "orem-ut",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-09-10-general-contracting-reconstruction-renovation",
+      "status": "queued",
+      "queued_at": "2026-09-10T10:24:15Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "general-contracting-reconstruction-renovation",
+      "primary_keyword": "General Contracting (Reconstruction & Renovation)",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "lehi-ut",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-09-10-fire-smoke-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-10T10:24:15Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-smoke-restoration",
+      "primary_keyword": "Fire & Smoke Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "highland-ut",
+      "source": "app target-term (onboarding)"
+    },
+    {
       "id": "2026-09-09-best-water-damage-restoration-in-american-fork-ut",
       "status": "written",
       "queued_at": "2026-09-09T14:42:07Z",
