@@ -116,4 +116,4 @@
 /emergency-plumbing-lp/* /services/emergency-plumbing/ 301
 /leak-detection-lp/* /services/leak-detection/ 301
 /leak-detection/* /services/leak-detection/ 301
-/services/re-pipe/* /services/ 301
+/services/re-pipe/* /services/repiping/ 301

@@ -18756,6 +18756,49 @@
       "priority": 1.0,
       "status": "planned",
       "internal_links_out": []
+    },
+    {
+      "url_path": "/services/repiping/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Whole-House Repiping in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Whole-House Repiping in Corona",
+      "meta_description": "Whole-house repiping in Corona and surrounding areas. Copper and PEX repipes by licensed plumbing pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "repiping corona",
+      "secondary_keywords": [
+        "whole house repipe",
+        "copper repiping",
+        "PEX repiping",
+        "galvanized pipe replacement",
+        "polybutylene pipe replacement"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/services/leak-detection/",
+        "/services/water-heater-installation/",
+        "/services/emergency-plumbing/",
+        "/blog/signs-of-a-slab-leak/",
+        "/blog/low-water-pressure-causes/"
+      ]
     }
   ]
 }
