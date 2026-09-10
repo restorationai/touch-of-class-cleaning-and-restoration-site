@@ -549,7 +549,7 @@ def plan_items(p: dict, score: dict) -> list[dict]:
     if (p["customer_count"] or 0) > 0:
         items.append({
             "dedupe": "junk-customer-photos", "priority": 1, "impact": "high",
-            "title": f"Review {p['customer_count']} customer-uploaded Google photos — report junk to Google",
+            "title": f"Review {p['customer_count']} customer-uploaded Google photos, report junk to Google",
             "rationale": (f"GBP front-face audit: '{title}' has {p['customer_count']} customer/"
                           f"user-uploaded photos vs {p['owner_count']} owner photos. Junk user "
                           "uploads (Street View grabs, grass/park shots — the Davis Construction "
@@ -583,7 +583,7 @@ def plan_items(p: dict, score: dict) -> list[dict]:
     if not p["has_logo"]:
         items.append({
             "dedupe": "logo-missing", "priority": 2, "impact": "medium",
-            "title": "Upload GBP logo (profile photo) — needs the brand file",
+            "title": "Upload GBP logo (profile photo), needs the brand file",
             "rationale": (f"GBP front-face audit: '{title}' has no logo/profile photo. The logo "
                           "renders next to the business name on the panel, in Maps and on review "
                           "replies — its absence reads as unestablished. Upload the brand logo "
@@ -592,7 +592,7 @@ def plan_items(p: dict, score: dict) -> list[dict]:
     if not p["has_cover"]:
         items.append({
             "dedupe": "cover-missing", "priority": 2, "impact": "medium",
-            "title": "Set GBP cover photo — pick the strongest real work/team shot",
+            "title": "Set GBP cover photo, pick the strongest real work/team shot",
             "rationale": (f"GBP front-face audit: '{title}' has no COVER photo, so Google chooses "
                           "what tops the panel (often a user upload — the junk-photo failure "
                           "mode). Set a strong, real, landscape work/team shot as the cover in "
