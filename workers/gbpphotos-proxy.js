@@ -105,7 +105,7 @@ ${qrImg ? `<img src="${qrImg}" alt="Review QR code" onerror="this.onerror=null;t
 // Phone field: digits only, live-formatted (XXX) XXX-XXXX. E.164 goes on
 // the wire (Santino 2026-09-10).
 var rrph = document.getElementById('rrph');
-function rrDigits(v){var d=String(v).replace(/\D/g,'');if(d.length===11&&d[0]==='1')d=d.slice(1);return d.slice(0,10);}
+function rrDigits(v){var d='';for(var i=0;i<v.length;i++){var c=v[i];if(c>='0'&&c<='9')d+=c;}if(d.length===11&&d[0]==='1')d=d.slice(1);return d.slice(0,10);}
 function rrFormat(d){if(!d)return'';if(d.length<4)return'('+d;if(d.length<7)return'('+d.slice(0,3)+') '+d.slice(3);return'('+d.slice(0,3)+') '+d.slice(3,6)+'-'+d.slice(6);}
 rrph.addEventListener('input', function(){ rrph.value = rrFormat(rrDigits(rrph.value)); });
 document.getElementById('rrf').addEventListener('submit', async (e) => {
