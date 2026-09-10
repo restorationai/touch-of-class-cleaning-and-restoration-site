@@ -817,6 +817,55 @@ def phase_stamp(slug: str, domain: str, zone: dict | None, apply: bool) -> Phase
         else:
             ph.note(f"images domain attach skipped: {str(e)[:100]} (non-fatal)")
 
+    # Website call tracking / DNI (Santino 2026-09-09, RT Olson launch bug:
+    # the site went live without the number-swap script, the client's test
+    # call rang the office line untracked, and nothing noticed). Every
+    # launch now wires it automatically: provision the website tracking
+    # number if missing, verify its forwarding dials the real line, patch
+    # the DNI script (visitors see the tracking number; HTML source and
+    # JSON-LD schema keep the canonical NAP for citations/SEO/AI indexing),
+    # redeploy. Fail-soft here — phase_verify FAILS the launch when the
+    # number is not actually serving, so a miss can never ship silently.
+    try:
+        site_dir = ROOT / "sites" / slug
+        bt = site_dir / "src" / "lib" / "brand.ts"
+        bl = site_dir / "src" / "layouts" / "BaseLayout.astro"
+        mnum = (re.search(r'trackingPhoneRaw:\s*"(\+\d{11,})"', bt.read_text())
+                if bt.exists() else None)
+        if mnum and bl.exists() and "Dynamic Number Insertion" in bl.read_text():
+            ph.note(f"DNI already wired ({mnum.group(1)})")
+        else:
+            import call_tracking as ctk
+            r = subprocess.run(["python3", str(ROOT / "scripts" / "call_tracking.py"),
+                                "provision", "--slug", slug, "--source", "website"],
+                               cwd=str(ROOT), capture_output=True, text=True,
+                               timeout=300)
+            lines = (r.stdout + r.stderr).strip().splitlines() or ["?"]
+            ph.note("website tracking number: " + lines[-1][:130])
+            num = (json.loads(ctk.list_numbers(slug)).get("website") or {}).get("number")
+            cid = company_id_for_slug(slug)
+            if not num:
+                ph.note("DNI NOT wired — no website tracking number (verify will fail)")
+            elif not ctk.verify_forwarding(cid, "website"):
+                ph.note(f"DNI NOT wired — {num} forwarding check failed (verify will fail)")
+            else:
+                r = subprocess.run(["python3",
+                                    str(ROOT / "scripts" / "site_call_tracking.py"),
+                                    "--slug", slug, "--number", num, "--skip-build"],
+                                   cwd=str(ROOT), capture_output=True, text=True,
+                                   timeout=600)
+                ok = "1/1 patched" in (r.stdout + r.stderr)
+                ph.note(f"DNI patch: {'OK ' + num if ok else 'FAILED (verify will fail)'}")
+                if ok:
+                    r = subprocess.run(["python3", str(ROOT / "scripts" / "build_site.py"),
+                                        "sync-deploy", "--slug", slug, "--branch", "main"],
+                                       cwd=str(ROOT), capture_output=True, text=True,
+                                       timeout=1200)
+                    tail = (r.stdout + r.stderr).strip().splitlines() or ["?"]
+                    ph.note("DNI redeploy: " + tail[-1][:120])
+    except Exception as e:  # noqa: BLE001
+        ph.note(f"DNI wiring error: {str(e)[:120]} (verify will fail)")
+
     return ph
 
 
@@ -863,6 +912,30 @@ def phase_verify(slug: str, domain: str, apply: bool) -> Phase:
                 "redeploy main and re-run")
         return ph
     ph.note('homepage 200, no "https://None" in live HTML')
+
+    # Call tracking must be SERVING (2026-09-09 RT Olson class): a launch is
+    # not done while visitors still see the untracked real line. The stamp
+    # phase wires + redeploys; Pages builds lag a few minutes, so poll
+    # before failing.
+    bt = ROOT / "sites" / slug / "src" / "lib" / "brand.ts"
+    mnum = (re.search(r'trackingPhoneRaw:\s*"\+?1?(\d{10})"', bt.read_text())
+            if bt.exists() else None)
+    if not mnum:
+        ph.fail("DNI not wired (no trackingPhoneRaw in brand.ts) — the stamp "
+                "phase's call-tracking step did not complete; re-run")
+        return ph
+    digits = mnum.group(1)
+    import time as _t
+    for attempt in range(6):
+        if digits in html:
+            break
+        if attempt == 5:
+            ph.fail(f"tracking number {digits} not in live HTML after ~5 min — "
+                    "DNI not serving (Pages build failed? redeploy main, re-run)")
+            return ph
+        _t.sleep(60)
+        _, html = curl_resolve(domain, ok_ip, "/")
+    ph.note(f"DNI serving (tracking {digits} in live HTML)")
 
     if apply:
         rec = ch.client_record(slug)

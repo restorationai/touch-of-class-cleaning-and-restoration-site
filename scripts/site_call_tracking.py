@@ -132,7 +132,8 @@ def company_for_slug(slug: str) -> tuple[str | None, str | None]:
     return cid, (setup[0].get("agent_phone_1") if setup else None)
 
 
-def patch_site(slug: str, number: str, dry_run: bool) -> bool:
+def patch_site(slug: str, number: str, dry_run: bool,
+               skip_build: bool = False) -> bool:
     site = ROOT / "sites" / slug
     brand_path = site / "src" / "lib" / "brand.ts"
     layout_path = site / "src" / "layouts" / "BaseLayout.astro"
@@ -181,6 +182,13 @@ def patch_site(slug: str, number: str, dry_run: bool) -> bool:
     brand_path.write_text(brand)
     layout_path.write_text(layout)
 
+    if skip_build:
+        # cutover_execute path (2026-09-09): the launch runner may have no
+        # local node; Cloudflare Pages builds on push and the launch
+        # verifier refuses to finish until the number is SERVING, so the
+        # local gate is redundant there.
+        print(f"  {slug}: patched (build gate skipped — deploy build is the gate)")
+        return True
     r = subprocess.run(["npm", "run", "build"], cwd=site, capture_output=True, text=True)
     if r.returncode != 0:
         print(f"  !! {slug}: build FAILED after patch — reverting via git")
@@ -233,6 +241,10 @@ def main() -> None:
     ap.add_argument("--allow-agent-line", action="store_true",
                     help="explicitly permit the AI receptionist number as the displayed number")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--skip-build", action="store_true",
+                    help="patch without the local npm build gate (launch "
+                         "runner path; the deploy build + launch verifier "
+                         "own correctness)")
     args = ap.parse_args()
 
     def marketing_tracker(slug: str) -> str | None:
@@ -297,7 +309,8 @@ def main() -> None:
     print(f"call-tracking DNI targets: {len(targets)}")
     ok = 0
     for slug, number in targets:
-        ok += patch_site(slug, number, args.dry_run)
+        ok += patch_site(slug, number, args.dry_run,
+                         skip_build=args.skip_build)
     print(f"done: {ok}/{len(targets)} patched" + (" (dry run)" if args.dry_run else ""))
     print("Next: build_site.py sync-deploy --slug {slug} --branch main for each.")
 
