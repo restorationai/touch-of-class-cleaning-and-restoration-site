@@ -678,6 +678,35 @@ def sync(slug: str) -> str:
         " ".join(addr.get("addressLines", [])), addr.get("locality"),
         addr.get("administrativeArea"), addr.get("postalCode")]))
     phone = (loc.get("phoneNumbers", {}) or {}).get("primaryPhone")
+    # WEBSITE CANONICALIZER (Santino 2026-09-09, narestco: GBP pointed at
+    # http://www.narestco.com/ — both variants redirect, leaking the link's
+    # equity). When the listing's website is an http:// or www variant of
+    # OUR canonical domain, rewrite scheme+host in place; path and query
+    # (UTM tags) are preserved. Deterministic, low-risk field, logged.
+    try:
+        site_row = _sb(f"marketing_sites?company_id=eq.{cid}&select=domain")
+        canon = ((site_row or [{}])[0].get("domain") or "").strip().lower()
+        web = (loc.get("websiteUri") or "").strip()
+        if canon and web:
+            mw = re.match(r"^(https?)://(www\.)?([^/]+)(/.*)?$", web, re.I)
+            if mw and mw.group(3).lower() == canon and (
+                    mw.group(1).lower() == "http" or mw.group(2)):
+                fixed = f"https://{canon}" + (mw.group(4) or "/")
+                r = requests.patch(
+                    f"{INFO_API}/{loc['name']}?updateMask=websiteUri",
+                    headers={"Authorization": f"Bearer {token}",
+                             "Content-Type": "application/json"},
+                    data=json.dumps({"websiteUri": fixed}), timeout=60)
+                if r.ok:
+                    loc["websiteUri"] = fixed
+                    g["website"] = fixed
+                    print(f"  {slug}: GBP website canonicalized {web} -> {fixed}")
+                    log_change(cid, "website",
+                               f"GBP website link canonicalized to {fixed} "
+                               "(http/www variants redirect and leak equity)",
+                               actor="agency")
+    except Exception as e:  # noqa: BLE001 — canonicalizer never breaks a sync
+        print(f"  {slug}: website canonicalizer error: {str(e)[:80]}")
     # AUTO-FLIP BACKSTOP (Santino 2026-09-09): tracking numbers must be LIVE
     # on the profile. Provision-time flips (call_tracking.provision) cover
     # clients whose GBP is already connected; this catches connect-after-
