@@ -67,7 +67,7 @@ PERF_METRICS = {
 
 ACCT_API = "https://mybusinessaccountmanagement.googleapis.com/v1"
 INFO_API = "https://mybusinessbusinessinformation.googleapis.com/v1"
-LOC_READ_MASK = "name,title,categories,storefrontAddress,regularHours,profile,serviceItems,metadata,phoneNumbers,websiteUri"
+LOC_READ_MASK = "name,title,categories,storefrontAddress,regularHours,profile,serviceItems,metadata,phoneNumbers,websiteUri,serviceArea"
 
 
 # --------------------------------------------------------------------------- #
@@ -731,8 +731,14 @@ def sync(slug: str) -> str:
         print(f"  {slug}: tracking-flip backstop error: {str(e)[:80]}")
     now = dt.datetime.now(dt.timezone.utc).isoformat()
 
+    # Service areas (Areas Served editor, 2026-09-10): store what Google has
+    # so the app can show/edit it. Names only; ids stay Google's problem.
+    sa_places = ((loc.get("serviceArea") or {}).get("places") or {}).get("placeInfos") or []
+    service_areas = [p.get("placeName", "").rsplit(", USA", 1)[0]
+                     for p in sa_places if p.get("placeName")]
     _sb_upsert("marketing_gbp_profiles", [{
         "company_id": cid, "place_id": place, "location_name": loc.get("name"),
+        "service_areas": service_areas,
         "title": g["title"], "primary_category": g["primary_category"],
         "additional_categories": g["additional_categories"], "services": g["services"],
         "rating": agg.get("rating"), "review_count": agg.get("review_count"), "claimed": True,
