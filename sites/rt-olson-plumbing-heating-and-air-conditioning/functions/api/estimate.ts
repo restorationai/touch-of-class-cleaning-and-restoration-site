@@ -226,7 +226,7 @@ async function insertContact(env: Env, lead: Record<string, string>): Promise<st
       const merged = `${existing[0].notes || ""}\n${addition}`.slice(0, 8000);
       const u = await fetch(`${env.SUPABASE_URL}/rest/v1/contacts?id=eq.${existing[0].id}`, {
         method: "PATCH", headers: { ...sbHeaders, Prefer: "return=minimal" },
-        body: JSON.stringify({ notes: merged }),
+        body: JSON.stringify({ notes: merged, updated_at: new Date().toISOString() }),
       });
       if (u.ok) return "updated-existing";
     }
