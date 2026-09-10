@@ -368,10 +368,10 @@
     },
     {
       "id": "2026-07-13-is-flood-water-dangerous",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-13T18:01:06Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-10T20:15:09Z",
+      "post_url": "https://flood-fixers.com/blog/is-flood-water-dangerous/",
       "primary_keyword": "is flood water dangerous",
       "intent": "informational",
       "volume": null,
@@ -901,6 +901,191 @@
         }
       ],
       "published_verified_at": "2026-08-31T23:14:02Z"
+    },
+    {
+      "id": "2026-09-10-commercial-water-damage-restoration-san-diego",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "commercial water damage restoration",
+      "intent": "transactional",
+      "volume": 590,
+      "kd": 15,
+      "fan_out_cluster": [
+        "commercial water damage",
+        "commercial water damage restoration services",
+        "commercial water damage restoration near me",
+        "commercial water damage clean up",
+        "office water damage cleanup",
+        "restaurant water damage cleanup",
+        "warehouse water damage restoration"
+      ],
+      "suggested_slug": "commercial-water-damage-restoration-san-diego",
+      "suggested_title": "Commercial water damage restoration in San Diego: what property managers need to know",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/services/reconstruction/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair",
+        "reconstruction"
+      ],
+      "city_anchor": "san-diego-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Highest-volume gap in the whole commercial family (590/mo, KD 15) and the site has zero commercial service pages: the only commercial asset is /blog/commercial-water-damage-business-continuity/. Write for the decision maker, not the homeowner: multi-tenant shutoffs, after-hours response, documenting loss for a commercial carrier, phased drying so part of the building stays open. Break out by property type (office, retail, restaurant, warehouse, multifamily) so the property-type long tail in the bank has a landing spot. Link the burst pipe and reconstruction service pages: commercial losses almost always run through rebuild."
+    },
+    {
+      "id": "2026-09-10-does-commercial-property-insurance-cover-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does commercial property insurance cover water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "does commercial insurance cover water damage",
+        "commercial property insurance water damage",
+        "commercial water damage claim",
+        "how to file a commercial water damage insurance claim",
+        "water damage business interruption",
+        "commercial water damage cost"
+      ],
+      "suggested_slug": "does-commercial-property-insurance-cover-water-damage",
+      "suggested_title": "Does commercial property insurance cover water damage? A San Diego business owner's guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": "san-diego-ca",
+      "external_authority_candidates": [
+        "https://www.iii.org/",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "The live insurance post is homeowners-only, so the commercial policy question is wide open. Decision-stage: these readers are 24 to 48 hours from hiring someone. Cover the sudden-and-accidental vs long-term-seepage split, business interruption as a separate coverage, deductible structure on a commercial policy, and flood exclusion (San Diego coastal and canyon properties). Do not give legal or coverage advice: frame as what to check in your policy and what to document."
+    },
+    {
+      "id": "2026-09-10-who-is-responsible-for-water-damage-in-a-rental-property",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who is responsible for water damage in a rental property",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what should a landlord do when a tenant has water damage",
+        "apartment building water damage",
+        "commercial water damage claim",
+        "does commercial property insurance cover water damage",
+        "can water damage cause structural damage to a commercial building",
+        "commercial water damage restoration chula vista"
+      ],
+      "suggested_slug": "who-is-responsible-for-water-damage-in-a-rental-property",
+      "suggested_title": "Who is responsible for water damage in a rental property? Landlord and tenant duties in Chula Vista, CA",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/services/reconstruction/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair",
+        "reconstruction"
+      ],
+      "city_anchor": "chula-vista-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Landlord and property-manager query with no coverage on the site. Both audiences convert: the landlord books the job, the tenant refers the landlord. Split the piece by who pays for the structure vs the contents, habitability and relocation timelines, and why a documented IICRC S500 dry log protects the landlord in a dispute. Chula Vista anchor because the multifamily stock there is the natural reader. Keep it descriptive, not legal advice: point readers to their lease and their carrier."
+    },
+    {
+      "id": "2026-09-10-how-to-prevent-water-damage-in-a-commercial-building",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to prevent water damage in a commercial building",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "causes of commercial water damage",
+        "can water damage cause structural damage to a commercial building",
+        "commercial water damage mitigation",
+        "water damage commercial building",
+        "commercial water damage restoration carlsbad",
+        "commercial property water damage"
+      ],
+      "suggested_slug": "how-to-prevent-water-damage-in-a-commercial-building",
+      "suggested_title": "How to prevent water damage in a commercial building: a Carlsbad property manager's checklist",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": "carlsbad-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "The live prevention post (/blog/basement-flooding-prevention/) is residential, so the commercial angle is uncovered. Make it an actual checklist a property manager can run quarterly: roof drains and scuppers, water heaters and boiler rooms, supply lines to break rooms and ice machines, fire sprinkler line inspections, shutoff valve mapping and labeling, leak sensors on upper floors. Carlsbad anchor: coastal corrosion on supply lines and winter storm runoff are the local hooks."
+    },
+    {
+      "id": "2026-09-10-what-to-do-when-a-pipe-bursts-in-a-commercial-building",
+      "status": "queued",
+      "queued_at": "2026-09-10T20:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do when a pipe bursts in a commercial building",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "commercial water damage clean up",
+        "commercial water damage mitigation",
+        "emergency commercial water damage restoration san diego",
+        "commercial building water damage cleanup",
+        "how to file a commercial water damage insurance claim",
+        "commercial water damage restoration oceanside"
+      ],
+      "suggested_slug": "what-to-do-when-a-pipe-bursts-in-a-commercial-building",
+      "suggested_title": "What to do when a pipe bursts in a commercial building: the first 60 minutes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/service-areas/oceanside-ca/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "oceanside-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Do not rewrite /blog/burst-pipe-emergency-checklist/: that one is written for homeowners. This is the multi-tenant version, ordered by minute: kill power to affected panels, find and close the building shutoff, notify tenants and the building owner, photograph before anything moves, call the carrier and the restoration contractor in that order. Add the after-hours case (burst at 2am, nobody on site) because that is the panic search. 24/7 emergency service is a verified brand fact."
     }
   ]
 }
