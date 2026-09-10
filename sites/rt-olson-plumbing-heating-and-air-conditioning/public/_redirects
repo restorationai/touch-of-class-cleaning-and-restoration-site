@@ -111,3 +111,9 @@
 /author/* /blog/ 301
 /corona-ca/* /service-areas/corona-ca/ 301
 /*.aspx / 301
+/drain-cleaning-lp/* /services/drain-cleaning/ 301
+/plumbing-services-lp/* /services/ 301
+/emergency-plumbing-lp/* /services/emergency-plumbing/ 301
+/leak-detection-lp/* /services/leak-detection/ 301
+/leak-detection/* /services/leak-detection/ 301
+/services/re-pipe/* /services/ 301
