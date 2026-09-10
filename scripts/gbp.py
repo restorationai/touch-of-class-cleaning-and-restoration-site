@@ -2047,46 +2047,64 @@ def _propose_new_categories(cid: str, token: str, g: dict, do: list,
     are the highest-stakes GBP edit (re-verification risk)."""
     existing = {str(g.get("primary_category") or "").lower()} | {
         str(c).lower() for c in (g.get("additional_categories") or [])}
-    sysmsg = (
-        "You suggest ADDITIONAL Google Business Profile categories for a local "
-        "restoration company. Only suggest categories that plausibly exist in "
-        "Google's fixed GBP category taxonomy and that the business genuinely "
-        "serves per its confirmed services. Skip anything matching "
-        "negative_services. Max 4. Return ONLY JSON: {\"candidates\": "
-        "[{\"name\": str, \"reason\": str (under 12 words), \"confidence\": num}]}")
-    user = json.dumps({
-        "existing_categories": sorted(existing),
-        "confirmed_services": do[:15], "negative_services": dont,
-        "geo_grid_ranking": geo[:6]}, indent=1)
-    out = _anthropic_json(sysmsg, "Propose categories.\n\nDATA:\n" + user)
-    rows = []
-    for cand in (out.get("candidates") or [])[:4]:
-        name = str(cand.get("name") or "").strip()
-        if not name or name.lower() in existing:
-            continue
+    # RETRIEVE-THEN-SELECT (Santino 2026-09-09, narestco stuck at 3/10
+    # categories): generate-then-validate yielded ZERO adds forever — the
+    # model invents names ("Mold remediation service") that don't exist in
+    # Google's surprisingly thin taxonomy, and validation killed them all.
+    # Now the REAL candidate pool is retrieved from the taxonomy by
+    # searching the client's confirmed-service words, and the model only
+    # picks from that pool — every suggestion is applyable by construction.
+    stopw = {"and", "the", "for", "services", "service", "cleanup",
+             "repair", "damage", "removal", "with", "your"}
+    words: set[str] = set()
+    for s in do[:40]:
+        for w in re.findall(r"[a-z]+", str(s).lower()):
+            if len(w) >= 4 and w not in stopw:
+                words.add(w)
+    pool: dict[str, str] = {}
+    for w in sorted(words)[:30]:
         try:
-            # Taxonomy validation. The categories filter only accepts a SINGLE
-            # token (multi-word 400s, quoted is silently ignored) — so search
-            # on the longest word and exact-match the full name locally.
-            tok = max(name.split(), key=len)
             r = requests.get(f"{INFO_API}/categories",
                              params={"regionCode": "US", "languageCode": "en-US",
                                      "view": "BASIC", "pageSize": 100,
-                                     "filter": f"displayName={tok}"},
-                             headers={"Authorization": f"Bearer {token}"}, timeout=30)
-            match = next((c for c in r.json().get("categories", [])
-                          if c.get("displayName", "").lower() == name.lower()), None)
-        except Exception:
-            match = None
-        if not match:
+                                     "filter": f"displayName={w}"},
+                             headers={"Authorization": f"Bearer {token}"},
+                             timeout=30)
+            for c in r.json().get("categories", []):
+                dn = c.get("displayName", "")
+                if dn and dn.lower() not in existing and len(pool) < 80:
+                    pool[dn] = c["name"]
+        except Exception:  # noqa: BLE001 — one bad token never kills the pool
+            continue
+    if not pool:
+        return []
+    sysmsg = (
+        "You pick ADDITIONAL Google Business Profile categories for a local "
+        "restoration company. Choose ONLY from candidate_pool (these are "
+        "Google's real categories) — never invent names. Pick only ones the "
+        "business genuinely operates as per confirmed_services; skip anything "
+        "matching negative_services and anything clearly from another "
+        "industry that merely shares a word (e.g. 'Mold maker'). Max 4. "
+        "Return ONLY JSON: {\"candidates\": [{\"name\": str (exact pool "
+        "entry), \"reason\": str (under 12 words), \"confidence\": num}]}")
+    user = json.dumps({
+        "candidate_pool": sorted(pool),
+        "existing_categories": sorted(existing),
+        "confirmed_services": do[:20], "negative_services": dont,
+        "geo_grid_ranking": geo[:6]}, indent=1)
+    out = _anthropic_json(sysmsg, "Pick categories.\n\nDATA:\n" + user)
+    rows = []
+    for cand in (out.get("candidates") or [])[:4]:
+        name = str(cand.get("name") or "").strip()
+        if name not in pool or name.lower() in existing:
             continue
         rows.append({
-            "company_id": cid, "item": match["displayName"], "item_type": "category",
+            "company_id": cid, "item": name, "item_type": "category",
             "source": "confirmed", "verdict": "ADD",
             "reason": (cand.get("reason") or "Matches a confirmed service line.")
                       + " Verified against Google's category list.",
             "confidence": min(float(cand.get("confidence") or 0.7), 0.9),
-            "canonical": match["name"],  # categories/gcid:... — the app applies via this
+            "canonical": pool[name],  # categories/gcid:... — one-click apply
             "auto_safe": False, "status": "open"})
     return rows
 
