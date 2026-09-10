@@ -13,7 +13,7 @@
     "url_count": 424,
     "generated_at": "2026-09-03T03:01:26.578066+00:00"
   },
-  "updated_at": "2026-09-10T20:58:10.642680+00:00",
+  "updated_at": "2026-09-10T21:07:37.462186+00:00",
   "indexnow_key": "86c3afe660ff4fa0a7fce519ce3c93ec",
   "build": {
     "scaffolded_at": "2026-09-03T03:02:00.367952+00:00",
@@ -24,9 +24,9 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-09-10T21:05:41.460344+00:00",
     "last_pushed_staging_at": "2026-09-04T22:21:31.392208+00:00",
-    "last_pushed_main_at": "2026-09-10T20:58:10.642636+00:00"
+    "last_pushed_main_at": "2026-09-10T21:07:37.462148+00:00"
   },
-  "build_status": "content_rendered",
+  "build_status": "pushed_main",
   "gbp": {
     "place_id": "ChIJrwzUDFa23IARkhGQxTSJGY8",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJrwzUDFa23IARkhGQxTSJGY8"
