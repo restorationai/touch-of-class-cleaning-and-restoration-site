@@ -823,6 +823,16 @@ def add_services(slug: str, services: list) -> str:
         ffs = item.get("freeFormServiceItem")
         if ffs and ffs.get("category") and ffs["category"] not in loc_cats:
             ffs["category"] = primary_cat
+    # DESCRIPTION CLAMP (RT Olson 2026-09-10): pre-existing items with
+    # descriptions Google now counts as >300 chars fail EVERY list write.
+    # Trim to a safe 295 so history can never block an update.
+    for item in new_list:
+        lab = (item.get("freeFormServiceItem") or {}).get("label") or {}
+        if len(str(lab.get("description") or "")) > 295:
+            lab["description"] = str(lab["description"])[:295]
+        st = item.get("structuredServiceItem") or {}
+        if len(str(st.get("description") or "")) > 295:
+            st["description"] = str(st["description"])[:295]
     hdrs = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
 
     def _validate(lst: list):
