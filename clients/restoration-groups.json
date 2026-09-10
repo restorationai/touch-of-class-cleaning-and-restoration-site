@@ -107,5 +107,9 @@
     "type": "Certified Firm 2026",
     "valid_through": "2026-12-31",
     "source": "Michael Oren SMS images 2026-09-08"
+  },
+  "brand": {
+    "iicrc_firm_number": "210213",
+    "iicrc_firm_valid_through": "2026-12-31"
   }
 }
