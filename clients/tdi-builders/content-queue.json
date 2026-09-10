@@ -106,10 +106,10 @@
     },
     {
       "id": "2026-08-28-general-contractor-vs-subcontractor",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-28T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-10T19:42:30Z",
+      "post_url": "https://tdiusa.com/blog/general-contractor-vs-subcontractor/",
       "primary_keyword": "general contractor vs subcontractor",
       "intent": "commercial",
       "volume": 260,
