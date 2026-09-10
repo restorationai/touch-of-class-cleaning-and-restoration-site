@@ -628,6 +628,18 @@ def set_phone(slug: str) -> str:
     log_change(cid, "phone",
                "Call-tracking number set as primary phone on the Google listing",
                actor="agency")
+    # Write-through (Santino 2026-09-09, Frontline: the app card showed
+    # "not on your Google listing yet" for days after a flip because
+    # marketing_gbp_profiles only refreshes on the Mon/Thu sync). The app
+    # must never display stale phone state after we just changed it.
+    try:
+        requests.patch(
+            f"{SB_URL}/rest/v1/marketing_gbp_profiles?company_id=eq.{cid}",
+            headers={"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}",
+                     "Prefer": "return=minimal"},
+            json={"phone": tracking}, timeout=30)
+    except Exception as e:  # noqa: BLE001 — display sync never blocks a flip
+        sys.stderr.write(f"  profiles write-through failed: {str(e)[:80]}\n")
     return (f"{slug}: GBP primary phone -> {tracking} (tracking), "
             f"real {real} moved to additional")
 
