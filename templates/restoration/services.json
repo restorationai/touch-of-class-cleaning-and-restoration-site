@@ -873,6 +873,50 @@
       "secondary_keywords": [],
       "tier": "adjacent",
       "priority": 5
+    },
+    {
+      "slug": "ceiling-water-damage-repair",
+      "display_name": "Ceiling Water Damage Repair",
+      "short_name": "Ceiling Water Damage",
+      "primary_intent": "local_emergency",
+      "secondary_keywords": [
+        "ceiling leaking",
+        "water coming through ceiling",
+        "ceiling leak repair",
+        "sagging ceiling water damage",
+        "water stain ceiling"
+      ],
+      "tier": "core",
+      "priority": 8
+    },
+    {
+      "slug": "water-heater-flood-cleanup",
+      "display_name": "Water Heater Flood Cleanup",
+      "short_name": "Water Heater Flooding",
+      "primary_intent": "local_emergency",
+      "secondary_keywords": [
+        "water heater leaking",
+        "water heater burst",
+        "flooded water heater",
+        "water heater leak damage"
+      ],
+      "tier": "core",
+      "priority": 7
+    },
+    {
+      "slug": "water-leak-detection",
+      "display_name": "Water Leak Detection",
+      "short_name": "Leak Detection",
+      "primary_intent": "local_emergency",
+      "secondary_keywords": [
+        "leak detection",
+        "hidden water leak",
+        "slab leak detection",
+        "water leak in wall",
+        "leak detection service"
+      ],
+      "tier": "core",
+      "priority": 7
     }
   ]
 }
