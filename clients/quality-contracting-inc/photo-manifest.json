@@ -48,8 +48,343 @@
       "reason": "Trade show event photo with mascot; unrelated to restoration work on site.",
       "triaged_at": "2026-08-05T06:39:56Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "web:1ab0dcf8f39ffc49": {
+      "source": "website",
+      "storage": "site-assets/web/web-1ab0dcf8f39ffc49.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-1ab0dcf8f39ffc49.jpg",
+      "origin_url": "https://www.qualitycontracting.us/images/services/sewage-cleanup.webp",
+      "found_on": "https://www.qualitycontracting.us/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 80070,
+      "sha1": "1ab0dcf8f39ffc49",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in Tyvek suit extracting water from tile floor",
+      "quality": 82,
+      "slots": {
+        "hero": 55,
+        "team": 65,
+        "services": 88
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp, well-lit action shot; containment barrier and branded extractor visible.",
+      "triaged_at": "2026-09-10T18:56:04Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:305366ca8ee56d30": {
+      "source": "website",
+      "storage": "site-assets/web/web-305366ca8ee56d30.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-305366ca8ee56d30.jpg",
+      "origin_url": "https://www.qualitycontracting.us/images/services/water-damage-restoration.webp",
+      "found_on": "https://www.qualitycontracting.us/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 96080,
+      "sha1": "305366ca8ee56d30",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician moisture-testing mold-damaged wall with drying equipment",
+      "quality": 85,
+      "slots": {
+        "hero": 50,
+        "team": 60,
+        "services": 90
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Excellent composition; air movers, dehumidifier, and branded van visible through window.",
+      "triaged_at": "2026-09-10T18:56:04Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:3cf6c627b7104e6e": {
+      "source": "website",
+      "storage": "site-assets/web/web-3cf6c627b7104e6e.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-3cf6c627b7104e6e.jpg",
+      "origin_url": "https://qualitycontracting.us/images/services/mold-remediation.webp",
+      "found_on": "https://www.qualitycontracting.us/services/mold-remediation/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 76122,
+      "sha1": "3cf6c627b7104e6e",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in full PPE vacuuming mold from wall inside containment",
+      "quality": 84,
+      "slots": {
+        "hero": 40,
+        "team": 62,
+        "services": 92
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Dramatic containment scene; face covered by respirator; branded air scrubber prominent.",
+      "triaged_at": "2026-09-10T18:56:04Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:3ee810701a87d73f": {
+      "source": "website",
+      "storage": "site-assets/web/web-3ee810701a87d73f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-3ee810701a87d73f.jpg",
+      "origin_url": "https://www.qualitycontracting.us/images/services/contents-restoration.webp",
+      "found_on": "https://www.qualitycontracting.us/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 79408,
+      "sha1": "3ee810701a87d73f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Uniformed technician wrapping contents item in bubble wrap",
+      "quality": 74,
+      "slots": {
+        "hero": 25,
+        "team": 55,
+        "services": 72
+      },
+      "service_slugs": [
+        "contents-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Face blurred; good service illustration but dark interior limits hero use.",
+      "triaged_at": "2026-09-10T18:56:04Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:4155ad5eade0cc59": {
+      "source": "website",
+      "storage": "site-assets/web/web-4155ad5eade0cc59.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-4155ad5eade0cc59.jpg",
+      "origin_url": "https://www.qualitycontracting.us/images/team.webp",
+      "found_on": "https://www.qualitycontracting.us/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 187020,
+      "sha1": "4155ad5eade0cc59",
+      "exif": {},
+      "category": "crew",
+      "subject": "Five uniformed crew members posed in front of two branded vans",
+      "quality": 88,
+      "slots": {
+        "hero": 72,
+        "team": 95,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Excellent team photo; clean uniforms, branded fleet, good light and composition.",
+      "triaged_at": "2026-09-10T18:56:04Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:5c648b9cb8d5d728": {
+      "source": "website",
+      "storage": "site-assets/web/web-5c648b9cb8d5d728.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-5c648b9cb8d5d728.jpg",
+      "origin_url": "https://www.qualitycontracting.us/images/services/emergency-board-up-tarping.webp",
+      "found_on": "https://www.qualitycontracting.us/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 155526,
+      "sha1": "5c648b9cb8d5d728",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Technician boarding up window at dusk with three branded vans",
+      "quality": 87,
+      "slots": {
+        "hero": 90,
+        "team": 45,
+        "services": 82
+      },
+      "service_slugs": [
+        "emergency-board-up-tarping",
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Cinematic dusk lighting, fleet on display, active emergency work; outstanding hero candidate.",
+      "triaged_at": "2026-09-10T18:56:04Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:6eb72424dd6ae09d": {
+      "source": "website",
+      "storage": "site-assets/web/web-6eb72424dd6ae09d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-6eb72424dd6ae09d.jpg",
+      "origin_url": "https://qualitycontracting.us/brand/hero.webp",
+      "found_on": "https://www.qualitycontracting.us/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 164084,
+      "sha1": "6eb72424dd6ae09d",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Three branded Quality Contracting vans parked outside office building",
+      "quality": 88,
+      "slots": {
+        "hero": 92,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "fire-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Excellent wide hero shot; clean, sharp, professional fleet lineup with real van signage.",
+      "triaged_at": "2026-09-10T18:56:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:9a8806b4ad70a59d": {
+      "source": "website",
+      "storage": "site-assets/web/web-9a8806b4ad70a59d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-9a8806b4ad70a59d.jpg",
+      "origin_url": "https://www.qualitycontracting.us/images/services/air-duct-cleaning.webp",
+      "found_on": "https://www.qualitycontracting.us/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 92452,
+      "sha1": "9a8806b4ad70a59d",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician cleaning ceiling air duct register with HEPA vacuum",
+      "quality": 84,
+      "slots": {
+        "hero": 35,
+        "team": 62,
+        "services": 88
+      },
+      "service_slugs": [
+        "air-duct-cleaning"
+      ],
+      "flags": [],
+      "reason": "Sharp action shot clearly depicting air duct cleaning service; strong services card image.",
+      "triaged_at": "2026-09-10T18:56:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:a2489d79fe860753": {
+      "source": "website",
+      "storage": "site-assets/web/web-a2489d79fe860753.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-a2489d79fe860753.jpg",
+      "origin_url": "https://www.qualitycontracting.us/images/services/crawl-space-encapsulation.webp",
+      "found_on": "https://www.qualitycontracting.us/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 117810,
+      "sha1": "a2489d79fe860753",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician installing vapor barrier sheeting in dark crawl space",
+      "quality": 78,
+      "slots": {
+        "hero": 25,
+        "team": 58,
+        "services": 82
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Well-composed, dramatic lighting; clearly depicts crawl space encapsulation work in progress.",
+      "triaged_at": "2026-09-10T18:56:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:c93929ec30bb23a6": {
+      "source": "website",
+      "storage": "site-assets/web/web-c93929ec30bb23a6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-c93929ec30bb23a6.jpg",
+      "origin_url": "https://www.qualitycontracting.us/images/services/biohazard-cleanup.webp",
+      "found_on": "https://www.qualitycontracting.us/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 57906,
+      "sha1": "c93929ec30bb23a6",
+      "exif": {},
+      "category": "crew",
+      "subject": "PPE-suited technician packing contents in containment-lined basement room",
+      "quality": 80,
+      "slots": {
+        "hero": 20,
+        "team": 60,
+        "services": 78
+      },
+      "service_slugs": [
+        "contents-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clean, sharp image; branded bin visible; reads clearly as contents handling in remediation context.",
+      "triaged_at": "2026-09-10T18:56:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:e68c57bc22d57180": {
+      "source": "website",
+      "storage": "site-assets/web/web-e68c57bc22d57180.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-e68c57bc22d57180.jpg",
+      "origin_url": "https://qualitycontracting.us/images/services/fire-damage-restoration.webp",
+      "found_on": "https://www.qualitycontracting.us/services/fire-damage-restoration/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 116146,
+      "sha1": "e68c57bc22d57180",
+      "exif": {},
+      "category": "crew",
+      "subject": "PPE-suited technician operating air scrubber in heavily fire-damaged room",
+      "quality": 85,
+      "slots": {
+        "hero": 28,
+        "team": 65,
+        "services": 90
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Dramatic, sharp, highly specific to fire restoration; strong services card; too dark for hero.",
+      "triaged_at": "2026-09-10T18:56:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:f380b6e1193b8383": {
+      "source": "website",
+      "storage": "site-assets/web/web-f380b6e1193b8383.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/site-assets/web/web-f380b6e1193b8383.jpg",
+      "origin_url": "https://www.qualitycontracting.us/images/services/storm-damage-restoration.webp",
+      "found_on": "https://www.qualitycontracting.us/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 345844,
+      "sha1": "f380b6e1193b8383",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Two branded vans outside storm-damaged home with worker tarping roof",
+      "quality": 86,
+      "slots": {
+        "hero": 80,
+        "team": 35,
+        "services": 85
+      },
+      "service_slugs": [
+        "emergency-board-up-tarping",
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Excellent storytelling image combining fleet, active job scene, and storm damage context.",
+      "triaged_at": "2026-09-10T18:56:25Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-05T06:39:56Z"
+  "triaged_at": "2026-09-10T18:56:25Z"
 }

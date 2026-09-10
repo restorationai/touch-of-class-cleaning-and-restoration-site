@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+fire damage restoration,transactional,110000,13,21.98,1,fire damage restoration,,,no
+fire damage restoration near me,transactional,18100,10,8.31,1,fire damage restoration,,,no
+fire and smoke damage restoration,transactional,720,12,48.01,1,fire damage restoration,,,no
+smoke damage cleanup,transactional,720,11,64.38,1,fire damage restoration,,,no
+smoke damage cleanup near me,transactional,320,16,30.41,1,fire damage restoration,,,no
+commercial fire damage restoration,transactional,260,0,,1,fire damage restoration,,,no
+fire clean up services near me,transactional,170,13,74.32,1,fire damage restoration,,,no
+residential fire damage restoration,transactional,140,11,,1,fire damage restoration,,,no
+house fire damage restoration,transactional,40,9,,2,fire damage restoration,,,no
+emergency fire damage restoration,transactional,40,,,2,fire damage restoration,,,no
+fire damage restoration charleston,transactional,20,,,2,fire damage restoration,Charleston,,no
+charleston fire damage restoration,transactional,,,,2,fire damage restoration,Charleston,,no
+emergency fire damage restoration charleston sc,transactional,,,,2,fire damage restoration,Charleston,,no
+smoke damage cleanup charleston sc,transactional,,,,2,fire damage restoration,Charleston,,no
+fire restoration company charleston sc,transactional,,,,2,fire damage restoration,Charleston,,no
+fire damage restoration mount pleasant sc,transactional,,,,2,fire damage restoration,Mount Pleasant,,no
+fire damage restoration north charleston sc,transactional,,,,2,fire damage restoration,North Charleston,,no
+fire damage restoration summerville sc,transactional,,,,2,fire damage restoration,Summerville,,no
+fire damage restoration james island sc,transactional,,,,2,fire damage restoration,James Island,,no
+fire damage restoration companies,commercial,2900,2,16.18,1,fire damage restoration,,,no
+fire restoration company,commercial,1900,2,47.01,1,fire damage restoration,,,no
+fire and water damage restoration,commercial,1300,29,31.29,1,fire damage restoration,,,no
+fire damage restoration cost,commercial,260,1,2.68,1,fire damage restoration,,,yes
+fire restoration cost per square foot,commercial,40,1,1.65,2,fire damage restoration,,,no
+soot removal cost,commercial,20,0,292.18,2,fire damage restoration,,,no
+how to get smoke smell out of house,informational,6600,,1.77,1,fire damage restoration,,,no
+does homeowners insurance cover fire damage,informational,260,30,,1,fire damage restoration,,,yes
+what to do after a house fire,informational,260,0,3.01,1,fire damage restoration,,,yes
+what to throw away after smoke damage,informational,210,0,8.48,1,fire damage restoration,,,yes
+how to clean smoke damage on walls and ceiling,informational,170,0,2.82,1,fire damage restoration,,,yes
+smoke damage insurance claim,informational,110,0,15.16,1,fire damage restoration,,,no
+fire damage restoration process,informational,50,14,134.65,1,fire damage restoration,,,no
+cleaning after fire smoke damage,informational,50,6,9.31,1,fire damage restoration,,,no
+smoke damage health risks,informational,20,41,,2,fire damage restoration,,,no
+debris removal after house fire,informational,20,4,8.8,2,fire damage restoration,,,no
+fire restoration checklist,informational,20,3,12.87,2,fire damage restoration,,,no
+what does a fire restoration company do,informational,20,0,,2,fire damage restoration,,,no
+how long does fire damage restoration take,informational,,,,2,fire damage restoration,,,no
+is smoke damage dangerous,informational,,,,2,fire damage restoration,,,no
+can you live in a house after a fire,informational,,,,2,fire damage restoration,,,no

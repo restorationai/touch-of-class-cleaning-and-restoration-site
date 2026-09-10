@@ -234,6 +234,192 @@
    ],
    "notes": "Commercial-intent money page (880/mo, KD 3). Price by the real drivers: water category 1-2-3, affected square footage, days of equipment, and whether drywall and flooring come out. Give honest ranges rather than a single number, and note that most jobs run through insurance so the homeowner's real number is the deductible.",
    "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-09-10-what-to-do-after-a-house-fire",
+   "status": "queued",
+   "queued_at": "2026-09-10T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what to do after a house fire",
+   "intent": "informational",
+   "volume": 260,
+   "kd": 0,
+   "fan_out_cluster": [
+    "fire restoration checklist",
+    "can you live in a house after a fire",
+    "debris removal after house fire",
+    "what does a fire restoration company do",
+    "fire damage restoration process",
+    "how long does fire damage restoration take"
+   ],
+   "suggested_slug": "what-to-do-after-a-house-fire",
+   "suggested_title": "What to do after a house fire in Charleston: the first 72 hours, step by step",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": "charleston-sc",
+   "external_authority_candidates": [
+    "https://www.usfa.fema.gov/downloads/pdf/publications/after-the-fire.pdf",
+    "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-fire.html"
+   ],
+   "notes": "KD 0 at 260/mo and the highest-emotion entry point in the seed family. Structure as a timed checklist (first hour, first day, first 72 hours) because that is the passage shape AI assistants lift. Sensitive topic: open with safety and the fire marshal's release, not with a sales pitch. Charleston angle: three damage types arrive together here (fire and heat, smoke and soot, and firefighting water), and in humid Lowcountry air that standing water starts growing mold inside 24 to 48 hours, so water extraction is part of fire recovery, not a separate job. Do not tell readers to enter before clearance.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-09-10-does-homeowners-insurance-cover-fire-damage",
+   "status": "queued",
+   "queued_at": "2026-09-10T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does homeowners insurance cover fire damage",
+   "intent": "informational",
+   "volume": 260,
+   "kd": 30,
+   "fan_out_cluster": [
+    "smoke damage insurance claim",
+    "fire damage restoration cost",
+    "what to throw away after smoke damage",
+    "additional living expenses fire claim",
+    "replacement cost vs actual cash value fire",
+    "assignment of benefits fire restoration"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+   "suggested_title": "Does homeowners insurance cover fire damage? What is covered, what is not, and how the claim works",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iii.org/article/what-does-homeowners-insurance-cover",
+    "https://www.naic.org/consumer_home.htm"
+   ],
+   "notes": "Decision-stage insurance query: readers are 24 to 48 hours from hiring someone. Cover the four coverage buckets (dwelling, other structures, contents, and Additional Living Expenses), then replacement cost versus actual cash value, then the exclusions people get surprised by (arson, vacancy clauses, and the fact that firefighting water damage IS covered as part of the fire loss). Explain Assignment of Benefits plainly and tell readers to understand what rights they sign away: the ChatGPT decomposition flagged AOB as a top homeowner question and a common red flag. Note that Paul Davis writes itemized Xactimate estimates and works directly with adjusters. Left city_anchor null on purpose: this is a national policy explainer and localizing it would read absurd.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-09-10-what-to-throw-away-after-smoke-damage",
+   "status": "queued",
+   "queued_at": "2026-09-10T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what to throw away after smoke damage",
+   "intent": "informational",
+   "volume": 210,
+   "kd": 0,
+   "fan_out_cluster": [
+    "is smoke damage dangerous",
+    "smoke damage health risks",
+    "are smoke damaged clothes dangerous",
+    "contents pack out after a fire",
+    "cleaning after fire smoke damage",
+    "smoke damage insurance claim"
+   ],
+   "suggested_slug": "what-to-throw-away-after-smoke-damage",
+   "suggested_title": "What to throw away after smoke damage in Charleston (and what can actually be saved)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": "charleston-sc",
+   "external_authority_candidates": [
+    "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods",
+    "https://www.epa.gov/indoor-air-quality-iaq"
+   ],
+   "notes": "KD 0 at 210/mo and the single most list-shaped query in the family, which makes it strong AI-retrieval fuel. Organise as keep-versus-discard by category: food and medication and cosmetics (always discard), porous soft goods, mattresses, electronics, and hard non-porous surfaces (usually cleanable). Critical claim-protection message: photograph and inventory everything BEFORE discarding, because an insurer will not reimburse what was never documented. Tie to contents pack-out and note that professional cleaning saves more than homeowners expect.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-09-10-fire-damage-restoration-cost",
+   "status": "queued",
+   "queued_at": "2026-09-10T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "fire damage restoration cost",
+   "intent": "commercial",
+   "volume": 260,
+   "kd": 1,
+   "fan_out_cluster": [
+    "fire restoration cost per square foot",
+    "how much does fire damage restoration cost",
+    "soot removal cost",
+    "smoke damage cleanup cost",
+    "house fire debris removal cost",
+    "does insurance pay for fire damage restoration"
+   ],
+   "suggested_slug": "fire-damage-restoration-cost",
+   "suggested_title": "Fire damage restoration cost: what Charleston homeowners actually pay in 2026",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "charleston-sc",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS700"
+   ],
+   "notes": "Commercial money page: 260/mo at KD 1, the easiest ranking win in the run. Price by the real drivers (affected square footage, soot type from protein versus synthetic versus wood smoke, whether framing and drywall come out, contents pack-out volume, and days of odor treatment) and give honest ranges rather than one number. Note that soot removal cost carries a 292 dollar CPC, so the cost cluster is where competitors are spending real ad money. Close on the point that most jobs run through insurance, so the homeowner's real number is the deductible plus any coverage gap.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-09-10-how-to-clean-smoke-damage-on-walls-and-ceiling",
+   "status": "queued",
+   "queued_at": "2026-09-10T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how to clean smoke damage on walls and ceiling",
+   "intent": "informational",
+   "volume": 170,
+   "kd": 0,
+   "fan_out_cluster": [
+    "how to clean smoke damage from walls",
+    "how to remove soot stains from walls",
+    "cleaning after fire smoke damage",
+    "how to get smoke smell out of house",
+    "smoke smell remediation",
+    "how to clean nicotine off walls before painting"
+   ],
+   "suggested_slug": "how-to-clean-smoke-damage-on-walls-and-ceiling",
+   "suggested_title": "How to clean smoke damage on walls and ceiling (and when painting over it makes things worse)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": "mount-pleasant-sc",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS700",
+    "https://www.epa.gov/indoor-air-quality-iaq"
+   ],
+   "notes": "KD 0 at 170/mo, DIY-flavoured so pivot on the triage test. Give the honest DIY path for light residue (dry soot sponge first, never wet, then a degreaser), then the hard limit: painting or sealing over soot without cleaning traps odor and it bleeds back through within weeks. Escalation triggers are protein smoke, soot in the HVAC returns, and odor that returns when the house warms up, all of which need thermal fogging or hydroxyl treatment rather than scrubbing. Anchored to Mount Pleasant to rotate the city coverage away from Charleston.",
+   "source": "keyword-researcher"
   }
  ]
 }
