@@ -45,5 +45,13 @@
     "last_audit_at": "2026-08-27T02:59:39Z",
     "last_audit_verdict": "red",
     "last_audit_report_path": "audit-runs/2026-08-27-onsite-audit.md"
+  },
+  "cutover_prep": {
+    "domain": "homelyft.net",
+    "harvested_at": "2026-09-11T14:10:45+00:00",
+    "url_count": 65,
+    "backlinked_count": 8,
+    "redirects_added": 61,
+    "mapped_at": "2026-09-11T14:10:55+00:00"
   }
 }
