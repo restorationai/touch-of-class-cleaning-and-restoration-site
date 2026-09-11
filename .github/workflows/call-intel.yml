@@ -1,0 +1,29 @@
+name: Call Intel (transcribe + analyze tracked calls)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+
+concurrency:
+  group: call-intel
+  cancel-in-progress: false
+
+jobs:
+  intel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet requests
+      - name: Transcribe + analyze new tracked calls
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          TWILIO_MASTER_ACCOUNT_SID: ${{ secrets.TWILIO_MASTER_ACCOUNT_SID }}
+          TWILIO_MASTER_AUTH_TOKEN:  ${{ secrets.TWILIO_MASTER_AUTH_TOKEN }}
+          OPENAI_API_KEY:            ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/call_intel.py

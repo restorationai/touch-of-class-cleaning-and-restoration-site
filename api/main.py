@@ -1895,6 +1895,20 @@ async def call_tracking_recording(company_id: str, request: Request):
                 {"recording_url": url + ".mp3"}).eq("call_sid", call_sid).execute()
         except Exception as e:  # noqa: BLE001
             print("[call-tracking] recording update failed:", str(e)[:120])
+        # Call intel (2026-09-10): kick the transcribe+analyze workflow so the
+        # drawer fills within ~a minute of hangup; the 30-min cron backstops.
+        gh_pat = os.environ.get("GH_PAT")
+        if gh_pat:
+            try:
+                import requests
+                requests.post(
+                    "https://api.github.com/repos/restorationai/Rank-AI-Pipeline/"
+                    "actions/workflows/call-intel.yml/dispatches",
+                    headers={"Authorization": f"Bearer {gh_pat}",
+                             "Accept": "application/vnd.github+json"},
+                    json={"ref": "main"}, timeout=15)
+            except Exception as e:  # noqa: BLE001
+                print("[call-tracking] intel dispatch failed:", str(e)[:100])
     return {"ok": True}
 
 
