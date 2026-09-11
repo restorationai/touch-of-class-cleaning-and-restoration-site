@@ -2139,6 +2139,21 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         "last_pushed_staging_at,apex_live&limit=1",
                         prefer="return=representation") or []
             _site = _site[0] if _site else {}
+            # apex_live AUTO-HEAL (Santino 2026-09-11: QCI + California
+            # Restoration West served our build for days with apex_live
+            # stuck false, so stages, previews and launch logic downstream
+            # all lied). `live` was computed above by _site_serves_us —
+            # that serve check IS the evidence; no click, no claim.
+            if live and not _site.get("apex_live"):
+                try:
+                    if not dry_run:
+                        _sb("PATCH", "/rest/v1/marketing_sites"
+                            f"?company_id=eq.{cid}", {"apex_live": True})
+                    _site["apex_live"] = True
+                    attention.append(f"{slug}: apex_live healed -> true "
+                                     "(domain serves our build)")
+                except Exception:  # noqa: BLE001 — heal must never kill the ledger
+                    pass
             # PERCEPTION WINDOW (Santino 2026-09-03, Kenny/Veterans pilot):
             # the reveal waits 7 days from the first staging push, so the
             # brand pass finishes and the build reads as crafted, not
@@ -2151,7 +2166,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 try:
                     _age = (_dtmod.date.today()
                             - _dtmod.date.fromisoformat(_staged)).days
-                    _in_window = _age < 7
+                    # keep in sync with client_concierge.PREVIEW_SOAK_DAYS
+                    _in_window = _age < 10
                 except ValueError:
                     pass
                 # Drip-aware (2026-09-04): the reveal waits for the LATER of
@@ -2170,9 +2186,9 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                  prefer="return=representation") or [])
                 if not _release:
                     attention.append(
-                        f"{slug}: site in the 7-day perception window "
+                        f"{slug}: site in the 10-day perception window "
                         f"(staged {_staged}) — preview reveal holds until "
-                        "day 7; note 'share now' to release early")
+                        "day 10; note 'share now' to release early")
             # pushed_main included 2026-09-11 (DryCor: a site pushed through
             # to the production pages.dev — but not cut over — sat with NO
             # preview reveal for 10 days because this gate only knew the
