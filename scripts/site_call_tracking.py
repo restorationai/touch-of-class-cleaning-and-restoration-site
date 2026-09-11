@@ -48,43 +48,20 @@ SB_URL = "https://nyscciinkhlutvqkgyvq.supabase.co"
 
 DNI_MARKER = "Dynamic Number Insertion"
 
-DNI_BLOCK = """    {brand.trackingPhone && brand.trackingPhoneRaw && (
-      /* Dynamic Number Insertion (2026-08-24): humans see + dial the
-         tracking number; the HTML source, JSON-LD schema, and cached/
-         crawled copies keep the canonical NAP number, so citations stay
-         consistent. Runs after DOM parse; skips script/style nodes so the
-         structured data is never rewritten. */
-      <script is:inline define:vars={{
-        tp: brand.trackingPhone, tpr: brand.trackingPhoneRaw,
-        op: brand.phone, opr: brand.phoneRaw,
-      }}>
-        (function () {
-          function swap() {
-            document.querySelectorAll('a[href^="tel:"]').forEach(function (a) {
-              var href = a.getAttribute("href") || "";
-              if (href.indexOf(opr) !== -1 || href === "tel:" + op) {
-                a.setAttribute("href", "tel:" + tpr);
-              }
-            });
-            var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
-            var hits = [];
-            while (walker.nextNode()) {
-              var n = walker.currentNode;
-              var tag = n.parentElement && n.parentElement.tagName;
-              if (tag === "SCRIPT" || tag === "STYLE") continue;
-              if (n.nodeValue && n.nodeValue.indexOf(op) !== -1) hits.push(n);
-            }
-            hits.forEach(function (n) {
-              n.nodeValue = n.nodeValue.split(op).join(tp);
-            });
-          }
-          if (document.readyState === "loading") {
-            document.addEventListener("DOMContentLoaded", swap);
-          } else swap();
-        })();
-      </script>
-    )}
-"""
+def _dni_block() -> str:
+    """The swap script comes from the TEMPLATE's BaseLayout (single source
+    of truth since the 2026-09-10 source-attribution upgrade) — this script
+    must never carry its own stale copy again."""
+    tpl = (ROOT / "templates" / "astro-starter" / "src" / "layouts"
+           / "BaseLayout.astro").read_text()
+    start = "    {brand.trackingPhone && brand.trackingPhoneRaw && ("
+    end = "      </script>\n    )}\n"
+    i = tpl.index(start)
+    j = tpl.index(end, i) + len(end)
+    return tpl[i:j]
+
+
+DNI_BLOCK = None  # resolved lazily via _dni_block()
 
 
 def die(msg: str) -> None:
@@ -171,9 +148,9 @@ def patch_site(slug: str, number: str, dry_run: bool,
         if "</body>" not in layout:
             print(f"  !! {slug}: </body> not found in BaseLayout — SKIP")
             return False
-        layout = layout.replace("  </body>", DNI_BLOCK + "  </body>", 1)
+        layout = layout.replace("  </body>", _dni_block() + "  </body>", 1)
         if DNI_MARKER not in layout:  # indentation variant
-            layout = layout_path.read_text().replace("</body>", DNI_BLOCK + "</body>", 1)
+            layout = layout_path.read_text().replace("</body>", _dni_block() + "</body>", 1)
         changed.append("BaseLayout.astro (DNI script)")
 
     print(f"  {slug}: tracking {disp} — " + (", ".join(changed) or "already wired"))

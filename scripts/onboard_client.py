@@ -389,6 +389,16 @@ def cmd_provision(args) -> int:
         sync_upload_links()
     except Exception as e:
         sys.stderr.write(f"    (Upload-link KV sync skipped: {str(e)[:160]})\n")
+
+    # Full call-tracking set is STANDARD for every new client (Santino
+    # 2026-09-10): website + gbp + all seven attribution channels + DNI map.
+    try:
+        import call_tracking
+        print("\n[+] Provisioning the full tracking-number set...")
+        for line in call_tracking.provision_all(slug):
+            print("   ", line)
+    except Exception as e:  # noqa: BLE001
+        sys.stderr.write(f"    (Call-tracking provisioning skipped: {str(e)[:160]})\n")
     return 0
 
 

@@ -131,6 +131,24 @@ def provision(slug: str, source: str) -> str:
     return out
 
 
+ALL_SOURCES = ("website", "gbp", "google_ads", "yelp", "chatgpt", "gemini",
+               "facebook", "instagram", "bing")
+
+
+def provision_all(slug: str) -> list[str]:
+    """The FULL tracking set for one client (standard for every new client,
+    Santino 2026-09-10): website + gbp + the seven attribution channels,
+    then publish the site DNI map. Idempotent per source."""
+    out = [provision(slug, s) for s in ALL_SOURCES]
+    try:
+        import dni_sync
+        dni_sync.sync(slug)
+        out.append(f"{slug}: DNI map published")
+    except Exception as e:  # noqa: BLE001
+        out.append(f"{slug}: DNI map publish failed: {str(e)[:80]}")
+    return out
+
+
 def verify_forwarding(cid: str, source: str = "gbp") -> bool:
     """POST the number's live TwiML route and confirm it dials the client's
     real line (companies.phone). The automated replacement for the old
@@ -167,12 +185,17 @@ def main() -> int:
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("provision")
     p.add_argument("--slug", required=True)
-    p.add_argument("--source", choices=["gbp", "website"], required=True)
+    p.add_argument("--source", choices=list(ALL_SOURCES), required=True)
+    pa = sub.add_parser("provision-all")
+    pa.add_argument("--slug", required=True)
     l_ = sub.add_parser("list")
     l_.add_argument("--slug", required=True)
     a = ap.parse_args()
     if a.cmd == "provision":
         print(provision(a.slug, a.source))
+    elif a.cmd == "provision-all":
+        for line in provision_all(a.slug):
+            print(line)
     else:
         print(list_numbers(a.slug))
     return 0
