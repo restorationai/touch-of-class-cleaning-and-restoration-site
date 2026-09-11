@@ -3,7 +3,8 @@ import { brand } from "~/lib/brand";
 import { getCollection } from "astro:content";
 
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
-const services = (await getCollection("services")).sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
+import { visibleServices } from "../lib/suppressedServices";
+const services = visibleServices(await getCollection("services")).sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
 const areas = (await getCollection("serviceAreas")).sort((a, b) => Number(b.data.primary) - Number(a.data.primary));
 const year = new Date().getFullYear();
 ---

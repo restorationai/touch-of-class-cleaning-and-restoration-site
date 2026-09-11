@@ -1,4 +1,5 @@
 ---
+import { visibleServices, SUPPRESSED_SERVICE_SLUGS } from "../lib/suppressedServices";
 import { getCollection } from "astro:content";
 
 type Props = { paths?: string[]; heading?: string; eyebrow?: string };
@@ -6,7 +7,7 @@ const { paths = [], heading = "Related", eyebrow = "Keep Exploring" } = Astro.pr
 
 const [pages, services, serviceAreas, locations, blog, legal] = await Promise.all([
   getCollection("pages"),
-  getCollection("services"),
+  getCollection("services").then(visibleServices),
   getCollection("serviceAreas"),
   getCollection("locations"),
   getCollection("blog"),
@@ -37,7 +38,13 @@ function pathFallback(p: string): string {
     .join(" › ");
 }
 
-const linked = paths.map((p) => ({ path: p, label: lookup.get(p) || pathFallback(p) }));
+// Suppressed mitigation paths never render as links, whatever page fed
+// them in (Rob 2026-09-11) — the pages exist, the links do not.
+const suppressedPath = (p: string) =>
+  [...SUPPRESSED_SERVICE_SLUGS].some((s) => p.includes(`/${s}/`));
+const linked = paths
+  .filter((p) => !suppressedPath(p))
+  .map((p) => ({ path: p, label: lookup.get(p) || pathFallback(p) }));
 ---
 
 {linked.length > 0 && (

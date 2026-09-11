@@ -1,4 +1,5 @@
 ---
+import { visibleServices } from "~/lib/suppressedServices";
 import { getEntry, getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import CtaBanner from "~/components/CtaBanner.astro";
@@ -25,7 +26,7 @@ const data = entry.data;
 const heroImage = data.hero || "/images/hero-bg.webp";
 
 // Pull top 6 services by priority for the home page strip
-const allServices = await getCollection("services");
+const allServices = visibleServices(await getCollection("services"));
 const services = (allServices as CollectionEntry<"services">[])
   .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0))
   .slice(0, 6);

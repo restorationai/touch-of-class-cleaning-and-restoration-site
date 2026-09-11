@@ -1,4 +1,5 @@
 ---
+import { visibleServices } from '~/lib/suppressedServices';
 /**
  * Services hub grid — visual card index of ALL services, rendered above the
  * prose on /services/. Each card (image + name + one-line descriptor) is a
@@ -10,7 +11,7 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import { brand } from '~/lib/brand';
 import { serviceImage, srcsetFor } from '~/lib/images';
 
-const all = (await getCollection('services')) as CollectionEntry<'services'>[];
+const all = visibleServices(await getCollection('services')) as CollectionEntry<'services'>[];
 const services = all.sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
 
 /** First sentence of the meta description, minus any trailing "Call ..." CTA. */
