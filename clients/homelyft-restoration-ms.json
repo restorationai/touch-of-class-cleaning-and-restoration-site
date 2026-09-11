@@ -5,7 +5,7 @@
   "tier": "standard",
   "vertical": "restoration",
   "contact": "terry@homelyft.net",
-  "status": "onboarding",
+  "status": "active",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -13,7 +13,7 @@
     "url_count": 702,
     "generated_at": "2026-08-10T10:44:08.030777+00:00"
   },
-  "updated_at": "2026-09-11T14:43:17+00:00",
+  "updated_at": "2026-09-11T14:43:31+00:00",
   "build": {
     "scaffolded_at": "2026-08-01T20:18:36.299156+00:00",
     "github_repo": "restorationai/homelyft-restoration-ms-site",
@@ -68,5 +68,13 @@
     "legacy_origin": "104.21.95.245",
     "completed_at": "2026-09-11T14:43:17+00:00"
   },
-  "cut_over_at": "2026-09-11T14:43:17+00:00"
+  "cut_over_at": "2026-09-11T14:43:17+00:00",
+  "cloudflare": {
+    "zone_id": "12171c1f0bc08610a1602ecece6a476f"
+  },
+  "gsc": {
+    "property_url": "sc-domain:homelyft.net",
+    "verified_at": "2026-09-11T14:43:31+00:00",
+    "sitemap_url": "https://homelyft.net/sitemap-index.xml"
+  }
 }
