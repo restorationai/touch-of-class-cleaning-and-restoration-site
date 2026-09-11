@@ -1,0 +1,152 @@
+{
+ "domain": "homelyft.net",
+ "captured_at": "2026-09-11T14:24:14+00:00",
+ "authoritative": {
+  "ns": [
+   "ns55.domaincontrol.com",
+   "ns56.domaincontrol.com"
+  ],
+  "mx": [
+   {
+    "priority": 10,
+    "exchange": "alt4.aspmx.l.google.com"
+   },
+   {
+    "priority": 5,
+    "exchange": "alt1.aspmx.l.google.com"
+   },
+   {
+    "priority": 5,
+    "exchange": "alt2.aspmx.l.google.com"
+   },
+   {
+    "priority": 1,
+    "exchange": "aspmx.l.google.com"
+   },
+   {
+    "priority": 10,
+    "exchange": "alt3.aspmx.l.google.com"
+   }
+  ],
+  "apex_txt": [
+   "google-site-verification=u_1GNOGFJfttLUUclKDYT7KQtNmQaxMPZtx2qmhxaQQ",
+   "v=spf1 include:_spf.google.com include:sendgrid.net -all",
+   "MS=ms96326546",
+   "Pj9K0vD@dQmJnZk"
+  ],
+  "dmarc_txt": [
+   "v=DMARC1; p=none;"
+  ],
+  "dkim": {
+   "default": {
+    "txt": [
+     "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvtWAdU7M3triP/wLNqQ9GAzvIeNUyDCIRH9OAwsA7e6bQOFI8R0vtjCb0f7x2ukeAGvFBtmD0fq3SagMPOsh55PIxza4CqxXUIH9KAS5U88U1EnjxW9wcBMREuDuZe2dN77HTJXPP28ELKh+ZBOxqCcP2f7vOMi5/HinKYG+U9lYccVMi7b79A+oGvOYuDFwn JsP7p/+E3Y339RafELIxY/l0ATMR14xgbShJi+SadqHPHIWCnaCimt17FWk+eJxy/Jm4P30nS0MOvANwQtyaFIW7pHVvyKl4lld08LMaeQezrny7IfqtpJU8ouUbaq3wVAqUbyfyrzvBZb3e2uV4wIDAQAB;"
+    ]
+   }
+  },
+  "apex_a": [
+   "198.202.211.1"
+  ],
+  "apex_cname": [],
+  "www_cname": [
+   "cdn.webflow.com"
+  ]
+ },
+ "cf_zone": {
+  "zone_id": "12171c1f0bc08610a1602ecece6a476f",
+  "name_servers": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
+  "records": [
+   {
+    "id": "dce6f782a862286a54d8e6137fb2df5d",
+    "type": "MX",
+    "name": "homelyft.net",
+    "content": "aspmx.l.google.com",
+    "priority": 1,
+    "proxied": false
+   },
+   {
+    "id": "852f73fd253ef1fd5fa9e366f191dc11",
+    "type": "MX",
+    "name": "homelyft.net",
+    "content": "alt3.aspmx.l.google.com",
+    "priority": 10,
+    "proxied": false
+   },
+   {
+    "id": "21c21530109de9f960497a1224bdb23a",
+    "type": "MX",
+    "name": "homelyft.net",
+    "content": "alt2.aspmx.l.google.com",
+    "priority": 5,
+    "proxied": false
+   },
+   {
+    "id": "632e913bcbe83990f75162c5b2641ae6",
+    "type": "MX",
+    "name": "homelyft.net",
+    "content": "alt4.aspmx.l.google.com",
+    "priority": 10,
+    "proxied": false
+   },
+   {
+    "id": "8357b4f784360537dcdb8ce28c7efec3",
+    "type": "MX",
+    "name": "homelyft.net",
+    "content": "alt1.aspmx.l.google.com",
+    "priority": 5,
+    "proxied": false
+   },
+   {
+    "id": "e41bdd55e68b20eb4ab3672e5107d2ec",
+    "type": "TXT",
+    "name": "default._domainkey.homelyft.net",
+    "content": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvtWAdU7M3triP/wLNqQ9GAzvIeNUyDCIRH9OAwsA7e6bQOFI8R0vtjCb0f7x2ukeAGvFBtmD0fq3SagMPOsh55PIxza4CqxXUIH9KAS5U88U1EnjxW9wcBMREuDuZe2dN77HTJXPP28ELKh+ZBOxqCcP2f7vOMi5/HinKYG+U9lYccVMi7b79A+oGvOYuDFwn JsP7p/+E3Y339RafELIxY/l0ATMR14xgbShJi+SadqHPHIWCnaCimt17FWk+eJxy/Jm4P30nS0MOvANwQtyaFIW7pHVvyKl4lld08LMaeQezrny7IfqtpJU8ouUbaq3wVAqUbyfyrzvBZb3e2uV4wIDAQAB;",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "17c9b85b0cdcf23abf01a3d9bf9f8792",
+    "type": "TXT",
+    "name": "_dmarc.homelyft.net",
+    "content": "v=DMARC1; p=none;",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "9490e28f61cf33f38b51132a6b65fe07",
+    "type": "TXT",
+    "name": "homelyft.net",
+    "content": "google-site-verification=u_1GNOGFJfttLUUclKDYT7KQtNmQaxMPZtx2qmhxaQQ",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "df906207839b8d7c9e14b660fb737118",
+    "type": "TXT",
+    "name": "homelyft.net",
+    "content": "MS=ms96326546",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "ce80973c09d09de6b3ae3ab1829414a2",
+    "type": "TXT",
+    "name": "homelyft.net",
+    "content": "v=spf1 include:_spf.google.com include:sendgrid.net -all",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "068d48a619040e9629518652057ba83c",
+    "type": "TXT",
+    "name": "homelyft.net",
+    "content": "Pj9K0vD@dQmJnZk",
+    "priority": null,
+    "proxied": false
+   }
+  ]
+ }
+}
