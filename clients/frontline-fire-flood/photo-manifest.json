@@ -1,6 +1,34 @@
 {
   "slug": "frontline-fire-flood",
   "assets": {
+    "crew:1789166182209-173c6d2f": {
+      "source": "crew",
+      "storage": "job-photos/1789166182209-173c6d2f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789166182209-173c6d2f.jpg",
+      "width": 1660,
+      "height": 300,
+      "bytes": 69904,
+      "sha1": "f02f699b6c0acbb4",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Screenshot of company website homepage with phone number circled",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot",
+        "text_overlay",
+        "phone_number",
+        "logo_card"
+      ],
+      "reason": "Browser screenshot with red circles drawn over phone numbers; no photographic content.",
+      "triaged_at": "2026-09-11T22:46:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM127XuHtOfp1i2v_S4-QJkcygQftikJn9pE9xQ": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM127XuHtOfp1i2v_S4-QJkcygQftikJn9pE9xQ.jpg",
@@ -770,5 +798,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-01T23:16:35Z"
+  "triaged_at": "2026-09-11T22:46:33Z"
 }
