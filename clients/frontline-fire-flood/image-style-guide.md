@@ -1,5 +1,22 @@
 # Frontline Fire & Flood: Image Style Guide
 
+<!-- ============================ CLIENT DIRECTION ============================ -->
+<!-- Non-negotiable client corrections. This block reaches the generator (head  -->
+<!-- above the first `---`). Keep it tight.                                      -->
+
+## CLIENT DIRECTION
+
+**1. Vehicles MUST match Frontline's REAL van — the orange-and-blue wrap, not white. (Jared, 2026-09-11)**
+Client said, verbatim: *"Also the pictures of the vans are pretty far from what we actually have."*
+The real fleet is documented — use it as the source of truth for every vehicle in every image.
+
+LIVERY-REFERENCE: harvested/real-van-promaster.jpg
+
+VAN-OVERRIDE: a fleet of exactly THREE matching Ram ProMaster high-roof cargo vans (rounded modern Euro-style cargo body, NOT a boxy Ford Transit), each wrapped IDENTICALLY in the livery of the reference image — a bold two-tone wrap that is vivid ORANGE across the front third of the body and transitions to deep ROYAL BLUE across the rear two-thirds, carrying the stylized blue-and-orange "F" shield mark and the "FRONTLINE FIRE & FLOOD" wordmark on the side panel exactly as shown in the reference. Every van faces the SAME direction and is shot from the same side so the wrap reads identically across all three. The ONLY lettering allowed is the "FRONTLINE FIRE & FLOOD" wordmark and the F shield — NO readable phone numbers, NO website URL, NO license number anywhere on the wrap (these garble; leave them off entirely).
+
+**AUTOMATIC REJECT:** white vans, a thin accent stripe on a white body, a Ford-Transit-style boxy body, or any wrap that is not the orange-front-to-blue-rear ProMaster livery of the reference image. The current white-Transit hero is exactly what the client rejected.
+<!-- ========================== END CLIENT DIRECTION ========================== -->
+
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
