@@ -1317,8 +1317,27 @@ def cmd_status(slug: str) -> int:
         if not domain:
             ph["email"] = {"ready": False, "detail": "no domain"}
         elif not snap:
-            ph["email"] = {"ready": False,
-                           "detail": "DNS snapshot not captured yet (launch captures it)"}
+            # Snapshot file missing does NOT mean email is unstaged: the app's
+            # provision runs on Railway, whose filesystem resets on every
+            # deploy (HomeLyft 2026-09-11 — the chip flipped red while all 11
+            # records sat safely in the zone). The ZONE is the truth: staged
+            # MX there means email is safe.
+            if zone:
+                try:
+                    zmx = [r for r in zone_records(zone["id"])
+                           if r.get("type") == "MX"
+                           and strip_dot(r.get("name", "")) == domain]
+                    ph["email"] = {"ready": len(zmx) > 0, "snapshot": False,
+                                   "mx_count": len(zmx),
+                                   "detail": (f"{len(zmx)} MX record(s) staged in zone"
+                                              if zmx else
+                                              "zone exists but MX not staged — run provision")}
+                except Exception as e:
+                    ph["email"] = {"ready": False,
+                                   "detail": f"zone records unreadable: {str(e)[:120]}"}
+            else:
+                ph["email"] = {"ready": False,
+                               "detail": "DNS snapshot not captured yet (launch captures it)"}
         else:
             outside_mx = (snap.get("authoritative") or {}).get("mx") or []
             if not zone:
