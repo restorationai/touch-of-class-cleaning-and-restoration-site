@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "id": "2026-09-11-who-to-call-for-water-damage-restoration-in-gulfport-ms",
+      "status": "written",
+      "queued_at": "2026-09-11T10:28:12Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-water-damage-restoration-in-gulfport-ms",
+      "primary_keyword": "who to call for water damage restoration in Gulfport, MS",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "gulfport-ms",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Gulfport",
+        "state": "MS",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for water damage restoration Gulfport",
+        "who do I call for water damage restoration in Gulfport",
+        "water damage restoration emergency number Gulfport MS",
+        "water damage cleanup Gulfport",
+        "water damage repair Gulfport",
+        "water cleanup Gulfport"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-11T10:30:00Z",
+      "post_url": "https://None/blog/who-to-call-for-water-damage-restoration-in-gulfport-ms/"
+    },
+    {
       "id": "2026-09-06-roofing",
       "status": "queued",
       "queued_at": "2026-09-06T10:23:57Z",
