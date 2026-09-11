@@ -22,8 +22,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from client_ops_sync import _sb, slug_map  # noqa: E402
 
 KV_NS = "404d46bf0c72404495ab66d15157c499"  # 'upload-links'
-PUBLIC_SOURCES = ("google_ads", "yelp", "chatgpt", "gemini", "facebook",
-                  "instagram", "bing")
+PUBLIC_SOURCES = ("google_ads", "meta_ads", "yelp", "chatgpt", "gemini",
+                  "facebook", "instagram", "bing")
 
 
 def _fmt(num: str) -> str:

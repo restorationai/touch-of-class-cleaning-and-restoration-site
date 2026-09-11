@@ -131,8 +131,13 @@ def provision(slug: str, source: str) -> str:
     return out
 
 
+# facebook/instagram dropped from the standard set 2026-09-11 (Santino):
+# organic-social numbers never earned real calls fleet-wide and the monthly
+# spend wasn't justified; existing ones were released the same day (RT Olson
+# keeps his — BDA actively works Meta there). "meta_ads" exists as an
+# on-demand source for clients running paid Meta (provision explicitly).
 ALL_SOURCES = ("website", "gbp", "google_ads", "yelp", "chatgpt", "gemini",
-               "facebook", "instagram", "bing")
+               "bing")
 
 
 def provision_all(slug: str) -> list[str]:
