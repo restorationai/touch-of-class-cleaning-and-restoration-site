@@ -1953,6 +1953,22 @@ def cmd_scaffold(args) -> int:
         # In-memory only — plan-input.json on disk stays as intake wrote it.
         # An explicit brand.logo_url still wins.
         brand_block.setdefault("logo_url", f"/images/{pulled_logo}")
+        # CURATED-LOGO GUARD (DryCor 2026-09-11: a hand-tuned horizontal
+        # header logo from the client's brand kit was clobbered by the raw
+        # bucket file on re-scaffold). A logo already COMMITTED for this
+        # site is curated truth — the bucket pull only stands when the repo
+        # has no version of its own.
+        try:
+            committed = subprocess.run(
+                ["git", "show", f"HEAD:sites/{slug}/public/images/{pulled_logo}"],
+                capture_output=True, cwd=REPO_ROOT).stdout
+            _cur = SITES_DIR / slug / "public" / "images" / pulled_logo
+            if committed and _cur.exists() and _cur.read_bytes() != committed:
+                _cur.write_bytes(committed)
+                print("      logo: kept the curated committed version "
+                      "(bucket file differs)")
+        except Exception:  # noqa: BLE001 — guard must never kill a scaffold
+            pass
         print(f"      logo: pulled from branding bucket -> public/images/{pulled_logo} "
               f"(logoUrl {brand_block['logo_url']})")
         # Auto-palette (2026-09-04): no colors anywhere -> read them off the
