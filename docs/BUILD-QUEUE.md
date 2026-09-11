@@ -1,100 +1,66 @@
-# Rank AI Build Queue — canonical reference
+# Rank AI — Build Queue
 
-Updated 2026-08-20. One client-facing lane + one internal lane at a time.
-Current position and deeper context: docs/WORKING-STATE.md.
+Canonical priority list. Updated 2026-09-11 (post attribution-suite +
+call-intel + fleet-DNI night). Keep this file current when items ship or
+reprioritize; the session todo mirrors it, this file is the durable truth.
 
-## Up next (agreed order)
+## Priority builds
 
-1. ~~**Fran's ten website changes**~~ **DONE 08-20** — all ten shipped + verified on
-   staging preview (commit 195e3e42); PAY HERE ported verbatim from
-   qualitycontracting.us (no ask needed); domain recorded + https://None healed;
-   reply draft at clients/quality-contracting-inc/fran-reply-draft.md awaiting
-   Santino's send. Remaining: Fran's nod -> WE flip Hostmonster NS (email-safe
-   cutover; creds held; nothing needed from him).
-2. **Monica email evolution** (internal lane, in stages):
-   a. ~~Video-verification rule~~ DONE 08-20 (contract rule + message-level guard +
-      selfcheck; deployed to both Railway services).
-   b. ~~Sender map~~ DONE 08-20: is_internal_sender() — any GHL row bearing a
-      userId is OURS whatever its direction field says (external-mailbox sends
-      sync back as "inbound" WITH the workspace userId; verified on Bobby's
-      live thread). Wired into fetch_inbound_since (webhook+poll never answer
-      Santino) + fetch_history ('us-human' transcript label, legends updated);
-      9 selfcheck cases; deployed to both Railway services.
-   c. Second mailbox OAuth: contact@getrestorationai.com into email intake
-      (needs Santino's one sign-in; batch with the Bing re-login sitting).
-   d. ~~Reply-in-channel~~ DONE 08-20: owed_reply_channel() upgrades compose +
-      send_now to email when answering an email; inline replies + acks already
-      channel-aware; GHL emailReplyMode=reply threading with Re: fallback.
-   e. ~~Upload acks + ledger~~ DONE 08-20: pg_cron upload-event-sweep (10 min)
-      -> Railway /upload-event -> ONE deterministic thank-you per burst (all
-      send gates; hours-held bursts retry; system artifacts never ack);
-      work_log received rows; upload_stranded_check flags pinned upload rows
-      planned 72h+ (FIRST RUN: 9 stranded logos, 7-31 days — cards filed).
-   f. Pilot watch on Bobby + Fran (2d threading on their next email) before
-      calling the email evolution done.
-3. **Citations program**: tracker table + Build Stages popup SHIPPED 08-21
-   (citation_listings, 33 seed rows + 24 discovered socials; popup v10.1 names
-   every missing platform, wrong_data rows carry corrections — Reign pilot;
-   MERGED TO PROD 08-21 incl. Social Profiles card on Connect). REMAINING:
-   3-per-night creation rotation + per-directory backoff + failure-streak
-   watchdog (parked per Santino) + Bing re-login (Santino).
-4. **Social discovery**: data pass DONE 08-21 (site-footer crawl, 24 profiles
-   found across 15 clients, social_state=found rows). REMAINING: web-search
-   pass for the 7 clients with no crawlable site, Monica confirm-asks,
-   GSC-sync browser playbook (supervised).
-5. **Apple Maps run 2** (rides any night): verify the 3 in-review listings publish,
-   create Crew using his GOOGLE LISTING address verbatim (Santino's call, zip debate
-   closed), keep watching for Apple's API-access decision email (request submitted
-   in-portal during run 1).
+1. **Monica calendar-awareness + booking** — third confirm-without-verify
+   incident this week (Fran 11am EST). Build: next-48h booked-slots FACT in
+   compose, real GHL booking action (free-slots API, assigned to Santino,
+   6-hour minimum notice hard floor), and a claim guard: no draft may
+   confirm a specific meeting time without a booking id behind it.
+   Plumbing proven (appointment API works; calendar allowBookingAfter set
+   to 6 hours on Live Support 2026-09-11 — NOTE: was 3 days; public
+   booking link loosened too, revisit if unwanted).
+2. **Fleet attribution follow-through** — watch first live source-tagged
+   calls/leads; follow-up email to Miguel/Icatch with RT Olson channel
+   data after a few days; Bobby gets the same proof.
+3. **Railway git checkout** — the app's "Push site to production"
+   (site_push_main) needs a real git clone on the Railway service (no .git
+   in /app today). Also fixes cutover stamp commits + enables full
+   launches with zero pipeline-machine involvement. Include agency GSC
+   token + googleapiclient in the Railway image while in there.
+4. **Repiping default-on** in plumbing plan selection (template already
+   carries the service; plan step should include it for every plumber).
+5. **TDI www cutover** — waiting on Robert Carpenter adding the www CNAME
+   at Liquid Web; then attach www custom domain + apex redirect; test
+   HTTPS apex redirect (if Liquid Web redirect is HTTP-only, revisit the
+   own-Cloudflare-account option).
+6. **Tony/Coastal linktree page** — small branded links page (Call /
+   Website / Leave a Review), then flip qr:coastal KV target to it.
+7. **Missed-opportunity alerts** — call-intel now labels
+   missed_opportunity / callback_needed; surface to clients (SMS or ops
+   card) + fold outcome data into monthly reports.
+8. **Xtreme Clean tracking decision** — no-NAP client; decide tracking
+   approach.
+9. **DISS launch** — Wix EPP code from Santino → transfer to Cloudflare;
+   site carries DNI already (empty tracking fields filled at provision).
+10. **Yelp-listing tracking numbers** — request via Yelp rep (Tim/Icatch
+    confirmed the backend-coded pattern keeps NAP safe); shortlist
+    Yelp-heavy clients; RT Olson first when Yelp Biz access is handy.
 
-## Needs Santino (minutes, batch in one sitting)
+## Standing watches
 
-- OAuth sign-in as contact@getrestorationai.com (queue 2c)
-- Bing Places re-login in the agent browser window (queue 3)
-- GSC social-channel clicks per property once discovery fills the worksheet
-  (docs/gsc-social-connections.md)
-- Send the Bobby email draft (GoDaddy delegate-access version) + Fran reply
-  (clients/quality-contracting-inc/fran-reply-draft.md — ready, per-item rundown)
-- Decisions pending: BrightLocal spend yes/no; billing-alert escalation yes/no
+- PuroClean day-7 search-term review (2026-09-15)
+- DIS toll-free verification approval
+- Frontline: Monica's site-live announcement + EIN-CONFIRM ask land on her
+  9:07am PT run; resubmit chain is automatic once the client replies
+- Mac Mini runs (git-synced inbox)
+- Dry Bros + ACS (aldredo-moreno) get DNI at first deploy automatically
+  (code committed, sites pre-staging)
 
-## Backlog (not yet scheduled)
+## Recently shipped (context)
 
-- MMS ingest gap — texted photos auto-filed with doc-context routing (Jack case)
-- Crew's image bucket — images.crew3r.com never provisioned
-- Imagery remainder — no-image stage gate; CLIENT DIRECTION from real photos;
-  auto-redact text/phone from livery references
-- SMS exact-cost billing — Twilio true per-text prices onto invoices
-- Reviews tab editor — view/edit the four campaign messages in-app
-- Services as Products — browser agent adds product tiles to GBPs (supervised)
-- Post-meeting recap messenger — auto recaps after sales/kickoff calls
-- Access verification pass — verify claimed domain access before green chips
-  (Life Savers "ns_live" stale) + same-day GoDaddy invite-acceptance alerts
-- Multi-location profile creator — Sioux City (waits on Iowa DBA watcher + Kyle)
-- Visual sitemap generator — per-client Figma-style map for reveals/sales decks
-- YouTube buildout — question-videos + shorts cuts + owner-avatar pilot (Kyle)
-- Review-photo truck composite for Bobby (photos received; ready to run)
-- App polish — Today-tab filter, Ops Attention triage, LSA "Ready" persistence
-- Diagnosis agent — parked by Santino
-- Yelp claiming playbook — ON ICE (needs code-relay loop + scheduled windows;
-  phase 0 when thawed = Monica collects existing Yelp logins)
-
-## SEO queue (from the gap analysis; remaining)
-
-- Small batch leftovers: none — review-card QR wording, GBP deep links, 3rd weekly
-  post slot, GSC worksheet all shipped 08-19/20
-- BrightLocal long-tail citations — Santino yes/no
-- AREA_DEMAND follow-ups from wrong-page-ranks reports (e.g., Home Pride's
-  Marion/Kamas/Hoytsville UT expansion ring) — fold into ring updates per client
-
-## Recently DONE (compressed; see WORKING-STATE.md for detail)
-
-08-18/19/20: home-city fix fleet-wide; Monica quiet-window + userId human detection
-+ call-promise reversal + California fact; RT Olson 124-page build + hero form +
-real photos; Dry County image revamp; safety trilogy (repo guard, scaffold product
-guard, mid-build stall alarm); area-page FAQPage schema fleet-wide; wrong-page-ranks
-monthly check (+AREA_DEMAND); GBP 3x/week + deep links; hub QR wording + self-hosted
-QR + before/after Job Story fields; plumbing render prompts + vertical overlay;
-scheduler heartbeat (retired zombie billing job); intake auto-satisfy (brand-kit);
-citations wrong-business cleanup; uploads gallery in app; Robert's logo incorporated;
-QCI verification timeline established (Google email 4h after connect — do not blame
-the client, do not claim innocence).
+- Source-attribution suite fleet-wide: 9 numbers/client (196 verified
+  routes), DNI edge maps, form attribution, per-submission Website Leads,
+  channel-filtered Calls tab
+- Call intelligence: Whisper diarized transcripts (dual-channel split) +
+  Haiku analysis on every recorded call, receptionist-style drawer, CSV
+  exports, unified outcome column
+- provision-all standard in onboarding; template-sourced DNI block
+- Tollfree EIN rejections route to Monica (ask/confirm -> capture ->
+  auto-resubmit with ladder reset)
+- Monica: vision credential capture; apex-live probe self-healing;
+  cutover panel provision-only job; Frontline launched end-to-end
