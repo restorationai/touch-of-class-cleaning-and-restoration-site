@@ -52,7 +52,19 @@ from client_concierge import (  # noqa: E402
 )
 
 TOKEN_PATH = Path.home() / ".config" / "rankai" / "gmail_token.json"
+GETREST_TOKEN_PATH = (Path.home() / ".config" / "rankai"
+                      / "gmail_token_getrestorationai.json")
 INTAKE_ALIAS = "setup@restorationai.io"
+# Both agency mailboxes get the full intake + Monica-reply treatment
+# (2026-09-11: Angie's site-change email to the getrest inbox was ingested
+# but never answered because only the .io mailbox was polled). Replies go
+# out from whichever address the client wrote to.
+ACCOUNTS = {
+    "main": {"env": "GMAIL_TOKEN_JSON", "path": TOKEN_PATH,
+             "addr": "contact@restorationai.io", "setup_alias": INTAKE_ALIAS},
+    "getrest": {"env": "GMAIL_TOKEN_JSON_GETREST", "path": GETREST_TOKEN_PATH,
+                "addr": "contact@getrestorationai.com", "setup_alias": None},
+}
 PROCESSED_LABEL = "concierge-processed"
 GMAIL = "https://gmail.googleapis.com/gmail/v1/users/me"
 SCOPE = "https://www.googleapis.com/auth/gmail.modify"
@@ -121,15 +133,16 @@ def cmd_auth(_args) -> int:
     return 0
 
 
-def access_token() -> str:
-    env_tok = os.environ.get("GMAIL_TOKEN_JSON", "").strip()
+def access_token(account: str = "main") -> str:
+    acc = ACCOUNTS[account]
+    env_tok = os.environ.get(acc["env"], "").strip()
     if env_tok:
         saved = json.loads(env_tok)
-    elif TOKEN_PATH.exists():
-        saved = json.loads(TOKEN_PATH.read_text())
+    elif acc["path"].exists():
+        saved = json.loads(acc["path"].read_text())
     else:
-        sys.exit(f"No GMAIL_TOKEN_JSON env and no token at {TOKEN_PATH} — "
-                 "run: email_intake.py auth")
+        raise RuntimeError(f"no {acc['env']} env and no token at {acc['path']}"
+                           " — run: email_intake.py auth")
     tok = _http("https://oauth2.googleapis.com/token",
                 data=urllib.parse.urlencode({
                     "refresh_token": saved["refresh_token"],
@@ -423,18 +436,34 @@ def _capture_ein_from_email(cid: str, subject: str, body: str,
 
 def cmd_poll(args) -> int:
     dry_run = not args.send
-    tok = access_token()
+    companies: dict | None = None
+    for account in ACCOUNTS:
+        try:
+            tok = access_token(account)
+        except Exception as e:  # noqa: BLE001 — one mailbox down must not block the other
+            print(f"({account} mailbox skipped: {str(e)[:120]})")
+            continue
+        companies = _poll_mailbox(tok, account, dry_run, companies)
+    flush_ops_pings(dry_run)
+    return 0
+
+
+def _poll_mailbox(tok: str, account: str, dry_run: bool,
+                  companies: dict | None) -> dict | None:
     label_id = ensure_label(tok)
     # Two sweeps: setup@-addressed mail keeps its strict handling (unknown
     # senders escalate), and a broad 3-day inbox sweep catches client mail
     # sent straight to contact@ (Sarha's COI 2026-08-23 arrived mid-thread
     # and sat unprocessed for two weeks). newer_than caps backfill.
-    q_setup = f"to:{INTAKE_ALIAS} -label:{PROCESSED_LABEL}"
+    alias = ACCOUNTS[account]["setup_alias"]
     q_broad = (f"in:inbox -label:{PROCESSED_LABEL} newer_than:3d "
                "-from:me -category:promotions -category:social")
-    setup_ids = {m["id"] for m in _g(
-        tok, f"/messages?q={urllib.parse.quote(q_setup)}&maxResults=20"
-    ).get("messages", []) or []}
+    setup_ids: set = set()
+    if alias:
+        q_setup = f"to:{alias} -label:{PROCESSED_LABEL}"
+        setup_ids = {m["id"] for m in _g(
+            tok, f"/messages?q={urllib.parse.quote(q_setup)}&maxResults=20"
+        ).get("messages", []) or []}
     broad_ids = [m["id"] for m in _g(
         tok, f"/messages?q={urllib.parse.quote(q_broad)}&maxResults=40"
     ).get("messages", []) or []]
@@ -449,13 +478,13 @@ def cmd_poll(args) -> int:
     stale_ids = [m["id"] for m in _g(
         tok, f"/messages?q={urllib.parse.quote(q_stale)}&maxResults=30"
     ).get("messages", []) or []]
-    print(f"email intake poll: {len(msgs)} unprocessed message(s) "
+    print(f"email intake poll [{account}]: {len(msgs)} unprocessed message(s) "
           f"({len(setup_ids)} setup@, {len(msgs) - len(setup_ids)} broad)"
           f"{' [DRY RUN]' if dry_run else ''}")
     if not msgs:
-        return 0
+        return companies
 
-    companies = fetch_companies()
+    companies = companies or fetch_companies()
     for sid in stale_ids:
         try:
             sm = _g(tok, f"/messages/{sid}?format=metadata")
@@ -661,7 +690,7 @@ def cmd_poll(args) -> int:
                         import email.mime.text as _emt
                         mime = _emt.MIMEText(body_reply)
                         mime["To"] = sender
-                        mime["From"] = "contact@restorationai.io"
+                        mime["From"] = ACCOUNTS[account]["addr"]
                         mime["Subject"] = (subject if subject.lower().startswith("re:")
                                            else f"Re: {subject}")
                         if headers.get("message-id"):
@@ -681,8 +710,7 @@ def cmd_poll(args) -> int:
             _g_post(tok, f"/messages/{stub['id']}/modify",
                     {"addLabelIds": [label_id]})
 
-    flush_ops_pings(dry_run)
-    return 0
+    return companies
 
 
 def _sb_log_reply(cid: str, to: str, subject: str, body: str) -> None:

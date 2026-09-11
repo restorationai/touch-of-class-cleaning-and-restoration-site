@@ -14,7 +14,13 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
    Plumbing proven (appointment API works; calendar allowBookingAfter set
    to 6 hours on Live Support 2026-09-11 — NOTE: was 3 days; public
    booking link loosened too, revisit if unwanted).
-2. **Fleet attribution follow-through** — watch first live source-tagged
+2. **All Pro homepage fixes (Angie 09-11, ack sent)** — new van/fleet
+   photos (current AI hero vans look like wind-up toys), remove the red
+   and blue lines, palette red/white/blue only (no black), move the phone
+   number + free-estimate CTA left so vehicles stay visible. Send Angie a
+   preview link when up (she was told "as soon as the updates are up",
+   no date promised).
+3. **Fleet attribution follow-through** — watch first live source-tagged
    calls/leads; follow-up email to Miguel/Icatch with RT Olson channel
    data after a few days; Bobby gets the same proof.
 3. **Railway git checkout** — the app's "Push site to production"
