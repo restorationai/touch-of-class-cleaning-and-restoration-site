@@ -93,6 +93,91 @@
       "city": "DuPont",
       "state": "WA",
       "slug": "dupont-wa"
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "slug": "seattle-wa"
+    },
+    {
+      "city": "Bellevue",
+      "state": "WA",
+      "slug": "bellevue-wa"
+    },
+    {
+      "city": "Kent",
+      "state": "WA",
+      "slug": "kent-wa"
+    },
+    {
+      "city": "Renton",
+      "state": "WA",
+      "slug": "renton-wa"
+    },
+    {
+      "city": "Federal Way",
+      "state": "WA",
+      "slug": "federal-way-wa"
+    },
+    {
+      "city": "Auburn",
+      "state": "WA",
+      "slug": "auburn-wa"
+    },
+    {
+      "city": "Burien",
+      "state": "WA",
+      "slug": "burien-wa"
+    },
+    {
+      "city": "Bonney Lake",
+      "state": "WA",
+      "slug": "bonney-lake-wa"
+    },
+    {
+      "city": "Gig Harbor",
+      "state": "WA",
+      "slug": "gig-harbor-wa"
+    },
+    {
+      "city": "South Hill",
+      "state": "WA",
+      "slug": "south-hill-wa"
+    },
+    {
+      "city": "Graham",
+      "state": "WA",
+      "slug": "graham-wa"
+    },
+    {
+      "city": "Fife",
+      "state": "WA",
+      "slug": "fife-wa"
+    },
+    {
+      "city": "Tumwater",
+      "state": "WA",
+      "slug": "tumwater-wa"
+    },
+    {
+      "city": "Yelm",
+      "state": "WA",
+      "slug": "yelm-wa"
+    },
+    {
+      "city": "Bremerton",
+      "state": "WA",
+      "slug": "bremerton-wa"
+    },
+    {
+      "city": "Port Orchard",
+      "state": "WA",
+      "slug": "port-orchard-wa"
+    },
+    {
+      "city": "Centralia",
+      "state": "WA",
+      "slug": "centralia-wa"
     }
   ],
   "template": "restoration",

@@ -29,16 +29,35 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Spanaway, WA](https://frontlinefireflood.com/service-areas/spanaway-wa/)
 - [Parkland, WA](https://frontlinefireflood.com/service-areas/parkland-wa/)
 - [DuPont, WA](https://frontlinefireflood.com/service-areas/dupont-wa/)
+- [Seattle, WA](https://frontlinefireflood.com/service-areas/seattle-wa/)
+- [Bellevue, WA](https://frontlinefireflood.com/service-areas/bellevue-wa/)
+- [Kent, WA](https://frontlinefireflood.com/service-areas/kent-wa/)
+- [Renton, WA](https://frontlinefireflood.com/service-areas/renton-wa/)
+- [Federal Way, WA](https://frontlinefireflood.com/service-areas/federal-way-wa/)
+- [Auburn, WA](https://frontlinefireflood.com/service-areas/auburn-wa/)
+- [Burien, WA](https://frontlinefireflood.com/service-areas/burien-wa/)
+- [Bonney Lake, WA](https://frontlinefireflood.com/service-areas/bonney-lake-wa/)
+- [Gig Harbor, WA](https://frontlinefireflood.com/service-areas/gig-harbor-wa/)
+- [South Hill, WA](https://frontlinefireflood.com/service-areas/south-hill-wa/)
+- [Graham, WA](https://frontlinefireflood.com/service-areas/graham-wa/)
+- [Fife, WA](https://frontlinefireflood.com/service-areas/fife-wa/)
+- [Tumwater, WA](https://frontlinefireflood.com/service-areas/tumwater-wa/)
+- [Yelm, WA](https://frontlinefireflood.com/service-areas/yelm-wa/)
+- [Bremerton, WA](https://frontlinefireflood.com/service-areas/bremerton-wa/)
+- [Port Orchard, WA](https://frontlinefireflood.com/service-areas/port-orchard-wa/)
+- [Centralia, WA](https://frontlinefireflood.com/service-areas/centralia-wa/)
 
 ### Resources
 - [Blog](https://frontlinefireflood.com/blog/): Restoration guides and local resources
 - [About](https://frontlinefireflood.com/about/): Company background and credentials
 - [Contact](https://frontlinefireflood.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
 - [Emergency](https://frontlinefireflood.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 
-- Rated 4.9/5 from 133 Google reviews
 - **Founded:** 2014
 - **Licenses:**  · 
 - **Certifications:** IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED

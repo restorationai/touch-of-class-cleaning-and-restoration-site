@@ -44,7 +44,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Lakewood, WA.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#0052b8` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.png` / `FF` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.frontlinefireflood.com` | `https://images.{domain}` | |
@@ -64,7 +64,24 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Olympia, WA](https://frontlinefireflood.com/service-areas/olympia-wa/)
 - [Spanaway, WA](https://frontlinefireflood.com/service-areas/spanaway-wa/)
 - [Parkland, WA](https://frontlinefireflood.com/service-areas/parkland-wa/)
-- [DuPont, WA](https://frontlinefireflood.com/service-areas/dupont-wa/)` / `IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED` / `Greater Lakewood region` | computed at scaffold from plan + brand | |
+- [DuPont, WA](https://frontlinefireflood.com/service-areas/dupont-wa/)
+- [Seattle, WA](https://frontlinefireflood.com/service-areas/seattle-wa/)
+- [Bellevue, WA](https://frontlinefireflood.com/service-areas/bellevue-wa/)
+- [Kent, WA](https://frontlinefireflood.com/service-areas/kent-wa/)
+- [Renton, WA](https://frontlinefireflood.com/service-areas/renton-wa/)
+- [Federal Way, WA](https://frontlinefireflood.com/service-areas/federal-way-wa/)
+- [Auburn, WA](https://frontlinefireflood.com/service-areas/auburn-wa/)
+- [Burien, WA](https://frontlinefireflood.com/service-areas/burien-wa/)
+- [Bonney Lake, WA](https://frontlinefireflood.com/service-areas/bonney-lake-wa/)
+- [Gig Harbor, WA](https://frontlinefireflood.com/service-areas/gig-harbor-wa/)
+- [South Hill, WA](https://frontlinefireflood.com/service-areas/south-hill-wa/)
+- [Graham, WA](https://frontlinefireflood.com/service-areas/graham-wa/)
+- [Fife, WA](https://frontlinefireflood.com/service-areas/fife-wa/)
+- [Tumwater, WA](https://frontlinefireflood.com/service-areas/tumwater-wa/)
+- [Yelm, WA](https://frontlinefireflood.com/service-areas/yelm-wa/)
+- [Bremerton, WA](https://frontlinefireflood.com/service-areas/bremerton-wa/)
+- [Port Orchard, WA](https://frontlinefireflood.com/service-areas/port-orchard-wa/)
+- [Centralia, WA](https://frontlinefireflood.com/service-areas/centralia-wa/)` / `IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED` / `Greater Lakewood region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

@@ -1,21 +1,21 @@
 # Site Plan Report — Frontline Fire & Flood
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-03T04:40:29.635429+00:00
-- Domain: `None`
-- Services selected: 9 of 60 catalog entries
-- Service areas: 9
+- Generated: 2026-09-11T18:01:06.388639+00:00
+- Domain: `frontlinefireflood.com`
+- Services selected: 9 of 64 catalog entries
+- Service areas: 26
 - Cross-product enabled: True
-- Total URLs: **106**
-- Total internal links: 809 (avg 7.6 per page)
+- Total URLs: **276**
+- Total internal links: 2188 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 72 |
+| `service-area-service` | 225 |
+| `service-area` | 25 |
 | `service-landing` | 9 |
-| `service-area` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -48,6 +48,23 @@
 - `spanaway-wa` — Spanaway, WA
 - `parkland-wa` — Parkland, WA
 - `dupont-wa` — DuPont, WA
+- `seattle-wa` — Seattle, WA
+- `bellevue-wa` — Bellevue, WA
+- `kent-wa` — Kent, WA
+- `renton-wa` — Renton, WA
+- `federal-way-wa` — Federal Way, WA
+- `auburn-wa` — Auburn, WA
+- `burien-wa` — Burien, WA
+- `bonney-lake-wa` — Bonney Lake, WA
+- `gig-harbor-wa` — Gig Harbor, WA
+- `south-hill-wa` — South Hill, WA
+- `graham-wa` — Graham, WA
+- `fife-wa` — Fife, WA
+- `tumwater-wa` — Tumwater, WA
+- `yelm-wa` — Yelm, WA
+- `bremerton-wa` — Bremerton, WA
+- `port-orchard-wa` — Port Orchard, WA
+- `centralia-wa` — Centralia, WA
 
 ## Top 10 priority pages
 
@@ -59,10 +76,10 @@
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization lakewood |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration lakewood |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup lakewood |
-| `/service-areas/dupont-wa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration dupont |
-| `/service-areas/dupont-wa/mold-remediation/` | `service-area-service` | 7.0 | mold remediation dupont |
-| `/service-areas/dupont-wa/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration dupont |
-| `/service-areas/lacey-wa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration lacey |
+| `/service-areas/auburn-wa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration auburn |
+| `/service-areas/auburn-wa/mold-remediation/` | `service-area-service` | 7.0 | mold remediation auburn |
+| `/service-areas/auburn-wa/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration auburn |
+| `/service-areas/bellevue-wa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration bellevue |
 
 ## Validation
 
