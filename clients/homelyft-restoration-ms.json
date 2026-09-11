@@ -13,7 +13,7 @@
     "url_count": 702,
     "generated_at": "2026-08-10T10:44:08.030777+00:00"
   },
-  "updated_at": "2026-09-11T14:13:05.480733+00:00",
+  "updated_at": "2026-09-11T14:43:17+00:00",
   "build": {
     "scaffolded_at": "2026-08-01T20:18:36.299156+00:00",
     "github_repo": "restorationai/homelyft-restoration-ms-site",
@@ -54,5 +54,19 @@
     "redirects_added": 61,
     "mapped_at": "2026-09-11T14:10:55+00:00"
   },
-  "indexnow_key": "042a738ffb2c44b78ad7f2ed55081113"
+  "indexnow_key": "042a738ffb2c44b78ad7f2ed55081113",
+  "zone": {
+    "id": "12171c1f0bc08610a1602ecece6a476f",
+    "name": "homelyft.net",
+    "status": "active",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ]
+  },
+  "apex_cutover": {
+    "legacy_origin": "104.21.95.245",
+    "completed_at": "2026-09-11T14:43:17+00:00"
+  },
+  "cut_over_at": "2026-09-11T14:43:17+00:00"
 }

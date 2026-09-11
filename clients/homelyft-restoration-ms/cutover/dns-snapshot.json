@@ -1,12 +1,24 @@
 {
  "domain": "homelyft.net",
- "captured_at": "2026-09-11T14:24:14+00:00",
+ "captured_at": "2026-09-11T14:42:13+00:00",
  "authoritative": {
   "ns": [
-   "ns55.domaincontrol.com",
-   "ns56.domaincontrol.com"
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
   ],
   "mx": [
+   {
+    "priority": 10,
+    "exchange": "alt3.aspmx.l.google.com"
+   },
+   {
+    "priority": 1,
+    "exchange": "aspmx.l.google.com"
+   },
+   {
+    "priority": 5,
+    "exchange": "alt2.aspmx.l.google.com"
+   },
    {
     "priority": 10,
     "exchange": "alt4.aspmx.l.google.com"
@@ -14,25 +26,13 @@
    {
     "priority": 5,
     "exchange": "alt1.aspmx.l.google.com"
-   },
-   {
-    "priority": 5,
-    "exchange": "alt2.aspmx.l.google.com"
-   },
-   {
-    "priority": 1,
-    "exchange": "aspmx.l.google.com"
-   },
-   {
-    "priority": 10,
-    "exchange": "alt3.aspmx.l.google.com"
    }
   ],
   "apex_txt": [
    "google-site-verification=u_1GNOGFJfttLUUclKDYT7KQtNmQaxMPZtx2qmhxaQQ",
    "v=spf1 include:_spf.google.com include:sendgrid.net -all",
-   "MS=ms96326546",
-   "Pj9K0vD@dQmJnZk"
+   "Pj9K0vD@dQmJnZk",
+   "MS=ms96326546"
   ],
   "dmarc_txt": [
    "v=DMARC1; p=none;"
@@ -45,7 +45,8 @@
    }
   },
   "apex_a": [
-   "198.202.211.1"
+   "104.21.95.245",
+   "172.67.149.192"
   ],
   "apex_cname": [],
   "www_cname": [
@@ -59,6 +60,22 @@
    "anastasia.ns.cloudflare.com"
   ],
   "records": [
+   {
+    "id": "0e9a76b6817e8027472fc8ea2a907888",
+    "type": "CNAME",
+    "name": "homelyft.net",
+    "content": "rankai-homelyft-restoration-ms.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "81249e302a7c34318733dc5817982a23",
+    "type": "CNAME",
+    "name": "www.homelyft.net",
+    "content": "rankai-homelyft-restoration-ms.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
    {
     "id": "dce6f782a862286a54d8e6137fb2df5d",
     "type": "MX",
