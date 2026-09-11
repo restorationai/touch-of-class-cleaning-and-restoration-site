@@ -58,8 +58,8 @@ export default {
         },
         accent: {
           // Same pair rule as cta — btn-accent renders text-accent-fg on this.
-          DEFAULT: "#f3663e",
-          fg: "#0a2a38",
+          DEFAULT: "#e4002b",
+          fg: "#ffffff",
         },
         muted: {
           DEFAULT: "#4b5563",

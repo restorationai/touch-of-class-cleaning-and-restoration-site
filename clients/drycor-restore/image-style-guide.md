@@ -69,11 +69,11 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
-| Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#187cab` | **#187cab** |
+| Accent (emergency markings, CTAs that appear in promo shots) | `#f3663e` | **#f3663e** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match DRYCOR RESTORE's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
-| Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Thonotosasa |
+| Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Thonotosassa |
 
 ### Color Treatment Rules
 
@@ -88,7 +88,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 - **Professional and competent**: The viewer should feel they hired the right team. No hero-shot smiles or staged enthusiasm.
 - **Calm under stress**: Restoration customers are panicked. Imagery should be the visual antidote — methodical, equipped, in-command.
-- **Authentic**: Real residential and commercial properties in Thonotosasa and surrounding areas. Real materials. Real water damage, real soot residue, real mold containment.
+- **Authentic**: Real residential and commercial properties in Thonotosassa and surrounding areas. Real materials. Real water damage, real soot residue, real mold containment.
 - **Restrained**: When depicting damage, show it honestly but not gratuitously. The viewer wants to see we can handle it, not be made queasy.
 
 ---
@@ -98,7 +98,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#187cab`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: DRYCOR RESTORE or DRYCOR RESTORE embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -140,10 +140,10 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 
 ---
 
-## Setting & Environment (Thonotosasa / FL)
+## Setting & Environment (Thonotosassa / FL)
 
-- **Primary setting**: Thonotosasa and surrounding FL residential and commercial properties
-- **Local housing stock cues**: Other cities served: Tampa, Brandon, Plant City, Temple Terrace, Lakeland. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Thonotosasa."
+- **Primary setting**: Thonotosassa and surrounding FL residential and commercial properties
+- **Local housing stock cues**: Other cities served: Tampa, Brandon, Plant City, Temple Terrace, Lakeland. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Thonotosassa."
 - **Regional weather / season**: Regional climate cues per primary city; adapt exterior shots to match. — affects exterior shots especially. Pacific Northwest: wet roads, evergreen silhouettes, cedar siding, low gray cloud cover for "we just arrived in the rain" shots. Adapt per client.
 - **Time of day**: Mix of golden-hour exteriors and neutral-light interiors. Reserve dusk/blue-hour for "arrival" hero shots specifically.
 
@@ -188,7 +188,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Contents Restoration & Storage, Renovations, Remodels and General Contracting, Storm Damage Restoration, Water Cleanup, Sewage Cleanup and Sanitization, Emergency Board-Up and Tarping)
 
 ### Service area pages (one image per city served)
-- [ ] Thonotosasa hero — exterior shot, regional housing stock, evocative of the city
+- [ ] Thonotosassa hero — exterior shot, regional housing stock, evocative of the city
 - [ ] Each additional service-area city — same pattern, regional cues per city
 
 ### Blog post heroes

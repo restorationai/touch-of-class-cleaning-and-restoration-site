@@ -34,7 +34,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `team@drycor.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
 | `2005` | brand.founded_year | `2004` |
-| `Thonotosasa` / `FL` | derived from primary area | `Federal Way` / `WA` |
+| `Thonotosassa` / `FL` | derived from primary area | `Federal Way` / `WA` |
 | `10798 Florence Ave` / `33592` | brand.street_address / brand.postal_code | |
 | `28.0655281` / `-82.294789` | brand.lat / brand.lng | from GBP |
 | `ChIJ--4aNxtJuIURz7eqWifJBM4` / `14845211442582042575` | brand.place_id / brand.google_cid | from GBP |
@@ -43,8 +43,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `["IICRC CERTIFIED FIRM", "IICRC WRT (WATER)", "EPA LEAD-SAFE CERTIFIED", "OSHA TRAINED", "NAERMC-(MOLD)"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
-| `24/7 restoration services in Thonotosasa, FL.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `24/7 restoration services in Thonotosassa, FL.` | brand.tagline | short marketing line |
+| `#187cab` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.png` / `DR` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.drycor.com` | `https://images.{domain}` | |
@@ -56,7 +56,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Storm Damage Restoration](https://drycor.com/services/storm-damage-restoration/)
 - [Water Cleanup](https://drycor.com/services/water-cleanup/)
 - [Sewage Cleanup and Sanitization](https://drycor.com/services/sewage-cleanup/)
-- [Emergency Board-Up and Tarping](https://drycor.com/services/emergency-board-up-tarping/)` / `- [Thonotosasa, FL](https://drycor.com/service-areas/thonotosasa-fl/)
+- [Emergency Board-Up and Tarping](https://drycor.com/services/emergency-board-up-tarping/)` / `- [Thonotosassa, FL](https://drycor.com/service-areas/thonotosassa-fl/)
 - [Tampa, FL](https://drycor.com/service-areas/tampa-fl/)
 - [Brandon, FL](https://drycor.com/service-areas/brandon-fl/)
 - [Plant City, FL](https://drycor.com/service-areas/plant-city-fl/)
@@ -64,7 +64,25 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Lakeland, FL](https://drycor.com/service-areas/lakeland-fl/)
 - [Seffner, FL](https://drycor.com/service-areas/seffner-fl/)
 - [Zephyrhills, FL](https://drycor.com/service-areas/zephyrhills-fl/)
-- [Dover, FL](https://drycor.com/service-areas/dover-fl/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED, NAERMC-(MOLD)` / `Greater Thonotosasa region` | computed at scaffold from plan + brand | |
+- [Dover, FL](https://drycor.com/service-areas/dover-fl/)
+- [St. Petersburg, FL](https://drycor.com/service-areas/st-petersburg-fl/)
+- [Clearwater, FL](https://drycor.com/service-areas/clearwater-fl/)
+- [Largo, FL](https://drycor.com/service-areas/largo-fl/)
+- [Pinellas Park, FL](https://drycor.com/service-areas/pinellas-park-fl/)
+- [Palm Harbor, FL](https://drycor.com/service-areas/palm-harbor-fl/)
+- [Dunedin, FL](https://drycor.com/service-areas/dunedin-fl/)
+- [Riverview, FL](https://drycor.com/service-areas/riverview-fl/)
+- [Valrico, FL](https://drycor.com/service-areas/valrico-fl/)
+- [Apollo Beach, FL](https://drycor.com/service-areas/apollo-beach-fl/)
+- [Ruskin, FL](https://drycor.com/service-areas/ruskin-fl/)
+- [Lutz, FL](https://drycor.com/service-areas/lutz-fl/)
+- [Wesley Chapel, FL](https://drycor.com/service-areas/wesley-chapel-fl/)
+- [Land O' Lakes, FL](https://drycor.com/service-areas/land-o-lakes-fl/)
+- [New Port Richey, FL](https://drycor.com/service-areas/new-port-richey-fl/)
+- [Bradenton, FL](https://drycor.com/service-areas/bradenton-fl/)
+- [Palmetto, FL](https://drycor.com/service-areas/palmetto-fl/)
+- [Winter Haven, FL](https://drycor.com/service-areas/winter-haven-fl/)
+- [Auburndale, FL](https://drycor.com/service-areas/auburndale-fl/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED, NAERMC-(MOLD)` / `Greater Thonotosassa region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

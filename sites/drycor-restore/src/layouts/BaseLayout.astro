@@ -226,9 +226,12 @@ const ctx: PageSchemaContext = {
             var q = new URLSearchParams(location.search);
             if (q.get("gclid") || q.get("gbraid") || q.get("wbraid")) return "google_ads";
             if (q.get("msclkid")) return "bing";
-            if (q.get("fbclid")) return "facebook";
             var us = (q.get("utm_source") || "").toLowerCase();
             var um = (q.get("utm_medium") || "").toLowerCase();
+            var paid = um.indexOf("cpc") !== -1 || um.indexOf("paid") !== -1 || um.indexOf("ppc") !== -1;
+            var meta = us.indexOf("facebook") !== -1 || us === "fb" || us === "meta" || us.indexOf("instagram") !== -1 || us === "ig";
+            if (meta && paid) return "meta_ads";
+            if (q.get("fbclid")) return "facebook";
             if (us) {
               if (us.indexOf("yelp") !== -1) return "yelp";
               if (us.indexOf("chatgpt") !== -1 || us.indexOf("openai") !== -1) return "chatgpt";

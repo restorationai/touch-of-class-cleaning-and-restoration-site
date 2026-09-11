@@ -1,21 +1,21 @@
 # Site Plan Report — DRYCOR RESTORE
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-03T11:18:11.648103+00:00
-- Domain: `None`
-- Services selected: 9 of 60 catalog entries
-- Service areas: 9
+- Generated: 2026-09-11T21:36:52.173711+00:00
+- Domain: `drycor.com`
+- Services selected: 9 of 64 catalog entries
+- Service areas: 27
 - Cross-product enabled: True
-- Total URLs: **106**
-- Total internal links: 809 (avg 7.6 per page)
+- Total URLs: **286**
+- Total internal links: 2267 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 72 |
+| `service-area-service` | 234 |
+| `service-area` | 26 |
 | `service-landing` | 9 |
-| `service-area` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -39,7 +39,7 @@
 
 ## Service areas
 
-- `thonotosasa-fl` — Thonotosasa, FL *(primary)*
+- `thonotosassa-fl` — Thonotosassa, FL *(primary)*
 - `tampa-fl` — Tampa, FL
 - `brandon-fl` — Brandon, FL
 - `plant-city-fl` — Plant City, FL
@@ -48,21 +48,39 @@
 - `seffner-fl` — Seffner, FL
 - `zephyrhills-fl` — Zephyrhills, FL
 - `dover-fl` — Dover, FL
+- `st-petersburg-fl` — St. Petersburg, FL
+- `clearwater-fl` — Clearwater, FL
+- `largo-fl` — Largo, FL
+- `pinellas-park-fl` — Pinellas Park, FL
+- `palm-harbor-fl` — Palm Harbor, FL
+- `dunedin-fl` — Dunedin, FL
+- `riverview-fl` — Riverview, FL
+- `valrico-fl` — Valrico, FL
+- `apollo-beach-fl` — Apollo Beach, FL
+- `ruskin-fl` — Ruskin, FL
+- `lutz-fl` — Lutz, FL
+- `wesley-chapel-fl` — Wesley Chapel, FL
+- `land-o-lakes-fl` — Land O' Lakes, FL
+- `new-port-richey-fl` — New Port Richey, FL
+- `bradenton-fl` — Bradenton, FL
+- `palmetto-fl` — Palmetto, FL
+- `winter-haven-fl` — Winter Haven, FL
+- `auburndale-fl` — Auburndale, FL
 
 ## Top 10 priority pages
 
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
-| `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration thonotosasa |
-| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation thonotosasa |
-| `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration thonotosasa |
-| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization thonotosasa |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration thonotosasa |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup thonotosasa |
-| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting thonotosasa |
-| `/service-areas/brandon-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration brandon |
-| `/service-areas/brandon-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation brandon |
-| `/service-areas/brandon-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration brandon |
+| `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration thonotosassa |
+| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation thonotosassa |
+| `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration thonotosassa |
+| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization thonotosassa |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration thonotosassa |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup thonotosassa |
+| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting thonotosassa |
+| `/service-areas/apollo-beach-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration apollo beach |
+| `/service-areas/apollo-beach-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation apollo beach |
+| `/service-areas/apollo-beach-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration apollo beach |
 
 ## Validation
 

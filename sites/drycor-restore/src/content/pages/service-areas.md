@@ -29,6 +29,22 @@ The cities and communities closest to Thonotosassa, including areas of eastern T
 
 Traffic on I-275, I-4, and the Veterans Expressway can affect arrival order during peak hours, particularly for calls that come in during the morning or evening commute window. We're transparent about that on the phone, we'd rather give you an honest estimate than a number we can't hit.
 
+## Full service territory
+
+DRYCOR RESTORE serves all of Hillsborough, Pinellas, Pasco, Polk, and Manatee counties. Communities we serve include:
+
+**Hillsborough County:** Thonotosassa, Tampa, Brandon, Plant City, Temple Terrace, Seffner, Dover, Riverview, Valrico, Apollo Beach, Ruskin, and Lutz.
+
+**Pinellas County:** St. Petersburg, Clearwater, Largo, Pinellas Park, Palm Harbor, and Dunedin.
+
+**Pasco County:** Wesley Chapel, Land O' Lakes, New Port Richey, and Zephyrhills.
+
+**Polk County:** Lakeland, Winter Haven, and Auburndale.
+
+**Manatee County:** Bradenton and Palmetto.
+
+If your community isn't named here, that doesn't mean we don't serve it. These five counties are our territory, including every city, town, and unincorporated area in between.
+
 ## Don't see your city?
 
 The linked pages below cover our primary service area, but they're not a hard boundary. For significant losses, major flooding, large-scale fire damage, commercial properties, we routinely dispatch beyond our listed cities. Call (813) 829-1091 and describe what you're dealing with. If we can get there and do the job right, we will.
