@@ -34,7 +34,8 @@ MIN_SECONDS = 8
 MAX_PER_RUN = 40
 
 ANALYSIS_PROMPT = """You analyze a phone call to a home-services business
-(plumbing/restoration/HVAC). From the transcript, reply ONLY with JSON:
+(plumbing/restoration/HVAC). Transcripts may be speaker-labeled
+(Caller: / Business:). From the transcript, reply ONLY with JSON:
 {"summary": "2-3 sentence plain-language summary",
  "outcome": one of "booked" | "quote_requested" | "info_only" |
             "missed_opportunity" | "voicemail" | "spam" | "wrong_number" | "other",
@@ -58,14 +59,64 @@ def sb(method: str, path: str, body=None, prefer=None):
         return json.loads(raw) if raw else None
 
 
-def transcribe(audio: bytes) -> str:
+def _whisper(audio: bytes, verbose: bool = False):
+    data = {"model": "whisper-1"}
+    if verbose:
+        data["response_format"] = "verbose_json"
     r = requests.post(
         "https://api.openai.com/v1/audio/transcriptions",
         headers={"Authorization": f"Bearer {os.environ['OPENAI_API_KEY']}"},
         files={"file": ("call.mp3", io.BytesIO(audio), "audio/mpeg")},
-        data={"model": "whisper-1"}, timeout=180)
+        data=data, timeout=180)
     r.raise_for_status()
-    return (r.json().get("text") or "").strip()
+    return r.json()
+
+
+def transcribe(audio: bytes) -> str:
+    """Speaker-separated transcript. Recordings are DUAL-CHANNEL
+    (record-from-answer-dual: caller on ch0, business on ch1), so split the
+    channels with ffmpeg, transcribe each, and merge by segment timestamps —
+    exact speaker separation with no diarization model. Falls back to a flat
+    transcript when ffmpeg or the second channel is unavailable."""
+    import shutil
+    import subprocess
+    import tempfile
+    if not shutil.which("ffmpeg"):
+        return (_whisper(audio).get("text") or "").strip()
+    with tempfile.TemporaryDirectory() as td:
+        src = os.path.join(td, "in.mp3")
+        open(src, "wb").write(audio)
+        try:
+            probe = subprocess.run(
+                ["ffprobe", "-v", "quiet", "-show_entries", "stream=channels",
+                 "-of", "csv=p=0", src], capture_output=True, text=True, timeout=30)
+            channels = int((probe.stdout or "1").strip().splitlines()[0])
+        except Exception:  # noqa: BLE001
+            channels = 1
+        if channels < 2:
+            return (_whisper(audio).get("text") or "").strip()
+        caller_f, biz_f = os.path.join(td, "caller.mp3"), os.path.join(td, "biz.mp3")
+        subprocess.run(["ffmpeg", "-v", "quiet", "-i", src,
+                        "-filter_complex",
+                        "[0:a]pan=mono|c0=c0[l];[0:a]pan=mono|c0=c1[r]",
+                        "-map", "[l]", caller_f, "-map", "[r]", biz_f],
+                       check=True, timeout=120)
+        segs = []
+        for path, who in ((caller_f, "Caller"), (biz_f, "Business")):
+            j = _whisper(open(path, "rb").read(), verbose=True)
+            for s in j.get("segments") or []:
+                txt = (s.get("text") or "").strip()
+                if txt:
+                    segs.append((float(s.get("start") or 0), who, txt))
+        segs.sort(key=lambda x: x[0])
+        # collapse consecutive same-speaker segments into one paragraph
+        lines: list[str] = []
+        for _, who, txt in segs:
+            if lines and lines[-1].startswith(who + ":"):
+                lines[-1] += " " + txt
+            else:
+                lines.append(f"{who}: {txt}")
+        return "\n".join(lines)
 
 
 def analyze(transcript: str, duration: int, source: str) -> dict:
