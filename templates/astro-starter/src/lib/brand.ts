@@ -65,6 +65,9 @@ export const brand = {
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
   // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "{{BRAND_VERTICAL}}",
   tradeNoun: "{{BRAND_TRADE_NOUN}}",
   specialistPhrase: "{{BRAND_SPECIALIST_PHRASE}}",
   announcementSuffix: "{{BRAND_ANNOUNCEMENT_SUFFIX}}",

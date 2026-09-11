@@ -319,6 +319,8 @@ def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = 
         "BRAND_LICENSE_TYPE": brand.get("license_type", ""),
         "BRAND_GBP_RATING_VALUE": str(brand.get("gbp_rating_value", "")),
         "BRAND_GBP_REVIEW_COUNT": str(brand.get("gbp_review_count", "")),
+        "BRAND_VERTICAL": (verticals.get_vertical(slug, client, required=False)
+                           or "restoration"),
         "BRAND_TAGLINE": _vertical_copy("tagline"),
         "BRAND_CTA_LABEL": _vertical_copy("cta_label"),
         "BRAND_TRADE_NOUN": _vertical_copy("trade_noun"),
