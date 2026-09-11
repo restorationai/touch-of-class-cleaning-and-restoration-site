@@ -24,10 +24,6 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
    token + googleapiclient in the Railway image while in there.
 4. **Repiping default-on** in plumbing plan selection (template already
    carries the service; plan step should include it for every plumber).
-5. **TDI www cutover** — waiting on Robert Carpenter adding the www CNAME
-   at Liquid Web; then attach www custom domain + apex redirect; test
-   HTTPS apex redirect (if Liquid Web redirect is HTTP-only, revisit the
-   own-Cloudflare-account option).
 6. **Tony/Coastal linktree page** — small branded links page (Call /
    Website / Leave a Review), then flip qr:coastal KV target to it.
 7. **Missed-opportunity alerts** — call-intel now labels
@@ -52,6 +48,16 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
   (code committed, sites pre-staging)
 
 ## Recently shipped (context)
+
+- 2026-09-11 day: HomeLyft launched app-native + GSC; TDI www live with
+  entity rename to TDI USA, mitigation suppressed sitewide (SERVPRO
+  conflict, central suppressedServices.ts), Manteca footer NAP; Frontline
+  tier-2 territory build (9 -> 26 cities) + hub lists full 164-city
+  5-county territory; bootstrap now seeds site cities FROM wizard
+  service_areas (top 15-20 + expansion tiers recorded) instead of AI
+  guessing; Kyle/Crew Sioux City GBP thread answered (DBA confirm +
+  signage); QCI second-entity roadmap sent (QCI Restoration + triple-stack
+  name option, qcirestoration.com)
 
 - Source-attribution suite fleet-wide: 9 numbers/client (196 verified
   routes), DNI edge maps, form attribution, per-submission Website Leads,
