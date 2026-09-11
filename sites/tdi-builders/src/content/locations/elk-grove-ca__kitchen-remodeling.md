@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Kitchen Remodeling in Elk Grove, CA | TDI Builders, Inc."
+title: "Kitchen Remodeling in Elk Grove, CA | TDI USA, Inc."
 h1: "Kitchen Remodeling in Elk Grove"
 meta_description: "Trusted kitchen remodeling in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "kitchen remodeling elk grove"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Kitchen Remodeling"
 rendered: true
 ---
-Elk Grove has grown faster than almost any city in California over the past two decades, and that growth shows up in kitchens. Whether you're in a mid-2000s tract home near Laguna or a newer build on the city's expanding southern edge, the kitchen is often the one room that hasn't kept pace with how your household actually lives. TDI Builders, Inc. has been doing this work since 1985, and we bring that depth of experience to every cabinet layout, countertop selection, and structural wall decision in Elk Grove.
+Elk Grove has grown faster than almost any city in California over the past two decades, and that growth shows up in kitchens. Whether you're in a mid-2000s tract home near Laguna or a newer build on the city's expanding southern edge, the kitchen is often the one room that hasn't kept pace with how your household actually lives. TDI USA, Inc. has been doing this work since 1985, and we bring that depth of experience to every cabinet layout, countertop selection, and structural wall decision in Elk Grove.
 
 ## Why Elk Grove Kitchens Are Ready for a Rethink
 
@@ -50,4 +50,4 @@ If your project involves any exterior change, we recommend pulling the CC&Rs bef
 
 Homes built in Elk Grove's rapid-growth corridors during the early 2000s frequently used builder-grade range hoods ducted into the attic rather than through an exterior wall, a shortcut that was common and technically permitted at the time but creates grease accumulation and fire risk over years of use. When we open walls on a kitchen remodel in these neighborhoods, we find this configuration regularly. Correcting it means running a proper duct path to an exterior cap, which adds a permit line item and some framing work, but it's not optional if you're putting in a high-output range. We flag it in the assessment so it's budgeted before demolition starts, not discovered mid-project.
 
-If your Elk Grove kitchen remodel is overdue, call TDI Builders, Inc. at (877) 688-0866. We're available around the clock, and we'll schedule a walkthrough at a time that works for your household, not just our calendar.
+If your Elk Grove kitchen remodel is overdue, call TDI USA, Inc. at (877) 688-0866. We're available around the clock, and we'll schedule a walkthrough at a time that works for your household, not just our calendar.

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Renovations, Remodels and General Contracting in Loomis, CA | TDI Builders, Inc."
+title: "Renovations, Remodels and General Contracting in Loomis, CA | TDI USA, Inc."
 h1: "Renovations, Remodels and General Contracting in Loomis"
 meta_description: "Trusted renovations, remodels and general contracting in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "renovations, remodels and general contracting loomis"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Loomis sits in that particular stretch of Placer County where the Sierra Nevada foothills begin to assert themselves, where oak-studded lots, aging ranch homes from the 1960s and 70s, and newer custom builds share the same winding roads. Renovating or remodeling in this environment isn't the same as working in a flat Sacramento suburb. Foundation conditions shift with the hillside terrain, older homes carry decades of DIY additions that rarely meet current code, and Placer County's permitting office has its own rhythm. TDI Builders, Inc. has been navigating exactly these conditions since 1985, and that depth of experience shapes every project we take on in Loomis.
+Loomis sits in that particular stretch of Placer County where the Sierra Nevada foothills begin to assert themselves, where oak-studded lots, aging ranch homes from the 1960s and 70s, and newer custom builds share the same winding roads. Renovating or remodeling in this environment isn't the same as working in a flat Sacramento suburb. Foundation conditions shift with the hillside terrain, older homes carry decades of DIY additions that rarely meet current code, and Placer County's permitting office has its own rhythm. TDI USA, Inc. has been navigating exactly these conditions since 1985, and that depth of experience shapes every project we take on in Loomis.
 
 ## Why Loomis Properties Present Unique Renovation Challenges
 
@@ -52,4 +52,4 @@ Some Loomis neighborhoods, particularly newer planned communities near the I-80 
 
 One pattern we've observed consistently in Loomis's older hillside properties: original septic systems and their leach fields are often closer to the home's foundation than current setback standards would allow. When a remodel involves expanding the footprint, adding a room, extending a deck, or converting a garage, a septic evaluation is worth doing early. Placer County Environmental Health may require a system upgrade or relocation as a condition of the building permit, and discovering that late in the design phase is an expensive reset. We flag this at the walkthrough stage so it's a known variable, not a surprise.
 
-If your Loomis home is ready for a renovation, remodel, or a ground-up general contracting project, call TDI Builders, Inc. at (877) 688-0866. We'll schedule a walkthrough, give you an honest assessment of what the project involves in this specific location, and build a scope that accounts for Placer County's requirements from day one.
+If your Loomis home is ready for a renovation, remodel, or a ground-up general contracting project, call TDI USA, Inc. at (877) 688-0866. We'll schedule a walkthrough, give you an honest assessment of what the project involves in this specific location, and build a scope that accounts for Placer County's requirements from day one.

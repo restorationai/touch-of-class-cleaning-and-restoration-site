@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Granite Bay, CA | TDI Builders, Inc."
+title: "Bathroom Remodeling in Granite Bay, CA | TDI USA, Inc."
 h1: "Bathroom Remodeling in Granite Bay"
 meta_description: "Trusted bathroom remodeling in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling granite bay"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Bathroom Remodeling"
 rendered: true
 ---
-Granite Bay sits in one of Placer County's most desirable corridors, where large custom homes, established neighborhoods, and a warm, dry Sierra foothill climate converge. That combination creates a specific set of conditions for bathroom remodeling that goes well beyond swapping tile and fixtures. Homes here were often built with generous square footage and high-end original finishes, which means a remodel has to meet an elevated standard, and the existing plumbing and framing beneath those finishes can surprise even experienced crews. TDI Builders, Inc. has been navigating exactly these kinds of projects since 1985.
+Granite Bay sits in one of Placer County's most desirable corridors, where large custom homes, established neighborhoods, and a warm, dry Sierra foothill climate converge. That combination creates a specific set of conditions for bathroom remodeling that goes well beyond swapping tile and fixtures. Homes here were often built with generous square footage and high-end original finishes, which means a remodel has to meet an elevated standard, and the existing plumbing and framing beneath those finishes can surprise even experienced crews. TDI USA, Inc. has been navigating exactly these kinds of projects since 1985.
 
 ## Why Granite Bay Homes Present Unique Bathroom Remodeling Conditions
 
@@ -38,7 +38,7 @@ From there, the process moves through permitting with Placer County Building Ser
 
 ## Reaching Granite Bay from Sacramento
 
-TDI Builders operates out of Sacramento and reaches Granite Bay regularly for both remodeling consultations and active project management. The most direct route follows Interstate 80 east to Douglas Boulevard, which runs directly into the heart of the community. Depending on traffic on I-80 through Roseville, the drive is straightforward and allows our project managers to make site visits without the scheduling friction that comes with more remote Placer County locations.
+TDI USA operates out of Sacramento and reaches Granite Bay regularly for both remodeling consultations and active project management. The most direct route follows Interstate 80 east to Douglas Boulevard, which runs directly into the heart of the community. Depending on traffic on I-80 through Roseville, the drive is straightforward and allows our project managers to make site visits without the scheduling friction that comes with more remote Placer County locations.
 
 Because we maintain 24/7 availability, scheduling initial consultations or addressing mid-project questions isn't constrained to a narrow business-hours window, a practical advantage when homeowners are managing a remodel around work and family schedules.
 
@@ -46,4 +46,4 @@ Because we maintain 24/7 availability, scheduling initial consultations or addre
 
 One thing that catches out-of-area contractors working in Granite Bay: many of the larger custom homes built in the late 1990s used oversized master bath layouts with multiple wet zones, a soaking tub, a separate walk-in shower, and a water closet, each on its own drain run. When those homes were built, the drain rough-in was sized for that original configuration. If a remodel eliminates the soaking tub in favor of an expanded shower, the existing drain location and pipe diameter may not be in the right position for the new layout. Relocating a drain in a slab-on-grade section of the home requires saw-cutting concrete, a step that adds time and cost that isn't always visible in a quote from a contractor who hasn't looked at the actual slab.
 
-Call TDI Builders at (877) 688-0866 to schedule a walkthrough of your Granite Bay bathroom. Whether you're converting a dated tub surround, reconfiguring a master bath layout, or doing a full shower remodel from the studs out, our team brings the licensing, insurance, and four decades of construction experience the project requires.
+Call TDI USA at (877) 688-0866 to schedule a walkthrough of your Granite Bay bathroom. Whether you're converting a dated tub surround, reconfiguring a master bath layout, or doing a full shower remodel from the studs out, our team brings the licensing, insurance, and four decades of construction experience the project requires.

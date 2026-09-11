@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Carmichael, CA | TDI Builders, Inc."
+title: "Bathroom Remodeling in Carmichael, CA | TDI USA, Inc."
 h1: "Bathroom Remodeling in Carmichael"
 meta_description: "Trusted bathroom remodeling in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling carmichael"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Bathroom Remodeling"
 rendered: true
 ---
-Carmichael's mix of mid-century ranch homes and tree-lined neighborhoods built out during Sacramento's postwar boom means a lot of bathrooms that haven't seen a meaningful update since avocado-green tile was in style. If your home sits on a slab poured in the 1950s or '60s, the plumbing rough-in, subfloor framing, and tile backer behind those walls may be well past their useful life, and a bathroom remodel is often the moment that reveals it. TDI Builders has been working through exactly these conditions across the Sacramento region since 1985, and Carmichael's particular housing stock shapes how we plan every job here.
+Carmichael's mix of mid-century ranch homes and tree-lined neighborhoods built out during Sacramento's postwar boom means a lot of bathrooms that haven't seen a meaningful update since avocado-green tile was in style. If your home sits on a slab poured in the 1950s or '60s, the plumbing rough-in, subfloor framing, and tile backer behind those walls may be well past their useful life, and a bathroom remodel is often the moment that reveals it. TDI USA has been working through exactly these conditions across the Sacramento region since 1985, and Carmichael's particular housing stock shapes how we plan every job here.
 
 ## Why Carmichael's Older Homes Shape Bathroom Remodel Projects
 
@@ -46,4 +46,4 @@ Master bath remodels in larger Carmichael homes often involve reconfiguring the 
 
 In Carmichael's older ranch-style homes, it's common to find the bathroom exhaust fan vented into the attic rather than through the roof or an exterior wall, a shortcut that was acceptable decades ago but traps moisture in the attic space over time. When we open up a bathroom ceiling during a remodel, we reroute the vent to terminate properly outside the building envelope. It adds a modest amount of work, but it prevents the kind of slow attic moisture damage that can go undetected for years in Sacramento's climate, where summer heat bakes the attic and winter rains drive humidity up.
 
-Ready to talk through your Carmichael bathroom project? Call TDI Builders at (877) 688-0866, we're available around the clock and have been working in the Sacramento region since 1985. Whether you're converting a tub, expanding a master bath, or doing a full gut remodel, we'll give you a clear picture of what the job actually involves before any work begins.
+Ready to talk through your Carmichael bathroom project? Call TDI USA at (877) 688-0866, we're available around the clock and have been working in the Sacramento region since 1985. Whether you're converting a tub, expanding a master bath, or doing a full gut remodel, we'll give you a clear picture of what the job actually involves before any work begins.

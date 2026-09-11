@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in Fair Oaks, CA | TDI Builders, Inc."
+title: "Home Remodeling in Fair Oaks, CA | TDI USA, Inc."
 h1: "Home Remodeling in Fair Oaks"
 meta_description: "Trusted home remodeling in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling fair oaks"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Home Remodeling"
 rendered: true
 ---
-Fair Oaks sits in that sweet spot of Sacramento County where mid-century ranch homes, older craftsman bungalows, and more recent infill construction all share the same tree-lined streets, and every one of those housing eras comes with its own remodeling puzzle. Whether you're opening up a 1960s kitchen that was built before open floor plans existed, or updating a bathroom that still has original cast-iron plumbing, TDI Builders, Inc. has been working through exactly these challenges since 1985. With roots in Sacramento and decades of experience across residential, commercial, and industrial projects, we bring the kind of hands-on knowledge that Fair Oaks homes genuinely require.
+Fair Oaks sits in that sweet spot of Sacramento County where mid-century ranch homes, older craftsman bungalows, and more recent infill construction all share the same tree-lined streets, and every one of those housing eras comes with its own remodeling puzzle. Whether you're opening up a 1960s kitchen that was built before open floor plans existed, or updating a bathroom that still has original cast-iron plumbing, TDI USA, Inc. has been working through exactly these challenges since 1985. With roots in Sacramento and decades of experience across residential, commercial, and industrial projects, we bring the kind of hands-on knowledge that Fair Oaks homes genuinely require.
 
 ## Why Fair Oaks Homes Present Unique Remodeling Conditions
 
@@ -44,4 +44,4 @@ Fair Oaks is a straightforward run from our Sacramento headquarters, typically v
 
 One thing that catches Fair Oaks homeowners off guard: many of the homes built in the 1960s and 1970s used popcorn ceilings with texture compounds that may contain asbestos, and California regulations require testing and proper abatement before any disturbance during a remodel. This isn't a scare tactic; it's a permitting reality. Sacramento County inspectors are familiar with the vintage of housing stock in communities like Fair Oaks, and they will flag unpermitted work that disturbs suspect materials. Addressing this in the planning phase, rather than mid-project, keeps your timeline intact and your project on the right side of state and county requirements.
 
-If you're ready to talk through what a remodel actually looks like for your Fair Oaks home, the real scope, the real timeline, the real cost factors, call TDI Builders, Inc. at (877) 688-0866. We've been doing this work since 1985, and we're available any time you're ready to start the conversation.
+If you're ready to talk through what a remodel actually looks like for your Fair Oaks home, the real scope, the real timeline, the real cost factors, call TDI USA, Inc. at (877) 688-0866. We've been doing this work since 1985, and we're available any time you're ready to start the conversation.

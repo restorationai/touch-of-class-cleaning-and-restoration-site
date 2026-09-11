@@ -71,4 +71,4 @@ Once the work passes inspection, your contractor should provide you with warrant
 
 ---
 
-Storm damage rarely stays contained to the obvious point of entry, and the repair process is more layered than it looks from the outside. If you are working through damage from a recent storm and want to understand what a full inspection and scope would involve for your property, TDI Builders, Inc. works with Sacramento-area homeowners on storm damage restoration and roofing repair from the first call through the final walkthrough. Reach them at (877) 688-0866.
+Storm damage rarely stays contained to the obvious point of entry, and the repair process is more layered than it looks from the outside. If you are working through damage from a recent storm and want to understand what a full inspection and scope would involve for your property, TDI USA, Inc. works with Sacramento-area homeowners on storm damage restoration and roofing repair from the first call through the final walkthrough. Reach them at (877) 688-0866.

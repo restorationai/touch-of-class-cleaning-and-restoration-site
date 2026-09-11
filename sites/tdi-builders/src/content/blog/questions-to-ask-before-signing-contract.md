@@ -84,4 +84,4 @@ California law provides implied warranties on construction work, but written war
 
 Take the contract home. Read it in full. If something is unclear, ask for it in plain language, and if the clarification doesn't make it into the document, it doesn't count. A contractor who pressures you to sign at the table is a contractor who benefits from you not reading carefully.
 
-If you're working on a general contracting project in the Sacramento area and want to talk through scope, timeline, or what a realistic contract should look like, TDI Builders, Inc. is available at (877) 688-0866. There's no obligation in asking questions, that's true whether you're asking us or any other contractor on your list.
+If you're working on a general contracting project in the Sacramento area and want to talk through scope, timeline, or what a realistic contract should look like, TDI USA, Inc. is available at (877) 688-0866. There's no obligation in asking questions, that's true whether you're asking us or any other contractor on your list.

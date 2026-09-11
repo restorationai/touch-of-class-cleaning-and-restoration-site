@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Fire and Smoke Damage Rebuilding in Granite Bay, CA | TDI Builders, Inc."
+title: "Fire and Smoke Damage Rebuilding in Granite Bay, CA | TDI USA, Inc."
 h1: "Fire and Smoke Damage Rebuilding in Granite Bay"
 meta_description: "Trusted fire and smoke damage rebuilding in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "fire and smoke damage rebuilding granite bay"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Fire and Smoke Damage Rebuilding"
 rendered: true
 ---
-Granite Bay sits in a fire-prone corridor where dry Sierra Nevada foothills meet the suburban edge of Placer County, and when a structure fire moves through a home here, it rarely leaves behind a clean story. Smoke infiltrates attic insulation, char works into the framing of wood-heavy custom builds, and the region's low-humidity summers bake odor compounds deep into porous materials before a rebuild crew ever sets foot on the lot. TDI Builders, Inc. has been handling fire and smoke damage rebuilding since 1985, and the work in this part of the Sacramento foothills demands a different checklist than a flat-valley job.
+Granite Bay sits in a fire-prone corridor where dry Sierra Nevada foothills meet the suburban edge of Placer County, and when a structure fire moves through a home here, it rarely leaves behind a clean story. Smoke infiltrates attic insulation, char works into the framing of wood-heavy custom builds, and the region's low-humidity summers bake odor compounds deep into porous materials before a rebuild crew ever sets foot on the lot. TDI USA, Inc. has been handling fire and smoke damage rebuilding since 1985, and the work in this part of the Sacramento foothills demands a different checklist than a flat-valley job.
 
 ## Why Granite Bay Properties Present Specific Fire Rebuild Challenges
 
@@ -46,4 +46,4 @@ On the insurance side, fire claims in this region often involve large replacemen
 
 Granite Bay's custom homes from the late 1980s and 1990s frequently used oriented strand board (OSB) sheathing in combination with stucco exteriors, a wall assembly that absorbs smoke odor differently than modern zip-system construction. The OSB layer can hold volatile organic compounds even after the stucco face is cleaned, which means odor returns weeks after a surface-only treatment. When we scope a rebuild on a home from that era, we plan for full sheathing replacement in affected wall sections rather than treating the exterior face alone. It costs more upfront and saves a second mobilization later.
 
-If you're working through a fire loss in Granite Bay, call TDI Builders, Inc. at (877) 688-0866. We're available around the clock, and we can begin scoping your rebuild as soon as the structure is cleared for entry.
+If you're working through a fire loss in Granite Bay, call TDI USA, Inc. at (877) 688-0866. We're available around the clock, and we can begin scoping your rebuild as soon as the structure is cleared for entry.

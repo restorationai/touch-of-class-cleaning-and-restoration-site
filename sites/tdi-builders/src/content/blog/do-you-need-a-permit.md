@@ -81,4 +81,4 @@ If your project falls into any of the permit-required categories above, especial
 
 For projects like home remodeling or room additions, the permit process is built into the project timeline from the start, not bolted on at the end. That's the difference between a project that closes cleanly and one that creates problems when you eventually sell.
 
-If you're trying to figure out whether your specific project needs a permit, or you're ready to move forward with a remodel or addition in the Sacramento area, TDI Builders, Inc. can walk you through the process. Call (877) 688-0866 to talk through your project.
+If you're trying to figure out whether your specific project needs a permit, or you're ready to move forward with a remodel or addition in the Sacramento area, TDI USA, Inc. can walk you through the process. Call (877) 688-0866 to talk through your project.

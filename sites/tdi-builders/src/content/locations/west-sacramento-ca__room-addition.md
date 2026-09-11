@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in West Sacramento, CA | TDI Builders, Inc."
+title: "Room Additions and Home Additions in West Sacramento, CA | TDI USA, Inc."
 h1: "Room Additions and Home Additions in West Sacramento"
 meta_description: "Trusted room additions and home additions in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions west sacramento"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-West Sacramento sits on the western bank of the Sacramento River, separated from the state capital by water but connected to it by a housing market that keeps pushing families to expand in place rather than move. Whether you're in a postwar ranch on the flatlands near the river or a newer build closer to the Raley Field corridor, the decision to add square footage, a primary suite, a guest room, an expanded kitchen, runs into a set of local realities that don't show up on a national contractor's checklist. TDI Builders has been working through those realities since 1985, and the team that handles West Sacramento additions crosses the river regularly from our Sacramento headquarters.
+West Sacramento sits on the western bank of the Sacramento River, separated from the state capital by water but connected to it by a housing market that keeps pushing families to expand in place rather than move. Whether you're in a postwar ranch on the flatlands near the river or a newer build closer to the Raley Field corridor, the decision to add square footage, a primary suite, a guest room, an expanded kitchen, runs into a set of local realities that don't show up on a national contractor's checklist. TDI USA has been working through those realities since 1985, and the team that handles West Sacramento additions crosses the river regularly from our Sacramento headquarters.
 
 ## Why West Sacramento's Building Stock and Soil Shape Every Addition
 
@@ -44,4 +44,4 @@ TDI's Sacramento headquarters puts West Sacramento within easy reach via the Tow
 
 One thing that catches West Sacramento homeowners off guard: the City of West Sacramento and the City of Sacramento are separate municipalities with separate building departments, separate permit portals, and separate inspection schedules. A contractor who primarily pulls permits in Sacramento proper may not be familiar with West Sacramento's specific submittal requirements or the Yolo County assessor's process for updating records after an addition is finaled. TDI has worked on both sides of the river long enough that this distinction is built into how we set up every project, the right forms go to the right office from the start, which keeps inspections on schedule and avoids the delay that comes from resubmitting to the wrong jurisdiction.
 
-If you're ready to talk through what adding square footage to your West Sacramento home actually involves, not a ballpark, but a real conversation about your specific lot and structure, call TDI Builders at (877) 688-0866. We've been doing this work since 1985, and we'll give you a straight answer about what's possible and what it takes to get there.
+If you're ready to talk through what adding square footage to your West Sacramento home actually involves, not a ballpark, but a real conversation about your specific lot and structure, call TDI USA at (877) 688-0866. We've been doing this work since 1985, and we'll give you a straight answer about what's possible and what it takes to get there.

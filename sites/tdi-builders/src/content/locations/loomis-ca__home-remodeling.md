@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in Loomis, CA | TDI Builders, Inc."
+title: "Home Remodeling in Loomis, CA | TDI USA, Inc."
 h1: "Home Remodeling in Loomis"
 meta_description: "Trusted home remodeling in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling loomis"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Home Remodeling"
 rendered: true
 ---
-Loomis sits in that particular band of the Sierra Nevada foothills where hot, dry summers push interior temperatures past 100°F and winter storms roll in off the mountains with enough moisture to work into wood framing, stucco, and older foundations. Remodeling a home here isn't the same calculation as remodeling in the flatlands of the Sacramento Valley, the climate swings are wider, the housing stock is a mix of mid-century ranch homes and newer custom builds on larger lots, and the rural-suburban character of the community shapes everything from permit timelines to material choices. TDI Builders, Inc. has been navigating exactly these kinds of conditions since 1985.
+Loomis sits in that particular band of the Sierra Nevada foothills where hot, dry summers push interior temperatures past 100°F and winter storms roll in off the mountains with enough moisture to work into wood framing, stucco, and older foundations. Remodeling a home here isn't the same calculation as remodeling in the flatlands of the Sacramento Valley, the climate swings are wider, the housing stock is a mix of mid-century ranch homes and newer custom builds on larger lots, and the rural-suburban character of the community shapes everything from permit timelines to material choices. TDI USA, Inc. has been navigating exactly these kinds of conditions since 1985.
 
 ## Why Loomis Homes Present Distinct Remodeling Conditions
 
@@ -38,10 +38,10 @@ Material selection is also climate-informed. For exterior work, we lean toward f
 
 ## Reaching Loomis from Sacramento
 
-The TDI Builders team is based in Sacramento, and Loomis is a straightforward run up Interstate 80, roughly 30 miles northeast, with the Horseshoe Bar Road and Sierra College Boulevard exits serving most of the residential areas in and around town. For project consultations and scheduled work, our crews are on the road early and available around the clock. Whether a homeowner needs a pre-construction walkthrough on a weekday morning or a callback on a weekend to discuss a scope change, the line is open.
+The TDI USA team is based in Sacramento, and Loomis is a straightforward run up Interstate 80, roughly 30 miles northeast, with the Horseshoe Bar Road and Sierra College Boulevard exits serving most of the residential areas in and around town. For project consultations and scheduled work, our crews are on the road early and available around the clock. Whether a homeowner needs a pre-construction walkthrough on a weekday morning or a callback on a weekend to discuss a scope change, the line is open.
 
 ## Local Note
 
 One thing that catches homeowners off guard in the Loomis area: many of the larger-lot properties along the rural roads northeast of downtown were built with septic systems rather than municipal sewer connections, and those systems are often located in spots that weren't mapped with future additions in mind. Before any remodel that adds square footage, a bathroom, or a laundry room, it's worth verifying the septic capacity and drain field location, because a permitted addition that overloads an undersized system creates a far more expensive problem than the remodel itself. We flag this in the early walkthrough so it doesn't surface as a surprise mid-project.
 
-If your home in Loomis is ready for a renovation, whether that's a single room, a full interior overhaul, or a structural addition, call TDI Builders, Inc. at (877) 688-0866. We're licensed and insured, and with more than 40 years of construction experience across residential, commercial, and industrial projects, we know how to bring a foothill home up to the standard it deserves.
+If your home in Loomis is ready for a renovation, whether that's a single room, a full interior overhaul, or a structural addition, call TDI USA, Inc. at (877) 688-0866. We're licensed and insured, and with more than 40 years of construction experience across residential, commercial, and industrial projects, we know how to bring a foothill home up to the standard it deserves.

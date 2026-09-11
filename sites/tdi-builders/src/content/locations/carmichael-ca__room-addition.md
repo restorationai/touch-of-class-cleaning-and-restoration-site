@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Carmichael, CA | TDI Builders, Inc."
+title: "Room Additions and Home Additions in Carmichael, CA | TDI USA, Inc."
 h1: "Room Additions and Home Additions in Carmichael"
 meta_description: "Trusted room additions and home additions in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions carmichael"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-Carmichael's established neighborhoods sit on some of Sacramento County's most desirable residential land, mature trees, generous lots, and a housing stock that spans mid-century ranch homes to newer infill construction. That variety is exactly what makes room additions and home additions here more nuanced than a simple square-footage calculation. Whether you're expanding a 1960s ranch on a deep lot or adding a second story to a post-war bungalow, the local conditions, clay-heavy soils, Sacramento Valley heat, and Sacramento County permitting, shape every phase of the project. TDI Builders, Inc. has been navigating those variables since 1985.
+Carmichael's established neighborhoods sit on some of Sacramento County's most desirable residential land, mature trees, generous lots, and a housing stock that spans mid-century ranch homes to newer infill construction. That variety is exactly what makes room additions and home additions here more nuanced than a simple square-footage calculation. Whether you're expanding a 1960s ranch on a deep lot or adding a second story to a post-war bungalow, the local conditions, clay-heavy soils, Sacramento Valley heat, and Sacramento County permitting, shape every phase of the project. TDI USA, Inc. has been navigating those variables since 1985.
 
 ## Why Carmichael Homes Present Unique Addition Challenges
 
@@ -48,4 +48,4 @@ We're familiar with both processes and can help you sequence them correctly. Sub
 
 Carmichael's older ranch homes frequently have original 100-amp electrical service, adequate for the home as built in 1962, but not for a home addition that adds a bathroom, a mini-split system, and a home office circuit. Sacramento Municipal Utility District (SMUD) serves most of Carmichael, and a service upgrade to 200 amps requires a SMUD coordination step separate from the County permit process. We flag this early in the design phase so the utility upgrade is scheduled in parallel with permit review rather than discovered on framing day.
 
-If you're ready to add the space your Carmichael home needs, whether that's a primary suite, a ground-floor family room bump-out, or a full second-story addition, call TDI Builders, Inc. at (877) 688-0866. We're available around the clock, and the conversation starts with a straightforward site assessment, not a sales pitch.
+If you're ready to add the space your Carmichael home needs, whether that's a primary suite, a ground-floor family room bump-out, or a full second-story addition, call TDI USA, Inc. at (877) 688-0866. We're available around the clock, and the conversation starts with a straightforward site assessment, not a sales pitch.

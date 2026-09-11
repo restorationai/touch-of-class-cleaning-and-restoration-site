@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in Rancho Cordova, CA | TDI Builders, Inc."
+title: "Home Remodeling in Rancho Cordova, CA | TDI USA, Inc."
 h1: "Home Remodeling in Rancho Cordova"
 meta_description: "Trusted home remodeling in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling rancho cordova"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Home Remodeling"
 rendered: true
 ---
-Rancho Cordova sits in one of the Sacramento Valley's fastest-growing corridors, and the housing stock reflects that layered history, post-war tract homes from the 1950s and 60s alongside newer infill construction and commercial conversions near Folsom Boulevard. If you're planning a home remodel here, that mix of eras means your project may uncover surprises behind the drywall that a contractor working only in newer subdivisions simply won't anticipate. TDI Builders, Inc. has been navigating exactly this kind of complexity since 1985, and the work we do in Rancho Cordova is shaped by what the city's homes actually are, not a generic template.
+Rancho Cordova sits in one of the Sacramento Valley's fastest-growing corridors, and the housing stock reflects that layered history, post-war tract homes from the 1950s and 60s alongside newer infill construction and commercial conversions near Folsom Boulevard. If you're planning a home remodel here, that mix of eras means your project may uncover surprises behind the drywall that a contractor working only in newer subdivisions simply won't anticipate. TDI USA, Inc. has been navigating exactly this kind of complexity since 1985, and the work we do in Rancho Cordova is shaped by what the city's homes actually are, not a generic template.
 
 ## Why Rancho Cordova's Housing Stock Shapes Every Remodel
 
@@ -44,4 +44,4 @@ HOA requirements are common in planned communities throughout the area, particul
 
 Homes built in Rancho Cordova during the late 1950s and 1960s frequently used a fiber-reinforced drywall compound that was common in California tract construction of that era. It looks like standard drywall mud, but it sands differently and doesn't accept primer the same way modern joint compound does. Contractors who aren't familiar with it sometimes end up with finish coats that flash, meaning the sheen looks uneven under raking light, and have to re-prime and repaint entire rooms. Knowing what's on the walls before the painting crew shows up saves a callback.
 
-If you're ready to move forward on a whole home remodel or a targeted interior renovation in Rancho Cordova, call TDI Builders, Inc. at (877) 688-0866. We're available around the clock, and we've been doing this work in the Sacramento region since 1985, long enough to know what's behind the walls before we open them.
+If you're ready to move forward on a whole home remodel or a targeted interior renovation in Rancho Cordova, call TDI USA, Inc. at (877) 688-0866. We're available around the clock, and we've been doing this work in the Sacramento region since 1985, long enough to know what's behind the walls before we open them.

@@ -102,10 +102,10 @@ Before you hire, get three things in order: a clear scope, a verified license, a
 
 If you're comparing bids and they're coming back thousands of dollars apart, read [How To Choose a General Contractor](/blog/choosing-a-general-contractor/) before you decide on price alone.
 
-For projects in the Sacramento region and surrounding areas, TDI Builders, Inc. handles [general contracting](/services/general-contracting/) across residential and commercial work, from kitchen and bathroom remodels to room additions and new construction. Licensed and insured, with more than 40 years of construction experience in California.
+For projects in the Sacramento region and surrounding areas, TDI USA, Inc. handles [general contracting](/services/general-contracting/) across residential and commercial work, from kitchen and bathroom remodels to room additions and new construction. Licensed and insured, with more than 40 years of construction experience in California.
 
 ---
 
-**About TDI Builders, Inc.**
+**About TDI USA, Inc.**
 
-TDI Builders, Inc. is a licensed and insured general contractor based in Sacramento, CA, serving homeowners and commercial clients throughout the region since 1985. With more than 40 years of construction and rebuilding experience, their crews handle general contracting, home remodeling, room additions, new construction, and insurance rebuilds across Sacramento, Roseville, Folsom, Elk Grove, and surrounding communities. TDI Builders holds a California contractor's license and carries full general liability and workers' compensation coverage.
+TDI USA, Inc. is a licensed and insured general contractor based in Sacramento, CA, serving homeowners and commercial clients throughout the region since 1985. With more than 40 years of construction and rebuilding experience, their crews handle general contracting, home remodeling, room additions, new construction, and insurance rebuilds across Sacramento, Roseville, Folsom, Elk Grove, and surrounding communities. TDI USA holds a California contractor's license and carries full general liability and workers' compensation coverage.

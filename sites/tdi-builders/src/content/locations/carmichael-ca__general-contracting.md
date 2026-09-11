@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Renovations, Remodels and General Contracting in Carmichael, CA | TDI Builders, Inc."
+title: "Renovations, Remodels and General Contracting in Carmichael, CA | TDI USA, Inc."
 h1: "Renovations, Remodels and General Contracting in Carmichael"
 meta_description: "Trusted renovations, remodels and general contracting in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "renovations, remodels and general contracting carmichael"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Carmichael sits in that sweet spot between Sacramento's urban core and the quieter foothill communities to the east, a community of established neighborhoods where mid-century ranch homes, post-war bungalows, and 1970s tract houses all stand side by side. Renovating or remodeling in that kind of housing stock takes more than a general contractor who can swing a hammer; it takes one who understands what's inside those walls before the drywall comes down. TDI Builders, Inc. has been doing exactly that kind of work since 1985, and the Sacramento region, Carmichael included, is home territory.
+Carmichael sits in that sweet spot between Sacramento's urban core and the quieter foothill communities to the east, a community of established neighborhoods where mid-century ranch homes, post-war bungalows, and 1970s tract houses all stand side by side. Renovating or remodeling in that kind of housing stock takes more than a general contractor who can swing a hammer; it takes one who understands what's inside those walls before the drywall comes down. TDI USA, Inc. has been doing exactly that kind of work since 1985, and the Sacramento region, Carmichael included, is home territory.
 
 ## Why Carmichael's Housing Stock Shapes Every Remodel
 
@@ -32,7 +32,7 @@ The Sacramento Valley's climate adds another layer. Carmichael summers push temp
 
 Every project starts with a scope-of-work walkthrough on site. For older Carmichael homes, that means looking behind the obvious, checking subfloor condition before committing to new flooring, verifying that the existing framing can carry a load-bearing change, confirming panel capacity before specifying new appliances or an EV charger in the garage.
 
-From there, the process moves through design coordination, permitting with Sacramento County (which handles most of unincorporated Carmichael), subcontractor scheduling, and inspections. TDI Builders carries the license and insurance to self-perform across commercial, industrial, and residential scopes, which means fewer handoffs and a single point of accountability from demo through final walkthrough. Homeowners who have managed multiple subcontractors on their own know how quickly that coordination becomes a part-time job, we handle it so they don't have to.
+From there, the process moves through design coordination, permitting with Sacramento County (which handles most of unincorporated Carmichael), subcontractor scheduling, and inspections. TDI USA carries the license and insurance to self-perform across commercial, industrial, and residential scopes, which means fewer handoffs and a single point of accountability from demo through final walkthrough. Homeowners who have managed multiple subcontractors on their own know how quickly that coordination becomes a part-time job, we handle it so they don't have to.
 
 For larger projects, full kitchen and bath gut-renovations, additions, ADU conversions, we build a phased schedule that accounts for Sacramento County's inspection timelines and keeps the home livable as long as possible during construction.
 
@@ -40,10 +40,10 @@ For larger projects, full kitchen and bath gut-renovations, additions, ADU conve
 
 Much of Carmichael is unincorporated Sacramento County rather than an incorporated city, which means permitting runs through Sacramento County's Planning and Building Department rather than a city building department. That distinction matters: county review timelines, fee structures, and code interpretations can differ from what homeowners expect if they've remodeled in a neighboring incorporated city like Rancho Cordova or Citrus Heights.
 
-Some Carmichael neighborhoods also fall under HOA covenants that govern exterior finishes, roofline changes, and fence heights. Before any exterior work begins, it's worth confirming whether the property is subject to CC&Rs, a step that can prevent costly re-work if an HOA requires design review approval before a permit is even submitted. TDI Builders coordinates that review process as part of pre-construction planning.
+Some Carmichael neighborhoods also fall under HOA covenants that govern exterior finishes, roofline changes, and fence heights. Before any exterior work begins, it's worth confirming whether the property is subject to CC&Rs, a step that can prevent costly re-work if an HOA requires design review approval before a permit is even submitted. TDI USA coordinates that review process as part of pre-construction planning.
 
 ## Local Note
 
 Carmichael has a notable concentration of homes built on post-and-pier or raised foundations rather than slab, particularly in the older neighborhoods closer to the American River corridor. That foundation type gives excellent access for plumbing and electrical upgrades, but it also means subfloor assemblies are exposed to the underhouse environment year-round. Before adding tile or hardwood over an existing subfloor in one of these homes, it's worth having the crawl space inspected for moisture intrusion and wood deterioration. What looks like a straightforward flooring swap on the surface can involve subfloor sistering or vapor barrier work underneath, and catching that before demolition starts keeps the project on schedule and on budget.
 
-If you're planning a renovation in Carmichael and want a contractor who has worked in Sacramento County's permitting environment long enough to anticipate the friction points, call TDI Builders at (877) 688-0866. We're available around the clock, and a real conversation about your project scope costs nothing.
+If you're planning a renovation in Carmichael and want a contractor who has worked in Sacramento County's permitting environment long enough to anticipate the friction points, call TDI USA at (877) 688-0866. We're available around the clock, and a real conversation about your project scope costs nothing.

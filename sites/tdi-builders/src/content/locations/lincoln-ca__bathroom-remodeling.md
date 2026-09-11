@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Lincoln, CA | TDI Builders, Inc."
+title: "Bathroom Remodeling in Lincoln, CA | TDI USA, Inc."
 h1: "Bathroom Remodeling in Lincoln"
 meta_description: "Trusted bathroom remodeling in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling lincoln"
@@ -38,10 +38,10 @@ For tub-to-shower conversions specifically, we assess whether the existing drain
 
 ## Reaching Lincoln from Our Sacramento Base
 
-TDI Builders operates out of Sacramento, and Lincoln is a straightforward run up Highway 65 from the metro area. We schedule project consultations and crew mobilization to account for the commute, and because we operate around the clock, scheduling flexibility is real, not a marketing line. If a project hits an unexpected snag mid-demo that needs an immediate decision, we're reachable and can get someone back on-site without waiting for the next business day.
+TDI USA operates out of Sacramento, and Lincoln is a straightforward run up Highway 65 from the metro area. We schedule project consultations and crew mobilization to account for the commute, and because we operate around the clock, scheduling flexibility is real, not a marketing line. If a project hits an unexpected snag mid-demo that needs an immediate decision, we're reachable and can get someone back on-site without waiting for the next business day.
 
 ## Local Note: What Lincoln's Slab Construction Means for Your Remodel
 
 A large share of Lincoln's residential construction, particularly in communities developed during the growth booms of the late 1990s and 2000s, sits on post-tension concrete slabs. This matters for bathroom remodels because moving a drain in a post-tension slab is a different operation than cutting a standard slab: the location of the tensioning cables has to be confirmed before any concrete work begins, typically using a cable-locating service. Skipping that step risks cutting a cable, which is a structural repair that dwarfs the cost of the bathroom project itself. We factor this into the planning phase on any Lincoln job where drain relocation is on the table, it's the kind of detail that separates a smooth remodel from an expensive detour.
 
-If you're ready to move forward on a bathroom renovation in Lincoln, whether that's a full master bath gut-and-rebuild, a tub-to-shower conversion, or a targeted refresh of fixtures and tile, call TDI Builders at (877) 688-0866. With over 40 years of construction experience and a licensed, insured team that works across residential, commercial, and industrial projects, we bring the same level of process discipline to a single bathroom that we apply to large-scale rebuilds.
+If you're ready to move forward on a bathroom renovation in Lincoln, whether that's a full master bath gut-and-rebuild, a tub-to-shower conversion, or a targeted refresh of fixtures and tile, call TDI USA at (877) 688-0866. With over 40 years of construction experience and a licensed, insured team that works across residential, commercial, and industrial projects, we bring the same level of process discipline to a single bathroom that we apply to large-scale rebuilds.

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in Folsom, CA | TDI Builders, Inc."
+title: "Home Remodeling in Folsom, CA | TDI USA, Inc."
 h1: "Home Remodeling in Folsom"
 meta_description: "Trusted home remodeling in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling folsom"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Home Remodeling"
 rendered: true
 ---
-Folsom's rapid growth over the past two decades has left the city with a fascinating mix of housing stock, newer master-planned communities with strict HOA design standards sitting alongside older ranch-style homes built during the city's pre-incorporation era. Whether you're updating a 1970s split-level near the historic district or reconfiguring an open floor plan in a newer development, a home remodel here requires someone who understands both the local permitting environment and the specific construction methods common to Sacramento foothills communities. TDI Builders, Inc. has been navigating exactly these kinds of projects since 1985.
+Folsom's rapid growth over the past two decades has left the city with a fascinating mix of housing stock, newer master-planned communities with strict HOA design standards sitting alongside older ranch-style homes built during the city's pre-incorporation era. Whether you're updating a 1970s split-level near the historic district or reconfiguring an open floor plan in a newer development, a home remodel here requires someone who understands both the local permitting environment and the specific construction methods common to Sacramento foothills communities. TDI USA, Inc. has been navigating exactly these kinds of projects since 1985.
 
 ## Why Folsom's Housing Stock Shapes Every Remodel
 
@@ -44,4 +44,4 @@ We recommend identifying your HOA's submission deadlines early. Many boards meet
 
 Folsom's foothill location means homes built on sloped lots, particularly those backing up to the American River Parkway corridor or positioned on the ridgelines above Lake Natoma, often have split-level or daylight-basement configurations that create unique structural considerations. The downhill side of these homes can have exposed foundation walls that are prone to moisture intrusion during the wet season, and any remodel that touches those lower-level spaces should include a moisture assessment before new finishes go in. Ignoring that step and finishing a basement-level room without addressing the drainage plane is one of the more common sources of callback work we see in foothill communities like this one.
 
-If you're planning a remodel in Folsom and want a straight conversation about scope, timeline, and what the permitting process actually looks like for your specific project, call TDI Builders, Inc. at (877) 688-0866. We're available around the clock, and we'd rather answer your questions early than have you discover surprises mid-demolition.
+If you're planning a remodel in Folsom and want a straight conversation about scope, timeline, and what the permitting process actually looks like for your specific project, call TDI USA, Inc. at (877) 688-0866. We're available around the clock, and we'd rather answer your questions early than have you discover surprises mid-demolition.

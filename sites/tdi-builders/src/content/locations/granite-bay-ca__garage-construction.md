@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Granite Bay, CA | TDI Builders, Inc."
+title: "Garage Construction in Granite Bay, CA | TDI USA, Inc."
 h1: "Garage Construction in Granite Bay"
 meta_description: "Trusted garage construction in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction granite bay"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Garage Construction"
 rendered: true
 ---
-Granite Bay sits in the western Sierra Nevada foothills where long, dry summers bake the clay-heavy soils and wet winters can shift foundations in ways that catch homeowners off guard years later. That soil behavior matters when you're planning a garage, whether you're adding a detached workshop behind a custom home or converting an existing space into a finished two-car structure. TDI Builders, Inc. has been navigating those site conditions and the Placer County permitting process since 1985, and the work we do here reflects what this specific community actually requires.
+Granite Bay sits in the western Sierra Nevada foothills where long, dry summers bake the clay-heavy soils and wet winters can shift foundations in ways that catch homeowners off guard years later. That soil behavior matters when you're planning a garage, whether you're adding a detached workshop behind a custom home or converting an existing space into a finished two-car structure. TDI USA, Inc. has been navigating those site conditions and the Placer County permitting process since 1985, and the work we do here reflects what this specific community actually requires.
 
 ## Why Garage Construction in Granite Bay Requires Local Know-How
 
@@ -40,7 +40,7 @@ Detached garages on larger Granite Bay lots often include secondary uses: worksh
 
 ## Reaching Granite Bay from Sacramento
 
-TDI Builders is based in Sacramento and serves Granite Bay regularly. The primary route runs east on I-80 to Douglas Boulevard or Auburn-Folsom Road, depending on the specific address. We're available around the clock, so scheduling a site visit or responding to a time-sensitive situation isn't constrained by business hours. Whether a project is in the western part of the community near the Douglas corridor or further east toward the Folsom Lake shoreline, our crews are familiar with the area's roads and access points.
+TDI USA is based in Sacramento and serves Granite Bay regularly. The primary route runs east on I-80 to Douglas Boulevard or Auburn-Folsom Road, depending on the specific address. We're available around the clock, so scheduling a site visit or responding to a time-sensitive situation isn't constrained by business hours. Whether a project is in the western part of the community near the Douglas corridor or further east toward the Folsom Lake shoreline, our crews are familiar with the area's roads and access points.
 
 ## Local Note
 
@@ -48,8 +48,8 @@ One thing that catches out-of-area contractors in Granite Bay: the mature valley
 
 ## Granite Bay HOA and Permit Coordination
 
-Because Granite Bay is unincorporated Placer County rather than a city, all building permits route through the county's Community Development Resource Agency. Plan check timelines vary by project complexity, and submitting complete, code-compliant drawings the first time is the fastest path through the queue. TDI Builders prepares permit packages that address structural, energy (Title 24 compliance is required for new conditioned space), and grading requirements upfront.
+Because Granite Bay is unincorporated Placer County rather than a city, all building permits route through the county's Community Development Resource Agency. Plan check timelines vary by project complexity, and submitting complete, code-compliant drawings the first time is the fastest path through the queue. TDI USA prepares permit packages that address structural, energy (Title 24 compliance is required for new conditioned space), and grading requirements upfront.
 
 For properties subject to HOA review, we provide the architectural documentation those boards typically request, elevations, material callouts, color samples, formatted to match what review committees expect. Coordinating both processes in parallel keeps your project moving.
 
-If you're ready to move forward with a garage addition, detached structure, or conversion on your Granite Bay property, call TDI Builders at (877) 688-0866. We'll schedule a site visit, walk through what Placer County and your HOA will require, and give you a realistic picture of timeline and scope before any commitments are made.
+If you're ready to move forward with a garage addition, detached structure, or conversion on your Granite Bay property, call TDI USA at (877) 688-0866. We'll schedule a site visit, walk through what Placer County and your HOA will require, and give you a realistic picture of timeline and scope before any commitments are made.

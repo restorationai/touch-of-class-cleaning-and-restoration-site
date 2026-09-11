@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Kitchen Remodeling in Citrus Heights, CA | TDI Builders, Inc."
+title: "Kitchen Remodeling in Citrus Heights, CA | TDI USA, Inc."
 h1: "Kitchen Remodeling in Citrus Heights"
 meta_description: "Trusted kitchen remodeling in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "kitchen remodeling citrus heights"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Kitchen Remodeling"
 rendered: true
 ---
-Citrus Heights kitchens take a beating that most remodeling guides don't account for. The Sacramento Valley's dry summers push indoor temperatures high enough that cabinet finishes expand and contract season after season, and the region's hard water leaves mineral buildup inside older supply lines that can complicate a plumbing rough-in mid-project. If your kitchen still has the original layout from the 1970s or 1980s, when much of Citrus Heights was built out, you're likely working around a galley footprint, drop-ceiling soffits, and laminate that has seen better decades. TDI Builders has been navigating exactly these conditions since 1985, and our team is available around the clock when project questions come up.
+Citrus Heights kitchens take a beating that most remodeling guides don't account for. The Sacramento Valley's dry summers push indoor temperatures high enough that cabinet finishes expand and contract season after season, and the region's hard water leaves mineral buildup inside older supply lines that can complicate a plumbing rough-in mid-project. If your kitchen still has the original layout from the 1970s or 1980s, when much of Citrus Heights was built out, you're likely working around a galley footprint, drop-ceiling soffits, and laminate that has seen better decades. TDI USA has been navigating exactly these conditions since 1985, and our team is available around the clock when project questions come up.
 
 ## Why Citrus Heights Kitchens Have Their Own Set of Challenges
 
@@ -46,4 +46,4 @@ If your property is part of a homeowners association, some HOAs in the Citrus He
 
 One pattern that shows up consistently in Citrus Heights homes built in the late 1970s and early 1980s: the kitchen soffit running above the upper cabinets is often structural in appearance but hollow inside, and homeowners assume removing it is simple. In practice, those soffits frequently conceal the main HVAC supply duct running from the furnace closet to the living areas. Removing the soffit without rerouting that duct kills airflow to the front of the house. We probe and photograph inside soffits before any design commits to an open-ceiling look, because rerouting ductwork mid-project is one of the more expensive surprises a kitchen remodel can produce.
 
-If your kitchen remodel in Citrus Heights is ready to move from idea to blueprint, call TDI Builders at (877) 688-0866. With more than 40 years of construction experience and a licensed, insured team that works across residential, commercial, and industrial projects, we bring the kind of process discipline that keeps a kitchen renovation on schedule and on budget, even when the walls have a few surprises waiting inside them.
+If your kitchen remodel in Citrus Heights is ready to move from idea to blueprint, call TDI USA at (877) 688-0866. With more than 40 years of construction experience and a licensed, insured team that works across residential, commercial, and industrial projects, we bring the kind of process discipline that keeps a kitchen renovation on schedule and on budget, even when the walls have a few surprises waiting inside them.

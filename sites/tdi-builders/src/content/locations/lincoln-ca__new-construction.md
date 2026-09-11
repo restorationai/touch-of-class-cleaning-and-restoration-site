@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "New Home Construction in Lincoln, CA | TDI Builders, Inc."
+title: "New Home Construction in Lincoln, CA | TDI USA, Inc."
 h1: "New Home Construction in Lincoln"
 meta_description: "Trusted new home construction in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "new home construction lincoln"
@@ -42,7 +42,7 @@ Every ground-up build we manage in Lincoln moves through the same disciplined se
 
 ## Reaching Lincoln from Sacramento
 
-TDI Builders operates out of Sacramento, and Lincoln is a straightforward run north on I-80 to Highway 65, a route our crews travel regularly for active projects in Placer County. We are available around the clock, so scheduling site visits, responding to construction questions, or addressing issues that come up mid-project is not constrained to a narrow business-hours window. If something needs attention on a job site, we can be there.
+TDI USA operates out of Sacramento, and Lincoln is a straightforward run north on I-80 to Highway 65, a route our crews travel regularly for active projects in Placer County. We are available around the clock, so scheduling site visits, responding to construction questions, or addressing issues that come up mid-project is not constrained to a narrow business-hours window. If something needs attention on a job site, we can be there.
 
 ## Local Note
 
@@ -50,4 +50,4 @@ One thing that catches out-of-area builders in Lincoln is the pace of Placer Cou
 
 ## Building Your Home in Lincoln
 
-Lincoln's growth means there is real demand for quality residential construction, and real competition among builders for the trades, materials, and inspection slots that every project depends on. With more than 40 years of construction and rebuilding experience across Northern California, TDI Builders brings the organizational depth to manage that competition on your behalf. If you are ready to build in Lincoln, call (877) 688-0866 and talk through what your project needs.
+Lincoln's growth means there is real demand for quality residential construction, and real competition among builders for the trades, materials, and inspection slots that every project depends on. With more than 40 years of construction and rebuilding experience across Northern California, TDI USA brings the organizational depth to manage that competition on your behalf. If you are ready to build in Lincoln, call (877) 688-0866 and talk through what your project needs.

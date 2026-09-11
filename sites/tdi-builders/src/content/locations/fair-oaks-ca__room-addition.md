@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Fair Oaks, CA | TDI Builders, Inc."
+title: "Room Additions and Home Additions in Fair Oaks, CA | TDI USA, Inc."
 h1: "Room Additions and Home Additions in Fair Oaks"
 meta_description: "Trusted room additions and home additions in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions fair oaks"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-Fair Oaks sits in a pocket of unincorporated Sacramento County where ranch-style homes built in the 1960s and 1970s share tree-lined streets with newer infill construction, and where families who have outgrown their floor plans are increasingly choosing to build out rather than move. A room addition or home addition here isn't a simple square-footage exercise. The mature oak canopy, the mix of lot sizes, and Sacramento County's permitting jurisdiction all shape what's possible and how long it takes. TDI Builders has been navigating exactly these conditions since 1985.
+Fair Oaks sits in a pocket of unincorporated Sacramento County where ranch-style homes built in the 1960s and 1970s share tree-lined streets with newer infill construction, and where families who have outgrown their floor plans are increasingly choosing to build out rather than move. A room addition or home addition here isn't a simple square-footage exercise. The mature oak canopy, the mix of lot sizes, and Sacramento County's permitting jurisdiction all shape what's possible and how long it takes. TDI USA has been navigating exactly these conditions since 1985.
 
 ## Why Fair Oaks Homes Are Well-Suited, and Occasionally Complicated, for Additions
 
@@ -30,16 +30,16 @@ Fair Oaks also sits in Sacramento County's unincorporated territory, which means
 
 ## Our Home Addition Process in Fair Oaks
 
-Every addition TDI Builders undertakes starts with a site assessment that goes beyond measuring the footprint. We look at the existing foundation type, the roof framing system, the location of load-bearing walls, and where utilities enter the structure. For Fair Oaks homes, we pay particular attention to the roof pitch, the low-pitched gable and hip roofs common on 1960s ranch homes require specific framing strategies when tying a new addition's roofline into the existing structure to avoid water intrusion at the connection point.
+Every addition TDI USA undertakes starts with a site assessment that goes beyond measuring the footprint. We look at the existing foundation type, the roof framing system, the location of load-bearing walls, and where utilities enter the structure. For Fair Oaks homes, we pay particular attention to the roof pitch, the low-pitched gable and hip roofs common on 1960s ranch homes require specific framing strategies when tying a new addition's roofline into the existing structure to avoid water intrusion at the connection point.
 
 From there, the process moves through design and engineering, Sacramento County permit submittal, foundation work, framing, rough mechanical and electrical, insulation, drywall, and finish work. We handle the full scope under one contract, no hand-off between a designer, a general contractor, and a finish crew. With more than 40 years of construction experience, the team knows which county inspectors look for what, and we schedule inspections to keep the project moving rather than letting it stall between phases.
 
 ## Reaching Fair Oaks from Our Sacramento Base
 
-TDI Builders operates out of Sacramento, and Fair Oaks is a straightforward drive east on Highway 50 to Hazel Avenue or Sunrise Boulevard, typically 20 to 30 minutes depending on time of day. We're available around the clock, so whether you want to walk the site on a Saturday morning or talk through a design question on a weeknight, reaching someone isn't a problem. For homeowners in the areas closer to the American River Parkway, we're familiar with the access routes and the way lot topography near the river bluffs can affect grading and drainage planning for ground-level additions.
+TDI USA operates out of Sacramento, and Fair Oaks is a straightforward drive east on Highway 50 to Hazel Avenue or Sunrise Boulevard, typically 20 to 30 minutes depending on time of day. We're available around the clock, so whether you want to walk the site on a Saturday morning or talk through a design question on a weeknight, reaching someone isn't a problem. For homeowners in the areas closer to the American River Parkway, we're familiar with the access routes and the way lot topography near the river bluffs can affect grading and drainage planning for ground-level additions.
 
 ## Local Note
 
 Fair Oaks is one of the few communities in the Sacramento region where a significant number of homes still have original post-and-beam or conventional framing with skip sheathing under the roof, a technique common before plywood became standard. When an addition requires tying into the existing roof structure, that skip sheathing needs to be addressed for both structural continuity and energy code compliance. It's not a dealbreaker, but it's the kind of detail that surprises contractors who haven't worked extensively in this vintage of Sacramento County housing. We factor it into the estimate rather than discovering it mid-project.
 
-If your family has been squeezing into a Fair Oaks home that no longer fits, whether you need a primary suite, a dedicated home office, or a larger kitchen footprint, call TDI Builders at (877) 688-0866. We'll assess the site, walk you through what Sacramento County requires, and put together a plan that works with the home you have.
+If your family has been squeezing into a Fair Oaks home that no longer fits, whether you need a primary suite, a dedicated home office, or a larger kitchen footprint, call TDI USA at (877) 688-0866. We'll assess the site, walk you through what Sacramento County requires, and put together a plan that works with the home you have.

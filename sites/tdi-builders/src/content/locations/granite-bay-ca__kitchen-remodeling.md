@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Kitchen Remodeling in Granite Bay, CA | TDI Builders, Inc."
+title: "Kitchen Remodeling in Granite Bay, CA | TDI USA, Inc."
 h1: "Kitchen Remodeling in Granite Bay"
 meta_description: "Trusted kitchen remodeling in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "kitchen remodeling granite bay"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Kitchen Remodeling"
 rendered: true
 ---
-Granite Bay kitchens carry a particular set of expectations, the open-concept great rooms, the indoor-outdoor flow toward backyard pools, the natural stone and hardwood finishes that suit the foothill aesthetic of western Placer County. Homeowners here tend to invest seriously in their properties, and a kitchen remodel done right needs to match both the scale of those homes and the design sensibility of the community. TDI Builders has been navigating that balance across the Sacramento region since 1985, and the work we do in Granite Bay reflects everything we've learned about building in this specific corner of California.
+Granite Bay kitchens carry a particular set of expectations, the open-concept great rooms, the indoor-outdoor flow toward backyard pools, the natural stone and hardwood finishes that suit the foothill aesthetic of western Placer County. Homeowners here tend to invest seriously in their properties, and a kitchen remodel done right needs to match both the scale of those homes and the design sensibility of the community. TDI USA has been navigating that balance across the Sacramento region since 1985, and the work we do in Granite Bay reflects everything we've learned about building in this specific corner of California.
 
 ## Why Granite Bay Homes Demand a Different Remodeling Approach
 
@@ -46,4 +46,4 @@ A significant share of Granite Bay's residential communities fall under homeowne
 
 Granite Bay's newer subdivisions, particularly those developed in the late 1990s and early 2000s, were frequently built with engineered lumber framing rather than dimensional lumber, and kitchen soffits in those homes sometimes conceal HVAC ductwork routed in ways that aren't reflected in original plans. When we open a soffit expecting a straightforward cabinet extension, we occasionally find duct runs that need to be rerouted before the new upper cabinets can land where the design calls for them. It's not a crisis, but it's the kind of thing that adds a week and a change order if nobody looked for it ahead of time. We check before we demo.
 
-If your kitchen is ready for a remodel that fits Granite Bay's scale and style, call TDI Builders at (877) 688-0866. We're available around the clock, and we'll schedule a walkthrough at your convenience.
+If your kitchen is ready for a remodel that fits Granite Bay's scale and style, call TDI USA at (877) 688-0866. We're available around the clock, and we'll schedule a walkthrough at your convenience.

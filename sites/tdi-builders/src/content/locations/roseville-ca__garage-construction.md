@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Roseville, CA | TDI Builders, Inc."
+title: "Garage Construction in Roseville, CA | TDI USA, Inc."
 h1: "Garage Construction in Roseville"
 meta_description: "Trusted garage construction in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction roseville"
@@ -52,4 +52,4 @@ For attached garage additions, we treat the shared wall between the garage and l
 
 Roseville's older neighborhoods west of Sunrise Avenue frequently have mature street trees whose root systems extend well into front and side yards. Before any excavation for a detached garage foundation, it's worth having the site reviewed for root intrusion, not just because roots complicate digging, but because Roseville has tree preservation provisions that can affect what you're allowed to remove. A little reconnaissance at the planning stage prevents a stop-work situation once equipment is on site.
 
-If you're ready to move forward with a garage project in Roseville, whether that's a new detached structure, an attached addition, or a conversion, call TDI Builders, Inc. at (877) 688-0866. With more than 40 years of construction experience and a team that understands how Placer County's permitting and Roseville's HOA landscape actually work, we'll get your project from concept to certificate of occupancy without the surprises.
+If you're ready to move forward with a garage project in Roseville, whether that's a new detached structure, an attached addition, or a conversion, call TDI USA, Inc. at (877) 688-0866. With more than 40 years of construction experience and a team that understands how Placer County's permitting and Roseville's HOA landscape actually work, we'll get your project from concept to certificate of occupancy without the surprises.

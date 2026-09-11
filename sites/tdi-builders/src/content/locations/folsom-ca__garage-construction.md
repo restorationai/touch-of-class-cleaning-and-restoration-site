@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Folsom, CA | TDI Builders, Inc."
+title: "Garage Construction in Folsom, CA | TDI USA, Inc."
 h1: "Garage Construction in Folsom"
 meta_description: "Trusted garage construction in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction folsom"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Garage Construction"
 rendered: true
 ---
-Folsom's rapid growth over the past two decades has left many properties caught between two worlds: newer master-planned subdivisions with strict HOA design standards and older ranch-style lots closer to the historic district where setback rules and soil conditions create their own complications. Whether you're adding a detached workshop behind a home in one of the city's established neighborhoods or tying a new attached garage onto a recently built house, the permitting environment, the clay-heavy soils common to the Sacramento foothills, and the region's intense summer heat all shape how garage construction gets done here. TDI Builders has been navigating exactly these conditions since 1985.
+Folsom's rapid growth over the past two decades has left many properties caught between two worlds: newer master-planned subdivisions with strict HOA design standards and older ranch-style lots closer to the historic district where setback rules and soil conditions create their own complications. Whether you're adding a detached workshop behind a home in one of the city's established neighborhoods or tying a new attached garage onto a recently built house, the permitting environment, the clay-heavy soils common to the Sacramento foothills, and the region's intense summer heat all shape how garage construction gets done here. TDI USA has been navigating exactly these conditions since 1985.
 
 ## Why Folsom's Local Conditions Shape Garage Projects
 
@@ -48,4 +48,4 @@ For custom garages, oversized bays for RVs or boats, tandem configurations, or g
 
 Folsom's planned communities built in the late 1990s and early 2000s frequently have CC&Rs that require architectural review committee approval before any exterior structure is added, and that review process can run four to eight weeks independently of the city permit timeline. We've seen projects stall when homeowners submitted their city permit application before receiving HOA approval, only to need design revisions after the committee weighed in. On Folsom projects in HOA-governed communities, we recommend running both processes in parallel, with the HOA submittal going in first or simultaneously with the city application. It saves weeks.
 
-Call TDI Builders at (877) 688-0866 to talk through your Folsom garage project. We're available around the clock, and the first conversation is always about your specific lot, your goals, and what the local process actually looks like, not a generic sales pitch.
+Call TDI USA at (877) 688-0866 to talk through your Folsom garage project. We're available around the clock, and the first conversation is always about your specific lot, your goals, and what the local process actually looks like, not a generic sales pitch.

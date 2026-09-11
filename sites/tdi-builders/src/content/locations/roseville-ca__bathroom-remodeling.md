@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Roseville, CA | TDI Builders, Inc."
+title: "Bathroom Remodeling in Roseville, CA | TDI USA, Inc."
 h1: "Bathroom Remodeling in Roseville"
 meta_description: "Trusted bathroom remodeling in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling roseville"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Bathroom Remodeling"
 rendered: true
 ---
-Roseville's rapid growth over the past two decades has produced a striking mix of housing, sprawling new construction in master-planned communities alongside older ranch-style homes built when the city was still a railroad town. That range matters when you're planning a bathroom remodel, because the scope, the permitting path, and the hidden surprises behind the walls can look completely different depending on which era your home comes from. TDI Builders, Inc. has been navigating exactly that kind of variability since 1985, and our licensed and insured team brings more than 40 years of construction experience to every project in Roseville.
+Roseville's rapid growth over the past two decades has produced a striking mix of housing, sprawling new construction in master-planned communities alongside older ranch-style homes built when the city was still a railroad town. That range matters when you're planning a bathroom remodel, because the scope, the permitting path, and the hidden surprises behind the walls can look completely different depending on which era your home comes from. TDI USA, Inc. has been navigating exactly that kind of variability since 1985, and our licensed and insured team brings more than 40 years of construction experience to every project in Roseville.
 
 ## Why Roseville Homes Present Unique Bathroom Remodeling Challenges
 
@@ -50,4 +50,4 @@ City of Roseville permits for bathroom remodels are issued through the Developme
 
 Roseville's older ranch homes, particularly those built in the 1960s and 1970s, frequently have bathrooms with original 3-by-6 wall tile set in a thick mud-bed mortar system rather than modern cement board. When that tile comes off, the mortar bed adds significant weight and demo time compared to a standard drywall-backed installation. It also means the subfloor and framing underneath have been carrying that load for decades, and inspection at demo is especially important before new materials go in. Homeowners who've gotten bids that seem unusually low on these older Roseville homes often find the difference shows up right here, in demo labor and subfloor remediation that wasn't priced into the original number.
 
-If you're ready to talk through your bathroom remodeling project in Roseville, call TDI Builders, Inc. at (877) 688-0866. We'll schedule an on-site assessment, walk through the scope with you honestly, and give you a clear picture of what the project involves before any work begins.
+If you're ready to talk through your bathroom remodeling project in Roseville, call TDI USA, Inc. at (877) 688-0866. We'll schedule an on-site assessment, walk through the scope with you honestly, and give you a clear picture of what the project involves before any work begins.

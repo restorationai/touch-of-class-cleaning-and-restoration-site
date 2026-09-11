@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Elk Grove, CA | TDI Builders, Inc."
+title: "Garage Construction in Elk Grove, CA | TDI USA, Inc."
 h1: "Garage Construction in Elk Grove"
 meta_description: "Trusted garage construction in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction elk grove"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Garage Construction"
 rendered: true
 ---
-Elk Grove's rapid expansion over the past two decades has left many properties without the garage space their owners actually need, whether that's a second bay for a growing household, a detached workshop behind a newer tract home, or a full garage addition on a lot that was platted before attached garages were standard. TDI Builders, Inc. has been designing and building garages across the Sacramento region since 1985, and the specific conditions here, Sacramento Valley heat, Sacramento County permitting, and the mix of HOA-governed master-planned communities alongside older rural parcels, shape how every project gets planned and built.
+Elk Grove's rapid expansion over the past two decades has left many properties without the garage space their owners actually need, whether that's a second bay for a growing household, a detached workshop behind a newer tract home, or a full garage addition on a lot that was platted before attached garages were standard. TDI USA, Inc. has been designing and building garages across the Sacramento region since 1985, and the specific conditions here, Sacramento Valley heat, Sacramento County permitting, and the mix of HOA-governed master-planned communities alongside older rural parcels, shape how every project gets planned and built.
 
 ## Why Elk Grove's Growth Pattern Shapes Garage Needs
 
@@ -38,4 +38,4 @@ A significant portion of Elk Grove's residential neighborhoods fall under homeow
 
 Elk Grove's clay-heavy soils behave differently depending on the season you break ground. A slab poured during the dry summer months on a lot that hasn't been pre-soaked can sit on soil that's already contracted; the first wet season then introduces moisture and the slab heaves. Experienced local contractors pre-wet the subgrade and allow it to reach equilibrium before forming, a step that adds a day or two to the schedule but is the difference between a slab that stays flat for decades and one that develops diagonal cracks at the corners within a few years. It's a detail that matters more here than in coastal climates where soil moisture stays relatively stable year-round.
 
-When you're ready to move from planning to building, call TDI Builders at (877) 688-0866. Whether you're adding a detached workshop on a larger lot, converting an existing structure, or building an attached two-car garage on a newer home in Elk Grove, we handle permitting, HOA coordination, and construction from the first site visit through final inspection.
+When you're ready to move from planning to building, call TDI USA at (877) 688-0866. Whether you're adding a detached workshop on a larger lot, converting an existing structure, or building an attached two-car garage on a newer home in Elk Grove, we handle permitting, HOA coordination, and construction from the first site visit through final inspection.

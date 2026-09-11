@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Kitchen Remodeling in Lincoln, CA | TDI Builders, Inc."
+title: "Kitchen Remodeling in Lincoln, CA | TDI USA, Inc."
 h1: "Kitchen Remodeling in Lincoln"
 meta_description: "Trusted kitchen remodeling in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "kitchen remodeling lincoln"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Kitchen Remodeling"
 rendered: true
 ---
-Lincoln has been one of Placer County's fastest-growing cities for over two decades, and that growth shows up in the kitchen. Whether you're in a newer master-planned community built during the early-2000s boom or an older ranch-style home from Lincoln's more agricultural era, the kitchen is often the room that hasn't kept pace with everything else. TDI Builders, Inc. has been doing this work since 1985, and our team understands that a kitchen remodel in Lincoln isn't a one-size-fits-all project, the housing stock here spans generations, HOA covenants are common, and the Sacramento Valley's climate creates specific demands on materials and finishes.
+Lincoln has been one of Placer County's fastest-growing cities for over two decades, and that growth shows up in the kitchen. Whether you're in a newer master-planned community built during the early-2000s boom or an older ranch-style home from Lincoln's more agricultural era, the kitchen is often the room that hasn't kept pace with everything else. TDI USA, Inc. has been doing this work since 1985, and our team understands that a kitchen remodel in Lincoln isn't a one-size-fits-all project, the housing stock here spans generations, HOA covenants are common, and the Sacramento Valley's climate creates specific demands on materials and finishes.
 
 ## Why Lincoln's Growth Pattern Shapes Kitchen Remodels
 
@@ -34,7 +34,7 @@ Every project starts with a walk-through, not a sales pitch, a real assessment. 
 
 From there, the process moves through design and material selection, permitting with Placer County or the City of Lincoln as applicable, demolition, rough-in trades (plumbing, electrical, HVAC if needed), and then the finish work, cabinet installation, countertop templating and fabrication, tile, lighting, and hardware. We manage the sequencing so subcontractors aren't stepping on each other, and we keep you informed at each phase transition rather than going quiet for weeks at a time.
 
-TDI Builders is licensed, insured, and carries more than 40 years of construction and rebuilding experience across residential, commercial, and industrial projects, which matters when a kitchen remodel reveals something unexpected behind the drywall.
+TDI USA is licensed, insured, and carries more than 40 years of construction and rebuilding experience across residential, commercial, and industrial projects, which matters when a kitchen remodel reveals something unexpected behind the drywall.
 
 ## HOA Coordination in Lincoln's Planned Communities
 
@@ -46,4 +46,4 @@ We've worked in communities throughout the greater Sacramento region where HOA a
 
 Lincoln sits squarely in the Sacramento Valley, where summer temperatures regularly push past 100°F and the seasonal swing between a wet, cool winter and a dry, blistering summer is significant. That thermal cycling matters for kitchen materials more than most homeowners realize. Solid wood cabinet doors, particularly those with large flat panels, can expand and contract enough to cause finish cracking or joint separation if they're not finished and installed with that movement in mind. We specify cabinet lines and finishing products rated for high-heat interior environments, and we pay attention to which walls in your kitchen face west or south, since afternoon sun exposure in a Lincoln summer amplifies the effect. It's a detail that doesn't come up in a showroom conversation but shows up in how a kitchen holds up five years after installation.
 
-If your project is ready to move from idea to plan, call TDI Builders at (877) 688-0866. We serve Lincoln and the surrounding Placer County communities, and we're available to talk through your kitchen any time, our team is reachable around the clock.
+If your project is ready to move from idea to plan, call TDI USA at (877) 688-0866. We serve Lincoln and the surrounding Placer County communities, and we're available to talk through your kitchen any time, our team is reachable around the clock.

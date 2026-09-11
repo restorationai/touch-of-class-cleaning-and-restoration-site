@@ -1,8 +1,8 @@
 ---
 archetype: "blog-index"
-title: "Construction Blog | TDI Builders, Inc."
+title: "Construction Blog | TDI USA, Inc."
 h1: "Construction Resources and Insights"
-meta_description: "Guides, checklists, and explainers from TDI Builders, Inc. on remodeling, new construction, roofing, and home improvement projects."
+meta_description: "Guides, checklists, and explainers from TDI USA, Inc. on remodeling, new construction, roofing, and home improvement projects."
 primary_keyword: "construction blog sacramento"
 secondary_keywords: ["construction guides", "home remodeling tips", "home improvement insights"]
 search_intent: "informational_browse"

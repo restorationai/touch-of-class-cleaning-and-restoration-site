@@ -17,8 +17,13 @@ const year = new Date().getFullYear();
       <div class="font-display text-2xl font-black tracking-tight text-navy-900">{brand.displayName}</div>
       <p class="mt-4 text-navy-900/70 text-sm leading-relaxed mb-0">{brand.tagline}</p>
       <address class="not-italic mt-6 text-sm text-navy-900/80 leading-relaxed">
+        <div class="text-[11px] font-black uppercase tracking-widest text-navy-900/60">Sacramento</div>
         <div>{brand.streetAddress}</div>
         <div>{brand.primaryCity}, {brand.primaryState} {brand.postalCode}</div>
+        {/* Second location (Rob 2026-09-11): Manteca office. */}
+        <div class="mt-3 text-[11px] font-black uppercase tracking-widest text-navy-900/60">Manteca</div>
+        <div>1086 Bessemer Ave</div>
+        <div>Manteca, CA 95337</div>
         <div class="mt-3"><a href={`tel:${brand.phoneRaw}`} class="text-primary font-bold no-underline hover:underline">{brand.phone}</a></div>
         <div><a href={`mailto:${brand.email}`} class="text-primary no-underline hover:underline">{brand.email}</a></div>
       </address>

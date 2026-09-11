@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Citrus Heights, CA | TDI Builders, Inc."
+title: "Bathroom Remodeling in Citrus Heights, CA | TDI USA, Inc."
 h1: "Bathroom Remodeling in Citrus Heights"
 meta_description: "Trusted bathroom remodeling in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling citrus heights"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Bathroom Remodeling"
 rendered: true
 ---
-Citrus Heights sits in Sacramento County's inland valley, where summer temperatures routinely climb past 100°F and the region's Mediterranean climate swings between dry heat and wet winters. That cycle of heat, drought, and seasonal rain does a number on older bathroom tile, grout, and the subfloor beneath, and in a city where a significant portion of the housing stock dates to the 1960s and 1970s, many bathrooms are long overdue for a rebuild that actually matches how people live today. TDI Builders, Inc. has been doing this work since 1985, and the Sacramento region's particular mix of aging tract homes and modern expectations shapes every project we take on in Citrus Heights.
+Citrus Heights sits in Sacramento County's inland valley, where summer temperatures routinely climb past 100°F and the region's Mediterranean climate swings between dry heat and wet winters. That cycle of heat, drought, and seasonal rain does a number on older bathroom tile, grout, and the subfloor beneath, and in a city where a significant portion of the housing stock dates to the 1960s and 1970s, many bathrooms are long overdue for a rebuild that actually matches how people live today. TDI USA, Inc. has been doing this work since 1985, and the Sacramento region's particular mix of aging tract homes and modern expectations shapes every project we take on in Citrus Heights.
 
 ## Why Citrus Heights Bathrooms Age the Way They Do
 
@@ -44,4 +44,4 @@ Citrus Heights is a city of distinct pockets: the areas closer to Antelope Road 
 
 One thing worth knowing about Citrus Heights bathroom remodels specifically: the city's older tract homes were frequently built on post-tension slabs, and cutting into a post-tension slab to relocate a drain requires a structural engineer's sign-off before any saw touches concrete. This isn't unique to Citrus Heights, but the concentration of slab-on-grade construction from the 1960s and 1970s makes it a real consideration here more often than in areas with raised-foundation homes. If your remodel involves moving the toilet or repositioning the shower drain, we flag this early, before design decisions get locked in, so there are no surprises mid-project.
 
-If your Citrus Heights bathroom still looks like it did when the house was built, or if cracked tile and a failing tub surround have been on your list for too long, this is the call to make. TDI Builders, Inc. has been working in the Sacramento region for over 40 years, and we're licensed and insured to handle everything from a straightforward shower remodel to a full master bath gut-and-rebuild. Reach us anytime at (877) 688-0866.
+If your Citrus Heights bathroom still looks like it did when the house was built, or if cracked tile and a failing tub surround have been on your list for too long, this is the call to make. TDI USA, Inc. has been working in the Sacramento region for over 40 years, and we're licensed and insured to handle everything from a straightforward shower remodel to a full master bath gut-and-rebuild. Reach us anytime at (877) 688-0866.

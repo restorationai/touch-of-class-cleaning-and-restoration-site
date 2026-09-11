@@ -1,6 +1,6 @@
 ---
 archetype: "legal"
-title: "Accessibility Statement | TDI Builders, Inc."
+title: "Accessibility Statement | TDI USA, Inc."
 h1: "Accessibility Statement"
 meta_description: "Accessibility Statement | {brand.display_name}."
 primary_keyword: "tdi builders, inc. accessibility"
@@ -18,7 +18,7 @@ rendered: true
 ---
 ## Our Commitment to Accessibility
 
-TDI Builders, Inc. is committed to ensuring that our website is usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification. We believe that access to information about our services, whether you're dealing with water damage, fire damage, or a mold concern, should not be a barrier for any visitor.
+TDI USA, Inc. is committed to ensuring that our website is usable by everyone, including people who rely on assistive technologies such as screen readers, keyboard navigation, or display magnification. We believe that access to information about our services, whether you're dealing with water damage, fire damage, or a mold concern, should not be a barrier for any visitor.
 
 This site is built with the goal of conforming to the **Web Content Accessibility Guidelines (WCAG) 2.1, Level AA**, the current internationally recognized standard for web accessibility. These guidelines define how to make web content more accessible to people with a range of disabilities, including visual, auditory, cognitive, and motor impairments.
 
@@ -45,7 +45,7 @@ If you encounter a barrier on this site, a page that doesn't read correctly with
 You can reach us by:
 
 - **Phone:** (877) 688-0866
-- **Mail:** TDI Builders, Inc. 701 Del Paso Rd, Sacramento, CA 95834
+- **Mail:** TDI USA, Inc. 701 Del Paso Rd, Sacramento, CA 95834
 
 When you contact us, please describe the specific page or feature you had difficulty with and the assistive technology or browser you were using, if known. That detail helps us reproduce and resolve the issue more quickly.
 

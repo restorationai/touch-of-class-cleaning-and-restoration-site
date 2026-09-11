@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Construction Services in Roseville, CA | TDI Builders, Inc."
+title: "Construction Services in Roseville, CA | TDI USA, Inc."
 h1: "Construction Services in Roseville"
 meta_description: "Serving Roseville, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate."
 primary_keyword: "construction services roseville"
@@ -12,14 +12,14 @@ generated_at: "2026-08-24T08:25:29.236254+00:00"
 manual_override: false
 internal_links: ["/service-areas/", "/contact/", "/service-areas/roseville-ca/home-remodeling/", "/service-areas/roseville-ca/bathroom-remodeling/", "/service-areas/roseville-ca/kitchen-remodeling/", "/service-areas/roseville-ca/new-construction/", "/service-areas/roseville-ca/general-contracting/", "/service-areas/roseville-ca/room-addition/", "/service-areas/roseville-ca/commercial-construction/", "/service-areas/roseville-ca/fire-smoke-rebuilding/", "/service-areas/roseville-ca/mold-remediation/", "/service-areas/roseville-ca/storm-damage-restoration/", "/service-areas/roseville-ca/water-damage-restoration/", "/service-areas/roseville-ca/garage-construction/", "/service-areas/carmichael-ca/", "/service-areas/citrus-heights-ca/", "/service-areas/el-dorado-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Roseville"}]
-faq: [{"question": "Can TDI Builders reach the newer communities on Roseville's eastern side, or do you mainly serve areas closer to Sacramento?", "answer": "We cover all of Roseville, including the newer master-planned communities that have expanded toward the eastern edge of the city and the Placer County line. From our Sacramento headquarters, we take I-80 East and route to whichever part of Roseville the job is in. Because we dispatch 24/7, distance within the city doesn't affect our availability."}, {"question": "What restoration and construction services does TDI Builders actually perform in Roseville?", "answer": "In Roseville we handle water damage mitigation and drying, fire and smoke damage restoration, mold remediation, contents pack-out and cleaning, and full reconstruction through permitted rebuild. Holding a contractor license means we can take a project from emergency response through final inspection without handing it off to a separate builder \u2014 which matters when an insurance carrier wants a single accountable party."}, {"question": "Roseville has a lot of HOA communities. Does that complicate restoration or rebuild work?", "answer": "It can add a step. Many of Roseville's newer subdivisions require HOA architectural approval for any exterior work \u2014 roofing, siding, paint color \u2014 in addition to the city building permit. We document the scope early so both approval processes can run in parallel rather than sequentially. Getting that coordination right at the start prevents delays at the rebuild phase."}, {"question": "Will TDI Builders work directly with my insurance carrier on a Roseville loss?", "answer": "Yes. We photograph affected materials, document moisture readings and affected square footage, and communicate the scope directly with your adjuster. Property owners in Roseville dealing with a water or fire loss shouldn't have to act as the go-between for their contractor and their carrier \u2014 we handle that communication so the claim moves forward while the work is underway."}]
+faq: [{"question": "Can TDI USA reach the newer communities on Roseville's eastern side, or do you mainly serve areas closer to Sacramento?", "answer": "We cover all of Roseville, including the newer master-planned communities that have expanded toward the eastern edge of the city and the Placer County line. From our Sacramento headquarters, we take I-80 East and route to whichever part of Roseville the job is in. Because we dispatch 24/7, distance within the city doesn't affect our availability."}, {"question": "What restoration and construction services does TDI USA actually perform in Roseville?", "answer": "In Roseville we handle water damage mitigation and drying, fire and smoke damage restoration, mold remediation, contents pack-out and cleaning, and full reconstruction through permitted rebuild. Holding a contractor license means we can take a project from emergency response through final inspection without handing it off to a separate builder \u2014 which matters when an insurance carrier wants a single accountable party."}, {"question": "Roseville has a lot of HOA communities. Does that complicate restoration or rebuild work?", "answer": "It can add a step. Many of Roseville's newer subdivisions require HOA architectural approval for any exterior work \u2014 roofing, siding, paint color \u2014 in addition to the city building permit. We document the scope early so both approval processes can run in parallel rather than sequentially. Getting that coordination right at the start prevents delays at the rebuild phase."}, {"question": "Will TDI USA work directly with my insurance carrier on a Roseville loss?", "answer": "Yes. We photograph affected materials, document moisture readings and affected square footage, and communicate the scope directly with your adjuster. Property owners in Roseville dealing with a water or fire loss shouldn't have to act as the go-between for their contractor and their carrier \u2014 we handle that communication so the claim moves forward while the work is underway."}]
 area_slug: "roseville-ca"
 city: "Roseville"
 state: "CA"
 primary: false
 rendered: true
 ---
-TDI Builders, Inc. has been handling water damage, fire and smoke damage, mold remediation, and full reconstruction for Roseville property owners since 1985. Operating around the clock out of Sacramento, the crew reaches Roseville via I-80 East, roughly 18 miles from our HQ to the heart of the city, and covers every corner of Roseville's fast-growing footprint, from the older neighborhoods near downtown to the newer master-planned communities along the eastern edge.
+TDI USA, Inc. has been handling water damage, fire and smoke damage, mold remediation, and full reconstruction for Roseville property owners since 1985. Operating around the clock out of Sacramento, the crew reaches Roseville via I-80 East, roughly 18 miles from our HQ to the heart of the city, and covers every corner of Roseville's fast-growing footprint, from the older neighborhoods near downtown to the newer master-planned communities along the eastern edge.
 
 ## Restoration emergencies common in Roseville
 
@@ -41,7 +41,7 @@ Roseville's humidity cycling creates conditions where mold can colonize drywall 
 
 ### Reconstruction and rebuild
 
-When damage is extensive enough to require permitted structural work, TDI Builders carries the contractor license to take the project from demolition through final inspection. That matters in Roseville, where a single point of contact between the insurance carrier, the city building department, and the property owner simplifies a process that can otherwise involve three separate contractors.
+When damage is extensive enough to require permitted structural work, TDI USA carries the contractor license to take the project from demolition through final inspection. That matters in Roseville, where a single point of contact between the insurance carrier, the city building department, and the property owner simplifies a process that can otherwise involve three separate contractors.
 
 ### Contents and pack-out services
 
@@ -49,7 +49,7 @@ For larger losses, contents are inventoried, packed, and moved to a secure facil
 
 ## Coverage and how fast we can get there
 
-From Sacramento, the primary route to Roseville is I-80 East to the Douglas Boulevard or Rocklin Road exits, depending on which part of the city is affected. The western and central areas of Roseville are closest to that corridor. The city's eastern growth areas, the newer subdivisions that have pushed toward the Placer County line, add a few miles but remain well within our service range. TDI Builders dispatches 24 hours a day, seven days a week, so a call at 2 a.m. during a winter storm gets the same response as a call on a weekday afternoon.
+From Sacramento, the primary route to Roseville is I-80 East to the Douglas Boulevard or Rocklin Road exits, depending on which part of the city is affected. The western and central areas of Roseville are closest to that corridor. The city's eastern growth areas, the newer subdivisions that have pushed toward the Placer County line, add a few miles but remain well within our service range. TDI USA dispatches 24 hours a day, seven days a week, so a call at 2 a.m. during a winter storm gets the same response as a call on a weekday afternoon.
 
 ## Building stock, site conditions, and permits in Roseville
 
@@ -61,4 +61,4 @@ Structural repairs and rebuilds in Roseville fall under the City of Roseville Bu
 
 ---
 
-If you're dealing with standing water, smoke damage, or a mold discovery in Roseville, the next step is a call, not a form. Reach TDI Builders, Inc. any time at **(877) 688-0866**. We'll assess the situation, explain the scope, and coordinate directly with your insurance carrier so the process moves without unnecessary delays.
+If you're dealing with standing water, smoke damage, or a mold discovery in Roseville, the next step is a call, not a form. Reach TDI USA, Inc. any time at **(877) 688-0866**. We'll assess the situation, explain the scope, and coordinate directly with your insurance carrier so the process moves without unnecessary delays.

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "New Home Construction in Granite Bay, CA | TDI Builders, Inc."
+title: "New Home Construction in Granite Bay, CA | TDI USA, Inc."
 h1: "New Home Construction in Granite Bay"
 meta_description: "Trusted new home construction in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "new home construction granite bay"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "New Home Construction"
 rendered: true
 ---
-Granite Bay sits at the edge of the Sierra Nevada foothills, where the soil shifts from the heavy clay of the Sacramento Valley floor to decomposed granite and loam as you climb toward Folsom Lake. That transition matters enormously when you're breaking ground on a new home, foundation design, drainage planning, and grading all behave differently here than they do on flat valley lots, and a builder who doesn't account for those variables will hand you problems that show up years after move-in. TDI Builders, Inc. has been doing ground-up residential construction since 1985, and the foothill terrain around Granite Bay is terrain we know well.
+Granite Bay sits at the edge of the Sierra Nevada foothills, where the soil shifts from the heavy clay of the Sacramento Valley floor to decomposed granite and loam as you climb toward Folsom Lake. That transition matters enormously when you're breaking ground on a new home, foundation design, drainage planning, and grading all behave differently here than they do on flat valley lots, and a builder who doesn't account for those variables will hand you problems that show up years after move-in. TDI USA, Inc. has been doing ground-up residential construction since 1985, and the foothill terrain around Granite Bay is terrain we know well.
 
 ## Building on Granite Bay's Foothill Terrain
 
@@ -51,4 +51,4 @@ Many Granite Bay neighborhoods are governed by homeowners associations with arch
 
 Granite Bay parcels near the Folsom Lake shoreline corridor fall within a zone where the county requires additional review for projects that could affect riparian buffers or viewsheds. If your lot is within roughly a quarter mile of the lake's high-water mark, expect an extra layer of environmental review before grading permits are issued. It's not a dealbreaker, it's a known step, but builders who don't flag it early have handed clients unexpected schedule gaps mid-project. We identify that exposure at the site assessment stage so the timeline reflects reality from the beginning.
 
-Ready to talk through your Granite Bay build? Call TDI Builders, Inc. at (877) 688-0866, we're available around the clock and can schedule a site consultation at your parcel to start the conversation with something concrete.
+Ready to talk through your Granite Bay build? Call TDI USA, Inc. at (877) 688-0866, we're available around the clock and can schedule a site consultation at your parcel to start the conversation with something concrete.

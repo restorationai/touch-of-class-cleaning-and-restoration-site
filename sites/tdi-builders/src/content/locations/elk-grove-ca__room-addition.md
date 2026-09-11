@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Elk Grove, CA | TDI Builders, Inc."
+title: "Room Additions and Home Additions in Elk Grove, CA | TDI USA, Inc."
 h1: "Room Additions and Home Additions in Elk Grove"
 meta_description: "Trusted room additions and home additions in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions elk grove"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-Elk Grove has grown faster than almost any city in California over the past two decades, and that growth has a predictable side effect: families who bought into planned communities in the late 1990s and early 2000s are now outgrowing their original floor plans. Whether you need a primary suite over the garage, a dedicated home office, or a full rear addition that opens onto your backyard, the challenge in Elk Grove isn't just construction, it's navigating Sacramento County permitting, HOA architectural review, and the clay-heavy soils that underlie much of the valley floor. TDI Builders, Inc. has been handling exactly that kind of complexity since 1985.
+Elk Grove has grown faster than almost any city in California over the past two decades, and that growth has a predictable side effect: families who bought into planned communities in the late 1990s and early 2000s are now outgrowing their original floor plans. Whether you need a primary suite over the garage, a dedicated home office, or a full rear addition that opens onto your backyard, the challenge in Elk Grove isn't just construction, it's navigating Sacramento County permitting, HOA architectural review, and the clay-heavy soils that underlie much of the valley floor. TDI USA, Inc. has been handling exactly that kind of complexity since 1985.
 
 ## Why Elk Grove Homeowners Are Adding Space Now
 
@@ -48,4 +48,4 @@ One thing that catches homeowners off guard in Elk Grove's planned communities, 
 
 ## Building Your Addition with Confidence
 
-Adding space to your Elk Grove home is one of the more significant investments you'll make in the property, and the decisions made early, foundation design, HOA sequencing, mechanical sizing, determine whether the finished addition feels like it was always part of the house or like something bolted on afterward. TDI Builders brings more than 40 years of licensed construction experience to every project, and our team is reachable any time you have questions. Call (877) 688-0866 to talk through what you're planning and get a clear picture of what the process looks like for your specific property.
+Adding space to your Elk Grove home is one of the more significant investments you'll make in the property, and the decisions made early, foundation design, HOA sequencing, mechanical sizing, determine whether the finished addition feels like it was always part of the house or like something bolted on afterward. TDI USA brings more than 40 years of licensed construction experience to every project, and our team is reachable any time you have questions. Call (877) 688-0866 to talk through what you're planning and get a clear picture of what the process looks like for your specific property.

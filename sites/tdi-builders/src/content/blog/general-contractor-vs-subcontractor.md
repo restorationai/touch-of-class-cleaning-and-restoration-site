@@ -81,10 +81,10 @@ If your project involves multiple trades, a permit, or a scope above roughly $50
 
 When you review bids, make sure each GC is quoting the same written scope. Bid gaps on multi-trade projects almost always trace back to scope differences, not efficiency differences. A detailed written scope before bidding is the single best way to get comparable numbers.
 
-TDI Builders, Inc. handles [general contracting](/services/general-contracting/), [commercial construction](/services/commercial-construction/), and [new construction](/services/new-construction/) across Sacramento and the surrounding region. If you have a project in planning and want to talk through scope and budget before committing to a bid process, call (877) 688-0866.
+TDI USA, Inc. handles [general contracting](/services/general-contracting/), [commercial construction](/services/commercial-construction/), and [new construction](/services/new-construction/) across Sacramento and the surrounding region. If you have a project in planning and want to talk through scope and budget before committing to a bid process, call (877) 688-0866.
 
 ---
 
-**About TDI Builders, Inc.**
+**About TDI USA, Inc.**
 
-TDI Builders, Inc. is a licensed and insured general contractor based in Sacramento, CA, serving the greater Sacramento Valley since 1985. With more than 40 years of construction and rebuilding experience across commercial, industrial, and residential projects, TDI Builders handles everything from ground-up new construction and tenant improvements to full home remodels and insurance rebuilds. Their crews serve Sacramento, Roseville, Folsom, Elk Grove, Rancho Cordova, and surrounding communities.
+TDI USA, Inc. is a licensed and insured general contractor based in Sacramento, CA, serving the greater Sacramento Valley since 1985. With more than 40 years of construction and rebuilding experience across commercial, industrial, and residential projects, TDI USA handles everything from ground-up new construction and tenant improvements to full home remodels and insurance rebuilds. Their crews serve Sacramento, Roseville, Folsom, Elk Grove, Rancho Cordova, and surrounding communities.

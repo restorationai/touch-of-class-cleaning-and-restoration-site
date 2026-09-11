@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Modesto, CA | TDI Builders, Inc."
+title: "Bathroom Remodeling in Modesto, CA | TDI USA, Inc."
 h1: "Bathroom Remodeling in Modesto"
 meta_description: "Trusted bathroom remodeling in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling modesto"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Bathroom Remodeling"
 rendered: true
 ---
-Modesto's inland valley climate, with summer highs that regularly push past 100°F and winters that bring ground-soaking rains, creates conditions that accelerate wear on bathroom tile, grout, and subfloor assemblies in ways that coastal California homeowners rarely encounter. The expansion and contraction cycle alone can crack caulk lines and loosen floor tile over just a few seasons, and when moisture finds those gaps, the damage compounds quietly behind walls long before it shows on the surface. Whether you're updating a dated master bath in an older neighborhood or converting a tub to a walk-in shower in a newer build on the east side of town, TDI Builders, Inc. brings over 40 years of construction and rebuilding experience to the project.
+Modesto's inland valley climate, with summer highs that regularly push past 100°F and winters that bring ground-soaking rains, creates conditions that accelerate wear on bathroom tile, grout, and subfloor assemblies in ways that coastal California homeowners rarely encounter. The expansion and contraction cycle alone can crack caulk lines and loosen floor tile over just a few seasons, and when moisture finds those gaps, the damage compounds quietly behind walls long before it shows on the surface. Whether you're updating a dated master bath in an older neighborhood or converting a tub to a walk-in shower in a newer build on the east side of town, TDI USA, Inc. brings over 40 years of construction and rebuilding experience to the project.
 
 ## Why Modesto Bathrooms Need More Than a Cosmetic Refresh
 
@@ -36,7 +36,7 @@ From there, the process moves through demolition, rough-in work (plumbing and el
 
 ## Reaching Modesto from Our Sacramento Base
 
-TDI Builders operates out of Sacramento, and Modesto is a straightforward run south on Highway 99, a corridor we travel regularly for projects across the Central Valley. We're available around the clock, so scheduling a consultation or responding to a project question isn't limited to business hours. For homeowners in the northern parts of the city closer to the Stanislaus River, or in established neighborhoods near downtown, we factor drive time into our scheduling so crews arrive when they say they will.
+TDI USA operates out of Sacramento, and Modesto is a straightforward run south on Highway 99, a corridor we travel regularly for projects across the Central Valley. We're available around the clock, so scheduling a consultation or responding to a project question isn't limited to business hours. For homeowners in the northern parts of the city closer to the Stanislaus River, or in established neighborhoods near downtown, we factor drive time into our scheduling so crews arrive when they say they will.
 
 ## Local Note: Older Homes and Hidden Shower Pan Failures
 
@@ -44,4 +44,4 @@ In Modesto's older residential neighborhoods, particularly blocks developed in t
 
 ## Ready to Start Your Modesto Bathroom Remodel?
 
-If your bathroom is showing the wear that Modesto's climate and aging housing stock tend to produce, cracked tile, a tub surround that's seen better decades, or a layout that simply no longer works, TDI Builders is licensed, insured, and ready to walk through the project with you. Call (877) 688-0866 to schedule a consultation for your Modesto home.
+If your bathroom is showing the wear that Modesto's climate and aging housing stock tend to produce, cracked tile, a tub surround that's seen better decades, or a layout that simply no longer works, TDI USA is licensed, insured, and ready to walk through the project with you. Call (877) 688-0866 to schedule a consultation for your Modesto home.

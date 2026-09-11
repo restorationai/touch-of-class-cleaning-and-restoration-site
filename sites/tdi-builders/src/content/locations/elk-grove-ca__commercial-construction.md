@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Commercial Construction and Tenant Improvements in Elk Grove, CA | TDI Builders, Inc."
+title: "Commercial Construction and Tenant Improvements in Elk Grove, CA | TDI USA, Inc."
 h1: "Commercial Construction and Tenant Improvements in Elk Grove"
 meta_description: "Trusted commercial construction and tenant improvements in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "commercial construction and tenant improvements elk grove"
@@ -34,7 +34,7 @@ Every project starts with a site walkthrough and a candid conversation about wha
 
 Once permits are secured, the build follows a sequenced process: structural and framing first, then rough mechanical and electrical, inspections at each stage, insulation and drywall, finish work, and final inspections before certificate of occupancy. For occupied buildings where adjacent tenants are operating, we plan the noisiest and most disruptive phases around your neighbors' business hours, a courtesy that matters more in Elk Grove's dense retail and office parks than it might in an isolated industrial setting.
 
-With more than 40 years of construction and rebuilding experience, the TDI Builders team is licensed, insured, and equipped to self-perform a broad range of trades, which reduces the coordination overhead that comes with managing a long chain of subcontractors.
+With more than 40 years of construction and rebuilding experience, the TDI USA team is licensed, insured, and equipped to self-perform a broad range of trades, which reduces the coordination overhead that comes with managing a long chain of subcontractors.
 
 ## Permitting and Code Considerations in Elk Grove
 
@@ -46,4 +46,4 @@ For projects in the city's newer mixed-use zones, parking and ADA path-of-travel
 
 One thing that catches out-of-area contractors working in Elk Grove's southeast commercial corridors: the city's fire department has specific requirements for tenant improvements in buildings with existing fire sprinkler systems, and the local fire authority having jurisdiction (AHJ) can require hydraulic recalculation and system modifications even when the tenant improvement scope looks minor on paper. A new demising wall or a relocated storage room can change the sprinkler coverage geometry enough to trigger a full head-relocation submittal. Knowing to loop in the fire marshal early, before the permit set is finalized, keeps that from becoming a change order after framing is already up.
 
-If your project is in Elk Grove and you're ready to move from lease signing to occupancy, call TDI Builders at (877) 688-0866. We'll give you a straight assessment of scope, schedule, and budget, and we're available around the clock to take that first call.
+If your project is in Elk Grove and you're ready to move from lease signing to occupancy, call TDI USA at (877) 688-0866. We'll give you a straight assessment of scope, schedule, and budget, and we're available around the clock to take that first call.

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Modesto, CA | TDI Builders, Inc."
+title: "Mold Remediation in Modesto, CA | TDI USA, Inc."
 h1: "Mold Remediation in Modesto"
 meta_description: "Trusted mold remediation in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "mold remediation modesto"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Mold Remediation"
 rendered: true
 ---
-Modesto's hot, dry summers and cool, damp winters create a moisture cycle that catches many homeowners off guard. When valley fog settles in from November through February and interior spaces stay sealed against the cold, condensation builds inside walls and attics long before anyone notices a smell. By the time a musty odor surfaces in a bedroom or crawl space, mold colonies may already be established behind drywall or beneath subfloor sheathing. TDI Builders, Inc. has been handling mold remediation and the reconstruction that follows since 1985, and our licensed, insured crews understand the specific conditions that drive mold growth in the Central Valley.
+Modesto's hot, dry summers and cool, damp winters create a moisture cycle that catches many homeowners off guard. When valley fog settles in from November through February and interior spaces stay sealed against the cold, condensation builds inside walls and attics long before anyone notices a smell. By the time a musty odor surfaces in a bedroom or crawl space, mold colonies may already be established behind drywall or beneath subfloor sheathing. TDI USA, Inc. has been handling mold remediation and the reconstruction that follows since 1985, and our licensed, insured crews understand the specific conditions that drive mold growth in the Central Valley.
 
 ## Why Modesto Properties See Mold Issues
 
@@ -32,7 +32,7 @@ The housing stock compounds the problem. A significant share of Modesto's reside
 
 Every project starts with containment and assessment, not guesswork. Before any material is disturbed, we establish negative-air containment to prevent spores from migrating to unaffected areas of the home. Moisture mapping with calibrated meters identifies how far saturation has traveled, because mold visible on a surface is rarely the full picture. Water behind plaster or inside a double-wall assembly can read dry at the surface while the framing behind it stays saturated and actively supports growth.
 
-Once the scope is confirmed, affected porous materials, drywall, insulation, contaminated wood framing, are removed and bagged for proper disposal. Structural surfaces are HEPA-vacuumed, treated, and dried to manufacturer and industry-standard specifications before any rebuild begins. Because TDI Builders handles both remediation and reconstruction under one license, there is no handoff gap between the crew that removes damaged material and the crew that restores the space. That continuity matters when you are coordinating with an insurance adjuster and need a single point of contact for documentation.
+Once the scope is confirmed, affected porous materials, drywall, insulation, contaminated wood framing, are removed and bagged for proper disposal. Structural surfaces are HEPA-vacuumed, treated, and dried to manufacturer and industry-standard specifications before any rebuild begins. Because TDI USA handles both remediation and reconstruction under one license, there is no handoff gap between the crew that removes damaged material and the crew that restores the space. That continuity matters when you are coordinating with an insurance adjuster and need a single point of contact for documentation.
 
 ## Modesto Insurance & HOA Coordination
 
@@ -48,4 +48,4 @@ Our Sacramento headquarters puts Modesto within straightforward reach via Highwa
 
 One pattern worth knowing: Modesto homes built in the postwar decades often have original galvanized steel supply lines that have been partially updated over the years, leaving a mix of pipe materials behind walls. Galvanized pipe corrodes from the inside out, and pinhole leaks inside wall cavities can drip slowly for months before any visible staining appears at the surface. By the time the drywall shows a stain, mold is typically already present on the back face of the board and on the framing behind it. If your home was built before 1975 and you are seeing any discoloration near plumbing walls, it is worth having the cavity investigated before the scope grows.
 
-If mold has taken hold in your Modesto home, whether it is a crawl space issue, an attic problem after a roof leak, or contamination behind a bathroom wall, call TDI Builders at (877) 688-0866. We will assess the situation, explain the scope honestly, and handle everything from containment through finished reconstruction so you are not managing two separate contractors through one of the more stressful repairs a home can need.
+If mold has taken hold in your Modesto home, whether it is a crawl space issue, an attic problem after a roof leak, or contamination behind a bathroom wall, call TDI USA at (877) 688-0866. We will assess the situation, explain the scope honestly, and handle everything from containment through finished reconstruction so you are not managing two separate contractors through one of the more stressful repairs a home can need.

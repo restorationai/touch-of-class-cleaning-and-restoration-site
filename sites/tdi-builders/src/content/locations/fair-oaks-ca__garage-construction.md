@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Fair Oaks, CA | TDI Builders, Inc."
+title: "Garage Construction in Fair Oaks, CA | TDI USA, Inc."
 h1: "Garage Construction in Fair Oaks"
 meta_description: "Trusted garage construction in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction fair oaks"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Garage Construction"
 rendered: true
 ---
-Fair Oaks sits in a pocket of Sacramento County where mature oak-canopied lots, mid-century ranch homes, and a community that has resisted the cookie-cutter sprawl of newer suburbs create a genuinely distinctive building environment. Adding or replacing a garage here means working around established root systems, navigating Sacramento County's permitting process, and matching structures to neighborhoods where architectural character actually matters to neighbors, and often to HOA boards. TDI Builders has been doing exactly this kind of site-specific construction work since 1985, and the nuances of building in unincorporated Sacramento County are well within our wheelhouse.
+Fair Oaks sits in a pocket of Sacramento County where mature oak-canopied lots, mid-century ranch homes, and a community that has resisted the cookie-cutter sprawl of newer suburbs create a genuinely distinctive building environment. Adding or replacing a garage here means working around established root systems, navigating Sacramento County's permitting process, and matching structures to neighborhoods where architectural character actually matters to neighbors, and often to HOA boards. TDI USA has been doing exactly this kind of site-specific construction work since 1985, and the nuances of building in unincorporated Sacramento County are well within our wheelhouse.
 
 ## Why Fair Oaks Garage Projects Require Site-Specific Planning
 
@@ -46,4 +46,4 @@ Our crews operate out of Sacramento, and Fair Oaks is a straightforward run, typ
 
 Fair Oaks has a higher concentration of homes built in the 1950s through 1970s than much of the surrounding county, and a notable share of those properties still have single-car garages that were sized for the vehicles of that era, often a tight 10-by-20-foot interior. Widening or replacing those structures is one of the more common requests we handle here. What catches some contractors off guard is that the original garage slab on these older homes frequently sits at a different elevation than the driveway apron, and the transition was handled with a poured curb that no longer meets current accessibility or drainage standards. We account for that grade change in the demo and new-slab scope rather than discovering it after the old structure comes down.
 
-If you are planning a garage project in Fair Oaks, whether a new detached structure, an addition to your existing home, or a conversion, call TDI Builders at (877) 688-0866. We have been licensed, insured, and building across the Sacramento region for more than 40 years, and we know what it takes to get a garage project permitted and built correctly in unincorporated Sacramento County.
+If you are planning a garage project in Fair Oaks, whether a new detached structure, an addition to your existing home, or a conversion, call TDI USA at (877) 688-0866. We have been licensed, insured, and building across the Sacramento region for more than 40 years, and we know what it takes to get a garage project permitted and built correctly in unincorporated Sacramento County.

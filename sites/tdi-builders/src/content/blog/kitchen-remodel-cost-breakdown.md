@@ -71,7 +71,7 @@ Start with your ceiling, the maximum you're willing to spend, and work backward,
 4. **Hold a 15–20% contingency.** Not a suggestion, a requirement for any project involving demo in a home older than 30 years.
 5. **Time your material purchases.** Appliance prices fluctuate significantly around holiday sales. Cabinet lead times from semi-custom manufacturers can run 8–14 weeks, so order early.
 
-If you're planning a kitchen remodel in Sacramento, TDI Builders, Inc. offers detailed project consultations that walk through scope, sequencing, and realistic cost ranges for your specific home. Call **(877) 688-0866** to start that conversation, the earlier in the planning process, the more options you have.
+If you're planning a kitchen remodel in Sacramento, TDI USA, Inc. offers detailed project consultations that walk through scope, sequencing, and realistic cost ranges for your specific home. Call **(877) 688-0866** to start that conversation, the earlier in the planning process, the more options you have.
 
 ## What Affects Resale Value
 

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Loomis, CA | TDI Builders, Inc."
+title: "Garage Construction in Loomis, CA | TDI USA, Inc."
 h1: "Garage Construction in Loomis"
 meta_description: "Trusted garage construction in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction loomis"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Garage Construction"
 rendered: true
 ---
-Loomis sits in the western Sierra Nevada foothills where long, dry summers bake the clay-heavy soils and wet winters can shift foundations in ways that flat-valley contractors don't always anticipate. If you're planning a new garage on a Loomis property, whether that's a detached workshop behind a ranch-style home on a hillside lot or an attached addition to a newer build along the I-80 corridor, the site conditions here demand planning that goes beyond a standard slab pour. TDI Builders, Inc. has been designing and constructing garages across the Sacramento region since 1985, and we understand what Placer County's terrain and permit process actually require.
+Loomis sits in the western Sierra Nevada foothills where long, dry summers bake the clay-heavy soils and wet winters can shift foundations in ways that flat-valley contractors don't always anticipate. If you're planning a new garage on a Loomis property, whether that's a detached workshop behind a ranch-style home on a hillside lot or an attached addition to a newer build along the I-80 corridor, the site conditions here demand planning that goes beyond a standard slab pour. TDI USA, Inc. has been designing and constructing garages across the Sacramento region since 1985, and we understand what Placer County's terrain and permit process actually require.
 
 ## Why Loomis Lots Require a Different Garage Approach
 
@@ -52,4 +52,4 @@ Custom garages with workshop space, RV bays, or second-story storage are increas
 
 Loomis properties built in the 1970s and 1980s, a significant portion of the housing stock in the older sections of town, frequently have existing garages with post-and-beam carport framing that was later enclosed. These structures often lack proper lateral bracing and don't meet current code for an enclosed garage. When a homeowner wants to expand or renovate one of these, we typically find that a rebuild from the foundation up is more cost-effective than retrofitting the old framing to meet today's standards. It's worth having that conversation early so the project budget reflects reality.
 
-Ready to move forward with a garage project in Loomis? Call TDI Builders, Inc. at (877) 688-0866 to schedule a site visit. We're available around the clock, and we'll come out to the property before putting anything on paper.
+Ready to move forward with a garage project in Loomis? Call TDI USA, Inc. at (877) 688-0866 to schedule a site visit. We're available around the clock, and we'll come out to the property before putting anything on paper.

@@ -1,6 +1,6 @@
 ---
 archetype: "legal"
-title: "Privacy Policy | TDI Builders, Inc."
+title: "Privacy Policy | TDI USA, Inc."
 h1: "Privacy Policy"
 meta_description: "Privacy Policy | {brand.display_name}."
 primary_keyword: "tdi builders, inc. privacy"
@@ -18,7 +18,7 @@ rendered: true
 ---
 ## What This Policy Covers
 
-This privacy policy explains how TDI Builders, Inc. collects, uses, and protects information submitted through tdiusa.com. It applies to visitors who contact us through the site, request estimates, or otherwise interact with our web presence. If you have questions after reading it, reach us directly at (877) 688-0866 or by mail at 701 Del Paso Rd, Sacramento, CA 95834.
+This privacy policy explains how TDI USA, Inc. collects, uses, and protects information submitted through tdiusa.com. It applies to visitors who contact us through the site, request estimates, or otherwise interact with our web presence. If you have questions after reading it, reach us directly at (877) 688-0866 or by mail at 701 Del Paso Rd, Sacramento, CA 95834.
 
 ## Information We Collect
 
@@ -44,4 +44,4 @@ For visitors outside California: this site is operated by a California-based con
 
 ## Changes to This Policy
 
-If we update this policy in a material way, we will revise the effective date at the top of this page. Continued use of the site after a change constitutes acceptance of the updated terms. For questions or concerns at any time, call (877) 688-0866 or write to TDI Builders, Inc. 701 Del Paso Rd, Sacramento, CA 95834.
+If we update this policy in a material way, we will revise the effective date at the top of this page. Continued use of the site after a change constitutes acceptance of the updated terms. For questions or concerns at any time, call (877) 688-0866 or write to TDI USA, Inc. 701 Del Paso Rd, Sacramento, CA 95834.

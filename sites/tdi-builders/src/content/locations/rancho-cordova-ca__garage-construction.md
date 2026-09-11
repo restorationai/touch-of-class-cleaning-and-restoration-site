@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Rancho Cordova, CA | TDI Builders, Inc."
+title: "Garage Construction in Rancho Cordova, CA | TDI USA, Inc."
 h1: "Garage Construction in Rancho Cordova"
 meta_description: "Trusted garage construction in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction rancho cordova"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Garage Construction"
 rendered: true
 ---
-Rancho Cordova sits in one of the Sacramento Valley's hottest inland corridors, where summer temperatures routinely push past 100°F and the ground shifts seasonally between the wet-season saturation of the American River floodplain and the dry, cracking clay soils that dominate much of the city's residential grid. That thermal and soil cycle puts real demands on any concrete slab and wood-framed structure, which means garage construction here isn't a copy-paste job from a coastal suburb. TDI Builders, Inc. has been designing and building garages across the greater Sacramento region since 1985, and we bring that four-decade track record to every project in Rancho Cordova.
+Rancho Cordova sits in one of the Sacramento Valley's hottest inland corridors, where summer temperatures routinely push past 100°F and the ground shifts seasonally between the wet-season saturation of the American River floodplain and the dry, cracking clay soils that dominate much of the city's residential grid. That thermal and soil cycle puts real demands on any concrete slab and wood-framed structure, which means garage construction here isn't a copy-paste job from a coastal suburb. TDI USA, Inc. has been designing and building garages across the greater Sacramento region since 1985, and we bring that four-decade track record to every project in Rancho Cordova.
 
 ## Why Rancho Cordova's Climate and Soil Make Garage Construction Different
 
@@ -46,4 +46,4 @@ We've navigated this overlap enough times to know that submitting to the HOA arc
 
 Rancho Cordova's older residential pockets, particularly neighborhoods developed in the 1960s and early 1970s, were frequently built with single-car garages on lots that are wide enough to accommodate a two-car structure today. What's less obvious is that many of those original garages were built on minimal foundations with no perimeter footing, relying on the slab edge alone. When we assess a garage replacement or expansion on one of those older lots, we probe the existing slab edge before assuming it can support an extended structure. Discovering a shallow or crumbling perimeter mid-project is the kind of surprise that blows timelines and budgets, catching it in the assessment phase keeps the project on track.
 
-If you're planning a garage project in Rancho Cordova, whether that's a new detached build, an addition to your existing footprint, or a conversion, call TDI Builders, Inc. at (877) 688-0866. We're available around the clock, and we'll put 40 years of Sacramento-area construction experience to work on your specific site, soil, and permit situation.
+If you're planning a garage project in Rancho Cordova, whether that's a new detached build, an addition to your existing footprint, or a conversion, call TDI USA, Inc. at (877) 688-0866. We're available around the clock, and we'll put 40 years of Sacramento-area construction experience to work on your specific site, soil, and permit situation.

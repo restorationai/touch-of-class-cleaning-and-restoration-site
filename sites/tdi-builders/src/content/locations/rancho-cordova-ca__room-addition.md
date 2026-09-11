@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Rancho Cordova, CA | TDI Builders, Inc."
+title: "Room Additions and Home Additions in Rancho Cordova, CA | TDI USA, Inc."
 h1: "Room Additions and Home Additions in Rancho Cordova"
 meta_description: "Trusted room additions and home additions in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions rancho cordova"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-Rancho Cordova's rapid growth over the past two decades has left many homeowners in a familiar bind: neighborhoods that were built for one era of family life now need to stretch for another. Whether you're looking to add a master suite above the garage, push out a bump out addition to widen a cramped kitchen, or build a full in-law unit on a lot that still has room to grow, the planning process here moves differently than it does in older Sacramento neighborhoods. TDI Builders, Inc. has been navigating California's construction landscape since 1985, and the specific mix of soil conditions, HOA overlays, and Sacramento County permitting that shapes Rancho Cordova additions is territory we know well.
+Rancho Cordova's rapid growth over the past two decades has left many homeowners in a familiar bind: neighborhoods that were built for one era of family life now need to stretch for another. Whether you're looking to add a master suite above the garage, push out a bump out addition to widen a cramped kitchen, or build a full in-law unit on a lot that still has room to grow, the planning process here moves differently than it does in older Sacramento neighborhoods. TDI USA, Inc. has been navigating California's construction landscape since 1985, and the specific mix of soil conditions, HOA overlays, and Sacramento County permitting that shapes Rancho Cordova additions is territory we know well.
 
 ## Why Rancho Cordova Properties Present Unique Conditions for Home Additions
 
@@ -46,4 +46,4 @@ We help homeowners identify which approvals are required and in what order, prep
 
 Rancho Cordova's older tracts, particularly homes built in the late 1970s and early 1980s, frequently used post-tension slab foundations, a construction method common in California's Central Valley during that period. Cutting into or modifying a post-tension slab to run new plumbing or extend a foundation for a room addition requires a structural engineer to locate the tension cables before any saw or core drill touches the concrete. This is not a step that can be skipped or eyeballed. Contractors unfamiliar with the Sacramento Valley's building history sometimes miss it; we don't.
 
-If you're ready to add space to your Rancho Cordova home, whether that's a single bump out addition off the back of the house or a full second-story home addition, call TDI Builders, Inc. at (877) 688-0866. We'll walk the property, give you an honest scope, and build something that lasts.
+If you're ready to add space to your Rancho Cordova home, whether that's a single bump out addition off the back of the house or a full second-story home addition, call TDI USA, Inc. at (877) 688-0866. We'll walk the property, give you an honest scope, and build something that lasts.

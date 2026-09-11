@@ -61,7 +61,7 @@ Call a professional remediator when:
 
 A qualified mold remediation contractor will establish containment, use negative air pressure to prevent cross-contamination, remove and properly dispose of affected materials, treat remaining surfaces, and verify clearance with post-remediation testing. That last step, independent clearance testing, is worth asking about specifically. It's the difference between knowing the mold is gone and hoping it is.
 
-If your renovation is already underway, the remediation and the remodel need to be sequenced carefully. Remediation has to complete and clear before new drywall, insulation, or flooring goes in. A contractor who handles both, like TDI Builders, Inc. can coordinate that handoff so your project timeline doesn't fall apart while you wait for separate trades to schedule.
+If your renovation is already underway, the remediation and the remodel need to be sequenced carefully. Remediation has to complete and clear before new drywall, insulation, or flooring goes in. A contractor who handles both, like TDI USA, Inc. can coordinate that handoff so your project timeline doesn't fall apart while you wait for separate trades to schedule.
 
 ## The Longer Recovery: Fixing the Source, Then Finishing the Job
 
@@ -78,4 +78,4 @@ Once the source is corrected and remediation is complete, your renovation can pr
 
 ## Moving Forward
 
-Finding mold mid-renovation is stressful, but it's a solvable problem, and you're in a better position than someone who discovers it after the walls are closed back up. If the growth is limited and on a non-porous surface, you may be able to handle it yourself. If it's in your framing, insulation, or subfloor, or if you're not certain of the source, get a professional assessment before the project continues. TDI Builders, Inc. handles both mold remediation and home remodeling in the Sacramento area, call (877) 688-0866 if you want to talk through what you've found and what comes next.
+Finding mold mid-renovation is stressful, but it's a solvable problem, and you're in a better position than someone who discovers it after the walls are closed back up. If the growth is limited and on a non-porous surface, you may be able to handle it yourself. If it's in your framing, insulation, or subfloor, or if you're not certain of the source, get a professional assessment before the project continues. TDI USA, Inc. handles both mold remediation and home remodeling in the Sacramento area, call (877) 688-0866 if you want to talk through what you've found and what comes next.

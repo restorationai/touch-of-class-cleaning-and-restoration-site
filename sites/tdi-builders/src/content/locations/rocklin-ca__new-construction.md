@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "New Home Construction in Rocklin, CA | TDI Builders, Inc."
+title: "New Home Construction in Rocklin, CA | TDI USA, Inc."
 h1: "New Home Construction in Rocklin"
 meta_description: "Trusted new home construction in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "new home construction rocklin"
@@ -20,11 +20,11 @@ state: "CA"
 service_display: "New Home Construction"
 rendered: true
 ---
-Rocklin's rapid growth along the Highway 65 corridor has made it one of the most active new-home markets in Placer County, and one of the more demanding places to build from the ground up. The region's clay-heavy soils, seasonal heat that regularly pushes past 105°F, and a patchwork of master-planned communities with their own architectural review boards mean that ground-up construction here requires more pre-construction planning than a comparable build in a flatter, older suburb. TDI Builders, Inc. has been navigating exactly these kinds of site-specific variables since 1985, and our team brings that depth of experience to every residential project we take on in Rocklin.
+Rocklin's rapid growth along the Highway 65 corridor has made it one of the most active new-home markets in Placer County, and one of the more demanding places to build from the ground up. The region's clay-heavy soils, seasonal heat that regularly pushes past 105°F, and a patchwork of master-planned communities with their own architectural review boards mean that ground-up construction here requires more pre-construction planning than a comparable build in a flatter, older suburb. TDI USA, Inc. has been navigating exactly these kinds of site-specific variables since 1985, and our team brings that depth of experience to every residential project we take on in Rocklin.
 
 ## Building New in Rocklin: What the Land and Climate Demand
 
-Placer County's soils shift meaningfully between the valley floor and the Sierra Nevada foothills, and Rocklin sits right in that transition zone. Expansive clay soils are common across the area, and they behave differently in wet winters than in the long, dry summers, swelling, contracting, and exerting lateral pressure on foundations in ways that a standard slab design may not account for. Before a single framing nail goes in, TDI Builders conducts a thorough site assessment to determine whether a conventional slab-on-grade, raised foundation, or deeper footing system is the right fit for the specific parcel.
+Placer County's soils shift meaningfully between the valley floor and the Sierra Nevada foothills, and Rocklin sits right in that transition zone. Expansive clay soils are common across the area, and they behave differently in wet winters than in the long, dry summers, swelling, contracting, and exerting lateral pressure on foundations in ways that a standard slab design may not account for. Before a single framing nail goes in, TDI USA conducts a thorough site assessment to determine whether a conventional slab-on-grade, raised foundation, or deeper footing system is the right fit for the specific parcel.
 
 Rocklin's heat also shapes construction decisions that extend well beyond the foundation. Summers here are long and intense, which means proper attic ventilation, radiant barrier sheathing, and high-performance window placement are not optional upgrades, they're the difference between a home that performs efficiently for decades and one that strains its HVAC system every July and August. We design these elements in from the start rather than treating them as add-ons.
 
@@ -44,7 +44,7 @@ Every new home we build in Rocklin moves through the same disciplined sequence, 
 
 A significant share of Rocklin's residential land sits within communities that have active homeowners associations and architectural control committees. These bodies have real authority over what gets built, setbacks, exterior materials, fence heights, driveway configurations, and landscaping timelines are all common review items. Submitting incomplete or non-conforming plans to an ACC can add weeks to a project before a single permit application is filed.
 
-TDI Builders prepares HOA submittal packages as a standard part of our pre-construction work. We've worked through the review processes common to Placer County master-planned communities and understand what reviewers look for. Getting that approval right the first time keeps the schedule intact.
+TDI USA prepares HOA submittal packages as a standard part of our pre-construction work. We've worked through the review processes common to Placer County master-planned communities and understand what reviewers look for. Getting that approval right the first time keeps the schedule intact.
 
 ## Reaching Rocklin from Our Sacramento Base
 
@@ -54,4 +54,4 @@ Our headquarters in Sacramento puts us a straightforward drive from Rocklin via 
 
 Rocklin sits on a granite shelf that made it a quarrying hub in the 19th century, and that geology still shows up in new construction today. In parts of the city, particularly on hillside lots closer to the foothills, contractors can hit decomposed granite or solid rock shelf at relatively shallow depths. This affects excavation costs, foundation design, and sometimes utility trenching. It's not a surprise if you know the area, but it can be a costly one if a builder treats every Rocklin lot the same way. We account for subsurface variability in our pre-construction site review rather than pricing it as a change order after the excavator is already on site.
 
-Ready to start planning your new home in Rocklin? Call TDI Builders at (877) 688-0866 to talk through your lot, your timeline, and what ground-up construction looks like for your specific project.
+Ready to start planning your new home in Rocklin? Call TDI USA at (877) 688-0866 to talk through your lot, your timeline, and what ground-up construction looks like for your specific project.

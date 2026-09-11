@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in Carmichael, CA | TDI Builders, Inc."
+title: "Home Remodeling in Carmichael, CA | TDI USA, Inc."
 h1: "Home Remodeling in Carmichael"
 meta_description: "Trusted home remodeling in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling carmichael"
@@ -52,4 +52,4 @@ On the county side, Sacramento County's unincorporated area has its own permit f
 
 Carmichael's mature tree canopy, one of the things that makes the neighborhood feel distinct from newer Sacramento developments, creates a specific challenge during exterior remodels and additions. Large valley oaks and sycamores near property lines can have root systems that extend well beyond the drip line, and Sacramento County may require an arborist assessment before permits are issued for work that breaks ground within a certain radius of a protected tree. If your project involves an addition, a new detached structure, or significant hardscape, it's worth having that conversation early. We flag it during our initial walkthrough so it doesn't surface as a surprise after permits are submitted.
 
-If you're ready to talk through what a remodel looks like for your Carmichael home, call TDI Builders, Inc. at (877) 688-0866. We'll walk the property with you, give you a straight read on what the scope involves, and put together a plan that fits the house you have, not a generic template.
+If you're ready to talk through what a remodel looks like for your Carmichael home, call TDI USA, Inc. at (877) 688-0866. We'll walk the property with you, give you a straight read on what the scope involves, and put together a plan that fits the house you have, not a generic template.

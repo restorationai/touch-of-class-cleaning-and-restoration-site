@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Modesto, CA | TDI Builders, Inc."
+title: "Room Additions and Home Additions in Modesto, CA | TDI USA, Inc."
 h1: "Room Additions and Home Additions in Modesto"
 meta_description: "Trusted room additions and home additions in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions modesto"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-Modesto's housing market has been quietly pressured for years, lot sizes in established neighborhoods are generous by Central Valley standards, but move-up inventory stays tight, which pushes many homeowners toward expanding in place rather than uprooting. Whether you're converting an attached garage into a primary suite, pushing out a family room toward the backyard, or adding a full second story above an existing ranch footprint, a well-planned room addition can add livable square footage without the disruption of a move. TDI Builders, Inc. has been designing and building home additions since 1985, and the conditions that shape construction in Modesto, clay-heavy soils, a hot inland climate, and a housing stock that spans nearly every decade of the 20th century, are factors we account for from the first site visit.
+Modesto's housing market has been quietly pressured for years, lot sizes in established neighborhoods are generous by Central Valley standards, but move-up inventory stays tight, which pushes many homeowners toward expanding in place rather than uprooting. Whether you're converting an attached garage into a primary suite, pushing out a family room toward the backyard, or adding a full second story above an existing ranch footprint, a well-planned room addition can add livable square footage without the disruption of a move. TDI USA, Inc. has been designing and building home additions since 1985, and the conditions that shape construction in Modesto, clay-heavy soils, a hot inland climate, and a housing stock that spans nearly every decade of the 20th century, are factors we account for from the first site visit.
 
 ## Why Modesto's Local Conditions Shape Every Addition Project
 
@@ -38,7 +38,7 @@ Once permits are in hand, construction follows a sequenced schedule: foundation,
 
 ## Reaching Modesto from Sacramento
 
-TDI Builders is headquartered in Sacramento, and Modesto is a regular part of our service area. Highway 99 south from Sacramento puts us in Modesto in under 90 minutes under normal conditions, close enough for site visits, inspections, and crew deployment without the logistical friction that comes with hiring a contractor who has to mobilize from a distant market. We're available around the clock, so if a question comes up or a timeline needs to shift, you're not waiting until Monday morning.
+TDI USA is headquartered in Sacramento, and Modesto is a regular part of our service area. Highway 99 south from Sacramento puts us in Modesto in under 90 minutes under normal conditions, close enough for site visits, inspections, and crew deployment without the logistical friction that comes with hiring a contractor who has to mobilize from a distant market. We're available around the clock, so if a question comes up or a timeline needs to shift, you're not waiting until Monday morning.
 
 ## Local Note
 
@@ -48,4 +48,4 @@ One thing that catches homeowners off guard in Modesto: many of the ranch-style 
 
 Newer subdivisions in Modesto, particularly those developed in the 1990s and 2000s, frequently include HOA CC&Rs that govern exterior changes, including additions. Setback requirements, exterior material matching, and roofline continuity rules vary by association. We recommend pulling your CC&Rs early in the design process so that HOA approval and city permit submittal can run on parallel tracks rather than sequentially. Waiting for HOA sign-off after the permit is already in review is one of the most common sources of project delay on residential additions in this market.
 
-Call TDI Builders at (877) 688-0866 to talk through what a room addition or home addition would look like for your specific Modesto property. We'll assess the site, walk through the permit and HOA requirements that apply to your address, and give you a realistic picture of scope, timeline, and cost before any commitment is made.
+Call TDI USA at (877) 688-0866 to talk through what a room addition or home addition would look like for your specific Modesto property. We'll assess the site, walk through the permit and HOA requirements that apply to your address, and give you a realistic picture of scope, timeline, and cost before any commitment is made.

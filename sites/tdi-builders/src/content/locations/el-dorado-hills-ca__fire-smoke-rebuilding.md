@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Fire and Smoke Damage Rebuilding in El Dorado Hills, CA | TDI Builders, Inc."
+title: "Fire and Smoke Damage Rebuilding in El Dorado Hills, CA | TDI USA, Inc."
 h1: "Fire and Smoke Damage Rebuilding in El Dorado Hills"
 meta_description: "Trusted fire and smoke damage rebuilding in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "fire and smoke damage rebuilding el dorado hills"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Fire and Smoke Damage Rebuilding"
 rendered: true
 ---
-El Dorado Hills sits in the Sierra Nevada foothills where dry summers, seasonal Diablo-like winds, and a housing stock dominated by wood-frame construction built during the community's rapid growth in the 1980s and 1990s create conditions where a fire can move fast and leave smoke and char damage that goes well beyond what's visible on the surface. TDI Builders, Inc. has been rebuilding fire-damaged residential and commercial properties since 1985, and the work here, in the foothill communities east of Sacramento, demands a rebuild approach calibrated to local construction norms, county permitting, and the HOA covenants that govern a large share of El Dorado Hills neighborhoods.
+El Dorado Hills sits in the Sierra Nevada foothills where dry summers, seasonal Diablo-like winds, and a housing stock dominated by wood-frame construction built during the community's rapid growth in the 1980s and 1990s create conditions where a fire can move fast and leave smoke and char damage that goes well beyond what's visible on the surface. TDI USA, Inc. has been rebuilding fire-damaged residential and commercial properties since 1985, and the work here, in the foothill communities east of Sacramento, demands a rebuild approach calibrated to local construction norms, county permitting, and the HOA covenants that govern a large share of El Dorado Hills neighborhoods.
 
 ## Why El Dorado Hills Properties Present Specific Fire Rebuild Challenges
 
@@ -44,4 +44,4 @@ For properties governed by an HOA, and a significant portion of El Dorado Hills 
 
 One detail that catches some contractors off guard in El Dorado Hills: many of the planned communities built in the late 1980s and 1990s used fire-retardant-treated (FRT) plywood roof sheathing that was later found to degrade over time, particularly in hot attic environments. After a fire loss that exposes or damages roof sheathing, a rebuild is an opportunity, and sometimes a code requirement, to replace degraded FRT material rather than reinstall it. Identifying this during the assessment phase prevents a failed inspection later and keeps the rebuild timeline on track.
 
-If your property in El Dorado Hills has been damaged by fire or smoke, the decisions you make in the first days after the loss shape the entire rebuild. TDI Builders, Inc. is available around the clock, and a call to (877) 688-0866 connects you with a team that has been navigating fire rebuild in the Sacramento region and its foothill communities for more than 40 years.
+If your property in El Dorado Hills has been damaged by fire or smoke, the decisions you make in the first days after the loss shape the entire rebuild. TDI USA, Inc. is available around the clock, and a call to (877) 688-0866 connects you with a team that has been navigating fire rebuild in the Sacramento region and its foothill communities for more than 40 years.

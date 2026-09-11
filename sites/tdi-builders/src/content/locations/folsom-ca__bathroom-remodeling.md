@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Folsom, CA | TDI Builders, Inc."
+title: "Bathroom Remodeling in Folsom, CA | TDI USA, Inc."
 h1: "Bathroom Remodeling in Folsom"
 meta_description: "Trusted bathroom remodeling in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling folsom"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Bathroom Remodeling"
 rendered: true
 ---
-Folsom's rapid growth over the past two decades has produced a wide range of bathroom styles, from the builder-grade tub-and-tile combos common in the 1990s subdivisions near Empire Ranch to the larger master suites in newer developments pushing toward El Dorado Hills. Whether you're working with a dated layout that hasn't aged well or a functional space that simply no longer fits how your household lives, a thoughtful bathroom remodel can change how the entire home feels. TDI Builders has been doing this work since 1985, and the difference between a remodel that lasts and one that doesn't often comes down to understanding what's behind the walls before the demo begins.
+Folsom's rapid growth over the past two decades has produced a wide range of bathroom styles, from the builder-grade tub-and-tile combos common in the 1990s subdivisions near Empire Ranch to the larger master suites in newer developments pushing toward El Dorado Hills. Whether you're working with a dated layout that hasn't aged well or a functional space that simply no longer fits how your household lives, a thoughtful bathroom remodel can change how the entire home feels. TDI USA has been doing this work since 1985, and the difference between a remodel that lasts and one that doesn't often comes down to understanding what's behind the walls before the demo begins.
 
 ## Why Folsom Bathrooms Often Need More Than a Cosmetic Refresh
 
@@ -38,10 +38,10 @@ All work is permitted through the City of Folsom Building Division. Folsom requi
 
 ## Reaching Folsom from Our Sacramento Base
 
-TDI Builders is headquartered in Sacramento, and Folsom is a regular part of our service area. US-50 East is the direct route, and we're available around the clock, so whether you're ready to start a conversation about a remodel or have an urgent situation that's surfaced during a renovation, you can reach us at (877) 688-0866 any time.
+TDI USA is headquartered in Sacramento, and Folsom is a regular part of our service area. US-50 East is the direct route, and we're available around the clock, so whether you're ready to start a conversation about a remodel or have an urgent situation that's surfaced during a renovation, you can reach us at (877) 688-0866 any time.
 
 ## Local Note
 
 Homes in Folsom's Empire Ranch area, built primarily in the late 1990s and early 2000s, frequently used fiberglass tub surrounds as a cost-saving measure during original construction. These surrounds were often installed before the subfloor was fully dried after framing, a common practice under production-build timelines. Over time, the flex in a fiberglass unit works the caulk seal loose at the tub deck, and water migrates into the framed wall cavity. By the time a homeowner notices soft flooring or a musty smell, the damage has usually extended several inches up the studs. When we demo these surrounds, we always inspect the bottom plate and subfloor before setting any new material, it's a step that adds a day to the schedule but prevents the new tile from sitting on a compromised base.
 
-If your Folsom bathroom remodel is something you've been putting off, the best time to get it scoped is before a small problem becomes a structural one. Call TDI Builders at (877) 688-0866 to schedule a walkthrough, we've been licensed and insured since 1985, and we'll give you a straight read on what the project actually involves.
+If your Folsom bathroom remodel is something you've been putting off, the best time to get it scoped is before a small problem becomes a structural one. Call TDI USA at (877) 688-0866 to schedule a walkthrough, we've been licensed and insured since 1985, and we'll give you a straight read on what the project actually involves.

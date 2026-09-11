@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Granite Bay, CA | TDI Builders, Inc."
+title: "Room Additions and Home Additions in Granite Bay, CA | TDI USA, Inc."
 h1: "Room Additions and Home Additions in Granite Bay"
 meta_description: "Trusted room additions and home additions in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions granite bay"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-Granite Bay sits in a sweet spot between Sacramento's urban density and the Sierra Nevada foothills, and that geography shapes nearly every home addition project here. Lots tend to run large, mature oak trees dot many backyards, and the neighborhood character skews toward established single-family homes built from the 1970s through the early 2000s, the kind of properties where a well-designed addition doesn't just add square footage, it adds lasting value. TDI Builders, Inc. has been planning and building room additions and home additions since 1985, and we bring that four-decade track record to every project in Placer County.
+Granite Bay sits in a sweet spot between Sacramento's urban density and the Sierra Nevada foothills, and that geography shapes nearly every home addition project here. Lots tend to run large, mature oak trees dot many backyards, and the neighborhood character skews toward established single-family homes built from the 1970s through the early 2000s, the kind of properties where a well-designed addition doesn't just add square footage, it adds lasting value. TDI USA, Inc. has been planning and building room additions and home additions since 1985, and we bring that four-decade track record to every project in Placer County.
 
 ## Why Granite Bay Homes Are Well-Suited, and Well-Challenged, for Additions
 
@@ -54,4 +54,4 @@ We've navigated these processes across Placer County communities and know what a
 
 One thing that catches homeowners off guard in Granite Bay: many lots in the area have heritage oak trees that trigger Placer County's oak woodland preservation provisions. Even if a tree isn't directly in the footprint of your planned addition, its drip line, the area extending to the outer edge of the canopy, may restrict where grading and foundation work can occur. We identify oak drip-line conflicts during the initial site walk and design around them from the start, rather than discovering the constraint mid-permit. If your backyard addition plan has a large valley oak anywhere near the proposed footprint, that's the first conversation we'll have.
 
-Ready to talk through what a room addition or house addition could look like on your Granite Bay property? Call TDI Builders, Inc. at (877) 688-0866, we're available around the clock and can schedule a site visit to get the conversation started with real numbers, not ballpark estimates.
+Ready to talk through what a room addition or house addition could look like on your Granite Bay property? Call TDI USA, Inc. at (877) 688-0866, we're available around the clock and can schedule a site visit to get the conversation started with real numbers, not ballpark estimates.

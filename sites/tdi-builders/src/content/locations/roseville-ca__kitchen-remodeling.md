@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Kitchen Remodeling in Roseville, CA | TDI Builders, Inc."
+title: "Kitchen Remodeling in Roseville, CA | TDI USA, Inc."
 h1: "Kitchen Remodeling in Roseville"
 meta_description: "Trusted kitchen remodeling in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "kitchen remodeling roseville"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Kitchen Remodeling"
 rendered: true
 ---
-Roseville's rapid growth over the past two decades has produced a wide mix of kitchen styles under one city's roof, tract homes from the late 1990s West Roseville buildout sitting a few miles from older ranch-style properties near the historic downtown corridor, and newer luxury builds pushing out toward the edges of Placer County. That range means a kitchen remodel here rarely follows a single template. TDI Builders, Inc. has been navigating exactly that kind of regional variety since 1985, and our licensed and insured crews understand what it takes to deliver a finished kitchen that holds up in the Sacramento Valley's demanding climate.
+Roseville's rapid growth over the past two decades has produced a wide mix of kitchen styles under one city's roof, tract homes from the late 1990s West Roseville buildout sitting a few miles from older ranch-style properties near the historic downtown corridor, and newer luxury builds pushing out toward the edges of Placer County. That range means a kitchen remodel here rarely follows a single template. TDI USA, Inc. has been navigating exactly that kind of regional variety since 1985, and our licensed and insured crews understand what it takes to deliver a finished kitchen that holds up in the Sacramento Valley's demanding climate.
 
 ## Why Roseville Kitchens Benefit from a Targeted Remodel Approach
 
@@ -46,4 +46,4 @@ Many newer Roseville subdivisions, particularly those developed by master-planne
 
 Homes built in Roseville during the late 1990s and early 2000s, a period of intense subdivision development across the western and northern edges of the city, frequently used a standard cabinet box depth of 11 inches for upper cabinets rather than the 12-inch depth that has become more common. That half-inch difference matters when a homeowner wants to replace existing uppers with stock cabinets from a current manufacturer: the new boxes often project slightly farther from the wall, which can conflict with range hood clearances or create an awkward reveal at crown molding. It's a detail that doesn't show up until installation day if nobody measured for it. We check cabinet depth compatibility during the planning phase, not after the order ships.
 
-If your kitchen is ready for a change, whether that's a full gut-and-rebuild or a targeted cabinet and countertop refresh, call TDI Builders, Inc. at (877) 688-0866. We serve Roseville and the surrounding Placer County area and are available around the clock to schedule your consultation.
+If your kitchen is ready for a change, whether that's a full gut-and-rebuild or a targeted cabinet and countertop refresh, call TDI USA, Inc. at (877) 688-0866. We serve Roseville and the surrounding Placer County area and are available around the clock to schedule your consultation.

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Fire and Smoke Damage Rebuilding in Citrus Heights, CA | TDI Builders, Inc."
+title: "Fire and Smoke Damage Rebuilding in Citrus Heights, CA | TDI USA, Inc."
 h1: "Fire and Smoke Damage Rebuilding in Citrus Heights"
 meta_description: "Trusted fire and smoke damage rebuilding in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "fire and smoke damage rebuilding citrus heights"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Fire and Smoke Damage Rebuilding"
 rendered: true
 ---
-Citrus Heights sits in Sacramento County's inland valley, where summer temperatures regularly push past 100°F and the dry season leaves wood-framed structures parched for months at a time. That combination, sun-baked lumber, older attic insulation, and the region's periodic wind events, means a kitchen fire or electrical fault can move fast and leave smoke residue embedded deep into wall cavities, HVAC ductwork, and the wood framing itself. TDI Builders, Inc. has been rebuilding fire-damaged properties across the Sacramento area since 1985, and we understand the specific construction patterns and code requirements that shape every rebuild in this city.
+Citrus Heights sits in Sacramento County's inland valley, where summer temperatures regularly push past 100°F and the dry season leaves wood-framed structures parched for months at a time. That combination, sun-baked lumber, older attic insulation, and the region's periodic wind events, means a kitchen fire or electrical fault can move fast and leave smoke residue embedded deep into wall cavities, HVAC ductwork, and the wood framing itself. TDI USA, Inc. has been rebuilding fire-damaged properties across the Sacramento area since 1985, and we understand the specific construction patterns and code requirements that shape every rebuild in this city.
 
 ## Why Citrus Heights Properties Face Distinct Fire Rebuild Challenges
 
@@ -57,4 +57,4 @@ Permits for structural fire reconstruction in Citrus Heights run through Sacrame
 
 Homes built in Citrus Heights during the 1950s and 1960s frequently used a stucco-over-wood-lath exterior finish that was standard for California construction of that era. After a fire, stucco can appear intact while the wood lath behind it is charred or smoke-damaged, and that damage won't show up on a surface inspection. On rebuilds involving exterior walls from this period, we open and assess the lath layer before any re-stucco work begins. Skipping that step is how odor problems and structural issues get missed and resurface after the project closes.
 
-If you're managing a fire loss in Citrus Heights, residential or commercial, call TDI Builders, Inc. at (877) 688-0866. We'll walk through the scope, the permit process, and the insurance coordination so you have a clear picture of what the rebuild involves before any work begins.
+If you're managing a fire loss in Citrus Heights, residential or commercial, call TDI USA, Inc. at (877) 688-0866. We'll walk through the scope, the permit process, and the insurance coordination so you have a clear picture of what the rebuild involves before any work begins.

@@ -1,8 +1,8 @@
 ---
 archetype: "about"
-title: "About TDI Builders, Inc. | Sacramento Construction Company"
-h1: "About TDI Builders, Inc."
-meta_description: "TDI Builders, Inc. has served Sacramento since 1985. Meet our licensed construction team. Licensed, insured, locally owned."
+title: "About TDI USA, Inc. | Sacramento Construction Company"
+h1: "About TDI USA, Inc."
+meta_description: "TDI USA, Inc. has served Sacramento since 1985. Meet our licensed construction team. Licensed, insured, locally owned."
 primary_keyword: "tdi builders, inc. sacramento"
 secondary_keywords: ["local construction company", "licensed general contractor", "insured remodeling contractor"]
 search_intent: "navigational_trust"
@@ -12,10 +12,10 @@ generated_at: "2026-08-24T08:32:49.142013+00:00"
 manual_override: false
 internal_links: ["/", "/services/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "About"}]
-faq: [{"question": "How long has TDI Builders, Inc. been in business?", "answer": "TDI Builders, Inc. was founded in 1985, giving the company more than 40 years of experience in construction, restoration, and rebuilding. That span covers significant shifts in building codes, insurance practices, and restoration technology \u2014 all of which inform how jobs are scoped and executed today."}, {"question": "What areas does TDI Builders, Inc. serve?", "answer": "The company is headquartered in Sacramento and serves the broader Sacramento metro area, including surrounding Central Valley communities and foothill cities along the major corridors east and north of the city. If you're not sure whether your location is covered, call (877) 688-0866 and someone can confirm directly."}, {"question": "Is TDI Builders, Inc. licensed and insured?", "answer": "Yes \u2014 TDI Builders, Inc. is licensed and insured for residential, commercial, and industrial work in California. Licensing means the work is performed under a contractor's license with regulatory accountability; insurance means your property is protected against liability throughout the project."}]
+faq: [{"question": "How long has TDI USA, Inc. been in business?", "answer": "TDI USA, Inc. was founded in 1985, giving the company more than 40 years of experience in construction, restoration, and rebuilding. That span covers significant shifts in building codes, insurance practices, and restoration technology \u2014 all of which inform how jobs are scoped and executed today."}, {"question": "What areas does TDI USA, Inc. serve?", "answer": "The company is headquartered in Sacramento and serves the broader Sacramento metro area, including surrounding Central Valley communities and foothill cities along the major corridors east and north of the city. If you're not sure whether your location is covered, call (877) 688-0866 and someone can confirm directly."}, {"question": "Is TDI USA, Inc. licensed and insured?", "answer": "Yes \u2014 TDI USA, Inc. is licensed and insured for residential, commercial, and industrial work in California. Licensing means the work is performed under a contractor's license with regulatory accountability; insurance means your property is protected against liability throughout the project."}]
 rendered: true
 ---
-TDI Builders, Inc. has been in the construction and rebuilding business since 1985, long enough to have worked through multiple building-code cycles, seen Sacramento's housing stock age, and watched the restoration industry professionalize around certifications and carrier-direct billing. The company is based in Sacramento and available around the clock, because water doesn't wait for business hours and neither do the families dealing with it.
+TDI USA, Inc. has been in the construction and rebuilding business since 1985, long enough to have worked through multiple building-code cycles, seen Sacramento's housing stock age, and watched the restoration industry professionalize around certifications and carrier-direct billing. The company is based in Sacramento and available around the clock, because water doesn't wait for business hours and neither do the families dealing with it.
 
 ## What we do
 
@@ -25,7 +25,7 @@ That's true whether the loss is a burst pipe in a 1950s bungalow in Land Park, s
 
 ## Our certifications and licensure
 
-TDI Builders, Inc. is licensed and insured, which matters practically: it means work is performed under a contractor's license that carries accountability, and that our liability coverage protects your property throughout the job, not just on paper.
+TDI USA, Inc. is licensed and insured, which matters practically: it means work is performed under a contractor's license that carries accountability, and that our liability coverage protects your property throughout the job, not just on paper.
 
 With over 40 years in construction and rebuilding, the team has worked across the full scope of what restoration requires: structural drying, controlled demolition, reconstruction, and the coordination between trades that larger losses demand. Certifications in this industry aren't decorative, they reflect training standards that govern how a job is actually performed, from moisture mapping to containment protocols on jobs involving older building materials.
 

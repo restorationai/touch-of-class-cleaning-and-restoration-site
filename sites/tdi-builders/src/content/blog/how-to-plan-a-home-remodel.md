@@ -57,7 +57,7 @@ When vetting contractors, ask for:
 
 The payment schedule matters more than most homeowners realize. A legitimate contractor will typically ask for a deposit (California law caps this at 10% or $1,000, whichever is less for most residential projects), with subsequent draws tied to completed milestones, not to calendar dates. If a contractor asks for 50% upfront, that's a red flag.
 
-TDI Builders, Inc. handles general contracting and home remodeling in the Sacramento area. If you're at the stage of collecting bids, they're reachable at (877) 688-0866.
+TDI USA, Inc. handles general contracting and home remodeling in the Sacramento area. If you're at the stage of collecting bids, they're reachable at (877) 688-0866.
 
 ## Step 4: Finalize Plans, Pull Permits, and Prepare Your Home
 
@@ -93,4 +93,4 @@ At project close, collect and file:
 
 Keep these with your home's records. They matter for homeowner's insurance, future sales disclosures, and any warranty claims down the road.
 
-A well-planned remodel, scoped carefully, permitted properly, and executed by a licensed contractor, adds lasting value to your home and avoids the expensive rework that shortcuts create. If you're in the Sacramento area and ready to move from planning to building, TDI Builders, Inc. can walk you through the process. Call (877) 688-0866 to start the conversation.
+A well-planned remodel, scoped carefully, permitted properly, and executed by a licensed contractor, adds lasting value to your home and avoids the expensive rework that shortcuts create. If you're in the Sacramento area and ready to move from planning to building, TDI USA, Inc. can walk you through the process. Call (877) 688-0866 to start the conversation.

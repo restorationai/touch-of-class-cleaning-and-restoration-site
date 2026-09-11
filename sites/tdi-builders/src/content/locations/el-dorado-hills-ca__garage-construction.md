@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in El Dorado Hills, CA | TDI Builders, Inc."
+title: "Garage Construction in El Dorado Hills, CA | TDI USA, Inc."
 h1: "Garage Construction in El Dorado Hills"
 meta_description: "Trusted garage construction in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction el dorado hills"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Garage Construction"
 rendered: true
 ---
-El Dorado Hills sits at the edge of the Sierra Nevada foothills, where long, dry summers bake the clay-heavy soil into a rigid crust and winter rains can shift it enough to crack a slab that wasn't engineered for the movement. Building a garage here, whether you're adding a detached workshop behind a hillside home or extending an attached bay on a newer tract, demands more than a standard pour and a prefab kit. TDI Builders has been navigating California's foothill construction conditions since 1985, and the team brings that depth to every garage project in El Dorado Hills.
+El Dorado Hills sits at the edge of the Sierra Nevada foothills, where long, dry summers bake the clay-heavy soil into a rigid crust and winter rains can shift it enough to crack a slab that wasn't engineered for the movement. Building a garage here, whether you're adding a detached workshop behind a hillside home or extending an attached bay on a newer tract, demands more than a standard pour and a prefab kit. TDI USA has been navigating California's foothill construction conditions since 1985, and the team brings that depth to every garage project in El Dorado Hills.
 
 ## Why El Dorado Hills Garage Projects Require Local Know-How
 
@@ -48,4 +48,4 @@ Detached garages make more sense on the larger, sloped lots that characterize mu
 
 One thing that catches out-of-area contractors in El Dorado Hills: the combination of high summer temperatures and low humidity causes freshly poured concrete to cure faster on the surface than at depth. During July and August, when daytime temperatures routinely push past 100°F, slabs need active curing management, wet burlap, curing compound, or both, or the surface layer can check and dust before the interior has fully hydrated. TDI schedules pours for early morning during the summer months and specifies curing protocols in writing before the concrete truck arrives. It's a small detail that makes a measurable difference in long-term slab performance on El Dorado Hills projects.
 
-If you're ready to move forward on a garage build, addition, or conversion in El Dorado Hills, call TDI Builders at (877) 688-0866. The team is available around the clock, and a site visit can typically be arranged quickly so you're not waiting weeks just to get a number.
+If you're ready to move forward on a garage build, addition, or conversion in El Dorado Hills, call TDI USA at (877) 688-0866. The team is available around the clock, and a site visit can typically be arranged quickly so you're not waiting weeks just to get a number.

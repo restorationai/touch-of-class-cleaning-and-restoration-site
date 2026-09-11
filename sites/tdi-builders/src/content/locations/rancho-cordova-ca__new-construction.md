@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "New Home Construction in Rancho Cordova, CA | TDI Builders, Inc."
+title: "New Home Construction in Rancho Cordova, CA | TDI USA, Inc."
 h1: "New Home Construction in Rancho Cordova"
 meta_description: "Trusted new home construction in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "new home construction rancho cordova"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "New Home Construction"
 rendered: true
 ---
-Rancho Cordova sits in one of the Sacramento Valley's fastest-growing corridors, where former industrial land, infill lots, and expanding master-planned communities are all competing for the same pool of skilled builders. If you're planning to build a new home here, whether on a cleared lot near the American River parkway edge or on a freshly subdivided parcel in one of the city's newer residential pockets, the local permitting environment, clay-heavy soils, and Sacramento Valley heat loads all shape what good ground-up construction actually looks like. TDI Builders, Inc. has been doing this work since 1985, and we bring that depth to every new build in Rancho Cordova.
+Rancho Cordova sits in one of the Sacramento Valley's fastest-growing corridors, where former industrial land, infill lots, and expanding master-planned communities are all competing for the same pool of skilled builders. If you're planning to build a new home here, whether on a cleared lot near the American River parkway edge or on a freshly subdivided parcel in one of the city's newer residential pockets, the local permitting environment, clay-heavy soils, and Sacramento Valley heat loads all shape what good ground-up construction actually looks like. TDI USA, Inc. has been doing this work since 1985, and we bring that depth to every new build in Rancho Cordova.
 
 ## What Makes New Home Construction in Rancho Cordova Distinct
 
@@ -44,4 +44,4 @@ We're available around the clock, so if a framing question comes up on a Saturda
 
 One thing builders learn quickly in Rancho Cordova: the city's proximity to Mather Airport creates a noise-exposure zone that affects residential construction standards in certain areas. Homes within the airport's noise influence boundary may be subject to sound attenuation requirements, specific insulation values, window STC ratings, and mechanical ventilation specs that differ from standard residential construction elsewhere in Sacramento County. If your lot falls within that zone, we identify it early and design to the requirement rather than discovering it at plan check. It's the kind of local detail that separates a builder who knows this market from one who's just passing through.
 
-If you're ready to move forward on a new home in Rancho Cordova, or still in the early stages of evaluating a lot, call TDI Builders, Inc. at (877) 688-0866. We'll talk through your site, your timeline, and what a ground-up build actually looks like in this city.
+If you're ready to move forward on a new home in Rancho Cordova, or still in the early stages of evaluating a lot, call TDI USA, Inc. at (877) 688-0866. We'll talk through your site, your timeline, and what a ground-up build actually looks like in this city.

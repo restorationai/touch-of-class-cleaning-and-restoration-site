@@ -79,4 +79,4 @@ After you've verified licenses, compared itemized bids, checked references, and 
 
 Those soft factors matter, but they come after the hard verification, not instead of it.
 
-If you're starting a general contracting, home remodeling, or new construction project in the Sacramento area and want to talk through scope and timeline before committing to anything, TDI Builders, Inc. is available at (877) 688-0866. No pressure to sign on the first call, just a straight conversation about what your project actually requires.
+If you're starting a general contracting, home remodeling, or new construction project in the Sacramento area and want to talk through scope and timeline before committing to anything, TDI USA, Inc. is available at (877) 688-0866. No pressure to sign on the first call, just a straight conversation about what your project actually requires.
