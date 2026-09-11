@@ -5,7 +5,7 @@
   "tier": "standard",
   "vertical": "restoration",
   "contact": "service@frontlinefireflood.com",
-  "status": "onboarding",
+  "status": "active",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -13,7 +13,7 @@
     "url_count": 106,
     "generated_at": "2026-09-03T04:40:29.635624+00:00"
   },
-  "updated_at": "2026-09-11T05:22:28+00:00",
+  "updated_at": "2026-09-11T05:23:38+00:00",
   "indexnow_key": "afe959444b8341fda701a5989fdcbc02",
   "build": {
     "scaffolded_at": "2026-09-03T04:40:40.061483+00:00",
@@ -52,5 +52,13 @@
     "legacy_origin": "172.67.185.61",
     "completed_at": "2026-09-11T05:22:28+00:00"
   },
-  "cut_over_at": "2026-09-11T05:22:28+00:00"
+  "cut_over_at": "2026-09-11T05:22:28+00:00",
+  "cloudflare": {
+    "zone_id": "d821cc8aa98f5293b4f3f49026133e74"
+  },
+  "gsc": {
+    "property_url": "sc-domain:frontlinefireflood.com",
+    "verified_at": "2026-09-11T05:23:38+00:00",
+    "sitemap_url": "https://frontlinefireflood.com/sitemap-index.xml"
+  }
 }
