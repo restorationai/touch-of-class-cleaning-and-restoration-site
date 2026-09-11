@@ -47,9 +47,9 @@
   ],
   "service_areas": [
     {
-      "city": "Thonotosasa",
+      "city": "Thonotosassa",
       "state": "FL",
-      "slug": "thonotosasa-fl",
+      "slug": "thonotosassa-fl",
       "primary": true
     },
     {
@@ -91,6 +91,96 @@
       "city": "Dover",
       "state": "FL",
       "slug": "dover-fl"
+    },
+    {
+      "city": "St. Petersburg",
+      "state": "FL",
+      "slug": "st-petersburg-fl"
+    },
+    {
+      "city": "Clearwater",
+      "state": "FL",
+      "slug": "clearwater-fl"
+    },
+    {
+      "city": "Largo",
+      "state": "FL",
+      "slug": "largo-fl"
+    },
+    {
+      "city": "Pinellas Park",
+      "state": "FL",
+      "slug": "pinellas-park-fl"
+    },
+    {
+      "city": "Palm Harbor",
+      "state": "FL",
+      "slug": "palm-harbor-fl"
+    },
+    {
+      "city": "Dunedin",
+      "state": "FL",
+      "slug": "dunedin-fl"
+    },
+    {
+      "city": "Riverview",
+      "state": "FL",
+      "slug": "riverview-fl"
+    },
+    {
+      "city": "Valrico",
+      "state": "FL",
+      "slug": "valrico-fl"
+    },
+    {
+      "city": "Apollo Beach",
+      "state": "FL",
+      "slug": "apollo-beach-fl"
+    },
+    {
+      "city": "Ruskin",
+      "state": "FL",
+      "slug": "ruskin-fl"
+    },
+    {
+      "city": "Lutz",
+      "state": "FL",
+      "slug": "lutz-fl"
+    },
+    {
+      "city": "Wesley Chapel",
+      "state": "FL",
+      "slug": "wesley-chapel-fl"
+    },
+    {
+      "city": "Land O' Lakes",
+      "state": "FL",
+      "slug": "land-o-lakes-fl"
+    },
+    {
+      "city": "New Port Richey",
+      "state": "FL",
+      "slug": "new-port-richey-fl"
+    },
+    {
+      "city": "Bradenton",
+      "state": "FL",
+      "slug": "bradenton-fl"
+    },
+    {
+      "city": "Palmetto",
+      "state": "FL",
+      "slug": "palmetto-fl"
+    },
+    {
+      "city": "Winter Haven",
+      "state": "FL",
+      "slug": "winter-haven-fl"
+    },
+    {
+      "city": "Auburndale",
+      "state": "FL",
+      "slug": "auburndale-fl"
     }
   ],
   "template": "restoration",

@@ -66,6 +66,7 @@ import argparse
 import json
 import os
 import sys
+import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -582,6 +583,197 @@ def fathom_transcript_tail(rid: str, chars: int = 9000,
     return "\n".join(lines)[-chars:]
 
 
+PROSPECT_SYSTEM = """\
+You read one recorded meeting (title + AI summary) that matched NO existing
+client of the agency. Decide what it was. Return ONLY JSON:
+{"kind": "sales_prospect" | "client_call" | "internal" | "vendor" | "other",
+ "company_name": "<the external company's name, or null>",
+ "people": [{"name": "...", "role": "..."}],
+ "follow_up": {"agreed": true|false, "day": "YYYY-MM-DD or null",
+               "time_agreed": true|false},
+ "gist": "<two plain sentences: who they are and what was agreed>",
+ "why": "<one line>"}
+sales_prospect = an external company evaluating the agency's services.
+client_call = clearly an existing client the roster match missed.
+internal = only the agency's own team. vendor = someone selling TO us.
+follow_up reflects only what was actually said; resolve relative dates
+("next Thursday") against the meeting date given. time_agreed is true only
+if a specific clock time was mutually confirmed. Never invent."""
+
+
+def handle_unmatched(m: dict, rid: str, title: str, when: str,
+                     summary_md: str, state: dict, dry_run: bool) -> None:
+    """A meeting that matches no client is not automatically noise
+    (2026-09-11, Patti Collins / AFC Cleaning: a sales call Santino took
+    for Levi sat invisible because 'Impromptu Google Meet Meeting' matched
+    nothing and the sales automation is title-gated). Classify it; a sales
+    prospect gets a GHL contact + CRM note, a booked follow-up on the
+    Follow Up calendar when an explicit time was mutually confirmed on the
+    call, and a GHL task to pin the time when only the day was agreed.
+    Idempotent via state['bookings']."""
+    bookings = state.setdefault("bookings", {})
+    if bookings.get(rid):
+        return
+    # 12k, not less: the follow-up agreement lives at the END of Fathom's
+    # deal summary (Timeline/Next steps) — a short cut misses it (Patti
+    # 2026-09-11: "Follow-up set for next Thursday" sat past 6k chars).
+    try:
+        wd = datetime.fromisoformat(str(when)).strftime("%A")
+    except (ValueError, TypeError):
+        wd = "?"
+    cls = anthropic_json(
+        PROSPECT_SYSTEM,
+        f"Meeting: {title!r} on {when} (a {wd})\n\nSummary:\n"
+        f"{summary_md[:12000]}")
+    kind = cls.get("kind") or "other"
+    if kind != "sales_prospect":
+        print(f"    classified {kind} — no prospect handling")
+        bookings[rid] = f"unmatched-{kind}"
+        return
+    name = (cls.get("company_name") or "").strip()
+    print(f"    SALES PROSPECT: {name or title}")
+    loc = os.environ["GHL_LOCATION_ID"]
+    emails = []
+    for i in (m.get("calendar_invitees") or []):
+        e = (i.get("email") if isinstance(i, dict) else str(i)) or ""
+        # our own invite aliases must never become "the prospect" (first
+        # live run matched ignitesystems3@gmail.com — our own account)
+        if "@" in e and not any(d in e.lower() for d in
+                                ("restorationai.io", "getrestorationai.com",
+                                 "ignitesystems", "bdadigital.us")):
+            emails.append(e)
+    contact = None
+    queries = emails + [p.get("name") for p in (cls.get("people") or [])
+                        if p.get("name")] + ([name] if name else [])
+    for q in queries:
+        try:
+            hits = _ghl_api("GET", "/contacts/?locationId=" + loc
+                            + "&query=" + urllib.parse.quote(str(q))
+                            ).get("contacts") or []
+        except Exception:  # noqa: BLE001
+            hits = []
+        if hits:
+            contact = hits[0]
+            print(f"    GHL contact: {contact.get('id')} "
+                  f"({contact.get('email') or contact.get('phone')})")
+            break
+    if not contact and emails and not dry_run:
+        person = (cls.get("people") or [{}])[0].get("name") or name or "Prospect"
+        first, _, last = person.partition(" ")
+        try:
+            contact = _ghl_api("POST", "/contacts/", {
+                "locationId": loc, "firstName": first, "lastName": last,
+                "email": emails[0], "companyName": name,
+                "source": "fathom-auto"}).get("contact")
+            print(f"    created GHL contact {contact.get('id')} ({emails[0]})")
+        except Exception as e:  # noqa: BLE001
+            print(f"    contact create failed ({str(e)[:80]})")
+    if not contact:
+        bookings[rid] = "prospect-no-contact"
+        print("    prospect has no findable GHL contact — classified only")
+        return
+    ctid = contact["id"]
+    if not dry_run:
+        try:
+            _ghl_api("POST", f"/contacts/{ctid}/notes", {
+                "body": f"[fathom-auto] Sales call {when} ({title}). "
+                        f"{cls.get('gist') or ''} Recording: {m.get('url')}"})
+        except Exception:  # noqa: BLE001
+            pass
+    fu = cls.get("follow_up") or {}
+    if not fu.get("agreed"):
+        bookings[rid] = "prospect-no-followup"
+        print("    no follow-up agreed — CRM note only")
+        return
+    if fu.get("time_agreed"):
+        # same strict gate the client path uses: transcript tail, mutually
+        # confirmed quote, sane window; anything less falls through to task
+        try:
+            tail = fathom_transcript_tail(rid, api_key=m.get("_api_key"))
+        except Exception as e:  # noqa: BLE001
+            print(f"    booking: transcript not ready ({str(e)[:60]}) — next cycle")
+            return
+        start_raw = m.get("recording_start_time") or m.get("created_at") or ""
+        try:
+            call_start = datetime.fromisoformat(start_raw.replace("Z", "+00:00"))
+            if call_start.tzinfo is None:
+                call_start = call_start.replace(tzinfo=timezone.utc)
+        except (ValueError, TypeError):
+            call_start = datetime.now(timezone.utc)
+        pt = call_start.astimezone(timezone(timedelta(hours=-7)))
+        out = anthropic_json(
+            BOOKING_SYSTEM,
+            f"Call start: {pt.strftime('%A %Y-%m-%d %H:%M')} Pacific Time "
+            f"({call_start.isoformat()}).\n"
+            f"Client: {name or 'prospect'} — client timezone: unknown.\n\n"
+            f"End of transcript:\n{tail}")
+        target = None
+        if (out.get("agreed") and out.get("start_iso")
+                and out.get("confidence") == "high" and out.get("quote")):
+            try:
+                target = datetime.fromisoformat(str(out["start_iso"]))
+            except ValueError:
+                target = None
+        now = datetime.now(timezone.utc)
+        if (target is not None and target.tzinfo is not None
+                and now + timedelta(hours=1) <= target <= now + timedelta(days=45)
+                and 6 <= target.hour <= 21):
+            if dry_run:
+                print(f"    [dry-run] would BOOK prospect follow-up at "
+                      f"{out['start_iso']}")
+                return
+            try:
+                res = _ghl_api("POST", "/calendars/events/appointments", {
+                    "calendarId": FOLLOWUP_CAL, "locationId": loc,
+                    "contactId": ctid, "startTime": out["start_iso"],
+                    "endTime": (target + timedelta(minutes=30)).isoformat(),
+                    "title": f"{name or 'Prospect'} - Sales Follow-Up",
+                    "assignedUserId": GHL_ASSIGNED_USER,
+                    "appointmentStatus": "confirmed",
+                    "ignoreFreeSlotValidation": True})
+                bookings[rid] = "prospect-booked"
+                print(f"    booking: BOOKED prospect follow-up {res.get('id')} "
+                      f"at {out['start_iso']}")
+                return
+            except Exception as e:  # noqa: BLE001
+                print(f"    prospect booking failed ({str(e)[:100]})")
+        else:
+            print("    booking: time not confirmable from transcript — "
+                  "falling to task")
+    day = fu.get("day")
+    try:
+        evs = _ghl_api("GET", f"/contacts/{ctid}/appointments"
+                       ).get("events") or []
+        if day and any(str(e.get("startTime", "")).startswith(str(day))
+                       and e.get("appointmentStatus") != "cancelled"
+                       for e in evs):
+            bookings[rid] = "already-booked"
+            print(f"    follow-up already on the calendar for {day} — done")
+            return
+    except Exception:  # noqa: BLE001
+        pass
+    if not dry_run:
+        due = (f"{day}T16:00:00Z" if day else
+               (datetime.now(timezone.utc)
+                + timedelta(days=1)).strftime("%Y-%m-%dT16:00:00Z"))
+        try:
+            _ghl_api("POST", f"/contacts/{ctid}/tasks", {
+                "title": f"Confirm follow-up time with {name or 'prospect'}"
+                         + (f" (day agreed: {day})" if day else ""),
+                "body": f"Agreed on the {when} call ({title}) to follow up"
+                        + (f" on {day}" if day else "")
+                        + "; no specific time was confirmed on the call. "
+                        f"Recording: {m.get('url')}",
+                "dueDate": due, "completed": False,
+                "assignedTo": GHL_ASSIGNED_USER})
+        except Exception as e:  # noqa: BLE001
+            print(f"    task create failed ({str(e)[:80]})")
+            return
+    bookings[rid] = "prospect-task"
+    print(f"    follow-up day-level only — GHL task filed "
+          f"(due {day or 'tomorrow'})")
+
+
 def _overlap_is_same_client(events: list, contact: dict, company: dict) -> bool:
     """True when an overlapping calendar event belongs to THIS client —
     matched by contact id or by any client-name token pair in the title."""
@@ -870,7 +1062,12 @@ def cmd_sync(args) -> int:
                 f"Summary opening:\n{summary_md[:1200]}")
             slug = match.get("slug")
             if not slug or slug not in by_slug:
-                print(f"    unmatched ({match.get('why', '?')[:90]}) — skipping forever")
+                print(f"    unmatched ({match.get('why', '?')[:90]})")
+                try:
+                    handle_unmatched(m, rid, title, when, summary_md,
+                                     state, dry_run)
+                except Exception as e:  # noqa: BLE001 — prospect handling
+                    print(f"    prospect handling errored ({str(e)[:90]})")
                 state["processed"][rid] = "unmatched"
                 save_state(state, dry_run)
                 continue
