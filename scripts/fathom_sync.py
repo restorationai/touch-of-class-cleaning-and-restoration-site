@@ -583,6 +583,83 @@ def fathom_transcript_tail(rid: str, chars: int = 9000,
     return "\n".join(lines)[-chars:]
 
 
+# Which calendar an appointment sat on tells us WHAT KIND of call the
+# recording was — harder evidence than any model guess (Santino 2026-09-11).
+APPT_CAL_KINDS = {
+    "5GoVLLz9HDn8Ik3RjFMB": "sales",     # 20 Jobs In 90 Days Guarantee
+    "BOuvQbEVWGytVmoDxqrJ": "sales",     # (SPLIT) 20 Jobs guarantee
+    "Ya9jcpzKfBtfVJGHIyNS": "sales",     # (Quiz - Rank AI) strategy
+    "nxDQ6IYn3QIIvrXS6Ib0": "sales",     # Specialist Strategy Call
+    "szeyWKCEvVWkbFjMFtFT": "sales",     # (Quiz - AI Receptionist) strategy
+    "uZ7whcPD6NFDqcSu0hCf": "sales",     # Follow Up Calendar
+    "DcoatVel3rEw01lKoGlA": "kickoff",   # Rank AI - Kickoff Call
+    "f6zNXUVXpPVdZtlknNNF": "kickoff",   # Restoration AI - Kickoff Call
+    "BhEoJmoyowCaOpALMn61": "support",   # LIVE Support Call
+}
+
+
+def _appointment_anchor(m: dict) -> dict | None:
+    """Trace a recording back to the GHL appointment it came from: a booked
+    call and its recording start sit within minutes of each other, so a
+    time-window scan across our calendars identifies the CONTACT and — via
+    which calendar the booking sat on — whether it was a sales, kickoff or
+    support call. Returns {kind, contact_id, title} or None (ambiguous when
+    several different contacts overlap the window)."""
+    start_raw = m.get("recording_start_time") or m.get("created_at") or ""
+    try:
+        t0 = datetime.fromisoformat(str(start_raw).replace("Z", "+00:00"))
+        if t0.tzinfo is None:
+            t0 = t0.replace(tzinfo=timezone.utc)
+    except (ValueError, TypeError):
+        return None
+    s_ms = int((t0 - timedelta(minutes=25)).timestamp() * 1000)
+    e_ms = int((t0 + timedelta(minutes=25)).timestamp() * 1000)
+    loc = os.environ["GHL_LOCATION_ID"]
+    hits = []
+    for cal, kind in APPT_CAL_KINDS.items():
+        try:
+            evs = _ghl_api("GET", f"/calendars/events?locationId={loc}"
+                           f"&calendarId={cal}&startTime={s_ms}&endTime={e_ms}"
+                           ).get("events") or []
+        except Exception:  # noqa: BLE001
+            continue
+        for e in evs:
+            # the endpoint returns the whole DAY regardless of the ms
+            # window (observed 2026-09-11) — filter by start time ourselves
+            try:
+                est = datetime.fromisoformat(
+                    str(e.get("startTime") or "").replace(" ", "T"))
+                if est.tzinfo is None:
+                    est = est.replace(tzinfo=timezone(timedelta(hours=-7)))
+            except ValueError:
+                continue
+            if abs((est - t0).total_seconds()) > 25 * 60:
+                continue
+            if e.get("appointmentStatus") != "cancelled" and e.get("contactId"):
+                hits.append({"kind": kind, "contact_id": e["contactId"],
+                             "title": e.get("title")})
+    ids = {h["contact_id"] for h in hits}
+    if len(ids) == 1:
+        return hits[0]
+    if len(ids) > 1:
+        # two bookings share the slot (e.g. Patti + a follow-up call at the
+        # same 9am): the recording's calendar invitees name the real one
+        inv = {str((i.get("email") if isinstance(i, dict) else i) or "").lower()
+               for i in (m.get("calendar_invitees") or [])}
+        confirmed = []
+        for h in hits:
+            try:
+                c = _ghl_api("GET", f"/contacts/{h['contact_id']}"
+                             ).get("contact") or {}
+                if str(c.get("email") or "").lower() in inv:
+                    confirmed.append(h)
+            except Exception:  # noqa: BLE001
+                continue
+        if len({h["contact_id"] for h in confirmed}) == 1:
+            return confirmed[0]
+    return None
+
+
 PROSPECT_SYSTEM = """\
 You read one recorded meeting (title + AI summary) that matched NO existing
 client of the agency. Decide what it was. Return ONLY JSON:
@@ -625,8 +702,16 @@ def handle_unmatched(m: dict, rid: str, title: str, when: str,
         PROSPECT_SYSTEM,
         f"Meeting: {title!r} on {when} (a {wd})\n\nSummary:\n"
         f"{summary_md[:12000]}")
+    anchor = None
+    try:
+        anchor = _appointment_anchor(m)
+        if anchor:
+            print(f"    appointment anchor: {anchor['kind']} calendar — "
+                  f"{str(anchor.get('title'))[:70]!r}")
+    except Exception:  # noqa: BLE001
+        anchor = None
     kind = cls.get("kind") or "other"
-    if kind != "sales_prospect":
+    if kind != "sales_prospect" and not (anchor and anchor["kind"] == "sales"):
         print(f"    classified {kind} — no prospect handling")
         bookings[rid] = f"unmatched-{kind}"
         return
@@ -643,9 +728,17 @@ def handle_unmatched(m: dict, rid: str, title: str, when: str,
                                  "ignitesystems", "bdadigital.us")):
             emails.append(e)
     contact = None
+    if anchor and anchor.get("contact_id"):
+        try:
+            contact = _ghl_api("GET", f"/contacts/{anchor['contact_id']}"
+                               ).get("contact")
+            print(f"    contact from booked appointment: "
+                  f"{contact.get('id')} ({contact.get('email') or contact.get('phone')})")
+        except Exception:  # noqa: BLE001
+            contact = None
     queries = emails + [p.get("name") for p in (cls.get("people") or [])
                         if p.get("name")] + ([name] if name else [])
-    for q in queries:
+    for q in ([] if contact else queries):
         try:
             hits = _ghl_api("GET", "/contacts/?locationId=" + loc
                             + "&query=" + urllib.parse.quote(str(q))
@@ -913,7 +1006,22 @@ def book_agreed_followup(company: dict, slug: str, m: dict, *, title: str,
                            ).get("events") or []
         except Exception:  # noqa: BLE001
             continue
-        live = [e for e in evs if e.get("appointmentStatus") != "cancelled"]
+        live = []
+        for e in evs:
+            if e.get("appointmentStatus") == "cancelled":
+                continue
+            # the endpoint returns the whole DAY regardless of the ms window
+            # (observed 2026-09-11) — a same-day-but-elsewhere event must not
+            # read as a conflict; filter by actual overlap ourselves
+            try:
+                est = datetime.fromisoformat(
+                    str(e.get("startTime") or "").replace(" ", "T"))
+                if est.tzinfo is None:
+                    est = est.replace(tzinfo=timezone(timedelta(hours=-7)))
+            except ValueError:
+                continue
+            if abs((est - target).total_seconds()) <= 60 * 60:
+                live.append(e)
         if not live:
             continue
         # An overlapping event for THIS client is a duplicate (someone —

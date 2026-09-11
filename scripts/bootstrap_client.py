@@ -253,17 +253,60 @@ def main():
         # The AI-guess ring below survives only as the fallback when the
         # wizard captured nothing.
         wiz_cities = []
+        county_grps = []
         try:
             sa_rows = sb("GET", "/rest/v1/companies?id=eq.{}&select=service_areas".format(co["id"]))
             sa = (sa_rows or [{}])[0].get("service_areas")
             if isinstance(sa, str):
                 sa = json.loads(sa)
             for grp in sa or []:
-                st = (grp.get("state") or "")[:2].upper() if isinstance(grp, dict) else ""
-                for cty in (grp.get("cities") or []) if isinstance(grp, dict) else []:
+                if not isinstance(grp, dict):
+                    continue
+                st = (grp.get("state") or "")[:2].upper()
+                cities = grp.get("cities") or []
+                for cty in cities:
                     wiz_cities.append({"label": cty, "state": st})
+                if not cities and grp.get("county"):
+                    county_grps.append({"county": grp["county"],
+                                        "state": grp.get("state") or ""})
         except Exception:  # noqa: BLE001
-            wiz_cities = []
+            wiz_cities, county_grps = [], []
+        if county_grps:
+            # DryCor 2026-09-11: the wizard can also store WHOLE COUNTIES
+            # (allCities=true with an empty city list) — enumerate each
+            # county's real cities so county-level territory is never read
+            # as "wizard captured nothing" and lost to the AI-guess ring.
+            try:
+                enum_schema = {
+                    "type": "object", "additionalProperties": False,
+                    "properties": {"cities": {"type": "array", "items": {
+                        "type": "object", "additionalProperties": False,
+                        "properties": {"label": {"type": "string"},
+                                       "state": {"type": "string"}},
+                        "required": ["label", "state"]}}},
+                    "required": ["cities"]}
+                listing = "; ".join("{} County, {}".format(g["county"], g["state"])
+                                    for g in county_grps[:12])
+                out, _ = la.claude_json(
+                    la._claude(),
+                    "List the real incorporated cities and well-known "
+                    "census-designated communities in each county given (the "
+                    "8-15 most significant per county by population). Never "
+                    "invent places. Return ONLY JSON: "
+                    '{"cities": [{"label": "...", "state": "XX"}]}',
+                    "Counties: " + listing, max_tokens=2500, schema=enum_schema)
+                seen = {(c["label"].lower(), c["state"]) for c in wiz_cities}
+                for c in out.get("cities") or []:
+                    k = (str(c.get("label", "")).lower(), c.get("state", ""))
+                    if c.get("label") and k not in seen:
+                        wiz_cities.append({"label": c["label"],
+                                           "state": c.get("state", "")})
+                        seen.add(k)
+                if out.get("cities"):
+                    print("county territories expanded: {} counties -> {} "
+                          "cities".format(len(county_grps), len(wiz_cities)))
+            except Exception:  # noqa: BLE001
+                pass
         if wiz_cities and co3.get("city") and not (brief.get("cities") or []):
             rank_schema = {
                 "type": "object", "additionalProperties": False,

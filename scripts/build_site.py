@@ -1785,6 +1785,84 @@ def _palette_from_logo(logo_path) -> dict | None:
         return None
 
 
+def _palette_from_site(domain: str | None) -> list[str]:
+    """Brand hues from the client's EXISTING website (2026-09-11, DryCor:
+    logo-only extraction picked teal while drycor.com is saturated in
+    #e4002b red everywhere — the live site's CSS is the strongest
+    brand-truth signal we have, so it now outranks the logo)."""
+    if not domain:
+        return []
+    try:
+        import re as _re
+        import colorsys as _cs
+        from collections import defaultdict
+        import requests as _rq
+        html = _rq.get(f"https://{domain}", timeout=15, headers={
+            "User-Agent": "Mozilla/5.0 (rank-ai brand scan)"}).text
+        blobs = [html]
+        for href in _re.findall(
+                r'<link[^>]+rel=["\']stylesheet["\'][^>]+href=["\']([^"\']+)',
+                html)[:3]:
+            if href.startswith("//"):
+                href = "https:" + href
+            elif href.startswith("/"):
+                href = f"https://{domain}" + href
+            if href.startswith("http"):
+                try:
+                    blobs.append(_rq.get(href, timeout=10).text)
+                except Exception:  # noqa: BLE001
+                    pass
+        clusters: dict[int, list[float]] = defaultdict(
+            lambda: [0.0, 0.0, 0.0, 0])
+        for blob in blobs:
+            for hx in _re.findall(r"#([0-9a-fA-F]{6})\b", blob):
+                r, g, b = (int(hx[i:i + 2], 16) for i in (0, 2, 4))
+                h, l, sat = _cs.rgb_to_hls(r / 255, g / 255, b / 255)
+                if sat < 0.25 or l > 0.92 or l < 0.08:
+                    continue
+                c = clusters[int(h * 12) % 12]
+                c[0] += r; c[1] += g; c[2] += b; c[3] += 1
+        ranked = sorted((c for c in clusters.values() if c[3] >= 3),
+                        key=lambda c: -c[3])
+        return ["#%02x%02x%02x" % (round(c[0] / c[3]), round(c[1] / c[3]),
+                                   round(c[2] / c[3])) for c in ranked[:4]]
+    except Exception:  # noqa: BLE001 — never fail a scaffold over colors
+        return []
+
+
+def _auto_palette(logo_path, domain: str | None):
+    """Site CSS hues first, logo as confirmation/fallback."""
+    import colorsys as _cs
+
+    def hue(hx):
+        return _cs.rgb_to_hls(*(int(hx[i:i + 2], 16) / 255
+                                for i in (1, 3, 5)))[0]
+
+    site = _palette_from_site(domain)
+    logo = _palette_from_logo(logo_path)
+    if not site:
+        return logo
+    primary = site[0]
+    accent = None
+    candidates = site[1:] + ([logo.get("accent_color"),
+                              logo.get("primary_color")] if logo else [])
+    for cand in candidates:
+        if not cand:
+            continue
+        d = abs(hue(cand) - hue(primary))
+        if min(d, 1 - d) >= 0.12:
+            accent = cand
+            break
+    h, l, sat = _cs.rgb_to_hls(*(int(primary[i:i + 2], 16) / 255
+                                 for i in (1, 3, 5)))
+    dark = "#%02x%02x%02x" % tuple(
+        round(v * 255) for v in _cs.hls_to_rgb(h, 0.13, min(sat, 0.7)))
+    out = {"primary_color": primary, "dark_color": dark}
+    if accent:
+        out["accent_color"] = accent
+    return out
+
+
 def cmd_scaffold(args) -> int:
     slug = args.slug
     client = load_json(CLIENTS_DIR / f"{slug}.json")
@@ -1882,12 +1960,15 @@ def cmd_scaffold(args) -> int:
         has_colors = bool(brand_block.get("primary_color")
                           or (brand_block.get("colors") or {}).get("primary"))
         if not has_colors:
-            pal = _palette_from_logo(SITES_DIR / slug / "public" / "images" / pulled_logo)
+            pal = _auto_palette(
+                SITES_DIR / slug / "public" / "images" / pulled_logo,
+                client.get("domain"))
             if pal:
                 brand_block.update(pal)
                 save_json(plan_input_path, {k: v for k, v in plan_input.items()
                                             if k != "_slug"})
-                print(f"      palette: auto-extracted from logo — primary {pal['primary_color']}"
+                print(f"      palette: auto-extracted from live site + logo — "
+                      f"primary {pal['primary_color']}"
                       f" accent {pal.get('accent_color', '(none)')} dark {pal['dark_color']}")
     else:
         print(f"      NOTE: no logo in branding bucket for {cid or slug} — scaffolding "

@@ -14,7 +14,13 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
    Plumbing proven (appointment API works; calendar allowBookingAfter set
    to 6 hours on Live Support 2026-09-11 — NOTE: was 3 days; public
    booking link loosened too, revisit if unwanted).
-2. **All Pro homepage fixes (Angie 09-11, ack sent)** — new van/fleet
+2. **"Site preview ready" trigger** — no automated announce exists when a
+   build reaches pushed_staging (DryCor sat on staging 10 days, nothing
+   queued; previews have always been sent by hand). Build: on the
+   pushed_staging transition, file an ops card + queue Monica's preview
+   message in APPROVAL mode (never auto-send). DryCor itself: hold all
+   sends until expansion + red accent are done (Santino 09-11).
+3. **All Pro homepage fixes (Angie 09-11, ack sent)** — new van/fleet
    photos (current AI hero vans look like wind-up toys), remove the red
    and blue lines, palette red/white/blue only (no black), move the phone
    number + free-estimate CTA left so vehicles stay visible. Send Angie a
