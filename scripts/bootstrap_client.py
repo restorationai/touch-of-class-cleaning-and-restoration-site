@@ -244,7 +244,60 @@ def main():
         if isinstance(ints3, str):
             ints3 = json.loads(ints3)
         brief = ints3.get("site_brief") or {}
-        if co3.get("city") and not (brief.get("cities") or []):
+        # WIZARD TERRITORIES FIRST (Frontline 2026-09-11: the client entered
+        # 164 cities across 5 counties in onboarding and the site got an
+        # AI-invented 9-city ring instead — companies.service_areas is the
+        # single source of truth for territory and must drive the brief).
+        # Claude RANKS the client's own list (top 15-20 by population/search
+        # demand); the remainder is recorded as expansion tiers, never lost.
+        # The AI-guess ring below survives only as the fallback when the
+        # wizard captured nothing.
+        wiz_cities = []
+        try:
+            sa_rows = sb("GET", "/rest/v1/companies?id=eq.{}&select=service_areas".format(co["id"]))
+            sa = (sa_rows or [{}])[0].get("service_areas")
+            if isinstance(sa, str):
+                sa = json.loads(sa)
+            for grp in sa or []:
+                st = (grp.get("state") or "")[:2].upper() if isinstance(grp, dict) else ""
+                for cty in (grp.get("cities") or []) if isinstance(grp, dict) else []:
+                    wiz_cities.append({"label": cty, "state": st})
+        except Exception:  # noqa: BLE001
+            wiz_cities = []
+        if wiz_cities and co3.get("city") and not (brief.get("cities") or []):
+            rank_schema = {
+                "type": "object", "additionalProperties": False,
+                "properties": {"top": {"type": "array", "items": {
+                    "type": "object", "additionalProperties": False,
+                    "properties": {"label": {"type": "string"},
+                                   "state": {"type": "string"}},
+                    "required": ["label", "state"]}}},
+                "required": ["top"]}
+            listing = ", ".join(f"{c['label']} ({c['state']})" for c in wiz_cities[:250])
+            out, _ = la.claude_json(
+                la._claude(),
+                "You RANK a service company's own confirmed territory list for "
+                "website city pages. From ONLY the cities given, return the top "
+                "15-20 by population and search demand, the company's own city "
+                "FIRST. Never add cities that are not in the list. "
+                'Return ONLY JSON: {"top": [{"label": "...", "state": "XX"}]}',
+                "Company city: {}, {}\nTheir confirmed territory: {}".format(
+                    co3["city"], co3.get("state") or "", listing),
+                max_tokens=1500, schema=rank_schema)
+            top = (out.get("top") or [])[:20]
+            if top:
+                chosen = {(c["label"].lower(), c["state"]) for c in top}
+                brief["cities"] = top
+                brief["expansion_cities"] = [
+                    c for c in wiz_cities
+                    if (c["label"].lower(), c["state"]) not in chosen]
+                ints3["site_brief"] = brief
+                sb("PATCH", "/rest/v1/companies?id=eq." + co["id"],
+                   body={"integration_settings": ints3}, prefer="return=minimal")
+                print("site-brief cities from WIZARD territories: "
+                      + ", ".join(c["label"] for c in top)
+                      + " (+{} expansion)".format(len(brief["expansion_cities"])))
+        elif co3.get("city") and not (brief.get("cities") or []):
             ring_schema = {
                 "type": "object", "additionalProperties": False,
                 "properties": {"cities": {"type": "array", "items": {
