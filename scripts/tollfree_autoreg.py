@@ -520,8 +520,9 @@ _STRATEGIES = [
     (("registration", "ein", "tax", "30527"),
      "ein-identifier", "re-stamp EIN as BusinessRegistrationNumber with "
                        "Identifier=EIN (the 30527 fix)"),
-    (("business name", "legal"),
-     "legal-name", "swap to the vaulted legal business name"),
+    (("business name", "legal", "invalid"),
+     "legal-name", "swap to the vaulted legal business name (invalid-EIN "
+                   "class is usually an EIN/legal-name mismatch)"),
 ]
 
 
@@ -758,6 +759,25 @@ def _scan_docs_for_ein(r: dict) -> str | None:
 
 # --------------------------------------------------------------------- watch
 
+def _latest_verification(r: dict) -> dict | None:
+    """The subaccount's verification row for this client's number, or None."""
+    if not (r.get("twilio_subaccount_sid") and r.get("twilio_auth_token")):
+        return None
+    auth = base64.b64encode(
+        f"{r['twilio_subaccount_sid']}:{r['twilio_auth_token']}".encode()).decode()
+    req = urllib.request.Request(
+        "https://messaging.twilio.com/v1/Tollfree/Verifications?PageSize=20",
+        headers={"Authorization": "Basic " + auth})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            vs = json.load(resp).get("verifications") or []
+    except (urllib.error.HTTPError, urllib.error.URLError, OSError):
+        return None
+    mine = [v for v in vs
+            if v.get("tollfree_phone_number") == r.get("agent_phone_1")]
+    return mine[0] if mine else None
+
+
 def sync_pending_statuses(fleet: list[dict], apply: bool) -> None:
     """Poll Twilio for every compliance_status=pending client and record the
     verdict. Approvals: stamp + work-log (the dispatch fn's self-heal handles
@@ -814,6 +834,70 @@ def sync_pending_statuses(fleet: list[dict], apply: bool) -> None:
             # resubmission ladder first — escalate only when it declines
             if attempt_auto_resubmit(r, mine[0], apply):
                 continue
+            # EIN-class rejection with NO EIN on file (Frontline 2026-09-10):
+            # the ein-identifier strategy cannot re-stamp what does not exist,
+            # so this used to dead-end at [TODO-SANTINO]. Route it to the
+            # SAME Monica loop fresh submits use: scan their docs/threads,
+            # else file the EIN-ASK — capture + resubmit then run on later
+            # cycles without a human.
+            low_reason = str(reason).lower()
+            ein_class = any(k in low_reason for k in
+                            ("registration", "ein", "tax", "30527"))
+            have_ein = _ein_digits(r.get("business_ein")
+                                   or c.get("ein") or "")
+            ein_missing = ein_class and not have_ein
+            # EIN present but Twilio calls it INVALID and the ladder is out
+            # of moves: have Monica CONFIRM the EIN + exact IRS legal name
+            # with the client (one ask); a corrected EIN resets the ladder.
+            if ein_class and have_ein and apply:
+                marker = f"EIN-CONFIRM-{r['id']}"
+                prior = _sb("GET", "/rest/v1/marketing_ops_notes?"
+                            f"company_id=eq.{r['id']}&body=like.*{marker}*"
+                            "&select=id&limit=1") or []
+                if not prior:
+                    _sb("POST", "/rest/v1/marketing_ops_notes", {
+                        "company_id": r["id"],
+                        "body": f"[{marker}] The carrier flagged this "
+                                f"client's EIN ({have_ein[:2]}-{have_ein[2:]}) "
+                                "as invalid for texting verification. Ask them "
+                                "to double-check two things from their IRS "
+                                "paperwork (CP 575 letter): the exact EIN and "
+                                "the exact legal business name it is "
+                                "registered under. Casual, one message.",
+                    }, prefer="return=minimal")
+                    print(f"  [{c['name']}] EIN-CONFIRM ask filed for Monica")
+            if ein_missing:
+                found = _scan_docs_for_ein(r) or _scan_threads_for_ein(r)
+                if found and apply:
+                    _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{r['id']}",
+                        {"business_ein": found}, prefer="return=minimal")
+                    r["business_ein"] = found
+                    print(f"  [{c['name']}] EIN {found} recovered from their "
+                          "docs/threads — resubmitting")
+                    if attempt_auto_resubmit(r, mine[0], apply):
+                        continue
+                elif not found:
+                    marker = f"EIN-ASK-{r['id']}"
+                    prior = _sb("GET", "/rest/v1/marketing_ops_notes?"
+                                f"company_id=eq.{r['id']}&body=like.*{marker}*"
+                                "&select=id&limit=1") or []
+                    if not prior and apply:
+                        _sb("POST", "/rest/v1/marketing_ops_notes", {
+                            "company_id": r["id"],
+                            "body": f"[{marker}] Ask the client for their EIN "
+                                    "(federal tax ID, format 12-3456789): their "
+                                    "toll-free texting verification needs it. "
+                                    "One question, keep it casual.",
+                        }, prefer="return=minimal")
+                        print(f"  [{c['name']}] EIN-ASK filed — Monica asks on "
+                              "her next run; capture + resubmit are automatic")
+                    if apply:
+                        _sb("PATCH",
+                            f"/rest/v1/company_phone_setup?id=eq.{r['id']}",
+                            {"compliance_status": "rejected"},
+                            prefer="return=minimal")
+                    r["compliance_status"] = "rejected" if apply else "pending"
+                    continue
             if apply:
                 _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{r['id']}",
                     {"compliance_status": "rejected"},
@@ -851,6 +935,27 @@ def cmd_watch(args) -> int:
         v, _missing = assess(r)
         c, cid = r["company"], r["id"]
         if v == "READY":
+            if (r.get("compliance_status") or "") == "rejected":
+                # EIN landed after a rejection: the fix is an in-place
+                # UPDATE of the rejected verification, not a fresh submit.
+                ver = _latest_verification(r)
+                if ver and ver.get("status") == "TWILIO_REJECTED":
+                    track = r.get("tollfree_resubmit") or {}
+                    last_ein = _ein_digits(str(track.get("last_ein") or ""))
+                    now_ein = _ein_digits(r.get("business_ein") or "")
+                    if now_ein and last_ein and now_ein != last_ein:
+                        # corrected EIN -> fresh ladder
+                        if args.apply:
+                            _sb("PATCH",
+                                f"/rest/v1/company_phone_setup?id=eq.{r['id']}",
+                                {"tollfree_resubmit": {"attempts": [],
+                                                       "last_ein": now_ein}},
+                                prefer="return=minimal")
+                        r["tollfree_resubmit"] = {"attempts": [],
+                                                  "last_ein": now_ein}
+                    if attempt_auto_resubmit(r, ver, args.apply):
+                        submitted += 1
+                    continue
             if submit_one(r, args.apply):
                 submitted += 1
             continue
