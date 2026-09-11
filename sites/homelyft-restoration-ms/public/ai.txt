@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://homelyft-restoration-ms.invalid/
+# Site: https://homelyft.net/
 # Maintainer: HomeLyft Restoration MS
 # Contact: info@homelyft.net
-# Sitemap: https://homelyft-restoration-ms.invalid/sitemap-index.xml
-# LLM index: https://homelyft-restoration-ms.invalid/llms.txt
+# Sitemap: https://homelyft.net/sitemap-index.xml
+# LLM index: https://homelyft.net/llms.txt
