@@ -166,6 +166,38 @@ def _execute_job(job_id: str, slug: str, system: int,
             _update_job(job_id, status="completed", completed_at=_now(),
                         log=log[-8000:], result=result)
 
+        elif system == "site_push_main":
+            # PUSH TO PRODUCTION from the app (Santino 2026-09-10: "can it
+            # still not be done fully in app?"). Promotes the already-rendered
+            # site to the per-client repo's main branch via sync-deploy, the
+            # same command the pipeline machine runs. Railway's checkout pulls
+            # latest first so it promotes what agents committed, not a stale
+            # tree. Needs GITHUB_PERSONAL_ACCESS_TOKEN in the service env.
+            rc0, log0 = _run_subprocess(["git", "-C", str(ROOT), "pull", "--rebase",
+                                         "origin", "main"])
+            if rc0 != 0:
+                _update_job(job_id, status="failed", completed_at=_now(),
+                            error="git pull failed before push", log=log0[-8000:])
+                return
+            rc, log = _run_subprocess([
+                "python3", str(ROOT / "scripts" / "build_site.py"),
+                "sync-deploy", "--slug", slug, "--branch", "main",
+            ])
+            _run_sync(slug)
+            if rc == 0:
+                _update_job(job_id, status="completed", completed_at=_now(),
+                            log=(log0 + "\n" + log)[-8000:],
+                            result={"state": "pushed_main",
+                                    "note": "Production build pushed - Cloudflare Pages is "
+                                            "building it now (a few minutes)."})
+            else:
+                hint = (" (if this mentions credentials, add "
+                        "GITHUB_PERSONAL_ACCESS_TOKEN to the Railway service env)"
+                        if "auth" in log.lower() or "credential" in log.lower()
+                        or "403" in log or "denied" in log.lower() else "")
+                _update_job(job_id, status="failed", completed_at=_now(),
+                            error=f"sync-deploy exited {rc}{hint}", log=log[-8000:])
+
         elif system == "cutover_provision":
             # LAUNCH-SAFE PROVISION ONLY (Santino 2026-09-10, Frontline: the
             # panel's Provision click ran the FULL cutover, whose site-readiness
@@ -251,6 +283,7 @@ def create_and_run_job(slug: str, system, photo_url: str | None = None) -> str:
     system_names = {1: "keyword_research", 2: "write_post", 3: "audit", 4: "refresh",
                     "gbp_face": "gbp_face_fix", "gbp_set_cover": "gbp_set_cover",
                     "cutover": "cutover", "cutover_provision": "cutover_provision",
+                    "site_push_main": "site_push_main",
                     "ads_account_create": "ads_account_create"}
     params = {"slug": slug, "system": system}
     if photo_url:
