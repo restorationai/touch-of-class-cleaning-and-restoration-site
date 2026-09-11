@@ -177,6 +177,13 @@ def main() -> int:
         except Exception as e:  # noqa: BLE001 — one bad call never stops the run
             failed += 1
             print(f"  {row.get('call_sid', rid)[-8:]}: FAILED {str(e)[:100]}")
+            # Out of OpenAI credits = every remaining call fails identically
+            # (2026-09-10: 3x40 wasted attempts). Abort loudly instead.
+            if done == 0 and failed >= 3 and "429" in str(e):
+                print("==> ABORTING RUN: OpenAI quota or credits exhausted. "
+                      "Add credits at platform.openai.com billing and the "
+                      "cron resumes automatically.")
+                break
     print(f"==> analyzed {done}, skipped-short {short}, failed {failed}")
     return 0
 
