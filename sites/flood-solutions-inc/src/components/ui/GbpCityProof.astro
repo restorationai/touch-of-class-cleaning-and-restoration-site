@@ -1,0 +1,53 @@
+---
+// GbpCityProof — compact per-city proof card built ONLY from GBP fields synced
+// by scripts/sync_brand_reviews.py (real ratings only — never hand-edited).
+// Renders nothing when the brand has no synced rating, so sites without GBP
+// data make no review claims. The review snippet rotates deterministically by
+// city-name hash so city pages don't all show the same quote.
+import { brand } from "~/lib/brand";
+import { cityHash, isHqCity } from "~/lib/dispatch";
+import { Star } from "@lucide/astro";
+
+type Props = { city: string };
+const { city } = Astro.props;
+
+const rating = String(brand.gbpRatingValue || "");
+const count = String(brand.gbpReviewCount || "");
+const hasRating = rating !== "" && count !== "";
+const reviews = brand.gbpReviews || [];
+const review = hasRating && reviews.length > 0 ? reviews[cityHash(city) % reviews.length] : undefined;
+const heading = isHqCity(city)
+  ? `Headquartered right here in ${city} — ★ ${rating} · ${count} Google reviews`
+  : `Serving ${city} from our ${brand.primaryCity} headquarters — ★ ${rating} · ${count} Google reviews`;
+const reviewsUrl = brand.placeId
+  ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
+  : brand.googleCid
+    ? `https://www.google.com/maps?cid=${brand.googleCid}`
+    : "";
+---
+
+{hasRating && (
+  <section class="bg-white pb-16">
+    <div class="container-wide">
+      <div class="max-w-content mx-auto rounded-lg border border-dark/10 bg-dark/5 p-6 md:p-8">
+        <div class="flex gap-1 text-amber-400 mb-3" aria-hidden="true">
+          {Array.from({ length: Math.min(5, Math.round(parseFloat(rating))) }).map(() => (
+            <Star size={16} class="fill-current" />
+          ))}
+        </div>
+        <p class="m-0 text-lg md:text-xl font-black text-dark-900">{heading}</p>
+        {review && (
+          <blockquote class="m-0 mt-4 p-0 border-0 text-dark-700 text-sm leading-relaxed">
+            “{review.text}”
+            <span class="text-dark-700/70 font-bold"> — {review.author}{review.when ? `, ${review.when}` : ""}</span>
+          </blockquote>
+        )}
+        {reviewsUrl && (
+          <a href={reviewsUrl} target="_blank" rel="noopener" class="inline-block mt-4 text-xs font-black uppercase tracking-widest text-primary-600 no-underline hover:underline">
+            Read our reviews on Google →
+          </a>
+        )}
+      </div>
+    </div>
+  </section>
+)}

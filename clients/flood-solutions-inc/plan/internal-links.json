@@ -1,0 +1,341 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/rochester-hills-mi/",
+    "/service-areas/shelby-township-mi/",
+    "/service-areas/sterling-heights-mi/",
+    "/service-areas/troy-mi/",
+    "/service-areas/utica-mi/",
+    "/service-areas/warren-mi/"
+  ],
+  "/services/": [
+    "/",
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/rochester-hills-mi/",
+    "/service-areas/shelby-township-mi/",
+    "/service-areas/sterling-heights-mi/",
+    "/service-areas/troy-mi/",
+    "/service-areas/utica-mi/",
+    "/service-areas/warren-mi/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/how-long-does-water-damage-restoration-take/",
+    "/blog/mold-after-water-damage/",
+    "/blog/basement-flooding-prevention/",
+    "/blog/commercial-water-damage-business-continuity/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/water-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/service-areas/rochester-hills-mi/water-damage-restoration/",
+    "/service-areas/shelby-township-mi/water-damage-restoration/",
+    "/service-areas/sterling-heights-mi/water-damage-restoration/",
+    "/service-areas/troy-mi/water-damage-restoration/",
+    "/service-areas/utica-mi/water-damage-restoration/",
+    "/service-areas/warren-mi/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/water-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/service-areas/rochester-hills-mi/water-cleanup/",
+    "/service-areas/shelby-township-mi/water-cleanup/",
+    "/service-areas/sterling-heights-mi/water-cleanup/",
+    "/service-areas/troy-mi/water-cleanup/",
+    "/service-areas/utica-mi/water-cleanup/",
+    "/service-areas/warren-mi/water-cleanup/"
+  ],
+  "/service-areas/sterling-heights-mi/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/sterling-heights-mi/water-damage-restoration/",
+    "/service-areas/sterling-heights-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/rochester-hills-mi/"
+  ],
+  "/service-areas/warren-mi/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/warren-mi/water-damage-restoration/",
+    "/service-areas/warren-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/rochester-hills-mi/"
+  ],
+  "/service-areas/clinton-township-mi/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/rochester-hills-mi/",
+    "/service-areas/shelby-township-mi/"
+  ],
+  "/service-areas/troy-mi/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/troy-mi/water-damage-restoration/",
+    "/service-areas/troy-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/rochester-hills-mi/"
+  ],
+  "/service-areas/rochester-hills-mi/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/rochester-hills-mi/water-damage-restoration/",
+    "/service-areas/rochester-hills-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/shelby-township-mi/"
+  ],
+  "/service-areas/shelby-township-mi/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/shelby-township-mi/water-damage-restoration/",
+    "/service-areas/shelby-township-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/rochester-hills-mi/"
+  ],
+  "/service-areas/utica-mi/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/utica-mi/water-damage-restoration/",
+    "/service-areas/utica-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/rochester-hills-mi/"
+  ],
+  "/service-areas/chesterfield-mi/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/rochester-hills-mi/",
+    "/service-areas/shelby-township-mi/"
+  ],
+  "/service-areas/sterling-heights-mi/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/sterling-heights-mi/",
+    "/service-areas/sterling-heights-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sterling-heights-mi/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/sterling-heights-mi/",
+    "/service-areas/sterling-heights-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/warren-mi/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/warren-mi/",
+    "/service-areas/warren-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/warren-mi/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/warren-mi/",
+    "/service-areas/warren-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/clinton-township-mi/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/rochester-hills-mi/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/clinton-township-mi/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/rochester-hills-mi/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/troy-mi/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/troy-mi/",
+    "/service-areas/troy-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/troy-mi/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/troy-mi/",
+    "/service-areas/troy-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/rochester-hills-mi/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/rochester-hills-mi/",
+    "/service-areas/rochester-hills-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rochester-hills-mi/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/rochester-hills-mi/",
+    "/service-areas/rochester-hills-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/shelby-township-mi/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/shelby-township-mi/",
+    "/service-areas/shelby-township-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/shelby-township-mi/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/shelby-township-mi/",
+    "/service-areas/shelby-township-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/utica-mi/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/utica-mi/",
+    "/service-areas/utica-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/utica-mi/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/utica-mi/",
+    "/service-areas/utica-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/chesterfield-mi/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/service-areas/rochester-hills-mi/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/chesterfield-mi/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/service-areas/rochester-hills-mi/water-cleanup/",
+    "/contact/"
+  ],
+  "/blog/what-to-do-first-24-hours-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/burst-pipe-emergency-checklist/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/does-homeowners-insurance-cover-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/choosing-a-restoration-company/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/how-long-does-water-damage-restoration-take/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/mold-after-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/basement-flooding-prevention/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/commercial-water-damage-business-continuity/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}

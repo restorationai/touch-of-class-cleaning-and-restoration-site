@@ -1,0 +1,71 @@
+{
+ "brand": {
+  "display_name": "Flood Solutions inc",
+  "phone": "(586) 580-0197",
+  "email": "cgeatches@yahoo.com",
+  "street_address": "49118 Shannon Court",
+  "city": "MACOMB",
+  "state": "MI",
+  "postal_code": "48042",
+  "theme": "light",
+  "licensed_insured_attested": true,
+  "founded_year": "1996",
+  "trust_badges": [
+   "Licensed & Insured",
+   "Locally Owned & Operated"
+  ]
+ },
+ "services": [
+  "water-damage-restoration"
+ ],
+ "service_areas": [
+  {
+   "city": "Macomb",
+   "state": "MI",
+   "slug": "macomb-mi",
+   "primary": true
+  },
+  {
+   "city": "Sterling Heights",
+   "state": "MI",
+   "slug": "sterling-heights-mi"
+  },
+  {
+   "city": "Warren",
+   "state": "MI",
+   "slug": "warren-mi"
+  },
+  {
+   "city": "Clinton Township",
+   "state": "MI",
+   "slug": "clinton-township-mi"
+  },
+  {
+   "city": "Troy",
+   "state": "MI",
+   "slug": "troy-mi"
+  },
+  {
+   "city": "Rochester Hills",
+   "state": "MI",
+   "slug": "rochester-hills-mi"
+  },
+  {
+   "city": "Shelby Township",
+   "state": "MI",
+   "slug": "shelby-township-mi"
+  },
+  {
+   "city": "Utica",
+   "state": "MI",
+   "slug": "utica-mi"
+  },
+  {
+   "city": "Chesterfield",
+   "state": "MI",
+   "slug": "chesterfield-mi"
+  }
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
+}

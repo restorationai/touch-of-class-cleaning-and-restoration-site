@@ -1,0 +1,1676 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-09-11T16:29:19.943151+00:00",
+  "input_summary": {
+    "service_count": 2,
+    "service_area_count": 9,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "Flood Solutions inc | Restoration Services in Macomb, MI",
+      "h1": "Restoration Services in Macomb",
+      "meta_description": "Flood Solutions inc provides water, fire, mold, and storm damage restoration across Macomb and surrounding areas. Licensed, insured. Call (586) 580-0197.",
+      "primary_keyword": "restoration services macomb",
+      "secondary_keywords": [
+        "restoration company near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/rochester-hills-mi/",
+        "/service-areas/shelby-township-mi/",
+        "/service-areas/sterling-heights-mi/",
+        "/service-areas/troy-mi/",
+        "/service-areas/utica-mi/",
+        "/service-areas/warren-mi/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Macomb | Flood Solutions inc",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Macomb: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (586) 580-0197.",
+      "primary_keyword": "restoration services macomb",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | Flood Solutions inc Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "Flood Solutions inc provides restoration services across Macomb and the surrounding region. Find your city.",
+      "primary_keyword": "flood solutions inc service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/rochester-hills-mi/",
+        "/service-areas/shelby-township-mi/",
+        "/service-areas/sterling-heights-mi/",
+        "/service-areas/troy-mi/",
+        "/service-areas/utica-mi/",
+        "/service-areas/warren-mi/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | Flood Solutions inc",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from Flood Solutions inc on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog macomb",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/how-long-does-water-damage-restoration-take/",
+        "/blog/mold-after-water-damage/",
+        "/blog/basement-flooding-prevention/",
+        "/blog/commercial-water-damage-business-continuity/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About Flood Solutions inc | Macomb Restoration Company",
+      "h1": "About Flood Solutions inc",
+      "meta_description": "Flood Solutions inc has served Macomb since 1996. Meet our restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "flood solutions inc macomb",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact Flood Solutions inc | Restoration in Macomb",
+      "h1": "Contact Flood Solutions inc",
+      "meta_description": "Call (586) 580-0197 for restoration services in Macomb and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "flood solutions inc contact",
+      "secondary_keywords": [
+        "restoration company contact"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in Macomb | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Macomb",
+      "meta_description": "Water damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration macomb",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/service-areas/rochester-hills-mi/water-damage-restoration/",
+        "/service-areas/shelby-township-mi/water-damage-restoration/",
+        "/service-areas/sterling-heights-mi/water-damage-restoration/",
+        "/service-areas/troy-mi/water-damage-restoration/",
+        "/service-areas/utica-mi/water-damage-restoration/",
+        "/service-areas/warren-mi/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Cleanup in Macomb | Flood Solutions inc",
+      "h1": "Water Cleanup in Macomb",
+      "meta_description": "Water cleanup in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water cleanup macomb",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/chesterfield-mi/water-cleanup/",
+        "/service-areas/clinton-township-mi/water-cleanup/",
+        "/service-areas/rochester-hills-mi/water-cleanup/",
+        "/service-areas/shelby-township-mi/water-cleanup/",
+        "/service-areas/sterling-heights-mi/water-cleanup/",
+        "/service-areas/troy-mi/water-cleanup/",
+        "/service-areas/utica-mi/water-cleanup/",
+        "/service-areas/warren-mi/water-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sterling-heights-mi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Sterling Heights, MI | Flood Solutions inc",
+      "h1": "Restoration Services in Sterling Heights",
+      "meta_description": "Serving Sterling Heights, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "primary_keyword": "restoration services sterling heights",
+      "secondary_keywords": [
+        "sterling heights restoration company",
+        "damage restoration sterling heights",
+        "sterling heights disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/sterling-heights-mi/water-damage-restoration/",
+        "/service-areas/sterling-heights-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/rochester-hills-mi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/warren-mi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Warren, MI | Flood Solutions inc",
+      "h1": "Restoration Services in Warren",
+      "meta_description": "Serving Warren, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "primary_keyword": "restoration services warren",
+      "secondary_keywords": [
+        "warren restoration company",
+        "damage restoration warren",
+        "warren disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/warren-mi/water-damage-restoration/",
+        "/service-areas/warren-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/rochester-hills-mi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clinton-township-mi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Clinton Township, MI | Flood Solutions inc",
+      "h1": "Restoration Services in Clinton Township",
+      "meta_description": "Serving Clinton Township, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "primary_keyword": "restoration services clinton township",
+      "secondary_keywords": [
+        "clinton township restoration company",
+        "damage restoration clinton township",
+        "clinton township disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/rochester-hills-mi/",
+        "/service-areas/shelby-township-mi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/troy-mi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Troy, MI | Flood Solutions inc",
+      "h1": "Restoration Services in Troy",
+      "meta_description": "Serving Troy, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "primary_keyword": "restoration services troy",
+      "secondary_keywords": [
+        "troy restoration company",
+        "damage restoration troy",
+        "troy disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/troy-mi/water-damage-restoration/",
+        "/service-areas/troy-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/rochester-hills-mi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rochester-hills-mi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Rochester Hills, MI | Flood Solutions inc",
+      "h1": "Restoration Services in Rochester Hills",
+      "meta_description": "Serving Rochester Hills, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "primary_keyword": "restoration services rochester hills",
+      "secondary_keywords": [
+        "rochester hills restoration company",
+        "damage restoration rochester hills",
+        "rochester hills disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/rochester-hills-mi/water-damage-restoration/",
+        "/service-areas/rochester-hills-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/shelby-township-mi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shelby-township-mi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Shelby Township, MI | Flood Solutions inc",
+      "h1": "Restoration Services in Shelby Township",
+      "meta_description": "Serving Shelby Township, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "primary_keyword": "restoration services shelby township",
+      "secondary_keywords": [
+        "shelby township restoration company",
+        "damage restoration shelby township",
+        "shelby township disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/shelby-township-mi/water-damage-restoration/",
+        "/service-areas/shelby-township-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/rochester-hills-mi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/utica-mi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Utica, MI | Flood Solutions inc",
+      "h1": "Restoration Services in Utica",
+      "meta_description": "Serving Utica, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "primary_keyword": "restoration services utica",
+      "secondary_keywords": [
+        "utica restoration company",
+        "damage restoration utica",
+        "utica disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/utica-mi/water-damage-restoration/",
+        "/service-areas/utica-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/rochester-hills-mi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chesterfield-mi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Chesterfield, MI | Flood Solutions inc",
+      "h1": "Restoration Services in Chesterfield",
+      "meta_description": "Serving Chesterfield, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "primary_keyword": "restoration services chesterfield",
+      "secondary_keywords": [
+        "chesterfield restoration company",
+        "damage restoration chesterfield",
+        "chesterfield disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/water-cleanup/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/rochester-hills-mi/",
+        "/service-areas/shelby-township-mi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sterling-heights-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sterling Heights, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Sterling Heights",
+      "meta_description": "Water damage restoration in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration sterling heights",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sterling-heights-mi/",
+        "/service-areas/sterling-heights-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sterling-heights-mi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Sterling Heights, MI | Flood Solutions inc",
+      "h1": "Water Cleanup in Sterling Heights",
+      "meta_description": "Water cleanup in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water cleanup sterling heights",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/sterling-heights-mi/",
+        "/service-areas/sterling-heights-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/water-cleanup/",
+        "/service-areas/clinton-township-mi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/warren-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Warren, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Warren",
+      "meta_description": "Water damage restoration in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration warren",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/warren-mi/",
+        "/service-areas/warren-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/warren-mi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Warren, MI | Flood Solutions inc",
+      "h1": "Water Cleanup in Warren",
+      "meta_description": "Water cleanup in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water cleanup warren",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/warren-mi/",
+        "/service-areas/warren-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/water-cleanup/",
+        "/service-areas/clinton-township-mi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clinton-township-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Clinton Township, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Clinton Township",
+      "meta_description": "Water damage restoration in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration clinton township",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/clinton-township-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/rochester-hills-mi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clinton-township-mi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Clinton Township, MI | Flood Solutions inc",
+      "h1": "Water Cleanup in Clinton Township",
+      "meta_description": "Water cleanup in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water cleanup clinton township",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/water-cleanup/",
+        "/service-areas/rochester-hills-mi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/troy-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Troy, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Troy",
+      "meta_description": "Water damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration troy",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/troy-mi/",
+        "/service-areas/troy-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/troy-mi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Troy, MI | Flood Solutions inc",
+      "h1": "Water Cleanup in Troy",
+      "meta_description": "Water cleanup in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water cleanup troy",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/troy-mi/",
+        "/service-areas/troy-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/water-cleanup/",
+        "/service-areas/clinton-township-mi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rochester-hills-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Rochester Hills, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Rochester Hills",
+      "meta_description": "Water damage restoration in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration rochester hills",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/rochester-hills-mi/",
+        "/service-areas/rochester-hills-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rochester-hills-mi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Rochester Hills, MI | Flood Solutions inc",
+      "h1": "Water Cleanup in Rochester Hills",
+      "meta_description": "Water cleanup in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water cleanup rochester hills",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/rochester-hills-mi/",
+        "/service-areas/rochester-hills-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/water-cleanup/",
+        "/service-areas/clinton-township-mi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shelby-township-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Shelby Township, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Shelby Township",
+      "meta_description": "Water damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration shelby township",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/shelby-township-mi/",
+        "/service-areas/shelby-township-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shelby-township-mi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Shelby Township, MI | Flood Solutions inc",
+      "h1": "Water Cleanup in Shelby Township",
+      "meta_description": "Water cleanup in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water cleanup shelby township",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/shelby-township-mi/",
+        "/service-areas/shelby-township-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/water-cleanup/",
+        "/service-areas/clinton-township-mi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/utica-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Utica, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Utica",
+      "meta_description": "Water damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration utica",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/utica-mi/",
+        "/service-areas/utica-mi/water-cleanup/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/utica-mi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Utica, MI | Flood Solutions inc",
+      "h1": "Water Cleanup in Utica",
+      "meta_description": "Water cleanup in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water cleanup utica",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/utica-mi/",
+        "/service-areas/utica-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/water-cleanup/",
+        "/service-areas/clinton-township-mi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chesterfield-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Chesterfield, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Chesterfield",
+      "meta_description": "Water damage restoration in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration chesterfield",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/chesterfield-mi/water-cleanup/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/service-areas/rochester-hills-mi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chesterfield-mi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Chesterfield, MI | Flood Solutions inc",
+      "h1": "Water Cleanup in Chesterfield",
+      "meta_description": "Water cleanup in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water cleanup chesterfield",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-cleanup/",
+        "/service-areas/rochester-hills-mi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-long-does-water-damage-restoration-take/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Long Does Water Damage Restoration Actually Take?",
+      "h1": "How Long Does Water Damage Restoration Actually Take?",
+      "meta_description": "",
+      "primary_keyword": "how long does water damage restoration actually take",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_process",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/mold-after-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Quickly Does Mold Grow After Water Damage?",
+      "h1": "How Quickly Does Mold Grow After Water Damage?",
+      "meta_description": "",
+      "primary_keyword": "how quickly does mold grow after water damage",
+      "secondary_keywords": [
+        "mold remediation",
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/basement-flooding-prevention/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "8 Ways To Prevent Basement Flooding This Season",
+      "h1": "8 Ways To Prevent Basement Flooding This Season",
+      "meta_description": "",
+      "primary_keyword": "8 ways to prevent basement flooding this season",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_prevention",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/commercial-water-damage-business-continuity/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Commercial Water Damage: Protecting Business Continuity After a Loss",
+      "h1": "Commercial Water Damage: Protecting Business Continuity After a Loss",
+      "meta_description": "",
+      "primary_keyword": "commercial water damage protecting business continuity after a loss",
+      "secondary_keywords": [
+        "commercial restoration",
+        "water damage restoration"
+      ],
+      "search_intent": "informational_b2b",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | Flood Solutions inc",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "flood solutions inc privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | Flood Solutions inc",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "flood solutions inc terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | Flood Solutions inc",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "flood solutions inc accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}
