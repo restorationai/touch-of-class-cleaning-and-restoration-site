@@ -56,6 +56,11 @@ flag that also hunts emergency-plumbing panic searches.
    until that lands. LSA plumber vertical would also need a license doc.
 3. **0.75 — "… - Water Damage Restoration & Mold Remediation"** — clean
    fallback, category-mirrored, no modifiers.
+4. **0.72 — "… - 24/7 Emergency Plumbing, Water Damage Restoration, &
+   Mold Remediation"** — the CEILING option (Santino 09-10): both
+   strategies in one name. Costs: per-term weight dilutes vs 2-term
+   names, ~97 chars rides the GBP field limit, 3-term report class, DBA
+   must match verbatim. The all-in play if Jack commits fully.
 
 Category pushes open for the same strategy: Plumber (0.81), plus
 Construction company / Roofing contractor / Remodeler rows the optimizer
@@ -93,6 +98,16 @@ year-round. Primary category: Water damage restoration service.
 4. **0.70 — "… - Fire & Smoke Damage Cleanup"** — full fire pivot; needs a
    Fire damage restoration secondary category first, only if fire rebuild
    becomes the growth priority.
+
+## Search data these ranks stand on (validated 09-09/10)
+
+- DataForSEO search_volume verified IDENTICAL to native Google Keyword
+  Planner, so DFS pulls are Planner truth. Always state-level.
+- CA: emergency plumber 8-10k/mo pool; water heater repair 9,900/mo;
+  leak detection highest-margin. WA: mold 1,900 > water 1,600 (orderings
+  flip by state). 2025 fire corridors keep fire terms elevated in CRW's
+  service areas. Fleet GSC cross-checks agreed; Crew's gambling-spam
+  impressions excluded from all analyses.
 
 ## Standing rules
 
