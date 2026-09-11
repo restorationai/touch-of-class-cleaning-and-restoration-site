@@ -13,7 +13,7 @@
     "url_count": 106,
     "generated_at": "2026-09-03T04:40:29.635624+00:00"
   },
-  "updated_at": "2026-09-11T03:57:37.163281+00:00",
+  "updated_at": "2026-09-11T05:22:28+00:00",
   "indexnow_key": "afe959444b8341fda701a5989fdcbc02",
   "build": {
     "scaffolded_at": "2026-09-03T04:40:40.061483+00:00",
@@ -38,5 +38,19 @@
   "brightlocal": {
     "location_id": 4147624,
     "campaign_id": 997465
-  }
+  },
+  "zone": {
+    "id": "d821cc8aa98f5293b4f3f49026133e74",
+    "name": "frontlinefireflood.com",
+    "status": "active",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ]
+  },
+  "apex_cutover": {
+    "legacy_origin": "172.67.185.61",
+    "completed_at": "2026-09-11T05:22:28+00:00"
+  },
+  "cut_over_at": "2026-09-11T05:22:28+00:00"
 }

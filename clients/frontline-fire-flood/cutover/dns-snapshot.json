@@ -1,23 +1,19 @@
 {
  "domain": "frontlinefireflood.com",
- "captured_at": "2026-09-11T03:18:15+00:00",
+ "captured_at": "2026-09-11T05:22:25+00:00",
  "authoritative": {
   "ns": [
-   "ns1.siteground.net",
-   "ns2.siteground.net"
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
   ],
   "mx": [
-   {
-    "priority": 10,
-    "exchange": "alt4.aspmx.l.google.com"
-   },
    {
     "priority": 10,
     "exchange": "alt3.aspmx.l.google.com"
    },
    {
-    "priority": 1,
-    "exchange": "aspmx.l.google.com"
+    "priority": 10,
+    "exchange": "alt4.aspmx.l.google.com"
    },
    {
     "priority": 5,
@@ -26,6 +22,10 @@
    {
     "priority": 5,
     "exchange": "alt2.aspmx.l.google.com"
+   },
+   {
+    "priority": 1,
+    "exchange": "aspmx.l.google.com"
    }
   ],
   "apex_txt": [
@@ -40,7 +40,8 @@
    }
   },
   "apex_a": [
-   "35.212.126.41"
+   "172.67.185.61",
+   "104.21.19.50"
   ],
   "apex_cname": [],
   "www_cname": []
@@ -51,6 +52,79 @@
    "amos.ns.cloudflare.com",
    "anastasia.ns.cloudflare.com"
   ],
-  "records": []
+  "records": [
+   {
+    "id": "54942405548b2befa1b7f5460b16fbda",
+    "type": "CNAME",
+    "name": "frontlinefireflood.com",
+    "content": "rankai-frontline-fire-flood.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "26fb3e7c3b2e3832bfd49a87a0a4855a",
+    "type": "CNAME",
+    "name": "www.frontlinefireflood.com",
+    "content": "rankai-frontline-fire-flood.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "e4852c2d7045b4a03ec8ee62715371da",
+    "type": "MX",
+    "name": "frontlinefireflood.com",
+    "content": "alt2.aspmx.l.google.com",
+    "priority": 5,
+    "proxied": false
+   },
+   {
+    "id": "28a13cbf1c2fd3a6a8800ad3d7cfbdbc",
+    "type": "MX",
+    "name": "frontlinefireflood.com",
+    "content": "alt1.aspmx.l.google.com",
+    "priority": 5,
+    "proxied": false
+   },
+   {
+    "id": "41d91c37f1d88cc904d47d36c2eb2d69",
+    "type": "MX",
+    "name": "frontlinefireflood.com",
+    "content": "aspmx.l.google.com",
+    "priority": 1,
+    "proxied": false
+   },
+   {
+    "id": "ccb4cb0e63a3afca61f13bf6f20a91aa",
+    "type": "MX",
+    "name": "frontlinefireflood.com",
+    "content": "alt3.aspmx.l.google.com",
+    "priority": 10,
+    "proxied": false
+   },
+   {
+    "id": "14f4c90aa57a2715cd2862899bce9553",
+    "type": "MX",
+    "name": "frontlinefireflood.com",
+    "content": "alt4.aspmx.l.google.com",
+    "priority": 10,
+    "proxied": false
+   },
+   {
+    "id": "633e49b65bd6962f28b2bf539c1af928",
+    "type": "TXT",
+    "name": "frontlinefireflood.com",
+    "content": "v=spf1 include:_spf.google.com ~all",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "68bf0f62c0b76d27a3332df55fe05f26",
+    "type": "TXT",
+    "name": "google._domainkey.frontlinefireflood.com",
+    "content": "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqi3ygk5z6vUaR++aggCjrQD9WDi/MOZZPoWg5UGeh07muR2AsigQEBpopjoSjXtuzvgK/f+9D5HjZqLxi5hz2EdbJkrX8E9IoQvpxULo3aoA1c3AuxZYL4PerRTdmvd4/W928b/WPP1K/fMW2DUwMCLlKmTfvkTcDZLIFEmdpuv/1IE+lXuW66Hk+r0AHH0IbaUBpEBn2Fx54kp4gDNDQwdqHWjnzceIRRipS5sO5JYYyGqV5ukE151MuPGYsoWJXlSRymA521z8nW7NCc+ejyNLIFL8mXhX01Z3hLeg1HKl6DL+z6gNgcxjy6ME1sqZC4mYhXK3XjHGjmoJ38pRdwIDAQAB",
+    "priority": null,
+    "proxied": false
+   }
+  ]
  }
 }
