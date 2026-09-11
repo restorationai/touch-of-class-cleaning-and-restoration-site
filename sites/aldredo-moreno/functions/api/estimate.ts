@@ -79,6 +79,7 @@ async function sendEmail(env: Env, lead: Record<string, string>, toEmail: string
     `Phone:       ${lead.phone}`,
     `City/ZIP:    ${lead.city}`,
     `Email:       ${lead.email || "(not provided)"}`,
+    `Lead source: ${lead.lead_source}${lead.attribution ? ` (${lead.attribution})` : ""}`,
     "",
     "Description:",
     lead.description || "(none)",
@@ -193,23 +194,57 @@ async function insertContact(env: Env, lead: Record<string, string>): Promise<st
     pipeline_stage: "Inbound",
     role: "Other",
     tags: ["website", "free-estimate"],
-    notes: `${lead.description || "(no description)"} — via ${brand.domain} free estimate form`,
+    notes: `${lead.description || "(no description)"} — via ${brand.domain} free estimate form` +
+      ` [source: ${lead.lead_source}${lead.attribution ? `; ${lead.attribution}` : ""}]`,
   };
   if (lead.email) row.email = lead.email;
   if (env.COMPANY_ID) row.client_id = env.COMPANY_ID;
 
+  const sbHeaders = {
+    apikey: env.SUPABASE_SERVICE_ROLE_KEY,
+    Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
+    "Content-Type": "application/json",
+  };
+  // EVERY submission is its own event row (Santino 2026-09-10: "every
+  // submission should get its dedicated line item") — the contacts row
+  // below stays deduped per phone for the CRM, but reporting reads this.
+  await fetch(`${env.SUPABASE_URL}/rest/v1/marketing_form_submissions`, {
+    method: "POST",
+    headers: { ...sbHeaders, Prefer: "return=minimal" },
+    body: JSON.stringify({
+      company_id: env.COMPANY_ID || null,
+      name: lead.name, phone: lead.phone, city: lead.city,
+      email: lead.email || null, description: lead.description || null,
+      lead_source: lead.lead_source, attribution: lead.attribution || null,
+    }),
+  }).catch(() => null);
   const r = await fetch(`${env.SUPABASE_URL}/rest/v1/contacts`, {
     method: "POST",
-    headers: {
-      apikey: env.SUPABASE_SERVICE_ROLE_KEY,
-      Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
-      "Content-Type": "application/json",
-      Prefer: "return=minimal",
-    },
+    headers: { ...sbHeaders, Prefer: "return=minimal" },
     body: JSON.stringify(row),
   });
   if (r.ok) return "inserted";
-  return `error:${r.status}:${(await r.text()).slice(0, 200)}`;
+  const errText = (await r.text()).slice(0, 300);
+  // Repeat lead (2026-09-10, Santino's test vanished): contacts are unique
+  // per (client_id, phone), so a second submission from a known number 409s.
+  // Append to the existing row instead of dropping the lead on the floor.
+  if (r.status === 409 && env.COMPANY_ID) {
+    const q = `${env.SUPABASE_URL}/rest/v1/contacts?client_id=eq.${env.COMPANY_ID}` +
+      `&phone=eq.${encodeURIComponent(lead.phone)}&select=id,notes&limit=1`;
+    const existing = (await (await fetch(q, { headers: sbHeaders })).json()) as
+      { id: string; notes?: string }[];
+    if (existing?.[0]) {
+      const stamp = new Date().toISOString().slice(0, 10);
+      const addition = `[${stamp}] repeat form submission: ${row.notes}`;
+      const merged = `${existing[0].notes || ""}\n${addition}`.slice(0, 8000);
+      const u = await fetch(`${env.SUPABASE_URL}/rest/v1/contacts?id=eq.${existing[0].id}`, {
+        method: "PATCH", headers: { ...sbHeaders, Prefer: "return=minimal" },
+        body: JSON.stringify({ notes: merged, updated_at: new Date().toISOString() }),
+      });
+      if (u.ok) return "updated-existing";
+    }
+  }
+  return `error:${r.status}:${errText}`;
 }
 
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
@@ -231,6 +266,18 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     city: clean(data.city, 80),
     email: clean(data.email, 160),
     description: clean(data.description, 2000),
+    // Source attribution (2026-09-10): the form ships the same persisted
+    // classification the DNI number swap uses, so leads attribute like calls.
+    lead_source: clean(data.lead_source, 40) || "default",
+    attribution: [
+      data.utm_source && `utm_source=${clean(data.utm_source, 80)}`,
+      data.utm_medium && `utm_medium=${clean(data.utm_medium, 80)}`,
+      data.utm_campaign && `utm_campaign=${clean(data.utm_campaign, 120)}`,
+      data.gclid && "gclid=present", data.msclkid && "msclkid=present",
+      data.fbclid && "fbclid=present",
+      data.referrer && `ref=${clean(data.referrer, 200)}`,
+      data.landing_page && `landing=${clean(data.landing_page, 200)}`,
+    ].filter(Boolean).join(" | "),
   };
   if (!lead.name || !lead.phone || !lead.city) {
     return json({ ok: false, error: "missing-required-fields" }, 400);

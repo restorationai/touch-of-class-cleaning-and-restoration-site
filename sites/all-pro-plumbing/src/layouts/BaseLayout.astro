@@ -175,21 +175,26 @@ const ctx: PageSchemaContext = {
       Call Now: {brand.phone}
     </a>
     {brand.trackingPhone && brand.trackingPhoneRaw && (
-      /* Dynamic Number Insertion (2026-08-24): humans see + dial the
-         tracking number; the HTML source, JSON-LD schema, and cached/
-         crawled copies keep the canonical NAP number, so citations stay
-         consistent. Runs after DOM parse; skips script/style nodes so the
+      /* Dynamic Number Insertion (2026-08-24; source attribution 2026-09-10):
+         humans see + dial a tracking number; the HTML source, JSON-LD schema,
+         and cached/crawled copies keep the canonical NAP number, so citations
+         stay consistent. Phase 1 swaps to the default tracking number
+         immediately. Phase 2 classifies the visitor (click IDs, then
+         utm_source, then referrer; last non-direct touch persisted 30 days)
+         and, when the client has a number for that channel (KV-backed map at
+         restorationai.io/dni/{slug}.json), upgrades the displayed number so
+         the call attributes to its source. Skips script/style nodes so the
          structured data is never rewritten. */
       <script is:inline define:vars={{
         tp: brand.trackingPhone, tpr: brand.trackingPhoneRaw,
-        op: brand.phone, opr: brand.phoneRaw,
+        op: brand.phone, opr: brand.phoneRaw, slug: brand.slug,
       }}>
         (function () {
-          function swap() {
+          function swap(fromFmt, fromRaw, toFmt, toRaw) {
             document.querySelectorAll('a[href^="tel:"]').forEach(function (a) {
               var href = a.getAttribute("href") || "";
-              if (href.indexOf(opr) !== -1 || href === "tel:" + op) {
-                a.setAttribute("href", "tel:" + tpr);
+              if (href.indexOf(fromRaw) !== -1 || href === "tel:" + fromFmt) {
+                a.setAttribute("href", "tel:" + toRaw);
               }
             });
             var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
@@ -198,15 +203,68 @@ const ctx: PageSchemaContext = {
               var n = walker.currentNode;
               var tag = n.parentElement && n.parentElement.tagName;
               if (tag === "SCRIPT" || tag === "STYLE") continue;
-              if (n.nodeValue && n.nodeValue.indexOf(op) !== -1) hits.push(n);
+              if (n.nodeValue && n.nodeValue.indexOf(fromFmt) !== -1) hits.push(n);
             }
             hits.forEach(function (n) {
-              n.nodeValue = n.nodeValue.split(op).join(tp);
+              n.nodeValue = n.nodeValue.split(fromFmt).join(toFmt);
             });
           }
+          function detectSource() {
+            var q = new URLSearchParams(location.search);
+            if (q.get("gclid") || q.get("gbraid") || q.get("wbraid")) return "google_ads";
+            if (q.get("msclkid")) return "bing";
+            if (q.get("fbclid")) return "facebook";
+            var us = (q.get("utm_source") || "").toLowerCase();
+            var um = (q.get("utm_medium") || "").toLowerCase();
+            if (us) {
+              if (us.indexOf("yelp") !== -1) return "yelp";
+              if (us.indexOf("chatgpt") !== -1 || us.indexOf("openai") !== -1) return "chatgpt";
+              if (us.indexOf("gemini") !== -1) return "gemini";
+              if (us.indexOf("instagram") !== -1 || us === "ig") return "instagram";
+              if (us.indexOf("facebook") !== -1 || us === "fb" || us === "meta") return "facebook";
+              if (us.indexOf("bing") !== -1) return "bing";
+              if (us.indexOf("google") !== -1 && (um.indexOf("cpc") !== -1 || um.indexOf("paid") !== -1 || um.indexOf("ppc") !== -1)) return "google_ads";
+            }
+            var ref = document.referrer || "";
+            var host = "";
+            try { host = new URL(ref).hostname.toLowerCase(); } catch (e) {}
+            if (!host || host === location.hostname) return null;
+            if (host.indexOf("yelp.") !== -1) return "yelp";
+            if (host.indexOf("chatgpt.com") !== -1 || host.indexOf("chat.openai.com") !== -1) return "chatgpt";
+            if (host.indexOf("gemini.google") !== -1 || host.indexOf("bard.google") !== -1) return "gemini";
+            if (host.indexOf("instagram.com") !== -1) return "instagram";
+            if (host.indexOf("facebook.com") !== -1 || host.indexOf("fb.com") !== -1 || host.indexOf("messenger.com") !== -1) return "facebook";
+            if (host.indexOf("bing.com") !== -1) return "bing";
+            return null;
+          }
+          function attributedSource() {
+            var KEY = "rankai_src", DAYS30 = 30 * 864e5, saved = null;
+            try { saved = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) {}
+            if (saved && (!saved.t || Date.now() - saved.t > DAYS30)) saved = null;
+            var fresh = detectSource();
+            // Last non-direct touch: a new channel overwrites, direct keeps.
+            if (fresh) {
+              saved = { s: fresh, t: Date.now() };
+              try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {}
+            }
+            try { window.rankaiSource = (saved && saved.s) || "default"; } catch (e) {}
+            return saved && saved.s;
+          }
+          function run() {
+            swap(op, opr, tp, tpr);
+            var src = attributedSource();
+            if (!src || !slug) return;
+            fetch("https://restorationai.io/dni/" + slug + ".json")
+              .then(function (r) { return r.json(); })
+              .then(function (map) {
+                var e = map && map.sources && map.sources[src];
+                if (e && e.raw && e.fmt) swap(tp, tpr, e.fmt, e.raw);
+              })
+              .catch(function () {});
+          }
           if (document.readyState === "loading") {
-            document.addEventListener("DOMContentLoaded", swap);
-          } else swap();
+            document.addEventListener("DOMContentLoaded", run);
+          } else run();
         })();
       </script>
     )}

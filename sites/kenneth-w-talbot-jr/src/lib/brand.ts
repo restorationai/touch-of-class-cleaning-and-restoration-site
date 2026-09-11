@@ -18,8 +18,8 @@ export const brand = {
   // keep the canonical NAP number above — humans dial the tracked line,
   // Google sees consistent NAP. Empty = feature off (default at scaffold;
   // filled by the call-tracking provisioning step).
-  trackingPhone: "",
-  trackingPhoneRaw: "",
+  trackingPhone: "(337) 674-3130",
+  trackingPhoneRaw: "+13376743130",
   email: "veteranspcusa@gmail.com",
   hours: "24/7",
   foundedYear: "2020",

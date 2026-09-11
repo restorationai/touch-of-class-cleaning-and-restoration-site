@@ -11,6 +11,8 @@ export const brand = {
   canonicalUrl: "https://dissrestoration.com",
   phone: "(724) 981-1441",
   phoneRaw: "+17249811441",
+  trackingPhone: "",
+  trackingPhoneRaw: "",
   email: "info@dissrestoration.com",
   hours: "24/7",
   foundedYear: "2021",

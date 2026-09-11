@@ -11,6 +11,8 @@ export const brand = {
   canonicalUrl: "https://callcrs.com",
   phone: "(805) 345-7440",
   phoneRaw: "+18053457440",
+  trackingPhone: "(805) 590-9385",
+  trackingPhoneRaw: "+18055909385",
   email: "tony@callcrs.com",
   hours: "24/7",
   foundedYear: "",
