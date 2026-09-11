@@ -2173,7 +2173,14 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         f"{slug}: site in the 7-day perception window "
                         f"(staged {_staged}) — preview reveal holds until "
                         "day 7; note 'share now' to release early")
-            if not _in_window and _site.get("build_status") in ("preview_ready", "pushed_staging"):
+            # pushed_main included 2026-09-11 (DryCor: a site pushed through
+            # to the production pages.dev — but not cut over — sat with NO
+            # preview reveal for 10 days because this gate only knew the
+            # staging states; any built-not-live state must qualify)
+            if (not _in_window and not _site.get("apex_live")
+                    and _site.get("build_status") in ("preview_ready",
+                                                      "pushed_staging",
+                                                      "pushed_main")):
                 fb_key = f"site-preview-feedback-{slug}"
                 _ever = _sb("GET", "/rest/v1/marketing_action_plan"
                             f"?company_id=eq.{cid}&action_key=eq.{fb_key}"
