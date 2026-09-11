@@ -109,6 +109,22 @@ year-round. Primary category: Water damage restoration service.
   service areas. Fleet GSC cross-checks agreed; Crew's gambling-spam
   impressions excluded from all analyses.
 
+## Dry Bros Water & Fire Restoration (CO-1788898034500) — Chicago, NEW company, no GBP yet
+
+The FOUNDING-NAME case: no profile exists, so the "rename" is what the
+profile gets CREATED as. Register the chosen string from day one and the
+grey pattern is fully defensible, NAP consistent from birth.
+
+1. **0.92 — "Dry Bros - 24/7 Emergency Plumbing, Water Damage Restoration,
+   & Mold Remediation"** — ceiling shape as founding identity (Santino
+   09-10). Gates: confirm plumbing + mold are real service lines; Plumber
+   secondary category if plumbing stays; IL registration/DBA verbatim.
+2. **0.85 — "Dry Bros - 24/7 Emergency Water Damage & Mold Remediation"**
+   — house pattern without the plumbing bet. Chicago metro pulls queued.
+3. **0.75 — "Dry Bros Water & Fire Restoration"** — the already-registered
+   name, itself keyworded (water + fire); zero filing, leaves emergency +
+   mold on the table.
+
 ## Standing rules
 
 - Never push a name to GBP from automation. Card choice → DBA → citations
@@ -116,3 +132,7 @@ year-round. Primary category: Water damage restoration service.
 - A name term without its backing category is a suspension flag: fix the
   category row first (the Plumber gate on Pro Restoration is the template).
 - Multi-location clients keep ONE name strategy across locations.
+- **No-GBP / founding clients are the STRONGEST case**: the keyworded name
+  becomes the registered identity from day one (grey becomes white). The
+  Profile Rename card renders pre-GBP as of 09-10, so candidates must be
+  seeded for new clients BEFORE profile creation, not after.
