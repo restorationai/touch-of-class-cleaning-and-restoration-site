@@ -166,6 +166,28 @@ def _execute_job(job_id: str, slug: str, system: int,
             _update_job(job_id, status="completed", completed_at=_now(),
                         log=log[-8000:], result=result)
 
+        elif system == "cutover_provision":
+            # LAUNCH-SAFE PROVISION ONLY (Santino 2026-09-10, Frontline: the
+            # panel's Provision click ran the FULL cutover, whose site-readiness
+            # pre-flight refuses staging-only clients BEFORE the zone gets
+            # created — so "Provision" did nothing). This path is the staging
+            # step by itself: create the zone, snapshot + stage the email
+            # records, report the required NS pair. Nothing goes live.
+            rc, log = _run_subprocess([
+                "python3", str(ROOT / "scripts" / "cutover_execute.py"),
+                "provision", "--slug", slug, "--apply",
+            ])
+            _run_sync(slug)
+            if rc in (0, 3):
+                _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:],
+                            result={"state": "provisioned",
+                                    "note": "Zone created and email records staged. Set the "
+                                            "reported nameservers at the registrar, then "
+                                            "launch."})
+            else:
+                _update_job(job_id, status="failed", completed_at=_now(),
+                            error=f"cutover_execute provision exited {rc}", log=log[-8000:])
+
         elif system == "cutover":
             # ONE-CLICK CUTOVER: phased domain launch (zone + email-safe DNS
             # capture -> nameserver gate -> Pages attach -> stamp/GSC/IndexNow
@@ -228,7 +250,8 @@ def create_and_run_job(slug: str, system, photo_url: str | None = None) -> str:
 
     system_names = {1: "keyword_research", 2: "write_post", 3: "audit", 4: "refresh",
                     "gbp_face": "gbp_face_fix", "gbp_set_cover": "gbp_set_cover",
-                    "cutover": "cutover", "ads_account_create": "ads_account_create"}
+                    "cutover": "cutover", "cutover_provision": "cutover_provision",
+                    "ads_account_create": "ads_account_create"}
     params = {"slug": slug, "system": system}
     if photo_url:
         params["photo_url"] = photo_url

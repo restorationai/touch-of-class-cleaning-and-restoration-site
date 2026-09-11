@@ -567,10 +567,10 @@ def run_job(req: RunJobRequest):
     if req.slug not in COMPANY_MAP:
         raise HTTPException(status_code=404, detail=f"Unknown slug: {req.slug}")
     if req.system not in (1, 2, 3, 4, "gbp_face", "gbp_set_cover", "cutover",
-                          "ads_account_create"):
+                          "cutover_provision", "ads_account_create"):
         raise HTTPException(status_code=400,
                             detail="system must be 1, 2, 3, 4, 'gbp_face', 'gbp_set_cover', "
-                                   "'cutover', or 'ads_account_create'")
+                                   "'cutover', 'cutover_provision', or 'ads_account_create'")
     if req.system == "gbp_set_cover" and not (req.photo_url or "").startswith("https://"):
         raise HTTPException(status_code=400, detail="gbp_set_cover requires an https photo_url")
 
