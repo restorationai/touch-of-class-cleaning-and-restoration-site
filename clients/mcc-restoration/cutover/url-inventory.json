@@ -1,10 +1,10 @@
 {
  "domain": "mccrestoration.com",
- "harvested_at": "2026-08-12T15:44:05+00:00",
+ "harvested_at": "2026-09-11T16:11:17+00:00",
  "counts": {
-  "total": 1,
+  "total": 12,
   "sitemap": 0,
-  "crawl": 1,
+  "crawl": 12,
   "backlinked": 1,
   "gsc": 0
  },
@@ -12,11 +12,110 @@
   {
    "url": "https://mccrestoration.com/",
    "path": "/",
-   "title": "",
-   "backlinks": 38,
-   "referring_domains": 35,
+   "title": "MCC Construction Solutions",
+   "backlinks": 44,
+   "referring_domains": 42,
    "gsc_clicks": 0,
    "source": "crawl,backlinks"
+  },
+  {
+   "url": "https://mccrestoration.com/about",
+   "path": "/about",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://mccrestoration.com/about-1",
+   "path": "/about-1",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://mccrestoration.com/california-sb721",
+   "path": "/california-sb721",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://mccrestoration.com/cart",
+   "path": "/cart",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://mccrestoration.com/contact",
+   "path": "/contact",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://mccrestoration.com/gallery",
+   "path": "/gallery",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://mccrestoration.com/maintenance-divison",
+   "path": "/maintenance-divison",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://mccrestoration.com/mcc-construction-solutions-blog",
+   "path": "/mcc-construction-solutions-blog",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://mccrestoration.com/mcc-outreach",
+   "path": "/mcc-outreach",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://mccrestoration.com/services",
+   "path": "/services",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
+  },
+  {
+   "url": "https://mccrestoration.com/services-2",
+   "path": "/services-2",
+   "title": "",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "crawl"
   }
  ]
 }

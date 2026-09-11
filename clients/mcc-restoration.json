@@ -55,9 +55,11 @@
   "indexnow_key": "5b317787d26c4a309960c17bbf6fc9e9",
   "cutover_prep": {
     "domain": "mccrestoration.com",
-    "harvested_at": "2026-08-12T15:44:05+00:00",
-    "url_count": 1,
-    "backlinked_count": 1
+    "harvested_at": "2026-09-11T16:11:17+00:00",
+    "url_count": 12,
+    "backlinked_count": 1,
+    "redirects_added": 8,
+    "mapped_at": "2026-09-11T16:11:19+00:00"
   },
   "audit": {
     "last_audit_at": "2026-08-27T04:20:32Z",
