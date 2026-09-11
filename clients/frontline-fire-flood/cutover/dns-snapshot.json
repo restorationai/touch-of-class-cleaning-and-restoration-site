@@ -1,0 +1,56 @@
+{
+ "domain": "frontlinefireflood.com",
+ "captured_at": "2026-09-11T03:18:15+00:00",
+ "authoritative": {
+  "ns": [
+   "ns1.siteground.net",
+   "ns2.siteground.net"
+  ],
+  "mx": [
+   {
+    "priority": 10,
+    "exchange": "alt4.aspmx.l.google.com"
+   },
+   {
+    "priority": 10,
+    "exchange": "alt3.aspmx.l.google.com"
+   },
+   {
+    "priority": 1,
+    "exchange": "aspmx.l.google.com"
+   },
+   {
+    "priority": 5,
+    "exchange": "alt1.aspmx.l.google.com"
+   },
+   {
+    "priority": 5,
+    "exchange": "alt2.aspmx.l.google.com"
+   }
+  ],
+  "apex_txt": [
+   "v=spf1 include:_spf.google.com ~all"
+  ],
+  "dmarc_txt": [],
+  "dkim": {
+   "google": {
+    "txt": [
+     "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqi3ygk5z6vUaR++aggCjrQD9WDi/MOZZPoWg5UGeh07muR2AsigQEBpopjoSjXtuzvgK/f+9D5HjZqLxi5hz2EdbJkrX8E9IoQvpxULo3aoA1c3AuxZYL4PerRTdmvd4/W928b/WPP1K/fMW2DUwMCLlKmTfvkTcDZLIFEmdpuv/1IE+lXuW66Hk+r0AHH0IbaUBpEBn2Fx54kp4gDNDQwdqHWjnzceIRRipS5sO5JYYyGqV5ukE151MuPGYsoWJXlSRymA521z8nW7NCc+ejyNLIFL8mXhX01Z3hLeg1HKl6DL+z6gNgcxjy6ME1sqZC4mYhXK3XjHGjmoJ38pRdwIDAQAB"
+    ]
+   }
+  },
+  "apex_a": [
+   "35.212.126.41"
+  ],
+  "apex_cname": [],
+  "www_cname": []
+ },
+ "cf_zone": {
+  "zone_id": "d821cc8aa98f5293b4f3f49026133e74",
+  "name_servers": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
+  "records": []
+ }
+}
