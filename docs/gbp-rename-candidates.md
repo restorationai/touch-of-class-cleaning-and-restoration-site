@@ -29,11 +29,14 @@ Market data: CA emergency plumber pool 8-10k/mo; water heater repair
 9,900/mo CA; leak detection = highest-margin line, feeds Dry County.
 OneStop is the direct keyworded-name competitor in Corona.
 
-1. **0.90 — "… - Emergency Plumber & Leak Detection"** — flanks OneStop's
-   daytime positioning with the emergency pool; Riverside County DBA first.
-2. **0.80 — "… - 24 Hour Plumber & Water Heater Repair"** — sidesteps
+1. **0.92 — "… - 24/7 Emergency Plumber & Leak Detection"** — the house
+   grey pattern on the OneStop flank (Santino 09-10). Brand already
+   carries Plumbing, so plumber signal doubles; Riverside County DBA first.
+2. **0.90 — "… - Emergency Plumber & Leak Detection"** — same flank
+   without the 24/7 modifier.
+3. **0.80 — "… - 24 Hour Plumber & Water Heater Repair"** — sidesteps
    OneStop entirely; water heater volume workhorse.
-3. **0.70 — "… - Emergency Plumber, Leak Detection & Water Heater Repair"**
+4. **0.70 — "… - Emergency Plumber, Leak Detection & Water Heater Repair"**
    — three terms, max grey; only with the full DBA/citation runway.
 
 Dual-entity: RT Olson (plumbing) + Dry County Restoration (damage) split
@@ -60,10 +63,13 @@ seeded.
 
 ## All Pro Plumbing Heating and Air (CO-1783380243102) — Jack Bispo
 
-1. **0.85 — "All Pro Plumbing - Bakersfield Plumbers & Leak Detection"** —
-   city term + two services; the plumbing flank of the dual entity.
-
-(Second/third variants not yet seeded; add when Jack engages the DBA.)
+1. **0.90 — "All Pro Plumbing - 24/7 Emergency Plumber & Leak Detection"**
+   — the house grey pattern for Bakersfield (Santino 09-10); Kern County
+   DBA first.
+2. **0.85 — "All Pro Plumbing - Bakersfield Plumbers & Leak Detection"** —
+   city term + two services; the geo alternative.
+3. **0.75 — "All Pro Plumbing - Water Heater Repair & Drain Cleaning"** —
+   volume workhorse fallback, no modifiers, category-clean.
 
 ## NaRestCo (CO-1771290587387)
 
