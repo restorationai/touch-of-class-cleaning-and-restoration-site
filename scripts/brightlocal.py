@@ -133,6 +133,12 @@ def nap_for(slug: str, c: dict) -> dict | None:
     website = b.get("domain") or c.get("domain")
     if not all([name, phone, line1, city, region_code, postcode, website]):
         return None
+    # OPENING HOURS (2026-09-12): omitting them left every location
+    # defaulting to "closed" all 7 days, which several citation sites
+    # reject — the campaign error Santino saw in the portal. Our clients
+    # are 24/7 emergency trades; the accepted API shape (probed live) is
+    # status "open" with a 00:00-23:59 span.
+    day_24 = {"status": "open", "hours": [{"start": "00:00", "end": "23:59"}]}
     return {
         "business_name": name,
         "country": "USA",
@@ -146,6 +152,11 @@ def nap_for(slug: str, c: dict) -> dict | None:
             "postcode": postcode,
         },
         "urls": {"website_url": f"https://{website}"},
+        "opening_hours": {"regular": {
+            "apply_to_all": True,
+            **{d: day_24 for d in ("monday", "tuesday", "wednesday",
+                                   "thursday", "friday", "saturday",
+                                   "sunday")}}},
     }
 
 
