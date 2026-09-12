@@ -7123,6 +7123,56 @@ def _tracked_contacts(state: dict) -> dict[str, str]:
     return out
 
 
+def _company_for_contact(contact_id: str, state: dict) -> str | None:
+    """company_id for an inbound contact, or None for a true stranger.
+
+    The tracked map holds ONE contact per company (the primary messaging
+    target) — but companies have several real people (Addi at DISS texted
+    a team photo on 2026-09-10 and was silently IGNORED because only her
+    colleague was tracked). Before ignoring anyone, match the contact's
+    email/phone against the company records, then their email DOMAIN
+    (colleagues on a company domain belong to that company)."""
+    cid = _tracked_contacts(state).get(contact_id)
+    if cid:
+        return cid
+    try:
+        c = (_ghl("GET", f"/contacts/{contact_id}") or {}).get("contact") or {}
+    except Exception:  # noqa: BLE001
+        return None
+    email = (c.get("email") or "").strip().lower()
+    phone = re.sub(r"\D", "", c.get("phone") or "")[-10:]
+    if not email and not phone:
+        return None
+    companies = fetch_companies()
+    for co_id, co in companies.items():
+        ints = co.get("integration_settings") or {}
+        if isinstance(ints, str):
+            try:
+                ints = json.loads(ints)
+            except (ValueError, TypeError):
+                ints = {}
+        cards = ints.get("contacts") or []
+        emails = [str(co.get("email") or "")] + \
+                 [str(k.get("email") or "") for k in cards]
+        phones = [str(co.get("phone") or "")] + \
+                 [str(k.get("phone") or k.get("cell") or "") for k in cards]
+        if email and email in [e.lower() for e in emails if e]:
+            return co_id
+        if phone and any(re.sub(r"\D", "", p)[-10:] == phone
+                         for p in phones if p):
+            return co_id
+    # domain-level email match, freemail excluded
+    if email and "@" in email:
+        dom = email.split("@", 1)[1]
+        if dom not in ("gmail.com", "yahoo.com", "outlook.com", "hotmail.com",
+                       "aol.com", "icloud.com", "me.com", "msn.com"):
+            for co_id, co in companies.items():
+                ce = str(co.get("email") or "").lower()
+                if "@" in ce and ce.split("@", 1)[1] == dom:
+                    return co_id
+    return None
+
+
 def fetch_inbound_since(contact_id: str, since: datetime) -> list[dict]:
     convs = _ghl("GET", "/conversations/search", params={
         "locationId": _loc(), "contactId": contact_id, "limit": 20})
@@ -10064,7 +10114,7 @@ def webhook_inbound(contact_id: str, do_send: bool = True) -> dict:
     the handled-ids ledger."""
     dry_run = not do_send
     state = load_state()
-    company_id = _tracked_contacts(state).get(contact_id)
+    company_id = _company_for_contact(contact_id, state)
     if not company_id:
         print(f"[webhook] contact {contact_id} is not tracked — ignoring")
         return {"status": "ignored",
