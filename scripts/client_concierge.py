@@ -8768,10 +8768,14 @@ RENAME_PITCH_BODY = (
 
 
 def _rename_options_body(company: dict, cands: list[dict],
-                         vertical: str) -> str:
+                         vertical: str,
+                         notes: list[str] | None = None) -> str:
     """The options text: candidate strings QUOTED VERBATIM, numbered, with
     the plumbing license question and any service clarifications riding the
-    same message. Deterministic on purpose — no model may rewrite a name."""
+    same message. Deterministic on purpose — no model may rewrite a name.
+    `notes` = per-conversation talking points set at pitch time (Santino
+    2026-09-12, Dry Bros: Amin was lukewarm on mold before hearing it is a
+    top-intent Illinois search term — the ponder-point rides the options)."""
     co_services = company.get("services")
     svc_hay = " ".join(str(s) for s in co_services).lower() \
         if isinstance(co_services, list) else ""
@@ -8801,6 +8805,7 @@ def _rename_options_body(company: dict, cands: list[dict],
                     extras.append(f"Quick check: one of these mentions "
                                   f"{phrase}. Is that a service you plan on "
                                   "offering?")
+    extras.extend(n.strip() for n in (notes or []) if n.strip())
     closer = ("Any of these feel right? Happy to walk through the thinking "
               "or tweak one.")
     return "\n".join(lines + [""] + extras + [closer]).replace("\n\n\n", "\n\n")
@@ -8950,7 +8955,8 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
         cs.pop("rename_convo", None)
         return True
     if read == "interested":
-        body = _rename_options_body(company, cands, vertical)
+        body = _rename_options_body(company, cands, vertical,
+                                    pend.get("notes"))
         _rename_send(company, contact, body, state, dry_run, "options")
         pend["stage"] = "options"
         return True
@@ -9026,13 +9032,20 @@ def cmd_rename_pitch(args) -> int:
           f"{_company_vertical(company)}):")
     for c in cands[:4]:
         print(f"  - [{c.get('confidence')}] {c['item']}")
+    notes = [n for n in (getattr(args, "note", None) or []) if n.strip()]
+    if notes or dry_run:
+        preview = _rename_options_body(company, cands,
+                                       _company_vertical(company), notes)
+        print(f"  options text that would follow ({len(preview)} chars):")
+        for ln in preview.splitlines():
+            print(f"    | {ln}")
     if not _rename_send(company, contact, RENAME_PITCH_BODY, state,
                         dry_run, "pitch"):
         return 1
     if not dry_run:
         cs = company_state(state, company["id"])
         cs["rename_convo"] = {
-            "stage": "pitched",
+            "stage": "pitched", "notes": notes,
             "at": datetime.now(timezone.utc).isoformat()}
         save_state(state, dry_run)
         print("rename conversation ARMED (replies route to "
@@ -12150,6 +12163,9 @@ def main() -> int:
     pr.add_argument("--company", required=True, help="company id (CO-…)")
     pr.add_argument("--send", action="store_true",
                     help="actually deliver + arm the reply flow")
+    pr.add_argument("--note", action="append", default=[],
+                    help="talking point to ride the options text "
+                         "(repeatable)")
 
     sub.add_parser("watchdog", help="loud alarm for directives stuck unsent "
                    ">2h (Sarha/Jimmy class silence, 2026-09-04)")
