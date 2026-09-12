@@ -309,9 +309,7 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
   OWNER (not manager) and name it keyworded AT CREATION (see
   marketing_gbp_suggestions note for crew).
 - **Amin / Dry Bros** — TWO open items from 09-10: Twilio TF verification
-  rejected (+18336817307), and his question "need me to make a G-Suite
-  info@drybros.com?" is UNANSWERED (getrest thread "Twilio cannot
-  approve..."). Site is pre-staging; DNI fills at first deploy.
+  rejected (+18336817307), and his G-Suite question WAS answered 09-10 3:38pm ("Yes, can you create that please?") — now WAITING on Amin to confirm info@drybros.com exists, then resubmit the TF (rejection code 3048) with the branded email. Site is pre-staging; DNI fills at first deploy.
 - **Angie/All Pro** — preview link owed when queue item 3 lands (her
   thread lives in the getrest inbox).
 - **Mac Mini runs** — the Mini is the browser-agent box (git-synced inbox:
