@@ -166,3 +166,16 @@ Plumber license); DryCor DBA rides the rebrand filing. Documented holds
 (KEEP rows so the card is never blank): PuroClean (franchisor controls
 naming), TDI (mid rebrand + suppressed services). Untouched by design:
 Paul Davis Charleston + Go Green (hands-off), canary, day-old signups.
+
+### Dry Bros (dry-bros-water-fire-restoration) — IL volumes finalized 09-12
+
+Founding-name decision (DBA + GBP created with the chosen string; profile
+already exists UNVERIFIED under "Dry Bros Water & Fire Restoration" — rename
+it BEFORE verification, verify once). IL: mold remediation 2,900/mo #1,
+emergency plumber 2,400 (+water heater repair 3,600), water damage 1,600.
+- **#1 (plumbing confirmed + licensed):** Dry Bros - 24/7 Emergency
+  Plumbing, Water Damage Restoration, & Mold Remediation
+- **#1 (default, plumbing unconfirmed):** Dry Bros - 24/7 Emergency Water
+  Damage & Mold Remediation
+Citations (BrightLocal CB tester) run only AFTER the DBA string is final —
+they carry the exact name + Amin's real line (TF still rejected).
