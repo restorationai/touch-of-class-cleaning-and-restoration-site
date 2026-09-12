@@ -8629,6 +8629,417 @@ def handle_booking_reply(company: dict, contact: dict, msg: dict,
     return False
 
 
+# ---------------------------------------------------------------------------
+# PROFILE RENAME CONVERSATIONS (Santino 2026-09-12). Monica runs the whole
+# GBP-rename decision by text so no meeting is needed: preframe pitch ->
+# candidate options quoted VERBATIM from marketing_gbp_suggestions -> natural
+# confirmation (never "reply YES", clients believe Monica is human) ->
+# DBA instructions bound to the exact string -> human verifies the filing.
+# The flow only ever STARTS from our pitch (rename-pitch CLI); client replies
+# are consumed here while the per-company rename_convo state is live.
+# Writes on confirm: suggestion status=chosen + integration_settings.
+# rename_intent.decision=rename + an ops note QUOTING the client's words
+# (the consent trail). The citations gate (brightlocal.rename_gate) and the
+# app's Profile Rename card read the SAME stores, so the conversation, the
+# app buttons and the gate can never disagree. NOTHING here touches Google:
+# the GBP change stays a separate, human-sequenced step after citations.
+
+RENAME_TRUTH = """\
+WHY WE SUGGEST PROFILE RENAMES (knowledge, never recite wholesale):
+Google's local ranking leans heavily on the words in the business name.
+A name that contains what people actually type (water damage restoration,
+24/7 emergency) outranks a bare brand name for those searches. To do it
+durably the name must be REAL: the client files a DBA / trade name with
+their state for the exact string, it goes on their citations and site
+first, and only then does the Google profile get its ONE name change.
+Renames are never pushed by us without that sequence; a keyworded name
+without paperwork behind it is how profiles get suspended.
+PLUMBING (restoration clients only): plumbing search volume is bigger
+than restoration volume, so a plumbing term in the name can be the
+strongest option. But the name is ADVERTISING: most states require the
+advertiser to hold (or partner with) a plumbing license. Subcontracting
+alone does not cure that in strict states. So the plumbing option is
+only ever offered together with the license question.
+STEPS in client language: 1) pick the name, 2) they file the DBA for
+exactly that string, 3) we update citations and the website, 4) we make
+the one-time Google profile change, 5) if Google asks to re-verify, we
+handle it with them. Steps 3-5 are ours; only step 2 is theirs."""
+
+_RENAME_SERVICE_LABELS = {
+    "mold": "Mold Remediation", "plumbing": "Plumbing Services",
+    "fire": "Fire Damage Restoration", "storm": "Storm Damage Restoration",
+    "water damage": "Water Damage Restoration", "sewage": "Sewage Cleanup",
+    "carpet": "Carpet Cleaning", "asbestos": "Asbestos Abatement",
+    "biohazard": "Biohazard Cleanup", "leak detection": "Leak Detection",
+}
+
+
+def _company_vertical(company: dict) -> str:
+    slug = company_slug(company.get("id") or "")
+    if slug:
+        try:
+            rec = json.loads((ROOT / "clients" / f"{slug}.json").read_text())
+            return (rec.get("vertical") or "restoration").strip().lower()
+        except Exception:  # noqa: BLE001
+            pass
+    return "restoration"
+
+
+def _rename_candidates(company_id: str) -> list[dict]:
+    """Open + chosen name candidates, best first. VERBATIM strings only —
+    a name may never be composed in-conversation (registered-name law)."""
+    rows = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id="
+               f"eq.{company_id}&item_type=eq.name&status=neq.dismissed"
+               "&select=item,reason,confidence,status"
+               "&order=confidence.desc") or []
+    return rows
+
+
+def _norm_name(s: str) -> str:
+    return re.sub(r"\s+", " ", str(s or "")).strip().lower()
+
+
+def _merge_rename_intent(company_id: str, patch: dict,
+                         dry_run: bool) -> None:
+    if dry_run:
+        print(f"    [dry-run] rename_intent <- {patch}")
+        return
+    co = (_sb("GET", f"/rest/v1/companies?id=eq.{company_id}"
+              "&select=integration_settings") or [{}])[0]
+    ints = co.get("integration_settings") or {}
+    if isinstance(ints, str):
+        try:
+            ints = json.loads(ints)
+        except (ValueError, TypeError):
+            ints = {}
+    ri = dict(ints.get("rename_intent") or {})
+    ri.update(patch)
+    ints["rename_intent"] = ri
+    _sb("PATCH", f"/rest/v1/companies?id=eq.{company_id}",
+        {"integration_settings": ints})
+
+
+def _choose_candidate(company_id: str, item: str, dry_run: bool) -> None:
+    if dry_run:
+        print(f"    [dry-run] suggestion CHOSEN <- {item!r}")
+        return
+    _sb("PATCH", f"/rest/v1/marketing_gbp_suggestions?company_id="
+        f"eq.{company_id}&item_type=eq.name&item=eq."
+        f"{urllib.parse.quote(item)}", {"status": "chosen"})
+
+
+def _apply_service_answer(company_id: str, term: str, offers: bool,
+                          dry_run: bool) -> str:
+    """Mirror of the app's clarifyTerm: yes writes companies.services (the
+    single selected-services store, AI Dispatcher reads it too), no
+    dismisses every non-chosen candidate naming the term."""
+    term = term.strip().lower()
+    if offers:
+        label = _RENAME_SERVICE_LABELS.get(term) or term.title()
+        if dry_run:
+            return f"[dry-run] services += {label}"
+        co = (_sb("GET", f"/rest/v1/companies?id=eq.{company_id}"
+                  "&select=services") or [{}])[0]
+        svcs = co.get("services") if isinstance(co.get("services"), list) else []
+        if not any(term.split()[0] in str(s).lower() for s in svcs):
+            _sb("PATCH", f"/rest/v1/companies?id=eq.{company_id}",
+                {"services": svcs + [label]})
+        return f"services += {label}"
+    if dry_run:
+        return f"[dry-run] dismiss candidates naming {term!r}"
+    rows = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id="
+               f"eq.{company_id}&item_type=eq.name&select=item,status") or []
+    doomed = [r["item"] for r in rows
+              if term in str(r.get("item", "")).lower()
+              and (r.get("status") or "") != "chosen"]
+    for item in doomed:
+        _sb("PATCH", f"/rest/v1/marketing_gbp_suggestions?company_id="
+            f"eq.{company_id}&item_type=eq.name&item=eq."
+            f"{urllib.parse.quote(item)}", {"status": "dismissed"})
+    return f"dismissed {len(doomed)} candidate(s) naming {term!r}"
+
+
+# Santino's preframe, verbatim (2026-09-12) — the pitch never opens with a
+# bare "want a new name?".
+RENAME_PITCH_BODY = (
+    "We've been doing research and have determined a few different profile "
+    "names that we believe are going to really help increase your visibility "
+    "for high-intent jobs. Want me to send over what we came up with?")
+
+
+def _rename_options_body(company: dict, cands: list[dict],
+                         vertical: str) -> str:
+    """The options text: candidate strings QUOTED VERBATIM, numbered, with
+    the plumbing license question and any service clarifications riding the
+    same message. Deterministic on purpose — no model may rewrite a name."""
+    co_services = company.get("services")
+    svc_hay = " ".join(str(s) for s in co_services).lower() \
+        if isinstance(co_services, list) else ""
+    top = [c for c in cands if (c.get("status") or "") != "dismissed"][:3]
+    lines = ["Here's what we like best, based on what people in your area "
+             "actually search:"]
+    for i, c in enumerate(top, 1):
+        lines.append(f"{i}. {c['item']}")
+    extras = []
+    plumb = any("plumb" in _norm_name(c["item"]) for c in top)
+    if plumb and vertical == "restoration":
+        extras.append(
+            "One note on the plumbing option: to advertise plumbing in the "
+            "name you'd need a plumbing license connected to the business, "
+            "either yours or a licensed partner you work with. Is that "
+            "something you have or would be open to setting up?")
+    if svc_hay:
+        seen = set()
+        for c in top:
+            nm = _norm_name(c["item"])
+            for phrase, key in (("mold", "mold"), ("sewage", "sewage"),
+                                ("biohazard", "biohazard"),
+                                ("asbestos", "asbestos"),
+                                ("leak detection", "leak")):
+                if phrase in nm and key not in svc_hay and phrase not in seen:
+                    seen.add(phrase)
+                    extras.append(f"Quick check: one of these mentions "
+                                  f"{phrase}. Is that a service you plan on "
+                                  "offering?")
+    closer = ("Any of these feel right? Happy to walk through the thinking "
+              "or tweak one.")
+    return "\n".join(lines + [""] + extras + [closer]).replace("\n\n\n", "\n\n")
+
+
+RENAME_REPLY_SYSTEM = """\
+You are Monica from Santino's team at Restoration AI, mid-conversation with
+a client about renaming their Google Business Profile. Warm, brief, human.
+NEVER use em dashes or en dashes; use a comma or a period. Never sound
+robotic, never say "reply YES" or similar; the client believes they are
+texting a person and that must stay true.
+<<RENAME_TRUTH>>
+You are given the conversation stage, the candidate names ON RECORD, and
+the client's message. Read what the client is doing and answer with JSON:
+{"read": "interested|confirmed|declined|question|service_answer|dba_update|
+          handoff|unrelated",
+ "confirmed_name": string|null,
+ "service_answers": [{"term": string, "offers": bool}],
+ "reply": string|null,
+ "reason": string}
+- "interested": they want to see the options (or asked for them again).
+- "confirmed": they clearly committed to ONE candidate. confirmed_name MUST
+  be that candidate's EXACT string copied from the list, never retyped,
+  never a paraphrase. A vague positive ("sounds good") with more than one
+  candidate on the table is NOT confirmed, it is "question" — ask which one.
+- "declined": they clearly do not want a rename at all.
+- "service_answer": they answered a service or license question (plumbing,
+  mold, sewage...). Fill service_answers; term is the lowercase service
+  word, offers is their answer. If they ALSO picked a name, use "confirmed"
+  and still fill service_answers.
+- "dba_update": they say the DBA/trade name is filed or they sent the
+  paperwork.
+- "handoff": a RENAME-topic message that is angry, confused beyond text,
+  or asking for Santino/a call about the rename.
+- "unrelated": the message is about anything OTHER than the rename
+  (website, billing, jobs, scheduling, photos...). Another system answers
+  those; never use handoff for an off-topic message.
+"reply" is your next text for question/service_answer/handoff reads (<=280
+chars, no emojis); null for every other read (the system sends those).
+Answer questions ONLY from the knowledge above; anything outside it is
+"handoff". Never claim any step is already done."""
+RENAME_REPLY_SYSTEM = RENAME_REPLY_SYSTEM.replace(
+    "<<RENAME_TRUTH>>", RENAME_TRUTH)
+
+
+def _rename_send(company: dict, contact: dict, body: str, state: dict,
+                 dry_run: bool, label: str) -> bool:
+    grounding = outbound_guard(body, None)
+    if grounding:
+        print(f"    RENAME {label} BLOCKED (outbound guard): {grounding}")
+        append_escalation(company, None,
+                          f"rename {label} blocked by the outbound guard "
+                          f"({grounding})", dry_run, ping=True)
+        return False
+    print(f"    RENAME {label} ({len(body)} chars) -> {body!r}")
+    if dry_run:
+        return True
+    res = send_message(contact, "sms", body, company=company)
+    record_sent_message(state, res)
+    return True
+
+
+def handle_rename_reply(company: dict, contact: dict, msg: dict,
+                        state: dict, dry_run: bool) -> bool:
+    """Consume a client message inside a live rename conversation. Returns
+    True when the message belonged to this flow."""
+    cs = company_state(state, company["id"])
+    pend = cs.get("rename_convo")
+    if not pend:
+        return False
+    cands = _rename_candidates(company["id"])
+    if not cands:
+        cs.pop("rename_convo", None)
+        return False
+    vertical = _company_vertical(company)
+    cand_lines = "\n".join(
+        f"- {c['item']}" + (" (already chosen)"
+                            if (c.get("status") or "") == "chosen" else "")
+        for c in cands)
+    result = anthropic_json(
+        RENAME_REPLY_SYSTEM,
+        f"Company: {company.get('name')}\n"
+        f"Vertical: {vertical}\n"
+        f"Conversation stage: {pend.get('stage')}\n"
+        f"Candidate names ON RECORD:\n{cand_lines}\n\n"
+        f"Client message: {(msg.get('body') or '')[:600]}")
+    read = (result.get("read") or "").strip().lower()
+    if read == "unrelated":
+        return False
+    # Service/license answers apply on ANY read that carries them.
+    for sa in (result.get("service_answers") or []):
+        term = str(sa.get("term") or "").strip().lower()
+        if not term:
+            continue
+        if term == "plumbing" and vertical != "restoration":
+            continue
+        note = _apply_service_answer(company["id"], term,
+                                     bool(sa.get("offers")), dry_run)
+        print(f"    RENAME service answer: {term} -> "
+              f"{'yes' if sa.get('offers') else 'no'} ({note})")
+    quote_txt = (msg.get("body") or "").strip()[:300]
+    if read == "confirmed":
+        want = _norm_name(result.get("confirmed_name"))
+        match = next((c for c in cands if _norm_name(c["item"]) == want), None)
+        if not match:
+            # String-bound law: no exact candidate match, no write. Re-ask.
+            body = ("Just so I lock in the right one, which of the names I "
+                    "sent should we go with? I want it exact before we "
+                    "start the paperwork.")
+            _rename_send(company, contact, body, state, dry_run, "re-ask")
+            return True
+        _choose_candidate(company["id"], match["item"], dry_run)
+        _merge_rename_intent(company["id"], {
+            "decision": "rename",
+            "decided_at": datetime.now(timezone.utc).isoformat(),
+            "source": "monica_sms",
+            "consent_quote": quote_txt}, dry_run)
+        append_escalation(
+            company, None,
+            f"PROFILE RENAME CONFIRMED by text: {match['item']!r}. Client's "
+            f"words: \"{quote_txt}\". DBA instructions sent; verify the "
+            "filing when it comes in, then mark DBA filed on the Citations "
+            "card (citations run before the GBP change).", dry_run, ping=True)
+        body = (f"Perfect, we'll move forward with \"{match['item']}\". "
+                "The next step is on your side: file a DBA (trade name) "
+                "with the state for exactly that name, letter for letter. "
+                "Once it's filed, text us a photo of the paperwork and "
+                "we'll take it from there.")
+        _rename_send(company, contact, body, state, dry_run, "confirm")
+        pend["stage"] = "awaiting_dba"
+        pend["chosen"] = match["item"]
+        return True
+    if read == "declined":
+        _merge_rename_intent(company["id"], {
+            "decision": "keep",
+            "decided_at": datetime.now(timezone.utc).isoformat(),
+            "source": "monica_sms",
+            "consent_quote": quote_txt}, dry_run)
+        append_escalation(
+            company, None,
+            f"profile rename DECLINED by text (\"{quote_txt}\") — "
+            "rename_intent set to keep, citations unblocked under the "
+            "current name", dry_run)
+        body = ("No problem at all, we'll keep your current name. "
+                "Everything else stays right on track.")
+        _rename_send(company, contact, body, state, dry_run, "decline")
+        cs.pop("rename_convo", None)
+        return True
+    if read == "interested":
+        body = _rename_options_body(company, cands, vertical)
+        _rename_send(company, contact, body, state, dry_run, "options")
+        pend["stage"] = "options"
+        return True
+    if read == "dba_update":
+        append_escalation(
+            company, None,
+            f"client says the DBA is FILED (\"{quote_txt}\") — verify the "
+            "certificate, then mark DBA filed on the Citations card so "
+            "citations can run", dry_run, ping=True)
+        body = ("Awesome. Can you text over a photo of the filing so we "
+                "have it on record? Then we'll get everything rolling.")
+        _rename_send(company, contact, body, state, dry_run, "dba-ask")
+        return True
+    if read == "handoff":
+        append_escalation(
+            company, msg,
+            "rename conversation needs a human "
+            f"({(result.get('reason') or '')[:120]})", dry_run, ping=True)
+        return True
+    # question / service_answer: the model's own short reply, guarded.
+    body = _fit_sms((result.get("reply") or "").strip(), 240, 300,
+                    label=" [rename]")
+    if body:
+        _rename_send(company, contact, body, state, dry_run, "reply")
+    pend["last_at"] = datetime.now(timezone.utc).isoformat()
+    return True
+
+
+def cmd_rename_pitch(args) -> int:
+    """Open the rename conversation for ONE company (Dry Bros pilot,
+    2026-09-12). Dry run prints the opener; --send delivers + arms the
+    reply flow."""
+    state = load_state()
+    dry_run = not getattr(args, "send", False)
+    companies = fetch_companies([args.company])
+    company = companies.get(args.company)
+    if not company:
+        print(f"ERROR: no company {args.company}")
+        return 1
+    if company_inactive(company):
+        print(f"ERROR: {company.get('name')} is not active")
+        return 1
+    cands = _rename_candidates(args.company)
+    if not cands:
+        print("ERROR: no name candidates on record — seed them first "
+              "(rank-ai-gbp-rename)")
+        return 1
+    if any((c.get("status") or "") == "chosen" for c in cands):
+        print("NOTE: a name is already chosen — nothing to pitch")
+        return 0
+    target = messaging_target(company)
+    contact_id = target.get("ghl_contact_id") or linked_contact_id(company)
+    if not contact_id:
+        print("ERROR: no GHL contact for this company")
+        return 1
+    contact_payload = None
+    try:
+        data = _ghl("GET", f"/contacts/{contact_id}")
+        contact_payload = (data or {}).get("contact") or data
+    except Exception:  # noqa: BLE001
+        pass
+    hours = business_hours_check(company, contact_payload)
+    if hours:
+        print(f"HELD (quiet hours): {hours}")
+        return 1
+    contact = {"id": contact_id,
+               "phone": (target.get("cell")
+                         or (contact_payload or {}).get("phone")),
+               "email": (target.get("email")
+                         or (contact_payload or {}).get("email"))}
+    print(f"pitching {company.get('name')} "
+          f"({len(cands)} candidate(s), vertical "
+          f"{_company_vertical(company)}):")
+    for c in cands[:4]:
+        print(f"  - [{c.get('confidence')}] {c['item']}")
+    if not _rename_send(company, contact, RENAME_PITCH_BODY, state,
+                        dry_run, "pitch"):
+        return 1
+    if not dry_run:
+        cs = company_state(state, company["id"])
+        cs["rename_convo"] = {
+            "stage": "pitched",
+            "at": datetime.now(timezone.utc).isoformat()}
+        save_state(state, dry_run)
+        print("rename conversation ARMED (replies route to "
+              "handle_rename_reply)")
+    return 0
+
+
 # Vision for inbound analysis (Santino 2026-08-02: Angie texted a
 # screenshot of a browser warning; Monica couldn't see it and Santino had
 # to answer manually). Cost guard: only the first VISION_MAX_IMAGES images
@@ -9342,6 +9753,9 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             continue
         if handle_booking_reply(company, contact_for_flow, msg,
                                 state, dry_run):
+            continue
+        if handle_rename_reply(company, contact_for_flow, msg,
+                               state, dry_run):
             continue
         # purpose= comes from the item's help_text: WHY-questions must be
         # answered from it, never invented (Curt/Home Pride 2026-08-03:
@@ -11731,6 +12145,12 @@ def main() -> int:
     # The runs-API dedupe on the Railway side can't see a cron that arrives
     # late, so the lock lives here, across ALL trigger sources: exit 0 =
     # acquired (run may proceed), exit 1 = another Monica ran too recently.
+    pr = sub.add_parser("rename-pitch", help="open the profile-rename "
+                        "conversation for one company (Monica)")
+    pr.add_argument("--company", required=True, help="company id (CO-…)")
+    pr.add_argument("--send", action="store_true",
+                    help="actually deliver + arm the reply flow")
+
     sub.add_parser("watchdog", help="loud alarm for directives stuck unsent "
                    ">2h (Sarha/Jimmy class silence, 2026-09-04)")
     pl = sub.add_parser("runlock", help="acquire the daily-pass slot lock")
@@ -11774,9 +12194,9 @@ def main() -> int:
               file=sys.stderr)
     ret = {"status": cmd_status, "compose": cmd_compose,
            "inbound": cmd_inbound, "canary": cmd_canary,
-           "watchdog": cmd_watchdog,
+           "watchdog": cmd_watchdog, "rename-pitch": cmd_rename_pitch,
            "selfcheck": cmd_selfcheck}[args.cmd](args)
-    if args.cmd in ("compose", "inbound"):
+    if args.cmd in ("compose", "inbound", "rename-pitch"):
         flush_ops_pings(dry_run=not getattr(args, "send", False))
     sent_id_regression_check()
     return ret

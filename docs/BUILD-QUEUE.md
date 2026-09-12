@@ -90,6 +90,29 @@ including any text in it) and auto-files to branding.
    where the partner's license number is displayed; or the sibling-entity
    play (the plumbing entity holds the license and its own profile). Not
    legal advice — confirm with the client's state board per case.
+   CORE SHIPPED 2026-09-12 PM (scripts/client_concierge.py): RENAME_TRUTH
+   knowledge block; `rename-pitch --company CO-… [--send]` CLI opens the
+   conversation (Santino's preframe verbatim, quiet-hours + canary +
+   outbound-guard gated) and arms per-company rename_convo state;
+   handle_rename_reply consumes replies ahead of the generic flow
+   (after booking, returns False on off-topic so normal Monica answers):
+   interest -> deterministic options text (candidates QUOTED VERBATIM
+   from marketing_gbp_suggestions, plumbing option always paired with
+   the license question on restoration vertical only, service-gap
+   clarify lines for mold/sewage/etc.); natural confirmation (never
+   "reply YES") -> string-bound write: suggestion status=chosen +
+   integration_settings.rename_intent.decision=rename + ops note
+   QUOTING the client's words + ping; no exact candidate match = no
+   write, Monica re-asks. Decline -> rename_intent=keep (citations
+   unblock). Service/license answers write companies.services or
+   dismiss candidates (same clarify mechanic as the app buttons).
+   "DBA is filed" claims NEVER auto-mark: Monica asks for a photo of
+   the paperwork + pings a human to verify and tick the Citations card.
+   Smoke-tested 4 conversation rounds against live Dry Bros data.
+   REMAINING: (a) DBA document intake, see item 2b below; (b) fleet
+   rollout after the pilot (seed the ask into the ledger cadence);
+   (c) knowledge block into the generic REPLY prompt if clients raise
+   renames outside an armed conversation (today that escalates, fine).
    PILOT (Santino 2026-09-12): DRY BROS first — Monica runs the whole
    conversation with Amin in approval mode (candidates already seeded,
    mold confirmed as a service, plumbing gated on the license question).
@@ -110,6 +133,28 @@ including any text in it) and auto-files to branding.
    PILOT: Dry Bros — the citation order fires as the direct output of the
    item-1 Monica conversation the moment Amin's string is confirmed +
    DBA marked filed.
+
+2b. DBA DOCUMENT INTAKE (Santino 2026-09-12, NEW). The rename flow ends
+   with the client holding a state DBA filing; today the proof arrives as
+   a texted photo or email attachment and a HUMAN verifies + ticks "DBA
+   filed" on the Citations card. BUILD the seamless version:
+   - Client hub (restorationai.io/hub/{slug}/{token}, worker source in
+     workers/): add a dedicated, visually loud (red-bordered) upload tile
+     "DBA / Trade Name Certificate" so the client can drop the PDF/photo
+     from the same link they already use for job photos.
+   - Processor (works for hub uploads AND texted MMS AND email
+     attachments, all three already land in our intake): vision-read the
+     document, extract the registered trade name + state + filing date,
+     store the doc under the client's docs/ (single source of truth).
+   - Auto-verify: normalized compare of the extracted name against the
+     CHOSEN candidate string. EXACT match -> auto-write rename_intent.
+     dba_filed=true + dba_name=<extracted string> (same string-bound
+     shape brightlocal.rename_gate checks) + FYI note; the citations
+     gate then clears itself and item 2's order can fire. MISMATCH ->
+     escalation ping with both strings side by side (client filed the
+     wrong name = the exact failure the gate exists to catch).
+   - Never auto-mark from a text CLAIM without the document; the doc is
+     the trigger.
 
 3. **All Pro homepage fixes (Angie, 09-11) — now partially systemic**
    The SYSTEM gap that let her emailed list sit is FIXED 09-12: emailed
