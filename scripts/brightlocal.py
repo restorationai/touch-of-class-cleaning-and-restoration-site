@@ -249,7 +249,15 @@ def rename_gate(slug: str) -> tuple[bool, str]:
         # (rename_intent.dba_filed, captured on the Citations card). The
         # order command flips the BrightLocal location's business_name to
         # the chosen string before spending a credit.
-        if (ints.get("rename_intent") or {}).get("dba_filed"):
+        ri = ints.get("rename_intent") or {}
+        if ri.get("dba_filed"):
+            # the mark binds to the exact string: a stale checkmark from a
+            # since-swapped candidate must never clear the gate
+            dba_name = ri.get("dba_name")
+            if dba_name and norm(dba_name) != norm(chosen[0]["item"]):
+                return False, (f"DBA was marked filed for {dba_name!r} but "
+                               f"the chosen name is now {chosen[0]['item']!r} "
+                               "— re-confirm the DBA for the current choice")
             return True, (f"NAME FINAL: {chosen[0]['item']!r} chosen + DBA "
                           "filed — citations run with the NEW name (order "
                           "updates the BL location name first); GBP rename "
