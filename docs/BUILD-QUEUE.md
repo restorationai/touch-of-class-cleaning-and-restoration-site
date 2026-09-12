@@ -26,40 +26,40 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
    number + free-estimate CTA left so vehicles stay visible. Send Angie a
    preview link when up (she was told "as soon as the updates are up",
    no date promised).
-3. **Fleet attribution follow-through** — watch first live source-tagged
+4. **Fleet attribution follow-through** — watch first live source-tagged
    calls/leads; follow-up email to Miguel/Icatch with RT Olson channel
    data after a few days; Bobby gets the same proof.
-3. **Railway git checkout** — the app's "Push site to production"
+5. **Railway git checkout** — the app's "Push site to production"
    (site_push_main) needs a real git clone on the Railway service (no .git
    in /app today). Also fixes cutover stamp commits + enables full
    launches with zero pipeline-machine involvement. Include agency GSC
    token + googleapiclient in the Railway image while in there.
-4. **Repiping default-on** in plumbing plan selection (template already
+6. **Repiping default-on** in plumbing plan selection (template already
    carries the service; plan step should include it for every plumber).
-6. **Tony/Coastal linktree page** — small branded links page (Call /
+7. **Tony/Coastal linktree page** — small branded links page (Call /
    Website / Leave a Review), then flip qr:coastal KV target to it.
-7. **Missed-opportunity alerts** — call-intel now labels
+8. **Missed-opportunity alerts** — call-intel now labels
    missed_opportunity / callback_needed; surface to clients (SMS or ops
    card) + fold outcome data into monthly reports.
-8. **Xtreme Clean tracking decision** — no-NAP client; decide tracking
+9. **Xtreme Clean tracking decision** — no-NAP client; decide tracking
    approach.
-9. **DISS launch** — Wix EPP code from Santino → transfer to Cloudflare;
+10. **DISS launch** — Wix EPP code from Santino → transfer to Cloudflare;
    site carries DNI already (empty tracking fields filled at provision).
-10. **Yelp-listing tracking numbers** — request via Yelp rep (Tim/Icatch
+11. **Yelp-listing tracking numbers** — request via Yelp rep (Tim/Icatch
     confirmed the backend-coded pattern keeps NAP safe); shortlist
     Yelp-heavy clients; RT Olson first when Yelp Biz access is handy.
-11. **Inbound MMS handling (Addi/DISS 09-10)** — a photo SMS ("Here's our
+12. **Inbound MMS handling (Addi/DISS 09-10)** — a photo SMS ("Here's our
     team photo") produced NOTHING: no ack, no filing, no ops card. Build:
     inbound media -> save to branding/{cid}/ (photos/logo classify like
     email attachments), warm ack, card when placement judgment needed.
-12. **BrightLocal CB into the Citations stage** — brightlocal.py already
+13. **BrightLocal CB into the Citations stage** — brightlocal.py already
     proves the full recipe (location -> campaign -> confirm cb10..cb100 ->
     status). Wire it into the pipeline: auto setup+order at launch, poll
     citations_submission_status into citation_listings so the app's
     Citations board shows CB progress. ALSO: location payload sends no
     OPENING HOURS today — likely the portal's campaign error; include
     hours from GBP regularHours in POST /manage/v1/locations.
-13. **NaRestCo flood/storm/biohazard ranking sprint** — pages already
+14. **NaRestCo flood/storm/biohazard ranking sprint** — pages already
     exist (all 5 incl. trauma/crime-scene, 39 flood/storm cross pages);
     the gap is off-page: GBP services+categories for those lines, internal
     links from home/hub, geogrid tracking for the terms, Yelp overhaul
@@ -68,13 +68,24 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
 
 ## Standing watches
 
-- PuroClean day-7 search-term review (2026-09-15)
+- DryCor preview send — scheduled one-shot Sat 9/13 9:32am PT (12:32pm ET)
+  via launchd io.restorationai.drycor-preview-send; log /tmp/drycor-preview-send.log
+- RGP/Chesney — LSA admin access grant to contact@restorationai.io
+  (correction sent 09-11 after they nearly sent it to the typo'd domain);
+  real lead-carrying LSA CID still unknown (linked 816-134-6241 is a shell)
+- PuroClean day-7 search-term review (2026-09-15) — first review with REAL
+  bids (unset-bid bug fixed 09-12: was $0.01 effective since launch); also
+  decide competitor-brand negatives (bio one / 911 bio clean / aftermath)
+- Patti Collins (AFC Cleaning, KC) sales follow-up — CONFIRMED Thu 9/17
+  9:00am PT on the Follow Up calendar; proposal prep from the 9/11 call
 - DIS toll-free verification approval
-- Frontline: Monica's site-live announcement + EIN-CONFIRM ask land on her
-  9:07am PT run; resubmit chain is automatic once the client replies
+- Kyle/Crew — Iowa filing doc for the Sioux City GBP (Tonya digging)
+- Amin/Dry Bros — Twilio TF rejected +18336817307; his G-Suite
+  info@drybros.com question still unanswered
+- Angie/All Pro — homepage fixes promised (queue #3); preview link owed
 - Mac Mini runs (git-synced inbox)
-- Dry Bros + ACS (aldredo-moreno) get DNI at first deploy automatically
-  (code committed, sites pre-staging)
+- Frontline: Monica's site-live announcement + EIN-CONFIRM ask;
+  resubmit chain automatic once the client replies
 
 ## Recently shipped (context)
 
