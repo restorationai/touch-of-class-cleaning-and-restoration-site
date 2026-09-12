@@ -7,7 +7,7 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
   <div class="container-wide flex items-center justify-between gap-3 sm:gap-6 h-20">
     <a href="/" class="flex items-center gap-3 no-underline text-dark-900 group min-w-0">
       {brand.logoUrl && (
-        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-14 md:h-16 w-auto max-w-[55vw] sm:max-w-none object-contain object-left group-hover:scale-105 transition-transform" width="64" height="64" loading="eager" />
+        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-14 md:h-16 w-auto max-w-[72vw] sm:max-w-none object-contain object-left group-hover:scale-105 transition-transform" width="64" height="64" loading="eager" />
       )}
     </a>
 
@@ -21,12 +21,9 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
     </nav>
 
     <div class="flex items-center gap-2 flex-shrink-0">
-      <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-sm md:text-base px-4 sm:px-6 py-3 md:py-4 shadow-primary-900/40 text-center leading-tight font-black">
-        <span class="hidden sm:block tracking-wide whitespace-nowrap">Call Us Now <span aria-hidden="true">•</span> {brand.phone}</span>
-        {/* xs: number dropped from the tight header (Jared 09-11: it
-            smooshed against the logo) — the hero and the sticky bottom bar
-            both carry the full number; the header button just needs to dial. */}
-        <span class="sm:hidden font-black tracking-wide whitespace-nowrap">Call Now</span>
+      <a href={`tel:${brand.phoneRaw}`} class="hidden sm:block btn-primary text-sm md:text-base px-4 sm:px-6 py-3 md:py-4 shadow-primary-900/40 text-center leading-tight font-black">
+        <span class="tracking-wide whitespace-nowrap">Call Us Now <span aria-hidden="true">•</span> {brand.phone}</span>
+
       </a>
       <button id="mobile-nav-toggle" type="button" class="lg:hidden inline-flex flex-col items-center justify-center w-11 h-11 gap-[5px] rounded-md border border-dark/20 text-dark-900 flex-shrink-0" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
         <span class="block w-5 h-0.5 bg-current"></span>
