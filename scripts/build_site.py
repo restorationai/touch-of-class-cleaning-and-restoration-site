@@ -2442,8 +2442,10 @@ def cmd_sync_deploy(args) -> int:
 
     # Step 6: Update client record
     rec_path = CLIENTS_DIR / f"{slug}.json"
+    prev_build_status = None
     if rec_path.exists():
         client = load_json(rec_path)
+        prev_build_status = client.get("build_status")
         client.setdefault("build", {})
         client["build"]["github_repo"] = f"{GH_OWNER}/{client_repo}"
         if branch == "main":
@@ -2475,6 +2477,37 @@ def cmd_sync_deploy(args) -> int:
                            "github_repo": f"{GH_OWNER}/{client_repo}",
                            "url": f"https://staging.rankai-{slug}.pages.dev/"},
                  source="build_site.py sync-deploy")
+
+    # PREVIEW-PIPELINE EVENT (Santino 2026-09-12: DryCor's finished build sat
+    # 10 days unannounced — the nightly ledger heal was the only seeder and
+    # its gate missed pushed_main). The FIRST transition into a built state
+    # files a visible ops card THE MOMENT IT HAPPENS. The client reveal
+    # itself still rides the soak window + the hold / "share now" note
+    # overrides (setup_ledger seeds the ask; client_concierge sends it) —
+    # this card is the guarantee a human can see the clock running.
+    if (_cid and branch in ("staging", "main")
+            and prev_build_status not in ("pushed_staging", "pushed_main",
+                                          "preview_ready", "cut_over")):
+        _purl = (f"https://staging.rankai-{slug}.pages.dev/" if branch != "main"
+                 else f"https://rankai-{slug}.pages.dev/")
+        try:
+            import requests as _rq
+            _base = os.environ["SUPABASE_URL"].rstrip("/")
+            _key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+            _rq.post(f"{_base}/rest/v1/marketing_ops_notes", timeout=20,
+                     headers={"apikey": _key, "Authorization": f"Bearer {_key}",
+                              "Prefer": "return=minimal"},
+                     json=[{"company_id": _cid, "status": "open",
+                            "author": "build_site.py",
+                            "body": f"[PREVIEW PIPELINE] {slug}: first build is "
+                                    f"LIVE at {_purl} . The client reveal seeds "
+                                    "automatically and goes out after the "
+                                    "10-day soak window. Note 'share now' to "
+                                    "release early, or 'hold preview' to stop "
+                                    "it. Nothing else needed for it to send."}])
+            print("      preview-pipeline card filed (first build)")
+        except Exception as _e:  # noqa: BLE001 — a deploy never fails over a card
+            print(f"      (preview-pipeline card failed: {str(_e)[:80]})")
 
     print()
     print("==> Sync complete.")
