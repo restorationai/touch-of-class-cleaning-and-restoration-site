@@ -206,7 +206,9 @@ def _mirror_nested_brand(brand: dict) -> None:
     if isinstance(colors, dict):
         if colors.get("primary"):
             brand.setdefault("primary_color", colors["primary"])
-            brand.setdefault("dark_color", colors["primary"])
+            # NEVER the raw primary as the canvas (2026-09-11 law, DryCor):
+            # dark surfaces stay neutral; the brand hue survives as a whisper.
+            brand.setdefault("dark_color", _neutral_dark(colors["primary"]))
         if colors.get("accent"):
             brand.setdefault("accent_color", colors["accent"])
     fonts = brand.get("fonts")
@@ -1773,11 +1775,9 @@ def _palette_from_logo(logo_path) -> dict | None:
         accent = None
         if len(ranked) > 1 and ranked[1][3] >= colored * 0.12:
             accent = _hex(ranked[1])
-        # dark surface = a deep shade of primary (same hue, L=0.13) so heroes
-        # and footers read as the brand's own dark, not generic charcoal
-        h, l, sat = _cs.rgb_to_hls(*(int(primary[i:i + 2], 16) / 255 for i in (1, 3, 5)))
-        dark = "#%02x%02x%02x" % tuple(
-            round(v * 255) for v in _cs.hls_to_rgb(h, 0.13, min(sat, 0.7)))
+        # dark surface = NEUTRAL charcoal (2026-09-11 law — see _neutral_dark:
+        # brand-tinted canvases made whole sites read as one color)
+        dark = _neutral_dark(primary)
         out = {"primary_color": primary, "dark_color": dark}
         if accent:
             out["accent_color"] = accent
@@ -1785,6 +1785,24 @@ def _palette_from_logo(logo_path) -> dict | None:
     except Exception as e:  # noqa: BLE001 — never fail a scaffold over colors
         print(f"      palette: extraction errored ({str(e)[:80]}) — keeping default")
         return None
+
+
+def _neutral_dark(primary_hex: str) -> str:
+    """Dark SURFACES are neutral, never the brand color (Santino 2026-09-11,
+    DryCor: petrol-blue canvases made the whole site read blue; the winning
+    variant kept every dark surface near-black charcoal, with the brand color
+    living only in small doses — links, icons, the logo — and ONE saturated
+    action color reserved for CTAs). This keeps at most a whisper of the
+    primary's hue (saturation <= 0.06) at lightness 0.09, so surfaces read
+    neutral while still being microscopically the client's own."""
+    import colorsys as _cs
+    try:
+        h, _l, s = _cs.rgb_to_hls(*(int(primary_hex[i:i + 2], 16) / 255
+                                    for i in (1, 3, 5)))
+    except Exception:  # noqa: BLE001
+        return "#16181d"
+    r, g, b = _cs.hls_to_rgb(h, 0.09, min(s, 0.06))
+    return "#%02x%02x%02x" % (round(r * 255), round(g * 255), round(b * 255))
 
 
 def _palette_from_site(domain: str | None) -> list[str]:
@@ -1855,10 +1873,7 @@ def _auto_palette(logo_path, domain: str | None):
         if min(d, 1 - d) >= 0.12:
             accent = cand
             break
-    h, l, sat = _cs.rgb_to_hls(*(int(primary[i:i + 2], 16) / 255
-                                 for i in (1, 3, 5)))
-    dark = "#%02x%02x%02x" % tuple(
-        round(v * 255) for v in _cs.hls_to_rgb(h, 0.13, min(sat, 0.7)))
+    dark = _neutral_dark(primary)
     out = {"primary_color": primary, "dark_color": dark}
     if accent:
         out["accent_color"] = accent
