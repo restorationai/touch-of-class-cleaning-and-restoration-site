@@ -657,10 +657,10 @@
     },
     {
       "id": "2026-08-26-document-flood-damage-for-insurance",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-12T13:46:25Z",
+      "post_url": "https://aaawaterdamagehawaii.com/blog/document-flood-damage-for-insurance/",
       "priority": 1,
       "prioritized": true,
       "content_type": "how_to_guide",
