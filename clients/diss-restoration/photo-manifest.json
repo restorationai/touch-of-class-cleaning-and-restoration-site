@@ -1,6 +1,31 @@
 {
   "slug": "diss-restoration",
   "assets": {
+    "crew:sms-1789042691643-33b57f29": {
+      "source": "crew",
+      "storage": "job-photos/sms-1789042691643-33b57f29.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785868576271/job-photos/sms-1789042691643-33b57f29.jpg",
+      "width": 1600,
+      "height": 1064,
+      "bytes": 531436,
+      "sha1": "549153b54bd40ca9",
+      "exif": {},
+      "category": "crew",
+      "subject": "Eight DISS Restoration crew members holding company banner outdoors",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 82,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Strong team shot; banner with phone/logo is real physical signage, not composited overlay.",
+      "triaged_at": "2026-09-12T14:05:59Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNC59tZSs1CXTxBBXNgXunlC8sa6N7d1cUFPxoG": {
       "source": "gbp",
       "storage": "job-photos/posted/r1789070474_gbp-AF1QipNC59tZSs1CXTxBBXNgXunlC8sa6N7d1cUFPxoG.jpg",
@@ -938,5 +963,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-02T15:20:40Z"
+  "triaged_at": "2026-09-12T14:05:59Z"
 }
