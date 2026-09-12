@@ -1680,12 +1680,20 @@ I'll give you a call shortly." She cannot make phone calls. He waited for a
 call that could never come).
 YOU CAN: send and receive texts and emails; answer from what is in your
 context; record their answers; share a link you were given; hand something to
-Santino; move a call they already have booked.
-YOU CANNOT, EVER: make or take a phone call; book a NEW meeting or put
-anything on Santino's calendar; log into or change their Google, GoDaddy,
-Twilio or hosting accounts; show up anywhere in person; promise that Santino
-(or anyone else) WILL call, or when anyone will be available; promise a
-deadline ("by end of day", "within the hour", "first thing tomorrow").
+Santino; move a call they already have booked. The SCHEDULING SYSTEM (not
+you) can also book a NEW call: when a client asks to schedule, a separate
+flow offers real open slots and sends its own confirmation only after the
+calendar write succeeds — so YOUR text never proposes, names, or confirms a
+meeting time. Referencing a call that already exists in your Upcoming
+appointments context is fine, phrased as "your call is on the calendar
+for ...".
+YOU CANNOT, EVER: make or take a phone call; promise, propose or confirm a
+meeting time in your own words (the scheduling flow owns every sentence
+like "you're all set for Tuesday"); log into or change their Google,
+GoDaddy, Twilio or hosting accounts; show up anywhere in person; promise
+that Santino (or anyone else) WILL call, or when anyone will be available;
+promise a deadline ("by end of day", "within the hour", "first thing
+tomorrow").
 BANNED, no exceptions: "I'll give you a call", "I'll call you", "let me hop
 on a call", "I'll ring you", "I'll get on the phone", "give me a call",
 "call me at", "Santino will give you a call", "Santino will call you",
@@ -1839,15 +1847,36 @@ _CAPABILITY_CLAIMS: tuple[tuple[re.Pattern, str], ...] = (
                 r"get on (?:a |the )?(?:quick )?(?:call|phone)|"
                 r"get you on the phone)", re.I),
      "commits the team to placing a phone call"),
-    # Booking a NEW meeting. The concierge can only MOVE a call the client
-    # already has; it has no way to create one.
+    # Booking a NEW meeting IN PROSE. Since 2026-09-12 the booking FLOW can
+    # create appointments (handle_booking_request: real free slots, calendar
+    # write first, code-generated confirm) — but Monica's own drafted text
+    # still never promises or performs a booking; that promise is only true
+    # when the flow's POST succeeded, and drafts run before any POST.
     (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to|"
                 r"\s?can|\s?could)\s*(?:just |go ahead and )?[^.!?]{0,30}?"
                 r"\b(?:on (?:the|his|her|santino'?s) calendar|on the books|"
                 r"send (?:you )?(?:a |an )?(?:calendar )?invite|"
                 r"put (?:you|it|that) (?:down|in) for)", re.I),
-     "claims we will book a meeting; the concierge can only MOVE a call the "
-     "client already has, never create one"),
+     "claims we will book a meeting in prose; only the booking flow may "
+     "create appointments (and it confirms after the write, never before)"),
+    # THE FRAN CASE (2026-09-10): confirming a SPECIFIC meeting time in a
+    # drafted reply ("11am tomorrow works", "you're all set for Tuesday")
+    # with no appointment behind it. Drafts may never confirm times — the
+    # booking flow's code-generated confirm (sent only after the calendar
+    # POST returns an id) is the single sanctioned source of that sentence.
+    # Referencing an EXISTING appointment stays legal via the phrasing the
+    # compose prompt mandates ("your call is on the calendar for ..."),
+    # which this pattern deliberately does not match.
+    (re.compile(r"(?![^.!?]*\bmoved to\b)"  # reschedule flow's own confirm shape stays legal (selfcheck 2e)
+                r"(?=[^.!?]*\b(?:\d{1,2}(?::\d{2})?\s*(?:am|pm)|"
+                r"(?:mon|tues|wednes|thurs|fri|satur|sun)day|tomorrow)\b)"
+                r"[^.!?]*\b(?:works(?: great| perfectly)?(?: for "
+                r"(?:us|him|santino|me))?[.!\s]|(?:you'?re|we'?re|it'?s) "
+                r"(?:all )?set\b|confirmed\b|booked\b|locked in\b|"
+                r"see you (?:then|at)\b)", re.I),
+     "confirms a specific meeting time in a drafted reply with no "
+     "appointment behind it (Fran case); only the booking flow's "
+     "post-write confirm may say this"),
     (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to|"
                 r"\s?can)\s*(?:just |go ahead and )?(?:book|schedule)\b"
                 r"[^.!?]{0,25}\b(?:call|meeting|time|appointment|zoom)\b",
@@ -6908,6 +6937,16 @@ If the reply asks to MOVE/RESCHEDULE/CANCEL an upcoming call or meeting
 "reschedule" with their timing preference in plain words — that is handled
 by a booking flow, not escalation. Do not also set escalate for this.
 
+If the reply asks to SET UP / SCHEDULE a NEW call or meeting, or proposes
+a specific time for one ("can we hop on a call tomorrow?", "11am EST
+tomorrow good for you?", "let's schedule a call next week"), set "booking"
+with their words about timing as the preference — the booking flow offers
+real open slots (or books their proposed time when it is genuinely free)
+and confirms only after the calendar write succeeds. This is DIFFERENT
+from a bare "call me" / "give me a call" with no scheduling intent: that
+stays a call request handled by escalation, never booking. Do not also
+set escalate for a booking ask.
+
 NEEDS-ANSWER DETECTION: set "needs_answer": true whenever the reply asks us
 anything (with or without a question mark — "I wonder why they suspended
 the listing" IS a question) OR says they don't know how / can't do / are
@@ -7006,6 +7045,7 @@ Return ONLY JSON:
               "response_needed": "none|acknowledge|answer|answer_by_boss",
               "suggested_reply": string|null},
  "reschedule": {"requested": bool, "preference": string}|null,
+ "booking": {"requested": bool, "preference": string}|null,
  "escalate": bool,
  "escalate_reason": string|null,
  "sentiment": "positive|neutral|negative"}
@@ -8092,6 +8132,40 @@ def flush_ops_pings(dry_run: bool) -> None:
         print(f"  [ops-ping] blocked: {e}", file=sys.stderr)
 
 
+# NEW-BOOKING flow (Santino 2026-09-12, the Fran/QCI incident 09-10: "11am
+# EST tomorrow good for you?" got a yes from Monica with no calendar behind
+# it and no appointment created; a human caught it). Design: Monica NEVER
+# asserts a time herself. The flow offers REAL free slots from the Live
+# Support calendar (or books the client's proposed time when it is genuinely
+# free), and the confirmation text is code-generated AFTER the calendar
+# write returns an appointment id. Hard floor: nothing books less than
+# BOOKING_MIN_NOTICE_HOURS out, regardless of what GHL's calendar allows
+# (the calendar's own allowBookingAfter was loosened to 6h on 09-11 for the
+# public link; this floor must not depend on that setting).
+LIVE_SUPPORT_CALENDAR_ID = "BhEoJmoyowCaOpALMn61"
+BOOKING_ASSIGNED_USER_ID = "xTuHtBz8G7Z4fyhAJ9kJ"   # Santino
+BOOKING_MIN_NOTICE_HOURS = 6
+
+BOOKING_TIME_SYSTEM = """\
+You read a client's words about WHEN they want a call and decide whether
+they proposed a SPECIFIC day+time, resolving it against the current
+datetime given. "Tomorrow at 11am" / "Friday 2pm" ARE specific; "sometime
+next week" / "afternoon works" / "whenever" are NOT.
+A bare clock time is in the CLIENT's timezone (given). Return ONLY JSON:
+{"proposed_iso": "YYYY-MM-DDTHH:MM:SS<offset> or null",
+ "confidence": "high"|"low"}
+Never guess: ambiguous day or time -> null."""
+
+BOOKING_OFFER_SYSTEM = """\
+You are Monica, texting a client of the marketing agency who asked to set
+up a call. Offer the slot options given (their local time), warmly and
+briefly, and ask which works. Rules, all hard: 2-3 sentences max; plain
+text; no em dashes; never promise who attends or say you will call; never
+invent times not in the list; if their stated preference clearly cannot be
+met, acknowledge that in a few words before offering.
+Return ONLY JSON: {"body": "<the SMS>"}"""
+
+
 RESCHEDULE_OFFER_SYSTEM = """\
 You are Monica from Santino's team at Restoration AI, replying to a client
 who asked to move an upcoming call. Voice: warm, human, like a real scheduler.
@@ -8282,6 +8356,216 @@ def handle_reschedule_reply(company: dict, contact: dict, msg: dict,
         cs.pop("pending_reschedule", None)
         handle_reschedule_request(company, contact, result["counter"],
                                   state, dry_run)
+        return True
+    return False
+
+
+def _create_appointment(contact_id: str, start_local, duration_min: int,
+                        title: str) -> str | None:
+    """POST a new appointment on the Live Support calendar. start_local is
+    an aware datetime in GHL_LOCATION_TZ. Returns the appointment id or
+    None on failure — the CALLER decides what to tell the client, and no
+    confirmation text may exist without this id (the whole point)."""
+    from datetime import timedelta
+    end_local = start_local + timedelta(minutes=duration_min)
+    try:
+        res = _ghl("POST", "/calendars/events/appointments", body={
+            "calendarId": LIVE_SUPPORT_CALENDAR_ID,
+            "locationId": os.environ["GHL_LOCATION_ID"],
+            "contactId": contact_id,
+            "startTime": start_local.strftime("%Y-%m-%dT%H:%M:%S%z"),
+            "endTime": end_local.strftime("%Y-%m-%dT%H:%M:%S%z"),
+            "title": title,
+            "appointmentStatus": "confirmed",
+            "assignedUserId": BOOKING_ASSIGNED_USER_ID,
+            "ignoreFreeSlotValidation": True,
+        })
+        return (res or {}).get("id")
+    except RuntimeError as e:
+        print(f"    booking POST failed: {str(e)[:120]}")
+        return None
+
+
+def _booking_slot_floor(slots: list[str], tz: str) -> list[str]:
+    """Drop anything closer than BOOKING_MIN_NOTICE_HOURS from now."""
+    from zoneinfo import ZoneInfo
+    from datetime import timedelta
+    floor = datetime.now(timezone.utc) + timedelta(hours=BOOKING_MIN_NOTICE_HOURS)
+    out = []
+    for s in slots:
+        try:
+            if datetime.fromisoformat(s) >= floor.astimezone(ZoneInfo(tz)):
+                out.append(s)
+        except ValueError:
+            continue
+    return out
+
+
+def handle_booking_request(company: dict, contact: dict, preference: str,
+                           state: dict, dry_run: bool) -> None:
+    """A client wants to SET UP a new call (Fran class). Book their proposed
+    time when it is genuinely free and >= the notice floor; otherwise offer
+    real free slots. Confirmation text is generated ONLY after the calendar
+    write returns an id — Monica never asserts a time on her own."""
+    from zoneinfo import ZoneInfo
+    tz, _src = resolve_timezone(company, contact)
+    existing = _upcoming_appointment(contact["id"])
+    if existing:
+        # They already have a call on the books: point at it instead of
+        # double-booking; a move is the reschedule flow's job.
+        cur = datetime.strptime(existing["startTime"], "%Y-%m-%d %H:%M:%S").replace(
+            tzinfo=ZoneInfo(GHL_LOCATION_TZ)).astimezone(ZoneInfo(tz))
+        body = (f"You already have a call on the calendar for "
+                f"{_fmt_slot(cur.isoformat())}. Want to keep that, or move it?")
+        print(f"    BOOKING ASK but appointment exists -> {body!r}")
+        if not dry_run:
+            res = send_message(contact, "sms", body, company=company)
+            record_sent_message(state, res)
+        return
+    slots = _booking_slot_floor(
+        _free_slots(LIVE_SUPPORT_CALENDAR_ID, tz), tz)
+    first = contact_first_name(contact, company)
+    # Did they propose a SPECIFIC time?
+    proposed = None
+    if (preference or "").strip():
+        now_loc = datetime.now(timezone.utc).astimezone(ZoneInfo(tz))
+        try:
+            out = anthropic_json(
+                BOOKING_TIME_SYSTEM,
+                f"Current datetime: {now_loc.strftime('%A %Y-%m-%d %H:%M %Z')} "
+                f"(client timezone {tz}).\nClient words: {preference[:300]}")
+            if out.get("proposed_iso") and out.get("confidence") == "high":
+                proposed = datetime.fromisoformat(str(out["proposed_iso"]))
+        except Exception as e:  # noqa: BLE001
+            print(f"    booking time-parse failed ({str(e)[:80]})")
+    if proposed is not None and proposed.tzinfo is not None:
+        # book it ONLY if it matches a real free slot past the floor
+        match = next((s for s in slots
+                      if abs((datetime.fromisoformat(s) - proposed)
+                             .total_seconds()) < 900), None)
+        if match:
+            if dry_run:
+                print(f"    [dry-run] would BOOK {match} for {first}")
+                return
+            start_loc = datetime.fromisoformat(match).astimezone(
+                ZoneInfo(GHL_LOCATION_TZ))
+            appt_id = _create_appointment(
+                contact["id"], start_loc, 30,
+                f"{first} - LIVE Support Call")
+            if appt_id:
+                confirm = f"You're all set for {_fmt_slot(match)}."
+                res = send_message(contact, "sms", confirm, company=company)
+                record_sent_message(state, res)
+                append_escalation(company, None,
+                                  f"FYI (no action needed): call BOOKED for "
+                                  f"{_fmt_slot(match)} at the client's request "
+                                  f"(appointment {appt_id})", dry_run)
+                print(f"    BOOKED {match} ({appt_id})")
+                return
+            # write failed -> fall through to offering slots (never confirm)
+    offers = []
+    if proposed is not None and not offers:
+        # nearest real slots to what they wanted
+        parsed = sorted(slots, key=lambda s: abs(
+            (datetime.fromisoformat(s) - proposed).total_seconds()))
+        for s in parsed:
+            if not any(datetime.fromisoformat(o).date()
+                       == datetime.fromisoformat(s).date() for o in offers):
+                offers.append(s)
+            if len(offers) == 3:
+                break
+    if not offers:
+        # no specific time proposed: one business-hours slot per DAY so the
+        # client picks a day first, not three slots on the same afternoon
+        for s in slots:
+            dt = datetime.fromisoformat(s)
+            if not (8 <= dt.hour < 18):
+                continue
+            if any(datetime.fromisoformat(o).date() == dt.date()
+                   for o in offers):
+                continue
+            offers.append(s)
+            if len(offers) == 3:
+                break
+    if not offers:
+        append_escalation(company, None,
+                          "asked to set up a call but no free slots within "
+                          f"{BOOKING_MIN_NOTICE_HOURS}h-8d — needs a human",
+                          dry_run, ping=True)
+        return
+    labels = [_fmt_slot(o) for o in offers]
+    draft = anthropic_json(
+        BOOKING_OFFER_SYSTEM,
+        f"Client first name: {first}\n"
+        f"Their stated preference: {preference or 'unspecified'}\n"
+        + ("Their exact proposed time was NOT open.\n" if proposed is not None
+           else "")
+        + f"Slot options (their local time): {', '.join(labels)}")
+    body = _fit_sms((draft.get("body") or "").strip(), 220, 260,
+                    label=" [booking]")
+    grounding = outbound_guard(body, None)
+    if grounding:
+        print(f"    BOOKING OFFER BLOCKED (outbound guard): {grounding}")
+        append_escalation(company, None,
+                          f"booking offer blocked by the outbound guard "
+                          f"({grounding}) — client wants a call, needs a human",
+                          dry_run, ping=True)
+        return
+    print(f"    BOOKING OFFER ({len(body)} chars) -> {body!r}")
+    if dry_run:
+        print(f"    [dry-run] offers: {labels}")
+        return
+    res = send_message(contact, "sms", body, company=company)
+    record_sent_message(state, res)
+    cs = company_state(state, company["id"])
+    cs["pending_booking"] = {
+        "tz": tz, "offered": offers, "duration_min": 30,
+        "at": datetime.now(timezone.utc).isoformat()}
+
+
+def handle_booking_reply(company: dict, contact: dict, msg: dict,
+                         state: dict, dry_run: bool) -> bool:
+    """Consume the client's pick from a pending new-booking offer. Returns
+    True when the message belonged to this flow."""
+    from zoneinfo import ZoneInfo
+    cs = company_state(state, company["id"])
+    pend = cs.get("pending_booking")
+    if not pend:
+        return False
+    labels = [f"{o} = {_fmt_slot(o)}" for o in pend["offered"]]
+    result = anthropic_json(RESCHEDULE_PICK_SYSTEM,
+                            "Offered slots:\n" + "\n".join(labels)
+                            + f"\n\nClient reply: {msg['body'][:400]}")
+    picked = result.get("picked")
+    if picked and picked in pend["offered"]:
+        if dry_run:
+            print(f"    [dry-run] would BOOK picked {picked}")
+            cs.pop("pending_booking", None)
+            return True
+        start_loc = datetime.fromisoformat(picked).astimezone(
+            ZoneInfo(GHL_LOCATION_TZ))
+        appt_id = _create_appointment(
+            contact["id"], start_loc, pend.get("duration_min", 30),
+            f"{contact_first_name(contact, company)} - LIVE Support Call")
+        if not appt_id:
+            append_escalation(company, msg,
+                              f"client picked {picked} but the booking POST "
+                              "FAILED — book manually", dry_run, ping=True)
+            return True
+        confirm = f"You're all set for {_fmt_slot(picked)}."
+        res = send_message(contact, "sms", confirm, company=company)
+        record_sent_message(state, res)
+        cs.pop("pending_booking", None)
+        append_escalation(company, None,
+                          f"FYI (no action needed): call booked for "
+                          f"{_fmt_slot(picked)} (appointment {appt_id})",
+                          dry_run)
+        print(f"    BOOKED (pick) -> {picked} ({appt_id})")
+        return True
+    if result.get("counter"):
+        cs.pop("pending_booking", None)
+        handle_booking_request(company, contact, result["counter"],
+                               state, dry_run)
         return True
     return False
 
@@ -8997,6 +9281,9 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         if handle_reschedule_reply(company, contact_for_flow, msg,
                                    state, dry_run):
             continue
+        if handle_booking_reply(company, contact_for_flow, msg,
+                                state, dry_run):
+            continue
         # purpose= comes from the item's help_text: WHY-questions must be
         # answered from it, never invented (Curt/Home Pride 2026-08-03:
         # Monica said the supplier question was "for the ads setup" when
@@ -9160,6 +9447,12 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             handle_reschedule_request(company, contact_for_flow,
                                       resc.get("preference") or "",
                                       state, dry_run)
+            continue
+        bkg = result.get("booking") or {}
+        if bkg.get("requested"):
+            handle_booking_request(company, contact_for_flow,
+                                   bkg.get("preference") or "",
+                                   state, dry_run)
             continue
         negative = result.get("sentiment") == "negative"
         needs_answer = (bool(result.get("needs_answer"))
