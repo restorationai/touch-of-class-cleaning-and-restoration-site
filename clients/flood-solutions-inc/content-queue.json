@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "2026-09-12-water-damage-of-any-kind",
+      "status": "queued",
+      "queued_at": "2026-09-12T13:40:21Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage-of-any-kind",
+      "primary_keyword": "Water Damage of any kind",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chesterfield-mi",
+      "source": "app target-term (onboarding)"
+    },
+    {
       "id": "2026-09-12-best-water-damage-restoration-in-macomb-mi",
       "status": "written",
       "queued_at": "2026-09-12T10:24:14Z",
