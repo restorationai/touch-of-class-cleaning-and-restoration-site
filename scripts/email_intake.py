@@ -585,6 +585,26 @@ def _poll_mailbox(tok: str, account: str, dry_run: bool,
             for hit in result.get("matches", []) or []:
                 print(f"    ANSWER item {hit['item_id'][:8]} = {hit['value']!r}")
                 apply_answer(hit["item_id"], hit["value"], dry_run)
+            # EMAILED CHANGE REQUESTS DISPATCH LIKE TEXTS (Angie/All Pro
+            # 2026-09-11: her homepage fix list arrived by email and only
+            # became a note — the dev-agent routing lived solely in the SMS
+            # path). Same router, same auto-vs-propose gates.
+            fbs = result.get("client_feedback") or []
+            if fbs:
+                try:
+                    from client_concierge import append_escalation as _esc
+                    from feedback_router import route_feedback
+                    routed = route_feedback(
+                        company, fbs, who=sender,
+                        when=datetime.now(timezone.utc).isoformat(),
+                        dry_run=dry_run,
+                        escalate=lambda r: _esc(company, None, r, dry_run,
+                                                ping=False))
+                    if routed:
+                        print(f"    [feedback] {len(routed)} emailed change "
+                              "request(s) routed to the build lane")
+                except Exception as e:  # noqa: BLE001 — never kills the poll
+                    print(f"    [feedback] router unavailable ({str(e)[:80]})")
             if result.get("escalate"):
                 # Notification policy 2026-08-02: text Santino only when the
                 # email is angry or only he can answer it; routine ambiguous

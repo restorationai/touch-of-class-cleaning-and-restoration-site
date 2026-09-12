@@ -29,268 +29,130 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
   clients/{slug}.json after each deploy: commit the stamp or the NEXT
   deploy silently refuses (error prints before the banner; easy to miss).
 
-## Priority builds
+## Priority builds (reordered by Santino + Claude, 2026-09-12 PM)
 
-1. **Monica calendar-awareness + booking — SHIPPED 2026-09-12.**
-   New-booking flow live: classify 'booking' intent; books the client's
-   proposed time when genuinely free past a 6h floor, else offers real
-   Live Support free slots (one per day); confirms ONLY after the calendar
-   POST returns an id. Fran-case claim guard in _CAPABILITY_CLAIMS (drafts
-   can never confirm times; 'on the calendar for' + reschedule confirm
-   stay legal). Selfcheck ALL GREEN. Original spec below for reference.
-   WHY: three confirm-without-verify incidents the week of 09-08. Worst:
-   Fran (QCI) asked "11am EST tomorrow good?" and Monica said yes without a
-   calendar and never booked it (a human caught it; appointment was created
-   manually). Monica must never state or confirm a meeting time she cannot
-   prove.
-   BUILD: (a) inject a next-48h booked-slots FACT into the compose context
-   in scripts/client_concierge.py (GHL GET /calendars/events per calendar,
-   ms epoch params — NOTE the endpoint returns the WHOLE DAY regardless of
-   the window, filter client-side; see fathom_sync._appointment_anchor for
-   the proven pattern); (b) a real booking action: POST
-   /calendars/events/appointments with calendarId, contactId, startTime
-   ISO+offset, assignedUserId xTuHtBz8G7Z4fyhAJ9kJ (Santino, required),
-   appointmentStatus, ignoreFreeSlotValidation — proven working repeatedly;
-   (c) a compose claim guard: no draft may confirm a specific time without
-   a booking id behind it; (d) 6-hour minimum notice hard floor in code
-   (the Live Support calendar BhEoJmoyowCaOpALMn61 allowBookingAfter was
-   set to 6h on 09-11 — note this ALSO loosened the public booking link,
-   which Santino may want reverted once the code floor exists).
-   Calendars: Live Support BhEoJmoyowCaOpALMn61 (clients), Follow Up
-   uZ7whcPD6NFDqcSu0hCf (prospects), kickoffs DcoatVel3rEw01lKoGlA +
-   f6zNXUVXpPVdZtlknNNF, sales funnels 5GoVLLz9HDn8Ik3RjFMB /
-   BOuvQbEVWGytVmoDxqrJ / Ya9jcpzKfBtfVJGHIyNS / nxDQ6IYn3QIIvrXS6Ib0 /
-   szeyWKCEvVWkbFjMFtFT. GHL API: services.leadconnectorhq.com, Version
-   2021-07-28 (contacts/convos) or 2021-04-15 (calendars), UA header
-   "rank-ai-tollfree-autoreg/1.0" required. Related: fathom_sync.py already
-   auto-books follow-ups FROM CALL RECORDINGS (client path + prospect path
-   with GHL appointment-anchor); Monica's SMS/email lane is the gap.
+1. **Monica rename conversations — THE scale unlock (build next)**
+   WHY: 24+ clients carry data-backed name candidates; every decision
+   currently needs Santino in a meeting. Text gives a written consent
+   trail for the exact string — precisely what the DBA/GBP defense wants.
+   BUILD on existing rails:
+   (a) RENAME_TRUTH knowledge block (DOMAIN_ACCESS_TRUTH pattern) in
+       COMPOSE/REPLY: why keyworded names rank (OneStop, honest framing);
+       the sequence — confirm the exact name -> CLIENT files the DBA for
+       that exact string (state nuance: CA county FBN ~$50, MA town clerk
+       certificate, WA statewide trade name; Monica can share several
+       ranked names but the filing must match the confirmed one verbatim)
+       -> citations built with the NEW name -> ONE GBP create/change ->
+       reverification, if triggered, handled by us. Honest reverification
+       risk framing, never scare, never oversell.
+   (b) THE ASK, preframed as delivered work (Santino's copy direction):
+       "We've been doing research and have determined a few different
+       profile names that we believe are going to really help increase
+       your visibility for high-intent jobs." Never a cold "would you be
+       open to...". Paced by the normal nudge cadence; APPROVAL MODE for
+       the first cohort.
+   (c) Options on request: Monica quotes TOP candidates verbatim from
+       marketing_gbp_suggestions — never composes names in-chat.
+       RESTORATION-CATEGORY CLARIFICATIONS ride the same conversation:
+       plumbing = always ask whether they're open to plumbing in the
+       title AND whether they hold/can meet the licensing requirements
+       (see LICENSE KNOWLEDGE below); service-term gaps (Dry Bros mold
+       pattern) become natural questions — "are you planning to offer
+       mold remediation?" — whose answers auto-write companies.services
+       yes/no via the same clarify mechanic as the app buttons, which
+       auto-stands or auto-dismisses the matching candidates.
+   (d) NATURAL confirmation capture (no "reply YES" robotics — clients
+       believe they are texting a human and must keep believing it):
+       Monica names the exact string conversationally ("perfect, so we'll
+       move forward with 'X'"), and the classifier accepts ANY natural
+       affirmative tied to that specific candidate. On confirmation:
+       suggestion status=chosen + rename_intent=rename + ops note QUOTING
+       their words + FYI card. Then the existing machinery: DBA-filed
+       capture (string-bound), citations gate, citations-before-GBP,
+       never-auto-push.
+   (e) Guards: chosen only ever written off a client confirmation tied to
+       one exact string; no GBP edit from this lane; hands-off + franchise
+       clients excluded.
+   LICENSE KNOWLEDGE (plumbing-in-the-name): the NAME is advertising. In
+   strict-license states (CA BPC 7027.1 class advertising rules, IL
+   Plumbing License Law, WA specialty registration), advertising plumbing
+   requires the ADVERTISER to hold the license — subcontracting to a
+   licensed plumber generally does NOT cure the advertising violation.
+   Safe structures: their own license; a licensed-partner arrangement
+   where the partner's license number is displayed; or the sibling-entity
+   play (the plumbing entity holds the license and its own profile). Not
+   legal advice — confirm with the client's state board per case.
+   CHAINS WITH #2: decision -> DBA -> auto citation order -> GBP change.
 
-2. **"Site preview ready" trigger — SHIPPED 2026-09-12.** sync-deploy
-   now files a [PREVIEW PIPELINE] ops card the moment a client's FIRST
-   build lands (redeploys stay quiet); reveal still rides the soak +
-   hold/share-now overrides. Original spec below.
-   WHY: DryCor's finished site sat on staging 10 days with no reveal.
-   Root causes all fixed 09-11: the reveal gate only knew staging statuses
-   (now accepts pushed_main when apex_live=false), and the app board called
-   pushed_main "ready to launch" (now Preview Ready until the client has
-   seen it). What remains is EVENT-DRIVEN notification: today the reveal
-   card is seeded by the nightly setup_ledger pass, so a build finishing at
-   9am waits until the next ledger run.
-   BUILD: at the build_status transition (build_site.py sync-deploy writes
-   it), file the ops card + queue Monica's preview message in APPROVAL mode
-   (never auto-send). All the supporting machinery exists in
-   scripts/setup_ledger.py (~line 2130-2240): 10-day perception window,
-   "share now" note override, "hold/don't share" note hold, card seeding
-   into marketing_action_plan (action_key site-preview-feedback-{slug},
-   title "Take a look at your new website preview...", target = the pages
-   URL). client_concierge.py PREVIEW_SOAK_DAYS=10 with the same share-now
-   override; the [preview-share] promoter pushes the card above every other
-   ask once released.
+2. **BrightLocal CB pipeline remainder**
+   Done already: opening-hours fix (all 21 locations healed), rename gate
+   on orders (string-bound DBA mark). REMAINING: (a) poll
+   citations_submission_status into citation_listings so the app's
+   Citations board shows CB progress per directory; (b) auto setup+order
+   at client launch (gated on the rename gate); (c) TESTER = Dry Bros,
+   blocked only on Amin's DBA string (mold now confirmed as a service);
+   TRG's paid cb25 sits on_hold and resumes after their name decision
+   (flip the BL location business_name first if renaming).
+   scripts/brightlocal.py has the whole recipe; ~422 credits remain.
 
-3. **All Pro homepage fixes (Angie, 09-11)**
-   WHO: Angie Morabito (angie@prorestorationca.com) runs BOTH ProRestoration
-   (prorestoration) and All Pro Plumbing (all-pro-plumbing, owner Jack
-   Bispo). She emailed the getrest inbox 09-11 (left her work phone home).
-   Ack was sent same day from contact@getrestorationai.com; promise was "a
-   preview link as soon as the updates are up" — NO date promised.
-   HER LIST for sites/all-pro-plumbing: (a) the van/fleet images "look like
-   mini wind-up mail vans" — regenerate the AI hero fleet per
-   clients/all-pro-plumbing/image-style-guide.md (real logo on livery,
-   3 matched vehicles rule); (b) remove the red and blue lines; (c) palette
-   red/white/blue ONLY, no black; (d) move the phone number + free-estimate
-   CTA left so vehicles stay visible — NOTE: the hero two-column grid is
-   now unconditional in the template AND was copied to some sites; check
-   whether all-pro-plumbing/src/components/ui/Hero.astro already has it
-   before doing layout work. Deploy staging, eyeball, THEN reply on her
-   email thread with the link (from the getrest mailbox, reply-all).
+3. **All Pro homepage fixes (Angie, 09-11) — now partially systemic**
+   The SYSTEM gap that let her emailed list sit is FIXED 09-12: emailed
+   change requests now dispatch through feedback_router exactly like
+   texts (email_intake routes client_feedback; her email had arrived
+   before the getrest inbox was even polled). STILL OWED, the actual
+   fixes on sites/all-pro-plumbing: new van/fleet hero images (current
+   ones read as wind-up toys; regenerate per image-style-guide with the
+   real logo), remove the red+blue lines, palette red/white/blue only (no
+   black), phone + estimate CTA left (check the now-unconditional hero
+   grid first — may already be solved). Then reply on her getrest email
+   thread with the preview link.
 
-4. **Fleet attribution follow-through**
-   STATE: the source-attribution suite is live fleet-wide since 09-10/11.
-   Per client: up to 9 tracking numbers (website/gbp/google_ads/yelp/
-   chatgpt/gemini/bing; RT Olson also keeps facebook+instagram and has the
-   only meta_ads number, (951) 261-8890). 196 numbers verified. Numbers
-   live in companies.integration_settings.call_tracking; calls log to
-   marketing_tracked_calls with .source; site DNI fetches
-   restorationai.io/dni/{slug}.json (Cloudflare KV ns 404d46bf..., synced
-   by scripts/dni_sync.py FROM integration_settings — never hand-edit);
-   forms post /api/estimate -> marketing_form_submissions with source.
-   NOTE 09-11: organic-social numbers (facebook/instagram) were RELEASED
-   fleet-wide except RT Olson (58 numbers, ~$67/mo saved); meta_ads is an
-   on-demand source, not in call_tracking.ALL_SOURCES.
-   TO DO: watch the first source-tagged calls/leads accumulate a few days,
-   then send channel-data proof emails: Miguel Padilla (miguel@
-   icatchgroup.com, runs RT Olson ChatGPT campaign, cc tim@icatchgroup.com)
-   and Bobby (bob@rtoplumbing.com). BDA (zheng@/jared@/belinda@bdadigital.us)
-   already has the meta_ads number + UTM instructions (utm_source=facebook&
-   utm_medium=paid) from 09-11; their Tuesday 9am call reviews it.
+4. **NaRestCo flood/storm/biohazard/crime-scene off-page sprint**
+   Pages all exist (verified); the gap is off-page: (a) add those
+   services to the GBP + audit categories (gbp.py, write access live);
+   (b) internal links from home/services hub; (c) add the terms to
+   clients/narestco/geogrid-keywords.txt; (d) Yelp overhaul (top manual
+   item — emergency-intent AI answers pull Yelp+GBP feeds); (e) seed
+   terms into GBP review REPLIES. LAWS: no review campaigns ever;
+   don't double-post GBP (client runs a third-party poster).
 
 5. **Railway git checkout**
-   WHY: the app's "Push site to production" button dispatches site_push_main
-   to the Railway worker (rank-ai-api-production.up.railway.app), but /app
-   has NO .git — the job cannot work as written. Also missing from the
-   image: the agency GSC token and googleapiclient (GSC provisioning
-   currently runs only on Santino's Mac via a scratch venv).
-   BUILD: bake a monorepo clone + GITHUB_PERSONAL_ACCESS_TOKEN into the
-   Railway service, make site_push_main do checkout->sync-deploy, add GSC
-   token + googleapiclient. Payoff: full launches (incl. cutover stamps +
-   GSC registration) with zero pipeline-machine involvement.
+   The app's "Push site to production" button dispatches site_push_main
+   to the Railway worker — but /app has NO git clone, so the job cannot
+   actually work. Bake a monorepo clone + GitHub PAT into the Railway
+   image, make site_push_main checkout -> sync-deploy, and add the agency
+   GSC token + googleapiclient while in there. Payoff: launches (deploy,
+   cutover stamps, GSC registration) run entirely from the app with zero
+   dependence on Santino's Mac being awake.
 
-6. **Repiping default-on for plumbing plans**
-   The plumbing vertical template already carries the repiping service;
-   plan_site.py service selection should include it for every plumbing
-   client by default (it is high-margin and every plumber does it).
-   One-line-ish change in the plan defaults; verify against RT Olson's
-   catalog (the client that surfaced it, 09-10).
+6. **Missed-opportunity / callback alerts**
+   call_intel.py already transcribes every tracked call (Whisper
+   dual-channel) and labels outcomes INCLUDING missed_opportunity and
+   callback_needed into marketing_tracked_calls.analysis — today nothing
+   surfaces them, so a client can miss a job and never know. BUILD:
+   (a) near-real-time alert to the client when a call is labeled
+   missed/callback (Monica SMS in approval mode first, or an ops card —
+   Santino picks the channel); (b) fold outcome counts into the monthly
+   report (client_report.py). Pure surfacing of data we already produce.
 
-7. **Tony/Coastal linktree page (+ his social icons ask)**
-   WHO: Tony Mendez, Coastal Restoration Services (slug
-   coastal-restoration-services, callcrs.com, Santa Maria CA). Monica
-   history: the Tony Mendez case is why Monica never says "Santino will
-   call you".
-   PART A (queued): a small branded links page — Call / Website / Leave a
-   Review — then flip the qr:coastal Cloudflare KV target to it.
-   PART B (his 09-11 ask): Facebook/Instagram icons on his site footer.
-   The template ALREADY renders social icons automatically from
-   brand.sameAsUrls (Footer.astro matches facebook|instagram|linkedin|
-   youtube|twitter). Coastal's sameAsUrls has maps/yelp/bbb/angi/bing but
-   NO FB/IG because the profile harvest never found them. Get the exact
-   URLs from Tony (or find/create profiles), add them to his citation
-   records, and the automated sameAs sync carries them into brand.ts on
-   the next pass; icons appear on next deploy. Do NOT hand-edit
-   sameAsUrls only in brand.ts (dual-store violation).
+7. **Repiping default-on for plumbing plans**
+   plan_site.py service selection should include repiping for every
+   plumbing-vertical client by default (template already carries the
+   service; high-margin line every plumber does). Small change.
 
-8. **Missed-opportunity / callback alerts**
-   call_intel.py (runs per tracked call via CI "Call Intel" workflow)
-   already transcribes (Whisper dual-channel diarization) and labels
-   outcomes including missed_opportunity and callback_needed into
-   marketing_tracked_calls.analysis. Nothing surfaces them.
-   BUILD: (a) near-real-time alert to the client (SMS via Monica in
-   approval mode, or an ops card first — Santino to pick); (b) fold outcome
-   counts into the monthly report (scripts/client_report.py).
+8. **Yelp-listing tracking numbers**
+   Tim/Icatch confirmed the pattern: Yelp's own rep can backend-code a
+   tracking number onto the listing so the PUBLIC NAP stays consistent
+   (normally a tracking number on Yelp would break NAP — this is the one
+   sanctioned way). Each client already owns a provisioned "yelp"
+   tracking number in integration_settings.call_tracking, currently
+   unused. Work = per-client requests through the Yelp rep; RT Olson
+   first (his Yelp Biz access is handy). External-dependency item, not
+   code.
 
-9. **Xtreme Clean tracking decision — likely DEAD**
-   Set to status Inactive on 09-11 (Santino: no longer clients, remove
-   from the app). The old open question (no-NAP client tracking approach)
-   is probably moot. Confirm with Santino, then delete this item and skip
-   them in any remaining passes (they had domain xtreme-clean.invalid,
-   nothing live).
-
-10. **DISS launch (Wix domain transfer)**
-    dissrestoration.com is Wix-registered; Wix domains can NEVER change
-    nameservers — launch = transfer the domain to our Cloudflare registrar
-    (5-7 days), so start early. The Wix transfer AUTH CODE is already
-    captured in Addi's GHL thread (09-09). Site is built (pushed_main);
-    DNI tracking fields fill at provision. Contact: Addi McCamon
-    (addi@dissrestoration.com, +18145736346, GHL kw2RVGfQZtfEttwO0Crx).
-    Open blockers on the same client: toll-free verification REJECTED
-    (+18448757718, "Business Registration Number Missing or Invalid" —
-    EIN 20-2720165 flagged; EIN-CONFIRM ops note open 09-11), and the
-    review campaign is staged but never dispatched (stage-dwell note).
-    Registrar transfer execution is human/Santino-side per the
-    registrar-human-only law; prep everything else.
-
-11. **Yelp-listing tracking numbers**
-    Tim Prüsener (Icatch) confirmed the pattern: Yelp's rep can backend-
-    code a tracking number onto the listing so the public NAP stays
-    consistent. Request via the Yelp rep per client. Shortlist Yelp-heavy
-    clients; RT Olson first (needs his Yelp Biz access handy). Numbers
-    already exist (the per-client "yelp" tracking number in
-    integration_settings.call_tracking).
-
-12. **Inbound MMS handling — SHIPPED 2026-09-12.** Root cause was NOT
-    missing media code (ingest_inbound_media already files photos/vcards
-    with vision) — the webhook ignored every contact except each company's
-    single tracked primary, so colleagues like Addi were silently dropped.
-    Fixed: _company_for_contact email/phone/company-domain fallback. Addi's
-    photo backfilled to DISS branding; her thank-you fires Sat 10:02am ET.
-    Original spec below.
-    INCIDENT: Addi (DISS) texted "Here's our team photo" with a photo on
-    09-10 and the inbound pipeline produced NOTHING — no ack, no filing,
-    no ops card, no escalation. Text-only inbound classifies fine; media
-    messages fall through entirely.
-    BUILD: in the inbound webhook path (api/main.py -> client_concierge
-    inbound): detect message attachments, download from GHL, classify like
-    email_intake does for email attachments (logo/photos/doc via
-    CLASSIFY_DOC_SYSTEM), save to Supabase branding/{company_id}/, send a
-    warm ack, and file an ops card when placement needs human judgment
-    (team photos = exactly the asset site builds want).
-    BACKFILL: pull Addi's photo from the thread, file it, and have Monica
-    ack in her morning window.
-
-13. **BrightLocal Citation Builder pipeline (+ opening-hours fix)**
-    scripts/brightlocal.py already proves the full recipe live (our own
-    location, campaign 996268, credits 500->490): POST /manage/v1/locations
-    -> POST /manage/v1/citation-builder -> wait lookup complete -> PUT
-    .../confirm {package cb10..cb100} -> GET for citations_submission_status.
-    Auth: x-api-key = BRIGHTLOCAL_API_KEY (.env). State in
-    clients/{slug}.json under "brightlocal". CLI: audit / setup / order /
-    status. ~490 prepaid credits remain (1 credit = 1 citation).
-    BUILD: (a) trigger setup+order automatically at client launch;
-    (b) poll submission status into citation_listings rows so the app's
-    Citations board (BuildStagesBoard) shows CB progress per directory;
-    (c) BUG: the location payload sends NO OPENING HOURS — several
-    citation sites require them, which is almost certainly the campaign
-    error Santino saw in the portal. Include hours from the client's GBP
-    regularHours in the locations POST. If the portal error text says
-    something else, get the exact wording and re-diagnose.
-
-14. **NaRestCo flood/storm/biohazard/crime-scene ranking sprint**
-    FACTS (verified 09-11): all five service pages EXIST and are live on
-    narestco (flood-damage-restoration, storm-damage-restoration,
-    biohazard-cleanup, crime-scene-cleanup, trauma-scene-cleanup) plus 39
-    flood/storm city cross-pages out of 286 location pages. Content is NOT
-    the gap; off-page signals are.
-    STEPS in order: (a) GBP: add those services to the profile and audit
-    whether an additional category fits (scripts/gbp.py, write access is
-    approved); (b) internal links to those services from the homepage +
-    services hub (they are orphan-adjacent); (c) add the terms to geogrid
-    tracking (clients/narestco/geogrid-keywords.txt) so movement is
-    visible; (d) the Yelp overhaul — top manual item; emergency-intent AI
-    answers pull Yelp+GBP entity feeds where narestco currently loses;
-    (e) seed the terms into GBP review REPLIES (our replies to existing
-    reviews — NOT review asks).
-    LAWS: narestco NEVER gets review campaigns/asks. Their daily GBP posts
-    come from a third-party Merchynt-like tool the client runs — do not
-    double-post.
-
-15. **Monica rename conversations (Santino 2026-09-12 — the scale
-    unlock for the whole rename program)**
-    WHY: 24+ clients now carry data-backed name candidates, but every
-    decision currently needs Santino on a meeting. Text is BETTER here:
-    a written consent trail for the exact string is precisely what the
-    DBA/GBP defense wants, and Monica can run the whole conversation.
-    BUILD, five pieces on existing rails:
-    (a) RENAME_TRUTH knowledge block (DOMAIN_ACCESS_TRUTH pattern,
-        substituted into COMPOSE/REPLY): why keyworded names rank
-        (OneStop, honestly framed), the 5-step sequence — confirm name ->
-        client files the DBA (state nuances: CA county FBN ~$50, MA town
-        clerk certificate, WA statewide trade name) -> citations built
-        with the NEW name -> ONE GBP create/change -> possible
-        reverification handled by us — plus honest reverification risk
-        framing. Monica EXPLAINS, never invents.
-    (b) The ask: a seeded ledger item per candidate-carrying client
-        ("open to a search-optimized profile name?") paced by the normal
-        nudge cadence. APPROVAL MODE for the first cohort.
-    (c) Options on request: when the client asks "what names?", Monica
-        reads the TOP candidates from marketing_gbp_suggestions verbatim
-        (never composes names in-chat); the plumbing option is only
-        presented together with the license question; any
-        service-mismatch term (mold etc.) becomes a conversational
-        confirm that writes companies.services via the same clarify
-        mechanic as the app buttons.
-    (d) Confirmation capture, string-bound: client agrees -> Monica
-        echoes the EXACT string ("locking in exactly: 'X' — reply YES")
-        -> on YES: suggestion status=chosen + rename_intent=rename + ops
-        note quoting the consent + FYI card. DBA filing stays with the
-        client (Monica sends the state-specific how-to); the existing
-        DBA-filed capture, citations gate and never-auto-push-GBP law
-        take over from there.
-    (e) Guards: choosing writes ONLY after the echoed-string YES (claim
-        guard style); no GBP edit ever from this lane; hands-off clients
-        excluded; franchise clients excluded (PuroClean).
-    CHAINS WITH item 13: decision -> DBA -> auto citation order -> GBP
-    change becomes one hands-off pipeline.
+REMOVED 2026-09-12 (Santino): fleet-attribution follow-up emails (watch
+continues informally), Tony/Coastal linktree, DISS launch, Xtreme Clean
+(client inactive — tracking question moot, numbers already released).
 
 ## Standing watches
 
