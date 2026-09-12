@@ -68,7 +68,7 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
 
 ## Standing watches
 
-- DryCor preview send — scheduled one-shot Sat 9/13 9:32am PT (12:32pm ET)
+- DryCor preview send — scheduled one-shot Sat 9/12 9:32am PT (12:32pm ET)
   via launchd io.restorationai.drycor-preview-send; log /tmp/drycor-preview-send.log
 - RGP/Chesney — LSA admin access grant to contact@restorationai.io
   (correction sent 09-11 after they nearly sent it to the typo'd domain);
