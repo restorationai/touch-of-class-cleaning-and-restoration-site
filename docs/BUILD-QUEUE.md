@@ -31,7 +31,13 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
 
 ## Priority builds
 
-1. **Monica calendar-awareness + booking**
+1. **Monica calendar-awareness + booking — SHIPPED 2026-09-12.**
+   New-booking flow live: classify 'booking' intent; books the client's
+   proposed time when genuinely free past a 6h floor, else offers real
+   Live Support free slots (one per day); confirms ONLY after the calendar
+   POST returns an id. Fran-case claim guard in _CAPABILITY_CLAIMS (drafts
+   can never confirm times; 'on the calendar for' + reschedule confirm
+   stay legal). Selfcheck ALL GREEN. Original spec below for reference.
    WHY: three confirm-without-verify incidents the week of 09-08. Worst:
    Fran (QCI) asked "11am EST tomorrow good?" and Monica said yes without a
    calendar and never booked it (a human caught it; appointment was created
@@ -60,7 +66,10 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
    auto-books follow-ups FROM CALL RECORDINGS (client path + prospect path
    with GHL appointment-anchor); Monica's SMS/email lane is the gap.
 
-2. **"Site preview ready" trigger (event-driven)**
+2. **"Site preview ready" trigger — SHIPPED 2026-09-12.** sync-deploy
+   now files a [PREVIEW PIPELINE] ops card the moment a client's FIRST
+   build lands (redeploys stay quiet); reveal still rides the soak +
+   hold/share-now overrides. Original spec below.
    WHY: DryCor's finished site sat on staging 10 days with no reveal.
    Root causes all fixed 09-11: the reveal gate only knew staging statuses
    (now accepts pushed_main when apex_live=false), and the app board called
@@ -189,7 +198,13 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
     already exist (the per-client "yelp" tracking number in
     integration_settings.call_tracking).
 
-12. **Inbound MMS handling**
+12. **Inbound MMS handling — SHIPPED 2026-09-12.** Root cause was NOT
+    missing media code (ingest_inbound_media already files photos/vcards
+    with vision) — the webhook ignored every contact except each company's
+    single tracked primary, so colleagues like Addi were silently dropped.
+    Fixed: _company_for_contact email/phone/company-domain fallback. Addi's
+    photo backfilled to DISS branding; her thank-you fires Sat 10:02am ET.
+    Original spec below.
     INCIDENT: Addi (DISS) texted "Here's our team photo" with a photo on
     09-10 and the inbound pipeline produced NOTHING — no ack, no filing,
     no ops card, no escalation. Text-only inbound classifies fine; media
