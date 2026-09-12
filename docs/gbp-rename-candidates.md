@@ -136,3 +136,33 @@ grey pattern is fully defensible, NAP consistent from birth.
   becomes the registered identity from day one (grey becomes white). The
   Profile Rename card renders pre-GBP as of 09-10, so candidates must be
   seeded for new clients BEFORE profile creation, not after.
+
+## Fleet-wide seeding pass — 2026-09-11
+
+Santino: "make sure all clients are seeing the profile rename." Every active
+Rank AI client now has item_type=name rows (the app card renders only those —
+Dry County had 150+ category/service rows and zero name rows, which is why
+its card was invisible). 24 clients seeded with 3 ranked candidates each from
+fresh state-level DFS volumes (DFS=Planner verified): UT, MI, FL, TX, NJ, CA,
+AL, HI, NV, WA, SD, PA, MS, MA pulled 09-11/09-12.
+
+State orderings (searches/mo): CA mold 9,900 > water 8,100, fire 4,400 (fire
+corridors). TX mold 5,400 > water 3,600. FL mold 5,400 > water 2,400.
+PA mold 2,900 > water 1,000. MI mold 2,400 > water 880. NJ mold 2,400 >
+water 1,300. WA mold 1,900 > water 1,600. MA mold 1,600 > water 590
+(basement waterproofing 1,000). UT mold 590 > water 480. NV mold 480 >
+water 320. AL mold 880 > water 390. MS mold 320 = removal 320 > water 210.
+SD water 140 > mold 110. HI carpet cleaning 1,000 >> water 110.
+Mold beats water in ELEVEN of fourteen states — the house two-term default
+(Water Damage + Mold Remediation) is volume-backed almost everywhere.
+
+Notable calls: FireDEX leads WATER (water-first shop despite the fire name);
+Arch = testing-only terms (never remediation they don't sell); AAA HI leads
+Carpet Cleaning (searchers type "cleaning", brand says "care"); Dry County is
+in OneStop's Corona (the proof case) — claims the water/mold lane; Crew's
+bigger win is naming the Sioux City IA profile AT CREATION; QCI rows mirror
+the roadmap already sent to Fran (plumbing triple gated on the Master
+Plumber license); DryCor DBA rides the rebrand filing. Documented holds
+(KEEP rows so the card is never blank): PuroClean (franchisor controls
+naming), TDI (mid rebrand + suppressed services). Untouched by design:
+Paul Davis Charleston + Go Green (hands-off), canary, day-old signups.
