@@ -48,6 +48,23 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
 10. **Yelp-listing tracking numbers** — request via Yelp rep (Tim/Icatch
     confirmed the backend-coded pattern keeps NAP safe); shortlist
     Yelp-heavy clients; RT Olson first when Yelp Biz access is handy.
+11. **Inbound MMS handling (Addi/DISS 09-10)** — a photo SMS ("Here's our
+    team photo") produced NOTHING: no ack, no filing, no ops card. Build:
+    inbound media -> save to branding/{cid}/ (photos/logo classify like
+    email attachments), warm ack, card when placement judgment needed.
+12. **BrightLocal CB into the Citations stage** — brightlocal.py already
+    proves the full recipe (location -> campaign -> confirm cb10..cb100 ->
+    status). Wire it into the pipeline: auto setup+order at launch, poll
+    citations_submission_status into citation_listings so the app's
+    Citations board shows CB progress. ALSO: location payload sends no
+    OPENING HOURS today — likely the portal's campaign error; include
+    hours from GBP regularHours in POST /manage/v1/locations.
+13. **NaRestCo flood/storm/biohazard ranking sprint** — pages already
+    exist (all 5 incl. trauma/crime-scene, 39 flood/storm cross pages);
+    the gap is off-page: GBP services+categories for those lines, internal
+    links from home/hub, geogrid tracking for the terms, Yelp overhaul
+    (emergency-mode AI answers pull Yelp+GBP feeds), review-reply keyword
+    seeding. NO review campaigns (standing law).
 
 ## Standing watches
 
