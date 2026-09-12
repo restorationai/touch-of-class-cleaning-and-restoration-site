@@ -1797,10 +1797,18 @@ def _neutral_dark(primary_hex: str) -> str:
     neutral while still being microscopically the client's own."""
     import colorsys as _cs
     try:
-        h, _l, s = _cs.rgb_to_hls(*(int(primary_hex[i:i + 2], 16) / 255
-                                    for i in (1, 3, 5)))
+        h, l, s = _cs.rgb_to_hls(*(int(primary_hex[i:i + 2], 16) / 255
+                                   for i in (1, 3, 5)))
     except Exception:  # noqa: BLE001
         return "#16181d"
+    # EXCEPTION (Santino 2026-09-11): a brand color that is ALREADY dark and
+    # muted (deep navy, forest, near-black) works as a canvas — that identity
+    # survives at wall size, and forcing charcoal there would make every
+    # dark-theme site look the same. Only saturated or lighter primaries
+    # (DryCor's petrol at 0.70 saturation was the failure) get neutralized.
+    if l <= 0.22 and s <= 0.50:
+        r, g, b = _cs.hls_to_rgb(h, min(l, 0.13), s)
+        return "#%02x%02x%02x" % (round(r * 255), round(g * 255), round(b * 255))
     r, g, b = _cs.hls_to_rgb(h, 0.09, min(s, 0.06))
     return "#%02x%02x%02x" % (round(r * 255), round(g * 255), round(b * 255))
 

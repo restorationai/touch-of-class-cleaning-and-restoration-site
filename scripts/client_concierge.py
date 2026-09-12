@@ -2801,10 +2801,27 @@ def filter_already_satisfied(company: dict, items: list[dict],
                         preview_ready_at.replace("Z", "+00:00"))
                     age_d = (datetime.now(timezone.utc) - built).days
                     if age_d < PREVIEW_SOAK_DAYS:
-                        print(f"    [preview-soak] site is {age_d}d old — holding "
-                              f"the preview until day {PREVIEW_SOAK_DAYS}; other "
-                              f"asks still go out")
-                        continue
+                        # "share now" note override (2026-09-11, DryCor: a
+                        # deploy refresh reset updated_at, so an explicitly
+                        # approved reveal would have re-soaked 10 days) —
+                        # mirrors setup_ledger's release valve.
+                        released = False
+                        try:
+                            released = any(
+                                re.search(r"share\s+now|release\s+early|reveal\s+now",
+                                          str(n.get("body", "")), re.I)
+                                for n in _sb("GET", "/rest/v1/marketing_ops_notes"
+                                             f"?company_id=eq.{company.get('id')}"
+                                             "&status=eq.open&select=body&limit=20",
+                                             prefer="return=representation") or [])
+                        except Exception:  # noqa: BLE001
+                            released = False
+                        if not released:
+                            print(f"    [preview-soak] site is {age_d}d old — holding "
+                                  f"the preview until day {PREVIEW_SOAK_DAYS}; other "
+                                  f"asks still go out")
+                            continue
+                        print("    [preview-soak] released by 'share now' note")
                 except ValueError:
                     pass
         # (c) DOMAIN-ACCESS STATE GATE — per-state behavior:
