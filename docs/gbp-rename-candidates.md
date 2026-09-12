@@ -179,3 +179,20 @@ emergency plumber 2,400 (+water heater repair 3,600), water damage 1,600.
   Damage & Mold Remediation
 Citations (BrightLocal CB tester) run only AFTER the DBA string is final —
 they carry the exact name + Amin's real line (TF still rejected).
+
+## Plumbing option, house-wide — 2026-09-12
+
+Santino's call: the plumbing capture play is now a FIRST-CLASS OPTION for
+every water-damage-category client (24 seeded at 0.91: "{Brand} - 24/7
+Emergency Plumbing, Water Damage & Mold Remediation"). Rationale: biggest
+emergency-intent pool most restoration names leave on the table, and
+plumbing calls monetize even unserved (referral relationships, lead
+resale). HARD GATE in every card reason: a Master/state plumbing license
+(own or licensed partner) before choosing — unlicensed plumbing
+advertising is fineable in most states and is the report a competitor
+always wins. Skipped: hands-off (Paul Davis, Go Green), PuroClean
+(franchise naming), TDI (hold), Arch (testing vertical), RT Olson (is a
+plumber). QCI + Dry Bros already carried plumbing options.
+The app's rename card now also flags any candidate naming a service
+outside companies.services (the Dry Bros mold catch) — the flag says
+confirm-or-add, never auto-hides.
