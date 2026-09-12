@@ -52,7 +52,7 @@
      rung), never primary.DEFAULT — DEFAULT is the client's raw brand hex and
      may be a light gold/lime/sky that white cannot sit on. */
   .btn-primary {
-    @apply btn bg-primary-600 text-white hover:bg-dark-700;
+    @apply btn bg-gradient-to-br from-primary-500 to-primary-700 text-white hover:from-primary-600 hover:to-primary-800;
   }
   .btn-accent {
     @apply btn bg-accent text-white hover:opacity-90;
