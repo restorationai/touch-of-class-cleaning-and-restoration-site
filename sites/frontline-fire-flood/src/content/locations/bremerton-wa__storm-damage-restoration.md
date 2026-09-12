@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Bremerton, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Bremerton"
-meta_description: "24/7 storm damage restoration in Bremerton, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration bremerton"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -56,4 +56,4 @@ We work directly with most major carriers and can bill them directly in most cas
 
 Homes built close to Bremerton's waterfront, particularly those on or near the hillside streets that step down toward Sinclair Inlet, often have crawl spaces that sit at or near the seasonal water table during heavy rain events. After a storm, these crawl spaces can accumulate standing water even without any visible roof or wall intrusion, because groundwater is simply rising through the soil. Homeowners sometimes assume a dry interior means a dry structure. It's worth having the crawl space checked after any significant storm, especially in properties built before modern vapor barrier requirements were standard.
 
-If you're dealing with storm damage in Bremerton right now, call Frontline Fire & Flood at +12532000503. We're available around the clock, and we'll get a certified crew moving toward your property.
+If you're dealing with storm damage in Bremerton right now, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and we'll get a certified crew moving toward your property.

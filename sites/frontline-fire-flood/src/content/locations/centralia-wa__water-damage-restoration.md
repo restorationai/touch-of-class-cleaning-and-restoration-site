@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Centralia, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Centralia"
-meta_description: "24/7 water damage restoration in Centralia, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration centralia"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ We bill carriers directly and work with your adjuster throughout the process so 
 
 In Centralia's older residential areas, crawl-space access points are sometimes located under porches or in tight side-yard clearances, not always where you'd expect them. During a water intrusion event involving the subfloor, that access matters immediately, because standing water in a crawl space needs to be extracted before structural drying equipment can do its job. When you call, it helps to know where your crawl access hatch is located and whether it's been opened recently; if it's been painted or swelled shut, we carry the tools to open it without damaging the framing. It's a small thing that can meaningfully speed up the first hour on-site.
 
-If standing water, soaked flooring, or a musty smell after recent rain is what brought you here, call Frontline Fire & Flood at +12532000503. We're available around the clock, and we'll walk you through exactly what to expect before we arrive.
+If standing water, soaked flooring, or a musty smell after recent rain is what brought you here, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and we'll walk you through exactly what to expect before we arrive.

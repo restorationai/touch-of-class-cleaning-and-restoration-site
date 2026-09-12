@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Auburn, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Auburn"
-meta_description: "24/7 mold remediation in Auburn, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Auburn, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation auburn"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -50,4 +50,4 @@ Auburn has a range of HOA-governed communities, particularly in newer developmen
 
 Crawl space homes in Auburn's older residential areas frequently have vapor barriers that were installed in the 1980s or earlier, often 4-mil poly sheeting that has since torn, shifted, or been punctured by pest activity. When that barrier fails, ground moisture rises directly into the framing cavity. What looks like a mold problem originating from a roof leak or plumbing failure sometimes turns out to be a vapor barrier failure that has been ongoing for years. A thorough assessment in Auburn almost always includes a crawl space inspection, not just a look at the visible interior surfaces.
 
-If you're dealing with visible mold growth, a persistent musty odor, or recently discovered water damage in your Auburn home, the next step is an assessment, not a guess. Call Frontline Fire & Flood at +12532000503 to schedule an evaluation. The longer mold has to establish itself in Auburn's damp conditions, the more material it works through.
+If you're dealing with visible mold growth, a persistent musty odor, or recently discovered water damage in your Auburn home, the next step is an assessment, not a guess. Call Frontline Fire & Flood at (253) 200-0503 to schedule an evaluation. The longer mold has to establish itself in Auburn's damp conditions, the more material it works through.

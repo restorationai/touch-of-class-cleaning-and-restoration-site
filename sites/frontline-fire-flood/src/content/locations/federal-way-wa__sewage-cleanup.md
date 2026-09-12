@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Federal Way, WA | Frontline Fire & Flood"
 h1: "Sewage Cleanup and Sanitization in Federal Way"
-meta_description: "24/7 sewage cleanup and sanitization in Federal Way, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 sewage cleanup and sanitization in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization federal way"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Most standard homeowner policies cover sudden and accidental sewage backups, but
 
 Federal Way has a notable number of homes with partially finished crawl spaces, a construction style common in the Pacific Northwest where the crawl serves as both a utility chase and informal storage. When a septic overflow or sewer backup reaches a crawl space in this configuration, the contamination often wicks into fiberglass batt insulation stapled to the floor joists above. That insulation has to come out: it cannot be disinfected in place, and leaving saturated fiberglass creates a persistent moisture reservoir that feeds mold growth on the joists within days. Crews working in Federal Way crawl spaces should also expect standing water to be present independent of the sewage event itself, the clay soils hold groundwater close to the surface in wet months, which complicates drying timelines and sometimes requires a sump pump to be running before extraction equipment can be staged effectively.
 
-If you're dealing with sewage backup or septic overflow anywhere in Federal Way, call Frontline Fire & Flood at +12532000503. The line is answered 24/7, and a certified crew can be en route the same day.
+If you're dealing with sewage backup or septic overflow anywhere in Federal Way, call Frontline Fire & Flood at (253) 200-0503. The line is answered 24/7, and a certified crew can be en route the same day.

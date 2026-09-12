@@ -13,10 +13,10 @@
     "url_count": 276,
     "generated_at": "2026-09-11T18:01:06.389173+00:00"
   },
-  "updated_at": "2026-09-11T19:06:13.412844+00:00",
+  "updated_at": "2026-09-12T12:52:33.809763+00:00",
   "indexnow_key": "afe959444b8341fda701a5989fdcbc02",
   "build": {
-    "scaffolded_at": "2026-09-11T18:01:23.343388+00:00",
+    "scaffolded_at": "2026-09-12T12:52:33.809667+00:00",
     "github_repo": "restorationai/frontline-fire-flood-site",
     "pages_project": "rankai-frontline-fire-flood",
     "starter_version": "0.1.0",
@@ -26,7 +26,7 @@
     "last_pushed_staging_at": "2026-09-05T04:43:42.843101+00:00",
     "last_pushed_main_at": "2026-09-11T19:06:13.412824+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "scaffolded",
   "cutover_prep": {
     "domain": "frontlinefireflood.com",
     "harvested_at": "2026-09-03T14:17:00+00:00",

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Tumwater, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Tumwater"
-meta_description: "24/7 fire damage restoration in Tumwater, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Tumwater, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration tumwater"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -56,4 +56,4 @@ Most homeowner policies in Washington cover fire damage restoration, but the doc
 
 In Tumwater's older homes, particularly those built before the 1970s near the historic core of the city, interior walls were often finished with a three-coat plaster system over wood lath. After a fire, that plaster can appear intact while the lath behind it is charred or the cavity between the lath and the exterior sheathing holds trapped smoke residue. Standard visual inspection misses this. Thermal imaging and careful probing during the assessment phase are the only reliable way to find the full extent of smoke penetration in these structures, and skipping that step leads to odor callbacks months after a job is supposedly complete.
 
-If your home or property in Tumwater has been affected by fire, call Frontline Fire & Flood at +12532000503. We'll assess the damage, explain what the restoration process looks like for your specific structure, and get the work started before the Pacific Northwest weather turns a manageable loss into a larger one.
+If your home or property in Tumwater has been affected by fire, call Frontline Fire & Flood at (253) 200-0503. We'll assess the damage, explain what the restoration process looks like for your specific structure, and get the work started before the Pacific Northwest weather turns a manageable loss into a larger one.

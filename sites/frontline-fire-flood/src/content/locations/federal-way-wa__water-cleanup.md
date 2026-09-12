@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in Federal Way, WA | Frontline Fire & Flood"
 h1: "Water Cleanup in Federal Way"
-meta_description: "24/7 water cleanup in Federal Way, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water cleanup in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water cleanup federal way"
 secondary_keywords: ["water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Frontline photographs and documents moisture readings, affected materials, and t
 
 Federal Way has a notable concentration of townhome and attached-unit developments built in the 2000s and early 2010s, particularly in the areas south of the Commons mall and along the SR-99 corridor. In attached units, water from one home can migrate through shared wall assemblies into a neighboring unit before either resident is aware of a problem. When a water cleanup call comes from a townhome or condo in Federal Way, the scope assessment almost always needs to include the shared wall cavity and potentially the adjacent unit, something that requires coordination with the HOA or property management company before work can begin. Frontline handles that coordination as part of the job, not as an add-on.
 
-If water has reached your floors, walls, or crawl space, the timeline for limiting damage is already running. Call Frontline Fire & Flood at +12532000503, crews are available around the clock for water cleanup emergencies throughout Federal Way and the surrounding South Sound area.
+If water has reached your floors, walls, or crawl space, the timeline for limiting damage is already running. Call Frontline Fire & Flood at (253) 200-0503, crews are available around the clock for water cleanup emergencies throughout Federal Way and the surrounding South Sound area.

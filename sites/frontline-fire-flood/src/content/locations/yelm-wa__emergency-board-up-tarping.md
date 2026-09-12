@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Yelm, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Yelm"
-meta_description: "24/7 emergency board-up and tarping in Yelm, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Yelm, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping yelm"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Most homeowner policies cover emergency board-up and tarping as part of the init
 
 Yelm's older rural parcels, particularly properties on larger lots outside the city's core, often have detached garages, shop buildings, or outbuildings that share a roofline or are connected by a covered breezeway to the main structure. When fire or wind damages the primary structure, these secondary buildings are frequently overlooked in the initial assessment, only to be found wet or compromised days later. We walk the full property perimeter before calling a board-up complete, because in Yelm's rural-residential mix, the outbuilding is often where the tools, the HVAC equipment, or the secondary electrical panel lives.
 
-If you are dealing with a damaged structure in Yelm right now, call Frontline Fire & Flood at +12532000503. We respond around the clock, and our crew arrives ready to secure your property the same visit, no assessment-only calls, no return trips to get materials.
+If you are dealing with a damaged structure in Yelm right now, call Frontline Fire & Flood at (253) 200-0503. We respond around the clock, and our crew arrives ready to secure your property the same visit, no assessment-only calls, no return trips to get materials.

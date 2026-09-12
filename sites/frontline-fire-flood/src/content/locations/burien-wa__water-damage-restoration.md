@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Burien, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Burien"
-meta_description: "24/7 water damage restoration in Burien, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Burien, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration burien"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Most standard homeowner policies cover sudden and accidental water damage, a bur
 
 One thing that comes up repeatedly in Burien's older neighborhoods: homes built on post-and-pier or concrete block crawl space foundations often have fiberglass batt insulation stapled to the underside of the subfloor rather than rigid foam on the foundation walls. When that insulation gets wet, whether from a plumbing leak above or groundwater intrusion below, it holds moisture against the wood framing for weeks and loses virtually all of its insulating value. It almost always needs to come out rather than be dried in place, and replacing it is an opportunity to install a proper vapor barrier and improve the crawl space's long-term moisture performance. It's a detail that's easy to miss if you're only looking at the surface.
 
-If water damage has reached your home or property in Burien, the window to prevent secondary damage and mold growth is short, typically 24 to 48 hours after the initial event. Call Frontline Fire & Flood at +12532000503 any time, day or night, to get a certified technician on the way.
+If water damage has reached your home or property in Burien, the window to prevent secondary damage and mold growth is short, typically 24 to 48 hours after the initial event. Call Frontline Fire & Flood at (253) 200-0503 any time, day or night, to get a certified technician on the way.

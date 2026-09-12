@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Gig Harbor, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Gig Harbor"
-meta_description: "24/7 contents restoration & storage in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage gig harbor"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -44,7 +44,7 @@ Contents restoration is not a single step, it's a sequence that has to be calibr
 
 ## Reaching Gig Harbor from Lakewood
 
-Frontline Fire & Flood is based in Lakewood, and Gig Harbor is a regular part of our service area. The most direct route from Lakewood runs west on SR-16 across the Tacoma Narrows Bridge, putting us on the Gig Harbor side of the water quickly. We're available around the clock, if you're dealing with an active loss situation at any hour, call +12532000503 and we'll dispatch.
+Frontline Fire & Flood is based in Lakewood, and Gig Harbor is a regular part of our service area. The most direct route from Lakewood runs west on SR-16 across the Tacoma Narrows Bridge, putting us on the Gig Harbor side of the water quickly. We're available around the clock, if you're dealing with an active loss situation at any hour, call (253) 200-0503 and we'll dispatch.
 
 Access within Gig Harbor itself is worth noting: some of the hillside residential streets off Wollochet Drive and the older roads near the waterfront can be narrow, particularly in the wetter months when shoulders soften. We account for that when staging equipment and vehicles, especially on pack-out days when we're moving large loads.
 
@@ -56,4 +56,4 @@ Most homeowner policies in Washington cover contents losses caused by sudden and
 
 Homes near the Gig Harbor waterfront, particularly those built in the mid-twentieth century as fishing and boating families settled the area, often have cedar-lined storage spaces, original fir floors, and furniture that has been in the same rooms for decades. Cedar, while naturally resistant to insects, is highly absorbent and will take on smoke and water odor deeply. If you have cedar closets or paneling that was exposed during a loss event, plan for extended deodorization time. Standard ozone cycles that work on drywall and carpet may need to be repeated or supplemented with hydroxyl treatment to fully clear the odor from cedar grain.
 
-If you're dealing with a fire, water, or smoke loss in Gig Harbor and need your belongings protected while your home is being restored, call Frontline Fire & Flood at +12532000503. We'll assess what can be saved, document everything for your claim, and keep your contents secure until you're ready to bring them home.
+If you're dealing with a fire, water, or smoke loss in Gig Harbor and need your belongings protected while your home is being restored, call Frontline Fire & Flood at (253) 200-0503. We'll assess what can be saved, document everything for your claim, and keep your contents secure until you're ready to bring them home.

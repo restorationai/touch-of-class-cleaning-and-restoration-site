@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Tumwater, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Tumwater"
-meta_description: "24/7 mold remediation in Tumwater, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Tumwater, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation tumwater"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -48,4 +48,4 @@ Mold claims in Washington are handled differently depending on whether the mold 
 
 Crawl spaces in Tumwater's older neighborhoods deserve particular attention during mold assessments. Many homes in this area were built with short foundation walls and minimal clearance between the soil and the floor joists, sometimes less than 18 inches. Standard remediation equipment doesn't always fit, and technicians working in those spaces need to hand-tool affected framing rather than use rotary abrasion equipment. It's slower, but it's the only way to get a thorough result without damaging the structure. If a remediation contractor hasn't asked about your crawl space clearance before quoting the job, that's worth asking about.
 
-Mold doesn't wait for a convenient time, and in Tumwater's climate, a slow leak discovered in November can mean active growth by December. Call Frontline Fire & Flood at +12532000503 to schedule an assessment, the sooner the moisture source and the affected materials are identified, the smaller the remediation scope tends to be.
+Mold doesn't wait for a convenient time, and in Tumwater's climate, a slow leak discovered in November can mean active growth by December. Call Frontline Fire & Flood at (253) 200-0503 to schedule an assessment, the sooner the moisture source and the affected materials are identified, the smaller the remediation scope tends to be.

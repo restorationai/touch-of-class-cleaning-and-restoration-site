@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Centralia, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Centralia"
-meta_description: "24/7 mold remediation in Centralia, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation centralia"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -46,4 +46,4 @@ Frontline Fire & Flood is based in Lakewood, and Centralia is a straightforward 
 
 In Centralia's older downtown-adjacent residential blocks, many homes were built with true plaster-and-lath wall systems rather than drywall. Plaster reads differently on a moisture meter than modern gypsum board, the dense substrate can show acceptable surface readings while the wood lath behind it remains saturated and actively growing mold. We probe at multiple depths in these homes rather than relying on surface scans alone, and we factor in longer drying times because plaster releases absorbed moisture more slowly than drywall. If your home was built before the mid-1950s and you've had any water intrusion, a surface inspection isn't enough.
 
-If you're seeing discoloration on walls, smelling a persistent musty odor, or dealing with the aftermath of any water event, whether from a plumbing failure, a roof leak, or the Chehalis River, call Frontline Fire & Flood at +12532000503. We'll assess what's actually there, contain it properly, and give you a clear picture of what remediation involves before any work begins.
+If you're seeing discoloration on walls, smelling a persistent musty odor, or dealing with the aftermath of any water event, whether from a plumbing failure, a roof leak, or the Chehalis River, call Frontline Fire & Flood at (253) 200-0503. We'll assess what's actually there, contain it properly, and give you a clear picture of what remediation involves before any work begins.

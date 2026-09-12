@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in Burien, WA | Frontline Fire & Flood"
 h1: "Water Cleanup in Burien"
-meta_description: "24/7 water cleanup in Burien, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water cleanup in Burien, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water cleanup burien"
 secondary_keywords: ["water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Water damage claims in Burien follow the same general carrier process as anywher
 
 In Burien's older ranch-style and split-level homes, the original hardwood floors were often installed directly over board sheathing with no underlayment, a construction detail common through the 1960s. When water gets under those floors, it wicks along the boards and into the sheathing faster than it would through modern plywood-and-underlayment assemblies. The surface may feel barely damp while the sheathing below reads saturated on a moisture meter. We account for this when placing drying equipment, directing airflow downward through gaps between boards rather than just across the surface, otherwise drying times are significantly underestimated and the floor ends up cupped anyway.
 
-If you're dealing with standing water, a soaked crawl space, or damage that appeared after a recent storm or plumbing failure anywhere in Burien, call Frontline Fire & Flood at +12532000503. We're available 24/7, and we'll have a certified technician assessing your property and starting the cleanup before the damage has a chance to go further.
+If you're dealing with standing water, a soaked crawl space, or damage that appeared after a recent storm or plumbing failure anywhere in Burien, call Frontline Fire & Flood at (253) 200-0503. We're available 24/7, and we'll have a certified technician assessing your property and starting the cleanup before the damage has a chance to go further.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Bonney Lake, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Bonney Lake"
-meta_description: "24/7 asbestos abatement in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement bonney lake"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -61,4 +61,4 @@ One pattern worth knowing: homes in Bonney Lake's older subdivisions that were b
 
 Asbestos abatement discovered during a covered loss, fire damage, water damage, or storm damage that exposes older materials, is often partially or fully covered under a homeowner's policy. The key is documentation: carriers want to see the original inspection report, laboratory results, the abatement scope, and waste manifests. We photograph every phase of the project and maintain a complete file that travels with your claim. If your project is renovation-driven rather than loss-driven, we can provide a detailed scope letter that satisfies lender or title company requirements for real estate transactions.
 
-If you're dealing with suspect materials in a Bonney Lake home or investment property, call Frontline Fire & Flood at +12532000503. We'll walk you through what testing makes sense, what the abatement process looks like for your specific materials, and what to expect from permitting and timelines before any work begins.
+If you're dealing with suspect materials in a Bonney Lake home or investment property, call Frontline Fire & Flood at (253) 200-0503. We'll walk you through what testing makes sense, what the abatement process looks like for your specific materials, and what to expect from permitting and timelines before any work begins.

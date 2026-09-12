@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Federal Way, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Federal Way"
-meta_description: "24/7 fire damage restoration in Federal Way, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration federal way"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ Most residential fire losses in Federal Way go through homeowners' insurance, an
 
 Federal Way has a notable concentration of townhome communities and attached-unit developments, particularly in areas closer to the city's commercial corridors. In attached construction, a fire in one unit can push smoke through shared attic spaces and party-wall penetrations into adjacent units that show no visible fire damage at all, but still carry detectable odor and elevated soot levels. We scope these jobs across the affected footprint, not just the unit of origin, because limiting the scope to the fire unit and ignoring the spread almost always leads to odor callbacks weeks later when the neighboring residents notice it.
 
-If you are dealing with fire or smoke damage anywhere in Federal Way, call Frontline Fire & Flood at +12532000503. We will walk you through what to expect, get eyes on the loss as quickly as possible, and handle the documentation, remediation, and reconstruction under one coordinated plan.
+If you are dealing with fire or smoke damage anywhere in Federal Way, call Frontline Fire & Flood at (253) 200-0503. We will walk you through what to expect, get eyes on the loss as quickly as possible, and handle the documentation, remediation, and reconstruction under one coordinated plan.

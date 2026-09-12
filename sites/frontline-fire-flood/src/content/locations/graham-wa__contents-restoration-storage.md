@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Graham, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Graham"
-meta_description: "24/7 contents restoration & storage in Graham, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Graham, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage graham"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -44,4 +44,4 @@ Contents restoration claims are frequently the most contested portion of a prope
 
 Graham's rural lots frequently include outbuildings, detached garages, workshops, and storage structures, that sit outside the footprint of the main home but hold significant value in tools, equipment, and stored belongings. These structures are often unheated and poorly sealed, which means smoke, water, and mold damage can progress further and faster in them than in the conditioned space of the house. It is worth mentioning any outbuildings when you call, because they require a separate inventory and may need different cleaning protocols than household contents, and they are easy to defer and then regret.
 
-If your Graham home has been affected by water damage, fire, or mold and your belongings are at risk, call Frontline Fire & Flood at +12532000503. The pack-out process can begin the same day, protecting your contents while structural work proceeds, and keeping your claim documentation solid from the first hour.
+If your Graham home has been affected by water damage, fire, or mold and your belongings are at risk, call Frontline Fire & Flood at (253) 200-0503. The pack-out process can begin the same day, protecting your contents while structural work proceeds, and keeping your claim documentation solid from the first hour.

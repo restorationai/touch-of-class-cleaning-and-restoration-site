@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Bellevue, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Bellevue"
-meta_description: "24/7 mold remediation in Bellevue, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation bellevue"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -46,4 +46,4 @@ Bellevue has a significant share of HOA-governed properties, particularly in con
 
 In Bellevue's HOA-governed condo developments, especially those built between roughly 2005 and 2015, the boundary between unit-owner responsibility and HOA responsibility for water intrusion and mold isn't always obvious in the CC&Rs. A leak originating from a shared roof or common-area plumbing may cross into your unit, but the remediation authority can be split. We've seen situations where that ambiguity delays the start of work while ownership is sorted out. If you're in that situation, getting a written scope of work from us early gives both parties a concrete document to work from while the coverage question is resolved, which tends to move things faster than waiting for the HOA to commission its own assessment first.
 
-Frontline Fire & Flood is available around the clock and dispatches from Lakewood. If mold has been confirmed or suspected in your Bellevue home or commercial property, call +12532000503 to schedule an inspection. The sooner the moisture source and affected materials are assessed, the narrower the remediation scope tends to be.
+Frontline Fire & Flood is available around the clock and dispatches from Lakewood. If mold has been confirmed or suspected in your Bellevue home or commercial property, call (253) 200-0503 to schedule an inspection. The sooner the moisture source and affected materials are assessed, the narrower the remediation scope tends to be.

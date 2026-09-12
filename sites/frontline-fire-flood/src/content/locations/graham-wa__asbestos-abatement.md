@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Graham, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Graham"
-meta_description: "24/7 asbestos abatement in Graham, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Graham, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement graham"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -49,7 +49,7 @@ Every phase is documented with photographs and chain-of-custody records, which m
 
 ## Reaching Graham from Lakewood
 
-Frontline Fire & Flood is based in Lakewood, and Graham is a direct run south on SR-512 to SR-161, a route the crew travels regularly. Because asbestos abatement is a scheduled, permit-driven process rather than an emergency extraction, the more important timing factor is how quickly we can get an inspector on-site for initial sampling and how fast the lab turns around results. Frontline operates 24/7, so if you discover damaged pipe insulation or a crumbling ceiling tile during a weekend renovation, you can call +12532000503 and speak with someone immediately rather than waiting until Monday to start the clock.
+Frontline Fire & Flood is based in Lakewood, and Graham is a direct run south on SR-512 to SR-161, a route the crew travels regularly. Because asbestos abatement is a scheduled, permit-driven process rather than an emergency extraction, the more important timing factor is how quickly we can get an inspector on-site for initial sampling and how fast the lab turns around results. Frontline operates 24/7, so if you discover damaged pipe insulation or a crumbling ceiling tile during a weekend renovation, you can call (253) 200-0503 and speak with someone immediately rather than waiting until Monday to start the clock.
 
 ## Graham Insurance & Permitting Coordination
 
@@ -61,4 +61,4 @@ On the permitting side, Washington's asbestos regulations require licensed contr
 
 Graham sits in a part of Pierce County where a substantial number of homes were built on crawl space foundations rather than full basements, a practical choice given the area's soil and drainage characteristics. Crawl spaces in this region accumulate moisture reliably through the rainy season, and that persistent humidity is hard on the pipe insulation installed during original construction. Asbestos-wrapped pipes in a damp crawl space can degrade in ways that are invisible from above: the material may look intact from the access hatch but be actively shedding fibers at contact points and hangers. If your home was built before 1980 and you have not had the crawl space insulation inspected, that is the first place we look.
 
-If you are planning a renovation, addition, or even a significant repair on a Graham property built before 1985, an asbestos inspection is the right first step, not an afterthought once demolition has already begun. Call Frontline Fire & Flood at +12532000503 to schedule sampling and get a clear picture of what you are working with before any walls come down.
+If you are planning a renovation, addition, or even a significant repair on a Graham property built before 1985, an asbestos inspection is the right first step, not an afterthought once demolition has already begun. Call Frontline Fire & Flood at (253) 200-0503 to schedule sampling and get a clear picture of what you are working with before any walls come down.

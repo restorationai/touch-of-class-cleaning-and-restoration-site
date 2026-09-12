@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Port Orchard, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Port Orchard"
-meta_description: "24/7 asbestos abatement in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement port orchard"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -50,4 +50,4 @@ On the permitting side, projects involving asbestos removal in Washington typica
 
 Port Orchard homes built in the 1940s and 1950s often have multiple layers of resilient flooring stacked on top of each other, original linoleum, then a layer of underlayment, then a second generation of vinyl tile, sometimes a third. Each layer may contain asbestos, and each one was installed by a different era's contractor. When a water loss or renovation exposes this layering, the abatement scope can expand quickly. Knowing to look for it before the first floor tile is pried up saves significant time and avoids inadvertent fiber release during what a homeowner assumed was a simple flooring project.
 
-If you're dealing with asbestos concerns in Port Orchard, whether you've found a suspect material, received a report from a home inspector, or are planning a renovation in an older home, call Frontline Fire & Flood at +12532000503. We're EPA Lead-Safe Certified, IICRC certified, and licensed (#CCFRONTFF761CB) to handle the full scope of abatement work, and we'll give you a straight answer about what you're looking at before any work begins.
+If you're dealing with asbestos concerns in Port Orchard, whether you've found a suspect material, received a report from a home inspector, or are planning a renovation in an older home, call Frontline Fire & Flood at (253) 200-0503. We're EPA Lead-Safe Certified, IICRC certified, and licensed (#CCFRONTFF761CB) to handle the full scope of abatement work, and we'll give you a straight answer about what you're looking at before any work begins.

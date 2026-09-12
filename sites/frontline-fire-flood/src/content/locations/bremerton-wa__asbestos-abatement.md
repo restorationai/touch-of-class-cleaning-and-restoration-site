@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Bremerton, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Bremerton"
-meta_description: "24/7 asbestos abatement in Bremerton, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement bremerton"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -48,4 +48,4 @@ One thing that catches Bremerton homeowners off guard: Washington State requires
 
 Asbestos abatement triggered by a covered loss, a roof failure that damages ceiling texture, a pipe burst that saturates floor tile, may fall within your homeowner's policy depending on the cause of loss and your carrier's language. We document the connection between the damage event and the ACM disturbance, photograph affected materials in place, and provide the itemized scope your adjuster needs to evaluate the claim. We bill major carriers directly where coverage applies, which keeps the financial burden off your plate while the work is underway.
 
-If you've discovered asbestos-containing material in your Bremerton home, or if you're about to start a project and want to know what you're dealing with before the first wall comes down, call Frontline Fire & Flood at +12532000503. Getting testing done before demolition begins is always less expensive than managing a disturbance after the fact.
+If you've discovered asbestos-containing material in your Bremerton home, or if you're about to start a project and want to know what you're dealing with before the first wall comes down, call Frontline Fire & Flood at (253) 200-0503. Getting testing done before demolition begins is always less expensive than managing a disturbance after the fact.

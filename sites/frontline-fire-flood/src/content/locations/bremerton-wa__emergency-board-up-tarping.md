@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Bremerton, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Bremerton"
-meta_description: "24/7 emergency board-up and tarping in Bremerton, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping bremerton"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Frontline Fire & Flood produces that documentation as a standard part of every j
 
 Older homes in Bremerton's hillside neighborhoods, the areas that climb away from the waterfront toward the ridge lines, often have steep roof pitches that were designed to shed the region's heavy rainfall. That pitch is an asset in normal weather but a complication during emergency tarping: standard flat-tarp techniques don't hold on a 10/12 or steeper slope when wind hits from the water side. Our crews carry ridge-cap framing materials specifically for steep-pitch applications, which keeps the tarp seated through the kind of sustained southwest wind that Bremerton sees regularly in fall and winter storm systems.
 
-If you're dealing with fire or storm damage to your Bremerton property right now, call Frontline Fire & Flood at +12532000503. We're available 24/7, we document everything for your insurer, and we know what it takes to keep a Kitsap Peninsula home protected until permanent repairs can begin.
+If you're dealing with fire or storm damage to your Bremerton property right now, call Frontline Fire & Flood at (253) 200-0503. We're available 24/7, we document everything for your insurer, and we know what it takes to keep a Kitsap Peninsula home protected until permanent repairs can begin.

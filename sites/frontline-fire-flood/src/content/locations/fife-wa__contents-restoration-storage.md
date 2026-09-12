@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Fife, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Fife"
-meta_description: "24/7 contents restoration & storage in Fife, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Fife, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage fife"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -52,4 +52,4 @@ For Fife properties with older or higher-value contents, antique furniture, coll
 
 Fife's proximity to the Puyallup River tideflats means that during heavy rain events, some residential areas experience groundwater intrusion that carries a distinct silty residue, different from the cleaner water that comes from a burst supply line. That residue settles into carpet fibers, upholstery seams, and the underside of wood furniture in ways that aren't always visible on the surface. Crews familiar with this area know to check those hidden contact points before signing off on a contents pack-out, because items that look clean can still carry odor-causing organic material that will become apparent once they're in storage or returned to the home.
 
-If a loss has affected your home or property in Fife, call Frontline Fire & Flood at +12532000503. We'll assess what can be saved, document everything for your claim, and keep your belongings secure while the structure is restored.
+If a loss has affected your home or property in Fife, call Frontline Fire & Flood at (253) 200-0503. We'll assess what can be saved, document everything for your claim, and keep your belongings secure while the structure is restored.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Burien, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Burien"
-meta_description: "24/7 contents restoration & storage in Burien, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Burien, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage burien"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -48,4 +48,4 @@ Contents restoration claims require more documentation than most homeowners expe
 
 Burien's mid-century homes frequently have original hardwood floors under wall-to-wall carpet that was installed decades later, a combination that complicates contents staging during a loss. When we pack out furniture and move items for drying, we account for the fact that the subfloor beneath that carpet may be retaining moisture the surface readings don't show. We also flag any contents sitting directly on hardwood that was exposed during pack-out, because those floors can buckle or cup if items are left on damp wood even briefly. It's a detail that matters in this housing stock specifically, and it shapes how we sequence the work.
 
-If a fire, flood, or storm has left your Burien home in disarray, your belongings deserve the same careful attention as your walls and floors. Call Frontline Fire & Flood at +12532000503, we're available around the clock and can begin the contents inventory the same day.
+If a fire, flood, or storm has left your Burien home in disarray, your belongings deserve the same careful attention as your walls and floors. Call Frontline Fire & Flood at (253) 200-0503, we're available around the clock and can begin the contents inventory the same day.

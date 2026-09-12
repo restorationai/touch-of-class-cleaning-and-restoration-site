@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Federal Way, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Federal Way"
-meta_description: "24/7 asbestos abatement in Federal Way, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement federal way"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -50,4 +50,4 @@ On the permitting side, projects that disturb more than a threshold quantity of 
 
 Federal Way has a notable concentration of garden-style apartment complexes built in the late 1960s and early 1970s, the kind of two-story wood-frame buildings with exterior stairwells and shared utility chases that are common along the Pacific Highway corridor. In these buildings, the original floor tile and ceiling texture are often still in place beneath newer finishes, meaning a renovation crew can break through a layer of modern vinyl plank and hit 9×9 asbestos tile underneath without expecting it. If you are managing or renovating one of these properties, a pre-renovation asbestos inspection is worth scheduling before any demo work begins, not after.
 
-If you have questions about a material in your Federal Way property or need to schedule an inspection before a remodel, call Frontline Fire & Flood at +12532000503. The conversation is straightforward, and knowing what you are working with before the first hammer swing is always the less expensive outcome.
+If you have questions about a material in your Federal Way property or need to schedule an inspection before a remodel, call Frontline Fire & Flood at (253) 200-0503. The conversation is straightforward, and knowing what you are working with before the first hammer swing is always the less expensive outcome.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Seattle, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Seattle"
-meta_description: "24/7 water damage restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration seattle"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Most homeowner policies cover sudden and accidental water discharge, a burst pip
 
 In Seattle's older neighborhoods, particularly homes built before 1950 in areas like the Central District and Fremont, plaster-and-lath wall construction is still common. Plaster absorbs water more slowly than drywall, which can make initial extraction feel straightforward. But plaster also releases that moisture back into the air very slowly, which means structural drying timelines in these homes routinely run longer than in newer construction. Crews account for this during equipment placement and scheduling, rather than discovering it mid-job when readings stall.
 
-If you're dealing with water damage anywhere in Seattle, whether it's a finished basement that took on groundwater, a burst supply line behind a kitchen wall, or storm intrusion through a compromised roof assembly, call Frontline Fire & Flood at +12532000503. The crew is available around the clock, and the sooner extraction and drying begin, the more of your home's original materials can be saved.
+If you're dealing with water damage anywhere in Seattle, whether it's a finished basement that took on groundwater, a burst supply line behind a kitchen wall, or storm intrusion through a compromised roof assembly, call Frontline Fire & Flood at (253) 200-0503. The crew is available around the clock, and the sooner extraction and drying begin, the more of your home's original materials can be saved.

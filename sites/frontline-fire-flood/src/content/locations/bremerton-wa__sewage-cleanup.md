@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Bremerton, WA | Frontline Fire & Flood"
 h1: "Sewage Cleanup and Sanitization in Bremerton"
-meta_description: "24/7 sewage cleanup and sanitization in Bremerton, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 sewage cleanup and sanitization in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization bremerton"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ We document every phase of the loss, pre-mitigation photos, moisture mapping, ma
 
 Bremerton's older residential neighborhoods include a notable number of homes with original cast-iron drain stacks that connect to clay-tile laterals beneath concrete slab or crawlspace foundations. When a backup occurs in these homes, sewage often wicks into the crawlspace insulation and vapor barrier before it surfaces in the living area, meaning the visible mess in the bathroom understates the actual contamination zone. We inspect crawlspaces as a standard part of every sewage job in this area, not as an add-on, because missing that space means leaving a biohazard behind a closed access hatch.
 
-If you're dealing with sewage in your Bremerton home or commercial property right now, call Frontline Fire & Flood at +12532000503. We're available around the clock, and the sooner containment starts, the less material you lose.
+If you're dealing with sewage in your Bremerton home or commercial property right now, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and the sooner containment starts, the less material you lose.

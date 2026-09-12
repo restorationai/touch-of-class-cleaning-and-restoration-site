@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Auburn, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Auburn"
-meta_description: "24/7 emergency board-up and tarping in Auburn, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Auburn, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping auburn"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Most homeowner and commercial property policies cover emergency protective measu
 
 Auburn's valley floor location means that some older residential streets, particularly in lower-lying areas near the Green River, have soil conditions that can make emergency vehicle staging trickier after heavy rain. Soft shoulders and saturated ground near the curb occasionally limit where a fully loaded service truck can park without risking a rut or a stuck vehicle. When an address looks like it may have access constraints, we ask about it on the call so we can plan the approach before arrival rather than problem-solve in the dark with an open structure waiting.
 
-If your home or business in Auburn has been damaged and is exposed to the elements, call Frontline Fire & Flood at +12532000503. We'll secure the structure, document the condition, and hand you a clear record to start the claims process, so the damage that's already happened doesn't invite more.
+If your home or business in Auburn has been damaged and is exposed to the elements, call Frontline Fire & Flood at (253) 200-0503. We'll secure the structure, document the condition, and hand you a clear record to start the claims process, so the damage that's already happened doesn't invite more.

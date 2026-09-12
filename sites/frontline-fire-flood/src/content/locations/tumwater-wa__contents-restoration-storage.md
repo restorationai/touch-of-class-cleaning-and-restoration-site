@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Tumwater, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Tumwater"
-meta_description: "24/7 contents restoration & storage in Tumwater, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Tumwater, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage tumwater"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -53,4 +53,4 @@ Most homeowner policies in Washington cover contents damage as part of a covered
 
 Tumwater's older residential areas include homes built on concrete block or brick foundations that predate modern waterproofing standards. Basements in these properties often double as long-term storage for family items, seasonal gear, archived records, furniture between uses. When groundwater intrusion or a plumbing failure reaches these spaces, the contents are frequently the last thing addressed because the structural drying work takes priority. The problem is that porous materials like cardboard boxes, fabric, and unfinished wood begin to support mold colonization within 24 to 48 hours in the Pacific Northwest's ambient humidity. Getting those items into dry, climate-controlled storage, even before full assessment, stops that clock.
 
-If you're dealing with a loss in Tumwater and you're not sure what's worth saving, call Frontline Fire & Flood at +12532000503. The inventory and assessment process gives you answers before you have to make any permanent decisions about your belongings.
+If you're dealing with a loss in Tumwater and you're not sure what's worth saving, call Frontline Fire & Flood at (253) 200-0503. The inventory and assessment process gives you answers before you have to make any permanent decisions about your belongings.

@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in South Hill, WA | Frontline Fire & Flood"
 h1: "Restoration Services in South Hill"
-meta_description: "Serving South Hill, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +12532000503."
+meta_description: "Serving South Hill, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503."
 primary_keyword: "restoration services south hill"
 secondary_keywords: ["south hill restoration company", "damage restoration south hill", "south hill disaster restoration"]
 search_intent: "local_commercial"

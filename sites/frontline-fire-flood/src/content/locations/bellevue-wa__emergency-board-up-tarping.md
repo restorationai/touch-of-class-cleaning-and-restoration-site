@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Bellevue, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Bellevue"
-meta_description: "24/7 emergency board-up and tarping in Bellevue, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping bellevue"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -58,4 +58,4 @@ For properties in Bellevue's HOA-governed communities, and there are many, parti
 
 Bellevue's hillside neighborhoods, particularly those on the slopes above I-90 and in the elevated terrain toward the eastern edge of the city, can present access challenges that flat-grid neighborhoods don't. Steep driveways, narrow cul-de-sacs, and lots with significant grade change between the street and the structure affect how a crew stages ladders and materials for roof work. On steep-pitch roofs common to homes built into Bellevue's hillsides, tarping requires fall-protection rigging that adds setup time, something worth knowing before you're surprised by it at 2 a.m. We account for site conditions in the initial dispatch conversation so the crew arrives with the right equipment the first time.
 
-If your property has been damaged and you need it secured now, call Frontline Fire & Flood at +12532000503. We respond around the clock, document everything for your claim, and treat the board-up as the first step of the restoration, not a standalone transaction.
+If your property has been damaged and you need it secured now, call Frontline Fire & Flood at (253) 200-0503. We respond around the clock, document everything for your claim, and treat the board-up as the first step of the restoration, not a standalone transaction.

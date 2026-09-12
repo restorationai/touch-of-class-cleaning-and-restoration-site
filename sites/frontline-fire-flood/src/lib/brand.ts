@@ -9,8 +9,8 @@ export const brand = {
   legalName: "Frontline Fire & Flood",
   domain: "frontlinefireflood.com",
   canonicalUrl: "https://frontlinefireflood.com",
-  phone: "+12532000503",
-  phoneRaw: "+112532000503",
+  phone: "(253) 200-0503",
+  phoneRaw: "+12532000503",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,
@@ -54,7 +54,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "IICRC AMRT (MOLD)", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "IICRC ASD (STRUCTURAL DRYING)", "EPA LEAD-SAFE CERTIFIED", "OSHA TRAINED"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://frontlinefireflood.com/meet-the-team/"] as string[],
+  sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",
@@ -65,6 +65,9 @@ export const brand = {
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
   // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "restoration",
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",

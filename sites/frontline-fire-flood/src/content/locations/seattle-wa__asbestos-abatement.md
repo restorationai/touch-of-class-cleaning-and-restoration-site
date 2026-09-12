@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Seattle, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Seattle"
-meta_description: "24/7 asbestos abatement in Seattle, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Seattle, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement seattle"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -50,4 +50,4 @@ When asbestos abatement is triggered by a covered loss, a pipe failure, storm da
 
 One detail that catches Seattle homeowners off guard: popcorn ceilings in buildings constructed or renovated before 1978 are among the most common sources of confirmed asbestos in the city's older apartment stock, and they're also one of the most frequently disturbed materials during DIY projects. In Capitol Hill's multi-family buildings in particular, where unit turnover often prompts cosmetic updates, scraping or sanding a popcorn ceiling without prior testing creates an exposure risk for the person doing the work and for neighbors in adjacent units sharing the same air handling. Testing before any ceiling work in a pre-1978 Seattle building is straightforward and inexpensive relative to the alternative.
 
-If you're dealing with suspected asbestos in a Seattle property, whether it's a planned renovation, a damage event, or a real estate transaction that flagged a concern, call Frontline Fire & Flood at +12532000503. The process starts with an inspection, and knowing what you're working with is always the right first move.
+If you're dealing with suspected asbestos in a Seattle property, whether it's a planned renovation, a damage event, or a real estate transaction that flagged a concern, call Frontline Fire & Flood at (253) 200-0503. The process starts with an inspection, and knowing what you're working with is always the right first move.

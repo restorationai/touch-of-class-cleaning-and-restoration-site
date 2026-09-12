@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Centralia, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Centralia"
-meta_description: "24/7 storm damage restoration in Centralia, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration centralia"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Storm damage is typically a covered peril under standard homeowners' policies, b
 
 Centralia's older housing stock frequently includes original plaster-and-lath interior walls rather than modern drywall. When a roof breach or broken window allows rain to enter, plaster absorbs moisture more slowly than drywall, it may feel firm to the touch even when the lath behind it is saturated. Moisture meters calibrated for gypsum will give false-low readings on dense plaster, so our technicians use reference mode settings and probe into wall cavities rather than relying on surface readings alone. This matters because plaster that reads "dry" at the surface can still harbor enough residual moisture to support mold colonization within days if the structure isn't dried to the correct standard.
 
-If a storm has left your Centralia home with a breached roof, standing water, or structural damage, call Frontline Fire & Flood at +12532000503. We're available around the clock, and our crews carry the equipment and documentation tools to start protecting your property the same day you call.
+If a storm has left your Centralia home with a breached roof, standing water, or structural damage, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and our crews carry the equipment and documentation tools to start protecting your property the same day you call.

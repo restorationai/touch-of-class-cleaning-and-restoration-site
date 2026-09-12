@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in South Hill, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in South Hill"
-meta_description: "24/7 asbestos abatement in South Hill, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in South Hill, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement south hill"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -44,7 +44,7 @@ The EPA Lead-Safe certification our team holds matters here too: homes old enoug
 
 ## Reaching South Hill from Lakewood
 
-Frontline Fire & Flood operates out of Lakewood, and South Hill is a straightforward run south on SR-512 and then east, a route our crews travel regularly for water, fire, and hazmat calls throughout Pierce County. We're available around the clock, so if a water loss or fire reveals suspected ACMs during an after-hours emergency, we can dispatch for assessment and containment without waiting for business hours. Scheduling an asbestos inspection or abatement project during the week is equally simple, call +12532000503 and we'll coordinate around your timeline and any contractor schedules already in motion.
+Frontline Fire & Flood operates out of Lakewood, and South Hill is a straightforward run south on SR-512 and then east, a route our crews travel regularly for water, fire, and hazmat calls throughout Pierce County. We're available around the clock, so if a water loss or fire reveals suspected ACMs during an after-hours emergency, we can dispatch for assessment and containment without waiting for business hours. Scheduling an asbestos inspection or abatement project during the week is equally simple, call (253) 200-0503 and we'll coordinate around your timeline and any contractor schedules already in motion.
 
 ## South Hill Insurance & Permitting Coordination
 
@@ -56,4 +56,4 @@ For planned renovations, abatement is generally an out-of-pocket cost, but it's 
 
 South Hill homes built on the Puyallup River's eastern benchlands often have crawl spaces with original pipe insulation still in place, the kind that was applied at the factory and never touched since. That insulation tends to be in friable condition after decades of temperature cycling and occasional moisture intrusion from the region's wet winters. It's one of the most common asbestos finds on inspection calls in this part of Pierce County, and it's also one that homeowners rarely know to look for because it's out of sight. If your home was built before 1980 and you haven't had a crawl space inspection, it's worth adding to the list before any HVAC work or repiping project begins.
 
-If you're dealing with a renovation, a water loss, or a fire in a South Hill home and you have any reason to suspect the structure predates 1980, call Frontline Fire & Flood at +12532000503 before demo work starts. Proper asbestos testing and abatement protects your family, your contractors, and your ability to sell or insure the property down the road.
+If you're dealing with a renovation, a water loss, or a fire in a South Hill home and you have any reason to suspect the structure predates 1980, call Frontline Fire & Flood at (253) 200-0503 before demo work starts. Proper asbestos testing and abatement protects your family, your contractors, and your ability to sell or insure the property down the road.

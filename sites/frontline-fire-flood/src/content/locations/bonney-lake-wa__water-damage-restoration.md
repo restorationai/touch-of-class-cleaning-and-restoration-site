@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Bonney Lake, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Bonney Lake"
-meta_description: "24/7 water damage restoration in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration bonney lake"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Frontline Fire & Flood operates out of Lakewood, and Bonney Lake is a regular se
 
 One thing that comes up repeatedly on Bonney Lake jobs is the condition of crawl space vapor barriers in homes built during the late-1990s to mid-2000s construction wave. The barriers were often installed in overlapping sections without being taped or sealed to the foundation walls, which meets the minimum requirement at rough inspection but leaves significant gaps where groundwater vapor, and in wet years, actual intrusion, reaches the floor joists above. If your water loss involves the crawl space, we assess the existing vapor barrier as part of the moisture mapping process. A structurally dried crawl space with a compromised barrier will re-wet the next time the water table rises, so addressing the barrier condition is part of a complete restoration, not an upsell.
 
-If you're dealing with water damage in Bonney Lake right now, call Frontline Fire & Flood at +12532000503. Our IICRC-certified team, holding credentials in Water Damage Restoration (WRT) and Applied Structural Drying (ASD), is dispatched 24 hours a day, and we work directly with your insurance carrier to document and bill the loss so you're not managing the paperwork while your floors are still wet.
+If you're dealing with water damage in Bonney Lake right now, call Frontline Fire & Flood at (253) 200-0503. Our IICRC-certified team, holding credentials in Water Damage Restoration (WRT) and Applied Structural Drying (ASD), is dispatched 24 hours a day, and we work directly with your insurance carrier to document and bill the loss so you're not managing the paperwork while your floors are still wet.

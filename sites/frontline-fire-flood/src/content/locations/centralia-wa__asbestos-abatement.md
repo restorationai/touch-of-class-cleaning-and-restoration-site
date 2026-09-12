@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Centralia, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Centralia"
-meta_description: "24/7 asbestos abatement in Centralia, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement centralia"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -46,4 +46,4 @@ For commercial properties near the downtown core or industrial sites along the r
 
 One thing that catches Centralia homeowners off guard: popcorn ceiling texture applied before 1978 is among the most common asbestos-containing materials in this region, and it becomes a regulatory issue the moment you try to scrape, sand, or paint over it with a roller. A coat of paint can actually seal the surface temporarily, but it doesn't eliminate the hazard, and any subsequent disturbance releases what's underneath. If you're planning to repaint or retexture a ceiling in a home built before the late 1970s anywhere in Lewis County, get a sample tested first. The lab cost is modest; the cost of improper disturbance is not.
 
-If you're ready to schedule an inspection or have already confirmed asbestos in a Centralia property and need abatement scoped, call Frontline Fire & Flood at +12532000503. Our licensed team (license #CCFRONTFF761CB) handles the testing coordination, state notifications, containment, removal, and clearance sampling, so the project moves from discovery to resolution without you managing multiple contractors.
+If you're ready to schedule an inspection or have already confirmed asbestos in a Centralia property and need abatement scoped, call Frontline Fire & Flood at (253) 200-0503. Our licensed team (license #CCFRONTFF761CB) handles the testing coordination, state notifications, containment, removal, and clearance sampling, so the project moves from discovery to resolution without you managing multiple contractors.

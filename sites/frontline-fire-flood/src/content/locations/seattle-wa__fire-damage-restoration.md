@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Seattle, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Seattle"
-meta_description: "24/7 fire damage restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration seattle"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ For properties in HOA-governed developments, exterior repairs and reconstruction
 
 In Seattle's older residential neighborhoods, many homes still have original single-pane wood windows and interior wood trim that dates to the 1920s or 1930s. That millwork is often irreplaceable, no current lumber yard stocks old-growth fir in those profiles. When smoke or heat damage affects original trim, we document it carefully and, where cleaning is feasible, prioritize restoration over replacement. When replacement is unavoidable, we source custom-milled profiles to match rather than substituting modern pine. It's a detail that matters to historic preservation and to resale value, and it's one of the first conversations we have on any Seattle fire loss involving pre-war construction.
 
-If your property has sustained fire damage in Seattle, call Frontline Fire & Flood at +12532000503. We're available around the clock, and the sooner the stabilization and documentation process begins, the more of your structure and contents can be saved.
+If your property has sustained fire damage in Seattle, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and the sooner the stabilization and documentation process begins, the more of your structure and contents can be saved.

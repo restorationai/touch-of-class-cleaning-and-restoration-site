@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Bonney Lake, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Bonney Lake"
-meta_description: "24/7 fire damage restoration in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration bonney lake"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -58,4 +58,4 @@ Bonney Lake's position on a ridge means many homes have daylight basements or wa
 
 Frontline Fire & Flood holds an EPA Lead-Safe certification, which matters in Bonney Lake homes built before 1978, pre-renovation testing and containment protocols apply to any fire repair work that disturbs painted surfaces in those structures.
 
-If you're dealing with fire damage in Bonney Lake right now, call Frontline Fire & Flood at +12532000503. We're available 24/7, licensed (#CCFRONTFF761CB), and ready to walk you through next steps, from emergency stabilization tonight to a complete reconstruction scope.
+If you're dealing with fire damage in Bonney Lake right now, call Frontline Fire & Flood at (253) 200-0503. We're available 24/7, licensed (#CCFRONTFF761CB), and ready to walk you through next steps, from emergency stabilization tonight to a complete reconstruction scope.

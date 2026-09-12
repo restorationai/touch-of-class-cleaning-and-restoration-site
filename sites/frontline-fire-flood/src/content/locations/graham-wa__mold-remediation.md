@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Graham, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Graham"
-meta_description: "24/7 mold remediation in Graham, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Graham, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation graham"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -48,4 +48,4 @@ Mold claims in Pierce County vary significantly depending on the origin of the m
 
 Graham's newer subdivisions, particularly those built on former agricultural land east of SR-161, often have shallow utility easements and lot grading that directs surface runoff toward the rear of the home rather than away from the foundation. After heavy rain, that runoff can pond against sill plates and foundation walls for days. Homeowners in these areas sometimes discover mold not from a plumbing failure but from what looks like a dry exterior, the moisture is entering at grade level, invisible until it has already colonized the bottom course of framing. If your home sits on a lot that holds water visibly after rain, that crawl space deserves a look before the next wet season begins.
 
-If you're dealing with a musty smell, visible growth, or a recent water event in your Graham home, call Frontline Fire & Flood at +12532000503. The sooner the moisture source is identified and containment begins, the less material needs to come out, and the faster your home gets back to normal.
+If you're dealing with a musty smell, visible growth, or a recent water event in your Graham home, call Frontline Fire & Flood at (253) 200-0503. The sooner the moisture source is identified and containment begins, the less material needs to come out, and the faster your home gets back to normal.

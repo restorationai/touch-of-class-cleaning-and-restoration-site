@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Kent, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Kent"
-meta_description: "24/7 contents restoration & storage in Kent, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Kent, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage kent"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -53,4 +53,4 @@ Contents losses are frequently underestimated in insurance claims because adjust
 
 Kent's older neighborhoods near the valley floor have a higher proportion of homes with original hardwood floors over crawl spaces, a construction pattern that creates a specific contents problem. When water intrudes from below, the subfloor and finish floor act as a slow wick, and furniture legs, area rugs, and low-profile items sitting on that floor can absorb moisture for days before the surface feels wet to the touch. If you've had any water event in a Kent home with this construction profile, don't wait for visible warping or odor before having contents assessed, by the time you smell it, secondary damage to upholstered pieces is usually already underway.
 
-If your Kent home or rental property has been through a fire, flood, or any loss that's left your belongings in limbo, call Frontline Fire & Flood at +12532000503. We'll inventory, pack out, restore, and return your contents, and we'll document everything your insurance company needs along the way.
+If your Kent home or rental property has been through a fire, flood, or any loss that's left your belongings in limbo, call Frontline Fire & Flood at (253) 200-0503. We'll inventory, pack out, restore, and return your contents, and we'll document everything your insurance company needs along the way.

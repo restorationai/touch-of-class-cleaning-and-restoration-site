@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Kent, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Kent"
-meta_description: "24/7 fire damage restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration kent"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Fire losses generate complex insurance claims. Frontline Fire & Flood documents 
 
 Kent's East Hill neighborhood includes a significant number of homes built with T1-11 wood siding, a panel product common in Pacific Northwest construction from the 1970s onward. After a fire, T1-11 that has been exposed to both heat and suppression water tends to delaminate from the inside out, the surface may look intact while the inner plies have separated and begun to trap moisture. We probe and test these panels rather than assume surface appearance reflects structural condition, because leaving delaminated siding in place creates a hidden moisture reservoir that feeds mold growth behind the wall plane.
 
-If your Kent property has been affected by fire, call Frontline Fire & Flood at +12532000503. We're available around the clock, we carry the certifications to handle smoke, soot, structural damage, and suppression-water moisture under one license (#CCFRONTFF761CB), and we'll begin the documentation your insurance carrier needs from the first hour on site.
+If your Kent property has been affected by fire, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, we carry the certifications to handle smoke, soot, structural damage, and suppression-water moisture under one license (#CCFRONTFF761CB), and we'll begin the documentation your insurance carrier needs from the first hour on site.

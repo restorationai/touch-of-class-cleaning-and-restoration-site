@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in Bellevue, WA | Frontline Fire & Flood"
 h1: "Water Cleanup in Bellevue"
-meta_description: "24/7 water cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water cleanup bellevue"
 secondary_keywords: ["water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Most residential water losses in Bellevue fall under standard HO-3 homeowners po
 
 Bellevue's post-2000 HOA developments, particularly those with shared amenity spaces and connected plumbing systems, often require the HOA board to sign off on any work that touches common-area walls or mechanical chases before a contractor can proceed. If a water loss originates in a unit but migrates into a shared wall assembly, the restoration scope can stall waiting for HOA authorization. Knowing this in advance, Frontline contacts the property management company at the same time as the homeowner, so the authorization process runs parallel to the initial assessment rather than after it.
 
-If you're dealing with standing water, wet flooring, or a ceiling that's beginning to sag from absorbed moisture anywhere in Bellevue, call Frontline Fire & Flood at +12532000503. The line is answered 24/7, and the response is calibrated to the specific construction and climate conditions that make water cleanup in Bellevue its own discipline.
+If you're dealing with standing water, wet flooring, or a ceiling that's beginning to sag from absorbed moisture anywhere in Bellevue, call Frontline Fire & Flood at (253) 200-0503. The line is answered 24/7, and the response is calibrated to the specific construction and climate conditions that make water cleanup in Bellevue its own discipline.

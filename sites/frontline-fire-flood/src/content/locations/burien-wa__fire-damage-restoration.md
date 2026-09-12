@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Burien, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Burien"
-meta_description: "24/7 fire damage restoration in Burien, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Burien, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration burien"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -55,4 +55,4 @@ Most homeowner policies in King County cover sudden and accidental fire losses, 
 
 In Burien's older neighborhoods, many homes have original cedar shake or composition roofs that were not replaced after previous weather events. When a fire vents through the attic, those roof assemblies can appear structurally sound from the ground while the sheathing underneath is compromised. We probe and photograph roof decking as part of every post-fire structural assessment here, it's a step that gets skipped on faster walkthroughs but makes a real difference when the rains come back in October.
 
-If you're dealing with fire or smoke damage in Burien right now, call Frontline Fire & Flood at +12532000503. We'll walk you through what to expect, what not to touch, and how quickly we can be on site, no obligation, no pressure, just straight answers when you need them most.
+If you're dealing with fire or smoke damage in Burien right now, call Frontline Fire & Flood at (253) 200-0503. We'll walk you through what to expect, what not to touch, and how quickly we can be on site, no obligation, no pressure, just straight answers when you need them most.

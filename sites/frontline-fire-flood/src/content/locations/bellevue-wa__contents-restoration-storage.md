@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Bellevue, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Bellevue"
-meta_description: "24/7 contents restoration & storage in Bellevue, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage bellevue"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -46,4 +46,4 @@ For homeowners in Bellevue's HOA-governed communities, there's an additional lay
 
 Bellevue's newer high-density developments, particularly those built in the 2000s and 2010s with open-concept layouts and engineered hardwood throughout, present a specific challenge during contents pack-out: smoke odor migrates through HVAC systems and settles into soft goods across the entire floor plan, not just the room where the fire occurred. Homeowners are sometimes surprised when items from a bedroom on the opposite side of the house from the kitchen fire come back smelling of smoke. We extend the inventory to every room with soft furnishings when the HVAC was running at the time of the loss, because treating only the obvious zone leaves odor behind.
 
-If you're dealing with damage to your Bellevue home and need your belongings protected while the structure is restored, call Frontline Fire & Flood at +12532000503. We're available around the clock, and we can begin the pack-out process as soon as the property is safe to enter.
+If you're dealing with damage to your Bellevue home and need your belongings protected while the structure is restored, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and we can begin the pack-out process as soon as the property is safe to enter.

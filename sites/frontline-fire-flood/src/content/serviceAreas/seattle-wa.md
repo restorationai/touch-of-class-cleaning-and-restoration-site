@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Seattle, WA | Frontline Fire & Flood"
 h1: "Restoration Services in Seattle"
-meta_description: "Serving Seattle, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +12532000503."
+meta_description: "Serving Seattle, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503."
 primary_keyword: "restoration services seattle"
 secondary_keywords: ["seattle restoration company", "damage restoration seattle", "seattle disaster restoration"]
 search_intent: "local_commercial"

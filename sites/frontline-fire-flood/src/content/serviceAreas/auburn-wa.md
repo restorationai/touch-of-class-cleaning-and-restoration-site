@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Auburn, WA | Frontline Fire & Flood"
 h1: "Restoration Services in Auburn"
-meta_description: "Serving Auburn, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +12532000503."
+meta_description: "Serving Auburn, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503."
 primary_keyword: "restoration services auburn"
 secondary_keywords: ["auburn restoration company", "damage restoration auburn", "auburn disaster restoration"]
 search_intent: "local_commercial"

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Gig Harbor, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Gig Harbor"
-meta_description: "24/7 asbestos abatement in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement gig harbor"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -48,4 +48,4 @@ Homeowner's insurance occasionally covers asbestos abatement when the presence o
 
 Gig Harbor homes built in the 1960s and 1970s on the steeper lots above the waterfront were often constructed with textured ceilings in every room, not just living areas, because the acoustic tile and spray texture were considered premium finishes at the time. When those homes go through kitchen or bathroom remodels today, contractors sometimes discover that the texture extends into closets, utility rooms, and attached garages, areas that weren't on the original inspection scope. It's worth asking your abatement team to walk the entire structure, not just the rooms on the renovation plan, before work begins. Finding additional material mid-project is far more disruptive than catching it during the initial survey.
 
-If you're planning a renovation, dealing with a real estate transaction that flagged suspect materials, or simply want to know what's in your home before you start tearing down walls, call Frontline Fire & Flood at +12532000503. We serve Gig Harbor and the surrounding Pierce County peninsula with licensed, EPA Lead-Safe certified crews who treat your home like the investment it is.
+If you're planning a renovation, dealing with a real estate transaction that flagged suspect materials, or simply want to know what's in your home before you start tearing down walls, call Frontline Fire & Flood at (253) 200-0503. We serve Gig Harbor and the surrounding Pierce County peninsula with licensed, EPA Lead-Safe certified crews who treat your home like the investment it is.

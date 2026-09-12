@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Bellevue, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Bellevue"
-meta_description: "24/7 water damage restoration in Bellevue, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration bellevue"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Bellevue has a substantial share of condominium and townhome communities governe
 
 Bellevue's post-2000 HOA developments, particularly in the Eastgate area and in newer attached-home communities, frequently include CC&Rs that require written notice to the association before restoration contractors access shared wall assemblies or building envelope components. In practice, this means that opening a shared wall to dry a wet cavity in a townhome may require HOA approval before work can proceed, even in an emergency. Frontline's project coordinators are familiar with this dynamic and can help homeowners draft the required notice and reach the right HOA contact quickly, so the drying process isn't delayed by administrative back-and-forth.
 
-If you're dealing with standing water, a soaked subfloor, or visible moisture damage anywhere in Bellevue, call Frontline Fire & Flood at +12532000503. The team is available 24/7, and the faster extraction and drying begin, the better the outcome for your structure and your claim.
+If you're dealing with standing water, a soaked subfloor, or visible moisture damage anywhere in Bellevue, call Frontline Fire & Flood at (253) 200-0503. The team is available 24/7, and the faster extraction and drying begin, the better the outcome for your structure and your claim.

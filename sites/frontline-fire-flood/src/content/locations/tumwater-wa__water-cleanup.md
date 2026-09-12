@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in Tumwater, WA | Frontline Fire & Flood"
 h1: "Water Cleanup in Tumwater"
-meta_description: "24/7 water cleanup in Tumwater, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water cleanup in Tumwater, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water cleanup tumwater"
 secondary_keywords: ["water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ If your property is in an area that has experienced repeated flood-related losse
 
 In Tumwater homes with older crawl spaces, we frequently find that a single plumbing event has compounded an existing moisture problem that was already present, ground moisture wicking through an aging or incomplete vapor barrier, combined with inadequate cross-ventilation in the crawl space. The new water damage is the emergency, but the underlying condition is what sets the stage for mold colonization within days. When we document the loss for insurance, we photograph both the acute damage and the pre-existing conditions separately, so the scope is accurate and your carrier isn't asked to cover something that predates the claim.
 
-If you're dealing with standing water, wet walls, or a soaked crawl space anywhere in Tumwater, call Frontline Fire & Flood at +12532000503. We'll assess the full extent of the damage, start drying immediately, and handle the documentation so you can focus on getting your home back to normal.
+If you're dealing with standing water, wet walls, or a soaked crawl space anywhere in Tumwater, call Frontline Fire & Flood at (253) 200-0503. We'll assess the full extent of the damage, start drying immediately, and handle the documentation so you can focus on getting your home back to normal.

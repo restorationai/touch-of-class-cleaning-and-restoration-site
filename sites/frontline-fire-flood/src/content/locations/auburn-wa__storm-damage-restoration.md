@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Auburn, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Auburn"
-meta_description: "24/7 storm damage restoration in Auburn, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Auburn, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration auburn"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ For properties in Auburn's planned communities or neighborhoods with active home
 
 One pattern that shows up repeatedly in Auburn's valley-floor neighborhoods is what crews call a "hidden soffit failure." Wind lifts a section of aluminum soffit, water enters the eave cavity, and the homeowner sees nothing inside for days, sometimes weeks, because the water is wicking laterally along the top of the ceiling drywall rather than dripping through. By the time a stain appears, the insulation above the ceiling is fully saturated and mold has had a meaningful head start. If your soffit took a hit in a storm, it's worth having the eave cavity checked with a moisture meter even if your ceilings look dry.
 
-If your Auburn property has been hit by a storm, whether it's a tree through the roof, wind-driven rain through a failed wall, or standing water from overwhelmed drainage, call Frontline Fire & Flood at +12532000503. We're available around the clock, and we'll have a crew moving toward you while you're still on the phone.
+If your Auburn property has been hit by a storm, whether it's a tree through the roof, wind-driven rain through a failed wall, or standing water from overwhelmed drainage, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and we'll have a crew moving toward you while you're still on the phone.

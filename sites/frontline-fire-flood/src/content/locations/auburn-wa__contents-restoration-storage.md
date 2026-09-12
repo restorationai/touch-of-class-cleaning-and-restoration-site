@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Auburn, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Auburn"
-meta_description: "24/7 contents restoration & storage in Auburn, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Auburn, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage auburn"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -50,4 +50,4 @@ If your policy includes Additional Living Expenses (ALE) coverage, the timeline 
 
 Auburn's mix of older ranch homes and newer construction means pack-out crews sometimes encounter lead-based paint on pre-1978 trim and cabinetry that gets disturbed during a loss event. If a water or fire loss has cracked or peeled painted surfaces in a home built before 1978, EPA Lead-Safe certified handling protocols apply to how debris and dust are managed during the contents removal process, not just during structural repairs. Frontline carries EPA Lead-Safe certification, so that consideration is built into how the pack-out is conducted, not treated as an afterthought once the crew is already on-site.
 
-If smoke, water, or fire damage has put your belongings at risk in Auburn, call Frontline Fire & Flood at +12532000503. The contents inventory starts the moment the crew arrives, and your items stay documented and protected from pack-out through the day they come home.
+If smoke, water, or fire damage has put your belongings at risk in Auburn, call Frontline Fire & Flood at (253) 200-0503. The contents inventory starts the moment the crew arrives, and your items stay documented and protected from pack-out through the day they come home.

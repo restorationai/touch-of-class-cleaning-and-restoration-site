@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Fife, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Fife"
-meta_description: "24/7 water damage restoration in Fife, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Fife, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration fife"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Water damage claims in Fife follow the same carrier processes as elsewhere in Pi
 
 One thing that catches property owners off guard in Fife's lower-elevation areas near the Puyallup River corridor: crawl space vapor barriers that look intact from the access hatch can be torn, collapsed, or missing entirely further back under the structure, and standing water in that zone can go unnoticed for weeks. During any water loss that affects the perimeter of a building, it's worth having the crawl space inspected even if the primary damage is on the floor above. Moisture that sits in an enclosed crawl space in Fife's mild, damp climate will begin supporting mold growth well before it becomes visible from inside the home.
 
-If you're dealing with water damage in Fife right now, call Frontline Fire & Flood at +12532000503. A certified technician will assess the damage, start extraction, and give you a clear picture of what drying will take, so you're not left guessing while the clock runs.
+If you're dealing with water damage in Fife right now, call Frontline Fire & Flood at (253) 200-0503. A certified technician will assess the damage, start extraction, and give you a clear picture of what drying will take, so you're not left guessing while the clock runs.

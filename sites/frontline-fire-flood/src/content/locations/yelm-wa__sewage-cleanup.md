@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Yelm, WA | Frontline Fire & Flood"
 h1: "Sewage Cleanup and Sanitization in Yelm"
-meta_description: "24/7 sewage cleanup and sanitization in Yelm, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 sewage cleanup and sanitization in Yelm, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization yelm"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -58,4 +58,4 @@ If coverage turns out to be limited or absent, the same documentation helps you 
 
 Yelm's rural residential lots, particularly those on larger parcels where septic systems were installed decades ago, often have tank access lids buried under landscaping or outbuildings added after the original installation. Before a crew can fully assess a septic-related backup, locating the tank and its access points is sometimes the first obstacle. If you know where your tank is and have a recent pump record, have that information ready when you call, it can meaningfully speed up the initial assessment and reduce the time before extraction begins.
 
-Sewage in a Yelm home doesn't wait, and neither should the response. Call Frontline Fire & Flood at +12532000503 any time, the crew dispatches from Lakewood and is equipped to handle the full scope of contaminated water removal, structural drying, and sanitization that a sewage backup in this area demands.
+Sewage in a Yelm home doesn't wait, and neither should the response. Call Frontline Fire & Flood at (253) 200-0503 any time, the crew dispatches from Lakewood and is equipped to handle the full scope of contaminated water removal, structural drying, and sanitization that a sewage backup in this area demands.

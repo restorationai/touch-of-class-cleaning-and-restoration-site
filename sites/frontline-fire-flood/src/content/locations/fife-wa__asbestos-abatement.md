@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Fife, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Fife"
-meta_description: "24/7 asbestos abatement in Fife, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Fife, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement fife"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -50,4 +50,4 @@ Pierce County and the applicable state agencies require notification and, in man
 
 Properties along Fife's lower-lying streets, particularly those built on fill or near the Puyallup River drainage corridor, tend to have crawl spaces and basement slabs that have experienced repeated moisture cycling over the decades. That repeated wetting and drying accelerates the deterioration of asbestos-containing pipe wrap and floor mastic, making those materials more friable than the same products would be in a drier climate or a better-drained site. A visual inspection that looks unremarkable in a dry summer can reveal a very different picture after a wet winter. If your property sits in this part of the valley and hasn't had an asbestos survey, the combination of building age and moisture history makes one worth scheduling before you plan any work.
 
-If you're dealing with a renovation, a damage event, or simply an unanswered question about what's in your Fife property, call Frontline Fire & Flood at +12532000503. We'll walk you through the inspection process, explain what the results mean, and handle abatement from containment through final air clearance, so the work is done right and documented for whatever comes next.
+If you're dealing with a renovation, a damage event, or simply an unanswered question about what's in your Fife property, call Frontline Fire & Flood at (253) 200-0503. We'll walk you through the inspection process, explain what the results mean, and handle abatement from containment through final air clearance, so the work is done right and documented for whatever comes next.

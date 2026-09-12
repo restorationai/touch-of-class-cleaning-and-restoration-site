@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Federal Way, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Federal Way"
-meta_description: "24/7 storm damage restoration in Federal Way, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration federal way"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ Storm damage claims are among the more contested residential claims in Western W
 
 Federal Way has a significant number of homes in HOA-governed communities, and several of those associations have specific requirements about contractor staging, debris removal timelines, and even the appearance of tarps on roofs, some prohibit blue poly tarps visible from the street and require a specific color or material. Before work begins on HOA properties, it is worth a quick check of the association's CC&Rs or a call to the property manager, because a tarp that violates HOA rules can generate a fine that lands on the homeowner even in the middle of an active insurance claim. This is a detail that comes up often enough in Federal Way that it is worth flagging at the start of every job in a governed community.
 
-If your property has been hit by storm damage, call Frontline Fire & Flood at +12532000503. The team is available around the clock, and the sooner the structure is stabilized and drying begins, the smaller the total scope of damage tends to be.
+If your property has been hit by storm damage, call Frontline Fire & Flood at (253) 200-0503. The team is available around the clock, and the sooner the structure is stabilized and drying begins, the smaller the total scope of damage tends to be.

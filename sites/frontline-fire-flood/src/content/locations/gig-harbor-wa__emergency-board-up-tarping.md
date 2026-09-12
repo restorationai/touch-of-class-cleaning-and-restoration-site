@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Gig Harbor, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Gig Harbor"
-meta_description: "24/7 emergency board-up and tarping in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping gig harbor"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ If your property falls under an HOA, notify them as soon as possible after we se
 
 Homes on the bluff-top streets above the harbor face a specific challenge that flat-lot properties don't: wind shear. When a storm tracks across Puget Sound and hits the Gig Harbor bluffs, it accelerates as it rises, the same storm that produces 25 mph gusts at water level can produce 40+ mph gusts at roof height on the elevated lots. A tarp installation that would hold fine on a protected lot can fail on a bluff property if it isn't anchored with additional ballast and batten reinforcement. We adjust our anchoring method based on site elevation and exposure, not just the size of the damaged area.
 
-If your home has been damaged and the structure is open to the weather, call Frontline Fire & Flood at +12532000503. We'll secure the property, document the loss, and help you move toward repair rather than watching the damage grow.
+If your home has been damaged and the structure is open to the weather, call Frontline Fire & Flood at (253) 200-0503. We'll secure the property, document the loss, and help you move toward repair rather than watching the damage grow.

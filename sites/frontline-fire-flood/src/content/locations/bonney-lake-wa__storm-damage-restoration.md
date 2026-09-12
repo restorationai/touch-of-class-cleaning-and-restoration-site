@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Bonney Lake, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Bonney Lake"
-meta_description: "24/7 storm damage restoration in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration bonney lake"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -56,4 +56,4 @@ If your property is in a planned community with HOA oversight, we're accustomed 
 
 Bonney Lake's rapid residential growth through the late 1990s and 2000s means many homes were built during a period when synthetic roofing underlayments were standard but installation quality varied widely by builder. When wind events lift or crack shingles on these roofs, the underlayment is often the only barrier keeping water out of the sheathing, and it's frequently the first thing to fail. Homeowners who see interior ceiling staining after a storm should treat it as a structural drying issue, not just a cosmetic one, because the OSB decking above may already be holding moisture that won't be visible from the attic for days.
 
-If your property has been hit by this season's storms, call Frontline Fire & Flood at +12532000503. We'll assess the full extent of the damage, document everything for your insurer, and get Bonney Lake's weather out of your walls.
+If your property has been hit by this season's storms, call Frontline Fire & Flood at (253) 200-0503. We'll assess the full extent of the damage, document everything for your insurer, and get Bonney Lake's weather out of your walls.

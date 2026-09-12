@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Bellevue, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Bellevue"
-meta_description: "24/7 fire damage restoration in Bellevue, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration bellevue"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -60,4 +60,4 @@ For properties governed by an HOA, and Bellevue has a significant number of them
 
 Bellevue's newer townhome and attached-unit developments frequently use engineered lumber and advanced framing techniques that behave differently under fire and smoke exposure than dimensional lumber. Engineered I-joists, for instance, can lose structural integrity faster in a fire event than solid-sawn members, but they also off-gas differently during the smoldering phase, producing smoke compounds that are harder to neutralize with standard thermal fogging alone. If your home was built after roughly 2000 and uses open-web floor trusses or LVL beams, we assess those members specifically before clearing the structure as safe for occupancy or reconstruction.
 
-If your property has been affected by fire or smoke, call Frontline Fire & Flood at +12532000503. We respond around the clock, and the sooner the assessment begins, the more of your home, and its contents, we can protect.
+If your property has been affected by fire or smoke, call Frontline Fire & Flood at (253) 200-0503. We respond around the clock, and the sooner the assessment begins, the more of your home, and its contents, we can protect.

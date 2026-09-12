@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in South Hill, WA | Frontline Fire & Flood"
 h1: "Water Cleanup in South Hill"
-meta_description: "24/7 water cleanup in South Hill, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water cleanup in South Hill, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water cleanup south hill"
 secondary_keywords: ["water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Seattle, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Seattle"
-meta_description: "24/7 emergency board-up and tarping in Seattle, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Seattle, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping seattle"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Most standard homeowner policies in Washington cover emergency protective measur
 
 In Seattle's older hillside neighborhoods, where homes were built into steep lots with daylight basements and exposed foundation walls, a breached lower-level window or door isn't just a weather exposure, it's a potential entry point for the kind of ground saturation that Seattle's clay-heavy soils produce after heavy rain. Clay doesn't drain; it holds. A basement opening left unsecured during a multi-day rain event can result in hydrostatic pressure forcing water through the foundation wall independent of the breach itself. When Frontline boards up a lower-level opening on a hillside property, the crew flags this condition in the documentation so the homeowner and their adjuster understand the full risk picture, not just the visible damage.
 
-If a fire, storm, or break-in has left your Seattle property exposed, the window for preventing secondary damage is measured in hours, not days. Call Frontline Fire & Flood at +12532000503 any time, day or night, and a crew will be moving toward your address.
+If a fire, storm, or break-in has left your Seattle property exposed, the window for preventing secondary damage is measured in hours, not days. Call Frontline Fire & Flood at (253) 200-0503 any time, day or night, and a crew will be moving toward your address.

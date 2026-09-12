@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Federal Way, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Federal Way"
-meta_description: "24/7 water damage restoration in Federal Way, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration federal way"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Most water damage losses in Federal Way fall under standard homeowners' policies
 
 One thing that comes up repeatedly in Federal Way's Twin Lakes and Steel Lake areas: homes on lots adjacent to drainage easements or retention ponds sometimes have secondary foundation drains that tie into the city storm system rather than a private sump. When those storm lines back up during heavy rain events, which happens in this part of King County when regional capacity is exceeded, water can enter the foundation from the drain side rather than the surface. Standard sump pump checks won't catch this. If your basement or crawl space floods only during major rain events and your sump appears to be running, the storm tie-in is worth investigating before assuming the sump has failed.
 
-If you're seeing water in your home or business in Federal Way, call Frontline Fire & Flood at +12532000503. We're on call around the clock, and we'll tell you honestly what we're seeing and what it will take to get your property dry.
+If you're seeing water in your home or business in Federal Way, call Frontline Fire & Flood at (253) 200-0503. We're on call around the clock, and we'll tell you honestly what we're seeing and what it will take to get your property dry.

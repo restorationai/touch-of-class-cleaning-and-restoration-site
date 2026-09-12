@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Graham, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Graham"
-meta_description: "24/7 storm damage restoration in Graham, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Graham, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration graham"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ If your property has a homeowners association with exterior repair or contractor
 
 One pattern worth knowing: Graham's clay-dominant soils don't just slow surface drainage, they hold hydrostatic pressure against foundation walls long after a storm passes. A crawl space that looks dry two days after a storm event can still have elevated moisture in the rim joist and sill plate because the surrounding soil is releasing water slowly into the foundation perimeter. We've seen this pattern repeatedly in the rural residential areas of Pierce County, and it's why we don't close out a storm moisture job based on a single post-storm reading. Drying protocol here runs longer than it would on a site with sandy or gravelly soil, and skipping that step is how a storm claim turns into a mold remediation six weeks later.
 
-If your home has been hit by this storm season and you're not sure how far the damage goes, call Frontline Fire & Flood at +12532000503. We respond around the clock, assess the full scope, not just what's visible, and get the documentation started so your claim and your home can move forward at the same time.
+If your home has been hit by this storm season and you're not sure how far the damage goes, call Frontline Fire & Flood at (253) 200-0503. We respond around the clock, assess the full scope, not just what's visible, and get the documentation started so your claim and your home can move forward at the same time.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Kent, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Kent"
-meta_description: "24/7 emergency board-up and tarping in Kent, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Kent, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping kent"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Board-up and tarping is typically covered under the "mitigation" or "protective 
 
 Kent's East Hill plateau, the elevated residential area rising east of the valley, has a concentration of homes built during the 1970s and 1980s with T1-11 plywood siding, a material that was common in that era and that region. T1-11 is grooved vertically, which means water tracks down the grooves and into any gap at window or door penetrations faster than it would on smooth siding. When a window is broken or a door frame is damaged on one of these homes, the siding itself can wick moisture into the wall cavity within a single rain event. Board-up on T1-11 structures requires careful attention to the perimeter seal, just covering the opening isn't enough if the siding channels water around the edges of the plywood patch.
 
-If you're dealing with a damaged structure in Kent right now, call Frontline Fire & Flood at +12532000503. We'll assess the openings, secure the structure against the next rainstorm, and document everything your insurance company needs, so you're not fighting a water damage claim on top of whatever brought you here.
+If you're dealing with a damaged structure in Kent right now, call Frontline Fire & Flood at (253) 200-0503. We'll assess the openings, secure the structure against the next rainstorm, and document everything your insurance company needs, so you're not fighting a water damage claim on top of whatever brought you here.

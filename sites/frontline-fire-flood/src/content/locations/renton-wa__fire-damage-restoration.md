@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Renton, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Renton"
-meta_description: "24/7 fire damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration renton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ For properties in HOA-governed communities in Renton, exterior repairs, window b
 
 Renton's older hillside homes frequently have cedar shake or composition roofs over skip-sheathing rather than solid decking. After a fire that reaches the attic or roofline, that skip-sheathing can appear structurally sound from below while individual boards are charred through on the top face, a condition that is not visible until someone is physically on the roof. Frontline's technicians document roof assemblies from above as part of the initial assessment, because what the adjuster sees in photos from the ground and what is actually there are sometimes two different things.
 
-If your property in Renton has been affected by fire or smoke, call Frontline Fire & Flood at +12532000503. Crews are available 24/7, and the assessment begins the moment the site is safe to enter.
+If your property in Renton has been affected by fire or smoke, call Frontline Fire & Flood at (253) 200-0503. Crews are available 24/7, and the assessment begins the moment the site is safe to enter.

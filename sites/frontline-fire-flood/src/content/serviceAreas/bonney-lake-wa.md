@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Bonney Lake, WA | Frontline Fire & Flood"
 h1: "Restoration Services in Bonney Lake"
-meta_description: "Serving Bonney Lake, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +12532000503."
+meta_description: "Serving Bonney Lake, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503."
 primary_keyword: "restoration services bonney lake"
 secondary_keywords: ["bonney lake restoration company", "damage restoration bonney lake", "bonney lake disaster restoration"]
 search_intent: "local_commercial"

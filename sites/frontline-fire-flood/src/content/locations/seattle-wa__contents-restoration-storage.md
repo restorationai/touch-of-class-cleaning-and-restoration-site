@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Contents Restoration & Storage in Seattle, WA | Frontline Fire & Flood"
 h1: "Contents Restoration & Storage in Seattle"
-meta_description: "24/7 contents restoration & storage in Seattle, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 contents restoration & storage in Seattle, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "contents restoration & storage seattle"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -55,4 +55,4 @@ For properties in older Seattle neighborhoods, contents claims sometimes surface
 
 In Seattle's older craftsman and Victorian-era homes, wood-framed interior walls and original hardwood floors create a hidden complication for contents restoration: residual odor. Smoke and water both penetrate the gaps between original floorboards and settle into the subfloor, then off-gas slowly into the living space, meaning contents you've already cleaned can re-absorb odors if they're returned before the structure is fully addressed. We flag this during the initial assessment and coordinate the return-delivery timing with the structural remediation team so restored items aren't re-contaminated before you move back in.
 
-If you're dealing with fire, water, or smoke damage to your Seattle home and need your belongings protected while repairs are underway, call Frontline Fire & Flood at +12532000503. We respond around the clock, document everything, and return your contents when your home is ready, not before.
+If you're dealing with fire, water, or smoke damage to your Seattle home and need your belongings protected while repairs are underway, call Frontline Fire & Flood at (253) 200-0503. We respond around the clock, document everything, and return your contents when your home is ready, not before.

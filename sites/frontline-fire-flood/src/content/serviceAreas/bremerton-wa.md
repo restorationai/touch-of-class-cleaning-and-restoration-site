@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Bremerton, WA | Frontline Fire & Flood"
 h1: "Restoration Services in Bremerton"
-meta_description: "Serving Bremerton, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +12532000503."
+meta_description: "Serving Bremerton, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503."
 primary_keyword: "restoration services bremerton"
 secondary_keywords: ["bremerton restoration company", "damage restoration bremerton", "bremerton disaster restoration"]
 search_intent: "local_commercial"

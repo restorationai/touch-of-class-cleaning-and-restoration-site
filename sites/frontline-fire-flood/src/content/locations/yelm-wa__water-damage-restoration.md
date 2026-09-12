@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Yelm, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Yelm"
-meta_description: "24/7 water damage restoration in Yelm, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Yelm, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration yelm"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Most standard homeowners' policies cover sudden and accidental water damage, a b
 
 One thing that catches Yelm homeowners off guard: manufactured homes in this area are frequently set on a perimeter foundation with a sealed crawl space below, and the vapor barrier under the home is often the first thing to fail when ground moisture rises. From inside the home, the floors may feel slightly soft or smell musty long before any visible water appears. By the time a homeowner notices, the subfloor OSB, which absorbs moisture much faster than older plank subfloor, can already be swelling at the seams. Getting a moisture reading under the chassis early, rather than waiting for visible damage, is the difference between a drying job and a subfloor replacement.
 
-If water damage has reached your home or property in Yelm, call Frontline Fire & Flood at +12532000503. The line is answered 24 hours a day, and a certified technician can walk you through immediate steps while the crew is en route.
+If water damage has reached your home or property in Yelm, call Frontline Fire & Flood at (253) 200-0503. The line is answered 24 hours a day, and a certified technician can walk you through immediate steps while the crew is en route.

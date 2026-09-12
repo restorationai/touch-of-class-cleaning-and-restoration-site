@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Cleanup in Bremerton, WA | Frontline Fire & Flood"
 h1: "Water Cleanup in Bremerton"
-meta_description: "24/7 water cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water cleanup bremerton"
 secondary_keywords: ["water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ If your property is financed, your lender may require proof of remediation befor
 
 In Bremerton's mid-century neighborhoods, crawl space conditions are often the hidden driver behind water damage that seems to originate from plumbing or appliances. Many of these homes have original vapor barriers, or none at all, and the crawl space venting was designed for a drier climate assumption that doesn't hold on the Kitsap Peninsula. When a supply line drips or a drain leaks slowly, the crawl space absorbs moisture for weeks before it migrates up into subfloor framing. By the time a homeowner notices a soft spot in the floor or a musty smell in the living space, the structural drying timeline is already longer than it would be for a newer slab-on-grade home. We scope crawl spaces on every water loss call in Bremerton, not as an upsell, but because skipping that step routinely leads to call-backs.
 
-If you're dealing with standing water, wet flooring, or a leak that's been running longer than you realized, call Frontline Fire & Flood at +12532000503. We're available around the clock, and we'll have a crew moving toward Bremerton while you're still on the phone.
+If you're dealing with standing water, wet flooring, or a leak that's been running longer than you realized, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and we'll have a crew moving toward Bremerton while you're still on the phone.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Auburn, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Auburn"
-meta_description: "24/7 asbestos abatement in Auburn, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Auburn, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement auburn"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -54,4 +54,4 @@ For Auburn properties in HOA-governed communities, some associations require adv
 
 Auburn's older neighborhoods near the valley floor, areas that developed close to the Green River, tend to have homes with original crawl space ductwork wrapped in what was marketed at the time as "air cell" or "magnesia" insulation. That material frequently contains asbestos and is often overlooked during a standard home inspection because it's out of sight. If you're buying, selling, or renovating a home in Auburn that was built before 1975 and still has original HVAC ductwork, it's worth having that crawl space insulation sampled before any HVAC work touches it. Disturbing it during a routine duct cleaning or furnace replacement is one of the more common unintentional exposure scenarios we see in this part of King County.
 
-If you're dealing with a potential asbestos situation in Auburn, whether it's a renovation project, a damage claim, or a property transaction, call Frontline Fire & Flood at +12532000503. We'll walk you through what testing makes sense, what abatement requires, and how to keep the project on track without cutting corners on safety.
+If you're dealing with a potential asbestos situation in Auburn, whether it's a renovation project, a damage claim, or a property transaction, call Frontline Fire & Flood at (253) 200-0503. We'll walk you through what testing makes sense, what abatement requires, and how to keep the project on track without cutting corners on safety.

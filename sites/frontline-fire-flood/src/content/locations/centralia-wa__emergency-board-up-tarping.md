@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Centralia, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Centralia"
-meta_description: "24/7 emergency board-up and tarping in Centralia, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping centralia"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Most standard homeowners policies cover emergency board-up and tarping as a miti
 
 Older homes in the Centralia area that have been re-roofed one or more times over the decades sometimes have layered roofing assemblies, original wood shake beneath a later composition layer, for example. When fire or storm damage exposes that layered structure, a standard tarp installation anchored to the outermost layer may not have the purchase it appears to. During our roof assessments on older Lewis County properties, we probe for delaminated or deteriorated underlayers before committing to anchor points, because a tarp that pulls free in the next wind event has done nothing to protect the home.
 
-If your Centralia property has been damaged by fire, storm, or any event that has left it exposed to the elements, call Frontline Fire & Flood at +12532000503. We are available around the clock, and the sooner the structure is secured, the more of it there is left to restore.
+If your Centralia property has been damaged by fire, storm, or any event that has left it exposed to the elements, call Frontline Fire & Flood at (253) 200-0503. We are available around the clock, and the sooner the structure is secured, the more of it there is left to restore.

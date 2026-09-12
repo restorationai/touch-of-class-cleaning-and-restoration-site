@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Seattle, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Seattle"
-meta_description: "24/7 storm damage restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration seattle"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Frontline documents the loss in a format that supports your claim: timestamped p
 
 One thing that catches homeowners off guard in Seattle's older neighborhoods: cedar shake roofs that appear intact from the ground can be hiding significant storm damage at the ridge and valley intersections. After a high-wind event, individual shakes may shift just enough to break the weather seal without visibly lifting or cracking. In neighborhoods like Ballard, where shake roofs are common on bungalows and Craftsman-era homes, we recommend a close-contact inspection of ridge caps and valley flashing after any storm with sustained gusts above 40 mph, surface-level visual checks from the ground frequently miss the breaches that lead to attic moisture problems weeks later.
 
-If your Seattle property has taken storm damage, whether it's a downed tree, a compromised roof, wind-driven water intrusion, or foundation flooding from saturated soils, call Frontline Fire & Flood at +12532000503. We're available around the clock, and the sooner the structure is stabilized and drying begins, the less secondary damage you'll be dealing with down the road.
+If your Seattle property has taken storm damage, whether it's a downed tree, a compromised roof, wind-driven water intrusion, or foundation flooding from saturated soils, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and the sooner the structure is stabilized and drying begins, the less secondary damage you'll be dealing with down the road.

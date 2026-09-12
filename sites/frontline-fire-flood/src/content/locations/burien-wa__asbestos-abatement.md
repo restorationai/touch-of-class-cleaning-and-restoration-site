@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Burien, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Burien"
-meta_description: "24/7 asbestos abatement in Burien, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Burien, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement burien"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -46,4 +46,4 @@ Asbestos abatement in Burien falls under King County permitting requirements whe
 
 Burien's older homes frequently have two or three layers of resilient flooring stacked on top of each other, a pattern common in the region's post-war housing where new vinyl was laid directly over existing tile rather than removed. The bottom layer, often a 9×9-inch floor tile with black mastic adhesive, is almost always from an era when asbestos content was standard. Contractors unfamiliar with the area sometimes test only the visible surface layer and miss what's underneath. A thorough inspection in a Burien home means lifting a corner and accounting for every layer, because abatement scope and cost change significantly when that second or third layer tests positive.
 
-If you've discovered suspect materials during a remodel, inherited an older property, or are preparing for a sale and need documentation, call Frontline Fire & Flood at +12532000503. The process starts with an inspection, and knowing what's there is always better than finding out mid-demolition.
+If you've discovered suspect materials during a remodel, inherited an older property, or are preparing for a sale and need documentation, call Frontline Fire & Flood at (253) 200-0503. The process starts with an inspection, and knowing what's there is always better than finding out mid-demolition.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Graham, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in Graham"
-meta_description: "24/7 water damage restoration in Graham, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in Graham, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration graham"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -55,4 +55,4 @@ Most water damage losses in Graham are covered under standard HO-3 homeowners' p
 
 Frontline works directly with most major carriers, providing the moisture logs, equipment records, and photo documentation adjusters need to process a structural drying claim. We can also communicate directly with your adjuster so you are not translating technical drying data into insurance language on your own.
 
-If you are dealing with water damage in Graham right now, whether it is a flooded crawl space, a soaked subfloor, or water behind walls you cannot see yet, call Frontline Fire & Flood at +12532000503. The longer water sits in Pierce County's damp conditions, the more structure it reaches.
+If you are dealing with water damage in Graham right now, whether it is a flooded crawl space, a soaked subfloor, or water behind walls you cannot see yet, call Frontline Fire & Flood at (253) 200-0503. The longer water sits in Pierce County's damp conditions, the more structure it reaches.

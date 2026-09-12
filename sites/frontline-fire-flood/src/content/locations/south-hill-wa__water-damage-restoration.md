@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in South Hill, WA | Frontline Fire & Flood"
 h1: "Water Damage Restoration in South Hill"
-meta_description: "24/7 water damage restoration in South Hill, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 water damage restoration in South Hill, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration south hill"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ If the property is part of a homeowners association, the crew can coordinate dir
 
 Homes in South Hill built on the hillier terrain toward the eastern part of the community sometimes have split-level or daylight-basement configurations where the lower level sits partially below grade. When water intrudes into those spaces, the concrete or block foundation walls can wick moisture laterally for several feet beyond the visible wet zone. Standard drying setups designed for above-grade rooms often underperform in these configurations, the crew adjusts dehumidifier placement and air mover angles specifically for below-grade geometry, and drying timelines for those spaces typically run longer than a comparable above-grade loss of the same square footage.
 
-If you're dealing with water damage in South Hill right now, call Frontline Fire & Flood at +12532000503. The line is answered 24/7, and the crew can mobilize immediately, before the moisture has time to reach the framing.
+If you're dealing with water damage in South Hill right now, call Frontline Fire & Flood at (253) 200-0503. The line is answered 24/7, and the crew can mobilize immediately, before the moisture has time to reach the framing.

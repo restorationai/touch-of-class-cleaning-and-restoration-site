@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Auburn, WA | Frontline Fire & Flood"
 h1: "Fire Damage Restoration in Auburn"
-meta_description: "24/7 fire damage restoration in Auburn, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 fire damage restoration in Auburn, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration auburn"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Fire claims in Auburn move through the same standard carrier process as anywhere
 
 Auburn's older downtown-adjacent homes frequently have original cedar shake or composition roofing over skip sheathing rather than solid decking. When a fire reaches the attic space in one of these structures, the skip sheathing allows flame and smoke to travel laterally across the entire attic floor before breaking through at a single visible point. That means the char pattern on the ceiling below can look localized while the attic above has sustained damage across a much wider area. Crews working in Auburn's older residential blocks always inspect the full attic run, not just the area above the room of origin, before finalizing a scope.
 
-If a fire has affected your Auburn home or property, the decisions made in the first 48 hours have a direct effect on what can be saved, what the insurance scope covers, and how long the restoration takes. Call Frontline Fire & Flood at +12532000503, crews are available 24/7, and a coordinator will assess your situation and get the right team moving toward Auburn.
+If a fire has affected your Auburn home or property, the decisions made in the first 48 hours have a direct effect on what can be saved, what the insurance scope covers, and how long the restoration takes. Call Frontline Fire & Flood at (253) 200-0503, crews are available 24/7, and a coordinator will assess your situation and get the right team moving toward Auburn.

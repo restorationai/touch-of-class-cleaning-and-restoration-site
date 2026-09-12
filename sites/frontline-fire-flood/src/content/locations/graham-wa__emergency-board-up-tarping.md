@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Graham, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Graham"
-meta_description: "24/7 emergency board-up and tarping in Graham, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Graham, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping graham"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ If the property is part of a Pierce County HOA, some associations have appearanc
 
 One thing that catches people off guard in Graham's older rural parcels is the prevalence of wood-framed outbuildings, barns, workshops, detached garages, that were built without permits and don't appear on county records. When a fire or windstorm damages one of these structures, the board-up scope can be harder to price sight-unseen because the framing dimensions are non-standard and the sheathing materials are often a mix of whatever was available at the time. We've learned to bring extra material on calls in this part of Pierce County rather than making a second trip, because the nearest lumber yard isn't always a quick detour from a rural Graham address.
 
-If your property has been damaged by fire, wind, or storm and you need openings secured before the weather or the night makes things worse, call Frontline Fire & Flood at +12532000503. We're available around the clock, and we know what it takes to protect a Graham property until permanent repairs can begin.
+If your property has been damaged by fire, wind, or storm and you need openings secured before the weather or the night makes things worse, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and we know what it takes to protect a Graham property until permanent repairs can begin.

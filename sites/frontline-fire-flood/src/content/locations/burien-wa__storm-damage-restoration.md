@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Burien, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Burien"
-meta_description: "24/7 storm damage restoration in Burien, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Burien, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration burien"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Storm damage claims in King County typically involve a homeowner's policy for wi
 
 Burien's mature tree canopy, the large Douglas firs and big-leaf maples that line many residential streets, is one of the city's defining features, but it's also one of the most consistent sources of storm damage in the area. These trees have deep root systems, but saturated soils after prolonged rain reduce their stability significantly. When a large limb or full tree comes down on a structure, the impact damage is often only part of the problem: the breach it creates allows rain to enter for hours before the tree can be safely removed, and by then water has moved well beyond the point of impact. If a tree has come down on your property, call us before the tree service, we can assess and document the water intrusion while the debris is still in place, which preserves the integrity of your claim.
 
-If you're dealing with storm damage right now, call Frontline Fire & Flood at +12532000503. We're available around the clock, and our team can be moving toward Burien the moment you hang up the phone. License #CCFRONTFF761CB.
+If you're dealing with storm damage right now, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, and our team can be moving toward Burien the moment you hang up the phone. License #CCFRONTFF761CB.

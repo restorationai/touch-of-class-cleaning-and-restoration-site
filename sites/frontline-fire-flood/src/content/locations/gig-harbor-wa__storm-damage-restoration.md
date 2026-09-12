@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Gig Harbor, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Gig Harbor"
-meta_description: "24/7 storm damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration gig harbor"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Storm damage claims in Pierce County tend to involve multiple trades, roofing, s
 
 One pattern we see on the Gig Harbor peninsula that catches homeowners off guard: the combination of clay soils and sloped lots means that storm runoff doesn't always drain away from foundations the way it would on flatter terrain. Water that enters a crawl space during a major storm event often isn't from a roof failure at all, it's ground saturation wicking up through foundation vents or through the stem wall itself. If your crawl space smells earthy or musty after a storm and you can't find an obvious roof breach, the entry point may be below grade rather than above it. That distinction changes the remediation approach entirely, and it's worth having a technician check both the envelope and the crawl before assuming the source.
 
-If storm damage has hit your Gig Harbor property, call Frontline Fire & Flood at +12532000503. We're available 24/7, we know the peninsula, and we'll get crews moving before the next weather system arrives.
+If storm damage has hit your Gig Harbor property, call Frontline Fire & Flood at (253) 200-0503. We're available 24/7, we know the peninsula, and we'll get crews moving before the next weather system arrives.

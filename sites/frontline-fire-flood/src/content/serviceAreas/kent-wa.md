@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Kent, WA | Frontline Fire & Flood"
 h1: "Restoration Services in Kent"
-meta_description: "Serving Kent, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +12532000503."
+meta_description: "Serving Kent, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503."
 primary_keyword: "restoration services kent"
 secondary_keywords: ["kent restoration company", "damage restoration kent", "kent disaster restoration"]
 search_intent: "local_commercial"

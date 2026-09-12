@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Seattle, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Seattle"
-meta_description: "24/7 mold remediation in Seattle, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Seattle, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation seattle"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -54,4 +54,4 @@ For condo owners and HOA-governed properties, remediation scope can get complica
 
 In Capitol Hill and First Hill, many buildings constructed between the 1910s and 1940s used true-dimension lumber framing, studs and joists that are actually 2×4 inches rather than the nominal dimensions of modern lumber. That denser, old-growth wood is more resistant to mold penetration than modern kiln-dried framing, but it also holds moisture longer once it gets wet. When we're reading moisture meters in those walls, we account for the fact that surface readings can look acceptable while the core of a thick old-growth stud is still saturated. Drying protocols in those buildings run longer than they would in a comparable post-1980 home.
 
-If you're seeing discoloration on walls, smelling something musty in a closet or crawl space, or dealing with a recent water event in a Seattle property, call Frontline Fire & Flood at +12532000503. We'll assess the situation, explain what we find in plain language, and walk you through remediation options before any work begins.
+If you're seeing discoloration on walls, smelling something musty in a closet or crawl space, or dealing with a recent water event in a Seattle property, call Frontline Fire & Flood at (253) 200-0503. We'll assess the situation, explain what we find in plain language, and walk you through remediation options before any work begins.

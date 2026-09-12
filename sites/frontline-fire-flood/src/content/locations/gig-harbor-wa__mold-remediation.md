@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Gig Harbor, WA | Frontline Fire & Flood"
 h1: "Mold Remediation in Gig Harbor"
-meta_description: "24/7 mold remediation in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 mold remediation in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "mold remediation gig harbor"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -50,4 +50,4 @@ For properties in HOA communities, and Gig Harbor has a number of them, particul
 
 Gig Harbor's waterfront and near-water properties present a condition worth knowing: homes built close to the harbor or along tidal inlets often have concrete block or poured concrete foundations that wick ground moisture differently than poured concrete slabs inland. That moisture migration can feed mold in wall cavities at the base of exterior walls even when there has been no visible plumbing event. If a home near the water is showing musty odors in lower-level rooms without an obvious source, the foundation assembly itself is worth investigating before assuming the problem is a roof or plumbing leak.
 
-If mold has shown up in your Gig Harbor home, in the crawl space, behind walls, or in a bathroom that never quite dries out, call Frontline Fire & Flood at +12532000503. The assessment starts with finding the moisture, not just treating the surface, because surface-only treatment in this climate is a temporary fix at best.
+If mold has shown up in your Gig Harbor home, in the crawl space, behind walls, or in a bathroom that never quite dries out, call Frontline Fire & Flood at (253) 200-0503. The assessment starts with finding the moisture, not just treating the surface, because surface-only treatment in this climate is a temporary fix at best.

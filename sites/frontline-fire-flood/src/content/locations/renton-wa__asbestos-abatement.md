@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Asbestos Abatement in Renton, WA | Frontline Fire & Flood"
 h1: "Asbestos Abatement in Renton"
-meta_description: "24/7 asbestos abatement in Renton, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 asbestos abatement in Renton, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "asbestos abatement renton"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
@@ -44,4 +44,4 @@ Frontline Fire & Flood operates 24/7 and dispatches from Lakewood, reaching Rent
 
 Renton properties that underwent renovation during the 1980s sometimes present a layered abatement challenge that catches homeowners off guard: contractors of that era occasionally installed new flooring directly over original 1950s or 1960s vinyl tile rather than removing it, leaving two generations of potentially asbestos-containing material stacked beneath current finishes. When a water loss or remodel exposes the subfloor, both layers need to be sampled independently, the adhesive mastic under each layer may have a different asbestos content than the tile itself. This is a pattern we encounter in older Renton homes with any history of mid-century renovation, and it's worth flagging to your abatement contractor before sampling begins so the scope is written correctly the first time.
 
-If you're dealing with a suspect material in a Renton home or commercial property, whether it's a popcorn ceiling you're ready to remove, pipe insulation disturbed by a recent repair, or floor tile uncovered during a remodel, call Frontline Fire & Flood at +12532000503. We'll schedule an inspection, handle the sampling and lab coordination, and walk you through the abatement scope before any work begins.
+If you're dealing with a suspect material in a Renton home or commercial property, whether it's a popcorn ceiling you're ready to remove, pipe insulation disturbed by a recent repair, or floor tile uncovered during a remodel, call Frontline Fire & Flood at (253) 200-0503. We'll schedule an inspection, handle the sampling and lab coordination, and walk you through the abatement scope before any work begins.

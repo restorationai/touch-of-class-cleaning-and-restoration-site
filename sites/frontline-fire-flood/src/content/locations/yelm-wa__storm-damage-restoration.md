@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Yelm, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in Yelm"
-meta_description: "24/7 storm damage restoration in Yelm, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in Yelm, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration yelm"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ If your policy includes an ALE (Additional Living Expenses) provision and the da
 
 Yelm and the surrounding Thurston County area have a significant share of manufactured and modular homes, particularly in communities that developed through the 1990s. These structures respond to storm damage differently than site-built homes, roof systems are often attached with hurricane straps rated to specific load specs, and wall assemblies can trap moisture in ways that aren't obvious from surface readings alone. When we work on a manufactured home after a storm event, we adjust our drying equipment placement and monitoring intervals to account for the way those wall cavities are constructed, rather than applying the same protocol we'd use on a stick-built house.
 
-If your home sustained storm damage in Yelm or the surrounding area, call Frontline Fire & Flood at +12532000503. We'll assess the damage, secure the structure, and walk you through every step of the restoration and insurance process, starting the moment you call.
+If your home sustained storm damage in Yelm or the surrounding area, call Frontline Fire & Flood at (253) 200-0503. We'll assess the damage, secure the structure, and walk you through every step of the restoration and insurance process, starting the moment you call.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Auburn, WA | Frontline Fire & Flood"
 h1: "Sewage Cleanup and Sanitization in Auburn"
-meta_description: "24/7 sewage cleanup and sanitization in Auburn, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 sewage cleanup and sanitization in Auburn, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization auburn"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ For Auburn properties in HOA-governed communities, particularly the newer planne
 
 Auburn's older downtown-adjacent neighborhoods contain a number of homes with original cast-iron drain stacks that connect to clay-tile sewer laterals. When those laterals back up, the sewage often surfaces slowly at first, a gurgling floor drain, a toilet that won't flush cleanly, before the full backup occurs. Homeowners sometimes wait a day or two hoping the problem resolves on its own. It rarely does, and every additional hour that Category 3 water sits in contact with a wood subfloor or drywall base significantly increases the scope of material removal required. If drains are gurgling after a heavy rain in Auburn, that is the moment to call, not after the floor drain overflows.
 
-If you are dealing with a sewage backup or septic overflow anywhere in Auburn, call Frontline Fire & Flood at +12532000503. The crew is available around the clock, the sanitization protocol meets IICRC standards, and the documentation is built from the first hour to support your insurance claim.
+If you are dealing with a sewage backup or septic overflow anywhere in Auburn, call Frontline Fire & Flood at (253) 200-0503. The crew is available around the clock, the sanitization protocol meets IICRC standards, and the documentation is built from the first hour to support your insurance claim.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Renton, WA | Frontline Fire & Flood"
 h1: "Emergency Board-Up and Tarping in Renton"
-meta_description: "24/7 emergency board-up and tarping in Renton, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 emergency board-up and tarping in Renton, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping renton"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ If your property falls under an HOA in one of Renton's planned communities, the 
 
 One thing that catches people off guard in Renton's older downtown-adjacent neighborhoods: the combination of clay-heavy soil and aging storm drain infrastructure means that after a significant rain event, water doesn't always leave the property quickly. If a board-up or tarp job is delayed even a few hours after a fire or structural breach, that pooling at the foundation can migrate through damaged floor assemblies faster than the roof leak itself. We've learned to check grade and drainage conditions on arrival and flag it to the homeowner and adjuster when we see water moving toward the structure rather than away from it.
 
-If your home or building in Renton has been damaged by fire, storm, or impact, call Frontline Fire & Flood at +12532000503. We're available around the clock, we're IICRC certified, and we carry the documentation your insurance company needs from the first hour on site.
+If your home or building in Renton has been damaged by fire, storm, or impact, call Frontline Fire & Flood at (253) 200-0503. We're available around the clock, we're IICRC certified, and we carry the documentation your insurance company needs from the first hour on site.

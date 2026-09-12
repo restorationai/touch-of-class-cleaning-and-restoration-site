@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in South Hill, WA | Frontline Fire & Flood"
 h1: "Storm Damage Restoration in South Hill"
-meta_description: "24/7 storm damage restoration in South Hill, WA. IICRC-certified, insurance billing accepted. Call +12532000503."
+meta_description: "24/7 storm damage restoration in South Hill, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration south hill"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Storm damage claims in Pierce County typically involve wind and hail coverage un
 
 South Hill's newer subdivision developments, particularly those built on former agricultural land toward the county's eastern edges, often have shallow storm drainage infrastructure that backs up during sustained rainfall events. When that happens, water doesn't just pool in yards, it can reverse-flow through area drains connected to garage slabs or crawl space vents positioned low on the foundation wall. Homeowners in these areas sometimes assume the water entry is a plumbing failure when it's actually a drainage backflow event, which is covered differently under most policies. Identifying the source correctly at the outset protects the claim.
 
-If a storm has left your South Hill home with open roof damage, standing water, or structural concerns you can't fully assess, call Frontline Fire & Flood at +12532000503. The sooner the structure is secured and drying begins, the narrower the total scope of repair.
+If a storm has left your South Hill home with open roof damage, standing water, or structural concerns you can't fully assess, call Frontline Fire & Flood at (253) 200-0503. The sooner the structure is secured and drying begins, the narrower the total scope of repair.
