@@ -31,6 +31,14 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
 
 ## Priority builds (reordered by Santino + Claude, 2026-09-12 PM)
 
+VERIFIED 09-12 PM: BOTH email lanes live — contact@restorationai.io AND
+contact@getrestorationai.com are polled by email_intake (dry run shows
+both), Monica replies from whichever address the client wrote to, the
+2-day stale backstop covers both, and emailed change requests now
+dispatch to the build lane (feedback_router) identically to texts.
+Inbound media rides vision analysis (the model reads the photo,
+including any text in it) and auto-files to branding.
+
 1. **Monica rename conversations — THE scale unlock (build next)**
    WHY: 24+ clients carry data-backed name candidates; every decision
    currently needs Santino in a meeting. Text gives a written consent
@@ -82,6 +90,11 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
    where the partner's license number is displayed; or the sibling-entity
    play (the plumbing entity holds the license and its own profile). Not
    legal advice — confirm with the client's state board per case.
+   PILOT (Santino 2026-09-12): DRY BROS first — Monica runs the whole
+   conversation with Amin in approval mode (candidates already seeded,
+   mold confirmed as a service, plumbing gated on the license question).
+   On his confirmed string: DBA guidance -> DBA-filed capture ->
+   citations (item 2's tester order) -> GBP created under the final name.
    CHAINS WITH #2: decision -> DBA -> auto citation order -> GBP change.
 
 2. **BrightLocal CB pipeline remainder**
@@ -94,6 +107,9 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
    TRG's paid cb25 sits on_hold and resumes after their name decision
    (flip the BL location business_name first if renaming).
    scripts/brightlocal.py has the whole recipe; ~422 credits remain.
+   PILOT: Dry Bros — the citation order fires as the direct output of the
+   item-1 Monica conversation the moment Amin's string is confirmed +
+   DBA marked filed.
 
 3. **All Pro homepage fixes (Angie, 09-11) — now partially systemic**
    The SYSTEM gap that let her emailed list sit is FIXED 09-12: emailed
@@ -115,6 +131,12 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
    item — emergency-intent AI answers pull Yelp+GBP feeds); (e) seed
    terms into GBP review REPLIES. LAWS: no review campaigns ever;
    don't double-post GBP (client runs a third-party poster).
+   APP SURFACING (Santino 2026-09-12): this step list must live IN THE
+   APP, not only in docs — the monthly analyzer already writes [ANALYZER]
+   ops notes; BUILD: analyzer findings become marketing_action_plan rows
+   (the Action Plan tab) and/or a recommendations section on the Reports
+   tab analysis, so every client's fix-steps are visible and clickable.
+   NaRestCo's five steps are the TEST PILOT for that pipeline.
 
 5. **Railway git checkout**
    The app's "Push site to production" button dispatches site_push_main
@@ -131,9 +153,11 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
    callback_needed into marketing_tracked_calls.analysis — today nothing
    surfaces them, so a client can miss a job and never know. BUILD:
    (a) near-real-time alert to the client when a call is labeled
-   missed/callback (Monica SMS in approval mode first, or an ops card —
-   Santino picks the channel); (b) fold outcome counts into the monthly
-   report (client_report.py). Pure surfacing of data we already produce.
+   missed/callback — SENDER RULE (Santino 2026-09-12): these send from
+   the CLIENT'S OWN toll-free approved number (their SMS-campaign sender
+   in company_phone_setup / their Twilio subaccount), NEVER our concierge
+   or company numbers; (b) fold outcome counts into the monthly report
+   (client_report.py). Pure surfacing of data we already produce.
 
 7. **Repiping default-on for plumbing plans**
    plan_site.py service selection should include repiping for every
