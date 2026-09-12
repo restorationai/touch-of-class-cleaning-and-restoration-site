@@ -254,6 +254,44 @@ reprioritize; the session todo mirrors it, this file is the durable truth.
     come from a third-party Merchynt-like tool the client runs — do not
     double-post.
 
+15. **Monica rename conversations (Santino 2026-09-12 — the scale
+    unlock for the whole rename program)**
+    WHY: 24+ clients now carry data-backed name candidates, but every
+    decision currently needs Santino on a meeting. Text is BETTER here:
+    a written consent trail for the exact string is precisely what the
+    DBA/GBP defense wants, and Monica can run the whole conversation.
+    BUILD, five pieces on existing rails:
+    (a) RENAME_TRUTH knowledge block (DOMAIN_ACCESS_TRUTH pattern,
+        substituted into COMPOSE/REPLY): why keyworded names rank
+        (OneStop, honestly framed), the 5-step sequence — confirm name ->
+        client files the DBA (state nuances: CA county FBN ~$50, MA town
+        clerk certificate, WA statewide trade name) -> citations built
+        with the NEW name -> ONE GBP create/change -> possible
+        reverification handled by us — plus honest reverification risk
+        framing. Monica EXPLAINS, never invents.
+    (b) The ask: a seeded ledger item per candidate-carrying client
+        ("open to a search-optimized profile name?") paced by the normal
+        nudge cadence. APPROVAL MODE for the first cohort.
+    (c) Options on request: when the client asks "what names?", Monica
+        reads the TOP candidates from marketing_gbp_suggestions verbatim
+        (never composes names in-chat); the plumbing option is only
+        presented together with the license question; any
+        service-mismatch term (mold etc.) becomes a conversational
+        confirm that writes companies.services via the same clarify
+        mechanic as the app buttons.
+    (d) Confirmation capture, string-bound: client agrees -> Monica
+        echoes the EXACT string ("locking in exactly: 'X' — reply YES")
+        -> on YES: suggestion status=chosen + rename_intent=rename + ops
+        note quoting the consent + FYI card. DBA filing stays with the
+        client (Monica sends the state-specific how-to); the existing
+        DBA-filed capture, citations gate and never-auto-push-GBP law
+        take over from there.
+    (e) Guards: choosing writes ONLY after the echoed-string YES (claim
+        guard style); no GBP edit ever from this lane; hands-off clients
+        excluded; franchise clients excluded (PuroClean).
+    CHAINS WITH item 13: decision -> DBA -> auto citation order -> GBP
+    change becomes one hands-off pipeline.
+
 ## Standing watches
 
 - **DryCor preview send** — one-shot launchd job
