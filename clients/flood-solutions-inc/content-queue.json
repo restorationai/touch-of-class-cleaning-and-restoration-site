@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "id": "2026-09-12-best-water-damage-restoration-in-macomb-mi",
+      "status": "written",
+      "queued_at": "2026-09-12T10:24:14Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-macomb-mi",
+      "primary_keyword": "best water damage restoration company in Macomb, MI",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "macomb-mi",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Macomb",
+        "state": "MI",
+        "competitors": [
+          {
+            "name": "SERVPRO of Northeast Macomb Township",
+            "google_rating": 5,
+            "review_count": 57
+          },
+          {
+            "name": "Action Extraction Inc",
+            "google_rating": 5,
+            "review_count": 184
+          },
+          {
+            "name": "Metro Water Damage Restoration Macomb",
+            "google_rating": 4.9,
+            "review_count": 44
+          },
+          {
+            "name": "All Weather Restoration LLC",
+            "google_rating": 4.5,
+            "review_count": 86
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Macomb",
+        "top rated water damage restoration Macomb MI",
+        "who is the best water damage restoration company in Macomb",
+        "water damage cleanup Macomb",
+        "water cleanup Macomb",
+        "water removal Macomb"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-12T10:26:24Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-macomb-mi/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "and insured in Michigan and follow the IICRC S500 standard for structural drying and",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ogress. Legitimate companies follow the IICRC S500 standard and provide daily drying",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "later. The company's work follows the [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ting | Reviews | Licensed and Insured | IICRC Standard | |---|---|---|---|---| | **Fl",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "laim holds up, dry the structure to the IICRC S500 standard so mold does not follow,",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "arget moisture content specified by the IICRC S500 standard. Ask how they track and d",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "on the category and class of loss. The IICRC classifies water losses by contaminatio",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "eld. Their restoration work follows the IICRC S500 standard for professional water da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "184 reviews",
+          "context": "tion Inc **Google Rating:** 5.0 stars (184 reviews) Action Extraction Inc carries the hig",
+          "reason": "claims 184 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "184 Google reviews",
+          "context": "ighest review volume on this list, with 184 Google reviews at a 5.0 average, which is a meaningful",
+          "reason": "claims 184 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "57 reviews",
+          "context": "Township **Google Rating:** 5.0 stars (57 reviews) SERVPRO of Northeast Macomb Township",
+          "reason": "claims 57 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "57 reviews",
+          "context": "etwork, with a 5.0 Google rating across 57 reviews. National franchise networks offer stan",
+          "reason": "claims 57 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "44 reviews",
+          "context": "n Macomb **Google Rating:** 4.9 stars (44 reviews) Metro Water Damage Restoration Macomb",
+          "reason": "claims 44 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "44 reviews",
+          "context": "Macomb holds a 4.9 Google rating across 44 reviews. They are a local restoration company s",
+          "reason": "claims 44 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "86 reviews",
+          "context": "tion LLC **Google Rating:** 4.5 stars (86 reviews) All Weather Restoration LLC has 86 Go",
+          "reason": "claims 86 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "86 Google reviews",
+          "context": "views) All Weather Restoration LLC has 86 Google reviews at a 4.5 average, giving them one of th",
+          "reason": "claims 86 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    }
+  ]
+}
