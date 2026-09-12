@@ -220,12 +220,16 @@ def rename_gate(slug: str) -> tuple[bool, str]:
             ints = json.loads(ints)
         except (ValueError, TypeError):
             ints = {}
-    if ((ints.get("rename_intent") or {}).get("decision") == "keep"):
-        return True, "rename_intent=keep (explicit override)"
+    intent = (ints.get("rename_intent") or {}).get("decision")
+    if intent == "keep":
+        return True, "rename_intent=keep (explicit board decision)"
     rows = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id=eq.{cid}"
                "&item_type=eq.name&select=item,status",
                prefer="return=representation") or []
     if not rows:
+        if intent == "rename":
+            return False, ("rename=yes but NO name candidates on record — "
+                           "seed them (rank-ai-gbp-rename) and choose")
         return False, ("UNDECIDED: no name candidates on record — seed them "
                        "(rank-ai-gbp-rename) and decide before citations")
     chosen = [r for r in rows if (r.get("status") or "").lower() == "chosen"]
@@ -238,15 +242,31 @@ def rename_gate(slug: str) -> tuple[bool, str]:
         title = prof.get("title") or ""
         if norm(title) == norm(chosen[0]["item"]):
             return True, f"rename DONE: live GBP title matches {chosen[0]['item']!r}"
-        return False, (f"RENAMING in flight: chosen {chosen[0]['item']!r} but "
-                       f"live GBP title is {title!r} — citations wait for the "
-                       "DBA -> profile change to land")
+        # HOUSE SEQUENCE (Santino 2026-09-12): citations run BEFORE the GBP
+        # rename, not after — pre-existing citations are the corroborating
+        # evidence that makes the keyworded profile edit stick. The gate
+        # only needs the name to be FINAL: chosen + the DBA actually filed
+        # (rename_intent.dba_filed, captured on the Citations card). The
+        # order command flips the BrightLocal location's business_name to
+        # the chosen string before spending a credit.
+        if (ints.get("rename_intent") or {}).get("dba_filed"):
+            return True, (f"NAME FINAL: {chosen[0]['item']!r} chosen + DBA "
+                          "filed — citations run with the NEW name (order "
+                          "updates the BL location name first); GBP rename "
+                          "follows the citations")
+        return False, (f"RENAMING: {chosen[0]['item']!r} chosen but the DBA "
+                       "is not marked filed — file it, mark 'DBA filed' on "
+                       "the Citations card, then citations run with the new "
+                       "name BEFORE the GBP change")
     open_rows = [r for r in rows if (r.get("status") or "").lower()
                  not in ("dismissed",)]
     if open_rows:
         return False, (f"UNDECIDED: {len(open_rows)} name candidate(s) still "
                        "open on the Profile Rename card — choose one or "
                        "dismiss all")
+    if intent == "rename":
+        return False, ("rename=yes but every candidate is dismissed — "
+                       "choose a name (or flip the decision to keep)")
     return True, "KEEPING the current name (all candidates dismissed)"
 
 
@@ -261,6 +281,20 @@ def cmd_order(args) -> int:
         return 1
     c = load_client(slug)
     bl = c.get("brightlocal") or {}
+    # NAME FINAL but GBP not yet renamed: the citations must print the NEW
+    # name — flip the BrightLocal location's business_name to the chosen
+    # string before a single credit is spent (house sequence: DBA ->
+    # citations -> ONE GBP change).
+    if "NAME FINAL" in why and bl.get("location_id"):
+        m = re.search(r"NAME FINAL: '([^']+)'", why)
+        if m:
+            new_name = m.group(1)
+            loc = _bl("GET", f"/locations/{bl['location_id']}")
+            cur = ((loc.get("location") or loc) or {}).get("business_name") or ""
+            if cur.strip().lower() != new_name.strip().lower():
+                _bl("PUT", f"/locations/{bl['location_id']}",
+                    {"business_name": new_name})
+                print(f"  BL location name updated: {cur!r} -> {new_name!r}")
     if not bl.get("campaign_id"):
         print(f"[{slug}] no campaign — run setup first")
         return 1
