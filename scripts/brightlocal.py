@@ -192,10 +192,72 @@ def cmd_setup(args) -> int:
     return 0
 
 
+def rename_gate(slug: str) -> tuple[bool, str]:
+    """Citations must carry the client's FINAL name (Santino 2026-09-12:
+    profile renames are a house strategy for a majority of clients, and a
+    citation run under the old name bakes it into dozens of directories
+    the rename then orphans). Gate = DERIVED from the Profile Rename card
+    the app already renders (marketing_gbp_suggestions item_type=name):
+      - a row with status 'chosen'  -> RENAMING: blocked until the live GBP
+        title matches the chosen string (marketing_gbp_profiles.title,
+        synced by gbp.py) -> then clear.
+      - ALL name rows dismissed     -> KEEPING the name -> clear.
+      - open rows / no rows         -> UNDECIDED -> blocked (fail closed).
+    Manual override: integration_settings.rename_intent.decision == 'keep'.
+    """
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from client_ops_sync import _sb, slug_map
+    inv = {s: c for c, s in slug_map().items()}
+    cid = inv.get(slug)
+    if not cid:
+        return False, "no company mapping — cannot evaluate the rename gate"
+    co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+              "&select=integration_settings", prefer="return=representation")
+          or [{}])[0]
+    ints = co.get("integration_settings") or {}
+    if isinstance(ints, str):
+        try:
+            ints = json.loads(ints)
+        except (ValueError, TypeError):
+            ints = {}
+    if ((ints.get("rename_intent") or {}).get("decision") == "keep"):
+        return True, "rename_intent=keep (explicit override)"
+    rows = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id=eq.{cid}"
+               "&item_type=eq.name&select=item,status",
+               prefer="return=representation") or []
+    if not rows:
+        return False, ("UNDECIDED: no name candidates on record — seed them "
+                       "(rank-ai-gbp-rename) and decide before citations")
+    chosen = [r for r in rows if (r.get("status") or "").lower() == "chosen"]
+    if chosen:
+        def norm(s):
+            return re.sub(r"\s+", " ", str(s)).strip().lower()
+        prof = (_sb("GET", f"/rest/v1/marketing_gbp_profiles?company_id=eq.{cid}"
+                    "&select=title&limit=1", prefer="return=representation")
+                or [{}])[0]
+        title = prof.get("title") or ""
+        if norm(title) == norm(chosen[0]["item"]):
+            return True, f"rename DONE: live GBP title matches {chosen[0]['item']!r}"
+        return False, (f"RENAMING in flight: chosen {chosen[0]['item']!r} but "
+                       f"live GBP title is {title!r} — citations wait for the "
+                       "DBA -> profile change to land")
+    open_rows = [r for r in rows if (r.get("status") or "").lower()
+                 not in ("dismissed",)]
+    if open_rows:
+        return False, (f"UNDECIDED: {len(open_rows)} name candidate(s) still "
+                       "open on the Profile Rename card — choose one or "
+                       "dismiss all")
+    return True, "KEEPING the current name (all candidates dismissed)"
+
+
 def cmd_order(args) -> int:
     slug = args.slug
     if args.package not in PACKAGES:
         print(f"package must be one of {PACKAGES}")
+        return 1
+    ok, why = rename_gate(slug)
+    print(f"[{slug}] rename gate: {'CLEAR' if ok else 'BLOCKED'} — {why}")
+    if not ok:
         return 1
     c = load_client(slug)
     bl = c.get("brightlocal") or {}
