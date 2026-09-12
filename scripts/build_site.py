@@ -1996,6 +1996,43 @@ def cmd_scaffold(args) -> int:
             pass
         print(f"      logo: pulled from branding bucket -> public/images/{pulled_logo} "
               f"(logoUrl {brand_block['logo_url']})")
+    # TRACKING-FIELD GUARD (Frontline 2026-09-12: the tier-2 re-scaffold
+    # re-stamped brand.ts from plan-input, which carries no tracking fields —
+    # the LIVE site silently lost its DNI number and a day of attribution).
+    # The template ships trackingPhone: "" and the DB's
+    # integration_settings.call_tracking.website is the truth: re-fill it
+    # after every scaffold so a re-scaffold can never blank attribution.
+    try:
+        if cid:
+            import requests as _rq
+            _base = os.environ.get("SUPABASE_URL", "").rstrip("/")
+            _key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+            if _base and _key:
+                _rows = _rq.get(
+                    f"{_base}/rest/v1/companies?id=eq.{cid}"
+                    "&select=integration_settings", timeout=20,
+                    headers={"apikey": _key,
+                             "Authorization": f"Bearer {_key}"}).json()
+                _ints = (_rows or [{}])[0].get("integration_settings") or {}
+                if isinstance(_ints, str):
+                    _ints = json.loads(_ints)
+                _wnum = ((_ints.get("call_tracking") or {})
+                         .get("website") or {}).get("number")
+                _bts = SITES_DIR / slug / "src" / "lib" / "brand.ts"
+                if _wnum and _bts.is_file():
+                    _d = re.sub(r"\D", "", _wnum)[-10:]
+                    _fmt = f"({_d[:3]}) {_d[3:6]}-{_d[6:]}"
+                    _t = _bts.read_text()
+                    if 'trackingPhone: "",' in _t:
+                        _t = _t.replace('trackingPhone: "",',
+                                        f'trackingPhone: "{_fmt}",', 1)
+                        _t = _t.replace('trackingPhoneRaw: "",',
+                                        f'trackingPhoneRaw: "{_wnum}",', 1)
+                        _bts.write_text(_t)
+                        print(f"      tracking: re-filled from DB ({_fmt}) — "
+                              "scaffold can no longer blank attribution")
+    except Exception as _e:  # noqa: BLE001 — guard must never kill a scaffold
+        print(f"      (tracking guard failed: {str(_e)[:80]})")
         # Auto-palette (2026-09-04): no colors anywhere -> read them off the
         # logo and PERSIST to plan-input.json so retint and re-scaffolds agree.
         has_colors = bool(brand_block.get("primary_color")

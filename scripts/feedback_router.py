@@ -231,6 +231,18 @@ def risk_verdict(fb: dict, *, site_live: bool, has_site: bool) -> tuple[str, str
     # record, which is a better test than a keyword match on a text message.
     if _MONEY_RE.search(blob) and cat not in AUTO_CATEGORIES:
         return "propose", "touches pricing, billing or the contract"
+    # PHONE NUMBERS NEVER AUTO-RUN (Frontline/Jared 2026-09-12: a mobile
+    # LAYOUT complaint mentioning "phone number" auto-ran as display work
+    # and the site's DNI tracking number was cemented over — attribution
+    # silently lost). Any change whose words touch a phone number goes to a
+    # human: the displayed number is usually a TRACKING line by design, and
+    # Monica's script is to explain that first, not to swap it.
+    if re.search(r"\bphone\s*(number|#)?\b|\bcall(?:ing)? number\b|"
+                 r"\(\d{3}\)\s*\d{3}[- ]?\d{4}|\b\d{3}[-.]\d{3}[-.]\d{4}\b",
+                 blob, re.I):
+        return "propose", ("mentions a phone number — displayed numbers are "
+                           "DNI tracking lines by design; a human confirms "
+                           "before anything touches them")
     # LEGAL PAGES NO LONGER STOP (Santino 2026-08-09): "if somebody says to
     # update our privacy policy, Monica just needs to tell them to provide what
     # they want it updated to." The client supplies the wording; we apply it.

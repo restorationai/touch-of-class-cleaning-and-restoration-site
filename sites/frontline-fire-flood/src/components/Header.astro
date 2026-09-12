@@ -23,10 +23,10 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
     <div class="flex items-center gap-2 flex-shrink-0">
       <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-sm md:text-base px-4 sm:px-6 py-3 md:py-4 shadow-primary-900/40 text-center leading-tight font-black">
         <span class="hidden sm:block tracking-wide whitespace-nowrap">Call Us Now <span aria-hidden="true">•</span> {brand.phone}</span>
-        <span class="sm:hidden flex flex-col items-center gap-0.5">
-          <span class="text-[11px] font-black tracking-[0.15em] opacity-90 uppercase">Call Us Now</span>
-          <span class="font-black tracking-wide whitespace-nowrap">{brand.phone}</span>
-        </span>
+        {/* xs: number dropped from the tight header (Jared 09-11: it
+            smooshed against the logo) — the hero and the sticky bottom bar
+            both carry the full number; the header button just needs to dial. */}
+        <span class="sm:hidden font-black tracking-wide whitespace-nowrap">Call Now</span>
       </a>
       <button id="mobile-nav-toggle" type="button" class="lg:hidden inline-flex flex-col items-center justify-center w-11 h-11 gap-[5px] rounded-md border border-dark/20 text-dark-900 flex-shrink-0" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
         <span class="block w-5 h-0.5 bg-current"></span>
