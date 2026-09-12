@@ -4847,6 +4847,33 @@
       "triaged_at": "2026-08-05T06:07:36Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPcQwvcSi_0r8xSJce179adGKw_6xwujuSrY52J": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPcQwvcSi_0r8xSJce179adGKw_6xwujuSrY52J.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipPcQwvcSi_0r8xSJce179adGKw_6xwujuSrY52J.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 95227,
+      "sha1": "68dd109a9cc7eda0",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dehumidifier and air mover drying damaged subfloor and wall",
+      "quality": 42,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 52
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Portrait crop, black bars, dim exposure; equipment readable but not polished.",
+      "triaged_at": "2026-09-12T01:53:03Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPdZxyoXZt7-U-5Vfl4TsveOsOs-rPGmaFPOsTP": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPdZxyoXZt7-U-5Vfl4TsveOsOs-rPGmaFPOsTP.jpg",
@@ -5253,5 +5280,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-10T14:10:43Z"
+  "triaged_at": "2026-09-12T01:53:03Z"
 }
