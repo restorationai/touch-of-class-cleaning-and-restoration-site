@@ -54,7 +54,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "BBB ACCREDITED BUSINESS", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "IICRC OCT (ODOR)", "IICRC TCST (TRAUMA & CRIME SCENE)", "IICRC HST (HEALTH & SAFETY)", "EPA CERTIFIED RENOVATOR — LEAD RRP (SARHA BOYD)"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://www.facebook.com/aircarerestorationtx/", "https://maps.google.com/maps?cid=8729630138777523223", "https://www.linkedin.com/in/sarha-boyd-45b165352"] as string[],
+  sameAsUrls: ["https://www.facebook.com/aircarerestorationtx/", "https://www.linkedin.com/in/sarha-boyd-45b165352", "https://www.youtube.com/@AirCareRestorationLLC", "https://www.instagram.com/aircarerestoration/", "https://www.tiktok.com/@aircarerestoration", "https://www.linkedin.com/company/air-care-restoration/", "https://maps.google.com/maps?cid=8729630138777523223"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
