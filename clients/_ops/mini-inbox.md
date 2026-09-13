@@ -47,4 +47,22 @@
   with the repo's Gmail helpers (token in ~/.config/rankai). If Houzz blocks
   or asks for a phone, stop that client and note it — do not improvise.
 
+
+- [ ] **Client-identity platform RE-TEST (supervised — Santino present,
+  2026-09-14):** for each of: **Angi (free claim), Nextdoor business page,
+  Thumbtack, Facebook page, Yelp (claim/edit), HomeAdvisor (check for a
+  free tier only, never pay)** — attempt the create/claim flow for ONE
+  test client (use narestco unless told otherwise) and document, per
+  platform, in the run report:
+  (a) exactly where it blocks (SMS/call verification target, identity
+  docs, owner-email requirement, payment wall),
+  (b) whether our standard toolkit clears it now: setup@restorationai.io
+  identities, GBP-primary phone (verification rings a line we answer),
+  Gmail-helper code reads, delegate/agency access,
+  (c) verdict: US-BUILDABLE / NEEDS-CLIENT-STEP (name the one step) /
+  HARD-BLOCKED. Do not force anything that requires impersonating the
+  owner personally; agency-authorized setup only. STOP at any payment
+  wall. The goal is reclassifying "yours to set up" rows into
+  agent-buildable wherever the blocker has dissolved.
+
 <!-- completed items get [x] + a one-line result; MacBook Claude prunes -->
