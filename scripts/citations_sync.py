@@ -308,6 +308,21 @@ def sync_client(slug: str, cid: str, md: dict, name: str, state: str,
                     or {}).get("same_as_urls") or []
         except (json.JSONDecodeError, OSError):
             pass
+    # App-confirmed socials (Connect tab SocialProfilesCard; Tony/Coastal
+    # 2026-09-13): rows the client or operator explicitly confirmed in the
+    # app are base truth exactly like plan-input — preserved verbatim,
+    # added when missing, never name-guarded (the confirmation IS the
+    # identity check). This is the bridge that makes "paste the URL in the
+    # Connect tab" flow to the site's footer icons + sameAs schema on the
+    # nightly pass with zero extra steps.
+    try:
+        rows = _sb("GET", f"/rest/v1/citation_listings?company_id=eq.{cid}"
+                   "&kind=eq.social"
+                   "&social_state=in.(confirmed,connected_to_gsc)"
+                   "&select=listing_url") or []
+        base += [r["listing_url"] for r in rows if r.get("listing_url")]
+    except Exception as e:  # noqa: BLE001 — socials are additive, never fatal
+        notes.append(f"app-social fetch failed ({str(e)[:60]})")
     base_norms = {_norm(u) for u in base}
 
     # Preserve: everything not on a managed directory domain, plus anything

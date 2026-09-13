@@ -1540,6 +1540,17 @@ def _social_candidates(cid: str | None, pi: dict) -> list[tuple[str, str]]:
     audit-discovered when both name the same platform)."""
     out = [(u, "plan-input") for u in ((pi.get("brand") or {}).get("same_as_urls") or []) if u]
     if cid:
+        # App-confirmed socials (Connect tab card, 2026-09-13): explicit
+        # confirmation outranks audit discovery — listed ahead of it so
+        # first-wins-per-platform picks the confirmed URL.
+        for r in _sb("citation_listings?kind=eq.social"
+                     f"&company_id=eq.{cid}"
+                     "&social_state=in.(confirmed,connected_to_gsc)"
+                     "&select=listing_url,directory") or []:
+            if r.get("listing_url"):
+                out.append((str(r["listing_url"]),
+                            f"app confirmed {r.get('directory') or 'social'}"))
+    if cid:
         rows = _sb("user_integrations?provider=eq.citations"
                    f"&client_id=eq.{cid}&select=connection_metadata")
         for row in rows or []:
@@ -1717,7 +1728,14 @@ def enrich_profile(slug: str, apply: bool = False) -> dict:
         attr = _social_attr_for(url)
         if not attr or attr in want or attr in current:
             continue  # not a social / already chosen / already set on Google
-        ok, why = _social_ok(url, attr, ident)
+        if src.startswith("app confirmed"):
+            # Explicit confirmation in the app IS the identity check — the
+            # plausible-handle guard exists for audit-discovered URLs and
+            # would wrongly reject a confirmed page with an unrelated
+            # handle (tonysteam-class usernames).
+            ok, why = True, "confirmed in the app"
+        else:
+            ok, why = _social_ok(url, attr, ident)
         if not ok:
             out["notes"].append(f"skip {attr}: {why} ({url[:70]})")
             continue
