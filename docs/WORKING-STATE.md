@@ -1,3 +1,12 @@
+
+## 2026-09-14 morning — FIRST THING
+- REVIEW the dev agent's 5 NaRestCo game-plan executions (dispatched to the
+  [DEV] inbox 09-13, runs 2:07am PT): Tacoma wrong-page fix, striking-distance
+  pages, GBP services/categories, Gig Harbor geogrid expansion, internal
+  links to emergency pages. Check the [TODO-SANTINO] review rows + that the
+  Action Plan rows flipped to done on the daily sweep. First game-plan
+  cohort through the nightly agent — quality here decides fleet trust.
+
 # Working State — leave-and-resume doc
 
 ## 2026-09-03 NIGHT — toll-free auto-registration pipeline LIVE end to end
