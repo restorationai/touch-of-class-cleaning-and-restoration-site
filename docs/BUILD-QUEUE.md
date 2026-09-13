@@ -134,10 +134,38 @@ including any text in it) and auto-files to branding.
    item-1 Monica conversation the moment Amin's string is confirmed +
    DBA marked filed.
 
-2b. DBA DOCUMENT INTAKE (Santino 2026-09-12, NEW). The rename flow ends
+2b. DBA DOCUMENT INTAKE (Santino 2026-09-12, NEW). CORE SHIPPED same
+   night: _verify_dba_document in client_concierge.py — a texted photo
+   during the rename flow's awaiting_dba stage rides vision (DBA_EXTRACT_
+   SYSTEM), the registered name is extracted character for character,
+   and an exact normalized match against the CHOSEN candidate auto-
+   writes rename_intent.dba_filed + dba_name + dba_filed_at +
+   dba_verified=vision_auto (the exact shape brightlocal.rename_gate
+   checks, so the citations gate clears with zero clicks) + a Monica
+   confirmation text + FYI ping. Mismatch: escalation with both strings
+   side by side, Monica asks the client to double check, gate stays
+   shut. Unreadable doc or bare text claim: never auto-marks, human
+   ping. Smoke-tested match + mismatch on synthetic IL certificates.
+   NOTE the MMS media intake ALREADY files texted paperwork to
+   branding/{cid}/docs/inbox/ (document class), so storage is covered.
+   STORES: primary-GBP DBA lives in integration_settings.rename_intent
+   (canonical: gate + Build board + Monica all read it). The Locations
+   tab / Location Scout checklist.dba (company_locations, fields name/
+   filed_at/doc_url) is the SEPARATE store for EXPANSION locations
+   (Crew's Sioux City) — same concept, different fact, per the
+   single-source law each DBA lives with its own location. Do NOT
+   merge them; if the primary's DBA should display in the Locations
+   tab later, render it read-only from rename_intent.
+   REMAINING: (a) client-hub red-bordered "DBA / Trade Name
+   Certificate" upload tile (workers/hub proxy + signed-URL edge fn
+   route, category -> docs/) with the same vision verify on arrival;
+   (b) email-attachment path through email_intake (attachments already
+   file to docs; hook the verifier when a rename convo is armed);
+   (c) surface dba_doc_url + filed date on the app's Citations card
+   (mirror the Location Scout field shapes for visual consistency).
+   The rename flow ends
    with the client holding a state DBA filing; today the proof arrives as
-   a texted photo or email attachment and a HUMAN verifies + ticks "DBA
-   filed" on the Citations card. BUILD the seamless version:
+   a texted photo or email attachment; the seamless version:
    - Client hub (restorationai.io/hub/{slug}/{token}, worker source in
      workers/): add a dedicated, visually loud (red-bordered) upload tile
      "DBA / Trade Name Certificate" so the client can drop the PDF/photo

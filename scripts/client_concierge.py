@@ -8837,7 +8837,9 @@ the client's message. Read what the client is doing and answer with JSON:
   word, offers is their answer. If they ALSO picked a name, use "confirmed"
   and still fill service_answers.
 - "dba_update": they say the DBA/trade name is filed or they sent the
-  paperwork.
+  paperwork. A message that is ONLY a photo (or a photo placeholder
+  note) while the stage is awaiting_dba is "dba_update" — the photo is
+  almost certainly the filing.
 - "handoff": a RENAME-topic message that is angry, confused beyond text,
   or asking for Santino/a call about the rename.
 - "unrelated": the message is about anything OTHER than the rename
@@ -8849,6 +8851,92 @@ Answer questions ONLY from the knowledge above; anything outside it is
 "handoff". Never claim any step is already done."""
 RENAME_REPLY_SYSTEM = RENAME_REPLY_SYSTEM.replace(
     "<<RENAME_TRUTH>>", RENAME_TRUTH)
+
+
+# 2B: DBA DOCUMENT INTAKE (Santino 2026-09-12). When the filing paperwork
+# arrives as a texted photo, vision reads the document, extracts the
+# registered trade name, and compares it to the CHOSEN candidate string.
+# EXACT (normalized) match -> auto-write rename_intent.dba_filed +
+# dba_name — the same string-bound shape brightlocal.rename_gate checks,
+# so the citations gate clears itself with zero clicks. Mismatch -> the
+# escalation carries both strings side by side (the client filed the
+# wrong name = the exact failure the gate exists to catch). A text CLAIM
+# without a document never auto-marks anything.
+DBA_EXTRACT_SYSTEM = """\
+You are reading a photo a client texted, expected to be a DBA / trade
+name / assumed business name filing (state or county registration
+paperwork, a certificate, or a filing confirmation page or email).
+Return ONLY JSON:
+{"is_dba_document": bool,
+ "registered_name": string|null,
+ "state": string|null,
+ "filed_on": "YYYY-MM-DD"|null,
+ "confidence": "high|medium|low"}
+registered_name is the EXACT trade name string on the document, copied
+character for character including punctuation like hyphens, ampersands
+and slashes. null when unreadable. is_dba_document is false for job
+photos, screenshots of anything else, or unrelated paperwork."""
+
+
+def _verify_dba_document(company: dict, contact: dict, msg: dict,
+                         pend: dict, cands: list[dict], state: dict,
+                         dry_run: bool) -> str | None:
+    """Vision-verify a texted DBA filing against the chosen name.
+    Returns 'match' / 'mismatch' when handled (reply + writes done),
+    None when there is no readable DBA document (caller falls back to
+    the ask-for-photo path)."""
+    chosen = pend.get("chosen") or next(
+        (c["item"] for c in cands
+         if (c.get("status") or "") == "chosen"), None)
+    if not chosen:
+        return None
+    images = _vision_blocks(msg.get("attachments"))
+    if not images:
+        return None
+    try:
+        doc = anthropic_json(DBA_EXTRACT_SYSTEM,
+                             f"The business is {company.get('name')}. "
+                             "Read the attached document.", images=images)
+    except Exception as e:  # noqa: BLE001
+        print(f"    DBA vision extract failed ({str(e)[:80]})")
+        return None
+    if not doc.get("is_dba_document") or not doc.get("registered_name"):
+        return None
+    reg = str(doc["registered_name"]).strip()
+    filed_on = doc.get("filed_on")
+    if _norm_name(reg) == _norm_name(chosen):
+        _merge_rename_intent(company["id"], {
+            "dba_filed": True, "dba_name": reg,
+            "dba_filed_at": filed_on,
+            "dba_verified": "vision_auto",
+            "dba_verified_at": datetime.now(timezone.utc).isoformat()},
+            dry_run)
+        append_escalation(
+            company, None,
+            f"DBA VERIFIED from a texted filing photo: {reg!r} matches the "
+            f"chosen name (filed {filed_on or 'date unreadable'}; document "
+            "photo auto-filed under docs/inbox). Citations gate is CLEAR — "
+            "the citation order can run, then the GBP change.", dry_run,
+            ping=True)
+        body = ("Got it, the filing looks perfect. That's everything we "
+                "need from you. We'll start rolling the new name out "
+                "across your listings and handle the Google update from "
+                "here. I'll keep you posted.")
+        _rename_send(company, contact, body, state, dry_run, "dba-verified")
+        pend["stage"] = "dba_verified"
+        return "match"
+    append_escalation(
+        company, None,
+        f"DBA MISMATCH on the texted filing: document reads {reg!r} but "
+        f"the chosen name is {chosen!r}. Monica asked them to check; "
+        "verify the document by eye before anything runs.", dry_run,
+        ping=True)
+    body = (f"Thanks for sending that over. One thing, the filing reads "
+            f"\"{reg}\" but the name we're setting up is \"{chosen}\". "
+            "Those need to match exactly for Google. Can you double "
+            "check the filing on your end?")
+    _rename_send(company, contact, body, state, dry_run, "dba-mismatch")
+    return "mismatch"
 
 
 def _rename_send(company: dict, contact: dict, body: str, state: dict,
@@ -8961,6 +9049,18 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
         pend["stage"] = "options"
         return True
     if read == "dba_update":
+        if msg.get("attachments"):
+            verdict = _verify_dba_document(company, contact, msg, pend,
+                                           cands, state, dry_run)
+            if verdict:
+                return True
+            # attachment present but unreadable as a DBA doc — human eyes
+            append_escalation(
+                company, msg,
+                "client sent what looks like the DBA but vision could not "
+                "verify it — check docs/inbox and mark the Citations card "
+                "by hand", dry_run, ping=True)
+            return True
         append_escalation(
             company, None,
             f"client says the DBA is FILED (\"{quote_txt}\") — verify the "
