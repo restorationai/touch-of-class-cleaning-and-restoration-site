@@ -8759,7 +8759,11 @@ def _rename_candidates(company_id: str) -> list[dict]:
 
 
 def _norm_name(s: str) -> str:
-    return re.sub(r"\s+", " ", str(s or "")).strip().lower()
+    # Dash normalization (Amin 09-13 typed an EN dash pasting the name
+    # back): every dash variant reads as a hyphen for matching; the STORED
+    # candidate string stays the canonical form.
+    s = re.sub(r"[‐-―−]", "-", str(s or ""))
+    return re.sub(r"\s+", " ", s).strip().lower()
 
 
 def _merge_rename_intent(company_id: str, patch: dict,
@@ -9218,12 +9222,33 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
         want = _norm_name(result.get("confirmed_name"))
         match = next((c for c in cands if _norm_name(c["item"]) == want), None)
         if not match:
-            # String-bound law: no exact candidate match, no write. Re-ask.
-            body = ("Just so I lock in the right one, which of the names I "
-                    "sent should we go with? I want it exact before we "
-                    "start the paperwork.")
-            _rename_send(company, contact, body, state, dry_run, "re-ask")
-            return True
+            # CLIENT-AUTHORED NAME (Amin 09-13 proposed his own variant):
+            # a full name in THEIR words containing their brand is consent,
+            # not a mismatch — it becomes a real candidate row (same as the
+            # app's custom-name input) and the flow proceeds string-bound
+            # on it. Anything short/brandless still gets the re-ask.
+            proposed = re.sub(r"[‐-―−]", "-",
+                              str(result.get("confirmed_name") or "")).strip()
+            brand_word = (company.get("name") or "").split()[0].lower()
+            if (len(proposed.split()) >= 5 and brand_word
+                    and brand_word in proposed.lower()):
+                if not dry_run:
+                    _sb("POST", "/rest/v1/marketing_gbp_suggestions", {
+                        "company_id": company["id"], "item_type": "name",
+                        "item": proposed, "source": "client_conversation",
+                        "verdict": "ADD", "confidence": 0.7,
+                        "auto_safe": False, "status": "open",
+                        "reason": ("Client proposed this exact wording by "
+                                   f"text: \"{quote_txt}\"")})
+                match = {"item": proposed}
+                print(f"    RENAME client-authored candidate: {proposed!r}")
+            else:
+                # String-bound law: no exact candidate match, no write.
+                body = ("Just so I lock in the right one, which of the "
+                        "names I sent should we go with? I want it exact "
+                        "before we start the paperwork.")
+                _rename_send(company, contact, body, state, dry_run, "re-ask")
+                return True
         _choose_candidate(company["id"], match["item"], dry_run)
         _merge_rename_intent(company["id"], {
             "decision": "rename",
