@@ -38,5 +38,9 @@
     "last_audit_origin_source": "staging",
     "last_audit_form_factor": "desktop",
     "last_audit_blocker": "canonical/og:url/schema url render as https://None because client.domain is null; present on production build too"
+  },
+  "brightlocal": {
+    "location_id": 4152729,
+    "campaign_id": 999577
   }
 }

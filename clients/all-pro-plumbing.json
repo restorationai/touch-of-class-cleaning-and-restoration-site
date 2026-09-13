@@ -94,5 +94,9 @@
   "gbp": {
     "place_id": "ChIJYX-sGVdD6oARZNr_2oUREuM",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJYX-sGVdD6oARZNr_2oUREuM"
+  },
+  "brightlocal": {
+    "location_id": 4152723,
+    "campaign_id": 999572
   }
 }

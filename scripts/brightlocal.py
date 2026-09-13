@@ -131,6 +131,42 @@ def nap_for(slug: str, c: dict) -> dict | None:
     region_code = b.get("primaryState")
     postcode = b.get("postalCode")
     website = b.get("domain") or c.get("domain")
+    # Placeholder domains (prospect scaffolds) are never NAP truth
+    if website and website.endswith(".invalid"):
+        website = None
+    if not all([name, phone, line1, city, region_code, postcode, website]):
+        # DB fallback (2026-09-13): SAB sites hide the street address ON
+        # PURPOSE, so brand.ts legitimately lacks it — the companies row
+        # is the canonical NAP store (single-source law) and fills any
+        # gap here. all-pro/davis/flood-fixers/homepride class.
+        cid = _company_id(slug)
+        row = {}
+        if cid:
+            try:
+                row = (_sb_req("GET", f"/rest/v1/companies?id=eq.{cid}"
+                               "&select=name,phone,address,city,state,"
+                               "postal_code,website") or [{}])[0]
+            except Exception:  # noqa: BLE001 — offline stays offline
+                row = {}
+        name = name or (row.get("name") or "").strip() or None
+        phone = phone or (row.get("phone") or "").strip() or None
+        line1 = line1 or (row.get("address") or "").strip() or None
+        # PHYSICAL city beats marketing city on citations (DryCor lesson;
+        # flood-fixers: primaryCity San Diego but the address is San
+        # Marcos). brand.ts addressCity > DB city > brand primaryCity.
+        db_city = (row.get("city") or "").strip().title() or None
+        if not b.get("addressCity") and db_city:
+            city = db_city
+        region_code = (region_code
+                       or (row.get("state") or "").strip().upper() or None)
+        postcode = (postcode
+                    or (row.get("postal_code") or "").split("-")[0].strip()
+                    or None)
+        db_web = re.sub(r"^https?://|/$", "",
+                        (row.get("website") or "").strip()) or None
+        website = website or db_web
+    if isinstance(city, str):
+        city = city.strip()
     if not all([name, phone, line1, city, region_code, postcode, website]):
         return None
     # OPENING HOURS (2026-09-12): omitting them left every location

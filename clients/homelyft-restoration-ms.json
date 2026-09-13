@@ -39,7 +39,7 @@
     "rating": 5.0,
     "review_count": 48,
     "checked_at": "2026-08-02",
-    "note": "Claimed listing confirmed via DataForSEO 2026-08-02. NOT yet OAuth-connected in app (no user_integrations google row). NAP mismatch: listing phone 228-325-1496 + address 3200 B Ave vs our records 228-284-5200 + 1311 Spring St \u2014 reconcile with Terry before citations build-out."
+    "note": "Claimed listing confirmed via DataForSEO 2026-08-02. NOT yet OAuth-connected in app (no user_integrations google row). NAP mismatch: listing phone 228-325-1496 + address 3200 B Ave vs our records 228-284-5200 + 1311 Spring St — reconcile with Terry before citations build-out."
   },
   "audit": {
     "last_audit_at": "2026-08-27T02:59:39Z",
@@ -76,5 +76,9 @@
     "property_url": "sc-domain:homelyft.net",
     "verified_at": "2026-09-11T14:43:31+00:00",
     "sitemap_url": "https://homelyft.net/sitemap-index.xml"
+  },
+  "brightlocal": {
+    "location_id": 4152722,
+    "campaign_id": 999571
   }
 }
