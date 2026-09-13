@@ -258,6 +258,14 @@ def expand_inputs(template: Template, plan_input: dict, client: dict) -> dict:
             and "water-cleanup" not in selected_slugs
             and "water-cleanup" in template.services_by_slug):
         selected_slugs.append("water-cleanup")
+    # Repiping default-on (Santino 2026-09-13, queue #7): every plumbing-
+    # catalog plan carries Whole-House Repiping unless explicitly selected
+    # out — high-margin line every plumber does; the template already has
+    # the pages. Only the plumbing catalog defines the slug, so this is a
+    # no-op for every other vertical.
+    if ("repiping" in template.services_by_slug
+            and "repiping" not in selected_slugs):
+        selected_slugs.append("repiping")
     services = []
     missing = []
     for slug in selected_slugs:
