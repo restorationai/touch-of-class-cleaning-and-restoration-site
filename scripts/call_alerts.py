@@ -221,10 +221,16 @@ def run(dry_run: bool, hours: int, only_slug: str | None) -> int:
             prefer="resolution=merge-duplicates")
         try:
             from work_log import work_log
+            # Activity feed (Santino 2026-09-14: every alert send is a
+            # logged ACTION) — same marketing_work_log the app's activity
+            # view, monthly summary and report all read.
             work_log(c["company_id"], "calls", "missed-call-alert",
                      f"Texted you a heads up about a {'callback request' if kind == 'callback' else 'missed opportunity'} "
-                     f"call from {_fmt_phone(c['from_number'])}",
-                     {"call_id": c["id"], "kind": kind})
+                     f"call from {_fmt_phone(c['from_number'])} "
+                     f"({'Google listing' if (c.get('source') or 'gbp') == 'gbp' else 'website'} line)",
+                     {"call_id": c["id"], "kind": kind,
+                      "sent_from": setup["agent_phone_1"], "sent_to": to,
+                      "twilio_sid": ref, "body": body[:400]})
         except Exception as e:  # noqa: BLE001
             print(f"    (work log warn: {str(e)[:80]})")
         sent += 1
