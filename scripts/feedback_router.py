@@ -331,7 +331,9 @@ def parse_origin(body: str) -> dict | None:
 
 def compose_task_note(fb: dict, *, tag: str, company_name: str, slug: str,
                       who: str, site_live: bool, site_url: str | None,
-                      verdict_why: str, when: str) -> str:
+                      verdict_why: str, when: str,
+                      origin_channel: str = "sms",
+                      email_ref: dict | None = None) -> str:
     """The queued note. Written for a human to read at a glance and for the
     dev agent to execute from, with one machine-readable trailer."""
     cat = str(fb.get("category") or "other").lower()
@@ -355,10 +357,19 @@ def compose_task_note(fb: dict, *, tag: str, company_name: str, slug: str,
         lines.append(f"WHY THIS NEEDS YOUR OK: {verdict_why}. Approve and it "
                      "becomes a [DEV] task on tonight's run; dismiss and "
                      "nothing happens.")
+    # Channel fidelity (3b, 2026-09-13): the done-notification goes back on
+    # the SAME channel the request arrived on — email refs ride the trailer
+    # so dev_inbox can queue a threaded email reply instead of an SMS.
+    em = ""
+    if origin_channel == "email" and email_ref:
+        em = (f" | acct={email_ref.get('acct') or 'main'}"
+              f" | eth={email_ref.get('eth') or ''}"
+              f" | eto={email_ref.get('eto') or ''}")
     lines.append(
         f"{ORIGIN_MARK} | who={who} | cat={cat} | conf="
         f"{str(fb.get('confidence') or 'low').lower()} | slug={slug}"
-        + (" | live=1" if site_live else ""))
+        + (" | live=1" if site_live else "")
+        + f" | ch={origin_channel}" + em)
     return "\n".join(lines)
 
 
@@ -531,7 +542,9 @@ def already_queued(company_id: str, quote: str,
 # ---------------------------------------------------------------- the router
 def route_feedback(company: dict, feedback: list[dict], *, who: str,
                    when: str | None = None, dry_run: bool = False,
-                   escalate=None, limit: int = 4) -> list[dict]:
+                   escalate=None, limit: int = 4,
+                   origin_channel: str = "sms",
+                   email_ref: dict | None = None) -> list[dict]:
     """Turn a classifier `client_feedback` block into queued work.
 
     One note per feedback item: [DEV] when the gate says auto (the nightly
@@ -596,7 +609,8 @@ def route_feedback(company: dict, feedback: list[dict], *, who: str,
             body = compose_task_note(
                 fb, tag=tag, company_name=company.get("name") or "the client",
                 slug=slug or "?", who=who, site_live=live, site_url=url,
-                verdict_why=why, when=when)
+                verdict_why=why, when=when,
+                origin_channel=origin_channel, email_ref=email_ref)
             print(f"  [feedback] {verdict.upper()} ({fb.get('category')}): "
                   f"{str(fb.get('what'))[:70]!r} — {why}")
             if dry_run:

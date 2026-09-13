@@ -156,11 +156,32 @@ def close_the_loop(company_id: str, origin: dict, summary: str,
         slug = origin.get("slug")
         if not link:
             _, _, link = site_status(company_id, slug)
-        body = compose_done_directive(origin, summary, link)
-        _note(company_id, body)
         who = origin.get("who") or "the client"
-        print(f"loop closed: [FROM SANTINO] filed — Monica tells {who} it is "
-              f"done{' with ' + link if link else ''}")
+        # CHANNEL FIDELITY (3b, 2026-09-13, the Angie rule): a request that
+        # arrived by EMAIL gets its "it's done" on the SAME email thread,
+        # from the same mailbox — not a text. The reply is queued in ops_kv;
+        # email_intake (which holds the Gmail tokens) sends it on its next
+        # pass, threaded under the original conversation.
+        if origin.get("ch") == "email" and origin.get("eth"):
+            from datetime import datetime, timezone
+            key = (f"email-reply-queue:{company_id}:"
+                   f"{int(datetime.now(timezone.utc).timestamp())}")
+            _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+                {"k": key, "v": {
+                    "cid": company_id,
+                    "acct": origin.get("acct") or "main",
+                    "eth": origin.get("eth"),
+                    "eto": origin.get("eto") or "",
+                    "who": who, "summary": summary, "link": link,
+                    "queued_at": datetime.now(timezone.utc).isoformat()}},
+                prefer="resolution=merge-duplicates")
+            print(f"loop closed: EMAIL reply queued — {who} hears it on "
+                  "their own thread on the next mail pass")
+        else:
+            body = compose_done_directive(origin, summary, link)
+            _note(company_id, body)
+            print(f"loop closed: [FROM SANTINO] filed — Monica tells {who} "
+                  f"it is done{' with ' + link if link else ''}")
         _log(company_id, "client-feedback-notified",
              f"Told {who} their website change was done: {summary[:140]}",
              {"who": who, "quote": (origin.get("quote") or "")[:300],

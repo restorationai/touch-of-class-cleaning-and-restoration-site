@@ -444,6 +444,14 @@ def cmd_poll(args) -> int:
             print(f"({account} mailbox skipped: {str(e)[:120]})")
             continue
         companies = _poll_mailbox(tok, account, dry_run, companies)
+    # 3b: send any queued done-notifications for email-origin feedback
+    try:
+        n = process_email_reply_queue(dry_run)
+        if n:
+            print(f"[reply-queue] {n} done-notification(s) "
+                  + ("would send" if dry_run else "sent"))
+    except Exception as e:  # noqa: BLE001 — never blocks the poll
+        print(f"[reply-queue] warn: {str(e)[:100]}")
     flush_ops_pings(dry_run)
     return 0
 
@@ -598,6 +606,10 @@ def _poll_mailbox(tok: str, account: str, dry_run: bool,
                         company, fbs, who=sender,
                         when=datetime.now(timezone.utc).isoformat(),
                         dry_run=dry_run,
+                        origin_channel="email",
+                        email_ref={"acct": account,
+                                   "eth": m.get("threadId") or "",
+                                   "eto": sender},
                         escalate=lambda r: _esc(company, None, r, dry_run,
                                                 ping=False))
                     if routed:
@@ -731,6 +743,84 @@ def _poll_mailbox(tok: str, account: str, dry_run: bool,
                     {"addLabelIds": [label_id]})
 
     return companies
+
+
+def process_email_reply_queue(dry_run: bool) -> int:
+    """3b (2026-09-13): send the done-notifications dev_inbox queued for
+    EMAIL-origin feedback — threaded under the client's own conversation,
+    from the mailbox they wrote to. Runs on every intake pass; rows are
+    deleted only after a successful send."""
+    from client_ops_sync import _sb
+    rows = _sb("GET", "/rest/v1/ops_kv?k=like.email-reply-queue:*"
+               "&select=k,v") or []
+    if not rows:
+        return 0
+    sent = 0
+    toks: dict[str, str] = {}
+    for row in rows:
+        v = row.get("v") or {}
+        acct = v.get("acct") if v.get("acct") in ACCOUNTS else "main"
+        try:
+            tok = toks.setdefault(acct, access_token(acct))
+        except Exception as e:  # noqa: BLE001
+            print(f"  [reply-queue] token unavailable for {acct} "
+                  f"({str(e)[:60]}) — row stays queued")
+            continue
+        eth = v.get("eth")
+        thread = _g(tok, f"/threads/{eth}?format=metadata"
+                    "&metadataHeaders=Subject&metadataHeaders=Message-ID")             if eth else {}
+        msgs = (thread or {}).get("messages") or []
+        hd = {}
+        if msgs:
+            hd = {h["name"].lower(): h["value"] for h in
+                  (msgs[-1].get("payload") or {}).get("headers", [])}
+        subject = hd.get("subject") or "Your website update"
+        if not subject.lower().startswith("re:"):
+            subject = f"Re: {subject}"
+        to_raw = v.get("eto") or ""
+        mto = re.search(r"<([^>]+)>", to_raw)
+        to_addr = mto.group(1) if mto else to_raw.strip()
+        if not to_addr or "@" not in to_addr:
+            print(f"  [reply-queue] no recipient on {row['k']} — dropping")
+            if not dry_run:
+                _sb("DELETE", f"/rest/v1/ops_kv?k=eq.{row['k']}")
+            continue
+        first = (v.get("who") or "").split("<")[0].strip().split()
+        first = (first[0].title() if first and "@" not in first[0]
+                 else "there")
+        summary = str(v.get("summary") or
+                      "the update you asked for is in").strip().rstrip(".")
+        summary = summary[0].upper() + summary[1:] if summary else summary
+        link_line = (f" You can take a look here: {v['link']}"
+                     if v.get("link") else "")
+        body = (f"Hi {first},\n\n{summary}.{link_line}\n\n"
+                "Take a look when you get a chance and let us know if "
+                "anything else needs adjusting.\n")
+        body = body.replace("\u2014", ", ").replace("\u2013", "-")
+        print(f"  [reply-queue] -> {to_addr} ({acct}): {summary[:70]}")
+        if dry_run:
+            sent += 1
+            continue
+        import email.mime.text as _emt
+        mime = _emt.MIMEText(body)
+        mime["To"] = to_addr
+        mime["From"] = ACCOUNTS[acct]["addr"]
+        mime["Subject"] = subject
+        if hd.get("message-id"):
+            mime["In-Reply-To"] = hd["message-id"]
+            mime["References"] = hd["message-id"]
+        raw = base64.urlsafe_b64encode(mime.as_bytes()).decode()
+        payload = {"raw": raw}
+        if eth:
+            payload["threadId"] = eth
+        _g_post(tok, "/messages/send", payload)
+        try:
+            _sb_log_reply(v.get("cid") or "", to_addr, subject, body)
+        except Exception:  # noqa: BLE001
+            pass
+        _sb("DELETE", f"/rest/v1/ops_kv?k=eq.{row['k']}")
+        sent += 1
+    return sent
 
 
 def _sb_log_reply(cid: str, to: str, subject: str, body: str) -> None:
