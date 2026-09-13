@@ -8896,6 +8896,10 @@ the client's message. Read what the client is doing and answer with JSON:
   be that candidate's EXACT string copied from the list, never retyped,
   never a paraphrase. A vague positive ("sounds good") with more than one
   candidate on the table is NOT confirmed, it is "question" — ask which one.
+  EXCEPTION: when Monica's previous message proposed ONE specific name and
+  they reply with a bare yes/agreement (or paste that same name back),
+  that IS "confirmed" with confirmed_name = that exact name. Never re-ask
+  someone to pick a name they just agreed to.
 - "declined": they clearly do not want a rename at all.
 - "service_answer": they answered a service or license question (plumbing,
   mold, sewage...). Fill service_answers; term is the lowercase service
@@ -9118,7 +9122,7 @@ def _verify_dba_upload(company: dict, contact: dict, rel: str,
 
 
 def _rename_send(company: dict, contact: dict, body: str, state: dict,
-                 dry_run: bool, label: str) -> bool:
+                 dry_run: bool, label: str, pend: dict | None = None) -> bool:
     grounding = outbound_guard(body, None)
     if grounding:
         print(f"    RENAME {label} BLOCKED (outbound guard): {grounding}")
@@ -9127,6 +9131,12 @@ def _rename_send(company: dict, contact: dict, body: str, state: dict,
                           f"({grounding})", dry_run, ping=True)
         return False
     print(f"    RENAME {label} ({len(body)} chars) -> {body!r}")
+    # Conversation memory (Amin 09-13: "Yes" after a specific proposal got
+    # "which name did you mean?"): the last outbound rides the state so the
+    # next classify sees what Monica just said.
+    if pend is not None:
+        pend["last_outbound"] = body[:400]
+        _rename_save(company["id"], pend, dry_run)
     if dry_run:
         return True
     try:
@@ -9201,6 +9211,8 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
         f"Company: {company.get('name')}\n"
         f"Vertical: {vertical}\n"
         f"Conversation stage: {pend.get('stage')}\n"
+        f"Monica's previous message: "
+        f"{_clip(str(pend.get('last_outbound') or '(none on record)'), 380)}\n"
         f"Candidate names ON RECORD:\n{cand_lines}\n\n"
         f"Client message: {(msg.get('body') or '')[:600]}")
     read = (result.get("read") or "").strip().lower()
@@ -9247,7 +9259,7 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
                 body = ("Just so I lock in the right one, which of the "
                         "names I sent should we go with? I want it exact "
                         "before we start the paperwork.")
-                _rename_send(company, contact, body, state, dry_run, "re-ask")
+                _rename_send(company, contact, body, state, dry_run, "re-ask", pend)
                 return True
         _choose_candidate(company["id"], match["item"], dry_run)
         _merge_rename_intent(company["id"], {
@@ -9265,8 +9277,9 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
                 "The next step is on your side: file a DBA (trade name) "
                 "with the state for exactly that name, letter for letter. "
                 "Once it's filed, text us a photo of the paperwork and "
-                "we'll take it from there.")
-        _rename_send(company, contact, body, state, dry_run, "confirm")
+                "we'll take it from there. Is that something you can get "
+                "started on this week?")
+        _rename_send(company, contact, body, state, dry_run, "confirm", pend)
         pend["stage"] = "awaiting_dba"
         pend["chosen"] = match["item"]
         _rename_save(company["id"], pend, dry_run)
@@ -9290,7 +9303,7 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
     if read == "interested":
         body = _rename_options_body(company, cands, vertical,
                                     pend.get("notes"))
-        _rename_send(company, contact, body, state, dry_run, "options")
+        _rename_send(company, contact, body, state, dry_run, "options", pend)
         pend["stage"] = "options"
         _rename_save(company["id"], pend, dry_run)
         return True
@@ -9314,7 +9327,7 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
             "citations can run", dry_run, ping=True)
         body = ("Awesome. Can you text over a photo of the filing so we "
                 "have it on record? Then we'll get everything rolling.")
-        _rename_send(company, contact, body, state, dry_run, "dba-ask")
+        _rename_send(company, contact, body, state, dry_run, "dba-ask", pend)
         return True
     if read == "handoff":
         append_escalation(
@@ -9326,7 +9339,7 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
     body = _fit_sms((result.get("reply") or "").strip(), 240, 300,
                     label=" [rename]")
     if body:
-        _rename_send(company, contact, body, state, dry_run, "reply")
+        _rename_send(company, contact, body, state, dry_run, "reply", pend)
     pend["last_at"] = datetime.now(timezone.utc).isoformat()
     _rename_save(company["id"], pend, dry_run)
     return True
