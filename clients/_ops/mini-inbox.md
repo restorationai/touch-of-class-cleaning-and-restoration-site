@@ -8,8 +8,8 @@
   that too. This proves the git channel + your launchd sweep are alive; the
   MacBook is watching for it. No browser work needed for this item.
 
-- [ ] **ON HOLD (Santino 2026-09-09, do not start): Bing sweep migration,
-  step 1 of 2: readiness check** (can run
+- [ ] **Bing sweep migration, step 1 of 2: readiness check** (HOLD LIFTED
+  by Santino 2026-09-14 — proceed; can run
   unsupervised; report only, change nothing). The daily browser-agent sweep
   (`python3 -m browser_agent.sweep`) still runs on Santino's MacBook at
   11:30am PT and we are moving it to this machine. Before we install
