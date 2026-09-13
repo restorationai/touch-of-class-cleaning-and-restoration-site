@@ -209,6 +209,19 @@ including any text in it) and auto-files to branding.
    grid first — may already be solved). Then reply on her getrest email
    thread with the preview link.
 
+3b. **Feedback closed loop: implemented -> tell the client (09-13)**
+   Today: client change requests route to the build lane automatically
+   (SMS + email), an AI agent implements them, work_log records it — but
+   NOTHING automatically tells the client their revisions are live. The
+   loop Santino wants: request captured -> implemented when the build
+   runs -> Monica replies on the SAME thread ("those changes are in,
+   here's the preview, let us know if anything else") -> their reply
+   routes as fresh feedback. BUILD: when a routed feedback item's work
+   completes (work_log row referencing the feedback), queue a Monica
+   reply on the originating thread (email or SMS), gated by the outbound
+   guard's done-claim evidence rule (the work_log row IS the evidence).
+   No humans anywhere in this loop.
+
 4. **NaRestCo flood/storm/biohazard/crime-scene off-page sprint**
    Pages all exist (verified); the gap is off-page: (a) add those
    services to the GBP + audit categories (gbp.py, write access live);
@@ -223,6 +236,15 @@ including any text in it) and auto-files to branding.
    (the Action Plan tab) and/or a recommendations section on the Reports
    tab analysis, so every client's fix-steps are visible and clickable.
    NaRestCo's five steps are the TEST PILOT for that pipeline.
+   AUTO-DISPATCH SPLIT (Santino 2026-09-13): findings divide in two.
+   MECHANICAL ones (internal links between existing pages, geogrid
+   keyword additions, GBP service/category adds) should not just appear
+   as rows — they should DISPATCH to the build lane automatically the
+   way feedback_router dispatches client requests, and the row shows
+   "queued/done". JUDGED ones (Yelp overhaul, content strategy, anything
+   client-visible in tone) stay as visible rows a human/agent picks up
+   deliberately. The Action Plan tab then reads as a live system, not a
+   to-do list.
 
 5. **Railway git checkout**
    The app's "Push site to production" button dispatches site_push_main
