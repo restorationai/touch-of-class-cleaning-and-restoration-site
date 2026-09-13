@@ -74,7 +74,14 @@ def _ago(started_at: str, tz: str) -> str:
     return f"{local.strftime('%A %-I:%M%p').lower()}"
 
 
-def compose(kind: str, caller: str, ago: str, analysis: dict) -> str:
+# Sign-off brand: env-overridable so a company rename (Ignite Systems?)
+# is one Railway/workflow variable, not a code change.
+import os as _os
+BRAND = _os.environ.get("RANKAI_BRAND_NAME", "Restoration AI")
+
+
+def compose(kind: str, caller: str, ago: str, analysis: dict,
+            source: str = "") -> str:
     svc = (analysis.get("service") or "a job").strip()
     summary = str(analysis.get("summary") or "").split(". ")[0].strip()
     if len(summary) > 150:
@@ -82,13 +89,18 @@ def compose(kind: str, caller: str, ago: str, analysis: dict) -> str:
     if summary and not summary.endswith("."):
         summary += "."
     n = _fmt_phone(caller)
+    # Source attribution (Santino 2026-09-14): naming the line that rang is
+    # standing proof of where their leads come from (the DNI program).
+    src = {"gbp": "your Google listing", "website": "your website"}.get(
+        (source or "").lower(), "your tracked line")
     if kind == "callback":
-        return (f"Callback alert from your Rank AI line: {n} called {ago} "
+        return (f"Callback alert from {src}: {n} called {ago} "
                 f"about {svc} and is waiting on a call back. {summary} "
-                f"Their number: {n}")
-    return (f"Missed job alert from your Rank AI line: {n} called {ago} "
+                f"Their number: {n}\n- {BRAND}")
+    return (f"Missed job alert from {src}: {n} called {ago} "
             f"about {svc} and did not get booked. {summary} "
-            f"They may still be shopping. Worth a quick call back: {n}")
+            f"They may still be shopping. Worth a quick call back: {n}"
+            f"\n- {BRAND}")
 
 
 def _twilio_send(setup: dict, to: str, body: str) -> tuple[bool, str]:
@@ -107,7 +119,7 @@ def run(dry_run: bool, hours: int, only_slug: str | None) -> int:
         .isoformat().replace("+00:00", "Z")  # '+' breaks the query string
     calls = _sb("GET", "/rest/v1/marketing_tracked_calls"
                 f"?started_at=gte.{since}"
-                "&select=id,company_id,from_number,started_at,analysis"
+                "&select=id,company_id,from_number,started_at,analysis,source"
                 "&order=started_at.desc&limit=200") or []
     sent = held = skipped = 0
     from client_concierge import fetch_companies, messaging_target, \
@@ -169,7 +181,7 @@ def run(dry_run: bool, hours: int, only_slug: str | None) -> int:
             print(f"  [{slug}] no owner cell on file")
             continue
         body = compose(kind, c["from_number"], _ago(c["started_at"], tz),
-                       c["analysis"])
+                       c["analysis"], c.get("source") or "")
         print(f"  [{slug}] {kind} -> {to} from {setup['agent_phone_1']}:\n"
               f"    {body}")
         if dry_run:
