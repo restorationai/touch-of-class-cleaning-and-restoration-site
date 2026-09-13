@@ -294,7 +294,26 @@ including any text in it) and auto-files to branding.
    deliberately. The Action Plan tab then reads as a live system, not a
    to-do list.
 
-5. **Railway git checkout**
+5. **Railway git checkout — SHIPPED 2026-09-14, END-TO-END PROVEN**
+   The app's "Push site to production" button WORKS now. Root causes
+   were two: (a) the Nixpacks image ships source without .git AND
+   without a git binary (added to nixpacks.toml); (b) /jobs/run 500'd
+   on a SYSTEM_LABELS KeyError for site_push_main/cutover_provision
+   before the runner ever saw the job. BUILT (api/runner.py):
+   _ensure_checkout() — FULL runtime clone at /tmp/rankai-checkout
+   (full history on purpose: sync-deploy's subtree split breaks on
+   shallow), PAT remote kept fresh, fetch+reset+clean per job,
+   refuses to run stale; _push_stamps() — deploy-stamp writeback to
+   origin/main with rebase-retry (the dirty-tree lesson, mechanized);
+   site_push_main / cutover / cutover_provision all run from the
+   checkout. PROOF: POST /jobs/run site_push_main for prorestoration
+   from the app's exact call path -> job completed, per-client repo
+   pushed, stamps committed to main by "Rank AI Ops Worker", zero Mac
+   involvement. GITHUB_PERSONAL_ACCESS_TOKEN was already on the
+   service env. NOTE: cutover paths share the proven checkout but the
+   next real domain launch should still be watched live (zone
+   creation + NS gate are environment-dependent).
+   ORIGINAL ITEM:
    The app's "Push site to production" button dispatches site_push_main
    to the Railway worker — but /app has NO git clone, so the job cannot
    actually work. Bake a monorepo clone + GitHub PAT into the Railway
