@@ -8685,6 +8685,69 @@ def _company_vertical(company: dict) -> str:
     return "restoration"
 
 
+# COVERAGE CHECK (Santino 2026-09-12, Crew/roofing miss): "Roofing
+# contractor" was a live GBP category AND Roofing Services was in his
+# selected services, yet no candidate named roofing — the seeding pass
+# keyed on restoration search terms and never cross-checked the two
+# stores we already hold. This check runs at the pitch chokepoint: any
+# high-volume term present in companies.services OR the GBP categories
+# but absent from every candidate is a loud warning before Monica opens
+# the conversation.
+# Two tiers: BLOCKING = the top-volume lanes that always deserve a name
+# slot when the client actually sells them (a missed one is the Crew
+# roofing failure). ADVISORY = real services that rarely merit name real
+# estate — surfaced as a note, never a refusal, or every client would
+# flag sewage and the gate would become noise.
+_COVERAGE_TERMS: list[tuple[str, str, bool]] = [
+    # (stem in services/categories, stem in candidate names, blocking)
+    ("roof", "roof", True), ("plumb", "plumb", True),
+    ("mold", "mold", True), ("water damage", "water", True),
+    ("fire", "fire", True),
+    ("storm", "storm", False), ("sewage", "sewage", False),
+    ("carpet clean", "carpet", False), ("asbestos", "asbestos", False),
+    ("biohazard", "biohazard", False),
+]
+
+
+def _company_services(company: dict) -> list[str]:
+    """companies.services — fetch_companies doesn't select the column, so
+    read it directly (it is the single selected-services store)."""
+    svcs = company.get("services")
+    if isinstance(svcs, list):
+        return [str(s) for s in svcs]
+    try:
+        co = (_sb("GET", f"/rest/v1/companies?id=eq.{company['id']}"
+                  "&select=services") or [{}])[0]
+        got = co.get("services")
+        return [str(s) for s in got] if isinstance(got, list) else []
+    except Exception:  # noqa: BLE001
+        return []
+
+
+def _rename_coverage_gaps(company: dict,
+                          cands: list[dict]) -> tuple[list[str], list[str]]:
+    """High-volume terms the client sells (selected services) or Google
+    already lists (GBP categories) that NO name candidate mentions."""
+    hay = [" ".join(_company_services(company)).lower()]
+    try:
+        prof = (_sb("GET", "/rest/v1/marketing_gbp_profiles?company_id="
+                    f"eq.{company['id']}"
+                    "&select=primary_category,additional_categories&limit=1")
+                or [{}])[0]
+        cats = ([prof.get("primary_category") or ""]
+                + list(prof.get("additional_categories") or []))
+        hay.append(" ".join(str(c) for c in cats).lower())
+    except Exception:  # noqa: BLE001 — categories are best-effort
+        pass
+    blob = " | ".join(hay)
+    names = " ".join(_norm_name(c["item"]) for c in cands)
+    blocking, advisory = [], []
+    for sell_stem, name_stem, blocks in _COVERAGE_TERMS:
+        if sell_stem in blob and name_stem not in names:
+            (blocking if blocks else advisory).append(sell_stem)
+    return blocking, advisory
+
+
 def _rename_candidates(company_id: str) -> list[dict]:
     """Open + chosen name candidates, best first. VERBATIM strings only —
     a name may never be composed in-conversation (registered-name law)."""
@@ -8776,9 +8839,7 @@ def _rename_options_body(company: dict, cands: list[dict],
     `notes` = per-conversation talking points set at pitch time (Santino
     2026-09-12, Dry Bros: Amin was lukewarm on mold before hearing it is a
     top-intent Illinois search term — the ponder-point rides the options)."""
-    co_services = company.get("services")
-    svc_hay = " ".join(str(s) for s in co_services).lower() \
-        if isinstance(co_services, list) else ""
+    svc_hay = " ".join(_company_services(company)).lower()
     top = [c for c in cands if (c.get("status") or "") != "dismissed"][:3]
     lines = ["Here's what we like best, based on what people in your area "
              "actually search:"]
@@ -8891,6 +8952,9 @@ def _verify_dba_document(company: dict, contact: dict, msg: dict,
     if not chosen:
         return None
     images = _vision_blocks(msg.get("attachments"))
+    if not images and msg.get("messageType") == "TYPE_EMAIL":
+        # Emailed filings arrive as inline images, not attachments
+        images = _email_inline_vision(msg)
     if not images:
         return None
     try:
@@ -9119,9 +9183,11 @@ def cmd_rename_pitch(args) -> int:
     except Exception:  # noqa: BLE001
         pass
     hours = business_hours_check(company, contact_payload)
-    if hours:
+    if hours and not dry_run:
         print(f"HELD (quiet hours): {hours}")
         return 1
+    if hours:
+        print(f"  (note: a --send right now would be held: {hours})")
     contact = {"id": contact_id,
                "phone": (target.get("cell")
                          or (contact_payload or {}).get("phone")),
@@ -9132,6 +9198,18 @@ def cmd_rename_pitch(args) -> int:
           f"{_company_vertical(company)}):")
     for c in cands[:4]:
         print(f"  - [{c.get('confidence')}] {c['item']}")
+    blocking, advisory = _rename_coverage_gaps(company, cands)
+    if advisory:
+        print(f"  (coverage note: {', '.join(advisory)} sold but unnamed — "
+              "usually fine, minor lanes)")
+    if blocking:
+        print(f"  !! COVERAGE GAP: {', '.join(blocking)} — sold as a "
+              "service or live as a GBP category, but NO candidate names "
+              "it. Seed a candidate (or rule it out) before pitching.")
+        if not getattr(args, "force", False):
+            print("  refusing to pitch an incomplete slate "
+                  "(--force overrides)")
+            return 1
     notes = [n for n in (getattr(args, "note", None) or []) if n.strip()]
     if notes or dry_run:
         preview = _rename_options_body(company, cands,
@@ -12266,6 +12344,8 @@ def main() -> int:
     pr.add_argument("--note", action="append", default=[],
                     help="talking point to ride the options text "
                          "(repeatable)")
+    pr.add_argument("--force", action="store_true",
+                    help="pitch despite a coverage gap warning")
 
     sub.add_parser("watchdog", help="loud alarm for directives stuck unsent "
                    ">2h (Sarha/Jimmy class silence, 2026-09-04)")

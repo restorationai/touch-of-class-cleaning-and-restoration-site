@@ -196,3 +196,14 @@ plumber). QCI + Dry Bros already carried plumbing options.
 The app's rename card now also flags any candidate naming a service
 outside companies.services (the Dry Bros mold catch) — the flag says
 confirm-or-add, never auto-hides.
+
+## Coverage-check addition 2026-09-12 (the Crew roofing miss)
+
+crew-restoration-construction: seeded "Crew Restoration & Construction -
+Roofing, Water & Fire Damage Restoration" at 0.89. Roofing contractor was
+already a live GBP category + Roofing Services selected + Kyle's stated
+retail-roofing goal, and no candidate named it. Root cause: the original
+seeding keyed on restoration search terms without cross-checking
+companies.services or GBP categories. Fixed mechanically: rename-pitch now
+runs _rename_coverage_gaps (blocking tier roofing/plumbing/mold/water/fire)
+and refuses an incomplete slate; the skill doc carries the same law.
