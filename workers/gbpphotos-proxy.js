@@ -78,6 +78,7 @@ ${reviewUrl ? `<button class="tile" onclick="document.getElementById('qr').class
 <a class="tile" href="/gbpphotos/${slug}"><span class="ic">📷</span>Upload Photos<small>Job shots, before &amp; afters, any photos &mdash; they go to Google and the website</small></a>
 <a class="tile" href="/logo/${slug}"><span class="ic">📎</span>Send Us Files<small>Logo or other files for the marketing team</small></a>
 <button class="tile" onclick="document.getElementById('js').classList.add('open')"><span class="ic">📝</span>Add a Job Story<small>Tell us about a job you just finished, we turn it into a website story</small></button>
+<button class="tile" style="border:2px solid #dc2626" onclick="document.getElementById('db').classList.add('open')"><span class="ic">📄</span>DBA / Trade Name Certificate<small>Snap a photo of your filed DBA paperwork &mdash; we verify the name and take it from there</small></button>
 <div id="qr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Scan to leave us a review</div>
 ${qrImg ? `<img src="${qrImg}" alt="Review QR code" onerror="this.onerror=null;this.src='${qrFallback}'">` : ""}
@@ -89,6 +90,13 @@ ${qrImg ? `<img src="${qrImg}" alt="Review QR code" onerror="this.onerror=null;t
 <form id="rrf"><input name="name" placeholder="Customer name" required autocomplete="off">
 <input name="phone" id="rrph" placeholder="Cell number" type="tel" inputmode="numeric" maxlength="14" required autocomplete="off">
 <button class="btn" type="submit">Send review request</button><div class="msg" id="rrmsg"></div></form></div>
+<div id="db" style="display:none;position:fixed;inset:0;background:#fff;z-index:50;padding:56px 16px 32px;overflow:auto"><button class="close" onclick="this.parentElement.style.display='none'">✕</button>
+<div style="display:flex;flex-direction:column;align-items:center;gap:12px">
+<div class="qrcap">DBA / Trade Name Certificate</div>
+<div class="qrsub">A clear photo of the filed paperwork. We check that the registered name matches exactly, then get everything moving.</div>
+<form id="dbf" style="width:100%;max-width:340px;display:flex;flex-direction:column;gap:10px">
+<label class="pick" style="border-color:#dc2626;color:#b91c1c">＋ Add the certificate photo<span id="dbcount">The whole page, name readable</span><input id="dbfile" type="file" accept="image/*"></label>
+<button class="btn" type="submit" id="dbbtn" style="background:#dc2626">Send certificate</button><div class="msg" id="dbmsg"></div></form></div></div>
 <div id="js"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Add a job story</div>
 <div class="qrsub">A couple of quick questions while the job is fresh. We turn your answers into a story on the website.</div>
@@ -134,6 +142,32 @@ function jsPick(inputId, countId, hint, sink) {
 }
 jsPick('jsbefore', 'jscountb', 'When you arrived, the damage', jsBefore);
 jsPick('jsafter', 'jscounta', 'The finished result', jsAfter);
+// --- DBA certificate (red tile). One photo, EXIF-stripped like everything
+// else, lands in docs/dba/ where the sweep vision-verifies the name.
+var dbFile = null;
+document.getElementById('dbfile').addEventListener('change', function (e) {
+  var f = (e.target.files || [])[0];
+  dbFile = f && f.type.indexOf('image/') === 0 ? f : null;
+  document.getElementById('dbcount').textContent = dbFile ? '1 photo ready' : 'The whole page, name readable';
+});
+document.getElementById('dbf').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  var m = document.getElementById('dbmsg'), b = document.getElementById('dbbtn');
+  if (!dbFile) { m.className = 'msg err'; m.textContent = 'Add the certificate photo first.'; return; }
+  b.disabled = true; m.className = 'msg'; m.textContent = 'Uploading...';
+  try {
+    var clean = await jsStrip(dbFile);
+    var up = await fetch('/gbpphotos/${slug}?cat=dba&note=' + encodeURIComponent('DBA certificate via hub'),
+      { method: 'POST', headers: { 'Content-Type': 'image/jpeg' }, body: clean });
+    var d = await up.json();
+    if (up.ok && d && d.ok) {
+      m.className = 'msg ok'; m.textContent = 'Got it! We verify the name matches and text you either way.';
+      e.target.reset(); dbFile = null;
+      document.getElementById('dbcount').textContent = 'The whole page, name readable';
+    } else { m.className = 'msg err'; m.textContent = (d && d.error) || 'Something went wrong, try again.'; }
+  } catch (err) { m.className = 'msg err'; m.textContent = 'Network error, try again.'; }
+  b.disabled = false;
+});
 var jsDate = document.querySelector('#jsf [name=performed_on]');
 function jsToday() { return new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10); }
 if (jsDate) jsDate.value = jsToday();

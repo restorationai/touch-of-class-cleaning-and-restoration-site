@@ -8939,24 +8939,14 @@ and slashes. null when unreadable. is_dba_document is false for job
 photos, screenshots of anything else, or unrelated paperwork."""
 
 
-def _verify_dba_document(company: dict, contact: dict, msg: dict,
-                         pend: dict, cands: list[dict], state: dict,
-                         dry_run: bool) -> str | None:
-    """Vision-verify a texted DBA filing against the chosen name.
-    Returns 'match' / 'mismatch' when handled (reply + writes done),
-    None when there is no readable DBA document (caller falls back to
-    the ask-for-photo path)."""
-    chosen = pend.get("chosen") or next(
+def _dba_chosen_name(pend: dict | None, cands: list[dict]) -> str | None:
+    return (pend or {}).get("chosen") or next(
         (c["item"] for c in cands
          if (c.get("status") or "") == "chosen"), None)
-    if not chosen:
-        return None
-    images = _vision_blocks(msg.get("attachments"))
-    if not images and msg.get("messageType") == "TYPE_EMAIL":
-        # Emailed filings arrive as inline images, not attachments
-        images = _email_inline_vision(msg)
-    if not images:
-        return None
+
+
+def _dba_extract(company: dict, images: list[dict]) -> dict | None:
+    """Vision-read a candidate DBA document. None = not readable as one."""
     try:
         doc = anthropic_json(DBA_EXTRACT_SYSTEM,
                              f"The business is {company.get('name')}. "
@@ -8966,41 +8956,156 @@ def _verify_dba_document(company: dict, contact: dict, msg: dict,
         return None
     if not doc.get("is_dba_document") or not doc.get("registered_name"):
         return None
+    return doc
+
+
+def _dba_store(company_id: str, image_b64: str, dry_run: bool) -> str | None:
+    """Keep a durable copy of the verified filing at docs/dba/verified-*.jpg
+    (the 'verified-' prefix marks a SYSTEM write: the upload sweep must
+    never re-verify our own copy). Returns the public URL."""
+    path = (f"{company_id}/docs/dba/verified-"
+            f"{int(datetime.now(timezone.utc).timestamp())}.jpg")
+    if dry_run:
+        print(f"    [dry-run] would store filing copy -> branding/{path}")
+        return f"(dry-run) branding/{path}"
+    try:
+        sb_url = os.environ["SUPABASE_URL"].rstrip("/")
+        key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+        r = requests.post(
+            f"{sb_url}/storage/v1/object/branding/{path}",
+            headers={"apikey": key, "Authorization": f"Bearer {key}",
+                     "Content-Type": "image/jpeg"},
+            data=base64.b64decode(image_b64), timeout=60)
+        r.raise_for_status()
+        return f"{sb_url}/storage/v1/object/public/branding/{path}"
+    except Exception as e:  # noqa: BLE001 — the link is nice-to-have
+        print(f"    DBA copy store failed ({str(e)[:80]})")
+        return None
+
+
+def _dba_apply(company: dict, contact: dict, chosen: str, doc: dict,
+               doc_url: str | None, source: str, state: dict,
+               dry_run: bool) -> str:
+    """Shared outcome for every DBA arrival lane (texted, emailed, hub
+    upload): exact match auto-clears the citations gate, mismatch holds it
+    with both strings side by side. Returns 'match' or 'mismatch'."""
     reg = str(doc["registered_name"]).strip()
     filed_on = doc.get("filed_on")
     if _norm_name(reg) == _norm_name(chosen):
         _merge_rename_intent(company["id"], {
             "dba_filed": True, "dba_name": reg,
             "dba_filed_at": filed_on,
+            "dba_doc_url": doc_url,
             "dba_verified": "vision_auto",
             "dba_verified_at": datetime.now(timezone.utc).isoformat()},
             dry_run)
         append_escalation(
             company, None,
-            f"DBA VERIFIED from a texted filing photo: {reg!r} matches the "
-            f"chosen name (filed {filed_on or 'date unreadable'}; document "
-            "photo auto-filed under docs/inbox). Citations gate is CLEAR — "
-            "the citation order can run, then the GBP change.", dry_run,
-            ping=True)
+            f"DBA VERIFIED from {source}: {reg!r} matches the chosen name "
+            f"(filed {filed_on or 'date unreadable'}"
+            + (f"; document: {doc_url}" if doc_url else "")
+            + "). Citations gate is CLEAR — the citation order can run, "
+            "then the GBP change.", dry_run, ping=True)
         body = ("Got it, the filing looks perfect. That's everything we "
                 "need from you. We'll start rolling the new name out "
                 "across your listings and handle the Google update from "
                 "here. I'll keep you posted.")
         _rename_send(company, contact, body, state, dry_run, "dba-verified")
-        pend["stage"] = "dba_verified"
         return "match"
     append_escalation(
         company, None,
-        f"DBA MISMATCH on the texted filing: document reads {reg!r} but "
-        f"the chosen name is {chosen!r}. Monica asked them to check; "
-        "verify the document by eye before anything runs.", dry_run,
-        ping=True)
+        f"DBA MISMATCH from {source}: document reads {reg!r} but the "
+        f"chosen name is {chosen!r}"
+        + (f" (document: {doc_url})" if doc_url else "")
+        + ". Monica asked them to check; verify the document by eye "
+        "before anything runs.", dry_run, ping=True)
     body = (f"Thanks for sending that over. One thing, the filing reads "
             f"\"{reg}\" but the name we're setting up is \"{chosen}\". "
             "Those need to match exactly for Google. Can you double "
             "check the filing on your end?")
     _rename_send(company, contact, body, state, dry_run, "dba-mismatch")
     return "mismatch"
+
+
+def _verify_dba_document(company: dict, contact: dict, msg: dict,
+                         pend: dict, cands: list[dict], state: dict,
+                         dry_run: bool) -> str | None:
+    """Texted/emailed lane: vision-verify a filing from the message's
+    images. Returns 'match' / 'mismatch' when handled, None when there is
+    no readable DBA document (caller falls back to the ask-for-photo
+    path)."""
+    chosen = _dba_chosen_name(pend, cands)
+    if not chosen:
+        return None
+    images = _vision_blocks(msg.get("attachments"))
+    if not images and msg.get("messageType") == "TYPE_EMAIL":
+        # Emailed filings arrive as inline images, not attachments
+        images = _email_inline_vision(msg)
+    if not images:
+        return None
+    doc = _dba_extract(company, images)
+    if not doc:
+        return None
+    doc_url = _dba_store(company["id"], images[0]["data"], dry_run)
+    verdict = _dba_apply(company, contact, chosen, doc, doc_url,
+                         "a texted filing photo", state, dry_run)
+    if verdict == "match":
+        pend["stage"] = "dba_verified"
+    return verdict
+
+
+def _verify_dba_upload(company: dict, contact: dict, rel: str,
+                       state: dict, dry_run: bool) -> str:
+    """Hub-tile lane: a file landed in branding/{cid}/docs/dba/ via the
+    red DBA tile; the 10-minute upload sweep routes it here instead of the
+    generic thank-you. Downloads the object, vision-verifies, and runs the
+    same match/mismatch outcome as the texted lane."""
+    cid = company["id"]
+    sb_url = os.environ["SUPABASE_URL"].rstrip("/")
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    try:
+        r = requests.get(
+            f"{sb_url}/storage/v1/object/branding/{cid}/{rel}",
+            headers={"apikey": key, "Authorization": f"Bearer {key}"},
+            timeout=60)
+        r.raise_for_status()
+        from io import BytesIO
+        from PIL import Image
+        img = Image.open(BytesIO(r.content)).convert("RGB")
+        w, h = img.size
+        if max(w, h) > 1568:
+            s = 1568 / max(w, h)
+            img = img.resize((round(w * s), round(h * s)))
+        buf = BytesIO()
+        img.save(buf, "JPEG", quality=80)
+        images = [{"media_type": "image/jpeg",
+                   "data": base64.b64encode(buf.getvalue()).decode()}]
+    except Exception as e:  # noqa: BLE001
+        append_escalation(company, None,
+                          f"a file arrived on the DBA upload tile "
+                          f"({rel}) but could not be read — check it by "
+                          f"eye ({str(e)[:80]})", dry_run, ping=True)
+        return "unreadable"
+    cands = _rename_candidates(cid)
+    chosen = _dba_chosen_name(None, cands)
+    if not chosen:
+        append_escalation(company, None,
+                          f"a DBA document was uploaded ({rel}) but NO name "
+                          "is chosen on the Profile Rename card — decide "
+                          "the name, then verify the filing by eye",
+                          dry_run, ping=True)
+        return "no_chosen"
+    doc = _dba_extract(company, images)
+    if not doc:
+        append_escalation(company, None,
+                          f"the DBA-tile upload ({rel}) does not read as a "
+                          "DBA filing — check it by eye and mark the "
+                          "Citations card manually if it is one",
+                          dry_run, ping=True)
+        return "unreadable"
+    doc_url = f"{sb_url}/storage/v1/object/public/branding/{cid}/{rel}"
+    return _dba_apply(company, contact, chosen, doc, doc_url,
+                      "the hub DBA upload", state, dry_run)
 
 
 def _rename_send(company: dict, contact: dict, body: str, state: dict,
@@ -9015,8 +9120,18 @@ def _rename_send(company: dict, contact: dict, body: str, state: dict,
     print(f"    RENAME {label} ({len(body)} chars) -> {body!r}")
     if dry_run:
         return True
-    res = send_message(contact, "sms", body, company=company)
-    record_sent_message(state, res)
+    try:
+        res = send_message(contact, "sms", body, company=company)
+        record_sent_message(state, res)
+    except SendBlocked as e:
+        # Writes/pings already happened; a held text must not kill the
+        # sweep or the inbound pass (quiet window, allowlist, hold).
+        print(f"    RENAME {label} send BLOCKED: {str(e)[:120]}")
+        append_escalation(company, None,
+                          f"rename {label} text could not be delivered "
+                          f"({str(e)[:100]}) — send it by hand if needed",
+                          dry_run)
+        return False
     return True
 
 
@@ -10387,6 +10502,12 @@ _UPLOAD_KINDS = (
     ("docs/legal/", "legal docs"),
     ("docs/insurance/", "insurance docs"),
     ("docs/license", "license docs"),
+    # DBA lane (2B, 2026-09-13): verified- copies are OUR system writes
+    # (never re-verified, never acked); everything else in docs/dba/ came
+    # off the hub's red DBA tile and gets vision-verified instead of the
+    # generic thank-you — upload_event routes it to _verify_dba_upload.
+    ("docs/dba/verified-", None),
+    ("docs/dba/", "dba"),
     ("docs/", "file"),
 )
 _UPLOAD_ACK_MAX_PATHS = 500      # rolling dedupe ledger per company
@@ -10536,6 +10657,36 @@ def upload_event(objects: list | None, do_send: bool = True) -> dict:
     for cid in list(per_company):
         per_company[cid] = _route_misfiled_photos(
             cid, per_company[cid], dry_run=not do_send)
+    # DBA-tile arrivals (2B): peel them off BEFORE the ack fold — they get
+    # vision verification + their own Monica message, never the generic
+    # thank-you. Rolling dedupe mirrors the ack ledger.
+    dba_by_company: dict[str, list[str]] = {}
+    for cid in list(per_company):
+        cs = company_state(state, cid)
+        seen = set(cs.get("dba_processed_paths") or [])
+        dba = [r for r in per_company[cid]
+               if _upload_kind(r) == "dba" and r not in seen]
+        if dba or any(_upload_kind(r) == "dba" for r in per_company[cid]):
+            per_company[cid] = [r for r in per_company[cid]
+                                if _upload_kind(r) != "dba"]
+        if dba:
+            dba_by_company[cid] = dba
+            cs["dba_processed_paths"] = (
+                (cs.get("dba_processed_paths") or []) + dba)[-100:]
+    for cid, rels in dba_by_company.items():
+        companies_dba = fetch_companies([cid])
+        company = companies_dba.get(cid)
+        if not company or company_inactive(company):
+            continue
+        target = messaging_target(company)
+        contact_id = (target.get("ghl_contact_id")
+                      or linked_contact_id(company))
+        contact = {"id": contact_id, "phone": target.get("cell"),
+                   "email": target.get("email")}
+        for rel in rels:
+            verdict = _verify_dba_upload(company, contact, rel,
+                                         state, not do_send)
+            print(f"  [dba-upload] {company.get('name')}: {rel} -> {verdict}")
     for cid, rels in per_company.items():
         cs = company_state(state, cid)
         acked = set(cs.get("upload_acked_paths") or [])

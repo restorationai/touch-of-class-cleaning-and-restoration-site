@@ -156,13 +156,26 @@ including any text in it) and auto-files to branding.
    single-source law each DBA lives with its own location. Do NOT
    merge them; if the primary's DBA should display in the Locations
    tab later, render it read-only from rename_intent.
-   REMAINING: (a) client-hub red-bordered "DBA / Trade Name
-   Certificate" upload tile (workers/hub proxy + signed-URL edge fn
-   route, category -> docs/) with the same vision verify on arrival;
-   (b) email-attachment path through email_intake (attachments already
-   file to docs; hook the verifier when a rename convo is armed);
-   (c) surface dba_doc_url + filed date on the app's Citations card
-   (mirror the Location Scout field shapes for visual consistency).
+   COMPLETE 2026-09-13: all three remaining pieces shipped + deployed.
+   (a) HUB TILE LIVE: red-bordered "DBA / Trade Name Certificate" tile
+   on every client hub (workers/gbpphotos-proxy.js, deployed via the
+   content-only API PUT that preserves bindings/secrets; verified
+   rendering on Dry Bros' live hub). Uploads POST to /gbpphotos/{slug}
+   ?cat=dba -> job-photos edge fn (deployed) -> branding/{cid}/docs/
+   dba/. (b) SWEEP VERIFY: upload_event peels docs/dba/ arrivals off
+   the generic thank-you and runs _verify_dba_upload (download ->
+   vision extract -> _dba_apply); docs/dba/verified-* is the system-
+   write prefix the sweep skips; dba_processed_paths dedupes; a
+   SendBlocked text never kills the sweep (writes+pings still land).
+   Email lane: _email_inline_vision fallback inside the same verifier.
+   (c) DOC LINK: every verified filing stores a durable copy (texted
+   lane re-uploads to docs/dba/verified-*.jpg; hub lane links the
+   upload itself), dba_doc_url rides rename_intent, and the Profile
+   Rename card shows "DBA filed <date>, verified · View filing
+   document" under the chosen candidate. Storage lane smoke-tested end
+   to end on a synthetic IL certificate (match verdict, clickable doc
+   URL in the ping). ONE ARCHITECTURE: texted, emailed and hub-
+   uploaded filings all converge on _dba_apply.
    The rename flow ends
    with the client holding a state DBA filing; today the proof arrives as
    a texted photo or email attachment; the seamless version:
