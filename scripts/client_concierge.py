@@ -9051,6 +9051,7 @@ def _verify_dba_document(company: dict, contact: dict, msg: dict,
                          "a texted filing photo", state, dry_run)
     if verdict == "match":
         pend["stage"] = "dba_verified"
+        _rename_save(company["id"], pend, dry_run)
     return verdict
 
 
@@ -9135,17 +9136,38 @@ def _rename_send(company: dict, contact: dict, body: str, state: dict,
     return True
 
 
+def _rename_kv(cid: str) -> str:
+    return f"rename-convo:{cid}"
+
+
+def _rename_state(cid: str) -> dict | None:
+    """Rename-conversation state lives in its OWN kv key (2026-09-13
+    incident: it briefly lived inside the monolithic concierge-state blob,
+    and a concurrent 10-min upload sweep's read-modify-write clobbered it
+    within 30 minutes of the Dry Bros pitch — Amin's 'Yes plz' then got a
+    generic reply instead of the options). A dedicated key can't be
+    clobbered by whole-state savers."""
+    v = kv_get(_rename_kv(cid))
+    return v if isinstance(v, dict) and v.get("stage") not in (None, "closed") else None
+
+
+def _rename_save(cid: str, pend: dict | None, dry_run: bool) -> None:
+    if dry_run:
+        return
+    kv_set(_rename_kv(cid), pend if pend else {"stage": "closed"})
+
+
 def handle_rename_reply(company: dict, contact: dict, msg: dict,
                         state: dict, dry_run: bool) -> bool:
     """Consume a client message inside a live rename conversation. Returns
     True when the message belonged to this flow."""
-    cs = company_state(state, company["id"])
-    pend = cs.get("rename_convo")
+    pend = _rename_state(company["id"]) or (
+        company_state(state, company["id"]).get("rename_convo"))
     if not pend:
         return False
     cands = _rename_candidates(company["id"])
     if not cands:
-        cs.pop("rename_convo", None)
+        _rename_save(company["id"], None, dry_run)
         return False
     vertical = _company_vertical(company)
     cand_lines = "\n".join(
@@ -9204,6 +9226,7 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
         _rename_send(company, contact, body, state, dry_run, "confirm")
         pend["stage"] = "awaiting_dba"
         pend["chosen"] = match["item"]
+        _rename_save(company["id"], pend, dry_run)
         return True
     if read == "declined":
         _merge_rename_intent(company["id"], {
@@ -9219,13 +9242,14 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
         body = ("No problem at all, we'll keep your current name. "
                 "Everything else stays right on track.")
         _rename_send(company, contact, body, state, dry_run, "decline")
-        cs.pop("rename_convo", None)
+        _rename_save(company["id"], None, dry_run)
         return True
     if read == "interested":
         body = _rename_options_body(company, cands, vertical,
                                     pend.get("notes"))
         _rename_send(company, contact, body, state, dry_run, "options")
         pend["stage"] = "options"
+        _rename_save(company["id"], pend, dry_run)
         return True
     if read == "dba_update":
         if msg.get("attachments"):
@@ -9261,6 +9285,7 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
     if body:
         _rename_send(company, contact, body, state, dry_run, "reply")
     pend["last_at"] = datetime.now(timezone.utc).isoformat()
+    _rename_save(company["id"], pend, dry_run)
     return True
 
 
@@ -9336,13 +9361,11 @@ def cmd_rename_pitch(args) -> int:
                         dry_run, "pitch"):
         return 1
     if not dry_run:
-        cs = company_state(state, company["id"])
-        cs["rename_convo"] = {
+        _rename_save(company["id"], {
             "stage": "pitched", "notes": notes,
-            "at": datetime.now(timezone.utc).isoformat()}
-        save_state(state, dry_run)
-        print("rename conversation ARMED (replies route to "
-              "handle_rename_reply)")
+            "at": datetime.now(timezone.utc).isoformat()}, dry_run)
+        save_state(state, dry_run)   # sent-id bookkeeping only
+        print("rename conversation ARMED (own kv key, clobber-proof)")
     return 0
 
 
