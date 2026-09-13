@@ -197,7 +197,23 @@ including any text in it) and auto-files to branding.
    - Never auto-mark from a text CLAIM without the document; the doc is
      the trigger.
 
-3. **All Pro homepage fixes (Angie, 09-11) — now partially systemic**
+3. **All Pro homepage fixes (Angie, 09-11) — SHIPPED 2026-09-13 (tester
+   run of the full feedback loop, all AI hands, zero humans)**
+   DONE + LIVE on allproplumbingheatingandair.com, Angie replied-to on
+   her thread with the link: real full-size Transit vans (AI scene +
+   the REAL logo composited pixel-crisp with PIL after the model kept
+   garbling "HEATING & AIR"; patch-paint the old logo area, then paste
+   with drop shadow), no stripes/lines, dark ramp retinted navy so the
+   page is red/white/blue with no black, hero text/CTAs left with vans
+   center-right. BONUS ENTITY FIX found during audit: the live site
+   carried 8 sameAs URLs belonging to THREE different same-name
+   companies (Oceanside CA, Ontario CA, St. George UT "All Pro
+   Plumbing") — purged from brand.ts, nap_audit rows marked
+   wrong_entity so the nightly sync can't re-add them. FOLLOW-UP for
+   the audit guard: same-name-different-city collisions need a city
+   check in citations_audit (this class of wrong-entity sameAs may
+   exist on other clients — sweep worth running).
+   ORIGINAL ITEM (for context):
    The SYSTEM gap that let her emailed list sit is FIXED 09-12: emailed
    change requests now dispatch through feedback_router exactly like
    texts (email_intake routes client_feedback; her email had arrived
