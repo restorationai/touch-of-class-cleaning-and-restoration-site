@@ -243,6 +243,101 @@ def narrate(m: dict) -> str:
     return "".join(p.get("text", "") for p in r.json().get("content", []))
 
 
+# ---------------------------------------------------------------------------
+# MONTHLY GAME PLAN (4a, Santino 2026-09-13): the analysis becomes a
+# documented strategy in the APP — a narrative card + step rows on the
+# Action Plan tab — generated on the month's first analyzer run per client.
+# Steps carry assigned_system: 'manual' rows show the admin "Completed"
+# button; anything else reads as running automatically. Clients see uniform
+# task language; the auto/manual badge is admin-only in the UI.
+GAMEPLAN_PROMPT = """From this internal marketing analysis, produce the
+month's GAME PLAN as JSON only:
+{{"narrative": "<2-3 short paragraphs, client-safe, plain language, no em
+dashes: where they stand, what this month's plan is, why it will move
+rankings/calls. Grounded ONLY in the analysis; never invent numbers.>",
+ "steps": [{{"title": "<client-safe imperative, <=80 chars>",
+            "rationale": "<why, one or two sentences, client-safe>",
+            "assigned_system": "<'manual' OR one of: s1, s2, gbp, ads,
+                                site, aisearch — auto only when one of our
+                                named systems genuinely executes it>",
+            "impact": "high|medium|low", "effort": "high|medium|low",
+            "priority": <1-9>}}]}}
+3 to 6 steps, most impactful first. Auto examples: content queue targets
+(s1/s2), GBP services/categories/posts (gbp), geo-grid keyword tracking
+(site), internal links between existing pages (site), ads budget/negative
+tweaks (ads). Manual examples: Yelp/profile overhauls, review-reply
+seeding, anything needing client accounts or judgment.
+
+ANALYSIS:
+{analysis}
+"""
+
+
+def emit_gameplan(m: dict, body: str, slug: str, dry_run: bool,
+                  force: bool = False) -> None:
+    month = datetime.now(timezone.utc).strftime("%Y-%m")
+    key = f"gameplan-{month}"
+    existing = requests.get(
+        f"{SB}/rest/v1/marketing_action_plan?action_key=eq.{key}"
+        f"&company_id=eq.{m['company_id']}&select=id", headers=HDR,
+        timeout=30).json()
+    if existing and not force:
+        return
+    r = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
+                 "content-type": "application/json"},
+        json={"model": MODEL, "max_tokens": 3000,
+              "messages": [{"role": "user", "content":
+                            GAMEPLAN_PROMPT.format(analysis=body[:9000])}]},
+        timeout=240)
+    r.raise_for_status()
+    txt = "".join(p.get("text", "") for p in r.json().get("content", []))
+    import re as _re
+    mjson = _re.search(r"\{.*\}", txt, _re.S)
+    plan = json.loads(mjson.group(0))
+    month_name = datetime.now(timezone.utc).strftime("%B")
+    if dry_run:
+        print(f"[dry-run] game plan: {len(plan.get('steps') or [])} steps")
+        return
+    now = datetime.now(timezone.utc).isoformat()
+    if existing and force:
+        requests.delete(
+            f"{SB}/rest/v1/marketing_action_plan?company_id=eq.{m['company_id']}"
+            f"&action_key=like.{key}*", headers=HDR, timeout=30)
+    rows = [{
+        "company_id": m["company_id"], "rank_ai_slug": slug,
+        "action_type": "gameplan", "action_key": key,
+        "title": f"{month_name} Game Plan",
+        "rationale": str(plan.get("narrative") or "")[:4000],
+        "assigned_system": None, "impact": None, "effort": None,
+        "status": "planned", "priority": 9,
+        "pinned": False, "source_run_at": now,
+    }]  # PostgREST bulk insert: every row must carry the SAME keys
+    for i, s in enumerate(plan.get("steps") or [], 1):
+        rows.append({
+            "company_id": m["company_id"], "rank_ai_slug": slug,
+            "action_type": "gameplan_step", "action_key": f"{key}-{i}",
+            "title": str(s.get("title") or "")[:120],
+            "rationale": str(s.get("rationale") or "")[:1000],
+            "assigned_system": str(s.get("assigned_system") or "manual").strip().lower(),
+            "impact": str(s.get("impact") or "medium").strip().lower(),
+            "effort": str(s.get("effort") or "medium").strip().lower(),
+            "status": "planned",
+            "priority": max(1, min(9, int(s.get("priority") or i))),
+            "pinned": False, "source_run_at": now,
+        })
+    resp = requests.post(f"{SB}/rest/v1/marketing_action_plan",
+                         headers={**HDR, "Prefer": "return=minimal"},
+                         json=rows, timeout=30)
+    if not resp.ok:
+        # never claim published when the write bounced (09-13 lesson)
+        raise RuntimeError(f"action-plan insert {resp.status_code}: "
+                           f"{resp.text[:200]}")
+    print(f"game plan published: narrative + {len(rows) - 1} steps "
+          f"({sum(1 for r2 in rows[1:] if r2['assigned_system'] == 'manual')} manual)")
+
+
 def run(slug: str, days: int, dry_run: bool) -> str:
     m = analyze(slug, days)
     full = narrate(m)
@@ -284,6 +379,12 @@ def run(slug: str, days: int, dry_run: bool) -> str:
                                           if k in m}},
                           timeout=30)
             print("client report published to the app")
+        # Monthly game plan: first analyzer run of the month emits it
+        try:
+            emit_gameplan(m, body, slug, dry_run,
+                          force=bool(globals().get("_FORCE_GAMEPLAN")))
+        except Exception as e:  # noqa: BLE001 — the plan never kills analysis
+            print(f"gameplan warn: {str(e)[:120]}")
     return body
 
 
@@ -293,10 +394,14 @@ def main() -> int:
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--days", type=int, default=14)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--gameplan", action="store_true",
+                    help="force-regenerate this month's game plan")
     ap.add_argument("--if-due", action="store_true",
                     help="skip clients analyzed in the last 12 days (the "
                          "weekly cron + this flag = biweekly per client)")
     a = ap.parse_args()
+    if a.gameplan:
+        globals()["_FORCE_GAMEPLAN"] = True
     if a.all:
         smap = _slug_map()
         cos = {c["id"]: c for c in _get("companies?select=id,status&plan=ilike.rank%20ai")}
