@@ -67,17 +67,87 @@ def _dispatch_github(slug: str, system: int, job_id: str) -> None:
         raise RuntimeError(f"GitHub dispatch failed: {resp.status_code} {resp.text}")
 
 
-def _run_subprocess(cmd: list[str]) -> tuple[int, str]:
+def _run_subprocess(cmd: list[str], cwd: str | None = None) -> tuple[int, str]:
     """Run a command, return (exit_code, combined_output)."""
     result = subprocess.run(
         cmd,
-        cwd=str(ROOT),
+        cwd=cwd or str(ROOT),
         capture_output=True,
         text=True,
         timeout=1800,  # 30 min max
     )
     output = result.stdout + result.stderr
     return result.returncode, output
+
+
+# ---------------------------------------------------------------------------
+# DEPLOY CHECKOUT (queue #5, 2026-09-14). The Railway image ships source
+# WITHOUT .git (Nixpacks strips it), so anything that needs real git —
+# sync-deploy's subtree split, cutover's stamp commits — runs from a full
+# runtime clone instead. FULL clone on purpose: subtree split walks the
+# whole history of sites/{slug} and breaks on shallow clones. The clone
+# persists for the container's life (fetch+reset per job = always HEAD);
+# a redeploy just re-clones. Refuses to run when the fetch fails — the
+# worker must never deploy a stale or half-updated tree.
+CHECKOUT = Path(os.environ.get("RANKAI_CHECKOUT_DIR", "/tmp/rankai-checkout"))
+
+
+def _ensure_checkout() -> tuple[Path | None, str]:
+    if not GITHUB_TOKEN:
+        return None, ("GITHUB_PERSONAL_ACCESS_TOKEN is not set on this "
+                      "Railway service — deploys need it for the monorepo "
+                      "clone and the per-client repo push")
+    repo_url = (f"https://x-access-token:{GITHUB_TOKEN}"
+                f"@github.com/{GITHUB_REPO}.git")
+    log_all = ""
+    if (CHECKOUT / ".git").exists():
+        # keep the PAT in the remote fresh (tokens rotate)
+        _run_subprocess(["git", "-C", str(CHECKOUT), "remote", "set-url",
+                         "origin", repo_url])
+        for cmd in (["git", "-C", str(CHECKOUT), "fetch", "origin", "main"],
+                    ["git", "-C", str(CHECKOUT), "reset", "--hard",
+                     "origin/main"],
+                    ["git", "-C", str(CHECKOUT), "clean", "-fd"]):
+            rc, log = _run_subprocess(cmd)
+            log_all += log
+            if rc != 0:
+                return None, f"checkout refresh failed: {log_all[-400:]}"
+    else:
+        rc, log = _run_subprocess(
+            ["git", "clone", "--single-branch", "--branch", "main",
+             repo_url, str(CHECKOUT)])
+        if rc != 0:
+            return None, f"monorepo clone failed: {log[-400:]}"
+    _run_subprocess(["git", "-C", str(CHECKOUT), "config", "user.email",
+                     "ops-worker@restorationai.io"])
+    _run_subprocess(["git", "-C", str(CHECKOUT), "config", "user.name",
+                     "Rank AI Ops Worker"])
+    return CHECKOUT, "ok"
+
+
+def _push_stamps(co: Path, slug: str) -> str:
+    """Deploy stamps (clients/{slug}.json) must reach origin/main or the
+    NEXT deploy silently refuses on a dirty/stale tree (the lesson this
+    repo has relearned repeatedly). Rebase-retry because the worker races
+    CI's automated commits."""
+    stamp = f"clients/{slug}.json"
+    rc, _ = _run_subprocess(["git", "-C", str(co), "diff", "--quiet",
+                             "--", stamp])
+    if rc == 0:
+        return "no stamp changes"
+    _run_subprocess(["git", "-C", str(co), "add", stamp])
+    rc, log = _run_subprocess(["git", "-C", str(co), "commit", "-m",
+                               f"{slug}: deploy stamps [app push]"])
+    if rc != 0:
+        return f"stamp commit failed: {log[-200:]}"
+    for _ in range(3):
+        rc, log = _run_subprocess(["git", "-C", str(co), "push",
+                                   "origin", "main"])
+        if rc == 0:
+            return "stamps pushed"
+        _run_subprocess(["git", "-C", str(co), "pull", "--rebase",
+                         "origin", "main"])
+    return f"stamp push FAILED after retries: {log[-200:]}"
 
 
 def _run_sync(slug: str) -> None:
@@ -173,20 +243,20 @@ def _execute_job(job_id: str, slug: str, system: int,
             # same command the pipeline machine runs. Railway's checkout pulls
             # latest first so it promotes what agents committed, not a stale
             # tree. Needs GITHUB_PERSONAL_ACCESS_TOKEN in the service env.
-            rc0, log0 = _run_subprocess(["git", "-C", str(ROOT), "pull", "--rebase",
-                                         "origin", "main"])
-            if rc0 != 0:
+            co, err = _ensure_checkout()
+            if co is None:
                 _update_job(job_id, status="failed", completed_at=_now(),
-                            error="git pull failed before push", log=log0[-8000:])
+                            error=err, log=err)
                 return
             rc, log = _run_subprocess([
-                "python3", str(ROOT / "scripts" / "build_site.py"),
+                "python3", str(co / "scripts" / "build_site.py"),
                 "sync-deploy", "--slug", slug, "--branch", "main",
-            ])
+            ], cwd=str(co))
+            stamp_note = _push_stamps(co, slug) if rc == 0 else ""
             _run_sync(slug)
             if rc == 0:
                 _update_job(job_id, status="completed", completed_at=_now(),
-                            log=(log0 + "\n" + log)[-8000:],
+                            log=(log + "\n" + stamp_note)[-8000:],
                             result={"state": "pushed_main",
                                     "note": "Production build pushed - Cloudflare Pages is "
                                             "building it now (a few minutes)."})
@@ -205,10 +275,16 @@ def _execute_job(job_id: str, slug: str, system: int,
             # created — so "Provision" did nothing). This path is the staging
             # step by itself: create the zone, snapshot + stage the email
             # records, report the required NS pair. Nothing goes live.
+            co, err = _ensure_checkout()
+            if co is None:
+                _update_job(job_id, status="failed", completed_at=_now(),
+                            error=err, log=err)
+                return
             rc, log = _run_subprocess([
-                "python3", str(ROOT / "scripts" / "cutover_execute.py"),
+                "python3", str(co / "scripts" / "cutover_execute.py"),
                 "provision", "--slug", slug, "--apply",
-            ])
+            ], cwd=str(co))
+            log += "\n" + _push_stamps(co, slug)
             _run_sync(slug)
             if rc in (0, 3):
                 _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:],
@@ -229,10 +305,16 @@ def _execute_job(job_id: str, slug: str, system: int,
             # successful run, not a failure. The script commits its own
             # stamps back to the monorepo and PATCHes marketing_sites, then
             # supabase_sync reconciles the rest.
+            co, err = _ensure_checkout()
+            if co is None:
+                _update_job(job_id, status="failed", completed_at=_now(),
+                            error=err, log=err)
+                return
             rc, log = _run_subprocess([
-                "python3", str(ROOT / "scripts" / "cutover_execute.py"),
+                "python3", str(co / "scripts" / "cutover_execute.py"),
                 "run", "--slug", slug, "--apply",
-            ])
+            ], cwd=str(co))
+            log += "\n" + _push_stamps(co, slug)
             _run_sync(slug)  # partial progress (zone/domain stamp) should surface either way
             if rc == 0:
                 _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:],
