@@ -225,7 +225,21 @@ including any text in it) and auto-files to branding.
    grid first — may already be solved). Then reply on her getrest email
    thread with the preview link.
 
-3b. **Feedback closed loop: implemented -> tell the client (09-13)**
+3b. **Feedback closed loop — SHIPPED 2026-09-13 PM (channel-faithful)**
+   The SMS half already existed (dev_inbox done -> [FROM SANTINO] ->
+   Monica texts on her next pass). BUILT: email parity. Email-origin
+   feedback now stamps acct/threadId/reply-to into the [DEV] note's
+   ORIGIN trailer (feedback_router + email_intake); when the dev agent
+   resolves the task, dev_inbox queues a THREADED EMAIL reply in ops_kv
+   (email-reply-queue:*) instead of an SMS directive; email_intake
+   drains the queue on every pass (client-ops-sync daily), sending from
+   the SAME mailbox the client wrote to, threaded under their own
+   conversation, Hi-{first} + client-line summary + live link + "let us
+   know if anything else needs adjusting". Tested end to end (dry)
+   against Angie's real thread. The full loop is now: request (text OR
+   email) -> auto-routed -> dev agent implements -> client hears it's
+   done on the channel they used. Zero humans.
+   ORIGINAL ITEM (context):
    Today: client change requests route to the build lane automatically
    (SMS + email), an AI agent implements them, work_log records it — but
    NOTHING automatically tells the client their revisions are live. The
