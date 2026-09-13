@@ -216,6 +216,90 @@ def _identity_ok(url: str, toks: set, state: str, brand_tok: str) -> tuple[bool,
     return True, ""
 
 
+# CITY GUARD (2026-09-13, the All Pro incident): the live site carried 8
+# sameAs URLs for THREE different same-name companies (Oceanside CA,
+# Ontario CA, St. George UT "All Pro Plumbing") — the name-token guard
+# passes on name twins by construction. Directory URLs on these domains
+# embed the listing's city/state; a URL that names NONE of the client's
+# cities (or the wrong state) is a same-name different-city collision.
+_CITY_DOMAINS = ("yelp.com", "yellowpages.com", "bbb.org",
+                 "thumbtack.com", "nextdoor.com", "angi.com")
+_STATE_PATTERNS = (
+    re.compile(r"bbb\.org/us/([a-z]{2})/"),
+    re.compile(r"thumbtack\.com/([a-z]{2})/"),
+    re.compile(r"angi\.com/companylist/us/([a-z]{2})/"),
+    re.compile(r"yellowpages\.com/[a-z-]+-([a-z]{2})/"),
+    re.compile(r"nextdoor\.com/pages/[a-z0-9-]+-([a-z]{2})(?:-ca)?/?$"),
+)
+
+
+def client_cities(slug: str) -> set[str]:
+    """Every city the client legitimately appears under: brand.ts cities +
+    planned service-area cities."""
+    cities: set[str] = set()
+    bp = ROOT / "sites" / slug / "src" / "lib" / "brand.ts"
+    if bp.exists():
+        t = bp.read_text()
+        for key in ("primaryCity", "addressCity"):
+            m = re.search(rf'{key}:\s*"([^"]+)"', t)
+            if m:
+                cities.add(m.group(1))
+    pi = ROOT / "clients" / slug / "plan-input.json"
+    if pi.exists():
+        try:
+            for a in json.loads(pi.read_text()).get("service_areas") or []:
+                c = a.get("city") if isinstance(a, dict) else a
+                if c:
+                    cities.add(str(c))
+        except (json.JSONDecodeError, OSError):
+            pass
+    return {c.strip() for c in cities if c and c.strip()}
+
+
+_STATE_CODES = {
+    "alabama": "al", "alaska": "ak", "arizona": "az", "arkansas": "ar",
+    "california": "ca", "colorado": "co", "connecticut": "ct",
+    "delaware": "de", "florida": "fl", "georgia": "ga", "hawaii": "hi",
+    "idaho": "id", "illinois": "il", "indiana": "in", "iowa": "ia",
+    "kansas": "ks", "kentucky": "ky", "louisiana": "la", "maine": "me",
+    "maryland": "md", "massachusetts": "ma", "michigan": "mi",
+    "minnesota": "mn", "mississippi": "ms", "missouri": "mo",
+    "montana": "mt", "nebraska": "ne", "nevada": "nv",
+    "new hampshire": "nh", "new jersey": "nj", "new mexico": "nm",
+    "new york": "ny", "north carolina": "nc", "north dakota": "nd",
+    "ohio": "oh", "oklahoma": "ok", "oregon": "or", "pennsylvania": "pa",
+    "rhode island": "ri", "south carolina": "sc", "south dakota": "sd",
+    "tennessee": "tn", "texas": "tx", "utah": "ut", "vermont": "vt",
+    "virginia": "va", "washington": "wa", "west virginia": "wv",
+    "wisconsin": "wi", "wyoming": "wy",
+}
+
+
+def _state_code(state: str) -> str:
+    s = (state or "").strip().lower()
+    return _STATE_CODES.get(s, s) if len(s) != 2 else s
+
+
+def city_guard(url: str, cities: set[str], state: str = "") -> str | None:
+    """None = fine; else the conflict reason. Judges only domains that
+    embed geography in profile URLs; conservative on everything else."""
+    u = (url or "").lower()
+    if not any(d in u for d in _CITY_DOMAINS):
+        return None
+    code = _state_code(state)
+    if code:
+        for pat in _STATE_PATTERNS:
+            m = pat.search(u)
+            if m and m.group(1) != code:
+                return (f"URL embeds state {m.group(1).upper()}, "
+                        f"client is {code.upper()}")
+    slugs = {re.sub(r"[^a-z0-9]+", "-", c.lower()).strip("-")
+             for c in cities}
+    if slugs and not any(s and s in u for s in slugs):
+        return "URL names none of the client's cities"
+    return None
+
+
 def _gather(slug: str, md: dict, toks: set, state: str = "",
             brand_tok: str = "") -> tuple[str | None, list, list]:
     """-> (gbp_maps_url, live_directory_urls in PLATFORMS order, skip_notes)."""
@@ -247,6 +331,10 @@ def _gather(slug: str, md: dict, toks: set, state: str = "",
         ok, why = _identity_ok(url, toks, state, brand_tok)
         if not ok:
             notes.append(f"skip {key}: {why} ({url[:70]})")
+            continue
+        conflict = city_guard(url, client_cities(slug), state)
+        if conflict:
+            notes.append(f"skip {key}: CITY GUARD, {conflict} ({url[:70]})")
             continue
         # Canonicalize mobile hosts (m.yelp.com etc.) — sameAs should point
         # at the canonical profile.

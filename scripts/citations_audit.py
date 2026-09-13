@@ -358,6 +358,17 @@ def audit(slug: str, dry_run: bool = False) -> str:
             continue
         best = organic[0]
         url = best["url"]
+        # CITY GUARD (2026-09-13, All Pro: SERP matched three different
+        # same-name companies in other cities/states — name tokens can't
+        # tell twins apart, geography can).
+        from citations_sync import city_guard as _cg, client_cities as _cc
+        conflict = _cg(url, _cc(slug) | ({city} if city else set()), state)
+        if conflict:
+            results[key] = {"status": "wrong_entity", "url": url,
+                            "note": f"city guard: {conflict}",
+                            "checked_at": datetime.now(timezone.utc).isoformat()}
+            lines.append(f"  {label:12s} WRONG ENTITY ({conflict})  {url[:60]}")
+            continue
         urls[key] = url
         # phone: SERP snippet first, page fetch second (page fetch also
         # spot-checks address + website when the directory lets us read it)
@@ -459,6 +470,16 @@ def audit(slug: str, dry_run: bool = False) -> str:
                     #           client_record) — never carried forward
                 cur = results.get(k)
                 if not isinstance(cur, dict):
+                    continue
+                # WRONG-ENTITY STICKINESS (2026-09-13): a slot marked
+                # wrong_entity stays wrong for that URL forever — the next
+                # audit re-finding the SAME name-twin listing must never
+                # resurrect it as "found" (that re-pollutes sameAs). A
+                # DIFFERENT url may claim the slot (a real listing appeared).
+                if (prev.get("status") == "wrong_entity"
+                        and str(cur.get("url") or "").rstrip("/")
+                        == str(prev.get("url") or "").rstrip("/")):
+                    results[k] = prev
                     continue
                 if prev.get("source") and not cur.get("source"):
                     cur["source"] = prev["source"]
