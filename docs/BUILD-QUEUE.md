@@ -315,7 +315,13 @@ including any text in it) and auto-files to branding.
    or company numbers; (b) fold outcome counts into the monthly report
    (client_report.py). Pure surfacing of data we already produce.
 
-7. **Repiping default-on for plumbing plans**
+7. **Repiping default-on for plumbing plans — SHIPPED 2026-09-13**
+   plan_site.py auto-appends the repiping service for any plan built on
+   the plumbing catalog (same pattern as the water-cleanup rule; only
+   that catalog defines the slug, so every other vertical is untouched).
+   Applies to all FUTURE plumbing plans; existing plumbing clients (RT
+   Olson, All Pro) can pick the pages up on their next plan refresh.
+   ORIGINAL:
    plan_site.py service selection should include repiping for every
    plumbing-vertical client by default (template already carries the
    service; high-margin line every plumber does). Small change.
