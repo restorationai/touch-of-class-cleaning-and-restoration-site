@@ -22,7 +22,7 @@
   },
   "status": "pending",
   "created_at": "2026-07-08T16:12:33.269867+00:00",
-  "updated_at": "2026-09-13T18:23:04.814243+00:00",
+  "updated_at": "2026-09-13T18:23:35.533152+00:00",
   "company_id": "CO-1779551010975",
   "nap": {
     "name": "ProRestoration Services Inc",
@@ -68,7 +68,7 @@
     "github_repo": "restorationai/prorestoration-site",
     "last_pushed_staging_at": "2026-09-13T18:14:54.064740+00:00",
     "preview_url": "https://prorestoration-preview.pages.dev",
-    "last_pushed_main_at": "2026-09-13T18:23:04.814209+00:00"
+    "last_pushed_main_at": "2026-09-13T18:23:35.533134+00:00"
   },
   "build_status": "pushed_main",
   "indexnow_key": "b99138573e514e8cb2f3258a532103fd",
