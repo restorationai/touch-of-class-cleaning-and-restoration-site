@@ -169,6 +169,44 @@ jobs:
           # edits ride the commit step below. Idempotent, quiet when in sync.
           python3 scripts/citations_sync.py || true
 
+      - name: Mini heartbeat mirror (superadmin dot, 2026-09-14)
+        # The Mac Mini heartbeats + daily-reports by git commit; this step
+        # mirrors freshness into ops_kv so the app's superadmin status dot
+        # (build-stages edge fn payload) can render it. Green < 26h,
+        # amber < 50h, red beyond — computed app-side from last_beat.
+        run: |
+          python3 - <<'PYEOF' || echo "mini mirror failed (non-fatal)"
+          import json, re, subprocess, pathlib
+          from datetime import datetime, timezone
+          import os, requests
+          hb = pathlib.Path("clients/_ops/mini-heartbeat.md")
+          last_beat = None
+          if hb.exists():
+              lines = [l for l in hb.read_text().splitlines() if l.strip()]
+              if lines:
+                  m = re.match(r"(\S+)", lines[-1])
+                  last_beat = m.group(1) if m else None
+          reports = sorted(pathlib.Path("clients/_ops/mini-reports").glob("DAILY-*.md"))
+          daily = None
+          if reports:
+              rp = reports[-1]
+              body = rp.read_text()[:2000]
+              daily = {"file": rp.name, "body": body}
+          key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+          requests.post(os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/ops_kv?on_conflict=k",
+              headers={"apikey": key, "Authorization": f"Bearer {key}",
+                       "Content-Type": "application/json",
+                       "Prefer": "resolution=merge-duplicates"},
+              json={"k": "mini-status", "v": {"last_beat": last_beat,
+                    "daily": daily,
+                    "mirrored_at": datetime.now(timezone.utc).isoformat()}},
+              timeout=30)
+          print(f"mini-status mirrored: last_beat={last_beat}, daily={(daily or {}).get('file')}")
+          PYEOF
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
       - name: Game plan dispatch + completion sweep (4b, 2026-09-13)
         # AUTO game-plan steps -> the nightly dev agent's [DEV] inbox;
         # resolved tasks flip their Action Plan rows to done. Zero-human loop:
