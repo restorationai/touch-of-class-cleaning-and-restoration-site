@@ -8908,6 +8908,10 @@ the client's message. Read what the client is doing and answer with JSON:
   those; never use handoff for an off-topic message.
 "reply" is your next text for question/service_answer/handoff reads (<=280
 chars, no emojis); null for every other read (the system sends those).
+When they ask for YOUR recommendation or best pick, GIVE it: name the
+top candidate on the list (highest confidence) and its "why" in plain
+words. We already did the research; never bounce the question back at
+them, never answer a recommendation ask with another question.
 Answer questions ONLY from the knowledge above; anything outside it is
 "handoff". Never claim any step is already done."""
 RENAME_REPLY_SYSTEM = RENAME_REPLY_SYSTEM.replace(
@@ -9169,10 +9173,24 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
     if not cands:
         _rename_save(company["id"], None, dry_run)
         return False
+    # Trivial burst noise ("!?", "??", "ok" alone with a real message right
+    # behind it) must never earn its own reply — Amin 09-13: a two-message
+    # burst got two disjointed answers and Monica read as forgetful.
+    body_txt = (msg.get("body") or "").strip()
+    if pend and not msg.get("attachments") and (
+            len(re.sub(r"[^A-Za-z0-9]", "", body_txt)) <= 2):
+        print(f"    RENAME: consuming trivial burst fragment {body_txt!r}")
+        return True
     vertical = _company_vertical(company)
+    # Reasons + confidence ride along so Monica can ANSWER "what's your
+    # best pick?" from the research instead of bouncing the question back
+    # (Amin 09-13: "Let me know what ur best pick is" got a deflection).
     cand_lines = "\n".join(
-        f"- {c['item']}" + (" (already chosen)"
-                            if (c.get("status") or "") == "chosen" else "")
+        f"- {c['item']}"
+        + (f" [confidence {c.get('confidence')}]" if c.get("confidence") else "")
+        + (" (already chosen)" if (c.get("status") or "") == "chosen" else "")
+        + (f"\n  why: {_clip(str(c.get('reason') or ''), 180)}"
+           if c.get("reason") else "")
         for c in cands)
     result = anthropic_json(
         RENAME_REPLY_SYSTEM,

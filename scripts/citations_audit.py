@@ -386,8 +386,22 @@ def audit(slug: str, dry_run: bool = False) -> str:
             entry["phone_found"] = phone
             entry["phone_matches"] = (phone in ok_phones) if canon_phone else None
             if canon_phone and phone not in ok_phones:
-                entry["status"] = "discrepancy"
-                lines.append(f"  {label:12s} DISCREPANCY: shows {phone}, canonical {canon_phone}  {url[:60]}")
+                # NAME-VARIANT GUARD (CRW 2026-09-13): wrong phone PLUS a
+                # distinctive name token we don't own = a same-area twin
+                # ("california-PREMIER-restoration"), not our listing with
+                # a stale phone. Both signals must agree.
+                from citations_sync import foreign_name_tokens as _fnt, \
+                    client_cities as _cc2
+                foreign = _fnt(url, toks, _cc2(slug) | {city}, state)
+                if foreign:
+                    entry["status"] = "wrong_entity"
+                    entry["note"] = ("name-variant guard: URL tokens "
+                                     f"{foreign} not ours + phone mismatch")
+                    lines.append(f"  {label:12s} WRONG ENTITY (tokens "
+                                 f"{foreign}, phone {phone})  {url[:60]}")
+                else:
+                    entry["status"] = "discrepancy"
+                    lines.append(f"  {label:12s} DISCREPANCY: shows {phone}, canonical {canon_phone}  {url[:60]}")
             else:
                 lines.append(f"  {label:12s} ok ({phone})  {url[:60]}")
         else:

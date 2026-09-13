@@ -300,6 +300,42 @@ def city_guard(url: str, cities: set[str], state: str = "") -> str | None:
     return None
 
 
+# NAME-VARIANT GUARD (CRW 2026-09-13): "California Premier Restoration"
+# (Camarillo) passed the city guard (his service area) and the name-token
+# guard (shared tokens) — but its URL carries a distinctive token the
+# client's name lacks ("premier") AND its phone matches nothing of ours.
+# Both signals together = a same-area name-variant twin.
+_GENERIC_NAME_TOKENS = {
+    "restoration", "restore", "water", "damage", "fire", "flood", "mold",
+    "storm", "sewage", "cleaning", "cleanup", "clean", "services",
+    "service", "llc", "inc", "corp", "company", "group", "the", "and",
+    "of", "for", "pro", "profile", "reviews", "companylist", "pages",
+    "rated", "biz", "heating", "air", "plumbing", "conditioning",
+    "electrical", "remediation", "contractors", "contractor",
+    "construction", "emergency", "repair", "removal", "carpet",
+    "restorationservice", "home", "house",
+}
+
+
+def foreign_name_tokens(url: str, name_tokens: set,
+                        cities: set[str] | None = None,
+                        state: str = "") -> list[str]:
+    """Distinctive tokens in the URL's profile slug that appear nowhere in
+    the client's name, cities, or generic trade vocabulary."""
+    path = urlsplit((url or "").lower()).path
+    segs = [s for s in path.split("/") if s]
+    if not segs:
+        return []
+    toks = [t for t in re.split(r"[^a-z]+", segs[-1]) if len(t) > 2]
+    city_toks: set[str] = set()
+    for c in cities or ():
+        city_toks |= {t for t in re.split(r"[^a-z]+", str(c).lower()) if t}
+    nt = {str(t).lower() for t in name_tokens}
+    return [t for t in toks
+            if t not in _GENERIC_NAME_TOKENS and t not in nt
+            and t not in city_toks and t != _state_code(state)]
+
+
 def _gather(slug: str, md: dict, toks: set, state: str = "",
             brand_tok: str = "") -> tuple[str | None, list, list]:
     """-> (gbp_maps_url, live_directory_urls in PLATFORMS order, skip_notes)."""
