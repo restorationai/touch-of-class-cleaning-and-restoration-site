@@ -76,6 +76,8 @@ SYSTEM_LABELS = {
     "gbp_face": "GBP Face Fix",
     "gbp_set_cover": "GBP Set Cover Photo",
     "cutover": "One-Click Domain Cutover",
+    "cutover_provision": "Cutover Provision (zone + email records)",
+    "site_push_main": "Push Site to Production",
     "ads_account_create": "Create Google Ads Account",
 }
 
