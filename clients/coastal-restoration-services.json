@@ -67,5 +67,9 @@
     "property_url": "sc-domain:callcrs.com",
     "verified_at": "2026-09-08T17:53:22+00:00",
     "sitemap_url": "https://callcrs.com/sitemap-index.xml"
+  },
+  "brightlocal": {
+    "location_id": 4152715,
+    "campaign_id": 999568
   }
 }
