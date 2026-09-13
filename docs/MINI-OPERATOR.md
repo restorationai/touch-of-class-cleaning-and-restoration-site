@@ -7,6 +7,13 @@ same way — git is the message channel between the two machines.
 
 ## Session start, every time
 
+0. **HEARTBEAT FIRST (before anything, 2026-09-14):** append one line to
+   `clients/_ops/mini-heartbeat.md`:
+   `<UTC ISO timestamp> | session-start | kill_switch=<on/off>`
+   then immediately `git add clients/_ops/mini-heartbeat.md && git commit -m
+   "mini heartbeat" && git push origin main`. Signal first, work second —
+   this line is how the MacBook and the app know you are alive. If the push
+   fails, `git pull --rebase origin main` and push again; never skip it.
 1. `git pull origin main` (always — orders and inbox arrive by push).
 2. Read `clients/_ops/mini-inbox.md`. Items there are the CURRENT
    assignments from Santino/the MacBook Claude and outrank everything else.
@@ -60,6 +67,16 @@ git add clients/_ops/mini-reports/ && git commit -m "mini report: <task>" && git
 
 If push is rejected, `git pull --rebase origin main` and push again. The
 MacBook Claude reads these reports — they are how the two machines talk.
+
+## Daily report (last action of every day you run, 2026-09-14)
+
+Write `clients/_ops/mini-reports/DAILY-YYYY-MM-DD.md` with exactly three
+sections: **Completed** (every task + one-line outcome), **Problems**
+(failures, blocks, captchas, anything that stopped work — "none" if none),
+**Flags** (anything you noticed that a human should look at: odd listing
+data, policy walls, account warnings — "none" if none). Commit + push with
+the heartbeat pattern. Santino reads this in the app; superadmin monitoring
+turns red when a day passes without it.
 
 ## Inbox protocol
 

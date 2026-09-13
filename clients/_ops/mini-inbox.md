@@ -1,5 +1,13 @@
 # Mini inbox — current assignments (newest at top)
 
+- [ ] **PROVE THE CHANNEL (do this first, unsupervised, 2 minutes):**
+  follow the new step 0 in docs/MINI-OPERATOR.md — append a heartbeat line
+  to `clients/_ops/mini-heartbeat.md`, commit, push. Then write your first
+  `clients/_ops/mini-reports/DAILY-<today>.md` (three sections: Completed /
+  Problems / Flags — even if the only completed item is this one) and push
+  that too. This proves the git channel + your launchd sweep are alive; the
+  MacBook is watching for it. No browser work needed for this item.
+
 - [ ] **ON HOLD (Santino 2026-09-09, do not start): Bing sweep migration,
   step 1 of 2: readiness check** (can run
   unsupervised; report only, change nothing). The daily browser-agent sweep
