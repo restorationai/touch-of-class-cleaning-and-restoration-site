@@ -596,9 +596,13 @@ def main() -> int:
     po.add_argument("--slug", required=True)
     po.add_argument("--package", required=True)
     po.add_argument("--express", action="store_true")
-    po.add_argument("--pick-top", action="store_true",
-                    help="hand-pick highest-DA SAB sites instead of "
-                         "BrightLocal auto-select")
+    # DEFAULT is hand-pick (Santino 2026-09-13: "we choose the sources" —
+    # BL's auto-select must never run by accident; opting into it takes an
+    # explicit flag).
+    po.add_argument("--pick-top", action="store_true", default=True,
+                    help="hand-pick highest-DA SAB sites (DEFAULT)")
+    po.add_argument("--let-bl-pick", dest="pick_top", action="store_false",
+                    help="let BrightLocal auto-select the sites instead")
     po.add_argument("--publishers", default="",
                     help="comma list: dataaxle,neustar,foursquare,"
                          "gpsnetwork,ypnetwork")
