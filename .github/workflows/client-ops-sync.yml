@@ -169,6 +169,17 @@ jobs:
           # edits ride the commit step below. Idempotent, quiet when in sync.
           python3 scripts/citations_sync.py || true
 
+      - name: Game plan dispatch + completion sweep (4b, 2026-09-13)
+        # AUTO game-plan steps -> the nightly dev agent's [DEV] inbox;
+        # resolved tasks flip their Action Plan rows to done. Zero-human loop:
+        # analyzer (Sun) writes the plan -> this dispatches -> dev agent
+        # (2:07am + 1:07pm PT) executes -> sweep marks done from evidence.
+        run: |
+          python3 scripts/gameplan_dispatch.py || echo "gameplan dispatch failed (non-fatal)"
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
       - name: Cutover harvest (301 maps staged before any domain cutover)
         env:
           ANTHROPIC_API_KEY:    ${{ secrets.ANTHROPIC_API_KEY }}
