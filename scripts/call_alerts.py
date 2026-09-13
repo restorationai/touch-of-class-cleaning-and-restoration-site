@@ -170,9 +170,33 @@ def run(dry_run: bool, hours: int, only_slug: str | None) -> int:
                 and setup.get("twilio_subaccount_sid")
                 and setup.get("twilio_auth_token")
                 and setup.get("agent_phone_1")):
+            # NO FALLBACK by design (sender rule). But a missed job must
+            # not die in a log line: file an ops note (surfaces in Ops
+            # Attention / the morning digest) and mark the call handled so
+            # it files exactly once. Approving their toll-free upgrades
+            # these to real-time owner SMS automatically.
             skipped += 1
             print(f"  [{slug}] no approved own toll-free, no SMS alert "
-                  f"(call {c['id'][:8]})")
+                  f"(call {c['id'][:8]}) — ops note filed instead")
+            if not dry_run:
+                body = compose(kind, c["from_number"],
+                               _ago(c["started_at"], tz), c["analysis"],
+                               c.get("source") or "")
+                _sb("POST", "/rest/v1/marketing_ops_notes",
+                    {"company_id": c["company_id"], "status": "open",
+                     "author": "call_alerts",
+                     "body": (f"[CALL ALERT HELD] {slug}: no approved own "
+                              "toll-free to text the owner from. The alert "
+                              f"that WOULD have gone out:\n{body}\n"
+                              "Approve their toll-free "
+                              "(company_phone_setup) to enable real-time "
+                              "owner alerts.")},
+                    prefer="return=minimal")
+                _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+                    {"k": key,
+                     "v": {"at": datetime.now(timezone.utc).isoformat(),
+                           "kind": kind, "held": "no_approved_sender"}},
+                    prefer="resolution=merge-duplicates")
             continue
         target = messaging_target(company)
         to = (target.get("cell") or "").strip()
