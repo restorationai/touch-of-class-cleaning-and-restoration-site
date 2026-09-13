@@ -294,6 +294,26 @@ def gbp_section(cid: str, days: int = 31) -> dict | None:
             "posts": posts, "photos": photos, "svc_adds": svc_adds}
 
 
+def _outcomes_stat(outcomes: dict) -> str:
+    """One report card summarizing what the calls turned into (queue #6:
+    booked / quotes / missed opportunities / callbacks surfaced monthly)."""
+    if not outcomes:
+        return ""
+    label = {"booked": "booked", "quote_requested": "quote requests",
+             "missed_opportunity": "missed opportunities",
+             "callback_needed": "callbacks requested",
+             "info_only": "questions"}
+    bits = [f"{n} {label[k]}" for k, n in sorted(
+        outcomes.items(), key=lambda kv: -kv[1]) if k in label and n]
+    if not bits:
+        return ""
+    return ('<div class="stat"><div class="lbl">What the calls turned into'
+            '</div><div class="num" style="font-size:1.05rem">'
+            + " &#183; ".join(bits[:4])
+            + '</div><div class="from">we text you the moment a call is '
+              'labeled a missed opportunity or callback</div></div>')
+
+
 def calls_section(cid: str, days: int = 31) -> dict | None:
     """Tracked phone calls (Santino 2026-08-31: "add the ability to see how
     many calls happen and the list of calls from both Google and the
@@ -302,18 +322,24 @@ def calls_section(cid: str, days: int = 31) -> dict | None:
              - dt.timedelta(days=days)).strftime('%Y-%m-%dT%H:%M:%SZ')
     rows = _sb(f"marketing_tracked_calls?company_id=eq.{cid}"
                f"&started_at=gte.{since}&order=started_at.desc"
-               "&select=source,from_number,status,duration_seconds,started_at&limit=200")
+               "&select=source,from_number,status,duration_seconds,started_at,analysis&limit=200")
     if not rows:
         return None
     by_src = {"gbp": 0, "website": 0}
     answered = 0
+    outcomes: dict[str, int] = {}
     for r in rows:
         by_src[r.get("source") or "gbp"] = by_src.get(r.get("source") or "gbp", 0) + 1
         if (r.get("duration_seconds") or 0) >= 20:
             answered += 1
+        a = r.get("analysis")
+        if isinstance(a, dict) and a.get("outcome"):
+            outcomes[a["outcome"]] = outcomes.get(a["outcome"], 0) + 1
+    for r in rows:
+        r.pop("analysis", None)   # the table renderer never needs it
     return {"total": len(rows), "gbp": by_src.get("gbp", 0),
             "website": by_src.get("website", 0), "answered": answered,
-            "recent": rows[:20]}
+            "outcomes": outcomes, "recent": rows[:20]}
 
 
 def activity_section(cid: str, period: str) -> list[dict]:
@@ -577,6 +603,7 @@ def render_html(name: str, period: str, gsc: dict | None, rev: dict | None,
   <div class="stat"><div class="lbl">Where they came from</div>
     <div class="num">{_fmt(calls['gbp'])}<span class="of"> Google</span> &#183; {_fmt(calls['website'])}<span class="of"> website</span></div>
     <div class="from">every call rings straight to your line and is recorded</div></div>
+  {_outcomes_stat(calls.get('outcomes') or {})}
 </div>
 <div class='twrap'><table><tr><th>Date</th><th>Source</th><th class='n'>Caller</th><th class='n'>Length</th></tr>{rows_html}</table></div>
 <p class="note">Call recordings are available any time in your account at app.restorationai.io.</p>

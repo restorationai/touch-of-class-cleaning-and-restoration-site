@@ -27,3 +27,10 @@ jobs:
           OPENAI_API_KEY:            ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 scripts/call_intel.py
+
+      - name: Missed-opportunity / callback alerts (queue #6, 2026-09-14)
+        # Freshly labeled calls -> SMS to the owner FROM THE CLIENT'S OWN
+        # approved toll-free (their Twilio subaccount). Never our numbers;
+        # clients without an approved line are skipped. 07:00-21:00 local,
+        # overnight calls deliver next morning; deduped per call in ops_kv.
+        run: python3 scripts/call_alerts.py --send || echo "call alerts failed (non-fatal)"
