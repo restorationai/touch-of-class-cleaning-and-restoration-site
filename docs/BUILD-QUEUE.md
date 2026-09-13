@@ -322,7 +322,21 @@ including any text in it) and auto-files to branding.
    cutover stamps, GSC registration) run entirely from the app with zero
    dependence on Santino's Mac being awake.
 
-6. **Missed-opportunity / callback alerts**
+6. **Missed-opportunity / callback alerts — SHIPPED 2026-09-14**
+   scripts/call_alerts.py rides call-intel.yml (every 30 min, right
+   after labeling): outcome=missed_opportunity or callback_needed ->
+   ONE deterministic SMS to the owner FROM THE CLIENT'S OWN approved
+   toll-free via their Twilio subaccount (sender rule hard-coded: no
+   universal fallback, no concierge numbers — clients without an
+   approved line are skipped and only the ops trail records it).
+   07:00-21:00 client-local with overnight hold-for-morning; per-call
+   ops_kv dedupe; work_log row per alert (feeds monthly summary).
+   Monthly report (client_report.py) gains a "What the calls turned
+   into" card (booked / quote requests / missed opportunities /
+   callbacks). Dry-run validated on real fleet calls (Crew vendor
+   callback + HomeLyft missed job rendered correctly; 6 clients
+   correctly skipped for having no approved own line).
+   ORIGINAL ITEM:
    call_intel.py already transcribes every tracked call (Whisper
    dual-channel) and labels outcomes INCLUDING missed_opportunity and
    callback_needed into marketing_tracked_calls.analysis — today nothing
