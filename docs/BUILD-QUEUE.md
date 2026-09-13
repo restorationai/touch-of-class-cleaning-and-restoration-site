@@ -246,12 +246,30 @@ including any text in it) and auto-files to branding.
    item — emergency-intent AI answers pull Yelp+GBP feeds); (e) seed
    terms into GBP review REPLIES. LAWS: no review campaigns ever;
    don't double-post GBP (client runs a third-party poster).
-   APP SURFACING (Santino 2026-09-12): this step list must live IN THE
-   APP, not only in docs — the monthly analyzer already writes [ANALYZER]
-   ops notes; BUILD: analyzer findings become marketing_action_plan rows
-   (the Action Plan tab) and/or a recommendations section on the Reports
-   tab analysis, so every client's fix-steps are visible and clickable.
-   NaRestCo's five steps are the TEST PILOT for that pipeline.
+   4a SHIPPED 2026-09-13 PM: client_analyzer.py emit_gameplan() — on
+   each client's FIRST analyzer run of the month (weekly Sunday cron) an
+   LLM pass turns the analysis into a Game Plan: one narrative row
+   (action_type=gameplan, action_key gameplan-YYYY-MM) + 3-6 step rows
+   (gameplan_step, assigned_system auto-system|manual, sanitized enums,
+   uniform bulk keys — PostgREST rejects mixed-key batches, and insert
+   failures now RAISE instead of printing false success). --gameplan
+   forces a regeneration. APP (MarketingActionPlan.tsx, deployed): Game
+   Plan narrative card atop the Action Plan tab; steps flow into the
+   existing waiting/automatic sections; ADMIN-ONLY auto/manual badges +
+   a green "Completed" button on manual rows (auto rows only complete
+   from evidence, never clicks); clients see uniform task language.
+   PILOT PROOF: narestco's September plan generated from live data
+   independently converged on the manual audit's five steps (GBP
+   services p4, geo-grid expansion p5, citations p3, review-reply
+   seeding + Yelp audit p6 manual) plus two data-found wins (Tacoma
+   wrong-page fix, 8 striking-distance queries); the internal-links
+   step seeded alongside (p2, site).
+   4b REMAINING (the execution sprint): actually run the narestco
+   steps — mechanical ones (GBP services/categories via gbp.py,
+   internal links in sites/narestco, geogrid-keywords.txt additions)
+   auto-complete their rows via work_log; manual ones (Yelp overhaul,
+   review-reply seeding) get done and marked by hand. Auto-dispatch
+   wiring (step row -> build-lane task) is the follow-on build.
    AUTO-DISPATCH SPLIT (Santino 2026-09-13): findings divide in two.
    MECHANICAL ones (internal links between existing pages, geogrid
    keyword additions, GBP service/category adds) should not just appear
