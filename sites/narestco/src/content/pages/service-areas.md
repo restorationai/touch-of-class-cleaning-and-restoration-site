@@ -19,7 +19,7 @@ When water is rising or smoke is still in the air, the last thing you need is to
 
 ## Where we work
 
-Our team operates out of Federal Way, which puts us at a practical midpoint between Seattle and Tacoma. That location lets us reach south King County cities quickly and move into north Pierce County without fighting the worst of the metro traffic. We regularly work across communities along the I-5 corridor, the SR-167 valley, and out toward the SR-16 corridor on the Kitsap Peninsula side. The region's mix of older Craftsman homes, mid-century ramblers, and newer construction means our crews encounter everything from original cast-iron plumbing to modern composite materials — and they come prepared for all of it.
+Our team operates out of Federal Way, which puts us at a practical midpoint between Seattle and [Tacoma](/service-areas/tacoma-wa/). That location lets us reach south King County cities quickly and move into north Pierce County without fighting the worst of the metro traffic. We regularly work across communities along the I-5 corridor, the SR-167 valley, and out toward the SR-16 corridor on the Kitsap Peninsula side. The region's mix of older Craftsman homes, mid-century ramblers, and newer construction means our crews encounter everything from original cast-iron plumbing to modern composite materials — and they come prepared for all of it.
 
 ## Response time by distance
 

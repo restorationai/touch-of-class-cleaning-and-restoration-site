@@ -39,7 +39,7 @@ Our phones are answered 24 hours a day, seven days a week. When you call (206) 8
 
 ## Service area
 
-Our headquarters is in Federal Way, which puts us within a short drive of most of the South King County and North Pierce County communities we serve most often: Auburn, Kent, Tacoma, Des Moines, Renton, Burien, and Puyallup. We also respond throughout the broader Seattle metro area. If you are unsure whether you are in our service range, call — we will tell you honestly rather than send you on a long hold.
+Our headquarters is in Federal Way, which puts us within a short drive of most of the South King County and North Pierce County communities we serve most often: Auburn, Kent, Tacoma, Des Moines, Renton, Burien, and Puyallup. We also respond throughout the broader Seattle metro area — see our dedicated page on [damage restoration in Tacoma, WA](/service-areas/tacoma-wa/) for local response times and coverage. If you are unsure whether you are in our service range, call — we will tell you honestly rather than send you on a long hold.
 
 Federal Way's mix of 1970s and 1980s construction, combined with the region's wet winters and occasional windstorms, means water intrusion and storm-related damage are the calls we receive most frequently. We know the housing stock, the local utility contacts, and the permit process at Federal Way City Hall.
 
