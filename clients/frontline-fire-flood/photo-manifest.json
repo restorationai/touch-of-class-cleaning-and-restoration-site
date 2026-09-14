@@ -2,9 +2,9 @@
   "slug": "frontline-fire-flood",
   "assets": {
     "crew:1789166182209-173c6d2f": {
-      "source": "crew",
-      "storage": "job-photos/1789166182209-173c6d2f.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789166182209-173c6d2f.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1789166182209-173c6d2f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/1789166182209-173c6d2f.jpg",
       "width": 1660,
       "height": 300,
       "bytes": 69904,

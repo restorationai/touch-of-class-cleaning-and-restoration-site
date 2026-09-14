@@ -227,9 +227,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1788554010857-Heavy_Duty_Drying": {
-      "source": "crew",
-      "storage": "job-photos/1788554010857-Heavy_Duty_Drying.JPG",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788554010857-Heavy_Duty_Drying.JPG",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788554010857-Heavy_Duty_Drying.JPG",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788554010857-Heavy_Duty_Drying.JPG",
       "width": 2333,
       "height": 3024,
       "bytes": 1603687,
@@ -260,9 +260,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1788554028652-Masonry": {
-      "source": "crew",
-      "storage": "job-photos/1788554028652-Masonry.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788554028652-Masonry.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788554028652-Masonry.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788554028652-Masonry.jpg",
       "width": 4032,
       "height": 3024,
       "bytes": 1511678,
@@ -286,9 +286,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1788554122387-Flood_Madeira": {
-      "source": "crew",
-      "storage": "job-photos/1788554122387-Flood_Madeira.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/1788554122387-Flood_Madeira.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1788554122387-Flood_Madeira.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/1788554122387-Flood_Madeira.jpg",
       "width": 3024,
       "height": 4032,
       "bytes": 1373563,
