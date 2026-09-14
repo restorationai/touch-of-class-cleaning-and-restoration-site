@@ -7349,7 +7349,10 @@ def _classify_texted_image(jpeg_bytes: bytes, msg_text: str) -> str | None:
             '{"class": "job_photo" | "screenshot" | "document" | "brand"}. '
             "job_photo = real-world photo of work, damage, equipment, crew, "
             "vehicles or property. screenshot = any phone/computer UI, app, "
-            "error message, settings page or website capture. document = a "
+            "error message, settings page or website capture, INCLUDING a "
+            "photo of a monitor/laptop/phone whose screen shows a website "
+            "or app (a photographed screen is a screenshot, not a job "
+            "photo). document = a "
             "photo/scan of paperwork (insurance, license, bill, form, "
             "letter). brand = logo, color palette, font sample or business "
             "card.",
@@ -7396,6 +7399,22 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
     brand_context = bool(re.search(
         r"\bcolou?rs?\b|\bfonts?\b|\blogo\b|\bbrand(ing)?\b|\bbusiness\s+cards?\b",
         (msg.get("body") or ""), re.I))
+    # EDIT CONTEXT (Angie / All Pro 2026-09-14): she texted photos OF her
+    # screen showing website edits she wanted ("edit on the All Pro
+    # plumbing website... can you move that") and the burst was filed as
+    # content photos + thanked with "queued for your Google profile"; she
+    # had to correct us twice ("I am showing examples to change", "Not to
+    # add those photos"). When the words are edit-requests about the
+    # site/profile, every image in the burst is REFERENCE material ->
+    # job-photos/inbox/ (quarantine), never the GBP/content lane. Beats
+    # the vision classifier AND its aspect-ratio fallback, both of which
+    # can misread a photo of a monitor as business photography.
+    edit_context = bool(re.search(
+        r"\b(website|web\s*site|site|page|homepage|header|banner|button|profile)\b",
+        (msg.get("body") or ""), re.I)) and bool(re.search(
+        r"\b(edit|change|move|swap|remove|fix|adjust|instead|example|examples"
+        r"|smaller|bigger|larger|tiny)\b",
+        (msg.get("body") or ""), re.I))
     for url in msg.get("attachments") or []:
         try:
             r = requests.get(url, timeout=60)
@@ -7426,10 +7445,12 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                 buf = BytesIO()
                 img.save(buf, "JPEG", quality=85)   # re-encode = EXIF/GPS gone
                 body, up_type = buf.getvalue(), "image/jpeg"
-                cls = None if brand_context else _classify_texted_image(
-                    body, msg.get("body") or "")
+                cls = None if (brand_context or edit_context) \
+                    else _classify_texted_image(body, msg.get("body") or "")
                 if brand_context or cls == "brand":
                     path, kind = f"{cid}/brand/refs/sms-{stamp}.jpg", "brand_refs"
+                elif edit_context:
+                    path, kind = f"{cid}/job-photos/inbox/sms-{stamp}.jpg", "screenshots"
                 elif cls == "screenshot":
                     path, kind = f"{cid}/job-photos/inbox/sms-{stamp}.jpg", "screenshots"
                 elif cls == "document":
@@ -10700,6 +10721,11 @@ _UPLOAD_KINDS = (
     # imported 11 listing photos and he was thanked for "11 photos" he
     # never sent; "I didnt que any photos. ?").
     ("job-photos/posted/", None),
+    # Quarantined screenshots must never be thanked as content "photos in
+    # the queue for your Google profile" (Angie/All Pro 2026-09-14: her
+    # website-edit example shots got the content-photo receipt and she had
+    # to write back "Not to add those photos").
+    ("job-photos/inbox/", "screenshot"),
     ("job-photos/", "photo"),
     ("job-videos/", "video"),
     ("team/", "photo"),
@@ -10738,7 +10764,8 @@ def _upload_ack_text(counts: dict) -> str:
     message is a receipt, and receipts must never hallucinate. Keeps to one
     SMS segment for the common cases."""
     parts = []
-    for kind in ("photo", "video", "logo", "brand kit", "customer list",
+    for kind in ("photo", "video", "screenshot", "logo", "brand kit",
+                 "customer list",
                  "legal docs", "insurance docs", "license docs", "file"):
         n = counts.get(kind) or 0
         if not n:
@@ -10757,6 +10784,14 @@ def _upload_ack_text(counts: dict) -> str:
     what = parts[0] if len(parts) == 1 else ", ".join(parts[:-1]) + " and " + parts[-1]
     got = f"Got {what}, thank you!"
     media_n = (counts.get("photo") or 0) + (counts.get("video") or 0)
+    shot_n = counts.get("screenshot") or 0
+    if media_n and shot_n:
+        # Mixed burst: only the real photos are content; never promise the
+        # screenshots to Google (Angie/All Pro 2026-09-14).
+        return (f"{got} The photos are queued for your Google profile and "
+                "website, and we're reviewing the screenshots now.")
+    if shot_n:
+        return f"{got} We're taking a look now."
     if media_n:
         pronoun = "It's" if media_n == 1 and len(parts) == 1 else "They're"
         return (f"{got} {pronoun} in the queue for your Google profile "
