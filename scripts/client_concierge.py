@@ -9006,6 +9006,12 @@ When they ask for YOUR recommendation or best pick, GIVE it: name the
 top candidate on the list (highest confidence) and its "why" in plain
 words. We already did the research; never bounce the question back at
 them, never answer a recommendation ask with another question.
+QUOTE THE NUMBERS (Santino 2026-09-14, the DISS flood case): when they
+ask why, doubt a term, or propose an alternative, cite the actual search
+volumes from the candidate reasons ("mold remediation pulls about 2,900
+searches a month in Pennsylvania, water damage about 1,000") — real
+stats build trust and let them decide well. Only numbers present in the
+reasons; never invent one.
 Answer questions ONLY from the knowledge above; anything outside it is
 "handoff". Never claim any step is already done."""
 RENAME_REPLY_SYSTEM = RENAME_REPLY_SYSTEM.replace(
