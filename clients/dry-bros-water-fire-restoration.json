@@ -27,6 +27,8 @@
   "build_status": "content_rendered",
   "brightlocal": {
     "location_id": 4152728,
-    "campaign_id": 999576
+    "campaign_id": 999576,
+    "ordered_at": "2026-09-14T17:07:59.959100+00:00",
+    "package_id": "cb25"
   }
 }
