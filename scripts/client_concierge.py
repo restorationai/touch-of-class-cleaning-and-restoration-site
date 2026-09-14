@@ -8206,33 +8206,46 @@ BOOKING_ASSIGNED_USER_ID = "xTuHtBz8G7Z4fyhAJ9kJ"   # Santino
 BOOKING_MIN_NOTICE_HOURS = 6
 
 BOOKING_TIME_SYSTEM = """\
-You read a client's words about WHEN they want a call and decide whether
-they proposed a SPECIFIC day+time, resolving it against the current
-datetime given. "Tomorrow at 11am" / "Friday 2pm" ARE specific; "sometime
-next week" / "afternoon works" / "whenever" are NOT.
+You read a client's words about WHEN they want a call, resolving against
+the current datetime given. Two separate things to extract:
+1. proposed_iso: a SPECIFIC day+time ("Tomorrow at 11am" / "Friday 2pm").
+   "sometime next week" / "afternoon works" / "whenever" are NOT specific.
+2. preferred_date: the DAY they named even without a time ("tomorrow",
+   "Wednesday", "later this week" -> null, "next Monday" -> that date).
+   Will 2026-09-14: "can we move to tomorrow" got offers scattered across
+   the week because the day preference was thrown away — never again.
 A bare clock time is in the CLIENT's timezone (given). Return ONLY JSON:
 {"proposed_iso": "YYYY-MM-DDTHH:MM:SS<offset> or null",
+ "preferred_date": "YYYY-MM-DD or null",
  "confidence": "high"|"low"}
-Never guess: ambiguous day or time -> null."""
+Never guess: ambiguous -> null for that field."""
 
 BOOKING_OFFER_SYSTEM = """\
 You are Monica, texting a client of the marketing agency who asked to set
-up a call. Offer the slot options given (their local time), warmly and
-briefly, and ask which works. Rules, all hard: 2-3 sentences max; plain
-text; no em dashes; never promise who attends or say you will call; never
-invent times not in the list; if their stated preference clearly cannot be
-met, acknowledge that in a few words before offering.
+up a call. Offer the slot options given (their local time) the way a busy
+human texts (Santino 2026-09-14, the Will exchange: "I have 11 am and
+1 pm tomorrow if either of those work better" is the voice — his casual
+two-liner beat a formal paragraph). Rules, all hard: at most 2 short
+sentences; compress times naturally ("tomorrow at 11am or 1pm",
+"Wednesday at noon"), never spell out full dates like "September 16 at
+12:00 PM" for days this week; no em dashes; never promise who attends or
+say you will call; never invent times not in the list; if their stated
+preference cannot be met, say so in a few words first.
 Return ONLY JSON: {"body": "<the SMS>"}"""
 
 
 RESCHEDULE_OFFER_SYSTEM = """\
 You are Monica from Santino's team at Restoration AI, replying to a client
-who asked to move an upcoming call. Voice: warm, human, like a real scheduler.
-NEVER use em dashes or en dashes; use a comma or a period instead. Confirm moving is no problem, then offer
-the provided slot options (their local time) — lead with the first. Ask them
-to pick one or say what works better. CONCISE (hard rule, Santino
-2026-08-04): 2 short sentences, <= 220 chars, no emojis, no corporate
-filler, no closing line.
+who asked to move an upcoming call. Voice: a busy human texting, not a
+scheduler-bot (Santino 2026-09-14, the Will fix: "I have 11 am and 1 pm
+tomorrow if either of those work better" is the voice).
+NEVER use em dashes or en dashes; use a comma or a period instead.
+Confirm moving is no problem in 2-4 words, then offer the provided slots
+compressed naturally: "tomorrow at 11am or 1pm", "Wednesday at noon".
+Never spell full dates like "September 16 at 12:00 PM" for days within
+the week. When the input says the slots match the client's requested day,
+NEVER offer other days. CONCISE (hard rule, Santino 2026-08-04): 2 short
+sentences, <= 200 chars, no emojis, no corporate filler, no closing line.
 You are NOT on that call and never will be (2026-08-05): move it, confirm
 it, and stop. Never "talk to you then", "see you then", or anything that
 puts you in the room. The call is theirs with Santino.
@@ -8278,6 +8291,25 @@ def _free_slots(calendar_id: str, tz: str, days: int = 8) -> list[str]:
             continue
         out.extend(val.get("slots") or [])
     return sorted(out)
+
+
+def _day_offers(slots: list[str], date_str: str) -> list[str]:
+    """Up to 3 business-hour slots ON the client's requested day (Will
+    2026-09-14: 'tomorrow' must produce tomorrow's times, never a scatter
+    across the week)."""
+    day = [s for s in slots
+           if str(datetime.fromisoformat(s).date()) == date_str
+           and 8 <= datetime.fromisoformat(s).hour < 18]
+    if len(day) <= 3:
+        return day
+    # spread across the day: earliest, closest-to-noon, latest
+    noon = min(day, key=lambda s: abs(datetime.fromisoformat(s).hour - 12))
+    picks = [day[0]]
+    if noon not in picks:
+        picks.append(noon)
+    if day[-1] not in picks:
+        picks.append(day[-1])
+    return sorted(picks)
 
 
 def _pick_offer_slots(slots: list[str], current_start_local, tz: str) -> list[str]:
@@ -8326,7 +8358,52 @@ def handle_reschedule_request(company: dict, contact: dict, preference: str,
     cur = datetime.strptime(appt["startTime"], "%Y-%m-%d %H:%M:%S").replace(
         tzinfo=ZoneInfo(GHL_LOCATION_TZ)).astimezone(ZoneInfo(tz))
     slots = _free_slots(appt["calendarId"], tz)
-    offers = _pick_offer_slots(slots, cur, tz)
+    offers, day_matched = [], False
+    if (preference or "").strip():
+        now_loc = datetime.now(timezone.utc).astimezone(ZoneInfo(tz))
+        try:
+            parsed = anthropic_json(
+                BOOKING_TIME_SYSTEM,
+                f"Current datetime: {now_loc.strftime('%A %Y-%m-%d %H:%M %Z')} "
+                f"(client timezone {tz}).\nClient words: {preference[:300]}")
+        except Exception as e:  # noqa: BLE001
+            parsed = {}
+            print(f"    reschedule time-parse failed ({str(e)[:80]})")
+        # exact free time proposed -> MOVE IT, one confirmation, done
+        if parsed.get("proposed_iso") and parsed.get("confidence") == "high":
+            try:
+                want_dt = datetime.fromisoformat(str(parsed["proposed_iso"]))
+                match = next((s for s in slots
+                              if abs((datetime.fromisoformat(s) - want_dt)
+                                     .total_seconds()) < 900), None)
+            except ValueError:
+                match = None
+            if match and not dry_run:
+                from datetime import timedelta as _td
+                start_loc = datetime.fromisoformat(match).astimezone(
+                    ZoneInfo(GHL_LOCATION_TZ))
+                try:
+                    _ghl("PUT", "/calendars/events/appointments/"
+                         + appt["id"],
+                         body={"startTime": start_loc.strftime("%Y-%m-%dT%H:%M:%S%z"),
+                               "endTime": (start_loc + _td(minutes=60)).strftime("%Y-%m-%dT%H:%M:%S%z"),
+                               "calendarId": appt["calendarId"]})
+                    body = f"No problem, you're moved to {_fmt_slot(match)}."
+                    res = send_message(contact, "sms", body, company=company)
+                    record_sent_message(state, res)
+                    append_escalation(company, None,
+                                      f"FYI (no action needed): call MOVED to "
+                                      f"{_fmt_slot(match)} at the client's "
+                                      "request", dry_run)
+                    print(f"    RESCHEDULED directly -> {match}")
+                    return
+                except Exception as e:  # noqa: BLE001 — fall through to offers
+                    print(f"    direct move failed ({str(e)[:80]})")
+        if parsed.get("preferred_date"):
+            offers = _day_offers(slots, str(parsed["preferred_date"]))
+            day_matched = bool(offers)
+    if not offers:
+        offers = _pick_offer_slots(slots, cur, tz)
     if not offers:
         append_escalation(company, None,
                           "reschedule requested but no free slots in the next "
@@ -8338,7 +8415,9 @@ def handle_reschedule_request(company: dict, contact: dict, preference: str,
                            f"Client first name: {contact_first_name(contact, company)}\n"
                            f"Their current call: {_fmt_slot(cur.isoformat())}\n"
                            f"Their stated preference: {preference or 'unspecified'}\n"
-                           f"Slot options (their local time): {', '.join(labels)}")
+                           + ("These slots ARE on the client's requested day.\n"
+                              if day_matched else "")
+                           + f"Slot options (their local time): {', '.join(labels)}")
     body = _fit_sms((draft.get("body") or "").strip(), 220, 260,
                     label=" [reschedule]")
     print(f"    RESCHEDULE OFFER ({len(body)} chars) -> {body!r}")
@@ -8486,6 +8565,7 @@ def handle_booking_request(company: dict, contact: dict, preference: str,
     first = contact_first_name(contact, company)
     # Did they propose a SPECIFIC time?
     proposed = None
+    out = {}
     if (preference or "").strip():
         now_loc = datetime.now(timezone.utc).astimezone(ZoneInfo(tz))
         try:
@@ -8533,6 +8613,9 @@ def handle_booking_request(company: dict, contact: dict, preference: str,
                 offers.append(s)
             if len(offers) == 3:
                 break
+    if not offers and out.get("preferred_date"):
+        # they named a DAY without a time: offer that day's slots
+        offers = _day_offers(slots, str(out["preferred_date"]))
     if not offers:
         # no specific time proposed: one business-hours slot per DAY so the
         # client picks a day first, not three slots on the same afternoon
