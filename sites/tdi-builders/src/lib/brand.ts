@@ -56,6 +56,7 @@ export const brand = {
   gbpReviewCount: "9",
   gbpReviews: [
     { author: "Bangtan", rating: 5, text: "Thank you Alex and TDI for answering all of our questions regarding remodel of a venue we are looking to purchase.", when: "May 2026" },
+    { author: "Stephen", rating: 5, text: "I needed a remodel done for a water loss claim, and ServPro was able to help me with prompt and reliable service. Working with Stacey was an extremely simple and stress free experience in an otherwise hectic and stressful situation.", when: "May 2026" },
     { author: "Alexandrine", rating: 5, text: "After a flood did damage to our kitchen, we needed remodeling work. Stacey helped us get our water loss claim handled smoothly and in a timely manner. Thank you Stacey!", when: "May 2026" },
     { author: "Marie", rating: 5, text: "Thank you Alex for answering my questions.", when: "May 2026" },
     { author: "John", rating: 5, text: "Spoke with Alex and she was pleasant and helpful while making appointment for me.", when: "May 2026" },

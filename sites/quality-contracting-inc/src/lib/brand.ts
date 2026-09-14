@@ -60,14 +60,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.6",
-  gbpReviewCount: "98",
+  gbpReviewCount: "100",
   gbpReviews: [
+    { author: "Denise", rating: 5, text: "We had extensive flood damage at our home. Quality Contracting did the repairs for us and did an exceptional job", when: "September 2026" },
+    { author: "Jeannine", rating: 5, text: "Luis was wonderful! Explained everything and handled the our water leak professionally. Thank you!", when: "September 2026" },
     { author: "Jacques", rating: 5, text: "We had a fire and the Quality team helped with the public adjustment valuation of the damage, getting the most complete value of our claim allow us to build back the way the house should be done. The managing carpenter did a great job at keeping the trades on schedule and in budget. We even…", when: "September 2026" },
     { author: "Alison", rating: 4, text: "Fixed several rooms in our house after ice dam. Worked through insurance so that was great. Overall, did a good job with the work but difficult to coordinate them doing the work and several weeks of delays that were unnecessary.", when: "September 2026" },
     { author: "William", rating: 5, text: "Very courteous workers. Kept me informed as the work was progressing", when: "August 2026" },
     { author: "Gail", rating: 5, text: "I have never had such an incredible team as Quality Contracting’s under manager Mike Bonnette following last winter’s ice dam. Each member of the team he put together…from movers, to those securing all entries with plastic, filtering air machine in place to assure the rest of the house had only…", when: "August 2026" },
-    { author: "Heather", rating: 5, text: "I am so happy I chose this company to move our belongings to our new home. The whole process was seamless and the guys (Henry’s team) were incredible. They were kind, considerate, careful, and fast! I will tell everyone to use your company. I didn’t mention one of the best parts, your quote was…", when: "August 2026" },
-    { author: "Renee", rating: 5, text: "Quality contracting had been top notch to work with so far. We had a roof leak that resulted in water damage to multiple areas within our home. Quality's swift response saved our 100 year old flooring in multiple rooms. Javier, Jose & Luis were always professional and took great care to ensure that…", when: "August 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "One Call Does It All. 24/7 restoration across Central Massachusetts.",
   ctaLabel: "24/7 Emergency Line",

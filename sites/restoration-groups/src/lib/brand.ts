@@ -55,14 +55,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
-  gbpReviewCount: "158",
+  gbpReviewCount: "160",
   gbpReviews: [
+    { author: "Dessy", rating: 5, text: "(Translated by Google) Excellent work. The staff were responsible, friendly, and above all, very clean. I was very satisfied and I recommend them 100%. (Original) Excelente trabajo.el personal responsables,amables y sobre todo muy limpios para trabajar .quedé satisfecha y lo recomiendo al 💯.", when: "September 2026" },
+    { author: "Lisa", rating: 5, text: "They were very professional, and took care of all the water in my ceiling. It was alot of work, but they were very good at what they did.", when: "September 2026" },
     { author: "Peggy", rating: 5, text: "Teams were very prompt and respectful.. company responded quickly and kept in touch", when: "August 2026" },
     { author: "Jw", rating: 5, text: "The folks at TRG were professional, punctual, and pleasant to deal with. They did a great job addressing our issue and performed appropriate follow up to ensure our satisfaction.", when: "August 2026" },
     { author: "F.", rating: 5, text: "Prompt and professional work. Kept in contact thru out the process which was very important to me.", when: "July 2026" },
     { author: "Ryan", rating: 5, text: "Great customer service. I was kept well informed throughout the entire process. I received nothing but respect and sympathy from everyone I dealt with.", when: "July 2026" },
-    { author: "Gautam", rating: 5, text: "Very professional staff and also helped accommodate working around some other contractors that were simultaneously working in my house. Highly recommend!", when: "July 2026" },
-    { author: "Alexis", rating: 5, text: "Great experiencing using a local company to help through a very stressful time. This was the second company I called in for another opinion when we had a leak in our house and I’m so happy I did. Stefan our project manager was so friendly and very straight forward about the process and got a team…", when: "July 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 water, fire & mold damage restoration across New Jersey.",
   ctaLabel: "24/7 Emergency Line",

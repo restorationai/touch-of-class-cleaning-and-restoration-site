@@ -57,9 +57,16 @@ export const brand = {
   sameAsUrls: ["https://frontlinefireflood.com/meet-the-team/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "4.9",
+  gbpReviewCount: "133",
+  gbpReviews: [
+    { author: "Samuel", rating: 5, text: "Darius was very helpful and informative through the entire process. Very easy to work with. Highly recommended!", when: "September 2026" },
+    { author: "Alivia", rating: 5, text: "Frontline went above and beyond when I had a major flood at one of my properties! Their team responded incredibly fast and took care of the problem before the damage could get any worse. Jamal was absolutely amazing—kind, courteous, and extremely professional. He worked quickly to get all the water…", when: "August 2026" },
+    { author: "Jaleel", rating: 5, text: "I had a great experience with Frontline Fire and Flood when we discovered mold in our home. It was the basement spare bedroom to be exact. From the beginning, they were professional, knowledgeable, and made us feel like we were in good hands. They did an excellent job addressing the mold issue and…", when: "August 2026" },
+    { author: "Rochelle", rating: 5, text: "I had a great experience with Frontline Fire and Flood. From start to finish, the team was professional, responsive, and respectful of our home. The work was handled carefully, and it was clear that they genuinely cared about getting everything done right. Jamal was especially great to work with…", when: "August 2026" },
+    { author: "Danyel", rating: 5, text: "Frontline did a great job addressing water damage to our home. Jamal was the onsite lead and was professional and thorough. He and Darius clearly and promptly answered my many questions as I interviewed a handful of vendors, providing all the documentation about their business and certifications I…", when: "August 2026" },
+    { author: "Jonathan", rating: 5, text: "Very professional team, small heater caught fire in our home. Their team came out the next day and were quick to remediate our house. Their reconstruction team was very helpful and made it a very swift process. Shoutout Frontline", when: "August 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Lakewood, WA.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from

@@ -47,14 +47,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
-  gbpReviewCount: "501",
+  gbpReviewCount: "502",
   gbpReviews: [
+    { author: "Kelli", rating: 5, text: "Victor was awesome!! He was very helpful!", when: "September 2026" },
     { author: "Ryan", rating: 5, text: "Bryson, did a great job at cleaning up our sewage back up!", when: "August 2026" },
     { author: "Rylie", rating: 5, text: "loren and jason did an amazing job on the deck at the cabin. I would highly recommend for their expertise", when: "August 2026" },
     { author: "Andrea", rating: 5, text: "We enlisted the help of Crew Inc. for an after-hours water emergency. Their team was quick to respond and friendly throughout the process despite it being an unexpected job for them. Brandon & Trey put us at ease about the situation and what comes next. We are grateful we called them!", when: "August 2026" },
     { author: "John", rating: 5, text: "Brandy was amazing helping us curate a beautiful renovation. Her communication was on point and style gave our house a much needed boost. If you’re ever in need of construction or a style boost to your real estate, you can’t beat the quality you’ll get with Brandy.", when: "August 2026" },
     { author: "Ryan", rating: 5, text: "Zach is great at communicating, works hard and great restoration services", when: "August 2026" },
-    { author: "Jay", rating: 5, text: "Brandon was amazing to work with. He made the whole process seamless. AMAZING WORK!", when: "August 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",

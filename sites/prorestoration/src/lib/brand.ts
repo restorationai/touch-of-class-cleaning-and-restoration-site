@@ -45,7 +45,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
-  gbpReviewCount: "110",
+  gbpReviewCount: "111",
   gbpReviews: [
     { author: "Carol", rating: 4, text: "Showed up on time & great service & very friendly. I would certainly used them again", when: "September 2026" },
     { author: "Kim", rating: 5, text: "Noticed a leak at 6:00 pm on a Friday. ProRestoration came out immediately and stayed until well after midnight to make sure all the damaged drywall was removed. They were professional and courteous.", when: "September 2026" },

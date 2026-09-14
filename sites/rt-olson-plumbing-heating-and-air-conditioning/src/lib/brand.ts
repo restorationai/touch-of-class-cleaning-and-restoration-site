@@ -58,14 +58,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "587",
+  gbpReviewCount: "589",
   gbpReviews: [
+    { author: "Keith", rating: 5, text: "Prompt, courteous, professional and cleaned up without leaving a trace. They are extremely knowledgeable and patiently answered all my questions. Highly recommend them!", when: "September 2026" },
+    { author: "Ruben", rating: 5, text: "RT Olson is highly recommended! Had our condenser stop working this morning and left them a message. They got back right away and were able to send someone first thing. I thought it was probably the capacitor but wanted someone to confirm. They showed up and confirmed it wasn't that. They began…", when: "September 2026" },
     { author: "Roger", rating: 5, text: "I’m extremely pleased with the service that I received from Tim at Olson Plumbing for my HVAC system. He was extremely professional, responsive and very fair with pricing. I highly recommend them!", when: "September 2026" },
     { author: "Emery", rating: 5, text: "Tim and Will were incredible. Concerned and courteous. They initially came out late in the evening to make sure our AC worked. Highly recommended.", when: "September 2026" },
     { author: "Terri", rating: 5, text: "Alphonzo was very professional and throughout. He did a great job!", when: "September 2026" },
     { author: "Ramil", rating: 5, text: "Excellent service, friendly, helpful people and quality workmanship are all you can expect from RT Olson.", when: "September 2026" },
-    { author: "Vince", rating: 5, text: "The technician went above and beyond and did not give up even when the job looked hopeless. He stuck with it until he was able to complete the job .", when: "September 2026" },
-    { author: "Raymond", rating: 5, text: "Repair service was outstanding. The tech made absolutely no mess but cleaned everything regardless. The area around the toilet was spotless when he left.", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "Plumbing, heating & air services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",
