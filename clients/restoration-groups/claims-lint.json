@@ -1,6 +1,6 @@
 {
   "slug": "restoration-groups",
-  "generated_at": "2026-09-10T19:59:26Z",
+  "generated_at": "2026-09-14T20:26:24Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -12,7 +12,7 @@
     "response_minutes": 60,
     "family_owned": false,
     "founded_year": "2021",
-    "gbp_review_count": 158,
+    "gbp_review_count": 160,
     "vertical": "restoration"
   },
   "errors": 0,

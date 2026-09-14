@@ -1,0 +1,66 @@
+{
+  "slug": "frontline-fire-flood",
+  "generated_at": "2026-09-14T20:26:21Z",
+  "truth": {
+    "hours": "24/7",
+    "is_247": true,
+    "certifications": [
+      "IICRC CERTIFIED FIRM",
+      "IICRC AMRT (MOLD)",
+      "IICRC WRT (WATER)",
+      "IICRC FSRT (FIRE & SMOKE)",
+      "IICRC ASD (STRUCTURAL DRYING)",
+      "EPA LEAD-SAFE CERTIFIED",
+      "OSHA TRAINED"
+    ],
+    "license_numbers": [
+      "CCFRONTFF761CB"
+    ],
+    "licensed_ok": true,
+    "response_minutes": null,
+    "family_owned": false,
+    "founded_year": "2014",
+    "gbp_review_count": 133,
+    "vertical": "restoration"
+  },
+  "errors": 0,
+  "review_flags": 4,
+  "violations": [
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-lakewood-wa.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "26 reviews",
+      "context": "olds a perfect 5.0 Google rating across 26 reviews, which signals strong customer satisfac",
+      "reason": "listicle review-count 26 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-lakewood-wa.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "26 reviews",
+      "context": "greater Tacoma and Lakewood area. With 26 reviews, their sample size is smaller than some",
+      "reason": "listicle review-count 26 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-lakewood-wa.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "73 reviews",
+      "context": "d West carries a 4.7 Google rating from 73 reviews, one of the larger review pools on this",
+      "reason": "listicle review-count 73 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-lakewood-wa.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "22 reviews",
+      "context": "tion LLC holds a 5.0 Google rating from 22 reviews. They are an established local restorat",
+      "reason": "listicle review-count 22 (competitor stat \u2014 verify it is not presented as ours)"
+    }
+  ]
+}
