@@ -50,8 +50,48 @@
       "reason": "Admin settings screenshot; no visual content usable on a marketing site.",
       "triaged_at": "2026-08-06T14:04:13Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1789407549692-4b0dd7aa": {
+      "source": "crew",
+      "storage": "job-photos/sms-1789407549692-4b0dd7aa.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783380243102/job-photos/sms-1789407549692-4b0dd7aa.jpg",
+      "width": 960,
+      "height": 1280,
+      "bytes": 221785,
+      "sha1": "6332af2a4ade9156",
+      "exif": {}
+    },
+    "crew:sms-1789407563487-44b10589": {
+      "source": "crew",
+      "storage": "job-photos/sms-1789407563487-44b10589.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783380243102/job-photos/sms-1789407563487-44b10589.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 378820,
+      "sha1": "000fc553bedfda90",
+      "exif": {}
+    },
+    "crew:sms-1789407625393-1fd6f5c2": {
+      "source": "crew",
+      "storage": "job-photos/sms-1789407625393-1fd6f5c2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783380243102/job-photos/sms-1789407625393-1fd6f5c2.jpg",
+      "width": 960,
+      "height": 1280,
+      "bytes": 237643,
+      "sha1": "a207fb7ef57de5ba",
+      "exif": {}
+    },
+    "crew:sms-1789407635668-175789ac": {
+      "source": "crew",
+      "storage": "job-photos/sms-1789407635668-175789ac.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783380243102/job-photos/sms-1789407635668-175789ac.jpg",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 308378,
+      "sha1": "0b428ede2b505aa4",
+      "exif": {}
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-06T14:04:13Z"
+  "triaged_at": "2026-09-14T19:09:56Z"
 }
