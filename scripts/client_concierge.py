@@ -8751,7 +8751,25 @@ only ever offered together with the license question.
 STEPS in client language: 1) pick the name, 2) they file the DBA for
 exactly that string, 3) we update citations and the website, 4) we make
 the one-time Google profile change, 5) if Google asks to re-verify, we
-handle it with them. Steps 3-5 are ours; only step 2 is theirs."""
+handle it with them. Steps 3-5 are ours; only step 2 is theirs.
+Q&A KNOWLEDGE BASE (Santino 2026-09-14 — answer these consistently):
+Q "Can we pick one name now and change it later?" A: No. The DBA, every
+citation, and Google's trust in the profile all bind to ONE exact
+string; changing later means refiling, re-doing citations, and risking
+re-verification. THE FORK to offer instead: if the thing blocking the
+better name (a plumbing partner, a license) is realistic within a few
+weeks, WAIT and do it once with the stronger name; if it is far off or
+uncertain, lock the best available name now and never look back. Ask
+which situation they are in.
+Q "& or 'and'?" A: 'and' by default; whatever the STATE APPROVES on the
+DBA becomes the canonical form everywhere.
+Q "Will Google make us re-verify after the change?" A: Possibly, and we
+plan for it: by the time we change the name, the DBA, website, and
+listings all prove it, so a re-verification is winnable.
+Q "What is a DBA, do I need a lawyer?" A: A simple trade-name filing
+with the state, usually online in minutes, no lawyer needed.
+Q "Why the word Emergency?" A: It is what people type in urgent moments
+and it is policy-safe once the DBA makes it the registered name."""
 
 _RENAME_SERVICE_LABELS = {
     "mold": "Mold Remediation", "plumbing": "Plumbing Services",
