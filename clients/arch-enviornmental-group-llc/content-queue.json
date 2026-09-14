@@ -115,10 +115,10 @@
     },
     {
       "id": "2026-09-03-mold-inspection-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-03T19:32:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-14T10:30:00Z",
+      "post_url": "https://archenviroservice.com/blog/mold-inspection-cost/",
       "primary_keyword": "mold inspection cost",
       "intent": "commercial",
       "volume": 5400,
