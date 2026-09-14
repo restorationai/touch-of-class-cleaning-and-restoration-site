@@ -508,6 +508,33 @@
       "triaged_at": "2026-08-05T05:47:45Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipN1L-9iOoiUMvvSdRXdFRG_HVNDrknOOpFDWV5Q": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN1L-9iOoiUMvvSdRXdFRG_HVNDrknOOpFDWV5Q.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/gbp-AF1QipN1L-9iOoiUMvvSdRXdFRG_HVNDrknOOpFDWV5Q.jpg",
+      "width": 2560,
+      "height": 1783,
+      "bytes": 645080,
+      "sha1": "ab5a2e65af2f048d",
+      "exif": {
+        "taken_at": "2026:09:10 16:36:15"
+      },
+      "category": "unusable",
+      "subject": "Two men posing together at an industry conference",
+      "quality": 55,
+      "slots": {
+        "hero": 0,
+        "team": 10,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Conference selfie, no trade context, not useful for marketing site.",
+      "triaged_at": "2026-09-14T14:07:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipN1uNcgzPHVlQ5N4xBGSoIrlci_ru67AOHV1isJ": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipN1uNcgzPHVlQ5N4xBGSoIrlci_ru67AOHV1isJ.jpg",
@@ -711,6 +738,34 @@
       "triaged_at": "2026-08-05T05:48:02Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNhg7AIqbpm3Bx4WHhfmqbaW2KLlCaF5i9MyEpl": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNhg7AIqbpm3Bx4WHhfmqbaW2KLlCaF5i9MyEpl.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/gbp-AF1QipNhg7AIqbpm3Bx4WHhfmqbaW2KLlCaF5i9MyEpl.jpg",
+      "width": 1399,
+      "height": 1126,
+      "bytes": 411146,
+      "sha1": "a4158b116f7d3f3f",
+      "exif": {
+        "taken_at": "2026:09:11 12:59:37"
+      },
+      "category": "unusable",
+      "subject": "Man and woman selfie at restoration industry trade show",
+      "quality": 52,
+      "slots": {
+        "hero": 0,
+        "team": 10,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "competitor_brand"
+      ],
+      "reason": "Trade show selfie with competitor brands visible; not site-ready.",
+      "triaged_at": "2026-09-14T14:07:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNmG_q2Zio6X8VV-4wfjp8jLkJm1dts4ao7r9EC": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNmG_q2Zio6X8VV-4wfjp8jLkJm1dts4ao7r9EC.jpg",
@@ -886,6 +941,31 @@
       "triaged_at": "2026-08-05T05:48:19Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNzFrX1-j8v2wNqvRl310MZCPGMzXYKEKeZOMxt": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNzFrX1-j8v2wNqvRl310MZCPGMzXYKEKeZOMxt.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/gbp-AF1QipNzFrX1-j8v2wNqvRl310MZCPGMzXYKEKeZOMxt.jpg",
+      "width": 1816,
+      "height": 1289,
+      "bytes": 444611,
+      "sha1": "482e2d5a22ca6e16",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Large group posing on stage at industry conference event",
+      "quality": 58,
+      "slots": {
+        "hero": 0,
+        "team": 15,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Conference group photo unrelated to restoration work or services.",
+      "triaged_at": "2026-09-14T14:07:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipO2alptHWAd1FYAb9XzEi2PtJJria1A2lvGdonz": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipO2alptHWAd1FYAb9XzEi2PtJJria1A2lvGdonz.jpg",
@@ -970,6 +1050,33 @@
       "flags": [],
       "reason": "Clean exterior shot; adequate hero candidate but plain strip-mall facade limits appeal.",
       "triaged_at": "2026-08-05T05:48:36Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOBAb1M3OROrclzfo2UEq6LBVvvXe5Uv55qMe8N": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOBAb1M3OROrclzfo2UEq6LBVvvXe5Uv55qMe8N.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/gbp-AF1QipOBAb1M3OROrclzfo2UEq6LBVvvXe5Uv55qMe8N.jpg",
+      "width": 1491,
+      "height": 1819,
+      "bytes": 768086,
+      "sha1": "0abf7fce15aaad97",
+      "exif": {
+        "taken_at": "2026:09:10 22:06:24"
+      },
+      "category": "unusable",
+      "subject": "Three men holding signs at industry conference ballroom",
+      "quality": 60,
+      "slots": {
+        "hero": 0,
+        "team": 10,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Conference networking photo; no trade relevance for marketing site.",
+      "triaged_at": "2026-09-14T14:07:29Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOFsqPUC2iprANXv5TkF7hw5W906myJgvf5-KRV": {
@@ -1092,6 +1199,33 @@
       ],
       "reason": "Designed marketing card with Before/After labels, phone number, URL, and tiled watermark.",
       "triaged_at": "2026-08-05T05:48:36Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOYwEpXzb-v50ZhtMRy3mtG8-60qmF1CN0nMNAu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOYwEpXzb-v50ZhtMRy3mtG8-60qmF1CN0nMNAu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/gbp-AF1QipOYwEpXzb-v50ZhtMRy3mtG8-60qmF1CN0nMNAu.jpg",
+      "width": 2000,
+      "height": 1126,
+      "bytes": 361399,
+      "sha1": "59e299a53a6b6b87",
+      "exif": {
+        "taken_at": "2026:09:10 15:25:29"
+      },
+      "category": "unusable",
+      "subject": "Selfie at PuroClean franchise trade show booth",
+      "quality": 50,
+      "slots": {
+        "hero": 0,
+        "team": 10,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Franchise expo selfie; poor composition and no local service context.",
+      "triaged_at": "2026-09-14T14:07:29Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipObQ0AaxRmd0Rm4Ghk9iPaAtdqfCBMn0DIMRikW": {
@@ -1624,6 +1758,33 @@
       "triaged_at": "2026-08-05T05:49:28Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPQHtub_VsLvFI9sVswVNI0-xoZ0osOA0Ti5n9c": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPQHtub_VsLvFI9sVswVNI0-xoZ0osOA0Ti5n9c.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/gbp-AF1QipPQHtub_VsLvFI9sVswVNI0-xoZ0osOA0Ti5n9c.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 859579,
+      "sha1": "15930078d0ce80e8",
+      "exif": {
+        "taken_at": "2026:09:11 13:14:06"
+      },
+      "category": "unusable",
+      "subject": "AccuGuard and PuroClean trade show exhibition booths",
+      "quality": 55,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "competitor_brand"
+      ],
+      "reason": "Trade show booth photo dominated by third-party brands; not usable.",
+      "triaged_at": "2026-09-14T14:07:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPQY0h5thNjR1f2Cz2IKyA1DzbNkmoZZoT8kudt": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPQY0h5thNjR1f2Cz2IKyA1DzbNkmoZZoT8kudt.jpg",
@@ -1736,6 +1897,33 @@
       ],
       "reason": "Corporate awards event photo; low resolution, not trade-relevant for service marketing.",
       "triaged_at": "2026-08-05T05:49:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPgS-VrI3TiGfrdiFFRwvT3BxiZtqAfQkVTK1A7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPgS-VrI3TiGfrdiFFRwvT3BxiZtqAfQkVTK1A7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/gbp-AF1QipPgS-VrI3TiGfrdiFFRwvT3BxiZtqAfQkVTK1A7.jpg",
+      "width": 804,
+      "height": 873,
+      "bytes": 152261,
+      "sha1": "dab88a7812edfac6",
+      "exif": {
+        "taken_at": "2026:09:10 22:06:07"
+      },
+      "category": "unusable",
+      "subject": "Man speaking on stage at conference or trade event",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Conference/event photo unrelated to restoration trade services or work.",
+      "triaged_at": "2026-09-14T14:07:32Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipPgXKCWDcHJ-aiSVJzEAf7VnirSOqKxmMQ6dtfC": {
@@ -2400,5 +2588,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-04T14:12:23Z"
+  "triaged_at": "2026-09-14T14:07:32Z"
 }
