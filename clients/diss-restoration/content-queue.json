@@ -1,623 +1,652 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-youngstown-oh",
+   "status": "queued",
+   "queued_at": "2026-09-14T20:20:22Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "who_to_call",
+   "combo_key": "who-to-call-for-water-damage-restoration-in-youngstown-oh",
+   "primary_keyword": "who to call for water damage restoration in Youngstown, OH",
+   "intent": "transactional",
+   "target_word_count": 1200,
+   "city_anchor": "youngstown-oh",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Youngstown",
+    "state": "OH",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "who do you call for water damage restoration Youngstown",
+    "who do I call for water damage restoration in Youngstown",
+    "water damage restoration emergency number Youngstown OH",
+    "water damage repair Youngstown",
+    "water damage cleanup Youngstown",
+    "water cleanup Youngstown"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-09-06-remodel",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "remodel",
+   "primary_keyword": "Remodel",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "struthers-oh",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-lead-abatement",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "lead-abatement",
+   "primary_keyword": "Lead Abatement",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "niles-oh",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-commercial-and-residential-services",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "commercial-and-residential-services",
+   "primary_keyword": "Commercial and residential services",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "hubbard-oh",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-full-service-restoration",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "full-service-restoration",
+   "primary_keyword": "Full Service Restoration",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "girard-oh",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-reconstruction",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "reconstruction",
+   "primary_keyword": "Reconstruction",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "canfield-oh",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-cleaning-services",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "cleaning-services",
+   "primary_keyword": "Cleaning Services",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "boardman-oh",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-sewage-damage-restoration",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "sewage-damage-restoration",
+   "primary_keyword": "Sewage Damage Restoration",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "austintown-oh",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-08-26-water-damage-restoration-cost-oh",
+   "status": "written",
+   "queued_at": "2026-08-26T23:09:49Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "water-damage-restoration-cost-oh",
+   "primary_keyword": "water damage restoration cost OH",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "youngstown-oh",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Youngstown",
+    "state": "OH",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does water damage restoration cost in OH",
+    "water damage restoration price OH",
+    "average cost of water damage restoration OH",
+    "water damage cleanup OH",
+    "water cleanup OH",
+    "water removal OH"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-08-26T23:18:23Z",
+   "post_url": "https://dissrestoration.com/blog/water-damage-restoration-cost-oh/"
+  },
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-youngstown-oh",
+   "status": "written",
+   "queued_at": "2026-08-07T03:42:28Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-youngstown-oh",
+   "primary_keyword": "best water damage restoration company in Youngstown, OH",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "youngstown-oh",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Youngstown",
+    "state": "OH",
+    "competitors": [
+     {
+      "name": "National Fire & Water Repair",
+      "google_rating": 4.4,
+      "review_count": 76
+     },
+     {
+      "name": "Paul Davis of Eastern Ohio",
+      "google_rating": 4.8,
+      "review_count": 75
+     },
+     {
+      "name": "SPT Mold Remediation Youngstown",
+      "google_rating": 5,
+      "review_count": 12
+     },
+     {
+      "name": "SERVPRO of Mahoning and North Columbiana Counties",
+      "google_rating": 4.6,
+      "review_count": 111
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Youngstown",
+    "top rated water damage restoration Youngstown OH",
+    "who is the best water damage restoration company in Youngstown",
+    "water damage repair Youngstown",
+    "water damage cleanup Youngstown",
+    "water cleanup Youngstown"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-08-10T18:38:11Z",
+   "post_url": "https://dissrestoration.com/blog/best-water-damage-restoration-company-in-youngstown-oh/",
+   "claims_flags": [
     {
-      "id": "2026-09-06-remodel",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "remodel",
-      "primary_keyword": "Remodel",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "struthers-oh",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "75 reviews",
+     "context": "carries a 4.8-star Google rating across 75 reviews, making them one of the higher-rated re",
+     "reason": "claims 75 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-06-lead-abatement",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "lead-abatement",
-      "primary_keyword": "Lead Abatement",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "niles-oh",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "75 reviews",
+     "context": "hiring. **Google Rating:** 4.8 stars (75 reviews) **24/7 Emergency:** Unknown **IICRC",
+     "reason": "claims 75 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-06-commercial-and-residential-services",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "commercial-and-residential-services",
-      "primary_keyword": "Commercial and residential services",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "hubbard-oh",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "111 Google reviews",
+     "context": "ew count of any company on this list at 111 Google reviews and a 4.6-star rating. SERVPRO is the l",
+     "reason": "claims 111 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-06-full-service-restoration",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "full-service-restoration",
-      "primary_keyword": "Full Service Restoration",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "girard-oh",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "111 reviews",
+     "context": "market. **Google Rating:** 4.6 stars (111 reviews) **24/7 Emergency:** Unknown **IICRC",
+     "reason": "claims 111 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-06-reconstruction",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "reconstruction",
-      "primary_keyword": "Reconstruction",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "canfield-oh",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "76 reviews",
+     "context": "r holds a 4.4-star Google rating across 76 reviews. They serve the fire and water damage m",
+     "reason": "claims 76 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-06-cleaning-services",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "cleaning-services",
-      "primary_keyword": "Cleaning Services",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "boardman-oh",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "76 reviews",
+     "context": "mitting. **Google Rating:** 4.4 stars (76 reviews) **24/7 Emergency:** Unknown **IICRC",
+     "reason": "claims 76 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-06-sewage-damage-restoration",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "sewage-damage-restoration",
-      "primary_keyword": "Sewage Damage Restoration",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "austintown-oh",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "12 reviews",
+     "context": "ting, though across a smaller sample of 12 reviews. Their name suggests a primary focus on",
+     "reason": "claims 12 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-08-26-water-damage-restoration-cost-oh",
-      "status": "written",
-      "queued_at": "2026-08-26T23:09:49Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "cost_guide",
-      "combo_key": "water-damage-restoration-cost-oh",
-      "primary_keyword": "water damage restoration cost OH",
-      "intent": "transactional",
-      "target_word_count": 1500,
-      "city_anchor": "youngstown-oh",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Youngstown",
-        "state": "OH",
-        "competitors": []
-      },
-      "fan_out_cluster": [
-        "how much does water damage restoration cost in OH",
-        "water damage restoration price OH",
-        "average cost of water damage restoration OH",
-        "water damage cleanup OH",
-        "water cleanup OH",
-        "water removal OH"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-08-26T23:18:23Z",
-      "post_url": "https://dissrestoration.com/blog/water-damage-restoration-cost-oh/"
-    },
-    {
-      "id": "2026-08-07-best-water-damage-restoration-in-youngstown-oh",
-      "status": "written",
-      "queued_at": "2026-08-07T03:42:28Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-water-damage-restoration-in-youngstown-oh",
-      "primary_keyword": "best water damage restoration company in Youngstown, OH",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "youngstown-oh",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Youngstown",
-        "state": "OH",
-        "competitors": [
-          {
-            "name": "National Fire & Water Repair",
-            "google_rating": 4.4,
-            "review_count": 76
-          },
-          {
-            "name": "Paul Davis of Eastern Ohio",
-            "google_rating": 4.8,
-            "review_count": 75
-          },
-          {
-            "name": "SPT Mold Remediation Youngstown",
-            "google_rating": 5,
-            "review_count": 12
-          },
-          {
-            "name": "SERVPRO of Mahoning and North Columbiana Counties",
-            "google_rating": 4.6,
-            "review_count": 111
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best water damage restoration companies Youngstown",
-        "top rated water damage restoration Youngstown OH",
-        "who is the best water damage restoration company in Youngstown",
-        "water damage repair Youngstown",
-        "water damage cleanup Youngstown",
-        "water cleanup Youngstown"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-08-10T18:38:11Z",
-      "post_url": "https://dissrestoration.com/blog/best-water-damage-restoration-company-in-youngstown-oh/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "75 reviews",
-          "context": "carries a 4.8-star Google rating across 75 reviews, making them one of the higher-rated re",
-          "reason": "claims 75 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "75 reviews",
-          "context": "hiring. **Google Rating:** 4.8 stars (75 reviews) **24/7 Emergency:** Unknown **IICRC",
-          "reason": "claims 75 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "111 Google reviews",
-          "context": "ew count of any company on this list at 111 Google reviews and a 4.6-star rating. SERVPRO is the l",
-          "reason": "claims 111 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "111 reviews",
-          "context": "market. **Google Rating:** 4.6 stars (111 reviews) **24/7 Emergency:** Unknown **IICRC",
-          "reason": "claims 111 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "76 reviews",
-          "context": "r holds a 4.4-star Google rating across 76 reviews. They serve the fire and water damage m",
-          "reason": "claims 76 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "76 reviews",
-          "context": "mitting. **Google Rating:** 4.4 stars (76 reviews) **24/7 Emergency:** Unknown **IICRC",
-          "reason": "claims 76 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "12 reviews",
-          "context": "ting, though across a smaller sample of 12 reviews. Their name suggests a primary focus on",
-          "reason": "claims 12 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "12 reviews",
-          "context": "hiring. **Google Rating:** 5.0 stars (12 reviews) **24/7 Emergency:** Unknown **IICRC",
-          "reason": "claims 12 reviews but no synced gbpReviewCount exists for this site"
-        }
-      ]
-    },
-    {
-      "id": "2026-08-10-flooded-basement-cleanup",
-      "status": "written",
-      "queued_at": "2026-08-10T18:35:34Z",
-      "written_at": "2026-08-31T22:48:53Z",
-      "post_url": "https://dissrestoration.com/blog/flooded-basement-cleanup/",
-      "primary_keyword": "flooded basement cleanup",
-      "intent": "transactional",
-      "volume": 1600,
-      "kd": 3,
-      "fan_out_cluster": [
-        "flooded basement cleanup near me",
-        "basement flooding clean up service",
-        "flooded basement cleanup cost",
-        "basement water removal cost",
-        "flooded basement cleanup companies near me",
-        "how to dry out a basement fast"
-      ],
-      "suggested_slug": "flooded-basement-cleanup",
-      "suggested_title": "Flooded basement cleanup: what it costs, how long it takes, and when to call a pro",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/sewage-cleanup/",
-        "/service-areas/youngstown-oh/water-damage-restoration/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "sewage-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.epa.gov/mold/what-do-after-flood"
-      ],
-      "notes": "Highest-value untapped cluster for this client: 1600/mo at KD 3 with $71.85 CPC. DISS has no basement-flooding service page, so this post carries the cluster on its own. Route conversions to the water damage restoration service page. Distinguish clean supply-line water from Category 3 sewer backup early, since that split drives both the cleanup method and the insurance answer.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-10-water-damage-restoration-cost",
-      "status": "written",
-      "queued_at": "2026-08-10T18:35:34Z",
-      "written_at": "2026-09-03T20:14:06Z",
-      "post_url": "https://dissrestoration.com/blog/water-damage-restoration-cost/",
-      "primary_keyword": "water damage restoration cost",
-      "intent": "commercial",
-      "volume": 880,
-      "kd": 3,
-      "fan_out_cluster": [
-        "water damage restoration cost per square foot",
-        "flooded basement cleanup cost",
-        "basement flooding repair cost",
-        "water damage basement repair cost",
-        "how much does servpro cost per square foot",
-        "basement water removal cost"
-      ],
-      "suggested_slug": "water-damage-restoration-cost",
-      "suggested_title": "Water damage restoration cost: real 2026 price ranges by damage type",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/service-areas/youngstown-oh/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "880/mo at KD 3: the cheapest high-volume win in the whole seed family. Give honest ranges by water category and square footage instead of a single number. Cost pages pull people who are 24 to 48 hours from hiring, so put the 24/7 phone number above the fold.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-10-flooded-basement-who-to-call",
-      "status": "queued",
-      "queued_at": "2026-08-10T18:35:34Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "flooded basement who to call",
-      "intent": "commercial",
-      "volume": 260,
-      "kd": 2,
-      "fan_out_cluster": [
-        "water in basement who to call near me",
-        "basement flooded who to call",
-        "my basement flooded what do i do",
-        "flooded basement cleanup near me",
-        "should i call my insurance company before a restoration company"
-      ],
-      "suggested_slug": "flooded-basement-who-to-call",
-      "suggested_title": "Flooded basement: who to call first (plumber, restoration company, or insurance)",
-      "target_word_count": 1300,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/sewage-cleanup/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "sewage-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.ready.gov/floods"
-      ],
-      "notes": "$104.67 CPC is the highest in this run: pure panic-stage buyer intent at KD 2. Answer the literal question in the first 40 words so AI assistants can lift it. Order of operations: stop the water, kill the power if water is near outlets, call restoration, then open the claim.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-10-basement-flooding-solutions",
-      "status": "queued",
-      "queued_at": "2026-08-10T18:35:34Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "basement flooding solutions",
-      "intent": "informational",
-      "volume": 320,
-      "kd": 2,
-      "fan_out_cluster": [
-        "how to prevent basement flooding during heavy rain",
-        "basement keeps flooding when it rains",
-        "how to flood-proof basement",
-        "does a backup sump pump prevent basement flooding",
-        "basement flooded after heavy rain"
-      ],
-      "suggested_slug": "basement-flooding-solutions",
-      "suggested_title": "Basement flooding solutions that actually work (and what they cost)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/storm-damage-restoration/",
-        "/service-areas/youngstown-oh/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "storm-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.ready.gov/floods",
-        "https://www.floodsmart.gov/"
-      ],
-      "notes": "320/mo at KD 2 with $57.63 CPC. Prevention intent, so this one earns links and repeat visits rather than same-day calls. Mahoning Valley housing stock skews older with block foundations and undersized drain tile, which is the local angle worth leading with.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-10-why-is-my-basement-flooding",
-      "status": "queued",
-      "queued_at": "2026-08-10T18:35:34Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "why is my basement flooding",
-      "intent": "informational",
-      "volume": 210,
-      "kd": 7,
-      "fan_out_cluster": [
-        "basement keeps flooding when it rains",
-        "water leaking into basement after heavy rain",
-        "what to do when your basement floods from rain",
-        "why does my basement flood when it rains",
-        "basement flooded after heavy rain",
-        "does insurance cover basement flooding from rain"
-      ],
-      "suggested_slug": "why-is-my-basement-flooding",
-      "suggested_title": "Why is my basement flooding? The 6 most common causes, ranked",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/sewage-cleanup/",
-        "/services/mold-remediation/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "sewage-cleanup"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/what-do-after-flood"
-      ],
-      "notes": "Diagnosis-stage query, 210/mo at KD 7. The ChatGPT decomposition flagged that homeowners lump four distinct failures together: supply line burst, sewer backup, sump pump failure, and foundation seepage. Separating those four is the whole value of this post, and each one has a different insurance outcome.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-26-how-long-does-water-damage-restoration-take",
-      "status": "queued",
-      "queued_at": "2026-08-26T23:15:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how long does water damage restoration take",
-      "intent": "informational",
-      "volume": 50,
-      "kd": 3,
-      "fan_out_cluster": [
-        "how long does it take to dry out a flooded house",
-        "water damage drying time",
-        "how long do air movers need to run",
-        "how long does water damage restoration take start to finish",
-        "how long before mold grows after water damage",
-        "water damage restoration timeline by room"
-      ],
-      "suggested_slug": "how-long-does-water-damage-restoration-take",
-      "suggested_title": "How long does water damage restoration take? A day-by-day timeline",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/blog/what-to-do-first-24-hours-water-damage/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Give a real day-by-day table (day 0 extraction, days 1-4 drying, days 5+ repairs) and name the variables that stretch it: category of water, affected materials, hidden saturation behind walls. Anchor the 24-48 hour mold window. DISS is IICRC ASD (structural drying) certified, lean on that.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-26-water-mitigation-vs-water-restoration",
-      "status": "queued",
-      "queued_at": "2026-08-26T23:15:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what is the difference between water mitigation and water restoration",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "water mitigation vs water restoration",
-        "what is water mitigation",
-        "does insurance pay mitigation and restoration separately",
-        "water damage mitigation process steps",
-        "do i need one company for mitigation and rebuild",
-        "water remediation vs restoration"
-      ],
-      "suggested_slug": "water-mitigation-vs-water-restoration",
-      "suggested_title": "What is the difference between water mitigation and water restoration?",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/general-contracting/",
-        "/services/mold-remediation/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "general-contracting"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition, so treat this as AI-retrieval fuel: short definitional passages an assistant can lift verbatim. Key selling angle for DISS: they do both phases in house (IICRC mitigation plus general contracting rebuild), so the homeowner does not hand off between two vendors.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-26-insurance-temporary-housing-water-damage",
-      "status": "queued",
-      "queued_at": "2026-08-26T23:15:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "does insurance cover temporary housing during water damage restoration",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "additional living expenses water damage claim",
-        "does insurance pay for a hotel during restoration",
-        "loss of use coverage homeowners insurance",
-        "how long will insurance pay for temporary housing",
-        "what receipts do i need for ALE claim",
-        "is my home uninhabitable after water damage"
-      ],
-      "suggested_slug": "does-insurance-cover-temporary-housing-water-damage-restoration",
-      "suggested_title": "Does insurance cover temporary housing during water damage restoration?",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/services/contents-restoration/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "contents-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iii.org/article/understanding-your-insurance-deductible",
-        "https://www.fema.gov/flood-insurance"
-      ],
-      "notes": "This is Coverage D / loss of use, and almost nobody in the vertical writes it well. Explain what makes a home legally uninhabitable, what receipts to keep, and typical ALE time limits. Do not give policy-specific promises: frame as what to ask your adjuster. Pairs with the existing insurance blog rather than duplicating it.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-26-best-water-damage-restoration-near-me",
-      "status": "queued",
-      "queued_at": "2026-08-26T23:15:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "best water damage restoration near me",
-      "intent": "commercial",
-      "volume": 320,
-      "kd": 25,
-      "fan_out_cluster": [
-        "how to vet a water damage restoration company",
-        "questions to ask a restoration company before signing",
-        "iicrc certified firm near me",
-        "restoration company red flags",
-        "should i use the company my insurance recommends",
-        "water damage restoration reviews what to look for"
-      ],
-      "suggested_slug": "best-water-damage-restoration-near-me",
-      "suggested_title": "How to find the best water damage restoration near me (a vetting checklist)",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/service-areas/",
-        "/blog/choosing-a-restoration-company/"
-      ],
-      "service_tags": [
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.bbb.org/"
-      ],
-      "notes": "CANNIBALIZATION WATCH: a Youngstown best-of post is already written and /blog/choosing-a-restoration-company/ is planned. Do NOT write another ranked list. Write the criteria-and-vetting angle (certifications, response time SLA, direct insurance billing, written scope before work starts, who owns the rebuild) and link out to the Youngstown best-of for the local shortlist.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-26-water-damage-restoration-cost-calculator",
-      "status": "queued",
-      "queued_at": "2026-08-26T23:15:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water damage restoration cost calculator",
-      "intent": "commercial",
-      "volume": 170,
-      "kd": 0,
-      "fan_out_cluster": [
-        "estimate water damage restoration cost",
-        "water damage cost by category of water",
-        "cost to dry out a room",
-        "water damage restoration cost by square footage",
-        "what drives up a water damage estimate",
-        "how restoration companies price a job"
-      ],
-      "suggested_slug": "water-damage-restoration-cost-calculator",
-      "suggested_title": "Water damage restoration cost calculator: estimate your job before you call",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/services/general-contracting/"
-      ],
-      "service_tags": [
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "KD 0, wide-open SERP. Build this as an ESTIMATOR asset (input tables by square footage x water category x affected material), not another prose cost guide: two cost-guide posts are already in this queue and a third would cannibalize. Cross-link to them instead.",
-      "source": "keyword-researcher"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "12 reviews",
+     "context": "hiring. **Google Rating:** 5.0 stars (12 reviews) **24/7 Emergency:** Unknown **IICRC",
+     "reason": "claims 12 reviews but no synced gbpReviewCount exists for this site"
     }
-  ]
+   ]
+  },
+  {
+   "id": "2026-08-10-flooded-basement-cleanup",
+   "status": "written",
+   "queued_at": "2026-08-10T18:35:34Z",
+   "written_at": "2026-08-31T22:48:53Z",
+   "post_url": "https://dissrestoration.com/blog/flooded-basement-cleanup/",
+   "primary_keyword": "flooded basement cleanup",
+   "intent": "transactional",
+   "volume": 1600,
+   "kd": 3,
+   "fan_out_cluster": [
+    "flooded basement cleanup near me",
+    "basement flooding clean up service",
+    "flooded basement cleanup cost",
+    "basement water removal cost",
+    "flooded basement cleanup companies near me",
+    "how to dry out a basement fast"
+   ],
+   "suggested_slug": "flooded-basement-cleanup",
+   "suggested_title": "Flooded basement cleanup: what it costs, how long it takes, and when to call a pro",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/service-areas/youngstown-oh/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "sewage-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.epa.gov/mold/what-do-after-flood"
+   ],
+   "notes": "Highest-value untapped cluster for this client: 1600/mo at KD 3 with $71.85 CPC. DISS has no basement-flooding service page, so this post carries the cluster on its own. Route conversions to the water damage restoration service page. Distinguish clean supply-line water from Category 3 sewer backup early, since that split drives both the cleanup method and the insurance answer.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-10-water-damage-restoration-cost",
+   "status": "written",
+   "queued_at": "2026-08-10T18:35:34Z",
+   "written_at": "2026-09-03T20:14:06Z",
+   "post_url": "https://dissrestoration.com/blog/water-damage-restoration-cost/",
+   "primary_keyword": "water damage restoration cost",
+   "intent": "commercial",
+   "volume": 880,
+   "kd": 3,
+   "fan_out_cluster": [
+    "water damage restoration cost per square foot",
+    "flooded basement cleanup cost",
+    "basement flooding repair cost",
+    "water damage basement repair cost",
+    "how much does servpro cost per square foot",
+    "basement water removal cost"
+   ],
+   "suggested_slug": "water-damage-restoration-cost",
+   "suggested_title": "Water damage restoration cost: real 2026 price ranges by damage type",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/service-areas/youngstown-oh/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "880/mo at KD 3: the cheapest high-volume win in the whole seed family. Give honest ranges by water category and square footage instead of a single number. Cost pages pull people who are 24 to 48 hours from hiring, so put the 24/7 phone number above the fold.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-10-flooded-basement-who-to-call",
+   "status": "queued",
+   "queued_at": "2026-08-10T18:35:34Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "flooded basement who to call",
+   "intent": "commercial",
+   "volume": 260,
+   "kd": 2,
+   "fan_out_cluster": [
+    "water in basement who to call near me",
+    "basement flooded who to call",
+    "my basement flooded what do i do",
+    "flooded basement cleanup near me",
+    "should i call my insurance company before a restoration company"
+   ],
+   "suggested_slug": "flooded-basement-who-to-call",
+   "suggested_title": "Flooded basement: who to call first (plumber, restoration company, or insurance)",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "sewage-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.ready.gov/floods"
+   ],
+   "notes": "$104.67 CPC is the highest in this run: pure panic-stage buyer intent at KD 2. Answer the literal question in the first 40 words so AI assistants can lift it. Order of operations: stop the water, kill the power if water is near outlets, call restoration, then open the claim.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-10-basement-flooding-solutions",
+   "status": "queued",
+   "queued_at": "2026-08-10T18:35:34Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "basement flooding solutions",
+   "intent": "informational",
+   "volume": 320,
+   "kd": 2,
+   "fan_out_cluster": [
+    "how to prevent basement flooding during heavy rain",
+    "basement keeps flooding when it rains",
+    "how to flood-proof basement",
+    "does a backup sump pump prevent basement flooding",
+    "basement flooded after heavy rain"
+   ],
+   "suggested_slug": "basement-flooding-solutions",
+   "suggested_title": "Basement flooding solutions that actually work (and what they cost)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/service-areas/youngstown-oh/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "storm-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.ready.gov/floods",
+    "https://www.floodsmart.gov/"
+   ],
+   "notes": "320/mo at KD 2 with $57.63 CPC. Prevention intent, so this one earns links and repeat visits rather than same-day calls. Mahoning Valley housing stock skews older with block foundations and undersized drain tile, which is the local angle worth leading with.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-10-why-is-my-basement-flooding",
+   "status": "queued",
+   "queued_at": "2026-08-10T18:35:34Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "why is my basement flooding",
+   "intent": "informational",
+   "volume": 210,
+   "kd": 7,
+   "fan_out_cluster": [
+    "basement keeps flooding when it rains",
+    "water leaking into basement after heavy rain",
+    "what to do when your basement floods from rain",
+    "why does my basement flood when it rains",
+    "basement flooded after heavy rain",
+    "does insurance cover basement flooding from rain"
+   ],
+   "suggested_slug": "why-is-my-basement-flooding",
+   "suggested_title": "Why is my basement flooding? The 6 most common causes, ranked",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "sewage-cleanup"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/what-do-after-flood"
+   ],
+   "notes": "Diagnosis-stage query, 210/mo at KD 7. The ChatGPT decomposition flagged that homeowners lump four distinct failures together: supply line burst, sewer backup, sump pump failure, and foundation seepage. Separating those four is the whole value of this post, and each one has a different insurance outcome.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-26-how-long-does-water-damage-restoration-take",
+   "status": "queued",
+   "queued_at": "2026-08-26T23:15:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how long does water damage restoration take",
+   "intent": "informational",
+   "volume": 50,
+   "kd": 3,
+   "fan_out_cluster": [
+    "how long does it take to dry out a flooded house",
+    "water damage drying time",
+    "how long do air movers need to run",
+    "how long does water damage restoration take start to finish",
+    "how long before mold grows after water damage",
+    "water damage restoration timeline by room"
+   ],
+   "suggested_slug": "how-long-does-water-damage-restoration-take",
+   "suggested_title": "How long does water damage restoration take? A day-by-day timeline",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/blog/what-to-do-first-24-hours-water-damage/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Give a real day-by-day table (day 0 extraction, days 1-4 drying, days 5+ repairs) and name the variables that stretch it: category of water, affected materials, hidden saturation behind walls. Anchor the 24-48 hour mold window. DISS is IICRC ASD (structural drying) certified, lean on that.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-26-water-mitigation-vs-water-restoration",
+   "status": "queued",
+   "queued_at": "2026-08-26T23:15:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what is the difference between water mitigation and water restoration",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "water mitigation vs water restoration",
+    "what is water mitigation",
+    "does insurance pay mitigation and restoration separately",
+    "water damage mitigation process steps",
+    "do i need one company for mitigation and rebuild",
+    "water remediation vs restoration"
+   ],
+   "suggested_slug": "water-mitigation-vs-water-restoration",
+   "suggested_title": "What is the difference between water mitigation and water restoration?",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/general-contracting/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "general-contracting"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition, so treat this as AI-retrieval fuel: short definitional passages an assistant can lift verbatim. Key selling angle for DISS: they do both phases in house (IICRC mitigation plus general contracting rebuild), so the homeowner does not hand off between two vendors.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-26-insurance-temporary-housing-water-damage",
+   "status": "queued",
+   "queued_at": "2026-08-26T23:15:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does insurance cover temporary housing during water damage restoration",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "additional living expenses water damage claim",
+    "does insurance pay for a hotel during restoration",
+    "loss of use coverage homeowners insurance",
+    "how long will insurance pay for temporary housing",
+    "what receipts do i need for ALE claim",
+    "is my home uninhabitable after water damage"
+   ],
+   "suggested_slug": "does-insurance-cover-temporary-housing-water-damage-restoration",
+   "suggested_title": "Does insurance cover temporary housing during water damage restoration?",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/services/contents-restoration/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "contents-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iii.org/article/understanding-your-insurance-deductible",
+    "https://www.fema.gov/flood-insurance"
+   ],
+   "notes": "This is Coverage D / loss of use, and almost nobody in the vertical writes it well. Explain what makes a home legally uninhabitable, what receipts to keep, and typical ALE time limits. Do not give policy-specific promises: frame as what to ask your adjuster. Pairs with the existing insurance blog rather than duplicating it.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-26-best-water-damage-restoration-near-me",
+   "status": "queued",
+   "queued_at": "2026-08-26T23:15:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "best water damage restoration near me",
+   "intent": "commercial",
+   "volume": 320,
+   "kd": 25,
+   "fan_out_cluster": [
+    "how to vet a water damage restoration company",
+    "questions to ask a restoration company before signing",
+    "iicrc certified firm near me",
+    "restoration company red flags",
+    "should i use the company my insurance recommends",
+    "water damage restoration reviews what to look for"
+   ],
+   "suggested_slug": "best-water-damage-restoration-near-me",
+   "suggested_title": "How to find the best water damage restoration near me (a vetting checklist)",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/service-areas/",
+    "/blog/choosing-a-restoration-company/"
+   ],
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.bbb.org/"
+   ],
+   "notes": "CANNIBALIZATION WATCH: a Youngstown best-of post is already written and /blog/choosing-a-restoration-company/ is planned. Do NOT write another ranked list. Write the criteria-and-vetting angle (certifications, response time SLA, direct insurance billing, written scope before work starts, who owns the rebuild) and link out to the Youngstown best-of for the local shortlist.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-26-water-damage-restoration-cost-calculator",
+   "status": "queued",
+   "queued_at": "2026-08-26T23:15:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water damage restoration cost calculator",
+   "intent": "commercial",
+   "volume": 170,
+   "kd": 0,
+   "fan_out_cluster": [
+    "estimate water damage restoration cost",
+    "water damage cost by category of water",
+    "cost to dry out a room",
+    "water damage restoration cost by square footage",
+    "what drives up a water damage estimate",
+    "how restoration companies price a job"
+   ],
+   "suggested_slug": "water-damage-restoration-cost-calculator",
+   "suggested_title": "Water damage restoration cost calculator: estimate your job before you call",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/general-contracting/"
+   ],
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "KD 0, wide-open SERP. Build this as an ESTIMATOR asset (input tables by square footage x water category x affected material), not another prose cost guide: two cost-guide posts are already in this queue and a third would cannibalize. Cross-link to them instead.",
+   "source": "keyword-researcher"
+  }
+ ]
 }

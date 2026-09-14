@@ -2499,6 +2499,32 @@
       "triaged_at": "2026-08-05T05:50:37Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "web:d3cde3d29f7109b6": {
+      "source": "website",
+      "storage": "site-assets/web/web-d3cde3d29f7109b6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/site-assets/web/web-d3cde3d29f7109b6.jpg",
+      "origin_url": "https://www.puroclean.com/las-vegas-nv-puroclean-east-las-vegas/wp-content/uploads/sites/792/2026/09/20260910_152528-rotated.jpg",
+      "found_on": "https://www.puroclean.com/las-vegas-nv-puroclean-east-las-vegas/",
+      "width": 2000,
+      "height": 1126,
+      "bytes": 313222,
+      "sha1": "d3cde3d29f7109b6",
+      "exif": {}
+    },
+    "web:e511c47d74209e83": {
+      "source": "website",
+      "storage": "site-assets/web/web-e511c47d74209e83.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/site-assets/web/web-e511c47d74209e83.jpg",
+      "origin_url": "https://www.puroclean.com/las-vegas-nv-puroclean-east-las-vegas/wp-content/uploads/sites/792/2026/09/20260910_152528.jpg",
+      "found_on": "https://www.puroclean.com/las-vegas-nv-puroclean-east-las-vegas/",
+      "width": 2000,
+      "height": 1126,
+      "bytes": 266028,
+      "sha1": "e511c47d74209e83",
+      "exif": {
+        "taken_at": "2026:09:10 15:25:29"
+      }
+    },
     "web:e8cdd43b5a2ab556": {
       "source": "website",
       "storage": "site-assets/web/web-e8cdd43b5a2ab556.png",
@@ -2588,5 +2614,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-14T14:07:32Z"
+  "triaged_at": "2026-09-14T20:13:00Z"
 }

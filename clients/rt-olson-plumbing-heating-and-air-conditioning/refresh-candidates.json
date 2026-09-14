@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "slug": "homepriderestorationandcleaning",
-  "origin": "https://homepriderestorationandcleaning.com",
+  "slug": "rt-olson-plumbing-heating-and-air-conditioning",
+  "origin": "https://rtolsonplumbing.com",
   "origin_source": "apex",
-  "generated_at": "2026-09-14T20:25:59+00:00",
+  "generated_at": "2026-09-14T20:24:30+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -12,17 +12,17 @@
     "See docs/system-4-v2-activation.md for GSC v2 setup."
   ],
   "inspected_count": 120,
-  "fetched_html_count": 120,
-  "failed_html_count": 0,
+  "fetched_html_count": 118,
+  "failed_html_count": 2,
   "flag_counts": {},
   "candidates": [
     {
-      "url": "https://homepriderestorationandcleaning.com/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/",
+      "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:44:03.440Z",
+      "sitemap_lastmod": "2026-08-18T12:29:54.754Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -34,12 +34,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/about/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/about/",
+      "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:06:26.317Z",
+      "sitemap_lastmod": "2026-08-18T12:36:32.470Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -51,12 +51,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/accessibility/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/accessibility/",
+      "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:06:46.448Z",
+      "sitemap_lastmod": "2026-08-18T12:36:51.504Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -68,12 +68,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/blog/",
+      "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:00:14.909Z",
+      "sitemap_lastmod": "2026-08-18T12:36:17.688Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -85,15 +85,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/best-water-damage-restoration-company-in-saratoga-springs-ut/",
-      "date": "2026-09-14",
+      "url": "https://rtolsonplumbing.com/blog/drain-cleaning-diy-vs-pro/",
+      "date": "2026-07-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 0,
+      "age_days": 55,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T00:00:00.000Z",
+      "sitemap_lastmod": "2026-07-21T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-09-14",
-        "json_ld_date_modified": "2026-09-14",
+        "json_ld_date_published": "2026-07-21",
+        "json_ld_date_modified": "2026-07-21",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -102,15 +102,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/black-mold-vs-regular-mold/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/blog/furnace-repair-or-replace/",
+      "date": "2026-08-06",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 39,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
+      "sitemap_lastmod": "2026-08-06T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_published": "2026-08-06",
+        "json_ld_date_modified": "2026-08-06",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -119,15 +119,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/burst-pipe-emergency-checklist/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/blog/how-to-pick-the-best-plumber-near-me/",
+      "date": "2026-09-08",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 6,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
+      "sitemap_lastmod": "2026-09-08T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_published": "2026-09-08",
+        "json_ld_date_modified": "2026-09-08",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -136,58 +136,7 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/choosing-a-restoration-company/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-fire-damage/",
-      "date": "2026-07-27",
-      "date_source": "json_ld_date_modified",
-      "age_days": 49,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-27T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-27",
-        "json_ld_date_modified": "2026-07-27",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-frozen-pipes-park-city/",
-      "date": "2026-07-06",
-      "date_source": "json_ld_date_modified",
-      "age_days": 70,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-06T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-06",
-        "json_ld_date_modified": "2026-07-06",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-mold/",
+      "url": "https://rtolsonplumbing.com/blog/hydro-jetting-vs-snaking/",
       "date": "2026-08-03",
       "date_source": "json_ld_date_modified",
       "age_days": 42,
@@ -204,15 +153,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-water-damage/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/blog/licensed-plumber-c36-verify-california/",
+      "date": "2026-09-14",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
+      "sitemap_lastmod": "2026-09-14T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_published": "2026-09-14",
+        "json_ld_date_modified": "2026-09-14",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -221,15 +170,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/fire-damage-restoration-cost/",
-      "date": "2026-07-20",
+      "url": "https://rtolsonplumbing.com/blog/local-plumber-vs-national-chain/",
+      "date": "2026-08-28",
       "date_source": "json_ld_date_modified",
-      "age_days": 56,
+      "age_days": 17,
       "flags": [],
-      "sitemap_lastmod": "2026-07-20T00:00:00.000Z",
+      "sitemap_lastmod": "2026-08-28T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-07-20",
-        "json_ld_date_modified": "2026-07-20",
+        "json_ld_date_published": "2026-08-28",
+        "json_ld_date_modified": "2026-08-28",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -238,15 +187,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/fire-damage-restoration-process/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/blog/low-water-pressure-causes/",
+      "date": "2026-08-12",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 33,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
+      "sitemap_lastmod": "2026-08-12T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_published": "2026-08-12",
+        "json_ld_date_modified": "2026-08-12",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -255,15 +204,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/frozen-pipe-damage-heber-city/",
-      "date": "2026-07-09",
+      "url": "https://rtolsonplumbing.com/blog/signs-of-a-slab-leak/",
+      "date": "2026-07-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 67,
+      "age_days": 49,
       "flags": [],
-      "sitemap_lastmod": "2026-07-09T00:00:00.000Z",
+      "sitemap_lastmod": "2026-07-27T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-07-09",
-        "json_ld_date_modified": "2026-07-09",
+        "json_ld_date_published": "2026-07-27",
+        "json_ld_date_modified": "2026-07-27",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -272,15 +221,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/how-long-does-water-damage-restoration-take/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/blog/tankless-vs-tank-water-heater/",
+      "date": "2026-08-09",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
+      "sitemap_lastmod": "2026-08-09T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_published": "2026-08-09",
+        "json_ld_date_modified": "2026-08-09",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -289,15 +238,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/how-to-clean-soot-off-walls/",
-      "date": "2026-07-16",
+      "url": "https://rtolsonplumbing.com/blog/water-heater-lifespan-repair-or-replace/",
+      "date": "2026-07-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 60,
+      "age_days": 47,
       "flags": [],
-      "sitemap_lastmod": "2026-07-16T00:00:00.000Z",
+      "sitemap_lastmod": "2026-07-29T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-07-16",
-        "json_ld_date_modified": "2026-07-16",
+        "json_ld_date_published": "2026-07-29",
+        "json_ld_date_modified": "2026-07-29",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -306,15 +255,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/how-to-prevent-ice-dams-heber-city/",
-      "date": "2026-06-29",
+      "url": "https://rtolsonplumbing.com/blog/what-to-do-burst-pipe/",
+      "date": "2026-08-17",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 28,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
+      "sitemap_lastmod": "2026-08-17T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-06-29",
-        "json_ld_date_modified": "2026-06-29",
+        "json_ld_date_published": "2026-08-17",
+        "json_ld_date_modified": "2026-08-17",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -323,250 +272,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/blog/how-to-test-for-mold/",
-      "date": "2026-06-26",
-      "date_source": "json_ld_date_modified",
-      "age_days": 80,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-26T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-26",
-        "json_ld_date_modified": "2026-06-26",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/ice-dam-removal-park-city/",
-      "date": "2026-06-24",
-      "date_source": "json_ld_date_modified",
-      "age_days": 82,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-24",
-        "json_ld_date_modified": "2026-06-24",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/mold-after-water-damage/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/mold-remediation-cost/",
-      "date": "2026-07-30",
-      "date_source": "json_ld_date_modified",
-      "age_days": 46,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-30T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-30",
-        "json_ld_date_modified": "2026-07-30",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/sewage-backup-health-risks/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/signs-of-hidden-mold/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/smoke-odor-removal-techniques/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/storm-damage-insurance-claim-checklist/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/water-damage-restoration-cost-park-city/",
-      "date": "2026-07-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 63,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-13T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-13",
-        "json_ld_date_modified": "2026-07-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/what-is-mold-remediation/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-09-11",
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/what-kills-mold-permanently/",
-      "date": "2026-08-27",
-      "date_source": "json_ld_date_modified",
-      "age_days": 18,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-27T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-08-27",
-        "json_ld_date_modified": "2026-08-27",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/what-to-do-after-a-house-fire/",
-      "date": "2026-07-23",
-      "date_source": "json_ld_date_modified",
-      "age_days": 53,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-23T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-23",
-        "json_ld_date_modified": "2026-07-23",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/what-to-do-first-24-hours-water-damage/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/blog/when-is-mold-remediation-required/",
-      "date": "2026-08-31",
-      "date_source": "json_ld_date_modified",
-      "age_days": 14,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-31T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-08-31",
-        "json_ld_date_modified": "2026-08-31",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/case-studies/",
+      "url": "https://rtolsonplumbing.com/case-studies/",
       "date": "2026-09-14",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:58:22.341Z",
+      "sitemap_lastmod": "2026-09-14T11:24:50.048Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -578,12 +289,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/certifications/",
+      "url": "https://rtolsonplumbing.com/certifications/",
       "date": "2026-09-14",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:58:22.341Z",
+      "sitemap_lastmod": "2026-09-14T11:24:50.048Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -595,12 +306,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/contact/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/contact/",
+      "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:06:40.539Z",
+      "sitemap_lastmod": "2026-08-18T12:36:35.496Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -612,12 +323,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/emergency/",
+      "url": "https://rtolsonplumbing.com/emergency/",
       "date": "2026-09-14",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:58:22.341Z",
+      "sitemap_lastmod": "2026-09-14T11:24:50.048Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -629,12 +340,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/privacy/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/privacy/",
+      "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:06:43.010Z",
+      "sitemap_lastmod": "2026-08-18T12:36:34.525Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -646,12 +357,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/reviews/",
+      "url": "https://rtolsonplumbing.com/reviews/",
       "date": "2026-09-14",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:58:22.341Z",
+      "sitemap_lastmod": "2026-09-14T11:24:50.048Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -663,12 +374,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/",
+      "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:56:23.602Z",
+      "sitemap_lastmod": "2026-08-18T12:35:25.022Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -680,12 +391,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/",
+      "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:50:47.045Z",
+      "sitemap_lastmod": "2026-08-18T12:32:25.958Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -697,15 +408,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/appliance-leak-cleanup/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/ac-repair/",
+      "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:54:02.801Z",
+      "sitemap_lastmod": "2026-08-18T12:24:12.504Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-08-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -714,338 +425,26 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/basement-flooding-cleanup/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:39:21.731Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/burst-pipe-repair/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:38:52.752Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/carpet-cleaning/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:02:33.166Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/crawl-space-encapsulation/",
-      "date": "2026-06-26",
-      "date_source": "json_ld_date_modified",
-      "age_days": 80,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-26T04:57:31.950Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-26",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/fabric-protection/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:58:12.100Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/fire-damage-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:25:49.963Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/frozen-pipe-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:46:15.924Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/junk-debris-removal/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:58:20.438Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/mold-inspection-testing/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:39:22.752Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/mold-remediation/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:26:19.992Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/odor-removal/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:46:46.668Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/roof-leak-repair/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:46:31.084Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/sewage-cleanup/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:32:16.579Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/smoke-damage-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:32:55.574Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/storm-damage-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:32:50.772Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/tile-grout-cleaning/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:03:04.858Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/upholstery-cleaning/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:02:49.657Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/water-damage-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:25:44.458Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/drain-cleaning/",
+      "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:50:45.878Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
+      "sitemap_lastmod": "2026-08-18T12:24:06.235Z",
+      "html_dates": {},
       "gsc": null,
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/appliance-leak-cleanup/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/emergency-plumbing/",
+      "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:54:11.814Z",
+      "sitemap_lastmod": "2026-08-18T12:23:24.248Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-08-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1054,15 +453,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/basement-flooding-cleanup/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/furnace-repair/",
+      "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:38:37.409Z",
+      "sitemap_lastmod": "2026-08-18T12:27:46.369Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-08-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1071,15 +470,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/burst-pipe-repair/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/garbage-disposal/",
+      "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:38:32.169Z",
+      "sitemap_lastmod": "2026-08-18T12:35:56.060Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-08-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1088,15 +487,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/carpet-cleaning/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/indoor-air-quality/",
+      "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:02:02.197Z",
+      "sitemap_lastmod": "2026-08-18T12:34:13.334Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-08-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1105,15 +504,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
-      "date": "2026-06-26",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/leak-detection/",
+      "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 80,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-26T04:57:29.479Z",
+      "sitemap_lastmod": "2026-08-18T12:30:27.220Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-26",
+        "json_ld_date_modified": "2026-08-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1122,15 +521,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/fabric-protection/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/toilet-faucet-repair/",
+      "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:57:52.426Z",
+      "sitemap_lastmod": "2026-08-18T12:30:28.513Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-08-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1139,15 +538,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/water-heater-installation/",
+      "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:25:34.584Z",
+      "sitemap_lastmod": "2026-08-18T12:27:45.180Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-08-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1156,15 +555,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/frozen-pipe-restoration/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/water-heater-repair/",
+      "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:45:44.176Z",
+      "sitemap_lastmod": "2026-08-18T12:24:02.906Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-08-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1173,15 +572,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/junk-debris-removal/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/water-softeners-filtration/",
+      "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:57:49.516Z",
+      "sitemap_lastmod": "2026-08-18T12:33:58.456Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-08-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1190,182 +589,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/mold-inspection-testing/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:38:37.186Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/mold-remediation/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:25:38.207Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/odor-removal/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:45:59.713Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/roof-leak-repair/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:45:59.590Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/sewage-cleanup/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:32:02.018Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/smoke-damage-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:32:17.583Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/storm-damage-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:32:08.967Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/tile-grout-cleaning/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:02:31.831Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/upholstery-cleaning/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:02:15.787Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/water-damage-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:24:52.924Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/",
+      "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:39:03.968Z",
+      "sitemap_lastmod": "2026-09-03T03:42:42.725Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1377,15 +606,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/appliance-leak-cleanup/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/ac-repair/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:39:22.823Z",
+      "sitemap_lastmod": "2026-09-03T03:16:54.233Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1394,15 +623,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/basement-flooding-cleanup/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/drain-cleaning/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:36:43.429Z",
+      "sitemap_lastmod": "2026-09-03T03:16:50.364Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1411,15 +640,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/burst-pipe-repair/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/emergency-plumbing/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:36:43.920Z",
+      "sitemap_lastmod": "2026-09-03T03:16:46.572Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1428,15 +657,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/carpet-cleaning/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/furnace-repair/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:40:49.189Z",
+      "sitemap_lastmod": "2026-09-03T03:27:44.747Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1445,15 +674,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/crawl-space-encapsulation/",
-      "date": "2026-06-26",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/garbage-disposal/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 80,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-26T04:59:04.255Z",
+      "sitemap_lastmod": "2026-09-03T04:07:53.778Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-26",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1462,15 +691,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/fabric-protection/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/indoor-air-quality/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:40:00.811Z",
+      "sitemap_lastmod": "2026-09-03T03:51:31.708Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1479,15 +708,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/fire-damage-restoration/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/leak-detection/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:34:19.210Z",
+      "sitemap_lastmod": "2026-09-03T03:37:17.397Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1496,15 +725,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/frozen-pipe-restoration/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/toilet-faucet-repair/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:37:41.063Z",
+      "sitemap_lastmod": "2026-09-03T03:37:13.092Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1513,15 +742,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/junk-debris-removal/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/water-heater-installation/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:40:01.608Z",
+      "sitemap_lastmod": "2026-09-03T03:27:42.293Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1530,15 +759,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/mold-inspection-testing/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/water-heater-repair/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:36:45.015Z",
+      "sitemap_lastmod": "2026-09-03T03:16:46.300Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1547,15 +776,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/mold-remediation/",
-      "date": "2026-06-24",
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/water-softeners-filtration/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 82,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:34:21.354Z",
+      "sitemap_lastmod": "2026-09-03T03:51:00.381Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1564,148 +793,12 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/odor-removal/",
-      "date": "2026-06-24",
-      "date_source": "json_ld_date_modified",
-      "age_days": 82,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:38:21.134Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/roof-leak-repair/",
-      "date": "2026-06-24",
-      "date_source": "json_ld_date_modified",
-      "age_days": 82,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:38:19.917Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/sewage-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "json_ld_date_modified",
-      "age_days": 82,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:35:05.801Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/smoke-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "json_ld_date_modified",
-      "age_days": 82,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:35:55.447Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/storm-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "json_ld_date_modified",
-      "age_days": 82,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:35:13.199Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/tile-grout-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "json_ld_date_modified",
-      "age_days": 82,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:40:54.108Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/upholstery-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "json_ld_date_modified",
-      "age_days": 82,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:40:48.978Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/water-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "json_ld_date_modified",
-      "age_days": 82,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T00:34:21.952Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-24",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/",
+      "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:51:29.274Z",
+      "sitemap_lastmod": "2026-09-03T03:40:53.493Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1717,15 +810,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/appliance-leak-cleanup/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/ac-repair/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:55:00.763Z",
+      "sitemap_lastmod": "2026-09-03T03:08:56.811Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1734,15 +827,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/basement-flooding-cleanup/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/drain-cleaning/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:41:40.178Z",
+      "sitemap_lastmod": "2026-09-03T03:08:49.548Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1751,15 +844,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/burst-pipe-repair/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/emergency-plumbing/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:41:18.598Z",
+      "sitemap_lastmod": "2026-09-03T03:08:45.677Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1768,15 +861,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/carpet-cleaning/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/furnace-repair/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:04:56.530Z",
+      "sitemap_lastmod": "2026-09-03T03:24:01.572Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1785,15 +878,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/crawl-space-encapsulation/",
-      "date": "2026-06-26",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/garbage-disposal/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 80,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-26T04:58:18.898Z",
+      "sitemap_lastmod": "2026-09-03T04:05:47.423Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-26",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1802,15 +895,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/fabric-protection/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/indoor-air-quality/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:59:47.330Z",
+      "sitemap_lastmod": "2026-09-03T03:47:04.315Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1819,15 +912,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/fire-damage-restoration/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/leak-detection/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:28:15.501Z",
+      "sitemap_lastmod": "2026-09-03T03:32:53.578Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1836,15 +929,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/frozen-pipe-restoration/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/toilet-faucet-repair/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:48:43.300Z",
+      "sitemap_lastmod": "2026-09-03T03:32:58.212Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1853,15 +946,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/junk-debris-removal/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/water-heater-installation/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:59:47.554Z",
+      "sitemap_lastmod": "2026-09-03T03:24:01.324Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1870,15 +963,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/mold-inspection-testing/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/water-heater-repair/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:41:45.358Z",
+      "sitemap_lastmod": "2026-09-03T03:08:51.206Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1887,15 +980,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/mold-remediation/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/water-softeners-filtration/",
+      "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 91,
+      "age_days": 11,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:28:40.012Z",
+      "sitemap_lastmod": "2026-09-03T03:46:57.602Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1904,151 +997,1046 @@
       "search_signals": null
     },
     {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/odor-removal/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:49:12.876Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/roof-leak-repair/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:49:00.016Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/sewage-cleanup/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:34:43.249Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/smoke-damage-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:35:19.016Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/storm-damage-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:35:19.655Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/tile-grout-cleaning/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:05:30.448Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/upholstery-cleaning/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T19:05:12.159Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/water-damage-restoration/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 91,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:28:04.867Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
-      "date": "2026-06-15",
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/",
+      "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 91,
+      "age_days": 27,
       "flags": [],
-      "sitemap_lastmod": "2026-06-15T18:50:30.108Z",
+      "sitemap_lastmod": "2026-08-18T12:32:37.967Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/ac-repair/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:26:15.603Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/drain-cleaning/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:25:35.728Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/emergency-plumbing/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:25:38.642Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/furnace-repair/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:28:40.281Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/garbage-disposal/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:36:39.251Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/indoor-air-quality/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:35:05.181Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/leak-detection/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:31:33.257Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/toilet-faucet-repair/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:31:42.456Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/water-heater-installation/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:28:32.404Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/water-heater-repair/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:25:52.825Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/water-softeners-filtration/",
+      "date": "2026-08-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-18T12:35:02.304Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/",
+      "date": "2026-09-03",
+      "date_source": "sitemap_lastmod",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:41:46.339Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/ac-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:12:32.937Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/drain-cleaning/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:12:22.769Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/emergency-plumbing/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:12:23.020Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/furnace-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:25:36.271Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/garbage-disposal/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T04:07:04.066Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/indoor-air-quality/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:49:13.350Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/leak-detection/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:35:02.063Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/toilet-faucet-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:35:04.152Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/water-heater-installation/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:25:35.966Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/water-heater-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:12:25.314Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/water-softeners-filtration/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:48:46.983Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/",
+      "date": "2026-09-03",
+      "date_source": "sitemap_lastmod",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:42:22.447Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/ac-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:14:41.405Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/drain-cleaning/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:14:32.888Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/emergency-plumbing/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:14:34.167Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/furnace-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:26:56.636Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/garbage-disposal/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T04:07:11.975Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/indoor-air-quality/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:50:16.974Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/leak-detection/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:35:52.099Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/toilet-faucet-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:35:55.494Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/water-heater-installation/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:26:50.893Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/water-heater-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:14:35.133Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/water-softeners-filtration/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:50:01.668Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/",
+      "date": "2026-09-03",
+      "date_source": "sitemap_lastmod",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:43:11.960Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/ac-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:18:23.937Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/drain-cleaning/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:18:14.187Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/emergency-plumbing/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:18:14.881Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/furnace-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:28:26.488Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/garbage-disposal/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T04:08:26.183Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/indoor-air-quality/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T04:03:37.235Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/leak-detection/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:38:01.650Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/toilet-faucet-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:37:59.358Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/water-heater-installation/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:28:31.635Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/water-heater-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:18:09.513Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/water-softeners-filtration/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:51:56.580Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/",
+      "date": "2026-09-03",
+      "date_source": "sitemap_lastmod",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:39:27.615Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/ac-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:03:00.061Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/drain-cleaning/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:03:03.444Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/emergency-plumbing/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:03:04.002Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/furnace-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:21:08.819Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/garbage-disposal/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T04:04:18.879Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/indoor-air-quality/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:44:04.816Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/leak-detection/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:29:55.347Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/toilet-faucet-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:30:02.909Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/water-heater-installation/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:21:06.722Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/water-heater-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:03:03.873Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/water-softeners-filtration/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:43:53.666Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/fontana-ca/",
+      "date": "2026-09-03",
+      "date_source": "sitemap_lastmod",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:41:47.784Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/service-areas/fontana-ca/ac-repair/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 11,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T03:13:18.198Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-03",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null

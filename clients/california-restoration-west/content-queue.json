@@ -1,6 +1,35 @@
 {
  "items": [
   {
+   "id": "2026-09-14-water-damage-restoration-cost-ca",
+   "status": "queued",
+   "queued_at": "2026-09-14T20:20:03Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "water-damage-restoration-cost-ca",
+   "primary_keyword": "water damage restoration cost CA",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "ventura-ca",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Ventura",
+    "state": "CA",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does water damage restoration cost in CA",
+    "water damage restoration price CA",
+    "average cost of water damage restoration CA",
+    "water damage cleanup CA",
+    "water cleanup CA",
+    "water removal CA"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
    "id": "2026-09-06-contents-restoration-storage",
    "status": "queued",
    "queued_at": "2026-09-06T10:23:57Z",

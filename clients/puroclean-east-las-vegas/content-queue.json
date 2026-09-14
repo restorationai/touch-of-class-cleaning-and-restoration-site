@@ -1,1037 +1,1066 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-09-14-who-to-call-for-fire-damage-restoration-in-las-vegas-nv",
+   "status": "queued",
+   "queued_at": "2026-09-14T20:22:05Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "who_to_call",
+   "combo_key": "who-to-call-for-fire-damage-restoration-in-las-vegas-nv",
+   "primary_keyword": "who to call for fire damage restoration in Las Vegas, NV",
+   "intent": "transactional",
+   "target_word_count": 1200,
+   "city_anchor": "las-vegas-nv",
+   "best_of": {
+    "service": "fire-damage-restoration",
+    "service_pretty": "Fire Damage Restoration",
+    "city": "Las Vegas",
+    "state": "NV",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "who do you call for fire damage restoration Las Vegas",
+    "who do I call for fire damage restoration in Las Vegas",
+    "fire damage restoration emergency number Las Vegas NV",
+    "fire damage cleanup Las Vegas",
+    "fire restoration Las Vegas",
+    "smoke damage cleanup Las Vegas"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-09-06-trauma-crime-scene-biohazard",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "trauma-crime-scene-biohazard",
+   "primary_keyword": "Trauma & Crime Scene (Biohazard)",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "boulder-city-nv",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-08-28-fire-damage-restoration-cost-nv",
+   "status": "published",
+   "queued_at": "2026-08-28T01:05:33Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "fire-damage-restoration-cost-nv",
+   "primary_keyword": "fire damage restoration cost NV",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "las-vegas-nv",
+   "best_of": {
+    "service": "fire-damage-restoration",
+    "service_pretty": "Fire Damage Restoration",
+    "city": "Las Vegas",
+    "state": "NV",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does fire damage restoration cost in NV",
+    "fire damage restoration price NV",
+    "average cost of fire damage restoration NV",
+    "fire damage cleanup NV",
+    "smoke damage cleanup NV",
+    "fire restoration NV"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-09-07T20:24:05Z",
+   "post_url": "https://purocleaneastlasvegas.com/blog/fire-damage-restoration-cost-nv/",
+   "claims_flags": [
     {
-      "id": "2026-09-06-trauma-crime-scene-biohazard",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "trauma-crime-scene-biohazard",
-      "primary_keyword": "Trauma & Crime Scene (Biohazard)",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "boulder-city-nv",
-      "source": "app target-term (onboarding-backfill)"
+     "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+     "part": "frontmatter",
+     "family": "certification",
+     "severity": "error",
+     "matched": "certified restoration",
+     "context": "reate disputes over what was damaged. A certified restoration company will document everything before",
+     "reason": "names a certification not present in brand.certifications"
     },
     {
-      "id": "2026-08-28-fire-damage-restoration-cost-nv",
-      "status": "published",
-      "queued_at": "2026-08-28T01:05:33Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "cost_guide",
-      "combo_key": "fire-damage-restoration-cost-nv",
-      "primary_keyword": "fire damage restoration cost NV",
-      "intent": "transactional",
-      "target_word_count": 1500,
-      "city_anchor": "las-vegas-nv",
-      "best_of": {
-        "service": "fire-damage-restoration",
-        "service_pretty": "Fire Damage Restoration",
-        "city": "Las Vegas",
-        "state": "NV",
-        "competitors": []
-      },
-      "fan_out_cluster": [
-        "how much does fire damage restoration cost in NV",
-        "fire damage restoration price NV",
-        "average cost of fire damage restoration NV",
-        "fire damage cleanup NV",
-        "smoke damage cleanup NV",
-        "fire restoration NV"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-09-07T20:24:05Z",
-      "post_url": "https://purocleaneastlasvegas.com/blog/fire-damage-restoration-cost-nv/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
-          "part": "frontmatter",
-          "family": "certification",
-          "severity": "error",
-          "matched": "certified restoration",
-          "context": "reate disputes over what was damaged. A certified restoration company will document everything before",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
-          "part": "body",
-          "family": "service-scope",
-          "severity": "review",
-          "matched": "Structural reconstruction",
-          "context": "ther than eliminated will return. 7. **Structural reconstruction.** Charred or compromised materials are",
-          "reason": "names the 'reconstruction' service family but plan-input services are only: fire-damage-restoration, mold-remediation, water-damage-restoration, sewage-cleanup, biohazard-cleanup, burst-frozen-pipes"
-        },
-        {
-          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "all must be extracted and dried to the [IICRC S500 standard](https://www.iicrc.org) b",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "moisture meters until readings meet the IICRC S500 drying standard. 4. **Soot and sm",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "certified restoration",
-          "context": "ce company to open a claim, then call a certified restoration company to begin the assessment before",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "IICRC",
-          "context": "as** PuroClean of East Las Vegas is an IICRC-certified restoration company serving L",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "certified restoration",
-          "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company serving Las Vegas, NV and the s",
-          "reason": "names a certification not present in brand.certifications"
-        }
-      ],
-      "published_verified_at": "2026-09-07T20:24:19Z"
+     "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+     "part": "body",
+     "family": "service-scope",
+     "severity": "review",
+     "matched": "Structural reconstruction",
+     "context": "ther than eliminated will return. 7. **Structural reconstruction.** Charred or compromised materials are",
+     "reason": "names the 'reconstruction' service family but plan-input services are only: fire-damage-restoration, mold-remediation, water-damage-restoration, sewage-cleanup, biohazard-cleanup, burst-frozen-pipes"
     },
     {
-      "id": "2026-08-07-best-mold-remediation-in-las-vegas-nv",
-      "status": "published",
-      "queued_at": "2026-08-07T03:43:51Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-mold-remediation-in-las-vegas-nv",
-      "primary_keyword": "best mold remediation company in Las Vegas, NV",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "las-vegas-nv",
-      "best_of": {
-        "service": "mold-remediation",
-        "service_pretty": "Mold Remediation",
-        "city": "Las Vegas",
-        "state": "NV",
-        "competitors": [
-          {
-            "name": "WFM Restoration LLC",
-            "google_rating": 4.9,
-            "review_count": 1065
-          },
-          {
-            "name": "RemediationX",
-            "google_rating": 4.9,
-            "review_count": 35
-          },
-          {
-            "name": "Vortex Restoration",
-            "google_rating": 5,
-            "review_count": 25
-          },
-          {
-            "name": "Elevate Restore",
-            "google_rating": 4.9,
-            "review_count": 184
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best mold remediation companies Las Vegas",
-        "top rated mold remediation Las Vegas NV",
-        "who is the best mold remediation company in Las Vegas",
-        "mold removal Las Vegas",
-        "black mold removal Las Vegas",
-        "mold cleanup Las Vegas"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-08-27T05:48:20Z",
-      "post_url": "https://purocleaneastlasvegas.com/blog/best-mold-remediation-company-in-las-vegas-nv/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "frontmatter",
-          "family": "certification",
-          "severity": "error",
-          "matched": "IICRC",
-          "context": "tion company in Las Vegas, NV. They are IICRC-certified, serve the full metro area fr",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "frontmatter",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "gas is legitimate?\", \"answer\": \"Ask for IICRC S520 certification for the on-site tech",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "IICRC",
-          "context": "ion company in Las Vegas, NV, backed by IICRC certification and a track record across",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "ctor. You need a company that knows the IICRC S520 mold remediation standard, builds",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "IICRC",
-          "context": "tion company in Las Vegas, NV. They are IICRC-certified, serve the full metro area fr",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "ull-face respirators, the standard the [IICRC S520](https://www.iicrc.org) requires f",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "IICRC",
-          "context": "egas PuroClean of East Las Vegas is an IICRC-certified mold remediation company serv",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "IICRC",
-          "context": "They do not subcontract mold work, the IICRC-certified crew that shows up is the cre",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "specifically, their process follows the IICRC S520 standard: containment first, then",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "IICRC",
-          "context": "Confirm their mold-specific experience, IICRC credentials, and containment process di",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "f they hesitate, that's your answer. **IICRC S520 certification.** The [IICRC](https",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "er. **IICRC S520 certification.** The [IICRC](https://www.iicrc.org) publishes the S",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "IICRC",
-          "context": "ot just the company owner, hold current IICRC certification. A certified company with",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "IICRC",
-          "context": "| Company | Google Rating | Reviews | IICRC Certified | 24/7 Emergency | |---|---|-",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "IICRC",
-          "context": "as** PuroClean of East Las Vegas is an IICRC-certified restoration company based at",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "error",
-          "matched": "certified restoration",
-          "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company based at 2777 N Lamb Blvd, Las",
-          "reason": "names a certification not present in brand.certifications"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "065 reviews",
-          "context": "C has a 4.9-star Google rating across 1,065 reviews, the highest review volume of any compa",
-          "reason": "listicle review-count 65 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "184 reviews",
-          "context": "ore holds a 4.9-star Google rating with 184 reviews. That puts them in a solid mid-tier by",
-          "reason": "listicle review-count 184 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "35 reviews",
-          "context": "X carries a 4.9-star Google rating with 35 reviews. Fewer reviews means the rating is hard",
-          "reason": "listicle review-count 35 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "25 reviews",
-          "context": "ion has a 5.0-star Google rating across 25 reviews. A perfect score on a small sample is w",
-          "reason": "listicle review-count 25 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "25 reviews",
-          "context": "ing but should be weighted accordingly, 25 reviews is a thin dataset. Vortex Restoration i",
-          "reason": "listicle review-count 25 (competitor stat \u2014 verify it is not presented as ours)"
-        }
-      ],
-      "published_verified_at": "2026-08-27T05:49:32Z"
+     "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "all must be extracted and dried to the [IICRC S500 standard](https://www.iicrc.org) b",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
-      "id": "2026-08-09-mold-remediation-cost",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "mold remediation cost",
-      "intent": "commercial",
-      "volume": 9900,
-      "kd": 3,
-      "fan_out_cluster": [
-        "mold removal cost",
-        "average cost of mold remediation",
-        "mold remediation cost las vegas",
-        "black mold removal cost",
-        "mold remediation cost per square foot",
-        "is mold remediation covered by insurance"
-      ],
-      "suggested_slug": "mold-remediation-cost",
-      "suggested_title": "Mold Remediation Cost in Las Vegas: What Homeowners Actually Pay",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/service-areas/las-vegas-nv/mold-remediation/",
-        "/blog/how-to-test-for-mold/",
-        "/blog/signs-of-hidden-mold/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "mold-remediation"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Highest-volume cost guide in the pool (9,900/mo national, KD 3, $23 CPC). National ranges first, then Las Vegas cost drivers: swamp-cooler and HVAC-condensation mold jobs, post-monsoon moisture, containment in occupied homes. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
-      "source": "keyword-researcher"
+     "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "moisture meters until readings meet the IICRC S500 drying standard. 4. **Soot and sm",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
-      "id": "2026-08-09-mold-inspection-cost",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:46:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "mold inspection cost",
-      "intent": "commercial",
-      "volume": 5400,
-      "kd": null,
-      "fan_out_cluster": [
-        "mold testing cost",
-        "how much is a mold inspection",
-        "air quality testing for mold cost",
-        "mold inspection cost las vegas",
-        "mold assessment cost"
-      ],
-      "suggested_slug": "mold-inspection-cost",
-      "suggested_title": "Mold Inspection Cost in Las Vegas: What Testing Should and Should Not Cost",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/blog/how-to-test-for-mold/",
-        "/blog/signs-of-hidden-mold/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "mold-remediation"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-testing-or-sampling"
-      ],
-      "notes": "5,400/mo national. Companion to the existing DIY-kits-vs-pro testing post: this one is pure pricing. Explain when paid third-party testing is worth it vs when a remediation company's assessment covers it. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
-      "source": "keyword-researcher"
+     "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "certified restoration",
+     "context": "ce company to open a claim, then call a certified restoration company to begin the assessment before",
+     "reason": "names a certification not present in brand.certifications"
     },
     {
-      "id": "2026-08-09-water-damage-restoration-cost",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:47:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "water damage restoration cost",
-      "intent": "commercial",
-      "volume": 880,
-      "kd": 3,
-      "fan_out_cluster": [
-        "water damage repair cost",
-        "water damage restoration cost las vegas",
-        "water mitigation cost",
-        "cost to dry out a house after a leak",
-        "water damage restoration cost per square foot"
-      ],
-      "suggested_slug": "water-damage-restoration-cost",
-      "suggested_title": "Water Damage Restoration Cost in Las Vegas: A Straight Answer on Pricing",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/service-areas/las-vegas-nv/water-damage-restoration/",
-        "/blog/how-long-does-water-damage-restoration-take/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/standards/iicrc-s500/"
-      ],
-      "notes": "880/mo, KD 3, $20 CPC. Break down by water category and class, then Vegas factors: slab-on-grade drying, monsoon intrusion vs supply-line breaks, insurance vs out-of-pocket. Cross-link the duration and insurance posts. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
-      "source": "keyword-researcher"
+     "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "IICRC",
+     "context": "as** PuroClean of East Las Vegas is an IICRC-certified restoration company serving L",
+     "reason": "names a certification not present in brand.certifications"
     },
     {
-      "id": "2026-08-09-slab-leak-repair-cost",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:48:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "slab leak repair cost",
-      "intent": "commercial",
-      "volume": 1300,
-      "kd": 1,
-      "fan_out_cluster": [
-        "how much does it cost to fix a slab leak",
-        "slab leak detection cost",
-        "does homeowners insurance cover slab leaks",
-        "slab leak water damage repair",
-        "repipe vs slab leak repair cost"
-      ],
-      "suggested_slug": "slab-leak-repair-cost",
-      "suggested_title": "Slab Leak Repair Cost: What Las Vegas Homeowners Should Budget",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/blog/how-long-does-water-damage-restoration-take/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/standards/iicrc-s500/"
-      ],
-      "notes": "1,300/mo, KD 1, $28 CPC. Vegas valley homes are overwhelmingly slab-on-grade, and Henderson's newer master-planned communities generate steady slab-leak calls (plan-input local notes). Be precise about roles: a licensed plumber locates and repairs the pipe; PuroClean handles the water damage mitigation and drying around it. Cover detection, access, repair, and restoration as separate line items. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-09-fire-damage-restoration-cost",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:49:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "fire damage restoration cost",
-      "intent": "commercial",
-      "volume": 260,
-      "kd": null,
-      "fan_out_cluster": [
-        "fire damage repair cost",
-        "smoke damage cleanup cost",
-        "soot removal cost",
-        "fire restoration cost per square foot",
-        "does insurance cover fire damage restoration"
-      ],
-      "suggested_slug": "fire-damage-restoration-cost",
-      "suggested_title": "Fire Damage Restoration Cost: What to Expect After a House Fire in Las Vegas",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/fire-damage-restoration/",
-        "/blog/fire-damage-restoration-process/",
-        "/blog/smoke-odor-removal-techniques/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "fire-damage-restoration"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
-      ],
-      "notes": "260/mo, CPC data thin but top-of-page bids run $8 to $77, so commercial value is real. Cost ranges by damage tier (smoke only, single room, structural) and why fire claims are almost always insurance jobs. Links to the existing process and smoke-odor posts. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-09-sewage-backup-cleanup-cost",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:50:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "sewage backup cleanup cost",
-      "intent": "commercial",
-      "volume": 260,
-      "kd": null,
-      "fan_out_cluster": [
-        "sewage cleanup cost",
-        "sewage removal cost",
-        "does insurance cover sewage backup",
-        "who is responsible for sewer backup",
-        "category 3 water cleanup cost"
-      ],
-      "suggested_slug": "sewage-backup-cleanup-cost",
-      "suggested_title": "Sewage Backup Cleanup Cost in Las Vegas: Pricing, Insurance, and Why It Varies",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/sewage-cleanup/",
-        "/blog/sewage-backup-health-risks/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "sewage-cleanup"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/standards/iicrc-s500/"
-      ],
-      "notes": "260/mo at $46 CPC. Category 3 water rules drive the price: containment, disposal, sanitization. Cover the sewer-backup insurance endorsement gap (most base policies exclude it) and landlord vs tenant vs utility responsibility. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-09-does-homeowners-insurance-cover-flood-damage",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:51:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "does homeowners insurance cover flood damage",
-      "intent": "informational",
-      "volume": 210,
-      "kd": 44,
-      "fan_out_cluster": [
-        "flood insurance vs homeowners insurance",
-        "does insurance cover flash flooding",
-        "nfip flood insurance nevada",
-        "monsoon flood damage insurance claim",
-        "flood damage vs water damage insurance"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-flood-damage",
-      "suggested_title": "Does Homeowners Insurance Cover Flood Damage? What Las Vegas Monsoon Season Teaches",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/services/water-damage-restoration/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://doi.nv.gov/Consumers/Homeowners-Insurance/Flood-Insurance/",
-        "https://www.floodsmart.gov/"
-      ],
-      "notes": "Flood-specific companion to the existing water damage insurance post. Core answer per Nevada Division of Insurance: standard homeowners policies generally exclude flood; NFIP is a separate policy, and monsoon flash-flood losses may require filing both claims. Grounded by the ChatGPT scraper decomposition, which cited NV DOI and Clark County flash-flood guidance. Lead with the plain answer in the first 80 words.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-09-what-to-do-when-your-house-floods-monsoon",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:52:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "what to do when your house floods",
-      "intent": "informational",
-      "volume": 140,
-      "kd": null,
-      "fan_out_cluster": [
-        "what to do if your house floods during a monsoon",
-        "monsoon water damage",
-        "flash flood damage house",
-        "how to document flood damage for insurance",
-        "is flood water dangerous"
-      ],
-      "suggested_slug": "what-to-do-when-your-house-floods-monsoon",
-      "suggested_title": "What to Do When Your House Floods During a Las Vegas Monsoon",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/services/water-damage-restoration/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "sewage-cleanup"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.clarkcountynv.gov/government/departments/fire/flash-flood-safety",
-        "https://www.oem.nv.gov/emergency-management/threats-hazards/floods/"
-      ],
-      "notes": "140/mo with a striking $69 CPC. Distinct from the existing first-24-hours post: that covers indoor supply-line events, this covers outdoor floodwater entering the home (Category 3, contaminated). Sequence per Clark County and NV OEM guidance: safety and re-entry, electrical hazards, document everything before cleanup, then rapid drying. Monsoon season runs roughly July to September in the Vegas valley.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-09-swamp-cooler-mold",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:53:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "swamp cooler mold",
-      "intent": "informational",
-      "volume": 70,
-      "kd": null,
-      "fan_out_cluster": [
-        "can a swamp cooler cause mold",
-        "evaporative cooler mold",
-        "swamp cooler smells musty",
-        "how to prevent mold in an evaporative cooler",
-        "mold in swamp cooler ducts"
-      ],
-      "suggested_slug": "swamp-cooler-mold",
-      "suggested_title": "Swamp Cooler Mold: Can Your Evaporative Cooler Cause Mold in a Las Vegas Home?",
-      "target_word_count": 1300,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/blog/signs-of-hidden-mold/",
-        "/blog/how-to-test-for-mold/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "mold-remediation"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Search volume peaks every summer (110 to 140/mo in July and August). Older East Las Vegas and Downtown homes still run evaporative coolers: constant pad moisture in an otherwise dry climate is a classic mold path, and it feeds ducts directly. Only groundable claims; no scare copy. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-09-what-is-a-slab-leak",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:54:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "what is a slab leak",
-      "intent": "informational",
-      "volume": 880,
-      "kd": 4,
-      "fan_out_cluster": [
-        "signs of a slab leak",
-        "how to detect a slab leak",
-        "what causes slab leaks",
-        "slab leak water damage",
-        "hot spots on floor slab leak"
-      ],
-      "suggested_slug": "what-is-a-slab-leak",
-      "suggested_title": "What Is a Slab Leak? Signs, Causes, and Next Steps for Las Vegas Homes",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.epa.gov/watersense/fix-leak-week"
-      ],
-      "notes": "880/mo, KD 4. Nearly every Vegas valley home sits on a slab with no basement, so supply lines run under or through the slab. Signs cluster (warm floor spots, unexplained water bill spikes, damp baseboards) becomes H2s. Clarify the plumber vs restoration division of labor and link the slab leak repair cost guide once live.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-09-does-renters-insurance-cover-water-damage",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "does renters insurance cover water damage",
-      "intent": "informational",
-      "volume": 1000,
-      "kd": 9,
-      "fan_out_cluster": [
-        "renters insurance water damage from upstairs unit",
-        "landlord vs renter water damage responsibility",
-        "does renters insurance cover mold",
-        "does renters insurance cover flood damage",
-        "what does renters insurance actually cover"
-      ],
-      "suggested_slug": "does-renters-insurance-cover-water-damage",
-      "suggested_title": "Does Renters Insurance Cover Water Damage? A Guide for Las Vegas Tenants",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/services/water-damage-restoration/",
-        "/service-areas/paradise-nv/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://doi.nv.gov/Consumers/Renters-Insurance/"
-      ],
-      "notes": "1,000/mo, KD 9. Strong local fit: high-density condos and rentals near the Strip and UNLV (Paradise) frequently need water cleanup. Cover the personal-property vs building split, liability when a tenant's leak damages the unit below, and the flood exclusion. Nevada DOI as authority.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-09-water-stains-on-stucco",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:56:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "water stains on stucco",
-      "intent": "informational",
-      "volume": 390,
-      "kd": null,
-      "fan_out_cluster": [
-        "stucco water damage",
-        "how does water get behind stucco",
-        "stucco water damage repair",
-        "efflorescence on stucco",
-        "stucco stains after rain"
-      ],
-      "suggested_slug": "water-stains-on-stucco",
-      "suggested_title": "Water Stains on Stucco: What They Mean for Your Las Vegas Home",
-      "target_word_count": 1300,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/blog/signs-of-hidden-mold/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "390/mo and rising into summer (590 in June). Stucco is the default exterior across the Vegas valley; monsoon-driven rain, sprinkler overspray, and parapet or scupper failures leave telltale staining. Teach the difference between cosmetic efflorescence and trapped moisture that threatens framing and interior walls. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-09-unattended-death-cleanup",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:57:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "unattended death cleanup",
-      "intent": "transactional",
-      "volume": 480,
-      "kd": null,
-      "fan_out_cluster": [
-        "who cleans up after a death at home",
-        "unattended death cleanup cost",
-        "biohazard cleanup after death",
-        "how long does unattended death cleanup take",
-        "does insurance cover unattended death cleanup"
-      ],
-      "suggested_slug": "unattended-death-cleanup",
-      "suggested_title": "Unattended Death Cleanup: What Las Vegas Families Need to Know",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/biohazard-cleanup/",
-        "/service-areas/las-vegas-nv/biohazard-cleanup/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "biohazard-cleanup"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.cdc.gov/niosh/topics/bbp/"
-      ],
-      "notes": "SENSITIVE TOPIC: writer must apply sensitive-content guardrails. Compassionate, practical, zero graphic detail. 480/mo at $110 CPC, the highest-value biohazard term in the pool, and the site has no dedicated page for it: this post carries the query until one exists. Cover who to call first, what not to do, insurance, and discretion.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-09-diy-mold-remediation",
-      "status": "queued",
-      "queued_at": "2026-08-10T00:58:00Z",
-      "written_at": null,
-      "post_url": null,
-      "priority": 1,
-      "primary_keyword": "diy mold remediation",
-      "intent": "informational",
-      "volume": 1900,
-      "kd": 9,
-      "fan_out_cluster": [
-        "diy mold removal",
-        "when to hire a mold remediation professional",
-        "mold remediation process",
-        "is diy mold removal safe",
-        "epa 10 square feet mold guideline"
-      ],
-      "suggested_slug": "diy-mold-remediation",
-      "suggested_title": "DIY Mold Remediation: When It Works and When Las Vegas Homes Need a Pro",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/blog/how-to-test-for-mold/",
-        "/blog/black-mold-vs-regular-mold/",
-        "/blog/signs-of-hidden-mold/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "mold-remediation"
-      ],
-      "city_anchor": "las-vegas-nv",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "1,900/mo, KD 9. Honest-broker post: EPA's roughly 10 square feet guidance is the dividing line. DIY-appropriate cases, the mistakes that spread spores (dry scraping, bleach on porous drywall), and the Vegas wrinkles: swamp-cooler duct mold and post-monsoon wall cavities are never DIY jobs. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-27-homeowners-insurance-for-storm-damage",
-      "status": "queued",
-      "queued_at": "2026-08-27T05:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "homeowners insurance for storm damage",
-      "intent": "informational",
-      "volume": 590,
-      "kd": 22,
-      "fan_out_cluster": [
-        "storm damage insurance claim",
-        "storm damage claim",
-        "does homeowners insurance cover storm cleanup",
-        "how long to file a storm damage insurance claim",
-        "how to document storm damage for an insurance claim",
-        "how to avoid a storm damage claim denial"
-      ],
-      "suggested_slug": "homeowners-insurance-for-storm-damage",
-      "suggested_title": "Homeowners insurance for storm damage: what a Nevada policy actually pays for",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/service-areas/las-vegas-nv/water-damage-restoration/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://doi.nv.gov/Consumers/Homeowners/",
-        "https://www.iii.org/article/understanding-your-insurance-deductible",
-        "https://www.floodsmart.gov/"
-      ],
-      "notes": "Highest-volume in-scope keyword this seed produced (590/mo, KD 22). Companion piece to the existing /blog/does-homeowners-insurance-cover-water-damage/ post: that one covers water specifically, this one covers the storm/monsoon claim path end to end (wind-driven rain vs flood exclusion, ACV vs replacement cost, mitigation duty). Nevada angle: standard HO-3 policies exclude flood, and Clark County monsoon flash flooding is the exact scenario homeowners assume is covered but is not. Link the mitigation-duty section straight to the water damage restoration service page: insurers require prompt mitigation, which is the client's actual product."
-    },
-    {
-      "id": "2026-08-27-does-homeowners-insurance-cover-wind-damage",
-      "status": "queued",
-      "queued_at": "2026-08-27T05:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "does homeowners insurance cover wind damage",
-      "intent": "informational",
-      "volume": 170,
-      "kd": 19,
-      "fan_out_cluster": [
-        "straight line wind damage",
-        "how do i know if my roof has storm damage",
-        "wind damage repair",
-        "what to do after a roof leak in your ceiling",
-        "las vegas wind damage",
-        "signs of water intrusion in your house"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-wind-damage",
-      "suggested_title": "Does homeowners insurance cover wind damage? A Las Vegas homeowner's guide",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/blog/what-to-do-first-24-hours-water-damage/"
-      ],
-      "service_tags": [
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://doi.nv.gov/Consumers/Homeowners/",
-        "https://www.weather.gov/vef/monsoon",
-        "https://www.iii.org/article/what-is-covered-by-standard-homeowners-policy"
-      ],
-      "notes": "170/mo, KD 19. Scope guard for the writer: PuroClean of East Las Vegas does NOT do roofing. Cover wind damage from the interior-damage angle only (wind lifts tile or flashing, rain gets in, ceiling and drywall soak, mold follows in 24 to 48 hours). Point roof repair itself at a roofer and keep the CTA on water intrusion drying and mold prevention. Las Vegas monsoon microbursts routinely hit 60 to 80 mph, which is the local hook."
-    },
-    {
-      "id": "2026-08-27-hidden-water-damage-after-a-storm",
-      "status": "queued",
-      "queued_at": "2026-08-27T05:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how to check for hidden water damage after a storm",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "signs of water intrusion in your house",
-        "what to do after a storm damages your house",
-        "what to do after a roof leak in your ceiling",
-        "how do i know if my roof has storm damage",
-        "water stains on stucco",
-        "how long does storm damage restoration take"
-      ],
-      "suggested_slug": "how-to-check-for-hidden-water-damage-after-a-storm",
-      "suggested_title": "How to check for hidden water damage after a storm (room-by-room walkthrough)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/blog/signs-of-hidden-mold/",
-        "/blog/mold-after-water-damage/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.epa.gov/mold/mold-cleanup-your-home",
-        "https://www.weather.gov/vef/monsoon"
-      ],
-      "notes": "Zero measured Google volume, queued on AI-retrieval value: surfaced directly by the ChatGPT decomposition of the storm-damage prompt, and question pages are what AI engines lift verbatim. Structure it as a checklist with one short answer paragraph per room (attic, ceilings, exterior walls, around windows, under flooring, HVAC closet) so each block is independently quotable. Vegas specifics: stucco staining, swamp cooler pans on the roof, and flat or low-slope tile roofs that pond after a monsoon cell."
-    },
-    {
-      "id": "2026-08-27-can-a-monsoon-cause-mold-in-your-house",
-      "status": "queued",
-      "queued_at": "2026-08-27T05:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "can a monsoon cause mold in your house",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "can mold grow in the desert",
-        "monsoon water damage",
-        "how to check for hidden water damage after a storm",
-        "swamp cooler mold",
-        "how quickly does mold grow after water damage",
-        "what to do after a storm damages your house"
-      ],
-      "suggested_slug": "can-a-monsoon-cause-mold-in-your-house",
-      "suggested_title": "Can a monsoon cause mold in your house? What Las Vegas homeowners need to know",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/water-damage-restoration/",
-        "/blog/mold-after-water-damage/",
-        "/blog/black-mold-vs-regular-mold/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-course-chapter-1",
-        "https://www.cdc.gov/mold-health/about/index.html",
-        "https://www.weather.gov/vef/monsoon"
-      ],
-      "notes": "Zero measured Google volume, queued for AI retrieval plus a genuine local-authority gap: nobody in this market has written the desert-mold answer well. The counterintuitive hook is that Las Vegas humidity spikes from single digits to 50 percent-plus during monsoon season, which is exactly the 24 to 48 hour window mold needs after any intrusion. Overlaps the banked priority-2 keyword 'can mold grow in the desert', so fold that in as an H2 rather than writing it separately later."
+     "file": "src/content/blog/fire-damage-restoration-cost-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "certified restoration",
+     "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company serving Las Vegas, NV and the s",
+     "reason": "names a certification not present in brand.certifications"
     }
-  ]
+   ],
+   "published_verified_at": "2026-09-07T20:24:19Z"
+  },
+  {
+   "id": "2026-08-07-best-mold-remediation-in-las-vegas-nv",
+   "status": "published",
+   "queued_at": "2026-08-07T03:43:51Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-mold-remediation-in-las-vegas-nv",
+   "primary_keyword": "best mold remediation company in Las Vegas, NV",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "las-vegas-nv",
+   "best_of": {
+    "service": "mold-remediation",
+    "service_pretty": "Mold Remediation",
+    "city": "Las Vegas",
+    "state": "NV",
+    "competitors": [
+     {
+      "name": "WFM Restoration LLC",
+      "google_rating": 4.9,
+      "review_count": 1065
+     },
+     {
+      "name": "RemediationX",
+      "google_rating": 4.9,
+      "review_count": 35
+     },
+     {
+      "name": "Vortex Restoration",
+      "google_rating": 5,
+      "review_count": 25
+     },
+     {
+      "name": "Elevate Restore",
+      "google_rating": 4.9,
+      "review_count": 184
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best mold remediation companies Las Vegas",
+    "top rated mold remediation Las Vegas NV",
+    "who is the best mold remediation company in Las Vegas",
+    "mold removal Las Vegas",
+    "black mold removal Las Vegas",
+    "mold cleanup Las Vegas"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-08-27T05:48:20Z",
+   "post_url": "https://purocleaneastlasvegas.com/blog/best-mold-remediation-company-in-las-vegas-nv/",
+   "claims_flags": [
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "frontmatter",
+     "family": "certification",
+     "severity": "error",
+     "matched": "IICRC",
+     "context": "tion company in Las Vegas, NV. They are IICRC-certified, serve the full metro area fr",
+     "reason": "names a certification not present in brand.certifications"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "frontmatter",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "gas is legitimate?\", \"answer\": \"Ask for IICRC S520 certification for the on-site tech",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "IICRC",
+     "context": "ion company in Las Vegas, NV, backed by IICRC certification and a track record across",
+     "reason": "names a certification not present in brand.certifications"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "ctor. You need a company that knows the IICRC S520 mold remediation standard, builds",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "IICRC",
+     "context": "tion company in Las Vegas, NV. They are IICRC-certified, serve the full metro area fr",
+     "reason": "names a certification not present in brand.certifications"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "ull-face respirators, the standard the [IICRC S520](https://www.iicrc.org) requires f",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "IICRC",
+     "context": "egas PuroClean of East Las Vegas is an IICRC-certified mold remediation company serv",
+     "reason": "names a certification not present in brand.certifications"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "IICRC",
+     "context": "They do not subcontract mold work, the IICRC-certified crew that shows up is the cre",
+     "reason": "names a certification not present in brand.certifications"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "specifically, their process follows the IICRC S520 standard: containment first, then",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "IICRC",
+     "context": "Confirm their mold-specific experience, IICRC credentials, and containment process di",
+     "reason": "names a certification not present in brand.certifications"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "f they hesitate, that's your answer. **IICRC S520 certification.** The [IICRC](https",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "er. **IICRC S520 certification.** The [IICRC](https://www.iicrc.org) publishes the S",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "IICRC",
+     "context": "ot just the company owner, hold current IICRC certification. A certified company with",
+     "reason": "names a certification not present in brand.certifications"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "IICRC",
+     "context": "| Company | Google Rating | Reviews | IICRC Certified | 24/7 Emergency | |---|---|-",
+     "reason": "names a certification not present in brand.certifications"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "IICRC",
+     "context": "as** PuroClean of East Las Vegas is an IICRC-certified restoration company based at",
+     "reason": "names a certification not present in brand.certifications"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "error",
+     "matched": "certified restoration",
+     "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company based at 2777 N Lamb Blvd, Las",
+     "reason": "names a certification not present in brand.certifications"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "065 reviews",
+     "context": "C has a 4.9-star Google rating across 1,065 reviews, the highest review volume of any compa",
+     "reason": "listicle review-count 65 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "184 reviews",
+     "context": "ore holds a 4.9-star Google rating with 184 reviews. That puts them in a solid mid-tier by",
+     "reason": "listicle review-count 184 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "35 reviews",
+     "context": "X carries a 4.9-star Google rating with 35 reviews. Fewer reviews means the rating is hard",
+     "reason": "listicle review-count 35 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "25 reviews",
+     "context": "ion has a 5.0-star Google rating across 25 reviews. A perfect score on a small sample is w",
+     "reason": "listicle review-count 25 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+     "file": "src/content/blog/best-mold-remediation-company-in-las-vegas-nv.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "25 reviews",
+     "context": "ing but should be weighted accordingly, 25 reviews is a thin dataset. Vortex Restoration i",
+     "reason": "listicle review-count 25 (competitor stat \u2014 verify it is not presented as ours)"
+    }
+   ],
+   "published_verified_at": "2026-08-27T05:49:32Z"
+  },
+  {
+   "id": "2026-08-09-mold-remediation-cost",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "mold remediation cost",
+   "intent": "commercial",
+   "volume": 9900,
+   "kd": 3,
+   "fan_out_cluster": [
+    "mold removal cost",
+    "average cost of mold remediation",
+    "mold remediation cost las vegas",
+    "black mold removal cost",
+    "mold remediation cost per square foot",
+    "is mold remediation covered by insurance"
+   ],
+   "suggested_slug": "mold-remediation-cost",
+   "suggested_title": "Mold Remediation Cost in Las Vegas: What Homeowners Actually Pay",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/service-areas/las-vegas-nv/mold-remediation/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "mold-remediation"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Highest-volume cost guide in the pool (9,900/mo national, KD 3, $23 CPC). National ranges first, then Las Vegas cost drivers: swamp-cooler and HVAC-condensation mold jobs, post-monsoon moisture, containment in occupied homes. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-mold-inspection-cost",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:46:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "mold inspection cost",
+   "intent": "commercial",
+   "volume": 5400,
+   "kd": null,
+   "fan_out_cluster": [
+    "mold testing cost",
+    "how much is a mold inspection",
+    "air quality testing for mold cost",
+    "mold inspection cost las vegas",
+    "mold assessment cost"
+   ],
+   "suggested_slug": "mold-inspection-cost",
+   "suggested_title": "Mold Inspection Cost in Las Vegas: What Testing Should and Should Not Cost",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "mold-remediation"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-testing-or-sampling"
+   ],
+   "notes": "5,400/mo national. Companion to the existing DIY-kits-vs-pro testing post: this one is pure pricing. Explain when paid third-party testing is worth it vs when a remediation company's assessment covers it. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-water-damage-restoration-cost",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:47:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "water damage restoration cost",
+   "intent": "commercial",
+   "volume": 880,
+   "kd": 3,
+   "fan_out_cluster": [
+    "water damage repair cost",
+    "water damage restoration cost las vegas",
+    "water mitigation cost",
+    "cost to dry out a house after a leak",
+    "water damage restoration cost per square foot"
+   ],
+   "suggested_slug": "water-damage-restoration-cost",
+   "suggested_title": "Water Damage Restoration Cost in Las Vegas: A Straight Answer on Pricing",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/service-areas/las-vegas-nv/water-damage-restoration/",
+    "/blog/how-long-does-water-damage-restoration-take/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/standards/iicrc-s500/"
+   ],
+   "notes": "880/mo, KD 3, $20 CPC. Break down by water category and class, then Vegas factors: slab-on-grade drying, monsoon intrusion vs supply-line breaks, insurance vs out-of-pocket. Cross-link the duration and insurance posts. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-slab-leak-repair-cost",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:48:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "slab leak repair cost",
+   "intent": "commercial",
+   "volume": 1300,
+   "kd": 1,
+   "fan_out_cluster": [
+    "how much does it cost to fix a slab leak",
+    "slab leak detection cost",
+    "does homeowners insurance cover slab leaks",
+    "slab leak water damage repair",
+    "repipe vs slab leak repair cost"
+   ],
+   "suggested_slug": "slab-leak-repair-cost",
+   "suggested_title": "Slab Leak Repair Cost: What Las Vegas Homeowners Should Budget",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/how-long-does-water-damage-restoration-take/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/standards/iicrc-s500/"
+   ],
+   "notes": "1,300/mo, KD 1, $28 CPC. Vegas valley homes are overwhelmingly slab-on-grade, and Henderson's newer master-planned communities generate steady slab-leak calls (plan-input local notes). Be precise about roles: a licensed plumber locates and repairs the pipe; PuroClean handles the water damage mitigation and drying around it. Cover detection, access, repair, and restoration as separate line items. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-fire-damage-restoration-cost",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:49:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "fire damage restoration cost",
+   "intent": "commercial",
+   "volume": 260,
+   "kd": null,
+   "fan_out_cluster": [
+    "fire damage repair cost",
+    "smoke damage cleanup cost",
+    "soot removal cost",
+    "fire restoration cost per square foot",
+    "does insurance cover fire damage restoration"
+   ],
+   "suggested_slug": "fire-damage-restoration-cost",
+   "suggested_title": "Fire Damage Restoration Cost: What to Expect After a House Fire in Las Vegas",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/blog/fire-damage-restoration-process/",
+    "/blog/smoke-odor-removal-techniques/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
+   ],
+   "notes": "260/mo, CPC data thin but top-of-page bids run $8 to $77, so commercial value is real. Cost ranges by damage tier (smoke only, single room, structural) and why fire claims are almost always insurance jobs. Links to the existing process and smoke-odor posts. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-sewage-backup-cleanup-cost",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:50:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "sewage backup cleanup cost",
+   "intent": "commercial",
+   "volume": 260,
+   "kd": null,
+   "fan_out_cluster": [
+    "sewage cleanup cost",
+    "sewage removal cost",
+    "does insurance cover sewage backup",
+    "who is responsible for sewer backup",
+    "category 3 water cleanup cost"
+   ],
+   "suggested_slug": "sewage-backup-cleanup-cost",
+   "suggested_title": "Sewage Backup Cleanup Cost in Las Vegas: Pricing, Insurance, and Why It Varies",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/sewage-cleanup/",
+    "/blog/sewage-backup-health-risks/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "sewage-cleanup"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/standards/iicrc-s500/"
+   ],
+   "notes": "260/mo at $46 CPC. Category 3 water rules drive the price: containment, disposal, sanitization. Cover the sewer-backup insurance endorsement gap (most base policies exclude it) and landlord vs tenant vs utility responsibility. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-does-homeowners-insurance-cover-flood-damage",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:51:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "does homeowners insurance cover flood damage",
+   "intent": "informational",
+   "volume": 210,
+   "kd": 44,
+   "fan_out_cluster": [
+    "flood insurance vs homeowners insurance",
+    "does insurance cover flash flooding",
+    "nfip flood insurance nevada",
+    "monsoon flood damage insurance claim",
+    "flood damage vs water damage insurance"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-flood-damage",
+   "suggested_title": "Does Homeowners Insurance Cover Flood Damage? What Las Vegas Monsoon Season Teaches",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/services/water-damage-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://doi.nv.gov/Consumers/Homeowners-Insurance/Flood-Insurance/",
+    "https://www.floodsmart.gov/"
+   ],
+   "notes": "Flood-specific companion to the existing water damage insurance post. Core answer per Nevada Division of Insurance: standard homeowners policies generally exclude flood; NFIP is a separate policy, and monsoon flash-flood losses may require filing both claims. Grounded by the ChatGPT scraper decomposition, which cited NV DOI and Clark County flash-flood guidance. Lead with the plain answer in the first 80 words.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-what-to-do-when-your-house-floods-monsoon",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:52:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "what to do when your house floods",
+   "intent": "informational",
+   "volume": 140,
+   "kd": null,
+   "fan_out_cluster": [
+    "what to do if your house floods during a monsoon",
+    "monsoon water damage",
+    "flash flood damage house",
+    "how to document flood damage for insurance",
+    "is flood water dangerous"
+   ],
+   "suggested_slug": "what-to-do-when-your-house-floods-monsoon",
+   "suggested_title": "What to Do When Your House Floods During a Las Vegas Monsoon",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/services/water-damage-restoration/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "sewage-cleanup"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.clarkcountynv.gov/government/departments/fire/flash-flood-safety",
+    "https://www.oem.nv.gov/emergency-management/threats-hazards/floods/"
+   ],
+   "notes": "140/mo with a striking $69 CPC. Distinct from the existing first-24-hours post: that covers indoor supply-line events, this covers outdoor floodwater entering the home (Category 3, contaminated). Sequence per Clark County and NV OEM guidance: safety and re-entry, electrical hazards, document everything before cleanup, then rapid drying. Monsoon season runs roughly July to September in the Vegas valley.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-swamp-cooler-mold",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:53:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "swamp cooler mold",
+   "intent": "informational",
+   "volume": 70,
+   "kd": null,
+   "fan_out_cluster": [
+    "can a swamp cooler cause mold",
+    "evaporative cooler mold",
+    "swamp cooler smells musty",
+    "how to prevent mold in an evaporative cooler",
+    "mold in swamp cooler ducts"
+   ],
+   "suggested_slug": "swamp-cooler-mold",
+   "suggested_title": "Swamp Cooler Mold: Can Your Evaporative Cooler Cause Mold in a Las Vegas Home?",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/how-to-test-for-mold/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "mold-remediation"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Search volume peaks every summer (110 to 140/mo in July and August). Older East Las Vegas and Downtown homes still run evaporative coolers: constant pad moisture in an otherwise dry climate is a classic mold path, and it feeds ducts directly. Only groundable claims; no scare copy. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-what-is-a-slab-leak",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:54:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "what is a slab leak",
+   "intent": "informational",
+   "volume": 880,
+   "kd": 4,
+   "fan_out_cluster": [
+    "signs of a slab leak",
+    "how to detect a slab leak",
+    "what causes slab leaks",
+    "slab leak water damage",
+    "hot spots on floor slab leak"
+   ],
+   "suggested_slug": "what-is-a-slab-leak",
+   "suggested_title": "What Is a Slab Leak? Signs, Causes, and Next Steps for Las Vegas Homes",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.epa.gov/watersense/fix-leak-week"
+   ],
+   "notes": "880/mo, KD 4. Nearly every Vegas valley home sits on a slab with no basement, so supply lines run under or through the slab. Signs cluster (warm floor spots, unexplained water bill spikes, damp baseboards) becomes H2s. Clarify the plumber vs restoration division of labor and link the slab leak repair cost guide once live.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-does-renters-insurance-cover-water-damage",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "does renters insurance cover water damage",
+   "intent": "informational",
+   "volume": 1000,
+   "kd": 9,
+   "fan_out_cluster": [
+    "renters insurance water damage from upstairs unit",
+    "landlord vs renter water damage responsibility",
+    "does renters insurance cover mold",
+    "does renters insurance cover flood damage",
+    "what does renters insurance actually cover"
+   ],
+   "suggested_slug": "does-renters-insurance-cover-water-damage",
+   "suggested_title": "Does Renters Insurance Cover Water Damage? A Guide for Las Vegas Tenants",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/services/water-damage-restoration/",
+    "/service-areas/paradise-nv/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://doi.nv.gov/Consumers/Renters-Insurance/"
+   ],
+   "notes": "1,000/mo, KD 9. Strong local fit: high-density condos and rentals near the Strip and UNLV (Paradise) frequently need water cleanup. Cover the personal-property vs building split, liability when a tenant's leak damages the unit below, and the flood exclusion. Nevada DOI as authority.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-water-stains-on-stucco",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:56:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "water stains on stucco",
+   "intent": "informational",
+   "volume": 390,
+   "kd": null,
+   "fan_out_cluster": [
+    "stucco water damage",
+    "how does water get behind stucco",
+    "stucco water damage repair",
+    "efflorescence on stucco",
+    "stucco stains after rain"
+   ],
+   "suggested_slug": "water-stains-on-stucco",
+   "suggested_title": "Water Stains on Stucco: What They Mean for Your Las Vegas Home",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/blog/signs-of-hidden-mold/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "390/mo and rising into summer (590 in June). Stucco is the default exterior across the Vegas valley; monsoon-driven rain, sprinkler overspray, and parapet or scupper failures leave telltale staining. Teach the difference between cosmetic efflorescence and trapped moisture that threatens framing and interior walls. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-unattended-death-cleanup",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:57:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "unattended death cleanup",
+   "intent": "transactional",
+   "volume": 480,
+   "kd": null,
+   "fan_out_cluster": [
+    "who cleans up after a death at home",
+    "unattended death cleanup cost",
+    "biohazard cleanup after death",
+    "how long does unattended death cleanup take",
+    "does insurance cover unattended death cleanup"
+   ],
+   "suggested_slug": "unattended-death-cleanup",
+   "suggested_title": "Unattended Death Cleanup: What Las Vegas Families Need to Know",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/las-vegas-nv/biohazard-cleanup/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "biohazard-cleanup"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.cdc.gov/niosh/topics/bbp/"
+   ],
+   "notes": "SENSITIVE TOPIC: writer must apply sensitive-content guardrails. Compassionate, practical, zero graphic detail. 480/mo at $110 CPC, the highest-value biohazard term in the pool, and the site has no dedicated page for it: this post carries the query until one exists. Cover who to call first, what not to do, insurance, and discretion.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-09-diy-mold-remediation",
+   "status": "queued",
+   "queued_at": "2026-08-10T00:58:00Z",
+   "written_at": null,
+   "post_url": null,
+   "priority": 1,
+   "primary_keyword": "diy mold remediation",
+   "intent": "informational",
+   "volume": 1900,
+   "kd": 9,
+   "fan_out_cluster": [
+    "diy mold removal",
+    "when to hire a mold remediation professional",
+    "mold remediation process",
+    "is diy mold removal safe",
+    "epa 10 square feet mold guideline"
+   ],
+   "suggested_slug": "diy-mold-remediation",
+   "suggested_title": "DIY Mold Remediation: When It Works and When Las Vegas Homes Need a Pro",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/black-mold-vs-regular-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "mold-remediation"
+   ],
+   "city_anchor": "las-vegas-nv",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "1,900/mo, KD 9. Honest-broker post: EPA's roughly 10 square feet guidance is the dividing line. DIY-appropriate cases, the mistakes that spread spores (dry scraping, bleach on porous drywall), and the Vegas wrinkles: swamp-cooler duct mold and post-monsoon wall cavities are never DIY jobs. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-27-homeowners-insurance-for-storm-damage",
+   "status": "queued",
+   "queued_at": "2026-08-27T05:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "homeowners insurance for storm damage",
+   "intent": "informational",
+   "volume": 590,
+   "kd": 22,
+   "fan_out_cluster": [
+    "storm damage insurance claim",
+    "storm damage claim",
+    "does homeowners insurance cover storm cleanup",
+    "how long to file a storm damage insurance claim",
+    "how to document storm damage for an insurance claim",
+    "how to avoid a storm damage claim denial"
+   ],
+   "suggested_slug": "homeowners-insurance-for-storm-damage",
+   "suggested_title": "Homeowners insurance for storm damage: what a Nevada policy actually pays for",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/service-areas/las-vegas-nv/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://doi.nv.gov/Consumers/Homeowners/",
+    "https://www.iii.org/article/understanding-your-insurance-deductible",
+    "https://www.floodsmart.gov/"
+   ],
+   "notes": "Highest-volume in-scope keyword this seed produced (590/mo, KD 22). Companion piece to the existing /blog/does-homeowners-insurance-cover-water-damage/ post: that one covers water specifically, this one covers the storm/monsoon claim path end to end (wind-driven rain vs flood exclusion, ACV vs replacement cost, mitigation duty). Nevada angle: standard HO-3 policies exclude flood, and Clark County monsoon flash flooding is the exact scenario homeowners assume is covered but is not. Link the mitigation-duty section straight to the water damage restoration service page: insurers require prompt mitigation, which is the client's actual product."
+  },
+  {
+   "id": "2026-08-27-does-homeowners-insurance-cover-wind-damage",
+   "status": "queued",
+   "queued_at": "2026-08-27T05:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does homeowners insurance cover wind damage",
+   "intent": "informational",
+   "volume": 170,
+   "kd": 19,
+   "fan_out_cluster": [
+    "straight line wind damage",
+    "how do i know if my roof has storm damage",
+    "wind damage repair",
+    "what to do after a roof leak in your ceiling",
+    "las vegas wind damage",
+    "signs of water intrusion in your house"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-wind-damage",
+   "suggested_title": "Does homeowners insurance cover wind damage? A Las Vegas homeowner's guide",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/what-to-do-first-24-hours-water-damage/"
+   ],
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://doi.nv.gov/Consumers/Homeowners/",
+    "https://www.weather.gov/vef/monsoon",
+    "https://www.iii.org/article/what-is-covered-by-standard-homeowners-policy"
+   ],
+   "notes": "170/mo, KD 19. Scope guard for the writer: PuroClean of East Las Vegas does NOT do roofing. Cover wind damage from the interior-damage angle only (wind lifts tile or flashing, rain gets in, ceiling and drywall soak, mold follows in 24 to 48 hours). Point roof repair itself at a roofer and keep the CTA on water intrusion drying and mold prevention. Las Vegas monsoon microbursts routinely hit 60 to 80 mph, which is the local hook."
+  },
+  {
+   "id": "2026-08-27-hidden-water-damage-after-a-storm",
+   "status": "queued",
+   "queued_at": "2026-08-27T05:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how to check for hidden water damage after a storm",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "signs of water intrusion in your house",
+    "what to do after a storm damages your house",
+    "what to do after a roof leak in your ceiling",
+    "how do i know if my roof has storm damage",
+    "water stains on stucco",
+    "how long does storm damage restoration take"
+   ],
+   "suggested_slug": "how-to-check-for-hidden-water-damage-after-a-storm",
+   "suggested_title": "How to check for hidden water damage after a storm (room-by-room walkthrough)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/mold-after-water-damage/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.epa.gov/mold/mold-cleanup-your-home",
+    "https://www.weather.gov/vef/monsoon"
+   ],
+   "notes": "Zero measured Google volume, queued on AI-retrieval value: surfaced directly by the ChatGPT decomposition of the storm-damage prompt, and question pages are what AI engines lift verbatim. Structure it as a checklist with one short answer paragraph per room (attic, ceilings, exterior walls, around windows, under flooring, HVAC closet) so each block is independently quotable. Vegas specifics: stucco staining, swamp cooler pans on the roof, and flat or low-slope tile roofs that pond after a monsoon cell."
+  },
+  {
+   "id": "2026-08-27-can-a-monsoon-cause-mold-in-your-house",
+   "status": "queued",
+   "queued_at": "2026-08-27T05:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "can a monsoon cause mold in your house",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "can mold grow in the desert",
+    "monsoon water damage",
+    "how to check for hidden water damage after a storm",
+    "swamp cooler mold",
+    "how quickly does mold grow after water damage",
+    "what to do after a storm damages your house"
+   ],
+   "suggested_slug": "can-a-monsoon-cause-mold-in-your-house",
+   "suggested_title": "Can a monsoon cause mold in your house? What Las Vegas homeowners need to know",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/mold-after-water-damage/",
+    "/blog/black-mold-vs-regular-mold/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-course-chapter-1",
+    "https://www.cdc.gov/mold-health/about/index.html",
+    "https://www.weather.gov/vef/monsoon"
+   ],
+   "notes": "Zero measured Google volume, queued for AI retrieval plus a genuine local-authority gap: nobody in this market has written the desert-mold answer well. The counterintuitive hook is that Las Vegas humidity spikes from single digits to 50 percent-plus during monsoon season, which is exactly the 24 to 48 hour window mold needs after any intrusion. Overlaps the banked priority-2 keyword 'can mold grow in the desert', so fold that in as an H2 rather than writing it separately later."
+  }
+ ]
 }
