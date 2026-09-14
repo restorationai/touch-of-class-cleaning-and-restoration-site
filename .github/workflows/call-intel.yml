@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install --quiet requests
+      - run: pip install --quiet requests python-dotenv
       - name: Transcribe + analyze new tracked calls
         env:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -33,4 +33,23 @@ jobs:
         # approved toll-free (their Twilio subaccount). Never our numbers;
         # clients without an approved line are skipped. 07:00-21:00 local,
         # overnight calls deliver next morning; deduped per call in ops_kv.
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
+          GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
+          CONCIERGE_ALLOWLIST:       ${{ secrets.CONCIERGE_ALLOWLIST }}
         run: python3 scripts/call_alerts.py --send || echo "call alerts failed (non-fatal)"
+
+      - name: Anthropic credit canary (outage tripwire, 2026-09-14)
+        # 09-14 incident: credits ran dry and every AI surface (Monica,
+        # debriefs, dev agent, email intake) died silently for hours. One
+        # cheap probe; on the credit-balance 400 it texts Santino's ops
+        # cell through GHL (no Anthropic needed), deduped 4h in ops_kv,
+        # plus a one-time "restored" text when balance returns.
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
+          GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
+          CONCIERGE_ALLOWLIST:       ${{ secrets.CONCIERGE_ALLOWLIST }}
+        run: python3 scripts/credit_canary.py || echo "canary failed (non-fatal)"
