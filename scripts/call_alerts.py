@@ -47,8 +47,7 @@ import requests  # noqa: E402
 
 from client_ops_sync import _sb, slug_map  # noqa: E402
 
-HANDS_OFF = {"paul-davis-charleston", "go-green-restoration-of-nc",
-             "kenneth-w-talbot-jr"}
+HANDS_OFF = {"paul-davis-charleston", "go-green-restoration-of-nc"}
 ALERT_HOUR_START, ALERT_HOUR_END = 7, 21
 
 

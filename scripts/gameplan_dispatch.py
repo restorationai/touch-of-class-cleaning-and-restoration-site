@@ -46,8 +46,7 @@ load_dotenv(ROOT / ".env")
 from client_ops_sync import _sb, slug_map  # noqa: E402
 
 # Hands-off clients: no work of any kind, including dispatched tasks.
-HANDS_OFF_SLUGS = {"paul-davis-charleston", "go-green-restoration-of-nc",
-                   "kenneth-w-talbot-jr"}
+HANDS_OFF_SLUGS = {"paul-davis-charleston", "go-green-restoration-of-nc"}
 
 
 def _kv_get(k: str):
