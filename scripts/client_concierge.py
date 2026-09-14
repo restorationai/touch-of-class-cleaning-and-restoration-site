@@ -8992,6 +8992,13 @@ the client's message. Read what the client is doing and answer with JSON:
   that IS "confirmed" with confirmed_name = that exact name. Never re-ask
   someone to pick a name they just agreed to.
 - "declined": they clearly do not want a rename at all.
+- SERVICE-TERM OBJECTION (Santino 2026-09-14, the Frontline mold case):
+  when they reject a name BECAUSE of a specific service word ("I don't
+  want mold in my name"), that is NOT "declined" — it is "question", and
+  your reply asks ONE clarifying question: which services do they most
+  want to be found for? Their answer drives the next suggestion (the
+  research volumes pick the strongest replacement term). Never just drop
+  the term and guess a substitute without asking.
 - "service_answer": they answered a service or license question (plumbing,
   mold, sewage...). Fill service_answers; term is the lowercase service
   word, offers is their answer. If they ALSO picked a name, use "confirmed"
