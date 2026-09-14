@@ -8843,9 +8843,12 @@ def _rename_candidates(company_id: str) -> list[dict]:
 
 def _norm_name(s: str) -> str:
     # Dash normalization (Amin 09-13 typed an EN dash pasting the name
-    # back): every dash variant reads as a hyphen for matching; the STORED
-    # candidate string stays the canonical form.
+    # back) + &/and equivalence (DISS 09-14: the transcript said "and",
+    # the researched candidate said "&", and the mismatch minted a
+    # near-duplicate chosen row): every dash variant reads as a hyphen,
+    # "&" reads as "and". The STORED candidate string stays canonical.
     s = re.sub(r"[‐-―−]", "-", str(s or ""))
+    s = re.sub(r"\s*&\s*", " and ", s)
     return re.sub(r"\s+", " ", s).strip().lower()
 
 
