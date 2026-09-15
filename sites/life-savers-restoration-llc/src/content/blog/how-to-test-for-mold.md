@@ -2,7 +2,7 @@
 archetype: "blog-post"
 title: "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)"
 h1: "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)"
-meta_description: ""
+meta_description: "How to test for mold in your home: compare DIY mold test kits against a professional inspection, what each actually tells you, and when testing is worth it."
 primary_keyword: "how to test for mold in your home diy kits vs a pro inspection"
 secondary_keywords: ["mold remediation", "mold inspection and testing"]
 search_intent: "informational_health"
