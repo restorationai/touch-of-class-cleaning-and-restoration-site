@@ -62,13 +62,18 @@ async function resolveRecipient(env: Env): Promise<string> {
   if (!env.SUPABASE_URL || !env.SUPABASE_SERVICE_ROLE_KEY || !env.COMPANY_ID) return fallback;
   const rows = (await sbGet(
     env,
-    `companies?id=eq.${env.COMPANY_ID}&select=email,transfer_primary_email&limit=1`
-  )) as { email?: string; transfer_primary_email?: string }[] | null;
+    `companies?id=eq.${env.COMPANY_ID}&select=email,transfer_primary_email,integration_settings&limit=1`
+  )) as { email?: string; transfer_primary_email?: string;
+          integration_settings?: { lead_notify_emails?: string[] } }[] | null;
   const c = rows?.[0];
+  // Client-managed recipients list (RT Olson/BDA 2026-09-15: needed a third
+  // catch-all address). Merged with the two legacy fields, deduped.
+  const extra = (c?.integration_settings?.lead_notify_emails || [])
+    .map((x) => String(x || "").trim()).filter(Boolean);
   // BOTH addresses get the lead when both exist (Bob/RT Olson 2026-09-15:
   // office@ was landing in a folder nobody read; a second recipient is
   // cheap insurance). Comma-joined; sendEmail splits.
-  const both = [(c?.email || "").trim(), (c?.transfer_primary_email || "").trim()]
+  const both = [(c?.email || "").trim(), (c?.transfer_primary_email || "").trim(), ...extra]
     .filter((x, i, a) => x && a.indexOf(x) === i);
   return both.length ? both.join(",") : fallback;
 }
