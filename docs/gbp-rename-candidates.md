@@ -207,3 +207,17 @@ seeding keyed on restoration search terms without cross-checking
 companies.services or GBP categories. Fixed mechanically: rename-pitch now
 runs _rename_coverage_gaps (blocking tier roofing/plumbing/mold/water/fire)
 and refuses an incomplete slate; the skill doc carries the same law.
+
+## Flood Solutions (CO-1789143868981) — seeded 2026-09-15 (live during Craig meeting)
+
+MI state pools (DataForSEO 09-15): mold remediation 2,400/mo; emergency
+plumber/plumbing 1,600/mo each; water damage restoration 880/mo; basement
+flooding 390/mo; fire 210; sewage 70; flood cleanup 40 (their brand word
+barely searches — service terms must do the work).
+
+1. 0.91 Flood Solutions - 24/7 Emergency Plumbing & Water Damage Restoration
+   (aggressive-first; plumbing license gate)
+2. 0.90 Flood Solutions - 24/7 Emergency Water Damage Restoration & Mold
+   Remediation (mold NOT in services — coverage question first)
+3. 0.80 Flood Solutions - Water Damage Restoration & Sewage Cleanup
+   (conservative, fully covered)
