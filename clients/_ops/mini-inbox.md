@@ -1,5 +1,9 @@
 # Mini inbox — current assignments (newest at top)
 
+> **RESUMED 2026-09-15 — Santino is ON-SITE at this machine right now.**
+> Work top to bottom. Supervised items are GO today (he is present).
+> Start with PROVE THE CHANNEL, then continue straight down.
+
 - [ ] **PROVE THE CHANNEL (do this first, unsupervised, 2 minutes):**
   follow the new step 0 in docs/MINI-OPERATOR.md — append a heartbeat line
   to `clients/_ops/mini-heartbeat.md`, commit, push. Then write your first
