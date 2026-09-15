@@ -17,3 +17,26 @@ Candidates (Santino's research):
 - ewire.com
 - prnow.io/white-label + prnow.io/api-docs  (white-label + documented API!)
 - (EIN Presswire inquiry already out 09-13 — reply pending)
+
+## Outreach log 2026-09-14 (evening)
+
+Sent the volume/API/reseller inquiry (six asks: guaranteed placements +
+sample live-URL report, API/webhook docs, turnaround, white-label, pricing
+at 10/30/50 per month, editorial restrictions) from contact@restorationai.io to:
+
+- ACCESS Newswire — partnerinquiry@accessnewswire.com (reseller-program angle)
+- PRNow — resellers@prnow.io (white-label + api-docs angle)
+- Pitchwire — partnerships@pitchwire.ai
+- eWire — hello@ewire.com
+- Press Release Submit — support@pressreleasesubmit.com
+- Press Release Distribution AI — support@pressreleasedistribution.ai
+- Magic PR — info@magicpr.com
+
+NOT re-contacted: 38 Digital / Randy (randy@38digitalmarket.com) — our 30%
+counter + higher-tier quote request from 09-14 is still an open thread;
+a fresh generic inquiry would undercut that negotiation. Watch his reply.
+EIN Presswire bulk-pricing inquiry also still pending a reply.
+
+Next: as replies land, build the comparison (placements proof, API,
+white-label, per-release price at volume) and shortlist for a 2-vendor
+bake-off with one real release each.
