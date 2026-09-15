@@ -1,4 +1,6 @@
 [
  {"label": "Las Vegas", "lat": 36.1699, "lng": -115.1398},
- {"label": "North Las Vegas", "lat": 36.1989, "lng": -115.1175}
+ {"label": "North Las Vegas", "lat": 36.1989, "lng": -115.1175},
+ {"label": "Spring Valley", "lat": 36.107, "lng": -115.243},
+ {"label": "Sunrise Manor", "lat": 36.1973, "lng": -115.0453}
 ]
