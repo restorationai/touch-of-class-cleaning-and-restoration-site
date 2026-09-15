@@ -29,6 +29,1235 @@
       "triaged_at": "2026-09-11T22:46:33Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "crew:1789505722567-888a9e46": {
+      "source": "crew",
+      "storage": "job-photos/1789505722567-888a9e46.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789505722567-888a9e46.jpg",
+      "width": 924,
+      "height": 2000,
+      "bytes": 783009,
+      "sha1": "ed2f8af983739e27",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Frontline Fire and Flood branded van parked under trees",
+      "quality": 62,
+      "slots": {
+        "hero": 38,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Portrait crop, partial shade, cluttered background limit hero use.",
+      "triaged_at": "2026-09-15T23:27:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789505723513-ea14c62b": {
+      "source": "crew",
+      "storage": "job-photos/1789505723513-ea14c62b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789505723513-ea14c62b.jpg",
+      "width": 924,
+      "height": 2000,
+      "bytes": 725875,
+      "sha1": "c552256f2f4ae0fb",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Rear of Frontline Fire and Flood branded van on gravel",
+      "quality": 60,
+      "slots": {
+        "hero": 28,
+        "team": 0,
+        "services": 8
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Rear angle, portrait crop, overcast light; weaker than side profile shots.",
+      "triaged_at": "2026-09-15T23:27:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789505724184-9e55df7b": {
+      "source": "crew",
+      "storage": "job-photos/1789505724184-9e55df7b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789505724184-9e55df7b.jpg",
+      "width": 924,
+      "height": 2000,
+      "bytes": 759722,
+      "sha1": "edb36f37ddb430c6",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Orange Frontline van and truck parked at residential job site",
+      "quality": 52,
+      "slots": {
+        "hero": 22,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Front-on angle, cluttered driveway, poor composition; limited marketing use.",
+      "triaged_at": "2026-09-15T23:27:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789505724810-ed37be54": {
+      "source": "crew",
+      "storage": "job-photos/1789505724810-ed37be54.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789505724810-ed37be54.jpg",
+      "width": 2000,
+      "height": 924,
+      "bytes": 616968,
+      "sha1": "02e3a4e5464b4bd3",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Frontline Fire and Flood van parked cleanly against fence",
+      "quality": 80,
+      "slots": {
+        "hero": 72,
+        "team": 0,
+        "services": 18
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Best fleet shot; wide landscape crop, clean background, good exposure.",
+      "triaged_at": "2026-09-15T23:27:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789508896241-8cf01b74": {
+      "source": "crew",
+      "storage": "job-photos/1789508896241-8cf01b74.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789508896241-8cf01b74.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 208209,
+      "sha1": "f01e8ba06b52bac3",
+      "exif": {},
+      "category": "crew",
+      "subject": "Woman in Frontline uniform smiling in company office",
+      "quality": 88,
+      "slots": {
+        "hero": 30,
+        "team": 90,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Professional headshot in branded uniform; excellent for team/about page.",
+      "triaged_at": "2026-09-15T23:27:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789508908914-e267de4e": {
+      "source": "crew",
+      "storage": "job-photos/1789508908914-e267de4e.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789508908914-e267de4e.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 160766,
+      "sha1": "4480733586854669",
+      "exif": {},
+      "category": "crew",
+      "subject": "Man in Frontline uniform posed in company office",
+      "quality": 88,
+      "slots": {
+        "hero": 30,
+        "team": 90,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Professional headshot in branded uniform; excellent for team/about page.",
+      "triaged_at": "2026-09-15T23:27:28Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789508924102-dd586250": {
+      "source": "crew",
+      "storage": "job-photos/1789508924102-dd586250.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789508924102-dd586250.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 174078,
+      "sha1": "8b864fbb46254337",
+      "exif": {},
+      "category": "crew",
+      "subject": "Male technician in blue Frontline polo, office background",
+      "quality": 88,
+      "slots": {
+        "hero": 20,
+        "team": 82,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Professional headshot, strong team page candidate, portrait crop limits hero use.",
+      "triaged_at": "2026-09-15T23:27:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789508934894-fd767114": {
+      "source": "crew",
+      "storage": "job-photos/1789508934894-fd767114.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789508934894-fd767114.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 167203,
+      "sha1": "91332b3320463ab7",
+      "exif": {},
+      "category": "crew",
+      "subject": "Young male technician in blue Frontline polo, office background",
+      "quality": 87,
+      "slots": {
+        "hero": 20,
+        "team": 82,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clean professional headshot, good for team page; portrait crop limits hero use.",
+      "triaged_at": "2026-09-15T23:27:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789508943390-18e3900b": {
+      "source": "crew",
+      "storage": "job-photos/1789508943390-18e3900b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789508943390-18e3900b.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 154279,
+      "sha1": "1b2086259ad6926f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Male technician with beard in blue Frontline polo, office background",
+      "quality": 85,
+      "slots": {
+        "hero": 20,
+        "team": 80,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Professional headshot with company branding, suitable for team page.",
+      "triaged_at": "2026-09-15T23:27:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789508954676-5aab5213": {
+      "source": "crew",
+      "storage": "job-photos/1789508954676-5aab5213.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789508954676-5aab5213.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 174935,
+      "sha1": "ba74c211ec29707c",
+      "exif": {},
+      "category": "crew",
+      "subject": "Heavyset male in navy Frontline polo, office background",
+      "quality": 86,
+      "slots": {
+        "hero": 20,
+        "team": 80,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Strong headshot for team page; navy polo differs slightly from blue uniform.",
+      "triaged_at": "2026-09-15T23:27:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789508964595-ed5b620d": {
+      "source": "crew",
+      "storage": "job-photos/1789508964595-ed5b620d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789508964595-ed5b620d.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 166743,
+      "sha1": "eadbd448803a4b81",
+      "exif": {},
+      "category": "crew",
+      "subject": "Male technician with mustache in blue Frontline polo, office background",
+      "quality": 88,
+      "slots": {
+        "hero": 20,
+        "team": 83,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp, well-lit professional headshot; ideal for team page.",
+      "triaged_at": "2026-09-15T23:27:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789508973839-6c776251": {
+      "source": "crew",
+      "storage": "job-photos/1789508973839-6c776251.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789508973839-6c776251.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 169201,
+      "sha1": "09fc8814d584b8d7",
+      "exif": {},
+      "category": "crew",
+      "subject": "Male technician in blue Frontline polo, smiling, office background",
+      "quality": 87,
+      "slots": {
+        "hero": 20,
+        "team": 82,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Professional headshot, consistent style with other crew portraits, team page ready.",
+      "triaged_at": "2026-09-15T23:27:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789508983254-c56f6503": {
+      "source": "crew",
+      "storage": "job-photos/1789508983254-c56f6503.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789508983254-c56f6503.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 182530,
+      "sha1": "0993098ed8a61932",
+      "exif": {},
+      "category": "crew",
+      "subject": "Male technician in blue Frontline uniform, office backdrop",
+      "quality": 82,
+      "slots": {
+        "hero": 15,
+        "team": 78,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clean professional headshot in branded uniform; good for team page.",
+      "triaged_at": "2026-09-15T23:27:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789508994869-294309a4": {
+      "source": "crew",
+      "storage": "job-photos/1789508994869-294309a4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789508994869-294309a4.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 179230,
+      "sha1": "bdfcbc75de2fc60c",
+      "exif": {},
+      "category": "crew",
+      "subject": "Female technician in blue Frontline uniform, smiling, office backdrop",
+      "quality": 88,
+      "slots": {
+        "hero": 15,
+        "team": 85,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp, well-lit professional portrait; strong team-page candidate.",
+      "triaged_at": "2026-09-15T23:27:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789509003888-83bb1a2e": {
+      "source": "crew",
+      "storage": "job-photos/1789509003888-83bb1a2e.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789509003888-83bb1a2e.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 202264,
+      "sha1": "ad3769f131a47b64",
+      "exif": {},
+      "category": "crew",
+      "subject": "Male technician with dreadlocks in blue Frontline uniform",
+      "quality": 85,
+      "slots": {
+        "hero": 15,
+        "team": 82,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Well-exposed professional headshot in branded polo; solid team page use.",
+      "triaged_at": "2026-09-15T23:27:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789509012379-6d3f06fc": {
+      "source": "crew",
+      "storage": "job-photos/1789509012379-6d3f06fc.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789509012379-6d3f06fc.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 203992,
+      "sha1": "f14a884e5a68dce3",
+      "exif": {},
+      "category": "crew",
+      "subject": "Male technician in blue Frontline uniform, neutral expression",
+      "quality": 83,
+      "slots": {
+        "hero": 15,
+        "team": 80,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Consistent branded headshot style; good for team roster page.",
+      "triaged_at": "2026-09-15T23:27:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789509019953-de90342b": {
+      "source": "crew",
+      "storage": "job-photos/1789509019953-de90342b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789509019953-de90342b.jpg",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 185742,
+      "sha1": "cc2ab7aaaa426ad7",
+      "exif": {},
+      "category": "crew",
+      "subject": "Young male technician in blue Frontline uniform, office backdrop",
+      "quality": 82,
+      "slots": {
+        "hero": 15,
+        "team": 78,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clean branded portrait consistent with series; suitable for team page.",
+      "triaged_at": "2026-09-15T23:27:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510582978-46c31e77": {
+      "source": "crew",
+      "storage": "job-photos/1789510582978-46c31e77.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510582978-46c31e77.jpg",
+      "width": 1600,
+      "height": 2000,
+      "bytes": 475749,
+      "sha1": "a32f6418c4096e97",
+      "exif": {},
+      "category": "crew",
+      "subject": "Female technician in Frontline uniform standing beside company van",
+      "quality": 80,
+      "slots": {
+        "hero": 30,
+        "team": 80,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Combines crew and fleet context; slightly stronger hero potential than office portraits.",
+      "triaged_at": "2026-09-15T23:27:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510737805-a46bc0a1": {
+      "source": "crew",
+      "storage": "job-photos/1789510737805-a46bc0a1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510737805-a46bc0a1.jpg",
+      "width": 720,
+      "height": 1280,
+      "bytes": 210835,
+      "sha1": "8a710010cfff066b",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Extreme close-up of corroded or contaminated surface with debris",
+      "quality": 18,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 8
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res",
+        "blurry"
+      ],
+      "reason": "Unidentifiable macro shot; too ambiguous and low quality for marketing use.",
+      "triaged_at": "2026-09-15T23:28:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510885535-e08c8648": {
+      "source": "crew",
+      "storage": "job-photos/1789510885535-e08c8648.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510885535-e08c8648.jpg",
+      "width": 810,
+      "height": 1440,
+      "bytes": 104265,
+      "sha1": "90232ed047dba113",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Blue air mover on plastic sheeting inside residential living room",
+      "quality": 52,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Decent equipment-in-use shot; portrait crop and timestamp limit hero use.",
+      "triaged_at": "2026-09-15T23:28:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510886040-b7ee7f6f": {
+      "source": "crew",
+      "storage": "job-photos/1789510886040-b7ee7f6f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510886040-b7ee7f6f.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 199497,
+      "sha1": "10c1ed21e48a89a1",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Gutted residential interior with exposed framing and air mover",
+      "quality": 62,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear demolition and drying work in progress; good wide composition.",
+      "triaged_at": "2026-09-15T23:28:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510886640-025154f2": {
+      "source": "crew",
+      "storage": "job-photos/1789510886640-025154f2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510886640-025154f2.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 462749,
+      "sha1": "2b65cbfd231497ef",
+      "exif": {},
+      "category": "crew",
+      "subject": "Suited technician in respirator removing mold-damaged flooring material",
+      "quality": 58,
+      "slots": {
+        "hero": 20,
+        "team": 62,
+        "services": 72
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good action crew shot; portrait crop and cluttered scene limit hero score.",
+      "triaged_at": "2026-09-15T23:28:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510887256-f6cc8207": {
+      "source": "crew",
+      "storage": "job-photos/1789510887256-f6cc8207.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510887256-f6cc8207.jpg",
+      "width": 720,
+      "height": 1280,
+      "bytes": 209142,
+      "sha1": "b9e48c5a95ff8906",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Mold growth on OSB subfloor near copper pipes in crawl space",
+      "quality": 35,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 38
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "blurry",
+        "low_res"
+      ],
+      "reason": "Dark, angled, blurry crawl-space shot; limited marketing value.",
+      "triaged_at": "2026-09-15T23:28:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510887709-b5caa5d8": {
+      "source": "crew",
+      "storage": "job-photos/1789510887709-b5caa5d8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510887709-b5caa5d8.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 293795,
+      "sha1": "27c1d0151fc8d571",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Containment barrier with danger tape and HEPA filter in home hallway",
+      "quality": 55,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "asbestos-abatement"
+      ],
+      "flags": [],
+      "reason": "Clear containment setup; reads well as remediation service; poor hero crop.",
+      "triaged_at": "2026-09-15T23:28:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510888266-d01bc45d": {
+      "source": "crew",
+      "storage": "job-photos/1789510888266-d01bc45d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510888266-d01bc45d.jpg",
+      "width": 960,
+      "height": 720,
+      "bytes": 105665,
+      "sha1": "e40715401e654bf4",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Green and yellow mold growth on wooden ceiling surface",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "blurry",
+        "low_res"
+      ],
+      "reason": "Close-up mold shot is soft and poorly exposed; useful only for mold service card.",
+      "triaged_at": "2026-09-15T23:28:22Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510888693-23e58975": {
+      "source": "crew",
+      "storage": "job-photos/1789510888693-23e58975.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510888693-23e58975.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 179177,
+      "sha1": "a46b59a4e40801bf",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Dark mold staining across attic roof sheathing and rafters",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Well-composed attic mold shot; good evidence photo for mold service page.",
+      "triaged_at": "2026-09-15T23:28:22Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510889094-da5d71e4": {
+      "source": "crew",
+      "storage": "job-photos/1789510889094-da5d71e4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510889094-da5d71e4.jpg",
+      "width": 1440,
+      "height": 810,
+      "bytes": 112061,
+      "sha1": "e8368b6694856e94",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Plastic containment barrier and blue dehumidifier in living room",
+      "quality": 58,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 62
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Shows containment setup and drying equipment; decent services card candidate.",
+      "triaged_at": "2026-09-15T23:28:22Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510889554-0196f3f9": {
+      "source": "crew",
+      "storage": "job-photos/1789510889554-0196f3f9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510889554-0196f3f9.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 253696,
+      "sha1": "59b189fd08f945d5",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Heavy white mold covering crawl space joists and subfloor",
+      "quality": 58,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear crawl space mold damage; strong visual proof for mold remediation page.",
+      "triaged_at": "2026-09-15T23:28:22Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510890143-428ed9d1": {
+      "source": "crew",
+      "storage": "job-photos/1789510890143-428ed9d1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510890143-428ed9d1.jpg",
+      "width": 720,
+      "height": 960,
+      "bytes": 154830,
+      "sha1": "e5c49ff0933c6594",
+      "exif": {},
+      "category": "equipment",
+      "subject": "ATP meter on yellow card showing reading 3259 on floor",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Niche documentation photo; low marketing appeal, limited slot use.",
+      "triaged_at": "2026-09-15T23:28:22Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510890645-0399af87": {
+      "source": "crew",
+      "storage": "job-photos/1789510890645-0399af87.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510890645-0399af87.jpg",
+      "width": 810,
+      "height": 1440,
+      "bytes": 90939,
+      "sha1": "78bbf597098f2a5c",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Teal air mover inside plastic-sheeted containment room",
+      "quality": 55,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Containment and drying equipment visible; usable for water or mold services card.",
+      "triaged_at": "2026-09-15T23:28:22Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510891021-b1477828": {
+      "source": "crew",
+      "storage": "job-photos/1789510891021-b1477828.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510891021-b1477828.jpg",
+      "width": 720,
+      "height": 960,
+      "bytes": 53827,
+      "sha1": "14cb227566180b11",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Technician holding FLIR thermal camera showing moisture scan",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 10,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Compelling diagnostic tool shot; portrait crop limits hero use.",
+      "triaged_at": "2026-09-15T23:28:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510891391-1dcd3e0f": {
+      "source": "crew",
+      "storage": "job-photos/1789510891391-1dcd3e0f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510891391-1dcd3e0f.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 208408,
+      "sha1": "2701719993ec311e",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water-damaged subfloor with wet pipes visible through opening",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Dark, close-up damage documentation; date-stamp watermark baked in-camera.",
+      "triaged_at": "2026-09-15T23:28:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510891913-5fdff5c7": {
+      "source": "crew",
+      "storage": "job-photos/1789510891913-5fdff5c7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510891913-5fdff5c7.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 201985,
+      "sha1": "31b726711779a418",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Mold-blackened ceiling joists and insulation exposed in crawlspace",
+      "quality": 48,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Good damage evidence; dark, angled composition limits wider use.",
+      "triaged_at": "2026-09-15T23:28:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510892444-686f4588": {
+      "source": "crew",
+      "storage": "job-photos/1789510892444-686f4588.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510892444-686f4588.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 218386,
+      "sha1": "7be756121cadd2f5",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Three orange air movers drying stripped room interior",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clear drying-equipment setup; clean room context reads well for services.",
+      "triaged_at": "2026-09-15T23:28:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510893108-5aed663b": {
+      "source": "crew",
+      "storage": "job-photos/1789510893108-5aed663b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510893108-5aed663b.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 323764,
+      "sha1": "8a51d8f173a251cf",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Hand holding Delmhorst moisture meter against wood framing",
+      "quality": 65,
+      "slots": {
+        "hero": 15,
+        "team": 10,
+        "services": 68
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Sharp, professional diagnostic shot; portrait crop restricts hero use.",
+      "triaged_at": "2026-09-15T23:28:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510893603-fa518825": {
+      "source": "crew",
+      "storage": "job-photos/1789510893603-fa518825.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510893603-fa518825.jpg",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 463526,
+      "sha1": "bb29a9e2af0900cd",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Multiple air movers and dehumidifier array on carpeted floor",
+      "quality": 70,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 78
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Well-lit, comprehensive drying setup; best equipment photo of the set.",
+      "triaged_at": "2026-09-15T23:28:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510894150-745ee2db": {
+      "source": "crew",
+      "storage": "job-photos/1789510894150-745ee2db.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510894150-745ee2db.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 451514,
+      "sha1": "c6a14c79e6931e2e",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in full respirator working in dark crawl space",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 65,
+        "services": 72
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "asbestos-abatement"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Dramatic crawl-space shot shows PPE detail; dark and tight but authentic.",
+      "triaged_at": "2026-09-15T23:28:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510894625-4fff8bfb": {
+      "source": "crew",
+      "storage": "job-photos/1789510894625-4fff8bfb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510894625-4fff8bfb.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 499571,
+      "sha1": "6e7bd88384949e0b",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severely water-damaged mold-covered subfloor in bathroom",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear damage evidence; phone GPS stamp is real scene data, not overlay.",
+      "triaged_at": "2026-09-15T23:28:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510895426-ef2c8868": {
+      "source": "crew",
+      "storage": "job-photos/1789510895426-ef2c8868.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510895426-ef2c8868.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 638862,
+      "sha1": "0478bf82b2b4845c",
+      "exif": {},
+      "category": "crew",
+      "subject": "PPE-suited technician removing heavily mold-damaged subfloor panel",
+      "quality": 65,
+      "slots": {
+        "hero": 18,
+        "team": 60,
+        "services": 78
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Strong services image; portrait crop and cluttered floor limit hero use.",
+      "triaged_at": "2026-09-15T23:28:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510896022-35cc4177": {
+      "source": "crew",
+      "storage": "job-photos/1789510896022-35cc4177.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510896022-35cc4177.jpg",
+      "width": 2000,
+      "height": 1500,
+      "bytes": 260936,
+      "sha1": "a74fdfc6842f09c4",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Containment barrier with danger signage and taped HVAC vent",
+      "quality": 50,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "asbestos-abatement"
+      ],
+      "flags": [],
+      "reason": "Functional documentation shot; low visual appeal, minimal marketing value.",
+      "triaged_at": "2026-09-15T23:28:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510896496-af9ba91b": {
+      "source": "crew",
+      "storage": "job-photos/1789510896496-af9ba91b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510896496-af9ba91b.jpg",
+      "width": 720,
+      "height": 1280,
+      "bytes": 234453,
+      "sha1": "c7d90fd2afce6f66",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Multiple air movers and dehumidifier deployed in gutted interior",
+      "quality": 68,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 80
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Good equipment spread showing active drying setup; solid services card image.",
+      "triaged_at": "2026-09-15T23:28:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510896975-0cdcf4bd": {
+      "source": "crew",
+      "storage": "job-photos/1789510896975-0cdcf4bd.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510896975-0cdcf4bd.jpg",
+      "width": 2000,
+      "height": 1500,
+      "bytes": 303892,
+      "sha1": "39bcbb3c2146c338",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Plastic containment enclosure with danger tape inside living area",
+      "quality": 52,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "asbestos-abatement"
+      ],
+      "flags": [],
+      "reason": "Shows professional containment setup; low visual quality limits wider use.",
+      "triaged_at": "2026-09-15T23:28:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510897332-1ad9d723": {
+      "source": "crew",
+      "storage": "job-photos/1789510897332-1ad9d723.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510897332-1ad9d723.jpg",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 324192,
+      "sha1": "bfd25d88d18084c0",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Drying mats and hoses set up on hardwood floor",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clear drying system setup; GPS stamp is real scene data, not overlay.",
+      "triaged_at": "2026-09-15T23:29:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510897705-21a3d46f": {
+      "source": "crew",
+      "storage": "job-photos/1789510897705-21a3d46f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510897705-21a3d46f.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 193891,
+      "sha1": "a2d59a2230eff2a9",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Row of orange air movers and dehumidifier in gutted living room",
+      "quality": 60,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Dark exposure and cluttered framing reduce usability; equipment clearly identifiable.",
+      "triaged_at": "2026-09-15T23:29:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510898161-b2b63f2c": {
+      "source": "crew",
+      "storage": "job-photos/1789510898161-b2b63f2c.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510898161-b2b63f2c.jpg",
+      "width": 720,
+      "height": 1280,
+      "bytes": 141711,
+      "sha1": "ec0dc0845aa751cf",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Exposed wall studs with mold spotting during remediation",
+      "quality": 58,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Shows mold damage and demolition progress; portrait crop limits hero use.",
+      "triaged_at": "2026-09-15T23:29:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510898559-6067e949": {
+      "source": "crew",
+      "storage": "job-photos/1789510898559-6067e949.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510898559-6067e949.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 87257,
+      "sha1": "5878d3e171a0a253",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in yellow hazmat suit spraying exposed wall framing",
+      "quality": 65,
+      "slots": {
+        "hero": 40,
+        "team": 65,
+        "services": 80
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "asbestos-abatement"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Strong action shot in full PPE; slightly dark but reads clearly as remediation work.",
+      "triaged_at": "2026-09-15T23:29:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510898970-ef501b91": {
+      "source": "crew",
+      "storage": "job-photos/1789510898970-ef501b91.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510898970-ef501b91.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 203579,
+      "sha1": "7c54d94a2ea5a810",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Extreme close-up of heavy mold growth on structural beam",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Macro mold evidence; too dark and graphic for most slots, limited professional appeal.",
+      "triaged_at": "2026-09-15T23:29:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:1789510899362-c542c319": {
+      "source": "crew",
+      "storage": "job-photos/1789510899362-c542c319.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510899362-c542c319.jpg",
+      "width": 810,
+      "height": 1440,
+      "bytes": 173590,
+      "sha1": "139f3e4cb3fade91",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Gutted wall cavity exposing plumbing and bare concrete floor",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Demolition progress documented; flat lighting and plain subject limit marketing value.",
+      "triaged_at": "2026-09-15T23:29:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM127XuHtOfp1i2v_S4-QJkcygQftikJn9pE9xQ": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM127XuHtOfp1i2v_S4-QJkcygQftikJn9pE9xQ.jpg",
@@ -798,5 +2027,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-11T22:46:33Z"
+  "triaged_at": "2026-09-15T23:29:08Z"
 }
