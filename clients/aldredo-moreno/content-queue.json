@@ -150,6 +150,20 @@
           "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
         }
       ]
+    },
+    {
+      "id": "2026-09-15-water-mitigation-midland",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "water-mitigation-midland",
+      "primary_keyword": "water mitigation midland",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "midland-tx",
+      "source": "gameplan-2026-09-4 (dev-agent)"
     }
   ]
 }
