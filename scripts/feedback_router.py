@@ -111,6 +111,13 @@ CATEGORIES: dict[str, tuple[str, bool, str]] = {
     # "why not just have Monica ask, 'Is there anything specific you'd like us
     # to do, or would you like our team to just handle it?'" That is a
     # CONVERSATION, so it routes to Monica rather than to his approve queue.
+    # Social/footer links are the client stating a fact about their own
+    # profiles (Angie 2026-09-10: the Facebook/Instagram ask sat four days
+    # as an unclassified [TODO-PROPOSED] while Monica's ack sounded like a
+    # commitment). Owner-supplied URLs are their authority, like copy/facts.
+    "site_links":   ("links and social icons on the site", True,
+                     "citation_listings kind=social (Connect card) + "
+                     "citations_sync footer/sameAs pass"),
     "rejection":    ("preview rejected", False, "depends on what they meant"),
     "other":        ("unclassified", False, "n/a"),
 }
