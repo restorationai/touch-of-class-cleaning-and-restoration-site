@@ -1166,6 +1166,20 @@
         "https://www.nahb.org/"
       ],
       "notes": "Sourced from the ChatGPT decomposition, not Google volume: this is AI-retrieval fuel and no competitor in the market has a page on it. Answer the question directly in the first 60 words so AI engines can lift the passage. Cover dust containment, utility shutoffs, which weeks are worst (roof tie-in, HVAC cut-over), and the summer heat and humidity angle for North Alabama."
+    },
+    {
+      "id": "2026-09-15-home-remodeling-madison-al",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "home-remodeling-madison-al",
+      "primary_keyword": "home remodeling madison al",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "madison-al",
+      "source": "gameplan-2026-09-3 (dev-agent)"
     }
   ]
 }
