@@ -976,6 +976,34 @@
     "https://www.iicrc.org/page/IICRCS500"
    ],
    "notes": "480/mo, KD 0, CPC 54.39. Multi-unit water losses are the biggest jobs in Broward's condo and rental stock. Split the piece three ways: tenant, landlord or HOA, and the downstairs neighbor. Coordinate with the already-queued 'who pays for water damage in a condo' item so the two do not overlap: this one is rentals and apartment buildings, that one is condo ownership and HOA bylaws. Cross-link them."
+  },
+  {
+   "id": "2026-09-15-fire-damage-claim-miramar",
+   "status": "queued",
+   "queued_at": "2026-09-15T14:24:35Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "target_term",
+   "combo_key": "fire-damage-claim-miramar",
+   "primary_keyword": "fire damage claim miramar",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "miramar-fl",
+   "source": "gameplan-2026-09-3 (dev-agent)"
+  },
+  {
+   "id": "2026-09-15-mold-growth-timeline",
+   "status": "queued",
+   "queued_at": "2026-09-15T14:24:35Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "target_term",
+   "combo_key": "mold-growth-timeline",
+   "primary_keyword": "mold growth timeline",
+   "intent": "informational",
+   "target_word_count": 1400,
+   "city_anchor": null,
+   "source": "gameplan-2026-09-3 (dev-agent)"
   }
  ]
 }
