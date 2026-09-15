@@ -214,6 +214,62 @@
         "https://www.cslb.ca.gov/"
       ],
       "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition of the seed, so scored intent-first as AI-retrieval fuel. Maps to TDI's stated differentiator ('Insurance Rebuilds Handled Direct') and the fire-smoke-rebuilding service page, which currently has no editorial support. Cover dwelling coverage vs contents, replacement cost vs actual cash value, additional living expenses, and working with the adjuster. Keep the tone procedural, not alarmist: this is a scheduled rebuild, not an emergency dispatch."
+    },
+    {
+      "id": "2026-09-15-home-remodeling-sacramento",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "home-remodeling-sacramento",
+      "primary_keyword": "home remodeling sacramento",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "sacramento-ca",
+      "source": "gameplan-2026-09-5 (dev-agent)"
+    },
+    {
+      "id": "2026-09-15-new-home-construction-sacramento",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "new-home-construction-sacramento",
+      "primary_keyword": "new home construction sacramento",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "sacramento-ca",
+      "source": "gameplan-2026-09-5 (dev-agent)"
+    },
+    {
+      "id": "2026-09-15-home-remodeling-roseville",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "home-remodeling-roseville",
+      "primary_keyword": "home remodeling roseville",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "roseville-ca",
+      "source": "gameplan-2026-09-5 (dev-agent)"
+    },
+    {
+      "id": "2026-09-15-new-home-construction-roseville",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "new-home-construction-roseville",
+      "primary_keyword": "new home construction roseville",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "roseville-ca",
+      "source": "gameplan-2026-09-5 (dev-agent)"
     }
   ]
 }
