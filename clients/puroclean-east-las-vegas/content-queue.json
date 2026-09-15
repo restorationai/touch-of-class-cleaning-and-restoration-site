@@ -1061,6 +1061,34 @@
     "https://www.weather.gov/vef/monsoon"
    ],
    "notes": "Zero measured Google volume, queued for AI retrieval plus a genuine local-authority gap: nobody in this market has written the desert-mold answer well. The counterintuitive hook is that Las Vegas humidity spikes from single digits to 50 percent-plus during monsoon season, which is exactly the 24 to 48 hour window mold needs after any intrusion. Overlaps the banked priority-2 keyword 'can mold grow in the desert', so fold that in as an H2 rather than writing it separately later."
+  },
+  {
+   "id": "2026-09-15-fire-damage-restoration-spring-valley",
+   "status": "queued",
+   "queued_at": "2026-09-15T14:24:35Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "target_term",
+   "combo_key": "fire-damage-restoration-spring-valley",
+   "primary_keyword": "fire damage restoration spring valley",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "spring-valley-nv",
+   "source": "gameplan-2026-09-3 (dev-agent)"
+  },
+  {
+   "id": "2026-09-15-fire-damage-restoration-sunrise-manor",
+   "status": "queued",
+   "queued_at": "2026-09-15T14:24:35Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "target_term",
+   "combo_key": "fire-damage-restoration-sunrise-manor",
+   "primary_keyword": "fire damage restoration sunrise manor",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "sunrise-manor-nv",
+   "source": "gameplan-2026-09-3 (dev-agent)"
   }
  ]
 }
