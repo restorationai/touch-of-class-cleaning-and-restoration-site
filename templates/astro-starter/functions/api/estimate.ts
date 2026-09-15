@@ -65,7 +65,12 @@ async function resolveRecipient(env: Env): Promise<string> {
     `companies?id=eq.${env.COMPANY_ID}&select=email,transfer_primary_email&limit=1`
   )) as { email?: string; transfer_primary_email?: string }[] | null;
   const c = rows?.[0];
-  return (c?.email || "").trim() || (c?.transfer_primary_email || "").trim() || fallback;
+  // BOTH addresses get the lead when both exist (Bob/RT Olson 2026-09-15:
+  // office@ was landing in a folder nobody read; a second recipient is
+  // cheap insurance). Comma-joined; sendEmail splits.
+  const both = [(c?.email || "").trim(), (c?.transfer_primary_email || "").trim()]
+    .filter((x, i, a) => x && a.indexOf(x) === i);
+  return both.length ? both.join(",") : fallback;
 }
 
 async function sendEmail(env: Env, lead: Record<string, string>, toEmail: string): Promise<string> {
@@ -88,7 +93,7 @@ async function sendEmail(env: Env, lead: Record<string, string>, toEmail: string
   ].join("\n");
 
   const payload: Record<string, unknown> = {
-    personalizations: [{ to: [{ email: toEmail }] }],
+    personalizations: [{ to: toEmail.split(",").map((e) => ({ email: e.trim() })) }],
     from: { email: FROM_EMAIL, name: `${brand.displayName} Website` },
     subject: `New Free Estimate request — ${lead.name}, ${lead.city}`,
     content: [{ type: "text/plain", value: lines }],
