@@ -423,6 +423,20 @@
       "notes": "Be genuinely useful about what a homeowner CAN do (shut off water, document, move contents, run fans on clean category 1 water) before explaining where DIY fails: trapped moisture in wall cavities, no moisture meters, and insurers often declining claims without a documented professional dry-out. Fold the 'what does a restoration company do' and drywall-replacement questions in as H2s.",
       "source": "keyword-researcher",
       "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-15-water-damage-restoration-gulfport",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "water-damage-restoration-gulfport",
+      "primary_keyword": "water damage restoration gulfport",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "gulfport-ms",
+      "source": "gameplan-2026-09-3 (dev-agent)"
     }
   ]
 }
