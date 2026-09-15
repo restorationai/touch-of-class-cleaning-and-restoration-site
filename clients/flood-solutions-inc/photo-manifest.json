@@ -11,7 +11,24 @@
       "height": 1067,
       "bytes": 289089,
       "sha1": "18c73f6c0a5f7ed4",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "AI-rendered drying mats and dehumidifiers arranged in living room",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Clearly AI-generated render; too perfect and symmetrical to be a real job photo.",
+      "triaged_at": "2026-09-15T14:07:30Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:413cca226b83d141": {
       "source": "website",
@@ -23,7 +40,24 @@
       "height": 600,
       "bytes": 85046,
       "sha1": "413cca226b83d141",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Water flooding hardwood floor of staged living room",
+      "quality": 60,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Overly art-directed stock or AI image; not this contractor's actual job site.",
+      "triaged_at": "2026-09-15T14:07:30Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:5193c944695d7595": {
       "source": "website",
@@ -35,7 +69,20 @@
       "height": 600,
       "bytes": 87144,
       "sha1": "5193c944695d7595",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severe fire and soot damage inside residential kitchen",
+      "quality": 72,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Authentic fire damage photo but no water-restoration service match; graphic content present.",
+      "triaged_at": "2026-09-15T14:07:30Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:5b3e15fde4d59a59": {
       "source": "website",
@@ -47,7 +94,24 @@
       "height": 895,
       "bytes": 215422,
       "sha1": "5b3e15fde4d59a59",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Warped wood floor close-up with restoration equipment background",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Art-directed low-angle composition reads as stock or AI; not authentic job documentation.",
+      "triaged_at": "2026-09-15T14:07:30Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:671155f6866463cb": {
       "source": "website",
@@ -59,7 +123,25 @@
       "height": 893,
       "bytes": 162343,
       "sha1": "671155f6866463cb",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Blue air movers lined up in wet residential hallway",
+      "quality": 68,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Well-composed equipment shot but appears to be licensed stock imagery, not client's own.",
+      "triaged_at": "2026-09-15T14:07:30Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:69e0e35db8281a7e": {
       "source": "website",
@@ -71,7 +153,20 @@
       "height": 600,
       "bytes": 186590,
       "sha1": "69e0e35db8281a7e",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Large fallen tree crushing roof and siding of white house",
+      "quality": 70,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Authentic storm damage photo but no matching water-restoration slug; unrelated trade damage type.",
+      "triaged_at": "2026-09-15T14:07:30Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:7de8ca833ba06bd6": {
       "source": "website",
@@ -83,7 +178,22 @@
       "height": 600,
       "bytes": 74974,
       "sha1": "7de8ca833ba06bd6",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Drying mats, yellow hoses, and axial fan on concrete floor",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Real job-site drying setup; decent composition but no people and portrait-ish crop.",
+      "triaged_at": "2026-09-15T14:07:47Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:82b1c9aaf535ffe1": {
       "source": "website",
@@ -95,7 +205,25 @@
       "height": 1066,
       "bytes": 220470,
       "sha1": "82b1c9aaf535ffe1",
-      "exif": {}
+      "exif": {},
+      "category": "crew",
+      "subject": "Two technicians extracting water from flooded basement",
+      "quality": 78,
+      "slots": {
+        "hero": 55,
+        "team": 72,
+        "services": 85
+      },
+      "service_slugs": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Well-lit action scene but too polished and art-directed to be this contractor's own crew.",
+      "triaged_at": "2026-09-15T14:07:47Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:86259ff804b291f3": {
       "source": "website",
@@ -107,7 +235,22 @@
       "height": 600,
       "bytes": 193546,
       "sha1": "86259ff804b291f3",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Multi-storey concrete building under construction with scaffolding",
+      "quality": 70,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "New construction site unrelated to water damage restoration trade.",
+      "triaged_at": "2026-09-15T14:07:47Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:8f3267b3a377165a": {
       "source": "website",
@@ -119,7 +262,24 @@
       "height": 893,
       "bytes": 208497,
       "sha1": "8f3267b3a377165a",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Blue air mover and dehumidifier on wet basement floor",
+      "quality": 80,
+      "slots": {
+        "hero": 50,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Cinematic and well-composed but appears stock; no identifiable company branding.",
+      "triaged_at": "2026-09-15T14:07:47Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:909466c6103d2768": {
       "source": "website",
@@ -131,7 +291,25 @@
       "height": 887,
       "bytes": 171706,
       "sha1": "909466c6103d2768",
-      "exif": {}
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician kneeling extracting water from damaged flooring",
+      "quality": 75,
+      "slots": {
+        "hero": 30,
+        "team": 55,
+        "services": 78
+      },
+      "service_slugs": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Compelling low-angle action shot but over-produced; likely stock imagery.",
+      "triaged_at": "2026-09-15T14:07:47Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:9e9b66c54ae232c9": {
       "source": "website",
@@ -143,7 +321,24 @@
       "height": 897,
       "bytes": 145634,
       "sha1": "9e9b66c54ae232c9",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Wet hardwood floor with soaked towels in residential hallway",
+      "quality": 72,
+      "slots": {
+        "hero": 28,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Atmospheric damage scene but too artfully lit; appears stock, no crew or equipment.",
+      "triaged_at": "2026-09-15T14:07:47Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:a476ad72cb16bdcf": {
       "source": "website",
@@ -155,7 +350,25 @@
       "height": 897,
       "bytes": 154729,
       "sha1": "a476ad72cb16bdcf",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air mover fan drying wet hardwood floor indoors",
+      "quality": 72,
+      "slots": {
+        "hero": 55,
+        "team": 10,
+        "services": 70
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Too polished and art-directed to be a real contractor's job-site photo.",
+      "triaged_at": "2026-09-15T14:08:03Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:aed448e3dbb4ac6f": {
       "source": "website",
@@ -167,7 +380,24 @@
       "height": 600,
       "bytes": 53978,
       "sha1": "aed448e3dbb4ac6f",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Wet vacuum tool extracting water from flooded floor",
+      "quality": 70,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-cleanup"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Obvious stock/AI render; not this contractor's own crew or equipment.",
+      "triaged_at": "2026-09-15T14:08:03Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:b48b0a0817f3f3d3": {
       "source": "website",
@@ -179,7 +409,23 @@
       "height": 600,
       "bytes": 53954,
       "sha1": "b48b0a0817f3f3d3",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Flooded basement utility room with standing water",
+      "quality": 58,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Authentic job-site damage photo; useful for services but low hero appeal.",
+      "triaged_at": "2026-09-15T14:08:03Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:b9a3e4921fe2775e": {
       "source": "website",
@@ -191,7 +437,23 @@
       "height": 600,
       "bytes": 44362,
       "sha1": "b9a3e4921fe2775e",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severely flooded living room with floating debris",
+      "quality": 52,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Real flood damage scene; good context for services, poor hero composition.",
+      "triaged_at": "2026-09-15T14:08:03Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:ba4b268af56edaa7": {
       "source": "website",
@@ -203,7 +465,22 @@
       "height": 600,
       "bytes": 97484,
       "sha1": "ba4b268af56edaa7",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Unfinished concrete house under construction exterior",
+      "quality": 55,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "New construction site unrelated to water damage restoration services.",
+      "triaged_at": "2026-09-15T14:08:03Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:be4649c465269f87": {
       "source": "website",
@@ -215,7 +492,23 @@
       "height": 600,
       "bytes": 113154,
       "sha1": "be4649c465269f87",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Large industrial air mover fan deployed in basement",
+      "quality": 74,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clear authentic equipment shot with dehumidifier visible; solid services card.",
+      "triaged_at": "2026-09-15T14:08:03Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:ccd0d212f30930bb": {
       "source": "website",
@@ -227,7 +520,22 @@
       "height": 600,
       "bytes": 35892,
       "sha1": "ccd0d212f30930bb",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water stained ceiling with rust coloured damage marks",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear water damage documentation; awkward angle limits hero use.",
+      "triaged_at": "2026-09-15T14:08:22Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:d575c9efe4b6ee4d": {
       "source": "website",
@@ -239,7 +547,25 @@
       "height": 600,
       "bytes": 87866,
       "sha1": "d575c9efe4b6ee4d",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Red air mover blower on commercial bathroom tile floor",
+      "quality": 78,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Too polished and generic; likely licensed stock, not client's own crew.",
+      "triaged_at": "2026-09-15T14:08:22Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:d6bf3cfd3ae70df8": {
       "source": "website",
@@ -251,7 +577,22 @@
       "height": 600,
       "bytes": 163898,
       "sha1": "d6bf3cfd3ae70df8",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Decorative fireplace with burning fire and screen",
+      "quality": 72,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Unrelated decorative fireplace scene; no restoration trade relevance.",
+      "triaged_at": "2026-09-15T14:08:22Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:f10960a190f9dc57": {
       "source": "website",
@@ -263,7 +604,24 @@
       "height": 600,
       "bytes": 150214,
       "sha1": "f10960a190f9dc57",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water pooled on wet outdoor wooden deck boards",
+      "quality": 80,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Visually strong but appears stock; too art-directed for working contractor.",
+      "triaged_at": "2026-09-15T14:08:22Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:f99d07d9fe99d15c": {
       "source": "website",
@@ -275,7 +633,22 @@
       "height": 600,
       "bytes": 34412,
       "sha1": "f99d07d9fe99d15c",
-      "exif": {}
+      "exif": {},
+      "category": "fleet",
+      "subject": "Flood Solutions branded box truck parked at residential home",
+      "quality": 72,
+      "slots": {
+        "hero": 75,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Authentic client fleet at job site; good hero candidate with sky and house.",
+      "triaged_at": "2026-09-15T14:08:22Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:fec47e72d7396a51": {
       "source": "website",
@@ -287,9 +660,26 @@
       "height": 893,
       "bytes": 196332,
       "sha1": "fec47e72d7396a51",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Wet basement floor with hoses and wet vac equipment",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-cleanup"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Heavily AI-generated or composited render; not authentic contractor photography.",
+      "triaged_at": "2026-09-15T14:08:22Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-14T21:32:30Z"
+  "triaged_at": "2026-09-15T14:08:22Z"
 }

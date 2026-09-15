@@ -9,7 +9,22 @@
       "height": 500,
       "bytes": 217380,
       "sha1": "84d7b66a5c4f9e02",
-      "exif": {}
+      "exif": {},
+      "category": "graphic",
+      "subject": "Desert Valley Contracting Inc company logo lockup on transparent background",
+      "quality": 80,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Pure logo graphic; no photographic content; unsuitable for any photo slot.",
+      "triaged_at": "2026-09-15T14:08:41Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipP9-r4LvgHuB-EyrfD2wgmOkLHGGpO7aAVoS-V0": {
       "source": "gbp",
@@ -19,7 +34,23 @@
       "height": 1024,
       "bytes": 2381087,
       "sha1": "2b709967437ba7fa",
-      "exif": {}
+      "exif": {},
+      "category": "graphic",
+      "subject": "AI-rendered branded sign with truck and desert home backdrop",
+      "quality": 60,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "logo_card"
+      ],
+      "reason": "Clearly AI-generated composite; overly polished, not a real photograph.",
+      "triaged_at": "2026-09-15T14:08:41Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:00ea3505c079e637": {
       "source": "website",
@@ -31,7 +62,22 @@
       "height": 1280,
       "bytes": 196055,
       "sha1": "00ea3505c079e637",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Yellow hard hat and tools on workbench, worker in background",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic licensed stock image; not this contractor's crew or jobsite.",
+      "triaged_at": "2026-09-15T14:08:41Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:00eff78538c6fc76": {
       "source": "website",
@@ -43,7 +89,22 @@
       "height": 1080,
       "bytes": 198490,
       "sha1": "00eff78538c6fc76",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Headless worker holding hard hat beside yellow air compressor",
+      "quality": 68,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic stock photo; no faces, no branding, not identifiable as this company.",
+      "triaged_at": "2026-09-15T14:08:41Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:06c8e7a01d9fde50": {
       "source": "website",
@@ -55,7 +116,23 @@
       "height": 541,
       "bytes": 126793,
       "sha1": "06c8e7a01d9fde50",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Contractor and couple reviewing house under construction with scaffold",
+      "quality": 65,
+      "slots": {
+        "hero": 10,
+        "team": 20,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Obvious stock photo; not this contractor's crew, location, or branding.",
+      "triaged_at": "2026-09-15T14:08:41Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:13cfe5dc4a825916": {
       "source": "website",
@@ -67,7 +144,23 @@
       "height": 759,
       "bytes": 2628742,
       "sha1": "13cfe5dc4a825916",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Contractor handshaking couple inside framed construction interior",
+      "quality": 68,
+      "slots": {
+        "hero": 8,
+        "team": 20,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Generic stock photo; overly staged, not this company's real crew or jobsite.",
+      "triaged_at": "2026-09-15T14:08:41Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:13fef854eca71898": {
       "source": "website",
@@ -79,7 +172,22 @@
       "height": 1080,
       "bytes": 246155,
       "sha1": "13fef854eca71898",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Worker with laptop crouching by damaged wall debris",
+      "quality": 62,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Overly polished stock scene; not this company's actual crew or job site.",
+      "triaged_at": "2026-09-15T14:08:56Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:1b40fac3edbdda96": {
       "source": "website",
@@ -91,7 +199,22 @@
       "height": 1229,
       "bytes": 309129,
       "sha1": "1b40fac3edbdda96",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Blueprint plans with hard hat and drafting tools flat lay",
+      "quality": 70,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic art-directed stock flat-lay; no connection to restoration work.",
+      "triaged_at": "2026-09-15T14:08:56Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:289a866beeb7a72f": {
       "source": "website",
@@ -103,7 +226,23 @@
       "height": 630,
       "bytes": 832082,
       "sha1": "289a866beeb7a72f",
-      "exif": {}
+      "exif": {},
+      "category": "graphic",
+      "subject": "Desert Valley Contracting Inc logo card on striped background",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card",
+        "low_res"
+      ],
+      "reason": "Designed logo lockup, low resolution; unusable as a photo slot.",
+      "triaged_at": "2026-09-15T14:08:56Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:3411d305fb9ea0ac": {
       "source": "website",
@@ -115,7 +254,22 @@
       "height": 1280,
       "bytes": 197941,
       "sha1": "3411d305fb9ea0ac",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Two people reviewing blueprints with hard hats on table",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 25,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Polished stock scene; not the client's actual crew or work.",
+      "triaged_at": "2026-09-15T14:08:56Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:3a19beddcb0ccacb": {
       "source": "website",
@@ -127,7 +281,22 @@
       "height": 842,
       "bytes": 179282,
       "sha1": "3a19beddcb0ccacb",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Worker holding yellow hard hat and blueprints at construction site",
+      "quality": 68,
+      "slots": {
+        "hero": 20,
+        "team": 20,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Classic stock contractor pose; not authentic to this company.",
+      "triaged_at": "2026-09-15T14:08:56Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:4649722907cd14d2": {
       "source": "website",
@@ -139,7 +308,22 @@
       "height": 853,
       "bytes": 204520,
       "sha1": "4649722907cd14d2",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Staged luxury kitchen interior with wine and food styling",
+      "quality": 75,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Real-estate staging or stock interior; no restoration context evident.",
+      "triaged_at": "2026-09-15T14:08:56Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:5a449bf551cea3ac": {
       "source": "website",
@@ -151,7 +335,22 @@
       "height": 1280,
       "bytes": 151738,
       "sha1": "5a449bf551cea3ac",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Construction tools blueprints and hard hat on desk",
+      "quality": 62,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic stock image; not this contractor's tools or workspace.",
+      "triaged_at": "2026-09-15T14:09:11Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:5c5b3adaffedbcbb": {
       "source": "website",
@@ -163,7 +362,22 @@
       "height": 1280,
       "bytes": 656207,
       "sha1": "5c5b3adaffedbcbb",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Glass skyscrapers with green trees reflected upward view",
+      "quality": 70,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Unrelated stock architectural image; no connection to restoration trade.",
+      "triaged_at": "2026-09-15T14:09:11Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:6ca8d6dca5b3e031": {
       "source": "website",
@@ -175,7 +389,22 @@
       "height": 771,
       "bytes": 338275,
       "sha1": "6ca8d6dca5b3e031",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Las Vegas Strip aerial panorama at dusk",
+      "quality": 78,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Stock city panorama; unrelated to restoration work or company identity.",
+      "triaged_at": "2026-09-15T14:09:11Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:7514560b06584b16": {
       "source": "website",
@@ -187,7 +416,22 @@
       "height": 1280,
       "bytes": 277721,
       "sha1": "7514560b06584b16",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Construction tools drill screwdriver and hard hat on blueprints",
+      "quality": 65,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 8
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic stock tools image; not specific to restoration or this company.",
+      "triaged_at": "2026-09-15T14:09:11Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:842e8b3ac3b9ed86": {
       "source": "website",
@@ -199,7 +443,22 @@
       "height": 853,
       "bytes": 201689,
       "sha1": "842e8b3ac3b9ed86",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Two workers in hi-vis at construction site tilt-shift effect",
+      "quality": 55,
+      "slots": {
+        "hero": 12,
+        "team": 20,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic stock construction scene; tilt-shift effect confirms art-directed library image.",
+      "triaged_at": "2026-09-15T14:09:11Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:99021a20d2151280": {
       "source": "website",
@@ -211,7 +470,22 @@
       "height": 536,
       "bytes": 100238,
       "sha1": "99021a20d2151280",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Four workers in hi-vis walking toward construction site crane",
+      "quality": 72,
+      "slots": {
+        "hero": 18,
+        "team": 25,
+        "services": 12
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Polished stock crew scene; not this company's crew or restoration work.",
+      "triaged_at": "2026-09-15T14:09:11Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:ab412cf7b17aae2c": {
       "source": "website",
@@ -223,7 +497,22 @@
       "height": 1280,
       "bytes": 176636,
       "sha1": "ab412cf7b17aae2c",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Yellow hard hat and blueprints on wooden workbench",
+      "quality": 72,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Polished stock scene; no company crew, vehicles, or restoration work shown.",
+      "triaged_at": "2026-09-15T14:09:22Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:b8a211ec762cc305": {
       "source": "website",
@@ -235,7 +524,22 @@
       "height": 1280,
       "bytes": 245633,
       "sha1": "b8a211ec762cc305",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Workers in safety vests and hard hats at construction site",
+      "quality": 68,
+      "slots": {
+        "hero": 15,
+        "team": 20,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic stock crew shot; no company branding, uniforms, or restoration context.",
+      "triaged_at": "2026-09-15T14:09:22Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:f427e9ab91417866": {
       "source": "website",
@@ -247,7 +551,22 @@
       "height": 1079,
       "bytes": 673374,
       "sha1": "f427e9ab91417866",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Aerial view of suburban neighborhood with golf course and skyline",
+      "quality": 85,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic real-estate aerial; unrelated to restoration trade or company identity.",
+      "triaged_at": "2026-09-15T14:09:22Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:fe69bb6af0bbb924": {
       "source": "website",
@@ -259,9 +578,24 @@
       "height": 1280,
       "bytes": 688816,
       "sha1": "fe69bb6af0bbb924",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Ornate brick building facade covered in metal scaffolding",
+      "quality": 75,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 12
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic stock scaffolding image; European-style building unrelated to this company.",
+      "triaged_at": "2026-09-15T14:09:22Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-14T21:34:07Z"
+  "triaged_at": "2026-09-15T14:09:22Z"
 }

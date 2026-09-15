@@ -69,7 +69,23 @@
       "height": 2000,
       "bytes": 378820,
       "sha1": "000fc553bedfda90",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Person pointing at company website on a computer screen",
+      "quality": 18,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot",
+        "phone_number"
+      ],
+      "reason": "Photo of a screen showing the website; low quality, unusable for marketing.",
+      "triaged_at": "2026-09-15T14:06:03Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "crew:sms-1789407625393-1fd6f5c2": {
       "source": "gbp",
@@ -79,7 +95,22 @@
       "height": 1280,
       "bytes": 237643,
       "sha1": "a207fb7ef57de5ba",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "All Pro Plumbing branded white Ford Transit van on screen",
+      "quality": 22,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Fleet van visible but image is a photo of a screen; low resolution and unusable.",
+      "triaged_at": "2026-09-15T14:06:03Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "crew:sms-1789407635668-175789ac": {
       "source": "crew",
@@ -93,5 +124,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-14T21:29:19Z"
+  "triaged_at": "2026-09-15T14:06:03Z"
 }

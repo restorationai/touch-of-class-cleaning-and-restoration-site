@@ -2509,7 +2509,22 @@
       "height": 1126,
       "bytes": 313222,
       "sha1": "d3cde3d29f7109b6",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Selfie at PuroClean trade show booth with three people",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 25,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Trade show selfie; no job activity, cluttered background, off-brand context.",
+      "triaged_at": "2026-09-15T14:06:47Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:e511c47d74209e83": {
       "source": "website",
@@ -2523,7 +2538,23 @@
       "sha1": "e511c47d74209e83",
       "exif": {
         "taken_at": "2026:09:10 15:25:29"
-      }
+      },
+      "category": "unusable",
+      "subject": "Upside-down selfie at PuroClean trade show booth",
+      "quality": 8,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "blurry"
+      ],
+      "reason": "Image rotated 180\u00b0, disorienting composition, completely unusable for marketing.",
+      "triaged_at": "2026-09-15T14:06:47Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "web:e8cdd43b5a2ab556": {
       "source": "website",
@@ -2614,5 +2645,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-14T21:30:27Z"
+  "triaged_at": "2026-09-15T14:06:47Z"
 }
