@@ -574,7 +574,54 @@ def cmd_sync(_args) -> int:
         bl["synced_live"] = sorted(synced)
         c["brightlocal"] = bl
         save_client(slug, c)
+    _backfill_generic_menu()
     return 0
+
+
+def _backfill_generic_menu() -> None:
+    """Every ACTIVE client's Business Listings card shows the upcoming-build
+    projection, shell or no shell (Santino 2026-09-15, Desert Valley support
+    call: the list stopped after ContractorsRanked because bl_available only
+    existed for clients with a BrightLocal campaign). The acquirable-
+    directory menu is effectively identical across US SAB clients, so
+    clients without a campaign inherit the freshest synced menu, marked
+    source=generic; a real campaign sync later overwrites it in place."""
+    rows = _sb_req("GET", "/rest/v1/user_integrations?provider=eq.citations"
+                   "&select=client_id,connection_metadata") or []
+    freshest, freshest_at = None, ""
+    have: dict = {}
+    for r in rows:
+        md = r.get("connection_metadata") or {}
+        have[r["client_id"]] = bool(md.get("bl_available"))
+        at = md.get("bl_available_updated_at") or ""
+        if md.get("bl_available") and at > freshest_at \
+                and md.get("bl_available_source") != "generic":
+            freshest, freshest_at = md["bl_available"], at
+    if not freshest:
+        return
+    comps = _sb_req("GET", "/rest/v1/companies?status=eq.Active"
+                    "&select=id") or []
+    now = datetime.now(timezone.utc).isoformat()
+    n = 0
+    for co in comps:
+        cid = co["id"]
+        if have.get(cid):
+            continue
+
+        def mut(md, _menu=freshest, _now=now):
+            if md.get("bl_available"):
+                return
+            md["bl_available"] = _menu
+            md["bl_available_updated_at"] = _now
+            md["bl_available_source"] = "generic"
+
+        try:
+            _merge_citations_meta(cid, mut)
+            n += 1
+        except Exception as e:  # noqa: BLE001
+            print(f"  (generic menu {cid}: {str(e)[:80]})")
+    if n:
+        print(f"generic directory menu backfilled for {n} client(s)")
 
 
 def cmd_status(args) -> int:
