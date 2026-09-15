@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-16T14:25:29+00:00",
+ "generated_at": "2026-09-15T15:35:17+00:00",
  "domain": "firedex.net",
- "routes": 203,
+ "routes": 188,
  "map": {
   "/commercial-services": {
    "target": "/services/commercial-restoration/",
@@ -36,15 +36,15 @@
    "how": "claude"
   },
   "/employment-application": {
-   "target": "/",
+   "target": "/about/",
    "how": "claude"
   },
   "/employment-opportunities": {
-   "target": "/",
+   "target": "/about/",
    "how": "claude"
   },
   "/employment-opportunities-demo": {
-   "target": "/",
+   "target": "/about/",
    "how": "claude"
   },
   "/faq": {

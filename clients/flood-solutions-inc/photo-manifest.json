@@ -1,6 +1,57 @@
 {
   "slug": "flood-solutions-inc",
   "assets": {
+    "gbp:gbp-AF1QipMsqeWVxx-hYRgP9WBzsB2vC00yoXHggSLFQ0hT": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMsqeWVxx-hYRgP9WBzsB2vC00yoXHggSLFQ0hT.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789143868981/job-photos/posted/gbp-AF1QipMsqeWVxx-hYRgP9WBzsB2vC00yoXHggSLFQ0hT.jpg",
+      "width": 1200,
+      "height": 628,
+      "bytes": 586657,
+      "sha1": "4c1d16652ded7edc",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Company logo lockup pasted over dark water spray background",
+      "quality": 25,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card",
+        "text_overlay"
+      ],
+      "reason": "Large branded logo composited over photo; primarily a marketing graphic, not usable photography.",
+      "triaged_at": "2026-09-15T15:33:14Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPUI8HRPjawYd8U9Yfs2FPN4iGUZsLyi02iK6ly": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPUI8HRPjawYd8U9Yfs2FPN4iGUZsLyi02iK6ly.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789143868981/job-photos/posted/gbp-AF1QipPUI8HRPjawYd8U9Yfs2FPN4iGUZsLyi02iK6ly.jpg",
+      "width": 867,
+      "height": 650,
+      "bytes": 350863,
+      "sha1": "522bcef015fa561d",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Branded box truck parked outside residential brick home",
+      "quality": 72,
+      "slots": {
+        "hero": 68,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean real-scene fleet shot; good sky, residential context; phone number is van wrap signage, not overlay.",
+      "triaged_at": "2026-09-15T15:33:14Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "web:18c73f6c0a5f7ed4": {
       "source": "website",
       "storage": "site-assets/web/web-18c73f6c0a5f7ed4.jpg",
@@ -681,5 +732,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-15T14:08:22Z"
+  "triaged_at": "2026-09-15T15:33:14Z"
 }

@@ -29,11 +29,11 @@
   "build_status": "pushed_main",
   "cutover_prep": {
     "domain": "dissrestoration.com",
-    "harvested_at": "2026-08-16T14:25:12+00:00",
+    "harvested_at": "2026-09-15T15:34:55+00:00",
     "url_count": 6,
     "backlinked_count": 1,
     "redirects_added": 3,
-    "mapped_at": "2026-08-16T14:25:13+00:00"
+    "mapped_at": "2026-09-15T15:34:58+00:00"
   },
   "audit": {
     "last_audit_at": "2026-08-26T23:29:30Z",

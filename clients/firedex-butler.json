@@ -65,11 +65,11 @@
   "build_status": "pushed_main",
   "cutover_prep": {
     "domain": "firedex.net",
-    "harvested_at": "2026-08-16T14:25:21+00:00",
+    "harvested_at": "2026-09-15T15:35:08+00:00",
     "url_count": 25,
     "backlinked_count": 14,
     "redirects_added": 22,
-    "mapped_at": "2026-08-16T14:25:29+00:00"
+    "mapped_at": "2026-09-15T15:35:17+00:00"
   },
   "indexnow_key": "e760cd2f7023430fa1cf59a1cc3481e5",
   "audit": {

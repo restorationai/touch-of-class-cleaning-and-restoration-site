@@ -1,6 +1,6 @@
 {
  "domain": "firedex.net",
- "harvested_at": "2026-08-16T14:25:21+00:00",
+ "harvested_at": "2026-09-15T15:35:08+00:00",
  "counts": {
   "total": 25,
   "sitemap": 23,
@@ -13,8 +13,8 @@
    "url": "https://firedex.net/",
    "path": "/",
    "title": "",
-   "backlinks": 115,
-   "referring_domains": 29,
+   "backlinks": 112,
+   "referring_domains": 37,
    "gsc_clicks": 0,
    "source": "sitemap,backlinks"
   },

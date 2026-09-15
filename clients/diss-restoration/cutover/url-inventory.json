@@ -1,6 +1,6 @@
 {
  "domain": "dissrestoration.com",
- "harvested_at": "2026-08-16T14:25:12+00:00",
+ "harvested_at": "2026-09-15T15:34:55+00:00",
  "counts": {
   "total": 6,
   "sitemap": 6,
@@ -13,8 +13,8 @@
    "url": "https://dissrestoration.com/",
    "path": "/",
    "title": "",
-   "backlinks": 74,
-   "referring_domains": 40,
+   "backlinks": 87,
+   "referring_domains": 55,
    "gsc_clicks": 0,
    "source": "sitemap,backlinks"
   },
