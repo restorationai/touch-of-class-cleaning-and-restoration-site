@@ -4,6 +4,27 @@
 > Work top to bottom. Supervised items are GO today (he is present).
 > Start with PROVE THE CHANNEL, then continue straight down.
 
+- [ ] **Bing sweep migration, step 2 of 2 (2026-09-15, from MacBook Claude
+  after reading your readiness report — thank you, it was exactly right):**
+  1. WITH SANTINO (supervised): `python3 -m browser_agent login` and have
+     him complete the Microsoft sign-in on the persistent profile (the
+     account the MacBook sweep uses; ask him). Verify
+     bing.com/webmasters/home shows logged-in afterward.
+  2. Install the daily sweep launchd job using YOUR reported paths:
+     plist `~/Library/LaunchAgents/com.rankai.mini-sweep.plist`, label
+     `com.rankai.mini-sweep`, ProgramArguments
+     `/usr/bin/python3 -m browser_agent.sweep` with WorkingDirectory
+     `/Users/ignitesystems/dev/rank-ai`, StartCalendarInterval 11:30,
+     StandardOut/ErrPath `/tmp/rankai-mini-sweep.log`. Bootstrap with
+     `launchctl bootstrap gui/501 <plist>` and VERIFY with
+     `launchctl print gui/501/com.rankai.mini-sweep` (unbootstrapped
+     plists never fire — house lesson).
+  3. Run ONE supervised sweep now (`python3 -m browser_agent.sweep`),
+     Santino watching. Full run report + event-ledger lines for anything
+     it creates.
+  The MacBook's 11:30am job stays ON until your first clean scheduled
+  sweep; MacBook Claude turns it off after verifying.
+
 - [ ] **COMMIT YOUR LOCAL WORK (first, 2026-09-15):** this machine has
   uncommitted Spotify feed-generator changes and the narestco manifest.
   Commit them now per the GIT SAFETY section (branch `mini/spotify-feed`
