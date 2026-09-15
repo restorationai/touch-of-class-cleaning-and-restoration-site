@@ -68,6 +68,28 @@ git add clients/_ops/mini-reports/ && git commit -m "mini report: <task>" && git
 If push is rejected, `git pull --rebase origin main` and push again. The
 MacBook Claude reads these reports — they are how the two machines talk.
 
+## GIT SAFETY (2026-09-15 — read before any git command)
+
+Your clone lives at `~/dev/rank-ai` on this machine (also recorded in
+`~/.rankai-repo-path` after self-install). Rules, all hard:
+
+- Sync is ALWAYS `git pull --rebase --autostash origin main`. Push is
+  ALWAYS plain `git push origin main`; when rejected, pull-rebase and push
+  again.
+- NEVER: `push --force` (any variant), `reset --hard`, `checkout --` /
+  `restore` to discard changes, deleting files you did not create, or
+  editing anything outside `clients/_ops/`, your own reports, and files an
+  inbox item explicitly names.
+- A rebase/merge CONFLICT means STOP: abort the rebase
+  (`git rebase --abort`), report the conflicting files in an event-ledger
+  line + your report, and wait. Never resolve a conflict by picking a side
+  yourself — the MacBook Claude arbitrates.
+- Commit small and often. Uncommitted local work is one crash from gone
+  and one autostash conflict from lost — anything you build (code
+  included) gets committed the same session. If a code change might break
+  something shared, commit it to a branch `mini/<topic>` and push that
+  branch; say so in the report.
+
 ## Event ledger — push the moment something REAL happens (2026-09-15)
 
 The daily report is not enough for account-level events. The INSTANT you

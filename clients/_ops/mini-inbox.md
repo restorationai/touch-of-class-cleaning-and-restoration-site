@@ -4,7 +4,13 @@
 > Work top to bottom. Supervised items are GO today (he is present).
 > Start with PROVE THE CHANNEL, then continue straight down.
 
-- [ ] **SYNC YOUR LOCAL NOTES (first, 2026-09-15):** you reported Spotify
+- [ ] **COMMIT YOUR LOCAL WORK (first, 2026-09-15):** this machine has
+  uncommitted Spotify feed-generator changes and the narestco manifest.
+  Commit them now per the GIT SAFETY section (branch `mini/spotify-feed`
+  if you judge the code could break anything shared, otherwise main) and
+  push. Uncommitted work is one autostash conflict from lost.
+
+- [ ] **SYNC YOUR LOCAL NOTES (2026-09-15):** you reported Spotify
   podcast-feed details to Santino and kept notes in a local MD file. Commit
   EVERY local note/markdown you have created on this machine into
   `clients/_ops/mini-reports/` now (plus one line per real asset into

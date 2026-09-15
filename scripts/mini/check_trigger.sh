@@ -2,7 +2,7 @@
 # Rank AI — remote trigger watcher (runs on the mini via launchd every 5
 # min). MacBook Claude pushes clients/_ops/mini-trigger with a fresh token;
 # if we haven't consumed that token yet, start a headless operator session.
-REPO="$(cat ~/.rankai-repo-path 2>/dev/null || echo $HOME/rank-ai)"
+REPO="$(cat ~/.rankai-repo-path 2>/dev/null || echo $HOME/dev/rank-ai)"
 cd "$REPO" || exit 0
 git fetch -q origin main && git pull -q --rebase --autostash origin main
 TRIG="clients/_ops/mini-trigger"
