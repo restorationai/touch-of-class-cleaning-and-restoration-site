@@ -903,6 +903,34 @@
     "https://www.insurance.ca.gov/"
    ],
    "notes": "Decision stage insurance query, the pattern that already produced this client's best queued posts. Draw the line that costs Kern County homeowners money: wind and falling trees are usually covered, rising surface water and flooding are not without a separate NFIP policy, and Lamont, Arvin and the Caliente Creek basin sit in exactly that gap. Internal link to the existing claim checklist post rather than repeating it."
+  },
+  {
+   "id": "2026-09-15-water-damage-restoration-bakersfield",
+   "status": "queued",
+   "queued_at": "2026-09-15T14:24:35Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "target_term",
+   "combo_key": "water-damage-restoration-bakersfield",
+   "primary_keyword": "water damage restoration bakersfield",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "bakersfield-ca",
+   "source": "gameplan-2026-09-1 (dev-agent)"
+  },
+  {
+   "id": "2026-09-15-fire-damage-restoration-bakersfield",
+   "status": "queued",
+   "queued_at": "2026-09-15T14:24:35Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "target_term",
+   "combo_key": "fire-damage-restoration-bakersfield",
+   "primary_keyword": "fire damage restoration bakersfield",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "bakersfield-ca",
+   "source": "gameplan-2026-09-1 (dev-agent)"
   }
  ]
 }
