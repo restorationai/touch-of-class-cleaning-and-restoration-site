@@ -301,6 +301,34 @@
       "notes": "Carried over from the 2026-08-31 mold testing run, where it was banked at priority 1 but held because the truth table was missing. Decision-stage insurance queries convert 24 to 48 hours before a homeowner hires anyone. Cover the covered-peril versus long-term-leak distinction, mold sublimits, and the California habitability angle for renters. Stay descriptive: no coverage promises, no legal advice, tell readers to check their own policy and to document the loss date.",
       "source": "keyword-researcher",
       "seed": "mold inspection"
+    },
+    {
+      "id": "2026-09-15-mold-testing-kingsburg",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "mold-testing-kingsburg",
+      "primary_keyword": "mold testing kingsburg",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "kingsburg-ca",
+      "source": "gameplan-2026-09-5 (dev-agent)"
+    },
+    {
+      "id": "2026-09-15-lead-testing-kingsburg",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "lead-testing-kingsburg",
+      "primary_keyword": "lead testing kingsburg",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "kingsburg-ca",
+      "source": "gameplan-2026-09-5 (dev-agent)"
     }
   ]
 }
