@@ -712,6 +712,20 @@
       "notes": "/blog/signs-of-hidden-mold/ covers hidden mold, which is the downstream problem, not the leak itself. Write this as the upstream piece and interlink both ways. Central Coast angle: slab-on-grade construction is common here, so cover slab leaks and the warm-floor tell.",
       "source": "keyword-researcher",
       "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-15-coastal-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "coastal-restoration",
+      "primary_keyword": "coastal restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "santa-maria-ca",
+      "source": "gameplan-2026-09-4 (dev-agent)"
     }
   ]
 }
