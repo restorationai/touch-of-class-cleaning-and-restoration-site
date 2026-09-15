@@ -951,6 +951,20 @@
     "https://www.floodsmart.gov/"
    ],
    "notes": "The distinction that matters: a burst supply line is usually covered, surface water and groundwater are not (that is NFIP territory), and sump pump failure or sewer backup needs a water backup endorsement. Cross-link, do not duplicate, /blog/does-homeowners-insurance-cover-water-damage/ and /blog/storm-damage-insurance-claim-checklist/. Never tell the reader what their specific policy covers: tell them which clause to look for."
+  },
+  {
+   "id": "2026-09-15-mold-remediation-near-me",
+   "status": "queued",
+   "queued_at": "2026-09-15T14:24:35Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "target_term",
+   "combo_key": "mold-remediation-near-me",
+   "primary_keyword": "mold remediation near me",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "sioux-falls-sd",
+   "source": "gameplan-2026-09-3 (dev-agent)"
   }
  ]
 }
