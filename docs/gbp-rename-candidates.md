@@ -221,3 +221,15 @@ barely searches — service terms must do the work).
    Remediation (mold NOT in services — coverage question first)
 3. 0.80 Flood Solutions - Water Damage Restoration & Sewage Cleanup
    (conservative, fully covered)
+
+### CORRECTION 2026-09-15 (live, same meeting): Flood Solutions is actually
+**Flood and Fire Solutions** — NO mold ever (they don't do it), fire is
+wanted. Old 3 dismissed; re-seeded fire-focused (company row name+services
+corrected too). New: 0.91 plumbing-aggressive / 0.90 "24/7 Emergency Water &
+Fire Damage Restoration" / 0.80 conservative water+sewage.
+
+### AUTOSEED live 2026-09-15: scripts/rename_autoseed.py rides call-intel
+(every 30 min). GBP connect -> state-volume research -> house candidate set
+(coverage-gated, plumbing-aggressive-first) + first Location Scout pass.
+Autoseeded rows carry source='autoseed'; this doc records manual/corrected
+research only.

@@ -53,3 +53,16 @@ jobs:
           GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
           CONCIERGE_ALLOWLIST:       ${{ secrets.CONCIERGE_ALLOWLIST }}
         run: python3 scripts/credit_canary.py || echo "canary failed (non-fatal)"
+
+      - name: Rename + Location Scout autoseed (2026-09-15)
+        # GBP connects -> research follows within ~30 min: house rename
+        # candidates (state volumes, coverage-gated) + a first Location
+        # Scout pass, so no client ever sees empty panels mid-onboarding
+        # (Flood and Fire Solutions kickoff). Idempotent: any existing
+        # name suggestions (open or dismissed) skip the client for good.
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DATAFORSEO_USERNAME:       ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:       ${{ secrets.DATAFORSEO_PASSWORD }}
+        run: python3 scripts/rename_autoseed.py || echo "autoseed failed (non-fatal)"
