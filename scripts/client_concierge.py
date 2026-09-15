@@ -4260,6 +4260,27 @@ def send_message(contact: dict, channel: str, body: str,
     held = company_hold((company or {}).get("id"))
     if held:
         raise SendBlocked(f"HOLD on this client — {held}")
+    # CROSS-PROCESS SEND LOCK (Jared 2026-09-15: the webhook composer and a
+    # second pass composed 13 seconds apart and the client got the same
+    # confirmation twice; per-contact locks were per-process only). One
+    # ops_kv row per contact, 45s TTL: whoever writes it first sends, the
+    # other composer blocks and re-evaluates next cycle with fresh history.
+    _lock_key = f"send-lock:{contact.get('id')}"
+    try:
+        _lk = kv_get(_lock_key)
+        if isinstance(_lk, dict) and _lk.get("at"):
+            _age = (datetime.now(timezone.utc)
+                    - datetime.fromisoformat(_lk["at"])).total_seconds()
+            if _age < 45:
+                raise SendBlocked(
+                    f"another composer holds the send lock for this contact "
+                    f"({_age:.0f}s old) — skipping to avoid a double text; "
+                    "anything owed re-evaluates next cycle")
+        kv_set(_lock_key, {"at": datetime.now(timezone.utc).isoformat()})
+    except SendBlocked:
+        raise
+    except Exception:  # noqa: BLE001 — a kv hiccup must never block sending
+        pass
     # HUMAN QUIET WINDOW (Santino 2026-08-18): never talk over a human. Ops
     # pings go to Santino himself, not a client thread; send_now passes the
     # exemption because the click is the human speaking.
@@ -4369,6 +4390,10 @@ def send_message(contact: dict, channel: str, body: str,
                 "resume.") from e
         raise
     print(f"  SENT {channel} to {recipient} (contact {contact['id']})")
+    try:
+        _sb("DELETE", f"/rest/v1/ops_kv?k=eq.{_lock_key}")
+    except Exception:  # noqa: BLE001
+        pass
     # Ops pings to Santino's own cell are not client threads and need no
     # sent-id bookkeeping; everything else must be recorded (see
     # sent_id_regression_check).
@@ -4648,6 +4673,13 @@ Rules:
   closes a commitment. Every other open item WAITS for its own message.
   SOLE EXCEPTION: a "LAUNCH-BLOCKER PAIR" block in the context — then, and
   only then, bundle exactly those two asks with one shared call offer.
+- DOCUMENTS THAT HAVEN'T ARRIVED DON'T EXIST (Jared 2026-09-15: he asked
+  "Can I email it? It's a pdf" and Monica answered "the filing looks
+  perfect" — praising a document nobody had received). You may NEVER
+  acknowledge receipt, quality, or contents of a file, photo, or document
+  unless the context explicitly says it arrived. When a client OFFERS to
+  send something, the only valid reply is how to send it (the hub link
+  path). Receipts come from the upload machinery, never from you.
 - FEEDBACK ACK HONESTY (Angie 2026-09-15: "Definitely, we'll add that in"
   while the request sat four days waiting for review): when a client asks
   for a change, only promise action ("we'll add that", "we're on it") for
