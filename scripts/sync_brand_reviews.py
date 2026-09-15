@@ -101,9 +101,10 @@ def _when_label(create_time: str | None) -> str:
         return ""
 
 
-def fetch_reviews(cid: str) -> list[dict]:
+def fetch_reviews(cid: str, client_name: str = "") -> list[dict]:
     """Recent 4-5 star reviews with real text. Returns [] if the table is empty,
     missing, or has an unexpected shape (rating+count-only mode)."""
+    _client_name_low = (client_name or "").lower()
     try:
         probe = _sb_get(f"marketing_gbp_reviews?company_id=eq.{cid}&select=*&limit=1")
     except requests.RequestException as e:
@@ -127,6 +128,19 @@ def fetch_reviews(cid: str) -> list[dict]:
     for rv in rows:
         text = _clean_text(rv.get("comment") or "")
         if len(text) < MIN_TEXT_LEN:
+            continue
+        # A review that names a FRANCHISE BRAND doesn't belong on a site
+        # unless that brand IS the client (Rob/TDI 2026-09-15: his GBP
+        # carries reviews from his SERVPRO days, and the homepage quoted
+        # "ServPro was able to help me" on the site built to move him OFF
+        # SERVPRO). Compare against the client's own name so real
+        # franchisees keep their reviews.
+        low = text.lower()
+        brand_hit = next((b for b in ("servpro", "puroclean", "paul davis",
+                                      "servicemaster", "belfor", "rainbow international",
+                                      "roto-rooter", "stanley steemer")
+                          if b in low), None)
+        if brand_hit and brand_hit not in (_client_name_low or ""):
             continue
         name = (rv.get("reviewer_name") or "").strip()
         first = name.split()[0].title() if name else "Verified customer"
@@ -242,7 +256,7 @@ def sync(slug: str, dry: bool) -> None:
 
     rating = f"{float(profile['rating']):.1f}"
     count = str(int(profile["review_count"]))
-    reviews = fetch_reviews(cid)
+    reviews = fetch_reviews(cid, client_name=slug.replace("-", " "))
 
     changes = update_brand_ts(brand_ts, rating, count, reviews, dry)
     llms_change = update_llms_txt(site / "public" / "llms.txt", rating, count, dry)
