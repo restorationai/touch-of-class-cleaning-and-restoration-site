@@ -41,6 +41,14 @@ import requests  # noqa: E402
 BUCKET = "rankai-podcasts"
 PUBLIC = "https://podcasts.restorationai.io"
 CF_API = "https://api.cloudflare.com/client/v4"
+AGENCY_EMAIL = "contact@restorationai.io"
+COVER_PX = 3000          # Spotify/Apple: square, 1400-3000px, JPEG/PNG, RGB
+FONT_CANDIDATES = [      # first hit wins; Pillow's bitmap default as last resort
+    "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+    "/System/Library/Fonts/Supplemental/Arial.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+]
 
 
 def _cf_headers() -> dict:
@@ -97,7 +105,10 @@ def load_manifest(slug: str) -> dict:
         "link": f"https://{json.loads((ROOT / 'clients' / (slug + '.json')).read_text()).get('domain', '')}",
         "language": "en-us",
         "author": name,
-        "email": b.get("email", "contact@restorationai.io"),
+        # ALWAYS the agency inbox (Santino 2026-09-09): directories send the
+        # ownership-verification codes here, so every show connects without
+        # a client round trip. Administrative only — never shown to listeners.
+        "email": AGENCY_EMAIL,
         "episodes": [],
     }
 
@@ -167,9 +178,162 @@ def episode_from_post(slug: str, post_slug: str, dry_run: bool = False) -> dict:
     return m
 
 
+# ----------------------------------------------------------------- cover art
+# Spotify refused the first feed (2026-09-08) for having no cover art. The
+# cover is rendered DETERMINISTICALLY (Pillow, no image model): directories
+# show it at thumbnail size, so it must be flat, high-contrast and legible,
+# which is exactly what generated scenes are not. Rule (Santino 2026-09-09):
+#   * a light/white logo variant exists  -> logo on the brand colour
+#   * only a regular (dark) logo exists   -> logo on a light panel, brand band
+#   * no logo in the repo                 -> initials on the brand colour
+# Every variant carries the "Restoration Talk" wordmark.
+
+def _hex(c: str | None, default: str) -> tuple:
+    c = (c or default).lstrip("#")
+    return tuple(int(c[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def _font(size: int):
+    from PIL import ImageFont
+    for p in FONT_CANDIDATES:
+        if Path(p).exists():
+            return ImageFont.truetype(p, size)
+    return ImageFont.load_default()
+
+
+def find_logo(slug: str) -> tuple[Path | None, bool]:
+    """(path, is_light_variant). Largest raster logo wins; a 'white'/'light'
+    variant is preferred because it sits on the brand colour."""
+    from PIL import Image
+    cands = []
+    for p in (ROOT / "clients" / slug).rglob("*"):
+        if p.suffix.lower() not in (".png", ".jpg", ".jpeg") or "logo" not in p.name.lower():
+            continue
+        if "podcast-cover" in p.name:
+            continue
+        try:
+            w, h = Image.open(p).size
+        except Exception:
+            continue
+        light = any(k in p.name.lower() for k in ("white", "light", "inverse", "reverse"))
+        cands.append((light, w * h, p))
+    if not cands:
+        return None, False
+    cands.sort(key=lambda t: (t[0], t[1]), reverse=True)
+    light, _, p = cands[0]
+    return p, light
+
+
+def _key_background(lg, tol: int = 96, dead: int = 40):
+    """Logo exports often arrive with the background baked in (narestco's
+    'Logo White.png' is white-on-dark-grey, fully opaque). If the image has
+    no transparency and all four corners agree on a colour, fade pixels near
+    that colour to transparent so the logo floats on the cover's own ground."""
+    from PIL import Image
+    if lg.getchannel("A").getextrema()[0] < 255:
+        return lg                              # real transparency present
+    w, h = lg.size
+    corners = [lg.getpixel(p)[:3] for p in ((0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1))]
+    ref = tuple(sum(c[i] for c in corners) // 4 for i in range(3))
+    if any(max(abs(c[i] - ref[i]) for i in range(3)) > 20 for c in corners):
+        return lg                              # corners disagree: not a flat bg
+    px = lg.load()
+    for y in range(h):
+        for x in range(w):
+            r, g, b, a = px[x, y]
+            d = max(abs(r - ref[0]), abs(g - ref[1]), abs(b - ref[2]))
+            if d < tol:   # fully clear inside the dead zone, then a soft ramp
+                px[x, y] = (r, g, b, 0 if d <= dead else int(255 * (d - dead) / (tol - dead)))
+    return lg
+
+
+def _initials(name: str) -> str:
+    words = [w for w in re.split(r"[^A-Za-z0-9]+", name) if w]
+    stop = {"the", "of", "and", "llc", "inc", "co", "corp", "ltd"}
+    words = [w for w in words if w.lower() not in stop] or words
+    return "".join(w[0] for w in words[:3]).upper() or name[:2].upper()
+
+
+def render_cover(slug: str, logo: Path | None = None, out: Path | None = None) -> Path:
+    from PIL import Image, ImageDraw
+    b = brand(slug)
+    name = b.get("display_name", slug)
+    primary = _hex(b.get("primary_color"), "#1f2937")
+    S = COVER_PX
+    if logo is None:
+        logo, light = find_logo(slug)
+    else:
+        light = any(k in logo.name.lower() for k in ("white", "light", "inverse", "reverse"))
+    out = out or (ROOT / "clients" / slug / "podcast-cover.jpg")
+
+    if logo is not None:
+        lg = _key_background(Image.open(logo).convert("RGBA"))
+        on_brand = light
+        bg = primary if on_brand else _hex(b.get("primary_light"), "#f3f4f6")
+        img = Image.new("RGB", (S, S), bg)
+        d = ImageDraw.Draw(img)
+        # logo box: 72% wide, 40% tall, centred a little above centre
+        box_w, box_h = int(S * 0.72), int(S * 0.40)
+        scale = min(box_w / lg.width, box_h / lg.height)
+        lg = lg.resize((max(1, int(lg.width * scale)), max(1, int(lg.height * scale))),
+                       Image.LANCZOS)
+        img.paste(lg, ((S - lg.width) // 2, int(S * 0.42) - lg.height // 2), lg)
+        if on_brand:
+            word_fill, band = (255, 255, 255), None
+        else:
+            band = primary
+            d.rectangle([0, int(S * 0.78), S, S], fill=band)
+            word_fill = (255, 255, 255)
+        f = _font(int(S * 0.062))
+        txt = "RESTORATION TALK"
+        tw = d.textlength(txt, font=f)
+        d.text(((S - tw) / 2, int(S * 0.845)), txt, font=f, fill=word_fill)
+    else:
+        img = Image.new("RGB", (S, S), primary)
+        d = ImageDraw.Draw(img)
+        ini = _initials(name)
+        f_big = _font(int(S * (0.42 if len(ini) <= 2 else 0.32)))
+        tw = d.textlength(ini, font=f_big)
+        d.text(((S - tw) / 2, int(S * 0.20)), ini, font=f_big, fill=(255, 255, 255))
+        f_name = _font(int(S * 0.055))
+        line = name.upper()
+        while d.textlength(line, font=f_name) > S * 0.9 and len(line) > 8:
+            line = line[:-4].rstrip() + "…"
+        tw = d.textlength(line, font=f_name)
+        d.text(((S - tw) / 2, int(S * 0.70)), line, font=f_name, fill=(255, 255, 255))
+        f = _font(int(S * 0.048))
+        txt = "RESTORATION TALK"
+        tw = d.textlength(txt, font=f)
+        d.text(((S - tw) / 2, int(S * 0.80)), txt, font=f, fill=_hex(b.get("primary_light"), "#e5e7eb"))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, "JPEG", quality=90, optimize=True)
+    print(f"  cover rendered: {out} ({'logo ' + logo.name if logo else 'initials ' + _initials(name)})")
+    return out
+
+
+def ensure_cover(slug: str, m: dict, dry_run: bool = False, force: bool = False,
+                 logo: Path | None = None) -> dict:
+    """Render + upload the cover once; the manifest remembers the public URL."""
+    local = ROOT / "clients" / slug / "podcast-cover.jpg"
+    if force or not local.exists():
+        render_cover(slug, logo=logo, out=local)
+    if force or not m.get("image"):
+        if not dry_run:
+            r2_put(f"{slug}/cover.jpg", local.read_bytes(), "image/jpeg")
+        m["image"] = f"{PUBLIC}/{slug}/cover.jpg"
+        if not dry_run:
+            save_manifest(slug, m)
+    return m
+
+
 def build_feed(slug: str, m: dict) -> str:
     def esc(t: str) -> str:
         return html.escape(t or "", quote=False)
+    image = ""
+    if m.get("image"):
+        image = (f'  <itunes:image href="{esc(m["image"])}"/>\n'
+                 f"  <image><url>{esc(m['image'])}</url><title>{esc(m['title'])}</title>"
+                 f"<link>{esc(m['link'])}</link></image>\n")
     items = []
     for e in m["episodes"]:
         pub = format_datetime(dt.datetime.fromisoformat(e["published_at"]))
@@ -191,7 +355,8 @@ def build_feed(slug: str, m: dict) -> str:
   <itunes:explicit>false</itunes:explicit>
   <itunes:category text="Education"/>
   <itunes:owner><itunes:name>{esc(m['author'])}</itunes:name><itunes:email>{esc(m['email'])}</itunes:email></itunes:owner>
-{chr(10).join(items)}
+  <managingEditor>{esc(m['email'])} ({esc(m['author'])})</managingEditor>
+{image}{chr(10).join(items)}
  </channel>
 </rss>
 """
@@ -199,6 +364,7 @@ def build_feed(slug: str, m: dict) -> str:
 
 def sync(slug: str, dry_run: bool = False) -> None:
     m = load_manifest(slug)
+    m = ensure_cover(slug, m, dry_run=dry_run)   # Spotify rejects feeds without art
     xml = build_feed(slug, m)
     if dry_run:
         print(xml[:600])
@@ -210,18 +376,25 @@ def sync(slug: str, dry_run: bool = False) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("init", "episode", "sync", "auto"):
+    for name in ("init", "episode", "sync", "auto", "cover"):
         sp = sub.add_parser(name)
         sp.add_argument("--slug", required=True)
         if name == "episode":
             sp.add_argument("--post", required=True)
         if name == "auto":
             sp.add_argument("--max", type=int, default=3)
+        if name == "cover":
+            sp.add_argument("--logo", help="raster logo to use (default: auto-pick from clients/<slug>/)")
         sp.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
     ensure_bucket()
-    if args.cmd == "init":
+    if args.cmd == "cover":   # (re)render + upload the art, then republish
+        m = ensure_cover(args.slug, load_manifest(args.slug), dry_run=args.dry_run,
+                         force=True, logo=Path(args.logo) if args.logo else None)
+        print(f"  image: {m['image']}")
+        sync(args.slug, args.dry_run)
+    elif args.cmd == "init":
         save_manifest(args.slug, load_manifest(args.slug))
         sync(args.slug, args.dry_run)
     elif args.cmd == "episode":
