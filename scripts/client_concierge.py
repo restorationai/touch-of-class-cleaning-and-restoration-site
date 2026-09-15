@@ -9408,6 +9408,20 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
         return False
     cands = _rename_candidates(company["id"])
     if not cands:
+        # Empty candidates INSIDE a live conversation is a repair case, not
+        # an exit (ACS/Alfredo 2026-09-15: "we don't do mold" dismissed all
+        # four options, the flow silently closed itself mid-conversation and
+        # the card went blank while the client was still engaged). Keep the
+        # state, escalate for a re-seed, and let the message flow onward so
+        # the composer can still answer naturally.
+        if (pend or {}).get("stage") in ("pitched", "options", "confirmed"):
+            append_escalation(
+                company, msg,
+                "rename conversation is LIVE but every name candidate was "
+                "dismissed (likely a service objection) — re-seed corrected "
+                "candidates now, the client is mid-conversation", dry_run,
+                ping=True)
+            return False
         _rename_save(company["id"], None, dry_run)
         return False
     # Trivial burst noise ("!?", "??", "ok" alone with a real message right
