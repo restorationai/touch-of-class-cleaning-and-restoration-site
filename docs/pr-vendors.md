@@ -40,3 +40,7 @@ EIN Presswire bulk-pricing inquiry also still pending a reply.
 Next: as replies land, build the comparison (placements proof, API,
 white-label, per-release price at volume) and shortlist for a 2-vendor
 bake-off with one real release each.
+
+2026-09-15: 38 Digital / The News Guy DEMOTED per Santino — we will not
+use them going forward regardless of their counter-offer reply. Do not
+re-open; the vendor decision comes from the 7-vendor outreach above.
