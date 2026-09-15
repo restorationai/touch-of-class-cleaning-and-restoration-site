@@ -868,6 +868,16 @@ def human_conversation_deferral(history: list[dict], state: dict) -> str | None:
     last_out = next((m for m in history if m["direction"] == "out"), None)
     if not last_out or not last_out.get("user_id"):
         return None
+    # userId alone is NOT proof of a human (2026-09-14: sends through the
+    # local .env GHL key stamp Santino's userId, so Monica's own machinery
+    # and Claude's manual assists read as "Santino is mid-conversation" and
+    # every follow-up self-deferred 12h — the Coastal/Arch/Desert Valley
+    # silence). A message we delivered ourselves is in the sent ledger
+    # (record_sent_message reconciles ids per-conversation), so userId +
+    # ledger-hit = machine, keep going. Ledger misses still defer (safe
+    # direction) and the reconciliation pass keeps those rare.
+    if last_out.get("id") in sent_message_ids(state):
+        return None
     age = datetime.now(timezone.utc) - last_out["when"]
     if age < timedelta(hours=HUMAN_DEFER_HOURS):
         return ("recent human conversation — deferred (human outbound "
@@ -906,8 +916,17 @@ def human_reply_hold(contact_id: str) -> str | None:
               f"{str(e)[:80]}", file=sys.stderr)
         return None
     now = datetime.now(timezone.utc)
+    # Same userId caveat as human_conversation_deferral (2026-09-14): our
+    # own sends can carry Santino's userId when the GHL key is user-scoped.
+    # Anything in the sent ledger is ours, never a reason to hold.
+    try:
+        machine_ids = sent_message_ids(load_state())
+    except Exception:  # noqa: BLE001 — hold logic must never crash a send
+        machine_ids = set()
     for m in history:                      # newest first
         if m["direction"] != "out" or not m.get("user_id"):
+            continue
+        if m.get("id") in machine_ids:
             continue
         age_min = (now - m["when"]).total_seconds() / 60
         if age_min < HUMAN_REPLY_HOLD_MIN:
@@ -8790,7 +8809,21 @@ listings all prove it, so a re-verification is winnable.
 Q "What is a DBA, do I need a lawyer?" A: A simple trade-name filing
 with the state, usually online in minutes, no lawyer needed.
 Q "Why the word Emergency?" A: It is what people type in urgent moments
-and it is policy-safe once the DBA makes it the registered name."""
+and it is policy-safe once the DBA makes it the registered name.
+Q "Do I need an actual location / a city business license?" (Tony
+2026-09-14) A: No new location and no city business license. The rename
+does not touch where the business operates or its licensing; the DBA is
+a county or state trade-name registration for the NAME only, and the
+profile keeps its existing address/service area. The only license that
+ever comes up is service-specific advertising (like plumbing in the
+name, which needs a plumbing license or licensed partner); names built
+from services they already legally perform need nothing extra.
+Q "Can you send that as a spreadsheet / a file?" A: Never offer or
+promise spreadsheets or file attachments (Santino 2026-09-14, the TDI
+sitemap spreadsheet: hard to produce, harder to deliver by text).
+Deliverables are LINKS: the live page, the sitemap URL, the client hub.
+If they insist on a file, say the team will follow up with it and file
+an ops note — do not promise a timeline."""
 
 _RENAME_SERVICE_LABELS = {
     "mold": "Mold Remediation", "plumbing": "Plumbing Services",
@@ -9343,7 +9376,13 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
     # behind it) must never earn its own reply — Amin 09-13: a two-message
     # burst got two disjointed answers and Monica read as forgetful.
     body_txt = (msg.get("body") or "").strip()
-    if pend and not msg.get("attachments") and (
+    # A bare digit is NEVER noise after a numbered options list — it IS the
+    # answer (Mike/Arch 2026-09-14: he picked "2" two minutes after the
+    # options text and the trivial-burst filter ate his selection).
+    is_option_pick = bool(re.fullmatch(r"[1-9]", body_txt)) and (
+        str((pend or {}).get("stage")) == "options"
+        or bool(re.search(r"\n\s*2[\.\)]", str((pend or {}).get("last_outbound") or ""))))
+    if (pend and not msg.get("attachments") and not is_option_pick and
             len(re.sub(r"[^A-Za-z0-9]", "", body_txt)) <= 2):
         print(f"    RENAME: consuming trivial burst fragment {body_txt!r}")
         return True
