@@ -216,6 +216,16 @@ reply (2-5 sentences). Rules, all hard:
 - Never claim a site/campaign launched unless the context says so.
 - If the email asks a question the context does not answer, acknowledge it
   and say you are checking rather than guessing.
+- SCHEDULING (Rob Showalter 2026-09-14, all hard): you cannot see anyone's
+  calendar from this path. If the client proposes call or meeting times or
+  asks to schedule anything, NEVER accept, pick, or confirm a time and
+  never say a time "works". Say you are passing the times to Santino, who
+  will confirm the exact time. Exception: if the thread history shows OUR
+  side already confirmed one specific time, re-affirm exactly that time and
+  nothing else.
+- Read the thread history before replying. If a later message in the
+  thread (from either side) already resolved what this email asks, do not
+  contradict it or answer again; at most confirm the resolution.
 - Sign off as:\nMonica\nRestoration AI
 Reply as JSON only: {"reply": "<the email body>"} or {"reply": null} if no
 reply is appropriate (pure FYI mail needing nothing)."""
@@ -695,8 +705,24 @@ def _poll_mailbox(tok: str, account: str, dry_run: bool,
                                           "launch.\n")
                 except Exception:  # noqa: BLE001
                     pass
+                # Thread history rides the draft (Rob Showalter 2026-09-14:
+                # "9 am pls" was answered blind with "Got it, 9 am works"
+                # eleven seconds after our own email in the SAME thread had
+                # locked 6:15pm — the composer saw only the newest inbound).
+                # Metadata snippets are enough to keep her consistent.
+                hist_lines = []
+                for tm in sorted(thread.get("messages", []) or [],
+                                 key=lambda t: int(t.get("internalDate", 0)))[-6:]:
+                    th = {x["name"]: x["value"] for x in
+                          (tm.get("payload", {}).get("headers") or [])}
+                    who = ("us" if "SENT" in (tm.get("labelIds") or [])
+                           else (th.get("From") or "them"))
+                    hist_lines.append(f"- {who}: {(tm.get('snippet') or '')[:160]}")
                 ctx = (site_facts + f"Client first name: {first}\n"
-                       f"Their email subject: {subject}\n"
+                       + ("Thread history, oldest first (stay consistent "
+                          "with what our side already said):\n"
+                          + "\n".join(hist_lines) + "\n\n" if hist_lines else "")
+                       + f"Their email subject: {subject}\n"
                        f"Their email body:\n{body_text[:1500]}\n"
                        + (f"\nWe just filed these attachments: "
                           f"{'; '.join(filed_notes)}\n" if filed_notes else "")
