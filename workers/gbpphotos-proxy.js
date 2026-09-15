@@ -78,7 +78,7 @@ ${reviewUrl ? `<button class="tile" onclick="document.getElementById('qr').class
 <a class="tile" href="/gbpphotos/${slug}"><span class="ic">📷</span>Upload Photos<small>Job shots, before &amp; afters, any photos &mdash; they go to Google and the website</small></a>
 <a class="tile" href="/logo/${slug}"><span class="ic">📎</span>Send Us Files<small>Logo or other files for the marketing team</small></a>
 <button class="tile" onclick="document.getElementById('js').classList.add('open')"><span class="ic">📝</span>Add a Job Story<small>Tell us about a job you just finished, we turn it into a website story</small></button>
-<button class="tile" style="border:2px solid #dc2626" onclick="document.getElementById('db').classList.add('open')"><span class="ic">📄</span>DBA / Trade Name Certificate<small>Snap a photo of your filed DBA paperwork &mdash; we verify the name and take it from there</small></button>
+<button class="tile" style="border:2px solid #dc2626" onclick="document.getElementById('db').style.display='block'"><span class="ic">📄</span>DBA / Trade Name Certificate<small>Snap a photo of your filed DBA paperwork &mdash; we verify the name and take it from there</small></button>
 <div id="qr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Scan to leave us a review</div>
 ${qrImg ? `<img src="${qrImg}" alt="Review QR code" onerror="this.onerror=null;this.src='${qrFallback}'">` : ""}
