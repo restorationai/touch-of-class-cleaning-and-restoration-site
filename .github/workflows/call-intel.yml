@@ -66,3 +66,12 @@ jobs:
           DATAFORSEO_USERNAME:       ${{ secrets.DATAFORSEO_USERNAME }}
           DATAFORSEO_PASSWORD:       ${{ secrets.DATAFORSEO_PASSWORD }}
         run: python3 scripts/rename_autoseed.py || echo "autoseed failed (non-fatal)"
+
+      - name: Rename pipeline stage mirror (2026-09-15)
+        # One derived stage per client for the Build Stages RENAME tab —
+        # verifiable signals only (suggestions, convo kv, rename_intent,
+        # BrightLocal citations). ~30 min freshness.
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scripts/rename_pipeline.py || echo "rename mirror failed (non-fatal)"
