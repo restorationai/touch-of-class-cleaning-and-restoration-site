@@ -9369,6 +9369,17 @@ def _verify_dba_upload(company: dict, contact: dict, rel: str,
     generic thank-you. Downloads the object, vision-verifies, and runs the
     same match/mismatch outcome as the texted lane."""
     cid = company["id"]
+    # ALREADY-VERIFIED DEDUPE (Jared 2026-09-15: he re-uploaded the same
+    # filing after a thread mixup and got the full "filing looks perfect"
+    # confirmation twice, 20 minutes apart). Once dba_verified is set, any
+    # further DBA upload is filed quietly — no second confirmation text.
+    _ri = ((company.get("integration_settings") or {})
+           .get("rename_intent") or {})
+    if _ri.get("dba_verified"):
+        print(f"    [dba] {cid}: already verified "
+              f"({_ri.get('dba_verified_at', '?')}) — duplicate upload "
+              "filed silently, no re-confirmation")
+        return "already_verified"
     sb_url = os.environ["SUPABASE_URL"].rstrip("/")
     key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
     try:
