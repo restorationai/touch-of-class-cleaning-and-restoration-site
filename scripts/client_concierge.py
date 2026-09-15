@@ -648,6 +648,20 @@ def sent_message_ids(state: dict) -> set[str]:
     return {i for i in state.get("sent_message_ids", []) if i}
 
 
+def _is_machine_sent(message_id: str | None) -> bool:
+    """Durable second source for "did WE send this?" — one ops_kv row per
+    delivered message id, written in send_message. Exists because the
+    state-blob ledger races across processes (2026-09-14: a concurrent run
+    clobbered fresh ids and the human gates then blocked Monica's instant
+    replies for an hour per thread)."""
+    if not message_id:
+        return False
+    try:
+        return kv_get(f"machine-sent:{message_id}") is not None
+    except Exception:  # noqa: BLE001 — a kv hiccup must not block detection
+        return False
+
+
 def record_sent_message(state: dict, result: dict | None) -> None:
     """Track the GHL id(s) of a message WE just delivered.
 
@@ -878,6 +892,8 @@ def human_conversation_deferral(history: list[dict], state: dict) -> str | None:
     # direction) and the reconciliation pass keeps those rare.
     if last_out.get("id") in sent_message_ids(state):
         return None
+    if _is_machine_sent(last_out.get("id")):
+        return None
     age = datetime.now(timezone.utc) - last_out["when"]
     if age < timedelta(hours=HUMAN_DEFER_HOURS):
         return ("recent human conversation — deferred (human outbound "
@@ -926,7 +942,7 @@ def human_reply_hold(contact_id: str) -> str | None:
     for m in history:                      # newest first
         if m["direction"] != "out" or not m.get("user_id"):
             continue
-        if m.get("id") in machine_ids:
+        if m.get("id") in machine_ids or _is_machine_sent(m.get("id")):
             continue
         age_min = (now - m["when"]).total_seconds() / 60
         if age_min < HUMAN_REPLY_HOLD_MIN:
@@ -4363,6 +4379,20 @@ def send_message(contact: dict, channel: str, body: str,
         # lands — GHL's own history is minutes behind and cost Jerrott two
         # contradicting texts.
         note_outbound((company or {}).get("id"), body, reply_to)
+        # DURABLE machine-sent marks (2026-09-14, the Mike/Tony instant-reply
+        # poisoning): the state-blob ledger races across processes, so a
+        # concurrent run can clobber freshly recorded ids and this send then
+        # reads as HUMAN (local GHL keys stamp Santino's userId) — blocking
+        # the webhook replies for an hour per thread. One ops_kv row per id
+        # has no race; the human detectors check it as the second source.
+        for _k in ("messageId", "emailMessageId"):
+            _mid = (result or {}).get(_k)
+            if _mid and isinstance(_mid, str):
+                try:
+                    kv_set(f"machine-sent:{_mid}",
+                           {"at": datetime.now(timezone.utc).isoformat()})
+                except Exception:  # noqa: BLE001 — marks are best-effort
+                    pass
     return result or {}
 
 
