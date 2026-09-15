@@ -4281,6 +4281,33 @@ def send_message(contact: dict, channel: str, body: str,
         raise
     except Exception:  # noqa: BLE001 — a kv hiccup must never block sending
         pass
+    # STALE-COMPOSE GUARD (Jared 2026-09-15, second incident: a composer
+    # that started before another's send finished landed 66s later with
+    # pre-send context — "you're done" followed by "send the filing" one
+    # minute apart). After taking the lock, look at the thread ONE more
+    # time: if ANY outbound landed in the last 120s, this draft was
+    # composed against a thread that has since spoken — abort and let the
+    # next cycle recompose with fresh history. Manual/exempt sends skip
+    # (operators layer messages deliberately).
+    if not human_hold_exempt and contact.get("id") not in (
+            OPS_PING_CONTACT_ID, ADVICE_CONTACT_ID):
+        try:
+            _recent = fetch_history(contact["id"], 3)
+            for _m in _recent:
+                if _m.get("direction") != "out" or not _m.get("when"):
+                    continue
+                _age_s = (datetime.now(timezone.utc)
+                          - _m["when"]).total_seconds()
+                if _age_s < 120:
+                    raise SendBlocked(
+                        f"an outbound landed {_age_s:.0f}s ago — this draft "
+                        "was composed against an older thread; recompose "
+                        "next cycle with fresh history (stale-compose guard)")
+                break
+        except SendBlocked:
+            raise
+        except Exception:  # noqa: BLE001 — guard must never block on API errors
+            pass
     # HUMAN QUIET WINDOW (Santino 2026-08-18): never talk over a human. Ops
     # pings go to Santino himself, not a client thread; send_now passes the
     # exemption because the click is the human speaking.
