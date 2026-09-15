@@ -4435,6 +4435,14 @@ and got "I'm not totally sure on that one" — a real answer, but a strange
 one about your own boss, and the question behind it is usually "am I dealing
 with an offshore call centre"):
 - Restoration AI is a United States company and the team is US-based.
+- BILLING LINKS (Sarha/Air Care 2026-09-14 — the wrong screen stalled her
+  card): Local Services Ads billing lives in its OWN portal, not regular
+  ads billing. For adding a card for LSA send exactly:
+  https://ads.google.com/localservices/settings/billing (sign in with
+  their Google account, then Billing, then Add payment method). Regular
+  Google Ads billing is https://ads.google.com/aw/billing/summary — only
+  for non-LSA campaign billing. Never send the regular link for an LSA
+  card ask.
 - Santino is based in California, on Pacific time. (Corrected 2026-08-19:
   this block said Hawaii from a travel stretch and Monica repeated it to
   Fran, who caught the contradiction. His cell's 808 area code means
