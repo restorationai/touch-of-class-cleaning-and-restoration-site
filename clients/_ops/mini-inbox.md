@@ -4,6 +4,19 @@
 > Work top to bottom. Supervised items are GO today (he is present).
 > Start with PROVE THE CHANNEL, then continue straight down.
 
+- [ ] **SYNC YOUR LOCAL NOTES (first, 2026-09-15):** you reported Spotify
+  podcast-feed details to Santino and kept notes in a local MD file. Commit
+  EVERY local note/markdown you have created on this machine into
+  `clients/_ops/mini-reports/` now (plus one line per real asset into
+  `clients/_ops/mini-ledger.md` per the new Event ledger section in
+  docs/MINI-OPERATOR.md) and push. Nothing may live only on this machine.
+
+- [ ] **SELF-INSTALL the no-terminal launchers (2026-09-15):** follow
+  `scripts/mini/README.md` exactly: Desktop double-click launcher +
+  the 5-minute remote-trigger watcher (bootstrap AND verify the plist).
+  After this, Santino never needs the terminal to start you, and MacBook
+  Claude can start unsupervised sessions by pushing a trigger token.
+
 - [ ] **PROVE THE CHANNEL (do this first, unsupervised, 2 minutes):**
   follow the new step 0 in docs/MINI-OPERATOR.md — append a heartbeat line
   to `clients/_ops/mini-heartbeat.md`, commit, push. Then write your first

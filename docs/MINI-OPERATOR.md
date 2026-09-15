@@ -68,6 +68,26 @@ git add clients/_ops/mini-reports/ && git commit -m "mini report: <task>" && git
 If push is rejected, `git pull --rebase origin main` and push again. The
 MacBook Claude reads these reports — they are how the two machines talk.
 
+## Event ledger — push the moment something REAL happens (2026-09-15)
+
+The daily report is not enough for account-level events. The INSTANT you
+create an account, establish a login, submit or publish a listing, connect
+a feed (Spotify, podcast RSS, etc.), or change any credential/config,
+append ONE line to `clients/_ops/mini-ledger.md`:
+
+```
+2026-09-15 | narestco | spotify | show connected via RSS feed https://... | status: in review
+```
+
+...and commit + push IMMEDIATELY (same commands as the heartbeat). Never
+batch these to end of day: if this machine dies an hour later, the ledger
+is the only proof of what exists. The MacBook Claude and Santino read this
+file as the source of truth for every asset this machine has created.
+
+LOCAL NOTES LAW: nothing you learn may live only on this machine. Any
+local .md/notes file you have kept (Spotify feed details included) gets
+committed into `clients/_ops/mini-reports/` the same session you write it.
+
 ## Daily report (last action of every day you run, 2026-09-14)
 
 Write `clients/_ops/mini-reports/DAILY-YYYY-MM-DD.md` with exactly three
