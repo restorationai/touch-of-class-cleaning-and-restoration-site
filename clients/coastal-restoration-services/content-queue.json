@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "id": "2026-09-15-who-to-call-for-water-damage-restoration-in-santa-maria-ca",
+      "status": "queued",
+      "queued_at": "2026-09-15T15:11:50Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-water-damage-restoration-in-santa-maria-ca",
+      "primary_keyword": "who to call for water damage restoration in Santa Maria, CA",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "santa-maria-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Santa Maria",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for water damage restoration Santa Maria",
+        "who do I call for water damage restoration in Santa Maria",
+        "water damage restoration emergency number Santa Maria CA",
+        "water damage cleanup Santa Maria",
+        "water cleanup Santa Maria",
+        "water removal Santa Maria"
+      ],
+      "source": "best-of-seeder"
+    },
+    {
       "id": "2026-09-06-water-damage-and-mold-and-fire",
       "status": "queued",
       "queued_at": "2026-09-06T10:23:57Z",
@@ -715,7 +744,7 @@
     },
     {
       "id": "2026-09-15-coastal-restoration",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -725,7 +754,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "santa-maria-ca",
-      "source": "gameplan-2026-09-4 (dev-agent)"
+      "source": "gameplan-2026-09-4 (dev-agent)",
+      "written_at": "2026-09-15T15:13:48Z",
+      "post_url": "https://callcrs.com/blog/coastal-restoration/"
     }
   ]
 }
