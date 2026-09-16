@@ -42,15 +42,18 @@ landing before Amin's citations go live.
 - [ ] **D14. Call-alert recipients list + held-alert visibility card.**
 - [ ] **D15. Non-activated client provisioning sweep.**
 - [ ] **D16. Number edit/release in-app; Bob's CallRail port kickoff.**
-- [ ] **D17. Call-side gclid stamping** (paid-vs-organic referee).
+- [x] **D17. Call-side gclid stamping** (paid-vs-organic referee).
 
 ## E. Cross-cutting
-- [ ] **E18. GA4 auto-wiring** — Admin API key events + Ads link, fired
+- [x] **E18. GA4 auto-wiring** — Admin API key events + Ads link, fired
       on connect (kills the "mark conversions manually" work forever).
 - [ ] **E19. Unified Leads view** (forms + calls, per-source).
 - [ ] **E20. Subdomain self-serve card** (Site tab).
 
 ## Shipped 09-16 (overnight)
+- E18: ga4_wire.py — click_to_call + generate_lead marked KEY EVENTS on all 24 GA4 properties; auto-runs at property creation + nightly line; Ads links pending 2-min Ads-UI step (SA can't be an Ads user): narestco 3832550597, puroclean 1813437945; Coastal GA4 outside our account
+- D17: click-ids (gclid/msclkid/fbclid) persisted at landing for 30d, form falls back to store, REAL id kept on the lead row; call-side conversion = click_to_call key event (UploadCallConversions can never match Twilio DNI lines — documented); rt-olson deployed
+- Zheng/BDA reply DRAFTED on-thread (getrest drafts) mapping their GTM/GA4 list to what's live
 - C9: consent checkbox (unchecked default, recorded per submission) + post-submit Call-Now panel (uses the DNI-swapped number) + prospect confirmation SMS via shared sender ladder; E2E green on rtolsonplumbing.com
 - C10: /embed/estimate iframe page (noindex, chrome-free) w/ ?source= channel tag; template + rt-olson; snippet ready for BDA
 - C11: agency TF verification RESUBMITTED (EIN digits-only + restorationai.io/sms-consent + app consent microcopy) — IN_REVIEW; agency_tf_watch.py auto-sets ESTIMATE_SMS_* fleet-wide at approval
