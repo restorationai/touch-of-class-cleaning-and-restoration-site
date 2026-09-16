@@ -40,17 +40,18 @@ landing before Amin's citations go live.
 
 ## D. DNI (remaining)
 - [x] **D14. Call-alert recipients list + held-alert visibility card.**
-- [ ] **D15. Non-activated client provisioning sweep.**
-- [ ] **D16. Number edit/release in-app; Bob's CallRail port kickoff.**
+- [x] **D15. [resolved: heal now provisions full set; fleet audited complete] Non-activated client provisioning sweep.**
+- [x] **D16. [CallRail port DROPPED per Santino] Number edit/release in-app; Bob's CallRail port kickoff.**
 - [x] **D17. Call-side gclid stamping** (paid-vs-organic referee).
 
 ## E. Cross-cutting
 - [x] **E18. GA4 auto-wiring** — Admin API key events + Ads link, fired
       on connect (kills the "mark conversions manually" work forever).
-- [ ] **E19. Unified Leads view** (forms + calls, per-source).
-- [ ] **E20. Subdomain self-serve card** (Site tab).
+- [~] **E19. [SKIPPED per Santino 09-16] Unified Leads view** (forms + calls, per-source).
+- [x] **E20. Subdomain self-serve card** (Site tab).
 
 ## Shipped 09-16 (overnight)
+- D15/D16/E20 closed 09-16 afternoon: full-set provisioning heal + 3 clients topped up; chip-click manage popup (forward edit everywhere, rename/release customs only); conditional google_ads numbers; Subdomains self-serve card (Site tab) + guardrailed edge fn. E19 skipped per Santino. CallRail port dropped.
 - C13: instant lead auto-reply email (only when the lead gave an email; reply-to the business inbox; mirrors the call-now push); template + rt-olson deployed
 - C12: SKIPPED by decision (Santino 09-16)
 - D14: two-channel call alerts (SMS + email, Lead Notifications lists, both optional; email unblocked from TF approval) + Call Alerts card on Reports>Calls (sent / waiting-for-morning / needs-attention states)
