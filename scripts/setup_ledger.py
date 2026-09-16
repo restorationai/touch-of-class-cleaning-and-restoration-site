@@ -2343,23 +2343,31 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 line = (r.stdout or r.stderr or "").strip().splitlines()[-1:]
                 attention.append(f"{slug}: call tracking -> {line[0][:110] if line else 'no output'}")
                 has_number = "provisioned" in (line[0] if line else "")
-            # WEBSITE number provisions in the same heal as the GBP number
-            # (Santino 2026-09-04, Arch gap: GBP side was standard but the
-            # site DNI number was never created for fast-tracked builds).
-            # Site WIRING (brand.ts + DNI script + deploy) stays with
-            # site_call_tracking.py --all-activated / the build pipeline.
-            has_web = bool((ct.get("website") or {}).get("number"))
-            if has_number and not has_web and not dry_run \
-                    and _HEALS.get("calltrack", 0) > 0:
-                _HEALS["calltrack"] -= 1
-                r = subprocess.run([sys.executable,
-                                    str(ROOT / "scripts" / "call_tracking.py"),
-                                    "provision", "--slug", slug,
-                                    "--source", "website"],
-                                   capture_output=True, text=True, timeout=120)
-                line = (r.stdout or r.stderr or "").strip().splitlines()[-1:]
-                attention.append(f"{slug}: website call tracking -> "
-                                 f"{line[0][:110] if line else 'no output'}")
+            # The FULL standard source set provisions in the same heal
+            # (Santino 2026-09-16: new signups were only getting gbp +
+            # website — Desert Valley/Flood&Fire/Go Green/Heritage/Paul
+            # Davis all landed with 2 of 7 — while the rest of the fleet
+            # had the complete set from the 08-24 rollout). Order matters:
+            # website first (the site DNI default), then the ad/AI
+            # channels. Site WIRING (brand.ts + DNI script + deploy)
+            # stays with site_call_tracking.py / the build pipeline.
+            if has_number and not dry_run:
+                for src in ("website", "google_ads", "yelp", "chatgpt",
+                            "gemini", "bing"):
+                    if (ct.get(src) or {}).get("number"):
+                        continue
+                    if _HEALS.get("calltrack", 0) <= 0:
+                        break
+                    _HEALS["calltrack"] -= 1
+                    r = subprocess.run([sys.executable,
+                                        str(ROOT / "scripts" / "call_tracking.py"),
+                                        "provision", "--slug", slug,
+                                        "--source", src],
+                                       capture_output=True, text=True,
+                                       timeout=120)
+                    line = (r.stdout or r.stderr or "").strip().splitlines()[-1:]
+                    attention.append(f"{slug}: {src} call tracking -> "
+                                     f"{line[0][:110] if line else 'no output'}")
             # The GBP phone SWAP is NEVER automatic (Santino 2026-07-28: "a
             # human overseeing and confirming the push live for every single
             # client"). The human clicks "Approve phone swap" on the client's
