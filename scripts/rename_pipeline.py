@@ -104,11 +104,40 @@ def derive(co: dict, sugs: list[dict], convo: dict | None,
     return {"stage": stage, **detail}
 
 
+def _mark(slug: str, field: str, value) -> int:
+    """Phase 3b: stamp GBP-execution facts into rename_intent (the human
+    just performed the rename, or verification cleared)."""
+    inv = slug_map()
+    cid = next((c for c, s in inv.items() if s == slug), None)
+    if not cid:
+        sys.exit(f"unknown slug {slug}")
+    rows = _sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+               "&select=integration_settings") or []
+    ints = (rows[0].get("integration_settings") if rows else {}) or {}
+    ri = dict(ints.get("rename_intent") or {})
+    ri[field] = value
+    ints["rename_intent"] = ri
+    _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+        {"integration_settings": ints})
+    print(f"{slug}: rename_intent.{field} = {value}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("cmd", nargs="?", default="sync",
+                    choices=("sync", "mark-renamed", "mark-verified"))
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--slug")
     a = ap.parse_args()
+    if a.cmd == "mark-renamed":
+        if not a.slug:
+            sys.exit("mark-renamed needs --slug")
+        return _mark(a.slug, "gbp_renamed_at", _now())
+    if a.cmd == "mark-verified":
+        if not a.slug:
+            sys.exit("mark-verified needs --slug")
+        return _mark(a.slug, "gbp_verification", "verified")
     inv = {c: s for s, c in {s: c for c, s in slug_map().items()}.items()}
     comps = _sb("GET", "/rest/v1/companies?status=eq.Active"
                 "&select=id,name,integration_settings") or []
@@ -147,6 +176,32 @@ def main() -> int:
         out[cid] = d
         print(f"  {d['stage']:18} {(d['name'] or cid)[:34]:36} "
               f"{('-> ' + (d.get('chosen') or ''))[:52]}")
+
+    # PHASE 3a (2026-09-15): stage-transition prompts. Entering
+    # ready_for_rename files ONE pinned [TODO-SANTINO] note — the GBP name
+    # change is always a deliberate human act (Amin law), so the system's
+    # job is to make sure nobody misses the moment citations go live.
+    if not a.dry_run:
+        for cid, d in out.items():
+            old_stage = (prev_clients.get(cid) or {}).get("stage")
+            if d["stage"] == "ready_for_rename" and old_stage != "ready_for_rename":
+                cites = d.get("citations") or {}
+                _sb("POST", "/rest/v1/marketing_ops_notes",
+                    {"company_id": cid, "status": "open",
+                     "author": "rename_pipeline",
+                     "body": (f"[TODO-SANTINO] READY FOR GBP RENAME: "
+                              f"{d.get('name')} — citations are live "
+                              f"({cites.get('live', '?')} of "
+                              f"{cites.get('ordered', '?')}) under the new "
+                              f"name:\n{d.get('chosen')}\n"
+                              "Execute the one-time Google Business Profile "
+                              "name change, then run:\n"
+                              f"  python3 scripts/rename_pipeline.py "
+                              f"mark-renamed --slug {d.get('slug')}\n"
+                              "The pipeline then watches re-verification. "
+                              "NEVER auto-executed by design.")},
+                    prefer="return=minimal")
+                print(f"  >> ready_for_rename prompt filed for {d.get('name')}")
 
     counts: dict[str, int] = {}
     for d in out.values():
