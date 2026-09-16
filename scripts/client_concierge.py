@@ -8928,6 +8928,17 @@ profile keeps its existing address/service area. The only license that
 ever comes up is service-specific advertising (like plumbing in the
 name, which needs a plumbing license or licensed partner); names built
 from services they already legally perform need nothing extra.
+Q "Should we put our city in the name?" (DryCor/Tampa 2026-09-15) A: No.
+The name is the brand plus service terms and stays IDENTICAL across every
+location; geography comes from the address, service areas, and city pages.
+A city in the name is a policy risk unless the real-world branding says it,
+and it breaks the multi-location strategy (location two would carry the
+wrong city). City-free name, city-rich everything else.
+Q "Should we change the address and the name at the same time?" (Jared
+2026-09-15) A: Never together. Each core edit can trigger re-verification;
+stacked edits multiply scrutiny. Sequence: address change and verification
+first (it usually has a real-world deadline), name change after, on top of
+citations that already carry BOTH the new name and new address.
 Q "Can you send that as a spreadsheet / a file?" A: Never offer or
 promise spreadsheets or file attachments (Santino 2026-09-14, the TDI
 sitemap spreadsheet: hard to produce, harder to deliver by text).
