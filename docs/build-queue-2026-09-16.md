@@ -35,8 +35,8 @@ landing before Amin's citations go live.
 - [x] **C10. Embeddable forms with source tags** (BDA landing pages).
 - [x] **C11. Agency fallback SMS provisioning** (ESTIMATE_SMS_* on Pages)
       — the enabler for office SMS before a client's toll-free clears.
-- [ ] **C12. Spam sentinel + nightly Pages env sweep.**
-- [ ] **C13. Auto-reply to the lead.**
+- [~] **C12. [SKIPPED per Santino 09-16: August failure was missing setup, not decay] Spam sentinel + nightly Pages env sweep.**
+- [x] **C13. Auto-reply to the lead.**
 
 ## D. DNI (remaining)
 - [x] **D14. Call-alert recipients list + held-alert visibility card.**
@@ -51,6 +51,8 @@ landing before Amin's citations go live.
 - [ ] **E20. Subdomain self-serve card** (Site tab).
 
 ## Shipped 09-16 (overnight)
+- C13: instant lead auto-reply email (only when the lead gave an email; reply-to the business inbox; mirrors the call-now push); template + rt-olson deployed
+- C12: SKIPPED by decision (Santino 09-16)
 - D14: two-channel call alerts (SMS + email, Lead Notifications lists, both optional; email unblocked from TF approval) + Call Alerts card on Reports>Calls (sent / waiting-for-morning / needs-attention states)
 - E18: ga4_wire.py — click_to_call + generate_lead marked KEY EVENTS on all 24 GA4 properties; auto-runs at property creation + nightly line; Ads links pending 2-min Ads-UI step (SA can't be an Ads user): narestco 3832550597, puroclean 1813437945; Coastal GA4 outside our account
 - D17: click-ids (gclid/msclkid/fbclid) persisted at landing for 30d, form falls back to store, REAL id kept on the lead row; call-side conversion = click_to_call key event (UploadCallConversions can never match Twilio DNI lines — documented); rt-olson deployed
