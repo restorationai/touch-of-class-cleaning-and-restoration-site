@@ -1,0 +1,88 @@
+{
+ "brand": {
+  "display_name": "Heritage Restoration LLC",
+  "place_id": "ChIJlRLa-3KCHy8RUE-lOQD16VU",
+  "lat": 45.9763545,
+  "lng": -94.3625024,
+  "phone": "(320) 733-8868",
+  "email": "support@heritagermn.com",
+  "street_address": "10984 Harvest Road",
+  "city": "Little Falls",
+  "state": "MN",
+  "postal_code": "56345",
+  "theme": "light",
+  "certifications": [
+   "IICRC WRT (WATER)",
+   "IICRC FSRT (FIRE & SMOKE)",
+   "IICRC ASD (STRUCTURAL DRYING)",
+   "EPA LEAD-SAFE CERTIFIED",
+   "IICRC AMRT (MOLD)"
+  ],
+  "license_numbers": [
+   "BC807677"
+  ],
+  "licensed_insured_attested": true,
+  "founded_year": "2023",
+  "trust_badges": [
+   "IICRC Certified Firm",
+   "Licensed & Insured",
+   "Locally Owned & Operated"
+  ]
+ },
+ "services": [
+  "water-damage-restoration",
+  "storm-damage-restoration",
+  "general-contracting",
+  "water-cleanup"
+ ],
+ "service_areas": [
+  {
+   "city": "Little Falls",
+   "state": "MN",
+   "slug": "little-falls-mn",
+   "primary": true
+  },
+  {
+   "city": "St. Cloud",
+   "state": "MN",
+   "slug": "st-cloud-mn"
+  },
+  {
+   "city": "Sartell",
+   "state": "MN",
+   "slug": "sartell-mn"
+  },
+  {
+   "city": "Sauk Rapids",
+   "state": "MN",
+   "slug": "sauk-rapids-mn"
+  },
+  {
+   "city": "Brainerd",
+   "state": "MN",
+   "slug": "brainerd-mn"
+  },
+  {
+   "city": "Baxter",
+   "state": "MN",
+   "slug": "baxter-mn"
+  },
+  {
+   "city": "Foley",
+   "state": "MN",
+   "slug": "foley-mn"
+  },
+  {
+   "city": "Royalton",
+   "state": "MN",
+   "slug": "royalton-mn"
+  },
+  {
+   "city": "Pierz",
+   "state": "MN",
+   "slug": "pierz-mn"
+  }
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
+}

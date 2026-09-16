@@ -1,0 +1,2514 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-09-16T07:48:48.705766+00:00",
+  "input_summary": {
+    "service_count": 4,
+    "service_area_count": 9,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "Heritage Restoration LLC | Restoration Services in Little Falls, MN",
+      "h1": "Restoration Services in Little Falls",
+      "meta_description": "Heritage Restoration LLC provides water, fire, mold, and storm damage restoration across Little Falls and surrounding areas. Licensed, insured, IICRC-certified. Call (320) 733-8868.",
+      "primary_keyword": "restoration services little falls",
+      "secondary_keywords": [
+        "restoration company near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/water-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/foley-mn/",
+        "/service-areas/pierz-mn/",
+        "/service-areas/royalton-mn/",
+        "/service-areas/sartell-mn/",
+        "/service-areas/sauk-rapids-mn/",
+        "/service-areas/st-cloud-mn/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Little Falls | Heritage Restoration LLC",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Little Falls: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (320) 733-8868.",
+      "primary_keyword": "restoration services little falls",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/water-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/general-contracting/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | Heritage Restoration LLC Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "Heritage Restoration LLC provides restoration services across Little Falls and the surrounding region. Find your city.",
+      "primary_keyword": "heritage restoration llc service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/foley-mn/",
+        "/service-areas/pierz-mn/",
+        "/service-areas/royalton-mn/",
+        "/service-areas/sartell-mn/",
+        "/service-areas/sauk-rapids-mn/",
+        "/service-areas/st-cloud-mn/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | Heritage Restoration LLC",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from Heritage Restoration LLC on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog little falls",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/how-long-does-water-damage-restoration-take/",
+        "/blog/mold-after-water-damage/",
+        "/blog/storm-damage-insurance-claim-checklist/",
+        "/blog/basement-flooding-prevention/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About Heritage Restoration LLC | Little Falls Restoration Company",
+      "h1": "About Heritage Restoration LLC",
+      "meta_description": "Heritage Restoration LLC has served Little Falls since 2023. Meet our IICRC-certified restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "heritage restoration llc little falls",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact Heritage Restoration LLC | Restoration in Little Falls",
+      "h1": "Contact Heritage Restoration LLC",
+      "meta_description": "Call (320) 733-8868 for restoration services in Little Falls and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "heritage restoration llc contact",
+      "secondary_keywords": [
+        "restoration company contact"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in Little Falls | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Little Falls",
+      "meta_description": "Water damage restoration in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration little falls",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/service-areas/foley-mn/water-damage-restoration/",
+        "/service-areas/pierz-mn/water-damage-restoration/",
+        "/service-areas/royalton-mn/water-damage-restoration/",
+        "/service-areas/sartell-mn/water-damage-restoration/",
+        "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+        "/service-areas/st-cloud-mn/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Little Falls | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Little Falls",
+      "meta_description": "Storm damage restoration in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration little falls",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/service-areas/foley-mn/storm-damage-restoration/",
+        "/service-areas/pierz-mn/storm-damage-restoration/",
+        "/service-areas/royalton-mn/storm-damage-restoration/",
+        "/service-areas/sartell-mn/storm-damage-restoration/",
+        "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+        "/service-areas/st-cloud-mn/storm-damage-restoration/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ]
+    },
+    {
+      "url_path": "/services/general-contracting/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Little Falls | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Little Falls",
+      "meta_description": "Renovations, remodels and general contracting in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting little falls",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/service-areas/foley-mn/general-contracting/",
+        "/service-areas/pierz-mn/general-contracting/",
+        "/service-areas/royalton-mn/general-contracting/",
+        "/service-areas/sartell-mn/general-contracting/",
+        "/service-areas/sauk-rapids-mn/general-contracting/",
+        "/service-areas/st-cloud-mn/general-contracting/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Cleanup in Little Falls | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Little Falls",
+      "meta_description": "Water cleanup in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water cleanup little falls",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/service-areas/foley-mn/water-cleanup/",
+        "/service-areas/pierz-mn/water-cleanup/",
+        "/service-areas/royalton-mn/water-cleanup/",
+        "/service-areas/sartell-mn/water-cleanup/",
+        "/service-areas/sauk-rapids-mn/water-cleanup/",
+        "/service-areas/st-cloud-mn/water-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-cloud-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in St. Cloud, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in St. Cloud",
+      "meta_description": "Serving St. Cloud, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services st. cloud",
+      "secondary_keywords": [
+        "st. cloud restoration company",
+        "damage restoration st. cloud",
+        "st. cloud disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/st-cloud-mn/water-damage-restoration/",
+        "/service-areas/st-cloud-mn/storm-damage-restoration/",
+        "/service-areas/st-cloud-mn/water-cleanup/",
+        "/service-areas/st-cloud-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/foley-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sartell-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Sartell, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Sartell",
+      "meta_description": "Serving Sartell, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services sartell",
+      "secondary_keywords": [
+        "sartell restoration company",
+        "damage restoration sartell",
+        "sartell disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/sartell-mn/water-damage-restoration/",
+        "/service-areas/sartell-mn/storm-damage-restoration/",
+        "/service-areas/sartell-mn/water-cleanup/",
+        "/service-areas/sartell-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/foley-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sauk-rapids-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Sauk Rapids, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Sauk Rapids",
+      "meta_description": "Serving Sauk Rapids, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services sauk rapids",
+      "secondary_keywords": [
+        "sauk rapids restoration company",
+        "damage restoration sauk rapids",
+        "sauk rapids disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+        "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+        "/service-areas/sauk-rapids-mn/water-cleanup/",
+        "/service-areas/sauk-rapids-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/foley-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brainerd-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Brainerd, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Brainerd",
+      "meta_description": "Serving Brainerd, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services brainerd",
+      "secondary_keywords": [
+        "brainerd restoration company",
+        "damage restoration brainerd",
+        "brainerd disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/foley-mn/",
+        "/service-areas/pierz-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/baxter-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Baxter, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Baxter",
+      "meta_description": "Serving Baxter, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services baxter",
+      "secondary_keywords": [
+        "baxter restoration company",
+        "damage restoration baxter",
+        "baxter disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/foley-mn/",
+        "/service-areas/pierz-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/foley-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Foley, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Foley",
+      "meta_description": "Serving Foley, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services foley",
+      "secondary_keywords": [
+        "foley restoration company",
+        "damage restoration foley",
+        "foley disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/foley-mn/water-damage-restoration/",
+        "/service-areas/foley-mn/storm-damage-restoration/",
+        "/service-areas/foley-mn/water-cleanup/",
+        "/service-areas/foley-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/pierz-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royalton-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Royalton, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Royalton",
+      "meta_description": "Serving Royalton, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services royalton",
+      "secondary_keywords": [
+        "royalton restoration company",
+        "damage restoration royalton",
+        "royalton disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/royalton-mn/water-damage-restoration/",
+        "/service-areas/royalton-mn/storm-damage-restoration/",
+        "/service-areas/royalton-mn/water-cleanup/",
+        "/service-areas/royalton-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/foley-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pierz-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Pierz, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Pierz",
+      "meta_description": "Serving Pierz, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services pierz",
+      "secondary_keywords": [
+        "pierz restoration company",
+        "damage restoration pierz",
+        "pierz disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/pierz-mn/water-damage-restoration/",
+        "/service-areas/pierz-mn/storm-damage-restoration/",
+        "/service-areas/pierz-mn/water-cleanup/",
+        "/service-areas/pierz-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/foley-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-cloud-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in St. Cloud, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in St. Cloud",
+      "meta_description": "Water damage restoration in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration st. cloud",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/st-cloud-mn/",
+        "/service-areas/st-cloud-mn/storm-damage-restoration/",
+        "/service-areas/st-cloud-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-cloud-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in St. Cloud, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in St. Cloud",
+      "meta_description": "Storm damage restoration in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration st. cloud",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/st-cloud-mn/",
+        "/service-areas/st-cloud-mn/water-damage-restoration/",
+        "/service-areas/st-cloud-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-cloud-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in St. Cloud, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in St. Cloud",
+      "meta_description": "Renovations, remodels and general contracting in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting st. cloud",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/st-cloud-mn/",
+        "/service-areas/st-cloud-mn/water-damage-restoration/",
+        "/service-areas/st-cloud-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-cloud-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in St. Cloud, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in St. Cloud",
+      "meta_description": "Water cleanup in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water cleanup st. cloud",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/st-cloud-mn/",
+        "/service-areas/st-cloud-mn/water-damage-restoration/",
+        "/service-areas/st-cloud-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sartell-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sartell, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Sartell",
+      "meta_description": "Water damage restoration in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration sartell",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sartell-mn/",
+        "/service-areas/sartell-mn/storm-damage-restoration/",
+        "/service-areas/sartell-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sartell-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Sartell, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Sartell",
+      "meta_description": "Storm damage restoration in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration sartell",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/sartell-mn/",
+        "/service-areas/sartell-mn/water-damage-restoration/",
+        "/service-areas/sartell-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sartell-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Sartell, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Sartell",
+      "meta_description": "Renovations, remodels and general contracting in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting sartell",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/sartell-mn/",
+        "/service-areas/sartell-mn/water-damage-restoration/",
+        "/service-areas/sartell-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sartell-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Sartell, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Sartell",
+      "meta_description": "Water cleanup in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water cleanup sartell",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/sartell-mn/",
+        "/service-areas/sartell-mn/water-damage-restoration/",
+        "/service-areas/sartell-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sauk Rapids, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Sauk Rapids",
+      "meta_description": "Water damage restoration in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration sauk rapids",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sauk-rapids-mn/",
+        "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+        "/service-areas/sauk-rapids-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Sauk Rapids, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Sauk Rapids",
+      "meta_description": "Storm damage restoration in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration sauk rapids",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/sauk-rapids-mn/",
+        "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+        "/service-areas/sauk-rapids-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sauk-rapids-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Sauk Rapids, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Sauk Rapids",
+      "meta_description": "Renovations, remodels and general contracting in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting sauk rapids",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/sauk-rapids-mn/",
+        "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+        "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sauk-rapids-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Sauk Rapids, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Sauk Rapids",
+      "meta_description": "Water cleanup in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water cleanup sauk rapids",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/sauk-rapids-mn/",
+        "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+        "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brainerd-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Brainerd, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Brainerd",
+      "meta_description": "Water damage restoration in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration brainerd",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/foley-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brainerd-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Brainerd, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Brainerd",
+      "meta_description": "Storm damage restoration in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration brainerd",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/foley-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brainerd-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Brainerd, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Brainerd",
+      "meta_description": "Renovations, remodels and general contracting in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting brainerd",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/foley-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brainerd-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Brainerd, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Brainerd",
+      "meta_description": "Water cleanup in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water cleanup brainerd",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/foley-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/baxter-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Baxter, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Baxter",
+      "meta_description": "Water damage restoration in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration baxter",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/service-areas/foley-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/baxter-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Baxter, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Baxter",
+      "meta_description": "Storm damage restoration in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration baxter",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/service-areas/foley-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/baxter-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Baxter, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Baxter",
+      "meta_description": "Renovations, remodels and general contracting in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting baxter",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/service-areas/foley-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/baxter-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Baxter, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Baxter",
+      "meta_description": "Water cleanup in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water cleanup baxter",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/service-areas/foley-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/foley-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Foley, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Foley",
+      "meta_description": "Water damage restoration in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration foley",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/foley-mn/",
+        "/service-areas/foley-mn/storm-damage-restoration/",
+        "/service-areas/foley-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/foley-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Foley, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Foley",
+      "meta_description": "Storm damage restoration in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration foley",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/foley-mn/",
+        "/service-areas/foley-mn/water-damage-restoration/",
+        "/service-areas/foley-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/foley-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Foley, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Foley",
+      "meta_description": "Renovations, remodels and general contracting in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting foley",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/foley-mn/",
+        "/service-areas/foley-mn/water-damage-restoration/",
+        "/service-areas/foley-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/foley-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Foley, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Foley",
+      "meta_description": "Water cleanup in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water cleanup foley",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/foley-mn/",
+        "/service-areas/foley-mn/water-damage-restoration/",
+        "/service-areas/foley-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royalton-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Royalton, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Royalton",
+      "meta_description": "Water damage restoration in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration royalton",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/royalton-mn/",
+        "/service-areas/royalton-mn/storm-damage-restoration/",
+        "/service-areas/royalton-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royalton-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Royalton, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Royalton",
+      "meta_description": "Storm damage restoration in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration royalton",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/royalton-mn/",
+        "/service-areas/royalton-mn/water-damage-restoration/",
+        "/service-areas/royalton-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royalton-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Royalton, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Royalton",
+      "meta_description": "Renovations, remodels and general contracting in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting royalton",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/royalton-mn/",
+        "/service-areas/royalton-mn/water-damage-restoration/",
+        "/service-areas/royalton-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royalton-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Royalton, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Royalton",
+      "meta_description": "Water cleanup in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water cleanup royalton",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/royalton-mn/",
+        "/service-areas/royalton-mn/water-damage-restoration/",
+        "/service-areas/royalton-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pierz-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Pierz, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Pierz",
+      "meta_description": "Water damage restoration in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration pierz",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/pierz-mn/",
+        "/service-areas/pierz-mn/storm-damage-restoration/",
+        "/service-areas/pierz-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pierz-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Pierz, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Pierz",
+      "meta_description": "Storm damage restoration in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration pierz",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/pierz-mn/",
+        "/service-areas/pierz-mn/water-damage-restoration/",
+        "/service-areas/pierz-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pierz-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Pierz, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Pierz",
+      "meta_description": "Renovations, remodels and general contracting in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting pierz",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/pierz-mn/",
+        "/service-areas/pierz-mn/water-damage-restoration/",
+        "/service-areas/pierz-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pierz-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Pierz, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Pierz",
+      "meta_description": "Water cleanup in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water cleanup pierz",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/pierz-mn/",
+        "/service-areas/pierz-mn/water-damage-restoration/",
+        "/service-areas/pierz-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/storm-damage-insurance-claim-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "h1": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "meta_description": "",
+      "primary_keyword": "storm damage insurance claim checklist use this before you call your insurer",
+      "secondary_keywords": [
+        "storm damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/storm-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-long-does-water-damage-restoration-take/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Long Does Water Damage Restoration Actually Take?",
+      "h1": "How Long Does Water Damage Restoration Actually Take?",
+      "meta_description": "",
+      "primary_keyword": "how long does water damage restoration actually take",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_process",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/mold-after-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Quickly Does Mold Grow After Water Damage?",
+      "h1": "How Quickly Does Mold Grow After Water Damage?",
+      "meta_description": "",
+      "primary_keyword": "how quickly does mold grow after water damage",
+      "secondary_keywords": [
+        "mold remediation",
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/basement-flooding-prevention/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "8 Ways To Prevent Basement Flooding This Season",
+      "h1": "8 Ways To Prevent Basement Flooding This Season",
+      "meta_description": "",
+      "primary_keyword": "8 ways to prevent basement flooding this season",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_prevention",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | Heritage Restoration LLC",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "heritage restoration llc privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | Heritage Restoration LLC",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "heritage restoration llc terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | Heritage Restoration LLC",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "heritage restoration llc accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}

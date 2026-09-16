@@ -1,0 +1,105 @@
+{
+  "slug": "heritage-restoration-llc",
+  "assets": {
+    "gbp:gbp-AF1QipNgL1_o5ykII-3zHaf-CMIfg8vXt9_AlSi8jOkS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNgL1_o5ykII-3zHaf-CMIfg8vXt9_AlSi8jOkS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789496674784/job-photos/posted/gbp-AF1QipNgL1_o5ykII-3zHaf-CMIfg8vXt9_AlSi8jOkS.jpg",
+      "width": 1606,
+      "height": 1318,
+      "bytes": 1438177,
+      "sha1": "7aa9f4433c00116f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Worker in hard hat removing damaged kitchen cabinets",
+      "quality": 62,
+      "slots": {
+        "hero": 28,
+        "team": 52,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Competent scene but lighting and composition feel stock; worker anonymous.",
+      "triaged_at": "2026-09-16T07:41:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOKO1dqWjrFN8-DltcE3h12Zv56eMYH3IHpHwta": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOKO1dqWjrFN8-DltcE3h12Zv56eMYH3IHpHwta.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789496674784/job-photos/posted/gbp-AF1QipOKO1dqWjrFN8-DltcE3h12Zv56eMYH3IHpHwta.jpg",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 243756,
+      "sha1": "e6e3ec5a731cf136",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Heritage Restoration LLC company logo on white background",
+      "quality": 90,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Pure logo lockup; no photographic content, unsuitable for any photo slot.",
+      "triaged_at": "2026-09-16T07:41:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP-7EzLtW8rXctyHGLU3h5Dsj2wQ9Kz8iuKanSg": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP-7EzLtW8rXctyHGLU3h5Dsj2wQ9Kz8iuKanSg.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789496674784/job-photos/posted/gbp-AF1QipP-7EzLtW8rXctyHGLU3h5Dsj2wQ9Kz8iuKanSg.jpg",
+      "width": 1544,
+      "height": 1240,
+      "bytes": 922954,
+      "sha1": "99f5781f65d29c50",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Close-up of dirty white subway tile backsplash with staining",
+      "quality": 48,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Tight crop, no context or crew; limited utility beyond a before detail shot.",
+      "triaged_at": "2026-09-16T07:41:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPNxXoumUTl3q92wNod350mUy7oEEswEZviSqWT": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPNxXoumUTl3q92wNod350mUy7oEEswEZviSqWT.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789496674784/job-photos/posted/gbp-AF1QipPNxXoumUTl3q92wNod350mUy7oEEswEZviSqWT.jpg",
+      "width": 1526,
+      "height": 1200,
+      "bytes": 958107,
+      "sha1": "ecc7197679ded871",
+      "exif": {},
+      "category": "building",
+      "subject": "Bright fully renovated white kitchen with stainless appliances",
+      "quality": 82,
+      "slots": {
+        "hero": 42,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Polished, art-directed shot; looks like stock photography, not a job-site photo.",
+      "triaged_at": "2026-09-16T07:41:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-09-16T07:41:34Z"
+}

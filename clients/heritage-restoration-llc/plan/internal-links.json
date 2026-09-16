@@ -1,0 +1,543 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/foley-mn/",
+    "/service-areas/pierz-mn/",
+    "/service-areas/royalton-mn/",
+    "/service-areas/sartell-mn/",
+    "/service-areas/sauk-rapids-mn/",
+    "/service-areas/st-cloud-mn/"
+  ],
+  "/services/": [
+    "/",
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/general-contracting/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/foley-mn/",
+    "/service-areas/pierz-mn/",
+    "/service-areas/royalton-mn/",
+    "/service-areas/sartell-mn/",
+    "/service-areas/sauk-rapids-mn/",
+    "/service-areas/st-cloud-mn/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/how-long-does-water-damage-restoration-take/",
+    "/blog/mold-after-water-damage/",
+    "/blog/storm-damage-insurance-claim-checklist/",
+    "/blog/basement-flooding-prevention/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/water-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/service-areas/foley-mn/water-damage-restoration/",
+    "/service-areas/pierz-mn/water-damage-restoration/",
+    "/service-areas/royalton-mn/water-damage-restoration/",
+    "/service-areas/sartell-mn/water-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+    "/service-areas/st-cloud-mn/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/storm-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/service-areas/foley-mn/storm-damage-restoration/",
+    "/service-areas/pierz-mn/storm-damage-restoration/",
+    "/service-areas/royalton-mn/storm-damage-restoration/",
+    "/service-areas/sartell-mn/storm-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+    "/service-areas/st-cloud-mn/storm-damage-restoration/",
+    "/blog/storm-damage-insurance-claim-checklist/"
+  ],
+  "/services/general-contracting/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/service-areas/foley-mn/general-contracting/",
+    "/service-areas/pierz-mn/general-contracting/",
+    "/service-areas/royalton-mn/general-contracting/",
+    "/service-areas/sartell-mn/general-contracting/",
+    "/service-areas/sauk-rapids-mn/general-contracting/",
+    "/service-areas/st-cloud-mn/general-contracting/"
+  ],
+  "/services/water-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/service-areas/foley-mn/water-cleanup/",
+    "/service-areas/pierz-mn/water-cleanup/",
+    "/service-areas/royalton-mn/water-cleanup/",
+    "/service-areas/sartell-mn/water-cleanup/",
+    "/service-areas/sauk-rapids-mn/water-cleanup/",
+    "/service-areas/st-cloud-mn/water-cleanup/"
+  ],
+  "/service-areas/st-cloud-mn/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/st-cloud-mn/water-damage-restoration/",
+    "/service-areas/st-cloud-mn/storm-damage-restoration/",
+    "/service-areas/st-cloud-mn/water-cleanup/",
+    "/service-areas/st-cloud-mn/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/foley-mn/"
+  ],
+  "/service-areas/sartell-mn/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/sartell-mn/water-damage-restoration/",
+    "/service-areas/sartell-mn/storm-damage-restoration/",
+    "/service-areas/sartell-mn/water-cleanup/",
+    "/service-areas/sartell-mn/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/foley-mn/"
+  ],
+  "/service-areas/sauk-rapids-mn/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/water-cleanup/",
+    "/service-areas/sauk-rapids-mn/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/foley-mn/"
+  ],
+  "/service-areas/brainerd-mn/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/foley-mn/",
+    "/service-areas/pierz-mn/"
+  ],
+  "/service-areas/baxter-mn/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/foley-mn/",
+    "/service-areas/pierz-mn/"
+  ],
+  "/service-areas/foley-mn/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/foley-mn/water-damage-restoration/",
+    "/service-areas/foley-mn/storm-damage-restoration/",
+    "/service-areas/foley-mn/water-cleanup/",
+    "/service-areas/foley-mn/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/pierz-mn/"
+  ],
+  "/service-areas/royalton-mn/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/royalton-mn/water-damage-restoration/",
+    "/service-areas/royalton-mn/storm-damage-restoration/",
+    "/service-areas/royalton-mn/water-cleanup/",
+    "/service-areas/royalton-mn/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/foley-mn/"
+  ],
+  "/service-areas/pierz-mn/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/pierz-mn/water-damage-restoration/",
+    "/service-areas/pierz-mn/storm-damage-restoration/",
+    "/service-areas/pierz-mn/water-cleanup/",
+    "/service-areas/pierz-mn/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/foley-mn/"
+  ],
+  "/service-areas/st-cloud-mn/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/st-cloud-mn/",
+    "/service-areas/st-cloud-mn/storm-damage-restoration/",
+    "/service-areas/st-cloud-mn/water-cleanup/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/st-cloud-mn/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/st-cloud-mn/",
+    "/service-areas/st-cloud-mn/water-damage-restoration/",
+    "/service-areas/st-cloud-mn/water-cleanup/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/st-cloud-mn/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/st-cloud-mn/",
+    "/service-areas/st-cloud-mn/water-damage-restoration/",
+    "/service-areas/st-cloud-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/st-cloud-mn/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/st-cloud-mn/",
+    "/service-areas/st-cloud-mn/water-damage-restoration/",
+    "/service-areas/st-cloud-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sartell-mn/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/sartell-mn/",
+    "/service-areas/sartell-mn/storm-damage-restoration/",
+    "/service-areas/sartell-mn/water-cleanup/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sartell-mn/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/sartell-mn/",
+    "/service-areas/sartell-mn/water-damage-restoration/",
+    "/service-areas/sartell-mn/water-cleanup/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sartell-mn/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/sartell-mn/",
+    "/service-areas/sartell-mn/water-damage-restoration/",
+    "/service-areas/sartell-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/sartell-mn/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/sartell-mn/",
+    "/service-areas/sartell-mn/water-damage-restoration/",
+    "/service-areas/sartell-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sauk-rapids-mn/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/",
+    "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/water-cleanup/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sauk-rapids-mn/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/",
+    "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/water-cleanup/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sauk-rapids-mn/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/sauk-rapids-mn/",
+    "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/sauk-rapids-mn/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/sauk-rapids-mn/",
+    "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/brainerd-mn/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/foley-mn/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/brainerd-mn/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/foley-mn/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/brainerd-mn/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/foley-mn/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/brainerd-mn/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/foley-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/baxter-mn/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/service-areas/foley-mn/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/baxter-mn/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/service-areas/foley-mn/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/baxter-mn/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/service-areas/foley-mn/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/baxter-mn/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/service-areas/foley-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/foley-mn/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/foley-mn/",
+    "/service-areas/foley-mn/storm-damage-restoration/",
+    "/service-areas/foley-mn/water-cleanup/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/foley-mn/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/foley-mn/",
+    "/service-areas/foley-mn/water-damage-restoration/",
+    "/service-areas/foley-mn/water-cleanup/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/foley-mn/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/foley-mn/",
+    "/service-areas/foley-mn/water-damage-restoration/",
+    "/service-areas/foley-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/foley-mn/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/foley-mn/",
+    "/service-areas/foley-mn/water-damage-restoration/",
+    "/service-areas/foley-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/royalton-mn/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/royalton-mn/",
+    "/service-areas/royalton-mn/storm-damage-restoration/",
+    "/service-areas/royalton-mn/water-cleanup/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/royalton-mn/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/royalton-mn/",
+    "/service-areas/royalton-mn/water-damage-restoration/",
+    "/service-areas/royalton-mn/water-cleanup/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/royalton-mn/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/royalton-mn/",
+    "/service-areas/royalton-mn/water-damage-restoration/",
+    "/service-areas/royalton-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/royalton-mn/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/royalton-mn/",
+    "/service-areas/royalton-mn/water-damage-restoration/",
+    "/service-areas/royalton-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/pierz-mn/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/pierz-mn/",
+    "/service-areas/pierz-mn/storm-damage-restoration/",
+    "/service-areas/pierz-mn/water-cleanup/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pierz-mn/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/pierz-mn/",
+    "/service-areas/pierz-mn/water-damage-restoration/",
+    "/service-areas/pierz-mn/water-cleanup/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pierz-mn/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/pierz-mn/",
+    "/service-areas/pierz-mn/water-damage-restoration/",
+    "/service-areas/pierz-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/pierz-mn/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/pierz-mn/",
+    "/service-areas/pierz-mn/water-damage-restoration/",
+    "/service-areas/pierz-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/blog/what-to-do-first-24-hours-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/burst-pipe-emergency-checklist/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/does-homeowners-insurance-cover-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/choosing-a-restoration-company/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/storm-damage-insurance-claim-checklist/": [
+    "/blog/",
+    "/services/storm-damage-restoration/"
+  ],
+  "/blog/how-long-does-water-damage-restoration-take/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/mold-after-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/basement-flooding-prevention/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}
