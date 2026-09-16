@@ -6,11 +6,11 @@ live campaigns + every future rename), then C9–C11, then E18, with A3–A5
 landing before Amin's citations go live.
 
 ## A. Citations & Rename program (highest leverage — 35 clients gated)
-- [ ] **A1. BL location enrichment sync** — logo + 3 photos (auto-normalized
+- [x] **A1. BL location enrichment sync** — logo + 3 photos (auto-normalized
       to BL spec: JPEG/PNG from webp, 10KB–5MB, ≥250px), description,
       services list, social links, contact fields pushed to every BL
       location BEFORE ordering; backfill Dry Bros + Frontline immediately.
-- [ ] **A2. Rename site-sync** — footer legal line ("[LLC] doing business
+- [x] **A2. Rename site-sync** — footer legal line ("[LLC] doing business
       as [DBA]"), schema legalName/name/alternateName, title metadata;
       runs at DBA-verification; Frontline first (live site, campaign live).
 - [ ] **A3. Aggregator submissions at order time** — Data Axle / Neustar /
@@ -49,6 +49,11 @@ landing before Amin's citations go live.
       on connect (kills the "mark conversions manually" work forever).
 - [ ] **E19. Unified Leads view** (forms + calls, per-source).
 - [ ] **E20. Subdomain self-serve card** (Site tab).
+
+## Shipped 09-16 (overnight)
+- A1 enrichment SYSTEM: in-order + nightly + fleet backfill (28/28); GBP business description now the description source (2 -> 26 locations covered)
+- A1 residue: BL image upload has NO API endpoint — question sent to BL support 09-16
+- A2 rename site-sync SYSTEM: footer 'doing business as' line + schema DBA-as-name (old names preserved as alternateName); rename_site_sync.py sweeps behind DBA vision-verify, rides client-ops-sync, self-deploys live sites; Frontline LIVE-verified on frontlinefireflood.com, Dry Bros source-synced (A6 cutover carries it)
 
 ## Shipped 09-15 (for the record)
 Self-serve tracking numbers (fn + card + 10/$2 pricing + wallet billing) ·
