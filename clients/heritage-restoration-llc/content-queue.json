@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "id": "2026-09-16-best-water-damage-restoration-in-little-falls-mn",
+      "status": "written",
+      "queued_at": "2026-09-16T10:24:48Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-little-falls-mn",
+      "primary_keyword": "best water damage restoration company in Little Falls, MN",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "little-falls-mn",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Little Falls",
+        "state": "MN",
+        "competitors": [
+          {
+            "name": "SERVPRO of Little Falls, Sauk Centre, Onamia",
+            "google_rating": 4.2,
+            "review_count": 5
+          },
+          {
+            "name": "Precision",
+            "google_rating": 4.4,
+            "review_count": 88
+          },
+          {
+            "name": "ServiceMaster of Little Falls",
+            "google_rating": 4.2,
+            "review_count": 5
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Little Falls",
+        "top rated water damage restoration Little Falls MN",
+        "who is the best water damage restoration company in Little Falls",
+        "water damage cleanup Little Falls",
+        "water cleanup Little Falls",
+        "water removal Little Falls"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-16T10:27:06Z",
+      "post_url": "https://heritagermn.com/blog/best-water-damage-restoration-company-in-little-falls-mn/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-little-falls-mn.md",
+          "part": "frontmatter",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "drying goals, and documentation. AMRT (mold remediation) is also valuable since mold can follow",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, general-contracting, water-cleanup"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-little-falls-mn.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Mold Remediation",
+          "context": "ion (WRT), Structural Drying (ASD), and Mold Remediation (AMRT), and they are licensed (BC807677",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, general-contracting, water-cleanup"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-little-falls-mn.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "5 reviews",
+          "context": "ea. Their Google rating is 4.2 based on 5 reviews, which reflects a limited local review",
+          "reason": "claims 5 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-little-falls-mn.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "5 reviews",
+          "context": "th factoring in. **Google Rating: 4.2 (5 reviews)** --- ## 3. Precision Precision car",
+          "reason": "claims 5 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-little-falls-mn.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "88 Google reviews",
+          "context": "w volume of any company on this list at 88 Google reviews and a 4.4 rating, which signals consist",
+          "reason": "claims 88 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-little-falls-mn.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "88 reviews",
+          "context": "e documentation. **Google Rating: 4.4 (88 reviews)** --- ## 4. ServiceMaster of Little",
+          "reason": "claims 88 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-little-falls-mn.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "5 reviews",
+          "context": "cation has a 4.2 Google rating based on 5 reviews, similar to the SERVPRO franchise in th",
+          "reason": "claims 5 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-little-falls-mn.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "5 reviews",
+          "context": "ater damage job. **Google Rating: 4.2 (5 reviews)** --- ## What to Look for When Choos",
+          "reason": "claims 5 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    }
+  ]
+}
