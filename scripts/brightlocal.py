@@ -362,10 +362,38 @@ def cmd_order(args) -> int:
         return 1
     bal = credits()
     cost = int(args.package[2:])
+    # A3 (Santino 2026-09-16): data-aggregator submissions ride EVERY order
+    # by default — Data Axle, Neustar/Localeze and YP Network push the (new)
+    # NAP into the feeds Google and the directories cross-check: the deepest
+    # layer of the rename evidence stack, and the first thing that
+    # propagates a DBA beyond the sites we hand-pick. SAB-supported only:
+    # Foursquare and GPS Network are not, and this fleet is service-area
+    # businesses with hidden addresses. 15 credits each, ladder discount
+    # from 3 up. --no-aggregators opts out; --publishers overrides.
+    pinfo = _bl("GET", f"/citation-builder/{cid}/publishers")
+    by_id = {p["id"]: p for p in (pinfo.get("publishers") or [])}
+    if args.publishers is not None:
+        pubs = [p.strip() for p in args.publishers.split(",") if p.strip()]
+        not_sab = [p for p in pubs
+                   if not (by_id.get(p) or {}).get("is_sab_supported")]
+        if not_sab:
+            print(f"  WARNING: not SAB-supported: {', '.join(not_sab)}")
+    elif args.no_aggregators:
+        pubs = []
+    else:
+        pubs = [p for p in ("dataaxle", "neustar", "ypnetwork")
+                if (by_id.get(p) or {}).get("is_sab_supported")]
+    pub_credits = sum((by_id.get(p) or {}).get("credits") or 15 for p in pubs)
+    disc = max((d["discount"] for d in (pinfo.get("discount_ladder") or [])
+                if len(pubs) >= d["count"]), default=0)
+    total = cost + pub_credits
     print(f"[{slug}] campaign {cid}: ordering {args.package} "
-          f"({cost} credits of {bal} available)"
+          f"({cost} credits)"
+          + (f" + aggregators {'+'.join(pubs)} ({pub_credits} credits"
+             + (f", -{disc}% ladder" if disc else "") + ")" if pubs else "")
+          + f" | {total} of {bal} available"
           + (" EXPRESS" if args.express else ""))
-    if bal < cost:
+    if bal < total:
         print("  insufficient credits — refusing")
         return 1
     if not args.apply:
@@ -386,11 +414,9 @@ def cmd_order(args) -> int:
             print(f"  only {len(picked)} SAB-suitable sites available — "
                   "refusing (drop the package size)")
             return 1
-    publishers = [p.strip() for p in (args.publishers or "").split(",")
-                  if p.strip()]
     _bl("PUT", f"/citation-builder/{cid}/confirm", {
         "package_id": args.package, "auto_select": not picked,
-        "citations": picked, "publishers": publishers,
+        "citations": picked, "publishers": pubs,
         "remove_duplicates": False, "express": bool(args.express),
         "notes": "Service-area business (SAB): hide the street address on "
                  "directories where possible.",
@@ -400,6 +426,7 @@ def cmd_order(args) -> int:
           f"| credits left: {credits()}")
     bl["ordered_at"] = datetime.now(timezone.utc).isoformat()
     bl["package_id"] = args.package
+    bl["publishers"] = pubs
     c["brightlocal"] = bl
     save_client(slug, c)
     cid = _company_id(slug)
@@ -819,9 +846,12 @@ def main() -> int:
                     help="hand-pick highest-DA SAB sites (DEFAULT)")
     po.add_argument("--let-bl-pick", dest="pick_top", action="store_false",
                     help="let BrightLocal auto-select the sites instead")
-    po.add_argument("--publishers", default="",
-                    help="comma list: dataaxle,neustar,foursquare,"
-                         "gpsnetwork,ypnetwork")
+    po.add_argument("--publishers", default=None,
+                    help="comma list overriding the aggregator default "
+                         "(dataaxle,neustar,ypnetwork); see also "
+                         "--no-aggregators")
+    po.add_argument("--no-aggregators", action="store_true",
+                    help="order citations only, skip aggregator submissions")
     po.add_argument("--apply", action="store_true")
     pt = sub.add_parser("status")
     pt.add_argument("--slug")
