@@ -323,6 +323,13 @@ def cmd_order(args) -> int:
     print(f"[{slug}] rename gate: {'CLEAR' if ok else 'BLOCKED'} — {why}")
     if not ok:
         return 1
+    # SYSTEM enrichment (Santino 2026-09-16): every order self-enriches the
+    # location first — description, services, socials, contact — so no
+    # campaign ever submits a bare-NAP listing again. Never blocks an order.
+    try:
+        print("  " + enrich_location(slug, apply=args.apply))
+    except Exception as e:  # noqa: BLE001
+        print(f"  (enrich warn: {str(e)[:80]})")
     c = load_client(slug)
     bl = c.get("brightlocal") or {}
     # NAME FINAL but GBP not yet renamed: the citations must print the NEW
@@ -575,6 +582,16 @@ def cmd_sync(_args) -> int:
         c["brightlocal"] = bl
         save_client(slug, c)
     _backfill_generic_menu()
+    # SYSTEM enrichment sweep (Santino 2026-09-16): every location with a
+    # shell re-enriches nightly, so socials confirmed or bios written after
+    # setup flow into BL automatically before any future order.
+    class _A:  # minimal args shim
+        slug = None
+        dry_run = False
+    try:
+        cmd_enrich(_A())
+    except Exception as e:  # noqa: BLE001
+        print(f"(fleet enrich warn: {str(e)[:80]})")
     return 0
 
 
@@ -622,6 +639,116 @@ def _backfill_generic_menu() -> None:
             print(f"  (generic menu {cid}: {str(e)[:80]})")
     if n:
         print(f"generic directory menu backfilled for {n} client(s)")
+
+
+# ---------------------------------------------------------------- enrich
+def _enrich_payload(slug: str, c: dict) -> dict:
+    """Everything beyond NAP that makes a citation rich, from the canonical
+    stores (Santino 2026-09-16: BL's own UI says richer locations produce
+    richer listings; description/socials/services/contact were all empty).
+    Truth law: only facts we actually hold — no defaults invented."""
+    cid = _company_id(slug)
+    payload: dict = {}
+    co = {}
+    if cid:
+        rows = _sb_req("GET", f"/rest/v1/companies?id=eq.{cid}"
+                       "&select=bio,services,email,integration_settings") or []
+        co = rows[0] if rows else {}
+    # description: companies.bio, else plan-input brand description
+    desc = (co.get("bio") or "").strip()
+    if not desc:
+        pi = CLIENTS / slug / "plan-input.json"
+        if pi.exists():
+            try:
+                desc = ((json.loads(pi.read_text()).get("brand") or {})
+                        .get("description") or "").strip()
+            except (json.JSONDecodeError, OSError):
+                pass
+    if desc:
+        payload["description"] = desc[:750]
+    # services (names only)
+    # BL validation: max 5 services, and long strings get rejected on some
+    # locations — keep the 5 highest-priority, each trimmed to 50 chars.
+    svcs = [str(x).strip()[:50] for x in (co.get("services") or []) if x]
+    if svcs:
+        payload["services_or_products"] = svcs[:5]
+    # socials: confirmed rows from the Connect card
+    if cid:
+        socs = _sb_req("GET", "/rest/v1/citation_listings"
+                       f"?company_id=eq.{cid}&kind=eq.social"
+                       "&social_state=in.(confirmed,connected_to_gsc)"
+                       "&select=directory,listing_url") or []
+        sp = {}
+        keymap = {"facebook": "facebook_url", "instagram": "instagram_url",
+                  "linkedin": "linkedin_url", "youtube": "youtube_url",
+                  "tiktok": "tiktok_url", "x": "x_url",
+                  "twitter": "x_url", "pinterest": "pinterest_url"}
+        for r in socs:
+            k = keymap.get(str(r.get("directory") or "").lower())
+            if k and r.get("listing_url"):
+                sp[k] = r["listing_url"]
+        if sp:
+            payload["social_profiles"] = sp
+    # contact: the preferred human on the card
+    ints = co.get("integration_settings") or {}
+    pref = next((x for x in (ints.get("contacts") or [])
+                 if x.get("preferred")), None) or         next(iter(ints.get("contacts") or []), None)
+    if pref and (pref.get("first_name") or pref.get("email")):
+        import re as _re
+        def _name_ok(v):  # BL rejects empty/odd name strings
+            return bool(v) and bool(_re.fullmatch(r"[A-Za-z][A-Za-z .'-]{0,39}", str(v).strip()))
+        payload["contact"] = {
+            k: str(v).strip() for k, v in {
+                "first_name": pref.get("first_name"),
+                "last_name": pref.get("last_name"),
+                "email": pref.get("email") or co.get("email"),
+            }.items()
+            if v and (k == "email" or _name_ok(v))}
+        if not payload["contact"]:
+            payload.pop("contact")
+    return payload
+
+
+def enrich_location(slug: str, apply: bool = True) -> str:
+    """Push the enrichment payload to the BL location. Partial PUT — only
+    fields we hold get written; nothing is blanked. Called automatically
+    from cmd_order (pre-payment) and the nightly sweep."""
+    c = load_client(slug)
+    bl = c.get("brightlocal") or {}
+    loc = bl.get("location_id")
+    if not loc:
+        return f"[{slug}] no BL location — nothing to enrich"
+    payload = _enrich_payload(slug, c)
+    if not payload:
+        return f"[{slug}] no enrichment data on file yet"
+    fields = ", ".join(sorted(payload.keys()))
+    if not apply:
+        return f"[{slug}] would enrich location {loc}: {fields}"
+    _bl("PUT", f"/locations/{loc}", payload)
+    return f"[{slug}] location {loc} enriched: {fields}"
+
+
+def cmd_enrich(args) -> int:
+    """Enrich one client (--slug) or the whole fleet (--all). Fleet mode
+    rides the nightly sync so locations stay current as client data
+    improves (socials confirmed later, bio written later)."""
+    if getattr(args, "slug", None):
+        print(enrich_location(args.slug, apply=not args.dry_run))
+        return 0
+    for f in sorted(CLIENTS.glob("*.json")):
+        try:
+            c = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(c, dict) or not (c.get("brightlocal") or {}).get("location_id"):
+            continue
+        try:
+            out = enrich_location(f.stem, apply=not args.dry_run)
+            if "no enrichment data" not in out:
+                print(out)
+        except Exception as e:  # noqa: BLE001 — one client never kills the sweep
+            print(f"[{f.stem}] enrich failed: {str(e)[:100]}")
+    return 0
 
 
 def cmd_status(args) -> int:
@@ -693,6 +820,9 @@ def main() -> int:
     pt = sub.add_parser("status")
     pt.add_argument("--slug")
     sub.add_parser("sync")
+    pe = sub.add_parser("enrich")
+    pe.add_argument("--slug")
+    pe.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
     if args.cmd == "setup":
         return cmd_setup(args)
@@ -702,6 +832,8 @@ def main() -> int:
         return cmd_status(args)
     if args.cmd == "sync":
         return cmd_sync(args)
+    if args.cmd == "enrich":
+        return cmd_enrich(args)
     return cmd_audit(args)
 
 
