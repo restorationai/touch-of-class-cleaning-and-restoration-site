@@ -199,6 +199,10 @@ const tight = compact || bare;
           data.lead_source = window.rankaiSource || "default";
           var saved = JSON.parse(localStorage.getItem("rankai_src") || "null");
           if (saved && saved.s) data.lead_source = saved.s;
+          // Embed override (C10): the host page names its own channel via
+          // ?source= on the iframe URL — authoritative when present.
+          var qsrc = new URLSearchParams(location.search).get("source");
+          if (qsrc) data.lead_source = qsrc.toLowerCase().replace(/[^a-z0-9_]/g, "").slice(0, 40) || data.lead_source;
         } catch (err) { data.lead_source = data.lead_source || "default"; }
         var q = new URLSearchParams(location.search);
         ["utm_source", "utm_medium", "utm_campaign", "gclid", "msclkid", "fbclid"].forEach(function (k) {
