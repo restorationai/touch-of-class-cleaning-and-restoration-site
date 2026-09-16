@@ -30,10 +30,10 @@ landing before Amin's citations go live.
       ($0.90/$0.83/$0.76 per credit at 250/500/1,000).
 
 ## C. Forms (remaining)
-- [ ] **C9. Post-submit "Call Now" screen + consent checkbox + prospect
+- [x] **C9. Post-submit "Call Now" screen + consent checkbox + prospect
       SMS** (one form change; Bob asks).
-- [ ] **C10. Embeddable forms with source tags** (BDA landing pages).
-- [ ] **C11. Agency fallback SMS provisioning** (ESTIMATE_SMS_* on Pages)
+- [x] **C10. Embeddable forms with source tags** (BDA landing pages).
+- [x] **C11. Agency fallback SMS provisioning** (ESTIMATE_SMS_* on Pages)
       — the enabler for office SMS before a client's toll-free clears.
 - [ ] **C12. Spam sentinel + nightly Pages env sweep.**
 - [ ] **C13. Auto-reply to the lead.**
@@ -51,6 +51,9 @@ landing before Amin's citations go live.
 - [ ] **E20. Subdomain self-serve card** (Site tab).
 
 ## Shipped 09-16 (overnight)
+- C9: consent checkbox (unchecked default, recorded per submission) + post-submit Call-Now panel (uses the DNI-swapped number) + prospect confirmation SMS via shared sender ladder; E2E green on rtolsonplumbing.com
+- C10: /embed/estimate iframe page (noindex, chrome-free) w/ ?source= channel tag; template + rt-olson; snippet ready for BDA
+- C11: agency TF verification RESUBMITTED (EIN digits-only + restorationai.io/sms-consent + app consent microcopy) — IN_REVIEW; agency_tf_watch.py auto-sets ESTIMATE_SMS_* fleet-wide at approval
 - A3: aggregators (Data Axle + Neustar + YP Network, SAB-supported; Foursquare/GPS are NOT) ride every citation order by default, 15cr each w/ ladder discount, itemized pre-charge; OPEN: retrofit for the 4 pre-A3 campaigns = BL-support question sent + ~43cr/campaign spend decision for Santino once they answer
 - A4: phase 3c GBP verification poll live in rename_pipeline sync (live title vs chosen; auto-stamps verified)
 - A5: press_release.py --kind rename ('formerly known as' lint-enforced, truth-gated); auto-drafts at ready_for_rename; Frontline rename-2026 draft SAVED to the app
