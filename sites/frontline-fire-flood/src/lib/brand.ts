@@ -12,7 +12,7 @@ export const brand = {
   // the footer carries the "[legal] doing business as [DBA]" line and schema
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
-  dbaName: "",
+  dbaName: "Frontline Fire & Flood - 24/7 Emergency Plumbing, Water and Fire Damage Restoration",
   domain: "frontlinefireflood.com",
   canonicalUrl: "https://frontlinefireflood.com",
   phone: "(253) 200-0503",
