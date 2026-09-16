@@ -5,8 +5,9 @@
   "phone_number": "+18338056699",
   "phone_number_sid": "PN84560776876725539a439b6c09b539eb",
   "purchased_at": "2026-07-05T19:37:29.631353+00:00",
-  "updated_at": "2026-07-05T21:35:39.453744+00:00",
+  "updated_at": "2026-09-16T05:29:06.232114+00:00",
   "verification_sid": "HH2a1acdfee273753765833f268cf38575",
   "verification_status": "PENDING_REVIEW",
-  "verification_submitted_at": "2026-07-05T21:35:39.453501+00:00"
+  "verification_submitted_at": "2026-07-05T21:35:39.453501+00:00",
+  "verification_resubmitted_at": "2026-09-16T05:33:24.896831+00:00"
 }

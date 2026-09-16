@@ -60,7 +60,10 @@ TOLLFREE_PREFIXES = ["833", "844", "855", "866", "877", "888"]
 BUSINESS = {
     "BusinessName": "Restoration AI LLC",
     "BusinessType": "PRIVATE_PROFIT",
-    "BusinessRegistrationNumber": "41-4181094",
+    # EIN digits-only: the hyphenated form is a known auto-reject trigger for
+    # "End Business Details Must Be Accurate and Complete" (first submission
+    # HH2a1acd... rejected 2026-07; resubmitted 2026-09-16).
+    "BusinessRegistrationNumber": "414181094",
     "BusinessRegistrationIdentifier": "EIN",
     "BusinessRegistrationAuthority": "EIN",
     "BusinessRegistrationCountry": "US",
@@ -93,7 +96,7 @@ USE_CASE = {
         "in basement. Reply STOP to opt out."
     ),
     # Placeholder — Twilio review may request a dedicated opt-in screenshot; see note printed by `verify`.
-    "OptInImageUrls": "https://restorationai.io/terms",
+    "OptInImageUrls": "https://restorationai.io/sms-consent/",
 }
 
 
@@ -246,8 +249,11 @@ def cmd_verify() -> None:
     params["TollfreePhoneNumberSid"] = num_sid
     # Additional context Twilio reviewers see:
     params["AdditionalInformation"] = (
-        f"EIN {BUSINESS_EIN} (IRS CP575A). Recipients are contracted business clients "
-        "of Restoration AI LLC who opt in to lead alerts via web form during onboarding."
+        f"EIN {BUSINESS_EIN} (IRS CP575A). Recipients are contracted business "
+        "clients of Restoration AI LLC (B2B). Each client opts in by adding "
+        "their own number in the Lead Notifications panel of their dashboard "
+        "at app.restorationai.io, which displays the consent disclosure. Full "
+        "program disclosure: https://restorationai.io/sms-consent/"
     )
 
     print("== submit Toll-Free Verification ==")

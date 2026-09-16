@@ -175,6 +175,11 @@ jobs:
           # new name corroborated on the site. Stamps
           # rename_intent.site_synced_at; quiet when nothing is pending.
           python3 scripts/rename_site_sync.py || true
+          # C11 (2026-09-16): agency toll-free verification watch. On
+          # TWILIO_APPROVED it sets ESTIMATE_SMS_* on every rankai-* Pages
+          # project (idempotent, self-heals new scaffolds), unlocking office
+          # SMS for clients whose own toll-free isn't approved yet.
+          python3 scripts/agency_tf_watch.py || true
 
       - name: Mini heartbeat mirror (superadmin dot, 2026-09-14)
         # The Mac Mini heartbeats + daily-reports by git commit; this step
