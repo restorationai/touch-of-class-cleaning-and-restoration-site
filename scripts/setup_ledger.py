@@ -2352,8 +2352,22 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             # channels. Site WIRING (brand.ts + DNI script + deploy)
             # stays with site_call_tracking.py / the build pipeline.
             if has_number and not dry_run:
+                # google_ads is CONDITIONAL (Santino 2026-09-16: most
+                # restoration clients never run ads — the number only ever
+                # displays to ad-click visitors, so for a no-ads client
+                # it's pure idle spend). Provision it only when there is
+                # real ads evidence: an LSA/Ads detection stamp or a
+                # google_ads_customer_id in the client record.
+                _crec = _client_record(slug)
+                ads_evidence = bool(
+                    ints.get("lsa")
+                    or (_crec.get("brand") or {}).get("google_ads_customer_id")
+                    or _crec.get("google_ads_customer_id")
+                    or (ROOT / "clients" / slug / "ads-journal.md").exists())
                 for src in ("website", "google_ads", "yelp", "chatgpt",
                             "gemini", "bing"):
+                    if src == "google_ads" and not ads_evidence:
+                        continue
                     if (ct.get(src) or {}).get("number"):
                         continue
                     if _HEALS.get("calltrack", 0) <= 0:
