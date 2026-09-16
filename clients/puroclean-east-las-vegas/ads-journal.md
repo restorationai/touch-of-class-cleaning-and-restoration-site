@@ -7,6 +7,9 @@ entry after any change.**
 
 <!-- entries below, newest first -->
 
+## 2026-09-16 18:29Z · note · —
+AUDIT (Santino ask: no google_ads calls in reports): 14d = 162 impr, 6 clicks, $148.79, 0 conversions. IS healthy post-09-12 bid fix (64-88%). ROOT CAUSE of zero attributed calls: the /lp/ landing pages never carried the DNI swap (LpLayoutV1-3 lacked the BaseLayout block) — every ad click saw the canonical (702) 551-3040 and the google_ads line (725) 223-0877 never displayed; Twilio shows 0 calls ever to that line. FIX: DniSwap.astro extracted + wired into all 3 LP layouts, deployed to production. Same fix applied to narestco (the zero-call-conversion mechanism there too). Ad calls attribute from today. — _operator_
+
 ## 2026-09-08 15:29Z · launch · Biohazard Division
 LAUNCH: 'PuroClean ELV - Biohazard Division' ENABLED per Santino 2026-09-08 morning. $40/day, manual CPC. Watch plan: search-term review at day 7, prune negatives, then budget toward $50 if terms are clean. — _operator_
 
