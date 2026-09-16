@@ -128,10 +128,13 @@ def sb_existing_row(company_id: str, quarter: str) -> dict | None:
 
 
 def sb_upsert_draft(company_id: str, quarter: str, title: str, body: str) -> None:
+    # Plain insert: the table has NO unique constraint on (company_id,
+    # quarter) — on_conflict against it 42P10s (surfaced by the first
+    # rename-2026 row, 2026-09-16). Idempotence lives in draft_one's
+    # sb_existing_row gate, which is how it always actually worked.
     r = requests.post(
-        f"{SB_URL}/rest/v1/{TABLE}?on_conflict=company_id,quarter",
-        headers={**_sb_headers(),
-                 "Prefer": "resolution=merge-duplicates,return=minimal"},
+        f"{SB_URL}/rest/v1/{TABLE}",
+        headers={**_sb_headers(), "Prefer": "return=minimal"},
         data=json.dumps([{
             "company_id": company_id,
             "quarter": quarter,
@@ -220,6 +223,41 @@ def build_facts(slug: str, quarter: str) -> dict:
     return facts
 
 
+def _rename_facts(slug: str, company_id: str) -> dict:
+    """new_name/old_name/legal_name for the rename release — canonical
+    stores only (chosen suggestion card for display case, rename_intent
+    for the filed DBA, companies for the legal entity)."""
+    r = requests.get(
+        f"{SB_URL}/rest/v1/companies",
+        params={"id": f"eq.{company_id}",
+                "select": "name,legal_business_name,integration_settings"},
+        headers=_sb_headers(), timeout=30)
+    r.raise_for_status()
+    co = (r.json() or [{}])[0]
+    ri = (co.get("integration_settings") or {}).get("rename_intent") or {}
+    filed = (ri.get("dba_name") or "").strip()
+    r = requests.get(
+        f"{SB_URL}/rest/v1/marketing_gbp_suggestions",
+        params={"company_id": f"eq.{company_id}", "item_type": "eq.name",
+                "status": "eq.chosen", "select": "item",
+                "order": "created_at.desc", "limit": "1"},
+        headers=_sb_headers(), timeout=30)
+    r.raise_for_status()
+    rows = r.json() or []
+    chosen = (str(rows[0].get("item")) or "").strip() if rows else ""
+    new_name = chosen if chosen and \
+        chosen.lower() == filed.lower() else (filed or chosen)
+    if not new_name:
+        die(f"[{slug}] no chosen/filed new name on record — a rename "
+            "release without the new name is impossible.")
+    return {"new_name": new_name,
+            "old_name": (co.get("name") or "").strip(),
+            "legal_name": (co.get("legal_business_name")
+                           or co.get("name") or "").strip(),
+            "dba_registered": bool(ri.get("dba_verified")
+                                   or ri.get("dba_verified_at"))}
+
+
 # ----------------------------------------------------------------------------
 # Anthropic (streaming SSE — same rationale as content_writer.anthropic_call)
 # ----------------------------------------------------------------------------
@@ -298,6 +336,30 @@ REQUIREMENTS:
 
 Return ONLY the markdown. First line must be the `# ` headline."""
 
+# Rename announcement (A5, Santino 2026-09-16): published the same week as
+# the GBP name change, this is the public record linking old and new
+# identities — the "formerly known as" line is what Google, directories and
+# AI assistants cite when reconciling the entities. Truth rules identical.
+RENAME_USER_PROMPT = """Write a local-news-style press release announcing that this company now operates under a new business name.
+
+FACTS (the only permissible source of claims):
+{facts_json}
+
+REQUIREMENTS:
+- 350-500 words total (body including boilerplate, excluding the headline).
+- Structure, in markdown:
+  1. A headline as a single `# ` line announcing the new name (title case, newsworthy, no clickbait).
+  2. A dateline paragraph starting exactly: **{city}, {state}** — {date_line} — followed by a lead sentence that states the company now operates as {new_name}.
+  3. REQUIRED, in the first or second paragraph, the exact phrase "formerly known as {old_name}" — this sentence is the entire point of the release; never omit or paraphrase it.
+  4. 2-4 body paragraphs: the name change is a registered trade name of {legal_name}; same ownership, team, phone number and service commitment (say this ONLY as continuity — no invented history); what the company does; the truth-gated proof points present in FACTS (availability, rating/reviews, certifications, license); the cities served.
+  5. Exactly one quoted statement (1-3 sentences) attributed to a spokesperson for {new_name}, about what the clearer name means for customers.
+  6. A boilerplate section starting `**About {new_name}**` — what the company is, "formerly {old_name}", service area, then NAP on its own lines (address, phone) and the website URL. The business name in the NAP block must be {new_name}.
+- Do not mention Rank AI, SEO, marketing, Google Business Profile, or press releases themselves.
+- Do not fabricate anything not in FACTS.
+{feedback}
+
+Return ONLY the markdown. First line must be the `# ` headline."""
+
 
 # ----------------------------------------------------------------------------
 # Draft generation + truth gate
@@ -308,22 +370,36 @@ def word_count(md: str) -> int:
     return len(re.findall(r"\b[\w'-]+\b", md))
 
 
-def generate_release(slug: str, quarter: str, model: str) -> tuple[str, str]:
+def generate_release(slug: str, quarter: str, model: str,
+                     kind: str = "quarterly",
+                     company_id: str | None = None) -> tuple[str, str]:
     """Returns (title, body_markdown). Dies if it cannot produce a draft that
     passes the CLAIMS TRUTH TABLE lint within MAX_ATTEMPTS."""
-    facts = build_facts(slug, quarter)
+    # The rename row key ("rename-2026") is storage-only — facts helpers
+    # parse real quarters, so they get the current one.
+    facts_q = quarter if kind != "rename" \
+        else quarter_of(datetime.now(timezone.utc))
+    facts = build_facts(slug, facts_q)
+    if kind == "rename":
+        facts.update(_rename_facts(slug, company_id or ""))
     truth = claims_lint.load_truth(slug)
     date_line = datetime.now(timezone.utc).strftime("%B %-d, %Y")
 
     feedback = ""
     for attempt in range(1, MAX_ATTEMPTS + 1):
-        user = USER_PROMPT.format(
+        tmpl_vars = dict(
             facts_json=json.dumps(facts, indent=2),
             city=facts.get("city") or "",
             state=facts.get("state") or "",
             date_line=date_line,
             display_name=facts.get("display_name") or "",
             feedback=feedback)
+        if kind == "rename":
+            user = RENAME_USER_PROMPT.format(
+                new_name=facts["new_name"], old_name=facts["old_name"],
+                legal_name=facts["legal_name"], **tmpl_vars)
+        else:
+            user = USER_PROMPT.format(**tmpl_vars)
         raw = anthropic_call(SYSTEM_PROMPT, user, model=model).strip()
         raw = re.sub(r"^```(?:markdown)?\s*|\s*```$", "", raw).strip()
 
@@ -335,6 +411,12 @@ def generate_release(slug: str, quarter: str, model: str) -> tuple[str, str]:
         body = "\n".join(lines[1:]).strip()
 
         problems: list[str] = []
+        if kind == "rename" and \
+                f"formerly known as {facts['old_name']}".lower() \
+                not in body.lower():
+            problems.append(
+                f"missing the REQUIRED exact phrase 'formerly known as "
+                f"{facts['old_name']}'")
         wc = word_count(body)
         if not (WORDS_HARD_MIN <= wc <= WORDS_HARD_MAX):
             problems.append(f"body is {wc} words; target {WORDS_MIN}-{WORDS_MAX}")
@@ -374,7 +456,8 @@ def write_repo_copy(slug: str, quarter: str, title: str, body: str) -> Path:
     return path
 
 
-def draft_one(slug: str, company_id: str, quarter: str, model: str) -> str:
+def draft_one(slug: str, company_id: str, quarter: str, model: str,
+              kind: str = "quarterly") -> str:
     """Returns one of: 'drafted', 'skipped-exists'."""
     existing = sb_existing_row(company_id, quarter)
     if existing:
@@ -383,7 +466,8 @@ def draft_one(slug: str, company_id: str, quarter: str, model: str) -> str:
         return "skipped-exists"
 
     print(f"[{slug}] drafting {quarter} press release…")
-    title, body = generate_release(slug, quarter, model)
+    title, body = generate_release(slug, quarter, model, kind=kind,
+                                   company_id=company_id)
     sb_upsert_draft(company_id, quarter, title, body)
     path = write_repo_copy(slug, quarter, title, body)
     print(f"[{slug}] saved draft: {path.relative_to(ROOT)} + Supabase row "
@@ -441,6 +525,13 @@ def cmd_draft(args: argparse.Namespace) -> int:
               f"have a {quarter} release are skipped individually; anyone who "
               f"joined since the first-month run gets drafted now.")
 
+    if args.kind == "rename":
+        if not args.slug:
+            die("--kind rename needs --slug (one client per announcement)")
+        # One-off announcement: its own row key (never collides with the
+        # quarterly cadence), no cadence gate.
+        quarter = f"rename-{now.year}"
+
     if args.all:
         targets = active_slugs()
     else:
@@ -452,7 +543,9 @@ def cmd_draft(args: argparse.Namespace) -> int:
     failures = 0
     for slug, company_id in targets.items():
         try:
-            draft_one(slug, company_id, quarter, args.model or ANTHROPIC_MODEL)
+            draft_one(slug, company_id, quarter,
+                      args.model or ANTHROPIC_MODEL,
+                      kind=args.kind or "quarterly")
         except SystemExit:
             raise
         except Exception as e:  # noqa: BLE001 — one client must not kill --all
@@ -479,6 +572,10 @@ def main() -> int:
                         "row-exists idempotency skip)")
     d.add_argument("--model", help=f"Override Anthropic model "
                                    f"(default: {ANTHROPIC_MODEL})")
+    d.add_argument("--kind", choices=("quarterly", "rename"),
+                   default="quarterly",
+                   help="rename = the name-change announcement with the "
+                        "required 'formerly known as' line (needs --slug)")
     d.set_defaults(fn=cmd_draft)
     args = ap.parse_args()
     return args.fn(args)

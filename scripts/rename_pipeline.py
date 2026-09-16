@@ -270,9 +270,10 @@ def main() -> int:
                               "(DBA doc is the evidence; techs-only clients "
                               "get the firm-registration offer)\n"
                               "  [ ] Apple Maps + Bing Places updated\n"
-                              "  [ ] rename PRESS RELEASE drafted + queued "
-                              "('formerly known as' line REQUIRED, publish "
-                              "same week as the change)\n"
+                              "  [ ] rename PRESS RELEASE (AUTO-DRAFTED "
+                              "to the app's Press Releases panel when this "
+                              "note filed — approve + publish the same "
+                              "week as the change)\n"
                               "  [ ] associations where credentialed "
                               "(RIA/NADCA/IAQA) + chamber OFFERED "
                               "(client-paid, primary city only)\n"
@@ -284,6 +285,21 @@ def main() -> int:
                               "NEVER auto-executed by design.")},
                     prefer="return=minimal")
                 print(f"  >> ready_for_rename prompt filed for {d.get('name')}")
+                # A5: the rename announcement drafts itself at this exact
+                # transition, so the release is sitting in the app before
+                # anyone reads the checklist. Fail-open — a drafting error
+                # never blocks the prompt.
+                try:
+                    import subprocess as _sp
+                    r = _sp.run([sys.executable,
+                                 str(ROOT / "scripts" / "press_release.py"),
+                                 "draft", "--slug", d.get("slug") or "",
+                                 "--kind", "rename"],
+                                capture_output=True, text=True, timeout=600)
+                    tail = (r.stdout or r.stderr).strip().splitlines()[-1:]
+                    print(f"  >> rename PR draft: {tail[0][:120] if tail else r.returncode}")
+                except Exception as e:  # noqa: BLE001
+                    print(f"  >> rename PR draft failed: {str(e)[:100]}")
 
     counts: dict[str, int] = {}
     for d in out.values():
