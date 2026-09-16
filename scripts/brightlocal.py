@@ -654,8 +654,14 @@ def _enrich_payload(slug: str, c: dict) -> dict:
         rows = _sb_req("GET", f"/rest/v1/companies?id=eq.{cid}"
                        "&select=bio,services,email,integration_settings") or []
         co = rows[0] if rows else {}
-    # description: companies.bio, else plan-input brand description
+    # description: companies.bio, else the GBP business description
+    # (client-approved, written for local search, same 750 limit —
+    # Santino 2026-09-16), else plan-input brand description
     desc = (co.get("bio") or "").strip()
+    if not desc and cid:
+        gp = _sb_req("GET", f"/rest/v1/marketing_gbp_profiles?company_id="
+                     f"eq.{cid}&select=description") or []
+        desc = ((gp[0].get("description") if gp else "") or "").strip()
     if not desc:
         pi = CLIENTS / slug / "plan-input.json"
         if pi.exists():
