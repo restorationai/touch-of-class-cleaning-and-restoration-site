@@ -131,8 +131,35 @@ async function sbGet(env: Env, path: string): Promise<unknown[] | null> {
 }
 
 async function sendSms(env: Env, lead: Record<string, string>): Promise<string> {
+  // RECIPIENTS (Bob/RT Olson 2026-09-15): the client-managed SMS list
+  // (integration_settings.lead_notify_sms, edited on the Lead Notifications
+  // card) — falls back to the brand line when the list is empty. SENDER
+  // preference gains the client's own APPROVED toll-free at the top (the
+  // house sender rule), then the agency line, then a tracking number.
+  let recipients: string[] = [];
+  let ownTF: { from?: string; sid?: string; token?: string } = {};
+  if (env.SUPABASE_URL && env.SUPABASE_SERVICE_ROLE_KEY && env.COMPANY_ID) {
+    const co = (await sbGet(
+      env,
+      `companies?id=eq.${env.COMPANY_ID}&select=integration_settings&limit=1`
+    )) as { integration_settings?: { lead_notify_sms?: string[] } }[] | null;
+    recipients = (co?.[0]?.integration_settings?.lead_notify_sms || [])
+      .map((x) => String(x || "").trim()).filter(Boolean);
+    const ps = (await sbGet(
+      env,
+      `company_phone_setup?id=eq.${env.COMPANY_ID}&select=compliance_status,agent_phone_1,twilio_subaccount_sid,twilio_auth_token&limit=1`
+    )) as Record<string, string>[] | null;
+    const p0 = ps?.[0];
+    if (p0?.compliance_status === "approved" && p0.agent_phone_1
+        && p0.twilio_subaccount_sid && p0.twilio_auth_token) {
+      ownTF = { from: p0.agent_phone_1, sid: p0.twilio_subaccount_sid, token: p0.twilio_auth_token };
+    }
+  }
   const toNumber = (brand.phoneRaw || "").trim();
-  if (!toNumber) return "skipped:no-brand-phone";
+  if (recipients.length === 0) {
+    if (!toNumber) return "skipped:no-brand-phone";
+    recipients = [toNumber];
+  }
 
   const body =
     `New estimate request: ${lead.name} ${lead.phone} ${lead.city}` +
@@ -146,7 +173,11 @@ async function sendSms(env: Env, lead: Record<string, string>): Promise<string> 
   let sid: string | undefined;
   let token: string | undefined;
 
-  if (agencyFrom && env.ESTIMATE_SMS_SID && env.ESTIMATE_SMS_TOKEN) {
+  if (ownTF.from && ownTF.sid && ownTF.token) {
+    fromNumber = ownTF.from;
+    sid = ownTF.sid;
+    token = ownTF.token;
+  } else if (agencyFrom && env.ESTIMATE_SMS_SID && env.ESTIMATE_SMS_TOKEN) {
     fromNumber = agencyFrom;
     sid = env.ESTIMATE_SMS_SID;
     token = env.ESTIMATE_SMS_TOKEN;
@@ -182,16 +213,22 @@ async function sendSms(env: Env, lead: Record<string, string>): Promise<string> 
     }
   }
 
-  const r = await fetch(`https://api.twilio.com/2010-04-01/Accounts/${sid}/Messages.json`, {
-    method: "POST",
-    headers: {
-      Authorization: `Basic ${btoa(`${sid}:${token}`)}`,
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: new URLSearchParams({ From: fromNumber, To: toNumber, Body: body }),
-  });
-  if (r.ok) return "sent";
-  return `error:${r.status}:${(await r.text()).slice(0, 200)}`;
+  let sent = 0;
+  let lastErr = "";
+  for (const to of recipients) {
+    const r = await fetch(`https://api.twilio.com/2010-04-01/Accounts/${sid}/Messages.json`, {
+      method: "POST",
+      headers: {
+        Authorization: `Basic ${btoa(`${sid}:${token}`)}`,
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body: new URLSearchParams({ From: fromNumber!, To: to, Body: body }),
+    });
+    if (r.ok) sent++;
+    else lastErr = `${r.status}:${(await r.text()).slice(0, 120)}`;
+  }
+  if (sent > 0) return `sent:${sent}/${recipients.length}`;
+  return `error:${lastErr}`;
 }
 
 async function insertContact(env: Env, lead: Record<string, string>): Promise<string> {
