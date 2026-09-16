@@ -1,984 +1,986 @@
 {
- "items": [
-  {
-   "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-sioux-falls-sd",
-   "status": "queued",
-   "queued_at": "2026-09-14T20:20:11Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "who_to_call",
-   "combo_key": "who-to-call-for-water-damage-restoration-in-sioux-falls-sd",
-   "primary_keyword": "who to call for water damage restoration in Sioux Falls, SD",
-   "intent": "transactional",
-   "target_word_count": 1200,
-   "city_anchor": "sioux-falls-sd",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Sioux Falls",
-    "state": "SD",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "who do you call for water damage restoration Sioux Falls",
-    "who do I call for water damage restoration in Sioux Falls",
-    "water damage restoration emergency number Sioux Falls SD",
-    "water damage cleanup Sioux Falls",
-    "water cleanup Sioux Falls",
-    "water removal Sioux Falls"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-06-exterior-and-interior-commercial-and-residential",
-   "status": "queued",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "exterior-and-interior-commercial-and-residential",
-   "primary_keyword": "Exterior and Interior. Commercial and Residential",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "baltic-sd",
-   "source": "app target-term (onboarding-backfill)"
-  },
-  {
-   "id": "2026-09-06-mold-restoration-reconstruction-services-of-all-types",
-   "status": "queued",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "mold-restoration-reconstruction-services-of-all-types",
-   "primary_keyword": "Mold Restoration. Reconstruction Services of all types",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "alton-ia",
-   "source": "app target-term (onboarding-backfill)"
-  },
-  {
-   "id": "2026-09-06-fire-restoration",
-   "status": "queued",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "fire-restoration",
-   "primary_keyword": "Fire Restoration",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "akron-ia",
-   "source": "app target-term (onboarding-backfill)"
-  },
-  {
-   "id": "2026-09-06-water-restoration",
-   "status": "queued",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "water-restoration",
-   "primary_keyword": "Water Restoration",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "adrian-mn",
-   "source": "app target-term (onboarding-backfill)"
-  },
-  {
-   "id": "2026-08-26-water-damage-restoration-cost-sd",
-   "status": "published",
-   "queued_at": "2026-08-26T14:38:58Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-sd",
-   "primary_keyword": "water damage restoration cost SD",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "sioux-falls-sd",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Sioux Falls",
-    "state": "SD",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in SD",
-    "water damage restoration price SD",
-    "average cost of water damage restoration SD",
-    "water damage cleanup SD",
-    "water cleanup SD",
-    "water removal SD"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-26T14:48:28Z",
-   "post_url": "https://crew3r.com/blog/water-damage-restoration-cost-sd/",
-   "published_verified_at": "2026-08-26T14:48:38Z"
-  },
-  {
-   "id": "2026-08-07-best-water-damage-restoration-in-sioux-falls-sd",
-   "status": "written",
-   "queued_at": "2026-08-07T03:42:17Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-sioux-falls-sd",
-   "primary_keyword": "best water damage restoration company in Sioux Falls, SD",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "sioux-falls-sd",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Sioux Falls",
-    "state": "SD",
-    "competitors": [
-     {
-      "name": "SERVPRO of Sioux Falls",
-      "google_rating": 4.7,
-      "review_count": 151
-     },
-     {
-      "name": "Mustang Disaster CleanUp",
-      "google_rating": 4.5,
-      "review_count": 62
-     },
-     {
-      "name": "FloorTec",
-      "google_rating": 5,
-      "review_count": 6
-     },
-     {
-      "name": "Mold Testing Services, LLC",
-      "google_rating": 5,
-      "review_count": 11
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Sioux Falls",
-    "top rated water damage restoration Sioux Falls SD",
-    "who is the best water damage restoration company in Sioux Falls",
-    "water damage cleanup Sioux Falls",
-    "water cleanup Sioux Falls",
-    "water removal Sioux Falls"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-10T18:04:16Z",
-   "post_url": "https://crew3r.com/blog/best-water-damage-restoration-company-in-sioux-falls-sd/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "151 Google reviews",
-     "context": "e company in the market by volume, with 151 Google reviews at a 4.7 rating. That review count refl",
-     "reason": "claims 151 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+      "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-sioux-falls-sd",
+      "status": "written",
+      "queued_at": "2026-09-14T20:20:11Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-water-damage-restoration-in-sioux-falls-sd",
+      "primary_keyword": "who to call for water damage restoration in Sioux Falls, SD",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "sioux-falls-sd",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Sioux Falls",
+        "state": "SD",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for water damage restoration Sioux Falls",
+        "who do I call for water damage restoration in Sioux Falls",
+        "water damage restoration emergency number Sioux Falls SD",
+        "water damage cleanup Sioux Falls",
+        "water cleanup Sioux Falls",
+        "water removal Sioux Falls"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-16T15:10:55Z",
+      "post_url": "https://crew3r.com/blog/who-to-call-for-water-damage-restoration-in-sioux-falls-sd/"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "151 reviews",
-     "context": "RVPRO of Sioux Falls' 4.7 rating across 151 reviews suggests a solid local track record. -",
-     "reason": "claims 151 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+      "id": "2026-09-06-exterior-and-interior-commercial-and-residential",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "exterior-and-interior-commercial-and-residential",
+      "primary_keyword": "Exterior and Interior. Commercial and Residential",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "baltic-sd",
+      "source": "app target-term (onboarding-backfill)"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "62 reviews",
-     "context": "leanUp holds a 4.5 Google rating across 62 reviews, making them one of the more-reviewed i",
-     "reason": "claims 62 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+      "id": "2026-09-06-mold-restoration-reconstruction-services-of-all-types",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "mold-restoration-reconstruction-services-of-all-types",
+      "primary_keyword": "Mold Restoration. Reconstruction Services of all types",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "alton-ia",
+      "source": "app target-term (onboarding-backfill)"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "62 reviews",
-     "context": "tent work over time. At 4.5 stars with 62 reviews, Mustang sits below both Crew and SERVP",
-     "reason": "claims 62 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+      "id": "2026-09-06-fire-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-restoration",
+      "primary_keyword": "Fire Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "akron-ia",
+      "source": "app target-term (onboarding-backfill)"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "6 reviews",
-     "context": "a 5.0 Google rating, though across only 6 reviews. A perfect rating on a small sample is",
-     "reason": "claims 6 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+      "id": "2026-09-06-water-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-restoration",
+      "primary_keyword": "Water Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "adrian-mn",
+      "source": "app target-term (onboarding-backfill)"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "10 reviews",
-     "context": "o draw firm conclusions from fewer than 10 reviews. Their name suggests a flooring-focused",
-     "reason": "claims 10 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+      "id": "2026-08-26-water-damage-restoration-cost-sd",
+      "status": "published",
+      "queued_at": "2026-08-26T14:38:58Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-sd",
+      "primary_keyword": "water damage restoration cost SD",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "sioux-falls-sd",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Sioux Falls",
+        "state": "SD",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in SD",
+        "water damage restoration price SD",
+        "average cost of water damage restoration SD",
+        "water damage cleanup SD",
+        "water cleanup SD",
+        "water removal SD"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-26T14:48:28Z",
+      "post_url": "https://crew3r.com/blog/water-damage-restoration-cost-sd/",
+      "published_verified_at": "2026-08-26T14:48:38Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "11 reviews",
-     "context": "s, LLC holds a 5.0 Google rating across 11 reviews. Their name indicates a testing and ins",
-     "reason": "claims 11 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+      "id": "2026-08-07-best-water-damage-restoration-in-sioux-falls-sd",
+      "status": "written",
+      "queued_at": "2026-08-07T03:42:17Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-sioux-falls-sd",
+      "primary_keyword": "best water damage restoration company in Sioux Falls, SD",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "sioux-falls-sd",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Sioux Falls",
+        "state": "SD",
+        "competitors": [
+          {
+            "name": "SERVPRO of Sioux Falls",
+            "google_rating": 4.7,
+            "review_count": 151
+          },
+          {
+            "name": "Mustang Disaster CleanUp",
+            "google_rating": 4.5,
+            "review_count": 62
+          },
+          {
+            "name": "FloorTec",
+            "google_rating": 5,
+            "review_count": 6
+          },
+          {
+            "name": "Mold Testing Services, LLC",
+            "google_rating": 5,
+            "review_count": 11
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Sioux Falls",
+        "top rated water damage restoration Sioux Falls SD",
+        "who is the best water damage restoration company in Sioux Falls",
+        "water damage cleanup Sioux Falls",
+        "water cleanup Sioux Falls",
+        "water removal Sioux Falls"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-10T18:04:16Z",
+      "post_url": "https://crew3r.com/blog/best-water-damage-restoration-company-in-sioux-falls-sd/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "151 Google reviews",
+          "context": "e company in the market by volume, with 151 Google reviews at a 4.7 rating. That review count refl",
+          "reason": "claims 151 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "151 reviews",
+          "context": "RVPRO of Sioux Falls' 4.7 rating across 151 reviews suggests a solid local track record. -",
+          "reason": "claims 151 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "62 reviews",
+          "context": "leanUp holds a 4.5 Google rating across 62 reviews, making them one of the more-reviewed i",
+          "reason": "claims 62 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "62 reviews",
+          "context": "tent work over time. At 4.5 stars with 62 reviews, Mustang sits below both Crew and SERVP",
+          "reason": "claims 62 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "6 reviews",
+          "context": "a 5.0 Google rating, though across only 6 reviews. A perfect rating on a small sample is",
+          "reason": "claims 6 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "10 reviews",
+          "context": "o draw firm conclusions from fewer than 10 reviews. Their name suggests a flooring-focused",
+          "reason": "claims 10 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sioux-falls-sd.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "11 reviews",
+          "context": "s, LLC holds a 5.0 Google rating across 11 reviews. Their name indicates a testing and ins",
+          "reason": "claims 11 reviews but synced gbpReviewCount is 489 (allowed \u00b120%: 391-586)"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-09-mold-remediation-cost",
+      "status": "written",
+      "queued_at": "2026-08-09T22:30:00Z",
+      "written_at": "2026-08-17T18:14:41Z",
+      "post_url": "https://crew3r.com/blog/mold-remediation-cost/",
+      "priority": 1,
+      "primary_keyword": "mold remediation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": 3,
+      "fan_out_cluster": [
+        "mold removal cost",
+        "how much does mold remediation cost",
+        "average cost of mold remediation",
+        "basement mold remediation cost",
+        "mold inspection cost",
+        "mold remediation cost sioux falls"
+      ],
+      "suggested_slug": "mold-remediation-cost",
+      "suggested_title": "Mold Remediation Cost in Sioux Falls, SD: What Homeowners Actually Pay",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/sioux-falls-sd/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "sioux-falls-sd",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Highest-volume cost guide in the pool (9,900/mo national, KD 3, $23 CPC). Give national ranges then anchor to Sioux Falls factors: basement finishes, crawl spaces, winter humidity swings. IICRC-certified angle. Cross-link the mold testing and hidden mold posts.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-does-homeowners-insurance-cover-mold",
+      "status": "published",
+      "queued_at": "2026-08-09T22:31:00Z",
+      "written_at": "2026-08-31T22:38:59Z",
+      "post_url": "https://crew3r.com/blog/does-homeowners-insurance-cover-mold/",
+      "priority": 1,
+      "primary_keyword": "does homeowners insurance cover mold",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": 11,
+      "fan_out_cluster": [
+        "does homeowners insurance cover mold remediation",
+        "when does insurance cover mold",
+        "mold damage insurance claim",
+        "mold from water leak insurance",
+        "mold exclusions homeowners policy"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold",
+      "suggested_title": "Does Homeowners Insurance Cover Mold? What South Dakota Policies Actually Pay For",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://dlr.sd.gov/insurance/homeowners.aspx",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Companion to the existing water damage insurance post. Core distinction: mold from a sudden covered peril (burst pipe) is often covered, gradual moisture is not, and many policies carry mold sublimits. Cite SD Division of Insurance guidance. Lead with the plain answer in the first 80 words.",
+      "source": "keyword-researcher",
+      "published_verified_at": "2026-08-31T22:41:41Z"
+    },
+    {
+      "id": "2026-08-09-water-damage-restoration-cost",
+      "status": "published",
+      "queued_at": "2026-08-09T22:32:00Z",
+      "written_at": "2026-09-03T20:07:23Z",
+      "post_url": "https://crew3r.com/blog/water-damage-restoration-cost/",
+      "priority": 1,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage repair cost",
+        "average cost of water damage restoration",
+        "water damage restoration cost per square foot",
+        "cost to dry out a house after a leak",
+        "water damage restoration cost sioux falls"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water Damage Restoration Cost in Sioux Falls, SD (2026 Pricing Guide)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sioux-falls-sd/water-damage-restoration/",
+        "/blog/how-long-does-water-damage-restoration-take/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "sioux-falls-sd",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "KD 3 with $20 CPC. Break out by water category and affected area (Class 1 room vs finished basement). Explain what insurance typically absorbs vs the deductible. Cross-link the duration post.",
+      "source": "keyword-researcher",
+      "published_verified_at": "2026-09-03T20:09:40Z"
+    },
+    {
+      "id": "2026-08-09-how-to-prevent-pipes-from-freezing",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:33:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "how to prevent pipes from freezing",
+      "intent": "informational",
+      "volume": 14800,
+      "kd": 31,
+      "fan_out_cluster": [
+        "what to do if pipes freeze",
+        "how to prevent frozen pipes in winter",
+        "how to thaw frozen pipes safely",
+        "at what temperature do pipes freeze",
+        "frozen pipe burst water damage"
+      ],
+      "suggested_slug": "how-to-prevent-pipes-from-freezing",
+      "suggested_title": "How to Prevent Pipes From Freezing in South Dakota Winters",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html"
+      ],
+      "notes": "Massive January seasonality (135,000 national searches in Jan 2026). Publish well before freeze season. Cover prevention plus safe thawing when pipes freeze but have not burst; hand off to the existing burst pipe checklist for the failure case.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-how-to-get-rid-of-ice-dams",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:34:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "how to get rid of ice dams",
+      "intent": "informational",
+      "volume": 2400,
+      "kd": 5,
+      "fan_out_cluster": [
+        "how to prevent ice dams",
+        "ice dam on roof what to do",
+        "what causes ice dams",
+        "roof raking to prevent ice dams",
+        "ice dam water damage inside house"
+      ],
+      "suggested_slug": "how-to-get-rid-of-ice-dams",
+      "suggested_title": "How to Get Rid of Ice Dams (and Stop Them Coming Back)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/roofing/",
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "roofing",
+        "storm-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams"
+      ],
+      "notes": "KD 5 and strongly seasonal (Feb spike). Cover safe removal (steaming, roof raking), why hacking at ice wrecks shingles, attic insulation and ventilation as the permanent fix, and the interior water damage tie-in. Pair with the ice dam removal cost post.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-what-does-hail-damage-look-like-on-a-roof",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:35:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "what does hail damage look like on a roof",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": null,
+      "fan_out_cluster": [
+        "how to tell if your roof has hail damage",
+        "hail damage vs normal wear on shingles",
+        "hail damage roof inspection",
+        "what size hail damages a roof",
+        "hail damage to siding and gutters"
+      ],
+      "suggested_slug": "what-does-hail-damage-look-like-on-a-roof",
+      "suggested_title": "What Does Hail Damage Look Like on a Roof? A Sioux Falls Inspection Guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/roofing/",
+        "/services/storm-damage-restoration/",
+        "/services/siding-gutters/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ],
+      "service_tags": [
+        "roofing",
+        "storm-damage-restoration",
+        "siding-gutters"
+      ],
+      "city_anchor": "sioux-falls-sd",
+      "external_authority_candidates": [
+        "https://dlr.sd.gov/insurance/homeowners.aspx"
+      ],
+      "notes": "Sioux Falls sits in hail alley; summer spike in the volume curve matches storm season. Photo-heavy inspection guide: bruising, granule loss, soft metal dents as tell-tales. Warn about storm-chaser contractors and point to the insurance claim checklist.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-hail-damage-roof-insurance-claim",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:36:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "hail damage roof insurance claim",
+      "intent": "informational",
+      "volume": 390,
+      "kd": 7,
+      "fan_out_cluster": [
+        "does homeowners insurance cover hail damage to roof",
+        "how long does a hail damage insurance claim take",
+        "roof replacement vs repair insurance claim",
+        "RCV vs ACV roof claim",
+        "depreciation holdback roof claim"
+      ],
+      "suggested_slug": "hail-damage-roof-insurance-claim",
+      "suggested_title": "Hail Damage Roof Insurance Claim: How the Process Works in South Dakota",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/roofing/",
+        "/services/storm-damage-restoration/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ],
+      "service_tags": [
+        "roofing",
+        "storm-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://dlr.sd.gov/insurance/general_guidance/claims_process.aspx",
+        "https://dlr.sd.gov/insurance/homeowners.aspx"
+      ],
+      "notes": "$37.84 CPC and KD 7. Differentiates from the generic storm claim checklist by going roof-specific: separate wind/hail deductibles, replacement cost vs actual cash value, depreciation holdback, matching shingles, completion deadlines. SD DOI notes replacement-cost insurers generally must return the roof to pre-loss condition.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-does-renters-insurance-cover-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:37:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "does renters insurance cover water damage",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 9,
+      "fan_out_cluster": [
+        "renters insurance water damage from upstairs unit",
+        "who pays for water damage renter or landlord",
+        "landlord responsibilities after water damage",
+        "does renters insurance cover mold",
+        "renters displaced by water damage"
+      ],
+      "suggested_slug": "does-renters-insurance-cover-water-damage",
+      "suggested_title": "Does Renters Insurance Cover Water Damage? A Guide for South Dakota Renters",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://dlr.sd.gov/insurance/homeowners.aspx"
+      ],
+      "notes": "Renter-side companion to the homeowners insurance post. Strong local fit: college-town rentals near SDSU in Brookings and DSU in Madison per plan-input local notes. Cover belongings vs building split, loss-of-use coverage, and when the landlord's policy applies.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-sewage-backup-in-basement",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:38:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "sewage backup in basement",
+      "intent": "informational",
+      "volume": 720,
+      "kd": null,
+      "fan_out_cluster": [
+        "sewage backup in basement what to do",
+        "does insurance cover sewer backup",
+        "sewage cleanup cost",
+        "sewer backup health risks",
+        "category 3 water damage"
+      ],
+      "suggested_slug": "sewage-backup-in-basement",
+      "suggested_title": "Sewage Backup in Basement: What to Do First (and What Cleanup Involves)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/sewage-cleanup/",
+        "/services/biohazard-cleanup/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "sewage-cleanup",
+        "biohazard-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://dlr.sd.gov/insurance/general_guidance/homeowners_forms_types.aspx"
+      ],
+      "notes": "$47 CPC panicked-homeowner query. Category 3 black water: do not DIY, health risks, what pros remove vs dry in place. Key insurance point: standard HO-3 policies exclude sewer backup without a water backup endorsement (SD DOI flags this). Sensitive-adjacent: keep tone practical, not alarmist.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-water-in-basement-after-heavy-rain",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:39:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "water in basement after heavy rain",
+      "intent": "informational",
+      "volume": 480,
+      "kd": null,
+      "fan_out_cluster": [
+        "what to do when basement floods",
+        "how to prevent basement flooding",
+        "why does my basement flood when it rains",
+        "sump pump failure flooded basement",
+        "grading and gutters basement water"
+      ],
+      "suggested_slug": "water-in-basement-after-heavy-rain",
+      "suggested_title": "Water in Basement After Heavy Rain: Causes, Fixes, and When to Call a Pro",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "$48 CPC. Diagnostic angle distinguishes it from the existing first-24-hours post: hydrostatic pressure, window wells, sump failure, grading and gutters. Local hook: spring flooding along the Big Sioux hits Baltic, Dell Rapids, Canton, and McCook Lake homes per plan-input notes.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-how-long-does-mold-remediation-take",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "how long does mold remediation take",
+      "intent": "informational",
+      "volume": 720,
+      "kd": null,
+      "fan_out_cluster": [
+        "how long does mold removal take",
+        "mold remediation timeline by job size",
+        "can you stay home during mold remediation",
+        "clearance testing after mold remediation",
+        "mold remediation process steps"
+      ],
+      "suggested_slug": "how-long-does-mold-remediation-take",
+      "suggested_title": "How Long Does Mold Remediation Take? Real Timelines by Job Size",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/black-mold-vs-regular-mold/",
+        "/blog/how-to-test-for-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Mirrors the successful how-long format already used for water damage restoration, applied to mold. Timeline table by scope (single wall cavity vs whole basement), what extends jobs (containment, clearance testing), and whether occupants can stay.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-asbestos-abatement-cost",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:41:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "asbestos abatement cost",
+      "intent": "commercial",
+      "volume": 1000,
+      "kd": null,
+      "fan_out_cluster": [
+        "asbestos testing cost",
+        "asbestos removal cost per square foot",
+        "when is asbestos testing required",
+        "asbestos in popcorn ceiling removal cost",
+        "asbestos abatement before remodel"
+      ],
+      "suggested_slug": "asbestos-abatement-cost",
+      "suggested_title": "Asbestos Abatement Cost: What to Expect Before a Remodel or Demo",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/asbestos-abatement/",
+        "/services/general-contracting/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "asbestos-abatement",
+        "general-contracting"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/asbestos"
+      ],
+      "notes": "1,000/mo and Crew actually offers abatement, which few competitors in the metro do. Cover testing costs, per-square-foot removal ranges by material, and why pre-1980s housing stock in the older river towns (Canton, Elk Point, Dell Rapids) should test before any remodel. Natural bridge to general contracting.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-ice-dam-removal-cost",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:42:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "ice dam removal cost",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": null,
+      "fan_out_cluster": [
+        "ice dam steaming cost",
+        "emergency ice dam removal",
+        "roof snow removal cost",
+        "ice dam removal near me",
+        "ice dam damage repair cost"
+      ],
+      "suggested_slug": "ice-dam-removal-cost",
+      "suggested_title": "Ice Dam Removal Cost: What Sioux Falls Homeowners Pay (and When It Is an Emergency)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/roofing/",
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "roofing",
+        "storm-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "sioux-falls-sd",
+      "external_authority_candidates": [
+        "https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams"
+      ],
+      "notes": "720/mo average masks a 4,400 February spike; publish before December so it ranks by the first thaw-freeze cycle. Steaming vs mechanical removal pricing, when interior leaks make it an emergency, and the water damage handoff. Cross-link the how-to-get-rid-of-ice-dams post.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-09-fire-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-08-09T22:43:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": null,
+      "fan_out_cluster": [
+        "fire damage repair cost",
+        "smoke damage cleaning cost",
+        "fire restoration cost per square foot",
+        "contents cleaning after a fire cost",
+        "fire damage rebuild cost"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost",
+      "suggested_title": "Fire Damage Restoration Cost: From Smoke Cleanup to Full Rebuild",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/contents-restoration/",
+        "/services/general-contracting/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "contents-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Rounds out cost-guide coverage of Crew's core services. Range from smoke-only cleanup to structural rebuild; Crew's differentiator is mitigation through reconstruction under one contractor (general contracting license 3814). Cross-link the fire restoration process post.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-what-to-do-if-your-basement-is-flooded",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:45:34Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do if your basement is flooded",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to clean up a flooded basement",
+        "what to do when basement floods",
+        "basement flooded what to do",
+        "how to get water out of a flooded basement",
+        "my basement is flooded what do i do",
+        "basement flooded after heavy rain",
+        "who to call for flooded basement",
+        "flooded basement sump pump failure"
+      ],
+      "suggested_slug": "what-to-do-if-your-basement-is-flooded",
+      "suggested_title": "What to do if your basement is flooded: the first 24 hours, step by step",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.cdc.gov/floods/safety/cleanup-safely-after-a-disaster.html"
+      ],
+      "notes": "Lead with safety: power shutoff before entering standing water, then extraction, then drying. Anchor local context to Sioux Falls spring melt and heavy-rain events. Pull the 24-48 hour mold growth window forward. Do not duplicate /blog/what-to-do-first-24-hours-water-damage/ (that post is generic water damage): this one is basement-specific (sump pump failure, groundwater seepage, floor drain backup)."
+    },
+    {
+      "id": "2026-08-26-how-to-disinfect-a-flooded-basement",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:45:34Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to disinfect a flooded basement",
+      "intent": "informational",
+      "volume": 480,
+      "kd": null,
+      "fan_out_cluster": [
+        "how to clean after a flooded basement",
+        "cleaning a flooded basement",
+        "mold cleanup after flood",
+        "what to throw away after a flood",
+        "how to safely disinfect after contaminated floodwater",
+        "category 3 water damage",
+        "is it safe to stay in a flooded house"
+      ],
+      "suggested_slug": "how-to-disinfect-a-flooded-basement",
+      "suggested_title": "How to disinfect a flooded basement (and what has to be thrown out)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/mold-remediation/",
+        "/services/contents-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup",
+        "mold-remediation",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cdc.gov/floods/safety/cleanup-safely-after-a-disaster.html",
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Split by IICRC S500 water category. Category 1 versus 3 changes the answer completely, and most basement floods that involve a floor drain or sewer backup are category 3. Be explicit that porous materials (carpet pad, drywall below the waterline, upholstered contents) are not salvageable by disinfecting. Bleach is not the right antimicrobial for porous surfaces: say so."
+    },
+    {
+      "id": "2026-08-26-who-to-call-for-flooded-basement",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:45:34Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who to call for flooded basement",
+      "intent": "commercial",
+      "volume": 320,
+      "kd": 2,
+      "fan_out_cluster": [
+        "flooded basement who to call",
+        "basement flooded who to call",
+        "plumber for flooded basement",
+        "flood cleanup company near me",
+        "flooded basement help",
+        "restoration company vs plumber flooded basement"
+      ],
+      "suggested_slug": "who-to-call-for-flooded-basement",
+      "suggested_title": "Who to call for a flooded basement: plumber, restoration company, or insurer first",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/contact/",
+        "/service-areas/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.iii.org/article/what-does-flood-insurance-cover"
+      ],
+      "notes": "Decision-stage: the honest answer is a plumber stops the source and an IICRC-certified restoration contractor dries the structure, and for a sump pump failure you often need both. Give the call order (safety, source, restoration, insurer) rather than a sales pitch. High CPC (96 USD) confirms commercial value. Mention 24/7 response and the Sioux Falls service radius."
+    },
+    {
+      "id": "2026-08-26-basement-flood-cleanup-cost",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:45:34Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "basement flood cleanup cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "flooded basement cleanup cost",
+        "cost of basement flood cleanup",
+        "flooded basement clean up cost",
+        "flood damage cleanup cost",
+        "how much does flood cleanup cost",
+        "flood damage repair cost"
+      ],
+      "suggested_slug": "basement-flood-cleanup-cost",
+      "suggested_title": "Basement flood cleanup cost: what drives the price in 2026",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.iii.org/article/what-does-flood-insurance-cover"
+      ],
+      "notes": "Cost drivers: square footage, water category, depth, how long it sat, whether drywall and flooring come out, and equipment days. Keep ranges honest and caveated. Distinct from the already-queued generic water damage restoration cost posts because it is basement-scoped. Do not state a flat price the estimator cannot honor."
+    },
+    {
+      "id": "2026-08-26-will-insurance-cover-flooded-basement",
+      "status": "queued",
+      "queued_at": "2026-08-26T14:45:34Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "will insurance cover flooded basement",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "flooded basement insurance",
+        "basement flooded insurance",
+        "does home insurance cover flooded basement",
+        "my basement flooded what will insurance cover",
+        "does homeowners insurance cover flood damage",
+        "water backup endorsement",
+        "sump pump failure coverage"
+      ],
+      "suggested_slug": "will-insurance-cover-flooded-basement",
+      "suggested_title": "Will insurance cover a flooded basement? What your policy actually pays for",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-does-flood-insurance-cover",
+        "https://www.floodsmart.gov/"
+      ],
+      "notes": "The distinction that matters: a burst supply line is usually covered, surface water and groundwater are not (that is NFIP territory), and sump pump failure or sewer backup needs a water backup endorsement. Cross-link, do not duplicate, /blog/does-homeowners-insurance-cover-water-damage/ and /blog/storm-damage-insurance-claim-checklist/. Never tell the reader what their specific policy covers: tell them which clause to look for."
+    },
+    {
+      "id": "2026-09-15-mold-remediation-near-me",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "mold-remediation-near-me",
+      "primary_keyword": "mold remediation near me",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "sioux-falls-sd",
+      "source": "gameplan-2026-09-3 (dev-agent)"
+    },
+    {
+      "id": "2026-09-15-crew-sioux-falls",
+      "status": "queued",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "crew-sioux-falls",
+      "primary_keyword": "crew sioux falls",
+      "intent": "navigational",
+      "target_word_count": 1400,
+      "city_anchor": "sioux-falls-sd",
+      "source": "gameplan-2026-09-4 (dev-agent)"
     }
-   ]
-  },
-  {
-   "id": "2026-08-09-mold-remediation-cost",
-   "status": "written",
-   "queued_at": "2026-08-09T22:30:00Z",
-   "written_at": "2026-08-17T18:14:41Z",
-   "post_url": "https://crew3r.com/blog/mold-remediation-cost/",
-   "priority": 1,
-   "primary_keyword": "mold remediation cost",
-   "intent": "commercial",
-   "volume": 9900,
-   "kd": 3,
-   "fan_out_cluster": [
-    "mold removal cost",
-    "how much does mold remediation cost",
-    "average cost of mold remediation",
-    "basement mold remediation cost",
-    "mold inspection cost",
-    "mold remediation cost sioux falls"
-   ],
-   "suggested_slug": "mold-remediation-cost",
-   "suggested_title": "Mold Remediation Cost in Sioux Falls, SD: What Homeowners Actually Pay",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/service-areas/sioux-falls-sd/mold-remediation/",
-    "/blog/how-to-test-for-mold/",
-    "/blog/signs-of-hidden-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": "sioux-falls-sd",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Highest-volume cost guide in the pool (9,900/mo national, KD 3, $23 CPC). Give national ranges then anchor to Sioux Falls factors: basement finishes, crawl spaces, winter humidity swings. IICRC-certified angle. Cross-link the mold testing and hidden mold posts.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-does-homeowners-insurance-cover-mold",
-   "status": "published",
-   "queued_at": "2026-08-09T22:31:00Z",
-   "written_at": "2026-08-31T22:38:59Z",
-   "post_url": "https://crew3r.com/blog/does-homeowners-insurance-cover-mold/",
-   "priority": 1,
-   "primary_keyword": "does homeowners insurance cover mold",
-   "intent": "informational",
-   "volume": 5400,
-   "kd": 11,
-   "fan_out_cluster": [
-    "does homeowners insurance cover mold remediation",
-    "when does insurance cover mold",
-    "mold damage insurance claim",
-    "mold from water leak insurance",
-    "mold exclusions homeowners policy"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-mold",
-   "suggested_title": "Does Homeowners Insurance Cover Mold? What South Dakota Policies Actually Pay For",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/blog/mold-after-water-damage/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://dlr.sd.gov/insurance/homeowners.aspx",
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Companion to the existing water damage insurance post. Core distinction: mold from a sudden covered peril (burst pipe) is often covered, gradual moisture is not, and many policies carry mold sublimits. Cite SD Division of Insurance guidance. Lead with the plain answer in the first 80 words.",
-   "source": "keyword-researcher",
-   "published_verified_at": "2026-08-31T22:41:41Z"
-  },
-  {
-   "id": "2026-08-09-water-damage-restoration-cost",
-   "status": "published",
-   "queued_at": "2026-08-09T22:32:00Z",
-   "written_at": "2026-09-03T20:07:23Z",
-   "post_url": "https://crew3r.com/blog/water-damage-restoration-cost/",
-   "priority": 1,
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 880,
-   "kd": 3,
-   "fan_out_cluster": [
-    "water damage repair cost",
-    "average cost of water damage restoration",
-    "water damage restoration cost per square foot",
-    "cost to dry out a house after a leak",
-    "water damage restoration cost sioux falls"
-   ],
-   "suggested_slug": "water-damage-restoration-cost",
-   "suggested_title": "Water Damage Restoration Cost in Sioux Falls, SD (2026 Pricing Guide)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/sioux-falls-sd/water-damage-restoration/",
-    "/blog/how-long-does-water-damage-restoration-take/",
-    "/blog/what-to-do-first-24-hours-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": "sioux-falls-sd",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "KD 3 with $20 CPC. Break out by water category and affected area (Class 1 room vs finished basement). Explain what insurance typically absorbs vs the deductible. Cross-link the duration post.",
-   "source": "keyword-researcher",
-   "published_verified_at": "2026-09-03T20:09:40Z"
-  },
-  {
-   "id": "2026-08-09-how-to-prevent-pipes-from-freezing",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:33:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "how to prevent pipes from freezing",
-   "intent": "informational",
-   "volume": 14800,
-   "kd": 31,
-   "fan_out_cluster": [
-    "what to do if pipes freeze",
-    "how to prevent frozen pipes in winter",
-    "how to thaw frozen pipes safely",
-    "at what temperature do pipes freeze",
-    "frozen pipe burst water damage"
-   ],
-   "suggested_slug": "how-to-prevent-pipes-from-freezing",
-   "suggested_title": "How to Prevent Pipes From Freezing in South Dakota Winters",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html"
-   ],
-   "notes": "Massive January seasonality (135,000 national searches in Jan 2026). Publish well before freeze season. Cover prevention plus safe thawing when pipes freeze but have not burst; hand off to the existing burst pipe checklist for the failure case.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-how-to-get-rid-of-ice-dams",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:34:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "how to get rid of ice dams",
-   "intent": "informational",
-   "volume": 2400,
-   "kd": 5,
-   "fan_out_cluster": [
-    "how to prevent ice dams",
-    "ice dam on roof what to do",
-    "what causes ice dams",
-    "roof raking to prevent ice dams",
-    "ice dam water damage inside house"
-   ],
-   "suggested_slug": "how-to-get-rid-of-ice-dams",
-   "suggested_title": "How to Get Rid of Ice Dams (and Stop Them Coming Back)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/roofing/",
-    "/services/storm-damage-restoration/",
-    "/services/water-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "roofing",
-    "storm-damage-restoration",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams"
-   ],
-   "notes": "KD 5 and strongly seasonal (Feb spike). Cover safe removal (steaming, roof raking), why hacking at ice wrecks shingles, attic insulation and ventilation as the permanent fix, and the interior water damage tie-in. Pair with the ice dam removal cost post.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-what-does-hail-damage-look-like-on-a-roof",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:35:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "what does hail damage look like on a roof",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": null,
-   "fan_out_cluster": [
-    "how to tell if your roof has hail damage",
-    "hail damage vs normal wear on shingles",
-    "hail damage roof inspection",
-    "what size hail damages a roof",
-    "hail damage to siding and gutters"
-   ],
-   "suggested_slug": "what-does-hail-damage-look-like-on-a-roof",
-   "suggested_title": "What Does Hail Damage Look Like on a Roof? A Sioux Falls Inspection Guide",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/roofing/",
-    "/services/storm-damage-restoration/",
-    "/services/siding-gutters/",
-    "/blog/storm-damage-insurance-claim-checklist/"
-   ],
-   "service_tags": [
-    "roofing",
-    "storm-damage-restoration",
-    "siding-gutters"
-   ],
-   "city_anchor": "sioux-falls-sd",
-   "external_authority_candidates": [
-    "https://dlr.sd.gov/insurance/homeowners.aspx"
-   ],
-   "notes": "Sioux Falls sits in hail alley; summer spike in the volume curve matches storm season. Photo-heavy inspection guide: bruising, granule loss, soft metal dents as tell-tales. Warn about storm-chaser contractors and point to the insurance claim checklist.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-hail-damage-roof-insurance-claim",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:36:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "hail damage roof insurance claim",
-   "intent": "informational",
-   "volume": 390,
-   "kd": 7,
-   "fan_out_cluster": [
-    "does homeowners insurance cover hail damage to roof",
-    "how long does a hail damage insurance claim take",
-    "roof replacement vs repair insurance claim",
-    "RCV vs ACV roof claim",
-    "depreciation holdback roof claim"
-   ],
-   "suggested_slug": "hail-damage-roof-insurance-claim",
-   "suggested_title": "Hail Damage Roof Insurance Claim: How the Process Works in South Dakota",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/roofing/",
-    "/services/storm-damage-restoration/",
-    "/blog/storm-damage-insurance-claim-checklist/"
-   ],
-   "service_tags": [
-    "roofing",
-    "storm-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://dlr.sd.gov/insurance/general_guidance/claims_process.aspx",
-    "https://dlr.sd.gov/insurance/homeowners.aspx"
-   ],
-   "notes": "$37.84 CPC and KD 7. Differentiates from the generic storm claim checklist by going roof-specific: separate wind/hail deductibles, replacement cost vs actual cash value, depreciation holdback, matching shingles, completion deadlines. SD DOI notes replacement-cost insurers generally must return the roof to pre-loss condition.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-does-renters-insurance-cover-water-damage",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:37:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "does renters insurance cover water damage",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 9,
-   "fan_out_cluster": [
-    "renters insurance water damage from upstairs unit",
-    "who pays for water damage renter or landlord",
-    "landlord responsibilities after water damage",
-    "does renters insurance cover mold",
-    "renters displaced by water damage"
-   ],
-   "suggested_slug": "does-renters-insurance-cover-water-damage",
-   "suggested_title": "Does Renters Insurance Cover Water Damage? A Guide for South Dakota Renters",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://dlr.sd.gov/insurance/homeowners.aspx"
-   ],
-   "notes": "Renter-side companion to the homeowners insurance post. Strong local fit: college-town rentals near SDSU in Brookings and DSU in Madison per plan-input local notes. Cover belongings vs building split, loss-of-use coverage, and when the landlord's policy applies.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-sewage-backup-in-basement",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:38:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "sewage backup in basement",
-   "intent": "informational",
-   "volume": 720,
-   "kd": null,
-   "fan_out_cluster": [
-    "sewage backup in basement what to do",
-    "does insurance cover sewer backup",
-    "sewage cleanup cost",
-    "sewer backup health risks",
-    "category 3 water damage"
-   ],
-   "suggested_slug": "sewage-backup-in-basement",
-   "suggested_title": "Sewage Backup in Basement: What to Do First (and What Cleanup Involves)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/sewage-cleanup/",
-    "/services/biohazard-cleanup/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "sewage-cleanup",
-    "biohazard-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://dlr.sd.gov/insurance/general_guidance/homeowners_forms_types.aspx"
-   ],
-   "notes": "$47 CPC panicked-homeowner query. Category 3 black water: do not DIY, health risks, what pros remove vs dry in place. Key insurance point: standard HO-3 policies exclude sewer backup without a water backup endorsement (SD DOI flags this). Sensitive-adjacent: keep tone practical, not alarmist.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-water-in-basement-after-heavy-rain",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:39:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "water in basement after heavy rain",
-   "intent": "informational",
-   "volume": 480,
-   "kd": null,
-   "fan_out_cluster": [
-    "what to do when basement floods",
-    "how to prevent basement flooding",
-    "why does my basement flood when it rains",
-    "sump pump failure flooded basement",
-    "grading and gutters basement water"
-   ],
-   "suggested_slug": "water-in-basement-after-heavy-rain",
-   "suggested_title": "Water in Basement After Heavy Rain: Causes, Fixes, and When to Call a Pro",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/mold-after-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "$48 CPC. Diagnostic angle distinguishes it from the existing first-24-hours post: hydrostatic pressure, window wells, sump failure, grading and gutters. Local hook: spring flooding along the Big Sioux hits Baltic, Dell Rapids, Canton, and McCook Lake homes per plan-input notes.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-how-long-does-mold-remediation-take",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:40:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "how long does mold remediation take",
-   "intent": "informational",
-   "volume": 720,
-   "kd": null,
-   "fan_out_cluster": [
-    "how long does mold removal take",
-    "mold remediation timeline by job size",
-    "can you stay home during mold remediation",
-    "clearance testing after mold remediation",
-    "mold remediation process steps"
-   ],
-   "suggested_slug": "how-long-does-mold-remediation-take",
-   "suggested_title": "How Long Does Mold Remediation Take? Real Timelines by Job Size",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/blog/black-mold-vs-regular-mold/",
-    "/blog/how-to-test-for-mold/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Mirrors the successful how-long format already used for water damage restoration, applied to mold. Timeline table by scope (single wall cavity vs whole basement), what extends jobs (containment, clearance testing), and whether occupants can stay.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-asbestos-abatement-cost",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:41:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "asbestos abatement cost",
-   "intent": "commercial",
-   "volume": 1000,
-   "kd": null,
-   "fan_out_cluster": [
-    "asbestos testing cost",
-    "asbestos removal cost per square foot",
-    "when is asbestos testing required",
-    "asbestos in popcorn ceiling removal cost",
-    "asbestos abatement before remodel"
-   ],
-   "suggested_slug": "asbestos-abatement-cost",
-   "suggested_title": "Asbestos Abatement Cost: What to Expect Before a Remodel or Demo",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/asbestos-abatement/",
-    "/services/general-contracting/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "asbestos-abatement",
-    "general-contracting"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/asbestos"
-   ],
-   "notes": "1,000/mo and Crew actually offers abatement, which few competitors in the metro do. Cover testing costs, per-square-foot removal ranges by material, and why pre-1980s housing stock in the older river towns (Canton, Elk Point, Dell Rapids) should test before any remodel. Natural bridge to general contracting.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-ice-dam-removal-cost",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:42:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "ice dam removal cost",
-   "intent": "commercial",
-   "volume": 720,
-   "kd": null,
-   "fan_out_cluster": [
-    "ice dam steaming cost",
-    "emergency ice dam removal",
-    "roof snow removal cost",
-    "ice dam removal near me",
-    "ice dam damage repair cost"
-   ],
-   "suggested_slug": "ice-dam-removal-cost",
-   "suggested_title": "Ice Dam Removal Cost: What Sioux Falls Homeowners Pay (and When It Is an Emergency)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/roofing/",
-    "/services/storm-damage-restoration/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "roofing",
-    "storm-damage-restoration",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "sioux-falls-sd",
-   "external_authority_candidates": [
-    "https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams"
-   ],
-   "notes": "720/mo average masks a 4,400 February spike; publish before December so it ranks by the first thaw-freeze cycle. Steaming vs mechanical removal pricing, when interior leaks make it an emergency, and the water damage handoff. Cross-link the how-to-get-rid-of-ice-dams post.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-09-fire-damage-restoration-cost",
-   "status": "queued",
-   "queued_at": "2026-08-09T22:43:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "fire damage restoration cost",
-   "intent": "commercial",
-   "volume": 260,
-   "kd": null,
-   "fan_out_cluster": [
-    "fire damage repair cost",
-    "smoke damage cleaning cost",
-    "fire restoration cost per square foot",
-    "contents cleaning after a fire cost",
-    "fire damage rebuild cost"
-   ],
-   "suggested_slug": "fire-damage-restoration-cost",
-   "suggested_title": "Fire Damage Restoration Cost: From Smoke Cleanup to Full Rebuild",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/contents-restoration/",
-    "/services/general-contracting/",
-    "/blog/fire-damage-restoration-process/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "contents-restoration",
-    "general-contracting"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Rounds out cost-guide coverage of Crew's core services. Range from smoke-only cleanup to structural rebuild; Crew's differentiator is mitigation through reconstruction under one contractor (general contracting license 3814). Cross-link the fire restoration process post.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-26-what-to-do-if-your-basement-is-flooded",
-   "status": "queued",
-   "queued_at": "2026-08-26T14:45:34Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to do if your basement is flooded",
-   "intent": "informational",
-   "volume": 590,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how to clean up a flooded basement",
-    "what to do when basement floods",
-    "basement flooded what to do",
-    "how to get water out of a flooded basement",
-    "my basement is flooded what do i do",
-    "basement flooded after heavy rain",
-    "who to call for flooded basement",
-    "flooded basement sump pump failure"
-   ],
-   "suggested_slug": "what-to-do-if-your-basement-is-flooded",
-   "suggested_title": "What to do if your basement is flooded: the first 24 hours, step by step",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.cdc.gov/floods/safety/cleanup-safely-after-a-disaster.html"
-   ],
-   "notes": "Lead with safety: power shutoff before entering standing water, then extraction, then drying. Anchor local context to Sioux Falls spring melt and heavy-rain events. Pull the 24-48 hour mold growth window forward. Do not duplicate /blog/what-to-do-first-24-hours-water-damage/ (that post is generic water damage): this one is basement-specific (sump pump failure, groundwater seepage, floor drain backup)."
-  },
-  {
-   "id": "2026-08-26-how-to-disinfect-a-flooded-basement",
-   "status": "queued",
-   "queued_at": "2026-08-26T14:45:34Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to disinfect a flooded basement",
-   "intent": "informational",
-   "volume": 480,
-   "kd": null,
-   "fan_out_cluster": [
-    "how to clean after a flooded basement",
-    "cleaning a flooded basement",
-    "mold cleanup after flood",
-    "what to throw away after a flood",
-    "how to safely disinfect after contaminated floodwater",
-    "category 3 water damage",
-    "is it safe to stay in a flooded house"
-   ],
-   "suggested_slug": "how-to-disinfect-a-flooded-basement",
-   "suggested_title": "How to disinfect a flooded basement (and what has to be thrown out)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/sewage-cleanup/",
-    "/services/mold-remediation/",
-    "/services/contents-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "sewage-cleanup",
-    "mold-remediation",
-    "contents-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.cdc.gov/floods/safety/cleanup-safely-after-a-disaster.html",
-    "https://www.epa.gov/mold/mold-cleanup-your-home",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Split by IICRC S500 water category. Category 1 versus 3 changes the answer completely, and most basement floods that involve a floor drain or sewer backup are category 3. Be explicit that porous materials (carpet pad, drywall below the waterline, upholstered contents) are not salvageable by disinfecting. Bleach is not the right antimicrobial for porous surfaces: say so."
-  },
-  {
-   "id": "2026-08-26-who-to-call-for-flooded-basement",
-   "status": "queued",
-   "queued_at": "2026-08-26T14:45:34Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "who to call for flooded basement",
-   "intent": "commercial",
-   "volume": 320,
-   "kd": 2,
-   "fan_out_cluster": [
-    "flooded basement who to call",
-    "basement flooded who to call",
-    "plumber for flooded basement",
-    "flood cleanup company near me",
-    "flooded basement help",
-    "restoration company vs plumber flooded basement"
-   ],
-   "suggested_slug": "who-to-call-for-flooded-basement",
-   "suggested_title": "Who to call for a flooded basement: plumber, restoration company, or insurer first",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/sewage-cleanup/",
-    "/contact/",
-    "/service-areas/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "sewage-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.iii.org/article/what-does-flood-insurance-cover"
-   ],
-   "notes": "Decision-stage: the honest answer is a plumber stops the source and an IICRC-certified restoration contractor dries the structure, and for a sump pump failure you often need both. Give the call order (safety, source, restoration, insurer) rather than a sales pitch. High CPC (96 USD) confirms commercial value. Mention 24/7 response and the Sioux Falls service radius."
-  },
-  {
-   "id": "2026-08-26-basement-flood-cleanup-cost",
-   "status": "queued",
-   "queued_at": "2026-08-26T14:45:34Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "basement flood cleanup cost",
-   "intent": "commercial",
-   "volume": 260,
-   "kd": 0,
-   "fan_out_cluster": [
-    "flooded basement cleanup cost",
-    "cost of basement flood cleanup",
-    "flooded basement clean up cost",
-    "flood damage cleanup cost",
-    "how much does flood cleanup cost",
-    "flood damage repair cost"
-   ],
-   "suggested_slug": "basement-flood-cleanup-cost",
-   "suggested_title": "Basement flood cleanup cost: what drives the price in 2026",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.iii.org/article/what-does-flood-insurance-cover"
-   ],
-   "notes": "Cost drivers: square footage, water category, depth, how long it sat, whether drywall and flooring come out, and equipment days. Keep ranges honest and caveated. Distinct from the already-queued generic water damage restoration cost posts because it is basement-scoped. Do not state a flat price the estimator cannot honor."
-  },
-  {
-   "id": "2026-08-26-will-insurance-cover-flooded-basement",
-   "status": "queued",
-   "queued_at": "2026-08-26T14:45:34Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "will insurance cover flooded basement",
-   "intent": "informational",
-   "volume": 210,
-   "kd": 0,
-   "fan_out_cluster": [
-    "flooded basement insurance",
-    "basement flooded insurance",
-    "does home insurance cover flooded basement",
-    "my basement flooded what will insurance cover",
-    "does homeowners insurance cover flood damage",
-    "water backup endorsement",
-    "sump pump failure coverage"
-   ],
-   "suggested_slug": "will-insurance-cover-flooded-basement",
-   "suggested_title": "Will insurance cover a flooded basement? What your policy actually pays for",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/sewage-cleanup/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "sewage-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/article/what-does-flood-insurance-cover",
-    "https://www.floodsmart.gov/"
-   ],
-   "notes": "The distinction that matters: a burst supply line is usually covered, surface water and groundwater are not (that is NFIP territory), and sump pump failure or sewer backup needs a water backup endorsement. Cross-link, do not duplicate, /blog/does-homeowners-insurance-cover-water-damage/ and /blog/storm-damage-insurance-claim-checklist/. Never tell the reader what their specific policy covers: tell them which clause to look for."
-  },
-  {
-   "id": "2026-09-15-mold-remediation-near-me",
-   "status": "queued",
-   "queued_at": "2026-09-15T14:24:35Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "target_term",
-   "combo_key": "mold-remediation-near-me",
-   "primary_keyword": "mold remediation near me",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "sioux-falls-sd",
-   "source": "gameplan-2026-09-3 (dev-agent)"
-  },
-  {
-   "id": "2026-09-15-crew-sioux-falls",
-   "status": "queued",
-   "queued_at": "2026-09-15T14:24:35Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "target_term",
-   "combo_key": "crew-sioux-falls",
-   "primary_keyword": "crew sioux falls",
-   "intent": "navigational",
-   "target_word_count": 1400,
-   "city_anchor": "sioux-falls-sd",
-   "source": "gameplan-2026-09-4 (dev-agent)"
-  }
- ]
+  ]
 }
