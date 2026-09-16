@@ -7,6 +7,12 @@ export const brand = {
   displayName: "Frontline Fire & Flood",
   shortName: "Frontline Fire & Flood",
   legalName: "Frontline Fire & Flood",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "",
   domain: "frontlinefireflood.com",
   canonicalUrl: "https://frontlinefireflood.com",
   phone: "(253) 200-0503",

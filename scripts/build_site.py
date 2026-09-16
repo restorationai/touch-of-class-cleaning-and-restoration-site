@@ -285,6 +285,7 @@ def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = 
         "BRAND_DISPLAY_NAME": display_name,
         "BRAND_SHORT_NAME": short_name,
         "BRAND_LEGAL_NAME": brand.get("legal_name", display_name),
+        "BRAND_DBA_NAME": brand.get("dba_name", ""),
         "BRAND_DOMAIN": domain,
         "BRAND_CANONICAL_URL": f"https://{domain}",
         "BRAND_PHONE": phone_display,

@@ -7,6 +7,12 @@ export const brand = {
   displayName: "Dry Bros Water & Fire Restoration",
   shortName: "Dry Bros Water & Fire Restoration",
   legalName: "Dry Bros Water & Fire Restoration",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "",
   domain: "dry-bros-water-fire-restoration.invalid",
   canonicalUrl: "https://dry-bros-water-fire-restoration.invalid",
   phone: "(877) 379-2767",

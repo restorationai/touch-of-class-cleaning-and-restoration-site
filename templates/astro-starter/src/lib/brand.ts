@@ -7,6 +7,12 @@ export const brand = {
   displayName: "{{BRAND_DISPLAY_NAME}}",
   shortName: "{{BRAND_SHORT_NAME}}",
   legalName: "{{BRAND_LEGAL_NAME}}",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "{{BRAND_DBA_NAME}}",
   domain: "{{BRAND_DOMAIN}}",
   canonicalUrl: "{{BRAND_CANONICAL_URL}}",
   phone: "{{BRAND_PHONE}}",

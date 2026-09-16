@@ -168,6 +168,13 @@ jobs:
           # Live-on-main sites commit + sync-deploy themselves; preview-only
           # edits ride the commit step below. Idempotent, quiet when in sync.
           python3 scripts/citations_sync.py || true
+          # Rename A2 (2026-09-16): the sweep behind Monica's DBA
+          # vision-verify — puts "[legal] doing business as [DBA]" in the
+          # footer + the DBA as the schema.org business name, so BL's
+          # pre-submission checks and Google's GBP rename review find the
+          # new name corroborated on the site. Stamps
+          # rename_intent.site_synced_at; quiet when nothing is pending.
+          python3 scripts/rename_site_sync.py || true
 
       - name: Mini heartbeat mirror (superadmin dot, 2026-09-14)
         # The Mac Mini heartbeats + daily-reports by git commit; this step
