@@ -102,6 +102,59 @@ def compose(kind: str, caller: str, ago: str, analysis: dict,
             f"\n- {BRAND}")
 
 
+def _sendgrid_email(to_addrs: list[str], subject: str,
+                    body: str) -> tuple[bool, str]:
+    """Plain-text alert email via SendGrid (same API the digest and lead
+    reports use). Returns (ok, ref)."""
+    import os
+    key = os.environ.get("SENDGRID_API_KEY", "").strip()
+    if not key or not to_addrs:
+        return False, "no-sendgrid-key" if not key else "no-recipients"
+    r = requests.post(
+        "https://api.sendgrid.com/v3/mail/send",
+        headers={"Authorization": f"Bearer {key}",
+                 "Content-Type": "application/json"},
+        json={"personalizations": [{"to": [{"email": a} for a in to_addrs]}],
+              "from": {"email": "contact@restorationai.io",
+                       "name": "Restoration AI"},
+              "subject": subject,
+              "content": [{"type": "text/plain", "value": body}]},
+        timeout=30)
+    return r.status_code in (200, 202), str(r.status_code)
+
+
+def alert_recipients(company: dict) -> tuple[list[str], list[str]]:
+    """(sms_numbers, emails) for call alerts — D14 (Santino 2026-09-16):
+    the SAME client-managed Lead Notifications lists the estimate form
+    uses, both channels optional. SMS falls back to the owner cell
+    (previous behavior) when the list is empty; email always includes the
+    company's main address, mirroring the lead-email contract."""
+    from client_concierge import messaging_target
+    ints = company.get("integration_settings") or {}
+    sms = [str(x).strip() for x in (ints.get("lead_notify_sms") or [])
+           if str(x).strip()]
+    if not sms:
+        cell = (messaging_target(company).get("cell") or "").strip()
+        if cell:
+            sms = [cell]
+    emails = [str(x).strip().lower() for x in
+              (ints.get("lead_notify_emails") or []) if str(x).strip()]
+    main = (company.get("email") or "").strip().lower()
+    if main and main not in emails:
+        emails.insert(0, main)
+    return sms, emails
+
+
+def _stamp_alert(call_id: str, analysis: dict, state: dict) -> None:
+    """Write alert delivery state onto the call row (analysis.alert) —
+    what the app's Call Alerts card renders. Whole-json merge because
+    analysis is a plain jsonb column."""
+    a = dict(analysis or {})
+    a["alert"] = state
+    _sb("PATCH", f"/rest/v1/marketing_tracked_calls?id=eq.{call_id}",
+        {"analysis": a}, prefer="return=minimal")
+
+
 def _twilio_send(setup: dict, to: str, body: str) -> tuple[bool, str]:
     sid = setup["twilio_subaccount_sid"]
     r = requests.post(
@@ -160,81 +213,107 @@ def run(dry_run: bool, hours: int, only_slug: str | None) -> int:
         if not (ALERT_HOUR_START <= hour < ALERT_HOUR_END):
             held += 1
             print(f"  [{slug}] hold (local {hour}h): {c['id'][:8]}")
+            # D14: the hold is now VISIBLE — the app's Call Alerts card
+            # renders analysis.alert. Stamp once; the pass re-checks and
+            # delivers at local morning.
+            if not dry_run and \
+                    ((c.get("analysis") or {}).get("alert") or {}) \
+                    .get("status") != "held_quiet_hours":
+                _stamp_alert(c["id"], c.get("analysis"),
+                             {"status": "held_quiet_hours", "kind": kind,
+                              "local_hour": hour,
+                              "delivers_at_local": f"{ALERT_HOUR_START}:00"})
             continue
         setup = (_sb("GET", "/rest/v1/company_phone_setup"
                      f"?id=eq.{c['company_id']}"
                      "&select=compliance_status,twilio_subaccount_sid,"
                      "twilio_auth_token,agent_phone_1") or [{}])[0]
-        if not (setup.get("compliance_status") == "approved"
-                and setup.get("twilio_subaccount_sid")
-                and setup.get("twilio_auth_token")
-                and setup.get("agent_phone_1")):
-            # NO FALLBACK by design (sender rule). But a missed job must
-            # not die in a log line: file an ops note (surfaces in Ops
-            # Attention / the morning digest) and mark the call handled so
-            # it files exactly once. Approving their toll-free upgrades
-            # these to real-time owner SMS automatically.
-            skipped += 1
-            print(f"  [{slug}] no approved own toll-free, no SMS alert "
-                  f"(call {c['id'][:8]}) — ops note filed instead")
-            if not dry_run:
-                body = compose(kind, c["from_number"],
-                               _ago(c["started_at"], tz), c["analysis"],
-                               c.get("source") or "")
-                _sb("POST", "/rest/v1/marketing_ops_notes",
-                    {"company_id": c["company_id"], "status": "open",
-                     "author": "call_alerts",
-                     "body": (f"[CALL ALERT HELD] {slug}: no approved own "
-                              "toll-free to text the owner from. The alert "
-                              f"that WOULD have gone out:\n{body}\n"
-                              "Approve their toll-free "
-                              "(company_phone_setup) to enable real-time "
-                              "owner alerts.")},
-                    prefer="return=minimal")
-                _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
-                    {"k": key,
-                     "v": {"at": datetime.now(timezone.utc).isoformat(),
-                           "kind": kind, "held": "no_approved_sender"}},
-                    prefer="resolution=merge-duplicates")
-            continue
-        target = messaging_target(company)
-        to = (target.get("cell") or "").strip()
-        if not to:
-            skipped += 1
-            print(f"  [{slug}] no owner cell on file")
-            continue
+        sms_ok_to_send = bool(setup.get("compliance_status") == "approved"
+                              and setup.get("twilio_subaccount_sid")
+                              and setup.get("twilio_auth_token")
+                              and setup.get("agent_phone_1"))
+        sms_to, email_to = alert_recipients(company)
         body = compose(kind, c["from_number"], _ago(c["started_at"], tz),
                        c["analysis"], c.get("source") or "")
-        print(f"  [{slug}] {kind} -> {to} from {setup['agent_phone_1']}:\n"
-              f"    {body}")
+        print(f"  [{slug}] {kind}: sms->{sms_to if sms_ok_to_send else '(no approved sender)'} "
+              f"email->{email_to}")
         if dry_run:
             sent += 1
             continue
-        ok, ref = _twilio_send(setup, to, body)
-        if not ok:
-            print(f"    !! twilio send failed: {ref}")
+
+        # D14 (Santino 2026-09-16): two channels, both from the client's
+        # Lead Notifications lists, each optional. Email is NOT gated on
+        # the toll-free approval — that constraint only ever applied to
+        # the SMS sender — so a missed job reaches the office even while
+        # their number is in compliance review.
+        delivered: list[str] = []
+        sms_sids: list[str] = []
+        if sms_ok_to_send:
+            for to in sms_to:
+                ok, ref = _twilio_send(setup, to, body)
+                if ok:
+                    delivered.append(f"sms:{to}")
+                    sms_sids.append(ref)
+                else:
+                    print(f"    !! twilio send failed ({to}): {ref}")
+        subj = (f"{'Callback request' if kind == 'callback' else 'Missed job alert'}: "
+                f"{_fmt_phone(c['from_number'])} — {company.get('name', slug)}")
+        eok, eref = _sendgrid_email(email_to, subj, body)
+        if eok:
+            delivered += [f"email:{a}" for a in email_to]
+        elif email_to:
+            print(f"    !! email send failed: {eref}")
+
+        if not delivered:
+            # Nothing reached the client on any channel — the old
+            # ops-note backstop (surfaces in Ops Attention + digest).
+            skipped += 1
+            _sb("POST", "/rest/v1/marketing_ops_notes",
+                {"company_id": c["company_id"], "status": "open",
+                 "author": "call_alerts",
+                 "body": (f"[CALL ALERT UNDELIVERED] {slug}: no working "
+                          f"channel (SMS approved: {sms_ok_to_send}, "
+                          f"emails: {len(email_to)}). The alert:\n{body}")},
+                prefer="return=minimal")
+            _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+                {"k": key,
+                 "v": {"at": datetime.now(timezone.utc).isoformat(),
+                       "kind": kind, "held": "no_channel"}},
+                prefer="resolution=merge-duplicates")
+            _stamp_alert(c["id"], c.get("analysis"),
+                         {"status": "undeliverable", "kind": kind,
+                          "at": datetime.now(timezone.utc).isoformat()})
             continue
+
         _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
             {"k": key, "v": {"at": datetime.now(timezone.utc).isoformat(),
-                             "kind": kind, "sid": ref}},
+                             "kind": kind, "delivered": delivered}},
             prefer="resolution=merge-duplicates")
+        _stamp_alert(c["id"], c.get("analysis"),
+                     {"status": "sent", "kind": kind,
+                      "at": datetime.now(timezone.utc).isoformat(),
+                      "to": delivered})
         try:
             from work_log import work_log
             # Activity feed (Santino 2026-09-14: every alert send is a
             # logged ACTION) — same marketing_work_log the app's activity
             # view, monthly summary and report all read.
+            n_sms = len([d for d in delivered if d.startswith("sms:")])
+            n_em = len([d for d in delivered if d.startswith("email:")])
+            how = " and ".join(x for x in (
+                f"texted {n_sms} number(s)" if n_sms else "",
+                f"emailed {n_em} address(es)" if n_em else "") if x)
             work_log(c["company_id"], "calls", "missed-call-alert",
-                     f"Texted you a heads up about a {'callback request' if kind == 'callback' else 'missed opportunity'} "
-                     f"call from {_fmt_phone(c['from_number'])} "
-                     f"({'Google listing' if (c.get('source') or 'gbp') == 'gbp' else 'website'} line)",
+                     f"Sent a heads up about a {'callback request' if kind == 'callback' else 'missed opportunity'} "
+                     f"call from {_fmt_phone(c['from_number'])} ({how})",
                      {"call_id": c["id"], "kind": kind,
-                      "sent_from": setup["agent_phone_1"], "sent_to": to,
-                      "twilio_sid": ref, "body": body[:400]})
+                      "delivered": delivered, "twilio_sids": sms_sids,
+                      "body": body[:400]})
         except Exception as e:  # noqa: BLE001
             print(f"    (work log warn: {str(e)[:80]})")
         sent += 1
     print(f"call alerts: {sent} {'would send' if dry_run else 'sent'}, "
-          f"{held} held for morning, {skipped} skipped (no own line/cell)")
+          f"{held} held for morning, {skipped} undeliverable")
     return 0
 
 

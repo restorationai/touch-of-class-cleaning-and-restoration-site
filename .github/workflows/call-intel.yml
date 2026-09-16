@@ -40,6 +40,7 @@ jobs:
           TWILIO_MASTER_AUTH_TOKEN:  ${{ secrets.TWILIO_MASTER_AUTH_TOKEN }}
           GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
           GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
+          SENDGRID_API_KEY:         ${{ secrets.SENDGRID_API_KEY }}
           CONCIERGE_ALLOWLIST:       ${{ secrets.CONCIERGE_ALLOWLIST }}
         run: python3 scripts/call_alerts.py --send || echo "call alerts failed (non-fatal)"
 
