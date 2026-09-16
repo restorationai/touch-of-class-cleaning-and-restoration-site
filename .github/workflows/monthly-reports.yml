@@ -116,3 +116,11 @@ jobs:
           python3 scripts/notify_failure.py \
             --subject "[Rank AI] CI failure: ${{ github.workflow }} run #${{ github.run_number }}" \
             --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      - name: Tracking-number overage billing (2026-09-15)
+        # 10 self-serve numbers included, $2/mo each after — wallet ledger
+        # row + balance decrement, idempotent per company per month.
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scripts/tracking_number_billing.py || echo "tn billing failed (non-fatal)"
