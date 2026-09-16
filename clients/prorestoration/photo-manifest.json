@@ -745,6 +745,35 @@
       "triaged_at": "2026-08-05T06:13:14Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMTPJheP1ZRACl9CtTu9AJnHntUzAsm-8PTWpCp": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMTPJheP1ZRACl9CtTu9AJnHntUzAsm-8PTWpCp.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1779551010975/job-photos/posted/gbp-AF1QipMTPJheP1ZRACl9CtTu9AJnHntUzAsm-8PTWpCp.jpg",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 419647,
+      "sha1": "80975b9b196849bc",
+      "exif": {
+        "taken_at": "2026:08:25 14:50:18"
+      },
+      "category": "equipment",
+      "subject": "Drying mat and hose equipment set up on hardwood floor",
+      "quality": 58,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Active drying equipment deployed in residential interior; cluttered composition limits hero use.",
+      "triaged_at": "2026-09-16T20:12:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMTrAgBuG4YiufI5gdYn1PcABZzK8Tb6oCGlova": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMTrAgBuG4YiufI5gdYn1PcABZzK8Tb6oCGlova.jpg",
@@ -3051,6 +3080,35 @@
       ],
       "reason": "Clean outdoor shot with branded truck and signage; good hero or team candidate.",
       "triaged_at": "2026-08-05T06:17:02Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO3fH2DWkiTVtDCuGBHzRoufqdx00espLd2Ao_P": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO3fH2DWkiTVtDCuGBHzRoufqdx00espLd2Ao_P.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1779551010975/job-photos/posted/gbp-AF1QipO3fH2DWkiTVtDCuGBHzRoufqdx00espLd2Ao_P.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 459297,
+      "sha1": "084089e70bf23b5e",
+      "exif": {
+        "taken_at": "2026:09:11 13:36:31"
+      },
+      "category": "job_progress",
+      "subject": "Lower drywall removed exposing wood stud framing in room",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "reconstruction",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clearly shows remediation demolition in progress; useful for services but not hero-worthy.",
+      "triaged_at": "2026-09-16T20:12:12Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipO7_NGkE8df0ZU33r0MEp9niwIOrK_b3pR3WhE4": {
@@ -6628,5 +6686,5 @@
       "installed_at": "2026-09-03T04:46:13Z"
     }
   },
-  "triaged_at": "2026-09-09T20:32:46Z"
+  "triaged_at": "2026-09-16T20:12:12Z"
 }
