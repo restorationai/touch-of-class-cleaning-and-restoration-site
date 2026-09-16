@@ -180,6 +180,10 @@ jobs:
           # project (idempotent, self-heals new scaffolds), unlocking office
           # SMS for clients whose own toll-free isn't approved yet.
           python3 scripts/agency_tf_watch.py || true
+          # E18 (2026-09-16): GA4 auto-wiring — key events (click_to_call,
+          # generate_lead) + Google Ads links for every client with a GA4
+          # id. Idempotent; new clients get wired on their first sweep.
+          python3 scripts/ga4_wire.py || true
 
       - name: Mini heartbeat mirror (superadmin dot, 2026-09-14)
         # The Mac Mini heartbeats + daily-reports by git commit; this step
