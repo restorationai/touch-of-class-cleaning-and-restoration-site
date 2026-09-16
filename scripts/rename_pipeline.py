@@ -154,6 +154,70 @@ def main() -> int:
                    "&select=client_id,bl_ordered:connection_metadata->bl_ordered") or []
     bl_by = {r["client_id"]: (r.get("bl_ordered") or []) for r in cit_rows}
 
+    # PHASE 3c (2026-09-16, A4): verification poll. For every client whose
+    # GBP rename was executed (gbp_renamed_at) but not yet confirmed, read
+    # the LIVE GBP title and compare against the chosen name. Match ->
+    # stamp gbp_verification=verified right here, so the board flips to
+    # live_verified in this same sweep and nobody has to remember
+    # mark-verified. No match -> print the watch line (a rename Google
+    # rejects silently reverts the title; the elapsed days make that
+    # visible). Poll is read-only against Google — the rename itself stays
+    # a human act (Amin law).
+    if not a.dry_run:
+        gbp_rows = _sb("GET", "/rest/v1/marketing_gbp_profiles"
+                       "?select=company_id,location_name") or []
+        loc_by = {g["company_id"]: g.get("location_name") for g in gbp_rows}
+        for co in comps:
+            cid, ints = co["id"], co.get("integration_settings") or {}
+            ri = dict(ints.get("rename_intent") or {})
+            if not ri.get("gbp_renamed_at") or \
+                    ri.get("gbp_verification") == "verified":
+                continue
+            chosen = next((x["item"] for x in sugs_by.get(cid, [])
+                           if x.get("status") == "chosen"), None) \
+                or ri.get("dba_name") or ""
+            loc = loc_by.get(cid)
+            if not (chosen and loc):
+                continue
+            try:
+                import requests as _rq
+                from gbp import get_access_token
+                tok = get_access_token(cid)
+                if not tok:
+                    continue
+                r = _rq.get("https://mybusinessbusinessinformation."
+                            f"googleapis.com/v1/{loc}?readMask=title",
+                            headers={"Authorization": f"Bearer {tok}"},
+                            timeout=30)
+                live_title = (r.json().get("title") or "").strip()
+            except Exception as e:  # noqa: BLE001 — poll never breaks sync
+                print(f"  3c poll failed for {co.get('name')}: "
+                      f"{str(e)[:80]}")
+                continue
+            norm = lambda t: " ".join(t.lower().split())  # noqa: E731
+            if norm(live_title) == norm(chosen):
+                ri["gbp_verification"] = "verified"
+                ri["gbp_verified_at"] = _now()
+                ints["rename_intent"] = ri
+                co["integration_settings"] = ints  # derive sees it this run
+                _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                    {"integration_settings": ints})
+                print(f"  >> 3c VERIFIED: {co.get('name')} GBP now shows "
+                      f"'{live_title}'")
+                try:
+                    from work_log import work_log
+                    work_log(cid, "citations", "gbp-rename-verified",
+                             "Google Business Profile rename is live and "
+                             f"verified: \"{live_title}\".",
+                             evidence={"title": live_title},
+                             source="rename_pipeline.py")
+                except Exception:
+                    pass
+            else:
+                print(f"  3c watching {co.get('name')}: GBP still "
+                      f"'{live_title[:50]}' (renamed "
+                      f"{ri['gbp_renamed_at'][:10]})")
+
     prev_rows = _sb("GET", f"/rest/v1/ops_kv?k=eq.{KV_KEY}&select=v") or []
     prev = (prev_rows[0]["v"] if prev_rows else {}) or {}
     prev_clients = prev.get("clients") or {}
@@ -197,8 +261,10 @@ def main() -> int:
                               "TIER-1 EVIDENCE CHECKLIST before executing "
                               "(Santino 2026-09-16):\n"
                               "  [ ] aggregator submissions under new name "
-                              "(brightlocal.py order --publishers "
-                              "dataaxle,neustar,foursquare)\n"
+                              "(AUTO with every citation order since "
+                              "2026-09-16: Data Axle + Neustar + YP Network; "
+                              "pre-A3 campaigns need the BL-support "
+                              "retrofit)\n"
                               "  [ ] BBB free business profile under new name\n"
                               "  [ ] IICRC Certified Firm listing updated "
                               "(DBA doc is the evidence; techs-only clients "
