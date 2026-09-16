@@ -8933,12 +8933,15 @@ refined same day) A: Only if the city is in the PAPERWORK. Two valid
 architectures, and multi-location clients must pick BEFORE the first DBA
 files (one-name-forever cuts both ways):
   A) ONE uniform name on every location — reviews and citations
-     concentrate, one DBA, Google differentiates by address. House
-     default for owned expansion in one metro.
-  B) Franchise pattern ("Brand of Tampa - ...") — legal ONLY with a
-     per-location DBA registering that exact geo-name (the Servpro
-     model), plus its own citation set per location. Buys the city
-     keyword inside the name at real per-location cost.
+     concentrate, one DBA, Google differentiates by address. For
+     single-location clients with no expansion plans.
+  B) Franchise pattern ("Brand of Tampa - ...") — HOUSE DEFAULT for
+     expansion-track clients (Santino 2026-09-15): the game plan is
+     near-fully-separate profiles per location (own entity, own email,
+     own LSA account, max map real estate), so each location's entity
+     files its own geo-DBA registering that exact name (the Servpro
+     model) with its own citation set. The per-location DBA is what
+     makes the geo-name policy-bulletproof.
 A bare city tag without the registration is the policy risk. Never
 present this fork as settled; it is a Santino-level strategy decision
 for any client with expansion plans.
