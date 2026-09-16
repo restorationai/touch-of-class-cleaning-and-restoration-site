@@ -4231,6 +4231,80 @@ def _email_thread_fields(m: dict | None) -> dict:
     return out
 
 
+def _first_token(name: str) -> str:
+    return (name or "").strip().split()[0] if (name or "").strip() else ""
+
+
+def _same_first_name(a: str, b: str) -> bool:
+    """Rob == Robert, Ash == Ashley: prefix match either way, min 3 chars."""
+    a, b = a.lower(), b.lower()
+    return bool(a and b and len(a) >= 3 and len(b) >= 3
+                and (a.startswith(b) or b.startswith(a)))
+
+
+def wrong_name_violation(company: dict, contact: dict,
+                         body: str) -> str | None:
+    """GREETING NAME GUARD (Santino 2026-09-16 — the Ashley/DryCor
+    incident: two post-meeting recaps opened "Rob" but delivered to the
+    PREFERRED contact's thread, Ashley, twice). The recipient's true name
+    comes from the app Contact Card entry matched to the resolved GHL
+    contact by phone/email — the names Santino keeps on file — with the
+    GHL record as fallback. If the message's first sentence addresses a
+    DIFFERENT known person of this company in vocative position (their
+    name followed by , . ! or ?), the send blocks: recompose for the
+    person who will actually read it. Deterministic on purpose — this
+    backstops every sender, one-shots and humans-in-a-hurry included."""
+    ints = company.get("integration_settings") or {}
+    entries = ints.get("contacts") or []
+    gp = _norm_phone(contact.get("phone") or "")
+    ge = _norm_email(contact.get("email") or "")
+
+    recipient = ""
+    for c in entries:
+        cp = _norm_phone(c.get("cell") or c.get("phone") or "")
+        ce = _norm_email(c.get("email") or "")
+        if (gp and cp and cp == gp) or (ge and ce and ce == ge):
+            recipient = _first_token(
+                c.get("first_name")
+                or f"{c.get('name') or ''}".strip())
+            break
+    if not recipient:
+        recipient = (contact.get("firstName") or "").strip()
+    if not recipient:
+        return None  # nobody on file to judge against
+
+    known: set[str] = set()
+    for c in entries:
+        known.add(_first_token(c.get("first_name") or c.get("name") or ""))
+    known.add(_first_token(company.get("account_owner_name") or ""))
+    known.add(_first_token(ints.get("owner_first_name") or ""))
+    known.discard("")
+
+    stripped = body.strip()
+    cut = re.search(r"[.!?\n]", stripped)
+    first_sentence = stripped[:cut.end() if cut else 160][:160]
+    # Vocative position only: the name is preceded by a greeting word or a
+    # comma (or starts the message) AND followed by punctuation or the
+    # sentence end. Catches "Morning Rob," and "Great catching up today,
+    # Rob." while leaving third-person mentions ("call with Rob") alone.
+    voc = re.compile(
+        r"(?:^(?:hi|hey|hello|(?:good\s+)?(?:morning|afternoon|evening)"
+        r"|thanks|thank you)[\s,]+|^|,\s+)"
+        r"([A-Z][a-z]{2,})(?=\s*[,.!?]|\s*$)", re.IGNORECASE)
+    for m in voc.finditer(first_sentence):
+        tok = m.group(1)
+        if _same_first_name(tok, recipient):
+            continue
+        for k in known:
+            if _same_first_name(tok, k):
+                return (f"WRONG-NAME GUARD: message opens addressing "
+                        f"'{tok}' but the recipient on file for "
+                        f"{contact.get('phone') or contact.get('email')} "
+                        f"is {recipient} (app Contact Card). Recompose "
+                        f"for {recipient}.")
+    return None
+
+
 def send_message(contact: dict, channel: str, body: str,
                  subject: str | None = None,
                  company: dict | None = None,
@@ -4361,6 +4435,11 @@ def send_message(contact: dict, channel: str, body: str,
         filereq = file_request_violation(body)
         if filereq:
             raise SendBlocked(filereq)
+        # WRONG NAME — the greeting must match the person on file for
+        # THIS thread (Ashley/DryCor 2026-09-16).
+        wrongname = wrong_name_violation(company, contact, body)
+        if wrongname:
+            raise SendBlocked(wrongname)
     # Device wording is fixed in place rather than blocked (see
     # soften_device_assumption): a desktop client should not be told to "tap".
     body = soften_device_assumption(body)
@@ -4686,6 +4765,15 @@ Rules:
   quick things", "just checking in", "hope you're well", "touching base".
   Anchor to the real subject instead: "Hey Jack, regarding your website,
   should we say…". Slightly informal, like a competent coworker texting.
+- GREETING NAME LAW (Santino 2026-09-16, the Ashley/DryCor incident):
+  the name you may open with is EXACTLY the recipient first name given in
+  this prompt — the person whose thread this is. Meeting recaps are the
+  trap: the call was with the owner, but the thread belongs to the office
+  contact. When the content concerns someone else, address the recipient
+  and reference the other person in third person ("great call with Rob
+  yesterday — could you pass this along?"). Recaps stay SHORT: lead with
+  the one action needed, 3-4 sentences; the full detail list lives in the
+  app, not the text.
 - NAME BUDGET (Santino 2026-08-02: every message opened "Hey Todd," /
   "Thanks, Todd," — humans don't repeat names constantly mid-thread): use
   the first name at most ONCE per day of conversation. If any outbound in
