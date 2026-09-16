@@ -321,8 +321,12 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
       data.utm_source && `utm_source=${clean(data.utm_source, 80)}`,
       data.utm_medium && `utm_medium=${clean(data.utm_medium, 80)}`,
       data.utm_campaign && `utm_campaign=${clean(data.utm_campaign, 120)}`,
-      data.gclid && "gclid=present", data.msclkid && "msclkid=present",
-      data.fbclid && "fbclid=present",
+      // D17 (2026-09-16): real click-id values, not just "present" — the
+      // id is what ties a lead (and any later offline conversion upload)
+      // back to the exact ad click.
+      data.gclid && `gclid=${clean(data.gclid, 120)}`,
+      data.msclkid && `msclkid=${clean(data.msclkid, 120)}`,
+      data.fbclid && `fbclid=${clean(data.fbclid, 120)}`,
       data.referrer && `ref=${clean(data.referrer, 200)}`,
       data.landing_page && `landing=${clean(data.landing_page, 200)}`,
     ].filter(Boolean).join(" | "),

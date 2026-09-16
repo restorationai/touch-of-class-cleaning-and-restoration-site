@@ -267,6 +267,23 @@ const ctx: PageSchemaContext = {
               saved = { s: fresh, t: Date.now() };
               try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {}
             }
+            // D17 (2026-09-16): persist click ids AT LANDING. The form used
+            // to read location.search at submit time, so any visitor who
+            // browsed past the landing page submitted without their gclid
+            // and the lead could never be tied back to the ad click. Click
+            // ids ride the same 30-day store, refreshed on every ad landing.
+            try {
+              var q = new URLSearchParams(location.search), ids = {};
+              ["gclid", "msclkid", "fbclid"].forEach(function (k) {
+                if (q.get(k)) ids[k] = q.get(k).slice(0, 120);
+              });
+              if (Object.keys(ids).length) {
+                saved = saved || { t: Date.now() };
+                saved.ids = ids;
+                saved.t = saved.t || Date.now();
+                localStorage.setItem(KEY, JSON.stringify(saved));
+              }
+            } catch (e) {}
             try { window.rankaiSource = (saved && saved.s) || "default"; } catch (e) {}
             return saved && saved.s;
           }

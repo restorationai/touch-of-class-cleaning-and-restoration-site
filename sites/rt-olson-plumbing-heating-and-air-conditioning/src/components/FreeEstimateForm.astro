@@ -208,6 +208,14 @@ const tight = compact || bare;
         ["utm_source", "utm_medium", "utm_campaign", "gclid", "msclkid", "fbclid"].forEach(function (k) {
           if (q.get(k)) data[k] = q.get(k);
         });
+        // D17: click ids persisted at landing (BaseLayout) survive
+        // navigation — the URL params above win when present.
+        try {
+          var savedIds = (JSON.parse(localStorage.getItem("rankai_src") || "null") || {}).ids || {};
+          ["gclid", "msclkid", "fbclid"].forEach(function (k) {
+            if (!data[k] && savedIds[k]) data[k] = savedIds[k];
+          });
+        } catch (err) {}
         if (document.referrer) data.referrer = document.referrer;
         data.landing_page = location.pathname;
         try {
