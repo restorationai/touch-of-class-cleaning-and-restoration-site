@@ -130,21 +130,16 @@ async function sbGet(env: Env, path: string): Promise<unknown[] | null> {
   return (await r.json()) as unknown[];
 }
 
-async function sendSms(env: Env, lead: Record<string, string>): Promise<string> {
-  // RECIPIENTS (Bob/RT Olson 2026-09-15): the client-managed SMS list
-  // (integration_settings.lead_notify_sms, edited on the Lead Notifications
-  // card) — falls back to the brand line when the list is empty. SENDER
-  // preference gains the client's own APPROVED toll-free at the top (the
-  // house sender rule), then the agency line, then a tracking number.
-  let recipients: string[] = [];
-  let ownTF: { from?: string; sid?: string; token?: string } = {};
+async function resolveSmsSender(
+  env: Env,
+): Promise<{ from: string; sid: string; token: string } | { skip: string }> {
+  // SENDER LADDER (C9 refactor 2026-09-16 — one resolver for both the
+  // office alert and the prospect confirmation): the client's own APPROVED
+  // toll-free first (house sender rule), then the agency toll-free
+  // (ESTIMATE_SMS_*, set fleet-wide by agency_tf_watch.py at verification
+  // approval), then the client's provisioned tracking number, then the
+  // legacy FALLBACK_TWILIO_* envs.
   if (env.SUPABASE_URL && env.SUPABASE_SERVICE_ROLE_KEY && env.COMPANY_ID) {
-    const co = (await sbGet(
-      env,
-      `companies?id=eq.${env.COMPANY_ID}&select=integration_settings&limit=1`
-    )) as { integration_settings?: { lead_notify_sms?: string[] } }[] | null;
-    recipients = (co?.[0]?.integration_settings?.lead_notify_sms || [])
-      .map((x) => String(x || "").trim()).filter(Boolean);
     const ps = (await sbGet(
       env,
       `company_phone_setup?id=eq.${env.COMPANY_ID}&select=compliance_status,agent_phone_1,twilio_subaccount_sid,twilio_auth_token&limit=1`
@@ -152,8 +147,57 @@ async function sendSms(env: Env, lead: Record<string, string>): Promise<string> 
     const p0 = ps?.[0];
     if (p0?.compliance_status === "approved" && p0.agent_phone_1
         && p0.twilio_subaccount_sid && p0.twilio_auth_token) {
-      ownTF = { from: p0.agent_phone_1, sid: p0.twilio_subaccount_sid, token: p0.twilio_auth_token };
+      return { from: p0.agent_phone_1, sid: p0.twilio_subaccount_sid, token: p0.twilio_auth_token };
     }
+  }
+  if (env.ESTIMATE_SMS_FROM && env.ESTIMATE_SMS_SID && env.ESTIMATE_SMS_TOKEN) {
+    return { from: env.ESTIMATE_SMS_FROM.trim(), sid: env.ESTIMATE_SMS_SID, token: env.ESTIMATE_SMS_TOKEN };
+  }
+  if (!env.SUPABASE_URL || !env.SUPABASE_SERVICE_ROLE_KEY || !env.COMPANY_ID) return { skip: "skipped:no-supabase-env" };
+  const nums = (await sbGet(
+    env,
+    `company_phone_numbers?company_id=eq.${env.COMPANY_ID}&number_type=eq.call_tracking&select=phone_number&limit=1`
+  )) as { phone_number?: string }[] | null;
+  const fromNumber = nums?.[0]?.phone_number;
+  const setup = (await sbGet(
+    env,
+    `company_phone_setup?id=eq.${env.COMPANY_ID}&select=twilio_subaccount_sid,twilio_auth_token&limit=1`
+  )) as { twilio_subaccount_sid?: string; twilio_auth_token?: string }[] | null;
+  const sid = setup?.[0]?.twilio_subaccount_sid;
+  const token = setup?.[0]?.twilio_auth_token;
+  if (fromNumber && sid && token) return { from: fromNumber, sid, token };
+  if (env.FALLBACK_TWILIO_SID && env.FALLBACK_TWILIO_TOKEN && env.FALLBACK_TWILIO_FROM) {
+    return { from: env.FALLBACK_TWILIO_FROM, sid: env.FALLBACK_TWILIO_SID, token: env.FALLBACK_TWILIO_TOKEN };
+  }
+  return { skip: fromNumber ? "skipped:no-twilio-creds" : "skipped:no-call-tracking" };
+}
+
+async function twilioSend(
+  sender: { from: string; sid: string; token: string }, to: string, body: string,
+): Promise<{ ok: boolean; err: string }> {
+  const r = await fetch(`https://api.twilio.com/2010-04-01/Accounts/${sender.sid}/Messages.json`, {
+    method: "POST",
+    headers: {
+      Authorization: `Basic ${btoa(`${sender.sid}:${sender.token}`)}`,
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    body: new URLSearchParams({ From: sender.from, To: to, Body: body }),
+  });
+  return { ok: r.ok, err: r.ok ? "" : `${r.status}:${(await r.text()).slice(0, 120)}` };
+}
+
+async function sendSms(env: Env, lead: Record<string, string>): Promise<string> {
+  // RECIPIENTS (Bob/RT Olson 2026-09-15): the client-managed SMS list
+  // (integration_settings.lead_notify_sms, edited on the Lead Notifications
+  // card) — falls back to the brand line when the list is empty.
+  let recipients: string[] = [];
+  if (env.SUPABASE_URL && env.SUPABASE_SERVICE_ROLE_KEY && env.COMPANY_ID) {
+    const co = (await sbGet(
+      env,
+      `companies?id=eq.${env.COMPANY_ID}&select=integration_settings&limit=1`
+    )) as { integration_settings?: { lead_notify_sms?: string[] } }[] | null;
+    recipients = (co?.[0]?.integration_settings?.lead_notify_sms || [])
+      .map((x) => String(x || "").trim()).filter(Boolean);
   }
   const toNumber = (brand.phoneRaw || "").trim();
   if (recipients.length === 0) {
@@ -161,74 +205,41 @@ async function sendSms(env: Env, lead: Record<string, string>): Promise<string> 
     recipients = [toNumber];
   }
 
+  const sender = await resolveSmsSender(env);
+  if ("skip" in sender) return sender.skip;
+
   const body =
     `New estimate request: ${lead.name} ${lead.phone} ${lead.city}` +
     (lead.description ? ` — ${lead.description.slice(0, 80)}` : "");
 
-  // Preferred sender: the agency toll-free (one number for all clients), sent
-  // from the agency Twilio subaccount. All three secrets are set together once
-  // the number is purchased + toll-free-verified (scripts/provision_agency_tollfree.py).
-  const agencyFrom = (env.ESTIMATE_SMS_FROM || "").trim();
-  let fromNumber: string | undefined;
-  let sid: string | undefined;
-  let token: string | undefined;
-
-  if (ownTF.from && ownTF.sid && ownTF.token) {
-    fromNumber = ownTF.from;
-    sid = ownTF.sid;
-    token = ownTF.token;
-  } else if (agencyFrom && env.ESTIMATE_SMS_SID && env.ESTIMATE_SMS_TOKEN) {
-    fromNumber = agencyFrom;
-    sid = env.ESTIMATE_SMS_SID;
-    token = env.ESTIMATE_SMS_TOKEN;
-  } else {
-    // Fallback: the client's own tracking number — only when call-tracking is provisioned.
-    if (!env.SUPABASE_URL || !env.SUPABASE_SERVICE_ROLE_KEY || !env.COMPANY_ID) return "skipped:no-supabase-env";
-    const nums = (await sbGet(
-      env,
-      `company_phone_numbers?company_id=eq.${env.COMPANY_ID}&number_type=eq.call_tracking&select=phone_number&limit=1`
-    )) as { phone_number?: string }[] | null;
-    fromNumber = nums?.[0]?.phone_number;
-
-    const setup = (await sbGet(
-      env,
-      `company_phone_setup?id=eq.${env.COMPANY_ID}&select=twilio_subaccount_sid,twilio_auth_token&limit=1`
-    )) as { twilio_subaccount_sid?: string; twilio_auth_token?: string }[] | null;
-    sid = setup?.[0]?.twilio_subaccount_sid;
-    token = setup?.[0]?.twilio_auth_token;
-
-    // Agency-level fallback (Santino 2026-07-30: "we definitely want an SMS
-    // for new leads" even before the client's own number exists) — a shared
-    // toll-free on the master Twilio account, set as Pages env vars.
-    if (!fromNumber || !sid || !token) {
-      if (env.FALLBACK_TWILIO_SID && env.FALLBACK_TWILIO_TOKEN && env.FALLBACK_TWILIO_FROM) {
-        sid = env.FALLBACK_TWILIO_SID;
-        token = env.FALLBACK_TWILIO_TOKEN;
-        fromNumber = env.FALLBACK_TWILIO_FROM;
-      } else if (!fromNumber) {
-        return "skipped:no-call-tracking";
-      } else {
-        return "skipped:no-twilio-creds";
-      }
-    }
-  }
-
   let sent = 0;
   let lastErr = "";
   for (const to of recipients) {
-    const r = await fetch(`https://api.twilio.com/2010-04-01/Accounts/${sid}/Messages.json`, {
-      method: "POST",
-      headers: {
-        Authorization: `Basic ${btoa(`${sid}:${token}`)}`,
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      body: new URLSearchParams({ From: fromNumber!, To: to, Body: body }),
-    });
+    const r = await twilioSend(sender, to, body);
     if (r.ok) sent++;
-    else lastErr = `${r.status}:${(await r.text()).slice(0, 120)}`;
+    else lastErr = r.err;
   }
   if (sent > 0) return `sent:${sent}/${recipients.length}`;
-  return `error:${lastErr}`;
+  return `error:${lastErr || "unknown"}`;
+}
+
+async function sendProspectSms(env: Env, lead: Record<string, string>): Promise<string> {
+  // C9 (Bob/RT Olson): one transactional confirmation to the LEAD, only
+  // when they checked the consent box on the form. Points them at the
+  // phone line — a submitted-then-called lead closes; one that waits for
+  // a callback shops on.
+  if (lead.sms_consent !== "yes") return "skipped:no-consent";
+  if (!lead.phone) return "skipped:no-phone";
+  const sender = await resolveSmsSender(env);
+  if ("skip" in sender) return sender.skip;
+  const displayPhone = (brand.phone || brand.phoneRaw || "").trim();
+  const body =
+    `${brand.shortName || brand.displayName}: got your request — ` +
+    `we're on it and will call you shortly.` +
+    (displayPhone ? ` For emergencies call us now: ${displayPhone}.` : "") +
+    ` Reply STOP to opt out.`;
+  const r = await twilioSend(sender, lead.phone, body);
+  return r.ok ? "sent" : `error:${r.err}`;
 }
 
 async function insertContact(env: Env, lead: Record<string, string>): Promise<string> {
@@ -305,6 +316,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     // Source attribution (2026-09-10): the form ships the same persisted
     // classification the DNI number swap uses, so leads attribute like calls.
     lead_source: clean(data.lead_source, 40) || "default",
+    sms_consent: data.sms_consent === "yes" ? "yes" : "",
     attribution: [
       data.utm_source && `utm_source=${clean(data.utm_source, 80)}`,
       data.utm_medium && `utm_medium=${clean(data.utm_medium, 80)}`,
@@ -321,10 +333,11 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
 
   const toEmail = await resolveRecipient(env).catch(() => (brand.email || "").trim());
 
-  const [email, sms, db] = await Promise.all([
+  const [email, sms, db, prospectSms] = await Promise.all([
     sendEmail(env, lead, toEmail).catch((e) => `error:${String(e).slice(0, 200)}`),
     sendSms(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
     insertContact(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
+    sendProspectSms(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
   ]);
 
   // EVERY submission is its own event row (Santino 2026-09-10), now
@@ -344,14 +357,16 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
         email: lead.email || null, description: lead.description || null,
         lead_source: lead.lead_source, attribution: lead.attribution || null,
         notify_status: { email: { status: email, to: toEmail },
-                         sms: { status: sms } },
+                         sms: { status: sms },
+                         prospect_sms: { status: prospectSms,
+                                         consent: lead.sms_consent === "yes" } },
       }),
     }).catch(() => null);
   }
 
   // Email is the primary delivery channel; SMS + DB are best-effort extras.
   const ok = email === "sent";
-  const body: Record<string, unknown> = { ok, email, sms, db };
+  const body: Record<string, unknown> = { ok, email, sms, db, prospect_sms: prospectSms };
   // Diagnostic only: expose the resolved recipient on explicit TEST submissions
   // so re-tests can verify routing. Never included on real leads.
   if (lead.description.includes("TEST")) body.to = toEmail;

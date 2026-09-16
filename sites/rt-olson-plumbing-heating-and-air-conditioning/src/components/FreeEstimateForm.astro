@@ -108,6 +108,15 @@ const tight = compact || bare;
         {/* Min-render-time token — set by the inline script below at page load. */}
         <input type="hidden" name="fets" value="" />
 
+        {/* Prospect-SMS consent (C9, Bob/RT Olson 2026-09-15): unchecked by
+            default — the checked state is the recorded consent for the one
+            confirmation text; audit trail rides the submission row. */}
+        <label class="flex items-start gap-2.5 text-sm font-normal normal-case tracking-normal text-white/70 cursor-pointer">
+          <input type="checkbox" name="sms_consent" value="yes"
+            class="mt-1 h-4 w-4 rounded border-white/30 bg-white/5 accent-primary-600" />
+          <span>It's OK to text me about my request. Message &amp; data rates may apply; reply STOP to opt out.</span>
+        </label>
+
         <button
           type="submit"
           class="inline-flex items-center justify-center font-bold px-8 py-4 rounded-md transition-all text-lg shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed"
@@ -214,9 +223,23 @@ const tight = compact || bare;
           .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok && j.ok !== false, j: j }; }); })
           .then(function (res) {
             if (res.ok) {
-              show("Thanks — your request is in. We'll call you back shortly. For emergencies, call us now.", true);
-              form.reset();
-              if (ts) ts.value = String(Date.now());
+              // Post-submit Call-Now screen (C9): water in the house doesn't
+              // wait for a callback. The number is read from the DOM AFTER
+              // the DNI swap ran, so it's the tracked line, not the raw NAP.
+              var telA = document.querySelector('a[href^="tel:"]');
+              var telHref = telA ? telA.getAttribute("href") : null;
+              var telText = telA ? (telA.textContent || "").trim() : "";
+              var panel = document.createElement("div");
+              panel.className = "rounded-xl border border-emerald-400/30 bg-emerald-500/10 p-6 text-center";
+              panel.innerHTML =
+                '<p class="text-3xl mb-2">✓</p>' +
+                '<p class="text-xl font-black text-white mb-1">Request received</p>' +
+                '<p class="text-white/80 mb-4">We\'ll call you back shortly. If this is an emergency, don\'t wait:</p>' +
+                (telHref
+                  ? '<a href="' + telHref + '" class="inline-flex items-center justify-center rounded-xl bg-white text-black font-black text-lg px-8 py-4 no-underline">Call ' + (telText || "Now") + "</a>"
+                  : "");
+              form.replaceChildren(panel);
+              try { panel.scrollIntoView({ block: "center", behavior: "smooth" }); } catch (err) {}
             } else {
               show("Something went wrong sending your request. Please call us instead — it's faster anyway.", false);
             }
