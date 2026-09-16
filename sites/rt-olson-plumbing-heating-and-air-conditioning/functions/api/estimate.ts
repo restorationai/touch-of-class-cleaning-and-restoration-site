@@ -252,19 +252,8 @@ async function insertContact(env: Env, lead: Record<string, string>): Promise<st
     Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
     "Content-Type": "application/json",
   };
-  // EVERY submission is its own event row (Santino 2026-09-10: "every
-  // submission should get its dedicated line item") — the contacts row
-  // below stays deduped per phone for the CRM, but reporting reads this.
-  await fetch(`${env.SUPABASE_URL}/rest/v1/marketing_form_submissions`, {
-    method: "POST",
-    headers: { ...sbHeaders, Prefer: "return=minimal" },
-    body: JSON.stringify({
-      company_id: env.COMPANY_ID || null,
-      name: lead.name, phone: lead.phone, city: lead.city,
-      email: lead.email || null, description: lead.description || null,
-      lead_source: lead.lead_source, attribution: lead.attribution || null,
-    }),
-  }).catch(() => null);
+  // (submission event row moved to the main handler 2026-09-15 so it can
+  // carry notify_status — the delivery outcome of each channel.)
   const r = await fetch(`${env.SUPABASE_URL}/rest/v1/contacts`, {
     method: "POST",
     headers: { ...sbHeaders, Prefer: "return=minimal" },
@@ -337,6 +326,28 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     sendSms(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
     insertContact(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
   ]);
+
+  // EVERY submission is its own event row (Santino 2026-09-10), now
+  // carrying notify_status (2026-09-15: the RT Olson "did the client get
+  // the email?" hunt becomes a glance at the card).
+  if (env.SUPABASE_URL && env.SUPABASE_SERVICE_ROLE_KEY) {
+    await fetch(`${env.SUPABASE_URL}/rest/v1/marketing_form_submissions`, {
+      method: "POST",
+      headers: {
+        apikey: env.SUPABASE_SERVICE_ROLE_KEY,
+        Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
+        "Content-Type": "application/json", Prefer: "return=minimal",
+      },
+      body: JSON.stringify({
+        company_id: env.COMPANY_ID || null,
+        name: lead.name, phone: lead.phone, city: lead.city,
+        email: lead.email || null, description: lead.description || null,
+        lead_source: lead.lead_source, attribution: lead.attribution || null,
+        notify_status: { email: { status: email, to: toEmail },
+                         sms: { status: sms } },
+      }),
+    }).catch(() => null);
+  }
 
   // Email is the primary delivery channel; SMS + DB are best-effort extras.
   const ok = email === "sent";
