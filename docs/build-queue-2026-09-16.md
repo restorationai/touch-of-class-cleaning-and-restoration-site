@@ -13,11 +13,11 @@ landing before Amin's citations go live.
 - [x] **A2. Rename site-sync** — footer legal line ("[LLC] doing business
       as [DBA]"), schema legalName/name/alternateName, title metadata;
       runs at DBA-verification; Frontline first (live site, campaign live).
-- [ ] **A3. Aggregator submissions at order time** — Data Axle / Neustar /
+- [x] **A3. Aggregator submissions at order time** — Data Axle / Neustar /
       Foursquare add-on in every post-DBA order.
-- [ ] **A4. Phase 3c** — GBP verification auto-poll after renames execute
+- [x] **A4. Phase 3c** — GBP verification auto-poll after renames execute
       (due before the first ready_for_rename prompt fires).
-- [ ] **A5. Rename press-release template** — "formerly known as" mode in
+- [x] **A5. Rename press-release template** — "formerly known as" mode in
       press_release.py, published the same week as each GBP change.
 - [ ] **A6. Dry Bros site cutover acceleration** — drybros.com (his old
       site) can't corroborate the DBA; our built site can, once live.
@@ -51,6 +51,10 @@ landing before Amin's citations go live.
 - [ ] **E20. Subdomain self-serve card** (Site tab).
 
 ## Shipped 09-16 (overnight)
+- A3: aggregators (Data Axle + Neustar + YP Network, SAB-supported; Foursquare/GPS are NOT) ride every citation order by default, 15cr each w/ ladder discount, itemized pre-charge; OPEN: retrofit for the 4 pre-A3 campaigns = BL-support question sent + ~43cr/campaign spend decision for Santino once they answer
+- A4: phase 3c GBP verification poll live in rename_pipeline sync (live title vs chosen; auto-stamps verified)
+- A5: press_release.py --kind rename ('formerly known as' lint-enforced, truth-gated); auto-drafts at ready_for_rename; Frontline rename-2026 draft SAVED to the app
+- A6 partial: Dry Bros pushed to STAGING (56 pages, DBA surfaces included) — staging review -> main push -> apex cutover are Santino gates; domain situation (drybros.com host/registrar) still unmapped
 - A1 enrichment SYSTEM: in-order + nightly + fleet backfill (28/28); GBP business description now the description source (2 -> 26 locations covered)
 - A1 residue: BL image upload has NO API endpoint — question sent to BL support 09-16
 - A2 rename site-sync SYSTEM: footer 'doing business as' line + schema DBA-as-name (old names preserved as alternateName); rename_site_sync.py sweeps behind DBA vision-verify, rides client-ops-sync, self-deploys live sites; Frontline LIVE-verified on frontlinefireflood.com, Dry Bros source-synced (A6 cutover carries it)
