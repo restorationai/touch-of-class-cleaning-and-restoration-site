@@ -158,6 +158,19 @@ def create_for(slug: str, token: str, account_id: str, push: bool, force: bool) 
     # 3) save into the site + plan-input
     analytics_set.update_brand_ts(slug, mid, None)
     analytics_set.mirror_plan_input(slug, mid, None)
+    # E18 (2026-09-16): finish the wiring in the same breath — key events
+    # (click_to_call, generate_lead) + Ads link when the customer id is on
+    # file. Fail-open: a wiring hiccup never blocks property creation.
+    try:
+        import subprocess as _sp
+        r = _sp.run([sys.executable, str(ROOT / "scripts" / "ga4_wire.py"),
+                     "--slug", slug], capture_output=True, text=True,
+                    timeout=300)
+        tail = (r.stdout or r.stderr).strip().splitlines()[-1:]
+        print(f"  ga4-wire: {tail[0][:100] if tail else r.returncode}")
+    except Exception as e:  # noqa: BLE001
+        print(f"  ga4-wire failed (run scripts/ga4_wire.py --slug {slug}): "
+              f"{str(e)[:80]}")
     if push:
         analytics_set.git_push_site(slug)
         print(f"  {slug}: pushed site repo (Cloudflare redeploys)")
