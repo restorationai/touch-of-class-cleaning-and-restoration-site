@@ -39,7 +39,7 @@ landing before Amin's citations go live.
 - [ ] **C13. Auto-reply to the lead.**
 
 ## D. DNI (remaining)
-- [ ] **D14. Call-alert recipients list + held-alert visibility card.**
+- [x] **D14. Call-alert recipients list + held-alert visibility card.**
 - [ ] **D15. Non-activated client provisioning sweep.**
 - [ ] **D16. Number edit/release in-app; Bob's CallRail port kickoff.**
 - [x] **D17. Call-side gclid stamping** (paid-vs-organic referee).
@@ -51,6 +51,7 @@ landing before Amin's citations go live.
 - [ ] **E20. Subdomain self-serve card** (Site tab).
 
 ## Shipped 09-16 (overnight)
+- D14: two-channel call alerts (SMS + email, Lead Notifications lists, both optional; email unblocked from TF approval) + Call Alerts card on Reports>Calls (sent / waiting-for-morning / needs-attention states)
 - E18: ga4_wire.py — click_to_call + generate_lead marked KEY EVENTS on all 24 GA4 properties; auto-runs at property creation + nightly line; Ads links pending 2-min Ads-UI step (SA can't be an Ads user): narestco 3832550597, puroclean 1813437945; Coastal GA4 outside our account
 - D17: click-ids (gclid/msclkid/fbclid) persisted at landing for 30d, form falls back to store, REAL id kept on the lead row; call-side conversion = click_to_call key event (UploadCallConversions can never match Twilio DNI lines — documented); rt-olson deployed
 - Zheng/BDA reply DRAFTED on-thread (getrest drafts) mapping their GTM/GA4 list to what's live
