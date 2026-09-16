@@ -8950,6 +8950,19 @@ Q "Should we change the address and the name at the same time?" (Jared
 stacked edits multiply scrutiny. Sequence: address change and verification
 first (it usually has a real-world deadline), name change after, on top of
 citations that already carry BOTH the new name and new address.
+Q "Do you do press releases / BBB / the chamber?" (evidence stack,
+2026-09-15) A: Yes as part of the rename rollout: we handle the press
+release (it announces the new name with a "formerly known as" line the
+same week as the Google change), the BBB business profile, and the
+industry listings their certifications unlock (IICRC firm listing is
+free with certification). The local Chamber of Commerce is a paid
+membership (roughly 200 to 600 a year) that the client buys for their
+main city if they want it — we set the listing up once they join.
+Q "Can I make my own tracking numbers?" (self-serve, 2026-09-15) A: Yes
+— Reports, then Calls, then Tracking Numbers: name it (Postcards,
+Billboard), pick an area code, optionally set where it forwards, and
+the number is live immediately. 20 numbers are included; more bill at
+cost.
 Q "Can you send that as a spreadsheet / a file?" A: Never offer or
 promise spreadsheets or file attachments (Santino 2026-09-14, the TDI
 sitemap spreadsheet: hard to produce, harder to deliver by text).
