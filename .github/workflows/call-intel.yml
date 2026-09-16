@@ -34,7 +34,10 @@ jobs:
         # clients without an approved line are skipped. 07:00-21:00 local,
         # overnight calls deliver next morning; deduped per call in ops_kv.
         env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          TWILIO_MASTER_ACCOUNT_SID: ${{ secrets.TWILIO_MASTER_ACCOUNT_SID }}
+          TWILIO_MASTER_AUTH_TOKEN:  ${{ secrets.TWILIO_MASTER_AUTH_TOKEN }}
           GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
           GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
           CONCIERGE_ALLOWLIST:       ${{ secrets.CONCIERGE_ALLOWLIST }}
