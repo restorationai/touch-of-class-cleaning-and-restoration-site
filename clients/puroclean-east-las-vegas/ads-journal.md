@@ -7,6 +7,9 @@ entry after any change.**
 
 <!-- entries below, newest first -->
 
+## 2026-09-16 18:40Z · bids/negatives · —
+OPTIMIZATION per Santino (09-16 review): 11 phrase negatives added at campaign level - competitor brands (911 bio clean, steri clean, cory chalmers, bio one, bioone, aftermath, remnant, valor biohazard, crime scene clean team; evidence: the 911-bio-clean click never called, ~25% of impressions were brand-seekers) + informational (who cleans up, protocol). Crime Scene group cap $30 -> $50 (ad group + all 10 keyword bids; core exact was at 14% IS / 86% lost to rank). Budget HELD at $60/day - avg spend $21/day, losses are rank-based not budget-based. Reassess in 7 days on ATTRIBUTED call data (LP DNI fixed 09-16 - today is day one of real call visibility). — _operator_
+
 ## 2026-09-16 18:29Z · note · —
 AUDIT (Santino ask: no google_ads calls in reports): 14d = 162 impr, 6 clicks, $148.79, 0 conversions. IS healthy post-09-12 bid fix (64-88%). ROOT CAUSE of zero attributed calls: the /lp/ landing pages never carried the DNI swap (LpLayoutV1-3 lacked the BaseLayout block) — every ad click saw the canonical (702) 551-3040 and the google_ads line (725) 223-0877 never displayed; Twilio shows 0 calls ever to that line. FIX: DniSwap.astro extracted + wired into all 3 LP layouts, deployed to production. Same fix applied to narestco (the zero-call-conversion mechanism there too). Ad calls attribute from today. — _operator_
 
