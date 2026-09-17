@@ -129,7 +129,11 @@ def tick_workflow_dispatches(done: dict) -> None:
 # Daily jobs fire once per UTC day at/after the given HH:MM.
 DAILY_JOBS = [
     # (name, "HH:MM" UTC, argv)  — 12:20 UTC = 5:20am PT
-    ("callist", "12:20", [sys.executable, str(HERE / "callist" / "run_daily.py")]),
+    # DISABLED 2026-09-17 (Santino): stops the daily "Your Call List is Ready"
+    # email and the Notion repaint. This is the OLD copy; the maintained one is
+    # restorationai/Rank-AI-Call-List, which is not deployed yet. Re-enable by
+    # uncommenting, or delete once that repo has its own Railway service.
+    # ("callist", "12:20", [sys.executable, str(HERE / "callist" / "run_daily.py")]),
     # No-show / post-demo Fathom routing — ported off the Mac 2026-07-16 (it had
     # been left behind by the Railway migration and only ran when the Mac was awake).
     ("noshow", "13:00", [sys.executable, str(HERE / "callist" / "noshow_checker.py")]),
@@ -168,8 +172,10 @@ JOBS = [
     # Notes sync every 3h (was nightly 04:00Z): idempotent (contact+note-text
     # dedupe), and harvesting often means a "remove from list" note can't sit
     # unsynced long enough for the morning repaint to wipe it (2026-07-15 loss).
-    ("callist-notes", 10800, [sys.executable,
-                              str(HERE / "callist" / "run_notes_sync.py")]),
+    # DISABLED 2026-09-17 alongside the callist job above: with no morning
+    # repaint there is no fresh page to harvest notes from.
+    # ("callist-notes", 10800, [sys.executable,
+    #                           str(HERE / "callist" / "run_notes_sync.py")]),
     ("inbound", 300, [sys.executable, str(HERE / "client_concierge.py"),
                       "inbound", "--poll", "--send"]),
     ("email", 300, [sys.executable, str(HERE / "email_intake.py"),
