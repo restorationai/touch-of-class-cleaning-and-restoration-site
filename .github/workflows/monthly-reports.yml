@@ -43,30 +43,20 @@ jobs:
             printf '%s' "$NARESTCO_ADS_TOKEN" > clients/narestco/.ads-token.json
           fi
 
-      - name: Generate + publish per-client reports (HTML file + Supabase for the app's Reports tab)
+      - name: Generate, publish and notify per-client reports
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SENDGRID_API_KEY:           ${{ secrets.SENDGRID_API_KEY }}
         run: |
-          python3 -c "
-          import json, pathlib, subprocess, sys
-          from datetime import date, timedelta
-          # Runs on the 1st — report on the month that just COMPLETED, not the
-          # nine-hour-old current month (July 2026 published as '0 posts' bug).
-          period = (date.today().replace(day=1) - timedelta(days=1)).strftime('%Y-%m')
-          for p in sorted(pathlib.Path('clients').glob('*.json')):
-              c = json.loads(p.read_text())
-              if c.get('status') == 'active':
-                  slug = c['slug']
-                  rc = subprocess.call(['python3', 'scripts/client_report.py', 'publish', '--slug', slug, '--period', period])
-                  if rc != 0:
-                      print(f'WARNING: publish failed for {slug} (rc={rc})', file=sys.stderr)
-          "
-
-      - name: Send portfolio digest to operator
-        env:
-          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-        run: python3 scripts/client_report.py portfolio --send
+          # client_report.py was refactored 2026-08-31 to --all/--period/--notify
+          # (generate + publish + email link + Monica note in one pass). The old
+          # 'publish'/'send'/'portfolio' subcommands no longer exist — calling
+          # them rc=2'd every client, which is why the Aug 1 and Sep 1 runs
+          # failed and clients missed two monthly reports (found by the
+          # pipeline watchdog 2026-09-17).
+          PERIOD=$(python3 -c "from datetime import date, timedelta; print((date.today().replace(day=1)-timedelta(days=1)).strftime('%Y-%m'))")
+          python3 scripts/client_report.py --all --period "$PERIOD" --notify
 
       - name: Wrong-page ranks check (queries stuck on home/blog + unserved-area demand)
         env:
@@ -82,21 +72,6 @@ jobs:
           else
             echo "GSC_AGENCY_TOKEN secret missing — skipped"
           fi
-
-      - name: Send per-client reports (only for clients with report_email_enabled=true)
-        env:
-          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-        run: |
-          python3 -c "
-          import json, pathlib, subprocess, sys
-          for p in sorted(pathlib.Path('clients').glob('*.json')):
-              c = json.loads(p.read_text())
-              if c.get('status') == 'active' and c.get('report_email_enabled'):
-                  slug = c['slug']
-                  rc = subprocess.call(['python3', 'scripts/client_report.py', 'send', '--slug', slug])
-                  if rc != 0:
-                      print(f'WARNING: send failed for {slug} (rc={rc})', file=sys.stderr)
-          "
 
       - name: Commit generated report files
         run: |
