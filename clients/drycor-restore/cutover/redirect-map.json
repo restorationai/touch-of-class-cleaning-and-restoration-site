@@ -1,1523 +1,1523 @@
 {
- "generated_at": "2026-09-17T22:35:27+00:00",
- "domain": "drycor.com",
- "routes": 630,
- "map": {
-  "/careers": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/fire-damage-and-smoke-cleanup": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/holmes-beach": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/holmes-beach/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/holmes-beach/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/holmes-beach/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/holmes-beach/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/holmes-beach/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/hvac-contractors-partnership": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lake-wales": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lake-wales/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lake-wales/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lake-wales/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lake-wales/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lake-wales/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lakewood-ranch": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lakewood-ranch-sarasota": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lakewood-ranch/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lakewood-ranch/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lakewood-ranch/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lakewood-ranch/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/lakewood-ranch/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/largo": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/largo/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/largo/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/largo/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/largo/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/largo/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/longboat-key": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/longboat-key/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/longboat-key/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/longboat-key/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/longboat-key/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/longboat-key/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/mold-remediation/mold-inspection": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/mold-remediation/mold-removal": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/mulberry": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/mulberry/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/mulberry/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/mulberry/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/mulberry/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/mulberry/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/nokomis": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/nokomis/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/nokomis/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/nokomis/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/nokomis/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/nokomis/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/north-port": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/north-port/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/north-port/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/north-port/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/north-port/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/north-port/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/oldsmar": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/oldsmar/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/oldsmar/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/oldsmar/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/oldsmar/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/oldsmar/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/osprey": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/osprey/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/osprey/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/osprey/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/osprey/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/osprey/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palm-harbor": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palm-harbor/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palm-harbor/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palm-harbor/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palm-harbor/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palm-harbor/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palmetto": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palmetto/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palmetto/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palmetto/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palmetto/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/palmetto/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/parrish": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/parrish/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/parrish/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/parrish/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/parrish/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/parrish/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/pinellas-park": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/pinellas-park/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/pinellas-park/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/pinellas-park/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/pinellas-park/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/pinellas-park/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/plumbers-partnership": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/polk-city": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/polk-city/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/polk-city/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/polk-city/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/polk-city/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/polk-city/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/privacy-policy": {
-   "target": "/privacy/",
-   "how": "heuristic"
-  },
-  "/safety-harbor": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/safety-harbor/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/safety-harbor/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/safety-harbor/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/safety-harbor/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/safety-harbor/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/sarasota": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/sarasota/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/sarasota/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/sarasota/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/sarasota/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/sarasota/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/seminole": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/seminole/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/seminole/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/seminole/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/seminole/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/seminole/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/apollo-beach": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/apollo-beach/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/apollo-beach/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/apollo-beach/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/apollo-beach/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/apollo-beach/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/brandon": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/brandon/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/brandon/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/brandon/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/brandon/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/brandon/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/gibsonton": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/gibsonton/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/gibsonton/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/gibsonton/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/gibsonton/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/gibsonton/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/lithia": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/lithia/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/lithia/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/lithia/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/lithia/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/lithia/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/plant-city": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/plant-city/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/plant-city/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/plant-city/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/plant-city/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/plant-city/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/riverview": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/riverview/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/riverview/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/riverview/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/riverview/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/riverview/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/seffner": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/seffner/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/seffner/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/seffner/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/seffner/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/seffner/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/sun-city-center": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/sun-city-center/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/sun-city-center/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/sun-city-center/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/sun-city-center/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/sun-city-center/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/tampa": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/tampa/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/tampa/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/tampa/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/tampa/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/tampa/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/temple-terrace": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/temple-terrace/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/temple-terrace/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/temple-terrace/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/temple-terrace/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/temple-terrace/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/thonotosassa": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/thonotosassa/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/thonotosassa/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/thonotosassa/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/thonotosassa/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/thonotosassa/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/valrico": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/valrico/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/valrico/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/valrico/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/valrico/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/hillsborough-county/valrico/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/anna-maria": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/anna-maria/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/anna-maria/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/anna-maria/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/anna-maria/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/anna-maria/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/bradenton": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/bradenton/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/bradenton/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/bradenton/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/bradenton/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/ellenton": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/ellenton/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/ellenton/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/ellenton/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/ellenton/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/manatee-county/ellenton/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/dade-city": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/dade-city/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/dade-city/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/dade-city/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/dade-city/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/dade-city/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/holiday": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/holiday/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/holiday/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/holiday/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/holiday/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/holiday/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/land-o-lakes": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/land-o-lakes/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/land-o-lakes/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/land-o-lakes/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/land-o-lakes/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/land-o-lakes/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/lutz": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/lutz/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/lutz/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/lutz/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/lutz/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/lutz/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/new-port-richey": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/new-port-richey/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/new-port-richey/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/new-port-richey/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/new-port-richey/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/new-port-richey/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/odessa": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/odessa/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/odessa/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/odessa/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/odessa/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/odessa/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/port-richey": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/port-richey/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/port-richey/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/port-richey/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/port-richey/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/port-richey/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/trinity": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/trinity/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/trinity/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/trinity/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/trinity/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/trinity/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/wesley-chapel": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/wesley-chapel/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/wesley-chapel/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/wesley-chapel/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/wesley-chapel/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/wesley-chapel/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/zephyrhills": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/zephyrhills/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/zephyrhills/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/zephyrhills/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/zephyrhills/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pasco-county/zephyrhills/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater-beach": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater-beach/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater-beach/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater-beach/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater-beach/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater-beach/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/clearwater/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/dunedin": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/dunedin/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/dunedin/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/dunedin/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/dunedin/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/pinellas-county/dunedin/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/auburndale": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/auburndale/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/auburndale/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/auburndale/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/auburndale/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/auburndale/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/bartow": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/bartow/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/bartow/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/bartow/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/bartow/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/bartow/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/davenport": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/davenport/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/davenport/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/davenport/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/davenport/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/davenport/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/dundee": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/dundee/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/dundee/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/dundee/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/dundee/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/dundee/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/haines-city": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/haines-city/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/haines-city/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/haines-city/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/haines-city/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/haines-city/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/lakeland": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/lakeland/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/lakeland/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/lakeland/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/lakeland/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/lakeland/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/winter-haven": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/winter-haven/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/winter-haven/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/winter-haven/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/winter-haven/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/polk-county/winter-haven/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/sarasota-county": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/sarasota-county/englewood": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/sarasota-county/englewood/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/sarasota-county/englewood/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/sarasota-county/englewood/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/sarasota-county/englewood/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/service-areas/sarasota-county/englewood/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/siesta-key": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/siesta-key/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/siesta-key/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/siesta-key/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/siesta-key/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/siesta-key/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/sitemap": {
-   "target": "/",
-   "how": "heuristic"
-  },
-  "/st-pete-beach": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-pete-beach/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-pete-beach/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-pete-beach/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-pete-beach/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-pete-beach/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-petersburg": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-petersburg/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-petersburg/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-petersburg/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-petersburg/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/st-petersburg/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/tarpon-springs": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/tarpon-springs/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/tarpon-springs/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/tarpon-springs/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/tarpon-springs/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/tarpon-springs/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/tree-removal-partnership": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/venice": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/venice/catastrophe-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/venice/emergency-services": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/venice/fire-smoke-damage": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/venice/mold-remediation": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/venice/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/water-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/water-damage-restoration/dehumidification-2": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/water-damage-restoration/flood-damage-restoration": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/water-damage-restoration/leak-detection": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/water-damage-restoration/thermal-imaging": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/water-damage-restoration/water-extraction": {
-   "target": "/",
-   "how": "fallback-home"
-  },
-  "/water-damage-restoration/water-mitigation": {
-   "target": "/",
-   "how": "fallback-home"
+  "generated_at": "2026-09-17T22:35:27+00:00",
+  "domain": "drycor.com",
+  "routes": 630,
+  "map": {
+    "/careers": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/catastrophe-services": {
+      "target": "/services/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/emergency-services": {
+      "target": "/services/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/fire-damage-and-smoke-cleanup": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/holmes-beach": {
+      "target": "/service-areas/holmes-beach-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/holmes-beach/catastrophe-services": {
+      "target": "/service-areas/holmes-beach-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/holmes-beach/emergency-services": {
+      "target": "/service-areas/holmes-beach-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/holmes-beach/fire-smoke-damage": {
+      "target": "/service-areas/holmes-beach-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/holmes-beach/mold-remediation": {
+      "target": "/service-areas/holmes-beach-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/holmes-beach/water-damage-restoration": {
+      "target": "/service-areas/holmes-beach-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/hvac-contractors-partnership": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/lake-wales": {
+      "target": "/service-areas/lake-wales-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/lake-wales/catastrophe-services": {
+      "target": "/service-areas/lake-wales-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/lake-wales/emergency-services": {
+      "target": "/service-areas/lake-wales-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/lake-wales/fire-smoke-damage": {
+      "target": "/service-areas/lake-wales-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/lake-wales/mold-remediation": {
+      "target": "/service-areas/lake-wales-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/lake-wales/water-damage-restoration": {
+      "target": "/service-areas/lake-wales-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/lakewood-ranch": {
+      "target": "/service-areas/lakewood-ranch-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/lakewood-ranch-sarasota": {
+      "target": "/service-areas/lakewood-ranch-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/lakewood-ranch/catastrophe-services": {
+      "target": "/service-areas/lakewood-ranch-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/lakewood-ranch/emergency-services": {
+      "target": "/service-areas/lakewood-ranch-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/lakewood-ranch/fire-smoke-damage": {
+      "target": "/service-areas/lakewood-ranch-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/lakewood-ranch/mold-remediation": {
+      "target": "/service-areas/lakewood-ranch-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/lakewood-ranch/water-damage-restoration": {
+      "target": "/service-areas/lakewood-ranch-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/largo": {
+      "target": "/service-areas/largo-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/largo/catastrophe-services": {
+      "target": "/service-areas/largo-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/largo/emergency-services": {
+      "target": "/service-areas/largo-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/largo/fire-smoke-damage": {
+      "target": "/service-areas/largo-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/largo/mold-remediation": {
+      "target": "/service-areas/largo-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/largo/water-damage-restoration": {
+      "target": "/service-areas/largo-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/longboat-key": {
+      "target": "/service-areas/longboat-key-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/longboat-key/catastrophe-services": {
+      "target": "/service-areas/longboat-key-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/longboat-key/emergency-services": {
+      "target": "/service-areas/longboat-key-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/longboat-key/fire-smoke-damage": {
+      "target": "/service-areas/longboat-key-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/longboat-key/mold-remediation": {
+      "target": "/service-areas/longboat-key-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/longboat-key/water-damage-restoration": {
+      "target": "/service-areas/longboat-key-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/mold-remediation": {
+      "target": "/services/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/mold-remediation/mold-inspection": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/mold-remediation/mold-removal": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/mulberry": {
+      "target": "/service-areas/mulberry-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/mulberry/catastrophe-services": {
+      "target": "/service-areas/mulberry-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/mulberry/emergency-services": {
+      "target": "/service-areas/mulberry-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/mulberry/fire-smoke-damage": {
+      "target": "/service-areas/mulberry-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/mulberry/mold-remediation": {
+      "target": "/service-areas/mulberry-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/mulberry/water-damage-restoration": {
+      "target": "/service-areas/mulberry-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/nokomis": {
+      "target": "/service-areas/nokomis-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/nokomis/catastrophe-services": {
+      "target": "/service-areas/nokomis-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/nokomis/emergency-services": {
+      "target": "/service-areas/nokomis-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/nokomis/fire-smoke-damage": {
+      "target": "/service-areas/nokomis-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/nokomis/mold-remediation": {
+      "target": "/service-areas/nokomis-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/nokomis/water-damage-restoration": {
+      "target": "/service-areas/nokomis-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/north-port": {
+      "target": "/service-areas/north-port-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/north-port/catastrophe-services": {
+      "target": "/service-areas/north-port-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/north-port/emergency-services": {
+      "target": "/service-areas/north-port-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/north-port/fire-smoke-damage": {
+      "target": "/service-areas/north-port-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/north-port/mold-remediation": {
+      "target": "/service-areas/north-port-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/north-port/water-damage-restoration": {
+      "target": "/service-areas/north-port-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/oldsmar": {
+      "target": "/service-areas/oldsmar-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/oldsmar/catastrophe-services": {
+      "target": "/service-areas/oldsmar-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/oldsmar/emergency-services": {
+      "target": "/service-areas/oldsmar-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/oldsmar/fire-smoke-damage": {
+      "target": "/service-areas/oldsmar-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/oldsmar/mold-remediation": {
+      "target": "/service-areas/oldsmar-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/oldsmar/water-damage-restoration": {
+      "target": "/service-areas/oldsmar-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/osprey": {
+      "target": "/service-areas/osprey-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/osprey/catastrophe-services": {
+      "target": "/service-areas/osprey-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/osprey/emergency-services": {
+      "target": "/service-areas/osprey-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/osprey/fire-smoke-damage": {
+      "target": "/service-areas/osprey-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/osprey/mold-remediation": {
+      "target": "/service-areas/osprey-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/osprey/water-damage-restoration": {
+      "target": "/service-areas/osprey-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/palm-harbor": {
+      "target": "/service-areas/palm-harbor-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/palm-harbor/catastrophe-services": {
+      "target": "/service-areas/palm-harbor-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/palm-harbor/emergency-services": {
+      "target": "/service-areas/palm-harbor-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/palm-harbor/fire-smoke-damage": {
+      "target": "/service-areas/palm-harbor-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/palm-harbor/mold-remediation": {
+      "target": "/service-areas/palm-harbor-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/palm-harbor/water-damage-restoration": {
+      "target": "/service-areas/palm-harbor-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/palmetto": {
+      "target": "/service-areas/palmetto-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/palmetto/catastrophe-services": {
+      "target": "/service-areas/palmetto-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/palmetto/emergency-services": {
+      "target": "/service-areas/palmetto-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/palmetto/fire-smoke-damage": {
+      "target": "/service-areas/palmetto-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/palmetto/mold-remediation": {
+      "target": "/service-areas/palmetto-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/palmetto/water-damage-restoration": {
+      "target": "/service-areas/palmetto-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/parrish": {
+      "target": "/service-areas/parrish-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/parrish/catastrophe-services": {
+      "target": "/service-areas/parrish-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/parrish/emergency-services": {
+      "target": "/service-areas/parrish-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/parrish/fire-smoke-damage": {
+      "target": "/service-areas/parrish-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/parrish/mold-remediation": {
+      "target": "/service-areas/parrish-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/parrish/water-damage-restoration": {
+      "target": "/service-areas/parrish-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/pinellas-park": {
+      "target": "/service-areas/pinellas-park-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/pinellas-park/catastrophe-services": {
+      "target": "/service-areas/pinellas-park-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/pinellas-park/emergency-services": {
+      "target": "/service-areas/pinellas-park-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/pinellas-park/fire-smoke-damage": {
+      "target": "/service-areas/pinellas-park-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/pinellas-park/mold-remediation": {
+      "target": "/service-areas/pinellas-park-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/pinellas-park/water-damage-restoration": {
+      "target": "/service-areas/pinellas-park-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/plumbers-partnership": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/polk-city": {
+      "target": "/service-areas/polk-city-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/polk-city/catastrophe-services": {
+      "target": "/service-areas/polk-city-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/polk-city/emergency-services": {
+      "target": "/service-areas/polk-city-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/polk-city/fire-smoke-damage": {
+      "target": "/service-areas/polk-city-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/polk-city/mold-remediation": {
+      "target": "/service-areas/polk-city-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/polk-city/water-damage-restoration": {
+      "target": "/service-areas/polk-city-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/privacy-policy": {
+      "target": "/privacy/",
+      "how": "heuristic"
+    },
+    "/safety-harbor": {
+      "target": "/service-areas/safety-harbor-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/safety-harbor/catastrophe-services": {
+      "target": "/service-areas/safety-harbor-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/safety-harbor/emergency-services": {
+      "target": "/service-areas/safety-harbor-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/safety-harbor/fire-smoke-damage": {
+      "target": "/service-areas/safety-harbor-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/safety-harbor/mold-remediation": {
+      "target": "/service-areas/safety-harbor-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/safety-harbor/water-damage-restoration": {
+      "target": "/service-areas/safety-harbor-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/sarasota": {
+      "target": "/service-areas/sarasota-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/sarasota/catastrophe-services": {
+      "target": "/service-areas/sarasota-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/sarasota/emergency-services": {
+      "target": "/service-areas/sarasota-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/sarasota/fire-smoke-damage": {
+      "target": "/service-areas/sarasota-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/sarasota/mold-remediation": {
+      "target": "/service-areas/sarasota-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/sarasota/water-damage-restoration": {
+      "target": "/service-areas/sarasota-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/seminole": {
+      "target": "/service-areas/seminole-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/seminole/catastrophe-services": {
+      "target": "/service-areas/seminole-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/seminole/emergency-services": {
+      "target": "/service-areas/seminole-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/seminole/fire-smoke-damage": {
+      "target": "/service-areas/seminole-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/seminole/mold-remediation": {
+      "target": "/service-areas/seminole-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/seminole/water-damage-restoration": {
+      "target": "/service-areas/seminole-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county": {
+      "target": "/service-areas/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/apollo-beach": {
+      "target": "/service-areas/apollo-beach-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/apollo-beach/catastrophe-services": {
+      "target": "/service-areas/apollo-beach-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/apollo-beach/emergency-services": {
+      "target": "/service-areas/apollo-beach-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/apollo-beach/fire-smoke-damage": {
+      "target": "/service-areas/apollo-beach-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/apollo-beach/mold-remediation": {
+      "target": "/service-areas/apollo-beach-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/apollo-beach/water-damage-restoration": {
+      "target": "/service-areas/apollo-beach-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/brandon": {
+      "target": "/service-areas/brandon-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/brandon/catastrophe-services": {
+      "target": "/service-areas/brandon-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/brandon/emergency-services": {
+      "target": "/service-areas/brandon-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/brandon/fire-smoke-damage": {
+      "target": "/service-areas/brandon-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/brandon/mold-remediation": {
+      "target": "/service-areas/brandon-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/brandon/water-damage-restoration": {
+      "target": "/service-areas/brandon-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/gibsonton": {
+      "target": "/service-areas/gibsonton-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/gibsonton/catastrophe-services": {
+      "target": "/service-areas/gibsonton-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/gibsonton/emergency-services": {
+      "target": "/service-areas/gibsonton-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/gibsonton/fire-smoke-damage": {
+      "target": "/service-areas/gibsonton-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/gibsonton/mold-remediation": {
+      "target": "/service-areas/gibsonton-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/gibsonton/water-damage-restoration": {
+      "target": "/service-areas/gibsonton-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/lithia": {
+      "target": "/service-areas/lithia-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/lithia/catastrophe-services": {
+      "target": "/service-areas/lithia-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/lithia/emergency-services": {
+      "target": "/service-areas/lithia-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/lithia/fire-smoke-damage": {
+      "target": "/service-areas/lithia-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/lithia/mold-remediation": {
+      "target": "/service-areas/lithia-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/lithia/water-damage-restoration": {
+      "target": "/service-areas/lithia-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/plant-city": {
+      "target": "/service-areas/plant-city-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/plant-city/catastrophe-services": {
+      "target": "/service-areas/plant-city-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/plant-city/emergency-services": {
+      "target": "/service-areas/plant-city-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/plant-city/fire-smoke-damage": {
+      "target": "/service-areas/plant-city-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/plant-city/mold-remediation": {
+      "target": "/service-areas/plant-city-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/plant-city/water-damage-restoration": {
+      "target": "/service-areas/plant-city-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/riverview": {
+      "target": "/service-areas/riverview-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/riverview/catastrophe-services": {
+      "target": "/service-areas/riverview-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/riverview/emergency-services": {
+      "target": "/service-areas/riverview-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/riverview/fire-smoke-damage": {
+      "target": "/service-areas/riverview-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/riverview/mold-remediation": {
+      "target": "/service-areas/riverview-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/riverview/water-damage-restoration": {
+      "target": "/service-areas/riverview-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/seffner": {
+      "target": "/service-areas/seffner-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/seffner/catastrophe-services": {
+      "target": "/service-areas/seffner-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/seffner/emergency-services": {
+      "target": "/service-areas/seffner-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/seffner/fire-smoke-damage": {
+      "target": "/service-areas/seffner-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/seffner/mold-remediation": {
+      "target": "/service-areas/seffner-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/seffner/water-damage-restoration": {
+      "target": "/service-areas/seffner-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/sun-city-center": {
+      "target": "/service-areas/sun-city-center-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/sun-city-center/catastrophe-services": {
+      "target": "/service-areas/sun-city-center-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/sun-city-center/emergency-services": {
+      "target": "/service-areas/sun-city-center-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/sun-city-center/fire-smoke-damage": {
+      "target": "/service-areas/sun-city-center-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/sun-city-center/mold-remediation": {
+      "target": "/service-areas/sun-city-center-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/sun-city-center/water-damage-restoration": {
+      "target": "/service-areas/sun-city-center-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/tampa": {
+      "target": "/service-areas/tampa-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/tampa/catastrophe-services": {
+      "target": "/service-areas/tampa-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/tampa/emergency-services": {
+      "target": "/service-areas/tampa-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/tampa/fire-smoke-damage": {
+      "target": "/service-areas/tampa-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/tampa/mold-remediation": {
+      "target": "/service-areas/tampa-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/tampa/water-damage-restoration": {
+      "target": "/service-areas/tampa-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/temple-terrace": {
+      "target": "/service-areas/temple-terrace-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/temple-terrace/catastrophe-services": {
+      "target": "/service-areas/temple-terrace-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/temple-terrace/emergency-services": {
+      "target": "/service-areas/temple-terrace-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/temple-terrace/fire-smoke-damage": {
+      "target": "/service-areas/temple-terrace-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/temple-terrace/mold-remediation": {
+      "target": "/service-areas/temple-terrace-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/temple-terrace/water-damage-restoration": {
+      "target": "/service-areas/temple-terrace-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/thonotosassa": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/service-areas/hillsborough-county/thonotosassa/catastrophe-services": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/service-areas/hillsborough-county/thonotosassa/emergency-services": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/service-areas/hillsborough-county/thonotosassa/fire-smoke-damage": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/service-areas/hillsborough-county/thonotosassa/mold-remediation": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/service-areas/hillsborough-county/thonotosassa/water-damage-restoration": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/service-areas/hillsborough-county/valrico": {
+      "target": "/service-areas/valrico-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/valrico/catastrophe-services": {
+      "target": "/service-areas/valrico-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/valrico/emergency-services": {
+      "target": "/service-areas/valrico-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/valrico/fire-smoke-damage": {
+      "target": "/service-areas/valrico-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/valrico/mold-remediation": {
+      "target": "/service-areas/valrico-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/hillsborough-county/valrico/water-damage-restoration": {
+      "target": "/service-areas/valrico-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county": {
+      "target": "/service-areas/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/anna-maria": {
+      "target": "/service-areas/anna-maria-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/anna-maria/catastrophe-services": {
+      "target": "/service-areas/anna-maria-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/anna-maria/emergency-services": {
+      "target": "/service-areas/anna-maria-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/anna-maria/fire-smoke-damage": {
+      "target": "/service-areas/anna-maria-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/anna-maria/mold-remediation": {
+      "target": "/service-areas/anna-maria-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/anna-maria/water-damage-restoration": {
+      "target": "/service-areas/anna-maria-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/bradenton": {
+      "target": "/service-areas/bradenton-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/bradenton/catastrophe-services": {
+      "target": "/service-areas/bradenton-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/bradenton/emergency-services": {
+      "target": "/service-areas/bradenton-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/bradenton/fire-smoke-damage": {
+      "target": "/service-areas/bradenton-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/bradenton/mold-remediation": {
+      "target": "/service-areas/bradenton-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/ellenton": {
+      "target": "/service-areas/ellenton-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/ellenton/catastrophe-services": {
+      "target": "/service-areas/ellenton-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/ellenton/emergency-services": {
+      "target": "/service-areas/ellenton-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/ellenton/fire-smoke-damage": {
+      "target": "/service-areas/ellenton-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/ellenton/mold-remediation": {
+      "target": "/service-areas/ellenton-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/manatee-county/ellenton/water-damage-restoration": {
+      "target": "/service-areas/ellenton-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county": {
+      "target": "/service-areas/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/dade-city": {
+      "target": "/service-areas/dade-city-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/dade-city/catastrophe-services": {
+      "target": "/service-areas/dade-city-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/dade-city/emergency-services": {
+      "target": "/service-areas/dade-city-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/dade-city/fire-smoke-damage": {
+      "target": "/service-areas/dade-city-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/dade-city/mold-remediation": {
+      "target": "/service-areas/dade-city-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/dade-city/water-damage-restoration": {
+      "target": "/service-areas/dade-city-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/holiday": {
+      "target": "/service-areas/holiday-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/holiday/catastrophe-services": {
+      "target": "/service-areas/holiday-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/holiday/emergency-services": {
+      "target": "/service-areas/holiday-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/holiday/fire-smoke-damage": {
+      "target": "/service-areas/holiday-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/holiday/mold-remediation": {
+      "target": "/service-areas/holiday-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/holiday/water-damage-restoration": {
+      "target": "/service-areas/holiday-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/land-o-lakes": {
+      "target": "/service-areas/land-o-lakes-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/land-o-lakes/catastrophe-services": {
+      "target": "/service-areas/land-o-lakes-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/land-o-lakes/emergency-services": {
+      "target": "/service-areas/land-o-lakes-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/land-o-lakes/fire-smoke-damage": {
+      "target": "/service-areas/land-o-lakes-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/land-o-lakes/mold-remediation": {
+      "target": "/service-areas/land-o-lakes-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/land-o-lakes/water-damage-restoration": {
+      "target": "/service-areas/land-o-lakes-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/lutz": {
+      "target": "/service-areas/lutz-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/lutz/catastrophe-services": {
+      "target": "/service-areas/lutz-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/lutz/emergency-services": {
+      "target": "/service-areas/lutz-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/lutz/fire-smoke-damage": {
+      "target": "/service-areas/lutz-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/lutz/mold-remediation": {
+      "target": "/service-areas/lutz-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/lutz/water-damage-restoration": {
+      "target": "/service-areas/lutz-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/new-port-richey": {
+      "target": "/service-areas/new-port-richey-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/new-port-richey/catastrophe-services": {
+      "target": "/service-areas/new-port-richey-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/new-port-richey/emergency-services": {
+      "target": "/service-areas/new-port-richey-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/new-port-richey/fire-smoke-damage": {
+      "target": "/service-areas/new-port-richey-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/new-port-richey/mold-remediation": {
+      "target": "/service-areas/new-port-richey-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/new-port-richey/water-damage-restoration": {
+      "target": "/service-areas/new-port-richey-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/odessa": {
+      "target": "/service-areas/odessa-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/odessa/catastrophe-services": {
+      "target": "/service-areas/odessa-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/odessa/emergency-services": {
+      "target": "/service-areas/odessa-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/odessa/fire-smoke-damage": {
+      "target": "/service-areas/odessa-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/odessa/mold-remediation": {
+      "target": "/service-areas/odessa-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/odessa/water-damage-restoration": {
+      "target": "/service-areas/odessa-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/port-richey": {
+      "target": "/service-areas/port-richey-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/port-richey/catastrophe-services": {
+      "target": "/service-areas/port-richey-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/port-richey/emergency-services": {
+      "target": "/service-areas/port-richey-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/port-richey/fire-smoke-damage": {
+      "target": "/service-areas/port-richey-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/port-richey/mold-remediation": {
+      "target": "/service-areas/port-richey-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/port-richey/water-damage-restoration": {
+      "target": "/service-areas/port-richey-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/trinity": {
+      "target": "/service-areas/trinity-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/trinity/catastrophe-services": {
+      "target": "/service-areas/trinity-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/trinity/emergency-services": {
+      "target": "/service-areas/trinity-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/trinity/fire-smoke-damage": {
+      "target": "/service-areas/trinity-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/trinity/mold-remediation": {
+      "target": "/service-areas/trinity-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/trinity/water-damage-restoration": {
+      "target": "/service-areas/trinity-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/wesley-chapel": {
+      "target": "/service-areas/wesley-chapel-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/wesley-chapel/catastrophe-services": {
+      "target": "/service-areas/wesley-chapel-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/wesley-chapel/emergency-services": {
+      "target": "/service-areas/wesley-chapel-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/wesley-chapel/fire-smoke-damage": {
+      "target": "/service-areas/wesley-chapel-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/wesley-chapel/mold-remediation": {
+      "target": "/service-areas/wesley-chapel-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/wesley-chapel/water-damage-restoration": {
+      "target": "/service-areas/wesley-chapel-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/zephyrhills": {
+      "target": "/service-areas/zephyrhills-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/zephyrhills/catastrophe-services": {
+      "target": "/service-areas/zephyrhills-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/zephyrhills/emergency-services": {
+      "target": "/service-areas/zephyrhills-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/zephyrhills/fire-smoke-damage": {
+      "target": "/service-areas/zephyrhills-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/zephyrhills/mold-remediation": {
+      "target": "/service-areas/zephyrhills-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pasco-county/zephyrhills/water-damage-restoration": {
+      "target": "/service-areas/zephyrhills-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county": {
+      "target": "/service-areas/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater": {
+      "target": "/service-areas/clearwater-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater-beach": {
+      "target": "/service-areas/clearwater-beach-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater-beach/catastrophe-services": {
+      "target": "/service-areas/clearwater-beach-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater-beach/emergency-services": {
+      "target": "/service-areas/clearwater-beach-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater-beach/fire-smoke-damage": {
+      "target": "/service-areas/clearwater-beach-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater-beach/mold-remediation": {
+      "target": "/service-areas/clearwater-beach-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater-beach/water-damage-restoration": {
+      "target": "/service-areas/clearwater-beach-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater/catastrophe-services": {
+      "target": "/service-areas/clearwater-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater/emergency-services": {
+      "target": "/service-areas/clearwater-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater/fire-smoke-damage": {
+      "target": "/service-areas/clearwater-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater/mold-remediation": {
+      "target": "/service-areas/clearwater-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/clearwater/water-damage-restoration": {
+      "target": "/service-areas/clearwater-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/dunedin": {
+      "target": "/service-areas/dunedin-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/dunedin/catastrophe-services": {
+      "target": "/service-areas/dunedin-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/dunedin/emergency-services": {
+      "target": "/service-areas/dunedin-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/dunedin/fire-smoke-damage": {
+      "target": "/service-areas/dunedin-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/dunedin/mold-remediation": {
+      "target": "/service-areas/dunedin-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/pinellas-county/dunedin/water-damage-restoration": {
+      "target": "/service-areas/dunedin-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county": {
+      "target": "/service-areas/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/auburndale": {
+      "target": "/service-areas/auburndale-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/auburndale/catastrophe-services": {
+      "target": "/service-areas/auburndale-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/auburndale/emergency-services": {
+      "target": "/service-areas/auburndale-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/auburndale/fire-smoke-damage": {
+      "target": "/service-areas/auburndale-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/auburndale/mold-remediation": {
+      "target": "/service-areas/auburndale-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/auburndale/water-damage-restoration": {
+      "target": "/service-areas/auburndale-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/bartow": {
+      "target": "/service-areas/bartow-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/bartow/catastrophe-services": {
+      "target": "/service-areas/bartow-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/bartow/emergency-services": {
+      "target": "/service-areas/bartow-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/bartow/fire-smoke-damage": {
+      "target": "/service-areas/bartow-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/bartow/mold-remediation": {
+      "target": "/service-areas/bartow-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/bartow/water-damage-restoration": {
+      "target": "/service-areas/bartow-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/davenport": {
+      "target": "/service-areas/davenport-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/davenport/catastrophe-services": {
+      "target": "/service-areas/davenport-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/davenport/emergency-services": {
+      "target": "/service-areas/davenport-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/davenport/fire-smoke-damage": {
+      "target": "/service-areas/davenport-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/davenport/mold-remediation": {
+      "target": "/service-areas/davenport-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/davenport/water-damage-restoration": {
+      "target": "/service-areas/davenport-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/dundee": {
+      "target": "/service-areas/dundee-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/dundee/catastrophe-services": {
+      "target": "/service-areas/dundee-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/dundee/emergency-services": {
+      "target": "/service-areas/dundee-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/dundee/fire-smoke-damage": {
+      "target": "/service-areas/dundee-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/dundee/mold-remediation": {
+      "target": "/service-areas/dundee-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/dundee/water-damage-restoration": {
+      "target": "/service-areas/dundee-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/haines-city": {
+      "target": "/service-areas/haines-city-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/haines-city/catastrophe-services": {
+      "target": "/service-areas/haines-city-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/haines-city/emergency-services": {
+      "target": "/service-areas/haines-city-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/haines-city/fire-smoke-damage": {
+      "target": "/service-areas/haines-city-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/haines-city/mold-remediation": {
+      "target": "/service-areas/haines-city-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/haines-city/water-damage-restoration": {
+      "target": "/service-areas/haines-city-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/lakeland": {
+      "target": "/service-areas/lakeland-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/lakeland/catastrophe-services": {
+      "target": "/service-areas/lakeland-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/lakeland/emergency-services": {
+      "target": "/service-areas/lakeland-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/lakeland/fire-smoke-damage": {
+      "target": "/service-areas/lakeland-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/lakeland/mold-remediation": {
+      "target": "/service-areas/lakeland-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/lakeland/water-damage-restoration": {
+      "target": "/service-areas/lakeland-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/winter-haven": {
+      "target": "/service-areas/winter-haven-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/winter-haven/catastrophe-services": {
+      "target": "/service-areas/winter-haven-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/winter-haven/emergency-services": {
+      "target": "/service-areas/winter-haven-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/winter-haven/fire-smoke-damage": {
+      "target": "/service-areas/winter-haven-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/winter-haven/mold-remediation": {
+      "target": "/service-areas/winter-haven-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/polk-county/winter-haven/water-damage-restoration": {
+      "target": "/service-areas/winter-haven-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/sarasota-county": {
+      "target": "/service-areas/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/sarasota-county/englewood": {
+      "target": "/service-areas/englewood-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/sarasota-county/englewood/catastrophe-services": {
+      "target": "/service-areas/englewood-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/sarasota-county/englewood/emergency-services": {
+      "target": "/service-areas/englewood-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/sarasota-county/englewood/fire-smoke-damage": {
+      "target": "/service-areas/englewood-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/sarasota-county/englewood/mold-remediation": {
+      "target": "/service-areas/englewood-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/service-areas/sarasota-county/englewood/water-damage-restoration": {
+      "target": "/service-areas/englewood-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/siesta-key": {
+      "target": "/service-areas/siesta-key-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/siesta-key/catastrophe-services": {
+      "target": "/service-areas/siesta-key-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/siesta-key/emergency-services": {
+      "target": "/service-areas/siesta-key-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/siesta-key/fire-smoke-damage": {
+      "target": "/service-areas/siesta-key-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/siesta-key/mold-remediation": {
+      "target": "/service-areas/siesta-key-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/siesta-key/water-damage-restoration": {
+      "target": "/service-areas/siesta-key-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/sitemap": {
+      "target": "/",
+      "how": "heuristic"
+    },
+    "/st-pete-beach": {
+      "target": "/service-areas/st-pete-beach-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/st-pete-beach/catastrophe-services": {
+      "target": "/service-areas/st-pete-beach-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/st-pete-beach/emergency-services": {
+      "target": "/service-areas/st-pete-beach-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/st-pete-beach/fire-smoke-damage": {
+      "target": "/service-areas/st-pete-beach-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/st-pete-beach/mold-remediation": {
+      "target": "/service-areas/st-pete-beach-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/st-pete-beach/water-damage-restoration": {
+      "target": "/service-areas/st-pete-beach-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/st-petersburg": {
+      "target": "/service-areas/st-petersburg-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/st-petersburg/catastrophe-services": {
+      "target": "/service-areas/st-petersburg-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/st-petersburg/emergency-services": {
+      "target": "/service-areas/st-petersburg-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/st-petersburg/fire-smoke-damage": {
+      "target": "/service-areas/st-petersburg-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/st-petersburg/mold-remediation": {
+      "target": "/service-areas/st-petersburg-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/st-petersburg/water-damage-restoration": {
+      "target": "/service-areas/st-petersburg-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/tarpon-springs": {
+      "target": "/service-areas/tarpon-springs-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/tarpon-springs/catastrophe-services": {
+      "target": "/service-areas/tarpon-springs-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/tarpon-springs/emergency-services": {
+      "target": "/service-areas/tarpon-springs-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/tarpon-springs/fire-smoke-damage": {
+      "target": "/service-areas/tarpon-springs-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/tarpon-springs/mold-remediation": {
+      "target": "/service-areas/tarpon-springs-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/tarpon-springs/water-damage-restoration": {
+      "target": "/service-areas/tarpon-springs-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/tree-removal-partnership": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/venice": {
+      "target": "/service-areas/venice-fl/",
+      "how": "deterministic-city-service"
+    },
+    "/venice/catastrophe-services": {
+      "target": "/service-areas/venice-fl/storm-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/venice/emergency-services": {
+      "target": "/service-areas/venice-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/venice/fire-smoke-damage": {
+      "target": "/service-areas/venice-fl/fire-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/venice/mold-remediation": {
+      "target": "/service-areas/venice-fl/mold-remediation/",
+      "how": "deterministic-city-service"
+    },
+    "/venice/water-damage-restoration": {
+      "target": "/service-areas/venice-fl/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/water-damage-restoration": {
+      "target": "/services/water-damage-restoration/",
+      "how": "deterministic-city-service"
+    },
+    "/water-damage-restoration/dehumidification-2": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/water-damage-restoration/flood-damage-restoration": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/water-damage-restoration/leak-detection": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/water-damage-restoration/thermal-imaging": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/water-damage-restoration/water-extraction": {
+      "target": "/",
+      "how": "fallback-home"
+    },
+    "/water-damage-restoration/water-mitigation": {
+      "target": "/",
+      "how": "fallback-home"
+    }
   }
- }
 }
