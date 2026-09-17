@@ -36,9 +36,27 @@ policy rule in the suggester prompt + a one-time purge that dismisses every
 existing open REMOVE suggestion whose service is in the restoration
 catalog.
 
-**A4. Optimizer coverage report.**
-One line per client in the weekly digest: open items by type, days since
-last apply. Applied work invisible = work that never happened.
+**A5. Service-bank expansion (Santino 2026-09-17: "the more services the
+better, as long as each maps to a distinct long-tail search").**
+Build a canonical high-intent service-name bank from (a) the union of the
+fleet's best service lists (Crew runs hundreds), (b) search-volume data for
+the emergency/24-7 variant families ("24/7 water cleanup", "emergency flood
+restoration"), (c) the panic-term list. Per client: filter to services they
+actually perform (plan-input + site evidence; licensed-trade names like
+plumbing ONLY with the license fact), dedupe on the normalized-key rule so
+true duplicates merge while distinct modifiers ("Water Cleanup" vs "24/7
+Emergency Water Cleanup") both survive, then batch-add toward a 120-150
+target through the capped path. RX first (69 today).
+
+**A4. Optimizer coverage report + Build Stages visibility.**
+Three surfaces (revised per Santino 2026-09-17):
+1. A "Listing Optimized" STAGE on the Build Stages GBP board, after
+   "Listing Synced" — derived: zero open auto-safe suggestions = optimized.
+2. A glowing dot on the client's profile card while un-optimized items sit
+   open, so the board shows who needs the sweep at a glance.
+3. One line per client in the morning Client Ops Digest (the daily EMAIL to
+   contact@restorationai.io — not a text): open items by type, days since
+   last apply, red when auto-safe items sit >7 days.
 
 ---
 
