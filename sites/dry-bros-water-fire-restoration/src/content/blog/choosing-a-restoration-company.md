@@ -31,8 +31,8 @@ The pressure to act fast is real. Standing water causes structural damage quickl
 
 These are the four things that separate a legitimate restoration contractor from one you'll regret hiring.
 
-**1. IICRC certification**
-The Institute of Inspection, Cleaning and Restoration Certification sets the technical standards the industry runs on, the S500 for water damage, the S520 for mold, the S700 for fire and smoke. A company whose technicians hold IICRC credentials has been trained to those standards. Ask specifically which certifications the technicians on *your* job hold, not just whether the company is "certified."
+**1. industry certification**
+The Institute of Inspection, Cleaning and Restoration Certification sets the technical standards the industry runs on, the S500 for water damage, the S520 for mold, the S700 for fire and smoke. A company whose technicians hold industry credentials has been trained to those standards. Ask specifically which certifications the technicians on *your* job hold, not just whether the company is "certified."
 
 **2. A physical, verifiable local presence**
 Search the company name plus the city. Look for a real street address, a Google Business profile with a review history that spans more than the last few months, and a license number you can cross-reference with the Illinois Department of Financial and Professional Regulation or your local municipality. A company that appeared after last week's storm and has no history before it is a red flag.
@@ -57,7 +57,7 @@ Some warning signs are obvious in hindsight but easy to miss when you're panicke
 
 Understanding the process helps you evaluate whether a contractor is cutting corners.
 
-**Water damage restoration** follows a defined sequence: extract standing water, establish drying goals based on the material type and baseline readings, place drying equipment (air movers and dehumidifiers), monitor daily until the structure reaches those goals, then remove equipment and document final readings. The IICRC S500 standard defines this process. A job that skips daily monitoring or pulls equipment early because "it feels dry" is not complete.
+**Water damage restoration** follows a defined sequence: extract standing water, establish drying goals based on the material type and baseline readings, place drying equipment (air movers and dehumidifiers), monitor daily until the structure reaches those goals, then remove equipment and document final readings. The professional drying standards defines this process. A job that skips daily monitoring or pulls equipment early because "it feels dry" is not complete.
 
 **Fire and smoke damage restoration** is more complex than it looks. Smoke travels through HVAC systems, settles into porous materials, and leaves an acidic residue that continues to corrode surfaces after the fire is out. Soot on a painted wall isn't just a cosmetic problem, it's actively damaging the surface underneath. Restoration involves cleaning or removing affected materials, deodorizing with thermal fogging or hydroxyl generators, and often sealing surfaces before repainting. A company that only addresses what's visibly charred is leaving work undone.
 
