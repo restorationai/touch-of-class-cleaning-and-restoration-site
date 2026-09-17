@@ -1,81 +1,102 @@
 {
- "brand": {
-  "display_name": "Dry Bros Water & Fire Restoration",
-  "lat": 41.8755616,
-  "lng": -87.6244212,
-  "phone": "(877) 379-2767",
-  "email": "amin.mashouf@gmail.com",
-  "street_address": "3918 W 63rd ST",
-  "city": "chicago",
-  "state": "il",
-  "postal_code": "60629",
-  "theme": "light",
-  "licensed_insured_attested": true,
-  "trust_badges": [
-   "Licensed & Insured",
-   "Locally Owned & Operated"
+  "brand": {
+    "display_name": "Dry Bros Water & Fire Restoration",
+    "lat": 41.8755616,
+    "lng": -87.6244212,
+    "phone": "(877) 379-2767",
+    "email": "amin.mashouf@gmail.com",
+    "street_address": "3918 W 63rd ST",
+    "city": "chicago",
+    "state": "il",
+    "postal_code": "60629",
+    "theme": "light",
+    "licensed_insured_attested": true,
+    "trust_badges": [
+      "Licensed & Insured",
+      "Locally Owned & Operated"
+    ],
+    "colors": {
+      "primary": "#0172EC",
+      "secondary": "#021939",
+      "accent": "#FD8B00",
+      "palette": [
+        "#0172EC",
+        "#00388C",
+        "#24BEF9",
+        "#021939",
+        "#FD8B00",
+        "#BC2B1C",
+        "#4DAB12",
+        "#FFFFFF"
+      ],
+      "source": "Sampled from the client's logo (branding/CO-1788898034500/brand/logo_1788899098528.png; same mark texted as brand/refs/sms-1788912499364-addd6464.jpg). Exact hex via adaptive-palette extraction: water blue #0172EC = primary identity (the DRY-BROS lettering + water splash), deep navy #021939 = badge/headline anchor, fire orange #FD8B00 = accent, with fire red #BC2B1C and leaf green #4DAB12 as secondary warm/eco accents. Not client-locked (extracted from the sent logo, not a signed-off brand guide)."
+    },
+    "fonts": {
+      "heading": "Archivo",
+      "body": "Inter",
+      "source": "NOT the client's actual typeface \u2014 the logo uses custom stylized 3D display lettering (heavy uppercase grotesque headline, bold italic chrome phone-number face) with no identifiable named font, so no exact font can be read from the image. Archivo (heavy weight) is the closest free web substitute for the bold grotesque headline; Inter is the SOP body fallback. Replace if the client supplies their real brand font."
+    }
+  },
+  "services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-cleanup",
+    "flood-damage-restoration",
+    "burst-pipe-repair",
+    "basement-flooding-cleanup",
+    "sewage-cleanup",
+    "smoke-damage-restoration",
+    "odor-removal",
+    "storm-damage-restoration",
+    "emergency-board-up-tarping",
+    "contents-restoration",
+    "reconstruction",
+    "emergency-plumbing"
   ],
-  "colors": {
-   "primary": "#0172EC",
-   "secondary": "#021939",
-   "accent": "#FD8B00",
-   "palette": ["#0172EC", "#00388C", "#24BEF9", "#021939", "#FD8B00", "#BC2B1C", "#4DAB12", "#FFFFFF"],
-   "source": "Sampled from the client's logo (branding/CO-1788898034500/brand/logo_1788899098528.png; same mark texted as brand/refs/sms-1788912499364-addd6464.jpg). Exact hex via adaptive-palette extraction: water blue #0172EC = primary identity (the DRY-BROS lettering + water splash), deep navy #021939 = badge/headline anchor, fire orange #FD8B00 = accent, with fire red #BC2B1C and leaf green #4DAB12 as secondary warm/eco accents. Not client-locked (extracted from the sent logo, not a signed-off brand guide)."
-  },
-  "fonts": {
-   "heading": "Archivo",
-   "body": "Inter",
-   "source": "NOT the client's actual typeface — the logo uses custom stylized 3D display lettering (heavy uppercase grotesque headline, bold italic chrome phone-number face) with no identifiable named font, so no exact font can be read from the image. Archivo (heavy weight) is the closest free web substitute for the bold grotesque headline; Inter is the SOP body fallback. Replace if the client supplies their real brand font."
-  }
- },
- "services": [
-  "water-damage-restoration",
-  "fire-damage-restoration",
-  "mold-remediation"
- ],
- "service_areas": [
-  {
-   "city": "Chicago",
-   "state": "IL",
-   "slug": "chicago-il",
-   "primary": true
-  },
-  {
-   "city": "Naperville",
-   "state": "IL",
-   "slug": "naperville-il"
-  },
-  {
-   "city": "Cicero",
-   "state": "IL",
-   "slug": "cicero-il"
-  },
-  {
-   "city": "Evanston",
-   "state": "IL",
-   "slug": "evanston-il"
-  },
-  {
-   "city": "Oak Park",
-   "state": "IL",
-   "slug": "oak-park-il"
-  },
-  {
-   "city": "Skokie",
-   "state": "IL",
-   "slug": "skokie-il"
-  },
-  {
-   "city": "Berwyn",
-   "state": "IL",
-   "slug": "berwyn-il"
-  },
-  {
-   "city": "Des Plaines",
-   "state": "IL",
-   "slug": "des-plaines-il"
-  }
- ],
- "template": "restoration",
- "blog_seed_count": 8
+  "service_areas": [
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "slug": "chicago-il",
+      "primary": true
+    },
+    {
+      "city": "Naperville",
+      "state": "IL",
+      "slug": "naperville-il"
+    },
+    {
+      "city": "Cicero",
+      "state": "IL",
+      "slug": "cicero-il"
+    },
+    {
+      "city": "Evanston",
+      "state": "IL",
+      "slug": "evanston-il"
+    },
+    {
+      "city": "Oak Park",
+      "state": "IL",
+      "slug": "oak-park-il"
+    },
+    {
+      "city": "Skokie",
+      "state": "IL",
+      "slug": "skokie-il"
+    },
+    {
+      "city": "Berwyn",
+      "state": "IL",
+      "slug": "berwyn-il"
+    },
+    {
+      "city": "Des Plaines",
+      "state": "IL",
+      "slug": "des-plaines-il"
+    }
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
 }
